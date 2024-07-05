@@ -315,6 +315,7 @@ RoutingManager::RoutingManager(Callbacks && callbacks, Delegate & delegate)
   , m_extrapolator(
         [this](location::GpsInfo const & gpsInfo) { this->OnExtrapolatedLocationUpdate(gpsInfo); })
 {
+  m_extrapolator.Enable(true); // Keeps smooth arrow movement whether routing or not
   m_routingSession.Init(
 #ifdef SHOW_ROUTE_DEBUG_MARKS
                         [this](m2::PointD const & pt) {
@@ -767,9 +768,6 @@ void RoutingManager::FollowRoute()
 
   m_transitReadManager->BlockTransitSchemeMode(true /* isBlocked */);
 
-  // Switching on the extrapolator only for following mode in car and bicycle navigation.
-  m_extrapolator.Enable(m_currentRouterType == RouterType::Vehicle ||
-                        m_currentRouterType == RouterType::Bicycle);
   m_delegate.OnRouteFollow(m_currentRouterType);
 
   m_bmManager->GetEditSession().ClearGroup(UserMark::Type::ROAD_WARNING);
@@ -781,7 +779,6 @@ void RoutingManager::FollowRoute()
 
 void RoutingManager::CloseRouting(bool removeRoutePoints)
 {
-  m_extrapolator.Enable(false);
   // Hide preview.
   HidePreviewSegments();
 
