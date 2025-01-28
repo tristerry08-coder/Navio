@@ -108,6 +108,39 @@ UNIT_TEST(EditableMapObject_ValidateAndFormat_contactLine)
   TEST_EQUAL(osm::ValidateAndFormat_contactLine("https://line.com/ti/p/invalid-domain"), "", ());
 }
 
+UNIT_TEST(EditableMapObject_ValidateAndFormat_fediverse)
+{
+  TEST_EQUAL(osm::ValidateAndFormat_fediverse("https://floss.social/@comaps"), "comaps@floss.social", ());
+  TEST_EQUAL(osm::ValidateAndFormat_fediverse("https://floss.social/users/comaps"), "comaps@floss.social", ());
+  TEST_EQUAL(osm::ValidateAndFormat_fediverse("http://floss.social/users/comaps"), "comaps@floss.social", ());
+  TEST_EQUAL(osm::ValidateAndFormat_fediverse("floss.social/users/comaps"), "comaps@floss.social", ());
+  TEST_EQUAL(osm::ValidateAndFormat_fediverse("comaps@floss.social"), "comaps@floss.social", ());
+  TEST_EQUAL(osm::ValidateAndFormat_fediverse("@comaps@floss.social"), "comaps@floss.social", ());
+  TEST_EQUAL(osm::ValidateAndFormat_fediverse("@comaps@floss.social.uk"), "comaps@floss.social.uk", ());
+  TEST_EQUAL(osm::ValidateAndFormat_fediverse("pub.mastodon.org.uk/@comaps"), "comaps@pub.mastodon.org.uk", ());
+  TEST_EQUAL(osm::ValidateAndFormat_fediverse("pub.mastodon.org.uk/users/@comaps"), "comaps@pub.mastodon.org.uk", ());
+
+  TEST_EQUAL(osm::ValidateAndFormat_fediverse("comaps@fosstodon@mastodon.org"), "", ());
+  TEST_EQUAL(osm::ValidateAndFormat_fediverse("co$maps@mastodon.social"), "", ());
+  TEST_EQUAL(osm::ValidateAndFormat_fediverse("pub.mastodon.org.uk/comaps"), "", ());
+  TEST_EQUAL(osm::ValidateAndFormat_fediverse("pub.mastodon.org.uk/users/"), "", ());
+}
+
+UNIT_TEST(EditableMapObject_ValidateAndFormat_bluesky)
+{
+  TEST_EQUAL(osm::ValidateAndFormat_bluesky("comaps.bsky.social"), "comaps.bsky.social", ());
+  TEST_EQUAL(osm::ValidateAndFormat_bluesky("@comaps.bsky.social"), "comaps.bsky.social", ());
+  TEST_EQUAL(osm::ValidateAndFormat_bluesky("https://bsky.app/profile/comaps.bsky.social"), "comaps.bsky.social", ());
+  TEST_EQUAL(osm::ValidateAndFormat_bluesky("https://bsky.app/profile/@comaps.bsky.social"), "comaps.bsky.social", ());
+  TEST_EQUAL(osm::ValidateAndFormat_bluesky("http://bsky.app/profile/comaps.bsky.social"), "comaps.bsky.social", ());
+  TEST_EQUAL(osm::ValidateAndFormat_bluesky("bsky.app/profile/comaps.bsky.social"), "comaps.bsky.social", ());
+  TEST_EQUAL(osm::ValidateAndFormat_bluesky("https://bsky.app/profile/comaps.bsky.social"), "comaps.bsky.social", ());
+
+  TEST_EQUAL(osm::ValidateAndFormat_bluesky("https://bsky.app/profile/comap$.bsky.social"), "", ());
+  TEST_EQUAL(osm::ValidateAndFormat_bluesky("https://bsky.app/profile/comaps.bsky.social$"), "", ());
+  TEST_EQUAL(osm::ValidateAndFormat_bluesky("https://bsky.app/pineapple/comaps.bsky.social"), "", ());
+}
+
 UNIT_TEST(EditableMapObject_ValidateFacebookPage)
 {
   TEST(osm::ValidateFacebookPage(""), ());
@@ -260,6 +293,39 @@ UNIT_TEST(EditableMapObject_ValidateLinePage)
   TEST(!osm::ValidateLinePage("No-upper-case"), ());
   TEST(!osm::ValidateLinePage("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"), ());
   TEST(!osm::ValidateLinePage("https://line.com/ti/p/invalid-domain"), ());
+}
+
+UNIT_TEST(EditableMapObject_ValidateFediversePage)
+{
+  TEST(osm::ValidateFediversePage("https://floss.social/@comaps"), ());
+  TEST(osm::ValidateFediversePage("https://floss.social/users/comaps"), ());
+  TEST(osm::ValidateFediversePage("http://floss.social/users/comaps"), ());
+  TEST(osm::ValidateFediversePage("floss.social/users/comaps"), ());
+  TEST(osm::ValidateFediversePage("comaps@floss.social"), ());
+  TEST(osm::ValidateFediversePage("@comaps@floss.social"), ());
+  TEST(osm::ValidateFediversePage("@comaps@floss.social.uk"), ());
+  TEST(osm::ValidateFediversePage("pub.mastodon.org.uk/@comaps"), ());
+  TEST(osm::ValidateFediversePage("pub.mastodon.org.uk/users/@comaps"), ());
+
+  TEST(!osm::ValidateFediversePage("comaps@floss@mastodon.org"), ());
+  TEST(!osm::ValidateFediversePage("orga$nicmaps@mastodon.social"), ());
+  TEST(!osm::ValidateFediversePage("pub.mastodon.org.uk/comaps"), ());
+  TEST(!osm::ValidateFediversePage("pub.mastodon.org.uk/users/"), ());
+}
+
+UNIT_TEST(EditableMapObject_ValidateBlueskyPage)
+{
+  TEST(osm::ValidateBlueskyPage("comaps.bsky.social"), ());
+  TEST(osm::ValidateBlueskyPage("@comaps.bsky.social"), ());
+  TEST(osm::ValidateBlueskyPage("https://bsky.app/profile/comaps.bsky.social"), ());
+  TEST(osm::ValidateBlueskyPage("https://bsky.app/profile/@comaps.bsky.social"), ());
+  TEST(osm::ValidateBlueskyPage("http://bsky.app/profile/comaps.bsky.social"), ());
+  TEST(osm::ValidateBlueskyPage("bsky.app/profile/comaps.bsky.social"), ());
+  TEST(osm::ValidateBlueskyPage("https://bsky.app/profile/comaps.bsky.social"), ());
+
+  TEST(!osm::ValidateBlueskyPage("https://bsky.app/profile/comap$.bsky.social"), ());
+  TEST(!osm::ValidateBlueskyPage("https://bsky.app/profile/comaps.bsky.social$"), ());
+  TEST(!osm::ValidateBlueskyPage("https://bsky.app/pineapple/comaps.bsky.social"), ());
 }
 
 UNIT_TEST(EditableMapObject_socialContactToURL)
