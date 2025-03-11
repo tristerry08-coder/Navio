@@ -90,7 +90,7 @@ final class RoutingBottomMenuController implements View.OnClickListener
 
   @NonNull
   static RoutingBottomMenuController newInstance(@NonNull Activity activity, @NonNull View frame,
-                                                 @Nullable RoutingBottomMenuListener listener)
+                                                 @NonNull RoutingBottomMenuListener listener)
   {
     View altitudeChartFrame = getViewById(activity, frame, R.id.altitude_chart_panel);
     View timeElevationLine = getViewById(activity, frame, R.id.time_elevation_line);
@@ -158,6 +158,9 @@ final class RoutingBottomMenuController implements View.OnClickListener
                                                          res.getDimensionPixelSize(R.dimen.margin_half));
     Button manageRouteButton = altitudeChartFrame.findViewById(R.id.btn__manage_route);
     manageRouteButton.setOnClickListener(this);
+
+    Button saveButton = altitudeChartFrame.findViewById(R.id.btn__save);
+    saveButton.setOnClickListener(this);
   }
 
   void showAltitudeChartAndRoutingDetails()
@@ -168,6 +171,9 @@ final class RoutingBottomMenuController implements View.OnClickListener
       showRouteAltitudeChart();
     showRoutingDetails();
     UiUtils.show(mAltitudeChartFrame);
+    Button saveButton = mAltitudeChartFrame.findViewById(R.id.btn__save);
+    saveButton.setText(R.string.save);
+    saveButton.setEnabled(true);
   }
 
   void hideAltitudeChartAndRoutingDetails()
@@ -484,14 +490,21 @@ final class RoutingBottomMenuController implements View.OnClickListener
   public void onClick(View v)
   {
     final int id = v.getId();
-    if (id == R.id.btn__my_position_use && mListener != null)
+    if (id == R.id.btn__my_position_use)
       mListener.onUseMyPositionAsStart();
-    else if (id == R.id.btn__search_point && mListener != null)
+    else if (id == R.id.btn__search_point)
     {
       final RouteMarkType pointType = (RouteMarkType) mActionMessage.getTag();
       mListener.onSearchRoutePoint(pointType);
     }
-    else if (id == R.id.btn__manage_route && mListener != null)
+    else if (id == R.id.btn__manage_route)
       mListener.onManageRouteOpen();
+    else if (id == R.id.btn__save)
+    {
+      Framework.nativeSaveRoute();
+      Button saveButton = v.findViewById(R.id.btn__save);
+      saveButton.setEnabled(false);
+      saveButton.setText(R.string.saved);
+    }
   }
 }
