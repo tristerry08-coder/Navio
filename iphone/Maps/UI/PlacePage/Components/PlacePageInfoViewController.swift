@@ -103,7 +103,7 @@ class PlacePageInfoViewController: UIViewController {
   }()
 
   private var rawOpeningHoursView: InfoItemViewController?
-  private var phoneView: InfoItemViewController?
+  private var phoneViews: [InfoItemViewController] = []
   private var websiteView: InfoItemViewController?
   private var websiteMenuView: InfoItemViewController?
   private var wikipediaView: InfoItemViewController?
@@ -157,12 +157,12 @@ class PlacePageInfoViewController: UIViewController {
 
     /// @todo Entrance is missing compared with Android. It's shown in title, but anyway ..
 
-    if let phone = placePageInfoData.phone {
+    phoneViews = placePageInfoData.phones.map({ phone in
       var cellStyle: Style = .regular
       if let phoneUrl = phone.url, UIApplication.shared.canOpenURL(phoneUrl) {
         cellStyle = .link
       }
-      phoneView = createInfoItem(phone.phone,
+      return createInfoItem(phone.phone,
                                  icon: UIImage(named: "ic_placepage_phone_number"),
                                  style: cellStyle,
                                  tapHandler: { [weak self] in
@@ -171,7 +171,7 @@ class PlacePageInfoViewController: UIViewController {
                                  longPressHandler: { [weak self] in
         self?.delegate?.didCopy(phone.phone)
       })
-    }
+    })
 
     if let ppOperator = placePageInfoData.ppOperator {
       operatorView = createInfoItem(ppOperator, icon: UIImage(named: "ic_placepage_operator"))
