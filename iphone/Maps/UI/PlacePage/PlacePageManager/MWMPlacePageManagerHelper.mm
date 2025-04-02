@@ -24,7 +24,7 @@
 - (void)openTwitter:(PlacePageData *)data;
 - (void)openVk:(PlacePageData *)data;
 - (void)openLine:(PlacePageData *)data;
-- (void)call:(PlacePageData *)data;
+- (void)call:(PlacePagePhone *)phone;
 - (void)showAllFacilities:(PlacePageData *)data;
 - (void)showPlaceDescription:(NSString *)htmlString;
 - (void)openMoreUrl:(PlacePageData *)data;
@@ -109,8 +109,8 @@
   [[MWMMapViewControlsManager manager].placePageManager openLine:data];
 }
 
-+ (void)call:(PlacePageData *)data {
-  [[MWMMapViewControlsManager manager].placePageManager call:data];
++ (void)call:(PlacePagePhone *)phone {
+  [[MWMMapViewControlsManager manager].placePageManager call:phone];
 }
 
 + (void)showAllFacilities:(PlacePageData *)data {
