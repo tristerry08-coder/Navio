@@ -12,8 +12,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.textview.MaterialTextView;
 
 import app.organicmaps.R;
-import app.organicmaps.editor.data.FeatureCategory;
-import app.organicmaps.util.UiUtils;
+import app.organicmaps.sdk.editor.data.FeatureCategory;
+import app.organicmaps.sdk.util.UiUtils;
 
 public class FeatureCategoryAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
 {

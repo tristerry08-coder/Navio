@@ -1,6 +1,6 @@
 #pragma once
 
-#include "app/organicmaps/core/jni_helper.hpp"
+#include "app/organicmaps/sdk/core/jni_helper.hpp"
 #include "app/organicmaps/sdk/routing/SingleLaneInfo.hpp"
 #include "app/organicmaps/util/Distance.hpp"
 
@@ -16,7 +16,7 @@ jobject CreateRoutingInfo(JNIEnv * env, routing::FollowingInfo const & info, Rou
   //                              int totalTime, SingleLaneInfo[] lanes)
   static jmethodID const ctorRouteInfoID =
     jni::GetConstructorID(env, klass,
-                          "(Lapp/organicmaps/util/Distance;Lapp/organicmaps/util/Distance;"
+                          "(Lapp/organicmaps/sdk/util/Distance;Lapp/organicmaps/sdk/util/Distance;"
                           "Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;DIIIII"
                           "[Lapp/organicmaps/sdk/routing/SingleLaneInfo;DZZ)V");
 

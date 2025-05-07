@@ -17,10 +17,10 @@ import androidx.lifecycle.ViewModelProvider;
 import com.google.android.material.textview.MaterialTextView;
 
 import app.organicmaps.R;
-import app.organicmaps.bookmarks.data.MapObject;
-import app.organicmaps.bookmarks.data.Metadata;
+import app.organicmaps.sdk.bookmarks.data.MapObject;
+import app.organicmaps.sdk.bookmarks.data.Metadata;
 import app.organicmaps.util.Utils;
-import app.organicmaps.util.UiUtils;
+import app.organicmaps.sdk.util.UiUtils;
 import app.organicmaps.widget.placepage.PlaceDescriptionActivity;
 import app.organicmaps.widget.placepage.PlacePageUtils;
 import app.organicmaps.widget.placepage.PlacePageViewModel;

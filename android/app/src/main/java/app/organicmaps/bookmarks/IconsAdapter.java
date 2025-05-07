@@ -10,7 +10,7 @@ import android.widget.ArrayAdapter;
 import com.google.android.material.imageview.ShapeableImageView;
 
 import app.organicmaps.R;
-import app.organicmaps.bookmarks.data.Icon;
+import app.organicmaps.sdk.bookmarks.data.Icon;
 import app.organicmaps.util.Graphics;
 
 import java.util.List;

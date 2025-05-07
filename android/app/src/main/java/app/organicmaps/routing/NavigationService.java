@@ -4,7 +4,7 @@ import static android.Manifest.permission.ACCESS_COARSE_LOCATION;
 import static android.Manifest.permission.ACCESS_FINE_LOCATION;
 import static android.Manifest.permission.POST_NOTIFICATIONS;
 import static android.content.pm.PackageManager.PERMISSION_GRANTED;
-import static app.organicmaps.util.Constants.Vendor.XIAOMI;
+import static app.organicmaps.sdk.util.Constants.Vendor.XIAOMI;
 
 import android.annotation.SuppressLint;
 import android.app.ForegroundServiceStartNotAllowedException;
@@ -31,19 +31,19 @@ import androidx.core.app.NotificationManagerCompat;
 import androidx.core.app.ServiceCompat;
 import androidx.core.content.ContextCompat;
 
-import app.organicmaps.Framework;
+import app.organicmaps.sdk.Framework;
 import app.organicmaps.MwmActivity;
 import app.organicmaps.MwmApplication;
 import app.organicmaps.R;
 import app.organicmaps.sdk.routing.RoutingInfo;
-import app.organicmaps.sound.MediaPlayerWrapper;
-import app.organicmaps.location.LocationHelper;
-import app.organicmaps.location.LocationListener;
-import app.organicmaps.sound.TtsPlayer;
-import app.organicmaps.util.Config;
+import app.organicmaps.sdk.sound.MediaPlayerWrapper;
+import app.organicmaps.sdk.location.LocationHelper;
+import app.organicmaps.sdk.location.LocationListener;
+import app.organicmaps.sdk.sound.TtsPlayer;
+import app.organicmaps.sdk.util.Config;
 import app.organicmaps.util.Graphics;
-import app.organicmaps.util.LocationUtils;
-import app.organicmaps.util.log.Logger;
+import app.organicmaps.sdk.util.LocationUtils;
+import app.organicmaps.sdk.util.log.Logger;
 
 public class NavigationService extends Service implements LocationListener
 {
@@ -179,7 +179,7 @@ public class NavigationService extends Service implements LocationListener
 
     mNotificationBuilder = null;
     mCarNotificationExtender = null;
-    LocationHelper.from(this).removeListener(this);
+    MwmApplication.from(this).getLocationHelper().removeListener(this);
     TtsPlayer.INSTANCE.stop();
 
     // The notification is cancelled automatically by the system.
@@ -247,7 +247,7 @@ public class NavigationService extends Service implements LocationListener
         Logger.e(TAG, "Failed to promote the service to foreground", e);
     }
 
-    final LocationHelper locationHelper = LocationHelper.from(this);
+    final LocationHelper locationHelper = MwmApplication.from(this).getLocationHelper();
 
     // Subscribe to location updates. This call is idempotent.
     locationHelper.addListener(this);
@@ -288,7 +288,7 @@ public class NavigationService extends Service implements LocationListener
     if (Framework.nativeIsRouteFinished())
     {
       routingController.cancel();
-      LocationHelper.from(this).restartWithNewMode();
+      MwmApplication.from(this).getLocationHelper().restartWithNewMode();
       stopSelf();
       return;
     }

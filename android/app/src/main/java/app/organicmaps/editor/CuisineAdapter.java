@@ -12,6 +12,7 @@ import com.google.android.material.checkbox.MaterialCheckBox;
 import com.google.android.material.textview.MaterialTextView;
 
 import app.organicmaps.R;
+import app.organicmaps.sdk.editor.Editor;
 
 import java.util.ArrayList;
 import java.util.Arrays;

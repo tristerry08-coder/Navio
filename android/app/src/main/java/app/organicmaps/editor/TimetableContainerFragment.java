@@ -16,7 +16,8 @@ import androidx.fragment.app.FragmentActivity;
 
 import app.organicmaps.R;
 import app.organicmaps.base.BaseMwmFragment;
-import app.organicmaps.util.UiUtils;
+import app.organicmaps.sdk.editor.OpeningHours;
+import app.organicmaps.sdk.util.UiUtils;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.textview.MaterialTextView;
 

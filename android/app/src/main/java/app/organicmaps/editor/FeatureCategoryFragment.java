@@ -1,5 +1,7 @@
 package app.organicmaps.editor;
 
+import static app.organicmaps.sdk.util.Utils.getLocalizedFeatureType;
+
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,10 +13,11 @@ import androidx.annotation.Nullable;
 
 import app.organicmaps.R;
 import app.organicmaps.base.BaseMwmRecyclerFragment;
-import app.organicmaps.editor.data.FeatureCategory;
+import app.organicmaps.sdk.editor.Editor;
+import app.organicmaps.sdk.editor.data.FeatureCategory;
 import app.organicmaps.widget.SearchToolbarController;
 import app.organicmaps.widget.ToolbarController;
-import app.organicmaps.util.Language;
+import app.organicmaps.sdk.util.Language;
 import app.organicmaps.util.Utils;
 
 import java.util.Arrays;
@@ -91,7 +94,7 @@ public class FeatureCategoryFragment extends BaseMwmRecyclerFragment<FeatureCate
 
     for (int i = 0; i < creatableTypes.length; ++i)
     {
-      String localizedType = Utils.getLocalizedFeatureType(requireContext(), creatableTypes[i]);
+      String localizedType = getLocalizedFeatureType(requireContext(), creatableTypes[i]);
       categories[i] = new FeatureCategory(creatableTypes[i], localizedType);
     }
 

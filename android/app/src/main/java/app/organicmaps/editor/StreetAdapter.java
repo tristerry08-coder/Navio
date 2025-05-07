@@ -14,8 +14,8 @@ import com.google.android.material.textview.MaterialTextView;
 import app.organicmaps.MwmApplication;
 import app.organicmaps.R;
 import app.organicmaps.dialog.EditTextDialogFragment;
-import app.organicmaps.editor.data.LocalizedStreet;
-import app.organicmaps.util.UiUtils;
+import app.organicmaps.sdk.editor.data.LocalizedStreet;
+import app.organicmaps.sdk.util.UiUtils;
 
 public class StreetAdapter extends RecyclerView.Adapter<StreetAdapter.BaseViewHolder>
 {

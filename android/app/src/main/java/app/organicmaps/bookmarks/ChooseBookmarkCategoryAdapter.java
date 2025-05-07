@@ -12,7 +12,7 @@ import com.google.android.material.radiobutton.MaterialRadioButton;
 import com.google.android.material.textview.MaterialTextView;
 
 import app.organicmaps.R;
-import app.organicmaps.bookmarks.data.BookmarkCategory;
+import app.organicmaps.sdk.bookmarks.data.BookmarkCategory;
 
 import java.util.List;
 

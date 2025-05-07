@@ -12,7 +12,7 @@ import com.google.android.material.radiobutton.MaterialRadioButton;
 import com.google.android.material.textview.MaterialTextView;
 
 import app.organicmaps.R;
-import app.organicmaps.util.Utils;
+import app.organicmaps.sdk.util.Utils;
 
 public class SelfServiceAdapter extends RecyclerView.Adapter<SelfServiceAdapter.ViewHolder>
 {

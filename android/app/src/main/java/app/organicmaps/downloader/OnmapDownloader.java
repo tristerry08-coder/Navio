@@ -12,13 +12,15 @@ import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textview.MaterialTextView;
 
 import app.organicmaps.MwmActivity;
+import app.organicmaps.MwmApplication;
 import app.organicmaps.R;
-import app.organicmaps.location.LocationHelper;
 import app.organicmaps.routing.RoutingController;
-import app.organicmaps.util.Config;
-import app.organicmaps.util.ConnectionState;
-import app.organicmaps.util.StringUtils;
-import app.organicmaps.util.UiUtils;
+import app.organicmaps.sdk.downloader.CountryItem;
+import app.organicmaps.sdk.downloader.MapManager;
+import app.organicmaps.sdk.util.Config;
+import app.organicmaps.sdk.util.ConnectionState;
+import app.organicmaps.sdk.util.StringUtils;
+import app.organicmaps.sdk.util.UiUtils;
 import app.organicmaps.util.WindowInsetUtils.PaddingInsetsListener;
 import app.organicmaps.widget.WheelProgressView;
 
@@ -161,7 +163,7 @@ public class OnmapDownloader implements MwmActivity.LeftAnimationTrackListener
                 !failed &&
                 ConnectionState.INSTANCE.isWifiConnected())
             {
-              Location loc = LocationHelper.from(mActivity).getSavedLocation();
+              Location loc = MwmApplication.from(mActivity).getLocationHelper().getSavedLocation();
               if (loc != null)
               {
                 String country = MapManager.nativeFindCountry(loc.getLatitude(), loc.getLongitude());

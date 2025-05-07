@@ -24,11 +24,11 @@ import androidx.lifecycle.ViewModelProvider;
 import com.google.android.material.textview.MaterialTextView;
 
 import app.organicmaps.R;
-import app.organicmaps.bookmarks.data.Bookmark;
-import app.organicmaps.bookmarks.data.BookmarkManager;
-import app.organicmaps.bookmarks.data.MapObject;
-import app.organicmaps.util.StringUtils;
-import app.organicmaps.util.UiUtils;
+import app.organicmaps.sdk.bookmarks.data.Bookmark;
+import app.organicmaps.sdk.bookmarks.data.BookmarkManager;
+import app.organicmaps.sdk.bookmarks.data.MapObject;
+import app.organicmaps.sdk.util.StringUtils;
+import app.organicmaps.sdk.util.UiUtils;
 import app.organicmaps.util.Utils;
 import app.organicmaps.widget.placepage.EditBookmarkFragment;
 import app.organicmaps.widget.placepage.PlacePageViewModel;

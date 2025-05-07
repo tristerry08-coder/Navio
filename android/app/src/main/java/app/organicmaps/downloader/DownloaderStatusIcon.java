@@ -9,9 +9,10 @@ import androidx.annotation.DrawableRes;
 import com.google.android.material.imageview.ShapeableImageView;
 
 import app.organicmaps.R;
+import app.organicmaps.sdk.downloader.CountryItem;
 import app.organicmaps.widget.WheelProgressView;
 import app.organicmaps.util.ThemeUtils;
-import app.organicmaps.util.UiUtils;
+import app.organicmaps.sdk.util.UiUtils;
 
 public class DownloaderStatusIcon
 {

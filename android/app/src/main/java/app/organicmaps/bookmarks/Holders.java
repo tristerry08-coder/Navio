@@ -16,19 +16,19 @@ import com.google.android.material.imageview.ShapeableImageView;
 import com.google.android.material.textview.MaterialTextView;
 import com.google.android.material.checkbox.MaterialCheckBox;
 
+import app.organicmaps.MwmApplication;
 import app.organicmaps.R;
 import app.organicmaps.adapter.OnItemClickListener;
-import app.organicmaps.bookmarks.data.BookmarkCategory;
-import app.organicmaps.bookmarks.data.BookmarkInfo;
-import app.organicmaps.bookmarks.data.BookmarkManager;
-import app.organicmaps.bookmarks.data.IconClickListener;
-import app.organicmaps.bookmarks.data.Track;
-import app.organicmaps.location.LocationHelper;
+import app.organicmaps.sdk.bookmarks.data.BookmarkCategory;
+import app.organicmaps.sdk.bookmarks.data.BookmarkInfo;
+import app.organicmaps.sdk.bookmarks.data.BookmarkManager;
+import app.organicmaps.sdk.bookmarks.data.IconClickListener;
+import app.organicmaps.sdk.bookmarks.data.Track;
 import app.organicmaps.util.Utils;
 import app.organicmaps.widget.recycler.RecyclerClickListener;
 import app.organicmaps.widget.recycler.RecyclerLongClickListener;
 import app.organicmaps.util.Graphics;
-import app.organicmaps.util.UiUtils;
+import app.organicmaps.sdk.util.UiUtils;
 
 public class Holders
 {
@@ -361,7 +361,7 @@ public class Holders
       BookmarkInfo bookmark = new BookmarkInfo(sectionsDataSource.getCategory().getId(),
                                                bookmarkId);
       mName.setText(bookmark.getName());
-      final Location loc = LocationHelper.from(mIcon.getContext()).getSavedLocation();
+      final Location loc = MwmApplication.from(mIcon.getContext()).getLocationHelper().getSavedLocation();
 
       String distanceValue = loc == null ? "" : bookmark.getDistance(loc.getLatitude(),
                                                                      loc.getLongitude(), 0.0).toString(mDistance.getContext());

@@ -24,8 +24,8 @@ import com.google.android.material.textview.MaterialTextView;
 
 import app.organicmaps.R;
 import app.organicmaps.base.BaseMwmDialogFragment;
-import app.organicmaps.editor.data.HoursMinutes;
-import app.organicmaps.util.DateUtils;
+import app.organicmaps.sdk.editor.data.HoursMinutes;
+import app.organicmaps.sdk.util.DateUtils;
 import app.organicmaps.util.ThemeUtils;
 import app.organicmaps.util.Utils;
 
