@@ -1,6 +1,9 @@
 name: iOS Check
 on:
   workflow_dispatch: # Manual trigger
+  push:
+    branches:
+      - main
 
 jobs:
   ios-check:
@@ -32,6 +35,12 @@ jobs:
       - name: Configure repository
         shell: bash
         run: ./configure.sh
+
+      - name: Download MWM files
+        shell: bash
+        run: |
+          wget https://cdn.comaps.app/maps/latest/World.mwm -P ./data/
+          wget https://cdn.comaps.app/maps/latest/WorldCoasts.mwm -P ./data/
 
       - name: Configure XCode cache
         uses: irgaly/xcode-cache@v1

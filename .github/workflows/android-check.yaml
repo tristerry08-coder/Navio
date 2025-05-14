@@ -1,7 +1,5 @@
 name: Android Check
 on:
-  schedule:
-    - cron:  '0 1 * * *' # Once per day at 01:00 UTC
   workflow_dispatch: # Manual trigger
   push:
     branches:
@@ -69,6 +67,12 @@ jobs:
       - name: Configure repository
         shell: bash
         run: ./configure.sh
+
+      - name: Download MWM files
+        shell: bash
+        run: |
+          wget https://cdn.comaps.app/maps/latest/World.mwm -P ./data/
+          wget https://cdn.comaps.app/maps/latest/WorldCoasts.mwm -P ./data/
 
       - name: Configure ccache
         uses: hendrikmuhs/ccache-action@v1.2
