@@ -1019,7 +1019,7 @@
 "icloud_synchronization_error_cloud_is_unavailable" = "错误：iCloud 不可用";
 
 /* Title for the "Open in Another App" button on the PlacePage. */
-"open_in_app" = "在另一个应用程序中打开";
+"open_in_app" = "在另一个应用中打开";
 
 /* To indicate if the place proposed self service... */
 "self_service" = "自助服务";
