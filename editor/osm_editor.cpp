@@ -1147,7 +1147,7 @@ void Editor::CreateNote(ms::LatLon const & latLon, FeatureID const & fid,
   {
   case NoteProblemType::PlaceDoesNotExist:
   {
-    sstr << "The place has gone or never existed. A user of Organic Maps application has reported "
+    sstr << "The place has gone or never existed. A CoMaps user reported "
             "that the POI was visible on the map (see snapshot date below), but was not found "
             "on the ground.\n";
     auto const features = m_features.Get();
