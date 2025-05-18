@@ -813,7 +813,7 @@
     <!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
     <string name="car_used_on_the_phone_screen">Αυτή τη στιγμή το CoMaps βρίσκεται στην οθόνη του κινητού</string>
     <!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-    <string name="car_used_on_the_car_screen">Αυτή τη στιγμή το Organic Maps βρίσκεται στην οθόνη του αυτοκινήτου</string>
+    <string name="car_used_on_the_car_screen">Αυτή τη στιγμή το CoMaps βρίσκεται στην οθόνη του αυτοκινήτου</string>
     <!-- Displayed on the phone screen. Android Auto connected -->
     <string name="aa_connected_title">Είστε συνδεδεμένοι στο Android Auto</string>
     <!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

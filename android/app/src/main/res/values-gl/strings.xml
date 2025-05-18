@@ -37,8 +37,8 @@
     <string name="details">Detalles</string>
     <string name="editor_reset_edits_button">Restablecer</string>
     <string name="category_parking">Aparcamento</string>
-    <string name="instagram_url">https://www.instagram.com/organicmaps.app</string>
-    <string name="tts_info_link">https://organicmaps.app/faq/text-to-speech-android-tts/</string>
+    <string name="instagram_url">https://www.instagram.com/comapscommunity/</string>
+    <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="select_cuisine">Seleccionar cociña</string>
     <string name="comma_separated_pair">%1$s, %2$s</string>
     <string name="maps_storage_internal">Almacenamento interno privado</string>
@@ -70,7 +70,7 @@
     <string name="mobile_data_option_ask">Preguntar sempre</string>
     <string name="traffic_update_maps_text">Para mostrar os datos de tráfico, deben actualizarse os mapas.</string>
     <string name="big_font">Aumentar tamaño do texto no mapa</string>
-    <string name="traffic_update_app">Por favor, actualice Organic Maps</string>
+    <string name="traffic_update_app">Por favor, actualice CoMaps</string>
     <string name="prefs_languages_information_off_link">Para obter máis información, consulte esta guía.</string>
     <string name="core_entrance">Entrada</string>
     <string name="privacy">Privacidade</string>
@@ -111,10 +111,10 @@
     <string name="disconnect_usb_cable_title">Desconecte o cable USB</string>
     <string name="enable_keep_screen_on">Manter pantalla acesa</string>
     <string name="app_tip_09">O noso principal obxectivo é crear mapas rápidos, centrados na privacidade e fáciles de utilizar que lle encantarán.</string>
-    <string name="car_used_on_the_phone_screen">Agora usa Organic Maps na pantalla do teléfono</string>
-    <string name="aa_location_permissions_request">Organic Maps necesita acceder á localización. Cando sexa seguro, comprobe a notificación no teléfono.</string>
+    <string name="car_used_on_the_phone_screen">Agora usa CoMaps na pantalla do teléfono</string>
+    <string name="aa_location_permissions_request">CoMaps necesita acceder á localización. Cando sexa seguro, comprobe a notificación no teléfono.</string>
     <string name="aa_request_permission_notification">Esta aplicación necesita o seu permiso</string>
-    <string name="aa_request_permission_activity_text">Organic Maps en Android Auto necesita permisos de localización para funcionar eficazmente</string>
+    <string name="aa_request_permission_activity_text">CoMaps en Android Auto necesita permisos de localización para funcionar eficazmente</string>
     <string name="aa_grant_permissions">Conceder permisos</string>
     <string name="select_option">Selecciona a opción</string>
     <string name="edit_track">Editar traxecto</string>
@@ -176,7 +176,7 @@
     <string name="about_proposition_3">• Rápido, minimalista, desenvolto pola comunidade</string>
     <string name="about_developed_by_enthusiasts">Aplicación de código aberto creada por entusiastas e voluntarios.</string>
     <string name="unsupported_phone">A aplicación require OpenGL acelerado por hardware. Lamentablemente, o seu dispositivo non é compatible.</string>
-    <string name="disconnect_usb_cable">por favor, desconecte o cable USB ou insira unha tarxeta de memoria SD para usar Organic Maps</string>
+    <string name="disconnect_usb_cable">por favor, desconecte o cable USB ou insira unha tarxeta de memoria SD para usar CoMaps</string>
     <string name="not_enough_free_space_on_sdcard">Libere espazo na memoria SD ou almacenamento USB para usar a aplicación</string>
     <string name="download_resources">Antes de comezar, permita que descarguemos no seu dispositivo un mapamundi xeral. \nRequírense %s de almacenamento.</string>
     <string name="download_resources_continue">Ir ao mapa</string>
@@ -205,8 +205,8 @@
     <string name="category_children">Lecer en familia</string>
     <string name="category_rv">Instalacións para autocaravanas</string>
     <string name="description">Notas</string>
-    <string name="share_bookmarks_email_subject">Marcadores de Organic Maps compartidos con vostede</string>
-    <string name="share_bookmarks_email_body">Ola! \n \nAdxunto os meus marcadores da aplicación Organic Maps. Por favor, ábraos se ten instalado Organic Maps. Ou, se non o ten, descargue a aplicación para o seu dispositivo iOS ou Android seguindo esta ligazón: https://omaps.app/get?kmz \n \nGozar viaxando con Organic Maps!</string>
+    <string name="share_bookmarks_email_subject">Marcadores de CoMaps compartidos con vostede</string>
+    <string name="share_bookmarks_email_body">Ola! \n \nAdxunto os meus marcadores da aplicación CoMaps. Por favor, ábraos se ten instalado CoMaps. Ou, se non o ten, descargue a aplicación para o seu dispositivo iOS ou Android seguindo esta ligazón: https://omaps.app/get?kmz \n \nGozar viaxando con CoMaps!</string>
     <string name="load_kmz_successful">Os marcadores cargáronse con éxito! Pode atopalos no mapa ou na pantalla de Xestión de marcadores.</string>
     <string name="load_kmz_failed">Non se puideron cargar os marcadores. O arquivo podería ter danos ou defectos.</string>
     <string name="unknown_file_type">A aplicación non recoñece o tipo de arquivo: \n%1$s</string>
@@ -214,9 +214,9 @@
     <string name="unknown_current_position">Aínda non se determinou a súa localización</string>
     <string name="cant_change_this_setting">Sentímolo, a configuración do almacenamento de mapas está desactivada.</string>
     <string name="downloading_is_active">A descarga do mapa está en curso.</string>
-    <string name="my_position_share_sms">Olla a miña localización actual en Organic Maps! %1$s ou %2$s Non ten mapas offline? Descárgueos aquí: https://omaps.app/get</string>
-    <string name="bookmark_share_email_subject">Mira o meu marcador no mapa de Organic Maps!</string>
-    <string name="my_position_share_email_subject">Mira a miña localización actual no mapa en Organic Maps!</string>
+    <string name="my_position_share_sms">Olla a miña localización actual en CoMaps! %1$s ou %2$s Non ten mapas offline? Descárgueos aquí: https://omaps.app/get</string>
+    <string name="bookmark_share_email_subject">Mira o meu marcador no mapa de CoMaps!</string>
+    <string name="my_position_share_email_subject">Mira a miña localización actual no mapa en CoMaps!</string>
     <string name="my_position_share_email">Ola: \n\nAgora estou aquí: %1$s. Fai clic nesta ligazón %2$s ou esta %3$s para velo no mapa. \n\nGrazas.</string>
     <string name="copied_to_clipboard">Copiado ao portarretallos: %s</string>
     <string name="data_version">Datos de OpenStreetMap: %s</string>
@@ -244,7 +244,7 @@
     <string name="donate">Doar</string>
     <string name="already_donated">Xa doei</string>
     <string name="remind_me_later">Lembrar máis tarde</string>
-    <string name="support_organic_maps">Apoiar Organic Maps</string>
+    <string name="support_organic_maps">Apoiar CoMaps</string>
     <string name="how_to_support_us">Apoie o proxecto</string>
     <string name="copyright">Dereitos de autor</string>
     <string name="report_a_bug">Informar dun fallo</string>
@@ -260,7 +260,7 @@
     <string name="routing_failed_cross_mwm_building">Só se poden crear rutas que estean totalmente contidas nun mapa dunha soa rexión.</string>
     <string name="downloader_download_map">Descargar mapa</string>
     <string name="google_play_services">Servizos de localización de Google Play</string>
-    <string name="pref_display_kayak_text">Móstranse fotos, revisións e ligazóns de reserva para os hoteis que teñen unha listaxe en Kayak.com. A bonificación por referencia recibida por cada reserva a través destas ligazóns destínase ao desenvolvemento de Organic Maps.</string>
+    <string name="pref_display_kayak_text">Móstranse fotos, revisións e ligazóns de reserva para os hoteis que teñen unha listaxe en Kayak.com. A bonificación por referencia recibida por cada reserva a través destas ligazóns destínase ao desenvolvemento de CoMaps.</string>
     <string name="routing_download_maps_along">Descargue todos os mapas do seu roteiro</string>
     <string name="routing_requires_all_map">Para crear unha ruta é necesario descargar e actualizar todos os mapas desde a súa localización ao seu destino.</string>
     <string name="routing_not_enough_space">Non hai suficiente espazo</string>
@@ -351,7 +351,7 @@
     <string name="editor_report_problem_other_title">Un problema diferente</string>
     <string name="message_invalid_feature_position">Non se pode situar ningún obxecto aquí</string>
     <string name="osm_presentation">Datos de OpenStreetMap creados pola comunidade a partir de %s. Máis información sobre como editar e actualizar o mapa en OpenStreetMap.org</string>
-    <string name="login_osm_presentation">OpenStreetMap.org (OSM) é un proxecto comunitario para construír un mapa libre e aberto. É a principal fonte de datos cartográficos de Organic Maps e funciona de forma similar a Wikipedia. Vostede pode engadir ou editar lugares e estes pasan a estar dispoñibles para millóns de usuarios de todo o mundo. \nÚnase á comunidade e axude a crear un mapa mellor para todos!</string>
+    <string name="login_osm_presentation">OpenStreetMap.org (OSM) é un proxecto comunitario para construír un mapa libre e aberto. É a principal fonte de datos cartográficos de CoMaps e funciona de forma similar a Wikipedia. Vostede pode engadir ou editar lugares e estes pasan a estar dispoñibles para millóns de usuarios de todo o mundo. \nÚnase á comunidade e axude a crear un mapa mellor para todos!</string>
     <string name="login_to_make_edits_visible">Cre unha conta OpenStreetMap ou inicie sesión para publicar as súas edicións de mapas en todo o mundo.</string>
     <string name="download_over_mobile_header">Descargar con conexión de rede móbil?</string>
     <string name="download_over_mobile_message">Podería ser moi caro con certos plans ou con itinerancia de datos.</string>
@@ -361,18 +361,18 @@
     <string name="error_enter_correct_zip_code">Introduza un código postal válido</string>
     <string name="editor_about_osm">As súas edicións cárganse na base de datos pública <a href="https://wiki.openstreetmap.org/wiki/About_OpenStreetMap">OpenStreetMap</a>. Por favor, non engada información persoal ou protexida por dereitos de autor.</string>
     <string name="editor_other_info">Nota para os voluntarios de OpenStreetMap (opcional)</string>
-    <string name="editor_note_hint">Describa os erros no mapa ou as cousas que non se poden editar con Organic Maps</string>
+    <string name="editor_note_hint">Describa os erros no mapa ou as cousas que non se poden editar con CoMaps</string>
     <string name="editor_more_about_osm">Más acerca de OpenStreetMap</string>
     <string name="editor_osm_history">O seu historial de edicións</string>
     <string name="editor_osm_notes">As miñas notas de datos do mapa</string>
     <string name="editor_category_unsuitable_title">Non acha unha categoría adecuada?</string>
-    <string name="editor_category_unsuitable_text">Organic Maps permite engadir unicamente categorías de puntos sinxelos, é dicir, non cidades, estradas, lagos, contornos de edificios, etc. Por favor, anada ditas categorías directamente <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Consulte nosa <a href="https://organicmaps.app/faq/editing/advanced-map-editing">guía</a> para obter instrucións detalladas paso a paso.</string>
+    <string name="editor_category_unsuitable_text">CoMaps permite engadir unicamente categorías de puntos sinxelos, é dicir, non cidades, estradas, lagos, contornos de edificios, etc. Por favor, anada ditas categorías directamente <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Consulte nosa <a href="https://www.comaps.app/support/advanced-map-editing/">guía</a> para obter instrucións detalladas paso a paso.</string>
     <string name="downloader_no_downloaded_maps_title">Non descargou ningún mapa</string>
     <string name="downloader_no_downloaded_maps_message">Descargue mapas para atopar a localización e navegar sen conexión.</string>
     <string name="current_location_unknown_error_title">Descoñécese a localización actual.</string>
     <string name="miles_per_hour">mph</string>
     <string name="more_on_kayak">Fotos, opinións, reservas</string>
-    <string name="dialog_kayak_disclaimer">A bonificación por recomendación recibida por cada reserva a través desta ligazón destínase ao desenvolvemento de Organic Maps.</string>
+    <string name="dialog_kayak_disclaimer">A bonificación por recomendación recibida por cada reserva a través desta ligazón destínase ao desenvolvemento de CoMaps.</string>
     <string name="ft">pé</string>
     <string name="placepage_more_button">Más</string>
     <string name="placepage_edit_bookmark_button">Editar marcador</string>
@@ -413,7 +413,7 @@
     <string name="placepage_add_stop">Engadir parada</string>
     <string name="alert_reauth_message">Por favor, Inicia sesión en OpenStreetMap para cargar automaticamente todas as túas edicións de mapas. Más información <a href="https://github.com/organicmaps/organicmaps/issues/6144">aquí</a>.</string>
     <string name="dialog_error_storage_title">Problema de acceso ao almacenamento</string>
-    <string name="dialog_error_storage_message">Non se pode acceder ao almacenamento externo. É posible que a tarxeta SD fose eliminada, danada ou que o sistema de ficheiros sexa só de lectura. Comprobe a súa tarxeta SD ou póñase en contacto connosco en support@organicmaps.app</string>
+    <string name="dialog_error_storage_message">Non se pode acceder ao almacenamento externo. É posible que a tarxeta SD fose eliminada, danada ou que o sistema de ficheiros sexa só de lectura. Comprobe a súa tarxeta SD ou póñase en contacto connosco en support@comaps.app</string>
     <string name="error_enter_correct_name">Por favor, introduza o nome correcto</string>
     <string name="bookmark_lists_show_all">Amosar todo</string>
     <string name="bookmarks_create_new_group">Crear nova lista</string>
@@ -468,7 +468,7 @@
     <string name="enable_show_on_lock_screen_description">Cando se activa, non ten que desbloquear o dispositivo para executar a aplicación.</string>
     <string name="change_map_locale">Idioma do mapa</string>
     <string name="splash_subtitle">Datos do mapa de OpenStreetMap</string>
-    <string name="telegram_url">https://t.me/OrganicMapsApp</string>
+    <string name="telegram_url">https://t.me/CoMapsApp</string>
     <string name="app_tip_00">Grazas por utilizar os nosos mapas creados pola comunidade!</string>
     <string name="app_tip_01">Coas súas doazóns e apoio, podemos crear os mellores mapas do mundo!</string>
     <string name="app_tip_02">Gústalle a nosa aplicación? Por favor doe para apoiar o seu desenvolvemento! Aínda non lle gusta? Díganos por que e arranxarémolo!</string>
@@ -478,7 +478,7 @@
     <string name="app_tip_06">Pode axudar a traducir a nosa aplicación ao seu idioma.</string>
     <string name="app_tip_07">A nosa aplicación está desenvolta por uns poucos entusiastas e a comunidade.</string>
     <string name="app_tip_08">Pode arranxar e mellorar facilmente os datos do mapa.</string>
-    <string name="car_used_on_the_car_screen">Agora usa Organic Maps na pantalla do coche</string>
+    <string name="car_used_on_the_car_screen">Agora usa CoMaps na pantalla do coche</string>
     <string name="aa_connected_title">Conectouse a Android Auto</string>
     <string name="car_continue_on_the_phone">Pasar ao teléfono</string>
     <string name="car_continue_in_the_car">Á pantalla do coche</string>
@@ -516,7 +516,7 @@
     <string name="category_wifi">Wifi</string>
     <string name="next_button">Seguinte</string>
     <string name="editor_report_problem_send_button">Enviar</string>
-    <string name="translated_om_site_url">https://organicmaps.app/é/</string>
+    <string name="translated_om_site_url">https://comaps.app/</string>
     <string name="category_shopping">Compras</string>
     <string name="placepage_distance">Distancia</string>
     <string name="today">Hoxe</string>
@@ -580,7 +580,7 @@
     <string name="mobile_data_option_never">Non usar nunca</string>
     <string name="enable_logging">Activar rexistros</string>
     <string name="bookmark_lists_hide_all">Ocultar todo</string>
-    <string name="about_menu_title">Acerca de Organic Maps</string>
+    <string name="about_menu_title">Acerca de CoMaps</string>
     <string name="profile">Perfil de OpenStreetMap</string>
     <string name="place_description_title">Descrición do lugar</string>
     <string name="avoid_tolls">Evitar peaxes</string>
