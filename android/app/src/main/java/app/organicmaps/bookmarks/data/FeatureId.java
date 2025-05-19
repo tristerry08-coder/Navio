@@ -93,6 +93,12 @@ public class FeatureId implements Parcelable
     return mFeatureIndex;
   }
 
+  public boolean isRealId() {
+    return !TextUtils.isEmpty(mMwmName) &&
+            mMwmVersion >= 0 &&
+            mFeatureIndex > 0;
+  }
+
   @Override
   public boolean equals(Object o)
   {

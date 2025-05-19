@@ -178,7 +178,7 @@ public class MapObject implements PlacePageData
     if (getClass() != other.getClass())
       return false;
 
-    if (mFeatureId != FeatureId.EMPTY && other.getFeatureId() != FeatureId.EMPTY)
+    if (mFeatureId.isRealId() && other.getFeatureId().isRealId())
       return mFeatureId.equals(other.getFeatureId());
 
     return Double.doubleToLongBits(mLon) == Double.doubleToLongBits(other.mLon) &&
