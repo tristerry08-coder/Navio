@@ -3,9 +3,6 @@ This file contains a list of all sensitive credentials, access keys, authenticat
 - [PRIVATE\_H](#private_h)
 - [RELEASE\_KEYSTORE](#release_keystore)
 - [SECURE\_PROPERTIES](#secure_properties)
-- [FIREBASE\_APP\_DISTRIBUTION\_JSON](#firebase_app_distribution_json)
-- [FIREBASE\_TEST\_LAB\_JSON](#firebase_test_lab_json)
-- [GOOGLE\_SERVICES\_JSON](#google_services_json)
 - [GOOGLE\_PLAY\_JSON](#google_play_json)
 - [HUAWEI\_APPGALLERY\_JSON](#huawei_appgallery_json)
 - [AGCONNECT\_SERVICES\_JSON](#agconnect_services_json)
@@ -39,30 +36,6 @@ Android Gradle configuration file containing the passwords for the `release.keys
 ```bash
 gh secret set SECURE_PROPERTIES --env beta --body "$(base64 < android/app/secure.properties)"
 gh secret set SECURE_PROPERTIES --env production --body "$(base64 < android/app/secure.properties)"
-```
-
-## FIREBASE_APP_DISTRIBUTION_JSON
-
-Credentials for uploading betas to Google Firebase App Distribution.
-
-```bash
-gh secret set FIREBASE_APP_DISTRIBUTION_JSON --env beta --body "$(base64 < android/app/firebase-app-distribution.json)"
-```
-
-## FIREBASE_TEST_LAB_JSON
-
-Credentials for using Firebase Test Lab ("Monkey").
-
-```bash
-gh secret set FIREBASE_TEST_LAB_JSON --env beta --body "$(base64 < android/app/firebase-test-lab.json)"
-```
-
-## GOOGLE_SERVICES_JSON
-
-Credentials for using Firebase Crashlytics.
-
-```bash
-gh secret set GOOGLE_SERVICES_JSON --env beta --body "$(base64 < android/app/google-services.json)"
 ```
 
 ## GOOGLE_PLAY_JSON

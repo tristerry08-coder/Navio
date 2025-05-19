@@ -5,14 +5,11 @@ androidxCarApp = "1.7.0-rc01"
 [libraries]
 android-tools = { module = "com.android.tools.build:gradle", version.ref = "androidGradlePlugin" }
 google-services = { module = "com.google.gms:google-services", version = "4.4.2" }
-google-firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics-gradle", version = "3.0.2" }
-google-firebase-appdistribution = { module = "com.google.firebase:firebase-appdistribution-gradle", version = "5.0.0" }
 triplet-play-publisher = { module = "com.github.triplet.gradle:play-publisher", version = "3.10.1" }
 huawei-publish = { module = "ru.cian:huawei-publish-gradle-plugin", version = "1.4.2" }
 android-tools-desugar = { module = "com.android.tools:desugar_jdk_libs", version = "2.1.4" }
 google-services-location = { module = "com.google.android.gms:play-services-location", version = "21.3.0" }
 microg-services-location = { module = "org.microg.gms:play-services-location", version = "0.3.6.244735" }
-google-firebase-bom = { module = "com.google.firebase:firebase-bom", version = "33.5.1" }
 androidx-core = { module = "androidx.core:core", version = "1.15.0" }
 jetbrains-kotlin-bom = { module = "org.jetbrains.kotlin:kotlin-bom", version = "2.1.10" }
 androidx-annotation = { module = "androidx.annotation:annotation", version = "1.9.1" }

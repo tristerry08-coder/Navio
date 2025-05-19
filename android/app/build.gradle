@@ -3,36 +3,14 @@ buildscript {
     google()
     mavenCentral()
   }
-  //
-  // The magic below is needed to disable Google Firebase Services during the build time.
-  // Unfortunately, the only way to disable Gradle plugins is to add these hardcore switches to buildscript().
-  //
 
   // Detect flavors from the task name.
   def taskName = getGradle().getStartParameter().getTaskRequests().toString().toLowerCase()
   def isFdroid = taskName.contains('fdroid')
   def isBeta = taskName.contains('beta')
 
-  // Firebase Crashlytics compile-time feature flag: -Pfirebase=true|false
-  def googleFirebaseServicesFlag = findProperty('firebase')
-  // Enable Firebase for all beta flavors except fdroid only if google-services.json exists.
-  def googleFirebaseServicesDefault = isBeta && !isFdroid && file("$projectDir/google-services.json").exists()
-  ext.googleFirebaseServicesEnabled = googleFirebaseServicesFlag != null ?
-      googleFirebaseServicesFlag == '' || googleFirebaseServicesFlag.toBoolean() :
-      googleFirebaseServicesDefault
-
   dependencies {
     classpath libs.android.tools
-
-    if (googleFirebaseServicesEnabled) {
-      println('Building with Google Firebase Services')
-      classpath libs.google.services
-      classpath libs.google.firebase.crashlytics
-      classpath libs.google.firebase.appdistribution
-    } else {
-      println('Building without Google Firebase Services')
-    }
-
     classpath(libs.triplet.play.publisher)
     classpath(libs.huawei.publish)
   }
@@ -45,11 +23,6 @@ repositories {
 }
 
 apply plugin: 'com.android.application'
-if (googleFirebaseServicesEnabled) {
-  apply plugin: 'com.google.gms.google-services'
-  apply plugin: 'com.google.firebase.crashlytics'
-  apply plugin: 'com.google.firebase.appdistribution'
-}
 apply plugin: 'com.github.triplet.play'
 apply plugin: 'ru.cian.huawei-publish-gradle-plugin'
 
@@ -285,14 +258,6 @@ android {
       resValue 'string', 'app_name', 'Debug CoMaps'
       // Do not generate separate debug symbols for debug apps, because we don't distribute them.
       ndk.debugSymbolLevel = 'none'
-
-      if (googleFirebaseServicesEnabled) {
-        // Keep debug symbols for test lab.
-        ndk.debugSymbolLevel = 'symbol_table'
-        firebaseCrashlytics {
-          nativeSymbolUploadEnabled true
-        }
-      }
     }
 
     release {
@@ -305,12 +270,6 @@ android {
       resValue 'string', 'app_name', project.ext.appName
       // Full size symbols are too big for Google, 217mb aab vs 95mb.
       ndk.debugSymbolLevel = 'symbol_table'
-
-      if (googleFirebaseServicesEnabled) {
-        firebaseCrashlytics {
-          nativeSymbolUploadEnabled true
-        }
-      }
     }
 
     beta {
@@ -326,19 +285,6 @@ android {
       resValue 'string', 'app_name', 'Beta CoMaps'
       // Full size symbols are too big for Google, 217mb aab vs 95mb.
       ndk.debugSymbolLevel = 'symbol_table'
-
-      if (googleFirebaseServicesEnabled) {
-        firebaseCrashlytics {
-          nativeSymbolUploadEnabled true
-        }
-        firebaseAppDistribution {
-          // A new beta release is created for each commit.
-          // Use the last commit message for the release notes.
-          releaseNotes = getCommitMessage()
-          groups = 'qa' // Notify only selected people.
-          serviceCredentialsFile = "$projectDir/firebase-app-distribution.json"
-        }
-      }
     }
   }
 
@@ -383,16 +329,6 @@ dependencies {
   // This is the microG project's re-implementation which is permissible on
   // F-droid because it's Apache-2.0.
   fdroidImplementation libs.microg.services.location
-
-  // Google Firebase Services
-  if (googleFirebaseServicesEnabled) {
-    // Import the BoM for the Firebase platform
-    implementation platform(libs.google.firebase.bom)
-    // Add the dependencies for the Crashlytics and Analytics libraries
-    // When using the BoM, you don't specify versions in Firebase library dependencies
-    implementation 'com.google.firebase:firebase-crashlytics'
-    implementation 'com.google.firebase:firebase-crashlytics-ndk'
-  }
 
   // This line is added as a workaround for duplicate classes error caused by some outdated dependency:
   // > A failure occurred while executing com.android.build.gradle.internal.tasks.CheckDuplicatesRunnable
