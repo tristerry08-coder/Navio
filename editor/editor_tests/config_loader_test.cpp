@@ -16,9 +16,9 @@ using platform::tests_support::ScopedFile;
 
 void CheckGeneralTags(pugi::xml_document const & doc)
 {
-  auto const types = doc.select_nodes("/omaps/editor/types");
+  auto const types = doc.select_nodes("/comaps/editor/types");
   TEST(!types.empty(), ());
-  auto const fields = doc.select_nodes("/omaps/editor/fields");
+  auto const fields = doc.select_nodes("/comaps/editor/fields");
   TEST(!fields.empty(), ());
 }
 
