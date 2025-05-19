@@ -100,7 +100,7 @@ VulkanContextFactory::VulkanContextFactory(uint32_t appVersionCode, int sdkVersi
   appInfo.apiVersion = VK_MAKE_VERSION(1, 0, 0);
   appInfo.applicationVersion = appVersionCode;
   appInfo.engineVersion = appVersionCode;
-  appInfo.pApplicationName = "OMaps";
+  appInfo.pApplicationName = "CoMaps";
   appInfo.pEngineName = "Drape Engine";
 
   bool enableDiagnostics = false;

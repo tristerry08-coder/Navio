@@ -84,10 +84,10 @@ Platform::Platform()
   auto const homeDir = GetEnv("HOME");
   CHECK(homeDir, ("Can't retrieve home directory"));
 
-  // XDG config directory, usually ~/.config/OMaps/
+  // XDG config directory, usually ~/.config/CoMaps/
   m_settingsDir = JoinPath(
       QStandardPaths::writableLocation(QStandardPaths::GenericConfigLocation).toStdString(),
-      "OMaps");
+      "CoMaps");
   if (!IsFileExistsByFullPath(JoinPath(m_settingsDir, SETTINGS_FILE_NAME)) && !MkDirRecursively(m_settingsDir))
     MYTHROW(FileSystemException, ("Can't create directory", m_settingsDir));
   m_settingsDir += '/';
@@ -103,10 +103,10 @@ Platform::Platform()
     std::string const dirsToScan[] = {
         "./data",  // symlink in the current folder
         "../data",  // 'build' folder inside the repo
-        JoinPath(*execDir, "..", "organicmaps", "data"),  // build-omim-{debug,release}
+        JoinPath(*execDir, "..", "comaps", "data"),  // build-omim-{debug,release}
         JoinPath(*execDir, "..", "share"),  // installed version with packages
-        JoinPath(*execDir, "..", "OMaps"),  // installed version without packages
-        JoinPath(*execDir, "..", "share", "organicmaps", "data"),  // flatpak-build
+        JoinPath(*execDir, "..", "CoMaps"),  // installed version without packages
+        JoinPath(*execDir, "..", "share", "comaps", "data"),  // flatpak-build
     };
     for (auto const & dir : dirsToScan)
     {
@@ -119,14 +119,14 @@ Platform::Platform()
       }
     }
   }
-  // Use ~/.local/share/OMaps if resources directory was not writable.
+  // Use ~/.local/share/CoMaps if resources directory was not writable.
   if (!m_resourcesDir.empty() && m_writableDir.empty())
   {
     // The writableLocation does the same for AppDataLocation, AppLocalDataLocation,
     // and GenericDataLocation. Provided, that test mode is not enabled, then
     // first it checks ${XDG_DATA_HOME}, if empty then it falls back to ${HOME}/.local/share
     m_writableDir = JoinPath(QStandardPaths::writableLocation(
-        QStandardPaths::AppDataLocation).toStdString(), "OMaps");
+        QStandardPaths::AppDataLocation).toStdString(), "CoMaps");
 
     if (!MkDirRecursively(m_writableDir))
       MYTHROW(FileSystemException, ("Can't create writable directory:", m_writableDir));

@@ -59,8 +59,8 @@ endif()
 target_include_directories(${PROJECT_NAME} PUBLIC ${OMIM_ROOT}/3party/glfw/include)
 target_include_directories(${PROJECT_NAME} PUBLIC ${OMIM_ROOT}/3party/imgui)
 
-set(BUNDLE_NAME "OMapsDevSandbox")
-set(BUNDLE_DISPLAY_NAME "Organic Maps: Developer Sandbox")
+set(BUNDLE_NAME "DevSandbox")
+set(BUNDLE_DISPLAY_NAME "Developer Render Sandbox")
 
 set_target_properties(${PROJECT_NAME} PROPERTIES OUTPUT_NAME ${BUNDLE_NAME})
 
