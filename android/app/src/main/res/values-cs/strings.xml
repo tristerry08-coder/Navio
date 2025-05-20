@@ -876,7 +876,7 @@
     <string name="maps_storage_external">Externí sdílené úložiště</string>
     <string name="telegram">Telegram</string>
     <string name="error_enter_correct_facebook_page">Zadejte platnou webovou adresu, účet nebo název stránky na Facebooku</string>
-    <string name="tts_info_link">https://comaps.app/faq/text-to-speech-android-tts/</string>
+    <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="disk_error_title">Chyba disku</string>
     <string name="error_enter_correct_line_page">Zadejte platné ID nebo webovou adresu LINE</string>
     <string name="move_maps_error">Chyba při přesouvání souborů mapy</string>

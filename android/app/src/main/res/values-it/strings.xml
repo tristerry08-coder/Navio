@@ -768,7 +768,7 @@
     <!-- OpenStreetMap text on splash screen -->
     <string name="splash_subtitle">Dati della mappa da OpenStreetMap</string>
     <!-- A link to the TTS FAQ -->
-    <string name="tts_info_link">https://comaps.app/it/faq/sintesi-vocale-tts-su-android/</string>
+    <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <!-- Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
     <string name="translated_om_site_url">https://comaps.app/it/</string>
     <!-- Link to OSM wiki for Editor, Profile and About pages -->

@@ -885,7 +885,7 @@
     <string name="disk_error">Немагчыма стварыць папку і перамясціць файлы на ўнутраную памяць прылады або SD-карту</string>
     <string name="error_enter_correct_facebook_page">Увядзіце сапраўдны вэб-адрас уліковага запісу ці імя старонкі Facebook</string>
     <string name="error_enter_correct_instagram_page">Увядзіце сапраўднае імя карыстальніка або спасылку Instagram</string>
-    <string name="tts_info_link">https://comaps.app/faq/text-to-speech-android-tts/</string>
+    <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <plurals name="bookmarks_detect_message">
         <item quantity="one">Знойдзены %d файл. Вы можаце ўбачыць яго пасля пераўтварэння.</item>
         <item quantity="few">Знойдзена %d файлы. Вы можаце ўбачыць іх пасля пераўтварэння.</item>

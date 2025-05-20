@@ -901,7 +901,7 @@
     <string name="vk">VK</string>
     <string name="instagram">Instagram</string>
     <string name="level_value_generic">Поверх: %s</string>
-    <string name="tts_info_link">https://comaps.app/faq/text-to-speech-android-tts/</string>
+    <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="wikimedia_commons">Wikimedia Commons</string>
     <string name="editor_add_phone">Додати телефон</string>
     <string name="comma_separated_pair">%1$s, %2$s</string>

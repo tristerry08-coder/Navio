@@ -900,7 +900,7 @@
     <string name="telegram_url">https://t.me/OrganicMapsApp</string>
     <string name="matrix">[Matrix]</string>
     <string name="telegram">Telegram</string>
-    <string name="tts_info_link">https://organicmaps.app/faq/text-to-speech-android-tts/</string>
+    <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="twitter">X (Twitter)</string>
     <string name="navigation_stop_button">Stop</string>
 </resources>

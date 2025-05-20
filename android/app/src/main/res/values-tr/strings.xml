@@ -895,6 +895,6 @@
     <string name="comma_separated_pair">%1$s, %2$s</string>
     <string name="matrix">[Matrix]</string>
     <string name="vk">VK</string>
-    <string name="tts_info_link">https://organicmaps.app/faq/text-to-speech-android-tts/</string>
+    <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="gb">GB</string>
 </resources>

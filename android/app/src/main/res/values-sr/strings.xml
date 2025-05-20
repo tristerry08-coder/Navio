@@ -886,7 +886,7 @@
     <string name="already_donated">Већ је донирано</string>
     <string name="remind_me_later">Подсети ме касније</string>
     <string name="support_organic_maps">Подршка CoMaps</string>
-    <string name="tts_info_link">https://comaps.app/faq/text-to-speech-android-tts/</string>
+    <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="editor_osm_history">Ваша историја уређивања</string>
     <string name="editor_osm_notes">Ваши подаци о мапи</string>
     <string name="aa_request_permission_activity_text">CoMaps у Android Auto-у је потребна дозвола за локацију да ефикасно раде</string>

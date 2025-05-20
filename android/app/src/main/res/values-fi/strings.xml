@@ -880,7 +880,7 @@
     <string name="openstreetmap">OpenStreetMap</string>
     <string name="level_value_generic">Kerros: %s</string>
     <string name="share_bookmarks_email_body">Hei! \n\nLiitteenä ovat kirjamerkkini; Avaa ne CoMaps -sovelluksessa. Mikäli sinulla ei ole vielä sovellusta asennettuna, voit ladata sen osoitteesta: https://comaps.app/get?kmz \n\nNauti matkustamisesta CoMaps:n kanssa!</string>
-    <string name="tts_info_link">https://comaps.app/faq/text-to-speech-android-tts/</string>
+    <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="translated_om_site_url">https://comaps.app/</string>
     <string name="telegram">Telegram</string>
     <string name="twitter">X (Twitter)</string>
