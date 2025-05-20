@@ -521,7 +521,7 @@
     <!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
     <string name="operator">Оператор: %s</string>
     <string name="editor_category_unsuitable_title">Не можете да пронађете одговарајућу категорију?</string>
-    <string name="editor_category_unsuitable_text">CoMaps омогућава додавање једноставних категорија за тачке на мапи, што искључује градове, путеве, језера, тлоцрте зграда, итд. Молимо Вас да такве категорије додате директно на <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Прочитајте наше <a href="https://comaps.app/faq/editing/advanced-map-editing">упутство</a> за детаљне инструкције, корак-по-корак.</string>
+    <string name="editor_category_unsuitable_text">CoMaps омогућава додавање једноставних категорија за тачке на мапи, што искључује градове, путеве, језера, тлоцрте зграда, итд. Молимо Вас да такве категорије додате директно на <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Прочитајте наше <a href="https://www.comaps.app/support/advanced-map-editing/">упутство</a> за детаљне инструкције, корак-по-корак.</string>
     <string name="downloader_no_downloaded_maps_title">Нисте преузели ни једну мапу</string>
     <string name="downloader_no_downloaded_maps_message">Преузмите мапе да бисте претраживали и користили навигацију без интернета.</string>
     <string name="current_location_unknown_error_title">Тренутна локација није позната.</string>

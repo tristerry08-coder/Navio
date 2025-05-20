@@ -532,7 +532,7 @@
     <!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
     <string name="operator">Operador: %s</string>
     <string name="editor_category_unsuitable_title">No trobeu una categoria adequada?</string>
-    <string name="editor_category_unsuitable_text">CoMaps només permet afegir categories de punts simples, això vol dir que no hi ha ciutats, carreteres, llacs, contorns d\'edificis, etc. Si us plau, afegiu aquestes categories directament a <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Consulteu la nostra <a href="https://comaps.app/faq/editing/advanced-map-editing">guia</a> per obtenir instruccions detallades pas a pas.</string>
+    <string name="editor_category_unsuitable_text">CoMaps només permet afegir categories de punts simples, això vol dir que no hi ha ciutats, carreteres, llacs, contorns d\'edificis, etc. Si us plau, afegiu aquestes categories directament a <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Consulteu la nostra <a href="https://www.comaps.app/support/advanced-map-editing/">guia</a> per obtenir instruccions detallades pas a pas.</string>
     <string name="downloader_no_downloaded_maps_title">No heu baixat cap mapa</string>
     <string name="downloader_no_downloaded_maps_message">Baixeu mapes per a cercar una ubicacio i usar la navegació sense connexió.</string>
     <string name="current_location_unknown_error_title">Es desconeix la ubicació actual.</string>

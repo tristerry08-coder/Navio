@@ -533,7 +533,7 @@
     <!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
     <string name="operator">İşletici: %s</string>
     <string name="editor_category_unsuitable_title">Uygun bir kategori bulamıyor musunuz?</string>
-    <string name="editor_category_unsuitable_text">CoMaps yalnızca basit nokta kategorilerini eklemeye izin verir. Yani kasaba, yol, göl, bina vb. çizgi/alan verisi ekleme desteği yoktur. Lütfen bu tür kategorileri doğrudan <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> üzerinden ekleyin. Adım adım ayrıntılı yönergeler için <a href="https://comaps.app/faq/editing/advanced-map-editing">rehberimize</a> göz atabilirsiniz.</string>
+    <string name="editor_category_unsuitable_text">CoMaps yalnızca basit nokta kategorilerini eklemeye izin verir. Yani kasaba, yol, göl, bina vb. çizgi/alan verisi ekleme desteği yoktur. Lütfen bu tür kategorileri doğrudan <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> üzerinden ekleyin. Adım adım ayrıntılı yönergeler için <a href="https://www.comaps.app/support/advanced-map-editing/">rehberimize</a> göz atabilirsiniz.</string>
     <string name="downloader_no_downloaded_maps_title">Hiç harita indirmediniz</string>
     <string name="downloader_no_downloaded_maps_message">Çevrim dışı olarak adres bulmak ve gezinmek için haritaları indirin.</string>
     <string name="current_location_unknown_error_title">Geçerli konum bilinmiyor.</string>

@@ -600,7 +600,7 @@
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Aператар: %@";
 "editor_category_unsuitable_title" = "Няма прыдатнай катэгорыі?";
-"editor_category_unsuitable_text" = "Organic Maps дазваляе дадаваць на карту толькі простыя тыпы аб'ектаў, гэта значыць без гарадоў, дарог, азёр і будынкаў. Калі ласка, дадавайце такія катэгорыі на сайце <a href=\"https://www.openstreetmap.org/\">OpenStreetMap.org </a>. Мы таксама рэкамендуем азнаёміцца з <a href=\"https://organicmaps.app/faq/editing/advanced-map-editing/\">падрабязнымі інструкцыямі і іншымі праграмамі для рэдагавання карты</a>.";
+"editor_category_unsuitable_text" = "Organic Maps дазваляе дадаваць на карту толькі простыя тыпы аб'ектаў, гэта значыць без гарадоў, дарог, азёр і будынкаў. Калі ласка, дадавайце такія катэгорыі на сайце <a href=\"https://www.openstreetmap.org/\">OpenStreetMap.org </a>. Мы таксама рэкамендуем азнаёміцца з <a href=\"https://www.comaps.app/support/advanced-map-editing/\">падрабязнымі інструкцыямі і іншымі праграмамі для рэдагавання карты</a>.";
 "downloader_no_downloaded_maps_title" = "Вы не спампавалі ніводнай карты";
 "downloader_no_downloaded_maps_message" = "Спампуйце карты, каб шукаць месцы і карыстацца навігацыяй без інтэрнэту.";
 "current_location_unknown_error_title" = "Месцазнаходжанне невядома.";

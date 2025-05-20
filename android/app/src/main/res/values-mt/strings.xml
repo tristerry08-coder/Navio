@@ -530,7 +530,7 @@
     <string name="enable_show_on_lock_screen_description">Meta tkun attivata, l-applikazzjoni taħdem fuq il-lockscreen anki meta t-tagħmir ikun imsakkar.</string>
     <string name="editor_comment_hint">Kumment…</string>
     <string name="editor_about_osm">L-editjar tiegħek jittella’ fid-database pubblika <a href="https://wiki.openstreetmap.org/wiki/About_OpenStreetMap">ta’ OpenStreetMap</a>. Jekk jogħġbok iżżidx informazzjoni personali jew bid-drittijiet tal-awtur.</string>
-    <string name="editor_category_unsuitable_text">CoMaps jippermetti li jiżdiedu kategoriji punti sempliċi biss, li jfisser l-ebda bliet, toroq, lagi, linji ġenerali tal-bini, eċċ. Jekk jogħġbok żid dawn il-kategoriji direttament mal-<a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Iċċekkja l-<a href="https://comaps.app/faq/editing/advanced-map-editing">gwida</a> tagħna għal struzzjonijiet dettaljati.</string>
+    <string name="editor_category_unsuitable_text">CoMaps jippermetti li jiżdiedu kategoriji punti sempliċi biss, li jfisser l-ebda bliet, toroq, lagi, linji ġenerali tal-bini, eċċ. Jekk jogħġbok żid dawn il-kategoriji direttament mal-<a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Iċċekkja l-<a href="https://www.comaps.app/support/advanced-map-editing/">gwida</a> tagħna għal struzzjonijiet dettaljati.</string>
     <string name="learn_more">Tgħallem iktar</string>
     <string name="editor_share_to_all_dialog_message_1">Kun ċert li ma daħħalt l-ebda informazzjoni privata jew personali.</string>
     <string name="error_enter_correct_instagram_page">Daħħal isem l-utent jew indirizz tal-web validu ta’ Instagram</string>
