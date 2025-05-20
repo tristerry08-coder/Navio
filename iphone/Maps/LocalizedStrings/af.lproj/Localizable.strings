@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Karavaanfasiliteite";
-"share_bookmarks_email_body" = "Hallo!\n\nMy boekmerke is aangeheg; open dit asb. in Organic Maps. Indien dit nie geïnstalleer is nie, kan u dit hier aflaai: https://www.comaps.app/download/\n\nGeniet dit om met Organic Maps te reis!";
+"share_bookmarks_email_body" = "Hallo!\n\nMy boekmerke is aangeheg; open dit asb. in CoMaps. Indien dit nie geïnstalleer is nie, kan u dit hier aflaai: https://www.comaps.app/download/\n\nGeniet dit om met CoMaps te reis!";
 
 /* message title of loading file */
 "load_kmz_title" = "Laai tans boekmerke";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "U ligging is nog nie vasgestel nie";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Hallo, kyk my liggingmerker in Organic Maps!";
+"bookmark_share_email_subject" = "Hallo, kyk my liggingmerker in CoMaps!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Hallo, sien my huidige ligging op die Organic Maps-toep!";
+"my_position_share_email_subject" = "Hallo, sien my huidige ligging op die CoMaps-toep!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "E-pos";
@@ -190,7 +190,7 @@
 "done" = "Gereed";
 
 /* Prints version number in About dialog */
-"version" = "Organic Maps weergawe: %@";
+"version" = "CoMaps weergawe: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Paaie";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "Webwerf";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "Nuus";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "Skenk om saam die beste kaarte te bou!";
 "already_donated" = "Reeds geskenk";
 "remind_me_later" = "Herinner later";
-"support_organic_maps" = "Ondersteun Organic Maps";
+"support_organic_maps" = "Ondersteun CoMaps";
 
 /* Button in the main Help dialog */
 "copyright" = "Kopiereg";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "U benodig meer spasie om af te laai. Skrap asb. enige onnodige data.";
-"editor_sharing_title" = "Ek het Organic Maps verbeter";
+"editor_sharing_title" = "Ek het CoMaps verbeter";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d van %2$d";
@@ -593,7 +593,7 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "Nota aan OpenStreetMap-vrywilligers (opsioneel)";
 "editor_detailed_description_hint" = "Gedetailleerde kommentaar";
-"editor_detailed_description" = "U het kaartveranderinge voorgestel wat na die OpenStreetMap-gemeenskap gestuur sal word. Beskryf asb. enige bykomende detail wat nie in Organic Maps gewysig kan word nie.";
+"editor_detailed_description" = "U het kaartveranderinge voorgestel wat na die OpenStreetMap-gemeenskap gestuur sal word. Beskryf asb. enige bykomende detail wat nie in CoMaps gewysig kan word nie.";
 "editor_more_about_osm" = "Meer oor OpenStreetMap";
 "editor_operator" = "Operateur";
 
@@ -615,7 +615,7 @@
 "location_services_disabled_on_device_2" = "2. Kies Privaatheid";
 "location_services_disabled_on_device_3" = "3. Kies Liggingdienste";
 "location_services_disabled_on_device_4" = "4. Skakel Liggingdienste aan";
-"location_services_disabled_on_device_additional_message" = "Of gaan voort om Organic Maps sonder ligging te gebruik";
+"location_services_disabled_on_device_additional_message" = "Of gaan voort om CoMaps sonder ligging te gebruik";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Bekyk";
-"recent_track_background_dialog_message" = "Organic Maps gebruik u ligging in die agtergrond om u onlangs berese roete op te neem.";
+"recent_track_background_dialog_message" = "CoMaps gebruik u ligging in die agtergrond om u onlangs berese roete op te neem.";
 "general_settings" = "Algemene instellings";
 
 /* For the first routing */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -959,10 +959,10 @@
 "app_tip_09" = "Our main goal is to build fast, privacy-focused, easy-to-use maps that you will love.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "You are now using Organic Maps on the phone screen";
+"car_used_on_the_phone_screen" = "You are now using CoMaps on the phone screen";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "You are now using Organic Maps on the car screen";
+"car_used_on_the_car_screen" = "You are now using CoMaps on the car screen";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Continue on the phone";
@@ -987,7 +987,7 @@
 "website_menu" = "Kieslys skakel";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Wil jy 'n foutverslag aan die ontwikkelaars stuur?\nOns maak staat op ons gebruikers aangesien Organic Maps nie outomaties enige foutinligting insamel nie. By voorbaat dankie vir die ondersteuning van Organic Maps!";
+"bugreport_alert_message" = "Wil jy 'n foutverslag aan die ontwikkelaars stuur?\nOns maak staat op ons gebruikers aangesien CoMaps nie outomaties enige foutinligting insamel nie. By voorbaat dankie vir die ondersteuning van CoMaps!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Aktiveer iCloud-sinchronisasie";

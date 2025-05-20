@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "สำหรับ RV";
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks; please open them in Organic Maps. If you don't have it installed you can download it here: https://www.comaps.app/download/\n\nEnjoy travelling with Organic Maps!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks; please open them in CoMaps. If you don't have it installed you can download it here: https://www.comaps.app/download/\n\nEnjoy travelling with CoMaps!";
 
 /* message title of loading file */
 "load_kmz_title" = "กำลังโหลดบุ๊กมาร์ก";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "ตำแหน่งที่ตั้งของคุณยังไม่ได้รับการกำหนด";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "เฮ้ ตรวจสอบหมุดของฉันที่ แผนที่ Organic Maps!";
+"bookmark_share_email_subject" = "เฮ้ ตรวจสอบหมุดของฉันที่ แผนที่ CoMaps!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "นี่ มาดูตำแหน่งปัจจุบันของฉันที่แผนที่ Organic Maps สิ!";
+"my_position_share_email_subject" = "นี่ มาดูตำแหน่งปัจจุบันของฉันที่แผนที่ CoMaps สิ!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "อีเมล";
@@ -190,7 +190,7 @@
 "done" = "เสร็จแล้ว";
 
 /* Prints version number in About dialog */
-"version" = "เวอร์ชัน Organic Maps: %@";
+"version" = "เวอร์ชัน CoMaps: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "การติดตาม";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "เว็บไซต์";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "ข่าว";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "บริจาคเพื่อสร้างแผนที่ที่ดีที่สุดด้วยกัน!";
 "already_donated" = "บริจาคแล้ว";
 "remind_me_later" = "เตือนภายหลัง";
-"support_organic_maps" = "สนับสนุน Organic Maps";
+"support_organic_maps" = "สนับสนุน CoMaps";
 
 /* Button in the main Help dialog */
 "copyright" = "ลิขสิทธิ์";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "ในการดาวน์โหลด คุณต้องมีพื้นที่มากขึ้น กรุณาลบเนื้อหาที่ไม่จำเป็นออกไป";
-"editor_sharing_title" = "ฉันได้ปรับปรุงแผนที่ Organic Maps";
+"editor_sharing_title" = "ฉันได้ปรับปรุงแผนที่ CoMaps";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d จาก %2$d";
@@ -593,7 +593,7 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "หมายเหตุถึงอาสาสมัคร OpenStreetMap (ไม่บังคับ)";
 "editor_detailed_description_hint" = "ข้อคิดเห็นอย่างละเอียด";
-"editor_detailed_description" = "คำแนะนำการเปลี่ยนแปลงของคุณจะถูกส่งไปยังกลุ่ม OpenStreetMap โปรดอธิบายรายละเอียดที่ Organic Maps ไม่สามารถแก้ไขได้";
+"editor_detailed_description" = "คำแนะนำการเปลี่ยนแปลงของคุณจะถูกส่งไปยังกลุ่ม OpenStreetMap โปรดอธิบายรายละเอียดที่ CoMaps ไม่สามารถแก้ไขได้";
 "editor_more_about_osm" = "ข้อมูลเพิ่มเติมเกี่ยวกับ OpenStreetMap";
 "editor_operator" = "ตัวดำเนินการ";
 
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "ตรวจชม";
-"recent_track_background_dialog_message" = "Organic Maps ใช้ตำแหน่งทางภูมิศาสตร์ของคุณในพื้นหลังเพื่อบันทึกเส้นทางที่คุณเดินทางเมื่อเร็ว ๆ นี้";
+"recent_track_background_dialog_message" = "CoMaps ใช้ตำแหน่งทางภูมิศาสตร์ของคุณในพื้นหลังเพื่อบันทึกเส้นทางที่คุณเดินทางเมื่อเร็ว ๆ นี้";
 "general_settings" = "การตั้งค่าทั่วไป";
 
 /* For the first routing */
@@ -779,7 +779,7 @@
 "power_managment_setting_never" = "ไม่ใช้";
 "power_managment_setting_auto" = "อัตโนมัติ";
 "power_managment_setting_manual_max" = "ประหยัดพลังงานสูงสุด";
-"enable_logging_warning_message" = "ออปชันเพื่อเปิดการบันทึกประวัติการทำงานเพื่อการวินิจฉัย ประวัติดังกล่าวอาจเป็นประโยชน์กับทีมงานช่วยเหลือของเราที่คอยจัดการกับปัญหาที่เจอระหว่างแอปทำงาน โปรดเปิดออปชันดังกล่าวจากการร้องข้อการสนับสนุนจาก Organic Maps เท่านั้น";
+"enable_logging_warning_message" = "ออปชันเพื่อเปิดการบันทึกประวัติการทำงานเพื่อการวินิจฉัย ประวัติดังกล่าวอาจเป็นประโยชน์กับทีมงานช่วยเหลือของเราที่คอยจัดการกับปัญหาที่เจอระหว่างแอปทำงาน โปรดเปิดออปชันดังกล่าวจากการร้องข้อการสนับสนุนจาก CoMaps เท่านั้น";
 "driving_options_title" = "ทางเลือกเส้นทางขับขี่";
 
 /* Recommended length for CarPlay and Android Auto is around 25-27 characters */
@@ -837,7 +837,7 @@
 "ok" = "โอเค";
 "speedcams_alert_title_carplay_1" = "จับความเร็ว";
 "speedcams_alert_title_carplay_2" = "เตือนความเร็ว";
-"download_map_carplay" = "โปรดดาวน์โหลดแผนที่ในแอพฯ Organic Maps บนอุปกรณ์ของคุณ";
+"download_map_carplay" = "โปรดดาวน์โหลดแผนที่ในแอพฯ CoMaps บนอุปกรณ์ของคุณ";
 "carplay_roundabout_exit" = "ทางออกที่ %@";
 
 /* max. 10 symbols, both iOS and Android */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -987,7 +987,7 @@
 "website_menu" = "ลิงค์เมนู";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "คุณต้องการส่งรายงานข้อผิดพลาดไปยังนักพัฒนาหรือไม่?\nเราไว้วางใจผู้ใช้ของเราเนื่องจาก Organic Maps จะไม่รวบรวมข้อมูลข้อผิดพลาดใด ๆ โดยอัตโนมัติ ขอขอบคุณล่วงหน้าสำหรับการสนับสนุน Organic Maps!";
+"bugreport_alert_message" = "คุณต้องการส่งรายงานข้อผิดพลาดไปยังนักพัฒนาหรือไม่?\nเราไว้วางใจผู้ใช้ของเราเนื่องจาก CoMaps จะไม่รวบรวมข้อมูลข้อผิดพลาดใด ๆ โดยอัตโนมัติ ขอขอบคุณล่วงหน้าสำหรับการสนับสนุน CoMaps!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "เปิดใช้งานการซิงโครไนซ์ iCloud";

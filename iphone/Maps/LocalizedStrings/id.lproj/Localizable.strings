@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Untuk RV";
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks; please open them in Organic Maps. If you don't have it installed you can download it here: https://www.comaps.app/download/\n\nEnjoy travelling with Organic Maps!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks; please open them in CoMaps. If you don't have it installed you can download it here: https://www.comaps.app/download/\n\nEnjoy travelling with CoMaps!";
 
 /* message title of loading file */
 "load_kmz_title" = "Memuat Penanda";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "Lokasi Anda belum ditentukan";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Hei, lihat pinku di peta Organic Maps";
+"bookmark_share_email_subject" = "Hei, lihat pinku di peta CoMaps";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Hei, lihat lokasiku saat ini di peta Organic Maps!";
+"my_position_share_email_subject" = "Hei, lihat lokasiku saat ini di peta CoMaps!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "Surel";
@@ -190,7 +190,7 @@
 "done" = "Selesai";
 
 /* Prints version number in About dialog */
-"version" = "Versi Organic Maps: %@";
+"version" = "Versi CoMaps: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Jalur";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "Situs Web";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "Berita";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "Donasi untuk membangun peta terbaik bersama-sama!";
 "already_donated" = "Sudah disumbang";
 "remind_me_later" = "Ingatkan nanti";
-"support_organic_maps" = "Mendukung Organic Maps";
+"support_organic_maps" = "Mendukung CoMaps";
 
 /* Button in the main Help dialog */
 "copyright" = "Hak cipta";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "Untuk mengunduh, Anda perlu ruang lebih banyak. Harap menghapus data yang tidak diperlukan.";
-"editor_sharing_title" = "Saya meningkatkan peta Organic Maps";
+"editor_sharing_title" = "Saya meningkatkan peta CoMaps";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d dari %2$d";
@@ -593,14 +593,14 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "Catatan untuk relawan OpenStreetMap (opsional)";
 "editor_detailed_description_hint" = "Komentar mendetail";
-"editor_detailed_description" = "Saran perubahan Anda akan dikirimkan ke komunitas OpenStreetMap. Jelaskan detail yang tidak dapat diedit di Organic Maps.";
+"editor_detailed_description" = "Saran perubahan Anda akan dikirimkan ke komunitas OpenStreetMap. Jelaskan detail yang tidak dapat diedit di CoMaps.";
 "editor_more_about_osm" = "Selengkapnya tentang OpenStreetMap";
 "editor_operator" = "Operator";
 
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Operator: %@";
 "editor_category_unsuitable_title" = "Tidak dapat menemukan kategori yang sesuai?";
-"editor_category_unsuitable_text" = "Organic Maps hanya memungkinkan untuk menambahkan kategori titik sederhana, yang berarti tidak ada kota, jalan, danau, garis besar bangunan, dll. Silahkan tambahkan kategori tersebut secara langsung ke <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Lihat <a href=\"https://www.comaps.app/support/advanced-map-editing/\">panduan</a> kami untuk petunjuk langkah demi langkah yang terperinci.";
+"editor_category_unsuitable_text" = "CoMaps hanya memungkinkan untuk menambahkan kategori titik sederhana, yang berarti tidak ada kota, jalan, danau, garis besar bangunan, dll. Silahkan tambahkan kategori tersebut secara langsung ke <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Lihat <a href=\"https://www.comaps.app/support/advanced-map-editing/\">panduan</a> kami untuk petunjuk langkah demi langkah yang terperinci.";
 "downloader_no_downloaded_maps_title" = "Tidak ada peta apa pun yang diunduh";
 "downloader_no_downloaded_maps_message" = "Unduh peta untuk menemukan lokasi dan bernavigasi secara offline.";
 "current_location_unknown_error_title" = "Lokasi saat ini tidak diketahui.";
@@ -615,7 +615,7 @@
 "location_services_disabled_on_device_2" = "2. Pilih Privasi";
 "location_services_disabled_on_device_3" = "3. Pilih Layanan Lokasi";
 "location_services_disabled_on_device_4" = "4. Aktifkan Layanan Lokasi";
-"location_services_disabled_on_device_additional_message" = "Atau lanjutkan menggunakan Organic Maps tanpa Lokasi";
+"location_services_disabled_on_device_additional_message" = "Atau lanjutkan menggunakan CoMaps tanpa Lokasi";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Lihat";
-"recent_track_background_dialog_message" = "Organic Maps menggunakan geoposisi di latar belakang untuk merekam rute yang baru Anda lalui.";
+"recent_track_background_dialog_message" = "CoMaps menggunakan geoposisi di latar belakang untuk merekam rute yang baru Anda lalui.";
 "general_settings" = "Setelan umum";
 
 /* For the first routing */
@@ -779,7 +779,7 @@
 "power_managment_setting_never" = "Jangan pernah";
 "power_managment_setting_auto" = "Otomatis";
 "power_managment_setting_manual_max" = "Hemat daya maksimum";
-"enable_logging_warning_message" = "Opsi ini mengaktifkan pencatatan untuk tujuan diagnostik. Bisa amat membantu bagi staf dukungan kami yang memecahkan masalah dalam aplikasi. Aktifkan opsi ini hanya saat diminta oleh dukungan Organic Maps.";
+"enable_logging_warning_message" = "Opsi ini mengaktifkan pencatatan untuk tujuan diagnostik. Bisa amat membantu bagi staf dukungan kami yang memecahkan masalah dalam aplikasi. Aktifkan opsi ini hanya saat diminta oleh dukungan CoMaps.";
 "driving_options_title" = "Pilihan berkendara";
 
 /* Recommended length for CarPlay and Android Auto is around 25-27 characters */
@@ -837,7 +837,7 @@
 "ok" = "Oke";
 "speedcams_alert_title_carplay_1" = "Speedcam";
 "speedcams_alert_title_carplay_2" = "Info kecepatan";
-"download_map_carplay" = "Silakan unduh peta di apl Organic Maps pada perangkat Anda";
+"download_map_carplay" = "Silakan unduh peta di apl CoMaps pada perangkat Anda";
 "carplay_roundabout_exit" = "Jalan keluar ke %@";
 
 /* max. 10 symbols, both iOS and Android */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/id/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -959,10 +959,10 @@
 "app_tip_09" = "Tujuan utama kami adalah membuat peta yang cepat, berfokus pada privasi, dan mudah digunakan yang akan Anda sukai.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Anda sekarang menggunakan Organic Maps pada layar ponsel";
+"car_used_on_the_phone_screen" = "Anda sekarang menggunakan CoMaps pada layar ponsel";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Anda sekarang menggunakan Organic Maps pada layar mobil";
+"car_used_on_the_car_screen" = "Anda sekarang menggunakan CoMaps pada layar mobil";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Lanjutkan di telepon";
@@ -987,7 +987,7 @@
 "website_menu" = "Tautan menu";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Apakah Anda ingin mengirim laporan bug ke pengembang?\nKami mengandalkan pengguna kami karena Organic Maps tidak mengumpulkan informasi kesalahan secara otomatis. Terima kasih sebelumnya karena telah mendukung Peta Organik!";
+"bugreport_alert_message" = "Apakah Anda ingin mengirim laporan bug ke pengembang?\nKami mengandalkan pengguna kami karena CoMaps tidak mengumpulkan informasi kesalahan secara otomatis. Terima kasih sebelumnya karena telah mendukung Peta Organik!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Mengaktifkan Sinkronisasi iCloud";

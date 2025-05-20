@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Haagiselamud";
-"share_bookmarks_email_body" = "Tere!\n\nManuses on minu järjehoidjad rakendusest Organic Maps. Palun ava need kui Sul on Organic Maps paigaldatud. Või kui ei ole, laadi rakendus alla oma iOS või Android seadmesse, järgides seda linki: https:omaps.appget?kmz\n\nNaudi reisimist Organic Mapsiga!";
+"share_bookmarks_email_body" = "Tere!\n\nManuses on minu järjehoidjad rakendusest CoMaps. Palun ava need kui Sul on CoMaps paigaldatud. Või kui ei ole, laadi rakendus alla oma iOS või Android seadmesse, järgides seda linki: https:omaps.appget?kmz\n\nNaudi reisimist Organic Mapsiga!";
 
 /* message title of loading file */
 "load_kmz_title" = "Järjehoidjate laadimine";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "Sinu asukoht ei ole veel tuvastatud";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Hei, vaata minu asukoha märget Organic Mapsi kaardil!";
+"bookmark_share_email_subject" = "Hei, vaata minu asukoha märget CoMapsi kaardil!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Hei, vaata minu praegust asukohta Organic Mapsi kaardil!";
+"my_position_share_email_subject" = "Hei, vaata minu praegust asukohta CoMapsi kaardil!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "E-post";
@@ -190,7 +190,7 @@
 "done" = "Valmis";
 
 /* Prints version number in About dialog */
-"version" = "Organic Mapsi versioon: %@";
+"version" = "CoMapsi versioon: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Rajad";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "Veebisait";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "Uudised";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "Anneta, et luua koos parimaid kaarte!";
 "already_donated" = "Juba annetasin";
 "remind_me_later" = "Meenuta hiljem";
-"support_organic_maps" = "Toeta Organic Mapsi";
+"support_organic_maps" = "Toeta CoMapsi";
 
 /* Button in the main Help dialog */
 "copyright" = "Autoriõigused";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "Allalaadimiseks vajad rohkem andmeruumi. Palun kustuta ebavajalikke andmeid.";
-"editor_sharing_title" = "Parandasin Organic Maps kaarte";
+"editor_sharing_title" = "Parandasin CoMaps kaarte";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d/%2$d";
@@ -593,14 +593,14 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "Märkus OpenStreetMapi vabatahtlikele (valikuline)";
 "editor_detailed_description_hint" = "Üksikasjalik kommentaar";
-"editor_detailed_description" = "Sinu soovitatud kaardimuudatused saadetakse OpenStreetMapi kogukonnale. Kirjelda kõiki täiendavaid üksikasju, mida ei saa Organic Mapsis muuta.";
+"editor_detailed_description" = "Sinu soovitatud kaardimuudatused saadetakse OpenStreetMapi kogukonnale. Kirjelda kõiki täiendavaid üksikasju, mida ei saa CoMapsis muuta.";
 "editor_more_about_osm" = "Lisateave OpenStreetMapi kohta";
 "editor_operator" = "Käitaja";
 
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Käitaja: %@";
 "editor_category_unsuitable_title" = "Ei leia sobivat kategooriat?";
-"editor_category_unsuitable_text" = "Organic Maps võimaldab lisada ainult lihtsaid huvipunkte, see tähendab, et ei mingeid linnu, teid, järvi, hoonete piirjooni jne. Palun lisa sellised kategooriad otse <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> saidis. Vaata meie <a href=\"https://www.comaps.app/support/advanced-map-editing/\">juhendit</a> üksikasjalike samm-sammuliste juhiste saamiseks.";
+"editor_category_unsuitable_text" = "CoMaps võimaldab lisada ainult lihtsaid huvipunkte, see tähendab, et ei mingeid linnu, teid, järvi, hoonete piirjooni jne. Palun lisa sellised kategooriad otse <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> saidis. Vaata meie <a href=\"https://www.comaps.app/support/advanced-map-editing/\">juhendit</a> üksikasjalike samm-sammuliste juhiste saamiseks.";
 "downloader_no_downloaded_maps_title" = "Sa ei ole kaarte alla laadinud";
 "downloader_no_downloaded_maps_message" = "Laadi alla kaardid asukoha otsimiseks ja võrguühenduseta tee juhatamiseks.";
 "current_location_unknown_error_title" = "Hetkeasukoht on teadmata.";
@@ -615,7 +615,7 @@
 "location_services_disabled_on_device_2" = "2. Vali „Privaatsus“";
 "location_services_disabled_on_device_3" = "3. Vali „Asukohateenused“";
 "location_services_disabled_on_device_4" = "4. Lülita sisse asukohateenused";
-"location_services_disabled_on_device_additional_message" = "Või jätka Organic Mapsi kasutamist ilma asukohata";
+"location_services_disabled_on_device_additional_message" = "Või jätka CoMapsi kasutamist ilma asukohata";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Vaata järele";
-"recent_track_background_dialog_message" = "Organic Maps kasutab Sinu geograafilist asukohta taustal Sinu hiljuti läbitud teekonna salvestamiseks.";
+"recent_track_background_dialog_message" = "CoMaps kasutab Sinu geograafilist asukohta taustal Sinu hiljuti läbitud teekonna salvestamiseks.";
 "general_settings" = "Üldseadistused";
 
 /* For the first routing */
@@ -837,7 +837,7 @@
 "ok" = "Sobib";
 "speedcams_alert_title_carplay_1" = "Kiiruskaamerad";
 "speedcams_alert_title_carplay_2" = "Kiiruse hoiatused";
-"download_map_carplay" = "Palun laadi alla kaardid oma nutiseadme Organic Maps rakenduses";
+"download_map_carplay" = "Palun laadi alla kaardid oma nutiseadme CoMaps rakenduses";
 "carplay_roundabout_exit" = "%@ ärapööre";
 
 /* max. 10 symbols, both iOS and Android */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -959,10 +959,10 @@
 "app_tip_09" = "Meie põhieesmärk on luua kiireid, privaatsusele keskenduvaid ja hõlpsasti kasutatavaid kaarte, mis sulle meeldivad.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Nüüd kasutad telefoni ekraanil Organic Mapsi";
+"car_used_on_the_phone_screen" = "Nüüd kasutad telefoni ekraanil CoMapsi";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Nüüd kasutad auto ekraanil Organic Mapsi";
+"car_used_on_the_car_screen" = "Nüüd kasutad auto ekraanil CoMapsi";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Jätka telefonis";
@@ -987,7 +987,7 @@
 "website_menu" = "Menüü link";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Kas soovid saata arendajatele veateate?\nMe toetume oma kasutajatele, kuna Organic Maps ei kogu automaatselt mingit veateavet. Täname sind juba ette Organic Mapsi toetamise eest!";
+"bugreport_alert_message" = "Kas soovid saata arendajatele veateate?\nMe toetume oma kasutajatele, kuna CoMaps ei kogu automaatselt mingit veateavet. Täname sind juba ette CoMapsi toetamise eest!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Luba iCloudi sünkroniseerimine";

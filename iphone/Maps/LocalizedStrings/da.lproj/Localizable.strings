@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Autocamper-faciliteter";
-"share_bookmarks_email_body" = "Hej! \n\nVedhæftet er mine bogmærker; åbn dem venligst i Organic Maps. Hvis du ikke har den installeret, kan du downloade den her: https://www.comaps.app/download/\n\nGod rejse med Organic Maps!";
+"share_bookmarks_email_body" = "Hej! \n\nVedhæftet er mine bogmærker; åbn dem venligst i CoMaps. Hvis du ikke har den installeret, kan du downloade den her: https://www.comaps.app/download/\n\nGod rejse med CoMaps!";
 
 /* message title of loading file */
 "load_kmz_title" = "Indlæser bogmærker";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "Din placering er ikke blevet bestemt endnu";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Hey, tjek min knappenål på Organic Maps!";
+"bookmark_share_email_subject" = "Hey, tjek min knappenål på CoMaps!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Hey, tjek min nuværende placering på Organic Maps-kortet!";
+"my_position_share_email_subject" = "Hey, tjek min nuværende placering på CoMaps-kortet!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "E-mail";
@@ -190,7 +190,7 @@
 "done" = "Færdig";
 
 /* Prints version number in About dialog */
-"version" = "Organic Maps version: %@";
+"version" = "CoMaps version: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Spor";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "Hjemmeside";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "Nyheder";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "Donér for at bygge de bedste kort sammen!";
 "already_donated" = "Allerede doneret";
 "remind_me_later" = "Påmind mig senere";
-"support_organic_maps" = "Støt Organic Maps";
+"support_organic_maps" = "Støt CoMaps";
 
 /* Button in the main Help dialog */
 "copyright" = "Copyright";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "For at opdatere app'en skal du bruge mere plads. Slet unødvendig data.";
-"editor_sharing_title" = "Jeg forbedrede Organic Maps kortene";
+"editor_sharing_title" = "Jeg forbedrede CoMaps kortene";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d af %2$d";
@@ -593,14 +593,14 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "Note til OpenStreetMap-frivillige (valgfrit)";
 "editor_detailed_description_hint" = "Detaljerede bemærkninger";
-"editor_detailed_description" = "Dine foreslåede ændringer vil blive sendt til OpenStreetMap fællesskabet. Beskrive detaljer, som ikke kan redigeres i Organic Maps.";
+"editor_detailed_description" = "Dine foreslåede ændringer vil blive sendt til OpenStreetMap fællesskabet. Beskrive detaljer, som ikke kan redigeres i CoMaps.";
 "editor_more_about_osm" = "Mere om OpenStreetMap";
 "editor_operator" = "Operatør";
 
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Operatør: %@";
 "editor_category_unsuitable_title" = "Kan du ikke finde en passende kategori?";
-"editor_category_unsuitable_text" = "Organic Maps giver kun mulighed for at tilføje simple punktkategorier, dvs. ingen byer, veje, søer, bygningsomrids osv. Tilføj sådanne kategorier direkte til <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Se vores <a href=\"https://www.comaps.app/support/advanced-map-editing/\">guide</a> for detaljerede trin for trin-instruktioner.";
+"editor_category_unsuitable_text" = "CoMaps giver kun mulighed for at tilføje simple punktkategorier, dvs. ingen byer, veje, søer, bygningsomrids osv. Tilføj sådanne kategorier direkte til <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Se vores <a href=\"https://www.comaps.app/support/advanced-map-editing/\">guide</a> for detaljerede trin for trin-instruktioner.";
 "downloader_no_downloaded_maps_title" = "Du har ikke downloadet nogen kort";
 "downloader_no_downloaded_maps_message" = "Download kort for at søge og navigere offline.";
 "current_location_unknown_error_title" = "Aktuel placering er ukendt.";
@@ -615,7 +615,7 @@
 "location_services_disabled_on_device_2" = "2. Vælg Privatliv";
 "location_services_disabled_on_device_3" = "3. Vælg Placeringstjenester";
 "location_services_disabled_on_device_4" = "4. Slå placeringstjenester til";
-"location_services_disabled_on_device_additional_message" = "Eller fortsæt med at bruge Organic Maps uden placering";
+"location_services_disabled_on_device_additional_message" = "Eller fortsæt med at bruge CoMaps uden placering";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Tjek";
-"recent_track_background_dialog_message" = "Organic Maps anvender din placering i baggrunden til at gemme din nyligt tilbagelagte rute.";
+"recent_track_background_dialog_message" = "CoMaps anvender din placering i baggrunden til at gemme din nyligt tilbagelagte rute.";
 "general_settings" = "Generelle indstillinger";
 
 /* For the first routing */
@@ -837,7 +837,7 @@
 "ok" = "Ok";
 "speedcams_alert_title_carplay_1" = "Radarkontrol";
 "speedcams_alert_title_carplay_2" = "Radar advarsel";
-"download_map_carplay" = "Download kort i Organic Maps appen, på din enhed";
+"download_map_carplay" = "Download kort i CoMaps appen, på din enhed";
 "carplay_roundabout_exit" = "%@ afkørsel";
 
 /* max. 10 symbols, both iOS and Android */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -959,10 +959,10 @@
 "app_tip_09" = "Vores hovedmål er at bygge hurtige, privatlivsfokuserede, brugervenlige kort, som du vil elske.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Du bruger nu Organic Maps på telefonens skærm";
+"car_used_on_the_phone_screen" = "Du bruger nu CoMaps på telefonens skærm";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Du bruger nu Organic Maps på bilens skærm";
+"car_used_on_the_car_screen" = "Du bruger nu CoMaps på bilens skærm";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Fortsæt på telefonen";
@@ -987,7 +987,7 @@
 "website_menu" = "Link til menu";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Vil du gerne sende en fejlrapport til udviklerne?\nVi er afhængige af vores brugere, da Organic Maps ikke indsamler nogen fejloplysninger automatisk. Tak på forhånd for at støtte Organic Maps!";
+"bugreport_alert_message" = "Vil du gerne sende en fejlrapport til udviklerne?\nVi er afhængige af vores brugere, da CoMaps ikke indsamler nogen fejloplysninger automatisk. Tak på forhånd for at støtte CoMaps!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Aktivér iCloud-synkronisering";

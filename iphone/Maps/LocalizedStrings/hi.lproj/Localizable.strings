@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "वेबसाइट";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "समाचार";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "एक साथ सर्वोत्तम मानचित्र बनाने के लिए दान करें!";
 "already_donated" = "पहले से दान";
 "remind_me_later" = "बाद में याद दिलाना";
-"support_organic_maps" = "Organic Maps का समर्थन करें";
+"support_organic_maps" = "CoMaps का समर्थन करें";
 
 /* Button in the main Help dialog */
 "copyright" = "कॉपीराइट";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "डाउनलोड करने के लिए आपको अधिक जगह की आवश्यकता होगी। कृपया कोई भी अनावश्यक डेटा हटा दें.";
-"editor_sharing_title" = "I improved the Organic Maps maps";
+"editor_sharing_title" = "I improved the CoMaps maps";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%2$d में से %1$d";
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Check out";
-"recent_track_background_dialog_message" = "Organic Maps आपके हाल ही में यात्रा किए गए मार्ग को रिकॉर्ड करने के लिए पृष्ठभूमि में आपके स्थान का उपयोग करता है।";
+"recent_track_background_dialog_message" = "CoMaps आपके हाल ही में यात्रा किए गए मार्ग को रिकॉर्ड करने के लिए पृष्ठभूमि में आपके स्थान का उपयोग करता है।";
 "general_settings" = "सामान्य सेटिंग्स";
 
 /* For the first routing */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/hi/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */

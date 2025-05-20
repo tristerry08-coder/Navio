@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Karabanak";
-"share_bookmarks_email_body" = "Kaixo!\nNire markagailuak Organic Maps aplikazioan erantsi ditut. Mesedez, ireki itzazu Organic Maps instalatuta baduzu. Edo, ez baduzu, deskargatu aplikazioa zure iOS edo Android gailurako esteka hau jarraituz: https://www.comaps.app/download/\n\nGozatu bidaiatzen Organic Maps-ekin!";
+"share_bookmarks_email_body" = "Kaixo!\nNire markagailuak CoMaps aplikazioan erantsi ditut. Mesedez, ireki itzazu CoMaps instalatuta baduzu. Edo, ez baduzu, deskargatu aplikazioa zure iOS edo Android gailurako esteka hau jarraituz: https://www.comaps.app/download/\n\nGozatu bidaiatzen Organic Maps-ekin!";
 
 /* message title of loading file */
 "load_kmz_title" = "Markagailuak kargatzen";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "Zure kokapena ez da oraindik zehaztu";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Begiratu nire markagailua Organic Maps mapan!";
+"bookmark_share_email_subject" = "Begiratu nire markagailua CoMaps mapan!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Ikusi nire uneko kokapena Organic Maps mapan!";
+"my_position_share_email_subject" = "Ikusi nire uneko kokapena CoMaps mapan!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "Posta elektronikoa";
@@ -190,7 +190,7 @@
 "done" = "Eginda";
 
 /* Prints version number in About dialog */
-"version" = "Organic Maps bertsioa: %@";
+"version" = "CoMaps bertsioa: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Arrastoak";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "Webgunea";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "Albisteak";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "Eman dohaintza elkarrekin mapa onenak eraikitzeko!";
 "already_donated" = "Dohaintza jada emana";
 "remind_me_later" = "Gogoratu geroago";
-"support_organic_maps" = "Sustatu Organic Maps";
+"support_organic_maps" = "Sustatu CoMaps";
 
 /* Button in the main Help dialog */
 "copyright" = "Egile eskubideak";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "Leku gehiago behar duzu deskargatzeko. Ezabatu beharrezkoak ez diren datuak.";
-"editor_sharing_title" = "Organic Maps mapak hobetu ditut";
+"editor_sharing_title" = "CoMaps mapak hobetu ditut";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d/%2$d";
@@ -600,7 +600,7 @@
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Operadorea: %@";
 "editor_category_unsuitable_title" = "Ezin duzu kategoria egokirik aurkitu?";
-"editor_category_unsuitable_text" = "Organic Maps-ek puntu kategoria soilak gehitzeko aukera ematen du, hau da, ez da herririk, errepiderik, lakurik, eraikinen eskemarik, etab. Gehitu kategoria horiek zuzenean <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Begiratu gure <a href=\"https://www.comaps.app/support/advanced-map-editing/\">gida</a> urratsez urrats argibide zehatzak lortzeko.";
+"editor_category_unsuitable_text" = "CoMaps-ek puntu kategoria soilak gehitzeko aukera ematen du, hau da, ez da herririk, errepiderik, lakurik, eraikinen eskemarik, etab. Gehitu kategoria horiek zuzenean <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Begiratu gure <a href=\"https://www.comaps.app/support/advanced-map-editing/\">gida</a> urratsez urrats argibide zehatzak lortzeko.";
 "downloader_no_downloaded_maps_title" = "Ez duzu maparik deskargatu";
 "downloader_no_downloaded_maps_message" = "Deskargatu mapak kokapena aurkitzeko eta lineaz kanpo nabigatzeko.";
 "current_location_unknown_error_title" = "Uneko kokapena ezezaguna da.";
@@ -615,7 +615,7 @@
 "location_services_disabled_on_device_2" = "2. Hautatu Pribatutasuna";
 "location_services_disabled_on_device_3" = "3. Hautatu Kokapen zerbitzuak";
 "location_services_disabled_on_device_4" = "4. Aktibatu Kokapen Zerbitzuak";
-"location_services_disabled_on_device_additional_message" = "Edo jarraitu kokapenik gabeko Organic Maps erabiltzen";
+"location_services_disabled_on_device_additional_message" = "Edo jarraitu kokapenik gabeko CoMaps erabiltzen";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Egiaztatu";
-"recent_track_background_dialog_message" = "Organic Maps-ek zure geokokapena erabiltzen du atzeko planoan egindako azken ibilbidea erregistratzeko.";
+"recent_track_background_dialog_message" = "CoMaps-ek zure geokokapena erabiltzen du atzeko planoan egindako azken ibilbidea erregistratzeko.";
 "general_settings" = "Ezarpen orokorrak";
 
 /* For the first routing */
@@ -779,7 +779,7 @@
 "power_managment_setting_never" = "Inoiz ez";
 "power_managment_setting_auto" = "Automatikoa";
 "power_managment_setting_manual_max" = "Energia aurrezpen handiena";
-"enable_logging_warning_message" = "Aukera hau diagnostiko helburua duten erregistro ekintzetarako gaituta dago. Honek gure taldeari aplikazioarekin arazoak identifikatzen laguntzen dio. Gaitu aukera Organic Maps laguntzari eskatuta soilik.";
+"enable_logging_warning_message" = "Aukera hau diagnostiko helburua duten erregistro ekintzetarako gaituta dago. Honek gure taldeari aplikazioarekin arazoak identifikatzen laguntzen dio. Gaitu aukera CoMaps laguntzari eskatuta soilik.";
 "driving_options_title" = "Bideratzeko aukerak";
 
 /* Recommended length for CarPlay and Android Auto is around 25-27 characters */
@@ -837,7 +837,7 @@
 "ok" = "Ados";
 "speedcams_alert_title_carplay_1" = "Abiadura kamerak.";
 "speedcams_alert_title_carplay_2" = "Abiadura alertak.";
-"download_map_carplay" = "Deskargatu mapak zure gailuko Organic Maps aplikazioan";
+"download_map_carplay" = "Deskargatu mapak zure gailuko CoMaps aplikazioan";
 "carplay_roundabout_exit" = "%@ irteera";
 
 /* max. 10 symbols, both iOS and Android */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/eu/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -959,10 +959,10 @@
 "app_tip_09" = "Gure helburu nagusia maite dituzun mapa azkarrak, pribatutasunari begira eta erabilerrazak sortzea da.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Organic Maps telefonoaren pantailan erabiltzen ari zara";
+"car_used_on_the_phone_screen" = "CoMaps telefonoaren pantailan erabiltzen ari zara";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Organic Maps autoaren pantailan erabiltzen ari zara";
+"car_used_on_the_car_screen" = "CoMaps autoaren pantailan erabiltzen ari zara";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Jarraitu telefonoan";
@@ -987,7 +987,7 @@
 "website_menu" = "Menuaren esteka";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Akatsen txostena bidali nahi diezu garatzaileei?\nGure erabiltzaileengan oinarritzen gara Organic Maps-ek ez baitu automatikoki akatsen informaziorik biltzen. Eskerrik asko aldez aurretik Maps organikoak laguntzeagatik!";
+"bugreport_alert_message" = "Akatsen txostena bidali nahi diezu garatzaileei?\nGure erabiltzaileengan oinarritzen gara CoMaps-ek ez baitu automatikoki akatsen informaziorik biltzen. Eskerrik asko aldez aurretik Maps organikoak laguntzeagatik!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Gaitu iCloud sinkronizazioa";

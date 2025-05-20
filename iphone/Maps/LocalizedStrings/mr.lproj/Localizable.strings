@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "कँपिंग वाहन सोयी";
-"share_bookmarks_email_body" = "नमस्कार!\n\nOrganic Maps ऍप मधील माझे खूणपत्रे संलग्न केले आहेत. तुम्ही Organic Maps इन्स्टॉल केले असल्यास हे खूणपत्रे उघडा. इन्स्टॉल केले नसल्यास, पुढील दुव्यावर जाऊन तुमच्या iOS किंवा अँड्रॉइड उपकरणावर हे डाउनलोड करा: https://www.comaps.app/download/\n\nOrganic Maps सह प्रवासाचा आनंद घ्या!";
+"share_bookmarks_email_body" = "नमस्कार!\n\nCoMaps ऍप मधील माझे खूणपत्रे संलग्न केले आहेत. तुम्ही CoMaps इन्स्टॉल केले असल्यास हे खूणपत्रे उघडा. इन्स्टॉल केले नसल्यास, पुढील दुव्यावर जाऊन तुमच्या iOS किंवा अँड्रॉइड उपकरणावर हे डाउनलोड करा: https://www.comaps.app/download/\n\nOrganic Maps सह प्रवासाचा आनंद घ्या!";
 
 /* message title of loading file */
 "load_kmz_title" = "खूणपत्रे वाचत आहे";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "तुमचे स्थान अद्याप निश्चित केलेले नाही";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Organic Maps द्वारे एक खूणपत्र पाठवत आहे!";
+"bookmark_share_email_subject" = "CoMaps द्वारे एक खूणपत्र पाठवत आहे!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Organic Maps द्वारे माझे वर्तमान स्थान पाठवत आहे!";
+"my_position_share_email_subject" = "CoMaps द्वारे माझे वर्तमान स्थान पाठवत आहे!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "ई-मेल";
@@ -190,7 +190,7 @@
 "done" = "झाले";
 
 /* Prints version number in About dialog */
-"version" = "Organic Maps आवृत्ती: %@";
+"version" = "CoMaps आवृत्ती: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "ट्रॅक";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "संकेतस्थळ";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "बातम्या";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "एकत्र सर्वोत्तम नकाशे तयार करण्यासाठी देणगी द्या!";
 "already_donated" = "आधीच दान केले";
 "remind_me_later" = "नंतर आठवण करून द्या";
-"support_organic_maps" = "Organic Maps ला समर्थन द्या";
+"support_organic_maps" = "CoMaps ला समर्थन द्या";
 
 /* Button in the main Help dialog */
 "copyright" = "प्रकाशन अधिकार (कॉपीराईट)";
@@ -570,7 +570,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "डाउनलोड करण्यासाठी तुम्हाला अधिक जागा आवश्यक आहे. कृपया अनावश्यक डेटा पुसून टाका.";
-"editor_sharing_title" = "मी Organic Maps नकाशे सुधारित केले";
+"editor_sharing_title" = "मी CoMaps नकाशे सुधारित केले";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%2$d पैकी %1$d";
@@ -590,7 +590,7 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "OpenStreetMap स्वयंसेवकांसाठी टीप (पर्यायी)";
 "editor_detailed_description_hint" = "तपशीलवार टिप्पणी";
-"editor_detailed_description" = "तुम्ही सुचवलेले नकाशातील बदल OpenStreetMap समुदायाला पाठवले जातील. Organic Maps मध्ये संपादित न करता येणाऱ्या अधिक तपशीलांचे वर्णन करा.";
+"editor_detailed_description" = "तुम्ही सुचवलेले नकाशातील बदल OpenStreetMap समुदायाला पाठवले जातील. CoMaps मध्ये संपादित न करता येणाऱ्या अधिक तपशीलांचे वर्णन करा.";
 "editor_more_about_osm" = "OpenStreetMap बद्दल अधिक";
 "editor_operator" = "ऑपरेटर";
 
@@ -670,7 +670,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "तपासा";
-"recent_track_background_dialog_message" = "तुम्ही अलीकडे प्रवास केलेला मार्ग रेकॉर्ड करण्यासाठी Organic Maps पार्श्वभूमीत तुमचे स्थान वापरते.";
+"recent_track_background_dialog_message" = "तुम्ही अलीकडे प्रवास केलेला मार्ग रेकॉर्ड करण्यासाठी CoMaps पार्श्वभूमीत तुमचे स्थान वापरते.";
 "general_settings" = "सामान्य सेटिंग";
 
 /* For the first routing */
@@ -834,7 +834,7 @@
 "ok" = "ठीक आहे";
 "speedcams_alert_title_carplay_1" = "वेगकॅमेरा";
 "speedcams_alert_title_carplay_2" = "गती चेतावणी";
-"download_map_carplay" = "कृपया तुमच्या उपकरणावर Organic Maps ऍप मध्ये नकाशे डाउनलोड करा";
+"download_map_carplay" = "कृपया तुमच्या उपकरणावर CoMaps ऍप मध्ये नकाशे डाउनलोड करा";
 "carplay_roundabout_exit" = "%@ बाहेर पडा";
 
 /* max. 10 symbols, both iOS and Android */
@@ -919,7 +919,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/mr/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */

@@ -80,19 +80,19 @@
 "category_recycling" = "Reciclaxe";
 "category_water" = "Auga";
 "category_rv" = "Instalacións para autocaravanas";
-"share_bookmarks_email_body" = "Ola!\n\nAdxunto os meus marcadores. Por favor, ábraos en Organic Maps. Se non o tes instalado podes descargalo aquí:: https://www.comaps.app/download/\n\nGozar viaxando con Organic Maps!";
+"share_bookmarks_email_body" = "Ola!\n\nAdxunto os meus marcadores. Por favor, ábraos en CoMaps. Se non o tes instalado podes descargalo aquí:: https://www.comaps.app/download/\n\nGozar viaxando con CoMaps!";
 "load_kmz_title" = "Cargando marcadores";
 "load_kmz_successful" = "Os marcadores cargáronse con éxito! Pode atopalos no mapa ou na pantalla de Xestión de marcadores.";
 "load_kmz_failed" = "Non se puideron cargar os marcadores. O arquivo podería ter danos ou defectos.";
 "edit" = "Editar";
 "unknown_current_position" = "Aínda non se determinou a súa localización";
-"bookmark_share_email_subject" = "Mira o meu marcador no mapa de Organic Maps!";
-"my_position_share_email_subject" = "Mira a miña localización actual no mapa en Organic Maps!";
+"bookmark_share_email_subject" = "Mira o meu marcador no mapa de CoMaps!";
+"my_position_share_email_subject" = "Mira a miña localización actual no mapa en CoMaps!";
 "email" = "Correo electrónico";
 "copied_to_clipboard" = "Copiado ao portapapeles: %@";
 "info" = "Información";
 "done" = "Feito";
-"version" = "Versión de Organic Maps: %@";
+"version" = "Versión de CoMaps: %@";
 "tracks_title" = "Traxectos";
 "length" = "Lonxitude";
 "share_my_location" = "Compartir a miña localización";
@@ -128,7 +128,7 @@
 "donate" = "Doar";
 "remind_me_later" = "Lembrar máis tarde";
 "already_donated" = "Xa doei";
-"support_organic_maps" = "Apoiar Organic Maps";
+"support_organic_maps" = "Apoiar CoMaps";
 "copyright" = "Dereitos de autor";
 "report_a_bug" = "Informar dun fallo";
 "report_incorrect_map_bug" = "Informar ou corrixir datos de mapa incorrectos";
@@ -296,7 +296,7 @@
 "downloader_of" = "%1$d de %2$d";
 "download_over_mobile_header" = "Descargar con conexión de rede móbil?";
 "migration_no_space_message" = "Necesita máis espazo para descargar. Elimine os datos innecesarios.";
-"editor_sharing_title" = "Mellorei os mapas de Organic Maps";
+"editor_sharing_title" = "Mellorei os mapas de CoMaps";
 "download_over_mobile_message" = "Podería ser moi caro con certos plans ou con itinerancia de datos.";
 "error_enter_correct_house_number" = "Introducir o número de domicilio correcto";
 "editor_storey_number" = "Número de plantas (máx. %d)";
@@ -306,7 +306,7 @@
 "core_placepage_unknown_place" = "Punto do mapa";
 "editor_other_info" = "Nota para os voluntarios de OpenStreetMap (opcional)";
 "editor_detailed_description_hint" = "Comentario detallado";
-"editor_detailed_description" = "Os cambios que suxeriu enviaranse á comunidade de OpenStreetMap. Describa os detalles que non poden editarse en Organic Maps.";
+"editor_detailed_description" = "Os cambios que suxeriu enviaranse á comunidade de OpenStreetMap. Describa os detalles que non poden editarse en CoMaps.";
 "editor_more_about_osm" = "Más acerca de OpenStreetMap";
 "editor_operator" = "Operador";
 "editor_category_unsuitable_title" = "Non acha unha categoría adecuada?";
@@ -323,7 +323,7 @@
 "location_services_disabled_on_device_2" = "2. Seleccione Privacidade";
 "location_services_disabled_on_device_3" = "3. Seleccione Localización";
 "location_services_disabled_on_device_4" = "4. Active a Localización";
-"location_services_disabled_on_device_additional_message" = "Ou seguir utilizando Organic Maps sen localización";
+"location_services_disabled_on_device_additional_message" = "Ou seguir utilizando CoMaps sen localización";
 "m" = "m";
 "km" = "km";
 "kilometers_per_hour" = "km/h";
@@ -335,7 +335,7 @@
 "day" = "d";
 "placepage_more_button" = "Más";
 "book_button" = "Reservar";
-"dialog_kayak_disclaimer" = "A bonificación por recomendación recibida por cada reserva a través desta ligazón destínase ao desenvolvemento de Organic Maps.";
+"dialog_kayak_disclaimer" = "A bonificación por recomendación recibida por cada reserva a través desta ligazón destínase ao desenvolvemento de CoMaps.";
 "more_on_kayak" = "Fotos, opinións, reservas";
 "dialog_kayak_button" = "Detalles en Kaiak";
 "placepage_call_button" = "Chamar";
@@ -360,7 +360,7 @@
 "editor_share_to_all_dialog_message_2" = "Os editores de OpenStreetMap comprobarán os cambios e poñeranse en contacto con vostede se teñen algunha pregunta.";
 "recent_track_background_dialog_title" = "Quere deixar de gravar o traxecto recentemente percorrido?";
 "sharing_call_action_look" = "Comproba";
-"recent_track_background_dialog_message" = "Organic Maps usa a súa localización en segundo plano para gravar a ruta recentemente percorrido.";
+"recent_track_background_dialog_message" = "CoMaps usa a súa localización en segundo plano para gravar a ruta recentemente percorrido.";
 "general_settings" = "Configuración xeral";
 "accept" = "Aceptar";
 "decline" = "Declinar";
@@ -531,8 +531,8 @@
 "app_tip_09" = "O noso principal obxectivo é crear mapas rápidos, centrados na privacidade e fáciles de utilizar que lle encantarán.";
 "car_continue_on_the_phone" = "Pasar ao teléfono";
 "car_continue_in_the_car" = "Á pantalla do coche";
-"car_used_on_the_phone_screen" = "Agora usa Organic Maps na pantalla do teléfono";
-"car_used_on_the_car_screen" = "Agora usa Organic Maps na pantalla do coche";
+"car_used_on_the_phone_screen" = "Agora usa CoMaps na pantalla do teléfono";
+"car_used_on_the_car_screen" = "Agora usa CoMaps na pantalla do coche";
 "button_layer_outdoor" = "Sendeirismo";
 "bookmarks_export" = "Exportar todos os marcadores e traxectos";
 "change_color" = "Cambiar cor";
@@ -565,5 +565,5 @@
 "track_recording_toast_nothing_to_save" = "O traxecto está baleiro";
 "edit_track" = "Editar traxecto";
 "dialog_routing_disclaimer_precision" = "— O mapa pode ser impreciso e suxerir unha ruta que non sempre pode ser o mellor camiño para chegar ao destino;";
-"editor_category_unsuitable_text" = "Organic Maps permite engadir unicamente categorías de puntos sinxelos, é dicir, non cidades, estradas, lagos, contornos de edificios, etc. Por favor, anada ditas categorías directamente <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Consulte nosa <a href=\"https://www.comaps.app/support/advanced-map-editing/\">guía</a> para obter instrucións detalladas paso a paso.";
-"bugreport_alert_message" = "Quere enviar un informe de erro aos desenvolvedores?\nDependemos dos nosos usuarios, xa que Organic Maps non recolle ningunha información sobre erros de forma automática. Grazas de antemán por apoiar a Organic Maps!";
+"editor_category_unsuitable_text" = "CoMaps permite engadir unicamente categorías de puntos sinxelos, é dicir, non cidades, estradas, lagos, contornos de edificios, etc. Por favor, anada ditas categorías directamente <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Consulte nosa <a href=\"https://www.comaps.app/support/advanced-map-editing/\">guía</a> para obter instrucións detalladas paso a paso.";
+"bugreport_alert_message" = "Quere enviar un informe de erro aos desenvolvedores?\nDependemos dos nosos usuarios, xa que CoMaps non recolle ningunha información sobre erros de forma automática. Grazas de antemán por apoiar a CoMaps!";

@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Karavaanaritilat";
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks; please open them in Organic Maps. If you don't have it installed you can download it here: https://www.comaps.app/download/\n\nEnjoy travelling with Organic Maps!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks; please open them in CoMaps. If you don't have it installed you can download it here: https://www.comaps.app/download/\n\nEnjoy travelling with CoMaps!";
 
 /* message title of loading file */
 "load_kmz_title" = "Ladataan kirjanmerkkejä";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "Sijaintiasi ei ole vielä määritetty";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Hei, katso merkintäni Organic Maps-kartalla!";
+"bookmark_share_email_subject" = "Hei, katso merkintäni CoMaps-kartalla!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Hei, kurkkaa tämänhetkinen sijaintini Organic Maps:n kartalla!";
+"my_position_share_email_subject" = "Hei, kurkkaa tämänhetkinen sijaintini CoMaps:n kartalla!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "Sähköposti";
@@ -190,7 +190,7 @@
 "done" = "Valmis";
 
 /* Prints version number in About dialog */
-"version" = "Organic Maps versio: %@";
+"version" = "CoMaps versio: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Reitit";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "Kotisivut";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "Uutiset";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "Lahjoittakaa, jotta voimme rakentaa parhaita karttoja yhdessä!";
 "already_donated" = "Jo lahjoitettu";
 "remind_me_later" = "Muistuta myöhemmin";
-"support_organic_maps" = "Tukea Organic Maps";
+"support_organic_maps" = "Tukea CoMaps";
 
 /* Button in the main Help dialog */
 "copyright" = "Tekijänoikeudet";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "Tarvitset lisää tilaa ladataksesi. Poista tarpeeton data.";
-"editor_sharing_title" = "Paransin Organic Maps-karttoja";
+"editor_sharing_title" = "Paransin CoMaps-karttoja";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d/%2$d";
@@ -593,14 +593,14 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "Huomautus OpenStreetMapin vapaaehtoisille (valinnainen)";
 "editor_detailed_description_hint" = "Yksityiskohtainen kommentti";
-"editor_detailed_description" = "Ehdottamasi muutokset lähetetään OpenStreetMap-yhteisöön. Kuvaa tiedot, joita ei voi muokata Organic Maps:ssä.";
+"editor_detailed_description" = "Ehdottamasi muutokset lähetetään OpenStreetMap-yhteisöön. Kuvaa tiedot, joita ei voi muokata CoMaps:ssä.";
 "editor_more_about_osm" = "Lisätietoja OpenStreetMap:sta";
 "editor_operator" = "Operaattori";
 
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Palveluntarjoaja: %@";
 "editor_category_unsuitable_title" = "Etkö löydä sopivaa luokkaa?";
-"editor_category_unsuitable_text" = "Organic Maps mahdollistaa vain yksinkertaisten pisteluokkien lisäämisen, eli ei kaupunkeja, teitä, järviä, rakennusten ääriviivoja jne. Lisää tällaiset luokat suoraan <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Tarkista <a href=\"https://www.comaps.app/support/advanced-map-editing/\">oppaastamme</a> yksityiskohtaiset ohjeet vaihe vaiheelta.";
+"editor_category_unsuitable_text" = "CoMaps mahdollistaa vain yksinkertaisten pisteluokkien lisäämisen, eli ei kaupunkeja, teitä, järviä, rakennusten ääriviivoja jne. Lisää tällaiset luokat suoraan <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Tarkista <a href=\"https://www.comaps.app/support/advanced-map-editing/\">oppaastamme</a> yksityiskohtaiset ohjeet vaihe vaiheelta.";
 "downloader_no_downloaded_maps_title" = "Et ole ladannut yhtään karttaa";
 "downloader_no_downloaded_maps_message" = "Lataa karttoja löytääksesi paikkoja ja navigoidaksesi offline-tilassa.";
 "current_location_unknown_error_title" = "Nykyinen sijainti on tuntematon.";
@@ -615,7 +615,7 @@
 "location_services_disabled_on_device_2" = "2. Valitse Tietosuoja";
 "location_services_disabled_on_device_3" = "3. Valitse Sijaintipalvelut";
 "location_services_disabled_on_device_4" = "4. Ota Sijaintipalvelut käyttöön";
-"location_services_disabled_on_device_additional_message" = "Tai jatka Organic Maps käyttöä ilman sijaintia";
+"location_services_disabled_on_device_additional_message" = "Tai jatka CoMaps käyttöä ilman sijaintia";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Tarkastele";
-"recent_track_background_dialog_message" = "Organic Maps käyttää sijaintipalveluita taustalla viimeisimmän reittisi tallentamiseksi.";
+"recent_track_background_dialog_message" = "CoMaps käyttää sijaintipalveluita taustalla viimeisimmän reittisi tallentamiseksi.";
 "general_settings" = "Yleiset asetukset";
 
 /* For the first routing */
@@ -779,7 +779,7 @@
 "power_managment_setting_never" = "Ei koskaan";
 "power_managment_setting_auto" = "Automaattinen";
 "power_managment_setting_manual_max" = "Täysi virransäästö";
-"enable_logging_warning_message" = "Valinta ottaa käyttöön lokikirjaukset diagnostiikkaa varten. Se voi auttaa tukihenkilöstöämme, kun he korjaavat sovelluksen ongelmia. Ota tämä ominaisuus käyttöön vain, jos Organic Maps:n tuki pyytää.";
+"enable_logging_warning_message" = "Valinta ottaa käyttöön lokikirjaukset diagnostiikkaa varten. Se voi auttaa tukihenkilöstöämme, kun he korjaavat sovelluksen ongelmia. Ota tämä ominaisuus käyttöön vain, jos CoMaps:n tuki pyytää.";
 "driving_options_title" = "Reititysvalinnat";
 
 /* Recommended length for CarPlay and Android Auto is around 25-27 characters */
@@ -837,7 +837,7 @@
 "ok" = "Ok";
 "speedcams_alert_title_carplay_1" = "Nopeuskamerat";
 "speedcams_alert_title_carplay_2" = "Nopeusvaroitukset";
-"download_map_carplay" = "Lataa kartat laitteesi Organic Maps-sovelluksessa";
+"download_map_carplay" = "Lataa kartat laitteesi CoMaps-sovelluksessa";
 "carplay_roundabout_exit" = "Poistumisramppi %@";
 
 /* max. 10 symbols, both iOS and Android */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -959,10 +959,10 @@
 "app_tip_09" = "Päätavoitteemme on rakentaa nopeita, yksityisyyteen keskittyviä, helppokäyttöisiä karttoja, joista pidät.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Käytät nyt puhelimen näytöllä Organic Maps -palvelua.";
+"car_used_on_the_phone_screen" = "Käytät nyt puhelimen näytöllä CoMaps -palvelua.";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Käytät nyt Organic Maps auton näytöllä";
+"car_used_on_the_car_screen" = "Käytät nyt CoMaps auton näytöllä";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Jatka puhelimessa";
@@ -987,7 +987,7 @@
 "website_menu" = "Valikkolinkki";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Haluatko lähettää vikailmoituksen kehittäjille?\nLuotamme käyttäjiin, sillä Organic Maps ei kerää virhetietoja automaattisesti. Kiitos etukäteen Organic Mapsin tukemisesta!";
+"bugreport_alert_message" = "Haluatko lähettää vikailmoituksen kehittäjille?\nLuotamme käyttäjiin, sillä CoMaps ei kerää virhetietoja automaattisesti. Kiitos etukäteen CoMapsin tukemisesta!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Ota iCloud-synkronointi käyttöön";

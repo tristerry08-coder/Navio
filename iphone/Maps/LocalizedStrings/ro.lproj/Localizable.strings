@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Pentru rulote";
-"share_bookmarks_email_body" = "Bună!\n\nȚi-am atașat locurile mele preferate din aplicația Organic Maps. Deschide-le dacă ai instalată Organic Maps. Dacă nu, o poți descărca pentru iOS sau Android de aici: https://organicmaps.app/";
+"share_bookmarks_email_body" = "Bună!\n\nȚi-am atașat locurile mele preferate din aplicația CoMaps. Deschide-le dacă ai instalată CoMaps. Dacă nu, o poți descărca pentru iOS sau Android de aici: https://organicmaps.app/";
 
 /* message title of loading file */
 "load_kmz_title" = "Se încarcă locurile preferate";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "Poziția ta nu a fost stabilită încă";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Poți vedea locul meu preferat pe harta Organic Maps!";
+"bookmark_share_email_subject" = "Poți vedea locul meu preferat pe harta CoMaps!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Poți vedea poziția mea pe harta Organic Maps!";
+"my_position_share_email_subject" = "Poți vedea poziția mea pe harta CoMaps!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "E-mail";
@@ -190,7 +190,7 @@
 "done" = "Gata";
 
 /* Prints version number in About dialog */
-"version" = "Versiunea Organic Maps: %@";
+"version" = "Versiunea CoMaps: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Trasee";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "Site web";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "Știri";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "Donează pentru a construi împreună cele mai bune hărți!";
 "already_donated" = "Deja donat";
 "remind_me_later" = "Amintește mai târziu";
-"support_organic_maps" = "Susține Organic Maps";
+"support_organic_maps" = "Susține CoMaps";
 
 /* Button in the main Help dialog */
 "copyright" = "Drepturi de autor";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "Ai nevoie de mai mult spațiu pentru a descărca. Șterge datele care nu sunt necesare.";
-"editor_sharing_title" = "Am îmbunătățit hărțile Organic Maps";
+"editor_sharing_title" = "Am îmbunătățit hărțile CoMaps";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d din %2$d";
@@ -593,14 +593,14 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "Notă pentru voluntarii OpenStreetMap (opțional)";
 "editor_detailed_description_hint" = "Comentariu detaliat";
-"editor_detailed_description" = "Modificările aduse hărții, sugerate de tine, vor fi trimise comunității OpenStreetMap. Descrie orice detalii suplimentare care nu pot fi modificate în Organic Maps.";
+"editor_detailed_description" = "Modificările aduse hărții, sugerate de tine, vor fi trimise comunității OpenStreetMap. Descrie orice detalii suplimentare care nu pot fi modificate în CoMaps.";
 "editor_more_about_osm" = "Mai multe despre OpenStreetMap";
 "editor_operator" = "Operator";
 
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Operator: %@";
 "editor_category_unsuitable_title" = "Nu găsiți o categorie potrivită?";
-"editor_category_unsuitable_text" = "Organic Maps permite adăugarea doar a unor categorii de puncte simple, ceea ce înseamnă că nu există orașe, drumuri, lacuri, contururi de clădiri, etc. Vă rugăm să adăugați astfel de categorii direct la <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Consultați <a href=\"https://www.comaps.app/support/advanced-map-editing/\">ghidul nostru</a> pentru instrucțiuni detaliate pas cu pas.";
+"editor_category_unsuitable_text" = "CoMaps permite adăugarea doar a unor categorii de puncte simple, ceea ce înseamnă că nu există orașe, drumuri, lacuri, contururi de clădiri, etc. Vă rugăm să adăugați astfel de categorii direct la <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Consultați <a href=\"https://www.comaps.app/support/advanced-map-editing/\">ghidul nostru</a> pentru instrucțiuni detaliate pas cu pas.";
 "downloader_no_downloaded_maps_title" = "Nu ai descărcat nicio hartă";
 "downloader_no_downloaded_maps_message" = "Descarcă hărți pentru a căuta un loc și a naviga fără conectare la internet.";
 "current_location_unknown_error_title" = "Poziția actuală este necunoscută.";
@@ -615,7 +615,7 @@
 "location_services_disabled_on_device_2" = "2. Selectează Intimitate și securitate";
 "location_services_disabled_on_device_3" = "3. Selectează Servicii de localizare";
 "location_services_disabled_on_device_4" = "4. Activează Servicii de localizare";
-"location_services_disabled_on_device_additional_message" = "Sau continuă să folosești Organic Maps fără Locație";
+"location_services_disabled_on_device_additional_message" = "Sau continuă să folosești CoMaps fără Locație";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Verifică";
-"recent_track_background_dialog_message" = "Organic Maps folosește poziția ta geografică pentru a înregistra cel mai recent traseu urmat.";
+"recent_track_background_dialog_message" = "CoMaps folosește poziția ta geografică pentru a înregistra cel mai recent traseu urmat.";
 "general_settings" = "Opțiuni generale";
 
 /* For the first routing */
@@ -837,7 +837,7 @@
 "ok" = "Bine";
 "speedcams_alert_title_carplay_1" = "Radare";
 "speedcams_alert_title_carplay_2" = "Info radare";
-"download_map_carplay" = "Descarcă hărțile în aplicația Organic Maps din dispozitivul tău";
+"download_map_carplay" = "Descarcă hărțile în aplicația CoMaps din dispozitivul tău";
 "carplay_roundabout_exit" = "%@ ieșire";
 
 /* max. 10 symbols, both iOS and Android */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -959,10 +959,10 @@
 "app_tip_09" = "Scopul nostru principal este să construim hărți rapide, axate pe confidențialitate și ușor de utilizat, care să vă placă.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Acum utilizați Organic Maps pe ecranul telefonului";
+"car_used_on_the_phone_screen" = "Acum utilizați CoMaps pe ecranul telefonului";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Acum utilizați Organic Maps pe ecranul mașinii";
+"car_used_on_the_car_screen" = "Acum utilizați CoMaps pe ecranul mașinii";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Continuați în telefon";
@@ -987,7 +987,7 @@
 "website_menu" = "Legătura de meniu";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Doriți să trimiteți un raport de eroare dezvoltatorilor?\nNe bazăm pe utilizatorii noștri, deoarece Organic Maps nu colectează automat nicio informație privind erorile. Vă mulțumim anticipat pentru susținerea Organic Maps!";
+"bugreport_alert_message" = "Doriți să trimiteți un raport de eroare dezvoltatorilor?\nNe bazăm pe utilizatorii noștri, deoarece CoMaps nu colectează automat nicio informație privind erorile. Vă mulțumim anticipat pentru susținerea CoMaps!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Activați Sincronizarea iCloud";

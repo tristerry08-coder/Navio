@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Karvan qurğuları";
-"share_bookmarks_email_body" = "Salam!\n\nOrganic Maps əlfəcinlərim əlavə olunub. Zəhmət olmasa Organic Maps-da onları açın. Əgər onu quraşdırmamısınızsa, bu linkə daxil olub cihazınıza yükləyə bilərsiniz: https://www.comaps.app/download/\n\nOrganic Maps ilə səyahətdən həzz alın!";
+"share_bookmarks_email_body" = "Salam!\n\nCoMaps əlfəcinlərim əlavə olunub. Zəhmət olmasa CoMaps-da onları açın. Əgər onu quraşdırmamısınızsa, bu linkə daxil olub cihazınıza yükləyə bilərsiniz: https://www.comaps.app/download/\n\nOrganic Maps ilə səyahətdən həzz alın!";
 
 /* message title of loading file */
 "load_kmz_title" = "Əlfəcinlər yüklənir";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "Məkanınız hələ müəyyən edilməyib";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Salam, Organic Maps xəritəsində mənim pin kodumu yoxlayın!";
+"bookmark_share_email_subject" = "Salam, CoMaps xəritəsində mənim pin kodumu yoxlayın!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Hey, Organic Maps'da mənim hal-hazırda olduğum ünvana baxın!";
+"my_position_share_email_subject" = "Hey, CoMaps'da mənim hal-hazırda olduğum ünvana baxın!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "E-poçt";
@@ -190,7 +190,7 @@
 "done" = "Bitdi";
 
 /* Prints version number in About dialog */
-"version" = "Organic Maps versiyası: %@";
+"version" = "CoMaps versiyası: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Marşrutlari";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "Veb sayt";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "Xəbərlər";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "Ən yaxşı xəritələri birlikdə qurmaq üçün ianə edin!";
 "already_donated" = "Artıq ianə edildi";
 "remind_me_later" = "Daha sonra xatırlat";
-"support_organic_maps" = "Organic Maps-i dəstəkləmək";
+"support_organic_maps" = "CoMaps-i dəstəkləmək";
 
 /* Button in the main Help dialog */
 "copyright" = "Müəllif hüququ";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "Endirmək üçün daha çox yerə ehtiyacınız var. Zəhmət olmasa önəmli olmayan məlumatları silin.";
-"editor_sharing_title" = "Organic Maps xəritələrini təkmilləşdirdim";
+"editor_sharing_title" = "CoMaps xəritələrini təkmilləşdirdim";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d/%2$d";
@@ -593,7 +593,7 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "OpenStreetMap könüllüləri üçün qeyd (isteğe bağlı)";
 "editor_detailed_description_hint" = "Ətraflı şərh";
-"editor_detailed_description" = "Təklif etdiyiniz dəyişikliklər OpenStreetMap icmasına yerləşdiriləcək. Zəhmət olmasa Organic Maps'da redaktə edilə bilməyən əlavə detalları izah edin.";
+"editor_detailed_description" = "Təklif etdiyiniz dəyişikliklər OpenStreetMap icmasına yerləşdiriləcək. Zəhmət olmasa CoMaps'da redaktə edilə bilməyən əlavə detalları izah edin.";
 "editor_more_about_osm" = "OpenStreetMap haqqında əlavə məlumat";
 "editor_operator" = "Operator";
 
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Yoxla";
-"recent_track_background_dialog_message" = "Organic Maps son səyahət etdiyiniz marşrutu qeyd etmək üçün arxa fonda geolokasiyadan istifadə edir.";
+"recent_track_background_dialog_message" = "CoMaps son səyahət etdiyiniz marşrutu qeyd etmək üçün arxa fonda geolokasiyadan istifadə edir.";
 "general_settings" = "Ümumi Parametrlər";
 
 /* For the first routing */
@@ -837,7 +837,7 @@
 "ok" = "Yaxşı";
 "speedcams_alert_title_carplay_1" = "Sürət kameraları";
 "speedcams_alert_title_carplay_2" = "Sürət xəbərdarlıqları";
-"download_map_carplay" = "Organic Maps tətbiqindən xəritələri cihazınıza endirin";
+"download_map_carplay" = "CoMaps tətbiqindən xəritələri cihazınıza endirin";
 "carplay_roundabout_exit" = "%@ çıxın";
 
 /* max. 10 symbols, both iOS and Android */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/tr/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -959,10 +959,10 @@
 "app_tip_09" = "Our main goal is to build fast, privacy-focused, easy-to-use maps that you will love.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "İndi telefon ekranında Organic Maps istifadə edirsiniz";
+"car_used_on_the_phone_screen" = "İndi telefon ekranında CoMaps istifadə edirsiniz";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Hazırda avtomobil ekranında Organic Maps istifadə edirsiniz";
+"car_used_on_the_car_screen" = "Hazırda avtomobil ekranında CoMaps istifadə edirsiniz";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Telefonda davam edin";

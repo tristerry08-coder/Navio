@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "RV用";
-"share_bookmarks_email_body" = "こんにちは！\n\n添付ファイルOrganic Mapsのお気に入りリストです。もしインストールされていない場合はここからダウンロードができます： https://www.comaps.app/download/\n\n旅行を楽しむときはOrganic Mapsを使用してください!";
+"share_bookmarks_email_body" = "こんにちは！\n\n添付ファイルCoMapsのお気に入りリストです。もしインストールされていない場合はここからダウンロードができます： https://www.comaps.app/download/\n\n旅行を楽しむときはCoMapsを使用してください!";
 
 /* message title of loading file */
 "load_kmz_title" = "お気に入りをロード中";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "現在の座標が未確定です";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Organic Mapsでピン情報を確認";
+"bookmark_share_email_subject" = "CoMapsでピン情報を確認";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Organic Mapsで現在地を確認";
+"my_position_share_email_subject" = "CoMapsで現在地を確認";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "Eメール";
@@ -190,7 +190,7 @@
 "done" = "完了";
 
 /* Prints version number in About dialog */
-"version" = "Organic Mapsバージョン: %@";
+"version" = "CoMapsバージョン: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "トラック";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "ウェブサイト";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "ニュース";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "寄付して最高の地図を一緒に作ろう！";
 "already_donated" = "寄付済み";
 "remind_me_later" = "後でリマインド";
-"support_organic_maps" = "Organic Maps を支援";
+"support_organic_maps" = "CoMaps を支援";
 
 /* Button in the main Help dialog */
 "copyright" = "著作権";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "ダウンロードするには空き容量が必要です。不要なデータを削除してください。";
-"editor_sharing_title" = "Organic Mapsの地図を改善しました";
+"editor_sharing_title" = "CoMapsの地図を改善しました";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%2$dのうち%1$d";
@@ -593,7 +593,7 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "OpenStreetMapボランティアへの注意（オプション）";
 "editor_detailed_description_hint" = "詳細コメント";
-"editor_detailed_description" = "提案した変更は、OpenStreetMapのコミュニティに送信されます。Organic Mapsで編集できない詳細を説明してください。";
+"editor_detailed_description" = "提案した変更は、OpenStreetMapのコミュニティに送信されます。CoMapsで編集できない詳細を説明してください。";
 "editor_more_about_osm" = "OpenStreetMapについての詳細";
 "editor_operator" = "オペレーター";
 
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "ご覧ください";
-"recent_track_background_dialog_message" = "Organic Mapsは、あなたの位置情報をバックグラウンドで使用して最近の走行ルートを記録します。";
+"recent_track_background_dialog_message" = "CoMapsは、あなたの位置情報をバックグラウンドで使用して最近の走行ルートを記録します。";
 "general_settings" = "一般設定";
 
 /* For the first routing */
@@ -779,7 +779,7 @@
 "power_managment_setting_never" = "無効";
 "power_managment_setting_auto" = "自動";
 "power_managment_setting_manual_max" = "最大電力節約";
-"enable_logging_warning_message" = "このオプションは診断目的でのデータ記録を有効にします。これはこのアプリケーションのトラブルシューティングを担当する当社のサポートスタッフの助けになります。このオプションはOrganic Mapsにリクエストされた場合にのみ有効にしてください。";
+"enable_logging_warning_message" = "このオプションは診断目的でのデータ記録を有効にします。これはこのアプリケーションのトラブルシューティングを担当する当社のサポートスタッフの助けになります。このオプションはCoMapsにリクエストされた場合にのみ有効にしてください。";
 "driving_options_title" = "経路オプション";
 
 /* Recommended length for CarPlay and Android Auto is around 25-27 characters */
@@ -837,7 +837,7 @@
 "ok" = "OK";
 "speedcams_alert_title_carplay_1" = "速度警告";
 "speedcams_alert_title_carplay_2" = "速度警告";
-"download_map_carplay" = "端末のOrganic Mapsのアプリにマップをダウンロードしてください";
+"download_map_carplay" = "端末のCoMapsのアプリにマップをダウンロードしてください";
 "carplay_roundabout_exit" = "第%@出口";
 
 /* max. 10 symbols, both iOS and Android */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -959,7 +959,7 @@
 "app_tip_09" = "私たちの主な目標は、ユーザーに気に入っていただける、プライバシーを重視した使いやすいマップを高速に構築することです。";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "端末の画面でOrganic Mapsを使用している";
+"car_used_on_the_phone_screen" = "端末の画面でCoMapsを使用している";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
 "car_used_on_the_car_screen" = "あなたは今、車の画面でオーガニック・マップを使用している";
@@ -987,7 +987,7 @@
 "website_menu" = "メニューリンク";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "開発者にバグレポートを送りたいか？\nオーガニック・マップはエラー情報を自動収集しないため、我々はユーザーに依存している。Organic Mapsを応援してくださりありがとう！";
+"bugreport_alert_message" = "開発者にバグレポートを送りたいか？\nオーガニック・マップはエラー情報を自動収集しないため、我々はユーザーに依存している。CoMapsを応援してくださりありがとう！";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "iCloud同期を有効にする";

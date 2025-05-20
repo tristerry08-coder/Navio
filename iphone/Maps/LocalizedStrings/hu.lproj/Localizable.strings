@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Lakókocsis létesítmények";
-"share_bookmarks_email_body" = "Üdvözlöm!\n\nMellékeltem a könyvjelzőimet; nyissa meg őket az Organic Maps alkalmazásban. Ha még nem telepítette, akkor innen tudja letölteni: https://www.comaps.app/download/\n\nJó utat kívánok az Organic Maps alkalmazással!";
+"share_bookmarks_email_body" = "Üdvözlöm!\n\nMellékeltem a könyvjelzőimet; nyissa meg őket az CoMaps alkalmazásban. Ha még nem telepítette, akkor innen tudja letölteni: https://www.comaps.app/download/\n\nJó utat kívánok az CoMaps alkalmazással!";
 
 /* message title of loading file */
 "load_kmz_title" = "Könyvjelzők betöltése";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "Az Ön tartózkodási helye még nincs meghatározva";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Tekintse meg a térképjelzőmet az Organic Maps alkalmazásban!";
+"bookmark_share_email_subject" = "Tekintse meg a térképjelzőmet az CoMaps alkalmazásban!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Tekintse meg a helyzetemet az Organic Maps alkalmazásban!";
+"my_position_share_email_subject" = "Tekintse meg a helyzetemet az CoMaps alkalmazásban!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "E-mail-cím";
@@ -190,7 +190,7 @@
 "done" = "Kész";
 
 /* Prints version number in About dialog */
-"version" = "Az Organic Maps verziója: %@";
+"version" = "Az CoMaps verziója: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Nyomvonalak";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "Honlap";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "Hírek";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "Adományozzon, hogy együtt építsük a legjobb térképeket!";
 "already_donated" = "Már adományozott";
 "remind_me_later" = "Emlékeztessen később";
-"support_organic_maps" = "Organic Maps támogatása";
+"support_organic_maps" = "CoMaps támogatása";
 
 /* Button in the main Help dialog */
 "copyright" = "Szerzői jogok";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "A letöltéshez több szabad tárhelyre van szükség. Törölje a szükségtelen adatokat.";
-"editor_sharing_title" = "Fejlesztettem a Organic Maps térképeket";
+"editor_sharing_title" = "Fejlesztettem a CoMaps térképeket";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d / %2$d";
@@ -593,14 +593,14 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "Megjegyzés az OpenStreetMap önkénteseinek (nem kötelező)";
 "editor_detailed_description_hint" = "Részletes megjegyzés";
-"editor_detailed_description" = "Az Ön által javasolt térképmódosításokat elküldjük az OpenStreetMap közösségnek. Írja le azokat a további részleteket, amelyek nem szerkeszthetők az Organic Mapsben.";
+"editor_detailed_description" = "Az Ön által javasolt térképmódosításokat elküldjük az OpenStreetMap közösségnek. Írja le azokat a további részleteket, amelyek nem szerkeszthetők az CoMapsben.";
 "editor_more_about_osm" = "További részletek az OpenStreetMap adatbázisról";
 "editor_operator" = "Üzemeltető";
 
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Üzemeltető: %@";
 "editor_category_unsuitable_title" = "Nem találja a megfelelő kategóriát?";
-"editor_category_unsuitable_text" = "Az Organic Maps csak egyszerű pontkategóriák hozzáadását teszi lehetővé, azaz nem tartalmaz városokat, utakat, tavakat, épületek körvonalait stb., az ilyen kategóriákat közvetlenül az <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> oldalon adhatja hozzá. A részletes, lépésről lépésre történő útmutatásért tekintse meg az <a href=\"https://www.comaps.app/support/advanced-map-editing/\">útmutatónkat</a>.";
+"editor_category_unsuitable_text" = "Az CoMaps csak egyszerű pontkategóriák hozzáadását teszi lehetővé, azaz nem tartalmaz városokat, utakat, tavakat, épületek körvonalait stb., az ilyen kategóriákat közvetlenül az <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> oldalon adhatja hozzá. A részletes, lépésről lépésre történő útmutatásért tekintse meg az <a href=\"https://www.comaps.app/support/advanced-map-editing/\">útmutatónkat</a>.";
 "downloader_no_downloaded_maps_title" = "Még nem töltött le térképet";
 "downloader_no_downloaded_maps_message" = "Térkép letöltése offline kereséshez és navigáláshoz.";
 "current_location_unknown_error_title" = "A jelenlegi helyzet ismeretlen.";
@@ -615,7 +615,7 @@
 "location_services_disabled_on_device_2" = "2. Válassza az „Adatvédelem” menüpontot";
 "location_services_disabled_on_device_3" = "3. Válassza a „Helymeghatározási szolgáltatások” menüpontot";
 "location_services_disabled_on_device_4" = "4. Engedélyezze a „Helymeghatározási szolgáltatások lehetőséget";
-"location_services_disabled_on_device_additional_message" = "Vagy folytassa az Organic Maps használatát helymeghatározás nélkül";
+"location_services_disabled_on_device_additional_message" = "Vagy folytassa az CoMaps használatát helymeghatározás nélkül";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Tekintse meg";
-"recent_track_background_dialog_message" = "Az Organic Maps a háttérben az Ön tartózkodási helyét használja a nemrég megtett útvonal rögzítéséhez.";
+"recent_track_background_dialog_message" = "Az CoMaps a háttérben az Ön tartózkodási helyét használja a nemrég megtett útvonal rögzítéséhez.";
 "general_settings" = "Általános beállítások";
 
 /* For the first routing */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/hu/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -959,10 +959,10 @@
 "app_tip_09" = "A fő célunk az, hogy gyors, az adatvédelemre fókuszáló, könnyen használható térképeket készítsünk, amelyeket szeretni fog.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Ön most az Organic Maps alkalmazást használja a telefon képernyőjén";
+"car_used_on_the_phone_screen" = "Ön most az CoMaps alkalmazást használja a telefon képernyőjén";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Ön most az Organic Maps alkalmazást használja az autó képernyőjén";
+"car_used_on_the_car_screen" = "Ön most az CoMaps alkalmazást használja az autó képernyőjén";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Folytatás telefonon";
@@ -987,7 +987,7 @@
 "website_menu" = "Menühivatkozás";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Szeretne hibajelentést küldeni a fejlesztőknek?\nA felhasználóinkra támaszkodunk, mivel az Organic Maps nem gyűjt automatikusan hibainformációkat. Előre is köszönjük, hogy támogatja az Organic Maps csapatát!";
+"bugreport_alert_message" = "Szeretne hibajelentést küldeni a fejlesztőknek?\nA felhasználóinkra támaszkodunk, mivel az CoMaps nem gyűjt automatikusan hibainformációkat. Előre is köszönjük, hogy támogatja az CoMaps csapatát!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "iCloud-szinkronizálás engedélyezése";

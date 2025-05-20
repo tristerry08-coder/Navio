@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Instal·lacions per a autocaravanes";
-"share_bookmarks_email_body" = "Hola!\n\nAdjunto els meus marcadors de l'aplicació Organic Maps. Obriu-los si teniu l'Organic Maps instal·lat. O, si no teniu l'aplicació, baixeu-la per al vostre aparell iOS o Android seguint aquest enllaç: https://www.comaps.app/download/\n\nGaudiu viatjant amb l'Organic Maps!";
+"share_bookmarks_email_body" = "Hola!\n\nAdjunto els meus marcadors de l'aplicació CoMaps. Obriu-los si teniu l'CoMaps instal·lat. O, si no teniu l'aplicació, baixeu-la per al vostre aparell iOS o Android seguint aquest enllaç: https://www.comaps.app/download/\n\nGaudiu viatjant amb l'Organic Maps!";
 
 /* message title of loading file */
 "load_kmz_title" = "S'estan carregant els marcadors";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "Encara no s’ha determinat la vostra ubicació";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Ep, mireu el meu marcador a l'Organic Maps!";
+"bookmark_share_email_subject" = "Ep, mireu el meu marcador a l'CoMaps!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Ep, mireu la meva ubicació actual en el mapa de l'Organic Maps!";
+"my_position_share_email_subject" = "Ep, mireu la meva ubicació actual en el mapa de l'CoMaps!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "Correu-e";
@@ -190,7 +190,7 @@
 "done" = "Fet";
 
 /* Prints version number in About dialog */
-"version" = "Versió de l’Organic Maps: %@";
+"version" = "Versió de l’CoMaps: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Recorreguts";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "Lloc web";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "Notícies";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "Fes una donació per construir els millors mapes junts!";
 "already_donated" = "Ja donat";
 "remind_me_later" = "Recorda més tard";
-"support_organic_maps" = "Donar suport a Organic Maps";
+"support_organic_maps" = "Donar suport a CoMaps";
 
 /* Button in the main Help dialog */
 "copyright" = "Drets d’autor";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "Per a la baixada, us cal més espai. Suprimiu les dades no necessàries.";
-"editor_sharing_title" = "He millorat els mapes de l’Organic Maps";
+"editor_sharing_title" = "He millorat els mapes de l’CoMaps";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d/%2$d";
@@ -593,14 +593,14 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "Nota per als voluntaris d'OpenStreetMap (opcional)";
 "editor_detailed_description_hint" = "Comentari detallat";
-"editor_detailed_description" = "Heu suggerit canvis en el mapa que s’enviaran a la comunitat de l’OpenStreetMap. Descriviu qualsevol detall addicional que no es pugui editar amb l’Organic Maps.";
+"editor_detailed_description" = "Heu suggerit canvis en el mapa que s’enviaran a la comunitat de l’OpenStreetMap. Descriviu qualsevol detall addicional que no es pugui editar amb l’CoMaps.";
 "editor_more_about_osm" = "Més sobre l'OpenStreetMap";
 "editor_operator" = "Operador";
 
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Operador: %@";
 "editor_category_unsuitable_title" = "No trobeu una categoria adequada?";
-"editor_category_unsuitable_text" = "Organic Maps només permet afegir categories de punts simples, això vol dir que no hi ha ciutats, carreteres, llacs, contorns d'edificis, etc. Si us plau, afegiu aquestes categories directament a <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Consulteu la nostra <a href=\"https://www.comaps.app/support/advanced-map-editing/\">guia</a> per obtenir instruccions detallades pas a pas.";
+"editor_category_unsuitable_text" = "CoMaps només permet afegir categories de punts simples, això vol dir que no hi ha ciutats, carreteres, llacs, contorns d'edificis, etc. Si us plau, afegiu aquestes categories directament a <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Consulteu la nostra <a href=\"https://www.comaps.app/support/advanced-map-editing/\">guia</a> per obtenir instruccions detallades pas a pas.";
 "downloader_no_downloaded_maps_title" = "No heu baixat cap mapa";
 "downloader_no_downloaded_maps_message" = "Baixeu mapes per a cercar una ubicacio i usar la navegació sense connexió.";
 "current_location_unknown_error_title" = "Es desconeix la ubicació actual.";
@@ -615,7 +615,7 @@
 "location_services_disabled_on_device_2" = "2. Trieu «Privadesa»";
 "location_services_disabled_on_device_3" = "3. Trieu «Serveis d’ubicació»";
 "location_services_disabled_on_device_4" = "4. Activeu els serveis d'ubicació";
-"location_services_disabled_on_device_additional_message" = "O continuar utilitzant Organic Maps sense ubicació";
+"location_services_disabled_on_device_additional_message" = "O continuar utilitzant CoMaps sense ubicació";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Verifica";
-"recent_track_background_dialog_message" = "L’Organic Maps usa la vostra ubicació en segon pla per a enregistrar el recorregut que heu fet recentment.";
+"recent_track_background_dialog_message" = "L’CoMaps usa la vostra ubicació en segon pla per a enregistrar el recorregut que heu fet recentment.";
 "general_settings" = "Paràmetres generals";
 
 /* For the first routing */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/ca/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -959,10 +959,10 @@
 "app_tip_09" = "El nostre objectiu principal és crear mapes ràpids, centrats en la privadesa i fàcils d'utilitzar que us encantaran.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Ara esteu utilitzant els Organic Maps a la pantalla del telèfon";
+"car_used_on_the_phone_screen" = "Ara esteu utilitzant els CoMaps a la pantalla del telèfon";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Ara esteu utilitzant els Organic Maps a la pantalla del cotxe";
+"car_used_on_the_car_screen" = "Ara esteu utilitzant els CoMaps a la pantalla del cotxe";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Passa al telèfon";
@@ -987,7 +987,7 @@
 "website_menu" = "Enllaç del menú";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Voleu enviar un informe d’error als desenvolupadors?\nEns refiem dels nostres usuaris, ja que l’Organic Maps no recull cap informació d’errors automàticament. Gràcies per avançat per donar suport a Organic Maps!";
+"bugreport_alert_message" = "Voleu enviar un informe d’error als desenvolupadors?\nEns refiem dels nostres usuaris, ja que l’CoMaps no recull cap informació d’errors automàticament. Gràcies per avançat per donar suport a CoMaps!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Activa la sincronització amb l’iCloud";

@@ -861,7 +861,7 @@
     <string name="connection_failure">Anslutningen bröts</string>
     <string name="disk_error_title">Diskfel</string>
     <string name="enable_show_on_lock_screen">Visa på låsskärmen</string>
-    <string name="share_bookmarks_email_body">Hej! \n \nJag bifogar mina bokmärken, öppna gärna dem med Organic Maps. Om du inte redan har appen installerad, kan du ladda ner den här: https://www.comaps.app/download/ \n \nTrevlig resa med Organic Maps!</string>
+    <string name="share_bookmarks_email_body">Hej! \n \nJag bifogar mina bokmärken, öppna gärna dem med CoMaps. Om du inte redan har appen installerad, kan du ladda ner den här: https://www.comaps.app/download/ \n \nTrevlig resa med CoMaps!</string>
     <string name="instagram_url">https://www.instagram.com/comapscommunity/</string>
     <string name="telegram_url">https://t.me/CoMapsApp</string>
     <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/About_OpenStreetMap</string>

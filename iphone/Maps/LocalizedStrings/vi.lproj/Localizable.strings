@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Đối với RV";
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks; please open them in Organic Maps. If you don't have it installed you can download it here: https://www.comaps.app/download/\n\nEnjoy travelling with Organic Maps!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks; please open them in CoMaps. If you don't have it installed you can download it here: https://www.comaps.app/download/\n\nEnjoy travelling with CoMaps!";
 
 /* message title of loading file */
 "load_kmz_title" = "Tải Điểm đánh dấu";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "Chưa xác định được vị trí của bạn";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Này, hãy xem ghim của tôi tại Organic Maps map";
+"bookmark_share_email_subject" = "Này, hãy xem ghim của tôi tại CoMaps map";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Này, hãy xem vị trí hiện tại của tôi tại Organic Maps map!";
+"my_position_share_email_subject" = "Này, hãy xem vị trí hiện tại của tôi tại CoMaps map!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "Email";
@@ -190,7 +190,7 @@
 "done" = "Xong";
 
 /* Prints version number in About dialog */
-"version" = "Phiên bản Organic Maps: %@";
+"version" = "Phiên bản CoMaps: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Dấu vết";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "Trang web";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "Tin tức";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "Hãy quyên góp để cùng nhau xây dựng những bản đồ tốt nhất!";
 "already_donated" = "Đã quyên góp";
 "remind_me_later" = "Nhắc sau";
-"support_organic_maps" = "Hỗ trợ Organic Maps";
+"support_organic_maps" = "Hỗ trợ CoMaps";
 
 /* Button in the main Help dialog */
 "copyright" = "Bản quyền";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "Để tải xuống, bạn cần thêm dung lượng. Xin xóa mọi dữ liệu không cần thiết.";
-"editor_sharing_title" = "Tôi đã cải thiện các bản đồ Organic Maps";
+"editor_sharing_title" = "Tôi đã cải thiện các bản đồ CoMaps";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d trên %2$d";
@@ -593,7 +593,7 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "Lưu ý dành cho tình nguyện viên OpenStreetMap (tùy chọn)";
 "editor_detailed_description_hint" = "Nhận xét chi tiết";
-"editor_detailed_description" = "Những thay đổi đề nghị của bạn sẽ được gửi đến cộng đồng OpenStreetMap. Mô tả các chi tiết không thể sửa trong Organic Maps.";
+"editor_detailed_description" = "Những thay đổi đề nghị của bạn sẽ được gửi đến cộng đồng OpenStreetMap. Mô tả các chi tiết không thể sửa trong CoMaps.";
 "editor_more_about_osm" = "Thông tin bổ sung về OpenStreetMap";
 "editor_operator" = "Toán tử";
 
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Xem";
-"recent_track_background_dialog_message" = "Organic Maps sử dụng định vị của bạn trong ứng dụng chạy nền để ghi lại tuyến đường đã đi gần đây của bạn.";
+"recent_track_background_dialog_message" = "CoMaps sử dụng định vị của bạn trong ứng dụng chạy nền để ghi lại tuyến đường đã đi gần đây của bạn.";
 "general_settings" = "Thiết lập chung";
 
 /* For the first routing */
@@ -779,7 +779,7 @@
 "power_managment_setting_never" = "Không bao giờ";
 "power_managment_setting_auto" = "Tự động";
 "power_managment_setting_manual_max" = "Tiết kiệm năng lượng tối đa";
-"enable_logging_warning_message" = "Tùy chọn này được kích hoạt để ghi nhật ký đăng nhập cho mục đích chẩn đoán. Điều này sẽ giúp nhóm chúng tôi làm rõ các vấn đề liên quan đến ứng dụng. Hãy bật tùy chọn này chỉ khi nào có yêu cầu hỗ trợ từ Organic Maps.";
+"enable_logging_warning_message" = "Tùy chọn này được kích hoạt để ghi nhật ký đăng nhập cho mục đích chẩn đoán. Điều này sẽ giúp nhóm chúng tôi làm rõ các vấn đề liên quan đến ứng dụng. Hãy bật tùy chọn này chỉ khi nào có yêu cầu hỗ trợ từ CoMaps.";
 "driving_options_title" = "Thiết lập đi vòng";
 
 /* Recommended length for CarPlay and Android Auto is around 25-27 characters */
@@ -837,7 +837,7 @@
 "ok" = "Ok";
 "speedcams_alert_title_carplay_1" = "Сam tốc độ";
 "speedcams_alert_title_carplay_2" = "Cảnh báo tốc độ";
-"download_map_carplay" = "Vui lòng tải xuống bản đồ trong ứng dụng Organic Maps trên thiết bị của bạn";
+"download_map_carplay" = "Vui lòng tải xuống bản đồ trong ứng dụng CoMaps trên thiết bị của bạn";
 "carplay_roundabout_exit" = "Lối ra %@ của vòng xuyến";
 
 /* max. 10 symbols, both iOS and Android */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -987,7 +987,7 @@
 "website_menu" = "Liên kết thực đơn";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Bạn có muốn gửi báo cáo lỗi cho nhà phát triển không?\nChúng tôi dựa vào người dùng của mình vì Bản đồ không phải trả tiền không tự động thu thập bất kỳ thông tin lỗi nào. Cảm ơn bạn trước vì đã ủng hộ Organic Maps!";
+"bugreport_alert_message" = "Bạn có muốn gửi báo cáo lỗi cho nhà phát triển không?\nChúng tôi dựa vào người dùng của mình vì Bản đồ không phải trả tiền không tự động thu thập bất kỳ thông tin lỗi nào. Cảm ơn bạn trước vì đã ủng hộ CoMaps!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Kích hoạt đồng bộ hóa iCloud";

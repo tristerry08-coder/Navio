@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "منشآت للمنازل المتنقلة";
-"share_bookmarks_email_body" = "مرحباً! ْ\n\n تم إرفاق إشاراتي المرجعية من تطبيق Organic Maps. الرجاء فتحهم إذا لديك تطبيق Organic Maps مثبتاً. أو، إذا لم يكن مثبتاً، قم بتنزيل التطبيق لنظام iOS أو أندرويد من خلال الضغط على هذا الرابط: https://www.comaps.app/download/ \n\nاستمتع بالسفر مع Organic Maps!";
+"share_bookmarks_email_body" = "مرحباً! ْ\n\n تم إرفاق إشاراتي المرجعية من تطبيق CoMaps. الرجاء فتحهم إذا لديك تطبيق CoMaps مثبتاً. أو، إذا لم يكن مثبتاً، قم بتنزيل التطبيق لنظام iOS أو أندرويد من خلال الضغط على هذا الرابط: https://www.comaps.app/download/ \n\nاستمتع بالسفر مع Organic Maps!";
 
 /* message title of loading file */
 "load_kmz_title" = "يتم تحميل الإشارات المرجعية";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "لم يتم تحديد موقعك بعد.";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "مرحباً، تفقد الدبوس الخاص بي على خريطة Organic Maps!";
+"bookmark_share_email_subject" = "مرحباً، تفقد الدبوس الخاص بي على خريطة CoMaps!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "مرحباً، تحقق من موقعي الحالي على خريطة Organic Maps!";
+"my_position_share_email_subject" = "مرحباً، تحقق من موقعي الحالي على خريطة CoMaps!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "البريد الالكتروني";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "الموقع الإلكتروني";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "أخبار";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "تبرع لبناء أفضل الخرائط معًا!";
 "already_donated" = "تم التبرع";
 "remind_me_later" = "ذكر لاحقاً";
-"support_organic_maps" = "دعم Organic Maps";
+"support_organic_maps" = "دعم CoMaps";
 
 /* Button in the main Help dialog */
 "copyright" = "حقوق النشر";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "للتنزيل، فأنت تحتاج إلى توفير مساحة أكبر. من فضلك، الرجاء قم بحذف البيانات غير الضرورية.";
-"editor_sharing_title" = "لقد قمت بتحسين خرائط تطبيق Organic Maps";
+"editor_sharing_title" = "لقد قمت بتحسين خرائط تطبيق CoMaps";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d من%2$d";
@@ -593,7 +593,7 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "ملاحظة لمتطوعي OpenStreetMap (اختياري)";
 "editor_detailed_description_hint" = "تعليق مفصّل";
-"editor_detailed_description" = "سيتم إرسال التغييرات التي اقترحتها إلى مجتمع خريطة الشارع المفتوحة. اذكر التفاصيل التي لا يمكن تحريرها في Organic Maps";
+"editor_detailed_description" = "سيتم إرسال التغييرات التي اقترحتها إلى مجتمع خريطة الشارع المفتوحة. اذكر التفاصيل التي لا يمكن تحريرها في CoMaps";
 "editor_more_about_osm" = "المزيد عن خريطة الشارع المفتوحة";
 "editor_operator" = "المشغل";
 
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "اتطلع على";
-"recent_track_background_dialog_message" = "يستخدم Organic Maps موقعك الجغرافي في الخلفية لتسجيل مسار سفرك الأخير.";
+"recent_track_background_dialog_message" = "يستخدم CoMaps موقعك الجغرافي في الخلفية لتسجيل مسار سفرك الأخير.";
 "general_settings" = "الإعدادات العامة";
 
 /* For the first routing */
@@ -779,7 +779,7 @@
 "power_managment_setting_never" = "أبدًا";
 "power_managment_setting_auto" = "تلقائي";
 "power_managment_setting_manual_max" = "توفير الطاقة الأقصى";
-"enable_logging_warning_message" = "هذا الخيار يقوم ببدأ تسجيل سجلات التطبيق لإغراض التشخيصة. يمكن أن يكون مفيدًا لفريق الدعم الخاص بنا لحل المشاكل التي تواجهكم داخل التطبيق. قم بتفعيل هذا الخيار بشكل مؤقت فقط في حالة طلب الدعم من Organic Maps.";
+"enable_logging_warning_message" = "هذا الخيار يقوم ببدأ تسجيل سجلات التطبيق لإغراض التشخيصة. يمكن أن يكون مفيدًا لفريق الدعم الخاص بنا لحل المشاكل التي تواجهكم داخل التطبيق. قم بتفعيل هذا الخيار بشكل مؤقت فقط في حالة طلب الدعم من CoMaps.";
 "driving_options_title" = "خيارات رسم المسار";
 
 /* Recommended length for CarPlay and Android Auto is around 25-27 characters */
@@ -837,7 +837,7 @@
 "ok" = "موافق";
 "speedcams_alert_title_carplay_1" = "كاميرات السرعة";
 "speedcams_alert_title_carplay_2" = "تحذير بشأن السرعة";
-"download_map_carplay" = "يُرجى تحميل الخرائط في تطبيق Organic Maps على جهازك";
+"download_map_carplay" = "يُرجى تحميل الخرائط في تطبيق CoMaps على جهازك";
 "carplay_roundabout_exit" = "المخرج رقم %@";
 
 /* max. 10 symbols, both iOS and Android */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -987,7 +987,7 @@
 "website_menu" = "رابط القائمة";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "هل ترغب في إرسال تقرير عن الأخطاء إلى المطورين؟\nنحن نعتمد على مستخدمينا لأن تطبيق Organic Maps لا يجمع أي معلومات عن الأخطاء تلقائيًا. شكرًا لك مقدمًا على دعم الخرائط العضوية!";
+"bugreport_alert_message" = "هل ترغب في إرسال تقرير عن الأخطاء إلى المطورين؟\nنحن نعتمد على مستخدمينا لأن تطبيق CoMaps لا يجمع أي معلومات عن الأخطاء تلقائيًا. شكرًا لك مقدمًا على دعم الخرائط العضوية!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "تمكين مزامنة iCloud";

@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Faċilitajiet tal-RV";
-"share_bookmarks_email_body" = "Helow!\n\nMehmuża huma il-bookmarks; iftaħhom ġo Organic Maps. Jekk mhuwiex installat tista tniżżlu min hawn: https://www.comaps.app/download/\n\nĦu pjaċir ivvjaġġa ġo Organic Maps!";
+"share_bookmarks_email_body" = "Helow!\n\nMehmuża huma il-bookmarks; iftaħhom ġo CoMaps. Jekk mhuwiex installat tista tniżżlu min hawn: https://www.comaps.app/download/\n\nĦu pjaċir ivvjaġġa ġo CoMaps!";
 
 /* message title of loading file */
 "load_kmz_title" = "Tgħobijja tal-bookmarks";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "Il-lokażżjoni tiegħek mhuwiex determinat s'issa";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Merħba, ara il-pin tiegħi fuq Organic Maps!";
+"bookmark_share_email_subject" = "Merħba, ara il-pin tiegħi fuq CoMaps!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Merħba, ara il-lokażżjoni kurrenti tiegħi fuq il-mappa ta'Organic Maps!";
+"my_position_share_email_subject" = "Merħba, ara il-lokażżjoni kurrenti tiegħi fuq il-mappa ta'CoMaps!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "E-mejl";
@@ -190,7 +190,7 @@
 "done" = "Lest";
 
 /* Prints version number in About dialog */
-"version" = "Verżjoni ta' Organic Maps: %@";
+"version" = "Verżjoni ta' CoMaps: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Korsa";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "Websajt";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "Aħbarijiet";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "Agħti donazzjoni biex tibni l-aħjar mapep flimkien!";
 "already_donated" = "Ġa mogħtija id-donazzjoni";
 "remind_me_later" = "Fakkar aktar tard";
-"support_organic_maps" = "Appoġġja lill-Organic Maps";
+"support_organic_maps" = "Appoġġja lill-CoMaps";
 
 /* Button in the main Help dialog */
 "copyright" = "Drittijiet tal-awtur";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "To download, you need more space. Please delete any unnecessary data.";
-"editor_sharing_title" = "I improved the Organic Maps maps";
+"editor_sharing_title" = "I improved the CoMaps maps";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d ta' %2$d";
@@ -593,14 +593,14 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "Nota lill-voluntiera ta’ OpenStreetMap (fakultattiva)";
 "editor_detailed_description_hint" = "Detailed comment";
-"editor_detailed_description" = "Your suggested map changes will be sent to the OpenStreetMap community. Please describe any additional details that cannot be edited in Organic Maps.";
+"editor_detailed_description" = "Your suggested map changes will be sent to the OpenStreetMap community. Please describe any additional details that cannot be edited in CoMaps.";
 "editor_more_about_osm" = "Aktar dwar OpenStreetMap";
 "editor_operator" = "Operatur";
 
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Operator: %@";
 "editor_category_unsuitable_title" = "Ma tistax isib kategorija adattata?";
-"editor_category_unsuitable_text" = "Organic Maps jippermetti li jiżdiedu kategoriji punti sempliċi biss, li jfisser l-ebda bliet, toroq, lagi, linji ġenerali tal-bini, eċċ. Jekk jogħġbok żid dawn il-kategoriji direttament mal-<a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Iċċekkja l-<a href=\"https://www.comaps.app/support/advanced-map-editing/\">gwida</a> tagħna għal struzzjonijiet dettaljati.";
+"editor_category_unsuitable_text" = "CoMaps jippermetti li jiżdiedu kategoriji punti sempliċi biss, li jfisser l-ebda bliet, toroq, lagi, linji ġenerali tal-bini, eċċ. Jekk jogħġbok żid dawn il-kategoriji direttament mal-<a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Iċċekkja l-<a href=\"https://www.comaps.app/support/advanced-map-editing/\">gwida</a> tagħna għal struzzjonijiet dettaljati.";
 "downloader_no_downloaded_maps_title" = "Ma niżżilt l-ebda mapep";
 "downloader_no_downloaded_maps_message" = "Niżżel mapep biex tfittex u tinnaviga mingħajr l-użu tal-Internet.";
 "current_location_unknown_error_title" = "Il-post attwali mhux magħruf.";
@@ -615,7 +615,7 @@
 "location_services_disabled_on_device_2" = "2. Select Privacy";
 "location_services_disabled_on_device_3" = "3. Select Location Services";
 "location_services_disabled_on_device_4" = "4. Turn on Location Services";
-"location_services_disabled_on_device_additional_message" = "Or continue using Organic Maps without Location";
+"location_services_disabled_on_device_additional_message" = "Or continue using CoMaps without Location";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Check out";
-"recent_track_background_dialog_message" = "Organic Maps uses your location in the background to record your recently travelled route.";
+"recent_track_background_dialog_message" = "CoMaps uses your location in the background to record your recently travelled route.";
 "general_settings" = "General settings";
 
 /* For the first routing */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -959,10 +959,10 @@
 "app_tip_09" = "L-għan ewlieni tagħna huwa li nibnu mapep veloċi, iffukati fuq il-privatezza, u faċli biex jintużaw li se jinħabbu.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Issa qed tuża Organic Maps fuq l-iskrin tat-telefown";
+"car_used_on_the_phone_screen" = "Issa qed tuża CoMaps fuq l-iskrin tat-telefown";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Issa qed tuża Organic Maps fuq l-iskrin tal-karozza";
+"car_used_on_the_car_screen" = "Issa qed tuża CoMaps fuq l-iskrin tal-karozza";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Kompli fuq il-mowbajl";
@@ -987,7 +987,7 @@
 "website_menu" = "Link tal-menu";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Would you like to send a bug report to the developers?\nWe rely on our users as Organic Maps doesn't collect any error information automatically. Thank you in advance for supporting Organic Maps!";
+"bugreport_alert_message" = "Would you like to send a bug report to the developers?\nWe rely on our users as CoMaps doesn't collect any error information automatically. Thank you in advance for supporting CoMaps!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Enable iCloud Syncronization";

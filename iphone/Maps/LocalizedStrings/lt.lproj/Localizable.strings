@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Kemperių aptarnavimas";
-"share_bookmarks_email_body" = "Labas! \n \nČia prisegtas mano žymių sąrašas iš „Organic Maps“ programėlės. Jei jos neturi, gali ją parsisiųsti iš https://www.comaps.app/download/ \n \nSmagių kelionių su „Organic Maps“!";
+"share_bookmarks_email_body" = "Labas! \n \nČia prisegtas mano žymių sąrašas iš „CoMaps“ programėlės. Jei jos neturi, gali ją parsisiųsti iš https://www.comaps.app/download/ \n \nSmagių kelionių su „CoMaps“!";
 
 /* message title of loading file */
 "load_kmz_title" = "Žymių sąrašas įkeliamas";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "Jūsų vieta dar nenustatyta";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Labas, pažvelk, ką aš pasižymėjau „Organic Maps“ žemėlapyje!";
+"bookmark_share_email_subject" = "Labas, pažvelk, ką aš pasižymėjau „CoMaps“ žemėlapyje!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Žvilgtelk, kur dabar esu, „Organic Maps“ žemėlapyje!";
+"my_position_share_email_subject" = "Žvilgtelk, kur dabar esu, „CoMaps“ žemėlapyje!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "El. paštas";
@@ -190,7 +190,7 @@
 "done" = "Baigta";
 
 /* Prints version number in About dialog */
-"version" = "„Organic Maps“ versija: %@";
+"version" = "„CoMaps“ versija: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Trasos";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "Svetainė";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "Naujienos";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "Paaukokite, kad kartu sukurtume geriausius žemėlapius!";
 "already_donated" = "Jau paaukojau";
 "remind_me_later" = "Priminti vėliau";
-"support_organic_maps" = "Paremti „Organic Maps“";
+"support_organic_maps" = "Paremti „CoMaps“";
 
 /* Button in the main Help dialog */
 "copyright" = "Autorių teisės";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "Žemėlapiams atsiųsti reikia daugiau laisvos vietos. Pašalinkite nereikalingus duomenis.";
-"editor_sharing_title" = "Aš patobulinau „Organic Maps“ žemėlapius";
+"editor_sharing_title" = "Aš patobulinau „CoMaps“ žemėlapius";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d iš %2$d";
@@ -593,14 +593,14 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "Pastaba „OpenStreetMap“ talkininkams (neprivaloma)";
 "editor_detailed_description_hint" = "Išsamus komentaras";
-"editor_detailed_description" = "Jūsų pasiūlyti žemėlapio pakeitimai bus išsiųsti „OpenStreetMap“ bendruomenei. Paminėkite papildomą informaciją, kurios negalėjote pataisyti naudodamiesi „Organic Maps“.";
+"editor_detailed_description" = "Jūsų pasiūlyti žemėlapio pakeitimai bus išsiųsti „OpenStreetMap“ bendruomenei. Paminėkite papildomą informaciją, kurios negalėjote pataisyti naudodamiesi „CoMaps“.";
 "editor_more_about_osm" = "Plačiau apie „OpenStreetMap“";
 "editor_operator" = "Operatorius";
 
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Operatorius: %@";
 "editor_category_unsuitable_title" = "Nerandate tinkamos kategorijos?";
-"editor_category_unsuitable_text" = "„Organic Maps“ leidžia pridėti tik paprastų kategorijas taškus – jokių miestų, kelių, ežerų, pastatų kontūrų ir pan. šia programėle pridėti negalima. Šių kategorijų objektus pridėkite naudodamiesi <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> svetaine. Žvilgtelėkite į mūsų <a href=\"https://www.comaps.app/support/advanced-map-editing/\">vadovą</a>, kuriame rasite išsamias pažingsnines instrukcijas.";
+"editor_category_unsuitable_text" = "„CoMaps“ leidžia pridėti tik paprastų kategorijas taškus – jokių miestų, kelių, ežerų, pastatų kontūrų ir pan. šia programėle pridėti negalima. Šių kategorijų objektus pridėkite naudodamiesi <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> svetaine. Žvilgtelėkite į mūsų <a href=\"https://www.comaps.app/support/advanced-map-editing/\">vadovą</a>, kuriame rasite išsamias pažingsnines instrukcijas.";
 "downloader_no_downloaded_maps_title" = "Nesate atsiuntę jokių žemėlapių";
 "downloader_no_downloaded_maps_message" = "Atsiųskite žemėlapius, kad galėtumėte ieškoti vietų ir keliauti neprisijungę prie tinklo.";
 "current_location_unknown_error_title" = "Dabartinė vieta nežinoma.";
@@ -615,7 +615,7 @@
 "location_services_disabled_on_device_2" = "2. Pasirinkite „Privatumas ir sauga“";
 "location_services_disabled_on_device_3" = "3. Pasirinkite „Vietos nustatymo paslaugos“";
 "location_services_disabled_on_device_4" = "4. Įjunkite vietos nustatymo paslaugas";
-"location_services_disabled_on_device_additional_message" = "Arba toliau naudokitės „Organic Maps“ be vietos nustatymo";
+"location_services_disabled_on_device_additional_message" = "Arba toliau naudokitės „CoMaps“ be vietos nustatymo";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Žvilgtelk";
-"recent_track_background_dialog_message" = "„Organic Maps“ naudota jūsų vietos duomenis fone, kad įrašytų jūsų paskiausiai keliautą trasą.";
+"recent_track_background_dialog_message" = "„CoMaps“ naudota jūsų vietos duomenis fone, kad įrašytų jūsų paskiausiai keliautą trasą.";
 "general_settings" = "Bendrieji nustatymai";
 
 /* For the first routing */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -959,10 +959,10 @@
 "app_tip_09" = "Mūsų pagrindinis tikslas – sukurti spartų, privatų ir paprastą naudotis žemėlapį, kuris patiktų visiems.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Dabar naudojatės „Organic Maps“ telefono ekrane";
+"car_used_on_the_phone_screen" = "Dabar naudojatės „CoMaps“ telefono ekrane";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Dabar naudojatės „Organic Maps“ automobilio ekrane";
+"car_used_on_the_car_screen" = "Dabar naudojatės „CoMaps“ automobilio ekrane";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Tęsti telefone";
@@ -987,7 +987,7 @@
 "website_menu" = "Nuoroda į meniu";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Ar norite išsiųsti pranešimą apie klaidą programos kūrėjams?\nTokių pranešimų mes tikimės iš savo naudotojų, nes \"Organic Maps\" nerenka jokios informacijos apie klaidas automatiškai. Iš anksto dėkojame, kad prisidedate prie „Organic Maps“ tobulinimo!";
+"bugreport_alert_message" = "Ar norite išsiųsti pranešimą apie klaidą programos kūrėjams?\nTokių pranešimų mes tikimės iš savo naudotojų, nes \"CoMaps\" nerenka jokios informacijos apie klaidas automatiškai. Iš anksto dėkojame, kad prisidedate prie „CoMaps“ tobulinimo!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "„iCloud“ sinchronizavimo įjungimas";

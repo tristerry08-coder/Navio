@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Karavan tesisleri";
-"share_bookmarks_email_body" = "Merhaba! \n \nEktekiler yer imlerim, lütfen bunları Organic Maps'te açın. Eğer uygulama kurulu değilse, şu bağlantıyla iOS ve Android aygıtınıza kurabilirsiniz: https://www.comaps.app/download/ \n \nOrganic Maps ile gezmenin tadını çıkarın!";
+"share_bookmarks_email_body" = "Merhaba! \n \nEktekiler yer imlerim, lütfen bunları CoMaps'te açın. Eğer uygulama kurulu değilse, şu bağlantıyla iOS ve Android aygıtınıza kurabilirsiniz: https://www.comaps.app/download/ \n \nCoMaps ile gezmenin tadını çıkarın!";
 
 /* message title of loading file */
 "load_kmz_title" = "Yer İmleri Yükleniyor";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "Konumunuz henüz belirlenmedi";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Hey, Organic Maps'teki imimi incele!";
+"bookmark_share_email_subject" = "Hey, CoMaps'teki imimi incele!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Hey, Organic Maps’te geçerli konumumu incele!";
+"my_position_share_email_subject" = "Hey, CoMaps’te geçerli konumumu incele!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "E-posta";
@@ -190,7 +190,7 @@
 "done" = "Bitti";
 
 /* Prints version number in About dialog */
-"version" = "Organic Maps sürümü: %@";
+"version" = "CoMaps sürümü: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "GPS Kayıtları";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "Web Sitesi";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "Haberler";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "En iyi harita uygulamasını birlikte geliştirmemiz için bağış yapın!";
 "already_donated" = "Zaten bağış yaptım";
 "remind_me_later" = "Sonra hatırlat";
-"support_organic_maps" = "Organic Maps’i Destekleyin";
+"support_organic_maps" = "CoMaps’i Destekleyin";
 
 /* Button in the main Help dialog */
 "copyright" = "Telif hakkı";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "İndirmek için daha çok alan gerekiyor. Lütfen gereksiz verileri silin.";
-"editor_sharing_title" = "Organic Maps'in haritasını düzenledim";
+"editor_sharing_title" = "CoMaps'in haritasını düzenledim";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d/%2$d";
@@ -593,14 +593,14 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "OpenStreetMap gönüllülerine not (isteğe bağlı)";
 "editor_detailed_description_hint" = "Ayrıntılı yorum";
-"editor_detailed_description" = "Önerdiğiniz değişiklikler OpenStreetMap topluluğuna gönderilecek. Organic Maps’te düzenlenemeyen ayrıntıları açıklayın.";
+"editor_detailed_description" = "Önerdiğiniz değişiklikler OpenStreetMap topluluğuna gönderilecek. CoMaps’te düzenlenemeyen ayrıntıları açıklayın.";
 "editor_more_about_osm" = "OpenStreetMap ile ilgili ek bilgi";
 "editor_operator" = "İşletici";
 
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "İşletici: %@";
 "editor_category_unsuitable_title" = "Uygun kategori bulamıyor musunuz?";
-"editor_category_unsuitable_text" = "Organic Maps yalnızca basit nokta kategorilerini eklemeyi sağlar. Yani kasaba, yol, göl, bina vb. çizgi/alan verisi ekleme desteği yoktur. Lütfen bu tür kategorileri doğrudan <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> üzerinden ekleyin. Adım adım ayrıntılı yönergeler için <a href=\"https://www.comaps.app/support/advanced-map-editing/\">yönergemize</a> göz atabilirsiniz.";
+"editor_category_unsuitable_text" = "CoMaps yalnızca basit nokta kategorilerini eklemeyi sağlar. Yani kasaba, yol, göl, bina vb. çizgi/alan verisi ekleme desteği yoktur. Lütfen bu tür kategorileri doğrudan <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> üzerinden ekleyin. Adım adım ayrıntılı yönergeler için <a href=\"https://www.comaps.app/support/advanced-map-editing/\">yönergemize</a> göz atabilirsiniz.";
 "downloader_no_downloaded_maps_title" = "Hiç harita indirmediniz";
 "downloader_no_downloaded_maps_message" = "Çevrim dışı olarak adres bulmak ve gezinmek için haritaları indirin.";
 "current_location_unknown_error_title" = "Geçerli konum bilinmiyor.";
@@ -615,7 +615,7 @@
 "location_services_disabled_on_device_2" = "2. Gizlilik'i seçin";
 "location_services_disabled_on_device_3" = "3. Konum Servisleri'ni seçin";
 "location_services_disabled_on_device_4" = "4. Konum Servislerini Açın";
-"location_services_disabled_on_device_additional_message" = "Veya Konum olmadan Organic Maps kullanmaya devam edin";
+"location_services_disabled_on_device_additional_message" = "Veya Konum olmadan CoMaps kullanmaya devam edin";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "İncele";
-"recent_track_background_dialog_message" = "Organic Maps, en son seyahat ettiğiniz rotayı kaydetmek için arka planda coğrafi konumunuzu kullanır.";
+"recent_track_background_dialog_message" = "CoMaps, en son seyahat ettiğiniz rotayı kaydetmek için arka planda coğrafi konumunuzu kullanır.";
 "general_settings" = "Genel ayarlar";
 
 /* For the first routing */
@@ -837,7 +837,7 @@
 "ok" = "Tamam";
 "speedcams_alert_title_carplay_1" = "Hız kameraları";
 "speedcams_alert_title_carplay_2" = "Hız uyarıları";
-"download_map_carplay" = "Lütfen telefonunuzdaki Organic Maps'ten haritaları indirin";
+"download_map_carplay" = "Lütfen telefonunuzdaki CoMaps'ten haritaları indirin";
 "carplay_roundabout_exit" = "%@ çıkış";
 
 /* max. 10 symbols, both iOS and Android */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/organicmapstr";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/tr/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -959,10 +959,10 @@
 "app_tip_09" = "Temel amacımız hızlı, gizlilik odaklı, kullanımı kolay, seveceğiniz bir harita uygulaması oluşturmaktır.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Artık Organic Maps'i telefon ekranında kullanıyorsunuz";
+"car_used_on_the_phone_screen" = "Artık CoMaps'i telefon ekranında kullanıyorsunuz";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Şu anda araç ekranında Organic Maps kullanıyorsunuz";
+"car_used_on_the_car_screen" = "Şu anda araç ekranında CoMaps kullanıyorsunuz";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Telefonda devam et";
@@ -987,7 +987,7 @@
 "website_menu" = "Menü Bağlantısı";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Geliştiricilere bir hata raporu göndermek ister misiniz?\nOrganic Maps otomatik olarak herhangi bir hata bilgisi toplamadığı için bu konuda kullanıcılarımıza güveniyoruz. Organic Maps'i desteklediğiniz için şimdiden teşekkür ederiz!";
+"bugreport_alert_message" = "Geliştiricilere bir hata raporu göndermek ister misiniz?\nCoMaps otomatik olarak herhangi bir hata bilgisi toplamadığı için bu konuda kullanıcılarımıza güveniyoruz. CoMaps'i desteklediğiniz için şimdiden teşekkür ederiz!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "iCloud Senkronizasyonunu Etkinleştir";

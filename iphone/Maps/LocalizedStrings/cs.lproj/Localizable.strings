@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Pro obytné vozy";
-"share_bookmarks_email_body" = "Ahoj!\n \nV příloze najdeš mé záložky; otevři je v aplikaci Organic Maps. Pokud ji nemáš nainstalovanou, můžeš si ji stáhnout zde: https://www.comaps.app/download/\n \nUžij si cestování s Organic Maps!";
+"share_bookmarks_email_body" = "Ahoj!\n \nV příloze najdeš mé záložky; otevři je v aplikaci CoMaps. Pokud ji nemáš nainstalovanou, můžeš si ji stáhnout zde: https://www.comaps.app/download/\n \nUžij si cestování s CoMaps!";
 
 /* message title of loading file */
 "load_kmz_title" = "Nahrávání záložek";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "Vaše poloha zatím nebyla určena";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Koukni na mojí značku na mapě v Organic Maps!";
+"bookmark_share_email_subject" = "Koukni na mojí značku na mapě v CoMaps!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Podívej se na mou aktuální polohu na mapě v Organic Maps!";
+"my_position_share_email_subject" = "Podívej se na mou aktuální polohu na mapě v CoMaps!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "E-mail";
@@ -190,7 +190,7 @@
 "done" = "Hotovo";
 
 /* Prints version number in About dialog */
-"version" = "Verze Organic Maps: %@";
+"version" = "Verze CoMaps: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Stopy";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "Webové stránky";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "Novinky";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "Přispějte, abychom společně vytvořili ty nejlepší mapy!";
 "already_donated" = "Již darováno";
 "remind_me_later" = "Připomeň později";
-"support_organic_maps" = "Podpořit Organic Maps";
+"support_organic_maps" = "Podpořit CoMaps";
 
 /* Button in the main Help dialog */
 "copyright" = "Autorská práva";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "Ke stažení potřebujete více volného místa. Odstraňte prosím nepotřebná data.";
-"editor_sharing_title" = "Vylepšil jsem mapy Organic Maps";
+"editor_sharing_title" = "Vylepšil jsem mapy CoMaps";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d z %2$d";
@@ -593,7 +593,7 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "Poznámka pro dobrovolníky OpenStreetMap (nepovinné)";
 "editor_detailed_description_hint" = "Podrobný komentář";
-"editor_detailed_description" = "Vámi navržené změny odešleme do komunity OpenStreetMap. Popište podrobnosti, které nelze upravit v Organic Maps.";
+"editor_detailed_description" = "Vámi navržené změny odešleme do komunity OpenStreetMap. Popište podrobnosti, které nelze upravit v CoMaps.";
 "editor_more_about_osm" = "Další informace o projektu OpenStreetMap";
 "editor_operator" = "Provozovatel";
 
@@ -615,7 +615,7 @@
 "location_services_disabled_on_device_2" = "2. Vyberte možnost Soukromí";
 "location_services_disabled_on_device_3" = "3. Vyberte možnost Služby určování polohy";
 "location_services_disabled_on_device_4" = "4. Zapnutí služeb určování polohy";
-"location_services_disabled_on_device_additional_message" = "Nebo pokračujte v používání aplikace Organic Maps bez polohy";
+"location_services_disabled_on_device_additional_message" = "Nebo pokračujte v používání aplikace CoMaps bez polohy";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Odjezd";
-"recent_track_background_dialog_message" = "Organic Maps používají geopozici na pozadí, aby se zaznamenala vaše nedávno ujetá trasa.";
+"recent_track_background_dialog_message" = "CoMaps používají geopozici na pozadí, aby se zaznamenala vaše nedávno ujetá trasa.";
 "general_settings" = "Obecná nastavení";
 
 /* For the first routing */
@@ -837,7 +837,7 @@
 "ok" = "Ok";
 "speedcams_alert_title_carplay_1" = "Rych. kam.";
 "speedcams_alert_title_carplay_2" = "Rych. varování";
-"download_map_carplay" = "Stáhněte si prosím mapy do aplikace Organic Maps ve vašem zařízení";
+"download_map_carplay" = "Stáhněte si prosím mapy do aplikace CoMaps ve vašem zařízení";
 "carplay_roundabout_exit" = "%@ výjezd";
 
 /* max. 10 symbols, both iOS and Android */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/cs/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -959,10 +959,10 @@
 "app_tip_09" = "Naším hlavním cílem je vytvářet rychlé, na soukromí zaměřené a snadno použitelné mapy, které si zamilujete.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Na obrazovce telefonu nyní používáte aplikaci Organic Maps";
+"car_used_on_the_phone_screen" = "Na obrazovce telefonu nyní používáte aplikaci CoMaps";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Na obrazovce auta nyní používáte aplikaci Organic Maps";
+"car_used_on_the_car_screen" = "Na obrazovce auta nyní používáte aplikaci CoMaps";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Pokračujte v telefonu";
@@ -987,7 +987,7 @@
 "website_menu" = "Odkaz na menu";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Chcete poslat vývojářům hlášení o chybě?\nSpoléháme na naše uživatele, protože společnost Organic Maps neshromažďuje žádné informace o chybách automaticky. Předem vám děkujeme za podporu Organic Maps!";
+"bugreport_alert_message" = "Chcete poslat vývojářům hlášení o chybě?\nSpoléháme na naše uživatele, protože společnost CoMaps neshromažďuje žádné informace o chybách automaticky. Předem vám děkujeme za podporu CoMaps!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Povolení synchronizace s iCloudem";

@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "За кампер возила";
-"share_bookmarks_email_body" = "Здраво!\n\nУ прилогу су моји маркери; молим те да их отвориш у Organic Maps-у. Ако га немаш већ инсталираног, можеш да га преузмеш одавде: https://www.comaps.app/download/\n\nУживај у путовању са Organic Maps-ом!";
+"share_bookmarks_email_body" = "Здраво!\n\nУ прилогу су моји маркери; молим те да их отвориш у CoMaps-у. Ако га немаш већ инсталираног, можеш да га преузмеш одавде: https://www.comaps.app/download/\n\nУживај у путовању са CoMaps-ом!";
 
 /* message title of loading file */
 "load_kmz_title" = "Учитавање маркера";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "Ваша локација још није одређена";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Хеј, види мој маркер у Organic Maps-у!";
+"bookmark_share_email_subject" = "Хеј, види мој маркер у CoMaps-у!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Хеј, види моју тренутну локацију на Organic Maps мапи!";
+"my_position_share_email_subject" = "Хеј, види моју тренутну локацију на CoMaps мапи!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "Email";
@@ -190,7 +190,7 @@
 "done" = "Готово";
 
 /* Prints version number in About dialog */
-"version" = "Organic Maps верзија: %@";
+"version" = "CoMaps верзија: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Путање";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "Веб-сајт";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "Новости";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "Донирате да бисмо заједно направили најбоље мапе!";
 "already_donated" = "Већ је донирано";
 "remind_me_later" = "Подсети ме касније";
-"support_organic_maps" = "Подршка Organic Maps";
+"support_organic_maps" = "Подршка CoMaps";
 
 /* Button in the main Help dialog */
 "copyright" = "Copyright";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "Да бисте завршили преузимање потребно је више слободног простора. Молим Вас да обришете непотребне податке.";
-"editor_sharing_title" = "Ја сам поправио/ла мапе у Organic Maps-у";
+"editor_sharing_title" = "Ја сам поправио/ла мапе у CoMaps-у";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d од %2$d";
@@ -593,14 +593,14 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "Напомена за OpenStreetMap волонтере (није обавезна)";
 "editor_detailed_description_hint" = "Детаљан коментар";
-"editor_detailed_description" = "Ваши предлози промена на мапи ће бити послати OpenStreetMap заједници. Молим Вас опишите евентуалне додатне детаље који не могу да се промене помоћу Organic Maps-а.";
+"editor_detailed_description" = "Ваши предлози промена на мапи ће бити послати OpenStreetMap заједници. Молим Вас опишите евентуалне додатне детаље који не могу да се промене помоћу CoMaps-а.";
 "editor_more_about_osm" = "Више о OpenStreetMap-у";
 "editor_operator" = "Оператор";
 
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Оператор: %@";
 "editor_category_unsuitable_title" = "Не можете да пронађете одговарајућу категорију?";
-"editor_category_unsuitable_text" = "Organic Maps омогућава додавање једноставних категорија за тачке на мапи, што искључује градове, путеве, језера, тлоцрте зграда, итд. Молимо Вас да такве категорије додате директно на <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Прочитајте наше <a href=\"https://www.comaps.app/support/advanced-map-editing/\">упутство</a> за детаљне инструкције, корак-по-корак.";
+"editor_category_unsuitable_text" = "CoMaps омогућава додавање једноставних категорија за тачке на мапи, што искључује градове, путеве, језера, тлоцрте зграда, итд. Молимо Вас да такве категорије додате директно на <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Прочитајте наше <a href=\"https://www.comaps.app/support/advanced-map-editing/\">упутство</a> за детаљне инструкције, корак-по-корак.";
 "downloader_no_downloaded_maps_title" = "Нисте преузели ни једну мапу";
 "downloader_no_downloaded_maps_message" = "Преузмите мапе да бисте претраживали и користили навигацију без интернета.";
 "current_location_unknown_error_title" = "Тренутна локација није позната.";
@@ -615,7 +615,7 @@
 "location_services_disabled_on_device_2" = "2. Изаберите Приватност";
 "location_services_disabled_on_device_3" = "3. Изаберите Локацијски сервиси";
 "location_services_disabled_on_device_4" = "4. Укључите Локацијске сервисе";
-"location_services_disabled_on_device_additional_message" = "Или наставите да користите Organic Maps без локације";
+"location_services_disabled_on_device_additional_message" = "Или наставите да користите CoMaps без локације";
 
 /* abbreviation for meters */
 "m" = "м";
@@ -672,7 +672,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Погледај";
-"recent_track_background_dialog_message" = "Organic Maps користи у позадини вашу локацију да би сачувао вашу недавно пређену руту.";
+"recent_track_background_dialog_message" = "CoMaps користи у позадини вашу локацију да би сачувао вашу недавно пређену руту.";
 "general_settings" = "Општа подешавања";
 
 /* For the first routing */
@@ -921,7 +921,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -958,10 +958,10 @@
 "app_tip_09" = "Наш главни циљ је да направимо брзу апликацију за мапе, једноставну за коришћење, оријентисану на приватност, коју ћете волети.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Ви сада користите Organic Maps на екрану телефона";
+"car_used_on_the_phone_screen" = "Ви сада користите CoMaps на екрану телефона";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Ви сада користите Organic Maps на екрану аутомобила";
+"car_used_on_the_car_screen" = "Ви сада користите CoMaps на екрану аутомобила";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Настави на телефону";
@@ -986,7 +986,7 @@
 "website_menu" = "Линк менија";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Да ли желите да пошаљете пријаву бага програмерима?\nОслањамо се на кориснике пошто Organic Maps не прикупља податке о грешкама аутоматски. Хвала унапред што подржавате Organic Maps!";
+"bugreport_alert_message" = "Да ли желите да пошаљете пријаву бага програмерима?\nОслањамо се на кориснике пошто CoMaps не прикупља податке о грешкама аутоматски. Хвала унапред што подржавате CoMaps!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Омогући iCloud синхронизацију";

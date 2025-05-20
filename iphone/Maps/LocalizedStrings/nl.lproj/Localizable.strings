@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Caravanfaciliteiten";
-"share_bookmarks_email_body" = "Hallo!\n\nBijgesloten zijn mijn bladwijzers uit de Organic Maps app. Open ze als je Organic Maps geïnstalleerd hebt. Of, als je dat niet hebt, download de app voor je iOS- of Android-apparaat door deze link te volgen: https://www.comaps.app/download/\n\nGeniet van het reizen met Organic Maps!";
+"share_bookmarks_email_body" = "Hallo!\n\nBijgesloten zijn mijn bladwijzers uit de CoMaps app. Open ze als je CoMaps geïnstalleerd hebt. Of, als je dat niet hebt, download de app voor je iOS- of Android-apparaat door deze link te volgen: https://www.comaps.app/download/\n\nGeniet van het reizen met Organic Maps!";
 
 /* message title of loading file */
 "load_kmz_title" = "Bladwijzers worden geladen";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "Je locatie is nog niet vastgesteld";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Hey, bekijk mijn pin op Organic Maps!";
+"bookmark_share_email_subject" = "Hey, bekijk mijn pin op CoMaps!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Hey, bekijk mijn huidige locatie op Organic Maps!";
+"my_position_share_email_subject" = "Hey, bekijk mijn huidige locatie op CoMaps!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "E-mail";
@@ -190,7 +190,7 @@
 "done" = "Klaar";
 
 /* Prints version number in About dialog */
-"version" = "Organic Maps versie: %@";
+"version" = "CoMaps versie: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Tracks";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "Website";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "Nieuws";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "Doneer om samen de beste kaarten te bouwen!";
 "already_donated" = "Reeds gedoneerd";
 "remind_me_later" = "Herinner later";
-"support_organic_maps" = "Ondersteun Organic Maps";
+"support_organic_maps" = "Ondersteun CoMaps";
 
 /* Button in the main Help dialog */
 "copyright" = "Auteursrechten";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "Om te kunnen downloaden, heb je meer ruimte nodig. Verwijder overbodige gegevens.";
-"editor_sharing_title" = "Ik heb de Organic Maps-kaarten verbeterd";
+"editor_sharing_title" = "Ik heb de CoMaps-kaarten verbeterd";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d van %2$d";
@@ -593,14 +593,14 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "Opmerking voor OpenStreetMap vrijwilligers (optioneel)";
 "editor_detailed_description_hint" = "Gedetailleerde reactie";
-"editor_detailed_description" = "Uw voorgestelde wijzigingen worden verzonden naar de OpenStreetMap-gemeenschap. Beschrijf de details die niet kunnen worden bewerkt in Organic Maps.";
+"editor_detailed_description" = "Uw voorgestelde wijzigingen worden verzonden naar de OpenStreetMap-gemeenschap. Beschrijf de details die niet kunnen worden bewerkt in CoMaps.";
 "editor_more_about_osm" = "Meer over OpenStreetMap";
 "editor_operator" = "Exploitant";
 
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Exploitant: %@";
 "editor_category_unsuitable_title" = "Kun je geen geschikte categorie vinden?";
-"editor_category_unsuitable_text" = "Met Organic Maps kun je alleen eenvoudige puntcategorieën toevoegen, dus geen steden, wegen, meren, contouren van gebouwen, enzovoort. Voeg zulke categorieën direct toe aan <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Bekijk onze <a href=\"https://www.comaps.app/support/advanced-map-editing/\">gids</a> voor gedetailleerde stap voor stap instructies.";
+"editor_category_unsuitable_text" = "Met CoMaps kun je alleen eenvoudige puntcategorieën toevoegen, dus geen steden, wegen, meren, contouren van gebouwen, enzovoort. Voeg zulke categorieën direct toe aan <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Bekijk onze <a href=\"https://www.comaps.app/support/advanced-map-editing/\">gids</a> voor gedetailleerde stap voor stap instructies.";
 "downloader_no_downloaded_maps_title" = "U hebt geen kaarten gedownload";
 "downloader_no_downloaded_maps_message" = "Download kaarten om een locatie te zoeken en offline te navigeren.";
 "current_location_unknown_error_title" = "Huidige locatie is onbekend.";
@@ -615,7 +615,7 @@
 "location_services_disabled_on_device_2" = "2. Selecteer Privacy en beveiliging";
 "location_services_disabled_on_device_3" = "3. Selecteer Locatievoorzieningen";
 "location_services_disabled_on_device_4" = "4. Locatievoorzieningen inschakelen";
-"location_services_disabled_on_device_additional_message" = "Of blijf Organic Maps gebruiken zonder locatie";
+"location_services_disabled_on_device_additional_message" = "Of blijf CoMaps gebruiken zonder locatie";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Bekijk";
-"recent_track_background_dialog_message" = "Organic Maps gebruikt uw geografische positie op de achtergrond om uw onlangs afgelegde route vast te leggen.";
+"recent_track_background_dialog_message" = "CoMaps gebruikt uw geografische positie op de achtergrond om uw onlangs afgelegde route vast te leggen.";
 "general_settings" = "Algemene instellingen";
 
 /* For the first routing */
@@ -779,7 +779,7 @@
 "power_managment_setting_never" = "Nooit";
 "power_managment_setting_auto" = "Wanneer batterij bijna leeg is";
 "power_managment_setting_manual_max" = "Maximale energiebesparing";
-"enable_logging_warning_message" = "Deze optie is ingeschakeld voor logboekregistraties voor diagnostische doeleinden. Het helpt bij het identificeren van problemen met de applicatie. Schakel de optie alleen in op verzoek van Organic Maps-ondersteuning.";
+"enable_logging_warning_message" = "Deze optie is ingeschakeld voor logboekregistraties voor diagnostische doeleinden. Het helpt bij het identificeren van problemen met de applicatie. Schakel de optie alleen in op verzoek van CoMaps-ondersteuning.";
 "driving_options_title" = "Route-instellingen";
 
 /* Recommended length for CarPlay and Android Auto is around 25-27 characters */
@@ -837,7 +837,7 @@
 "ok" = "Oké";
 "speedcams_alert_title_carplay_1" = "Snelheidscamera's";
 "speedcams_alert_title_carplay_2" = "Over snelheidscamera's";
-"download_map_carplay" = "Download kaarten in de Organic Maps app op uw apparaat";
+"download_map_carplay" = "Download kaarten in de CoMaps app op uw apparaat";
 "carplay_roundabout_exit" = "Afrit nr. %@";
 
 /* max. 10 symbols, both iOS and Android */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/nl/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -959,10 +959,10 @@
 "app_tip_09" = "Ons belangrijkste doel is om snelle, op privacy gerichte, gebruiksvriendelijke kaarten te maken waar u dol op zult zijn.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Je gebruikt nu Organic Maps op het telefoonscherm";
+"car_used_on_the_phone_screen" = "Je gebruikt nu CoMaps op het telefoonscherm";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Je gebruikt nu Organic Maps op het autoscherm";
+"car_used_on_the_car_screen" = "Je gebruikt nu CoMaps op het autoscherm";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Ga verder op de telefoon";
@@ -987,7 +987,7 @@
 "website_menu" = "Menulink";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Wil je een bugrapport naar de ontwikkelaars sturen?\nWe vertrouwen op onze gebruikers, want Organic Maps verzamelt geen foutinformatie automatisch. Alvast bedankt voor je steun aan Organic Maps!";
+"bugreport_alert_message" = "Wil je een bugrapport naar de ontwikkelaars sturen?\nWe vertrouwen op onze gebruikers, want CoMaps verzamelt geen foutinformatie automatisch. Alvast bedankt voor je steun aan CoMaps!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Schakel iCloud-synchronisatie in";

@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "RV용";
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks; please open them in Organic Maps. If you don't have it installed you can download it here: https://www.comaps.app/download/\n\nEnjoy travelling with Organic Maps!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks; please open them in CoMaps. If you don't have it installed you can download it here: https://www.comaps.app/download/\n\nEnjoy travelling with CoMaps!";
 
 /* message title of loading file */
 "load_kmz_title" = "즐겨찾기 로드";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "귀하의 위치를 아직 알아내지 못 했습니다";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Organic Maps 지도에서 내 핀 보기";
+"bookmark_share_email_subject" = "CoMaps 지도에서 내 핀 보기";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Organic Maps 지도에서 제 현재 위치를 살펴 보시기 바랍니다";
+"my_position_share_email_subject" = "CoMaps 지도에서 제 현재 위치를 살펴 보시기 바랍니다";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "이메일";
@@ -190,7 +190,7 @@
 "done" = "완료";
 
 /* Prints version number in About dialog */
-"version" = "Organic Maps 버전: %@";
+"version" = "CoMaps 버전: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "트랙";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "웹사이트";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "소식";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "기부하여 최고의 지도를 함께 만들어 보세요!";
 "already_donated" = "기부완료";
 "remind_me_later" = "나중에 알림";
-"support_organic_maps" = "Organic Maps 지원하기";
+"support_organic_maps" = "CoMaps 지원하기";
 
 /* Button in the main Help dialog */
 "copyright" = "저작권";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "다운로드하려면, 더 많은 여유 공간이 필요합니다. 불필요한 데이터를 삭제하십시오.";
-"editor_sharing_title" = "나는 Organic Maps 지도를 향상함";
+"editor_sharing_title" = "나는 CoMaps 지도를 향상함";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%2$d중의 %1$d";
@@ -593,7 +593,7 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "오픈스트리트맵 자원 봉사자 참고 사항(선택 사항)";
 "editor_detailed_description_hint" = "상세 설명";
-"editor_detailed_description" = "귀하가 제안한 변경 사항은 OpenStreetMap 커뮤니티로 전송됩니다. Organic Maps에서 편집할 수 없는 세부정보를 작성해 주세요.";
+"editor_detailed_description" = "귀하가 제안한 변경 사항은 OpenStreetMap 커뮤니티로 전송됩니다. CoMaps에서 편집할 수 없는 세부정보를 작성해 주세요.";
 "editor_more_about_osm" = "OpenStreetMap 정보";
 "editor_operator" = "연산자";
 
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "체크아웃";
-"recent_track_background_dialog_message" = "Organic Maps는 최근 여행한 경로를 녹음하기 위해 배경 화면에서 지역 위치 서비스를 사용합니다.";
+"recent_track_background_dialog_message" = "CoMaps는 최근 여행한 경로를 녹음하기 위해 배경 화면에서 지역 위치 서비스를 사용합니다.";
 "general_settings" = "일반 설정";
 
 /* For the first routing */
@@ -779,7 +779,7 @@
 "power_managment_setting_never" = "안함";
 "power_managment_setting_auto" = "자동";
 "power_managment_setting_manual_max" = "최대 전력 절약";
-"enable_logging_warning_message" = "이 옵션은 진단을 목적으로 로그를 엽니다 이를 통해 앱에 대한 문제를 분석하는 우리의 스탭을 도울 수 있습니다 이 옵션은 오직 Organic Maps 지원 요청에서만 가능합니다.";
+"enable_logging_warning_message" = "이 옵션은 진단을 목적으로 로그를 엽니다 이를 통해 앱에 대한 문제를 분석하는 우리의 스탭을 도울 수 있습니다 이 옵션은 오직 CoMaps 지원 요청에서만 가능합니다.";
 "driving_options_title" = "운전 옵션";
 
 /* Recommended length for CarPlay and Android Auto is around 25-27 characters */
@@ -837,7 +837,7 @@
 "ok" = "OK";
 "speedcams_alert_title_carplay_1" = "속도단속 카메라";
 "speedcams_alert_title_carplay_2" = "속도단속 카메라";
-"download_map_carplay" = "Organic Maps 앱 안의 지도들을 디바이스에 다운로드하세요";
+"download_map_carplay" = "CoMaps 앱 안의 지도들을 디바이스에 다운로드하세요";
 "carplay_roundabout_exit" = "%@번 출구";
 
 /* max. 10 symbols, both iOS and Android */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */

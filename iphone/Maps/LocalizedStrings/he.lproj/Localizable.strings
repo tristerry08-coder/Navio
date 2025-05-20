@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "עבור קרוואנים";
-"share_bookmarks_email_body" = "שלום!\n\nמצורפות הסימניות שלי, אפשר לפתוח אותן ב-Organic Maps. אם צריך, ניתן להוריד את האפליקצייה מכאן: https://www.comaps.app/download/\n\nתהנו לנווט עם Organic Maps!";
+"share_bookmarks_email_body" = "שלום!\n\nמצורפות הסימניות שלי, אפשר לפתוח אותן ב-CoMaps. אם צריך, ניתן להוריד את האפליקצייה מכאן: https://www.comaps.app/download/\n\nתהנו לנווט עם CoMaps!";
 
 /* message title of loading file */
 "load_kmz_title" = "טוען סימניות";
@@ -172,10 +172,10 @@
 "unknown_current_position" = "מיקומך לא אותר עדיין";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "היי, בדוק את הסיכה שלי במפה של Organic Maps!";
+"bookmark_share_email_subject" = "היי, בדוק את הסיכה שלי במפה של CoMaps!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "היי, בדקו את המיקום הנוכחי שלי במפה של Organic Maps!";
+"my_position_share_email_subject" = "היי, בדקו את המיקום הנוכחי שלי במפה של CoMaps!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "דוא\"ל";
@@ -252,7 +252,7 @@
 /* Text in menu */
 "website" = "אתר";
 
-/* Text in About menu, opens Organic Maps news website */
+/* Text in About menu, opens CoMaps news website */
 "news" = "חדשות";
 
 /* Text in menu */
@@ -283,7 +283,7 @@
 "donate_description" = "תרמו כדי לבנות יחד את המפות הטובות ביותר!";
 "already_donated" = "כבר נתרם";
 "remind_me_later" = "הזכר מאוחר יותר";
-"support_organic_maps" = "לתמוך ב-Organic Maps";
+"support_organic_maps" = "לתמוך ב-CoMaps";
 
 /* Button in the main Help dialog */
 "copyright" = "זכויות יוצרים";
@@ -573,7 +573,7 @@
 
 /* Error dialog no space */
 "migration_no_space_message" = "כדי להוריד, צריך עוד מקום. נא למחוק מידע שאינו הכרחי.";
-"editor_sharing_title" = "אני משפר את המפות של Organic Maps";
+"editor_sharing_title" = "אני משפר את המפות של CoMaps";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
 "downloader_of" = "%1$d מתוך %2$d";
@@ -593,14 +593,14 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "הערה למתנדבי OpenStreetMap (אופציונלי)";
 "editor_detailed_description_hint" = "הערה מפורטת";
-"editor_detailed_description" = "ההצעות שלך לשינוי המפה יישלחו לקהילת OpenStreetMap. יש לתאר פרטים נוספים שלא ניתן לערוך ב-Organic Maps.";
+"editor_detailed_description" = "ההצעות שלך לשינוי המפה יישלחו לקהילת OpenStreetMap. יש לתאר פרטים נוספים שלא ניתן לערוך ב-CoMaps.";
 "editor_more_about_osm" = "עוד על OpenStreetMap";
 "editor_operator" = "מַפעִיל";
 
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "מַפעִיל: %@";
 "editor_category_unsuitable_title" = "לא מוצאים קטגוריה מתאימה?";
-"editor_category_unsuitable_text" = "באמצעות Organic Maps ניתן להוסיף קטגוריות נקודה פשוטות בלבד, כלומר לא ניתן להוסיף עיירות, כבישים, אגמים, מבנים וכו'. אנא הוסיפו קטגוריות כאלה ישירות ל-<a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. עיינו <a href=\"https://www.comaps.app/support/advanced-map-editing/\">במדריך</a> שלנו לקבלת הוראות מפורטות.";
+"editor_category_unsuitable_text" = "באמצעות CoMaps ניתן להוסיף קטגוריות נקודה פשוטות בלבד, כלומר לא ניתן להוסיף עיירות, כבישים, אגמים, מבנים וכו'. אנא הוסיפו קטגוריות כאלה ישירות ל-<a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. עיינו <a href=\"https://www.comaps.app/support/advanced-map-editing/\">במדריך</a> שלנו לקבלת הוראות מפורטות.";
 "downloader_no_downloaded_maps_title" = "לא הורדת אף מפה";
 "downloader_no_downloaded_maps_message" = "הורד מפה כדי לחפש ולנווט ללא חיבור לאינטרנט.";
 "current_location_unknown_error_title" = "המיקום הנוכחי לא ידוע.";
@@ -673,7 +673,7 @@
 
 /* For sharing via SMS and so on */
 "sharing_call_action_look" = "Check out";
-"recent_track_background_dialog_message" = "האפליקצייה Organic Maps משתמשת במיקום שלך ברקע כדי להקליט את המסלול האחרון שלך.";
+"recent_track_background_dialog_message" = "האפליקצייה CoMaps משתמשת במיקום שלך ברקע כדי להקליט את המסלול האחרון שלך.";
 "general_settings" = "הגדרות כלליות";
 
 /* For the first routing */
@@ -922,7 +922,7 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
-/* Translated Organic Maps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://organicmaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
@@ -959,10 +959,10 @@
 "app_tip_09" = "המטרה העיקרית שלנו היא לבנות מפות מהירות, ממוקדות פרטיות, קלות לשימוש שתאהבו.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "אתה משתמש כעת ב-Organic Maps במסך הטלפון";
+"car_used_on_the_phone_screen" = "אתה משתמש כעת ב-CoMaps במסך הטלפון";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "אתה משתמש כעת ב-Organic Maps במסך המכונית";
+"car_used_on_the_car_screen" = "אתה משתמש כעת ב-CoMaps במסך המכונית";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "המשך בטלפון";
