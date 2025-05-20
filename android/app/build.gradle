@@ -315,6 +315,8 @@ dependencies {
   coreLibraryDesugaring libs.android.tools.desugar
 
   // Google Play Location Services
+  // TODO(@pastk): enabled via microG in all flavors,
+  // so move google/java/app/organicmaps/location/* into main/ and remove symlinks.
   //
   // Please add symlinks to google/java/app/organicmaps/location for each new gms-enabled flavor below:
   // ```
@@ -323,12 +325,8 @@ dependencies {
   // ls -la src/$flavor/java/app/organicmaps/location/GoogleFusedLocationProvider.java
   // ```
   //
-  webImplementation libs.google.services.location
-  googleImplementation libs.google.services.location
-  huaweiImplementation libs.google.services.location
-  // This is the microG project's re-implementation which is permissible on
-  // F-droid because it's Apache-2.0.
-  fdroidImplementation libs.microg.services.location
+  // microG project's FOSS re-implementation of the proprietary libs.google.services.location
+  implementation libs.microg.services.location
 
   // This line is added as a workaround for duplicate classes error caused by some outdated dependency:
   // > A failure occurred while executing com.android.build.gradle.internal.tasks.CheckDuplicatesRunnable
