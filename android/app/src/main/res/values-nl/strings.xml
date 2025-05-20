@@ -892,7 +892,7 @@
     <string name="editor_line_social_network">LINE</string>
     <string name="wikimedia_commons">Wikimedia Commons</string>
     <string name="read_in_wikipedia">Wikipedia</string>
-    <string name="telegram_url">https://t.me/OrganicMapsApp</string>
+    <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="comma_separated_pair">%1$s, %2$s</string>
     <string name="level_value_generic">Niveau: %s</string>
     <string name="openstreetmap">OpenStreetMap</string>
