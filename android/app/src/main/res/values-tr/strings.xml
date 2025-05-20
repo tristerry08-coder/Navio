@@ -619,7 +619,7 @@
     <!-- Alert to ask user relogin to OpenStreetMap with OAuth2 flow after OAuth1 authentication is deprecated. -->
     <string name="alert_reauth_message">Tüm harita düzenlemelerinizi kendiliğinden yüklemek için lütfen OpenStreetMap\'e giriş yapın. Daha çok bilgi <a href="https://github.com/organicmaps/organicmaps/issues/6144">buradadır</a>.</string>
     <string name="dialog_error_storage_title">Depolama alanı erişim sorunu</string>
-    <string name="dialog_error_storage_message">Harici bellek kullanılamıyor, muhtemelen SD Kart çıkarılmış, hasarlı veya dosya sistemi salt okunur. Lütfen kontrol edin veya support\@comaps.app adresinden bizimle iletişime geçin</string>
+    <string name="dialog_error_storage_message">Harici bellek kullanılamıyor, muhtemelen SD Kart çıkarılmış, hasarlı veya dosya sistemi salt okunur. Lütfen kontrol edin veya support@comaps.app adresinden bizimle iletişime geçin</string>
     <string name="setting_emulate_bad_storage">Bozuk depolama alanını taklit et</string>
     <string name="core_entrance">Giriş</string>
     <string name="error_enter_correct_name">Lütfen doğru ad girin</string>

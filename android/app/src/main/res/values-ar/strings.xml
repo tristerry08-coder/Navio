@@ -636,7 +636,7 @@
     <!-- Alert to ask user relogin to OpenStreetMap with OAuth2 flow after OAuth1 authentication is deprecated. -->
     <string name="alert_reauth_message">برجاء تسجيل الدخول إلى OpenStreetMap لتحميل جميع تعديلات الخريطة تلقائيًا. تعرف على المزيد <a href="https://github.com/organicmaps/organicmaps/issues/6144">هنا</a>.</string>
     <string name="dialog_error_storage_title">مشكلة الوصول للتخزين</string>
-    <string name="dialog_error_storage_message">التخزين الخارجي غير متوفر، ربما تمت إزالة بطاقة SD، أو أنها تالفة أو نظام الملفات للقراءة فقط. افحصه أو راسلنا على support\@comaps.app</string>
+    <string name="dialog_error_storage_message">التخزين الخارجي غير متوفر، ربما تمت إزالة بطاقة SD، أو أنها تالفة أو نظام الملفات للقراءة فقط. افحصه أو راسلنا على support@comaps.app</string>
     <string name="setting_emulate_bad_storage">محاكاة التخزين السيء</string>
     <string name="core_entrance">المدخل</string>
     <string name="error_enter_correct_name">الرجاء إدخال اسم صحيح</string>
