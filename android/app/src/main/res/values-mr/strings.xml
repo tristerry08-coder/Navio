@@ -146,7 +146,7 @@
     <string name="share_bookmarks_email_subject">CoMaps द्वारे तुम्हाला खूणपत्रे सामायिक केले</string>
     <string name="share_bookmarks_email_body">नमस्कार!
 \n
-\nCoMaps ऍप मधील माझे खूणपत्रे संलग्न केले आहेत. तुम्ही CoMaps इन्स्टॉल केले असल्यास हे खूणपत्रे उघडा. इन्स्टॉल केले नसल्यास, पुढील दुव्यावर जाऊन तुमच्या iOS किंवा अँड्रॉइड उपकरणावर हे डाउनलोड करा: https://comaps.app/get?kmz
+\nCoMaps ऍप मधील माझे खूणपत्रे संलग्न केले आहेत. तुम्ही CoMaps इन्स्टॉल केले असल्यास हे खूणपत्रे उघडा. इन्स्टॉल केले नसल्यास, पुढील दुव्यावर जाऊन तुमच्या iOS किंवा अँड्रॉइड उपकरणावर हे डाउनलोड करा: https://www.comaps.app/download/
 \n
 \nCoMaps सह प्रवासाचा आनंद घ्या!</string>
     <!-- message title of loading file -->
@@ -171,7 +171,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">नकाशा डाउनलोड होत आहे</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">मी आता इथे आहे %1$s किंवा %2$s CoMaps डाउनलोड करा: https://comaps.app/get</string>
+    <string name="my_position_share_sms">मी आता इथे आहे %1$s किंवा %2$s CoMaps डाउनलोड करा: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">CoMaps द्वारे एक खूणपत्र पाठवत आहे!</string>
     <!-- Subject for emailed position -->

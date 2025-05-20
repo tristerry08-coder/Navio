@@ -164,7 +164,7 @@
     <string name="description">Notas</string>
     <!-- Email Subject when sharing bookmark list -->
     <string name="share_bookmarks_email_subject">Marcadores de CoMaps compartidos con usted</string>
-    <string name="share_bookmarks_email_body">¡Hola! \n\nAdjunto mis marcadores de la aplicación CoMaps. Por favor, ábralos si tiene instalado CoMaps. O, si no lo tiene, descargue la aplicación para su dispositivo iOS o Android siguiendo este enlace: https://comaps.app/get?kmz \n\n¡Disfrute viajando con CoMaps!</string>
+    <string name="share_bookmarks_email_body">¡Hola! \n\nAdjunto mis marcadores de la aplicación CoMaps. Por favor, ábralos si tiene instalado CoMaps. O, si no lo tiene, descargue la aplicación para su dispositivo iOS o Android siguiendo este enlace: https://www.comaps.app/download/ \n\n¡Disfrute viajando con CoMaps!</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">Cargando marcadores</string>
     <!-- Kmz file successful loading -->
@@ -187,7 +187,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">La descarga del mapa está en curso.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">¡Mire mi ubicación actual en CoMaps! %1$s o %2$s ¿No tiene mapas offline? Descárguelos aquí: https://comaps.app/get</string>
+    <string name="my_position_share_sms">¡Mire mi ubicación actual en CoMaps! %1$s o %2$s ¿No tiene mapas offline? Descárguelos aquí: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">¡Mira mi marcador en el mapa de CoMaps!</string>
     <!-- Subject for emailed position -->

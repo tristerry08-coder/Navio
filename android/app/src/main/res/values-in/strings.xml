@@ -179,7 +179,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">Pengunduhan negara sedang berjalan.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">Hei, lihat lokasiku saat ini di CoMaps! %1$s atau %2$s belum memiliki peta offline? Unduh di sini: https://comaps.app/get</string>
+    <string name="my_position_share_sms">Hei, lihat lokasiku saat ini di CoMaps! %1$s atau %2$s belum memiliki peta offline? Unduh di sini: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">Hei, lihat pinku di peta CoMaps</string>
     <!-- Subject for emailed position -->

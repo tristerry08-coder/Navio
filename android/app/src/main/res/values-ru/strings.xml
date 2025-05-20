@@ -171,7 +171,7 @@
     <string name="share_bookmarks_email_subject">С вами поделились метками CoMaps</string>
     <string name="share_bookmarks_email_body">Здравствуйте!
 \n
-\nВ прикреплённом файле мои метки из офлайновых карт CoMaps. Для того чтобы открыть этот файл, вам потребуется приложение CoMaps, которое можно установить по ссылке: https://comaps.app/get?kmz
+\nВ прикреплённом файле мои метки из офлайновых карт CoMaps. Для того чтобы открыть этот файл, вам потребуется приложение CoMaps, которое можно установить по ссылке: https://www.comaps.app/download/
 \n
 \nСпасибо!</string>
     <!-- message title of loading file -->

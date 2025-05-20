@@ -167,7 +167,7 @@
     <!-- Email Subject when sharing bookmark list -->
     <string name="share_bookmarks_email_subject">CoMaps markagailuak zurekin partekatu dira</string>
     <string name="share_bookmarks_email_body">Kaixo!
-\nNire markagailuak CoMaps aplikazioan erantsi ditut. Mesedez, ireki itzazu CoMaps instalatuta baduzu. Edo, ez baduzu, deskargatu aplikazioa zure iOS edo Android gailurako esteka hau jarraituz: https://comaps.app/get?kmz
+\nNire markagailuak CoMaps aplikazioan erantsi ditut. Mesedez, ireki itzazu CoMaps instalatuta baduzu. Edo, ez baduzu, deskargatu aplikazioa zure iOS edo Android gailurako esteka hau jarraituz: https://www.comaps.app/download/
 \n
 \nGozatu bidaiatzen CoMaps-ekin!</string>
     <!-- message title of loading file -->
@@ -192,7 +192,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">Mapak deskargatzen ari dira.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">Ikusi nire uneko kokapena CoMaps-en! %1$s edo %2$s Ez al duzu lineaz kanpoko maparik? Deskargatu hemendik: https://comaps.app/get</string>
+    <string name="my_position_share_sms">Ikusi nire uneko kokapena CoMaps-en! %1$s edo %2$s Ez al duzu lineaz kanpoko maparik? Deskargatu hemendik: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">Begiratu nire markagailua CoMaps mapan!</string>
     <!-- Subject for emailed position -->

@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Faċilitajiet tal-RV";
-"share_bookmarks_email_body" = "Helow!\n\nMehmuża huma il-bookmarks; iftaħhom ġo Organic Maps. Jekk mhuwiex installat tista tniżżlu min hawn: https://omaps.app/get?kmz\n\nĦu pjaċir ivvjaġġa ġo Organic Maps!";
+"share_bookmarks_email_body" = "Helow!\n\nMehmuża huma il-bookmarks; iftaħhom ġo Organic Maps. Jekk mhuwiex installat tista tniżżlu min hawn: https://www.comaps.app/download/\n\nĦu pjaċir ivvjaġġa ġo Organic Maps!";
 
 /* message title of loading file */
 "load_kmz_title" = "Tgħobijja tal-bookmarks";

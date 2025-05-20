@@ -158,7 +158,7 @@
     <string name="description">Märkmed</string>
     <!-- Email Subject when sharing bookmark list -->
     <string name="share_bookmarks_email_subject">CoMaps järjehoidjaid jagati Sinuga</string>
-    <string name="share_bookmarks_email_body">Tere! \n\nManuses on minu järjehoidjad rakendusest CoMaps. Palun ava need kui Sul on CoMaps paigaldatud. Või kui ei ole, laadi rakendus alla oma iOSi või Androidi seadmesse, järgides seda linki: https://comaps.app/get?kmz \n \nNaudi reisimist CoMapsiga!</string>
+    <string name="share_bookmarks_email_body">Tere! \n\nManuses on minu järjehoidjad rakendusest CoMaps. Palun ava need kui Sul on CoMaps paigaldatud. Või kui ei ole, laadi rakendus alla oma iOSi või Androidi seadmesse, järgides seda linki: https://www.comaps.app/download/ \n \nNaudi reisimist CoMapsiga!</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">Järjehoidjate laadimine</string>
     <!-- Kmz file successful loading -->
@@ -179,7 +179,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">Kaardi allalaadimine on hetkel käimas.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">Hei, vaata minu praegust asukohta CoMapsi kaardil! %1$s või %2$s Võrguühenduseta kaardid puuduvad? Laadi siit: https://comaps.app/get</string>
+    <string name="my_position_share_sms">Hei, vaata minu praegust asukohta CoMapsi kaardil! %1$s või %2$s Võrguühenduseta kaardid puuduvad? Laadi siit: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">Hei, vaata minu asukoha märget CoMapsi kaardil!</string>
     <!-- Subject for emailed position -->

@@ -174,7 +174,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">Download af kort er i gang nu.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">Hey, tjek min nuværende placering på CoMaps! %1$s eller %2$s. Har du ikke offline kort? Download her: https://comaps.app/get</string>
+    <string name="my_position_share_sms">Hey, tjek min nuværende placering på CoMaps! %1$s eller %2$s. Har du ikke offline kort? Download her: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">Hey, tjek min knappenål på CoMaps!</string>
     <!-- Subject for emailed position -->
@@ -834,7 +834,7 @@
     <string name="mb">MB</string>
     <string name="twitter">X (Twitter)</string>
     <string name="error_enter_correct_twitter_page">Indtast et gyldigt Twitter-brugernavn eller en webadresse</string>
-    <string name="share_bookmarks_email_body">Hej! \n \nVedhæftet er mine bogmærker; åbn dem venligst i CoMaps. Hvis du ikke har den installeret, kan du downloade den her: https://comaps.app/get?kmz\n \nGod rejse med CoMaps!</string>
+    <string name="share_bookmarks_email_body">Hej! \n \nVedhæftet er mine bogmærker; åbn dem venligst i CoMaps. Hvis du ikke har den installeret, kan du downloade den her: https://www.comaps.app/download/\n \nGod rejse med CoMaps!</string>
     <string name="delete_place_empty_comment_error">Angiv begrundelsen for at slette stedet</string>
     <string name="disk_error_title">Diskfejl</string>
     <string name="error_enter_correct_instagram_page">Indtast et gyldigt Instagram-brugernavn eller en webadresse</string>

@@ -466,9 +466,9 @@
     <string name="placepage_personal_notes_hint">Persónulegir minnispunktar (texti eða html)</string>
     <string name="editor_reset_edits_message">Henda öllum staðværum breytingum?</string>
     <string name="downloading_country_can_proceed">Sæki %s. Þú getur núna \nfarið yfir á landakortið.</string>
-    <string name="share_bookmarks_email_body">Halló! \n \nMeðfylgjandi eru bókamerkin mín; endilega opnaðu þau í CoMaps forritinu. Ef þú ert ekki með það uppsett geturðu sótt það hér: https://omaps.app/get?kmz \n \nNjóttu ferðarinnar með CoMaps!</string>
+    <string name="share_bookmarks_email_body">Halló! \n \nMeðfylgjandi eru bókamerkin mín; endilega opnaðu þau í CoMaps forritinu. Ef þú ert ekki með það uppsett geturðu sótt það hér: https://www.comaps.app/download/ \n \nNjóttu ferðarinnar með CoMaps!</string>
     <string name="load_kmz_successful">Tókst að hlaða inn bókamerkjum! Þú getur skoðað þau á landakortinu eða í bókamerkjasafninu.</string>
-    <string name="my_position_share_sms">Skoðaðu núverandi staðsetninguna mína á CoMaps landakortinu! %1$s eða %2$s Ertu ekki með ónettengd kort? Sæktu þau hér: https://omaps.app/get</string>
+    <string name="my_position_share_sms">Skoðaðu núverandi staðsetninguna mína á CoMaps landakortinu! %1$s eða %2$s Ertu ekki með ónettengd kort? Sæktu þau hér: https://www.comaps.app/download/</string>
     <string name="my_position_share_email_subject">Hæ, skoðaðu núverandi staðsetninguna mína á CoMaps landakortinu!</string>
     <string name="pref_use_google_play">Ákvarðaðu í skyndi staðsetninguna þína með Bluetooth, WiFi eða farsímaneti</string>
     <string name="mobile_data_description">Farsímagagnatenging er nauðsynleg fyrir tilkynningar um uppfærslur á korti og til að senda inn breytingar.</string>

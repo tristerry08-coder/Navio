@@ -164,7 +164,7 @@
     <string name="share_bookmarks_email_subject">CoMaps маркери су подељени са вама</string>
     <string name="share_bookmarks_email_body">Здраво!
 \n
-\nУ прилогу су моји маркери; молим те да их отвориш у CoMaps-у. Ако га немаш већ инсталираног, можеш да га преузмеш одавде: https://comaps.app/get?kmz
+\nУ прилогу су моји маркери; молим те да их отвориш у CoMaps-у. Ако га немаш већ инсталираног, можеш да га преузмеш одавде: https://www.comaps.app/download/
 \n
 \nУживај у путовању са CoMaps-ом!</string>
     <!-- message title of loading file -->
@@ -189,7 +189,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">Преузимање мапа је у току.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">Види моју тренутну локацију у CoMaps-у! %1$s или %2$s Још не користиш offline мапе? Преузми их овде: https://comaps.app/get</string>
+    <string name="my_position_share_sms">Види моју тренутну локацију у CoMaps-у! %1$s или %2$s Још не користиш offline мапе? Преузми их овде: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">Хеј, види мој маркер у CoMaps-у!</string>
     <!-- Subject for emailed position -->

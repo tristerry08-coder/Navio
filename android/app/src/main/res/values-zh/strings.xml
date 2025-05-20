@@ -171,7 +171,7 @@
     <string name="share_bookmarks_email_subject">已与您分享 CoMaps 书签</string>
     <string name="share_bookmarks_email_body">您好！
 \n
-\n附件是我的书签，请在 CoMaps 中打开。如果您没有安装 CoMaps，可以在这里下载: https://comaps.app/get?kmz
+\n附件是我的书签，请在 CoMaps 中打开。如果您没有安装 CoMaps，可以在这里下载: https://www.comaps.app/download/
 \n
 \n祝您使用 CoMaps 旅行愉快！</string>
     <!-- message title of loading file -->
@@ -196,7 +196,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">地图下载进行中。</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">嘿，在 CoMaps 上查看我目前的位置吧！请打开 %1$s 或 %2$s 链接，还没安装离线地图？在此下载: https://comaps.app/get</string>
+    <string name="my_position_share_sms">嘿，在 CoMaps 上查看我目前的位置吧！请打开 %1$s 或 %2$s 链接，还没安装离线地图？在此下载: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">嘿，看看我在 CoMaps 上标记的图钉吧！</string>
     <!-- Subject for emailed position -->

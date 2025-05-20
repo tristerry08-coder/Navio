@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Lakókocsis létesítmények";
-"share_bookmarks_email_body" = "Üdvözlöm!\n\nMellékeltem a könyvjelzőimet; nyissa meg őket az Organic Maps alkalmazásban. Ha még nem telepítette, akkor innen tudja letölteni: https://omaps.app/get?kmz\n\nJó utat kívánok az Organic Maps alkalmazással!";
+"share_bookmarks_email_body" = "Üdvözlöm!\n\nMellékeltem a könyvjelzőimet; nyissa meg őket az Organic Maps alkalmazásban. Ha még nem telepítette, akkor innen tudja letölteni: https://www.comaps.app/download/\n\nJó utat kívánok az Organic Maps alkalmazással!";
 
 /* message title of loading file */
 "load_kmz_title" = "Könyvjelzők betöltése";

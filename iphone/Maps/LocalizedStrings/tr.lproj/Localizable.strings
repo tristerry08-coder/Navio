@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Karavan tesisleri";
-"share_bookmarks_email_body" = "Merhaba! \n \nEktekiler yer imlerim, lütfen bunları Organic Maps'te açın. Eğer uygulama kurulu değilse, şu bağlantıyla iOS ve Android aygıtınıza kurabilirsiniz: https://omaps.app/get?kmz \n \nOrganic Maps ile gezmenin tadını çıkarın!";
+"share_bookmarks_email_body" = "Merhaba! \n \nEktekiler yer imlerim, lütfen bunları Organic Maps'te açın. Eğer uygulama kurulu değilse, şu bağlantıyla iOS ve Android aygıtınıza kurabilirsiniz: https://www.comaps.app/download/ \n \nOrganic Maps ile gezmenin tadını çıkarın!";
 
 /* message title of loading file */
 "load_kmz_title" = "Yer İmleri Yükleniyor";

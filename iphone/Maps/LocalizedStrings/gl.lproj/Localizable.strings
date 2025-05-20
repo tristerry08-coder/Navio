@@ -80,7 +80,7 @@
 "category_recycling" = "Reciclaxe";
 "category_water" = "Auga";
 "category_rv" = "Instalacións para autocaravanas";
-"share_bookmarks_email_body" = "Ola!\n\nAdxunto os meus marcadores. Por favor, ábraos en Organic Maps. Se non o tes instalado podes descargalo aquí:: https://omaps.app/get?kmz\n\nGozar viaxando con Organic Maps!";
+"share_bookmarks_email_body" = "Ola!\n\nAdxunto os meus marcadores. Por favor, ábraos en Organic Maps. Se non o tes instalado podes descargalo aquí:: https://www.comaps.app/download/\n\nGozar viaxando con Organic Maps!";
 "load_kmz_title" = "Cargando marcadores";
 "load_kmz_successful" = "Os marcadores cargáronse con éxito! Pode atopalos no mapa ou na pantalla de Xestión de marcadores.";
 "load_kmz_failed" = "Non se puideron cargar os marcadores. O arquivo podería ter danos ou defectos.";

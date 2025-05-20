@@ -175,7 +175,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">Il download della mappa è in corso.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">Guarda la mia posizione in CoMaps! %1$s o %2$s Non hai scaricato l\'app? La puoi scaricare da qui: https://comaps.app/get</string>
+    <string name="my_position_share_sms">Guarda la mia posizione in CoMaps! %1$s o %2$s Non hai scaricato l\'app? La puoi scaricare da qui: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">Dai un\'occhiata a questo posto su CoMaps!</string>
     <!-- Subject for emailed position -->

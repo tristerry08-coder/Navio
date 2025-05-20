@@ -190,7 +190,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">Karttaa ladataan parhaillaan.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">Hei, katso sijaintini CoMaps-sovelluksessa! %1$s tai %2$s Eikö sinulla ole vielä offline-karttoja? Lataa ne täältä: https://comaps.app/get</string>
+    <string name="my_position_share_sms">Hei, katso sijaintini CoMaps-sovelluksessa! %1$s tai %2$s Eikö sinulla ole vielä offline-karttoja? Lataa ne täältä: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">Hei, katso merkintäni CoMaps-kartalla!</string>
     <!-- Subject for emailed position -->
@@ -879,7 +879,7 @@
     <string name="vk">VK</string>
     <string name="openstreetmap">OpenStreetMap</string>
     <string name="level_value_generic">Kerros: %s</string>
-    <string name="share_bookmarks_email_body">Hei! \n\nLiitteenä ovat kirjamerkkini; Avaa ne CoMaps -sovelluksessa. Mikäli sinulla ei ole vielä sovellusta asennettuna, voit ladata sen osoitteesta: https://comaps.app/get?kmz \n\nNauti matkustamisesta CoMaps:n kanssa!</string>
+    <string name="share_bookmarks_email_body">Hei! \n\nLiitteenä ovat kirjamerkkini; Avaa ne CoMaps -sovelluksessa. Mikäli sinulla ei ole vielä sovellusta asennettuna, voit ladata sen osoitteesta: https://www.comaps.app/download/ \n\nNauti matkustamisesta CoMaps:n kanssa!</string>
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="translated_om_site_url">https://comaps.app/</string>
     <string name="telegram">Telegram</string>

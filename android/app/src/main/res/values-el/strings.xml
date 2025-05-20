@@ -169,7 +169,7 @@
     <string name="share_bookmarks_email_subject">Κοινοποιήθηκαν τα αγαπημένα από το CoMaps σε εσάς</string>
     <string name="share_bookmarks_email_body">Γειa!
 \n
-\nΣου επισυνάπτω τα αγαπημένα μου. Παρακαλώ άνοιξέ τα με το CoMaps. Αν δεν το έχεις εγκαταστήσει, μπορείς να το κατεβάσεις από εδώ: https://comaps.app/get?kmz
+\nΣου επισυνάπτω τα αγαπημένα μου. Παρακαλώ άνοιξέ τα με το CoMaps. Αν δεν το έχεις εγκαταστήσει, μπορείς να το κατεβάσεις από εδώ: https://www.comaps.app/download/
 \n
 \nΚαλή διασκέδαση ταξιδεύοντας με το CoMaps!</string>
     <!-- message title of loading file -->
@@ -194,7 +194,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">Λήψη χάρτη βρίσκεται σε εξέλιξη.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">Δες την τρέχουσα τοποθεσία μου στο CoMaps! %1$s ή %2$s Αν δεν έχεις τους χάρτες εκτός σύνδεσης, μπορείς να τους κατεβάσεις εδώ: https://comaps.app/get</string>
+    <string name="my_position_share_sms">Δες την τρέχουσα τοποθεσία μου στο CoMaps! %1$s ή %2$s Αν δεν έχεις τους χάρτες εκτός σύνδεσης, μπορείς να τους κατεβάσεις εδώ: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">Γεια, δες τις τοποθεσίες που έχω καρφιτσώσει στο CoMaps!</string>
     <!-- Subject for emailed position -->

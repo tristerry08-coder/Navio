@@ -168,7 +168,7 @@
     <string name="share_bookmarks_email_subject">סימניות של CoMaps שותפו איתך</string>
     <string name="share_bookmarks_email_body">שלום!
 \n
-\nמצורפות הסימניות שלי, אפשר לפתוח אותן ב-CoMaps. אם צריך, ניתן להוריד את האפליקצייה מכאן: https://comaps.app/get?kmz
+\nמצורפות הסימניות שלי, אפשר לפתוח אותן ב-CoMaps. אם צריך, ניתן להוריד את האפליקצייה מכאן: https://www.comaps.app/download/
 \n
 \nתהנו לנווט עם CoMaps!</string>
     <!-- message title of loading file -->
@@ -195,7 +195,7 @@
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">קבלו את המיקום שלי ב-CoMaps!
 \n%1$s או %2$s
-\nאין לך מפות בלי אינטרנט? להוריד כאן: https://comaps.app/get</string>
+\nאין לך מפות בלי אינטרנט? להוריד כאן: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">היי, בדוק את הסיכה שלי במפה של CoMaps!</string>
     <!-- Subject for emailed position -->

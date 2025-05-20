@@ -171,7 +171,7 @@
     <string name="description">टिप्पणियाँ</string>
     <string name="share_bookmarks_email_body">नमस्ते!
 \n
-\nमेरे बुकमार्क संलग्न हैं; कृपया उन्हें ऑर्गेनिक मानचित्र में खोलें। यदि आपने इसे इंस्टॉल नहीं किया है तो आप इसे यहां से डाउनलोड कर सकते हैं: https://comaps.app/get?kmz
+\nमेरे बुकमार्क संलग्न हैं; कृपया उन्हें ऑर्गेनिक मानचित्र में खोलें। यदि आपने इसे इंस्टॉल नहीं किया है तो आप इसे यहां से डाउनलोड कर सकते हैं: https://www.comaps.app/download/
 \n
 \nऑर्गेनिक मैप्स के साथ यात्रा का आनंद लें!</string>
     <!-- message title of loading file -->
@@ -196,7 +196,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">मानचित्र डाउनलोड अभी प्रगति पर है.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">ऑर्गेनिक मानचित्र में मेरा वर्तमान स्थान देखें! %1$s या %2$s के पास ऑफ़लाइन मानचित्र नहीं हैं? यहां डाउनलोड करें: https://comaps.app/get</string>
+    <string name="my_position_share_sms">ऑर्गेनिक मानचित्र में मेरा वर्तमान स्थान देखें! %1$s या %2$s के पास ऑफ़लाइन मानचित्र नहीं हैं? यहां डाउनलोड करें: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">अरे, ऑर्गेनिक मैप्स में मेरा पिन देखें!</string>
     <!-- Subject for emailed position -->

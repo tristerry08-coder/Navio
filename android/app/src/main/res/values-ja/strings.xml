@@ -167,7 +167,7 @@
     <string name="share_bookmarks_email_subject">CoMapsのお気に入りリストが共有されました</string>
     <string name="share_bookmarks_email_body">こんにちは！
 \n
-\n添付ファイルCoMapsのお気に入りリストです。もしインストールされていない場合はここからダウンロードができます： https://comaps.app/get?kmz
+\n添付ファイルCoMapsのお気に入りリストです。もしインストールされていない場合はここからダウンロードができます： https://www.comaps.app/download/
 \n
 \n旅行を楽しむときはCoMapsを使用してください!</string>
     <!-- message title of loading file -->
@@ -192,7 +192,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">ダウンロード中です</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">CoMaps で私の現在地が見れます！%1$s または %2$s オフラインマップはまだインストールしていないですか？ここからダウンロード： https://comaps.app/get</string>
+    <string name="my_position_share_sms">CoMaps で私の現在地が見れます！%1$s または %2$s オフラインマップはまだインストールしていないですか？ここからダウンロード： https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">CoMapsでピン情報を確認</string>
     <!-- Subject for emailed position -->

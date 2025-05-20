@@ -159,7 +159,7 @@
     <string name="description">Pastabos</string>
     <!-- Email Subject when sharing bookmark list -->
     <string name="share_bookmarks_email_subject">Su jumis bendrinamas „CoMaps“ žymių sąrašas</string>
-    <string name="share_bookmarks_email_body">Labas! \n \nČia prisegtas mano žymių sąrašas iš „CoMaps“ programėlės. Jei jos neturi, gali ją parsisiųsti iš https://comaps.app/get?kmz \n \nSmagių kelionių su „CoMaps“!</string>
+    <string name="share_bookmarks_email_body">Labas! \n \nČia prisegtas mano žymių sąrašas iš „CoMaps“ programėlės. Jei jos neturi, gali ją parsisiųsti iš https://www.comaps.app/download/ \n \nSmagių kelionių su „CoMaps“!</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">Žymių sąrašas įkeliamas</string>
     <!-- Kmz file successful loading -->
@@ -179,7 +179,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">Vyksta žemėlapio atsiuntimas.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">Pažiūrėk, kur dabar esu „CoMaps“ autonominių žemėlapių programėlėje! %1$s arba %2$s . Neturi jos? Atsisiųsk čia: https://comaps.app/get</string>
+    <string name="my_position_share_sms">Pažiūrėk, kur dabar esu „CoMaps“ autonominių žemėlapių programėlėje! %1$s arba %2$s . Neturi jos? Atsisiųsk čia: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">Labas, pažvelk, ką aš pasižymėjau „CoMaps“ žemėlapyje!</string>
     <!-- Subject for emailed position -->

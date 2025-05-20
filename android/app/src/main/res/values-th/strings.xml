@@ -180,7 +180,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">กำลังดำเนินการดาวน์โหลดประเทศในตอนนี้</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">เฮ้อ ตรวจสอบตำแหน่งที่ตั้งปัจจุบันของฉันที่ CoMaps! %1$s หรือ %2$s ไม่มีการติดตั้งแผนที่แบบออฟไลน์? ดาวน์โหลดที่นี่: https://comaps.app/get</string>
+    <string name="my_position_share_sms">เฮ้อ ตรวจสอบตำแหน่งที่ตั้งปัจจุบันของฉันที่ CoMaps! %1$s หรือ %2$s ไม่มีการติดตั้งแผนที่แบบออฟไลน์? ดาวน์โหลดที่นี่: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">เฮ้ ตรวจสอบหมุดของฉันที่ แผนที่ CoMaps!</string>
     <!-- Subject for emailed position -->

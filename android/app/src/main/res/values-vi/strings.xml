@@ -178,7 +178,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">Hiện đang tải xuống quốc gia.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">Này, hãy xem vị trí hiện tại của tôi tại CoMaps! %1$s hoặc %2$s Bạn không có bản đồ ngoại tuyến? Tải xuống tại đây: https://comaps.app/get</string>
+    <string name="my_position_share_sms">Này, hãy xem vị trí hiện tại của tôi tại CoMaps! %1$s hoặc %2$s Bạn không có bản đồ ngoại tuyến? Tải xuống tại đây: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">Này, hãy xem ghim của tôi tại CoMaps map</string>
     <!-- Subject for emailed position -->

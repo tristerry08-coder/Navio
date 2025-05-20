@@ -156,7 +156,7 @@
     <string name="share_bookmarks_email_subject">CoMaps bookmarks maqsuma miegħek</string>
     <string name="share_bookmarks_email_body">Helow!
 \n
-\nMehmuża huma il-bookmarks; iftaħhom ġo CoMaps. Jekk mhuwiex installat tista tniżżlu min hawn: https://comaps.app/get?kmz
+\nMehmuża huma il-bookmarks; iftaħhom ġo CoMaps. Jekk mhuwiex installat tista tniżżlu min hawn: https://www.comaps.app/download/
 \n
 \nĦu pjaċir ivvjaġġa ġo CoMaps!</string>
     <!-- message title of loading file -->
@@ -181,7 +181,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">It-tniżżil tal-mappa għaddej bħalissa.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">Ara il-lokażżjoni kurrenti tiegħi ġo CoMaps! %1$s or %2$s M\'għandekx mapep offlajn? Niżżel hawn: https://comaps.app/get</string>
+    <string name="my_position_share_sms">Ara il-lokażżjoni kurrenti tiegħi ġo CoMaps! %1$s or %2$s M\'għandekx mapep offlajn? Niżżel hawn: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">Merħba, ara il-pin tiegħi fuq CoMaps!</string>
     <!-- Subject for emailed position -->

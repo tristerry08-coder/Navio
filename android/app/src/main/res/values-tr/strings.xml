@@ -169,7 +169,7 @@
     <string name="share_bookmarks_email_subject">Seninle paylaşılan CoMaps yer imleri</string>
     <string name="share_bookmarks_email_body">Merhaba!
 \n
-\nEktekiler benim CoMaps yer imlerim. Eğer CoMaps\'i yüklediyseniz lütfen ektekileri açın. Eğer yüklemediyseniz, bu bağlantıyı takip ederek iOS ve Android cihazınız için uygulamayı yükleyebilirsiniz: https://comaps.app/get?kmz
+\nEktekiler benim CoMaps yer imlerim. Eğer CoMaps\'i yüklediyseniz lütfen ektekileri açın. Eğer yüklemediyseniz, bu bağlantıyı takip ederek iOS ve Android cihazınız için uygulamayı yükleyebilirsiniz: https://www.comaps.app/download/
 \n
 \nCoMaps ile seyahat etmenin keyfini çıkarın!</string>
     <!-- message title of loading file -->
@@ -194,7 +194,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">Harita indirme işlemi şu anda sürüyor.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">Hey, CoMaps’te geçerli konumumu incele! %1$s veya %2$s Çevrimdışı haritalar sende yok mu? Buradan indir: https://comaps.app/get</string>
+    <string name="my_position_share_sms">Hey, CoMaps’te geçerli konumumu incele! %1$s veya %2$s Çevrimdışı haritalar sende yok mu? Buradan indir: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">Hey, CoMaps\'teki imimi incele!</string>
     <!-- Subject for emailed position -->

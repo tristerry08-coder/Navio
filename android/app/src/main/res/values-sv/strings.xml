@@ -173,7 +173,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">Kartan har börjat laddas ner.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">Hej, kolla på min nuvarande position på CoMaps! %1$s eller %2$s Har du inte offline-kartor? Ladda ner här: https://comaps.app/get</string>
+    <string name="my_position_share_sms">Hej, kolla på min nuvarande position på CoMaps! %1$s eller %2$s Har du inte offline-kartor? Ladda ner här: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">Hej, kolla min kartnål på CoMaps kartan</string>
     <!-- Subject for emailed position -->
@@ -861,7 +861,7 @@
     <string name="connection_failure">Anslutningen bröts</string>
     <string name="disk_error_title">Diskfel</string>
     <string name="enable_show_on_lock_screen">Visa på låsskärmen</string>
-    <string name="share_bookmarks_email_body">Hej! \n \nJag bifogar mina bokmärken, öppna gärna dem med Organic Maps. Om du inte redan har appen installerad, kan du ladda ner den här: https://omaps.app/get?kmz \n \nTrevlig resa med Organic Maps!</string>
+    <string name="share_bookmarks_email_body">Hej! \n \nJag bifogar mina bokmärken, öppna gärna dem med Organic Maps. Om du inte redan har appen installerad, kan du ladda ner den här: https://www.comaps.app/download/ \n \nTrevlig resa med Organic Maps!</string>
     <string name="instagram_url">https://www.instagram.com/comapscommunity/</string>
     <string name="telegram_url">https://t.me/CoMapsApp</string>
     <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/About_OpenStreetMap</string>

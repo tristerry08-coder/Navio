@@ -170,7 +170,7 @@
     <string name="share_bookmarks_email_subject">Signets CoMaps partagés</string>
     <string name="share_bookmarks_email_body">Bonjour !
 \n
-\nVous trouverez ci-joint mes signets de l\'appli CoMaps. Veuillez les ouvrir si vous avez installé CoMaps. Si vous ne l\'avez pas, téléchargez l\'application pour votre appareil iOS ou Android en suivant ce lien : https://comaps.app/get?kmz
+\nVous trouverez ci-joint mes signets de l\'appli CoMaps. Veuillez les ouvrir si vous avez installé CoMaps. Si vous ne l\'avez pas, téléchargez l\'application pour votre appareil iOS ou Android en suivant ce lien : https://www.comaps.app/download/
 \n
 \nBon voyage avec CoMaps !</string>
     <!-- message title of loading file -->
@@ -195,7 +195,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">Le téléchargement de la carte est en cours.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">Hé, regardez ma position actuelle sur CoMaps ! %1$s ou %2$s. Les cartes hors ligne ne sont pas installées ? Les télécharger ici : https://comaps.app/get</string>
+    <string name="my_position_share_sms">Hé, regardez ma position actuelle sur CoMaps ! %1$s ou %2$s. Les cartes hors ligne ne sont pas installées ? Les télécharger ici : https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">Hé, regardez mon signet sur la carte CoMaps !</string>
     <!-- Subject for emailed position -->

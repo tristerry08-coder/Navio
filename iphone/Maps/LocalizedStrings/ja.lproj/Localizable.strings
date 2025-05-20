@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "RV用";
-"share_bookmarks_email_body" = "こんにちは！\n\n添付ファイルOrganic Mapsのお気に入りリストです。もしインストールされていない場合はここからダウンロードができます： https://omaps.app/get?kmz\n\n旅行を楽しむときはOrganic Mapsを使用してください!";
+"share_bookmarks_email_body" = "こんにちは！\n\n添付ファイルOrganic Mapsのお気に入りリストです。もしインストールされていない場合はここからダウンロードができます： https://www.comaps.app/download/\n\n旅行を楽しむときはOrganic Mapsを使用してください!";
 
 /* message title of loading file */
 "load_kmz_title" = "お気に入りをロード中";

@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Для автобудинків";
-"share_bookmarks_email_body" = "Привіт!\n\nДодаю мої мiтки; відкрийте їх у Organic Maps. Якщо застосунок не встановлено, ви можете завантажити його тут: https://omaps.app/get?kmz\n\nНасолоджуйтесь подорожами з Organic Maps!";
+"share_bookmarks_email_body" = "Привіт!\n\nДодаю мої мiтки; відкрийте їх у Organic Maps. Якщо застосунок не встановлено, ви можете завантажити його тут: https://www.comaps.app/download/\n\nНасолоджуйтесь подорожами з Organic Maps!";
 
 /* message title of loading file */
 "load_kmz_title" = "Завантаження мiток";

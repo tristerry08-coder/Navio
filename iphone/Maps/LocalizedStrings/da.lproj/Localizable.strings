@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Autocamper-faciliteter";
-"share_bookmarks_email_body" = "Hej! \n\nVedhæftet er mine bogmærker; åbn dem venligst i Organic Maps. Hvis du ikke har den installeret, kan du downloade den her: https://omaps.app/get?kmz\n\nGod rejse med Organic Maps!";
+"share_bookmarks_email_body" = "Hej! \n\nVedhæftet er mine bogmærker; åbn dem venligst i Organic Maps. Hvis du ikke har den installeret, kan du downloade den her: https://www.comaps.app/download/\n\nGod rejse med Organic Maps!";
 
 /* message title of loading file */
 "load_kmz_title" = "Indlæser bogmærker";

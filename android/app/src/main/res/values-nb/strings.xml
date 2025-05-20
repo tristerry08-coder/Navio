@@ -170,7 +170,7 @@
     <string name="share_bookmarks_email_subject">Delte CoMaps-bokmerker</string>
     <string name="share_bookmarks_email_body">Hei!
 \n
-\nVedlagt er mine bokmerker fra CoMaps-appen. Åpne de dersom du har CoMaps installert. Har du ikke har det, last ned appen til iOS eller Android ved å trykke på denne linken: https://comaps.app/get?kmz
+\nVedlagt er mine bokmerker fra CoMaps-appen. Åpne de dersom du har CoMaps installert. Har du ikke har det, last ned appen til iOS eller Android ved å trykke på denne linken: https://www.comaps.app/download/
 \n
 \nNyt reisen med CoMaps!</string>
     <!-- message title of loading file -->
@@ -195,7 +195,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">Nedlasting av land pågår nå.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">Hei, se posisjonen min på CoMaps! %1$s eller %2$s Har du ikke offline-kart? Last dem ned her: https://comaps.app/get</string>
+    <string name="my_position_share_sms">Hei, se posisjonen min på CoMaps! %1$s eller %2$s Har du ikke offline-kart? Last dem ned her: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">Hei, se merket mitt på CoMaps-kartet</string>
     <!-- Subject for emailed position -->

@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Pro obytné vozy";
-"share_bookmarks_email_body" = "Ahoj!\n \nV příloze najdeš mé záložky; otevři je v aplikaci Organic Maps. Pokud ji nemáš nainstalovanou, můžeš si ji stáhnout zde: https://omaps.app/get?kmz\n \nUžij si cestování s Organic Maps!";
+"share_bookmarks_email_body" = "Ahoj!\n \nV příloze najdeš mé záložky; otevři je v aplikaci Organic Maps. Pokud ji nemáš nainstalovanou, můžeš si ji stáhnout zde: https://www.comaps.app/download/\n \nUžij si cestování s Organic Maps!";
 
 /* message title of loading file */
 "load_kmz_title" = "Nahrávání záložek";

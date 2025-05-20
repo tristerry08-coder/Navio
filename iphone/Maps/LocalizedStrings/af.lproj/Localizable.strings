@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Karavaanfasiliteite";
-"share_bookmarks_email_body" = "Hallo!\n\nMy boekmerke is aangeheg; open dit asb. in Organic Maps. Indien dit nie geïnstalleer is nie, kan u dit hier aflaai: https://omaps.app/get?kmz\n\nGeniet dit om met Organic Maps te reis!";
+"share_bookmarks_email_body" = "Hallo!\n\nMy boekmerke is aangeheg; open dit asb. in Organic Maps. Indien dit nie geïnstalleer is nie, kan u dit hier aflaai: https://www.comaps.app/download/\n\nGeniet dit om met Organic Maps te reis!";
 
 /* message title of loading file */
 "load_kmz_title" = "Laai tans boekmerke";

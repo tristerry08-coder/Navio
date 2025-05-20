@@ -181,7 +181,7 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">Harta este în curs de descărcare.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">Poți vedea poziția mea pe harta CoMaps! %1$s sau %2$s Nu ai descărcat aplicația? O poți descărca de aici: https://comaps.app/get</string>
+    <string name="my_position_share_sms">Poți vedea poziția mea pe harta CoMaps! %1$s sau %2$s Nu ai descărcat aplicația? O poți descărca de aici: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">Poți vedea locul meu preferat pe harta CoMaps!</string>
     <!-- Subject for emailed position -->

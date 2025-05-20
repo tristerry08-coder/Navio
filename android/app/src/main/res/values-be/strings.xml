@@ -166,7 +166,7 @@
     <string name="share_bookmarks_email_subject">З вамі падзяліліся закладкамі Ogranic Maps</string>
     <string name="share_bookmarks_email_body">Вітаю!
 \n
-\nУ далучаным файле мае закладкі з праграмы CoMaps. Калі ласка, адкрыйце іх, калі ў вас усталяваны CoMaps. Калі не, спампуйце праграму для вашай прылады iOS альбо Andriod па спасылцы: https://comaps.app/get?kmz
+\nУ далучаным файле мае закладкі з праграмы CoMaps. Калі ласка, адкрыйце іх, калі ў вас усталяваны CoMaps. Калі не, спампуйце праграму для вашай прылады iOS альбо Andriod па спасылцы: https://www.comaps.app/download/
 \n
 \nПрыемных падарожжаў з CoMaps!</string>
     <!-- message title of loading file -->
@@ -189,7 +189,7 @@
     <!-- Alert message that we can't run Map Storage settings due to some reasons. -->
     <string name="cant_change_this_setting">На жаль, налады сховішча карты зараз адключаны.</string>
     <!-- Alert message that downloading is in progress. -->
-    <string name="my_position_share_sms">Гэй, глядзі дзе я зараз на карце CoMaps! %1$s або %2$s Няма афлайн-карт? Спампуй тут: https://comaps.app/get</string>
+    <string name="my_position_share_sms">Гэй, глядзі дзе я зараз на карце CoMaps! %1$s або %2$s Няма афлайн-карт? Спампуй тут: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">Гэй, глядзі маю метку на CoMaps!</string>
     <!-- Subject for emailed position -->
