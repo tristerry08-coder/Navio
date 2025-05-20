@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Per camper";
-"share_bookmarks_email_body" = "Ciao!\n\nIn allegato ci sono i miei luoghi preferiti. Aprili se hai installato CoMaps. Oppure, se non ce l'hai, scarica l'app per iOS o Android seguendo questo link: https://omaps.app/\n\nDivertiti a viaggiare con CoMaps!";
+"share_bookmarks_email_body" = "Ciao!\n\nIn allegato ci sono i miei luoghi preferiti. Aprili se hai installato CoMaps. Oppure, se non ce l'hai, scarica l'app per iOS o Android seguendo questo link: https://www.comaps.app/\n\nDivertiti a viaggiare con CoMaps!";
 
 /* message title of loading file */
 "load_kmz_title" = "Caricamento luoghi preferiti";
@@ -923,7 +923,7 @@
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
 
 /* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
-"translated_om_site_url" = "https://organicmaps.app/it/";
+"translated_om_site_url" = "https://www.comaps.app/it/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
 "osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/IT:About";
