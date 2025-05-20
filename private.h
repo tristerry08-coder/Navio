@@ -1,9 +1,7 @@
 #pragma once
 
-#define OSM_CONSUMER_KEY "zz16eUusTr4TcVhoKQrgOJaRzZAeI2ktbVx6e3yn"
-#define OSM_CONSUMER_SECRET "7g4XrlhFkiOG1I3Zpqh8ajo94P9cNNXaU2YCMgL7"
-#define OSM_OAUTH2_CLIENT_ID "3iB16A21eY8HvxJpPbdih94Us1Po5NfqoWHaZaaCd50"
-#define OSM_OAUTH2_CLIENT_SECRET "AKyf1iUliVQ6CWJWQV7NQcx2T1Icr013k5sb7JSK4eU"
+#define OSM_OAUTH2_CLIENT_ID "Tj8yyx3FWy_N5wz6sUTAXTM6YBAiwVgM7sRLrLix2u8" // master.apis.dev.openstreetmap.org
+#define OSM_OAUTH2_CLIENT_SECRET "TdEQaoAQkcu_E2HWfr0RDaG5hMDk3gThO1RvWQtQc8o"
 #define OSM_OAUTH2_REDIRECT_URI "om://oauth2/osm/callback"
 #define OSM_OAUTH2_SCOPE "read_prefs write_api write_notes"
 #define MWM_GEOLOCATION_SERVER ""
