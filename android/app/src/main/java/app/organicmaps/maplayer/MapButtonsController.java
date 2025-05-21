@@ -105,7 +105,7 @@ public class MapButtonsController extends Fragment
       if (Config.isNY() && !TextUtils.isEmpty(Config.getDonateUrl(requireContext())))
         helpButton.setImageResource(R.drawable.ic_christmas_tree);
       else
-        helpButton.setImageResource(R.drawable.logo);
+        helpButton.setImageResource(R.drawable.ic_launcher);
       // Keep this button colorful in normal theme.
       if (!ThemeUtils.isNightTheme(requireContext()))
         helpButton.getDrawable().setTintList(null);
