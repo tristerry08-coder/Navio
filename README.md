@@ -12,8 +12,20 @@
 
 # [CoMaps](https://comaps.app) – Hike, Bike, Drive Offline – Easy Map Navigation with Privacy
 
-![GitHub Actions Workflow Android Status](https://img.shields.io/github/actions/workflow/status/comaps/comaps/.github%2Fworkflows%2Fandroid-check.yaml?style=flat&label=Android%20Build)
-![GitHub Actions Workflow iOS Status](https://img.shields.io/github/actions/workflow/status/comaps/comaps/.github%2Fworkflows%2Fios-check.yaml?style=flat&label=iOS%20Build)
+[
+  ![GitHub Actions Workflow Android Status](https://img.shields.io/github/actions/workflow/status/comaps/comaps/.github%2Fworkflows%2Fandroid-check.yaml?style=flat&label=Android%20Build)
+](https://github.com/comaps/comaps/actions/workflows/android-check.yaml)
+[
+  ![GitHub Actions Workflow iOS Status](https://img.shields.io/github/actions/workflow/status/comaps/comaps/.github%2Fworkflows%2Fios-check.yaml?style=flat&label=iOS%20Build)
+](https://github.com/comaps/comaps/actions/workflows/ios-check.yaml)
+[
+  ![Donate via OpenCollective](https://opencollective.com/comaps/tiers/backers/badge.svg?label=OpenCollective%20Backers&color=blue)
+](https://opencollective.com/comaps/donate)
+[
+  ![Donate via Liberapay](https://img.shields.io/liberapay/patrons/CoMaps.svg?logo=liberapay&label=Liberapay%20Patrons)
+](https://liberapay.com/CoMaps/donate)
+
+
 
 A community-led free & open source maps app based on [OpenStreetMap](https://www.openstreetmap.org) data and reinforced with commitment to transparency, privacy and being not-for-profit. CoMaps is a fork/spin-off of Organic Maps, which in turn is a fork of Maps.ME.
 
