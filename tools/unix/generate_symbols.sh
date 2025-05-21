@@ -17,6 +17,9 @@ fi
 # Prevent python from generating compiled *.pyc files
 export PYTHONDONTWRITEBYTECODE=1
 
+# Add env var to disable renderer on a display (renderer not working into a Github container)
+export QT_QPA_PLATFORM=offscreen
+
 OMIM_PATH="${OMIM_PATH:-$(cd "$(dirname "$0")/../.."; pwd)}"
 OUT_PATH="$OMIM_PATH/out/release"
 SKIN_GENERATOR="${SKIN_GENERATOR:-$OUT_PATH/skin_generator_tool}"

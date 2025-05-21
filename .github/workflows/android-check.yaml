@@ -37,7 +37,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        flavor: [WebDebug, FdroidDebug]
+        flavor: [WebBeta, FdroidDebug]
         include:
           - flavor: WebDebug
             arch: arm64
@@ -53,7 +53,19 @@ jobs:
         shell: bash
         run: |
           sudo apt-get update -y
-          sudo apt-get install -y ninja-build
+          sudo apt-get install -y ninja-build \
+          qt6-base-dev \
+          qt6-declarative-dev \
+          qt6-positioning-dev \
+          libqt6svg6-dev \
+          optipng \
+          libfreetype-dev \
+          libharfbuzz-dev \
+          libxrandr-dev \
+          libxinerama-dev \
+          libxcursor-dev \
+          libxi-dev \
+          zlib1g-dev
 
       - name: Checkout sources
         uses: actions/checkout@v4
@@ -68,11 +80,9 @@ jobs:
         shell: bash
         run: ./configure.sh
 
-      - name: Download MWM files
+      - name: Generate symbols
         shell: bash
-        run: |
-          wget https://cdn.comaps.app/maps/latest/World.mwm -P ./data/
-          wget https://cdn.comaps.app/maps/latest/WorldCoasts.mwm -P ./data/
+        run: ./tools/unix/generate_symbols.sh
 
       - name: Configure ccache
         uses: hendrikmuhs/ccache-action@v1.2
