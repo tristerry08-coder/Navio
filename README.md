@@ -19,7 +19,7 @@
   ![GitHub Actions Workflow iOS Status](https://img.shields.io/github/actions/workflow/status/comaps/comaps/.github%2Fworkflows%2Fios-check.yaml?style=flat&label=iOS%20Build)
 ](https://github.com/comaps/comaps/actions/workflows/ios-check.yaml)
 [
-  ![Donate via OpenCollective](https://opencollective.com/comaps/tiers/backers/badge.svg?label=OpenCollective%20Backers&color=blue)
+  ![Donate via OpenCollective](https://img.shields.io/opencollective/all/comaps?color=blue&label=Open%20Collective%20Donors)
 ](https://opencollective.com/comaps/donate)
 [
   ![Donate via Liberapay](https://img.shields.io/liberapay/patrons/CoMaps.svg?logo=liberapay&label=Liberapay%20Patrons)
