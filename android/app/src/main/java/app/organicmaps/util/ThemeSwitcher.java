@@ -8,9 +8,6 @@ import android.os.Build;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatDelegate;
-
-import java.util.Calendar;
-
 import app.organicmaps.Framework;
 import app.organicmaps.MwmApplication;
 import app.organicmaps.R;
@@ -32,15 +29,30 @@ public enum ThemeSwitcher
     @Override
     public void run()
     {
+      String nightTheme = MwmApplication.from(mContext).getString(R.string.theme_night);
+      String defaultTheme = MwmApplication.from(mContext).getString(R.string.theme_default);
+      String theme = defaultTheme;
+      Location last = LocationHelper.from(mContext).getSavedLocation();
+
       boolean navAuto = RoutingController.get().isNavigating() && ThemeUtils.isNavAutoTheme(mContext);
-      // Cancel old checker
-      UiThread.cancelDelayedTasks(mAutoThemeChecker);
 
       if (navAuto || ThemeUtils.isAutoTheme(mContext))
       {
-        UiThread.runLater(mAutoThemeChecker, CHECK_INTERVAL_MS);
-        setThemeAndMapStyle(calcAutoTheme());
+        if (last == null)
+          theme = Config.getCurrentUiTheme(mContext);
+        else
+        {
+          long currentTime = System.currentTimeMillis() / 1000;
+          boolean day = Framework.nativeIsDayTime(currentTime, last.getLatitude(), last.getLongitude());
+          theme = (day ? defaultTheme : nightTheme);
+        }
       }
+
+      setThemeAndMapStyle(theme);
+      UiThread.cancelDelayedTasks(mAutoThemeChecker);
+
+      if (navAuto || ThemeUtils.isAutoTheme(mContext))
+        UiThread.runLater(mAutoThemeChecker, CHECK_INTERVAL_MS);
     }
   };
 
@@ -146,31 +158,5 @@ public enum ThemeSwitcher
       Framework.nativeSetMapStyle(style);
     else
       Framework.nativeMarkMapStyle(style);
-  }
-
-  /**
-   * Determine light/dark theme based on time and location,
-   * or fall back to time-based (06:00-18:00) when there's no location fix
-   * @return theme_light/dark string
-   */
-  private String calcAutoTheme()
-  {
-    String defaultTheme = mContext.getResources().getString(R.string.theme_default);
-    String nightTheme = mContext.getResources().getString(R.string.theme_night);
-    Location last = LocationHelper.from(mContext).getSavedLocation();
-    boolean day;
-
-    if (last != null)
-    {
-      long currentTime = System.currentTimeMillis() / 1000;
-      day = Framework.nativeIsDayTime(currentTime, last.getLatitude(), last.getLongitude());
-    }
-    else
-    {
-      int currentHour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
-      day = (currentHour < 18 && currentHour > 6);
-    }
-
-    return (day ? defaultTheme : nightTheme);
   }
 }
