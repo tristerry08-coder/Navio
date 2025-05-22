@@ -120,7 +120,7 @@
 
         <data android:scheme="http"/>
         <data android:scheme="https"/>
-        <data android:host="omaps.app"/>
+        <data android:host="comaps.app"/>
       </intent-filter>
 
       <intent-filter>

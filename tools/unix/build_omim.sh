@@ -31,7 +31,7 @@ while getopts ":cdrxtagjlp:n:" opt; do
     r) OPT_RELEASE=1 ;;
     t) OPT_DESIGNER=1 ;;
     *)
-      echo "This tool builds Organic Maps"
+      echo "Build the desktop app and other C++ targets (tests, tools...)"
       echo "Usage: $0 [-d] [-r] [-c] [-x] [-s] [-t] [-a] [-g] [-j] [-l] [-p PATH] [-n NUM] [target1 target2 ...]"
       echo
       echo "By default both debug and release versions are built in ../omim-build-<buildtype> dir."
