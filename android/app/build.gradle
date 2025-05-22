@@ -255,7 +255,7 @@ android {
       jniDebuggable true           // Enable jni debug build
       zipAlignEnabled true
       signingConfig signingConfigs.debug
-      resValue 'string', 'app_name', 'Debug CoMaps'
+      resValue 'string', 'app_name', 'CoMaps Debug'
       // Do not generate separate debug symbols for debug apps, because we don't distribute them.
       ndk.debugSymbolLevel = 'none'
     }
@@ -272,17 +272,18 @@ android {
       ndk.debugSymbolLevel = 'symbol_table'
     }
 
+    // TODO(@pastk): rename to "test" everywhere in code
     beta {
-      applicationIdSuffix '.beta'
-      versionNameSuffix '-beta'
+      applicationIdSuffix '.test'
+      versionNameSuffix '-test'
       signingConfig signingConfigs.release
       minifyEnabled true
       shrinkResources true
       // Includes the default ProGuard rules files that are packaged with the Android Gradle plugin.
       // To learn more, go to the documentation section about R8 configuration files.
       proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-      matchingFallbacks = ['debug', 'release']
-      resValue 'string', 'app_name', 'Beta CoMaps'
+      matchingFallbacks = ['release'] // use dependencies of "release" build type
+      resValue 'string', 'app_name', 'CoMaps Test'
       // Full size symbols are too big for Google, 217mb aab vs 95mb.
       ndk.debugSymbolLevel = 'symbol_table'
     }
