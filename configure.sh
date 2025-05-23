@@ -14,4 +14,6 @@ pushd 3party/boost/
 ./bootstrap.sh
 ./b2 headers
 popd
+curl -C - -L --parallel --parallel-immediate --parallel-max 2 https://cdn.comaps.app/maps/latest/World.mwm -o data/World.mwm https://cdn.comaps.app/maps/latest/WorldCoasts.mwm  -o data/WorldCoasts.mwm
+bash ./tools/unix/generate_symbols.sh
 echo "The repository is configured for development."
