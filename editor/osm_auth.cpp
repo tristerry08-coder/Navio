@@ -289,11 +289,12 @@ string OsmOAuth::BuildOAuth2Url() const
 
 string OsmOAuth::FinishAuthorization(string const & oauth2code) const
 {
+  /// @todo(pastk): remove client_secret everywhere, its not required for auth through non-confidential apps
   auto params = BuildPostRequest({
       {"grant_type", "authorization_code"},
       {"code", oauth2code},
       {"client_id", m_oauth2params.m_clientId},
-      {"client_secret", m_oauth2params.m_clientSecret},
+      //{"client_secret", m_oauth2params.m_clientSecret},
       {"redirect_uri", m_oauth2params.m_redirectUri},
       {"scope", m_oauth2params.m_scope},
   });

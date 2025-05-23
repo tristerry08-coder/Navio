@@ -58,20 +58,20 @@ public class OsmLoginFragment extends BaseMwmToolbarFragment
     mProgress = view.findViewById(R.id.osm_login_progress);
     final String dataVersion = DateUtils.getShortDateFormatter().format(Framework.getDataVersion());
 
-    if (BuildConfig.FLAVOR.equals("google"))
-    {
-      // Hide login and password inputs and Forgot password button
-      UiUtils.hide(view.findViewById(R.id.osm_username_container),
-          view.findViewById(R.id.osm_password_container),
-          mLostPasswordButton);
+    // TODO(@pastk): remove unused flow with users entering credentials into app's form
+    // Hide login and password inputs and Forgot password button
+    UiUtils.hide(view.findViewById(R.id.osm_username_container),
+      view.findViewById(R.id.osm_password_container),
+      mLostPasswordButton);
 
-      mLoginButton.setOnClickListener((v) -> loginWithBrowser());
-    }
+    mLoginButton.setOnClickListener((v) -> loginWithBrowser());
+    /* login via in-app form
     else
     {
       mLoginButton.setOnClickListener((v) -> login());
       mLostPasswordButton.setOnClickListener((v) -> Utils.openUrl(requireActivity(), Constants.Url.OSM_RECOVER_PASSWORD));
     }
+    */
 
     String code = readOAuth2CodeFromArguments();
     if (code != null && !code.isEmpty())
