@@ -110,7 +110,7 @@ int main(int argc, char * argv[])
 
   Platform & platform = GetPlatform();
 
-  LOG(LINFO, ("Organic Maps", platform.Version(), "built with QT:", QT_VERSION_STR, "runtime QT:", qVersion(),
+  LOG(LINFO, ("CoMaps", platform.Version(), "built with QT:", QT_VERSION_STR, "runtime QT:", qVersion(),
     "detected CPU cores:", platform.CpuCores()));
 
   gflags::SetUsageMessage("Desktop application.");
@@ -133,14 +133,14 @@ int main(int argc, char * argv[])
   UNUSED_VALUE(mainGuard);
 
   QApplication app(argc, argv);
-  app.setDesktopFileName("app.organicmaps.desktop");
+  app.setDesktopFileName("app.comaps.desktop");
   platform.SetupMeasurementSystem();
 
 
 #ifdef BUILD_DESIGNER
-    QApplication::setApplicationName("Organic Maps Designer");
+    QApplication::setApplicationName("CoMaps Designer");
 #else
-    QApplication::setApplicationName("Organic Maps");
+    QApplication::setApplicationName("CoMaps");
 #endif
 
 
@@ -263,6 +263,6 @@ int main(int argc, char * argv[])
   }
 #endif // BUILD_DESIGNER
 
-  LOG_SHORT(LINFO, ("Organic Maps finished with code", returnCode));
+  LOG_SHORT(LINFO, ("Finished with code", returnCode));
   return returnCode;
 }

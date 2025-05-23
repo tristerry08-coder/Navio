@@ -23,7 +23,7 @@ double const kEps = 1e-10;
 
 UNIT_TEST(MapApiSmoke)
 {
-  string urlString = "mapswithme://map?ll=38.970559,-9.419289&ignoreThisParam=Yes&z=17&n=Point%20Name&s=black&backurl=https%3A%2F%2Forganicmaps.app";
+  string urlString = "mapswithme://map?ll=38.970559,-9.419289&ignoreThisParam=Yes&z=17&n=Point%20Name&s=black&backurl=https%3A%2F%2Fcomaps.app";
   TEST(url::Url(urlString).IsValid(), ());
 
   ParsedMapApi test(urlString);
@@ -36,7 +36,7 @@ UNIT_TEST(MapApiSmoke)
   TEST_EQUAL(p0.m_id, "", ());
   TEST_EQUAL(p0.m_style, "black", ());
   TEST_ALMOST_EQUAL_ABS(test.GetZoomLevel(), 17.0, kEps, ());
-  TEST_EQUAL(test.GetGlobalBackUrl(), "https://organicmaps.app", ());
+  TEST_EQUAL(test.GetGlobalBackUrl(), "https://comaps.app", ());
 }
 
 UNIT_TEST(RouteApiSmoke)
@@ -59,7 +59,7 @@ UNIT_TEST(RouteApiSmoke)
 
 UNIT_TEST(SearchApiSmoke)
 {
-  string const urlString = "mapsme://search?query=Saint%20Hilarion&cll=35.3166654,33.2833322&locale=ru&map&appname=Organic%20Maps";
+  string const urlString = "mapsme://search?query=Saint%20Hilarion&cll=35.3166654,33.2833322&locale=ru&map&appname=CoMaps";
   TEST(url::Url(urlString).IsValid(), ());
 
   ParsedMapApi test(urlString);
@@ -70,7 +70,7 @@ UNIT_TEST(SearchApiSmoke)
   TEST_ALMOST_EQUAL_ABS(latlon.m_lat, 35.3166654, kEps, ());
   TEST_ALMOST_EQUAL_ABS(latlon.m_lon, 33.2833322, kEps, ());
   TEST_EQUAL(request.m_locale, "ru", ());
-  TEST_EQUAL(test.GetAppName(), "Organic Maps", ());
+  TEST_EQUAL(test.GetAppName(), "CoMaps", ());
   TEST(request.m_isSearchOnMap, ());
 }
 
