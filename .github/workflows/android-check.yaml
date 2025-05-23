@@ -32,14 +32,14 @@ jobs:
         run: ./gradlew -Pandroidauto=true lint
 
   android-check:
-    name: Build Android Debug
+    name: Build Android apps
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
         flavor: [WebBeta, FdroidDebug]
         include:
-          - flavor: WebDebug
+          - flavor: WebBeta
             arch: arm64
           - flavor: FdroidDebug
             arch: arm32
