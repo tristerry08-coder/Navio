@@ -827,7 +827,7 @@
     <!-- OpenStreetMap text on splash screen -->
     <string name="splash_subtitle">Map data from OpenStreetMap</string>
     <!-- Telegram group url for the "?" About page -->
-    <string name="telegram_url">https://t.me/CoMaps</string>
+    <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <!-- Instagram account url for the "?" About page -->
     <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
     <!-- A link to the TTS FAQ -->

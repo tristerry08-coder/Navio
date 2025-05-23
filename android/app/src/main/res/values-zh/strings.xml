@@ -902,7 +902,7 @@
     <string name="comma_separated_pair">%1$s，%2$s</string>
     <string name="github">GitHub</string>
     <string name="app_site_url">https://comaps.app/</string>
-    <string name="telegram_url">https://t.me/CoMaps</string>
+    <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
     <string name="codeberg">Codeberg</string>
 </resources>
