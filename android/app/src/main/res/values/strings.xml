@@ -44,15 +44,15 @@
     <string name="try_again">Try Again</string>
     <string name="about_menu_title">About CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Free for everyone, made with love</string>
+    <string name="about_headline">Open project powered by the community</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_1">• No ads, no tracking, no data collection</string>
+    <string name="about_proposition_1">• Easy to use and polished</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_2">• No battery drain, works offline</string>
+    <string name="about_proposition_2">• Privacy-focused and ads-free</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Fast, minimalist, developed by the community</string>
+    <string name="about_proposition_3">• Offline, fast and compact</string>
     <!-- Text in About screen -->
-    <string name="about_developed_by_enthusiasts">Open-source application created by enthusiasts and volunteers.</string>
+    <string name="about_developed_by_enthusiasts">Fully open source, not for profit, transparent decision-making and finances.</string>
     <!-- The button that opens system location settings -->
     <string name="location_settings">Location Settings</string>
     <string name="close">Close</string>
