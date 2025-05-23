@@ -59,7 +59,7 @@ kml::FileData GenerateKmlFileData()
   result.m_categoryData.m_annotation[kEnLang] = "Test annotation";
   result.m_categoryData.m_imageUrl = "https://localhost/123.png";
   result.m_categoryData.m_visible = true;
-  result.m_categoryData.m_authorName = "Organic Maps";
+  result.m_categoryData.m_authorName = "author";
   result.m_categoryData.m_authorId = "12345";
   result.m_categoryData.m_rating = 8.9;
   result.m_categoryData.m_reviewsNumber = 567;
@@ -123,7 +123,7 @@ kml::FileData GenerateKmlFileData()
   compilationData1.m_annotation[kEnLang] = "Test collection annotation";
   compilationData1.m_imageUrl = "https://localhost/1234.png";
   compilationData1.m_visible = true;
-  compilationData1.m_authorName = "Organic Maps";
+  compilationData1.m_authorName = "author";
   compilationData1.m_authorId = "54321";
   compilationData1.m_rating = 5.9;
   compilationData1.m_reviewsNumber = 333;
@@ -146,7 +146,7 @@ kml::FileData GenerateKmlFileData()
   compilationData2.m_annotation[kEnLang] = "Test category annotation";
   compilationData2.m_imageUrl = "https://localhost/134.png";
   compilationData2.m_visible = false;
-  compilationData2.m_authorName = "Organic Maps";
+  compilationData2.m_authorName = "author";
   compilationData2.m_authorId = "11111";
   compilationData2.m_rating = 3.3;
   compilationData2.m_reviewsNumber = 222;

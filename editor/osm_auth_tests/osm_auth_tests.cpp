@@ -9,10 +9,10 @@ namespace osm_auth
 {
 using osm::OsmOAuth;
 
-char const * kValidOsmUser = "OrganicMapsTestUser";
+char const * kValidOsmUser = "CoMapsTestUser";
 char const * kValidOsmPassword = "12345678";
 static constexpr char const * kInvalidOsmPassword = "123";
-static constexpr char const * kForgotPasswordEmail = "osmtest1@organicmaps.app";
+static constexpr char const * kForgotPasswordEmail = "osmtest1@comaps.app";
 
 UNIT_TEST(OSM_Auth_InvalidLogin)
 {
