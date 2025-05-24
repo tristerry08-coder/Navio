@@ -20,7 +20,7 @@ The project consists of multiple components, each with its own translation files
 | Search keywords (cuisines)                          | Search keywords for cuisine types                          | [data/categories_cuisines.txt][categories_cuisines_git]                                                  |
 | AppStore Descriptions                               | AppStore descriptions                                      | [iphone/metadata][appstore_git] ([en][appstore_git_en])                                                  |
 | Android Stores Descriptions                                | Google, F-Droid, Huawei store descriptions                 | [android/app/src/fdroid/play][googleplay_git] ([en][googleplay_git_en])                                  |
-| [Website][website_weblate]                          | Website content                                            | [organicmaps/website][website_git] ([see details][website_guide])                                        |
+| [Website][website_weblate]                          | Website content                                            | [comaps/website][website_git] ([see details][website_guide])                                        |
 
 Components without links haven't been integrated into Weblate and must be translated directly via [Codeberg Pull Requests](CONTRIBUTING.md).
 
@@ -28,7 +28,7 @@ Components without links haven't been integrated into Weblate and must be transl
 
 ### Workflow
 
-Translations are managed through [Weblate][weblate]. Direct submissions to this repository are not recommended but possible in specific cases (like batch-changes). Please prefer using the Weblate for translations whenever possible. Weblate periodically creates pull requests, which [@organicmaps/mergers][mergers] review and merge as usual.
+Translations are managed through [Weblate][weblate]. Direct submissions to this repository are not recommended but possible in specific cases (like batch-changes). Please prefer using the Weblate for translations whenever possible. Weblate periodically creates pull requests, which [@comaps/mergers][mergers] review and merge as usual.
 
 ### Cross-Component Synchronization
 
@@ -86,31 +86,31 @@ The recommended approach for resolving conflicts is as follows:
 6. Reset Weblate to sync changes from GitHub:  
    _Manage → Repository Maintenance → Reset (button)_.
 
-[weblate]: https://hosted.weblate.org/projects/organicmaps/
+[weblate]: https://translate.codeberg.org/projects/comaps/
 [contribute]: https://docs.weblate.org/en/latest/workflows.html
-[android_weblate]: https://hosted.weblate.org/projects/organicmaps/android/
+[android_weblate]: https://translate.codeberg.org/projects/comaps/android/
 [android_git]: https://codeberg.org/comaps/comaps/src/branch/main/android/app/src/main/res
 [android_git_en]: https://codeberg.org/comaps/comaps/src/branch/main/android/app/src/main/res/values/strings.xml
-[android_typestrings_weblate]: https://hosted.weblate.org/projects/organicmaps/android-typestrings/
+[android_typestrings_weblate]: https://translate.codeberg.org/projects/comaps/android-typestrings/
 [android_typestrings_git_en]: https://codeberg.org/comaps/comaps/src/branch/main/android/app/src/main/res/values/types_strings.xml
-[countries_weblate]: https://hosted.weblate.org/projects/organicmaps/countries/
+[countries_weblate]: https://translate.codeberg.org/projects/comaps/countries/
 [countries_git]: https://codeberg.org/comaps/comaps/src/branch/main/data/countries-strings
 [countries_git_en]: https://codeberg.org/comaps/comaps/src/branch/main/data/countries-strings/en.json/localize.json
-[ios_weblate]: https://hosted.weblate.org/projects/organicmaps/ios/
+[ios_weblate]: https://translate.codeberg.org/projects/comaps/ios/
 [ios_git]: https://codeberg.org/comaps/comaps/src/branch/main/iphone/Maps/LocalizedStrings/
 [ios_git_en]: https://codeberg.org/comaps/comaps/src/branch/main/iphone/Maps/LocalizedStrings/en.lproj/Localizable.strings
-[ios_plist_weblate]: https://hosted.weblate.org/projects/organicmaps/ios-plist/
+[ios_plist_weblate]: https://translate.codeberg.org/projects/comaps/ios-plist/
 [ios_plist_git_en]: https://codeberg.org/comaps/comaps/src/branch/main/iphone/Maps/LocalizedStrings/en.lproj/InfoPlist.strings
-[ios_typestrings_weblate]: https://hosted.weblate.org/projects/organicmaps/ios-typestrings/
+[ios_typestrings_weblate]: https://translate.codeberg.org/projects/comaps/ios-typestrings/
 [ios_typestrings_git_en]: https://codeberg.org/comaps/comaps/src/branch/main/iphone/Maps/LocalizedStrings/en.lproj/LocalizableTypes.strings
-[ios_plurals_weblate]: https://hosted.weblate.org/projects/organicmaps/ios-plurals/
+[ios_plurals_weblate]: https://translate.codeberg.org/projects/comaps/ios-plurals/
 [ios_plurals_git_en]: https://codeberg.org/comaps/comaps/src/branch/main/iphone/Maps/LocalizedStrings/en.lproj/Localizable.stringsdict
-[tts_weblate]: https://hosted.weblate.org/projects/organicmaps/tts/
+[tts_weblate]: https://translate.codeberg.org/projects/comaps/tts/
 [tts_git]: https://codeberg.org/comaps/comaps/src/branch/main/data/sound-strings
 [tts_git_en]: https://codeberg.org/comaps/comaps/src/branch/main/data/sound-strings/en.json/localize.json
 [categories_git]: https://codeberg.org/comaps/comaps/src/branch/main/data/categories.txt
 [categories_cuisines_git]:https://codeberg.org/comaps/comaps/src/branch/main/data/categories_cuisines.txt
-[website_weblate]: https://hosted.weblate.org/projects/organicmaps/website/
+[website_weblate]: https://translate.codeberg.org/projects/comaps/website/
 [website_git]: https://codeberg.org/comaps/website/
 [website_guide]: https://codeberg.org/comaps/website/src/branch/main/TRANSLATIONS.md
 [appstore_git]: https://codeberg.org/comaps/comaps/src/branch/main/iphone/metadata
@@ -118,4 +118,4 @@ The recommended approach for resolving conflicts is as follows:
 [googleplay_git]: https://codeberg.org/comaps/comaps/src/branch/main/android/app/src/fdroid/play
 [googleplay_git_en]: https://codeberg.org/comaps/comaps/src/branch/main/android/app/src/fdroid/play/listings/en-US
 [mergers]: https://codeberg.org/org/comaps/teams
-[failing_checks]: https://hosted.weblate.org/search/organicmaps/?q=has%3Acheck+AND+state%3A%3E%3Dtranslated+language%3Aru&sort_by=target&checksum=
+[failing_checks]: https://translate.codeberg.org/search/comaps/?q=has%3Acheck+AND+state%3A%3E%3Dtranslated+language%3Aru&sort_by=target&checksum=
