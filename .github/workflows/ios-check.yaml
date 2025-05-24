@@ -42,16 +42,6 @@ jobs:
         shell: bash
         run: ./configure.sh
 
-      - name: Download MWM files
-        shell: bash
-        run: |
-          wget https://cdn.comaps.app/maps/latest/World.mwm -P ./data/
-          wget https://cdn.comaps.app/maps/latest/WorldCoasts.mwm -P ./data/
-
-      - name: Generate symbols
-        shell: bash
-        run: ./tools/unix/generate_symbols.sh
-
       - name: Configure XCode cache
         uses: irgaly/xcode-cache@v1
         with:

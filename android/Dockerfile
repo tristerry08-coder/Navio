@@ -19,5 +19,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   optipng
 WORKDIR /root/comaps
 RUN ./configure.sh
-RUN ./tools/unix/generate_symbols.sh
 CMD ./gradlew -Parm64 assembleFdroidDebug

@@ -80,10 +80,6 @@ jobs:
         shell: bash
         run: ./configure.sh
 
-      - name: Generate symbols
-        shell: bash
-        run: ./tools/unix/generate_symbols.sh
-
       - name: Configure ccache
         uses: hendrikmuhs/ccache-action@v1.2
         with:
