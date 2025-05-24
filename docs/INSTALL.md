@@ -43,7 +43,7 @@ cd comaps
 
 Install required packages (Ubuntu/Debian):
 ```bash
-sudo apt install qt6-base-dev qt6-declarative-dev libqt6svg6-dev optipng
+sudo apt install build-essential cmake qt6-base-dev qt6-svg-dev qt6-positioning-dev libicu-dev libfreetype-dev libharfbuzz-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev optipng
 ```
 
 Configure the repository (make sure you have a working C++ build environment):
