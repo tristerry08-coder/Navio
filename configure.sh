@@ -4,10 +4,11 @@
 #
 
 SKIP_MAP_DOWNLOAD=false
+SKIP_GENERATE_SYMBOLS=false
 
 ############################# PROCESS OPTIONS ################################
 
-TEMP=$(getopt -o s --long skip-map-download \
+TEMP=$(getopt -o ms --long skip-map-download,skip-generate-symbols \
               -n 'configure' -- "$@")
 
 if [ $? != 0 ] ; then echo "Terminating..." >&2 ; exit 1 ; fi
@@ -16,7 +17,8 @@ eval set -- "$TEMP"
 
 while true; do
   case "$1" in
-    -s | --skip-map-download ) SKIP_MAP_DOWNLOAD=true; shift ;;
+    -m | --skip-map-download ) SKIP_MAP_DOWNLOAD=true; shift ;;
+    -s | --skip-generate-symbols ) SKIP_GENERATE_SYMBOLS=true; shift ;;
     * ) break ;;
   esac
 done
@@ -46,6 +48,11 @@ else
   echo "Skipping world map download..."
 fi
 
-bash ./tools/unix/generate_symbols.sh
+if [ "$SKIP_GENERATE_SYMBOLS" = false ]; then
+  echo "Generating symbols..."
+  bash ./tools/unix/generate_symbols.sh
+else
+  echo "Skipping generate symbols..."
+fi
 
 echo "The repository is configured for development."
