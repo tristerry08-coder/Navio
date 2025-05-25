@@ -44,6 +44,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.ViewModelProvider;
 import app.organicmaps.api.Const;
+import app.organicmaps.backup.PeriodicBackupRunner;
 import app.organicmaps.base.BaseMwmFragmentActivity;
 import app.organicmaps.base.OnBackPressListener;
 import app.organicmaps.bookmarks.BookmarkCategoriesActivity;
@@ -139,6 +140,7 @@ import static app.organicmaps.leftbutton.LeftButtonsHolder.BUTTON_HELP_CODE;
 import static app.organicmaps.leftbutton.LeftButtonsHolder.BUTTON_RECORD_TRACK_CODE;
 import static app.organicmaps.leftbutton.LeftButtonsHolder.BUTTON_SETTINGS_CODE;
 import static app.organicmaps.util.PowerManagment.POWER_MANAGEMENT_TAG;
+import static app.organicmaps.util.concurrency.UiThread.runLater;
 
 public class MwmActivity extends BaseMwmFragmentActivity
     implements PlacePageActivationListener,
@@ -252,6 +254,8 @@ public class MwmActivity extends BaseMwmFragmentActivity
   @SuppressWarnings("NotNullFieldNotInitialized")
   @NonNull
   private DisplayManager mDisplayManager;
+
+  private PeriodicBackupRunner backupRunner;
 
   ManageRouteBottomSheet mManageRouteBottomSheet;
 
@@ -607,6 +611,8 @@ public class MwmActivity extends BaseMwmFragmentActivity
      */
     if (Map.isEngineCreated())
       onRenderingInitializationFinished();
+
+    backupRunner = new PeriodicBackupRunner(this);
   }
 
   private void onSettingsResult(ActivityResult activityResult)
@@ -1352,6 +1358,11 @@ public class MwmActivity extends BaseMwmFragmentActivity
     final String backUrl = Framework.nativeGetParsedBackUrl();
     if (!TextUtils.isEmpty(backUrl))
       Utils.openUri(this, Uri.parse(backUrl), null);
+
+    if (backupRunner != null && !backupRunner.isAlreadyChecked() && backupRunner.isTimeToBackup())
+    {
+      backupRunner.doBackup();
+    }
   }
 
   @CallSuper

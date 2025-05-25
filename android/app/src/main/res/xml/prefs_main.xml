@@ -112,6 +112,13 @@
         app:singleLineTitle="false"
         android:persistent="false"
         android:order="18"/>
+    <Preference
+        android:key="@string/pref_backup"
+        android:title="@string/pref_backup_title"
+        android:summary="@string/pref_backup_summary"
+        app:singleLineTitle="false"
+        android:persistent="false"
+        android:order="19"/>
   </androidx.preference.PreferenceCategory>
 
   <androidx.preference.PreferenceCategory
