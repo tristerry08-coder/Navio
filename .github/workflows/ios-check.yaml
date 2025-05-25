@@ -38,7 +38,7 @@ jobs:
         shell: bash
         run: git submodule update --depth 1 --init --recursive --jobs=$(($(sysctl -n hw.logicalcpu) * 20))
 
-      - name: Configure repository
+      - name:  Init boost, download World map, generate textures
         shell: bash
         run: ./configure.sh
 

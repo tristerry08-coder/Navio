@@ -22,9 +22,9 @@ jobs:
         shell: bash
         run: git submodule update --depth 1 --init --recursive --jobs=$(($(nproc) * 20))
 
-      - name: Configure repository
+      - name:  Init boost, generate textures
         shell: bash
-        run: ./configure.sh
+        run: ./configure.sh --skip-map-download
 
       - name: Lint
         shell: bash
@@ -76,9 +76,9 @@ jobs:
         shell: bash
         run: git submodule update --depth 1 --init --recursive --jobs=$(($(nproc) * 20))
 
-      - name: Configure repository
+      - name:  Init boost, generate textures
         shell: bash
-        run: ./configure.sh
+        run: ./configure.sh --skip-map-download
 
       - name: Configure ccache
         uses: hendrikmuhs/ccache-action@v1.2
