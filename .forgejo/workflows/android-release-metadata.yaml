@@ -12,19 +12,12 @@ jobs:
     environment: production
     steps:
       - name: Checkout sources
+        # TODO: use shallow (and sparse?) checkout
         uses: actions/checkout@v4
 
-      - name: Parallel submodules checkout
-        shell: bash
-        run: git submodule update --depth 1 --init --recursive --jobs=$(($(nproc) * 20))
-
-      - name: Checkout screenshots
-        uses: actions/checkout@v4
-        with:
-          repository: ${{ secrets.SCREENSHOTS_REPO }}
-          ssh-key: ${{ secrets.SCREENSHOTS_SSH_KEY }}
-          ref: main
-          path: screenshots
+#      - name: Parallel submodules checkout
+#        shell: bash
+#        run: git submodule update --depth 1 --init --recursive --jobs=$(($(nproc) * 20))
 
       - name: Restore release keys
         shell: bash
@@ -37,6 +30,6 @@ jobs:
 
       - name: Upload
         shell: bash
-        run: ./gradlew prepareGoogleReleaseListing publishGoogleReleaseListing
+        run: ./gradlew publishGoogleReleaseListing
         working-directory: android
         timeout-minutes: 5
