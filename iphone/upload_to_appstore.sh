@@ -6,7 +6,7 @@ set -euxo pipefail
 
 SCRIPT_DIR="$( cd "$(dirname "$0")" && pwd -P )"
 cd "$SCRIPT_DIR/.."
-./configure.sh git@github.com:organicmaps/organicmaps-keys
+./configure.sh
 cd "$SCRIPT_DIR"
 
 IOS_BUILD=$($SCRIPT_DIR/../tools/unix/version.sh ios_build)
@@ -23,7 +23,7 @@ rm -rf "$ARCHIVE_PATH"
 xcodebuild archive \
     -workspace "$SCRIPT_DIR/../xcode/omim.xcworkspace" \
     -configuration Release \
-    -scheme OMaps \
+    -scheme CoMaps \
     -destination generic/platform=iOS \
     -archivePath "$ARCHIVE_PATH" \
     MARKETING_VERSION="$IOS_VERSION" \
@@ -45,7 +45,7 @@ cat > "$PLIST" <<EOM
   <string>9Z6432XD7L</string>
   <key>provisioningProfiles</key>
   <dict>
-    <key>app.organicmaps</key>
+    <key>app.comaps</key>
     <string>CarPlay AppStore</string>
   </dict>
 </dict>
