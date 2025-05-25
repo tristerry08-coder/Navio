@@ -1,5 +1,11 @@
 A community-led free & open source maps app based on OpenStreetMap data and reinforced with commitment to transparency, privacy and being not-for-profit. CoMaps is a fork/spin-off of Organic Maps, which in turn is a fork of Maps.ME.
 
+Read on about reasons for the project and its direction at <b><i>codeberg.org/comaps</i></b>.
+Join the community there and help make the best maps app
+• Use the app and spread the word about it
+• Give feedback and report issues
+• Update map data in the app or on the OpenStreetMap website
+
 ‣ <b>Offline-focused</b>: Plan and navigate your trip abroad without the need for cellular service, search waypoints while on a distant hike, etc. All app functions are designed to work offline.
 ‣ <b>Respecting Privacy</b>: The app is designed with privacy in mind - does not identify people, does not track, and does not collect personal information. Ads-free.
 ‣ <b>Simple and Polished</b>: essential easy to use features that just work.
@@ -22,7 +28,7 @@ A community-led free & open source maps app based on OpenStreetMap data and rein
 <li>Export and import bookmarks and tracks in KML, KMZ, GPX formats</li>
 <li>A dark mode to use during the night</li>
 <li>Improve map data for everyone using a basic built-in editor</li>
-<li>Android Auto and CarPlay support</li>
 </ul>
 
-<i>Freedom Is Here - Discover your journey, navigate the world with privacy and community at the forefront!</i>
+<b>Freedom Is Here</b>
+Discover your journey, navigate the world with privacy and community at the forefront!
