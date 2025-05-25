@@ -187,9 +187,3 @@ tools/unix/maps/settings.sh
 # VS Code
 .vscode
 .cache
-
-# AppStore metadata
-screenshots/
-android/src/google/play/listings/
-keywords/
-iphone/metadata/**/keywords.txt
