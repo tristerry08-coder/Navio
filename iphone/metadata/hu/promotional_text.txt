@@ -1,1 +1,0 @@
-A térképi problémákat az OpenStreetMap.org-on javítsa, és szóljon nekünk a programhibákról.
