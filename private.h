@@ -1,6 +1,6 @@
 #pragma once
 
-#define OSM_OAUTH2_CLIENT_ID "P10w0BFkJ2-IoV2tg94biU-x9grsbGnw072Ud-kMcUc"
+#define OSM_OAUTH2_CLIENT_ID "feHq7fMSmKzZD6XLgPPah3whHPbavSTrJCgwhLMmqT0"
 #define OSM_OAUTH2_CLIENT_SECRET ""
 #define OSM_OAUTH2_REDIRECT_URI "cm://oauth2/osm/callback"
 #define OSM_OAUTH2_SCOPE "read_prefs write_api write_notes"
