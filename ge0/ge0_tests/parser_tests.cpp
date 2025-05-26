@@ -302,14 +302,14 @@ UNIT_TEST(Bad_Base64)
 
 UNIT_TEST(OtherPrefixes)
 {
-  TestSuccess("http://omaps.app/Byqqqqqqqq/Name", 45, 0, 4.25, "Name");
-  TestSuccess("https://omaps.app/Byqqqqqqqq/Name", 45, 0, 4.25, "Name");
-  TestFailure("http://omapz.app/Byqqqqqqqq/Name");
-  TestSuccess("http://omaps.app/AwAAAAAAAA/Super%5fPoi", 0, 0, 4, "Super Poi");
-  TestSuccess("https://omaps.app/AwAAAAAAAA/Super%5fPoi", 0, 0, 4, "Super Poi");
-  TestFailure("https://omapz.app/AwAAAAAAAA/Super%5fPoi");
+  TestSuccess("http://comaps.app/Byqqqqqqqq/Name", 45, 0, 4.25, "Name");
+  TestSuccess("https://comaps.app/Byqqqqqqqq/Name", 45, 0, 4.25, "Name");
+  TestFailure("http://comapz.app/Byqqqqqqqq/Name");
+  TestSuccess("http://comaps.app/AwAAAAAAAA/Super%5fPoi", 0, 0, 4, "Super Poi");
+  TestSuccess("https://comaps.app/AwAAAAAAAA/Super%5fPoi", 0, 0, 4, "Super Poi");
+  TestFailure("https://comapz.app/AwAAAAAAAA/Super%5fPoi");
 
-  TestSuccess("https://omaps.app/Byqqqqqqqq", 45, 0, 4.25, "");
-  TestFailure("https://omaps.app/Byqqqqqqq");
+  TestSuccess("https://comaps.app/Byqqqqqqqq", 45, 0, 4.25, "");
+  TestFailure("https://comaps.app/Byqqqqqqq");
 }
 }  // namespace ge0
