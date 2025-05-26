@@ -222,9 +222,14 @@ android {
     }
   }
 
-  def securityPropertiesFileExists = file('secure.properties').exists()
+  def securityPropertiesFileExists = file('secure.properties.release').exists()
   if (securityPropertiesFileExists) {
-    apply from: 'secure.properties'
+    apply from: 'secure.properties.release'
+  }
+
+  def securityTestPropertiesFilesExists = file('secure.properties.test').exists()
+  if(securityTestPropertiesFilesExists) {
+    apply from: 'secure.properties.test'
   }
 
   signingConfigs {
@@ -233,15 +238,28 @@ android {
       storePassword '12345678'
       keyAlias 'debug'
       keyPassword '12345678'
+      println('Using DEBUG signing keys')
+    }
+
+    test {
+      if (securityTestPropertiesFilesExists) {
+        storeFile file(secretTestStoreFile)
+        storePassword secretTestStorePassword
+        keyAlias secretTestKeyAlias
+        keyPassword secretTestKeyPassword
+        println('Using signing keys from secure.properties.test')
+      } else {
+        println('The test signing keys are unavailable')
+      }
     }
 
     release {
       if (securityPropertiesFileExists) {
-        println('The release signing keys are available')
-        storeFile file(spropStoreFile)
-        storePassword spropStorePassword
-        keyAlias spropKeyAlias
-        keyPassword spropKeyPassword
+        storeFile file(secretReleaseStoreFile)
+        storePassword secretReleaseStorePassword
+        keyAlias secretReleaseKeyAlias
+        keyPassword secretReleaseKeyPassword
+        println('Using signing keys from secure.properties.release')
       } else {
         println('The release signing keys are unavailable')
       }
@@ -261,7 +279,11 @@ android {
     }
 
     release {
-      signingConfig signingConfigs.release
+      if (securityPropertiesFileExists) {
+        signingConfig signingConfigs.release
+      } else {
+        signingConfig signingConfigs.debug
+      }
       minifyEnabled true
       shrinkResources true
       // Includes the default ProGuard rules files that are packaged with the Android Gradle plugin.
@@ -276,7 +298,11 @@ android {
     beta {
       applicationIdSuffix '.test'
       versionNameSuffix '-test'
-      signingConfig signingConfigs.release
+      if (securityTestPropertiesFilesExists) {
+        signingConfig signingConfigs.test
+      } else {
+        signingConfig signingConfigs.debug
+      }
       minifyEnabled true
       shrinkResources true
       // Includes the default ProGuard rules files that are packaged with the Android Gradle plugin.

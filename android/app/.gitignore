@@ -3,8 +3,10 @@
 
 # ignore private keys
 /secure.properties
+/secure.properties.test
+/secure.properties.release
+/test.keystore
 /release.keystore
-/secure.properties
 /libnotify.properties
 /google-play.json
 /huawei-appgallery.json
