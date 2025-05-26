@@ -34,10 +34,10 @@ bool Ge0Parser::Parse(std::string const & url, Result & result)
   //       |+-------+---------  9 bytes: lat,lon
   //       ||       | +--+----  Variable number of bytes: point name
   //       ||       | |  |
-  // om://ZCoordba64/Name
+  // cm://ZCoordba64/Name
 
   // Alternative format (differs only in the prefix):
-  // http://omaps.app/ZCoordba64/Name
+  // http://comaps.app/ZCoordba64/Name
 
   for (auto prefix : kGe0Prefixes)
   {

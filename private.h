@@ -2,7 +2,7 @@
 
 #define OSM_OAUTH2_CLIENT_ID "P10w0BFkJ2-IoV2tg94biU-x9grsbGnw072Ud-kMcUc"
 #define OSM_OAUTH2_CLIENT_SECRET "3l3AjaFW7sJRKM4sOF0MrdBEpbm5XjCeCFDULFfu8vY"
-#define OSM_OAUTH2_REDIRECT_URI "om://oauth2/osm/callback"
+#define OSM_OAUTH2_REDIRECT_URI "cm://oauth2/osm/callback"
 #define OSM_OAUTH2_SCOPE "read_prefs write_api write_notes"
 #define MWM_GEOLOCATION_SERVER ""
 #define DIFF_LIST_URL ""

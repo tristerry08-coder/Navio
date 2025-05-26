@@ -115,8 +115,8 @@ UNIT_TEST(Url_Valid)
       .KV("ll", "10.3,12.3223")
       .KV("n", "Hello World");
 
-  TestUrl("om:M&M//path?q=q&w=w")
-      .Scheme("om")
+  TestUrl("cm:M&M//path?q=q&w=w")
+      .Scheme("cm")
       .Host("M&M")
       .Path("path")
       .KV("q", "q")
@@ -127,7 +127,7 @@ UNIT_TEST(Url_Valid)
       .Host("www.sandwichparlour.com.au")
       .Path("");
 
-  TestUrl("om:/&test").Scheme("om").Host("&test").Path("");
+  TestUrl("cm:/&test").Scheme("cm").Host("&test").Path("");
 }
 
 UNIT_TEST(Url_Fragment)
