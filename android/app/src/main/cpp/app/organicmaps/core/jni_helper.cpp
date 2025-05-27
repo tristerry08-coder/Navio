@@ -4,6 +4,7 @@
 
 #include "base/assert.hpp"
 #include "base/exception.hpp"
+#include "base/string_utils.hpp"
 
 #include <vector>
 
