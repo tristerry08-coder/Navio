@@ -637,7 +637,6 @@
 "day" = "p";
 "placepage_more_button" = "Veel";
 "book_button" = "Reserveeri";
-
 "placepage_call_button" = "Helista";
 "placepage_edit_bookmark_button" = "Muuda järjehoidjat";
 "placepage_bookmark_name_hint" = "Järjehoidja nimi";

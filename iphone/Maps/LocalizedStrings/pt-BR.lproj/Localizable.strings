@@ -637,7 +637,6 @@
 "day" = "dia";
 "placepage_more_button" = "Mais";
 "book_button" = "Reservar";
-
 "placepage_call_button" = "Ligar";
 "placepage_edit_bookmark_button" = "Editar favorito";
 "placepage_bookmark_name_hint" = "Nome do favorito";

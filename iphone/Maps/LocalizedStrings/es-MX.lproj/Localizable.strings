@@ -154,7 +154,7 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Caravanas";
-"share_bookmarks_email_body" = "Hola!\n\Adjunto mis marcadores de la aplicación CoMaps. Por favor, ábralos si tiene instalado CoMaps. O, si no lo tiene, descargue la aplicación para su dispositivo iOS o Android siguiendo este enlace: https://www.comaps.app/download/\n¡Disfrute viajando con Organic Maps!";
+"share_bookmarks_email_body" = "Hola!\nAdjunto mis marcadores de la aplicación CoMaps. Por favor, ábralos si tiene instalado CoMaps. O, si no lo tiene, descargue la aplicación para su dispositivo iOS o Android siguiendo este enlace: https://www.comaps.app/download/\n¡Disfrute viajando con Organic Maps!";
 
 /* message title of loading file */
 "load_kmz_title" = "Cargando marcadores";
@@ -637,7 +637,6 @@
 "day" = "d";
 "placepage_more_button" = "Más";
 "book_button" = "Reservar";
-
 "placepage_call_button" = "Llamar";
 "placepage_edit_bookmark_button" = "Editar marcador";
 "placepage_bookmark_name_hint" = "Nombre del marcador";

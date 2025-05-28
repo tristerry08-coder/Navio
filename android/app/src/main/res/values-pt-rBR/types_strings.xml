@@ -1202,4 +1202,5 @@
     <string name="type.historic.castle.shiro">Castelo japonês</string>
     <string name="type.historic.city_gate">Portões da Cidade</string>
     <string name="type.historic.fort">Forte</string>
+    <string name="type.amenity.stripclub">Clube de strip</string>
 </resources>

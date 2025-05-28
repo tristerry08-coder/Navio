@@ -94,8 +94,7 @@
     <!-- Question dialog for transferring maps from one storage to another -->
     <string name="move_maps">Flyt kort?</string>
     <!-- Ask user to wait several minutes (some long process in modal dialog). -->
-    <string name="wait_several_minutes">Dette kan tage flere minutter.
-\nVent venligst…</string>
+    <string name="wait_several_minutes">Dette kan tage flere minutter. \nVent venligst…</string>
     <!-- Measurement units title in settings activity -->
     <string name="measurement_units">Måleenheder</string>
     <!-- Detailed description of Measurement Units settings button -->
@@ -159,12 +158,9 @@
     <!-- Kml file loading failed -->
     <string name="load_kmz_failed">Bogmærkerne kunne ikke indlæses. Filen kan være skadet eller defekt.</string>
     <!-- Failed to recognize the format of a bookmarks or tracks file. -->
-    <string name="unknown_file_type">Filtypen genkendes ikke af appen:
-\n%1$s</string>
+    <string name="unknown_file_type">Filtypen genkendes ikke af appen: \n%1$s</string>
     <!-- Failed to open a bookmarks or tracks file in CoMaps. -->
-    <string name="failed_to_open_file">Kunne ikke åbne filen %1$s
-\n
-\n%2$s</string>
+    <string name="failed_to_open_file">Kunne ikke åbne filen %1$s \n \n%2$s</string>
     <!-- resource for context menu -->
     <string name="edit">Rediger</string>
     <!-- Warning message when doing search around current position -->
@@ -472,8 +468,7 @@
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
     <string name="osm_presentation">Fællesskabsskabte OpenStreetMap-data fra %s. Få mere at vide om, hvordan du redigerer og opdaterer kortet på OpenStreetMap.org</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">OpenStreetMap.org (OSM) er et fællesskabsprojekt til opbygning af et gratis og åbent kort. Det er hovedkilden til kortdata i CoMaps og fungerer på samme måde som Wikipedia. Du kan tilføje eller redigere steder, og de bliver tilgængelige for millioner af brugere over hele verden.
-\nSlut dig til fællesskabet og vær med til at skabe et bedre kort for alle!</string>
+    <string name="login_osm_presentation">OpenStreetMap.org (OSM) er et fællesskabsprojekt til opbygning af et gratis og åbent kort. Det er hovedkilden til kortdata i CoMaps og fungerer på samme måde som Wikipedia. Du kan tilføje eller redigere steder, og de bliver tilgængelige for millioner af brugere over hele verden. \nSlut dig til fællesskabet og vær med til at skabe et bedre kort for alle!</string>
     <string name="login_to_make_edits_visible">Opret en OpenStreetMap-konto eller log ind for at offentliggøre dine kortredigeringer til hele verden.</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d af %2$d</string>

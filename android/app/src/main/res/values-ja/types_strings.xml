@@ -128,7 +128,6 @@
     <string name="type.amenity.prison">刑務所</string>
     <string name="type.amenity.pub">バー</string>
     <string name="type.amenity.public_bookcase">街角文庫</string>
-
     <!-- SECTION: Types: Recycling -->
     <string name="type.amenity.recycling.centre">リサイクルセンター</string>
     <string name="type.amenity.recycling">リサイクルボックス</string>
@@ -344,7 +343,6 @@
     <string name="type.healthcare.psychotherapist">心理療法</string>
     <string name="type.healthcare.sample_collection">サンプリング</string>
     <string name="type.healthcare.speech_therapist">ロゴペディックス</string>
-
     <!-- SECTION: Types: Roads -->
     <string name="type.highway">道路</string>
     <string name="type.highway.bridleway">馬道</string>
@@ -509,7 +507,6 @@
     <string name="type.area_highway.track">ストリート</string>
     <string name="type.area_highway.trunk">ストリート</string>
     <string name="type.area_highway.unclassified">ストリート</string>
-
     <!-- SECTION: Types: Historic -->
     <string name="type.historic">史跡</string>
     <string name="type.historic.aircraft">歴史的な航空機</string>
@@ -1305,4 +1302,20 @@
     <string name="type.amenity.dojo">道場</string>
     <!-- https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall -->
     <string name="type.leisure.sports_hall">スポーツホール</string>
+    <string name="type.amenity.atm">ATM</string>
+    <string name="type.recycling.cans">缶</string>
+    <string name="type.recycling.shoes">靴</string>
+    <string name="type.recycling.cardboard">段ボール</string>
+    <string name="type.recycling.green_waste">有機性廃棄物</string>
+    <string name="type.amenity.sanitary_dump_station">ダンプステーション</string>
+    <string name="type.amenity.vending_machine.coffee">コーヒー自動販売機</string>
+    <string name="type.amenity.vending_machine.food">食品自動販売機</string>
+    <string name="type.amenity.vending_machine.newspapers">新聞自動販売機</string>
+    <string name="type.amenity.vending_machine.sweets">お菓子の自動販売機</string>
+    <string name="type.amenity.vending_machine.condoms">コンドーム自動販売機</string>
+    <string name="type.man_made.silo">サイロ</string>
+    <string name="type.amenity.vending_machine.fuel">燃料ポンプ</string>
+    <string name="type.man_made.flagpole">旗竿</string>
+    <string name="type.man_made.mast">マスト</string>
+    <string name="type.piste_type.sled.area">そりコース</string>
 </resources>

@@ -57,11 +57,9 @@
     <string name="download">دانلود</string>
     <!-- Used in DownloadResources startup screen -->
     <string name="not_enough_free_space_on_sdcard">لطفا مقداری از فضای ذخیره‌سازی را آزاد نمایید</string>
-    <string name="download_resources">قبل از استفاده از اپلیکیشن, اجازه دهید تا ما نقشه جهانی را بر روی موبایل شما دانلود کنیم.
-\nمقدار %s از حافظه شما اشغال می شود.</string>
+    <string name="download_resources">قبل از استفاده از اپلیکیشن, اجازه دهید تا ما نقشه جهانی را بر روی موبایل شما دانلود کنیم. \nمقدار %s از حافظه شما اشغال می شود.</string>
     <string name="download_resources_continue">برو به نقشه</string>
-    <string name="downloading_country_can_proceed">درحال دانلود %s. شما اکنون می توانید
-\nبه نقشه بروید.</string>
+    <string name="downloading_country_can_proceed">درحال دانلود %s. شما اکنون می توانید \nبه نقشه بروید.</string>
     <string name="download_country_ask">دانلود %s?</string>
     <string name="update_country_ask">آپدیت %s?</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
@@ -95,13 +93,11 @@
     <!-- Question dialog for transferring maps from one storage to another -->
     <string name="move_maps">آیا نقشه‌ها جابه‌جا شود؟</string>
     <!-- Ask user to wait several minutes (some long process in modal dialog). -->
-    <string name="wait_several_minutes">ممکن است چند دقیقه طول بکشد.
-\nلطفا صبر کنید…</string>
+    <string name="wait_several_minutes">ممکن است چند دقیقه طول بکشد. \nلطفا صبر کنید…</string>
     <!-- Measurement units title in settings activity -->
     <string name="measurement_units">واحد اندازه‌گیری</string>
     <!-- Detailed description of Measurement Units settings button -->
     <string name="measurement_units_summary">بین مایل و کیلومتر انتخاب کنید</string>
-
     <!-- SECTION: Search categories -->
     <!-- Search category for cafes, bars, restaurants; any changes should be duplicated in categories.txt @category_eat! -->
     <string name="category_eat">کجا غذا بخوریم</string>
@@ -149,7 +145,6 @@
     <string name="category_water">آب</string>
     <!-- Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! -->
     <string name="category_rv">RV برای</string>
-
     <!-- SECTION: Other translations -->
     <!-- Notes field in Bookmarks view -->
     <string name="description">یادداشت‌ها</string>
@@ -160,12 +155,9 @@
     <!-- Kml file loading failed -->
     <string name="load_kmz_failed">بارگذاری نشانه‌ها با شکست مواجه شد.ممکن است فایل آسیب دیده یا معیوب باشد</string>
     <!-- Failed to recognize the format of a bookmarks or tracks file. -->
-    <string name="unknown_file_type">نوع فایل توسط برنامه تشخیص داده نمی شود:
-\n%1$s</string>
+    <string name="unknown_file_type">نوع فایل توسط برنامه تشخیص داده نمی شود: \n%1$s</string>
     <!-- Failed to open a bookmarks or tracks file in CoMaps. -->
-    <string name="failed_to_open_file">فایل باز نشد %1$s
-\n
-\n%2$s</string>
+    <string name="failed_to_open_file">فایل باز نشد %1$s \n \n%2$s</string>
     <!-- resource for context menu -->
     <string name="edit">ویرایش</string>
     <!-- Warning message when doing search around current position -->
@@ -331,7 +323,6 @@
     <string name="gray">خاکستری</string>
     <!-- blue gray color -->
     <string name="blue_gray">خاکستری کبود</string>
-
     <!-- SECTION: Routing dialogs strings -->
     <string name="dialog_routing_disclaimer_title">زمانی که مسیری را دنبال می کنید لطفا به یاد داشته باشید:</string>
     <string name="dialog_routing_disclaimer_priority">—شرایط جاده قوانین راهنمایی و رانندگی و علائم جاده همیشه بر نکات مسیریابی اولویت دارند;</string>
@@ -361,7 +352,6 @@
     <string name="not_now">اکنون خیر</string>
     <string name="dialog_routing_download_and_build_cross_route">ایا مایل به دانلود نقشه و ایجاد مسیر‌های بهینه بیشتری که نقشه‌های بیشتری را پوشش میدهد هستید؟</string>
     <string name="dialog_routing_download_cross_route">دانلود نقشه‌های اضافی برای ایجاد مسیری بهتر که حاشیه‌های این نقشه را رد می کند.</string>
-
     <!-- SECTION: Strings for downloading map from search -->
     <string name="search_without_internet_advertisement">برای شروع جستجو و مسیر‌یابی لطفا نقشه رادانلود کنید بعد از آن دیگر نیازی به اتصال به اینترنت ندارید و برنامه کاملا آفلاین اجرا می شود.</string>
     <string name="search_select_map">انتخاب نقشه</string>
@@ -473,8 +463,7 @@
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
     <string name="osm_presentation">داده های OpenStreetMap ایجاد شده توسط انجمن از %s. درباره نحوه ویرایش و به روز رسانی نقشه در OpenStreetMap.org بیشتر بیاموزید</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">OpenStreetMap.org (OSM) یک پروژه اجتماعی برای ساخت یک نقشه رایگان و باز است. این منبع اصلی داده های نقشه در نقشه های ارگانیک است و مشابه ویکی پدیا کار می کند. میu200cتوانید مکانu200cها را اضافه یا ویرایش کنید تا در دسترس میلیونu200cها کاربر در سراسر جهان قرار گیرند.
-\nبه انجمن بپیوندید و به ایجاد نقشه بهتر برای همه کمک کنید!</string>
+    <string name="login_osm_presentation">OpenStreetMap.org (OSM) یک پروژه اجتماعی برای ساخت یک نقشه رایگان و باز است. این منبع اصلی داده های نقشه در نقشه های ارگانیک است و مشابه ویکی پدیا کار می کند. میu200cتوانید مکانu200cها را اضافه یا ویرایش کنید تا در دسترس میلیونu200cها کاربر در سراسر جهان قرار گیرند. \nبه انجمن بپیوندید و به ایجاد نقشه بهتر برای همه کمک کنید!</string>
     <string name="login_to_make_edits_visible">یک حساب OpenStreetMap ایجاد کنید یا وارد شوید تا ویرایش های نقشه خود را در جهان منتشر کنید.</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d از %2$d</string>
@@ -563,8 +552,7 @@
     <!-- Settings: "Send general feedback" button -->
     <string name="feedback_general">\"تنظیمات: دکمه \"ارسال بازخورد کلی</string>
     <string name="prefs_languages_information">ما از TTS سیستم برای دستورالعمل‌های صوتی استفاده می کنیم. بسیاری از دستگاه‌های Android از Google TTS استفاده می کنند، شما می توانید آن را از Google Play دانلود کنید (https://play.google.com/store/apps/details؟id=com.google.android.tts)</string>
-    <string name="prefs_languages_information_off">برای بعضی از زبان‌ها، شما باید speech synthesizer یا یک بسته زبان دیگر را از فروشگاه برنامه (بازار Google Play، Galaxy Store) نصب کنید. 
-\n تنظیمات دستگاه خود را باز کنید. → زبان و ورودی → گفتار → خروجی متن به گفتار. می توانید تنظیمات برای ترکیب گفتار (به عنوان مثال، بسته‌های زبان را برای استفاده آفلاین دانلود کنید) را مدیریت کنید و یک موتور دیگر متن به گفتار را انتخاب کنید.</string>
+    <string name="prefs_languages_information_off">برای بعضی از زبان‌ها، شما باید speech synthesizer یا یک بسته زبان دیگر را از فروشگاه برنامه (بازار Google Play، Galaxy Store) نصب کنید. \n تنظیمات دستگاه خود را باز کنید. → زبان و ورودی → گفتار → خروجی متن به گفتار. می توانید تنظیمات برای ترکیب گفتار (به عنوان مثال، بسته‌های زبان را برای استفاده آفلاین دانلود کنید) را مدیریت کنید و یک موتور دیگر متن به گفتار را انتخاب کنید.</string>
     <string name="prefs_languages_information_off_link">برای اطلاعات بیشتر لطفا این راهنما را بررسی کنید.</string>
     <string name="transliteration_title">ترجمه به لاتین</string>
     <string name="learn_more">بیشتر بدانید</string>
@@ -699,7 +687,6 @@
     <string name="moreyear_ago_sorttype">بیش از یک سال قبل</string>
     <string name="near_me_sorttype">نزدیک من</string>
     <string name="others_sorttype">دیگران</string>
-
     <!-- SECTION: Bookmark types used for sorting -->
     <string name="food_places">غذا</string>
     <string name="tourist_places">مناظر</string>

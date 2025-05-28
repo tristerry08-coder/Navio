@@ -58,8 +58,7 @@
     <string name="not_enough_free_space_on_sdcard">アプリを起動するにはSDカード/USBストレージの空き容量を確保する必要があります</string>
     <string name="download_resources">利用を開始する前におおまかな世界地図をダウンロードします。これには%sの空き容量が必要です。</string>
     <string name="download_resources_continue">マップを表示</string>
-    <string name="downloading_country_can_proceed">%sをダウンロードしました
-\nマップを表示可能です</string>
+    <string name="downloading_country_can_proceed">%sをダウンロードしました \nマップを表示可能です</string>
     <string name="download_country_ask">%sをダウンロードしますか？</string>
     <string name="update_country_ask">%sを更新しますか？</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
@@ -107,8 +106,7 @@
     <!-- Error moving map files from one storage to another -->
     <string name="move_maps_error">マップ移動中にエラーが発生</string>
     <!-- Ask user to wait several minutes (some long process in modal dialog). -->
-    <string name="wait_several_minutes">数分かかる場合があります。
-\nしばらくお待ち下さい…</string>
+    <string name="wait_several_minutes">数分かかる場合があります。 \nしばらくお待ち下さい…</string>
     <!-- Measurement units title in settings activity -->
     <string name="measurement_units">距離の単位</string>
     <!-- Detailed description of Measurement Units settings button -->
@@ -165,11 +163,7 @@
     <string name="description">メモ</string>
     <!-- Email Subject when sharing bookmark list -->
     <string name="share_bookmarks_email_subject">CoMapsのお気に入りリストが共有されました</string>
-    <string name="share_bookmarks_email_body">こんにちは！
-\n
-\n添付ファイルCoMapsのお気に入りリストです。もしインストールされていない場合はここからダウンロードができます： https://www.comaps.app/download/
-\n
-\n旅行を楽しむときはCoMapsを使用してください!</string>
+    <string name="share_bookmarks_email_body">こんにちは！ \n \n添付ファイルCoMapsのお気に入りリストです。もしインストールされていない場合はここからダウンロードができます： https://www.comaps.app/download/ \n \n旅行を楽しむときはCoMapsを使用してください!</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">お気に入りをロード中</string>
     <!-- Kmz file successful loading -->
@@ -177,12 +171,9 @@
     <!-- Kml file loading failed -->
     <string name="load_kmz_failed">お気に入りのロードに失敗しました。ファイルが破損していた、または問題があった可能性があります。</string>
     <!-- Failed to recognize the format of a bookmarks or tracks file. -->
-    <string name="unknown_file_type">ファイルタイプがアプリに認識されない：
-\n%1$s</string>
+    <string name="unknown_file_type">ファイルタイプがアプリに認識されない： \n%1$s</string>
     <!-- Failed to open a bookmarks or tracks file in CoMaps. -->
-    <string name="failed_to_open_file">ファイルを開けなかった %1$s
-\n
-\n%2$s</string>
+    <string name="failed_to_open_file">ファイルを開けなかった %1$s \n \n%2$s</string>
     <!-- resource for context menu -->
     <string name="edit">編集</string>
     <!-- Warning message when doing search around current position -->
@@ -198,13 +189,7 @@
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">CoMapsで現在地を確認</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">私の現在地はここ: %1$s
-\n
-\nリンクをクリックすると詳細がマップに表示されます。
-\n
-\n%2$s
-\n
-\n%3$s</string>
+    <string name="my_position_share_email">私の現在地はここ: %1$s \n \nリンクをクリックすると詳細がマップに表示されます。 \n \n%2$s \n \n%3$s</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">共有</string>
     <!-- Share by email button text, also used in editor and About. -->
@@ -648,12 +633,10 @@
     <string name="phone_number">電話番号</string>
     <string name="profile">OpenStreetMap プロフィール</string>
     <plurals name="bookmarks_detect_message">
-        <item quantity="one">%d ファイルが見つかりました。変換後にそれを見ることができます。</item>
         <item quantity="other">%d ファイルが見つかりました。変換後にそれを見ることができます。</item>
     </plurals>
     <string name="restore">復元</string>
     <plurals name="tracks">
-        <item quantity="one">%d の追跡</item>
         <item quantity="other">%d の追跡</item>
     </plurals>
     <!-- Settings privacy group in settings screen -->
@@ -880,4 +863,21 @@
     <string name="uri_open_location_failed">場所を開くことができるアプリがインストールされていません</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">ナビゲーションオート</string>
+    <string name="telegram">Telegram</string>
+    <string name="matrix">[Matrix]</string>
+    <string name="mastodon">マストドン</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">X (Twitter)</string>
+    <string name="instagram">Instagram</string>
+    <string name="vk">VK</string>
+    <string name="github">GitHub</string>
+    <string name="editor_line_social_network">LINE</string>
+    <string name="openstreetmap">OpenStreetMap</string>
+    <string name="gb">GB</string>
+    <string name="mb">MB</string>
+    <string name="level_value_generic">階層：%s</string>
+    <string name="telegram_url">https://t.me/CoMapsApp/</string>
+    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
+    <string name="comma_separated_pair">%1$s, %2$s</string>
+    <string name="codeberg">Codeberg</string>
 </resources>

@@ -38,9 +38,9 @@
     <string name="try_again">Proovi uuesti</string>
     <string name="about_menu_title">CoMapsi teave</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_2">• Ei tühjenda akut, töötab võrguühenduseta</string>
+    <string name="about_proposition_2">• Privaatsuskeskne ja reklaamivaba</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Kiire, minimalistlik, kogukonna poolt väljatöötatud</string>
+    <string name="about_proposition_3">• Töötab ilma võrguühenduseta, kiire ja kompaktne</string>
     <!-- The button that opens system location settings -->
     <string name="location_settings">Asukoha seadistused</string>
     <string name="close">Sulge</string>
@@ -100,8 +100,7 @@
     <!-- Error moving map files from one storage to another -->
     <string name="move_maps_error">Kaardipaanide teisaldamine ei õnnestunud</string>
     <!-- Ask user to wait several minutes (some long process in modal dialog). -->
-    <string name="wait_several_minutes">See võib võtta mitu minutit.
-\nPalun oota…</string>
+    <string name="wait_several_minutes">See võib võtta mitu minutit. \nPalun oota…</string>
     <!-- Measurement units title in settings activity -->
     <string name="measurement_units">Mõõtühikud</string>
     <!-- Detailed description of Measurement Units settings button -->
@@ -166,8 +165,7 @@
     <!-- Kml file loading failed -->
     <string name="load_kmz_failed">Järjehoidjate laadimine ei õnnestunud. Fail võib olla vigane.</string>
     <!-- Failed to recognize the format of a bookmarks or tracks file. -->
-    <string name="unknown_file_type">Rakendus ei tunnista failitüüpi:
-\n%1$s</string>
+    <string name="unknown_file_type">Rakendus ei tunnista failitüüpi: \n%1$s</string>
     <!-- Failed to open a bookmarks or tracks file in CoMaps. -->
     <string name="failed_to_open_file">Faili avamine ei õnnestunud %1$s \n \n%2$s</string>
     <!-- resource for context menu -->
@@ -185,11 +183,7 @@
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">Hei, vaata minu praegust asukohta CoMapsi kaardil!</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">Tere,
-\n
-\nOlen praegu siin: %1$s. Ava see link %2$s või see %3$s, et näha seda kohta kaardil.
-\n
-\nAitäh.</string>
+    <string name="my_position_share_email">Tere, \n \nOlen praegu siin: %1$s. Ava see link %2$s või see %3$s, et näha seda kohta kaardil. \n \nAitäh.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">Jaga</string>
     <!-- Share by email button text, also used in editor and About. -->
@@ -300,9 +294,9 @@
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Uuenda kaarti</string>
     <!-- Preference title -->
-    <string name="google_play_services">Google Play asukohateenused</string>
+    <string name="google_play_services">Google Fused Location Service (eri sisendeid ühendav asukohatuvastus)</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">Määra kiiresti oma ligikaudne asukoht Bluetoothi, WiFi või mobiilivõrgu kaudu</string>
+    <string name="pref_use_google_play">Asukohateenus, mis kombineerib GPS-i, WiFi, mobiilivõrgu ja muid andmeid asukoha tuvastamiseks võimalikult täpselt. Võib ka ühenduda Google\'i serveritega.</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -860,8 +854,8 @@
     <string name="uri_open_location_failed">Ei ole paigaldatud rakendust, mis oskaks asukohta avada</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Automaatne tee juhatamine</string>
-    <string name="about_headline">Tasuta ja vaba kõigi jaoks, tehtud armastusega</string>
-    <string name="about_proposition_1">• Pole reklaame, jälitamist ega andmekogumist</string>
+    <string name="about_headline">Avatud projekt, mida toetab toimekas kogukond</string>
+    <string name="about_proposition_1">• Viimistletud ja lihtsaltkasutatav</string>
     <string name="mb">MB</string>
     <string name="gb">GB</string>
     <string name="openstreetmap">OpenStreetMap</string>
@@ -881,7 +875,7 @@
     <string name="translated_om_site_url">https://comaps.app/</string>
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="comma_separated_pair">%1$s, %2$s</string>
-    <string name="about_developed_by_enthusiasts">Huviliste ja vabatahtlike poolt loodud avatud lähtekoodil põhinev rakendus.</string>
+    <string name="about_developed_by_enthusiasts">Täielikult avatud lähtekoodiga, kasumit mittetaotlev, läbipaistva otsustusprotsessiga ning rahastamisega.</string>
     <string name="app_site_url">https://comaps.app/</string>
     <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
     <string name="telegram_url">https://t.me/CoMapsApp/</string>

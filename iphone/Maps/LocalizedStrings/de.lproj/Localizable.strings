@@ -637,7 +637,6 @@
 "day" = "d";
 "placepage_more_button" = "Mehr";
 "book_button" = "Buchen";
-
 "placepage_call_button" = "Anrufen";
 "placepage_edit_bookmark_button" = "Lesezeichen bearbeiten";
 "placepage_bookmark_name_hint" = "Name des Lesezeichens";

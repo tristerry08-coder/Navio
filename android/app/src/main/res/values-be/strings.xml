@@ -164,11 +164,7 @@
     <string name="description">Нататкі</string>
     <!-- Email Subject when sharing bookmark list -->
     <string name="share_bookmarks_email_subject">З вамі падзяліліся закладкамі Ogranic Maps</string>
-    <string name="share_bookmarks_email_body">Вітаю!
-\n
-\nУ далучаным файле мае закладкі з праграмы CoMaps. Калі ласка, адкрыйце іх, калі ў вас усталяваны CoMaps. Калі не, спампуйце праграму для вашай прылады iOS альбо Andriod па спасылцы: https://www.comaps.app/download/
-\n
-\nПрыемных падарожжаў з CoMaps!</string>
+    <string name="share_bookmarks_email_body">Вітаю! \n \nУ далучаным файле мае закладкі з праграмы CoMaps. Калі ласка, адкрыйце іх, калі ў вас усталяваны CoMaps. Калі не, спампуйце праграму для вашай прылады iOS альбо Andriod па спасылцы: https://www.comaps.app/download/ \n \nПрыемных падарожжаў з CoMaps!</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">Загрузка закладак</string>
     <!-- Kmz file successful loading -->
@@ -176,12 +172,9 @@
     <!-- Kml file loading failed -->
     <string name="load_kmz_failed">Не ўдалося загрузіць закладкі. Файл можа быць пашкоджаны або няспраўны.</string>
     <!-- Failed to recognize the format of a bookmarks or tracks file. -->
-    <string name="unknown_file_type">Прыкладанне не распазнае тып файла:
-\n%1$s</string>
+    <string name="unknown_file_type">Прыкладанне не распазнае тып файла: \n%1$s</string>
     <!-- Failed to open a bookmarks or tracks file in CoMaps. -->
-    <string name="failed_to_open_file">Не ўдалося адкрыць файл %1$s
-\n
-\n%2$s</string>
+    <string name="failed_to_open_file">Не ўдалося адкрыць файл %1$s \n \n%2$s</string>
     <!-- resource for context menu -->
     <string name="edit">Рэдагаваць</string>
     <!-- Warning message when doing search around current position -->
@@ -195,11 +188,7 @@
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">Гэй, глядзі дзе я зараз на мапе CoMaps!</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">Прывітанне,
-\n
-\nЯ зараз тут: %1$s. Перайдзі па гэтай %2$s або гэтай %3$s спасылцы, каб убачыць месца на мапе.
-\n
-\nДзякуй.</string>
+    <string name="my_position_share_email">Прывітанне, \n \nЯ зараз тут: %1$s. Перайдзі па гэтай %2$s або гэтай %3$s спасылцы, каб убачыць месца на мапе. \n \nДзякуй.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">Абагуліць</string>
     <!-- Share by email button text, also used in editor and About. -->
@@ -499,8 +488,7 @@
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
     <string name="osm_presentation">Створаныя супольнасцю даныя OpenStreetMap па стане на %s. Даведайцеся больш пра тое, як рэдагаваць і абнаўляць карту на OpenStreetMap.org</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">OpenStreetMap.org (OSM) - гэта грамадскі праект па стварэнні бясплатнай і адкрытай мапы, і асноўная крыніца картаграфічных даных у CoMaps, якая працуе падобна на Вікіпедыю. Кожны можа дадаваць або рэдагаваць месцы, якія пабачуць мільёны карыстальнікаў па ўсім свеце.
-\nДалучайцеся да супольнасці і дапамажыце зрабіць лепшую мапу для ўсіх!</string>
+    <string name="login_osm_presentation">OpenStreetMap.org (OSM) - гэта грамадскі праект па стварэнні бясплатнай і адкрытай мапы, і асноўная крыніца картаграфічных даных у CoMaps, якая працуе падобна на Вікіпедыю. Кожны можа дадаваць або рэдагаваць месцы, якія пабачуць мільёны карыстальнікаў па ўсім свеце. \nДалучайцеся да супольнасці і дапамажыце зрабіць лепшую мапу для ўсіх!</string>
     <string name="login_to_make_edits_visible">Стварыце ўліковы запіс OpenStreetMap або ўвайдзіце ў сістэму, каб апублікаваць праўкі мапы ўсім на свеце.</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d з %2$d</string>

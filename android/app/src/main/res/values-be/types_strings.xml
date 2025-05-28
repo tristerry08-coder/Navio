@@ -52,7 +52,6 @@
     <string name="type.amenity.place_of_worship.christian.jehovahs_witness">Зала царства Сведкаў Іегавы</string>
     <string name="type.amenity.post_box">Паштовая скрыня</string>
     <string name="type.amenity.prison">Турма</string>
-
     <!-- SECTION: Types: Recycling -->
     <string name="type.amenity.recycling.centre">Прыём другсыравіны</string>
     <string name="type.amenity.recycling">Кантэйнер для другаснай сыравіны</string>
@@ -166,7 +165,6 @@
     <string name="type.healthcare.psychotherapist">Псіхатэрапія</string>
     <string name="type.healthcare.sample_collection">Збор аналізаў</string>
     <string name="type.healthcare.speech_therapist">лагапедыя</string>
-
     <!-- SECTION: Types: Roads -->
     <!-- These translations are used for all type.highway.*.bridge. -->
     <string name="type.highway.bridleway.bridge">Мост</string>
@@ -277,7 +275,6 @@
     <string name="type.highway.unclassified.tunnel">Тунэль</string>
     <string name="type.area_highway.path">Сцежка</string>
     <string name="type.area_highway.trunk">Траса</string>
-
     <!-- SECTION: Types: Historic -->
     <string name="type.historic">Гістарычны аб\'ект</string>
     <string name="type.historic.aircraft">Гістарычныя самалёты</string>

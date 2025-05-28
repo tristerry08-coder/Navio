@@ -1392,4 +1392,5 @@
     <string name="type.boundary.administrative.3">Regionale Grenze</string>
     <string name="type.power.pole">Strommast</string>
     <string name="type.man_made.pipeline.overground">Oberirdische Rohrleitung</string>
+    <string name="type.sport.diving">Tauchen</string>
 </resources>

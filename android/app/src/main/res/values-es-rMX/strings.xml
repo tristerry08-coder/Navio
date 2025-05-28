@@ -12,9 +12,7 @@
     <string name="category_water">Agua</string>
     <!-- SECTION: Other translations -->
     <!-- Failed to open a bookmarks or tracks file in CoMaps. -->
-    <string name="failed_to_open_file">Fallo al abrir el archivo %1$s
-\n
-\n%2$s</string>
+    <string name="failed_to_open_file">Fallo al abrir el archivo %1$s \n \n%2$s</string>
     <!-- Generic «Auto» string -->
     <string name="auto">Automático</string>
     <!-- Settings «Route» category: «Test Voice Directions» title -->
@@ -75,6 +73,7 @@
     <string name="bookmark_lists_show_all">Mostrar todo</string>
     <plurals name="bookmarks_places">
         <item quantity="one">%d marcador</item>
+        <item quantity="many"/>
         <item quantity="other">%d marcadores</item>
     </plurals>
     <string name="bookmarks_create_new_group">Crear lista nueva</string>
@@ -90,11 +89,13 @@
     <string name="phone_number">Número de teléfono</string>
     <plurals name="bookmarks_detect_message">
         <item quantity="one">Se encontró %d archivo. Lo verás después de la conversión.</item>
+        <item quantity="many"/>
         <item quantity="other">Se han encontrado %d archivos. Los verás después de la conversión.</item>
     </plurals>
     <string name="restore">Restaurar</string>
     <plurals name="tracks">
         <item quantity="one">%d rastreo</item>
+        <item quantity="many"/>
         <item quantity="other">%d rastreos</item>
     </plurals>
     <string name="privacy_policy">Política de Privacidad</string>

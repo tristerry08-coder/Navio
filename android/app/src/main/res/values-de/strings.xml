@@ -38,15 +38,15 @@
     <string name="try_again">Erneut versuchen</string>
     <string name="about_menu_title">Über CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Kostenlos für alle, mit Liebe gemacht</string>
+    <string name="about_headline">Offenes Projekt, von der Gemeinschaft entwickelt</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_1">• Keine Werbung, kein Tracking, keine Datenerfassung</string>
+    <string name="about_proposition_1">• Ausgereift und einfach zu bedienen</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_2">• Minimaler Batterieverbrauch, funktioniert offline</string>
+    <string name="about_proposition_2">• Datenschutzorientiert und werbefrei</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Schnell, minimalistisch, von der Community entwickelt</string>
+    <string name="about_proposition_3">• Offline, schnell und kompakt</string>
     <!-- Text in About screen -->
-    <string name="about_developed_by_enthusiasts">Open-Source-Anwendung, entwickelt von Enthusiasten und Freiwilligen.</string>
+    <string name="about_developed_by_enthusiasts">Vollständig open-source, nicht gewinnorientiert, transparente Entscheidungsfindung und Finanzen.</string>
     <!-- The button that opens system location settings -->
     <string name="location_settings">Standorteinstellungen</string>
     <string name="close">Schließen</string>
@@ -56,11 +56,9 @@
     <string name="disconnect_usb_cable">Bitte USB-Kabel entfernen oder Speicherkarte einsetzen, um CoMaps zu verwenden</string>
     <!-- Used in DownloadResources startup screen -->
     <string name="not_enough_free_space_on_sdcard">Bitte zuerst Speicherplatz auf SD-Karte/USB-Speicher freigeben, um die Anwendung zu nutzen</string>
-    <string name="download_resources">Bevor Sie die App verwenden, laden Sie bitte die weltweite Übersichtskarte herunter.
-\nEs werden %s Speicherplatz benötigt.</string>
+    <string name="download_resources">Bevor Sie die App verwenden, laden Sie bitte die weltweite Übersichtskarte herunter. \nEs werden %s Speicherplatz benötigt.</string>
     <string name="download_resources_continue">Zur Karte</string>
-    <string name="downloading_country_can_proceed">%s wird heruntergeladen. Sie können jetzt
-\nzur Karte weitergehen.</string>
+    <string name="downloading_country_can_proceed">%s wird heruntergeladen. Sie können jetzt \nzur Karte weitergehen.</string>
     <string name="download_country_ask">%s herunterladen?</string>
     <string name="update_country_ask">%s aktualisieren?</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
@@ -108,8 +106,7 @@
     <!-- Error moving map files from one storage to another -->
     <string name="move_maps_error">Fehler beim Verschieben der Karten</string>
     <!-- Ask user to wait several minutes (some long process in modal dialog). -->
-    <string name="wait_several_minutes">Dies kann einige Minuten in Anspruch nehmen.
-\nBitte warten…</string>
+    <string name="wait_several_minutes">Dies kann einige Minuten in Anspruch nehmen. \nBitte warten…</string>
     <!-- Measurement units title in settings activity -->
     <string name="measurement_units">Maßeinheiten</string>
     <!-- Detailed description of Measurement Units settings button -->
@@ -166,11 +163,7 @@
     <string name="description">Notizen</string>
     <!-- Email Subject when sharing bookmark list -->
     <string name="share_bookmarks_email_subject">CoMaps Lesezeichen wurden mit Ihnen geteilt</string>
-    <string name="share_bookmarks_email_body">Hallo!
-\n
-\nIm Anhang sind meine Lesezeichen der CoMaps App. Sie können sie mit CoMaps öffnen. Wenn Sie die App nicht installiert haben, können Sie sie von https://www.comaps.app/download/ für iOS oder Android herunterladen.
-\n
-\nViel Spaß beim Reisen mit CoMaps!</string>
+    <string name="share_bookmarks_email_body">Hallo! \n \nIm Anhang sind meine Lesezeichen der CoMaps App. Sie können sie mit CoMaps öffnen. Wenn Sie die App nicht installiert haben, können Sie sie von https://www.comaps.app/download/ für iOS oder Android herunterladen. \n \nViel Spaß beim Reisen mit CoMaps!</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">Lesezeichen werden geladen</string>
     <!-- Kmz file successful loading -->
@@ -178,12 +171,9 @@
     <!-- Kml file loading failed -->
     <string name="load_kmz_failed">Laden der Lesezeichen fehlgeschlagen. Die Datei könnte beschädigt oder defekt sein.</string>
     <!-- Failed to recognize the format of a bookmarks or tracks file. -->
-    <string name="unknown_file_type">Der Dateityp wird von der App nicht erkannt:
-\n%1$s</string>
+    <string name="unknown_file_type">Der Dateityp wird von der App nicht erkannt: \n%1$s</string>
     <!-- Failed to open a bookmarks or tracks file in CoMaps. -->
-    <string name="failed_to_open_file">Datei konnte nicht geöffnet werden %1$s
-\n
-\n%2$s</string>
+    <string name="failed_to_open_file">Datei konnte nicht geöffnet werden %1$s \n \n%2$s</string>
     <!-- resource for context menu -->
     <string name="edit">Bearbeiten</string>
     <!-- Warning message when doing search around current position -->
@@ -199,11 +189,7 @@
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">Hey, sieh dir meinen aktuellen Standort auf der CoMaps-Karte an!</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">Hi,
-\n
-\nich bin gerade hier: %1$s. Klicke den Link %2$s oder %3$s, um den Ort auf der Karte anzuzeigen.
-\n
-\nVielen Dank.</string>
+    <string name="my_position_share_email">Hi, \n \nich bin gerade hier: %1$s. Klicke den Link %2$s oder %3$s, um den Ort auf der Karte anzuzeigen. \n \nVielen Dank.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">Teilen</string>
     <!-- Share by email button text, also used in editor and About. -->
@@ -314,9 +300,9 @@
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Karte aktualisieren</string>
     <!-- Preference title -->
-    <string name="google_play_services">Google Play Standortdienste</string>
+    <string name="google_play_services">Google Fused-Standortdienste</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">Ermitteln Sie schnell Ihren ungefähren Standort über Bluetooth, WLAN oder das Mobilfunknetz</string>
+    <string name="pref_use_google_play">Ein proprietärer Dienst der GPS, Wi-Fi, Mobilfunknetzwerke etc. kombiniert, um den Standort genauer zu bestimmen. Er kann sich mit Google-Servern verbinden.</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -504,8 +490,7 @@
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
     <string name="osm_presentation">Von der Community erstellte OpenStreetMap-Daten (Stand: %s). Erfahre mehr darüber, wie du die Karte bearbeiten und aktualisieren kannst unter OpenStreetMap.org</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">OpenStreetMap.org (OSM) ist ein Gemeinschaftsprojekt zum Erstellen einer freien und offenen Karte. Es ist die Hauptquelle für Kartendaten in CoMaps und funktioniert ähnlich wie Wikipedia. Sie können Orte hinzufügen oder bearbeiten, die dann Millionen von Nutzern auf der ganzen Welt zur Verfügung stehen.
-\nTreten Sie der Gemeinschaft bei und helfen Sie mit, die Karte für alle besser zu machen!</string>
+    <string name="login_osm_presentation">OpenStreetMap.org (OSM) ist ein Gemeinschaftsprojekt zum Erstellen einer freien und offenen Karte. Es ist die Hauptquelle für Kartendaten in CoMaps und funktioniert ähnlich wie Wikipedia. Sie können Orte hinzufügen oder bearbeiten, die dann Millionen von Nutzern auf der ganzen Welt zur Verfügung stehen. \nTreten Sie der Gemeinschaft bei und helfen Sie mit, die Karte für alle besser zu machen!</string>
     <string name="login_to_make_edits_visible">Erstellen Sie ein OpenStreetMap-Konto oder melden Sie sich an, um Ihre Kartenbearbeitungen weltweit zu veröffentlichen.</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d von %2$d</string>
@@ -896,4 +881,8 @@
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="comma_separated_pair">%1$s, %2$s</string>
     <string name="facebook">Facebook</string>
+    <string name="codeberg">Codeberg</string>
+    <string name="app_site_url">https://comaps.app/de/</string>
+    <string name="telegram_url">https://t.me/CoMapsApp/</string>
+    <string name="instagram_url">https://www.instagram.com/comapscommunity/</string>
 </resources>

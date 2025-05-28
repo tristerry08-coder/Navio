@@ -58,12 +58,10 @@
     <!-- Used in DownloadResources startup screen -->
     <string name="disconnect_usb_cable">الرجاء فصل كابل الناقل التسلسلي الشامل أو إدخال بطاقة الذاكرة من أجل استخدام CoMaps.</string>
     <!-- Used in DownloadResources startup screen -->
-    <string name="not_enough_free_space_on_sdcard">الرجاء إخلاء بعض المساحة في تخزين البطاقة الرقمية الآمنة\الناقل التسلسلي الشامل أولا من أجل استخدام هذا التطبيق.</string>
-    <string name="download_resources">قبل أن تبدأ باستخدام التطبيق، سنقوم بتنزيل خريطة العالم العامة على جهازك.
-\nستحتاج إلى %s من البيانات.</string>
+    <string name="not_enough_free_space_on_sdcard">الرجاء إخلاء بعض المساحة في تخزين البطاقة الرقمية الآمنةلناقل التسلسلي الشامل أولا من أجل استخدام هذا التطبيق.</string>
+    <string name="download_resources">قبل أن تبدأ باستخدام التطبيق، سنقوم بتنزيل خريطة العالم العامة على جهازك. \nستحتاج إلى %s من البيانات.</string>
     <string name="download_resources_continue">الذهاب الى الخريطة</string>
-    <string name="downloading_country_can_proceed">تنزيل %s. يمكنك الآن
-\nالمتابعة الى الخريطة.</string>
+    <string name="downloading_country_can_proceed">تنزيل %s. يمكنك الآن \nالمتابعة الى الخريطة.</string>
     <string name="download_country_ask">هل تريد تنزيل %s؟</string>
     <string name="update_country_ask">هل تريد تحديث %s ؟</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
@@ -111,13 +109,11 @@
     <!-- Error moving map files from one storage to another -->
     <string name="move_maps_error">فشلت عملية نقل ملفات الخرائط</string>
     <!-- Ask user to wait several minutes (some long process in modal dialog). -->
-    <string name="wait_several_minutes">يمكن أن تستغرق هذه العملية عدة دقائق.
-\nالرجاء الانتظار…</string>
+    <string name="wait_several_minutes">يمكن أن تستغرق هذه العملية عدة دقائق. \nالرجاء الانتظار…</string>
     <!-- Measurement units title in settings activity -->
     <string name="measurement_units">وحدات القياس</string>
     <!-- Detailed description of Measurement Units settings button -->
     <string name="measurement_units_summary">اختر من بين الأميال و الكيلومترات.</string>
-
     <!-- SECTION: Search categories -->
     <!-- Search category for cafes, bars, restaurants; any changes should be duplicated in categories.txt @category_eat! -->
     <string name="category_eat">أمكان لتناول الطعام</string>
@@ -165,17 +161,12 @@
     <string name="category_water">ماء</string>
     <!-- Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! -->
     <string name="category_rv">منشآت للمنازل المتنقلة</string>
-
     <!-- SECTION: Other translations -->
     <!-- Notes field in Bookmarks view -->
     <string name="description">ملاحظات</string>
     <!-- Email Subject when sharing bookmark list -->
     <string name="share_bookmarks_email_subject">تم مشاركة إشارات CoMaps المرجعية معك</string>
-    <string name="share_bookmarks_email_body">مرحباً! ْ
-\n
-\n تم إرفاق إشاراتي المرجعية من تطبيق CoMaps. الرجاء فتحهم إذا لديك تطبيق CoMaps مثبتاً. أو، إذا لم يكن مثبتاً، قم بتنزيل التطبيق لنظام iOS أو أندرويد من خلال الضغط على هذا الرابط: https://www.comaps.app/download/ 
-\n
-\nاستمتع بالسفر مع CoMaps!</string>
+    <string name="share_bookmarks_email_body">مرحباً! ْ \n \n تم إرفاق إشاراتي المرجعية من تطبيق CoMaps. الرجاء فتحهم إذا لديك تطبيق CoMaps مثبتاً. أو، إذا لم يكن مثبتاً، قم بتنزيل التطبيق لنظام iOS أو أندرويد من خلال الضغط على هذا الرابط: https://www.comaps.app/download/ \n \nاستمتع بالسفر مع CoMaps!</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">يتم تحميل الإشارات المرجعية</string>
     <!-- Kmz file successful loading -->
@@ -183,12 +174,9 @@
     <!-- Kml file loading failed -->
     <string name="load_kmz_failed">فشلت عملية تحميل الإشارات المرجعية. قد يكون الملف تالف أو غير صالح.</string>
     <!-- Failed to recognize the format of a bookmarks or tracks file. -->
-    <string name="unknown_file_type">لم يتعرف التطبيق على نوع الملف:
-\n%1$s</string>
+    <string name="unknown_file_type">لم يتعرف التطبيق على نوع الملف: \n%1$s</string>
     <!-- Failed to open a bookmarks or tracks file in CoMaps. -->
-    <string name="failed_to_open_file">فشل فتح ملف %1$s
-\n
-\n%2$s</string>
+    <string name="failed_to_open_file">فشل فتح ملف %1$s \n \n%2$s</string>
     <!-- resource for context menu -->
     <string name="edit">تعديل</string>
     <!-- Warning message when doing search around current position -->
@@ -204,11 +192,7 @@
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">مرحباً، تحقق من موقعي الحالي على خريطة CoMaps!</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">ًمرحبا،
-\n
-\nأنا هنا الآن: %1$s. انقر على هذا الرابط %2$s أو ذلك الرابط %3$s لمشاهدة المكان على الخريطة.
-\n
-\nشكراً.</string>
+    <string name="my_position_share_email">ًمرحبا، \n \nأنا هنا الآن: %1$s. انقر على هذا الرابط %2$s أو ذلك الرابط %3$s لمشاهدة المكان على الخريطة. \n \nشكراً.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">مشاركة</string>
     <!-- Share by email button text, also used in editor and About. -->
@@ -376,7 +360,6 @@
     <string name="gray">رمادي</string>
     <!-- blue gray color -->
     <string name="blue_gray">رمادي أزرق</string>
-
     <!-- SECTION: Routing dialogs strings -->
     <string name="dialog_routing_disclaimer_title">عند اتباع المسار، يُرجى الانتباه إلى ما يلي:</string>
     <string name="dialog_routing_disclaimer_priority">— إن ظروف الطريق وقوانين وإشارات المرور لها الأولوية على المشورة الملاحية دائماً;</string>
@@ -406,7 +389,6 @@
     <string name="not_now">ليس الآن</string>
     <string name="dialog_routing_download_and_build_cross_route">هل ترغب في تنزيل الخريطة وإنشاء مسار أفضل يمتد عبر أكثر من خريطة؟</string>
     <string name="dialog_routing_download_cross_route">تنزيل خرائط إضافية لإنشاء مسار أفضل يعبر حافة هذه الخريطة.</string>
-
     <!-- SECTION: Strings for downloading map from search -->
     <string name="search_without_internet_advertisement">لبدء البحث وإنشاء الطرق، يرجى تنزيل الخريطة، ولن تحتاج إلى اتصال بالإنترنت بعد ذلك.</string>
     <string name="search_select_map">اختيار الخريطة</string>
@@ -521,7 +503,7 @@
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
     <string name="osm_presentation">بيانات OpenStreetMap التي أنشأها المجتمع اعتبارًا من %s. تعرف على المزيد حول كيفية تعديل الخريطة وتحديثها على OpenStreetMap.org</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">OpenStreetMap.org (OSM) هو مشروع مجتمعي لبناء خريطة مجانية ومفتوحة. إنه المصدر الرئيسي لبيانات الخرائط في الخرائط العضوية ويعمل على غرار ويكيبيديا. يمكنك إضافة الأماكن أو تعديلها وتصبح متاحة لملايين المستخدمين في جميع أنحاء العالم. \انضم إلى المجتمع وساعد في إنشاء خريطة أفضل للجميع!</string>
+    <string name="login_osm_presentation">OpenStreetMap.org (OSM) هو مشروع مجتمعي لبناء خريطة مجانية ومفتوحة. إنه المصدر الرئيسي لبيانات الخرائط في الخرائط العضوية ويعمل على غرار ويكيبيديا. يمكنك إضافة الأماكن أو تعديلها وتصبح متاحة لملايين المستخدمين في جميع أنحاء العالم. نضم إلى المجتمع وساعد في إنشاء خريطة أفضل للجميع!</string>
     <string name="login_to_make_edits_visible">أنشئ حساباً على OpenStreetMap أو سجّل الدخول لنشر تعديلاتك على الخريطة للعالم.</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d من%2$d</string>
@@ -617,9 +599,7 @@
     <!-- Settings: "Send general feedback" button -->
     <string name="feedback_general">تعقيب عام</string>
     <string name="prefs_languages_information">نحن نستخدم نظام تحويل النص إلى كلام (TTS) للتعليمات الصوتية. تستخدم العديد من أجهزة أندرويد نظام Google TTS، يمكنك تنزيله من أو تحديثه من متجر Play (https://play.google.com/store/apps/details?id=com.google.android.tts)</string>
-    <string name="prefs_languages_information_off">بالنسبة لبعض اللغات، ستحتاج إلى تنزيل تطبيق تحويل النص إلى كلام أو حزمة لغات إضافية من متجر التطبيقات(متجر Play، Galaxy Store، App Gallery، FDroid(.
-\nافتح إعدادات جهازك ثم اللغة والإدخال ثم تحويل النص إلى كلام.
-\nهنا يمكنك إدارة الإعدادات لأنظمة تحويل النص إلى كلا(على سبيل المثال، تنزيل حزمة اللغة للاستجدام دون اتصال انترنيت)</string>
+    <string name="prefs_languages_information_off">بالنسبة لبعض اللغات، ستحتاج إلى تنزيل تطبيق تحويل النص إلى كلام أو حزمة لغات إضافية من متجر التطبيقات(متجر Play، Galaxy Store، App Gallery، FDroid(. \nافتح إعدادات جهازك ثم اللغة والإدخال ثم تحويل النص إلى كلام. \nهنا يمكنك إدارة الإعدادات لأنظمة تحويل النص إلى كلا(على سبيل المثال، تنزيل حزمة اللغة للاستجدام دون اتصال انترنيت)</string>
     <string name="prefs_languages_information_off_link">لمزيد من المعلومات الرجاء مراجعة هذا الدليل.</string>
     <string name="transliteration_title">كتابة جميع الاسماء بالحروف اللاتينية بشكل حرفي</string>
     <string name="learn_more">معرفة المزيد</string>
@@ -645,6 +625,7 @@
     <string name="bookmark_lists_hide_all">إخفاء الكل</string>
     <string name="bookmark_lists_show_all">إظهار الكل</string>
     <plurals name="bookmarks_places">
+        <item quantity="zero"/>
         <item quantity="one">%d إشارة مرجعية</item>
         <item quantity="two">%d إشارتان مرجعيتان</item>
         <item quantity="few">%d إشارات مرجعية</item>
@@ -666,6 +647,7 @@
     <string name="phone_number">رقم الهاتف</string>
     <string name="profile">ملف الشخصي على خريطة الشارع المفتوحة</string>
     <plurals name="bookmarks_detect_message">
+        <item quantity="zero"/>
         <item quantity="one">تم العثور على %d ملف. يمكنك رؤيته بعد التحويل.</item>
         <item quantity="two">تم العثور على %d ملفين. يمكنك رؤيتهما بعد التحويل.</item>
         <item quantity="few">تم العثور على %d ملفات. يمكنك رؤيتها بعد التحويل.</item>
@@ -674,6 +656,7 @@
     </plurals>
     <string name="restore">استعادة</string>
     <plurals name="tracks">
+        <item quantity="zero"/>
         <item quantity="one">%d مسار</item>
         <item quantity="two">%d مساران</item>
         <item quantity="few">%d مسارات</item>
@@ -763,7 +746,6 @@
     <string name="moreyear_ago_sorttype">منذ أكثر من سنة</string>
     <string name="near_me_sorttype">قريب مني</string>
     <string name="others_sorttype">أخرى</string>
-
     <!-- SECTION: Bookmark types used for sorting -->
     <string name="food_places">طعام</string>
     <string name="tourist_places">أماكن سياحية</string>

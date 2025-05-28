@@ -637,7 +637,6 @@
 "day" = "nap";
 "placepage_more_button" = "Tovább";
 "book_button" = "Foglalás";
-
 "placepage_call_button" = "Hívás";
 "placepage_edit_bookmark_button" = "Könyvjelző szerkesztése";
 "placepage_bookmark_name_hint" = "Könyvjelző neve";

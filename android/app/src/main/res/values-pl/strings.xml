@@ -56,11 +56,9 @@
     <string name="disconnect_usb_cable">Proszę odłączyć kabel USB albo włożyć kartę pamięci, aby korzystać z CoMaps</string>
     <!-- Used in DownloadResources startup screen -->
     <string name="not_enough_free_space_on_sdcard">Proszę zwolnić trochę pamięci na karcie SD/pamięci USB, aby korzystać z aplikacji</string>
-    <string name="download_resources">Przed rozpoczęciem prosimy o pobranie ogólnej mapy świata na urządzenie.
-\nWymaga to %s danych.</string>
+    <string name="download_resources">Przed rozpoczęciem prosimy o pobranie ogólnej mapy świata na urządzenie. \nWymaga to %s danych.</string>
     <string name="download_resources_continue">Przejdź do mapy</string>
-    <string name="downloading_country_can_proceed">Pobieranie %s. Można teraz
-\nprzejść do mapy.</string>
+    <string name="downloading_country_can_proceed">Pobieranie %s. Można teraz \nprzejść do mapy.</string>
     <string name="download_country_ask">Pobrać %s?</string>
     <string name="update_country_ask">Uaktualnić %s?</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
@@ -108,8 +106,7 @@
     <!-- Error moving map files from one storage to another -->
     <string name="move_maps_error">Błąd przenoszenia plików map</string>
     <!-- Ask user to wait several minutes (some long process in modal dialog). -->
-    <string name="wait_several_minutes">To może zająć kilka minut.
-\nProszę czekać…</string>
+    <string name="wait_several_minutes">To może zająć kilka minut. \nProszę czekać…</string>
     <!-- Measurement units title in settings activity -->
     <string name="measurement_units">Jednostki miary</string>
     <!-- Detailed description of Measurement Units settings button -->
@@ -166,11 +163,7 @@
     <string name="description">Notatki</string>
     <!-- Email Subject when sharing bookmark list -->
     <string name="share_bookmarks_email_subject">Udostępnione zakładki z CoMaps</string>
-    <string name="share_bookmarks_email_body">Cześć!
-\n
-\nZałączam moje zakładki z aplikacji CoMaps. Proszę otwórz je jeżeli masz zaintalowane CoMaps. Lub, jeżeli nie masz, pobierz aplikację na swoje urządzenie iOS/Android za pomocą tego linka: https://www.comaps.app/download/
-\n
-\nMiłego podróżowania z CoMaps!</string>
+    <string name="share_bookmarks_email_body">Cześć! \n \nZałączam moje zakładki z aplikacji CoMaps. Proszę otwórz je jeżeli masz zaintalowane CoMaps. Lub, jeżeli nie masz, pobierz aplikację na swoje urządzenie iOS/Android za pomocą tego linka: https://www.comaps.app/download/ \n \nMiłego podróżowania z CoMaps!</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">Wczytywanie zakładek</string>
     <!-- Kmz file successful loading -->
@@ -178,12 +171,9 @@
     <!-- Kml file loading failed -->
     <string name="load_kmz_failed">Nieudane wczytywanie zakładek. Plik może być uszkodzony lub posiadać defekty.</string>
     <!-- Failed to recognize the format of a bookmarks or tracks file. -->
-    <string name="unknown_file_type">Typ pliku nie jest rozpoznawany przez aplikację:
-\n%1$s</string>
+    <string name="unknown_file_type">Typ pliku nie jest rozpoznawany przez aplikację: \n%1$s</string>
     <!-- Failed to open a bookmarks or tracks file in CoMaps. -->
-    <string name="failed_to_open_file">Nie udało się otworzyć pliku %1$s
-\n
-\n%2$s</string>
+    <string name="failed_to_open_file">Nie udało się otworzyć pliku %1$s \n \n%2$s</string>
     <!-- resource for context menu -->
     <string name="edit">Edytuj</string>
     <!-- Warning message when doing search around current position -->
@@ -199,11 +189,7 @@
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">Zobacz moją aktualną lokalizację na mapie przy użyciu CoMaps</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">Cześć,
-\n
-\nJestem teraz tutaj: %1$s. Naciśnij na ten link %2$s lub ten %3$s, aby zobaczyć to miejsce na mapie.
-\n
-\nDziękuję.</string>
+    <string name="my_position_share_email">Cześć, \n \nJestem teraz tutaj: %1$s. Naciśnij na ten link %2$s lub ten %3$s, aby zobaczyć to miejsce na mapie. \n \nDziękuję.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">Udostępnij</string>
     <!-- Share by email button text, also used in editor and About. -->
@@ -506,8 +492,7 @@
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
     <string name="osm_presentation">Dane OpenStreetMap stworzone przez społeczność na dzień %s. Dowiedz się więcej o tym, jak edytować i aktualizować mapę na stronie OpenStreetMap.org</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">OpenStreetMap.org (OSM) to projekt społecznościowy mający na celu stworzenie darmowej i otwartej mapy. Jest to główne źródło danych mapowych w CoMaps i działa podobnie do Wikipedii. Można dodawać lub edytować miejsca, które stają się dostępne dla milionów użytkowników na całym świecie.
-\nDołącz do społeczności i pomóż stworzyć lepszą mapę dla wszystkich!</string>
+    <string name="login_osm_presentation">OpenStreetMap.org (OSM) to projekt społecznościowy mający na celu stworzenie darmowej i otwartej mapy. Jest to główne źródło danych mapowych w CoMaps i działa podobnie do Wikipedii. Można dodawać lub edytować miejsca, które stają się dostępne dla milionów użytkowników na całym świecie. \nDołącz do społeczności i pomóż stworzyć lepszą mapę dla wszystkich!</string>
     <string name="login_to_make_edits_visible">Proszę utworzyć konto OpenStreetMap lub zalogować się, aby opublikować swoje zmiany na mapie.</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d z %2$d</string>
@@ -602,8 +587,7 @@
     <!-- Settings: "Send general feedback" button -->
     <string name="feedback_general">Ogólne uwagi</string>
     <string name="prefs_languages_information">Stosujemy system TTS dla komend głosowych. Stosuje go wiele urządzeń z systemem Android, można go pobrać lub zaktualizować z Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts)</string>
-    <string name="prefs_languages_information_off">W przypadku niektórych języków wymagana będzie instalacja innego syntezatora lub pakietu językowego ze strony aplikacji (Google Play, Galaxy Store, App Gallery, FDroid). Otwórz ustawienia urządzenia → Język i klawiatura → Mowa → Przetwarzanie tekstu na mowę.
-\nMożesz w tym miejscu zarządzać ustawieniami syntezy mowy (np. pobrać pakiet językowy do stosowania offline) i wybrać inny silnik przetwarzania tekstu na mowę.</string>
+    <string name="prefs_languages_information_off">W przypadku niektórych języków wymagana będzie instalacja innego syntezatora lub pakietu językowego ze strony aplikacji (Google Play, Galaxy Store, App Gallery, FDroid). Otwórz ustawienia urządzenia → Język i klawiatura → Mowa → Przetwarzanie tekstu na mowę. \nMożesz w tym miejscu zarządzać ustawieniami syntezy mowy (np. pobrać pakiet językowy do stosowania offline) i wybrać inny silnik przetwarzania tekstu na mowę.</string>
     <string name="prefs_languages_information_off_link">Aby uzyskać więcej informacji, spójrz na ten poradnik.</string>
     <string name="transliteration_title">Transkrypcja na alfabet łaciński</string>
     <string name="learn_more">Dowiedz się więcej</string>
@@ -631,7 +615,8 @@
     <plurals name="bookmarks_places">
         <item quantity="one">%d zakładka</item>
         <item quantity="few">%d zakładki</item>
-        <item quantity="other">%d zakładek</item>
+        <item quantity="many"/>
+        <item quantity="other"/>
     </plurals>
     <string name="bookmarks_create_new_group">Utwórz nową listę</string>
     <!-- Bookmark categories screen, button that opens folder selection dialog to import KML/KMZ/GPX/KMB files -->
@@ -650,13 +635,15 @@
     <plurals name="bookmarks_detect_message">
         <item quantity="one">Znaleziono %d plik. Zobaczysz go po konwersji.</item>
         <item quantity="few">Znaleziono %d pliki. Zobaczysz je po konwersji.</item>
-        <item quantity="other">Znaleziono %d plików. Zobaczysz je po konwersji.</item>
+        <item quantity="many"/>
+        <item quantity="other"/>
     </plurals>
     <string name="restore">Przywróć</string>
     <plurals name="tracks">
         <item quantity="one">%d trasa</item>
         <item quantity="few">%d trasy</item>
-        <item quantity="other">%d tras</item>
+        <item quantity="many"/>
+        <item quantity="other"/>
     </plurals>
     <!-- Settings privacy group in settings screen -->
     <string name="privacy">Prywatność</string>

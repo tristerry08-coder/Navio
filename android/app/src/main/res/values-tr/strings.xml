@@ -40,15 +40,15 @@
     <string name="try_again">Tekrar Dene</string>
     <string name="about_menu_title">CoMaps Hakkında</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Sevgiyle yapılmış, herkes için ücretsiz harita</string>
+    <string name="about_headline">Topluluktan güç alan açık kaynaklı bir proje</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_1">• Reklam yok, izleyici yok, veri toplama yok</string>
+    <string name="about_proposition_1">• Kullanımı kolay ve havalı</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_2">• Pilinizi tüketmez, çevrim dışı çalışır</string>
+    <string name="about_proposition_2">• Gizlilik merkezli ve reklamsız</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Hızlı, minimalist, toplulukça geliştirilmiş</string>
+    <string name="about_proposition_3">• Çevrimdışı çalışan, hızlı ve pratik</string>
     <!-- Text in About screen -->
-    <string name="about_developed_by_enthusiasts">Teknoloji tutkunları ve gönüllüler tarafından oluşturulan açık kaynaklı bir uygulama.</string>
+    <string name="about_developed_by_enthusiasts">Tamamen açık kaynaklı, kâr gütmeyen, şeffaf mali yönetim ve karar alma mekanizması.</string>
     <!-- The button that opens system location settings -->
     <string name="location_settings">Konum ayarları</string>
     <string name="close">Kapat</string>
@@ -60,8 +60,7 @@
     <string name="not_enough_free_space_on_sdcard">Uygulamayı kullanabilmek için lütfen SD kart/USB depolama aygıtında biraz alan boşaltın</string>
     <string name="download_resources">Uygulamayı kullanmadan önce lütfen aygıtınıza dünya genel görünüm haritasını indirin. \nBu, %s alan kullanacaktır.</string>
     <string name="download_resources_continue">Haritaya Git</string>
-    <string name="downloading_country_can_proceed">%s indiriliyor. Şimdi haritaya
-\ngidebilirsiniz.</string>
+    <string name="downloading_country_can_proceed">%s indiriliyor. Şimdi haritaya \ngidebilirsiniz.</string>
     <string name="download_country_ask">%s indir?</string>
     <string name="update_country_ask">%s güncelle?</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
@@ -109,8 +108,7 @@
     <!-- Error moving map files from one storage to another -->
     <string name="move_maps_error">Harita dosyalarını taşıma hatası</string>
     <!-- Ask user to wait several minutes (some long process in modal dialog). -->
-    <string name="wait_several_minutes">Bu işlem birkaç dakika sürebilir.
-\nLütfen bekleyin…</string>
+    <string name="wait_several_minutes">Bu işlem birkaç dakika sürebilir. \nLütfen bekleyin…</string>
     <!-- Measurement units title in settings activity -->
     <string name="measurement_units">Ölçü birimleri</string>
     <!-- Detailed description of Measurement Units settings button -->
@@ -167,11 +165,7 @@
     <string name="description">Notlar</string>
     <!-- Email Subject when sharing bookmark list -->
     <string name="share_bookmarks_email_subject">Seninle paylaşılan CoMaps yer imleri</string>
-    <string name="share_bookmarks_email_body">Merhaba!
-\n
-\nEktekiler benim CoMaps yer imlerim. Eğer CoMaps\'i yüklediyseniz lütfen ektekileri açın. Eğer yüklemediyseniz, bu bağlantıyı takip ederek iOS ve Android cihazınız için uygulamayı yükleyebilirsiniz: https://www.comaps.app/download/
-\n
-\nCoMaps ile seyahat etmenin keyfini çıkarın!</string>
+    <string name="share_bookmarks_email_body">Merhaba! \n \nEktekiler benim CoMaps yer imlerim. Eğer CoMaps\'i yüklediyseniz lütfen ektekileri açın. Eğer yüklemediyseniz, bu bağlantıyı takip ederek iOS ve Android cihazınız için uygulamayı yükleyebilirsiniz: https://www.comaps.app/download/ \n \nCoMaps ile seyahat etmenin keyfini çıkarın!</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">Yer İmleri Yükleniyor</string>
     <!-- Kmz file successful loading -->
@@ -179,12 +173,9 @@
     <!-- Kml file loading failed -->
     <string name="load_kmz_failed">Yer İmlerini yükleme işlemi başarısız oldu. Dosya bozuk ya da hatalı olabilir.</string>
     <!-- Failed to recognize the format of a bookmarks or tracks file. -->
-    <string name="unknown_file_type">Dosya türü uygulama tarafından tanınmıyor:
-\n%1$s</string>
+    <string name="unknown_file_type">Dosya türü uygulama tarafından tanınmıyor: \n%1$s</string>
     <!-- Failed to open a bookmarks or tracks file in CoMaps. -->
-    <string name="failed_to_open_file">Dosya açılamadı %1$s
-\n
-\n%2$s</string>
+    <string name="failed_to_open_file">Dosya açılamadı %1$s \n \n%2$s</string>
     <!-- resource for context menu -->
     <string name="edit">Düzenle</string>
     <!-- Warning message when doing search around current position -->
@@ -200,11 +191,7 @@
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">Hey, CoMaps’te geçerli konumumu incele!</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">Merhaba,
-\n
-\nŞu anda bulunduğum yer: %1$s. Yeri haritada görmek için %2$s veya %3$s bağlantısına tıkla.
-\n
-\nTeşekkürler.</string>
+    <string name="my_position_share_email">Merhaba, \n \nŞu anda bulunduğum yer: %1$s. Yeri haritada görmek için %2$s veya %3$s bağlantısına tıkla. \n \nTeşekkürler.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">Paylaş</string>
     <!-- Share by email button text, also used in editor and About. -->
@@ -315,9 +302,9 @@
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Haritayı Güncelle</string>
     <!-- Preference title -->
-    <string name="google_play_services">Google Play Konum Hizmetleri</string>
+    <string name="google_play_services">Google\'a Dayalı Konum Hizmetleri</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">Bluetooth, WiFi veya mobil ağ üzerinden yaklaşık konumunuzu hızlıca belirleyin</string>
+    <string name="pref_use_google_play">GPS, Wi-Fi, mobile veri vs. aracılığıyla konumunuzu daha doğru saptayan özel mülkiyet bir servis. Google sunucularına bağlanabilir.</string>
     <!-- Text for routing error dialog -->
     <string name="routing_download_maps_along">Rota üzerindeki tüm haritaları indir</string>
     <!-- Text for routing error dialog -->
@@ -505,8 +492,7 @@
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
     <string name="osm_presentation">%s tarihine ait topluluk tarafından oluşturulmuş OpenStreetMap verilerini kullanıyorsunuz. OpenStreetMap.org adresinden haritayı nasıl düzenleyebileceğiniz hakkında bilgi edinebilirsiniz</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">OpenStreetMap.org (OSM), ücretsiz ve açık harita oluşturmayı amaçlayan bir topluluk projesidir. OSM, CoMaps\'teki harita verilerinin ana kaynağıdır ve Vikipedi\'ye benzer şekilde çalışır. Haritadaki yerleri ekleyebilir veya düzenleyebilirsiniz ve bunlar tüm dünyadaki milyonlarca kullanıcı tarafından kullanılabilir hale gelir.
-\nTopluluğa katılın ve herkes için daha iyi bir harita oluşturmaya yardımcı olun!</string>
+    <string name="login_osm_presentation">OpenStreetMap.org (OSM), ücretsiz ve açık harita oluşturmayı amaçlayan bir topluluk projesidir. OSM, CoMaps\'teki harita verilerinin ana kaynağıdır ve Vikipedi\'ye benzer şekilde çalışır. Haritadaki yerleri ekleyebilir veya düzenleyebilirsiniz ve bunlar tüm dünyadaki milyonlarca kullanıcı tarafından kullanılabilir hale gelir. \nTopluluğa katılın ve herkes için daha iyi bir harita oluşturmaya yardımcı olun!</string>
     <string name="login_to_make_edits_visible">Harita düzenlemelerinizi herkese ulaştırmak için OpenStreetMap hesabı oluşturun veya oturum açın.</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d/%2$d</string>
@@ -897,4 +883,8 @@
     <string name="vk">VK</string>
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="gb">GB</string>
+    <string name="app_site_url">https://comaps.app/</string>
+    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
+    <string name="codeberg">Codeberg</string>
+    <string name="telegram_url">https://t.me/CoMapsApp/</string>
 </resources>

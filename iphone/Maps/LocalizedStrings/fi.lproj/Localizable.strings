@@ -637,7 +637,6 @@
 "day" = "pv";
 "placepage_more_button" = "Lisää";
 "book_button" = "Varaa";
-
 "placepage_call_button" = "Soita";
 "placepage_edit_bookmark_button" = "Muokkaa kirjanmerkkiä";
 "placepage_bookmark_name_hint" = "Kirjanmerkin nimi";

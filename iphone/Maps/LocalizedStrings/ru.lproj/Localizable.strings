@@ -637,7 +637,6 @@
 "day" = "д";
 "placepage_more_button" = "Ещё";
 "book_button" = "Забронировать";
-
 "placepage_call_button" = "Позвонить";
 "placepage_edit_bookmark_button" = "Редактировать метку";
 "placepage_bookmark_name_hint" = "Название метки";

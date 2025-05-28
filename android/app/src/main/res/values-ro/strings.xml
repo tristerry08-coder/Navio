@@ -56,11 +56,9 @@
     <string name="disconnect_usb_cable">Deconectează cablul USB sau introdu un card de memorie pentru a utiliza CoMaps</string>
     <!-- Used in DownloadResources startup screen -->
     <string name="not_enough_free_space_on_sdcard">Spațiul de stocare de pe cardul SD/memoria USB este insuficient pentru a putea utiliza aplicația</string>
-    <string name="download_resources">Înainte de a începe, trebuie descărcată harta generală a lumii în dispozitivul tău.
-\nSe vor descărca %s.</string>
+    <string name="download_resources">Înainte de a începe, trebuie descărcată harta generală a lumii în dispozitivul tău. \nSe vor descărca %s.</string>
     <string name="download_resources_continue">Mergi la hartă</string>
-    <string name="downloading_country_can_proceed">Se descarcă %s. Acum poți
-\ntrece la hartă.</string>
+    <string name="downloading_country_can_proceed">Se descarcă %s. Acum poți \ntrece la hartă.</string>
     <string name="download_country_ask">Descarci %s?</string>
     <string name="update_country_ask">Actualizezi %s?</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
@@ -96,13 +94,11 @@
     <!-- Question dialog for transferring maps from one storage to another -->
     <string name="move_maps">Muți hărțile?</string>
     <!-- Ask user to wait several minutes (some long process in modal dialog). -->
-    <string name="wait_several_minutes">Poate dura câteva minute.
-\nAșteaptă…</string>
+    <string name="wait_several_minutes">Poate dura câteva minute. \nAșteaptă…</string>
     <!-- Measurement units title in settings activity -->
     <string name="measurement_units">Unități de măsură</string>
     <!-- Detailed description of Measurement Units settings button -->
     <string name="measurement_units_summary">Alege între mile și kilometri</string>
-
     <!-- SECTION: Search categories -->
     <!-- Search category for cafes, bars, restaurants; any changes should be duplicated in categories.txt @category_eat! -->
     <string name="category_eat">Unde să mănânci</string>
@@ -150,15 +146,12 @@
     <string name="category_water">Apă</string>
     <!-- Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! -->
     <string name="category_rv">Pentru rulote</string>
-
     <!-- SECTION: Other translations -->
     <!-- Notes field in Bookmarks view -->
     <string name="description">Detalii</string>
     <!-- Email Subject when sharing bookmark list -->
     <string name="share_bookmarks_email_subject">Îți trimit locurile mele preferate din CoMaps</string>
-    <string name="share_bookmarks_email_body">Bună!
-\n
-\nȚi-am atașat locurile mele preferate din aplicația CoMaps. Deschide-le dacă ai instalată CoMaps. Dacă nu, o poți descărca pentru iOS sau Android de aici: https://comaps.app/</string>
+    <string name="share_bookmarks_email_body">Bună! \n \nȚi-am atașat locurile mele preferate din aplicația CoMaps. Deschide-le dacă ai instalată CoMaps. Dacă nu, o poți descărca pentru iOS sau Android de aici: https://comaps.app/</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">Se încarcă locurile preferate</string>
     <!-- Kmz file successful loading -->
@@ -166,12 +159,9 @@
     <!-- Kml file loading failed -->
     <string name="load_kmz_failed">Încărcarea locurilor preferate a eșuat. Fișierul poate fi defect.</string>
     <!-- Failed to recognize the format of a bookmarks or tracks file. -->
-    <string name="unknown_file_type">Tipul de fișier nu este recunoscut de aplicație:
-\n%1$s</string>
+    <string name="unknown_file_type">Tipul de fișier nu este recunoscut de aplicație: \n%1$s</string>
     <!-- Failed to open a bookmarks or tracks file in CoMaps. -->
-    <string name="failed_to_open_file">Nu a reușit să deschidă fișierul %1$s
-\n
-\n%2$s</string>
+    <string name="failed_to_open_file">Nu a reușit să deschidă fișierul %1$s \n \n%2$s</string>
     <!-- resource for context menu -->
     <string name="edit">Modifică</string>
     <!-- Warning message when doing search around current position -->
@@ -187,11 +177,7 @@
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">Poți vedea poziția mea pe harta CoMaps!</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">Bună,
-\n
-\nAcum sunt aici: %1$s. Apasă pe adresa %2$s sau pe %3$s pentru a vedea locul pe hartă.
-\n
-\nMulțumesc.</string>
+    <string name="my_position_share_email">Bună, \n \nAcum sunt aici: %1$s. Apasă pe adresa %2$s sau pe %3$s pentru a vedea locul pe hartă. \n \nMulțumesc.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">Trimite</string>
     <!-- Share by email button text, also used in editor and About. -->
@@ -349,7 +335,6 @@
     <string name="gray">Gri</string>
     <!-- blue gray color -->
     <string name="blue_gray">Gri albăstriu</string>
-
     <!-- SECTION: Routing dialogs strings -->
     <string name="dialog_routing_disclaimer_title">Când parcurgi traseul, ai în vedere următoarele:</string>
     <string name="dialog_routing_disclaimer_priority">— Condițiile de drum, legile și semnele rutiere sunt mai importante decât indicațiile navigatorului;</string>
@@ -379,7 +364,6 @@
     <string name="not_now">Nu acum</string>
     <string name="dialog_routing_download_and_build_cross_route">Vrei să descarci harta și să creezi un traseu mai bun care include mai multe hărți?</string>
     <string name="dialog_routing_download_cross_route">Descarcă hărți suplimentare pentru a crea un traseu mai bun care să traverseze limitele acestei hărți.</string>
-
     <!-- SECTION: Strings for downloading map from search -->
     <string name="search_without_internet_advertisement">Pentru a putea începe căutarea și crearea unor trasee, descarcă harta. După aceasta nu vei mai avea nevoie de conexiune la internet.</string>
     <string name="search_select_map">Alege harta</string>
@@ -494,8 +478,7 @@
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
     <string name="osm_presentation">Date OpenStreetMap create de comunitate la data de %s. Aflați mai multe despre cum să editați și să actualizați harta la OpenStreetMap.org</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">OpenStreetMap.org (OSM) este un proiect comunitar pentru construirea unei hărți libere și deschise. Este principala sursă de date cartografice în CoMaps și funcționează similar cu Wikipedia. Puteți adăuga sau edita locuri, iar acestea devin disponibile pentru milioane de utilizatori din întreaga lume.
-\nAlăturați-vă comunității și ajutați la crearea unei hărți mai bune pentru toată lumea!</string>
+    <string name="login_osm_presentation">OpenStreetMap.org (OSM) este un proiect comunitar pentru construirea unei hărți libere și deschise. Este principala sursă de date cartografice în CoMaps și funcționează similar cu Wikipedia. Puteți adăuga sau edita locuri, iar acestea devin disponibile pentru milioane de utilizatori din întreaga lume. \nAlăturați-vă comunității și ajutați la crearea unei hărți mai bune pentru toată lumea!</string>
     <string name="login_to_make_edits_visible">Creați un cont OpenStreetMap sau conectați-vă pentru a vă publica edițiile de hartă în întreaga lume.</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d din %2$d</string>
@@ -589,9 +572,7 @@
     <!-- Settings: "Send general feedback" button -->
     <string name="feedback_general">Părere generală</string>
     <string name="prefs_languages_information">Pentru instrucțiuni vocale utilizăm sistemul TTS. Multe dispozitive Android folosesc Google TTS. Poți descărca sau actualiza aplicația din Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts)</string>
-    <string name="prefs_languages_information_off">Pentru unele limbi trebuie să instalezi alt sintetizator de voce sau un pachet lingvistic suplimentar din Magazinul de aplicații (Google Play, Galaxy Store, App Gallery, FDroid).
-\nDeschide setările dispozitivului → Limbă → Transformare text în vorbire → Motor preferat.
-\nAici poți alege motorul de transformare a textului în vorbire și poți descărca o limbă pentru utilizare fără internet.</string>
+    <string name="prefs_languages_information_off">Pentru unele limbi trebuie să instalezi alt sintetizator de voce sau un pachet lingvistic suplimentar din Magazinul de aplicații (Google Play, Galaxy Store, App Gallery, FDroid). \nDeschide setările dispozitivului → Limbă → Transformare text în vorbire → Motor preferat. \nAici poți alege motorul de transformare a textului în vorbire și poți descărca o limbă pentru utilizare fără internet.</string>
     <string name="prefs_languages_information_off_link">Consultă acest ghid pentru informații suplimentare.</string>
     <string name="transliteration_title">Transcrie în alfabet latin</string>
     <string name="learn_more">Mai multe</string>
@@ -618,6 +599,7 @@
     <string name="bookmark_lists_show_all">Arată tot</string>
     <plurals name="bookmarks_places">
         <item quantity="one">%d preferat</item>
+        <item quantity="few"/>
         <item quantity="other">%d preferate</item>
     </plurals>
     <string name="bookmarks_create_new_group">Creează o listă nouă</string>
@@ -636,11 +618,13 @@
     <string name="profile">Profil OpenStreetMap</string>
     <plurals name="bookmarks_detect_message">
         <item quantity="one">A fost găsit %d fișier. Îl vei vedea după conversiune.</item>
+        <item quantity="few"/>
         <item quantity="other">Au fost găsite %d fișiere. Le vei vedea după conversiune.</item>
     </plurals>
     <string name="restore">Restabilește</string>
     <plurals name="tracks">
         <item quantity="one">%d traseu</item>
+        <item quantity="few"/>
         <item quantity="other">%d trasee</item>
     </plurals>
     <!-- Settings privacy group in settings screen -->
@@ -726,7 +710,6 @@
     <string name="moreyear_ago_sorttype">Cu mai mult de un an în urmă</string>
     <string name="near_me_sorttype">Lângă mine</string>
     <string name="others_sorttype">Altele</string>
-
     <!-- SECTION: Bookmark types used for sorting -->
     <string name="food_places">Mâncare</string>
     <string name="tourist_places">Obiective turistice</string>

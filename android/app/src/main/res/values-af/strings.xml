@@ -57,11 +57,9 @@
     <string name="disconnect_usb_cable">Ontkoppel die USB-kabel of gebruik ’n geheuekaart om CoMaps te gebruik</string>
     <!-- Used in DownloadResources startup screen -->
     <string name="not_enough_free_space_on_sdcard">Maak asb. eers spasie op die SD-kaart/USB-berging beskikbaar om die kaart te kan gebruik</string>
-    <string name="download_resources">Voordat u die toep begin gebruik, moet u asb. die algemene wêreldkaart na u toestel aflaai.
-\nDit sal %s se spasie opneem.</string>
+    <string name="download_resources">Voordat u die toep begin gebruik, moet u asb. die algemene wêreldkaart na u toestel aflaai. \nDit sal %s se spasie opneem.</string>
     <string name="download_resources_continue">Gaan na kaart</string>
-    <string name="downloading_country_can_proceed">Laai tans %s af. U kan nou
-\nna die kaart gaan.</string>
+    <string name="downloading_country_can_proceed">Laai tans %s af. U kan nou \nna die kaart gaan.</string>
     <string name="download_country_ask">Laai %s af?</string>
     <string name="update_country_ask">Werk %s by?</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
@@ -109,13 +107,11 @@
     <!-- Error moving map files from one storage to another -->
     <string name="move_maps_error">Fout by die skuig van kaartlêers</string>
     <!-- Ask user to wait several minutes (some long process in modal dialog). -->
-    <string name="wait_several_minutes">Dit kan etlike minute duur.
-\nWag asb.…</string>
+    <string name="wait_several_minutes">Dit kan etlike minute duur. \nWag asb.…</string>
     <!-- Measurement units title in settings activity -->
     <string name="measurement_units">Afstandseenhede</string>
     <!-- Detailed description of Measurement Units settings button -->
     <string name="measurement_units_summary">Kies tussen myle en kilometers</string>
-
     <!-- SECTION: Search categories -->
     <!-- Search category for cafes, bars, restaurants; any changes should be duplicated in categories.txt @category_eat! -->
     <string name="category_eat">Waar om te eet</string>
@@ -161,17 +157,12 @@
     <string name="category_water">Water</string>
     <!-- Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! -->
     <string name="category_rv">Karavaanfasiliteite</string>
-
     <!-- SECTION: Other translations -->
     <!-- Notes field in Bookmarks view -->
     <string name="description">Notas</string>
     <!-- Email Subject when sharing bookmark list -->
     <string name="share_bookmarks_email_subject">CoMaps-boekmerke is met u gedeel</string>
-    <string name="share_bookmarks_email_body">Hallo!
-\n
-\nMy boekmerke is aangeheg; open dit asb. in CoMaps. Indien dit nie geïnstalleer is nie, kan u dit hier aflaai: https://www.comaps.app/download/
-\n
-\nGeniet dit om met CoMaps te reis!</string>
+    <string name="share_bookmarks_email_body">Hallo! \n \nMy boekmerke is aangeheg; open dit asb. in CoMaps. Indien dit nie geïnstalleer is nie, kan u dit hier aflaai: https://www.comaps.app/download/ \n \nGeniet dit om met CoMaps te reis!</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">Laai tans boekmerke</string>
     <!-- Kmz file successful loading -->
@@ -179,12 +170,9 @@
     <!-- Kml file loading failed -->
     <string name="load_kmz_failed">Kon nie boekmerke laai nie. Die lêer is dalk gekorrupteer of defektief.</string>
     <!-- Failed to recognize the format of a bookmarks or tracks file. -->
-    <string name="unknown_file_type">Die lêertipe word nie deur die toepassing herken nie:
-\n%1$s</string>
+    <string name="unknown_file_type">Die lêertipe word nie deur die toepassing herken nie: \n%1$s</string>
     <!-- Failed to open a bookmarks or tracks file in CoMaps. -->
-    <string name="failed_to_open_file">Kon nie lêer oopmaak nie %1$s
-\n
-\n%2$s</string>
+    <string name="failed_to_open_file">Kon nie lêer oopmaak nie %1$s \n \n%2$s</string>
     <!-- resource for context menu -->
     <string name="edit">Wysig</string>
     <!-- Warning message when doing search around current position -->
@@ -200,11 +188,7 @@
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">Hallo, sien my huidige ligging op die CoMaps-toep!</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">Dagsê,
-\n
-\nEk is nou hier: %1$s. Klik op die skakel %2$s of hierdie een %3$s om die plek op die kaart te sien.
-\n
-\nDankie.</string>
+    <string name="my_position_share_email">Dagsê, \n \nEk is nou hier: %1$s. Klik op die skakel %2$s of hierdie een %3$s om die plek op die kaart te sien. \n \nDankie.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">Deel</string>
     <!-- Share by email button text, also used in editor and About. -->
@@ -352,7 +336,6 @@
     <string name="gray">Grys</string>
     <!-- blue gray color -->
     <string name="blue_gray">Blougrys</string>
-
     <!-- SECTION: Routing dialogs strings -->
     <string name="dialog_routing_disclaimer_title">Wanneer u die roete volg, hou asb. die volgende in gedagte:</string>
     <string name="dialog_routing_disclaimer_priority">– Padtoestande, verkeersreëls en padtekens neem kry voorkeur bo die navigasiewenke;</string>
@@ -382,7 +365,6 @@
     <string name="not_now">Nie nou nie</string>
     <string name="dialog_routing_download_and_build_cross_route">Wil u die kaart aflaai en ’n meer optimale roete bereken wat oor meer as een kaart loop?</string>
     <string name="dialog_routing_download_cross_route">Laai bykomende kaarte af om ’n beter roete te bereken wat die grense van hierdie kaart oorskry.</string>
-
     <!-- SECTION: Strings for downloading map from search -->
     <string name="search_without_internet_advertisement">Om te begin met soek en roetebeskrywings te kan maak moet u die kaart aflaai. U het daarna nie meer ’n internetverbinding nodig nie.</string>
     <string name="search_select_map">Kies kaart</string>
@@ -495,8 +477,7 @@
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
     <string name="osm_presentation">Gemeenskap-geskepte OpenStreetMap-data vanaf %s. Kom meer te wete oor hoe om die kaart te redigeer en op te dateer by OpenStreetMap.org</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">OpenStreetMap.org (OSM) is \'n gemeenskapsprojek om \'n gratis en oop kaart te bou. Dit is die hoofbron van kaartdata in CoMaps en werk soortgelyk aan Wikipedia. Jy kan plekke byvoeg of wysig en hulle word beskikbaar vir miljoene gebruikers regoor die wêreld.
-\nSluit aan by die gemeenskap en help om \'n beter kaart vir almal te maak!</string>
+    <string name="login_osm_presentation">OpenStreetMap.org (OSM) is \'n gemeenskapsprojek om \'n gratis en oop kaart te bou. Dit is die hoofbron van kaartdata in CoMaps en werk soortgelyk aan Wikipedia. Jy kan plekke byvoeg of wysig en hulle word beskikbaar vir miljoene gebruikers regoor die wêreld. \nSluit aan by die gemeenskap en help om \'n beter kaart vir almal te maak!</string>
     <string name="login_to_make_edits_visible">Skep \'n OpenStreetMap-rekening of meld aan om jou kaartwysigings aan die wêreld te publiseer.</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d van %2$d</string>
@@ -591,9 +572,7 @@
     <!-- Settings: "Send general feedback" button -->
     <string name="feedback_general">Algemene terugvoer</string>
     <string name="prefs_languages_information">Ons gebruik die TTS-stelsel vir steminstruksies. Talle Android-toestelle gebruik Google TTS; u kan dit aflaai of bywerk deur Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts)</string>
-    <string name="prefs_languages_information_off">Vir sommige tale sal u ’n spraaksintetiseerder of bykomende taalpakket vanaf die toepwinkel (Google Play, Galaxy Store, App Gallery, FDroid) moet installeer.
-\nOpen u toestel se instellings → Taal en toevoer → Spraak → Teks na spraak afvoer.
-\nHier kan u instellings vir spraaksintetisering bestuur (bv. laai taalpakket vir vanlyn gebruik af) en kies ’n ander teks-na-spraak-enjin.</string>
+    <string name="prefs_languages_information_off">Vir sommige tale sal u ’n spraaksintetiseerder of bykomende taalpakket vanaf die toepwinkel (Google Play, Galaxy Store, App Gallery, FDroid) moet installeer. \nOpen u toestel se instellings → Taal en toevoer → Spraak → Teks na spraak afvoer. \nHier kan u instellings vir spraaksintetisering bestuur (bv. laai taalpakket vir vanlyn gebruik af) en kies ’n ander teks-na-spraak-enjin.</string>
     <string name="prefs_languages_information_off_link">Sien hierdie gids vir meer inligting</string>
     <string name="transliteration_title">Transliterasie in Latynse alfabet</string>
     <string name="learn_more">Meer inligting</string>
@@ -713,7 +692,6 @@
     <string name="moreyear_ago_sorttype">Meer as ’n jaar gelede</string>
     <string name="near_me_sorttype">Naby my</string>
     <string name="others_sorttype">Ander</string>
-
     <!-- SECTION: Bookmark types used for sorting -->
     <string name="food_places">Kos</string>
     <string name="tourist_places">Besienswaardighede</string>

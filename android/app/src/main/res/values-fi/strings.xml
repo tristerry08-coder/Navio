@@ -59,8 +59,7 @@
     <string name="disconnect_usb_cable">Irrota USB-kaapeli tai syötä muistikortti käyttääksesi CoMaps -sovellusta</string>
     <!-- Used in DownloadResources startup screen -->
     <string name="not_enough_free_space_on_sdcard">Vapauta ensin tilaa SD-kortilta/USB-massamuistilta käyttääksesi sovellusta</string>
-    <string name="download_resources">Ennen aloitusta laitteelle tulee ladata yleinen maailmankartta.
-\nSe tarvitsee yhteensä %s tilaa.</string>
+    <string name="download_resources">Ennen aloitusta laitteelle tulee ladata yleinen maailmankartta. \nSe tarvitsee yhteensä %s tilaa.</string>
     <string name="download_resources_continue">Siirry karttaan</string>
     <string name="downloading_country_can_proceed">Ladataan %s. Voit nyt jatkaa \nkartalle.</string>
     <string name="download_country_ask">Ladataanko %s?</string>
@@ -110,8 +109,7 @@
     <!-- Error moving map files from one storage to another -->
     <string name="move_maps_error">Karttatiedostojen siirtovirhe</string>
     <!-- Ask user to wait several minutes (some long process in modal dialog). -->
-    <string name="wait_several_minutes">Tämä voi kestää useita minuutteja.
-\nOdota hetki…</string>
+    <string name="wait_several_minutes">Tämä voi kestää useita minuutteja. \nOdota hetki…</string>
     <!-- Measurement units title in settings activity -->
     <string name="measurement_units">Mittayksiköt</string>
     <!-- Detailed description of Measurement Units settings button -->
@@ -175,12 +173,9 @@
     <!-- Kml file loading failed -->
     <string name="load_kmz_failed">Kirjanmerkkien lataus epäonnistui. Tiedosto saattaa olla vioittunut.</string>
     <!-- Failed to recognize the format of a bookmarks or tracks file. -->
-    <string name="unknown_file_type">Sovellus ei tunnista tiedostotyyppiä:
-\n%1$s</string>
+    <string name="unknown_file_type">Sovellus ei tunnista tiedostotyyppiä: \n%1$s</string>
     <!-- Failed to open a bookmarks or tracks file in CoMaps. -->
-    <string name="failed_to_open_file">Tiedostoa ei onnistuttu avaamaan %1$s
-\n
-\n%2$s</string>
+    <string name="failed_to_open_file">Tiedostoa ei onnistuttu avaamaan %1$s \n \n%2$s</string>
     <!-- resource for context menu -->
     <string name="edit">Muokkaa</string>
     <!-- Warning message when doing search around current position -->
@@ -196,11 +191,7 @@
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">Hei, kurkkaa tämänhetkinen sijaintini CoMaps:n kartalla!</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">Hei,
-\n
-\nOlen nyt täällä: %1$s. Klikkaa linkkiä %2$s tai %3$s nähdäksesi paikan kartalla.
-\n
-\nKiitos.</string>
+    <string name="my_position_share_email">Hei, \n \nOlen nyt täällä: %1$s. Klikkaa linkkiä %2$s tai %3$s nähdäksesi paikan kartalla. \n \nKiitos.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">Jaa</string>
     <!-- Share by email button text, also used in editor and About. -->
@@ -503,8 +494,7 @@
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
     <string name="osm_presentation">Yhteisön luomat OpenStreetMap-tiedot %s:sta alkaen. Lisätietoja kartan muokkaamisesta ja päivittämisestä osoitteessa OpenStreetMap.org.</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">OpenStreetMap.org (OSM) on yhteisöprojekti, jonka tarkoituksena on rakentaa ilmainen ja avoin kartta. Se on CoMapsin tärkein karttatietojen lähde ja toimii samalla tavalla kuin Wikipedia. Voit lisätä tai muokata paikkoja, ja ne tulevat miljoonien käyttäjien saataville kaikkialla maailmassa.
-\nLiity yhteisöön ja auta tekemään parempi kartta kaikille!</string>
+    <string name="login_osm_presentation">OpenStreetMap.org (OSM) on yhteisöprojekti, jonka tarkoituksena on rakentaa ilmainen ja avoin kartta. Se on CoMapsin tärkein karttatietojen lähde ja toimii samalla tavalla kuin Wikipedia. Voit lisätä tai muokata paikkoja, ja ne tulevat miljoonien käyttäjien saataville kaikkialla maailmassa. \nLiity yhteisöön ja auta tekemään parempi kartta kaikille!</string>
     <string name="login_to_make_edits_visible">Luo OpenStreetMap-tili tai kirjaudu sisään, jotta voit julkaista karttamuokkauksesi maailmalle.</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d/%2$d</string>

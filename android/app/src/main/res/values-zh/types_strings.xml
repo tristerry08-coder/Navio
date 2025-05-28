@@ -1395,4 +1395,5 @@
     <string name="type.man_made.utility_pole">公共设施杆</string>
     <string name="type.route.shuttle_train">穿梭列车</string>
     <string name="type.attraction.bumper_car">碰碰车</string>
+    <string name="type.sport.diving">跳水</string>
 </resources>

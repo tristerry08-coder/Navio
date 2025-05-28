@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="back">Uɣal ɣer deffir</string>
+    <string name="cancel">Sefsex</string>
+    <string name="delete">Kkes</string>
+    <string name="downloading">Asader…</string>
+    <string name="later">Ticki</string>
+    <string name="search">Nadi</string>
+    <string name="try_again">Ɛreḍ tikkelt niḍen</string>
+    <string name="copyright">Izerfan n usuffeɣ</string>
+</resources>

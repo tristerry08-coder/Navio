@@ -1394,4 +1394,5 @@
     <string name="type.hwtag.toll">hwtag-toll</string>
     <string name="type.hwtag.yescar">hwtag-yescar</string>
     <string name="type.hwtag.nobicycle">hwtag-nobicycle</string>
+    <string name="type.sport.diving">Sukeldumine</string>
 </resources>

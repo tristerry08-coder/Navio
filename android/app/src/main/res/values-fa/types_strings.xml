@@ -111,9 +111,8 @@
     <string name="type.amenity.police">کلانتری</string>
     <string name="type.amenity.post_box">صندوق پست</string>
     <string name="type.amenity.post_office">دفتر پست</string>
-    <string name="type.amenity.prison">زندا   ن</string>
+    <string name="type.amenity.prison">زندا ن</string>
     <string name="type.amenity.pub">میکده</string>
-
     <!-- SECTION: Types: Recycling -->
     <string name="type.amenity.recycling.centre">مرکز بازیافت</string>
     <string name="type.amenity.recycling">ظرف بازیافت</string>
@@ -235,7 +234,6 @@
     <string name="type.healthcare.psychotherapist">روان درمانی</string>
     <string name="type.healthcare.sample_collection">نمونه برداری</string>
     <string name="type.healthcare.speech_therapist">گفتار درمانی</string>
-
     <!-- SECTION: Types: Roads -->
     <!-- These translations are used for all type.highway.*.bridge. -->
     <string name="type.highway.bridleway.bridge">پل</string>
@@ -392,7 +390,6 @@
     <string name="type.area_highway.track">جاده</string>
     <string name="type.area_highway.trunk">جاده</string>
     <string name="type.area_highway.unclassified">جاده</string>
-
     <!-- SECTION: Types: Historic -->
     <string name="type.historic">شیء تاریخی</string>
     <string name="type.historic.aircraft">هواپیمای تاریخی</string>

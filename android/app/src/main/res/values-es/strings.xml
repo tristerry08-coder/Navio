@@ -56,8 +56,7 @@
     <string name="disconnect_usb_cable">Desconecte el cable USB o inserte una tarjeta de memoria SD para usar CoMaps</string>
     <!-- Used in DownloadResources startup screen -->
     <string name="not_enough_free_space_on_sdcard">Libere espacio en la memoria SD o almacenamiento USB para usar la aplicación</string>
-    <string name="download_resources">Antes de comenzar, permita que descarguemos en su dispositivo un mapamundi general.
-\nSe requieren %s de almacenamiento.</string>
+    <string name="download_resources">Antes de comenzar, permita que descarguemos en su dispositivo un mapamundi general. \nSe requieren %s de almacenamiento.</string>
     <string name="download_resources_continue">Ir al mapa</string>
     <string name="downloading_country_can_proceed">Descargando %s. Puede ahora \nproceder al mapa.</string>
     <string name="download_country_ask">¿Descargar %s?</string>
@@ -172,12 +171,9 @@
     <!-- Kml file loading failed -->
     <string name="load_kmz_failed">No se pudieron cargar los marcadores. El archivo podría tener daños o defectos.</string>
     <!-- Failed to recognize the format of a bookmarks or tracks file. -->
-    <string name="unknown_file_type">La aplicación no reconoce el tipo de archivo:
-\n%1$s</string>
+    <string name="unknown_file_type">La aplicación no reconoce el tipo de archivo: \n%1$s</string>
     <!-- Failed to open a bookmarks or tracks file in CoMaps. -->
-    <string name="failed_to_open_file">No se ha podido abrir el archivo %1$s
-\n
-\n%2$s</string>
+    <string name="failed_to_open_file">No se ha podido abrir el archivo %1$s \n \n%2$s</string>
     <!-- resource for context menu -->
     <string name="edit">Editar</string>
     <!-- Warning message when doing search around current position -->
@@ -193,11 +189,7 @@
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">¡Mira mi ubicación actual en el mapa en CoMaps!</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">Hola:
-\n
-\nAhora estoy aquí: %1$s. Haz clic en este enlace %2$s o esta %3$s para verlo en el mapa.
-\n
-\nGracias.</string>
+    <string name="my_position_share_email">Hola: \n \nAhora estoy aquí: %1$s. Haz clic en este enlace %2$s o esta %3$s para verlo en el mapa. \n \nGracias.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">Compartir</string>
     <!-- Share by email button text, also used in editor and About. -->

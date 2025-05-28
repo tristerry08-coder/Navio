@@ -637,7 +637,6 @@
 "day" = "d";
 "placepage_more_button" = "Aktar";
 "book_button" = "Book";
-
 "placepage_call_button" = "Call";
 "placepage_edit_bookmark_button" = "Editja l-Bookmark";
 "placepage_bookmark_name_hint" = "Bookmark Name";

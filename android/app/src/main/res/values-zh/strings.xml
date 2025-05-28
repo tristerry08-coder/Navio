@@ -41,15 +41,15 @@
     <string name="try_again">再试一次</string>
     <string name="about_menu_title">关于 CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">对每个人都免费，用爱制成</string>
+    <string name="about_headline">由社区推动的开放项目</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_1">• 没有广告，不会跟踪您，更不会收集您的数据</string>
+    <string name="about_proposition_1">• 使用方便，外观精美</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_2">• 无需耗费太多电量，可离线工作</string>
+    <string name="about_proposition_2">•注重隐私，毫无广告</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• 快速且简约，由社区开发</string>
+    <string name="about_proposition_3">• 离线、快速、精简</string>
     <!-- Text in About screen -->
-    <string name="about_developed_by_enthusiasts">由爱好者和志愿者开发的开源应用程序。</string>
+    <string name="about_developed_by_enthusiasts">完全开源、决策问责、财务透明的非营利应用程序。</string>
     <!-- The button that opens system location settings -->
     <string name="location_settings">位置设置</string>
     <string name="close">关闭</string>
@@ -58,12 +58,10 @@
     <!-- Used in DownloadResources startup screen -->
     <string name="disconnect_usb_cable">请拔除 USB 线或插入 SD 卡以使用 CoMaps</string>
     <!-- Used in DownloadResources startup screen -->
-    <string name="not_enough_free_space_on_sdcard">请先释放一些 SD 卡 / USB 存储空间以使用 CoMaps。</string>
-    <string name="download_resources">在您开始使用此应用程序之前，请下载全球地图到您的设备。
-\n它将使用 %s 的存储空间。</string>
+    <string name="not_enough_free_space_on_sdcard">请先释放一些 SD 卡 / USB 存储空间以便使用 CoMaps</string>
+    <string name="download_resources">在您开始使用此应用程序之前，请下载全球地图到您的设备。 \n它将使用 %s 的存储空间。</string>
     <string name="download_resources_continue">前往地图</string>
-    <string name="downloading_country_can_proceed">正在下载%s。您现在可以
-\n继续查看地图。</string>
+    <string name="downloading_country_can_proceed">正在下载%s。您现在可以 \n继续查看地图。</string>
     <string name="download_country_ask">下载%s的地图吗？</string>
     <string name="update_country_ask">更新%s的地图吗？</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
@@ -111,8 +109,7 @@
     <!-- Error moving map files from one storage to another -->
     <string name="move_maps_error">移动地图文件时出错</string>
     <!-- Ask user to wait several minutes (some long process in modal dialog). -->
-    <string name="wait_several_minutes">这可能需要几分钟的时间。
-\n请稍候…</string>
+    <string name="wait_several_minutes">这可能需要几分钟的时间。 \n请稍候…</string>
     <!-- Measurement units title in settings activity -->
     <string name="measurement_units">测量单位</string>
     <!-- Detailed description of Measurement Units settings button -->
@@ -169,11 +166,7 @@
     <string name="description">注释</string>
     <!-- Email Subject when sharing bookmark list -->
     <string name="share_bookmarks_email_subject">已与您分享 CoMaps 书签</string>
-    <string name="share_bookmarks_email_body">您好！
-\n
-\n附件是我的书签，请在 CoMaps 中打开。如果您没有安装 CoMaps，可以在这里下载: https://www.comaps.app/download/
-\n
-\n祝您使用 CoMaps 旅行愉快！</string>
+    <string name="share_bookmarks_email_body">您好！ \n \n附件是我的书签，请在 CoMaps 中打开。如果您没有安装 CoMaps，可以在这里下载: https://www.comaps.app/download/ \n \n祝您使用 CoMaps 旅行愉快！</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">正在加载书签</string>
     <!-- Kmz file successful loading -->
@@ -181,12 +174,9 @@
     <!-- Kml file loading failed -->
     <string name="load_kmz_failed">书签载入失败，文件可能已损坏或不完整。</string>
     <!-- Failed to recognize the format of a bookmarks or tracks file. -->
-    <string name="unknown_file_type">应用程序无法识别该文件类型：
-\n%1$s</string>
+    <string name="unknown_file_type">应用程序无法识别该文件类型： \n%1$s</string>
     <!-- Failed to open a bookmarks or tracks file in CoMaps. -->
-    <string name="failed_to_open_file">无法打开文件 %1$s
-\n
-\n%2$s</string>
+    <string name="failed_to_open_file">无法打开文件 %1$s \n \n%2$s</string>
     <!-- resource for context menu -->
     <string name="edit">编辑</string>
     <!-- Warning message when doing search around current position -->
@@ -202,11 +192,7 @@
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">嗨，到 CoMaps 查看我当前的位置！</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">嗨，
-\n
-\n我现在在这：%1$s。点击此链接 %2$s 或此链接 %3$s 来查看在地图上的位置。
-\n
-\n谢谢。</string>
+    <string name="my_position_share_email">嗨， \n \n我现在在这：%1$s。点击此链接 %2$s 或此链接 %3$s 来查看在地图上的位置。 \n \n谢谢。</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">分享</string>
     <!-- Share by email button text, also used in editor and About. -->
@@ -323,9 +309,9 @@
     <!-- Item in context menu. -->
     <string name="downloader_update_map">更新地图</string>
     <!-- Preference title -->
-    <string name="google_play_services">Google Play 定位服务</string>
+    <string name="google_play_services">Google 一体化位置信息服务</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">通过蓝牙、WiFi 或移动网络快速确定您的大致位置</string>
+    <string name="pref_use_google_play">一项专有服务，结合了 GPS、Wi-Fi、蜂窝网络等，能更准确地确定您的位置。它可能会连接到 Google 服务器。</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -373,7 +359,7 @@
     <!-- SECTION: Routing dialogs strings -->
     <string name="dialog_routing_disclaimer_title">按照路线行进时，请谨记：</string>
     <string name="dialog_routing_disclaimer_priority">— 路况、交通法规和路标始终优先于导航建议；</string>
-    <string name="dialog_routing_disclaimer_precision">— 地图可能不准确，建议的路线可能并非总是去往目的地的最佳路线；</string>
+    <string name="dialog_routing_disclaimer_precision">— 地图可能有错误，建议的路线也可能不是去往目的地的最佳路线；</string>
     <string name="dialog_routing_disclaimer_recommendations">— 建议的路线仅作为推荐路线供您采纳；</string>
     <string name="dialog_routing_disclaimer_borders">— 小心对待国界区的路线：我们的应用生成的路线有时会在未经授权的地方跨越国界。</string>
     <string name="dialog_routing_disclaimer_beware">上路时请当心，祝您一路平安！</string>
@@ -517,7 +503,7 @@
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
     <string name="osm_presentation">截至 %s 的社区创建的 OpenStreetMap 数据。请访问 OpenStreetMap.org 以了解有关如何编辑和更新地图的信息</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">OpenStreetMap.org（OSM）是一个构建免费开放地图的社区项目。它是有机地图中地图数据的主要来源，其工作原理类似于维基百科。你可以添加或编辑地点，全世界数以百万计的用户都可以使用它们！</string>
+    <string name="login_osm_presentation">OpenStreetMap.org（OSM）是一个构建免费开放地图的社区项目。它是CoMaps中地图数据的主要来源，其工作原理类似于维基百科。您可以添加或编辑地点，可供全世界数以百万计的用户使用并受益。\n加入OSM，让我们共绘更优质的地图吧！</string>
     <string name="login_to_make_edits_visible">创建 OpenStreetMap 账号或登录，向全世界发布您编辑的地图。</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d / %2$d</string>
@@ -613,9 +599,7 @@
     <!-- Settings: "Send general feedback" button -->
     <string name="feedback_general">常规反馈</string>
     <string name="prefs_languages_information">我们的语音导航使用“文本转语音”系统。许多 Android 设备使用 Google 的文本转语音系统，您可以从 Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts) 下载或更新这一功能</string>
-    <string name="prefs_languages_information_off">对于某些语言，您需要从应用商店（例如 Google Play 商店、Galaxy Store）中安装其他语音合成器或语言包。
-\n打开您的设备的设置 → 语言和输入法 → 语音 → 文字转语音 (TTS) 输出。
-\n您可以在这里管理语音合成的设置（例如，下载语言包供离线使用）和选择其他文字转语音引擎。</string>
+    <string name="prefs_languages_information_off">对于某些语言，您需要从应用商店（例如 Google Play 商店、Galaxy Store）中安装其他语音合成器或语言包。 \n打开您的设备的设置 → 语言和输入法 → 语音 → 文字转语音 (TTS) 输出。 \n您可以在这里管理语音合成的设置（例如，下载语言包供离线使用）和选择其他文字转语音引擎。</string>
     <string name="prefs_languages_information_off_link">如需了解更多信息，请查阅此指南。</string>
     <string name="transliteration_title">拉丁字母音译</string>
     <string name="learn_more">了解更多信息</string>
@@ -658,7 +642,6 @@
     <string name="phone_number">电话号码</string>
     <string name="profile">OpenStreetMap 资料</string>
     <plurals name="bookmarks_detect_message">
-        <item quantity="one">找到 %d 个文件，转换后您可以看到它。</item>
         <item quantity="other">找到 %d 个文件，转换后您可以看到它们。</item>
     </plurals>
     <string name="restore">恢复</string>

@@ -9,7 +9,7 @@
     <string name="delete">刪除</string>
     <string name="download_maps">下載地圖</string>
     <!-- Settings/Downloader - info for country when download fails -->
-    <string name="download_has_failed">下載失敗，點擊後再試一次</string>
+    <string name="download_has_failed">下載失敗，點擊後再試一次。</string>
     <!-- Settings/Downloader - info for country which started downloading -->
     <string name="downloading">下載中…</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->
@@ -58,7 +58,7 @@
     <!-- Used in DownloadResources startup screen -->
     <string name="disconnect_usb_cable">請拔除 USB 線或插入 SD 卡以使用 CoMaps</string>
     <!-- Used in DownloadResources startup screen -->
-    <string name="not_enough_free_space_on_sdcard">請先釋放一些 SD 卡 / USB 儲存空間以使用 CoMaps。</string>
+    <string name="not_enough_free_space_on_sdcard">請先釋放一些 SD 卡 / USB 儲存空間以便使用 CoMaps</string>
     <string name="download_resources">在您開始使用此應用程式之前，請下載全球地圖到您的裝置\n它將使用 %s 的儲存空間。</string>
     <string name="download_resources_continue">前往地圖</string>
     <string name="downloading_country_can_proceed">正在下載%s。您現在可以\n繼續查看地圖。</string>
@@ -114,7 +114,6 @@
     <string name="measurement_units">測量單位</string>
     <!-- Detailed description of Measurement Units settings button -->
     <string name="measurement_units_summary">選擇公里或英哩</string>
-
     <!-- SECTION: Search categories -->
     <!-- Search category for cafes, bars, restaurants; any changes should be duplicated in categories.txt @category_eat! -->
     <string name="category_eat">在哪裡吃</string>
@@ -162,13 +161,12 @@
     <string name="category_water">水</string>
     <!-- Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! -->
     <string name="category_rv">露營車設施</string>
-
     <!-- SECTION: Other translations -->
     <!-- Notes field in Bookmarks view -->
     <string name="description">註釋</string>
     <!-- Email Subject when sharing bookmark list -->
     <string name="share_bookmarks_email_subject">已與您分享 CoMaps 書籤</string>
-    <string name="share_bookmarks_email_body">您好！\n附件是我的書籤，請在 CoMaps 中打開。如果您沒有安裝 CoMaps，可以在這裡下載: https://www.comaps.app/download/\n祝您使用 CoMaps 旅行愉快！</string>
+    <string name="share_bookmarks_email_body">您好！\n\n附件是我的書籤，請在 CoMaps 中打開。如果您沒有安裝 CoMaps，可以在這裡下載: https://www.comaps.app/download/\n\n祝您使用 CoMaps 旅行愉快！</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">正在載入書籤…</string>
     <!-- Kmz file successful loading -->
@@ -194,7 +192,7 @@
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">嗨，到 CoMaps 查看我目前的位置！</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">嗨，\n我現在在這：%1$s。點擊此連結 %2$s 或此連結 %3$s 來查看在地圖上的位置。\n謝謝。</string>
+    <string name="my_position_share_email">嗨，\n\n我現在在這：%1$s。點擊此連結 %2$s 或此連結 %3$s 來查看在地圖上的位置。\n\n謝謝。</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">分享</string>
     <!-- Share by email button text, also used in editor and About. -->
@@ -358,7 +356,6 @@
     <string name="gray">灰色</string>
     <!-- blue gray color -->
     <string name="blue_gray">藍灰色</string>
-
     <!-- SECTION: Routing dialogs strings -->
     <string name="dialog_routing_disclaimer_title">依照路線行進時，請牢記：</string>
     <string name="dialog_routing_disclaimer_priority">— 路況、交通法規和路標始終優先於導航建議；</string>
@@ -388,7 +385,6 @@
     <string name="not_now">以後再說</string>
     <string name="dialog_routing_download_and_build_cross_route">您是否要下載地圖，以規劃跨越邊界的更佳路線？</string>
     <string name="dialog_routing_download_cross_route">下載地圖，以規劃一條跨越邊界的更佳路線。</string>
-
     <!-- SECTION: Strings for downloading map from search -->
     <string name="search_without_internet_advertisement">要開始搜索和規劃路線，請下載地圖，然後您就不再需要網絡連接了。</string>
     <string name="search_select_map">選擇地圖</string>
@@ -646,7 +642,6 @@
     <string name="phone_number">電話號碼</string>
     <string name="profile">OpenStreetMap 資料</string>
     <plurals name="bookmarks_detect_message">
-        <item quantity="one">找到 %d 個文件，轉換後您可以看到它。</item>
         <item quantity="other">找到 %d 個文件，轉換後您可以看到它們。</item>
     </plurals>
     <string name="restore">恢復</string>
@@ -736,7 +731,6 @@
     <string name="moreyear_ago_sorttype">一年多以前</string>
     <string name="near_me_sorttype">在我附近</string>
     <string name="others_sorttype">其他</string>
-
     <!-- SECTION: Bookmark types used for sorting -->
     <string name="food_places">食物</string>
     <string name="tourist_places">旅遊景點</string>
@@ -880,4 +874,16 @@
     <string name="uri_open_location_failed">沒有安裝可以打開該位置的應用程式</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">自動導航</string>
+    <string name="telegram">Telegram</string>
+    <string name="matrix">[Matrix]</string>
+    <string name="mastodon">Mastodon</string>
+    <string name="instagram">Instagram</string>
+    <string name="vk">VK</string>
+    <string name="editor_line_social_network">LINE</string>
+    <string name="openstreetmap">OpenStreetMap</string>
+    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
+    <string name="comma_separated_pair">%1$s, %2$s</string>
+    <string name="codeberg">Codeberg</string>
+    <string name="telegram_url">https://t.me/CoMapsApp/</string>
+    <string name="github">GitHub</string>
 </resources>

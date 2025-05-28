@@ -637,7 +637,6 @@
 "day" = "วัน";
 "placepage_more_button" = "เพิ่มเติม";
 "book_button" = "จอง";
-
 "placepage_call_button" = "โทร";
 "placepage_edit_bookmark_button" = "แก้ไข Bookmark";
 "placepage_bookmark_name_hint" = "ชื่อของ Bookmark";
