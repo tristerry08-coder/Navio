@@ -32,17 +32,17 @@ public enum ThemeSwitcher
     @Override
     public void run()
     {
-      boolean navAuto = RoutingController.get().isNavigating() && ThemeUtils.isNavAutoTheme(mContext);
+      boolean isNavAuto = RoutingController.get().isNavigating() && ThemeUtils.isNavAutoTheme(mContext);
       // Cancel old checker
       UiThread.cancelDelayedTasks(mAutoThemeChecker);
 
-      if (navAuto || ThemeUtils.isAutoTheme(mContext))
+      if (isNavAuto || ThemeUtils.isAutoTheme(mContext))
       {
         UiThread.runLater(mAutoThemeChecker, CHECK_INTERVAL_MS);
         setThemeAndMapStyle(calcAutoTheme());
       }
-      else
-        setThemeAndMapStyle(Config.getCurrentUiTheme(mContext));
+      else // Only reached when an auto mode should be light
+        setThemeAndMapStyle(mContext.getResources().getString(R.string.theme_default));
     }
   };
 
