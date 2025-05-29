@@ -1,0 +1,32 @@
+Eine von der Community betriebene, kostenlose Open-Source Karten App, die auf OpenStreetMap Daten basiert. Transparent, Daten sparsam und nicht gewinnorientiert. CoMaps ist ein Fork/Abspaltung von Organic Maps, das wiederum ein Fork/Abspaltung von Maps.Me ist.
+
+Lese mehr über die Gründe und Ziele des Projekt unter <b><i>codeberg.org/comaps</i></b>.
+Werde Teil der Community und hilf mit, die beste Karten-App zu entwickeln
+• Nutze die App und erzähle anderen davon
+• Gib Feedback und melde Probleme
+• Aktualisiere Kartendaten in der App oder auf der OpenStreetMap Website
+
+‣ <b>Einfach und ausgereift</b>: Essenzielle, leicht zu bedienende Funktionen, die einfach funktionieren.
+‣ <b>Offline-orientiert</b>: Plane und navigiere im Ausland ohne Mobilfunkverbindung, finde Wegpunkte auf abgelegenen Wanderungen usw. Alle Funktionen sind für den Offline-Einsatz konzipiert.
+‣ <b>Datenschutzfreundlich</b>: Die App wurde mit Fokus auf Privatsphäre entwickelt – keine Personenidentifikation, kein Tracking, keine Erfassung persönlicher Daten, keine Werbung.
+‣ <b>Spart Akku und Speicherplatz</b>: Verbraucht nicht unnötig Akku wie andere Navi-Apps. Kompakte Karten sparen Speicherplatz auf deinem Gerät.
+‣ <b>Kostenlos und von der Community entwickelt</b>: Menschen wie du haben geholfen die App zu entwickeln – durch das Hinzufügen von Orten zu OpenStreetMap, Testen von neuen Funktionen, Software Entwicklung oder Spenden.
+‣ <b>Offen und transparent bei Entscheidungen und Finanzen, gemeinnützig und vollständig Open Source</b>
+
+<b>Hauptfunktionen</b>:
+• Detaillierte, herunterladbare Karten mit Orten, die bei Google Maps oft fehlen
+• Outdoor-Modus mit hervorgehobenen Wanderwegen, Campingplätzen, Wasserquellen, Gipfeln, Höhenlinien usw.
+• Geh- und Radwege
+• Orte wie Restaurants, Tankstellen, Hotels, Geschäfte, Sehenswürdigkeiten und viele mehr
+• Suche nach Namen, Adressen oder Kategorien
+• Navigation mit Sprachausgabe für Fußgänger, Radfahrer und Autos
+• Lesezeichen mit einem einzigen Tippen speichern
+• Offline verfügbare Wikipedia-Artikel
+• U- und S-Bahn Netze
+• Aufzeichnen von GPS Tracks
+• Import und Export von Favoriten und Routen im KML-, KMZ- oder GPX-Format
+• Darkmode für die Nutzung bei Nacht
+• Kartenbearbeitung direkt in der App mit einem einfachen Editor
+
+<b>Freiheit beginnt hier</b>
+Entdecke deine Reise – navigiere die Welt mit Privatsphäre!
