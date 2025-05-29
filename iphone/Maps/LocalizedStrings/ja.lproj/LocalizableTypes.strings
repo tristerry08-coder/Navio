@@ -675,7 +675,7 @@
 "type.landuse.churchyard" = "キリスト教教会付属地";
 "type.landuse.commercial" = "商業用地";
 "type.landuse.construction" = "建設工事中";
-"type.landuse.education" = "Educational Facility";
+"type.landuse.education" = "教育施設";
 "type.landuse.farmland" = "農地";
 "type.landuse.farmyard" = "農地";
 "type.landuse.field" = "Field";
@@ -724,7 +724,7 @@
 "type.leisure.picnic_table" = "ピクニック用のテーブル";
 "type.leisure.pitch" = "運動場";
 "type.leisure.playground" = "児童公園";
-"type.leisure.recreation_ground" = "Recreation Ground";
+"type.leisure.recreation_ground" = "レクリエーション・グラウンド";
 "type.leisure.sauna" = "サウナ";
 "type.leisure.slipway" = "スリップウェイ";
 "type.leisure.sports_centre" = "スポーツセンター";

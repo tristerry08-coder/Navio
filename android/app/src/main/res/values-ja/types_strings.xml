@@ -1318,4 +1318,6 @@
     <string name="type.man_made.flagpole">旗竿</string>
     <string name="type.man_made.mast">マスト</string>
     <string name="type.piste_type.sled.area">そりコース</string>
+    <string name="type.landuse.education">教育施設</string>
+    <string name="type.leisure.recreation_ground">レクリエーション・グラウンド</string>
 </resources>

@@ -41,15 +41,15 @@
     <string name="try_again">再試一次</string>
     <string name="about_menu_title">關於 CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">對每個人都免費，用愛製成</string>
+    <string name="about_headline">由社區推動的開放項目</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_1">• 沒有廣告，不會跟蹤您，更不會收集您的數據</string>
+    <string name="about_proposition_1">• 使用方便，外觀精美</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_2">• 無需耗費太多電量，可離線工作</string>
+    <string name="about_proposition_2">•注重隱私，毫無廣告</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• 快速且簡約，由社區開發</string>
+    <string name="about_proposition_3">• 離線、快速、精簡</string>
     <!-- Text in About screen -->
-    <string name="about_developed_by_enthusiasts">由愛好者和志願者開發的開源應用程式。</string>
+    <string name="about_developed_by_enthusiasts">完全開源、決策問責、財務透明的非營利應用。</string>
     <!-- The button that opens system location settings -->
     <string name="location_settings">位置設定</string>
     <string name="close">關閉</string>
@@ -176,7 +176,7 @@
     <!-- Failed to recognize the format of a bookmarks or tracks file. -->
     <string name="unknown_file_type">應用程式無法識別該文件類型：\n%1$s</string>
     <!-- Failed to open a bookmarks or tracks file in CoMaps. -->
-    <string name="failed_to_open_file">無法打開檔案 %1$s\n%2$s</string>
+    <string name="failed_to_open_file">無法打開檔案 %1$s\n\n%2$s</string>
     <!-- resource for context menu -->
     <string name="edit">編輯</string>
     <!-- Warning message when doing search around current position -->
@@ -309,9 +309,9 @@
     <!-- Item in context menu. -->
     <string name="downloader_update_map">更新地圖</string>
     <!-- Preference title -->
-    <string name="google_play_services">Google Play 定位服務</string>
+    <string name="google_play_services">Google 整合式位置預測提供服務</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">使用藍牙、WiFi 或行動數據快速確定您的大致位置</string>
+    <string name="pref_use_google_play">結合了 GPS、Wi-Fi、蜂窩網路等的專有服務，能更準確地確定您的位置。 它可能會連接到 Google 伺服器。</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -359,9 +359,9 @@
     <!-- SECTION: Routing dialogs strings -->
     <string name="dialog_routing_disclaimer_title">依照路線行進時，請牢記：</string>
     <string name="dialog_routing_disclaimer_priority">— 路況、交通法規和路標始終優先於導航建議；</string>
-    <string name="dialog_routing_disclaimer_precision">— 地圖可能不準確，建議的路線可能並非總是前往目的地的最佳路線；</string>
+    <string name="dialog_routing_disclaimer_precision">— 地圖可能有錯誤，建議的路線也可能不是前往目的地的最佳路線；</string>
     <string name="dialog_routing_disclaimer_recommendations">— 建議的路線僅作為推薦路線供您參考；</string>
-    <string name="dialog_routing_disclaimer_borders">— 小心對待國界區的路線：我們的應用程式建立的路線有時會在未經授權的地方跨越國界；</string>
+    <string name="dialog_routing_disclaimer_borders">— 小心對待國界區的路線：該應用創建的路線有時會在未經授權的地方跨越國界；</string>
     <string name="dialog_routing_disclaimer_beware">上路時請當心，祝您一路平安！</string>
     <string name="dialog_routing_check_gps">檢查 GPS 訊號</string>
     <string name="dialog_routing_error_location_not_found">無法規劃路線。無法識別目前 GPS 座標。</string>
@@ -455,7 +455,7 @@
     <string name="not_signed_in">未登入</string>
     <string name="login_osm">登錄 OpenStreetMap</string>
     <string name="password">密碼</string>
-    <string name="forgot_password">忘記密碼</string>
+    <string name="forgot_password">忘記密碼？</string>
     <string name="logout">登出</string>
     <string name="edit_place">編輯地點</string>
     <string name="add_language">新增語言</string>
@@ -501,9 +501,9 @@
     <string name="placepage_add_business_button">將地點添加到</string>
     <string name="message_invalid_feature_position">地點無法放置在這裡</string>
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
-    <string name="osm_presentation">截至 %s 的社群創建的 OpenStreetMap 資料。請訪問 OpenStreetMap.org 以了解有關如何編輯和更新地圖的更多資訊。</string>
+    <string name="osm_presentation">截至 %s 的社群創建的 OpenStreetMap 資料。請訪問 OpenStreetMap.org 以了解有關如何編輯和更新地圖的更多資訊</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">OpenStreetMap.org (OSM) 是一個建立免費開放地圖的社群專案。它是有機地圖中地圖數據的主要來源，其工作方式類似於維基百科。您可以新增或編輯地點，全世界數百萬用戶都可以使用它們。</string>
+    <string name="login_osm_presentation">OpenStreetMap.org（OSM）是一個建立免費開放地圖的社群專案。 它是CoMaps中地圖資料的主要來源，其工作原理類似於維基百科。 您可以新增或編輯地點，可供全世界數以百萬計的使用者使用並受益。\n 加入OSM，讓我們共繪更優質的地圖吧！</string>
     <string name="login_to_make_edits_visible">建立 OpenStreetMap 帳戶或登入以向全世界發布您的地圖編輯。</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d / %2$d</string>
@@ -598,7 +598,7 @@
     <string name="enable_logging">啟用日誌記錄</string>
     <!-- Settings: "Send general feedback" button -->
     <string name="feedback_general">一般反應</string>
-    <string name="prefs_languages_information">我們的語音導航使用“文字轉語音”系統。許多 Android 裝置使用 Google 的文字轉語音系統，您可以從 Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts) 下載或更新這一功能。</string>
+    <string name="prefs_languages_information">我們的語音導航使用“文字轉語音”系統。許多 Android 裝置使用 Google 的文字轉語音系統，您可以從 Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts) 下載或更新這一功能</string>
     <string name="prefs_languages_information_off">對於某些語言，您需要從應用商店（例如 Google Play Store、Galaxy Store）中安裝其他語音合成器或語言套件\n打開您的裝置的設定 → 語言和輸入法 → 語音 → 文字轉語音 (TTS) 輸出\n您可以在這裡管理語音合成的設定（例如，下載語言包供離線使用）和選擇其他文字轉語音引擎。</string>
     <string name="prefs_languages_information_off_link">如需瞭解更多資訊，請參閱此指南。</string>
     <string name="transliteration_title">拉丁字母音譯</string>
@@ -676,7 +676,7 @@
     <!-- Speed camera settings menu option - Never warn (about speedcams) -->
     <string name="pref_tts_speedcams_never">永遠不會對測速照相機發出警告</string>
     <string name="power_managment_title">省電模式</string>
-    <string name="power_managment_description">如果開啟省電模式，應用程序將根據手機的當前電量關閉耗電功能</string>
+    <string name="power_managment_description">如果開啟省電模式，本應用將根據手機的當前電量關閉耗電功能。</string>
     <string name="power_managment_setting_never">從不</string>
     <string name="power_managment_setting_auto">當電量低時</string>
     <string name="power_managment_setting_manual_max">最大程度省電</string>
@@ -691,7 +691,7 @@
     <string name="avoid_ferry">避開渡輪</string>
     <string name="avoid_motorways">避開高速公路</string>
     <string name="unable_to_calc_alert_title">無法規劃路線</string>
-    <string name="unable_to_calc_alert_subtitle">很遺憾，我們無法使用所選的繞行設定規劃路線。請更改設定，然後重試</string>
+    <string name="unable_to_calc_alert_subtitle">很遺憾，我們無法使用所選的繞行設定規劃路線。這可能是由於您的繞行設定或 OpenStreetMap 資料不完整所造成的。請更改設定，然後重試。</string>
     <string name="define_to_avoid_btn">選擇要避開的道路</string>
     <string name="change_driving_options_btn">繞行設定已開啟</string>
     <string name="toll_road">收費公路</string>
@@ -785,7 +785,7 @@
     <!-- OpenStreetMap text on splash screen -->
     <string name="splash_subtitle">地圖數據來自 OpenStreetMap</string>
     <!-- Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
-    <string name="translated_om_site_url">https://comaps.app/zh-Hans/</string>
+    <string name="translated_om_site_url">https://comaps.app/</string>
     <!-- Link to OSM wiki for Editor, Profile and About pages -->
     <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/Zh-hant:關於OpenStreetMap</string>
     <!-- App Tip #00 -->
@@ -868,7 +868,7 @@
     <!-- Message for the toast when saving the track recording is finished but nothing to save. -->
     <string name="track_recording_toast_nothing_to_save">軌跡為空 - 沒有可保存的內容</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
-    <string name="error_no_file_manager_app">無法顯示資料夾選擇對話框，因為您的裝置上沒有安裝合適的應用程式。請安裝檔案總管應用程式並重試</string>
+    <string name="error_no_file_manager_app">無法顯示資料夾選擇對話框，因為您的裝置上沒有安裝合適的應用程式。請安裝檔案總管應用程式並重試。</string>
     <string name="choose_color">選擇顏色</string>
     <string name="edit_track">編輯軌跡</string>
     <string name="uri_open_location_failed">沒有安裝可以打開該位置的應用程式</string>
@@ -886,4 +886,6 @@
     <string name="codeberg">Codeberg</string>
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="github">GitHub</string>
+    <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
+    <string name="app_site_url">https://comaps.app/</string>
 </resources>

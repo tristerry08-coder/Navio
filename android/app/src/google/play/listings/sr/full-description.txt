@@ -1,0 +1,36 @@
+Бесплатна апликација за мапе отвореног кода коју води заједница заснована на OpenStreetMap подацима и ојачана посвећеношћу транспарентности, приватности и непрофитности.
+
+Придружите се заједници и помозите да направите најбољу навигацију
+• Користите апликацију и ширите информације о њој
+• Оставите повратне информације и пријавите проблеме
+• Ажурирајте мапе из апликације или на сајту OpenStreetMap
+
+<i>Ваше повратне информације и 5 звездица оцене - најбоља подршка за нас!</i>
+
+‣ <b>Jednostavna i polirana</b>: основне функције које једноставно раде.
+‣ <b>Оффлине фокусирана</b>: Планирајте путовање у иностранство без употребе мобилне телефоније, потражите правац тачке током дугог путовања, итд . Све функције апликације су дизајниране за рад у режиму без интернета.
+‣ <b>Поштовање приватности</b>: Апликација је развијена с обзиром на приватност - не идентификује људе, не прати и не прикупља личне информације. Без реклама.
+‣ <b>Штеди батерију и простор</b>: Не празни батерију, као остале навигациje. Компактне mape штедe драгоценi prostor на вашем телефону..
+‣ <b>Free and Built by the Community</b>: People like you helped build the app by adding places to OpenStreetMap, testing and giving feedback on features and contributing their development skills and money.
+‣ <b>Open and Transparent Decision-making and Financials, Not-for-profit and Fully Open Source.</b>
+
+<b>Main Features</b>:
+• Downloadable detailed maps with places which are not available with Google Maps
+• Outdoor mode with highlighted hiking trails, campsites, water sources, peaks, contour lines, etc
+• Walking paths and cycleways
+• Points of interest like restaurants, gas stations, hotels, shops, sightseeings and many more
+• Search by name or an address or by point of interest category
+• Navigation with voice announcements for walking, cycling, or driving
+• Bookmark your favorite places with a single tap
+• Offline Wikipedia articles
+• Subway transit layer and directions
+• Track recording
+• Export and import bookmarks and tracks in KML, KMZ, GPX formats
+• A dark mode to use during the night
+• Improve map data for everyone using a basic built-in editor
+• Подршка за Андроид Ауто
+
+Молимо Вас да пријавите проблеме са апликацијом, предложите идеје и придружите се нашој заједници на <b><i>comaps.app</i></b> страни.
+
+<b>Сад је слободно</b>
+Откријте своје путовање, путујте светом с приватношћу и заједницом на челу!

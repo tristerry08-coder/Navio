@@ -38,13 +38,13 @@
     <string name="try_again">Saiatu berriro</string>
     <string name="about_menu_title">CoMaps-i buruz</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Denontzat doan, maitasunez egina</string>
+    <string name="about_headline">Proiektu irekia, auzolanean egina.</string>
     <!-- Text in About screen -->
     <string name="about_proposition_1">• Ez iragarkirik, ez jarraipenik, ez datu-bilketarik</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_2">• Ez da bateria deskargatzen, konexiorik gabe funtzionatzen du</string>
+    <string name="about_proposition_2">• Pribatutasunean zentratua eta iragarkirik gabea</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Azkarra, minimalista, komunitateak garatua</string>
+    <string name="about_proposition_3">• Offline, azkarra eta minimalista</string>
     <!-- Text in About screen -->
     <string name="about_developed_by_enthusiasts">Zale eta bolondresek sortutako kode irekiko aplikazioa.</string>
     <!-- The button that opens system location settings -->

@@ -49,7 +49,7 @@
     <!-- Text in About screen -->
     <string name="about_proposition_3">• 离线、快速、精简</string>
     <!-- Text in About screen -->
-    <string name="about_developed_by_enthusiasts">完全开源、决策问责、财务透明的非营利应用程序。</string>
+    <string name="about_developed_by_enthusiasts">完全开源、决策问责、财务透明的非营利应用。</string>
     <!-- The button that opens system location settings -->
     <string name="location_settings">位置设置</string>
     <string name="close">关闭</string>
@@ -311,7 +311,7 @@
     <!-- Preference title -->
     <string name="google_play_services">Google 一体化位置信息服务</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">一项专有服务，结合了 GPS、Wi-Fi、蜂窝网络等，能更准确地确定您的位置。它可能会连接到 Google 服务器。</string>
+    <string name="pref_use_google_play">结合了 GPS、Wi-Fi、蜂窝网络等的专有服务，能更准确地确定您的位置。它可能会连接到 Google 服务器。</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -359,9 +359,9 @@
     <!-- SECTION: Routing dialogs strings -->
     <string name="dialog_routing_disclaimer_title">按照路线行进时，请谨记：</string>
     <string name="dialog_routing_disclaimer_priority">— 路况、交通法规和路标始终优先于导航建议；</string>
-    <string name="dialog_routing_disclaimer_precision">— 地图可能有错误，建议的路线也可能不是去往目的地的最佳路线；</string>
+    <string name="dialog_routing_disclaimer_precision">— 地图可能有错误，建议的路线也可能不是前往目的地的最佳路线；</string>
     <string name="dialog_routing_disclaimer_recommendations">— 建议的路线仅作为推荐路线供您采纳；</string>
-    <string name="dialog_routing_disclaimer_borders">— 小心对待国界区的路线：我们的应用生成的路线有时会在未经授权的地方跨越国界。</string>
+    <string name="dialog_routing_disclaimer_borders">— 小心对待国界区的路线：该应用生成的路线有时会在未经授权的地方跨越国界；</string>
     <string name="dialog_routing_disclaimer_beware">上路时请当心，祝您一路平安！</string>
     <string name="dialog_routing_check_gps">检查 GPS 信号</string>
     <string name="dialog_routing_error_location_not_found">无法规划路线。无法识别当前 GPS 坐标。</string>
