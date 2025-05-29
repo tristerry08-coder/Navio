@@ -111,10 +111,10 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
       }
 
       int status = MapManager.nativeGetStatus(mCurrentCountry);
-      String name = MapManager.nativeGetName(mCurrentCountry);
 
       if (status != CountryItem.STATUS_DONE)
       {
+        String name = getFormattedCountryName(mCurrentCountry);
         UiUtils.show(mChbDownloadCountry);
         String checkBoxText;
         if (status == CountryItem.STATUS_UPDATABLE)
@@ -128,6 +128,18 @@ public class DownloadResourcesLegacyActivity extends BaseMwmFragmentActivity
       LocationHelper.from(DownloadResourcesLegacyActivity.this).removeListener(this);
     }
   };
+
+  private String getFormattedCountryName(String mCurrentCountry) {
+    String name = MapManager.nativeGetName(mCurrentCountry);
+    CountryItem country = CountryItem.fill(mCurrentCountry);
+    String sizeText = StringUtils.getFileSizeString(DownloadResourcesLegacyActivity.this, country.totalSize);
+
+    if (!TextUtils.isEmpty(sizeText)) {
+      name = name + " (" + sizeText + ")";
+    }
+
+    return name;
+  }
 
   private final Listener mResourcesDownloadListener = new Listener()
   {
