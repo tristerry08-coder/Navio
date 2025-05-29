@@ -61,9 +61,9 @@
     <string name="not_enough_free_space_on_sdcard">Недостатньо вільного місця на SD карті / в пам\'яті пристрою для використання програми</string>
     <string name="download_resources">Перш ніж розпочати, дозвольте нам завантажити оглядову мапу світу на ваш пристрій. \nВона потребує %s даних.</string>
     <string name="download_resources_continue">Перейти на мапу</string>
-    <string name="downloading_country_can_proceed">Поки завантажується %s \nви можете користуватися програмою.</string>
-    <string name="download_country_ask">Завантажити %s?</string>
-    <string name="update_country_ask">Oновити %s?</string>
+    <string name="downloading_country_can_proceed">Поки завантажується %1$s (%2$s) \nви можете користуватися програмою.</string>
+    <string name="download_country_ask">Завантажити %1$s? (%2$s)</string>
+    <string name="update_country_ask">Oновити %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Призупинити</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

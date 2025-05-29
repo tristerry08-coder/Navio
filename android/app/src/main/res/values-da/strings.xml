@@ -58,9 +58,9 @@
     <string name="not_enough_free_space_on_sdcard">Frigør først noget plads på dit SD-kort/USB lager for at bruge denne app</string>
     <string name="download_resources">Før du begynder at bruge appen, skal du hente oversigtskortet over verden til din enhed. \nDet vil bruge %s lagerplads.</string>
     <string name="download_resources_continue">Gå til kortet</string>
-    <string name="downloading_country_can_proceed">Henter %s. Du kan nu \nfortsætte til kortet.</string>
-    <string name="download_country_ask">Hent %s?</string>
-    <string name="update_country_ask">Opdater %s?</string>
+    <string name="downloading_country_can_proceed">Henter %1$s (%2$s). Du kan nu \nfortsætte til kortet.</string>
+    <string name="download_country_ask">Hent %1$s? (%2$s)</string>
+    <string name="update_country_ask">Opdater %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Pause</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

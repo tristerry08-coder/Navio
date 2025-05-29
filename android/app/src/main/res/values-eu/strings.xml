@@ -58,9 +58,9 @@
     <string name="not_enough_free_space_on_sdcard">Mesedez, egin lekua SD memorian/USB biltegian aplikazioa erabiltzeko</string>
     <string name="download_resources">Hasi aurretik deskargatu mesedez mundu-mapa orokorra zure gailura. \nMemorian %s erabiliko ditu.</string>
     <string name="download_resources_continue">Joan mapara</string>
-    <string name="downloading_country_can_proceed">%s deskargatzen. Orain mapara \n joan zaitezke.</string>
-    <string name="download_country_ask">%s deskargatu?</string>
-    <string name="update_country_ask">%s eguneratu?</string>
+    <string name="downloading_country_can_proceed">%1$s (%2$s) deskargatzen. Orain mapara \n joan zaitezke.</string>
+    <string name="download_country_ask">%1$s deskargatu? (%2$s)</string>
+    <string name="update_country_ask">%1$s eguneratu? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Pausa</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

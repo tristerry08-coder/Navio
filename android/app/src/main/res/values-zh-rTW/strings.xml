@@ -61,9 +61,9 @@
     <string name="not_enough_free_space_on_sdcard">請先釋放一些 SD 卡 / USB 儲存空間以便使用 CoMaps</string>
     <string name="download_resources">在您開始使用此應用程式之前，請下載全球地圖到您的裝置\n它將使用 %s 的儲存空間。</string>
     <string name="download_resources_continue">前往地圖</string>
-    <string name="downloading_country_can_proceed">正在下載%s。您現在可以\n繼續查看地圖。</string>
-    <string name="download_country_ask">下載%s的地圖嗎？</string>
-    <string name="update_country_ask">更新%s的地圖嗎？</string>
+    <string name="downloading_country_can_proceed">正在下載%1$s (%2$s)。您現在可以\n繼續查看地圖。</string>
+    <string name="download_country_ask">下載%1$s的地圖嗎？ (%2$s)</string>
+    <string name="update_country_ask">更新%1$s的地圖嗎？ (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">暫停</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

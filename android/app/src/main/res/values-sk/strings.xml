@@ -58,9 +58,9 @@
     <string name="not_enough_free_space_on_sdcard">Prosím, uvoľnite najprv miesto na SD karte/USB úložisku</string>
     <string name="download_resources">Skôr ako začnete, bude treba stiahnuť základnú mapu sveta. \nZaberie to %s.</string>
     <string name="download_resources_continue">Prejsť na mapu</string>
-    <string name="downloading_country_can_proceed">Sťahovanie %s. Teraz môžete \nprejsť na mapu.</string>
-    <string name="download_country_ask">Stiahnuť %s?</string>
-    <string name="update_country_ask">Aktualizovať %s?</string>
+    <string name="downloading_country_can_proceed">Sťahovanie %1$s (%2$s). Teraz môžete \nprejsť na mapu.</string>
+    <string name="download_country_ask">Stiahnuť %1$s? (%2$s)</string>
+    <string name="update_country_ask">Aktualizovať %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Pauza</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

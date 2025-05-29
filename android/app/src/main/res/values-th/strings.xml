@@ -60,9 +60,9 @@
     <string name="not_enough_free_space_on_sdcard">โปรดเพิ่มพื้นที่บางส่วนบนการ์ด SD /พื้นที่จัดเก็บ USB ก่อนเพื่อใช้แอป</string>
     <string name="download_resources">ก่อนที่คุณจะเริ่มต้น โปรดให้เราดาวน์โหลดแผนที่โลกลงในอุปกรณ์ของคุณ \nจำเป็นต้องใช้ %s ของข้อมูล</string>
     <string name="download_resources_continue">ไปยังแผนที่</string>
-    <string name="downloading_country_can_proceed">กำลังดาวน์โหลด %s ตอนนี้คุณสามารถ \nดำเนินการต่อไปยังแผนที่</string>
-    <string name="download_country_ask">ดาวน์โหลด %s?</string>
-    <string name="update_country_ask">อัปเดต %s?</string>
+    <string name="downloading_country_can_proceed">กำลังดาวน์โหลด %1$s (%2$s) ตอนนี้คุณสามารถ \nดำเนินการต่อไปยังแผนที่</string>
+    <string name="download_country_ask">ดาวน์โหลด %1$s? (%2$s)</string>
+    <string name="update_country_ask">อัปเดต %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">หยุดชั่วคราว</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

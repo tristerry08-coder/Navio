@@ -58,9 +58,9 @@
     <string name="not_enough_free_space_on_sdcard">Bạn vui lòng giải phóng dung lượng trên ổ lưu trữ thẻ SD/USB để có thể sử dụng ứng dụng</string>
     <string name="download_resources">Trước khi bạn bắt đầu, hãy để chúng tôi tải bản đồ thế giới vào thiết bị của bạn. \nBản đồ này cần %s dữ liệu.</string>
     <string name="download_resources_continue">Đến Bản đồ</string>
-    <string name="downloading_country_can_proceed">Đang tải xuống %s. Bây giờ bạn đã có thể \nvào bản đồ.</string>
-    <string name="download_country_ask">Tải xuống %s?</string>
-    <string name="update_country_ask">Cập nhật %s?</string>
+    <string name="downloading_country_can_proceed">Đang tải xuống %1$s (%2$s). Bây giờ bạn đã có thể \nvào bản đồ.</string>
+    <string name="download_country_ask">Tải xuống %1$s? (%2$s)</string>
+    <string name="update_country_ask">Cập nhật %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Tạm dừng</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

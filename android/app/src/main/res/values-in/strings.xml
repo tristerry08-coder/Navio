@@ -60,9 +60,9 @@
     <string name="not_enough_free_space_on_sdcard">Mohon bebaskan sejumlah ruang pada kartu SD/penyimpanan USB terlebih dahulu untuk menggunakan aplikasi</string>
     <string name="download_resources">Sebelum Anda mulai izinkan kami mengunduh peta dunia secara umum ke perangkat Anda. \nHal ini memerlukan data %s.</string>
     <string name="download_resources_continue">Pergi ke Peta</string>
-    <string name="downloading_country_can_proceed">Sedang mengunduh %s. Sekarang Anda dapat melanjutkan ke peta.</string>
-    <string name="download_country_ask">Unduh %s?</string>
-    <string name="update_country_ask">Perbarui %s?</string>
+    <string name="downloading_country_can_proceed">Sedang mengunduh %1$s (%2$s). Sekarang Anda dapat melanjutkan ke peta.</string>
+    <string name="download_country_ask">Unduh %1$s? (%2$s)</string>
+    <string name="update_country_ask">Perbarui %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Jeda</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

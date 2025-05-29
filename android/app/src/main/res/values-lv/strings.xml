@@ -58,9 +58,9 @@
     <string name="not_enough_free_space_on_sdcard">Lietotnes izmantošanai atbrīvojiet vietu ierīces krātuvē</string>
     <string name="download_resources">Pirms sākt izmantot lietotni lejupielādējiet pasaules pārskata karti. \nTā ierīces krātuvē aizņems %s vietas.</string>
     <string name="download_resources_continue">Iet uz karti</string>
-    <string name="downloading_country_can_proceed">Lejupielādē „%s“. Tagad varat \niet uz karti.</string>
-    <string name="download_country_ask">Vai lejupielādēt „%s“?</string>
-    <string name="update_country_ask">Vai atjaunināt „%s“?</string>
+    <string name="downloading_country_can_proceed">Lejupielādē „%1$s (%2$s)“. Tagad varat \niet uz karti.</string>
+    <string name="download_country_ask">Vai lejupielādēt „%1$s“? (%2$s)</string>
+    <string name="update_country_ask">Vai atjaunināt „%1$s“? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Apturēt</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

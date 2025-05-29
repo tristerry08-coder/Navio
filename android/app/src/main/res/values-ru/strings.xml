@@ -61,9 +61,9 @@
     <string name="not_enough_free_space_on_sdcard">Недостаточно свободного места на SD карте/в памяти устройства для использования программы</string>
     <string name="download_resources">Для начала работы скачайте, пожалуйста, обзорную карту мира на ваше устройство. \nПотребуется %s данных.</string>
     <string name="download_resources_continue">Перейти на карту</string>
-    <string name="downloading_country_can_proceed">Пока загружается %s, \nвы можете пользоваться картой.</string>
-    <string name="download_country_ask">Загрузить %s?</string>
-    <string name="update_country_ask">Обновить %s?</string>
+    <string name="downloading_country_can_proceed">Пока загружается %1$s (%2$s), \nвы можете пользоваться картой.</string>
+    <string name="download_country_ask">Загрузить %1$s? (%2$s)</string>
+    <string name="update_country_ask">Обновить %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Приостановить</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

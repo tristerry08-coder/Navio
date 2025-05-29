@@ -52,9 +52,9 @@
     <string name="not_enough_free_space_on_sdcard">Por favor libere primeiro algum espaço no cartão SD/armazenamento USB para utilizar o app</string>
     <string name="download_resources">Antes de começar, vamos baixar a visão geral mundial para o seu dispositivo. \nÉ necessário %s de armazenamento.</string>
     <string name="download_resources_continue">Ir para o mapa</string>
-    <string name="downloading_country_can_proceed">Baixando %s. Você pode \ncontinuar para o mapa agora.</string>
-    <string name="download_country_ask">Baixar %s?</string>
-    <string name="update_country_ask">Atualizar %s?</string>
+    <string name="downloading_country_can_proceed">Baixando %1$s (%2$s). Você pode \ncontinuar para o mapa agora.</string>
+    <string name="download_country_ask">Baixar %1$s? (%2$s)</string>
+    <string name="update_country_ask">Atualizar %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Pausar</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

@@ -58,9 +58,9 @@
     <string name="not_enough_free_space_on_sdcard">Az alkalmazás használatához először szabadítson fel némi helyet az SD-kártyán/USB-tárolón</string>
     <string name="download_resources">Mielőtt elkezdené használni az alkalmazást, töltse le az áttekintő világtérképet az eszközre. \nEz %s tárhelyet fog igénybe venni.</string>
     <string name="download_resources_continue">Ugrás a térképre</string>
-    <string name="downloading_country_can_proceed">%s letöltése. Most már\ntovábbléphet a térképre.</string>
-    <string name="download_country_ask">Letölti a következőt: %s?</string>
-    <string name="update_country_ask">Frissíti a következőt: %s?</string>
+    <string name="downloading_country_can_proceed">%1$s (%2$s) letöltése. Most már\ntovábbléphet a térképre.</string>
+    <string name="download_country_ask">Letölti a következőt: %1$s? (%2$s)</string>
+    <string name="update_country_ask">Frissíti a következőt: %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Szüneteltetés</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

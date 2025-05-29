@@ -60,9 +60,9 @@
     <string name="not_enough_free_space_on_sdcard">Tətbiqdən istifadə etmək üçün SD kartda/USB yaddaş cihazında bir qədər yer boşaldın.</string>
     <string name="download_resources">Başlamazdan əvvəl gəlin ümumi dünya xəritəsini cihazınıza endirək. \n%s yer tələb olunur.</string>
     <string name="download_resources_continue">Xəritəyə keçin</string>
-    <string name="downloading_country_can_proceed">%s endirilir. İndi xəritəyə gedə bilərsiniz.</string>
-    <string name="download_country_ask">%s endirilir?</string>
-    <string name="update_country_ask">%s yenilənsin?</string>
+    <string name="downloading_country_can_proceed">%1$s (%2$s) endirilir. İndi xəritəyə gedə bilərsiniz.</string>
+    <string name="download_country_ask">%1$s endirilir? (%2$s)</string>
+    <string name="update_country_ask">%1$s yenilənsin? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Dayan</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

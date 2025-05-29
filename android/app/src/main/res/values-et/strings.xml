@@ -52,9 +52,9 @@
     <string name="not_enough_free_space_on_sdcard">Rakenduse kasutamiseks palun vabasta kõigepealt piisavalt ruumi mälukaardil/USB salvestusseadmel</string>
     <string name="download_resources">Enne rakenduse kasutamise alustamist luba meil laadida seadmesse alla maailma üldkaart. \nSee kasutab %s mälumahtu.</string>
     <string name="download_resources_continue">Ava kaart</string>
-    <string name="downloading_country_can_proceed">Allalaadimisel on %s. Võid nüüd \nkaardiga jätkata.</string>
-    <string name="download_country_ask">Kas laadime %s alla?</string>
-    <string name="update_country_ask">Kas uuendame %s?</string>
+    <string name="downloading_country_can_proceed">Allalaadimisel on %1$s (%2$s). Võid nüüd \nkaardiga jätkata.</string>
+    <string name="download_country_ask">Kas laadime %1$s alla? (%2$s)</string>
+    <string name="update_country_ask">Kas uuendame %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Peata</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

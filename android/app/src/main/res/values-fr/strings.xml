@@ -61,9 +61,9 @@
     <string name="not_enough_free_space_on_sdcard">Veuillez d\'abord libérer de l\'espace sur la carte SD/le stockage USB afin d\'utiliser l\'appli</string>
     <string name="download_resources">Avant de commencer, permettez-nous de télécharger la carte générale du monde dans votre appareil. \n%s d\'espace de stockage sont nécessaires.</string>
     <string name="download_resources_continue">Aller sur la carte</string>
-    <string name="downloading_country_can_proceed">%s en téléchargement. Vous pouvez \nmaintenant aller sur la carte.</string>
-    <string name="download_country_ask">Télécharger %s ?</string>
-    <string name="update_country_ask">Mettre %s à jour ?</string>
+    <string name="downloading_country_can_proceed">%1$s (%2$s) en téléchargement. Vous pouvez \nmaintenant aller sur la carte.</string>
+    <string name="download_country_ask">Télécharger %1$s ? (%2$s)</string>
+    <string name="update_country_ask">Mettre %1$s à jour ? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Pause</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

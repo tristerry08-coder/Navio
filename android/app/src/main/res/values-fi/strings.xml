@@ -61,9 +61,9 @@
     <string name="not_enough_free_space_on_sdcard">Vapauta ensin tilaa SD-kortilta/USB-massamuistilta käyttääksesi sovellusta</string>
     <string name="download_resources">Ennen aloitusta laitteelle tulee ladata yleinen maailmankartta. \nSe tarvitsee yhteensä %s tilaa.</string>
     <string name="download_resources_continue">Siirry karttaan</string>
-    <string name="downloading_country_can_proceed">Ladataan %s. Voit nyt jatkaa \nkartalle.</string>
-    <string name="download_country_ask">Ladataanko %s?</string>
-    <string name="update_country_ask">Päivitetäänkö %s?</string>
+    <string name="downloading_country_can_proceed">Ladataan %1$s (%2$s). Voit nyt jatkaa \nkartalle.</string>
+    <string name="download_country_ask">Ladataanko %1$s? (%2$s)</string>
+    <string name="update_country_ask">Päivitetäänkö %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Pysäytä</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

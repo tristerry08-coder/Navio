@@ -52,9 +52,9 @@
     <string name="not_enough_free_space_on_sdcard">कृपया ऍप वापरण्यासाठी प्रथम SD कार्ड/USB स्टोरेजवरील काही जागा मोकळी करा</string>
     <string name="download_resources">ऍपचा वापर सुरू करण्यापूर्वी, आम्हाला तुमच्या उपकरणावर जगाचा सामान्य नकाशा डाउनलोड करण्याची परवानगी द्या. \nते %s जागा वापरेल.</string>
     <string name="download_resources_continue">नकाशावर जा</string>
-    <string name="downloading_country_can_proceed">%s डाउनलोड करत आहे. \nतुम्ही आता नकाशावर जाऊ शकता.</string>
-    <string name="download_country_ask">%s डाउनलोड करायचे?</string>
-    <string name="update_country_ask">%s अद्ययावत करायचे?</string>
+    <string name="downloading_country_can_proceed">%1$s (%2$s) डाउनलोड करत आहे. \nतुम्ही आता नकाशावर जाऊ शकता.</string>
+    <string name="download_country_ask">%1$s डाउनलोड करायचे? (%2$s)</string>
+    <string name="update_country_ask">%1$s अद्ययावत करायचे? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">विराम द्या</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

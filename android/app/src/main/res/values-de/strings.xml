@@ -58,9 +58,9 @@
     <string name="not_enough_free_space_on_sdcard">Bitte zuerst Speicherplatz auf SD-Karte/USB-Speicher freigeben, um die Anwendung zu nutzen</string>
     <string name="download_resources">Bevor Sie die App verwenden, laden Sie bitte die weltweite Übersichtskarte herunter. \nEs werden %s Speicherplatz benötigt.</string>
     <string name="download_resources_continue">Zur Karte</string>
-    <string name="downloading_country_can_proceed">%s wird heruntergeladen. Sie können jetzt \nzur Karte weitergehen.</string>
-    <string name="download_country_ask">%s herunterladen?</string>
-    <string name="update_country_ask">%s aktualisieren?</string>
+    <string name="downloading_country_can_proceed">%1$s (%2$s) wird heruntergeladen. Sie können jetzt \nzur Karte weitergehen.</string>
+    <string name="download_country_ask">%1$s herunterladen? (%2$s)</string>
+    <string name="update_country_ask">%1$s aktualisieren? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Pause</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

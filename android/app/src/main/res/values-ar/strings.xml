@@ -61,9 +61,9 @@
     <string name="not_enough_free_space_on_sdcard">الرجاء إخلاء بعض المساحة في تخزين البطاقة الرقمية الآمنةلناقل التسلسلي الشامل أولا من أجل استخدام هذا التطبيق.</string>
     <string name="download_resources">قبل أن تبدأ باستخدام التطبيق، سنقوم بتنزيل خريطة العالم العامة على جهازك. \nستحتاج إلى %s من البيانات.</string>
     <string name="download_resources_continue">الذهاب الى الخريطة</string>
-    <string name="downloading_country_can_proceed">تنزيل %s. يمكنك الآن \nالمتابعة الى الخريطة.</string>
-    <string name="download_country_ask">هل تريد تنزيل %s؟</string>
-    <string name="update_country_ask">هل تريد تحديث %s ؟</string>
+    <string name="downloading_country_can_proceed">تنزيل %1$s (%2$s). يمكنك الآن \nالمتابعة الى الخريطة.</string>
+    <string name="download_country_ask">هل تريد تنزيل %1$s؟ (%2$s)</string>
+    <string name="update_country_ask">هل تريد تحديث %1$s ؟ (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">توقيف مؤقت</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

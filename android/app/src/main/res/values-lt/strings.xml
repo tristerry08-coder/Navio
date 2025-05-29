@@ -59,9 +59,9 @@
     <string name="not_enough_free_space_on_sdcard">Jeigu norite naudotis programėle, atlaisvinkite vietos SD kortelėje ar USB atmintinėje</string>
     <string name="download_resources">Prieš pradėdami naudotis programėle, leiskite atsiųsti bendrąjį pasaulio žemėlapį į jūsų įrenginį. \nJis užims %s vietos saugykloje.</string>
     <string name="download_resources_continue">Eiti į žemėlapį</string>
-    <string name="downloading_country_can_proceed">Atsiunčiama %s. Dabar galite \neiti į žemėlapį.</string>
-    <string name="download_country_ask">Atsiųsti %s?</string>
-    <string name="update_country_ask">Naujinti %s?</string>
+    <string name="downloading_country_can_proceed">Atsiunčiama %1$s (%2$s). Dabar galite \neiti į žemėlapį.</string>
+    <string name="download_country_ask">Atsiųsti %1$s? (%2$s)</string>
+    <string name="update_country_ask">Naujinti %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Pristabdyti</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

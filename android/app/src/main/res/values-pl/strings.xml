@@ -58,9 +58,9 @@
     <string name="not_enough_free_space_on_sdcard">Proszę zwolnić trochę pamięci na karcie SD/pamięci USB, aby korzystać z aplikacji</string>
     <string name="download_resources">Przed rozpoczęciem prosimy o pobranie ogólnej mapy świata na urządzenie. \nWymaga to %s danych.</string>
     <string name="download_resources_continue">Przejdź do mapy</string>
-    <string name="downloading_country_can_proceed">Pobieranie %s. Można teraz \nprzejść do mapy.</string>
-    <string name="download_country_ask">Pobrać %s?</string>
-    <string name="update_country_ask">Uaktualnić %s?</string>
+    <string name="downloading_country_can_proceed">Pobieranie %1$s (%2$s). Można teraz \nprzejść do mapy.</string>
+    <string name="download_country_ask">Pobrać %1$s? (%2$s)</string>
+    <string name="update_country_ask">Uaktualnić %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Wstrzymaj</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

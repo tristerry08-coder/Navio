@@ -58,9 +58,9 @@
     <string name="not_enough_free_space_on_sdcard">Maak eerst ruimte vrij op de SD-kaart/USB-opslag om de app te gebruiken</string>
     <string name="download_resources">Voordat u start, laten we de algemene wereldkaart naar uw apparaat downloaden. \nDeze neemt %s in beslag.</string>
     <string name="download_resources_continue">Ga naar de kaart</string>
-    <string name="downloading_country_can_proceed">%s aan het downloaden. U kunt nu \ndoorgaan naar de kaart.</string>
-    <string name="download_country_ask">%s downloaden?</string>
-    <string name="update_country_ask">%s updaten?</string>
+    <string name="downloading_country_can_proceed">%1$s (%2$s) aan het downloaden. U kunt nu \ndoorgaan naar de kaart.</string>
+    <string name="download_country_ask">%1$s downloaden? (%2$s)</string>
+    <string name="update_country_ask">%1$s updaten? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Pauzeer</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

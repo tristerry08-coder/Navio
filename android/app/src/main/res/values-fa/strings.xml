@@ -59,9 +59,9 @@
     <string name="not_enough_free_space_on_sdcard">لطفا مقداری از فضای ذخیره‌سازی را آزاد نمایید</string>
     <string name="download_resources">قبل از استفاده از اپلیکیشن, اجازه دهید تا ما نقشه جهانی را بر روی موبایل شما دانلود کنیم. \nمقدار %s از حافظه شما اشغال می شود.</string>
     <string name="download_resources_continue">برو به نقشه</string>
-    <string name="downloading_country_can_proceed">درحال دانلود %s. شما اکنون می توانید \nبه نقشه بروید.</string>
-    <string name="download_country_ask">دانلود %s?</string>
-    <string name="update_country_ask">آپدیت %s?</string>
+    <string name="downloading_country_can_proceed">درحال دانلود %1$s (%2$s). شما اکنون می توانید \nبه نقشه بروید.</string>
+    <string name="download_country_ask">دانلود %1$s؟ (%2$s)</string>
+    <string name="update_country_ask">آپدیت %1$s؟ (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">مکث</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

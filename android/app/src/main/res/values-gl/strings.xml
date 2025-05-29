@@ -180,9 +180,9 @@
     <string name="not_enough_free_space_on_sdcard">Libere espazo na memoria SD ou almacenamento USB para usar a aplicación</string>
     <string name="download_resources">Antes de comezar, permita que descarguemos no seu dispositivo un mapamundi xeral. \nRequírense %s de almacenamento.</string>
     <string name="download_resources_continue">Ir ao mapa</string>
-    <string name="downloading_country_can_proceed">Descargando %s. Pode agora \nproceder ao mapa.</string>
-    <string name="download_country_ask">Descargar %s?</string>
-    <string name="update_country_ask">Actualizar %s?</string>
+    <string name="downloading_country_can_proceed">Descargando %1$s (%2$s). Pode agora \nproceder ao mapa.</string>
+    <string name="download_country_ask">Descargar %1$s? (%2$s)</string>
+    <string name="update_country_ask">Actualizar %1$s? (%2$s)</string>
     <string name="pause">Pausar</string>
     <string name="download_country_failed">Non se puido descargar %s</string>
     <string name="add_new_set">Agregar un grupo novo</string>

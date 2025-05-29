@@ -54,9 +54,9 @@
     <string name="not_enough_free_space_on_sdcard">Jekk jogħġbok żid ftit spazju fuq il-karta tal-memorja jew il-ħażna tal-USB biex tkun tista tuża l-applikazzjoni</string>
     <string name="download_resources">Qabel ma tibda tuża l-applikazzjoni, niżżel il-mappa ġenerali tad-dinja fuq l-apparat. \nDan ser juża %s ta\' storage.</string>
     <string name="download_resources_continue">Mur għal Mappa</string>
-    <string name="downloading_country_can_proceed">Tniżżil %s. Issa tista \ntkompli għal mappa.</string>
-    <string name="download_country_ask">Tniżżel %s?</string>
-    <string name="update_country_ask">Aġġorna %s?</string>
+    <string name="downloading_country_can_proceed">Tniżżil %1$s (%2$s). Issa tista \ntkompli għal mappa.</string>
+    <string name="download_country_ask">Tniżżel %1$s? (%2$s)</string>
+    <string name="update_country_ask">Aġġorna %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Pawsa</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

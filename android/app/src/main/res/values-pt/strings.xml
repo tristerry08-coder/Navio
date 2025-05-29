@@ -58,9 +58,9 @@
     <string name="not_enough_free_space_on_sdcard">Por favor liberte primeiro algum espaço no cartão SD ou armazenamento USB para utilizar a aplicação</string>
     <string name="download_resources">Antes de começar, é recomendável descarregar a visão geral mundial para o seu dispositivo. \nÉ necessário %s de espaço disponível.</string>
     <string name="download_resources_continue">Ir ao mapa</string>
-    <string name="downloading_country_can_proceed">A descarregar %s. Agora pode \nver o mapa.</string>
-    <string name="download_country_ask">Descarregar %s?</string>
-    <string name="update_country_ask">Atualizar %s?</string>
+    <string name="downloading_country_can_proceed">A descarregar %1$s (%2$s). Agora pode \nver o mapa.</string>
+    <string name="download_country_ask">Descarregar %1$s? (%2$s)</string>
+    <string name="update_country_ask">Atualizar %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Pausar</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

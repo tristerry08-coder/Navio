@@ -58,9 +58,9 @@
     <string name="not_enough_free_space_on_sdcard">Allibereu espai en la targeta SD o emmagatzematge USB per a poder usar l’aplicació</string>
     <string name="download_resources">Abans d’usar l’aplicació, cal que baixeu el mapa del món general al vostre aparell. \nUsarà %s d’emmagatzematge.</string>
     <string name="download_resources_continue">Ves al mapa</string>
-    <string name="downloading_country_can_proceed">S’està baixant %s. Mentrestant, podeu \nanar al mapa.</string>
-    <string name="download_country_ask">Voleu baixar %s?</string>
-    <string name="update_country_ask">Voleu actualitzar %s?</string>
+    <string name="downloading_country_can_proceed">S’està baixant %1$s (%2$s). Mentrestant, podeu \nanar al mapa.</string>
+    <string name="download_country_ask">Voleu baixar %1$s? (%2$s)</string>
+    <string name="update_country_ask">Voleu actualitzar %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Pausa</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

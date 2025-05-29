@@ -58,9 +58,9 @@
     <string name="not_enough_free_space_on_sdcard">Vänligen frigör utrymme på SD-kortet/USB-lagringen först för att använda appen</string>
     <string name="download_resources">Innan du börjar, ladda gärna ner den översiktliga världskartan på din enhet. \nDen behöver %s lagringsutrymme.</string>
     <string name="download_resources_continue">Gå till karta</string>
-    <string name="downloading_country_can_proceed">Laddar ner %s. Du kan nu \n fortsätta till kartan.</string>
-    <string name="download_country_ask">Ladda ner %s?</string>
-    <string name="update_country_ask">Uppdatera %s?</string>
+    <string name="downloading_country_can_proceed">Laddar ner %1$s (%2$s). Du kan nu \n fortsätta till kartan.</string>
+    <string name="download_country_ask">Ladda ner %1$s? (%2$s)</string>
+    <string name="update_country_ask">Uppdatera %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Pausa</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

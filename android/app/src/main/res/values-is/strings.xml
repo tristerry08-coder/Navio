@@ -305,8 +305,8 @@
     <string name="about_headline">Ókeypis fyrir alla, unnið af alúð</string>
     <string name="location_settings">Staðsetningarstillingar</string>
     <string name="download_resources_continue">Fara á kort</string>
-    <string name="download_country_ask">Sækja %s?</string>
-    <string name="update_country_ask">Uppfæra %s?</string>
+    <string name="download_country_ask">Sækja %1$s? (%2$s)</string>
+    <string name="update_country_ask">Uppfæra %1$s? (%2$s)</string>
     <string name="add_new_set">Bæta við nýjum lista</string>
     <string name="maps_storage">Vista landakort í</string>
     <string name="power_managment_setting_auto">Þegar lítil rafhleðsla er eftir</string>
@@ -462,7 +462,7 @@
     <string name="editor_hours_closed">Ekki-opnunartímar</string>
     <string name="placepage_personal_notes_hint">Persónulegir minnispunktar (texti eða html)</string>
     <string name="editor_reset_edits_message">Henda öllum staðværum breytingum?</string>
-    <string name="downloading_country_can_proceed">Sæki %s. Þú getur núna \nfarið yfir á landakortið.</string>
+    <string name="downloading_country_can_proceed">Sæki %1$s (%2$s). Þú getur núna \nfarið yfir á landakortið.</string>
     <string name="share_bookmarks_email_body">Halló! \n \nMeðfylgjandi eru bókamerkin mín; endilega opnaðu þau í CoMaps forritinu. Ef þú ert ekki með það uppsett geturðu sótt það hér: https://www.comaps.app/download/ \n \nNjóttu ferðarinnar með CoMaps!</string>
     <string name="load_kmz_successful">Tókst að hlaða inn bókamerkjum! Þú getur skoðað þau á landakortinu eða í bókamerkjasafninu.</string>
     <string name="my_position_share_sms">Skoðaðu núverandi staðsetninguna mína á CoMaps landakortinu! %1$s eða %2$s Ertu ekki með ónettengd kort? Sæktu þau hér: https://www.comaps.app/download/</string>

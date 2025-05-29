@@ -59,9 +59,9 @@
     <string name="not_enough_free_space_on_sdcard">Maak asb. eers spasie op die SD-kaart/USB-berging beskikbaar om die kaart te kan gebruik</string>
     <string name="download_resources">Voordat u die toep begin gebruik, moet u asb. die algemene wêreldkaart na u toestel aflaai. \nDit sal %s se spasie opneem.</string>
     <string name="download_resources_continue">Gaan na kaart</string>
-    <string name="downloading_country_can_proceed">Laai tans %s af. U kan nou \nna die kaart gaan.</string>
-    <string name="download_country_ask">Laai %s af?</string>
-    <string name="update_country_ask">Werk %s by?</string>
+    <string name="downloading_country_can_proceed">Laai tans %1$s (%2$s) af. U kan nou \nna die kaart gaan.</string>
+    <string name="download_country_ask">Laai %1$s af? (%2$s)</string>
+    <string name="update_country_ask">Werk %1$s by? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Wag</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

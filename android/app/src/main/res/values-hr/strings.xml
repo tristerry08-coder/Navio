@@ -20,7 +20,7 @@
     <string name="close">Zatvori</string>
     <string name="download">Preuzmi</string>
     <string name="download_resources_continue">Prikaži kartu</string>
-    <string name="download_country_ask">Preuzmi %s?</string>
+    <string name="download_country_ask">Preuzmi %1$s? (%2$s)</string>
     <string name="continue_button">Nastavi</string>
     <string name="download_country_failed">%s neuspješno preuzimanje</string>
     <string name="report_a_bug">Prijavi pogrešku</string>

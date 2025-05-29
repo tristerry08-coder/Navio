@@ -149,8 +149,8 @@
     <string name="m">m</string>
     <string name="download_resources_continue">Dir al mapa</string>
     <string name="maps_storage_summary">Esbilla la carpeta onde tienen de baxase los mapes.</string>
-    <string name="download_country_ask">¿Quies baxar %s?</string>
-    <string name="update_country_ask">¿Quies anovar %s?</string>
+    <string name="download_country_ask">¿Quies baxar %1$s? (%2$s)</string>
+    <string name="update_country_ask">¿Quies anovar %1$s? (%2$s)</string>
     <string name="downloader_downloaded_subtitle">Baxaos</string>
     <string name="editor_report_problem_send_button">Unviar</string>
     <string name="autodownload">Baxar mapes n’automático</string>

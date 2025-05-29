@@ -58,9 +58,9 @@
     <string name="not_enough_free_space_on_sdcard">アプリを起動するにはSDカード/USBストレージの空き容量を確保する必要があります</string>
     <string name="download_resources">利用を開始する前におおまかな世界地図をダウンロードします。\nこれには%sの空き容量が必要です。</string>
     <string name="download_resources_continue">マップを表示</string>
-    <string name="downloading_country_can_proceed">%sをダウンロードしました \nマップを表示可能です。</string>
-    <string name="download_country_ask">%sをダウンロードしますか？</string>
-    <string name="update_country_ask">%sを更新しますか？</string>
+    <string name="downloading_country_can_proceed">%1$s (%2$s)をダウンロードしました \nマップを表示可能です。</string>
+    <string name="download_country_ask">%1$sをダウンロードしますか？ (%2$s)</string>
+    <string name="update_country_ask">%1$sを更新しますか？ (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">一時停止</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

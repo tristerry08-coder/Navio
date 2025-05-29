@@ -61,9 +61,9 @@
     <string name="not_enough_free_space_on_sdcard">Моля, първо освободете място на SD картата/USB паметта, за да можете да използвате приложението.</string>
     <string name="download_resources">Преди да започнете да използвате приложението, позволете ни да изтеглим основната карта на света на вашето устройство. \nТова ще използва %s от паметта.</string>
     <string name="download_resources_continue">Към картата</string>
-    <string name="downloading_country_can_proceed">Изтегляне на %s. Вече можете да преминете към картата.</string>
-    <string name="download_country_ask">Изтегляне на %s?</string>
-    <string name="update_country_ask">Обновяване на %s?</string>
+    <string name="downloading_country_can_proceed">Изтегляне на %1$s (%2$s). Вече можете да преминете към картата.</string>
+    <string name="download_country_ask">Изтегляне на %1$s? (%2$s)</string>
+    <string name="update_country_ask">Обновяване на %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Пауза</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

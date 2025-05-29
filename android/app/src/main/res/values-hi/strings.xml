@@ -61,9 +61,9 @@
     <string name="not_enough_free_space_on_sdcard">ऐप का उपयोग करने के लिए कृपया पहले एसडी कार्ड/यूएसबी स्टोरेज पर कुछ जगह खाली कर लें</string>
     <string name="download_resources">ऐप का उपयोग शुरू करने से पहले, कृपया अपने डिवाइस पर सामान्य विश्व मानचित्र डाउनलोड करें। \nयह %s स्टोरेज का उपयोग करेगा।</string>
     <string name="download_resources_continue">मानचित्र पर जाएं</string>
-    <string name="downloading_country_can_proceed">डाउनलोड हो रहा है %s. अब तुम यह कर सकते हो \nमानचित्र पर आगे बढ़ें.</string>
-    <string name="download_country_ask">डाउनलोड करना %s?</string>
-    <string name="update_country_ask">अद्यतन %s?</string>
+    <string name="downloading_country_can_proceed">डाउनलोड हो रहा है %1$s (%2$s). अब तुम यह कर सकते हो \nमानचित्र पर आगे बढ़ें.</string>
+    <string name="download_country_ask">डाउनलोड करना %1$s? (%2$s)</string>
+    <string name="update_country_ask">अद्यतन %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">विराम</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

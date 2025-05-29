@@ -61,9 +61,9 @@
     <string name="not_enough_free_space_on_sdcard">Вызваліце месца на SD-карце/USB-сховішчы, каб карыстацца праграмай</string>
     <string name="download_resources">Перш чым пачаць карыстацца праграмай, спампуйце на сваю прыладу аглядную карту свету. \nДля яе спатрэбіцца %s у сховішчы.</string>
     <string name="download_resources_continue">Перайсці да карты</string>
-    <string name="downloading_country_can_proceed">Спампоўванне %s. Цяпер вы можаце \nперайсці да карты.</string>
-    <string name="download_country_ask">Спампаваць %s?</string>
-    <string name="update_country_ask">Абнавіць %s?</string>
+    <string name="downloading_country_can_proceed">Спампоўванне %1$s (%2$s). Цяпер вы можаце \nперайсці да карты.</string>
+    <string name="download_country_ask">Спампаваць %1$s? (%2$s)</string>
+    <string name="update_country_ask">Абнавіць %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Прыпыніць</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

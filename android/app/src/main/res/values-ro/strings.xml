@@ -58,9 +58,9 @@
     <string name="not_enough_free_space_on_sdcard">Spațiul de stocare de pe cardul SD/memoria USB este insuficient pentru a putea utiliza aplicația</string>
     <string name="download_resources">Înainte de a începe, trebuie descărcată harta generală a lumii în dispozitivul tău. \nSe vor descărca %s.</string>
     <string name="download_resources_continue">Mergi la hartă</string>
-    <string name="downloading_country_can_proceed">Se descarcă %s. Acum poți \ntrece la hartă.</string>
-    <string name="download_country_ask">Descarci %s?</string>
-    <string name="update_country_ask">Actualizezi %s?</string>
+    <string name="downloading_country_can_proceed">Se descarcă %1$s (%2$s). Acum poți \ntrece la hartă.</string>
+    <string name="download_country_ask">Descarci %1$s? (%2$s)</string>
+    <string name="update_country_ask">Actualizezi %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Pauză</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

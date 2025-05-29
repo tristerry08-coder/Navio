@@ -54,9 +54,9 @@
     <string name="not_enough_free_space_on_sdcard">Молим вас, прво ослободите нешто простора на СД картици или на УСБ меморији да бисте користили апликацију</string>
     <string name="download_resources">Пре него што почнете да користите апликацију, прво преузмите на ваш уређај мапу света. \nЗа то ће бити потребно %s меморије.</string>
     <string name="download_resources_continue">Иди на мапу</string>
-    <string name="downloading_country_can_proceed">Преузимање %s. Можете \nотићи на мапу.</string>
-    <string name="download_country_ask">Преузети %s?</string>
-    <string name="update_country_ask">Ажурирати %s?</string>
+    <string name="downloading_country_can_proceed">Преузимање %1$s (%2$s). Можете \nотићи на мапу.</string>
+    <string name="download_country_ask">Преузети %1$s? (%2$s)</string>
+    <string name="update_country_ask">Ажурирати %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Пауза</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->

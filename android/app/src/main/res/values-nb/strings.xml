@@ -60,9 +60,9 @@
     <string name="not_enough_free_space_on_sdcard">Frigjør plass på SD-kortet/USB-enheten først for å bruke appen</string>
     <string name="download_resources">Før du begynner, la oss laste ned det generelle verdenskartet til enheten. Det trengs %s med data.</string>
     <string name="download_resources_continue">Gå til kart</string>
-    <string name="downloading_country_can_proceed">Laster ned %s. Du kan nå \nfortsette til kartet.</string>
-    <string name="download_country_ask">Vil du laste ned %s?</string>
-    <string name="update_country_ask">Vil du oppdatere %s?</string>
+    <string name="downloading_country_can_proceed">Laster ned %1$s (%2$s). Du kan nå \nfortsette til kartet.</string>
+    <string name="download_country_ask">Vil du laste ned %1$s? (%2$s)</string>
+    <string name="update_country_ask">Vil du oppdatere %1$s? (%2$s)</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
     <string name="pause">Pause</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
