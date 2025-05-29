@@ -15,22 +15,20 @@ Liitu kogukonnaga ja aita luua parimat kaardirakendust:
 ‣ <b>Organisatsioon on avatud ja kasutab läbipaistvat otsustusprotsessi ning rahastamist ega taotle kasumit. Rakendus on avatud lähtekoodiga.</b>
 
 <b>Põhifunktsionaalsused</b>:
-<ul>
-<li>Allalaaditavad kaardid, mille sisu tihtipeale ei leia Google Mapsist</li>
-<li>Kaardivaade välitingimuste jaoks, kus matkarajad, laagriplatsid, allikad, mäetipud, kontuurjooned ja palju muud vajalikku on esile tõstetud</li>
-<li>Jalgrajad, rattateed ning maanteed</li>
-<li>Huvipunktid, nagu restoranid, tanklad, hotellid, poed, vaatamisväärsused ja palju muud</li>
-<li>Otsida saad nime, aadressi või huvipunkti kategooria alusel</li>
-<li>Tee juhatamine hääljuhiste abil toimib nii kõndimisel, rattasõidul kui auto juhtimisel</li>
-<li>Ühe puudutusega saad oma lemmikkohad märkida järjehoidjana</li>
-<li>Vikipeedia artiklid, mida saad lugeda ilma võrguühenduseta</li>
-<li>Metroode plaanid ja suunajuhised</li>
-<li>Raja või teekonna salvestamise võimalus</li>
-<li>Järjehoidjate ja radade eksport ning import KML, KMZ ja GPX vormingutes</li>
-<li>Tume kaardivaade kasutamiseks öösel</li>
-<li>Kasutades lihtsat muutmisliidest saad kaarti kõikide huvides täiendada</li>
-<li>Android Auto liidestus</li>
-</ul>
+• Allalaaditavad kaardid, mille sisu tihtipeale ei leia Google Mapsist
+• Kaardivaade välitingimuste jaoks, kus matkarajad, laagriplatsid, allikad, mäetipud, kontuurjooned ja palju muud vajalikku on esile tõstetud
+• Jalgrajad, rattateed ning maanteed
+• Huvipunktid, nagu restoranid, tanklad, hotellid, poed, vaatamisväärsused ja palju muud
+• Otsida saad nime, aadressi või huvipunkti kategooria alusel
+• Tee juhatamine hääljuhiste abil toimib nii kõndimisel, rattasõidul kui auto juhtimisel
+• Ühe puudutusega saad oma lemmikkohad märkida järjehoidjana
+• Vikipeedia artiklid, mida saad lugeda ilma võrguühenduseta
+• Metroode plaanid ja suunajuhised
+• Raja või teekonna salvestamise võimalus
+• Järjehoidjate ja radade eksport ning import KML, KMZ ja GPX vormingutes
+• Tume kaardivaade kasutamiseks öösel
+• Kasutades lihtsat muutmisliidest saad kaarti kõikide huvides täiendada
+• Android Auto liidestus
 
 Palun teata rakenduse vigadest, soovita uusi ideid ja liitu kogukonnaga <b><i>comaps.app</i></b> veebisaidis.
 
