@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="type.historic.castle.stately">法式城堡</string>
+    <string name="type.historic.citywalls">城牆</string>
+    <string name="type.historic.gallows">絞架</string>
+</resources>
