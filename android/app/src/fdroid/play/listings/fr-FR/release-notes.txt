@@ -1,0 +1,11 @@
+Première version de CoMaps!
+Changements par rapport à Organic Maps:
+• Données OpenStreetMap du 15 mai
+• Connexion au compte OSM via le navigateur
+• Retrait du fond semi-transparent sur la couche Métro
+• Remplacement du metaserveur par une liste statique de serveurs
+• Ajout de la taille de la carte locale au premier démarrage
+• Amélioration du mode nuit automatique
+• Correction de la suggestion de téléchargements de cartes
+• Mise à jour des traductions
+• Rebranding - le logo est encore provisoire

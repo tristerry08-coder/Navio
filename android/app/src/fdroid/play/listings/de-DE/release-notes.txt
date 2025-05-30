@@ -1,0 +1,10 @@
+Erster CoMaps Release!
+Was ist neu im Vergleich zu Organic Maps:
+• OpenStreetMap-Daten vom 15. Mai
+• OSM Login jetzt über den Webbrowser
+• Der halbtransparente Hintergrund in der U-Bahn-Ansicht wurde entfernt
+• Größe der lokalen Karte beim ersten Karten download anzeigen
+• Der Metaserver wurde durch eine feste Liste an Kartenservern ersetzt
+• Der Nachtmodus schaltet jetzt besser um, auch wenn kein GPS-Signal da ist
+• Übersetzungen aktualisiert
+• Rebranding – das Logo ist noch vorläufig
