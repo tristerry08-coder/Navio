@@ -615,7 +615,7 @@
 "type.historic.castle.manor" = "マナー・ハウス";
 "type.historic.castle.palace" = "宮殿";
 "type.historic.castle.shiro" = "日本の城";
-"type.historic.castle.stately" = "城";
+"type.historic.castle.stately" = "シャトー";
 "type.historic.city_gate" = "城門";
 "type.historic.citywalls" = "城壁";
 "type.historic.fort" = "歴史的な要塞";

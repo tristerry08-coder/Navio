@@ -56,9 +56,9 @@
     <string name="disconnect_usb_cable">CoMapsを利用するにはUSBケーブルを抜くかメモリーカードを挿入してください</string>
     <!-- Used in DownloadResources startup screen -->
     <string name="not_enough_free_space_on_sdcard">アプリを起動するにはSDカード/USBストレージの空き容量を確保する必要があります</string>
-    <string name="download_resources">利用を開始する前におおまかな世界地図をダウンロードします。これには%sの空き容量が必要です。</string>
+    <string name="download_resources">利用を開始する前におおまかな世界地図をダウンロードします。\nこれには%sの空き容量が必要です。</string>
     <string name="download_resources_continue">マップを表示</string>
-    <string name="downloading_country_can_proceed">%sをダウンロードしました \nマップを表示可能です</string>
+    <string name="downloading_country_can_proceed">%sをダウンロードしました \nマップを表示可能です。</string>
     <string name="download_country_ask">%sをダウンロードしますか？</string>
     <string name="update_country_ask">%sを更新しますか？</string>
     <!-- REMOVE THIS STRING AFTER REFACTORING -->
@@ -88,7 +88,7 @@
     <!-- Header of settings activity where user defines storage path -->
     <string name="maps_storage">地図の保存先</string>
     <!-- Detailed description of Maps Storage settings button -->
-    <string name="maps_storage_summary">マップのダウンロード先を選択してください</string>
+    <string name="maps_storage_summary">マップのダウンロード先を選択してください。</string>
     <!-- E.g. "Downloaded maps: 500Mb" in Maps Storage settings -->
     <string name="maps_storage_downloaded">マップ</string>
     <!-- Internal storage type in Maps Storage settings (not accessible by the user) -->
@@ -181,13 +181,13 @@
     <!-- Alert message that we can't run Map Storage settings due to some reasons. -->
     <string name="cant_change_this_setting">恐れ入りますが、マップストレージ設定が無効になっています。</string>
     <!-- Alert message that downloading is in progress. -->
-    <string name="downloading_is_active">ダウンロード中です</string>
+    <string name="downloading_is_active">ダウンロード中です。</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">CoMaps で私の現在地が見れます！%1$s または %2$s オフラインマップはまだインストールしていないですか？ここからダウンロード： https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
-    <string name="bookmark_share_email_subject">CoMapsでピン情報を確認</string>
+    <string name="bookmark_share_email_subject">CoMapsでピン情報を確認！</string>
     <!-- Subject for emailed position -->
-    <string name="my_position_share_email_subject">CoMapsで現在地を確認</string>
+    <string name="my_position_share_email_subject">CoMapsで現在地を確認！</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
     <string name="my_position_share_email">私の現在地はここ: %1$s \n \nリンクをクリックすると詳細がマップに表示されます。 \n \n%2$s \n \n%3$s</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->

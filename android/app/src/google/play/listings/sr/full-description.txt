@@ -8,22 +8,22 @@
 <i>Ваше повратне информације и 5 звездица оцене - најбоља подршка за нас!</i>
 
 ‣ <b>Jednostavna i polirana</b>: основне функције које једноставно раде.
-‣ <b>Оффлине фокусирана</b>: Планирајте путовање у иностранство без употребе мобилне телефоније, потражите правац тачке током дугог путовања, итд . Све функције апликације су дизајниране за рад у режиму без интернета.
+‣ <b>Офлајн фокусирана</b>: Планирајте путовање у иностранство без употребе мобилне телефоније, потражите правац тачке током дугог путовања, итд . Све функције апликације су дизајниране за рад у режиму без интернета.
 ‣ <b>Поштовање приватности</b>: Апликација је развијена с обзиром на приватност - не идентификује људе, не прати и не прикупља личне информације. Без реклама.
 ‣ <b>Штеди батерију и простор</b>: Не празни батерију, као остале навигациje. Компактне mape штедe драгоценi prostor на вашем телефону..
-‣ <b>Free and Built by the Community</b>: People like you helped build the app by adding places to OpenStreetMap, testing and giving feedback on features and contributing their development skills and money.
-‣ <b>Open and Transparent Decision-making and Financials, Not-for-profit and Fully Open Source.</b>
+‣ <b>Free and Built by the Community</b>: Такви људи, као што сте помогли да креирате апликацију, додајући места у OpenStreetMap, тестира и остављајући повратне информације о функцијама, као и стављајући своје вештине развоја и новац.
+‣ <b>Отворено и транспарентно доношење одлука и финансија, непрофитни и потпуно отворени кода.</b>
 
-<b>Main Features</b>:
-• Downloadable detailed maps with places which are not available with Google Maps
-• Outdoor mode with highlighted hiking trails, campsites, water sources, peaks, contour lines, etc
-• Walking paths and cycleways
-• Points of interest like restaurants, gas stations, hotels, shops, sightseeings and many more
-• Search by name or an address or by point of interest category
-• Navigation with voice announcements for walking, cycling, or driving
-• Bookmark your favorite places with a single tap
-• Offline Wikipedia articles
-• Subway transit layer and directions
+<b>Главне карактеристике</b>:
+• Преузимање детаљне мапе са локацијама које нису доступне у Google Maps
+• Истакнуте планинарске стазе, кампови, изворима воде, врхове, контуре линије итд
+• Пешачке и бициклистичке стазе
+• Тачке од интереса као што су ресторани, бензинске станице, хотели, атракције, шопинг и још много тога
+• Претрага по имену или адреси или по категорији интересних места
+• Навигација са гласовним огласима за планинарење, бициклизам или вожње аутомобила
+• Означи своја омиљене места са једним додиром
+• Офлајн Википедиа чланци
+• Транзитни слој метроа и упутства
 • Track recording
 • Export and import bookmarks and tracks in KML, KMZ, GPX formats
 • A dark mode to use during the night
