@@ -3,6 +3,7 @@ package app.organicmaps.help;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.text.util.Linkify;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -53,7 +54,10 @@ public class HelpFragment extends BaseMwmFragment implements View.OnClickListene
     final String dataVersion = DateUtils.getShortDateFormatter().format(Framework.getDataVersion());
     final TextView osmPresentationView = root.findViewById(R.id.osm_presentation);
     if (osmPresentationView != null)
+    {
       osmPresentationView.setText(getString(R.string.osm_presentation, dataVersion));
+      Linkify.addLinks(osmPresentationView, Linkify.WEB_URLS);
+    }
 
     setupItem(R.id.news, true, root);
     setupItem(R.id.web, true, root);

@@ -106,6 +106,7 @@
           android:text="@string/osm_presentation"
           android:textAppearance="@style/MwmTextAppearance.Body2"
           android:textColor="?android:textColorPrimary"
+          android:autoLink="web"
           app:layout_constraintBottom_toBottomOf="parent"
           app:layout_constraintEnd_toEndOf="parent"
           app:layout_constraintStart_toEndOf="@+id/osm_logo"
