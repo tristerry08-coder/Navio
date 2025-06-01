@@ -222,13 +222,13 @@ android {
     }
   }
 
-  def securityPropertiesFileExists = file('secure.properties.release').exists()
-  if (securityPropertiesFileExists) {
+  def secureReleasePropertiesFileExists = file('secure.properties.release').exists()
+  if (secureReleasePropertiesFileExists) {
     apply from: 'secure.properties.release'
   }
 
-  def securityTestPropertiesFilesExists = file('secure.properties.test').exists()
-  if(securityTestPropertiesFilesExists) {
+  def secureTestPropertiesFileExists = file('secure.properties.test').exists()
+  if (secureTestPropertiesFileExists) {
     apply from: 'secure.properties.test'
   }
 
@@ -238,35 +238,34 @@ android {
       storePassword '12345678'
       keyAlias 'CoMaps Debug'
       keyPassword '12345678'
-      println('Using DEBUG signing keys')
     }
 
     test {
-      if (securityTestPropertiesFilesExists) {
+      if (secureTestPropertiesFileExists) {
         storeFile file(secretTestStoreFile)
         storePassword secretTestStorePassword
         keyAlias secretTestKeyAlias
         keyPassword secretTestKeyPassword
-        println('Using signing keys from secure.properties.test')
       } else {
-        println('The test signing keys are unavailable')
+        println('secure.properties.test doesn\'t exist')
       }
     }
 
     release {
-      if (securityPropertiesFileExists) {
+      if (secureReleasePropertiesFileExists) {
         storeFile file(secretReleaseStoreFile)
         storePassword secretReleaseStorePassword
         keyAlias secretReleaseKeyAlias
         keyPassword secretReleaseKeyPassword
-        println('Using signing keys from secure.properties.release')
       } else {
-        println('The release signing keys are unavailable')
+        println('secure.properties.release doesn\'t exist')
       }
     }
   }
 
   buildTypes {
+    def taskName = getGradle().getStartParameter().getTaskRequests().toString().toLowerCase()
+
     debug {
       applicationIdSuffix '.debug'   // Allows to install debug and release builds together
       versionNameSuffix '-debug'
@@ -279,10 +278,15 @@ android {
     }
 
     release {
-      if (securityPropertiesFileExists) {
-        signingConfig signingConfigs.release
-      } else {
-        signingConfig signingConfigs.debug
+      if (taskName.contains('release')) {
+        if (secureReleasePropertiesFileExists) {
+          println('Using RELEASE signing keys from secure.properties.release')
+          signingConfig signingConfigs.release
+        } else {
+          println('NO RELEASE signing keys found')
+          println('Using DEBUG signing keys')
+          signingConfig signingConfigs.debug
+        }
       }
       minifyEnabled true
       shrinkResources true
@@ -298,10 +302,15 @@ android {
     beta {
       applicationIdSuffix '.test'
       versionNameSuffix '-test'
-      if (securityTestPropertiesFilesExists) {
-        signingConfig signingConfigs.test
-      } else {
-        signingConfig signingConfigs.debug
+      if (taskName.contains('beta')) {
+        if (secureTestPropertiesFileExists) {
+          println('Using TEST signing keys from secure.properties.test')
+          signingConfig signingConfigs.test
+        } else {
+          println('NO TEST signing keys found')
+          println('Using DEBUG signing keys')
+          signingConfig signingConfigs.debug
+        }
       }
       minifyEnabled true
       shrinkResources true

@@ -2,16 +2,14 @@
 /nativeOutputs
 
 # ignore private keys
-/secure.properties
 /secure.properties.test
 /secure.properties.release
-/test.keystore
-/release.keystore
+/comaps-test.keystore
+/comaps-release.keystore
 /libnotify.properties
 /google-play.json
 /huawei-appgallery.json
 /agconnect-services.json
-/src/main/res/xml/network_security_config.xml
 
 # ignore flags symlinks
 /src/main/res/drawable-xhdpi/??.png
