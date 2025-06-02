@@ -1,6 +1,6 @@
 set(CMAKE_BUILD_TYPE "Release" CACHE STRING "Build type")
 option(CMAKE_UNITY_BUILD "Use unity build" ON)
-set(CMAKE_UNITY_BUILD_BATCH_SIZE "50" CACHE STRING "Batch size for unity build")
+set(CMAKE_UNITY_BUILD_BATCH_SIZE "24" CACHE STRING "Batch size for unity build")
 option(USE_CCACHE "Use ccache" ON)
 option(WITH_SYSTEM_PROVIDED_3PARTY "Enable compilation with system provided dependencies" OFF)
 option(BUILD_DESIGNER "Build application as design tool" OFF)
