@@ -1394,5 +1394,11 @@
     <string name="type.shop.hearing_aids">Продавница слушног апарата</string>
     <string name="type.railway.funicular.tunnel">Тунел успињаче</string>
     <string name="type.railway.narrow_gauge.tunnel">Тунел уског колосека</string>
-    <string name="type.sport.diving">Ronjenje</string>
+    <string name="type.sport.diving">Роњење</string>
+    <string name="type.amenity.love_hotel">Ljubavni hotel</string>
+    <string name="type.leisure.firepit">Ognjište</string>
+    <string name="type.landuse.plant_nursery">Расадник</string>
+    <string name="type.barrier.guard_rail">Заштитна ограда</string>
+    <string name="type.amenity.studio">Студио</string>
+    <string name="type.highway.ladder">Merdevine</string>
 </resources>

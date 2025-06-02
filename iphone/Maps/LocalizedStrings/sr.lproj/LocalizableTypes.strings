@@ -1484,3 +1484,10 @@
 
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "Спортска хала";
+"type.amenity.love_hotel" = "Ljubavni hotel";
+"type.leisure.firepit" = "Ognjište";
+"type.highway.ladder" = "Merdevine";
+"type.landuse.plant_nursery" = "Расадник";
+"type.sport.diving" = "Роњење";
+"type.amenity.studio" = "Студио";
+"type.barrier.guard_rail" = "Заштитна ограда";

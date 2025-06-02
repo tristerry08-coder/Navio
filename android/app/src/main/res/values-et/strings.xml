@@ -514,7 +514,7 @@
     <string name="editor_category_unsuitable_text">CoMaps võimaldab lisada ainult lihtsaid huvipunkte, see tähendab, et ei mingeid linnu, teid, järvi, hoonete piirjooni jne. Palun lisa sellised kategooriad otse <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> saidis. Vaata meie <a href="https://www.comaps.app/support/advanced-map-editing/">juhendit</a> üksikasjalike samm-sammuliste juhiste saamiseks.</string>
     <string name="downloader_no_downloaded_maps_title">Sa ei ole kaarte alla laadinud</string>
     <string name="downloader_no_downloaded_maps_message">Laadi alla kaardid asukoha otsimiseks ja võrguühenduseta tee juhatamiseks.</string>
-    <string name="current_location_unknown_error_title">Hetkeasukoht on teadmata.</string>
+    <string name="current_location_unknown_error_title">Praegune asukoht pole teadma.</string>
     <!-- abbreviation for meters -->
     <string name="m">m</string>
     <!-- abbreviation for kilometers -->
@@ -545,10 +545,10 @@
     <string name="error_enter_correct_web">Sisesta kehtiv veebiaadress</string>
     <string name="error_enter_correct_email">Sisesta kehtiv e-posti aadress</string>
     <string name="error_enter_correct_facebook_page">Sisesta kehtiv Facebooki veebiaadress, konto või lehekülje nimi</string>
-    <string name="error_enter_correct_instagram_page">Sisesta kehtiv Instagrami veebiaadress või konto nimi</string>
-    <string name="error_enter_correct_twitter_page">Sisesta kehtiv Xi (Twitteri) veebiaadress või kasutajanimi</string>
-    <string name="error_enter_correct_vk_page">Sisesta kehtiv VK veebiaadress või konto nimi</string>
-    <string name="error_enter_correct_line_page">Sisesta kehtiv LINE\'i veebiaadress või LINE ID</string>
+    <string name="error_enter_correct_instagram_page">Sisesta korrektne Instagrami kasutajanimi või veebiaadress</string>
+    <string name="error_enter_correct_twitter_page">Sisesta korrektne X-i (Twitteri) kasutajanimi või veebiaadress</string>
+    <string name="error_enter_correct_vk_page">Sisesta korrektne VK kasutajanimi või veebiaadress</string>
+    <string name="error_enter_correct_line_page">Sisesta korrektne LINE\'i veebiaadress või LINE ID</string>
     <string name="placepage_add_place_button">Lisa koht OpenStreetMappi</string>
     <!-- Displayed when saving some edits to the map to warn against publishing personal data -->
     <string name="editor_share_to_all_dialog_title">Kas soovid saata selle kõigile kasutajatele?</string>
@@ -880,4 +880,7 @@
     <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="codeberg">Codeberg</string>
+    <string name="error_enter_correct_fediverse_page">Sisesta korrektne Mastodoni kasutajanimi või veebiaadress</string>
+    <string name="bluesky">Bluesky</string>
+    <string name="error_enter_correct_bluesky_page">Sisesta korrektne Bluesky kasutajanimi või veebiaadress</string>
 </resources>

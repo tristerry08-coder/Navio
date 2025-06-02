@@ -1,4 +1,4 @@
-Komunitou vedené bezplatná a otevřená mapová aplikace založená na datech z projektu OpenStreetMap a posílená závazkem k transparentnosti, soukromí a neziskovosti. Aplikace CoMaps je fork/odnož aplikace Organic Maps, která je zase forkem aplikace Maps.ME.
+Komunitou vedená bezplatná a otevřená mapová aplikace založená na datech z projektu OpenStreetMap a posílená závazkem k transparentnosti, soukromí a neziskovosti. Aplikace CoMaps je fork/odnož aplikace Organic Maps, která je zase forkem aplikace Maps.ME.
 
 Důvody vzniku projektu a jeho směr si můžete přečíst na adrese <b><i>codeberg.org/comaps</i></b>.
 Můžete se zde také připojit ke komunitě pomáhat s vytvářením nejlepší mapové aplikace

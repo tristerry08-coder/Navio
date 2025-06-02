@@ -1,0 +1,28 @@
+Une application cartographique créée par la communauté, gratuite et open source basée sur les données OpenStreetMap et engagée pour la transparence, le respect de la vie privée et son but non lucratif.
+
+‣ Simple et soignée : des fonctionnalités faciles à utiliser, essentielles et qui fonctionnent.
+‣ Centrée sur le hors-ligne : Planifiez et effectuez votre trajet à l'étranger sans avoir besoin de réseau mobile, recherchez des points de passage lors d'une randonnée lointaine, etc. Toutes les fonctionnalités de l'application sont faites pour fonctionner hors-ligne.
+‣ Respecte la vie privée : L'application est conçue avec la vie privée en tête - elle n'identifie pas ses utilisateurs, ne les piste pas et ne collecte pas d'informations personnelles. Sans pub.
+‣ Économise votre batterie et votre stockage : Ne vide pas votre batterie comme les autres applications de navigation. Les cartes compactes économisent de l'espace sur votre téléphone.
+‣ Gratuit et créé par la communauté : Des gens comme vous ont aidé à créer l'application en ajoutant des lieux sur OpenStreetMap, en la testant, en donnant leur avis sur les fonctionnalités et en contribuant au développement et aux frais financiers.
+‣ Prises de décisions et comptes clairs et transparents, but non lucratif et complètement open source.
+
+Fonctionnalités principales :
+• Cartes détaillées téléchargeables avec des lieux non disponibles sur Google Maps
+• Mode extérieur avec sentiers de randonnée, campings, sources d'eau, sommets, courbes de niveau, etc. surlignés
+• Chemins piétons et pistes cyclables
+• Points d'intérêt comme des restaurants, stations-service, hôtels, magasins, lieux touristiques et bien plus
+• Recherche par nom, adresse ou catégorie de point d'intérêt
+• Navigation avec annonces vocales pour la marche, le vélo ou la conduite
+• Mettez en favori vos lieux préférés en un seul clic
+• Synchronisation iCloud pour vos favoris et parcours
+• Articles Wikipédia hors-ligne
+• Plan de métro et indications pour s'y rendre
+• Enregistrement des parcours
+• Exportez et importez vos favoris aux formats KML, KMZ et GPX
+• Mode sombre pour utiliser pendant la nuit
+• Amélioration de la carte par tout le monde avec un éditeur simple intégré
+• Support pour CarPlay
+
+La liberté est ici
+Découvrez votre voyage, naviguez dans le monde en plaçant la vie privée et la communauté au premier plan !
