@@ -2,6 +2,7 @@
 
 #include "app/organicmaps/core/jni_helper.hpp"
 #include "app/organicmaps/sdk/routing/SingleLaneInfo.hpp"
+#include "app/organicmaps/util/Distance.hpp"
 
 #include "map/routing_manager.hpp"
 
