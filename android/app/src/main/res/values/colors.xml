@@ -72,7 +72,7 @@
   <color name="bg_panel">@color/bg_window</color>
   <color name="bg_panel_night">@color/bg_window_night</color>
   <color name="bg_primary_dark">#37653F</color> <!-- secondary dark -->
-  <color name="bg_primary_dark_night">#14181C</color>
+  <color name="bg_primary_dark_night">#FF588157</color>
 
   <color name="bg_dialog_translucent">#BB000000</color>
   <color name="bg_text_translucent">#99FFFFFF</color>
