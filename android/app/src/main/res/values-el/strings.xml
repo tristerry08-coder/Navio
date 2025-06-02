@@ -639,7 +639,7 @@
     <string name="privacy_policy">Πολιτική απορρήτου</string>
     <string name="terms_of_use">Όροι χρήσης</string>
     <string name="button_layer_traffic">Κίνηση</string>
-    <string name="button_layer_subway">Μετρό</string>
+    <string name="subway">Μετρό</string>
     <string name="layers_title">Στυλ χάρτη και επίπεδα</string>
     <string name="subway_data_unavailable">Ο χάρτης μετρό δεν είναι διαθέσιμος</string>
     <string name="bookmarks_empty_list_title">Η λίστα είναι άδεια</string>

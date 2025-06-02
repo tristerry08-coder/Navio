@@ -633,7 +633,7 @@
     <string name="privacy_policy">Политика приватности</string>
     <string name="terms_of_use">Услови коришћења</string>
     <string name="button_layer_traffic">Саобраћај</string>
-    <string name="button_layer_subway">Метро</string>
+    <string name="subway">Метро</string>
     <string name="layers_title">Стилови мапе и слојеви</string>
     <string name="subway_data_unavailable">Мапа метроа не постоји</string>
     <string name="bookmarks_empty_list_title">Ова листа је празна</string>

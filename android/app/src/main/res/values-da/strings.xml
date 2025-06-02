@@ -612,7 +612,7 @@
     <string name="privacy_policy">Privatlivspolitik</string>
     <string name="terms_of_use">Vilkår for bruger</string>
     <string name="button_layer_traffic">Trafik</string>
-    <string name="button_layer_subway">Undergrundsbane</string>
+    <string name="subway">Undergrundsbane</string>
     <string name="layers_title">Kortstile og -lag</string>
     <string name="subway_data_unavailable">Kort over undergrundsbaner er ikke tilgængeligt</string>
     <string name="bookmarks_empty_list_title">Listen er tom</string>

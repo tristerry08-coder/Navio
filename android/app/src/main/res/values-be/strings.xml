@@ -636,7 +636,7 @@
     <string name="privacy_policy">Палітыка прыватнасці</string>
     <string name="terms_of_use">Умовы выкарыстання</string>
     <string name="button_layer_traffic">Рух</string>
-    <string name="button_layer_subway">Метро</string>
+    <string name="subway">Метро</string>
     <string name="layers_title">Стылі і слаі карты</string>
     <string name="subway_data_unavailable">Карта метро недаступная</string>
     <string name="bookmarks_empty_list_title">Гэты спіс пусты</string>

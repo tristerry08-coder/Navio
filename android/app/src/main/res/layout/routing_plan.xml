@@ -38,6 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
+            android:contentDescription="@string/route_type"
             android:orientation="horizontal">
 
           <app.organicmaps.widget.RoutingToolbarButton
@@ -45,6 +46,7 @@
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:layout_marginStart="@dimen/routing_selector_wheel_margin"
+              android:contentDescription="@string/vehicle"
               tools:button="@drawable/ic_car"
               tools:buttonTint="?colorAccent" />
 
@@ -54,6 +56,7 @@
               android:layout_height="wrap_content"
               android:layout_marginStart="12dp"
               android:layout_marginEnd="12dp"
+              android:contentDescription="@string/pedestrian"
               tools:button="@drawable/ic_pedestrian"
               tools:buttonTint="?iconTintLight" />
 
@@ -62,6 +65,7 @@
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:layout_marginEnd="@dimen/margin_half_plus"
+              android:contentDescription="@string/subway"
               tools:button="@drawable/ic_transit"
               tools:buttonTint="?iconTintLight" />
 
@@ -70,6 +74,7 @@
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:layout_marginEnd="12dp"
+              android:contentDescription="@string/bicycle"
               tools:button="@drawable/ic_bike"
               tools:buttonTint="?iconTintLight" />
 
@@ -78,6 +83,7 @@
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:layout_marginEnd="12dp"
+              android:contentDescription="@string/ruler"
               tools:button="@drawable/ic_ruler_route"
               tools:buttonTint="?iconTintLight" />
         </RadioGroup>

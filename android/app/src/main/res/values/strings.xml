@@ -701,7 +701,7 @@
     <string name="privacy_policy">Privacy policy</string>
     <string name="terms_of_use">Terms of use</string>
     <string name="button_layer_traffic">Traffic</string>
-    <string name="button_layer_subway">Subway</string>
+    <string name="subway">Subway</string>
     <string name="layers_title">Map Styles and Layers</string>
     <string name="subway_data_unavailable">Subway map is unavailable</string>
     <string name="bookmarks_empty_list_title">This list is empty</string>
@@ -934,4 +934,11 @@
     <string name="codeberg">Codeberg</string>
     <string name="pref_left_button_title">Left button setup</string>
     <string name="pref_left_button_disable">Disable</string>
+    <string name="clear">Clear</string>
+    <string name="route_type">Route type</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="pedestrian">Pedestrian</string>
+    <string name="bicycle">Bicycle</string>
+    <string name="ruler">Ruler</string>
+    <string name="bookmark_color">Bookmark color</string>
 </resources>

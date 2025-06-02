@@ -22,6 +22,8 @@
       android:layout_height="wrap_content"
       android:textColorHint="?android:textColorSecondary"
       app:endIconMode="custom"
+      app:endIconCheckable="false"
+      app:endIconContentDescription="@string/clear"
       app:endIconDrawable="@drawable/ic_clear_rounded"
       app:endIconTint="?android:textColorSecondary">
       <com.google.android.material.textfield.TextInputEditText
@@ -79,6 +81,7 @@
       android:layout_alignParentEnd="true"
       android:layout_alignEnd="@id/divideerrr"
       android:background="?clickableBackground"
+      android:contentDescription="@string/bookmark_color"
       android:padding="@dimen/margin_half"
       tools:src="@drawable/ic_bookmark_none" />
   </RelativeLayout>

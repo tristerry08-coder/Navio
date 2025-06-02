@@ -608,7 +608,7 @@
     <string name="privacy_policy">개인정보 보호 방침</string>
     <string name="terms_of_use">사용 약관</string>
     <string name="button_layer_traffic">트래픽</string>
-    <string name="button_layer_subway">지하철</string>
+    <string name="subway">지하철</string>
     <string name="layers_title">맵 스타일 및 레이어</string>
     <string name="subway_data_unavailable">지하철 지도가 가용하지 않습니다.</string>
     <string name="bookmarks_empty_list_title">이 목록은 비어있습니다.</string>

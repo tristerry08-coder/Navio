@@ -86,7 +86,7 @@
     <string name="privacy">Privacidá</string>
     <string name="layers_title">Estilos y capes del mapa</string>
     <string name="subway_data_unavailable">El mapa del metro nun ta disponible</string>
-    <string name="button_layer_subway">Metro</string>
+    <string name="subway">Metro</string>
     <string name="delete_list">Desaniciar llista</string>
     <string name="public_access">Accesu públicu</string>
     <string name="bookmarks_empty_list_title">Esta llista ta balera</string>

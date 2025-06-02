@@ -638,7 +638,7 @@
     <string name="privacy_policy">מדיניות פרטיות</string>
     <string name="terms_of_use">תנאי שימוש</string>
     <string name="button_layer_traffic">תעבורה</string>
-    <string name="button_layer_subway">רכבת תחתית</string>
+    <string name="subway">רכבת תחתית</string>
     <string name="layers_title">סגנונות ושכבות מפה</string>
     <string name="subway_data_unavailable">מפת רכבת תחתית לא זמינה</string>
     <string name="bookmarks_empty_list_title">רשימה זו ריקה</string>

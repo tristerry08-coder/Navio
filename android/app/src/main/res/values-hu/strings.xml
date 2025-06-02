@@ -624,7 +624,7 @@
     <string name="privacy_policy">Adatvédelmi irányelvek</string>
     <string name="terms_of_use">Felhasználási feltételek</string>
     <string name="button_layer_traffic">Forgalom</string>
-    <string name="button_layer_subway">Metró</string>
+    <string name="subway">Metró</string>
     <string name="layers_title">Térképstílusok és rétegek</string>
     <string name="subway_data_unavailable">A metrótérkép nem érhető el</string>
     <string name="bookmarks_empty_list_title">Ez a lista üres</string>

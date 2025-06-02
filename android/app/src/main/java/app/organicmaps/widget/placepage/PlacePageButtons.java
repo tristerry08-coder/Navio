@@ -113,6 +113,7 @@ public final class PlacePageButtons extends Fragment implements Observer<List<Pl
     TextView title = parent.findViewById(R.id.title);
 
     title.setText(current.getTitle());
+    parent.setContentDescription(getString(current.getTitle()));
     @AttrRes final int tint = current.getType() == ButtonType.BOOKMARK_DELETE
                               ? R.attr.iconTintActive
                               : R.attr.iconTint;

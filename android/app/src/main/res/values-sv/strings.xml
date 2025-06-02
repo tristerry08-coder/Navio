@@ -609,7 +609,7 @@
     <string name="privacy_policy">Integritetspolicy</string>
     <string name="terms_of_use">Allmänna villkor</string>
     <string name="button_layer_traffic">Trafik</string>
-    <string name="button_layer_subway">Tunnelbana</string>
+    <string name="subway">Tunnelbana</string>
     <string name="layers_title">Kartstilar och lager</string>
     <string name="subway_data_unavailable">Tunnelbanekartan är otillgänglig</string>
     <string name="bookmarks_empty_list_title">Listan är tom</string>

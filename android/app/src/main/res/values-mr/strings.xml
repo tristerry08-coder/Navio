@@ -608,7 +608,7 @@
     <string name="privacy_policy">गोपनीयता धोरण</string>
     <string name="terms_of_use">वापरण्याच्या अटी</string>
     <string name="button_layer_traffic">ट्रॅफिक</string>
-    <string name="button_layer_subway">मेट्रो/भुयारी मार्ग</string>
+    <string name="subway">मेट्रो/भुयारी मार्ग</string>
     <string name="layers_title">नकाशा शैली आणि स्तर</string>
     <string name="subway_data_unavailable">मेट्रो नकाशा अनुपलब्ध आहे</string>
     <string name="bookmarks_empty_list_title">ही यादी रिकामी आहे</string>

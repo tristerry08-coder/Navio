@@ -605,7 +605,7 @@
     <string name="privacy_policy">Chính sách bảo mật</string>
     <string name="terms_of_use">Điều khoảng sử dụng</string>
     <string name="button_layer_traffic">Giao thông</string>
-    <string name="button_layer_subway">Xe điện ngầm</string>
+    <string name="subway">Xe điện ngầm</string>
     <string name="layers_title">Kiểu và lớp bản đồ</string>
     <string name="subway_data_unavailable">Bản đồ tàu điện ngầm không khả dụng</string>
     <string name="bookmarks_empty_list_title">Danh sách trống</string>

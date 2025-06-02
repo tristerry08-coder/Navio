@@ -31,7 +31,7 @@
         <item quantity="one">%d track</item>
         <item quantity="other">%d tracks</item>
     </plurals>
-    <string name="button_layer_subway">Metro</string>
+    <string name="subway">Metro</string>
     <string name="subway_data_unavailable">Metro map is unavailable</string>
     <string name="avoid_motorways">Avoid motorways</string>
     <!-- SECTION: Bookmark types used for sorting -->

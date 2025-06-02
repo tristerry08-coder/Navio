@@ -52,7 +52,7 @@ public class LayerBottomSheetItem
       case SUBWAY:
         disabledResource = R.attr.subwayMenuDisabled;
         enabledResource = R.attr.subwayMenuEnabled;
-        buttonTextResource = R.string.button_layer_subway;
+        buttonTextResource = R.string.subway;
         break;
       case ISOLINES:
         disabledResource = R.attr.isoLinesMenuDisabled;

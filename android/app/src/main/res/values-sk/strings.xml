@@ -644,7 +644,7 @@
     <string name="privacy_policy">Zásady ochrany osobných údajov</string>
     <string name="terms_of_use">Podmienky používania</string>
     <string name="button_layer_traffic">Dopravné informácie</string>
-    <string name="button_layer_subway">Metro</string>
+    <string name="subway">Metro</string>
     <string name="layers_title">Štýly a vrstvy mapy</string>
     <string name="subway_data_unavailable">Mapa metra nie je dostupná</string>
     <string name="bookmarks_empty_list_title">Tento zoznam je prázdny</string>

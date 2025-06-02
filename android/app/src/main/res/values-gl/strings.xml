@@ -77,7 +77,7 @@
     <string name="privacy_policy">Normativa de privacidade</string>
     <string name="terms_of_use">Condiciones de uso</string>
     <string name="button_layer_traffic">Tráfico</string>
-    <string name="button_layer_subway">Metro</string>
+    <string name="subway">Metro</string>
     <string name="layers_title">Estilos e capas do mapa</string>
     <string name="subway_data_unavailable">O mapa do metro non está dispoñible</string>
     <string name="export_file">Exportar KMZ</string>

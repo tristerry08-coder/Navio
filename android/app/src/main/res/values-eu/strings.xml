@@ -642,7 +642,7 @@
     <string name="privacy_policy">Pribatutasun politika</string>
     <string name="terms_of_use">Erabilera baldintzak</string>
     <string name="button_layer_traffic">Trafikoa</string>
-    <string name="button_layer_subway">Metroa</string>
+    <string name="subway">Metroa</string>
     <string name="layers_title">Maparen estiloak eta geruzak</string>
     <string name="subway_data_unavailable">Metroaren mapa ez dago erabilgarri</string>
     <string name="bookmarks_empty_list_title">Zerrenda hau hutsik dago</string>
