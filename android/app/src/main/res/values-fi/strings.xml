@@ -41,13 +41,13 @@
     <string name="try_again">Yritä uudelleen</string>
     <string name="about_menu_title">Tietoa CoMaps:stä</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Ilmainen kaikille, tehty rakkaudella</string>
+    <string name="about_headline">Avoin projekti yhteisön toteuttamana</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_1">• Ei mainoksia, ei seurantaa, ei tiedonkeruuta</string>
+    <string name="about_proposition_1">• Helppokäyttöinen ja viimeistelty</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_2">• Ei akun tyhjenemistä, toimii offline-tilassa</string>
+    <string name="about_proposition_2">• Kunnioittaa yksityisyyttä ja ei sisällä mainoksia</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Nopea, minimalistinen, yhteisön kehittämä</string>
+    <string name="about_proposition_3">• Yhteydetön tila, nopea ja kompakti</string>
     <!-- Text in About screen -->
     <string name="about_developed_by_enthusiasts">Harrastajien ja vapaaehtoisten luoma avoimen lähdekoodin sovellus.</string>
     <!-- The button that opens system location settings -->
@@ -881,4 +881,11 @@
     <string name="comma_separated_pair">%1$s, %2$s</string>
     <string name="instagram">Instagram</string>
     <string name="wikimedia_commons">Wikimedia Commons</string>
+    <string name="bluesky">Bluesky</string>
+    <string name="error_enter_correct_fediverse_page">Kirjoita kelvollinen Mastodon-käyttäjänimi tai verkko-osoite</string>
+    <string name="telegram_url">https://t.me/CoMapsApp/</string>
+    <string name="codeberg">Codeberg</string>
+    <string name="error_enter_correct_bluesky_page">Kirjoita kelvollinen Bluesky-käyttäjänimi tai verkko-osoite</string>
+    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
+    <string name="app_site_url">https://comaps.app/</string>
 </resources>

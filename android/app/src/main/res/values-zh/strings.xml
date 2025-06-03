@@ -888,4 +888,7 @@
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
     <string name="codeberg">Codeberg</string>
+    <string name="error_enter_correct_fediverse_page">输入有效的 Mastodon 用户名或网址</string>
+    <string name="bluesky">Bluesky</string>
+    <string name="error_enter_correct_bluesky_page">输入有效的 Bluesky 用户名或网址</string>
 </resources>

@@ -218,10 +218,10 @@
 "type.boundary.administrative.2" = "Valtakunnanraja";
 
 /* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
-"type.boundary.administrative.3" = "Regional Boundary";
+"type.boundary.administrative.3" = "Alueellinen raja";
 
 /* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
-"type.boundary.administrative.4" = "Regional Boundary";
+"type.boundary.administrative.4" = "Alueellinen raja";
 "type.boundary.national_park" = "Kansallispuisto";
 "type.boundary.aboriginal_lands" = "Alkuperäiskansojen maat";
 "type.boundary.protected_area" = "Suojeltu alue";
@@ -411,7 +411,7 @@
 "type.highway.cycleway.tunnel" = "Tunneli";
 "type.highway.elevator" = "Hissi";
 "type.highway.footway" = "Polku";
-"type.highway.footway.sidewalk" = "Sidewalk";
+"type.highway.footway.sidewalk" = "Jalkakäytävä";
 "type.highway.footway.crossing" = "Jalankulkijoiden ylitys";
 "type.highway.footway.area" = "Jalankulkualue";
 
@@ -775,7 +775,7 @@
 "type.man_made.works" = "Industrial Works";
 "type.mapswithme" = "mapswithme";
 "type.mapswithme.grid" = "mapswithme-grid";
-"type.military" = "Military";
+"type.military" = "Sotilasalue";
 "type.military.bunker" = "Bunkkeri";
 "type.mountain_pass" = "Mountain Pass";
 "type.natural" = "Luonto";
@@ -827,7 +827,7 @@
 "type.natural.wetland" = "Soistuva maa";
 "type.natural.wetland.bog" = "Suo";
 "type.natural.wetland.marsh" = "Marsh";
-"type.noexit" = "Dead End";
+"type.noexit" = "Umpikuja";
 "type.office" = "Toimisto";
 "type.office.company" = "Yhtiön toimisto";
 "type.office.estate_agent" = "Kiinteistönvälittäjä";
@@ -882,8 +882,8 @@
 "type.power.generator.wind" = "Tuuligeneraattori";
 "type.power.generator.gas" = "Kaasuturbiinivoimala";
 "type.power.generator.hydro" = "Vesivoimalaitos";
-"type.power.line" = "Power Line";
-"type.power.line.underground" = "Underground Power Line";
+"type.power.line" = "Sähkölinja";
+"type.power.line.underground" = "Maanalainen sähkölinja";
 "type.power.minor_line" = "Minor Power Line";
 "type.power.plant" = "Voimalaitos";
 "type.power.plant.coal" = "Hiilivoimala";
@@ -907,12 +907,12 @@
 "type.psurface.paved_good" = "psurface-paved_good";
 "type.psurface.unpaved_bad" = "psurface-unpaved_bad";
 "type.psurface.unpaved_good" = "psurface-unpaved_good";
-"type.public_transport" = "Public Transport";
+"type.public_transport" = "Julkinen liikenne";
 "type.public_transport.platform" = "Platform";
-"type.railway" = "Railway";
-"type.railway.abandoned" = "Abandoned Railway";
-"type.railway.abandoned.bridge" = "Abandoned Railway Bridge";
-"type.railway.abandoned.tunnel" = "Abandoned Railway Tunnel";
+"type.railway" = "Rautatie";
+"type.railway.abandoned" = "Hylätty rautatie";
+"type.railway.abandoned.bridge" = "Hylätty rautatiesilta";
+"type.railway.abandoned.tunnel" = "Hylätty rautatietunneli";
 "type.railway.construction" = "Railway Construction";
 "type.railway.crossing" = "Railway Crossing";
 "type.railway.disused" = "Disused Railway";
@@ -930,7 +930,7 @@
 "type.railway.narrow_gauge" = "Narrow Gauge Rail";
 "type.railway.narrow_gauge.bridge" = "Narrow Gauge Rail Bridge";
 "type.railway.narrow_gauge.tunnel" = "Narrow Gauge Rail Tunnel";
-"type.railway.platform" = "Railway Platform";
+"type.railway.platform" = "Rautatielaituri";
 "type.railway.preserved" = "Preserved Rail";
 "type.railway.preserved.bridge" = "Preserved Rail Bridge";
 "type.railway.preserved.tunnel" = "Preserved Rail Tunnel";
@@ -1085,9 +1085,9 @@
 "type.railway.station.subway.wuhan" = "Metro";
 "type.railway.station.subway.yerevan" = "Metro";
 "type.railway.station.subway.yokohama" = "Metro";
-"type.railway.subway" = "Subway Line";
-"type.railway.subway.bridge" = "Subway Line Bridge";
-"type.railway.subway.tunnel" = "Subway Line Tunnel";
+"type.railway.subway" = "Metrolinja";
+"type.railway.subway.bridge" = "Metrolinjan silta";
+"type.railway.subway.tunnel" = "Metrolinjan tunneli";
 "type.railway.subway_entrance" = "Metron sisäänkäynti";
 "type.railway.subway_entrance.adana" = "Metron sisäänkäynti";
 "type.railway.subway_entrance.algiers" = "Metron sisäänkäynti";
@@ -1202,11 +1202,11 @@
 "type.railway.subway_entrance.wuhan" = "Metron sisäänkäynti";
 "type.railway.subway_entrance.yerevan" = "Metron sisäänkäynti";
 "type.railway.subway_entrance.yokohama" = "Metron sisäänkäynti";
-"type.railway.tram" = "Tram Line";
-"type.railway.tram.bridge" = "Tram Line Bridge";
-"type.railway.tram.tunnel" = "Tram Line Tunnel";
+"type.railway.tram" = "Raitiovaunulinja";
+"type.railway.tram.bridge" = "Raitiovaunulinjan silta";
+"type.railway.tram.tunnel" = "Raitiovaunulinjan tunneli";
 "type.railway.tram_stop" = "Raitiovaunupysäkki";
-"type.route" = "Route";
+"type.route" = "Reitti";
 "type.route.ferry" = "Lauttareitti";
 "type.route.shuttle_train" = "route-shuttle_train";
 "type.shop" = "Kauppa";
@@ -1378,7 +1378,7 @@
 "type.tourism.attraction" = "Nähtävyys";
 "type.attraction.amusement_ride" = "Huvipuistolaite";
 "type.attraction.animal" = "Eläinsuoja";
-"type.attraction.bumper_car" = "Bumper Car";
+"type.attraction.bumper_car" = "Törmäilyauto";
 "type.attraction.big_wheel" = "Big Wheel";
 "type.attraction.carousel" = "Karuselli";
 "type.attraction.historic" = "Historiallinen nähtävyys";
@@ -1484,3 +1484,5 @@
 
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "Urheiluhalli";
+"type.amenity.love_hotel" = "Rakkaushotelli";
+"type.sport.diving" = "Sukellus";

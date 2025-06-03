@@ -1289,4 +1289,27 @@
     <string name="type.amenity.dojo">Dojo</string>
     <!-- https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall -->
     <string name="type.leisure.sports_hall">Urheiluhalli</string>
+    <string name="type.amenity.love_hotel">Rakkaushotelli</string>
+    <string name="type.highway.footway.sidewalk">Jalkakäytävä</string>
+    <string name="type.noexit">Umpikuja</string>
+    <string name="type.military">Sotilasalue</string>
+    <string name="type.power.line">Sähkölinja</string>
+    <string name="type.railway.abandoned">Hylätty rautatie</string>
+    <string name="type.railway.tram.bridge">Raitiovaunulinjan silta</string>
+    <string name="type.public_transport">Julkinen liikenne</string>
+    <string name="type.railway.subway">Metrolinja</string>
+    <string name="type.railway.subway.bridge">Metrolinjan silta</string>
+    <string name="type.attraction.bumper_car">Törmäilyauto</string>
+    <string name="type.railway.tram">Raitiovaunulinja</string>
+    <string name="type.sport.diving">Sukellus</string>
+    <string name="type.power.line.underground">Maanalainen sähkölinja</string>
+    <string name="type.railway">Rautatie</string>
+    <string name="type.railway.abandoned.bridge">Hylätty rautatiesilta</string>
+    <string name="type.railway.abandoned.tunnel">Hylätty rautatietunneli</string>
+    <string name="type.railway.platform">Rautatielaituri</string>
+    <string name="type.railway.subway.tunnel">Metrolinjan tunneli</string>
+    <string name="type.railway.tram.tunnel">Raitiovaunulinjan tunneli</string>
+    <string name="type.route">Reitti</string>
+    <string name="type.boundary.administrative.3">Alueellinen raja</string>
+    <string name="type.boundary.administrative.4">Alueellinen raja</string>
 </resources>
