@@ -28,16 +28,22 @@
       app:singleLineTitle="false"
       android:summary="@string/pref_zoom_summary"
       android:order="2"/>
+    <ListPreference
+        android:key="@string/pref_left_button"
+        android:title="@string/pref_left_button_title"
+        app:singleLineTitle="false"
+        android:persistent="true"
+        android:order="3"/>
     <SwitchPreferenceCompat
       android:key="@string/pref_3d_buildings"
       android:title="@string/pref_map_3d_buildings_title"
       app:singleLineTitle="false"
-      android:order="3"/>
+      android:order="4"/>
     <SwitchPreferenceCompat
       android:key="@string/pref_autodownload"
       android:title="@string/autodownload"
       app:singleLineTitle="false"
-      android:order="4"/>
+      android:order="5"/>
     <SwitchPreferenceCompat
       android:key="@string/pref_large_fonts_size"
       android:title="@string/big_font"

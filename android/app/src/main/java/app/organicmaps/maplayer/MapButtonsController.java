@@ -1,8 +1,12 @@
 package app.organicmaps.maplayer;
 
+import static app.organicmaps.leftbutton.LeftButtonsHolder.BUTTON_HELP_CODE;
+import static app.organicmaps.leftbutton.LeftButtonsHolder.DISABLE_BUTTON_CODE;
+
 import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;
 import android.content.Context;
+import android.content.res.ColorStateList;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -21,6 +25,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
+
 import app.organicmaps.Framework;
 import app.organicmaps.MwmActivity;
 import app.organicmaps.R;
@@ -31,11 +36,15 @@ import app.organicmaps.maplayer.isolines.IsolinesManager;
 import app.organicmaps.maplayer.subway.SubwayManager;
 import app.organicmaps.maplayer.traffic.TrafficManager;
 import app.organicmaps.routing.RoutingController;
+import app.organicmaps.leftbutton.LeftButton;
+import app.organicmaps.leftbutton.LeftToggleButton;
 import app.organicmaps.util.Config;
+import app.organicmaps.util.ThemeUtils;
 import app.organicmaps.util.UiUtils;
 import app.organicmaps.util.WindowInsetUtils;
 import app.organicmaps.widget.menu.MyPositionButton;
 import app.organicmaps.widget.placepage.PlacePageViewModel;
+
 import com.google.android.material.badge.BadgeDrawable;
 import com.google.android.material.badge.BadgeUtils;
 import com.google.android.material.badge.ExperimentalBadgeUtils;
@@ -75,8 +84,11 @@ public class MapButtonsController extends Fragment
   private final Observer<Boolean> mTrackRecorderObserver = (enable) -> {
     updateMenuBadge(enable);
     showButton(enable, MapButtons.trackRecordingStatus);
+    updateLeftButtonToggleState(enable);
   };
   private final Observer<Integer> mTopButtonMarginObserver = this::updateTopButtonsMargin;
+
+  private LeftButton mLeftButton;
 
   @Nullable
   @Override
@@ -98,27 +110,15 @@ public class MapButtonsController extends Fragment
     mInnerRightButtonsFrame = mFrame.findViewById(R.id.map_buttons_inner_right);
     mBottomButtonsFrame = mFrame.findViewById(R.id.map_buttons_bottom);
 
-    final FloatingActionButton helpButton = mFrame.findViewById(R.id.help_button);
-    if (helpButton != null)
-    {
-      if (Config.isNY() && !TextUtils.isEmpty(Config.getDonateUrl(requireContext())))
-        helpButton.setImageResource(R.drawable.ic_christmas_tree);
-//      else
-//      {
-//        helpButton.setImageResource(R.drawable.ic_launcher);
-//      }
-//      // Keep this button colorful in normal theme.
-//      if (!ThemeUtils.isNightTheme(requireContext()))
-//        helpButton.getDrawable().setTintList(null);
-    }
+    mButtonsMap = new HashMap<>();
+
+    initBottomButtons();
 
     final View zoomFrame = mFrame.findViewById(R.id.zoom_buttons_container);
     mFrame.findViewById(R.id.nav_zoom_in)
           .setOnClickListener((v) -> mMapButtonClickListener.onMapButtonClick(MapButtons.zoomIn));
     mFrame.findViewById(R.id.nav_zoom_out)
           .setOnClickListener((v) -> mMapButtonClickListener.onMapButtonClick(MapButtons.zoomOut));
-    final View bookmarksButton = mFrame.findViewById(R.id.btn_bookmarks);
-    bookmarksButton.setOnClickListener((v) -> mMapButtonClickListener.onMapButtonClick(MapButtons.bookmarks));
     final View myPosition = mFrame.findViewById(R.id.my_position);
     mNavMyPosition = new MyPositionButton(myPosition, (v) -> mMapButtonClickListener.onMapButtonClick(MapButtons.myPosition));
 
@@ -133,12 +133,55 @@ public class MapButtonsController extends Fragment
     mTrackRecordingStatusButton = mFrame.findViewById(R.id.track_recording_status);
     if (mTrackRecordingStatusButton != null)
       mTrackRecordingStatusButton.setOnClickListener(view -> mMapButtonClickListener.onMapButtonClick(MapButtons.trackRecordingStatus));
-    final View menuButton = mFrame.findViewById(R.id.menu_button);
+
+    mSearchWheel = new SearchWheel(mFrame,
+                                   (v) -> mMapButtonClickListener.onMapButtonClick(MapButtons.search),
+                                   (v) -> mMapButtonClickListener.onSearchCanceled(),
+                                   mMapButtonsViewModel);
+
+    // Used to get the maximum height the buttons will evolve in
+    mFrame.addOnLayoutChangeListener(new MapButtonsController.ContentViewLayoutChangeListener(mFrame));
+
+    mButtonsMap.put(MapButtons.zoom, zoomFrame);
+    mButtonsMap.put(MapButtons.myPosition, myPosition);
+
+    if (mToggleMapLayerButton != null)
+      mButtonsMap.put(MapButtons.toggleMapLayer, mToggleMapLayerButton);
+    if (mTrackRecordingStatusButton != null)
+      mButtonsMap.put(MapButtons.trackRecordingStatus, mTrackRecordingStatusButton);
+    showButton(false, MapButtons.trackRecordingStatus);
+    return mFrame;
+  }
+
+  private void initBottomButtons()
+  {
+    // universal button
+    applyLeftButton();
+
+    // bookmarks button
+    View bookmarksButton = mFrame.findViewById(R.id.btn_bookmarks);
+    if (bookmarksButton != null)
+    {
+      bookmarksButton.setOnClickListener((v) -> mMapButtonClickListener.onMapButtonClick(MapButtons.bookmarks));
+      mButtonsMap.put(MapButtons.bookmarks, bookmarksButton);
+    }
+
+    // search button
+    View searchButton = mFrame.findViewById(R.id.btn_search);
+    if (searchButton != null)
+    {
+      searchButton.setOnClickListener((v) -> mMapButtonClickListener.onMapButtonClick(MapButtons.bookmarks));
+      mButtonsMap.put(MapButtons.search, searchButton);
+    }
+
+    // menu button
+    View menuButton = mFrame.findViewById(R.id.menu_button);
     if (menuButton != null)
     {
       menuButton.setOnClickListener((v) -> mMapButtonClickListener.onMapButtonClick(MapButtons.menu));
       // This hack is needed to show the badge on the initial startup. For some reason, updateMenuBadge does not work from onResume() there.
-      menuButton.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+      menuButton.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener()
+      {
         @Override
         public void onGlobalLayout()
         {
@@ -146,35 +189,49 @@ public class MapButtonsController extends Fragment
           menuButton.getViewTreeObserver().removeOnGlobalLayoutListener(this);
         }
       });
-    }
-    if (helpButton != null)
-      helpButton.setOnClickListener((v) -> mMapButtonClickListener.onMapButtonClick(MapButtons.help));
-
-    mSearchWheel = new SearchWheel(mFrame,
-                                   (v) -> mMapButtonClickListener.onMapButtonClick(MapButtons.search),
-                                   (v) -> mMapButtonClickListener.onSearchCanceled(),
-                                   mMapButtonsViewModel);
-    final View searchButton = mFrame.findViewById(R.id.btn_search);
-
-    // Used to get the maximum height the buttons will evolve in
-    mFrame.addOnLayoutChangeListener(new MapButtonsController.ContentViewLayoutChangeListener(mFrame));
-
-    mButtonsMap = new HashMap<>();
-    mButtonsMap.put(MapButtons.zoom, zoomFrame);
-    mButtonsMap.put(MapButtons.myPosition, myPosition);
-    mButtonsMap.put(MapButtons.bookmarks, bookmarksButton);
-    mButtonsMap.put(MapButtons.search, searchButton);
-
-    if (mToggleMapLayerButton != null)
-      mButtonsMap.put(MapButtons.toggleMapLayer, mToggleMapLayerButton);
-    if (menuButton != null)
       mButtonsMap.put(MapButtons.menu, menuButton);
-    if (helpButton != null)
-      mButtonsMap.put(MapButtons.help, helpButton);
-    if (mTrackRecordingStatusButton != null)
-      mButtonsMap.put(MapButtons.trackRecordingStatus, mTrackRecordingStatusButton);
-    showButton(false, MapButtons.trackRecordingStatus);
-    return mFrame;
+    }
+  }
+
+  private void applyLeftButton()
+  {
+    FloatingActionButton leftButtonView = mFrame.findViewById(R.id.left_button);
+    if (leftButtonView != null && mLeftButton != null && !mLeftButton.getCode().equals(DISABLE_BUTTON_CODE))
+    {
+      UiUtils.show(leftButtonView);
+
+      Context context = getContext();
+      if (context == null)
+        return;
+
+      leftButtonView.setImageTintList(ColorStateList.valueOf(ThemeUtils.getColor(context, R.attr.iconTint)));
+
+      // Christmas tree with help button
+      if (Config.isNY() &&
+          mLeftButton.getCode().equals(BUTTON_HELP_CODE) &&
+          !TextUtils.isEmpty(Config.getDonateUrl(requireContext()))
+      )
+      {
+        leftButtonView.setImageResource(R.drawable.ic_christmas_tree);
+        leftButtonView.setOnClickListener((v) -> mMapButtonClickListener.onMapButtonClick(MapButtons.help));
+      }
+      else
+      {
+        mLeftButton.drawIcon(leftButtonView);
+        leftButtonView.setOnClickListener((v) -> mLeftButton.onClick(leftButtonView));
+      }
+      //      else
+      //      {
+      //        helpButton.setImageResource(R.drawable.ic_launcher);
+      //      }
+      //      // Keep this button colorful in normal theme.
+      //      if (!ThemeUtils.isNightTheme(requireContext()))
+      //        helpButton.getDrawable().setTintList(null);
+    }
+    else if (leftButtonView != null)
+    {
+      UiUtils.hide(leftButtonView);
+    }
   }
 
   public void showButton(boolean show, MapButtonsController.MapButtons button)
@@ -251,7 +308,7 @@ public class MapButtonsController extends Fragment
     final UpdateInfo info = MapManager.nativeGetUpdateInfo(null);
     final int count = (info == null ? 0 : info.filesCount);
     final int verticalOffset = dpToPx(8, context) + dpToPx(Integer.toString(0)
-                                                                  .length() * 5, context);
+        .length() * 5, context);
 
     if (count == 0)
     {
@@ -448,6 +505,27 @@ public class MapButtonsController extends Fragment
   {
     if (searchOption == null)
       mSearchWheel.reset();
+  }
+
+  public void setLeftButton(LeftButton leftButton)
+  {
+    this.mLeftButton = leftButton;
+  }
+
+  public void reloadLeftButton(LeftButton leftButton)
+  {
+    setLeftButton(leftButton);
+    applyLeftButton();
+  }
+
+  private void updateLeftButtonToggleState(boolean isEnabled)
+  {
+    if (mLeftButton instanceof LeftToggleButton)
+    {
+      ((LeftToggleButton) mLeftButton).setChecked(isEnabled);
+
+      reloadLeftButton(mLeftButton);
+    }
   }
 
   public enum LayoutMode

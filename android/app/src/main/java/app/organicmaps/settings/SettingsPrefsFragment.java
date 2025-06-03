@@ -1,5 +1,7 @@
 package app.organicmaps.settings;
 
+import static app.organicmaps.leftbutton.LeftButtonsHolder.DISABLE_BUTTON_CODE;
+
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
@@ -25,6 +27,8 @@ import app.organicmaps.help.HelpActivity;
 import app.organicmaps.location.LocationHelper;
 import app.organicmaps.location.LocationProviderFactory;
 import app.organicmaps.sdk.routing.RoutingOptions;
+import app.organicmaps.leftbutton.LeftButton;
+import app.organicmaps.leftbutton.LeftButtonsHolder;
 import app.organicmaps.util.Config;
 import app.organicmaps.util.NetworkPolicy;
 import app.organicmaps.util.PowerManagment;
@@ -35,6 +39,11 @@ import app.organicmaps.util.log.LogsManager;
 import app.organicmaps.sdk.search.SearchRecents;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 import java.util.Locale;
 
 public class SettingsPrefsFragment extends BaseXmlSettingsFragment implements LanguagesFragment.Listener
@@ -68,6 +77,55 @@ public class SettingsPrefsFragment extends BaseXmlSettingsFragment implements La
     initSearchPrivacyPrefsCallbacks();
     initScreenSleepEnabledPrefsCallbacks();
     initShowOnLockScreenPrefsCallbacks();
+    initLeftButtonPrefs();
+  }
+
+  private void initLeftButtonPrefs()
+  {
+    final String leftButtonPreferenceKey = getString(R.string.pref_left_button);
+    final ListPreference pref = getPreference(leftButtonPreferenceKey);
+    LeftButtonsHolder holder = LeftButtonsHolder.getInstance(requireContext());
+
+    LeftButton currentButton = holder.getActiveButton();
+    Collection<LeftButton> buttons = holder.getAllButtons();
+
+    List<String> entryList = new ArrayList<>(buttons.size());
+    List<String> valueList = new ArrayList<>(buttons.size());
+
+    for (LeftButton button : buttons)
+    {
+      entryList.add(button.getPrefsName());
+      valueList.add(button.getCode());
+    }
+
+    pref.setEntries(entryList.toArray(new CharSequence[0]));
+    pref.setEntryValues(valueList.toArray(new CharSequence[0]));
+
+    if (currentButton != null)
+    {
+      pref.setSummary(currentButton.getPrefsName());
+      pref.setValue(currentButton.getCode());
+    }
+    else
+    {
+      pref.setSummary(R.string.pref_left_button_disable);
+      pref.setValue(DISABLE_BUTTON_CODE);
+    }
+
+    pref.setOnPreferenceChangeListener((preference, newValue) -> {
+      int index = pref.findIndexOfValue(newValue.toString());
+      if (index >= 0)
+      {
+        pref.setSummary(pref.getEntries()[index]);
+      }
+
+      Intent intent = new Intent();
+      intent.putExtra(leftButtonPreferenceKey, newValue.toString());
+
+      requireActivity().setResult(-1, intent);
+
+      return true;
+    });
   }
 
   private void updateVoiceInstructionsPrefsSummary()

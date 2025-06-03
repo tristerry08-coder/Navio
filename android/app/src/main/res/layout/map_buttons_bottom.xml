@@ -7,38 +7,51 @@
   android:layout_height="wrap_content">
   <androidx.constraintlayout.widget.ConstraintLayout
     style="@style/MwmWidget.MapButton.Bottom"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_centerInParent="true"
     android:clipChildren="false"
     android:clipToPadding="false">
     <include
+      android:id="@+id/left_button"
       layout="@layout/map_buttons_help"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginStart="@dimen/margin_half"
+        android:layout_marginHorizontal="@dimen/margin_half_plus"
       app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/btn_search"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintHorizontal_chainStyle="spread_inside"
       app:layout_constraintStart_toStartOf="parent" />
     <include
+      android:id="@+id/btn_search"
       layout="@layout/map_buttons_search_square"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_half_plus"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toStartOf="@+id/btn_bookmarks"
-      app:layout_constraintStart_toEndOf="@+id/help_button" />
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toEndOf="@+id/left_button" />
     <include
+      android:id="@+id/btn_bookmarks"
       layout="@layout/map_buttons_bookmarks_square"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_half_plus"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toStartOf="@+id/menu_button"
+      app:layout_constraintHorizontal_bias="0.5"
       app:layout_constraintStart_toEndOf="@+id/btn_search" />
     <include
+      android:id="@+id/menu_button"
       layout="@layout/map_buttons_menu"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginEnd="@dimen/margin_half"
+        android:layout_marginHorizontal="@dimen/margin_half_plus"
       app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintEnd_toEndOf="parent" />
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toEndOf="@+id/btn_bookmarks" />
   </androidx.constraintlayout.widget.ConstraintLayout>
 </RelativeLayout>

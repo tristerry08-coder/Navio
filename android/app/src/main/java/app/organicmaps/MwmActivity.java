@@ -7,6 +7,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.ColorStateList;
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.location.Location;
@@ -35,6 +36,7 @@ import androidx.annotation.StyleRes;
 import androidx.annotation.UiThread;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
@@ -99,6 +101,9 @@ import app.organicmaps.settings.DrivingOptionsActivity;
 import app.organicmaps.settings.RoadType;
 import app.organicmaps.settings.SettingsActivity;
 import app.organicmaps.settings.UnitLocale;
+import app.organicmaps.leftbutton.LeftButton;
+import app.organicmaps.leftbutton.LeftButtonsHolder;
+import app.organicmaps.leftbutton.LeftToggleButton;
 import app.organicmaps.util.Config;
 import app.organicmaps.util.LocationUtils;
 import app.organicmaps.util.PowerManagment;
@@ -116,6 +121,7 @@ import app.organicmaps.widget.placepage.PlacePageController;
 import app.organicmaps.widget.placepage.PlacePageData;
 import app.organicmaps.widget.placepage.PlacePageViewModel;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 import java.util.Objects;
@@ -127,6 +133,10 @@ import static android.content.pm.PackageManager.PERMISSION_GRANTED;
 import static app.organicmaps.location.LocationState.FOLLOW;
 import static app.organicmaps.location.LocationState.FOLLOW_AND_ROTATE;
 import static app.organicmaps.location.LocationState.LOCATION_TAG;
+import static app.organicmaps.leftbutton.LeftButtonsHolder.BUTTON_ADD_PLACE_CODE;
+import static app.organicmaps.leftbutton.LeftButtonsHolder.BUTTON_HELP_CODE;
+import static app.organicmaps.leftbutton.LeftButtonsHolder.BUTTON_RECORD_TRACK_CODE;
+import static app.organicmaps.leftbutton.LeftButtonsHolder.BUTTON_SETTINGS_CODE;
 import static app.organicmaps.util.PowerManagment.POWER_MANAGEMENT_TAG;
 
 public class MwmActivity extends BaseMwmFragmentActivity
@@ -200,6 +210,8 @@ public class MwmActivity extends BaseMwmFragmentActivity
 
   private int mNavBarHeight;
 
+  private LeftButtonsHolder buttonsHolder;
+
   private PlacePageViewModel mPlacePageViewModel;
   private MapButtonsViewModel mMapButtonsViewModel;
   private MapButtonsController.LayoutMode mPreviousMapLayoutMode;
@@ -231,6 +243,8 @@ public class MwmActivity extends BaseMwmFragmentActivity
   @SuppressWarnings("NotNullFieldNotInitialized")
   @NonNull
   private ActivityResultLauncher<Intent> mPowerSaveSettings;
+  @NonNull
+  private ActivityResultLauncher<Intent> mSettingsLauncher;
   @NonNull
   private boolean mPowerSaveDisclaimerShown = false;
 
@@ -415,6 +429,11 @@ public class MwmActivity extends BaseMwmFragmentActivity
     BookmarkCategoriesActivity.start(this);
   }
 
+  private void onAddPlace()
+  {
+    showPositionChooserForEditor(false, false);
+  }
+
   private void showHelp()
   {
     Intent intent = new Intent(this, HelpActivity.class);
@@ -555,6 +574,9 @@ public class MwmActivity extends BaseMwmFragmentActivity
     mPowerSaveSettings = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(),
         this::onPowerSaveResult);
 
+    mSettingsLauncher = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(),
+        this::onSettingsResult);
+
     mShareLauncher = SharingUtils.RegisterLauncher(this);
 
     mDisplayManager = DisplayManager.from(this);
@@ -584,6 +606,22 @@ public class MwmActivity extends BaseMwmFragmentActivity
      */
     if (Map.isEngineCreated())
       onRenderingInitializationFinished();
+  }
+
+  private void onSettingsResult(ActivityResult activityResult)
+  {
+    if (activityResult.getResultCode() == Activity.RESULT_OK)
+    {
+      Intent data = activityResult.getData();
+      if (data != null && data.hasExtra(MwmActivity.this.getString(R.string.pref_left_button)))
+      {
+        MapButtonsController mMapButtonsController = (MapButtonsController) getSupportFragmentManager().findFragmentById(R.id.map_buttons);
+        if (mMapButtonsController != null)
+        {
+          mMapButtonsController.reloadLeftButton(buttonsHolder.getActiveButton());
+        }
+      }
+    }
   }
 
   private void refreshLightStatusBar()
@@ -781,7 +819,135 @@ public class MwmActivity extends BaseMwmFragmentActivity
 
   private void initNavigationButtons()
   {
+    prepareNavigationButtons();
     initNavigationButtons(mMapButtonsViewModel.getLayoutMode().getValue());
+  }
+
+  private void prepareNavigationButtons()
+  {
+    buttonsHolder = LeftButtonsHolder.getInstance(this);
+    buttonsHolder.registerButton(new LeftButton()
+    {
+      @Override
+      public String getCode()
+      {
+        return BUTTON_HELP_CODE;
+      }
+
+      @Override
+      public String getPrefsName()
+      {
+        return getString(R.string.help);
+      }
+
+      @Override
+      public void drawIcon(FloatingActionButton imageView)
+      {
+        imageView.setImageResource(R.drawable.ic_question_mark);
+      }
+
+      @Override
+      public void onClick(FloatingActionButton left)
+      {
+        Intent intent = new Intent(MwmActivity.this, HelpActivity.class);
+        MwmActivity.this.startActivity(intent);
+      }
+    });
+    buttonsHolder.registerButton(new LeftButton()
+    {
+      @Override
+      public String getCode()
+      {
+        return BUTTON_ADD_PLACE_CODE;
+      }
+
+      @Override
+      public String getPrefsName()
+      {
+        return getString(R.string.placepage_add_place_button);
+      }
+
+      @Override
+      public void drawIcon(FloatingActionButton imageView)
+      {
+        imageView.setImageResource(R.drawable.ic_plus);
+      }
+
+      @Override
+      public void onClick(FloatingActionButton left)
+      {
+        onAddPlace();
+      }
+    });
+    buttonsHolder.registerButton(new LeftButton()
+    {
+      @Override
+      public String getCode()
+      {
+        return BUTTON_SETTINGS_CODE;
+      }
+
+      @Override
+      public String getPrefsName()
+      {
+        return getString(R.string.settings);
+      }
+
+      @Override
+      public void drawIcon(FloatingActionButton imageView)
+      {
+        imageView.setImageResource(R.drawable.ic_settings);
+      }
+
+      @Override
+      public void onClick(FloatingActionButton left)
+      {
+        onOpenSettings();
+      }
+    });
+
+    buttonsHolder.registerButton(new LeftToggleButton()
+    {
+      private boolean isRecording = TrackRecorder.nativeIsTrackRecordingEnabled();
+
+      @Override
+      public void setChecked(boolean checked)
+      {
+        isRecording = checked;
+      }
+
+      @Override
+      public String getCode()
+      {
+        return BUTTON_RECORD_TRACK_CODE;
+      }
+
+      @Override
+      public String getPrefsName()
+      {
+        return getString(R.string.start_track_recording);
+      }
+
+      @Override
+      public void drawIcon(FloatingActionButton imageView)
+      {
+        imageView.setImageResource(R.drawable.ic_track_recording_off);
+
+        int color = isRecording
+            ? ContextCompat.getColor(MwmActivity.this, R.color.active_track_recording)
+            : ThemeUtils.getColor(MwmActivity.this, R.attr.iconTint);
+
+        ColorStateList colorStateList = ColorStateList.valueOf(color);
+        imageView.setImageTintList(colorStateList);
+      }
+
+      @Override
+      public void onClick(FloatingActionButton left)
+      {
+        onTrackRecordingOptionSelected();
+        drawIcon(left);
+      }
+    });
   }
 
   private void initNavigationButtons(MapButtonsController.LayoutMode layoutMode)
@@ -789,8 +955,11 @@ public class MwmActivity extends BaseMwmFragmentActivity
     // Recreate the navigation buttons with the correct layout when it changes
     if (mPreviousMapLayoutMode != layoutMode)
     {
+      MapButtonsController mapButtonsController = new MapButtonsController();
+      mapButtonsController.setLeftButton(buttonsHolder.getActiveButton());
+
       FragmentTransaction transaction = getSupportFragmentManager()
-          .beginTransaction().replace(R.id.map_buttons, new MapButtonsController());
+          .beginTransaction().replace(R.id.map_buttons, mapButtonsController);
       transaction.commit();
       mPreviousMapLayoutMode = layoutMode;
     }
@@ -2287,7 +2456,7 @@ public class MwmActivity extends BaseMwmFragmentActivity
   public void onAddPlaceOptionSelected()
   {
     closeFloatingPanels();
-    showPositionChooserForEditor(false, false);
+    onAddPlace();
   }
 
   public void onDownloadMapsOptionSelected()
@@ -2304,9 +2473,14 @@ public class MwmActivity extends BaseMwmFragmentActivity
 
   public void onSettingsOptionSelected()
   {
-    Intent intent = new Intent(this, SettingsActivity.class);
     closeFloatingPanels();
-    startActivity(intent);
+    onOpenSettings();
+  }
+
+  private void onOpenSettings()
+  {
+    Intent intent = new Intent(this, SettingsActivity.class);
+    mSettingsLauncher.launch(intent);
   }
 
   private boolean startTrackRecording()

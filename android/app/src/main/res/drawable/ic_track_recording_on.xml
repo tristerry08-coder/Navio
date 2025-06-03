@@ -6,7 +6,7 @@
   android:viewportHeight="80">
     <path
       android:pathData="m4.858,10.076c0,-5.523 4.477,-10 10,-10h60c5.523,0 10,4.477 10,10v60c0,5.523 -4.477,10 -10,10h-60c-5.523,0 -10,-4.477 -10,-10z"
-      android:fillColor="#0057ff"
+      android:fillColor="@color/active_track_recording"
       android:fillAlpha="0.78" />
     <path
       android:pathData="m78.907,32.87 l-31.833,13.318 13.335,5.772 6.188,13.147z"

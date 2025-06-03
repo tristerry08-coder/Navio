@@ -138,6 +138,8 @@
   <color name="elevation_profile">#1E96F0</color>
   <color name="elevation_profile_dark">#4BB9E6</color>
 
+  <color name="active_track_recording">#0057ff</color>
+
   <color name="material_calendar_surface_dark">#929292</color>
   <color name="notification_warning">#FFC22219</color>
 </resources>

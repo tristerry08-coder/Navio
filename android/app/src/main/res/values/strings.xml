@@ -930,4 +930,6 @@
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Auto in navigation</string>
     <string name="codeberg">Codeberg</string>
+    <string name="pref_left_button_title">Left button setup</string>
+    <string name="pref_left_button_disable">Disable</string>
 </resources>
