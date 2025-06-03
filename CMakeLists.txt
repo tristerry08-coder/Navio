@@ -12,7 +12,9 @@ set(CMAKE_CXX_VISIBILITY_PRESET hidden)
 set(CMAKE_VISIBILITY_INLINES_HIDDEN ON)
 
 # Disable build-id generation to make builds reproducible.
-add_link_options("LINKER:--build-id=none")
+if (NOT APPLE)
+  add_link_options("LINKER:--build-id=none")
+endif()
 
 # Fixes warning ld: warning: ignoring duplicate libraries on Mac and Windows.
 if (POLICY CMP0156)
