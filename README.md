@@ -32,13 +32,14 @@ A community-led free & open source maps app based on [OpenStreetMap](https://www
 There are apps for Android and iOS (and ARM macOS).
 An alpha linux / macOS Qt desktop version, which is also suitable for linux phones.
 
-**We're working on getting first app releases out soon, please stay tuned!**
+The first app release is available as an APK download now! We are still working on publishing on F-Droid, Google Play Store and iOS App Store as well, please stay tuned!
 
 <!--
 [<img src="docs/badges/apple-appstore.png" alt="App Store" width="160">](https://apps.apple.com/app/comaps/id1567437057)
 [<img src="docs/badges/google-play.png" alt="Google Play" width="160">](https://play.google.com/store/apps/details?id=app.comaps)
 [<img src="docs/badges/fdroid.png" alt="F-Droid" width="160">](https://f-droid.org/en/packages/app.comaps/)
 -->
+[<img src="docs/badges/codeberg.png" alt="Codeberg" width="160">](https://codeberg.org/comaps/comaps/releases)
 
 <p float="left">
   <img src="android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/1.jpg" width="180" />
