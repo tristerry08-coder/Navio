@@ -15,8 +15,6 @@ import app.organicmaps.base.BaseMwmRecyclerFragment;
 import app.organicmaps.dialog.EditTextDialogFragment;
 import app.organicmaps.editor.data.LocalizedStreet;
 
-import java.util.Optional;
-
 public class StreetFragment extends BaseMwmRecyclerFragment<StreetAdapter>
 {
   private LocalizedStreet mSelectedString;

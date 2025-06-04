@@ -5,7 +5,6 @@ import android.os.Parcelable;
 
 import androidx.annotation.DrawableRes;
 import androidx.annotation.IntDef;
-import androidx.annotation.NonNull;
 
 import com.google.common.base.Objects;
 

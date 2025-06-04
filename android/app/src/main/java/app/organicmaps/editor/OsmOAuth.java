@@ -10,8 +10,6 @@ import androidx.annotation.Size;
 import androidx.annotation.WorkerThread;
 import androidx.fragment.app.FragmentManager;
 
-import java.util.Map;
-
 import app.organicmaps.MwmApplication;
 import app.organicmaps.util.NetworkPolicy;
 

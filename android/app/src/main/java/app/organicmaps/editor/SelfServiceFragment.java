@@ -11,7 +11,6 @@ import androidx.annotation.Nullable;
 
 import app.organicmaps.base.BaseMwmRecyclerFragment;
 import app.organicmaps.bookmarks.data.Metadata;
-import app.organicmaps.editor.data.LocalizedStreet;
 
 public class SelfServiceFragment extends BaseMwmRecyclerFragment<SelfServiceAdapter>
 {

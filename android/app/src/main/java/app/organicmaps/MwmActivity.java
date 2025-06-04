@@ -80,7 +80,6 @@ import app.organicmaps.routing.ManageRouteBottomSheet;
 import app.organicmaps.routing.NavigationController;
 import app.organicmaps.routing.NavigationService;
 import app.organicmaps.sdk.routing.RouteMarkType;
-import app.organicmaps.sdk.routing.RoutePointInfo;
 import app.organicmaps.routing.RoutingBottomMenuListener;
 import app.organicmaps.routing.RoutingController;
 import app.organicmaps.routing.RoutingErrorDialogFragment;
@@ -2379,9 +2378,7 @@ public class MwmActivity extends BaseMwmFragmentActivity
         .setTitle(R.string.track_recording_alert_title)
         .setCancelable(false)
         // Negative/Positive/Neutral do not have their usual meaning here.
-        .setNegativeButton(R.string.continue_recording, (dialog, which) -> {
-          mAlertDialog = null;
-        })
+        .setNegativeButton(R.string.continue_recording, (dialog, which) -> mAlertDialog = null)
         .setNeutralButton(R.string.stop_without_saving, (dialog, which) -> {
           stopTrackRecording();
           mAlertDialog = null;

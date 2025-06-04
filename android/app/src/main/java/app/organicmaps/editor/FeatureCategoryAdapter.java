@@ -56,9 +56,7 @@ public class FeatureCategoryAdapter extends RecyclerView.Adapter<RecyclerView.Vi
       case TYPE_FOOTER -> {
         return new FooterViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.item_feature_category_footer, parent, false));
       }
-      default -> {
-        throw new IllegalArgumentException("Unsupported");
-      }
+      default -> throw new IllegalArgumentException("Unsupported");
     }
   }
 

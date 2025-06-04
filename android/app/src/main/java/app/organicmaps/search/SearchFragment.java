@@ -176,9 +176,7 @@ public class SearchFragment extends BaseMwmFragment
   private boolean mInitialSearchOnMap = false;
 
   private final ActivityResultLauncher<Intent> startVoiceRecognitionForResult = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), activityResult ->
-  {
-    mToolbarController.onVoiceRecognitionResult(activityResult);
-  });
+          mToolbarController.onVoiceRecognitionResult(activityResult));
 
   private final LocationListener mLocationListener = new LocationListener()
   {
