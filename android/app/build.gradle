@@ -88,7 +88,6 @@ android {
     buildConfigField 'String', 'SUPPORT_MAIL', '"android@comaps.app"'
     // Should be customized in flavors.
     buildConfigField 'String', 'REVIEW_URL', '""'
-    resourceConfigurations += [project.ext.supportedLocalizations]
 
     externalNativeBuild {
       def pchFlag = 'OFF'
@@ -336,6 +335,58 @@ android {
   androidResources {
     ignoreAssetsPattern '!.svn:!.git:!.DS_Store:!*.scc:.*:<dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~'
     noCompress = ['txt', 'bin', 'html', 'png', 'json', 'mwm', 'ttf', 'sdf', 'ui', 'config', 'csv', 'spv', 'obj']
+    localeFilters += [
+            "af",
+            "ar",
+            "az",
+            "be",
+            "bg",
+            "ca",
+            "cs",
+            "da",
+            "de",
+            "el",
+            "en",
+            "en-rGB",
+            "es",
+            "es-rMX",
+            "et",
+            "eu",
+            "fa",
+            "fi",
+            "fr",
+            "fr-rCA",
+            "iw",
+            "hi",
+            "hu",
+            "in",
+            "it",
+            "ja",
+            "ko",
+            "lt",
+            "lv",
+            "mr",
+            "mt",
+            "nb",
+            "nl",
+            "pl",
+            "pt",
+            "pt-rBR",
+            "ro",
+            "ru",
+            "sk",
+            "sr",
+            "sv",
+            "sw",
+            "th",
+            "tr",
+            "uk",
+            "vi",
+            "zh",
+            "zh-rHK",
+            "zh-rMO",
+            "zh-rTW"
+    ]
   }
 
   compileOptions {
