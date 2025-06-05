@@ -15,7 +15,7 @@
     android:layout_centerVertical="true"
     android:background="?selectableItemBackgroundBorderless"
     android:scaleType="center"
-    android:src="@drawable/ic_close"
+    app:srcCompat="@drawable/ic_close"
     app:tint="?iconTint"/>
 
   <TextView
