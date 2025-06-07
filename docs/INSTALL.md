@@ -182,7 +182,7 @@ There is a matrix of different build variants:
 
 - _[Type](https://codeberg.org/comaps/comaps/src/commit/d02aefbf12a1a201090b40b395585e679b04c798/android/app/build.gradle#L278)_:
   - `Debug` is a debug version with all checks enabled.
-  - `Beta` is a manual pre-release build for testing.
+  - `Beta` is a manual build for testing.
   - `Release` is a fully optimized version for app stores.
 
 - _[Flavor](https://codeberg.org/comaps/comaps/src/commit/d02aefbf12a1a201090b40b395585e679b04c798/android/app/build.gradle#L179)_:
