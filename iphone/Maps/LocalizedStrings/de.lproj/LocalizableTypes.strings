@@ -736,7 +736,7 @@
 "type.leisure.track" = "Laufbahn";
 "type.leisure.track.area" = "Laufbahn";
 "type.leisure.water_park" = "Aquapark";
-"type.leisure.beach_resort" = "Beach Resort";
+"type.leisure.beach_resort" = "Badestrand";
 "type.man_made" = "künstliche Anlage";
 "type.man_made.breakwater" = "Wellenbrecher";
 "type.man_made.cairn" = "Steinmännchen";

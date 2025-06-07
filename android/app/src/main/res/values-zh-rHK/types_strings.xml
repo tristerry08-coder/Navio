@@ -1280,4 +1280,5 @@
     <string name="type.amenity.dojo">道場</string>
     <!-- https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall -->
     <string name="type.leisure.sports_hall">體育館</string>
+    <string name="type.attraction.bumper_car">碰碰車</string>
 </resources>

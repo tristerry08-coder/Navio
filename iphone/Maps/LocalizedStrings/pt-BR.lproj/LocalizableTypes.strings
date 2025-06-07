@@ -1465,7 +1465,7 @@
 "type.piste_type.hike" = "Trilha de caminhada na neve";
 "type.piste_type.connection" = "Conexão às pistas";
 "type.piste_type.skitour" = "Trilha de esqui de passeio";
-"type.amenity.events_venue" = "Local do evento";
+"type.amenity.events_venue" = "Local de eventos";
 "type.shop.auction" = "Leilão";
 "type.shop.collector" = "Colecionáveis";
 "type.self_service.yes" = "Autoatendimento disponível";
@@ -1484,3 +1484,10 @@
 
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "Salão de esportes";
+"type.amenity.love_hotel" = "Motel";
+"type.barrier.guard_rail" = "Guarda-corpo";
+"type.sport.diving" = "Mergulho";
+"type.highway.ladder" = "Escada";
+"type.landuse.plant_nursery" = "Viveiro de plantas";
+"type.amenity.studio" = "Estúdio de gravação";
+"type.leisure.firepit" = "Fogueira";

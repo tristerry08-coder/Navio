@@ -1343,7 +1343,7 @@
     <string name="type.man_made.mast">桅杆</string>
     <string name="type.man_made.silo">筒仓</string>
     <string name="type.man_made.storage_tank">储罐</string>
-    <string name="type.mapswithme.grid">MapsWithMe—网格</string>
+    <string name="type.mapswithme.grid">mapswithme—网格</string>
     <string name="type.mountain_pass">山口</string>
     <string name="type.natural.desert">沙漠</string>
     <string name="type.organic.yes">有机</string>
@@ -1391,9 +1391,15 @@
     <string name="type.hwtag">交通属性标签</string>
     <string name="type.hwtag.yescar">允许汽车标签</string>
     <string name="type.man_made.survey_point">测量点</string>
-    <string name="type.mapswithme">MapsWithMe</string>
+    <string name="type.mapswithme">mapswithme</string>
     <string name="type.man_made.utility_pole">公共设施杆</string>
     <string name="type.route.shuttle_train">穿梭列车</string>
     <string name="type.attraction.bumper_car">碰碰车</string>
     <string name="type.sport.diving">跳水</string>
+    <string name="type.landuse.plant_nursery">苗圃</string>
+    <string name="type.amenity.love_hotel">情侣酒店</string>
+    <string name="type.barrier.guard_rail">交通护栏</string>
+    <string name="type.highway.ladder">梯子</string>
+    <string name="type.amenity.studio">演播厅</string>
+    <string name="type.leisure.firepit">火坑</string>
 </resources>

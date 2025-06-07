@@ -772,7 +772,7 @@
     <string name="type.railway.abandoned.bridge">廃線(橋)</string>
     <string name="type.railway.abandoned.tunnel">廃線(トンネル)</string>
     <string name="type.railway.construction">建設中の鉄道</string>
-    <string name="type.railway.crossing">歩行者用踏切</string>
+    <string name="type.railway.crossing">歩行者専用踏切</string>
     <string name="type.railway.disused">休止線</string>
     <string name="type.railway.funicular">フニクラ</string>
     <string name="type.railway.funicular.bridge">ケーブルカー(橋)</string>
@@ -1320,4 +1320,12 @@
     <string name="type.piste_type.sled.area">そりコース</string>
     <string name="type.landuse.education">教育施設</string>
     <string name="type.leisure.recreation_ground">レクリエーション・グラウンド</string>
+    <string name="type.landuse.plant_nursery">園芸センター</string>
+    <string name="type.leisure.firepit">焚き火場</string>
+    <string name="type.amenity.love_hotel">ラブホテル</string>
+    <string name="type.amenity.studio">スタジオ</string>
+    <string name="type.barrier.guard_rail">防護柵</string>
+    <string name="type.highway.ladder">階子</string>
+    <string name="type.attraction.bumper_car">バンパーカー</string>
+    <string name="type.sport.diving">飛込</string>
 </resources>

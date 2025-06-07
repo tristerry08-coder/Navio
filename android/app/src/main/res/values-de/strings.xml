@@ -29,7 +29,7 @@
     <!-- A dialog title, that warns a user that Precise Location is disabled and suggests to turn it on -->
     <string name="limited_accuracy">Begrenzte Genauigkeit</string>
     <!-- A dialog text, that warns a user that Precise Location is disabled and suggests to turn it on -->
-    <string name="precise_location_is_disabled_long_text">Um eine genaue Navigation zu gewährleisten, aktivieren Sie in den Einstellungen die Option Genauen Standort verwenden.</string>
+    <string name="precise_location_is_disabled_long_text">Um eine genaue Navigation zu gewährleisten, aktivieren Sie in den Einstellungen die Option \"Genauen Standort verwenden\".</string>
     <!-- View and button titles for accessibility -->
     <string name="zoom_to_country">Auf der Karte anzeigen</string>
     <!-- Message to display at the center of the screen when the country download has failed -->
@@ -162,7 +162,7 @@
     <!-- Notes field in Bookmarks view -->
     <string name="description">Notizen</string>
     <!-- Email Subject when sharing bookmark list -->
-    <string name="share_bookmarks_email_subject">CoMaps Lesezeichen wurden mit Ihnen geteilt</string>
+    <string name="share_bookmarks_email_subject">CoMaps-Lesezeichen wurden mit Ihnen geteilt</string>
     <string name="share_bookmarks_email_body">Hallo! \n \nIm Anhang sind meine Lesezeichen der CoMaps App. Sie können sie mit CoMaps öffnen. Wenn Sie die App nicht installiert haben, können Sie sie von https://www.comaps.app/download/ für iOS oder Android herunterladen. \n \nViel Spaß beim Reisen mit CoMaps!</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">Lesezeichen werden geladen</string>
@@ -179,11 +179,11 @@
     <!-- Warning message when doing search around current position -->
     <string name="unknown_current_position">Ihr Standort konnte noch nicht ermittelt werden</string>
     <!-- Alert message that we can't run Map Storage settings due to some reasons. -->
-    <string name="cant_change_this_setting">Leider sind die Einstellungen für die Kartenspeicherung deaktiviert.</string>
+    <string name="cant_change_this_setting">Leider sind die Einstellungen für die Kartenspeicherung aktuell deaktiviert.</string>
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">Die Karte wird heruntergeladen.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">Hey, sieh dir meinen aktuellen Standort auf CoMaps an! %1$s oder %2$s Keine Offline-Karten installiert? Hier herunterladen: https://www.comaps.app/download/</string>
+    <string name="my_position_share_sms">Sieh dir meinen aktuellen Standort auf CoMaps an! %1$s oder %2$s Keine Offline-Karten installiert? Hier herunterladen: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">Hey, sieh dir meine Stecknadel auf der CoMaps-Karte an!</string>
     <!-- Subject for emailed position -->
@@ -239,7 +239,7 @@
     <!-- Settings «Route» category: «Test Voice Directions» title -->
     <string name="pref_tts_test_voice_title">Teste Sprachanweisungen (TTS, Text-To-Speech)</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
-    <string name="pref_tts_playing_test_voice">Überprüfe die Lautstärke oder die Text-to-speech Einstellungen des Systems, wenn du die Stimme jetzt nicht hörst.</string>
+    <string name="pref_tts_playing_test_voice">Überprüfe die Lautstärke oder die Text-to-speech-Einstellungen des Systems, wenn du die Stimme jetzt nicht hörst.</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
     <string name="pref_tts_unavailable">Nicht verfügbar</string>
     <string name="pref_map_auto_zoom">Auto-Zoom</string>
@@ -302,7 +302,7 @@
     <!-- Preference title -->
     <string name="google_play_services">Google Fused-Standortdienste</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">Ein proprietärer Dienst der GPS, Wi-Fi, Mobilfunknetzwerke etc. kombiniert, um den Standort genauer zu bestimmen. Er kann sich mit Google-Servern verbinden.</string>
+    <string name="pref_use_google_play">Ein proprietärer Dienst, der GPS, Wi-Fi, Mobilfunknetzwerke etc. kombiniert, um den Standort genauer zu bestimmen. Er kann sich mit Google-Servern verbinden.</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -358,7 +358,7 @@
     <string name="dialog_routing_error_location_not_found">Route kann nicht erstellt werden. Aktuelle GPS-Koordinaten konnten nicht ermittelt werden.</string>
     <string name="dialog_routing_location_turn_wifi">Bitte prüfen Sie Ihr GPS-Signal. WLAN verbessert Ihre Standortgenauigkeit.</string>
     <string name="dialog_routing_location_turn_on">Standortdienste aktivieren</string>
-    <string name="dialog_routing_location_unknown_turn_on">Aktuelle GPS-Koordinaten können nicht ermittelt werden. Aktivieren Sie Standortdiensten, um die Route zu berechnen.</string>
+    <string name="dialog_routing_location_unknown_turn_on">Aktuelle GPS-Koordinaten können nicht ermittelt werden. Aktivieren Sie Standortdienste, um die Route zu berechnen.</string>
     <string name="dialog_routing_unable_locate_route">Route kann nicht ermittelt werden</string>
     <string name="dialog_routing_cant_build_route">Route kann nicht erstellt werden.</string>
     <string name="dialog_routing_change_start_or_end">Bitte passen Sie Ihren Startpunkt oder Ihr Ziel an.</string>
@@ -424,7 +424,7 @@
     <string name="editor_report_problem_no_place_title">Der Ort existiert nicht</string>
     <string name="editor_report_problem_under_construction_title">Wegen Wartung geschlossen</string>
     <string name="editor_report_problem_duplicate_place_title">Doppelter Ort</string>
-    <string name="autodownload">Automatisch herunterladen</string>
+    <string name="autodownload">Karten automatisch herunterladen</string>
     <!-- Place Page opening hours text -->
     <string name="daily">Täglich</string>
     <string name="twentyfour_seven">24/7</string>
@@ -449,7 +449,7 @@
     <string name="street">Straße</string>
     <!-- Editable House Number text field (in address block). -->
     <string name="house_number">Hausnummer</string>
-    <string name="details">Einzelheiten</string>
+    <string name="details">Details</string>
     <string name="social_media">Social Media</string>
     <string name="building">Gebäude</string>
     <!-- Text field to enter non-existing street name, below list of known streets around -->
@@ -483,7 +483,7 @@
     <!-- The second part of the editor_edit_place_name_hint to explain that name should be entered in a local language, see https://wiki.openstreetmap.org/wiki/Key:name -->
     <string name="editor_default_language_hint">Wie in der lokalen Sprache geschrieben</string>
     <string name="editor_edit_place_category_title">Kategorie</string>
-    <string name="detailed_problem_description">Detaillierte Beschreibung eines Problems</string>
+    <string name="detailed_problem_description">Detaillierte Beschreibung des Problems</string>
     <string name="editor_report_problem_other_title">Ein anderes Problem</string>
     <string name="placepage_add_business_button">Organisation hinzufügen</string>
     <string name="message_invalid_feature_position">Ein Objekt kann hier nicht positioniert werden</string>
@@ -539,7 +539,7 @@
     <string name="placepage_edit_bookmark_button">Lesezeichen bearbeiten</string>
     <string name="placepage_personal_notes_hint">Persönliche Notizen (Text oder html)</string>
     <string name="editor_comment_hint">Kommentar…</string>
-    <string name="editor_reset_edits_message">Alle lokalen Korrekturen verwerfen?</string>
+    <string name="editor_reset_edits_message">Alle lokalen Änderungen verwerfen?</string>
     <string name="editor_reset_edits_button">Verwerfen</string>
     <string name="editor_remove_place_message">Hinzugefügtes Objekt löschen?</string>
     <string name="editor_remove_place_button">Löschen</string>
@@ -563,7 +563,7 @@
     <string name="editor_share_to_all_dialog_message_2">Freiwillige von OpenStreetMap werden die Änderungen prüfen und sich bei Fragen mit Ihnen in Verbindung setzen.</string>
     <string name="navigation_stop_button">Beenden</string>
     <!-- Shown as toast when starting the recent track recording -->
-    <string name="track_recording">Aufnahme der Strecke</string>
+    <string name="track_recording">Strecke wird aufgezeichnet</string>
     <!-- For the first routing -->
     <string name="accept">Annehmen</string>
     <!-- For the first routing -->
@@ -571,7 +571,7 @@
     <string name="mobile_data_dialog">Mobiles Internet verwenden, um genauere Informationen anzuzeigen?</string>
     <string name="mobile_data_option_always">Immer verwenden</string>
     <string name="mobile_data_option_today">Nur heute</string>
-    <string name="mobile_data_option_not_today">Heute Nicht Verwenden</string>
+    <string name="mobile_data_option_not_today">Heute nicht verwenden</string>
     <string name="mobile_data">Mobiles Internet</string>
     <!-- NOTE to translators: please synchronize your translation with the English one. -->
     <string name="mobile_data_description">Für Benachrichtigungen über Kartenaktualisierungen und das Hochladen von Änderungen ist eine mobile Internetverbindung erforderlich.</string>
@@ -588,7 +588,7 @@
     <string name="prefs_languages_information">Wir verwenden Text-to-Speech-Systeme für Sprachanweisungen. Viele Android-Geräte nutzen Google-TTS, das Sie bei Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts) herunterladen oder aktualisieren können</string>
     <string name="prefs_languages_information_off">Für einige Sprachen müssen Sie einen anderen Sprachgenerator oder ein zusätzliches Sprachpaket aus dem App Store installieren (Google Play, Galaxy Store, App Gallery, FDroid).\nÖffnen Sie die Einstellungen Ihres Gerätes → Sprache und Eingabe → Sprache → Text-to-Speech-Ausgabe.\nHier können Sie die Einstellungen für Sprachsynthese verwalten (beispielsweise ein Sprachpaket für die Offline-Verwendung herunterladen) und ein anderes Sprachausgabeprogramm auswählen.</string>
     <string name="prefs_languages_information_off_link">Weitere Informationen finden Sie in dieser Anleitung.</string>
-    <string name="transliteration_title">Transliteration ins Lateinische</string>
+    <string name="transliteration_title">Transliteration ins lateinische Alphabet</string>
     <string name="learn_more">Weitere Informationen</string>
     <!-- Subway exits for public transport marks on the map -->
     <string name="core_exit">Ausgang</string>
@@ -599,10 +599,10 @@
     <string name="planning_route_manage_route">Route verwalten</string>
     <string name="button_plan">Planen</string>
     <string name="placepage_remove_stop">Stopp entfernen</string>
-    <string name="placepage_add_stop">Stopp einfügen</string>
+    <string name="placepage_add_stop">Stopp hinzufügen</string>
     <!-- Alert to ask user relogin to OpenStreetMap with OAuth2 flow after OAuth1 authentication is deprecated. -->
     <string name="alert_reauth_message">Bitte melde dich bei OpenStreetMap an, um alle deine Kartenbearbeitungen automatisch hochzuladen. Erfahre mehr <a href="https://github.com/organicmaps/organicmaps/issues/6144">hier</a>.</string>
-    <string name="dialog_error_storage_title">Problem mit dem Zugreifen auf den Speicher</string>
+    <string name="dialog_error_storage_title">Problem mit dem Zugriff auf den Speicher</string>
     <string name="dialog_error_storage_message">Der externe Speicher ist nicht verfügbar, möglicherweise wurde die SD-Karte entfernt oder sie ist beschädigt oder das Dateisystem ist schreibgeschützt. Überprüfen Sie das bitte oder kontaktieren Sie uns unter support@comaps.app</string>
     <string name="setting_emulate_bad_storage">Fehlerhaften Speicher emulieren</string>
     <string name="core_entrance">Eingang</string>
@@ -668,22 +668,22 @@
     <string name="power_managment_title">Stromsparmodus</string>
     <string name="power_managment_description">Versuchen Sie, den Stromverbrauch auf Kosten einiger Funktionen zu reduzieren.</string>
     <string name="power_managment_setting_never">Niemals</string>
-    <string name="power_managment_setting_auto">Auto</string>
-    <string name="power_managment_setting_manual_max">Maximale Stromsparung</string>
-    <string name="enable_logging_warning_message">Diese Option wird aktiviert, um Aktivitäten zwecks Diagnostik aufzuzeichnen. Das hilft unserem Team, Probleme mit der App zu erkennen. Aktivieren Sie diese Option, reproduzieren Sie das Problem und senden Sie die Protokolle über die Schaltfläche \"Fehler melden\" an uns.</string>
+    <string name="power_managment_setting_auto">Bei niedrigem Akkustand</string>
+    <string name="power_managment_setting_manual_max">Immer</string>
+    <string name="enable_logging_warning_message">Aktivieren Sie diese Option zeitweise, um manuell Aktivitäten zwecks Diagnostik aufzuzeichnen und zu senden. Das hilft unserem Team, Probleme mit der App zu erkennen. Aktivieren Sie diese Option, reproduzieren Sie das Problem und senden Sie die Protokolle über die Schaltfläche \"Fehler melden\" an uns.</string>
     <string name="access_rules_author_only">Online bearbeiten</string>
-    <string name="driving_options_title">Routenbeschränkungen</string>
+    <string name="driving_options_title">Routenoptionen</string>
     <!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->
     <string name="avoid_tolls">Mautstraßen vermeiden</string>
     <!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->
-    <string name="avoid_unpaved">Unbefest. Straßen vermeiden</string>
+    <string name="avoid_unpaved">Unbefestigte Straßen meiden</string>
     <!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->
-    <string name="avoid_ferry">Fähren vermeiden</string>
-    <string name="avoid_motorways">Autobahnen vermeiden</string>
+    <string name="avoid_ferry">Fähren meiden</string>
+    <string name="avoid_motorways">Autobahnen meiden</string>
     <string name="unable_to_calc_alert_title">Route kann nicht berechnet werden</string>
-    <string name="unable_to_calc_alert_subtitle">Eine Route konnte nicht gefunden werden. Dies kann an Ihren Routing-Optionen oder an unvollständigen OpenStreetMap-Daten liegen. Bitte ändern Sie Ihre Routing-Optionen und versuchen Sie es erneut.</string>
-    <string name="define_to_avoid_btn">Routenbeschränkung einstellen</string>
-    <string name="change_driving_options_btn">Routenbeschränkungen aktiv</string>
+    <string name="unable_to_calc_alert_subtitle">Es konnte keine Route gefunden werden. Dies kann an Ihren Routingoptionen oder an unvollständigen OpenStreetMap-Daten liegen. Bitte ändern Sie Ihre Routingoptionen und versuchen Sie es erneut.</string>
+    <string name="define_to_avoid_btn">Routenoptionen einstellen</string>
+    <string name="change_driving_options_btn">Routenoptionen aktiv</string>
     <string name="toll_road">Mautstraße</string>
     <string name="unpaved_road">Unbefestigte Straße</string>
     <string name="ferry_crossing">Fährstelle</string>
@@ -700,7 +700,7 @@
     <!-- To indicate the network of ATMs, bicycle rentals, electric vehicle charging stations... -->
     <string name="network">Netzwerk: %s</string>
     <string name="trip_finished">Sie sind angekommen!</string>
-    <string name="ok">Ok</string>
+    <string name="ok">OK</string>
     <!-- max. 10 symbols, both iOS and Android -->
     <string name="sort">Sortieren…</string>
     <!-- Android, title, max 20-22 symbols -->
@@ -738,12 +738,12 @@
     <string name="medicine">Medizin</string>
     <string name="search_in_the_list">In der Liste suchen</string>
     <string name="religious_places">Religiöse Orte</string>
-    <string name="select_list">Wählen Sie die Liste</string>
+    <string name="select_list">Wählen Sie eine Liste</string>
     <string name="transit_not_found">Die U-Bahn-Navigation ist in dieser Region noch nicht verfügbar</string>
     <string name="dialog_pedestrian_route_is_long_header">Keine U-Bahn-Route gefunden</string>
     <string name="dialog_pedestrian_route_is_long_message">Wählen Sie einen zu einer U-Bahn-Station nähergelegenen Start- oder Endpunkt</string>
-    <string name="button_layer_isolines">Höhelinien</string>
-    <string name="isolines_activation_error_dialog">Um die Topographieebene nutzen zu können, aktualisieren Sie die Karte des betreffenden Gebiets oder laden Sie diese herunter</string>
+    <string name="button_layer_isolines">Höhenlinien</string>
+    <string name="isolines_activation_error_dialog">Um die Höhenlinien nutzen zu können, aktualisieren Sie die Karte des betreffenden Gebiets oder laden Sie diese herunter</string>
     <string name="isolines_location_error_dialog">Topographieebene ist für dieses Gebiet noch nicht verfügbar</string>
     <string name="elevation_profile_ascent">Bergauf</string>
     <string name="elevation_profile_descent">Bergab</string>
@@ -752,8 +752,8 @@
     <string name="elevation_profile_difficulty">Schwierigkeitsgrad</string>
     <string name="elevation_profile_distance">Entf.:</string>
     <string name="elevation_profile_time">Dauer:</string>
-    <string name="isolines_toast_zooms_1_10">Karte vergrößern, um Höhelinien sichtbar zu machen</string>
-    <string name="downloader_loading_ios">Herunterladen</string>
+    <string name="isolines_toast_zooms_1_10">Karte vergrößern, um Höhenlinien sichtbar zu machen</string>
+    <string name="downloader_loading_ios">Wird heruntergeladen</string>
     <string name="download_map_title">Laden Sie die weltweite Übersichtskarte herunter</string>
     <!-- Used in DownloadResources startup screen -->
     <string name="disk_error">Ordner kann nicht erstellt und Dateien können nicht auf den Gerätespeicher oder die SD-Karte verschoben werden</string>
@@ -763,9 +763,9 @@
     <string name="connection_failure">Verbindungsfehler</string>
     <!-- Used in DownloadResources startup screen -->
     <string name="disconnect_usb_cable_title">USB-Kabel trennen</string>
-    <string name="enable_keep_screen_on">Bildschirm anlassen</string>
+    <string name="enable_keep_screen_on">Bildschirm eingeschaltet lassen</string>
     <!-- Description in preferences -->
-    <string name="enable_keep_screen_on_description">Wenn diese Option aktiviert ist, ist der Bildschirm bei der Anzeige der Karte immer eingeschaltet.</string>
+    <string name="enable_keep_screen_on_description">Wenn diese Option aktiviert ist, bleibt der Bildschirm bei der Anzeige der Karte immer eingeschaltet.</string>
     <!-- A preference title; keep short! -->
     <string name="enable_show_on_lock_screen">Auf dem Sperrbildschirm anzeigen</string>
     <!-- Description in preferences -->
@@ -831,7 +831,7 @@
     <string name="clear_the_search">Lösche die Suche</string>
     <string name="zoom_in">Vergrößern</string>
     <!-- Accessibility text for the zoom-out button on the map -->
-    <string name="zoom_out">Herauszoomen</string>
+    <string name="zoom_out">Verkleinern</string>
     <!-- Restaurant or other food place's menu URL field in the Editor -->
     <string name="website_menu">Link zur Speisekarte</string>
     <!-- Button in the Place Page which opens a restaurant or other food place's menu in a browser -->
@@ -846,9 +846,9 @@
     <!-- Disclaimer summary shown when Power Saving Mode is enabled -->
     <string name="power_save_dialog_summary">Für eine möglichst genaue Navigation empfehlen wir, den Energiesparmodus in den Akku-Einstellungen des Telefons zu deaktivieren.</string>
     <!-- Prompt to start recording a track. -->
-    <string name="start_track_recording">Track aufnehmen</string>
+    <string name="start_track_recording">Strecke aufzeichnen</string>
     <!-- Prompt for stopping a track recording. -->
-    <string name="stop_track_recording">Aufnahme des Tracks stoppen</string>
+    <string name="stop_track_recording">Streckenaufzeichnung stoppen</string>
     <!-- Title for the "Stop Without Saving" action for the alert when saving a track recording. -->
     <string name="stop_without_saving">Ohne Speichern beenden</string>
     <!-- Title for the "Stop Without Saving" action for the alert when saving a track recording. -->
@@ -867,7 +867,7 @@
     <string name="menu">Menü</string>
     <string name="read_in_wikipedia">Wikipedia</string>
     <string name="wikimedia_commons">Wikimedia Commons</string>
-    <string name="editor_line_social_network">LINIE</string>
+    <string name="editor_line_social_network">LINE</string>
     <string name="matrix">[Matrix]</string>
     <string name="vk">VK</string>
     <string name="twitter">X (Twitter)</string>
@@ -885,7 +885,7 @@
     <string name="app_site_url">https://comaps.app/de/</string>
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="instagram_url">https://www.instagram.com/comapscommunity/</string>
-    <string name="error_enter_correct_bluesky_page">Geben sie einen validen Bluesky-Nutzernamen oder Webadresse ein</string>
+    <string name="error_enter_correct_bluesky_page">Geben Sie einen gültigen Bluesky-Nutzernamen oder Webadresse ein</string>
     <string name="bluesky">Bluesky</string>
-    <string name="error_enter_correct_fediverse_page">Geben sie einen validen Mastodon-Nutzernamen oder Webadresse an</string>
+    <string name="error_enter_correct_fediverse_page">Geben Sie einen gültigen Mastodon-Nutzernamen oder Webadresse an</string>
 </resources>

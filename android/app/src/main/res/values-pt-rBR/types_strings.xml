@@ -1096,7 +1096,7 @@
     <string name="type.piste_type.hike">Trilha de caminhada na neve</string>
     <string name="type.piste_type.connection">Conexão às pistas</string>
     <string name="type.piste_type.skitour">Trilha de esqui de passeio</string>
-    <string name="type.amenity.events_venue">Local do evento</string>
+    <string name="type.amenity.events_venue">Local de eventos</string>
     <string name="type.shop.collector">Colecionáveis</string>
     <string name="type.self_service.yes">Autoatendimento disponível</string>
     <string name="type.self_service.only">Somente autoatendimento</string>
@@ -1203,4 +1203,11 @@
     <string name="type.historic.city_gate">Portões da Cidade</string>
     <string name="type.historic.fort">Forte</string>
     <string name="type.amenity.stripclub">Clube de strip</string>
+    <string name="type.amenity.love_hotel">Motel</string>
+    <string name="type.leisure.firepit">Fogueira</string>
+    <string name="type.landuse.plant_nursery">Viveiro de plantas</string>
+    <string name="type.sport.diving">Mergulho</string>
+    <string name="type.amenity.studio">Estúdio de gravação</string>
+    <string name="type.barrier.guard_rail">Guarda-corpo</string>
+    <string name="type.highway.ladder">Escada</string>
 </resources>

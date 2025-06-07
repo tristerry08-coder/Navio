@@ -1484,3 +1484,10 @@
 
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "Спортивный зал";
+"type.amenity.love_hotel" = "Любовный отель";
+"type.sport.diving" = "Подводное плавание";
+"type.barrier.guard_rail" = "Дорожное ограждение (отбойник)";
+"type.highway.ladder" = "Лестница-лаз";
+"type.landuse.plant_nursery" = "Питомник растений";
+"type.amenity.studio" = "Студия";
+"type.leisure.firepit" = "Место разведения костра";

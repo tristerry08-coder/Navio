@@ -41,15 +41,15 @@
     <string name="try_again">Попробуйте ещё раз</string>
     <string name="about_menu_title">Про CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Бесплатно для всех, сделано с любовью</string>
+    <string name="about_headline">Открытый проект создаваемый сообществом</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_1">• Без рекламы, без трекинга, без слежки</string>
+    <string name="about_proposition_1">• Легко использовать и отполированный вид</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_2">• Не разряжает батарею, работает в автономном режиме</string>
+    <string name="about_proposition_2">• Приватный и без рекламы</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Быстрый, минималистичный, разработанный сообществом</string>
+    <string name="about_proposition_3">• Автономный, быстрый и компактный</string>
     <!-- Text in About screen -->
-    <string name="about_developed_by_enthusiasts">Приложение с открытым исходным кодом, созданное энтузиастами и волонтёрами.</string>
+    <string name="about_developed_by_enthusiasts">Приложение с открытым исходным кодом, не для наживы, прозрачное принятие решений и финансирование.</string>
     <!-- The button that opens system location settings -->
     <string name="location_settings">Настройки местоположения</string>
     <string name="close">Закрыть</string>
@@ -186,11 +186,11 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">Идет процесс загрузки карт.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">Смотри где я сейчас. Жми %1$s или %2$s</string>
+    <string name="my_position_share_sms">Смотри где я сейчас! Жми %1$s или %2$s Нету автономных карт? Скачай тут https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
-    <string name="bookmark_share_email_subject">Смотри мою метку на карте CoMaps</string>
+    <string name="bookmark_share_email_subject">Смотри мою метку на карте CoMaps!</string>
     <!-- Subject for emailed position -->
-    <string name="my_position_share_email_subject">Посмотри на карте CoMaps, где я сейчас нахожусь</string>
+    <string name="my_position_share_email_subject">Посмотри на карте CoMaps, где я сейчас нахожусь!</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
     <string name="my_position_share_email">Привет! \n \nЯ сейчас здесь: %1$s. Чтобы увидеть это место на карте CoMaps, открой эту ссылку %2$s или эту %3$s \n \nСпасибо.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -305,9 +305,9 @@
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Обновить карту</string>
     <!-- Preference title -->
-    <string name="google_play_services">Службы определения местоположения в Google Play</string>
+    <string name="google_play_services">Службы определения местоположения в Google Fused</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">Быстрое определение приблизительного местоположения с помощью Bluetooth, WiFi или мобильной сети</string>
+    <string name="pref_use_google_play">Несвободный сервис который объединяет GPS, WiFi, мобильные сети и т.д. чтобы определить ваше местоположения с большей точностью. Он может подключатся к серверам Google.</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -894,4 +894,9 @@
     <string name="vk">VK</string>
     <string name="instagram_url">https://www.instagram.com/comapscommunity/</string>
     <string name="comma_separated_pair">%1$s, %2$s</string>
+    <string name="error_enter_correct_bluesky_page">Введите имя пользователя Bluesky или веб-адрес</string>
+    <string name="error_enter_correct_fediverse_page">Введите имя пользователя Mastodon или веб-адрес</string>
+    <string name="app_site_url">https://comaps.app/ru/</string>
+    <string name="bluesky">Bluesky</string>
+    <string name="codeberg">Codeberg</string>
 </resources>

@@ -1484,3 +1484,10 @@
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "Palazzetto dello sport";
 "type.railway.preserved" = "Ferrovia storica";
+"type.amenity.love_hotel" = "Love hotel";
+"type.leisure.firepit" = "Braciere";
+"type.sport.diving" = "Immersione";
+"type.barrier.guard_rail" = "Barriera di contenimento";
+"type.landuse.plant_nursery" = "Vivaio";
+"type.amenity.studio" = "Studio";
+"type.highway.ladder" = "Scala";

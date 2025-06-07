@@ -773,8 +773,8 @@
 "type.man_made.water_well.drinking_water_no" = "水井";
 "type.man_made.windmill" = "风车";
 "type.man_made.works" = "工厂";
-"type.mapswithme" = "MapsWithMe";
-"type.mapswithme.grid" = "MapsWithMe—网格";
+"type.mapswithme" = "mapswithme";
+"type.mapswithme.grid" = "mapswithme—网格";
 "type.military" = "军事";
 "type.military.bunker" = "地堡";
 "type.mountain_pass" = "山口";
@@ -1484,3 +1484,10 @@
 
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "体育馆";
+"type.landuse.plant_nursery" = "苗圃";
+"type.leisure.firepit" = "火坑";
+"type.amenity.love_hotel" = "情侣酒店";
+"type.barrier.guard_rail" = "交通护栏";
+"type.highway.ladder" = "梯子";
+"type.amenity.studio" = "演播厅";
+"type.sport.diving" = "跳水";

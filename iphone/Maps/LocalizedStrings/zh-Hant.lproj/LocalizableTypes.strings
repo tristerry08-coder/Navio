@@ -1378,7 +1378,7 @@
 "type.tourism.attraction" = "景點";
 "type.attraction.amusement_ride" = "遊樂設施";
 "type.attraction.animal" = "動物圍欄";
-"type.attraction.bumper_car" = "Bumper Car";
+"type.attraction.bumper_car" = "碰碰車";
 "type.attraction.big_wheel" = "Big Wheel";
 "type.attraction.carousel" = "輪播";
 "type.attraction.historic" = "歷史景點";
@@ -1484,3 +1484,10 @@
 
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "體育館";
+"type.amenity.love_hotel" = "愛情賓館";
+"type.barrier.guard_rail" = "交通護欄";
+"type.highway.ladder" = "梯子";
+"type.landuse.plant_nursery" = "苗圃";
+"type.amenity.studio" = "攝影棚";
+"type.leisure.firepit" = "營火處";
+"type.sport.diving" = "跳水";

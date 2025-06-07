@@ -151,7 +151,7 @@
     <string name="description">Informazioni</string>
     <!-- Email Subject when sharing bookmark list -->
     <string name="share_bookmarks_email_subject">Questi sono i miei luoghi preferiti su CoMaps</string>
-    <string name="share_bookmarks_email_body">Ciao! \n \nIn allegato ci sono i miei luoghi preferiti; li puoi aprire con CoMaps. Oppure, se non ce l\'hai, scarica l\'app per iOS o Android seguendo questo link: https://comaps.app/ \n \nDivertiti a viaggiare con CoMaps!</string>
+    <string name="share_bookmarks_email_body">Ciao!\n\nIn allegato ci sono i miei luoghi preferiti. Aprili se hai installato CoMaps. Oppure, se non ce l\'hai, scarica l\'app per iOS o Android seguendo questo link: https://www.comaps.app/\n\nDivertiti a viaggiare con CoMaps!</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">Caricamento luoghi preferiti</string>
     <!-- Kmz file successful loading -->
@@ -877,4 +877,10 @@
     <string name="mb">MB</string>
     <string name="gb">GB</string>
     <string name="codeberg">Codeberg</string>
+    <string name="app_site_url">https://comaps.app/it/</string>
+    <string name="error_enter_correct_fediverse_page">Inserisci un nome utente o un indirizzo web Mastodon valido</string>
+    <string name="bluesky">Bluesky</string>
+    <string name="error_enter_correct_bluesky_page">Inserisci un nome utente o un indirizzo web Bluesky valido</string>
+    <string name="instagram_url">https://www.instagram.com/comapscommunity/</string>
+    <string name="telegram_url">https://t.me/CoMapsApp/</string>
 </resources>
