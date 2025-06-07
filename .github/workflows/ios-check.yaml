@@ -28,8 +28,6 @@ jobs:
       - name: Install dependencies
         run: |
           brew install qt \
-          freetype \
-          harfbuzz \
           optipng
       - name: Checkout sources
         uses: actions/checkout@v4
