@@ -6,9 +6,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,15 +20,17 @@ import app.organicmaps.util.WindowInsetUtils;
 import app.organicmaps.util.concurrency.ThreadPool;
 import app.organicmaps.util.concurrency.UiThread;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import com.google.android.material.imageview.ShapeableImageView;
+import com.google.android.material.textview.MaterialTextView;
 
 import java.text.NumberFormat;
 
 public class ProfileFragment extends BaseMwmToolbarFragment
 {
   private View mUserInfoBlock;
-  private TextView mEditsSent;
-  private TextView mProfileName;
-  private ImageView mProfileImage;
+  private MaterialTextView mEditsSent;
+  private MaterialTextView mProfileName;
+  private ShapeableImageView mProfileImage;
   private ProgressBar mProfileInfoLoading;
 
   @Nullable
