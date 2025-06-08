@@ -311,7 +311,7 @@
     <!-- Preference title -->
     <string name="google_play_services">Google 整合式位置預測提供服務</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">結合了 GPS、Wi-Fi、蜂窩網路等的專有服務，能更準確地確定您的位置。 它可能會連接到 Google 伺服器。</string>
+    <string name="pref_use_google_play">結合了 GPS、Wi-Fi、行動網路等的專有服務，能更準確地確定您的位置。 它可能會連接到 Google 伺服器。</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -785,7 +785,7 @@
     <!-- OpenStreetMap text on splash screen -->
     <string name="splash_subtitle">地圖數據來自 OpenStreetMap</string>
     <!-- Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
-    <string name="translated_om_site_url">https://comaps.app/</string>
+    <string name="translated_om_site_url">https://comaps.app/zh-Hant/</string>
     <!-- Link to OSM wiki for Editor, Profile and About pages -->
     <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/Zh-hant:關於OpenStreetMap</string>
     <!-- App Tip #00 -->
@@ -793,7 +793,7 @@
     <!-- App tip #01 -->
     <string name="app_tip_01">有了您的捐贈和支持，我們可以創造世界上最好的地圖！</string>
     <!-- App tip #02 -->
-    <string name="app_tip_02">您喜歡我們的應用程式嗎？請捐款以支持發展！還不喜歡嗎？請告訴我們，我們會修復您提到的問題！</string>
+    <string name="app_tip_02">您喜歡我們的應用嗎？請捐款以支持發展！還不喜歡嗎？請告訴我們，我們會修復您提到的問題！</string>
     <!-- App tip #03 -->
     <string name="app_tip_03">如果您認識軟體開發人員，您可以要求他實現您需要的功能。</string>
     <!-- App tip #04 -->
@@ -887,5 +887,9 @@
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="github">GitHub</string>
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
-    <string name="app_site_url">https://comaps.app/</string>
+    <string name="app_site_url">https://comaps.app/zh-Hant/</string>
+    <string name="saved">已儲存</string>
+    <string name="error_enter_correct_fediverse_page">請輸入有效的 Mastodon 使用者名稱或網址</string>
+    <string name="error_enter_correct_bluesky_page">請輸入有效的 Bluesky 使用者名稱或網址</string>
+    <string name="bluesky">Bluesky</string>
 </resources>

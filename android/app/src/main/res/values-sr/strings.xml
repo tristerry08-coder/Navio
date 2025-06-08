@@ -341,7 +341,7 @@
     <!-- blue gray color -->
     <string name="blue_gray">Плаво сива</string>
     <!-- SECTION: Routing dialogs strings -->
-    <string name="dialog_routing_disclaimer_title">Када пратите руту, обратите пажњу на:</string>
+    <string name="dialog_routing_disclaimer_title">Када пратите руту, обратите пажњу:</string>
     <string name="dialog_routing_disclaimer_priority">— Услови на путу, саобраћајни прописи и знакови имају приоритет у односу на навигацију;</string>
     <string name="dialog_routing_disclaimer_precision">— Мапа може бити нетачна и предложена рута не мора увек бити најоптималнији начин да стигнете на одредиште;</string>
     <string name="dialog_routing_disclaimer_recommendations">— Предложену руту треба да схватите само као предлог;</string>

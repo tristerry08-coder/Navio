@@ -3,14 +3,21 @@
     <string name="type.historic.castle.stately">法式城堡</string>
     <string name="type.historic.citywalls">城牆</string>
     <string name="type.historic.gallows">絞架</string>
-    <string name="type.leisure.firepit">營火處</string>
+    <string name="type.leisure.firepit">營火場</string>
     <string name="type.amenity.studio">攝影棚</string>
     <string name="type.attraction.bumper_car">碰碰車</string>
     <string name="type.amenity.love_hotel">愛情賓館</string>
-    <string name="type.barrier.guard_rail">交通護欄</string>
+    <string name="type.barrier.guard_rail">公路護欄</string>
     <string name="type.highway.ladder">梯子</string>
     <string name="type.landuse.plant_nursery">苗圃</string>
     <string name="type.leisure.bowling_alley">保齡球館</string>
     <string name="type.amenity.clinic">診所</string>
     <string name="type.sport.diving">跳水</string>
+    <string name="type.railway.narrow_gauge.bridge">窄軌鐵路軌道</string>
+    <string name="type.craft.photographer">攝影棚</string>
+    <string name="type.amenity.parking.lane.private">私人車道停車場</string>
+    <string name="type.sport.padel">板式網球</string>
+    <string name="type.tourism.information.visitor_centre">旅遊服務中心</string>
+    <string name="type.man_made.silo">筒倉</string>
+    <string name="type.tourism.viewpoint">觀光景點</string>
 </resources>

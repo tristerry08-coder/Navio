@@ -101,7 +101,7 @@
 "type.amenity.parking.street_side.private" = "私人街邊停車場";
 "type.amenity.parking.lane" = "車道停車";
 "type.amenity.parking.lane.fee" = "車道停車";
-"type.amenity.parking.lane.private" = "私人車道停車";
+"type.amenity.parking.lane.private" = "私人車道停車場";
 "type.amenity.parking_entrance" = "停車場入口";
 "type.amenity.parking_entrance.private" = "私人停車場入口";
 "type.amenity.parking_entrance.permissive" = "停車場入口";
@@ -260,7 +260,7 @@
 "type.craft.locksmith" = "鎖匠";
 "type.craft.metal_construction" = "鐵工";
 "type.craft.painter" = "油漆工";
-"type.craft.photographer" = "攝影師";
+"type.craft.photographer" = "攝影棚";
 "type.shop.camera" = "相機店";
 "type.craft.plumber" = "水管工人";
 "type.craft.sawmill" = "鋸木廠";
@@ -749,7 +749,7 @@
 "type.man_made.pier" = "Pier";
 "type.man_made.pipeline" = "Pipeline";
 "type.man_made.pipeline.overground" = "Overground Pipeline";
-"type.man_made.silo" = "Silo";
+"type.man_made.silo" = "筒倉";
 "type.man_made.storage_tank" = "Storage Tank";
 "type.man_made.surveillance" = "監控攝影機";
 "type.man_made.tower" = "塔";
@@ -928,7 +928,7 @@
 "type.railway.monorail.bridge" = "單軌軌道";
 "type.railway.monorail.tunnel" = "單軌軌道";
 "type.railway.narrow_gauge" = "Narrow Gauge Rail";
-"type.railway.narrow_gauge.bridge" = "Narrow Gauge Rail Bridge";
+"type.railway.narrow_gauge.bridge" = "窄軌鐵路軌道";
 "type.railway.narrow_gauge.tunnel" = "Narrow Gauge Rail Tunnel";
 "type.railway.platform" = "Railway Platform";
 "type.railway.preserved" = "Preserved Rail";
@@ -1358,7 +1358,7 @@
 "type.sport.volleyball" = "排球";
 "type.sport.10pin" = "保齡球";
 "type.sport.9pin" = "保齡球";
-"type.sport.padel" = "帕德爾";
+"type.sport.padel" = "板式網球";
 "type.sport.futsal" = "五人制足球";
 "type.sport.ice_hockey" = "冰球";
 "type.sport.field_hockey" = "曲棍球";
@@ -1400,13 +1400,13 @@
 "type.tourism.information.guidepost" = "指路牌";
 "type.tourism.information.map" = "旅遊地圖";
 "type.tourism.information.office" = "旅遊辦事處";
-"type.tourism.information.visitor_centre" = "遊客中心";
+"type.tourism.information.visitor_centre" = "旅遊服務中心";
 "type.tourism.motel" = "汽車旅館";
 "type.tourism.museum" = "博物館";
 "type.tourism.picnic_site" = "野餐";
 "type.leisure.resort" = "度假酒店";
 "type.tourism.theme_park" = "旅遊景點";
-"type.tourism.viewpoint" = "觀景點";
+"type.tourism.viewpoint" = "觀光景點";
 
 /* Typically more basic, not staffed and free (compared to alpine_hut). */
 "type.tourism.wilderness_hut" = "山屋";
@@ -1485,9 +1485,9 @@
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "體育館";
 "type.amenity.love_hotel" = "愛情賓館";
-"type.barrier.guard_rail" = "交通護欄";
+"type.barrier.guard_rail" = "公路護欄";
 "type.highway.ladder" = "梯子";
 "type.landuse.plant_nursery" = "苗圃";
 "type.amenity.studio" = "攝影棚";
-"type.leisure.firepit" = "營火處";
+"type.leisure.firepit" = "營火場";
 "type.sport.diving" = "跳水";

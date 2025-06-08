@@ -8,4 +8,13 @@
     <string name="search">Nadi</string>
     <string name="try_again">Ɛreḍ tikkelt niḍen</string>
     <string name="copyright">Izerfan n usuffeɣ</string>
+    <string name="app_site_url">https://comaps.app/</string>
+    <string name="close">Mdel</string>
+    <string name="download">Zdem</string>
+    <string name="pause">Seṛǧu</string>
+    <string name="continue_button">Kemmel</string>
+    <string name="name">Isem</string>
+    <string name="address">Tansa</string>
+    <string name="list">Tabdart</string>
+    <string name="settings">Iɣewwaren</string>
 </resources>

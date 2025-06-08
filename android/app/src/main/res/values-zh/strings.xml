@@ -311,7 +311,7 @@
     <!-- Preference title -->
     <string name="google_play_services">Google 一体化位置信息服务</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">结合了 GPS、Wi-Fi、蜂窝网络等的专有服务，能更准确地确定您的位置。它可能会连接到 Google 服务器。</string>
+    <string name="pref_use_google_play">结合了 GPS、Wi-Fi、移动网络等的专有服务，能更准确地确定您的位置。它可能会连接到 Google 服务器。</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -793,7 +793,7 @@
     <!-- App tip #01 -->
     <string name="app_tip_01">有了您的捐赠和支持，我们可以创造世界上最好的地图！</string>
     <!-- App tip #02 -->
-    <string name="app_tip_02">您喜欢我们的应用程序吗？请捐款以支持发展！还不喜欢吗？请告诉我们，我们会修复您提到的问题！</string>
+    <string name="app_tip_02">您喜欢我们的应用吗？请捐款以支持发展！还不喜欢吗？请告诉我们，我们会修复您提到的问题！</string>
     <!-- App tip #03 -->
     <string name="app_tip_03">如果您认识软件开发人员，您可以要求他实现您需要的功能。</string>
     <!-- App tip #04 -->
@@ -888,7 +888,8 @@
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
     <string name="codeberg">Codeberg</string>
-    <string name="error_enter_correct_fediverse_page">输入有效的 Mastodon 用户名或网址</string>
+    <string name="error_enter_correct_fediverse_page">请输入有效的 Mastodon 用户名或网址</string>
     <string name="bluesky">Bluesky</string>
-    <string name="error_enter_correct_bluesky_page">输入有效的 Bluesky 用户名或网址</string>
+    <string name="error_enter_correct_bluesky_page">请输入有效的 Bluesky 用户名或网址</string>
+    <string name="saved">已保存</string>
 </resources>

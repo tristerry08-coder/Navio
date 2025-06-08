@@ -275,7 +275,7 @@
     <!-- Toast text when compass calibration may improve the correctness of the current position arrow -->
     <string name="compass_calibration_required">携帯電話を8の字に動かしてコンパスを校正し、地図上の矢印の方向を固定します。</string>
     <!-- Toast text when user hides UI with a long tap anywhere on the map -->
-    <string name="long_tap_toast">インターフェイスを見るには、もう一度地図をロングタップする。</string>
+    <string name="long_tap_toast">インターフェイスを見るには、もう一度地図をロングタップする</string>
     <!-- Update all button text -->
     <string name="downloader_update_all_button">全てをアップデート</string>
     <!-- Cancel all button text -->
@@ -780,9 +780,9 @@
     <!-- App Tip #00 -->
     <string name="app_tip_00">私たちのコミュニティが作った地図をご利用いただき、ありがとうございます！</string>
     <!-- App tip #01 -->
-    <string name="app_tip_01">あなたの寄付とサポートがあれば、世界で最高の地図を作成できます。</string>
+    <string name="app_tip_01">あなたの寄付とサポートがあれば、世界で最高の地図を作成できます！</string>
     <!-- App tip #02 -->
-    <string name="app_tip_02">私たちのアプリは気に入っていますか? 開発をサポートするために寄付をお願いします！ まだ気に入らないですか？ お知らせください。修正させていただきます。</string>
+    <string name="app_tip_02">私たちのアプリは気に入っていますか？開発をサポートするために寄付をお願いします！ まだ気に入らないですか？ お知らせください。修正させていただきます！</string>
     <!-- App tip #03 -->
     <string name="app_tip_03">ソフトウェア開発者を知っている場合は、必要な機能を実装するように依頼できます。</string>
     <!-- App tip #04 -->
@@ -880,4 +880,11 @@
     <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
     <string name="comma_separated_pair">%1$s, %2$s</string>
     <string name="codeberg">Codeberg</string>
+    <string name="translated_om_site_url">https://comaps.app/</string>
+    <string name="error_enter_correct_bluesky_page">有効なBlueskyのユーザー名またはウェブアドレスを入力してください</string>
+    <string name="saved">保存しました</string>
+    <string name="error_enter_correct_fediverse_page">有効なマストドンのユーザー名またはウェブアドレスを入力してください</string>
+    <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
+    <string name="app_site_url">https://comaps.app/</string>
+    <string name="bluesky">Bluesky</string>
 </resources>
