@@ -36,11 +36,11 @@
     <string name="try_again">Tentar novamente</string>
     <string name="about_menu_title">Sobre o CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Grátis para todos, feito com amor</string>
+    <string name="about_headline">Projeto aberto impulsionado pela comunidade</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_1">• Sem anúncios, rastreamento ou coleta de dados</string>
+    <string name="about_proposition_1">• Fácil de usar e elegante</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_2">• Sem consumo de bateria, funciona off-line</string>
+    <string name="about_proposition_2">• Focado na privacidade e sem anúncios</string>
     <!-- The button that opens system location settings -->
     <string name="location_settings">Configurações de localização</string>
     <string name="close">Fechar</string>
@@ -82,7 +82,7 @@
     <!-- Header of settings activity where user defines storage path -->
     <string name="maps_storage">Salvar mapas para</string>
     <!-- Detailed description of Maps Storage settings button -->
-    <string name="maps_storage_summary">Selecione o local para onde os mapas devem ser baixados</string>
+    <string name="maps_storage_summary">Selecione o local para onde os mapas devem ser baixados.</string>
     <!-- E.g. "Downloaded maps: 500Mb" in Maps Storage settings -->
     <string name="maps_storage_downloaded">Mapas</string>
     <!-- Internal storage type in Maps Storage settings (not accessible by the user) -->
@@ -275,7 +275,7 @@
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Atualizar mapa</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">Determine rapidamente sua localização aproximada via Bluetooth, WiFi ou rede móvel</string>
+    <string name="pref_use_google_play">Um serviço proprietário que combina GPS, Wi-Fi, redes móveis etc. para determinar sua localização com mais precisão. Ele pode se conectar aos servidores do Google.</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -367,8 +367,8 @@
     <string name="read_in_wikipedia">Wikipédia</string>
     <string name="p2p_your_location">Localização atual</string>
     <string name="p2p_start">Iniciar</string>
-    <string name="p2p_from_here">De</string>
-    <string name="p2p_to_here">Para</string>
+    <string name="p2p_from_here">Rota de</string>
+    <string name="p2p_to_here">Rota para</string>
     <string name="p2p_only_from_current">Só é possível navegar a partir da sua localização atual.</string>
     <string name="p2p_reroute_from_current">Deseja planejar uma rota a partir da sua localização atual?</string>
     <!-- Edit open hours/set time and minutes dialog -->
@@ -548,7 +548,7 @@
     <string name="bookmark_lists_show_all">Exibir tudo</string>
     <plurals name="bookmarks_places">
         <item quantity="one">%d favorito</item>
-        <item quantity="many"/>
+        <item quantity="many">%d favoritos</item>
         <item quantity="other">%d favoritos</item>
     </plurals>
     <string name="bookmarks_create_new_group">Criar nova lista</string>
@@ -567,13 +567,13 @@
     <string name="profile">Perfil do OpenStreetMap</string>
     <plurals name="bookmarks_detect_message">
         <item quantity="one">%d arquivo foi encontrado. Você vai ver depois da conversão.</item>
-        <item quantity="many"/>
+        <item quantity="many">%d arquivos foram encontrados. Você os verá depois da conversão.</item>
         <item quantity="other">%d arquivos foram encontrados. Você os verá depois da conversão.</item>
     </plurals>
     <string name="restore">Restaurar</string>
     <plurals name="tracks">
         <item quantity="one">%d trilha</item>
-        <item quantity="many"/>
+        <item quantity="many">%d trilhas</item>
         <item quantity="other">%d trilhas</item>
     </plurals>
     <string name="privacy_policy">Política de privacidade</string>
@@ -691,7 +691,7 @@
     <!-- A preference title; keep short! -->
     <string name="enable_show_on_lock_screen">Mostrar na tela de bloqueio</string>
     <!-- Description in preferences -->
-    <string name="enable_show_on_lock_screen_description">Quando ativado, você não precisará debloquear seu dispositivo toda vez que o aplicativo estiver funcionando</string>
+    <string name="enable_show_on_lock_screen_description">Quando ativado, você não precisará desbloquear seu dispositivo toda vez que o aplicativo estiver funcionando.</string>
     <!-- Current language of the map! -->
     <string name="change_map_locale">Idioma do mapa</string>
     <!-- OpenStreetMap text on splash screen -->
@@ -771,16 +771,100 @@
     <!-- Message for the toast when saving the track recording is finished but nothing to save. -->
     <string name="track_recording_toast_nothing_to_save">A trilha está vazia - não há nada para salvar</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
-    <string name="error_no_file_manager_app">Não é possível exibir a caixa de diálogo de seleção de pastas porque nenhum aplicativo adequado está instalado no seu dispositivo. Instale um aplicativo gerenciador de arquivos e tente novamente</string>
+    <string name="error_no_file_manager_app">Não é possível exibir a caixa de diálogo de seleção de pastas porque nenhum aplicativo adequado está instalado no seu dispositivo. Instale um aplicativo gerenciador de arquivos e tente novamente.</string>
     <string name="choose_color">Escolher cor</string>
     <string name="edit_track">Editar trilha</string>
     <string name="uri_open_location_failed">Nenhum aplicativo instalado que possa abrir o local</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Automático na navegação</string>
     <string name="wikimedia_commons">Wikimedia Commons</string>
-    <string name="about_proposition_3">• Rápido, minimalista, desenvolvido pela comunidade</string>
+    <string name="about_proposition_3">• Não precisa de conexão à internet, rápido e leve</string>
     <string name="drive_through">Drive-through</string>
     <string name="editor_operator">Operador</string>
     <string name="mb">MB</string>
     <string name="gb">GB</string>
+    <string name="editor_line_social_network">LINE</string>
+    <string name="pref_map_style_title">Modo noturno</string>
+    <string name="off">Desativado</string>
+    <string name="on">Ativado</string>
+    <string name="menu">Menu</string>
+    <string name="news">Notícias</string>
+    <string name="github">GitHub</string>
+    <string name="telegram">Telegram</string>
+    <string name="matrix">[Matrix]</string>
+    <string name="about_developed_by_enthusiasts">Totalmente de código aberto, sem fins lucrativos, com processos de tomada de decisões e finanças transparentes.</string>
+    <string name="limited_accuracy">Precisão limitada</string>
+    <string name="pref_tts_street_names_title">Anunciar nomes de ruas</string>
+    <string name="faq">Perguntas frequentes</string>
+    <string name="bluesky">Bluesky</string>
+    <string name="openstreetmap">OpenStreetMap</string>
+    <string name="already_donated">Já doei</string>
+    <string name="remind_me_later">Lembre-me mais tarde</string>
+    <string name="mastodon">Mastodon</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">X (Twitter)</string>
+    <string name="instagram">Instagram</string>
+    <string name="vk">VK</string>
+    <string name="app_site_url">https://comaps.app/pt-BR/</string>
+    <string name="dialog_routing_change_intermediate">Não foi possível localizar o ponto intermediário.</string>
+    <string name="editor_time_from">De</string>
+    <string name="how_to_support_us">Apoie o projeto</string>
+    <string name="google_play_services">Serviço de localização integrada do Google</string>
+    <string name="editor_time_title">Horário de funcionamento</string>
+    <string name="support_organic_maps">Apoie o CoMaps</string>
+    <string name="long_tap_toast">Dê um toque longo no mapa novamente para ver a interface</string>
+    <string name="editor_time_add">Adicionar horário</string>
+    <string name="editor_time_open">Aberto</string>
+    <string name="editor_time_close">Fechado</string>
+    <string name="editor_time_advanced">Modo avançado</string>
+    <string name="editor_time_simple">Modo simples</string>
+    <string name="editor_hours_closed">Horas sem funcionamento</string>
+    <string name="editor_example_values">Valores de exemplo</string>
+    <string name="editor_time_to">Para</string>
+    <string name="layers_title">Estilos e camadas de mapas</string>
+    <string name="export_file">Exportar KMZ</string>
+    <string name="export_file_gpx">Exportar GPX</string>
+    <string name="elevation_profile_descent">Descida</string>
+    <string name="elevation_profile_difficulty">Dificuldade</string>
+    <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/Pt:Sobre_o_OpenStreetMap</string>
+    <string name="editor_focus_map_on_location">Mova o mapa para colocar a cruz na localização da empresa ou do local.</string>
+    <string name="pref_left_button_disable">Desabilitar</string>
+    <string name="saved">Salvo</string>
+    <string name="privacy">Privacidade</string>
+    <string name="pref_tts_speedcams_auto">Avisar se exceder limite de velocidade</string>
+    <string name="telegram_url">https://t.me/CoMapsApp/</string>
+    <string name="elevation_profile_ascent">Subida</string>
+    <string name="editor_other_info">Nota para os voluntários do OpenStreetMap (opcional)</string>
+    <string name="building">Edifício</string>
+    <string name="level">Andar</string>
+    <string name="editor_default_language_hint">Como escrito na língua local</string>
+    <string name="navigation_stop_button">Parar</string>
+    <string name="network">Rede: %s</string>
+    <string name="by_name">Por nome</string>
+    <string name="comma_separated_pair">%1$s, %2$s</string>
+    <string name="clear_the_search">Limpar a pesquisa</string>
+    <string name="zoom_out">Diminuir o zoom</string>
+    <string name="volume">Volume</string>
+    <string name="pref_left_button_title">Configuração do botão esquerdo</string>
+    <string name="error_enter_correct_facebook_page">Insira um endereço da web, conta ou nome de página válidos do Facebook</string>
+    <string name="error_enter_correct_line_page">Insira um ID de LINE ou endereço da web válido</string>
+    <string name="social_media">Redes sociais</string>
+    <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
+    <string name="editor_add_phone">Adicionar telefone</string>
+    <string name="outdoor_seating">Assentos ao ar livre</string>
+    <string name="capacity">Capacidade: %s</string>
+    <string name="editor_correct_mistake">Corrigir erro</string>
+    <string name="editor_add_select_location">Selecione a localização</string>
+    <string name="not_signed_in">Não conectado</string>
+    <string name="level_value_generic">Andar: %s</string>
+    <string name="editor_note_hint">Descreva erros no mapa ou coisas que não podem ser editadas com CoMaps</string>
+    <string name="operator">Operador: %s</string>
+    <string name="error_enter_correct_instagram_page">Insira um nome de usuário válido do Instagram ou endereço da web</string>
+    <string name="error_enter_correct_twitter_page">Digite um nome de usuário válido do Twitter ou endereço da web</string>
+    <string name="error_enter_correct_vk_page">Digite um nome de usuário ou endereço da web válido do VK</string>
+    <string name="error_enter_correct_fediverse_page">Digite um nome de usuário ou endereço da web válido do Mastodon</string>
+    <string name="error_enter_correct_bluesky_page">Digite um nome de usuário ou endereço da web válido do Bluesky</string>
+    <string name="prefs_languages_information_off">Para alguns idiomas, você precisará instalar um sintetizador de voz ou um pacote de idiomas adicional da loja de aplicativos (Google Play, Galaxy Store, App Gallery, FDroid).\nAbra as configurações do seu dispositivo → Idioma e entrada → Fala → Saída de texto para fala.\nAqui, você pode gerenciar as configurações de síntese de voz (por exemplo, baixar o pacote de idiomas para uso offline) e selecionar outro mecanismo de conversão de texto para fala.</string>
+    <string name="codeberg">Codeberg</string>
+    <string name="instagram_url">https://www.instagram.com/comapscommunity/</string>
 </resources>

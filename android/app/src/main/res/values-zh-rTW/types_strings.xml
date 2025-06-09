@@ -31,4 +31,5 @@
     <string name="type.leisure.track.area">賽道</string>
     <string name="type.organic.yes">有機</string>
     <string name="type.power.pole">電線桿</string>
+    <string name="type.amenity.shelter.lean_to">三面避難所</string>
 </resources>

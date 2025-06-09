@@ -647,7 +647,6 @@
 "type.hwtag" = "hwtag";
 "type.hwtag.bidir_bicycle" = "hwtag-bidir_bicycle";
 "type.hwtag.onedir_bicycle" = "hwtag-onedir_bicycle";
-"type.hwtag.lit" = "hwtag-lit";
 "type.hwtag.nobicycle" = "hwtag-nobicycle";
 "type.hwtag.nocar" = "hwtag-nocar";
 "type.hwtag.nofoot" = "hwtag-nofoot";
@@ -742,7 +741,7 @@
 "type.man_made.cairn" = "Höyük";
 "type.man_made.chimney" = "Fabrika Bacası";
 "type.man_made.cutline" = "Kesme Çizgisi";
-"type.man_made.survey_point" = "Survey Point";
+"type.man_made.survey_point" = "Anket Noktası";
 "type.man_made.flagpole" = "Bayrak Direği";
 "type.man_made.lighthouse" = "Deniz Feneri";
 "type.man_made.mast" = "Direk";
@@ -1484,3 +1483,5 @@
 
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "Spor salonu";
+"type.amenity.studio" = "Stüdyo";
+"type.sport.diving" = "Dalış Sporu";

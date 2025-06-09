@@ -27,7 +27,7 @@
 "type.amenity.bicycle_parking" = "Polkupyöräpysäköinti";
 "type.amenity.bicycle_rental" = "Polkupyöränvuokraus";
 "type.amenity.bicycle_repair_station" = "Polkupyörän korjausasema";
-"type.amenity.biergarten" = "Biergarten";
+"type.amenity.biergarten" = "Olutpuutarha";
 "type.amenity.brothel" = "Bordelli";
 "type.amenity.bureau_de_change" = "Rahanvaihto";
 "type.amenity.bus_station" = "Linja-autoasema";
@@ -179,7 +179,7 @@
 "type.amenity.vending_machine.parking_tickets" = "Pysäköintimaksuautomaatti";
 "type.amenity.vending_machine.public_transport_tickets" = "Julkisen liikenteen lippuautomaatti";
 "type.amenity.vending_machine.sweets" = "Makeisautomaatti";
-"type.amenity.vending_machine.excrement_bags" = "Excrement Bags Dispenser";
+"type.amenity.vending_machine.excrement_bags" = "Koirankakkapussiautomaatti";
 "type.amenity.parcel_locker" = "Pakettilokero";
 "type.amenity.vehicle_inspection" = "Ajoneuvon tarkastus";
 "type.amenity.vending_machine.fuel" = "Bensa-automaatti";
@@ -1486,3 +1486,8 @@
 "type.leisure.sports_hall" = "Urheiluhalli";
 "type.amenity.love_hotel" = "Rakkaushotelli";
 "type.sport.diving" = "Sukellus";
+"type.amenity.studio" = "Studio";
+"type.barrier.guard_rail" = "Tiekaide";
+"type.highway.ladder" = "Tikapuut";
+"type.landuse.plant_nursery" = "Kasvitarha";
+"type.leisure.firepit" = "Tulentekopaikka";

@@ -494,7 +494,7 @@
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
     <string name="osm_presentation">コミュニティが作成した%s時点の OpenStreetMap のデータ。地図の編集や更新の方法については、OpenStreetMap.org を参照してください</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">OpenStreetMap.org(OSM)は、フリーでオープンな地図を構築するコミュニティ・プロジェクトです。OSMは、CoMapsの地図データの主要なソースであり、ウィキペディアと同じように機能します。あなたが場所を追加したり編集したりすると、世界中の何百万人ものユーザーがその場所を利用できるようになります！</string>
+    <string name="login_osm_presentation">OpenStreetMap.org(OSM)は、フリーでオープンな地図を構築するコミュニティ・プロジェクトです。OSMは、CoMapsの地図データの主要なソースであり、ウィキペディアと同じように機能します。あなたが場所を追加したり編集したりすると、世界中の何百万人ものユーザーがその場所を利用できるようになります。</string>
     <string name="login_to_make_edits_visible">OpenStreetMapのアカウントを作成するかログインして、あなたの地図編集を世界中に公開しましょう。</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%2$dのうち%1$d</string>
@@ -511,7 +511,7 @@
     <!-- Title for OSM note section in the editor -->
     <string name="editor_other_info">OpenStreetMapボランティアへの注意（オプション）</string>
     <!-- Hint of the input field in the OSM note section of the editor -->
-    <string name="editor_note_hint">地図上のエラーやCoMapsで編集できないものについて説明します。</string>
+    <string name="editor_note_hint">地図上のエラーやCoMapsで編集できないものについて説明します</string>
     <!-- Information about OSM at the top of the editing page -->
     <string name="editor_about_osm">あなたの編集は公開されている<a href="https://wiki.openstreetmap.org/wiki/JA:参加する">OpenStreetMap</a>データベースにアップロードされます。個人情報や著作権のある情報は追加しないでください。</string>
     <string name="editor_more_about_osm">OpenStreetMapについての詳細</string>
@@ -607,7 +607,7 @@
     <!-- Alert to ask user relogin to OpenStreetMap with OAuth2 flow after OAuth1 authentication is deprecated. -->
     <string name="alert_reauth_message">すべてのマップ編集を自動的にアップロードするには、OpenStreetMapにログインしてください。詳しくは <a href="https://github.com/organicmaps/organicmaps/issues/6144">こちら</a>.</string>
     <string name="dialog_error_storage_title">ストレージアクセスの問題</string>
-    <string name="dialog_error_storage_message">外部ストレージは使用できません。おそらく SD カードが取り外されたか、破損しているか、あるいはファイルシステムが読み取り専用になっています。SD カードを確認するか、support@comaps.app までご連絡ください。</string>
+    <string name="dialog_error_storage_message">外部ストレージは使用できません。おそらく SD カードが取り外されたか、破損しているか、あるいはファイルシステムが読み取り専用になっています。SD カードを確認するか、support@comaps.app までご連絡ください</string>
     <string name="setting_emulate_bad_storage">壊れたストレージをシミュレートする</string>
     <string name="core_entrance">入口</string>
     <string name="error_enter_correct_name">正しい名前を入力してください</string>
@@ -648,7 +648,7 @@
     <string name="layers_title">マップのスタイルとレイヤー</string>
     <string name="subway_data_unavailable">地下鉄路線図はご利用いただけません</string>
     <string name="bookmarks_empty_list_title">このリストは空です</string>
-    <string name="bookmarks_empty_list_message">ブックマークを追加するには、地図上の場所をタップし、星のアイコンをタップしてください。</string>
+    <string name="bookmarks_empty_list_message">ブックマークを追加するには、地図上の場所をタップし、星のアイコンをタップしてください</string>
     <string name="category_desc_more">詳細</string>
     <string name="export_file">KMZをエクスポートする</string>
     <string name="export_file_gpx">GPXをエクスポートする</string>
@@ -887,4 +887,6 @@
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="app_site_url">https://comaps.app/</string>
     <string name="bluesky">Bluesky</string>
+    <string name="pref_left_button_title">左ボタンの設定</string>
+    <string name="pref_left_button_disable">無効にする</string>
 </resources>

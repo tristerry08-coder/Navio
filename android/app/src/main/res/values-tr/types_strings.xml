@@ -1367,4 +1367,7 @@
     <string name="type.fee.yes">₺</string>
     <string name="type.power.pole">Elektrik Direği</string>
     <string name="type.man_made.utility_pole">Hizmet Direği</string>
+    <string name="type.amenity.studio">Stüdyo</string>
+    <string name="type.sport.diving">Dalış Sporu</string>
+    <string name="type.man_made.survey_point">Anket Noktası</string>
 </resources>

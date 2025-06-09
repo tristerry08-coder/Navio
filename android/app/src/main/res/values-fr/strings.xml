@@ -126,7 +126,7 @@
     <!-- Search category for parking lots; any changes should be duplicated in categories.txt @category_parking! -->
     <string name="category_parking">Stationnement</string>
     <!-- Search category for malls/clothes/shoes/gifts/jewellery/sport shops; any changes should be duplicated in categories.txt @category_shopping! -->
-    <string name="category_shopping">Shopping</string>
+    <string name="category_shopping">Magasins</string>
     <!-- Search category for second_hand/charity/antique/auction shops; any changes should be duplicated in categories.txt @category_secondhand! -->
     <string name="category_secondhand">D\'occasion</string>
     <!-- Search category for places to stay; any changes should be duplicated in categories.txt @category_hotel! -->
@@ -895,4 +895,6 @@
     <string name="error_enter_correct_bluesky_page">Entrez un nom d\'utilisateur ou une adresse web Bluesky correct</string>
     <string name="error_enter_correct_fediverse_page">Entrez un nom d\'utilisateur ou une adresse web Mastodon correct</string>
     <string name="saved">Enregistré</string>
+    <string name="pref_left_button_title">Configuration du bouton en bas à gauche</string>
+    <string name="pref_left_button_disable">Désactiver</string>
 </resources>

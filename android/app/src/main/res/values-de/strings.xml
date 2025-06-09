@@ -11,7 +11,7 @@
     <!-- Settings/Downloader - info for country when download fails -->
     <string name="download_has_failed">Herunterladen fehlgeschlagen. Antippen für einen neuen Versuch.</string>
     <!-- Settings/Downloader - info for country which started downloading -->
-    <string name="downloading">Wird heruntergeladen…</string>
+    <string name="downloading">Wird heruntergeladen …</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->
     <string name="kilometres">Kilometer</string>
     <!-- Choose measurement on first launch alert - choose imperial system button -->
@@ -888,4 +888,7 @@
     <string name="error_enter_correct_bluesky_page">Geben Sie einen gültigen Bluesky-Nutzernamen oder Webadresse ein</string>
     <string name="bluesky">Bluesky</string>
     <string name="error_enter_correct_fediverse_page">Geben Sie einen gültigen Mastodon-Nutzernamen oder Webadresse an</string>
+    <string name="pref_left_button_title">Einstellung linker Knopf</string>
+    <string name="saved">Gespeichert</string>
+    <string name="pref_left_button_disable">Deaktivieren</string>
 </resources>

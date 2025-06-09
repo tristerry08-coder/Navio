@@ -879,4 +879,7 @@
     <string name="error_enter_correct_fediverse_page">Zadejte platné uživatelské jméno nebo webovou adresu Mastodonu</string>
     <string name="bluesky">Bluesky</string>
     <string name="error_enter_correct_bluesky_page">Zadejte platné uživatelské jméno nebo webovou adresu Bluesky</string>
+    <string name="saved">Uloženo</string>
+    <string name="pref_left_button_disable">Zakázat</string>
+    <string name="pref_left_button_title">Nastavení levého tlačítka</string>
 </resources>

@@ -1488,6 +1488,6 @@
 "type.barrier.guard_rail" = "Leitplanke";
 "type.highway.ladder" = "Leiter";
 "type.landuse.plant_nursery" = "Gartenbau";
-"type.leisure.firepit" = "Feuerschale";
+"type.leisure.firepit" = "Feuerstelle";
 "type.amenity.studio" = "Studio";
 "type.sport.diving" = "Tauchen";

@@ -49,7 +49,7 @@
     <!-- Text in About screen -->
     <string name="about_proposition_3">• Yhteydetön tila, nopea ja kompakti</string>
     <!-- Text in About screen -->
-    <string name="about_developed_by_enthusiasts">Harrastajien ja vapaaehtoisten luoma avoimen lähdekoodin sovellus.</string>
+    <string name="about_developed_by_enthusiasts">Täysin avoimeen lähdekoodiin perustuva, voittoa tavoittelematon sekä läpinäkyvä päätöksenteko ja talous.</string>
     <!-- The button that opens system location settings -->
     <string name="location_settings">Sijaintiasetukset</string>
     <string name="close">Sulje</string>
@@ -304,9 +304,9 @@
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Päivitä kartta</string>
     <!-- Preference title -->
-    <string name="google_play_services">Google Play Sijaintipalvelut</string>
+    <string name="google_play_services">Google Fused Sijaintipalvelu</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">Määritä nopeasti likimääräinen sijaintisi Bluetoothin, WiFin tai matkapuhelinverkon kautta</string>
+    <string name="pref_use_google_play">Suljetun lähdekoodin palvelu, joka yhdistää GPS:n, Wi-Fi:n ja mobiiliverkot yms. löytääksesi sijaintisi tarkemmin. Se voi ottaa yhteyttä Googlen palvelimiin.</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -492,7 +492,7 @@
     <string name="placepage_add_business_button">Lisää organisaatio</string>
     <string name="message_invalid_feature_position">Kohdetta ei voida asettaa tänne</string>
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
-    <string name="osm_presentation">Yhteisön luomat OpenStreetMap-tiedot %s:sta alkaen. Lisätietoja kartan muokkaamisesta ja päivittämisestä osoitteessa OpenStreetMap.org.</string>
+    <string name="osm_presentation">Yhteisön luomat OpenStreetMap-tiedot %s:sta alkaen. Lisätietoja kartan muokkaamisesta ja päivittämisestä osoitteessa OpenStreetMap.org</string>
     <!-- OSM explanation on Android login screen -->
     <string name="login_osm_presentation">OpenStreetMap.org (OSM) on yhteisöprojekti, jonka tarkoituksena on rakentaa ilmainen ja avoin kartta. Se on CoMapsin tärkein karttatietojen lähde ja toimii samalla tavalla kuin Wikipedia. Voit lisätä tai muokata paikkoja, ja ne tulevat miljoonien käyttäjien saataville kaikkialla maailmassa. \nLiity yhteisöön ja auta tekemään parempi kartta kaikille!</string>
     <string name="login_to_make_edits_visible">Luo OpenStreetMap-tili tai kirjaudu sisään, jotta voit julkaista karttamuokkauksesi maailmalle.</string>
@@ -511,7 +511,7 @@
     <!-- Title for OSM note section in the editor -->
     <string name="editor_other_info">Huomautus OpenStreetMapin vapaaehtoisille (valinnainen)</string>
     <!-- Hint of the input field in the OSM note section of the editor -->
-    <string name="editor_note_hint">Kuvaile kartassa olevia virheitä tai asioita, joita ei voi muokata CoMapsilla.</string>
+    <string name="editor_note_hint">Kuvaile kartassa olevia virheitä tai asioita, joita ei voi muokata CoMapsilla</string>
     <!-- Information about OSM at the top of the editing page -->
     <string name="editor_about_osm">Muokkauksesi ladataan julkiseen <a href="https://wiki.openstreetmap.org/wiki/About_OpenStreetMap">OpenStreetMap</a>-tietokantaan. Älä lisää henkilökohtaisia tai tekijänoikeudella suojattuja tietoja.</string>
     <string name="editor_more_about_osm">Lisätietoja OpenStreetMap:sta</string>
@@ -685,7 +685,7 @@
     <string name="avoid_ferry">Vältä lautan käyttöä</string>
     <string name="avoid_motorways">Vältä moottoritietä</string>
     <string name="unable_to_calc_alert_title">Reittiä ei voi luoda</string>
-    <string name="unable_to_calc_alert_subtitle">Valitettavasti emme voineet luoda reittiä valituilla vaihtoehdoilla. Vaihda asetuksia ja yritä uudelleen</string>
+    <string name="unable_to_calc_alert_subtitle">Valitettavasti emme voineet luoda reittiä valituilla vaihtoehdoilla. Tämä voi johtua reittiasetuksista tai OpenStreetMap:n puuttuvista tiedoista. Vaihda reititysasetuksia ja yritä uudelleen.</string>
     <string name="define_to_avoid_btn">Määritä vältettävät tiet</string>
     <string name="change_driving_options_btn">Reititysvalinnat ovat päällä</string>
     <string name="toll_road">Maksullinen tie</string>
@@ -799,7 +799,7 @@
     <!-- App tip #09 -->
     <string name="app_tip_09">Päätavoitteemme on rakentaa nopeita, yksityisyyteen keskittyviä, helppokäyttöisiä karttoja, joista pidät.</string>
     <!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-    <string name="car_used_on_the_phone_screen">Käytät nyt puhelimen näytöllä CoMaps -palvelua.</string>
+    <string name="car_used_on_the_phone_screen">Käytät nyt CoMapsia puhelimen näytöllä</string>
     <!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
     <string name="car_used_on_the_car_screen">Käytät nyt CoMaps auton näytöllä</string>
     <!-- Displayed on the phone screen. Android Auto connected -->
@@ -858,7 +858,7 @@
     <!-- Message for the toast when saving the track recording is finished but nothing to save. -->
     <string name="track_recording_toast_nothing_to_save">Reitti on tyhjä - ei mitään tallennettavaa</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
-    <string name="error_no_file_manager_app">Kansiovalintaikkunaa ei voida näyttää, koska laitteeseen ei ole asennettu sopivaa sovellusta. Asenna tiedostonhallintasovellus ja yritä uudelleen</string>
+    <string name="error_no_file_manager_app">Kansiovalintaikkunaa ei voida näyttää, koska laitteeseen ei ole asennettu sopivaa sovellusta. Asenna tiedostonhallintasovellus ja yritä uudelleen.</string>
     <string name="choose_color">Valitse väri</string>
     <string name="edit_track">Muokkaa reittiä</string>
     <string name="uri_open_location_failed">Ei asennettua sovellusta, joka voi avata sijainnin</string>
@@ -888,4 +888,7 @@
     <string name="error_enter_correct_bluesky_page">Kirjoita kelvollinen Bluesky-käyttäjänimi tai verkko-osoite</string>
     <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
     <string name="app_site_url">https://comaps.app/</string>
+    <string name="pref_left_button_title">Vasemman painikkeen asettelu</string>
+    <string name="pref_left_button_disable">Poista käytöstä</string>
+    <string name="saved">Tallennettu</string>
 </resources>

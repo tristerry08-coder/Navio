@@ -892,4 +892,6 @@
     <string name="error_enter_correct_fediverse_page">請輸入有效的 Mastodon 使用者名稱或網址</string>
     <string name="error_enter_correct_bluesky_page">請輸入有效的 Bluesky 使用者名稱或網址</string>
     <string name="bluesky">Bluesky</string>
+    <string name="pref_left_button_disable">停用</string>
+    <string name="pref_left_button_title">左側按鈕設定</string>
 </resources>

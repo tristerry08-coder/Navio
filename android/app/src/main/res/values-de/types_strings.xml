@@ -1395,7 +1395,7 @@
     <string name="type.sport.diving">Tauchen</string>
     <string name="type.amenity.love_hotel">Stundenhotel</string>
     <string name="type.landuse.plant_nursery">Gartenbau</string>
-    <string name="type.leisure.firepit">Feuerschale</string>
+    <string name="type.leisure.firepit">Feuerstelle</string>
     <string name="type.barrier.guard_rail">Leitplanke</string>
     <string name="type.highway.ladder">Leiter</string>
     <string name="type.amenity.studio">Studio</string>
