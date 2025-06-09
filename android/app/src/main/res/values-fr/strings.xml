@@ -619,7 +619,7 @@
     <string name="bookmark_lists_show_all">Tout afficher</string>
     <plurals name="bookmarks_places">
         <item quantity="one">%d signet</item>
-        <item quantity="many"/>
+        <item quantity="many">%d signets</item>
         <item quantity="other">%d signets</item>
     </plurals>
     <string name="bookmarks_create_new_group">Créer une nouvelle liste</string>
@@ -638,13 +638,13 @@
     <string name="profile">Profil OpenStreetMap</string>
     <plurals name="bookmarks_detect_message">
         <item quantity="one">%d fichier a été trouvé. Vous le verrez après la conversion.</item>
-        <item quantity="many"/>
+        <item quantity="many">%d fichiers ont été trouvés. Vous les verrez après la conversion.</item>
         <item quantity="other">%d fichiers ont été trouvés. Vous les verrez après la conversion.</item>
     </plurals>
     <string name="restore">Restaurer</string>
     <plurals name="tracks">
         <item quantity="one">%d piste</item>
-        <item quantity="many"/>
+        <item quantity="many">%d pistes</item>
         <item quantity="other">%d pistes</item>
     </plurals>
     <!-- Settings privacy group in settings screen -->
@@ -894,4 +894,5 @@
     <string name="bluesky">Bluesky</string>
     <string name="error_enter_correct_bluesky_page">Entrez un nom d\'utilisateur ou une adresse web Bluesky correct</string>
     <string name="error_enter_correct_fediverse_page">Entrez un nom d\'utilisateur ou une adresse web Mastodon correct</string>
+    <string name="saved">Enregistré</string>
 </resources>

@@ -143,7 +143,7 @@
 "type.recycling.cans" = "缶";
 "type.recycling.shoes" = "靴";
 "type.recycling.green_waste" = "有機性廃棄物";
-"type.recycling.cartons" = "Cartons";
+"type.recycling.cartons" = "紙箱";
 "type.amenity.restaurant" = "レストラン";
 "type.amenity.sanitary_dump_station" = "ダンプステーション";
 "type.amenity.school" = "学校";
@@ -836,8 +836,8 @@
 "type.office.lawyer" = "弁護士事務所";
 "type.office.ngo" = "NGO 事務局";
 "type.office.telecommunication" = "携帯電話事業者";
-"type.organic.only" = "Organic";
-"type.organic.yes" = "Organic";
+"type.organic.only" = "有機";
+"type.organic.yes" = "有機";
 "type.place.city" = "市";
 "type.place.city.capital" = "首都";
 "type.place.city.capital.10" = "市";
@@ -898,7 +898,7 @@
 "type.power.tower" = "電柱";
 
 /* A single pole supporting minor power lines. */
-"type.power.pole" = "Power Pole";
+"type.power.pole" = "電柱";
 
 /* A single pole supporting various public utilities, such as lighting or telephony. */
 "type.man_made.utility_pole" = "Utility Pole";

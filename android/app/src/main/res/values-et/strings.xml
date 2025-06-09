@@ -883,4 +883,5 @@
     <string name="error_enter_correct_fediverse_page">Sisesta korrektne Mastodoni kasutajanimi või veebiaadress</string>
     <string name="bluesky">Bluesky</string>
     <string name="error_enter_correct_bluesky_page">Sisesta korrektne Bluesky kasutajanimi või veebiaadress</string>
+    <string name="saved">Salvestatud</string>
 </resources>

@@ -503,7 +503,7 @@
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
     <string name="osm_presentation">截至 %s 的社区创建的 OpenStreetMap 数据。请访问 OpenStreetMap.org 以了解有关如何编辑和更新地图的信息</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">OpenStreetMap.org（OSM）是一个构建免费开放地图的社区项目。它是CoMaps中地图数据的主要来源，其工作原理类似于维基百科。您可以添加或编辑地点，可供全世界数以百万计的用户使用并受益。\n加入OSM，让我们共绘更优质的地图吧！</string>
+    <string name="login_osm_presentation">OpenStreetMap.org（OSM）是一个构建免费开放地图的社区项目。它是 CoMaps 中地图数据的主要来源，其工作原理类似于维基百科。您可以添加或编辑地点，可供全世界数以百万计的用户使用并受益。\n加入OSM，让我们共绘更优质的地图吧！</string>
     <string name="login_to_make_edits_visible">创建 OpenStreetMap 账号或登录，向全世界发布您编辑的地图。</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d / %2$d</string>

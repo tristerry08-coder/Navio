@@ -1484,3 +1484,10 @@
 
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "Pabellón deportivo";
+"type.amenity.studio" = "Estudio";
+"type.leisure.firepit" = "Fogón";
+"type.amenity.love_hotel" = "Hotel del amor";
+"type.barrier.guard_rail" = "Guardarraíl";
+"type.highway.ladder" = "Escalera";
+"type.landuse.plant_nursery" = "Vivero de plantas";
+"type.sport.diving" = "Buceo";

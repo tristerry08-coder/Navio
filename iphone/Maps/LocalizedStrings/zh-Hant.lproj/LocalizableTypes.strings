@@ -139,11 +139,11 @@
 "type.recycling.plastic_bottles" = "塑料瓶";
 "type.recycling.scrap_metal" = "廢金屬";
 "type.recycling.small_appliances" = "電子垃圾";
-"type.recycling.cardboard" = "Cardboard";
-"type.recycling.cans" = "Cans";
-"type.recycling.shoes" = "Shoes";
-"type.recycling.green_waste" = "Green/Organic Waste";
-"type.recycling.cartons" = "Cartons";
+"type.recycling.cardboard" = "硬紙板";
+"type.recycling.cans" = "金屬罐";
+"type.recycling.shoes" = "鞋子";
+"type.recycling.green_waste" = "綠色垃圾/有機廢棄物";
+"type.recycling.cartons" = "紙盒";
 "type.amenity.restaurant" = "餐廳";
 "type.amenity.sanitary_dump_station" = "儲液池排泄站";
 "type.amenity.school" = "學校";
@@ -596,8 +596,8 @@
 "type.area_highway.track" = "土路";
 "type.area_highway.trunk" = "主幹道";
 "type.area_highway.unclassified" = "道路";
-"type.highway.world_level" = "highway-world_level";
-"type.highway.world_towns_level" = "highway-world_towns_level";
+"type.highway.world_level" = "高速公路—世界級";
+"type.highway.world_towns_level" = "高速公路—鎮級";
 "type.historic" = "歷史地點";
 "type.historic.aircraft" = "歷史悠久的飛機";
 "type.historic.anchor" = "歷史錨";
@@ -644,7 +644,6 @@
 "type.historic.wayside_cross" = "路旁十字架";
 "type.historic.wayside_shrine" = "路旁神龕";
 "type.historic.wreck" = "沉船";
-"type.hwtag" = "hwtag";
 "type.hwtag.bidir_bicycle" = "hwtag-bidir_bicycle";
 "type.hwtag.onedir_bicycle" = "hwtag-onedir_bicycle";
 "type.hwtag.lit" = "hwtag-lit";
@@ -734,7 +733,7 @@
 "type.leisure.swimming_pool" = "游泳池";
 "type.leisure.swimming_pool.private" = "游泳池";
 "type.leisure.track" = "Track";
-"type.leisure.track.area" = "Track";
+"type.leisure.track.area" = "賽道";
 "type.leisure.water_park" = "水上樂園";
 "type.leisure.beach_resort" = "海濱度假區";
 "type.man_made" = "Man Made";
@@ -836,8 +835,8 @@
 "type.office.lawyer" = "律師事務所";
 "type.office.ngo" = "非政府組織辦公室";
 "type.office.telecommunication" = "行動電話業者";
-"type.organic.only" = "Organic";
-"type.organic.yes" = "Organic";
+"type.organic.only" = "有機";
+"type.organic.yes" = "有機";
 "type.place.city" = "城市";
 "type.place.city.capital" = "首府";
 "type.place.city.capital.10" = "城市";
@@ -898,7 +897,7 @@
 "type.power.tower" = "電塔";
 
 /* A single pole supporting minor power lines. */
-"type.power.pole" = "Power Pole";
+"type.power.pole" = "電線桿";
 
 /* A single pole supporting various public utilities, such as lighting or telephony. */
 "type.man_made.utility_pole" = "Utility Pole";

@@ -1328,4 +1328,8 @@
     <string name="type.highway.ladder">階子</string>
     <string name="type.attraction.bumper_car">バンパーカー</string>
     <string name="type.sport.diving">飛込</string>
+    <string name="type.recycling.cartons">紙箱</string>
+    <string name="type.organic.only">有機</string>
+    <string name="type.organic.yes">有機</string>
+    <string name="type.power.pole">電柱</string>
 </resources>

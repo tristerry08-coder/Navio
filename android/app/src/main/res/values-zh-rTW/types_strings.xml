@@ -20,4 +20,15 @@
     <string name="type.tourism.information.visitor_centre">旅遊服務中心</string>
     <string name="type.man_made.silo">筒倉</string>
     <string name="type.tourism.viewpoint">觀光景點</string>
+    <string name="type.highway.world_level">高速公路—世界級</string>
+    <string name="type.organic.only">有機</string>
+    <string name="type.recycling.cardboard">硬紙板</string>
+    <string name="type.recycling.cans">金屬罐</string>
+    <string name="type.recycling.shoes">鞋子</string>
+    <string name="type.recycling.green_waste">綠色垃圾/有機廢棄物</string>
+    <string name="type.recycling.cartons">紙盒</string>
+    <string name="type.highway.world_towns_level">高速公路—鎮級</string>
+    <string name="type.leisure.track.area">賽道</string>
+    <string name="type.organic.yes">有機</string>
+    <string name="type.power.pole">電線桿</string>
 </resources>

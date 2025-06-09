@@ -38,15 +38,15 @@
     <string name="try_again">Intentar otra vez</string>
     <string name="about_menu_title">Acerca de CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Gratis para todos, hecho con amor</string>
+    <string name="about_headline">Proyecto abierto impulsado por la comunidad</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_1">• Sin anuncios, sin rastreo, sin recopilación de datos</string>
+    <string name="about_proposition_1">• Fácil de utilizar y depurado</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_2">• Consumo de batería mínimo, funciona sin conexión</string>
+    <string name="about_proposition_2">• Enfocado a la privacidad y sin anuncios</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Rápido, minimalista, desarrollado por la comunidad</string>
+    <string name="about_proposition_3">• No necesita conexión a internet, rápido y compacto</string>
     <!-- Text in About screen -->
-    <string name="about_developed_by_enthusiasts">Aplicación de código abierto creada por entusiastas y voluntarios.</string>
+    <string name="about_developed_by_enthusiasts">Completamente de código abierto, sin ánimo de lucro, y con procesos de toma de decisiones y finanzas transparentes.</string>
     <!-- The button that opens system location settings -->
     <string name="location_settings">Ajustes de ubicación</string>
     <string name="close">Cerrar</string>
@@ -302,9 +302,9 @@
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Actualizar mapa</string>
     <!-- Preference title -->
-    <string name="google_play_services">Servicios de localización de Google Play</string>
+    <string name="google_play_services">Servicio de localización de Google Fused</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">Determina rápidamente su ubicación aproximada mediante Bluetooth, WiFi o red móvil</string>
+    <string name="pref_use_google_play">Un servicio propietario que combina señal GPS, Wi-Fi, redes móviles, etc. para determinar tu ubicación con más precisión. Puede que se conecte a servidores de Google.</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -886,4 +886,12 @@
     <string name="comma_separated_pair">%1$s, %2$s</string>
     <string name="level_value_generic">Nivel: %s</string>
     <string name="editor_line_social_network">LINE</string>
+    <string name="saved">Guardado</string>
+    <string name="codeberg">Codeberg</string>
+    <string name="error_enter_correct_fediverse_page">Introduce un nombre de usuario o una dirección web de Mastodon válidos</string>
+    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
+    <string name="app_site_url">https://comaps.app/</string>
+    <string name="bluesky">Bluesky</string>
+    <string name="error_enter_correct_bluesky_page">Introduce un nombre de usuario o una dirección web de Bluesky válidos</string>
+    <string name="telegram_url">https://t.me/CoMapsApp/</string>
 </resources>
