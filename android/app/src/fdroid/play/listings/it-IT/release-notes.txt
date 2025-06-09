@@ -1,0 +1,8 @@
+• Data di OpenStreetmap fino a giugno 2°
+• Nuova impostazione per cambiare o modificare la positione del tasto sinistra
+• Salvare i percorsi costruiti come tracce
+• È stato aggiunto: metropolitana di Qingdao, giardinaggi, guardrail, scale, studio,
+sala da ballo, focolari, love hotel
+• Barra di navigatione transparente di sisteme in moda luce
+• Aggiungi le opzioni di contatto Mastodon e Bluesky ai POI e all'editor di OSM
+• Visualizza l'angolo di azimut nella freccia di direzione

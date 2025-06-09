@@ -1,11 +1,8 @@
-Initial CoMaps release!
-Changes from the Organic Maps upstream:
-• OpenStreetMap data as of May 15
-• login to OSM account via a web browser
-• removed semi-transparent background in Subway layer
-• replaced metaserver with a static map servers list
-• add local map size to the startup download screen
-• improved auto night mode switch when there is no location fix
-• fix incorrect map info when tapping on a not downloaded region
+• OpenStreetMap data as of June 2
+• add a setting to change the leftmost button or hide it
+• save built routes as tracks
+• add Qingdao metro, plant nurseries, highway guard rails, ladders, studios, dance venues, firepits, love hotels
+• transparent system navigation bar in the light mode
+• add Mastodon and Bluesky contact options to POIs and OSM editor
+• display Azimuth angle in direction arrow view
 • update translations
-• rebranding - the logo is provisional still

@@ -1,9 +1,8 @@
-Lançamento inicial do CoMaps!
-Alterações em relação ao Organic Maps:
-• Dados do OSM de 15/05
-• Login na conta OSM por meio de autenticação no navegador
-• Remoção do fundo semitransparente na camada Metrô
-• Substituição do metaserver por uma lista estática de servidores de mapas
-• Melhoria na alternância automática do modo noturno quando não há localização
+• Dados do OSM de 2/06
+• Adicionada uma configuração para alterar ou ocultar o botão mais à esquerda
+• Salve rotas construídas como trilhas
+• Adicionado metrô de Qingdao, viveiros de plantas, guarda-corpos de rodovias, escadas, estúdios, casas de dança, fogueiras e motéis
+• Barra de navegação do sistema transparente no modo claro
+• Adicionadas opções de contato Mastodon e Bluesky aos POIs e ao editor OSM
+• Exibição de ângulo de azimute na visualização de seta de direção
 • Novas traduções
-• Rebranding - O logo ainda é provisório

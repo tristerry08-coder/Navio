@@ -1,10 +1,8 @@
-Erster CoMaps Release!
-Was ist neu im Vergleich zu Organic Maps:
-• OpenStreetMap-Daten vom 15. Mai
-• OSM Login jetzt über den Webbrowser
-• Der halbtransparente Hintergrund in der U-Bahn-Ansicht wurde entfernt
-• Größe der lokalen Karte beim ersten Karten download anzeigen
-• Der Metaserver wurde durch eine feste Liste an Kartenservern ersetzt
-• Der Nachtmodus schaltet jetzt besser um, auch wenn kein GPS-Signal da ist
+• OpenStreetMap Daten vom 2. Juni
+• Neue Einstellungsoption zum Ändern oder Ausblenden der "Über CoMaps" Schaltfläche ganz links
+• Routen als GPS Track speichern
+• Qingdao Metro, Gärtnereien, Leitplanken, Leitern, Studios, Tanzsäle, Feuerstellen und Stundenhotels hinzugefügt
+• transparente Navigationsleiste im Light Mode
+• Mastodon und Bluesky Kontaktoptionen für POIs und im OSM-Editor hinzugefügt
+• Anzeige der Kompassgradzahl in der Richtungspfeilansicht
 • Übersetzungen aktualisiert
-• Rebranding – das Logo ist noch vorläufig

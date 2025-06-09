@@ -1,11 +1,8 @@
-Première version de CoMaps!
-Changements par rapport à Organic Maps:
-• Données OpenStreetMap du 15 mai
-• Connexion au compte OSM via le navigateur
-• Retrait du fond semi-transparent sur la couche Métro
-• Remplacement du metaserveur par une liste statique de serveurs
-• Ajout de la taille de la carte locale au premier démarrage
-• Amélioration du mode nuit automatique
-• Correction de la suggestion de téléchargements de cartes
+• Données OpenStreetMap du 02 juin
+• Ajout d'une option pour personnaliser le bouton tout à gauche sur l'écran principal
+• Ajout de la possibilité d'enregistrer un itinéraire en tant que traces GPS
+• Ajout du métro de Qingdao, et divers objets sur la carte
+• Support de la barre de navigation transparent en mode clair
+• Ajout des tags Mastodon et Bluesky sur les lieux et dans l'éditeur
+• Affichage de l'azimut
 • Mise à jour des traductions
-• Rebranding - le logo est encore provisoire

@@ -1,9 +1,0 @@
-Lançamento inicial do CoMaps!
-Alterações em relação ao Organic Maps:
-• Dados do OSM de 15/05
-• Login na conta OSM através de um navegador web auth
-• Removido o fundo semi-transparente na camada do Metro
-• Substituído o metaserver por uma lista estática de servidores de mapas
-• Melhoria na mudança automática do modo noturno quando não há localização
-• Novas traduções
-• Rebranding - logótipo ainda provisório
