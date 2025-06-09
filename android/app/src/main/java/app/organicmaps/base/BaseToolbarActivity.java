@@ -6,11 +6,13 @@ import androidx.annotation.CallSuper;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
-import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.ViewCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentFactory;
 import androidx.fragment.app.FragmentManager;
+
+import com.google.android.material.appbar.MaterialToolbar;
+
 import app.organicmaps.R;
 import app.organicmaps.util.UiUtils;
 import app.organicmaps.util.WindowInsetUtils.PaddingInsetsListener;
@@ -26,7 +28,7 @@ public abstract class BaseToolbarActivity extends BaseMwmFragmentActivity
   {
     super.onSafeCreate(savedInstanceState);
 
-    Toolbar toolbar = getToolbar();
+    MaterialToolbar toolbar = getToolbar();
     if (toolbar != null)
     {
       int title = getToolbarTitle();
@@ -42,7 +44,7 @@ public abstract class BaseToolbarActivity extends BaseMwmFragmentActivity
     }
   }
 
-  protected void setupHomeButton(@NonNull Toolbar toolbar)
+  protected void setupHomeButton(@NonNull MaterialToolbar toolbar)
   {
     UiUtils.showHomeUpButton(toolbar);
   }
@@ -92,7 +94,7 @@ public abstract class BaseToolbarActivity extends BaseMwmFragmentActivity
 
     if (title != null)
     {
-      Toolbar toolbar = getToolbar();
+      MaterialToolbar toolbar = getToolbar();
       if (toolbar != null && toolbar.getTitle() != null)
       {
         mLastTitle = toolbar.getTitle().toString();

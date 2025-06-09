@@ -6,7 +6,7 @@
   android:layout_height="match_parent"
   android:orientation="vertical">
 
-  <androidx.appcompat.widget.Toolbar
+  <com.google.android.material.appbar.MaterialToolbar
     android:id="@+id/toolbar"
     style="@style/MwmWidget.ToolbarStyle"
     android:layout_width="match_parent"
@@ -18,7 +18,7 @@
       android:id="@+id/save"
       style="@style/MwmWidget.Downloader.ToolbarButton"
       android:text="@string/editor_report_problem_send_button"/>
-  </androidx.appcompat.widget.Toolbar>
+  </com.google.android.material.appbar.MaterialToolbar>
 
   <ScrollView
     android:id="@+id/scrollView"

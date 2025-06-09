@@ -6,7 +6,7 @@
   android:layout_height="match_parent"
   android:orientation="vertical">
 
-  <androidx.appcompat.widget.Toolbar
+  <com.google.android.material.appbar.MaterialToolbar
     android:id="@+id/toolbar_point_chooser"
     style="@style/MwmWidget.ToolbarStyle"
     android:layout_width="match_parent"
@@ -41,7 +41,7 @@
 
     </LinearLayout>
 
-  </androidx.appcompat.widget.Toolbar>
+  </com.google.android.material.appbar.MaterialToolbar>
 
   <TextView
     android:layout_width="match_parent"

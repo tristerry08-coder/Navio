@@ -15,10 +15,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StyleRes;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentFactory;
 import androidx.fragment.app.FragmentManager;
+
+import com.google.android.material.appbar.MaterialToolbar;
 
 import app.organicmaps.MwmApplication;
 import app.organicmaps.R;
@@ -148,7 +149,7 @@ public abstract class BaseMwmFragmentActivity extends AppCompatActivity
     onBackPressed();
   }
 
-  protected Toolbar getToolbar()
+  protected MaterialToolbar getToolbar()
   {
     return findViewById(R.id.toolbar);
   }

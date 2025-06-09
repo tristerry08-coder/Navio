@@ -11,7 +11,7 @@
   <FrameLayout android:layout_width="match_parent"
                android:layout_height="wrap_content">
 
-    <androidx.appcompat.widget.Toolbar
+    <com.google.android.material.appbar.MaterialToolbar
       android:id="@+id/toolbar"
       style="@style/MwmWidget.ToolbarStyle"
       android:theme="@style/MwmWidget.ToolbarTheme"
@@ -131,7 +131,7 @@
 
       </RelativeLayout>
 
-    </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.MaterialToolbar>
   </FrameLayout>
   <FrameLayout
     android:id="@+id/driving_options_btn_container"

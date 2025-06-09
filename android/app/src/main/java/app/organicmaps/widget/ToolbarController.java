@@ -9,8 +9,10 @@ import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.ViewCompat;
+
+import com.google.android.material.appbar.MaterialToolbar;
+
 import app.organicmaps.R;
 import app.organicmaps.util.UiUtils;
 import app.organicmaps.util.Utils;
@@ -21,7 +23,7 @@ public class ToolbarController
   @Nullable
   private  Activity mActivity;
   @NonNull
-  private final Toolbar mToolbar;
+  private final MaterialToolbar mToolbar;
   @NonNull
   protected final View.OnClickListener mNavigationClickListener = view -> onUpClick();
 
@@ -39,7 +41,7 @@ public class ToolbarController
     setSupportActionBar(activity, mToolbar);
   }
 
-  private void setSupportActionBar(@NonNull Activity activity, @NonNull Toolbar toolbar)
+  private void setSupportActionBar(@NonNull Activity activity, @NonNull MaterialToolbar toolbar)
   {
     AppCompatActivity appCompatActivity = (AppCompatActivity) activity;
     appCompatActivity.setSupportActionBar(toolbar);
@@ -86,7 +88,7 @@ public class ToolbarController
   }
 
   @NonNull
-  public Toolbar getToolbar()
+  public MaterialToolbar getToolbar()
   {
     return mToolbar;
   }

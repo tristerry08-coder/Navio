@@ -27,7 +27,6 @@ import androidx.annotation.DimenRes;
 import androidx.annotation.IdRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
-import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.res.ResourcesCompat;
 import androidx.core.graphics.Insets;
@@ -37,6 +36,8 @@ import androidx.core.view.WindowInsetsControllerCompat;
 import androidx.recyclerview.widget.RecyclerView;
 import app.organicmaps.MwmApplication;
 import app.organicmaps.R;
+
+import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.textfield.TextInputLayout;
 
 import java.util.Objects;
@@ -193,7 +194,7 @@ public final class UiUtils
     hide(tv);
   }
 
-  public static void showHomeUpButton(Toolbar toolbar)
+  public static void showHomeUpButton(MaterialToolbar toolbar)
   {
     toolbar.setNavigationIcon(ThemeUtils.getResource(toolbar.getContext(), androidx.appcompat.R.attr.homeAsUpIndicator));
   }
@@ -297,7 +298,7 @@ public final class UiUtils
                     systemInsets.right, view.getPaddingBottom());
   }
 
-  public static void setupNavigationIcon(@NonNull Toolbar toolbar,
+  public static void setupNavigationIcon(@NonNull MaterialToolbar toolbar,
                                          @NonNull View.OnClickListener listener)
   {
     View customNavigationButton = toolbar.findViewById(R.id.back);
@@ -311,14 +312,14 @@ public final class UiUtils
     }
   }
 
-  public static void setupHomeUpButtonAsNavigationIcon(@NonNull Toolbar toolbar,
+  public static void setupHomeUpButtonAsNavigationIcon(@NonNull MaterialToolbar toolbar,
                                                        @NonNull View.OnClickListener listener)
   {
     UiUtils.showHomeUpButton(toolbar);
     toolbar.setNavigationOnClickListener(listener);
   }
 
-  public static void clearHomeUpButton(@NonNull Toolbar toolbar)
+  public static void clearHomeUpButton(@NonNull MaterialToolbar toolbar)
   {
     toolbar.setNavigationIcon(null);
     toolbar.setNavigationOnClickListener(null);

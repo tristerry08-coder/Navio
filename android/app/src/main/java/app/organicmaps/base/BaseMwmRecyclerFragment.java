@@ -10,11 +10,13 @@ import androidx.annotation.CallSuper;
 import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.ViewCompat;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.appbar.MaterialToolbar;
+
 import app.organicmaps.R;
 import app.organicmaps.util.UiUtils;
 import app.organicmaps.util.Utils;
@@ -23,7 +25,7 @@ import app.organicmaps.widget.PlaceholderView;
 
 public abstract class BaseMwmRecyclerFragment<T extends RecyclerView.Adapter> extends Fragment
 {
-  private Toolbar mToolbar;
+  private MaterialToolbar mToolbar;
 
   @SuppressWarnings("NotNullFieldNotInitialized")
   @NonNull
