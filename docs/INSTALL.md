@@ -35,7 +35,7 @@ Clone the repository including all submodules (see [Special cases options](#spec
 ```bash
 git clone --recurse-submodules --shallow-submodules https://codeberg.org/comaps/comaps.git
 ```
-
+### Linux
 Go into the cloned repository:
 ```bash
 cd comaps
@@ -54,6 +54,7 @@ Configure the repository (make sure you have a working C++ build environment):
 bash ./configure.sh
 ```
 
+### Windows
 For _Windows 10_:  You should be able to build the project by following either of these setup methods:
 
 **Setup 1: Using WSL**
@@ -67,6 +68,27 @@ For _Windows 10_:  You should be able to build the project by following either o
 
 ```bash
 "C:\Program Files\Git\bin\bash.exe" configure.sh # execute the script by using Developer Command Prompt
+```
+
+### macOS
+Install required build dependencies and Xcode
+1. Install Xcode Command Line Tools
+2. Install [Xcode](https://apps.apple.com/app/xcode/id497799835?mt=12) from the App Store.
+3. Install [Homebrew](https://brew.sh) and required dependencies
+4. Build CoMaps to be able to build the iOS app later
+
+#### Xcode Command Line Tools
+```bash
+xcode-select --install
+```
+#### Homebrew packages
+```bash
+brew install wget optipng
+```
+
+#### Configure repository
+```bash
+bash ./configure.sh
 ```
 
 Now the repository is prepared to build a CoMaps app!
@@ -335,13 +357,7 @@ Building CoMaps for iOS requires a Mac.
 
 Ensure that you have at least 20GB of free space.
 
-After [getting all sources](#getting-sources), please make sure that Command Line Tools are installed:
-
-```bash
-xcode-select --install
-```
-
-Then, install [Xcode](https://apps.apple.com/app/xcode/id497799835?mt=12) from the App Store.
+Perform the steps in [getting all sources](#getting-sources), including configuring the repository
 
 Enroll in the [Apple Developer Program](https://developer.apple.com/programs/) (you can run CoMaps in Simulator without this step).
 
