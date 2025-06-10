@@ -11,31 +11,22 @@
 
 To build and run CoMaps you'll need a machine with at least 4Gb of RAM and 20-30Gb of disk space depending on your target platform. Expect to download 2-5Gb of files.
 
-For _Windows_ you need to have [Git for Windows](https://git-scm.com/download/win) installed and Git bash available in the PATH.
-
 ## Getting sources
 
 First of all get the source code. The full CoMaps sources repository is ~3Gb in size, there are various [clone options](#special-cases-options) to reduce the download size to suit your needs.
 
-For _Windows_, it's necessary to enable symlink support:
-1. Activate _Windows Development Mode_ to enable symlinks globally:
-  - Windows 10: _Settings_ -> _Update and Security_ -> _For Developers_ -> _Activate Developer Mode_
-  - Windows 11: _Settings_ -> _Privacy and Security_ -> _For Developers_ -> _Activate Developer Mode_
-  - Press Win + R, run `ms-settings:developers` and _Activate Developer Mode_
-2. Enable [symlinks](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coresymlinks) support in git. The easiest way is to reinstall the latest [Git for Windows](https://git-scm.com/download/win) with the "Enable Symlinks" checkbox checked. If you don't want to reinstall Git, then you can add `-c core.symlinks=true` parameter to the clone command below to enable symlinks for the repository.
-
-```bash
-git config --global core.symlinks true
-```
-
-Clone the repository including all submodules (see [Special cases options](#special-cases-options) below):
+Clone the repository including all submodules (see [Special cases options](#special-cases-options) below)
 
 (if you plan to contribute and propose pull requests then use a web interface at https://codeberg.org/comaps/comaps to fork the repository first and use your fork's URL in the command below)
 
+Follow the instructions for your OS, and afterwards the repository is prepared to build a CoMaps app!
+
+### Linux
+Clone the repository
 ```bash
 git clone --recurse-submodules --shallow-submodules https://codeberg.org/comaps/comaps.git
 ```
-### Linux
+
 Go into the cloned repository:
 ```bash
 cd comaps
@@ -55,6 +46,24 @@ bash ./configure.sh
 ```
 
 ### Windows
+You need to have [Git for Windows](https://git-scm.com/download/win) installed and Git bash available in the PATH.
+
+It's necessary to enable symlink support:
+1. Activate _Windows Development Mode_ to enable symlinks globally:
+  - Windows 10: _Settings_ -> _Update and Security_ -> _For Developers_ -> _Activate Developer Mode_
+  - Windows 11: _Settings_ -> _Privacy and Security_ -> _For Developers_ -> _Activate Developer Mode_
+  - Press Win + R, run `ms-settings:developers` and _Activate Developer Mode_
+2. Enable [symlinks](https://git-scm.com/docs/git-config#Documentation/git-config.txt-coresymlinks) support in git. The easiest way is to reinstall the latest [Git for Windows](https://git-scm.com/download/win) with the "Enable Symlinks" checkbox checked. If you don't want to reinstall Git, then you can add `-c core.symlinks=true` parameter to the clone command below to enable symlinks for the repository.
+
+```bash
+git config --global core.symlinks true
+```
+
+Clone the repository
+```bash
+git clone --recurse-submodules --shallow-submodules https://codeberg.org/comaps/comaps.git
+```
+
 For _Windows 10_:  You should be able to build the project by following either of these setup methods:
 
 **Setup 1: Using WSL**
@@ -73,25 +82,27 @@ For _Windows 10_:  You should be able to build the project by following either o
 ### macOS
 Install required build dependencies and Xcode
 1. Install Xcode Command Line Tools
-2. Install [Xcode](https://apps.apple.com/app/xcode/id497799835?mt=12) from the App Store.
+2. Install [Xcode](https://apps.apple.com/app/xcode/id497799835?mt=12) from the App Store
 3. Install [Homebrew](https://brew.sh) and required dependencies
-4. Build CoMaps to be able to build the iOS app later
+4. Clone and configure the repository to be able to build the iOS app later
 
 #### Xcode Command Line Tools
 ```bash
 xcode-select --install
 ```
+
 #### Homebrew packages
 ```bash
 brew install wget optipng
 ```
 
-#### Configure repository
+#### Clone and configure repository
+Clone the repository
 ```bash
+git clone --recurse-submodules --shallow-submodules https://codeberg.org/comaps/comaps.git
+cd comaps
 bash ./configure.sh
 ```
-
-Now the repository is prepared to build a CoMaps app!
 
 ### Special cases options
 
