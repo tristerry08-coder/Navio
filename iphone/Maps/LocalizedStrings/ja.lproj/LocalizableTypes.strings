@@ -158,7 +158,7 @@
 "type.amenity.shelter.basic_hut" = "ビバーク小屋";
 
 /* A traditional 3-walled shelter (one side open), suitable for overnight camping. */
-"type.amenity.shelter.lean_to" = "Lean-to Shelter";
+"type.amenity.shelter.lean_to" = "三壁の避難所";
 "type.amenity.public_bath" = "公衆浴場";
 "type.amenity.shower" = "シャワー";
 "type.amenity.stripclub" = "ストリップクラブ";
@@ -179,14 +179,14 @@
 "type.amenity.vending_machine.parking_tickets" = "駐車券支払機";
 "type.amenity.vending_machine.public_transport_tickets" = "公共交通機関の券売機";
 "type.amenity.vending_machine.sweets" = "お菓子の自動販売機";
-"type.amenity.vending_machine.excrement_bags" = "Excrement Bags Dispenser";
-"type.amenity.parcel_locker" = "Parcel Locker";
+"type.amenity.vending_machine.excrement_bags" = "うんち袋の自販機";
+"type.amenity.parcel_locker" = "宅配ロッカー";
 "type.amenity.vehicle_inspection" = "車検";
 "type.amenity.vending_machine.fuel" = "燃料ポンプ";
 "type.amenity.veterinary" = "獣医";
 "type.amenity.waste_basket" = "ゴミ箱";
 "type.amenity.waste_disposal" = "ゴミ";
-"type.amenity.waste_transfer_station" = "Waste Transfer Station";
+"type.amenity.waste_transfer_station" = "ゴミ処理場";
 "type.amenity.water_point" = "給水所";
 "type.amenity.water_point.drinking_water_no" = "給水所";
 "type.barrier" = "障害物";

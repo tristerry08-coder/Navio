@@ -6,7 +6,7 @@
 "type.aerialway.chair_lift" = "مصعد مقعدي";
 "type.aerialway.drag_lift" = "مصعد الجر";
 "type.aerialway.gondola" = "غندول";
-"type.aerialway.mixed_lift" = "Mixed Lift";
+"type.aerialway.mixed_lift" = "رفع مختلط";
 "type.aerialway.station" = "محطة تلفريك";
 "type.aeroway" = "بنية الطيران";
 "type.aeroway.aerodrome" = "مطار";
@@ -43,7 +43,7 @@
 "type.amenity.charging_station" = "محطة شحن";
 "type.amenity.charging_station.bicycle" = "محطة شحن الدراجات";
 "type.amenity.charging_station.motorcar" = "محطة شحن السيارات";
-"type.amenity.childcare" = "حضانة";
+"type.amenity.childcare" = "حضّانة";
 "type.amenity.cinema" = "سينما";
 "type.leisure.bowling_alley" = "صالة بولينج";
 "type.amenity.clinic" = "عيادة";
@@ -60,7 +60,7 @@
 "type.amenity.exhibition_centre" = "مركز المعرض";
 "type.amenity.money_transfer" = "تحويل المال";
 "type.amenity.music_school" = "مدرسة موسيقى";
-"type.amenity.language_school" = "مدرسة لغة";
+"type.amenity.language_school" = "مدرسة لغات";
 "type.office.diplomatic" = "سفارة";
 "type.amenity.fast_food" = "وجبات سريعة";
 "type.amenity.ferry_terminal" = "محطة عبّارات";
@@ -1484,3 +1484,5 @@
 
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "الصالة الرياضية";
+"type.amenity.love_hotel" = "فندق جب";
+"type.amenity.studio" = "معرض";

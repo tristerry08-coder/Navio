@@ -179,7 +179,7 @@
     <string name="type.amenity.veterinary">獸醫</string>
     <string name="type.amenity.waste_basket">垃圾箱</string>
     <string name="type.amenity.waste_disposal">垃圾</string>
-    <string name="type.amenity.waste_transfer_station">垃圾轉運站</string>
+    <string name="type.amenity.waste_transfer_station">廢物轉運站</string>
     <string name="type.amenity.water_point">飲水站</string>
     <string name="type.amenity.water_point.drinking_water_no">飲水站</string>
     <string name="type.barrier">障礙物</string>
@@ -1281,4 +1281,5 @@
     <!-- https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall -->
     <string name="type.leisure.sports_hall">體育館</string>
     <string name="type.attraction.bumper_car">碰碰車</string>
+    <string name="type.leisure.track">賽道</string>
 </resources>

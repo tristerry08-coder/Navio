@@ -32,4 +32,7 @@
     <string name="type.organic.yes">有機</string>
     <string name="type.power.pole">電線桿</string>
     <string name="type.amenity.shelter.lean_to">三面避難所</string>
+    <string name="type.amenity.waste_transfer_station">垃圾轉運站</string>
+    <string name="type.amenity.vending_machine.excrement_bags">撿便袋販賣機</string>
+    <string name="type.amenity.parcel_locker">智取櫃</string>
 </resources>

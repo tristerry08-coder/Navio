@@ -45,7 +45,7 @@
     <string name="type.amenity.charging_station">محطة شحن</string>
     <string name="type.amenity.charging_station.bicycle">محطة شحن الدراجات</string>
     <string name="type.amenity.charging_station.motorcar">محطة شحن السيارات</string>
-    <string name="type.amenity.childcare">حضانة</string>
+    <string name="type.amenity.childcare">حضّانة</string>
     <string name="type.amenity.cinema">سينما</string>
     <string name="type.leisure.bowling_alley">صالة بولينج</string>
     <string name="type.amenity.clinic">عيادة</string>
@@ -62,7 +62,7 @@
     <string name="type.amenity.exhibition_centre">مركز المعرض</string>
     <string name="type.amenity.money_transfer">تحويل المال</string>
     <string name="type.amenity.music_school">مدرسة موسيقى</string>
-    <string name="type.amenity.language_school">مدرسة لغة</string>
+    <string name="type.amenity.language_school">مدرسة لغات</string>
     <string name="type.office.diplomatic">سفارة</string>
     <string name="type.amenity.fast_food">وجبات سريعة</string>
     <string name="type.amenity.ferry_terminal">محطة عبّارات</string>
@@ -1278,4 +1278,7 @@
     <string name="type.amenity.dojo">دوجو</string>
     <!-- https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall -->
     <string name="type.leisure.sports_hall">الصالة الرياضية</string>
+    <string name="type.aerialway.mixed_lift">رفع مختلط</string>
+    <string name="type.amenity.love_hotel">فندق جب</string>
+    <string name="type.amenity.studio">معرض</string>
 </resources>

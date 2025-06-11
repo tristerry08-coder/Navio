@@ -179,8 +179,8 @@
 "type.amenity.vending_machine.parking_tickets" = "違規停車罰單繳費機";
 "type.amenity.vending_machine.public_transport_tickets" = "公共交通售票機";
 "type.amenity.vending_machine.sweets" = "糖果售賣機";
-"type.amenity.vending_machine.excrement_bags" = "排泄物袋售賣機";
-"type.amenity.parcel_locker" = "包裹儲物櫃";
+"type.amenity.vending_machine.excrement_bags" = "撿便袋販賣機";
+"type.amenity.parcel_locker" = "智取櫃";
 "type.amenity.vehicle_inspection" = "車輛檢驗";
 "type.amenity.vending_machine.fuel" = "燃油泵";
 "type.amenity.veterinary" = "獸醫";
