@@ -480,6 +480,13 @@ class DownloaderAdapter extends RecyclerView.Adapter<DownloaderAdapter.ViewHolde
 
       UiUtils.showIf(mSearchResultsMode && !TextUtils.isEmpty(found), mFoundName);
 
+      long size = getMapDisplaySize();
+      mSize.setText(StringUtils.getFileSizeString(mFragment.requireContext(), size));
+      mStatusIcon.update(mItem);
+    }
+
+    private long getMapDisplaySize()
+    {
       long size;
       if (mItem.status == CountryItem.STATUS_ENQUEUED ||
           mItem.status == CountryItem.STATUS_PROGRESS ||
@@ -487,13 +494,16 @@ class DownloaderAdapter extends RecyclerView.Adapter<DownloaderAdapter.ViewHolde
       {
         size = mItem.enqueuedSize;
       }
+      else if (mItem.status == CountryItem.STATUS_FAILED ||
+          mItem.status == CountryItem.STATUS_DOWNLOADABLE)
+      {
+        size = mItem.totalSize;
+      }
       else
       {
         size = ((!mSearchResultsMode && mMyMapsMode) ? mItem.size : mItem.totalSize);
       }
-
-      mSize.setText(StringUtils.getFileSizeString(mFragment.requireContext(), size));
-      mStatusIcon.update(mItem);
+      return size;
     }
   }
 
