@@ -3,13 +3,14 @@ package app.organicmaps.util.bottomsheet;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.imageview.ShapeableImageView;
+import com.google.android.material.textview.MaterialTextView;
 
 import app.organicmaps.R;
 import app.organicmaps.location.TrackRecorder;
@@ -49,7 +50,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder>
   public void onBindViewHolder(ViewHolder viewHolder, final int position)
   {
     final MenuBottomSheetItem item = dataSet.get(position);
-    final ImageView iv = viewHolder.getIconImageView();
+    final ShapeableImageView iv = viewHolder.getIconImageView();
     if (item.iconRes == R.drawable.ic_donate && Config.isNY())
     {
       iv.setImageResource(R.drawable.ic_christmas_tree);
@@ -59,7 +60,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder>
       iv.setImageResource(item.iconRes);
     viewHolder.getContainer().setOnClickListener((v) -> onMenuItemClick(item));
     viewHolder.getTitleTextView().setText(item.titleRes);
-    TextView badge = viewHolder.getBadgeTextView();
+    MaterialTextView badge = viewHolder.getBadgeTextView();
     if (item.badgeCount > 0)
     {
       badge.setText(String.valueOf(item.badgeCount));
@@ -87,9 +88,9 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder>
   public static class ViewHolder extends RecyclerView.ViewHolder
   {
     private final LinearLayout container;
-    private final ImageView iconImageView;
-    private final TextView titleTextView;
-    private final TextView badgeTextView;
+    private final ShapeableImageView iconImageView;
+    private final MaterialTextView titleTextView;
+    private final MaterialTextView badgeTextView;
 
     public ViewHolder(View view)
     {
@@ -100,17 +101,17 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder>
       badgeTextView = view.findViewById(R.id.bottom_sheet_menu_item_badge);
     }
 
-    public ImageView getIconImageView()
+    public ShapeableImageView getIconImageView()
     {
       return iconImageView;
     }
 
-    public TextView getTitleTextView()
+    public MaterialTextView getTitleTextView()
     {
       return titleTextView;
     }
 
-    public TextView getBadgeTextView()
+    public MaterialTextView getBadgeTextView()
     {
       return badgeTextView;
     }

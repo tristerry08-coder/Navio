@@ -11,14 +11,14 @@
   android:background="?clickableBackground"
   android:orientation="horizontal">
 
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/bottom_sheet_menu_item_icon"
     android:layout_width="@dimen/bookmark_icon_size"
     android:layout_height="match_parent"
     android:layout_gravity="center_vertical"
     tools:src="@drawable/ic_menu_download"
     app:tint="?android:textColorSecondary"/>
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/bottom_sheet_menu_item_text"
     android:textAppearance="@style/MwmTextAppearance.Body1"
     android:layout_width="0dp"
@@ -29,7 +29,7 @@
     android:gravity="center_vertical"
     android:singleLine="true"
     tools:text="Menu Item" />
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/bottom_sheet_menu_item_badge"
     style="@style/MwmWidget.Counter"
     android:layout_gravity="end|center_vertical"

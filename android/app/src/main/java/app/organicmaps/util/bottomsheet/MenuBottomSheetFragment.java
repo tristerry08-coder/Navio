@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,6 +19,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
+import com.google.android.material.textview.MaterialTextView;
 
 import java.util.ArrayList;
 import java.util.Objects;
@@ -93,7 +93,7 @@ public class MenuBottomSheetFragment extends BottomSheetDialogFragment
   {
     super.onViewCreated(view, savedInstanceState);
     attachToNearestContext();
-    TextView titleView = view.findViewById(R.id.bottomSheetTitle);
+    MaterialTextView titleView = view.findViewById(R.id.bottomSheetTitle);
     RecyclerView recyclerView = view.findViewById(R.id.bottomSheetMenuContainer);
     if (getArguments() != null)
     {
