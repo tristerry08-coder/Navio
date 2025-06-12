@@ -1,6 +1,6 @@
 # Translations
 
-Translations are managed through [Weblate][weblate]. Please [contribute][contribute] translations via the [Weblate][weblate], and the system and maintainers will handle the rest.
+Translations are managed through [Codeberg Translate][codeberg_translate], which is based on Weblate. Please [contribute][contribute] translations via the [Codeberg Translate][codeberg_translate], and the system and maintainers will handle the rest.
 
 ## Components
 
@@ -28,15 +28,15 @@ Components without links haven't been integrated into Weblate and must be transl
 
 ### Workflow
 
-Translations are managed through [Weblate][weblate]. Direct submissions to this repository are not recommended but possible in specific cases (like batch-changes). Please prefer using the Weblate for translations whenever possible. Weblate periodically creates pull requests, which [@comaps/mergers][mergers] review and merge as usual.
+Translations are managed through [Codeberg Translate][codeberg_translate]. Direct submissions to this repository are not recommended but possible in specific cases (like batch-changes). Please prefer using the Weblate for translations whenever possible. Weblate periodically creates pull requests, which [@comaps/mergers][mergers] review and merge as usual.
 
 ### Cross-Component Synchronization
 
-Android and iOS share most of the strings. Weblate automatically syncs translations between components (e.g., from Android to iOS and vice versa), so updating a string in one place is usually sufficient.
+Android and iOS share most of the strings. Codeberg Translate automatically syncs translations between components (e.g., from Android to iOS and vice versa), so updating a string in one place is usually sufficient.
 
 ## Machine Translation
 
-Weblate is configured to generate machine translations using the best available tools. Auto-translated entries are added as suggestions.
+Codeberg Translate is configured to generate machine translations using the best available tools. Auto-translated entries are added as suggestions.
 
 ### Failing checks
 
@@ -46,7 +46,7 @@ Please review any issues flagged by automated checks, such as missing placeholde
 
 ### Workflow
 
-Translations are handled by the translation team via [**Weblate**][weblate], with no direct developer involvement required. Developers are only responsible for adding English base strings to the source file (see [Components](#components)). Weblate manages the rest. If you're confident in a language, feel free to contribute translations, but please avoid adding machine translations or translating languages you are not familiar with.
+Translations are handled by the translation team via [**Codeberg Translate**][codeberg_translate], with no direct developer involvement required. Developers are only responsible for adding English base strings to the source file (see [Components](#components)). Codeberg Translate manages the rest. If you're confident in a language, feel free to contribute translations, but please avoid adding machine translations or translating languages you are not familiar with.
 
 ### Tools
 
@@ -60,17 +60,17 @@ When adding new strings, first check the base file of the component for existing
 
 ## Under the Hood
 
-Weblate maintains an internal copy of the Git repository. The repository URL can be found under _Manage → Repository Maintenance → Weblate Repository_. All components, except for the website, share the same internal Weblate repository.
+Codeberg Translate maintains an internal copy of the Git repository. The repository URL can be found under _Manage → Repository Maintenance → Weblate Repository_. All components, except for the website, share the same internal Weblate repository.
 
 Translations are extracted from the repository and stored in an internal database, which is used by the Weblate UI. Every 24 hours, this internal database is synchronized back to the internal repository. This process can also be triggered manually via _Manage → Repository Maintenance → Commit_.
 
-After committing changes from the internal database to the internal repository, Weblate pushes all updates to the `weblate-i18n` branch of the main Codeberg repository and creates or updates a pull request (PR) to `main`. This operation can be manually triggered via _Manage → Repository Maintenance → Push_.
+Codeberg Translate has its own Git repository fork of both the website and the main Git repository for pushing translation commits and then creating pull requests (PRs) on Codeberg. After committing changes from the internal database to the internal repository, Codeberg Translate pushes all updates to the `weblate-comaps-<component>` branch (e.g. `weblate-comaps-android` for Android UI strings) of its forked repository and creates or updates a PR to `main` branch of the main repository. This operation can be manually triggered via _Manage → Repository Maintenance → Push_.
 
 ### Reviewing PRs
 
-Translations are intended to be reviewed by the community on Weblate. However, if it's a user's first contribution or if there is any doubt, a quick scan and comparison with the English source can be useful.
+Translations are intended to be reviewed by the community on Codeberg Translate. However, if it's a user's first contribution or if there is any doubt, a quick scan and comparison with the English source can be useful.
 
-It is recommended to add comments directly on Weblate, as translators primarily work within that platform. If the contributor has a Codeberg account, you may tag them in the pull request, but there is no guarantee that they will respond.
+It is recommended to add comments directly on Codeberg Translate, as translators primarily work within that platform. Since Codeberg Translate requires a Codeberg account, you may tag contributors in the pull request, but there is no guarantee that they will respond.
 
 ### Resolving Conflicts
 
@@ -78,15 +78,15 @@ The recommended approach for resolving conflicts is as follows:
 
 1. Commit all changes from the internal database to the internal Git repository:  
    _Manage → Repository Maintenance → Commit (button)_.
-2. Update the `weblate-i18n` branch on Codeberg:  
+2. Update the `weblate-comaps-<component>` branch of the Translate's forked Git repository on Codeberg:  
    _Manage → Repository Maintenance → Push (button)_.
-3. Locally checkout the `weblate-i18n` branch.
-4. Rebase it onto `main`, resolving any conflicts during the process.
+3. Locally checkout the `weblate-comaps-<component>` branch.
+4. Rebase it onto `main` of the main repository, resolving any conflicts during the process.
 5. Push the branch to Codeberg to update the pull request, then merge the branch or PR into `main`.
-6. Reset Weblate to sync changes from GitHub:  
+6. Reset Codeberg Translate to sync changes from Codeberg:  
    _Manage → Repository Maintenance → Reset (button)_.
 
-[weblate]: https://translate.codeberg.org/projects/comaps/
+[codeberg_translate]: https://translate.codeberg.org/projects/comaps/
 [contribute]: https://docs.weblate.org/en/latest/workflows.html
 [android_weblate]: https://translate.codeberg.org/projects/comaps/android/
 [android_git]: https://codeberg.org/comaps/comaps/src/branch/main/android/app/src/main/res
