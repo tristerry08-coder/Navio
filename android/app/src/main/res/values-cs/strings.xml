@@ -96,7 +96,7 @@
     <!-- Ask user to wait several minutes (some long process in modal dialog). -->
     <string name="wait_several_minutes">Tato akce může trvat několik minut. \nProsím čekejte…</string>
     <!-- Measurement units title in settings activity -->
-    <string name="measurement_units">Měřicí jednotky</string>
+    <string name="measurement_units">Jednotky míry</string>
     <!-- Detailed description of Measurement Units settings button -->
     <string name="measurement_units_summary">Vyberte si míle nebo kilometry</string>
     <!-- SECTION: Search categories -->
@@ -762,7 +762,7 @@
     <!-- App tip #06 -->
     <string name="app_tip_06">Můžete pomoci přeložit naši aplikaci do vašeho jazyka.</string>
     <!-- App tip #07 -->
-    <string name="app_tip_07">Naše aplikace je vyvinuta několika nadšenci a komunitou.</string>
+    <string name="app_tip_07">Naše aplikace je vyvíjena několika nadšenci a komunitou.</string>
     <!-- App tip #08 -->
     <string name="app_tip_08">Mapová data můžete snadno opravit a vylepšit.</string>
     <!-- App tip #09 -->

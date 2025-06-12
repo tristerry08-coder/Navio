@@ -885,4 +885,7 @@
     <string name="bluesky">Bluesky</string>
     <string name="error_enter_correct_fediverse_page">Унесите важеће корисничко име Мастодона или веб адресу</string>
     <string name="error_enter_correct_bluesky_page">Unesite važeće Bluesky korisničko ime ili veb adresu</string>
+    <string name="pref_left_button_title">Подешавање левог дугмета</string>
+    <string name="pref_left_button_disable">Onemogući</string>
+    <string name="saved">Сачувано</string>
 </resources>

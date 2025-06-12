@@ -894,4 +894,6 @@
     <string name="bluesky">Bluesky</string>
     <string name="error_enter_correct_bluesky_page">Introduce un nombre de usuario o una dirección web de Bluesky válidos</string>
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
+    <string name="pref_left_button_title">Configurar botón izquierdo</string>
+    <string name="pref_left_button_disable">Desactivar</string>
 </resources>
