@@ -29,16 +29,16 @@
 
 A community-led free & open source maps app based on [OpenStreetMap](https://www.openstreetmap.org) data and reinforced with commitment to transparency, privacy and being not-for-profit. CoMaps is a fork/spin-off of Organic Maps, which in turn is a fork of Maps.ME.
 
-There are apps for Android and iOS (and ARM macOS).
-An alpha linux / macOS Qt desktop version, which is also suitable for linux phones.
+There are apps for Android and iOS (and ARM MacOS).
+An alpha Linux / MacOS Qt desktop version, which is also suitable for Linux phones.
 
-The first app release is available as an APK download now! We are still working on publishing on F-Droid, Google Play Store and iOS App Store as well, please stay tuned!
+The first app release is available on F-Droid and as an APK download now! We are working on publishing to the Google Play Store and iOS App Store as well, please stay tuned!
 
 <!--
 [<img src="docs/badges/apple-appstore.png" alt="App Store" width="160">](https://apps.apple.com/app/comaps/id1567437057)
 [<img src="docs/badges/google-play.png" alt="Google Play" width="160">](https://play.google.com/store/apps/details?id=app.comaps)
-[<img src="docs/badges/fdroid.png" alt="F-Droid" width="160">](https://f-droid.org/en/packages/app.comaps/)
 -->
+[<img src="docs/badges/fdroid.png" alt="F-Droid" width="160">](https://f-droid.org/en/packages/app.comaps.fdroid/)
 [<img src="docs/badges/codeberg.png" alt="Codeberg" width="160">](https://codeberg.org/comaps/comaps/releases)
 
 <p float="left">
@@ -52,7 +52,7 @@ The first app release is available as an APK download now! We are still working 
 
 **Respecting Privacy**: The app is designed with privacy in mind - does not identify people, does not track, and does not collect personal information. Ads-free.
 
-**Simple and Polished**: essential easy to use features that just work.
+**Simple and Polished**: Essential, easy to use features that just work.
 
 **Saves Your Battery and Space**: Doesn’t drain your battery like other navigation apps. Compact maps save precious space on your phone.
 
