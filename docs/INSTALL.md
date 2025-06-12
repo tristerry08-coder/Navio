@@ -93,7 +93,7 @@ xcode-select --install
 
 #### Homebrew packages
 ```bash
-brew install wget optipng
+brew install wget optipng cmake qt
 ```
 
 #### Clone and configure repository
@@ -387,10 +387,14 @@ Set up your developer account and add certificates:
 Reconfigure the project to use your developer signing keys:
 
 - Open `xcode/omim.xcworkspace` in Xcode.
-- Click on "Maps" project.
+- Click on the "Maps" project and select the "OMaps" target.
 - Open "Signing & Capabilities" tab.
 - Choose a unique bundle identifier (not app.organicmaps.debug) and your team.
 - Select "Automatically manage signing".
+- Click on "OMapsTests" target.
+- Choose a unique bundle identifier based on the one you chose previously (e.g. app.comapsdev.tests) and your team.
+- Click on "OMapsWidgetExtension" target.
+- Choose a unique bundle identifier based on the one you chose previously (e.g. app.comapsdev.debug.widgetextension) and your team.
 
 If you want to run CoMaps on a real device, you have to remove the CarPlay entitlement. Open `iphone/Maps/OMaps-Debug.entitlements`
 and remove the `com.apple.developer.carplay-maps` entry. Now you can sign your app again in the "Signing & Capabilities" tab. Testing CarPlay
