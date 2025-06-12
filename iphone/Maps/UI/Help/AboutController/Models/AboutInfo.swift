@@ -59,11 +59,11 @@ enum AboutInfo {
       // These cases don't provide redirection to the web
       return nil
     case .reportABug:
-      return "hello@comaps.app"
+      return "ios@comaps.app"
     case .reportMapDataProblem:
       return "https://www.openstreetmap.org/fixthemap"
     case .volunteer:
-      return L("translated_om_site_url") + "support-us/"
+      return L("translated_om_site_url") + "community/"
     case .news:
       return L("translated_om_site_url") + "news/"
     }
