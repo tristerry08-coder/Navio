@@ -119,7 +119,7 @@
 
         <data android:scheme="http"/>
         <data android:scheme="https"/>
-        <data android:host="comaps.app"/>
+        <data android:host="comaps.at"/>
       </intent-filter>
 
       <intent-filter>

@@ -13,7 +13,7 @@ public final class Constants
   public static class Url
   {
     public static final String SHORT_SHARE_PREFIX = "cm://";
-    public static final String HTTP_SHARE_PREFIX = "https://comaps.app/";
+    public static final String HTTP_SHARE_PREFIX = "https://comaps.at/";
 
     public static final String MAILTO_SCHEME = "mailto:";
     public static final String MAIL_SUBJECT = "?subject=";
@@ -23,7 +23,6 @@ public final class Constants
     public static final String MASTODON = "https://floss.social/@comaps";
     public static final String FB_OM_COMMUNITY_HTTP = "https://www.facebook.com/profile.php?id=61575286559965";
     public static final String FB_OM_COMMUNITY_NATIVE = "fb://profile/61575286559965";
-    //public static final String TWITTER = "https://twitter.com/user";
 
     public static final String CODE_REPO = "https://codeberg.org/comaps/comaps";
 
