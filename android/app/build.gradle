@@ -169,6 +169,7 @@ android {
 
     fdroid {
       dimension 'default'
+      applicationIdSuffix '.fdroid'
       versionName = android.defaultConfig.versionName + '-FDroid'
       buildConfigField 'String', 'SUPPORT_MAIL', '"fdroid@comaps.app"'
     }
