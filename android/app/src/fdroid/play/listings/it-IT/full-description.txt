@@ -14,21 +14,19 @@ Unisciti alla nostra comunità e aiutaci a creare la migliore app di mappe.
 ‣ <b>Aperta e Trasparente nel Processo Decisionale e Finanziario, Senza Scopo di Lucro e Completamente Open Source</b>
 
 <b>Funzionalità principali</b>:
-<ul>
-<li>Scarica mappe dettagliate di luoghi che non sono disponibili su Google Maps</li>
-<li>Modalità Outdoor con percorsi escursionistici, campeggi, sorgenti d'acqua, picchi, dislivelli ed altro evidenziati</li>
-<li>Strade pedonali e piste ciclabili</li>
-<li>Punti d'interesse come ristoranti, stazioni di benzina, hotel, negozi, luoghi turistici e molto altro</li>
-<li>Cerca per nome, indirizzo o categoria</li>
-<li>Navigazione con assistente vocale a piedi, in bici o in macchina</li>
-<li>Salva i tuoi luoghi preferiti con un tocco</li>
-<li>Leggi gli articoli Wikipedia Offline</li>
-<li>Cartina delle metropolitane con direzioni</li>
-<li>Registrazione del percorso</li>
-<li>Esporta ed importa i tuoi luoghi preferiti e percorsi nei formati KML, KMZ o GPX</li>
-<li>Modalità notturna per la notte</li>
-<li>Migliora le mappe per tutti usando l'editor interno</li>
-</ul>
+• Scarica mappe dettagliate di luoghi che non sono disponibili su Google Maps
+• Modalità Outdoor con percorsi escursionistici, campeggi, sorgenti d'acqua, picchi, dislivelli ed altro evidenziati
+• Strade pedonali e piste ciclabili
+• Punti d'interesse come ristoranti, stazioni di benzina, hotel, negozi, luoghi turistici e molto altro
+• Cerca per nome, indirizzo o categoria
+• Navigazione con assistente vocale a piedi, in bici o in macchina
+• Salva i tuoi luoghi preferiti con un tocco
+• Leggi gli articoli Wikipedia Offline
+• Cartina delle metropolitane con direzioni
+• Registrazione del percorso
+• Esporta ed importa i tuoi luoghi preferiti e percorsi nei formati KML, KMZ o GPX
+• Modalità notturna per la notte
+• Migliora le mappe per tutti usando l'editor interno
 
 <b>La Libertà è Qui</b>
 Esplora la tua nuova avventura, naviga il mondo con Privacy e la comunità in prima linea!

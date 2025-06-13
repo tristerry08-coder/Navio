@@ -14,7 +14,6 @@ Werde Teil der Community und hilf mit, die beste Karten-App zu entwickeln
 ‣ <b>Offen und transparent bei Entscheidungen und Finanzen, gemeinnützig und vollständig Open-Source</b>
 
 <b>Hauptfunktionen</b>:
-<ul>
 • Detaillierte, herunterladbare Karten mit Orten, die bei Google Maps oft fehlen
 • Outdoor-Modus mit hervorgehobenen Wanderwegen, Campingplätzen, Wasserquellen, Gipfeln, Höhenlinien usw.
 • Geh- und Radwege

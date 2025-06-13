@@ -14,21 +14,19 @@ Rejoignez la communauté et aidez-nous à créer la meilleure application de nav
 ‣ <b>Prises de décisions et comptes clairs et transparents, but non lucratif et complètement open source.</b>
 
 <b>Fonctionnalités principales :</b>
-<ul>
-<li>Cartes détaillées téléchargeables avec des lieux non disponibles sur Google Maps</li>
-<li>Mode extérieur avec sentiers de randonnée, campings, sources d'eau, sommets, courbes de niveau, etc. surlignés</li>
-<li>Chemins piétons et pistes cyclables</li>
-<li>Points d'intérêt comme des restaurants, stations-service, hôtels, magasins, lieux touristiques et bien plus</li>
-<li>Recherche par nom, adresse ou catégorie de point d'intérêt</li>
-<li>Navigation avec annonces vocales pour la marche, le vélo ou la conduite</li>
-<li>Mettez en favori vos lieux préférés en un seul clic</li>
-<li>Articles Wikipédia hors-ligne</li>
-<li>Plan de métro et indications pour s'y rendre</li>
-<li>Enregistrement des parcours</li>
-<li>Exportez et importez vos favoris aux formats KML, KMZ et GPX</li>
-<li>Mode sombre pour utiliser pendant la nuit</li>
-<li>Amélioration de la carte par tout le monde avec un éditeur simple intégré</li>
-</ul>
+• Cartes détaillées téléchargeables avec des lieux non disponibles sur Google Maps
+• Mode extérieur avec sentiers de randonnée, campings, sources d'eau, sommets, courbes de niveau, etc. surlignés
+• Chemins piétons et pistes cyclables
+• Points d'intérêt comme des restaurants, stations-service, hôtels, magasins, lieux touristiques et bien plus
+• Recherche par nom, adresse ou catégorie de point d'intérêt
+• Navigation avec annonces vocales pour la marche, le vélo ou la conduite
+• Mettez en favori vos lieux préférés en un seul clic
+• Articles Wikipédia hors-ligne
+• Plan de métro et indications pour s'y rendre
+• Enregistrement des parcours
+• Exportez et importez vos favoris aux formats KML, KMZ et GPX
+• Mode sombre pour utiliser pendant la nuit
+• Amélioration de la carte par tout le monde avec un éditeur simple intégré
 
 <b>La liberté est ici</b>
 Découvrez votre voyage, naviguez dans le monde en plaçant la vie privée et la communauté au premier plan !

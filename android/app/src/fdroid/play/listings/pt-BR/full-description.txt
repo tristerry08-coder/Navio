@@ -15,21 +15,19 @@ Junte-se à comunidade e ajude a criar o melhor aplicativo de mapas.
 ‣ <b>Tomada de decisões e finanças abertas e transparentes, sem fins lucrativos e totalmente de código aberto.</b>
 
 <b>Principais recursos</b>:
-<ul>
-<li>Mapas detalhados para download com locais não disponíveis no Google Maps</li>
-<li>Modo ao ar livre com trilhas em destaque, acampamentos, fontes de água, picos, curvas de nível, etc.</li>
-<li>Trilhas para caminhada e ciclovias</li>
-<li>Pontos de interesse como restaurantes, postos de gasolina, hotéis, lojas, pontos turísticos e muito mais</li>
-<li>Pesquise por nome, endereço ou categoria de ponto de interesse</li>
-<li>Navegação com anúncios de voz para caminhada, ciclismo ou direção</li>
-<li>Marque seus lugares favoritos com um único toque</li>
-<li>Artigos offline da Wikipédia</li>
-<li>Caminho de transporte e direções do metrô</li>
-<li>Gravação de trilhas</li>
-<li>Exporte e importe favoritos e trilhas em Formatos KML, KMZ, GPX</li>
-<li>Um modo escuro para usar à noite</li>
-<li>Aprimore os dados do mapa para todos usando um editor básico integrado</li>
-</ul>
+• Mapas detalhados para download com locais não disponíveis no Google Maps
+• Modo ao ar livre com trilhas em destaque, acampamentos, fontes de água, picos, curvas de nível, etc.
+• Trilhas para caminhada e ciclovias
+• Pontos de interesse como restaurantes, postos de gasolina, hotéis, lojas, pontos turísticos e muito mais
+• Pesquise por nome, endereço ou categoria de ponto de interesse
+• Navegação com anúncios de voz para caminhada, ciclismo ou direção
+• Marque seus lugares favoritos com um único toque
+• Artigos offline da Wikipédia
+• Caminho de transporte e direções do metrô
+• Gravação de trilhas
+• Exporte e importe favoritos e trilhas em Formatos KML, KMZ, GPX
+• Um modo escuro para usar à noite
+• Aprimore os dados do mapa para todos usando um editor básico integrado
 
 <b>A Liberdade Chegou</b>
 Descubra sua jornada, navegue pelo mundo com privacidade e comunidade em primeiro lugar!
