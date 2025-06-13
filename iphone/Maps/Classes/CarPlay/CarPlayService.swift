@@ -257,7 +257,7 @@ final class CarPlayService: NSObject {
     mapTemplate.leadingNavigationBarButtons = []
     mapTemplate.trailingNavigationBarButtons = []
     mapTemplate.mapButtons = []
-    let doneAction = CPAlertAction(title: L("done"), style: .cancel) { [unowned self] _ in
+    let doneAction = CPAlertAction(title: L("done"), style: .default) { [unowned self] _ in
       self.updateMapTemplateUIToBase()
     }
     var subtitle = ""
