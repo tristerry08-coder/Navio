@@ -7,6 +7,7 @@
 	<key>com.apple.developer.associated-domains</key>
 	<array>
 		<string>applinks:omaps.app</string>
+		<string>applinks:omaps.at</string>
 	</array>
 	<key>com.apple.developer.carplay-maps</key>
 	<true/>
