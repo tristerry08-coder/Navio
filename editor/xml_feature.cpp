@@ -633,7 +633,10 @@ void XMLFeature::UpdateOSMTag(std::string_view key, std::string_view value)
         {"phone", "contact:phone", "contact:mobile", "mobile"},
         {"website", "contact:website", "url"},
         {"fax", "contact:fax"},
-        {"email", "contact:email"}
+        {"email", "contact:email"},
+        {"addr:housenumber", "contact:housenumber"},
+        {"addr:street", "contact:street"},
+        {"addr:postcode", "contact:postcode"}
     };
 
     // Avoid duplication for similar alternative osm tags.
