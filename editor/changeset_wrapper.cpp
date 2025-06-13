@@ -34,7 +34,8 @@ std::string_view constexpr kVowels = "aeiouy";
 
 std::string_view constexpr kMainTags[] = {
     "amenity", "shop", "tourism", "historic", "craft", "emergency", "barrier", "highway", "office",
-    "leisure", "waterway",  "natural", "place",   "entrance", "building"};
+    "leisure", "waterway",  "natural", "place",  "entrance", "building", "man_made", "healthcare",
+    "attraction"};
 
 std::string GetTypeForFeature(editor::XMLFeature const & node)
 {
@@ -46,14 +47,19 @@ std::string GetTypeForFeature(editor::XMLFeature const & node)
       std::string value = node.GetTagValue(key);
       if (value == "yes")
         return std::string{key};
-      else if (key == "shop" || key == "office" || key == "building" || key == "entrance")
+      else if (key == "shop" || key == "office" || key == "building" || key == "entrance" || key == "attraction")
         return value.append(" ").append(key);  // "convenience shop"
       else if (!value.empty() && value.back() == 's')
         // Remove 's' from the tail: "toilets" -> "toilet".
         return value.erase(value.size() - 1);
+      else if (key == "healthcare" && value == "alternative")
+        return "alternative medicine";
       return value;
     }
   }
+
+  if (node.HasTag("addr:housenumber") || node.HasTag("addr:street") || node.HasTag("addr:postcode"))
+    return "address";
 
   // Did not find any known tags.
   return node.HasAnyTags() ? "unknown object" : "empty object";
