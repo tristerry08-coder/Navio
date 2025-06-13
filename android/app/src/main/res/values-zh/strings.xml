@@ -510,7 +510,6 @@
     <string name="download_over_mobile_header">用手机网络连接下载吗？</string>
     <string name="download_over_mobile_message">如果您使用移动数据或漫游来进行下载，将可能导致额外的费用。</string>
     <string name="error_enter_correct_house_number">输入正确的门牌号码</string>
-    <string name="editor_storey_number">楼层数量 (最多 %d 层)</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">最多可编辑 %d 层的建筑</string>
     <string name="editor_zip_code">邮政编码</string>

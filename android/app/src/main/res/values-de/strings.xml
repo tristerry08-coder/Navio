@@ -497,7 +497,6 @@
     <string name="download_over_mobile_header">Über eine Mobilfunknetzverbindung herunterladen?</string>
     <string name="download_over_mobile_message">Das könnte mit einigen Tarifen oder beim Roaming sehr teuer werden.</string>
     <string name="error_enter_correct_house_number">Richtige Hausnummer eingeben</string>
-    <string name="editor_storey_number">Anzahl der Etagen (maximal %d)</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Das Gebäude kann nicht mehr als %d Etagen haben</string>
     <string name="editor_zip_code">Postleitzahl</string>

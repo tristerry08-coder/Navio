@@ -495,7 +495,6 @@
     <string name="download_over_mobile_header">Downloaden via een mobiele gegevensverbinding?</string>
     <string name="download_over_mobile_message">Met sommige abonnementen of bij roaming kan dit behoorlijk duur zijn.</string>
     <string name="error_enter_correct_house_number">Voer een geldig huisnummer in</string>
-    <string name="editor_storey_number">Aantal verdiepingen (max. %d)</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Het gebouw mag niet meer dan %d verdiepingen hebben</string>
     <string name="editor_zip_code">Postcode</string>

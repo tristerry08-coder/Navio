@@ -491,7 +491,6 @@
     <string name="download_over_mobile_header">להוריד באמצעות חיבור אינטרנט סלולרי?</string>
     <string name="download_over_mobile_message">זה עשוי להיות יקר עם חבילות גלישה מסוימות או בנדידה.</string>
     <string name="error_enter_correct_house_number">הזן מספר בית תקין</string>
-    <string name="editor_storey_number">מספר קומות (מקסימום: %d)</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">מספר הקומות לא יכול להיות גבוה מ-%d</string>
     <string name="editor_zip_code">מיקוד</string>

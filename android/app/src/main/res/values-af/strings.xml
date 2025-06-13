@@ -484,7 +484,6 @@
     <string name="download_over_mobile_header">Laai af oor ’n mobieledataverbinding?</string>
     <string name="download_over_mobile_message">Dit kan behoorlik duur wees met sommige planne of indien dooldata aktief is.</string>
     <string name="error_enter_correct_house_number">Voer ’n geldige gebounommer in</string>
-    <string name="editor_storey_number">Aantal verdiepings (maksimum van %d)</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Die aantal verdiepings mag nie %d oorskry nie</string>
     <string name="editor_zip_code">Poskode</string>

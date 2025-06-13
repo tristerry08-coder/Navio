@@ -480,7 +480,6 @@
     <string name="download_over_mobile_header">Descarregar utilizando uma conexão de rede de telemóveis?</string>
     <string name="download_over_mobile_message">Isto pode ser muito caro com alguns planos ou em roaming.</string>
     <string name="error_enter_correct_house_number">Introduza um número de endereço correto</string>
-    <string name="editor_storey_number">Número de pisos (máx. %d)</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">O número de pisos não pode ser maior que %d</string>
     <string name="editor_zip_code">Código Postal</string>

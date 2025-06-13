@@ -490,7 +490,6 @@
     <string name="download_over_mobile_header">Преузимање преко мобилне мреже?</string>
     <string name="download_over_mobile_message">Ово може бити значајно скупље у оквиру одређених пакета или у ромингу.</string>
     <string name="error_enter_correct_house_number">Унесте исправан кућни број</string>
-    <string name="editor_storey_number">Број спратова (макс. %d)</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Број спратова не сме да прелази %d</string>
     <string name="editor_zip_code">Поштански број</string>

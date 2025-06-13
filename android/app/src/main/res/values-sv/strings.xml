@@ -471,7 +471,6 @@
     <string name="download_over_mobile_header">Ladda ned med mobildata?</string>
     <string name="download_over_mobile_message">Detta kan vara mycket dyrt med vissa abonnemang och vid roaming.</string>
     <string name="error_enter_correct_house_number">Ange giltigt husnummer</string>
-    <string name="editor_storey_number">Antal våningar (max %d)</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Redigera byggnaden med max %d våningar</string>
     <string name="editor_zip_code">Postnr</string>

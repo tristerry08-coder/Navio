@@ -473,7 +473,6 @@
     <string name="download_over_mobile_header">셀룰러 네트워크 접속을 사용하여 다운로드하시겠습니까?</string>
     <string name="download_over_mobile_message">이는 일부 플랜이나 로밍할 경우에 비싸다고 간주될 수 있습니다.</string>
     <string name="error_enter_correct_house_number">올바른 집 번호 입력</string>
-    <string name="editor_storey_number">층 수(최대 %d)</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">최대 %d층까지 입력하세요</string>
     <string name="editor_zip_code">우편번호</string>

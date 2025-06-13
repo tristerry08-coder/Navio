@@ -488,7 +488,6 @@
     <string name="download_over_mobile_header">Atsisiųsti naudojant mobilųjį ryšį?</string>
     <string name="download_over_mobile_message">Tai gali būti itin brangu, naudojantis kai kuriais planais ar tarptinkliniu ryšiu.</string>
     <string name="error_enter_correct_house_number">Įveskite leistiną pastato numerį</string>
-    <string name="editor_storey_number">Aukštų skaičius (daugiausia %d)</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Aukštų skaičius negali viršyti %d</string>
     <string name="editor_zip_code">Pašto kodas</string>

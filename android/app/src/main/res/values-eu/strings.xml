@@ -497,7 +497,6 @@
     <string name="download_over_mobile_header">Deskargatu sare mugikorreko konexioarekin?</string>
     <string name="download_over_mobile_message">Oso garestia izan daiteke roaming plan batzuekin edo datu-ibiltaritzarekin.</string>
     <string name="error_enter_correct_house_number">Sartu etxeko zenbaki baliozkoa</string>
-    <string name="editor_storey_number">Solairu kopurua (gehienez %d)</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Solairu kopurua ez da %d-tik gorakoa izan behar</string>
     <string name="editor_zip_code">Posta kodea</string>

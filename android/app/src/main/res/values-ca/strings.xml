@@ -498,7 +498,6 @@
     <string name="download_over_mobile_header">Voleu baixar-ho a través d’una connexió de xarxa mòbil?</string>
     <string name="download_over_mobile_message">Podria ser força car amb algunes tarifes o amb itinerància de dades.</string>
     <string name="error_enter_correct_house_number">Introduïu un número d’edifici vàlid</string>
-    <string name="editor_storey_number">Nombre de plantes (màxim %d)</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">El nombre de plantes no pot excedir de %d</string>
     <string name="editor_zip_code">Codi postal</string>

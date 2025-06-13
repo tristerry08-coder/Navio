@@ -495,7 +495,6 @@
     <string name="download_over_mobile_header">Спампаваць праз мабільны інтэрнэт?</string>
     <string name="download_over_mobile_message">Гэта можа быць даволі дорага з некаторымі тарыфнымі планамі або ў роўмінгу.</string>
     <string name="error_enter_correct_house_number">Увядзіце правільны нумар дома</string>
-    <string name="editor_storey_number">Колькасць паверхаў (максімум %d)</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Колькасць паверхаў павінна быць не больш за %d</string>
     <string name="editor_zip_code">Паштовы індэкс</string>

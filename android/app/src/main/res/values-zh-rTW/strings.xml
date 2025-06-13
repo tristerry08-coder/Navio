@@ -510,7 +510,6 @@
     <string name="download_over_mobile_header">用行動數據連線下載嗎？</string>
     <string name="download_over_mobile_message">如果您使用行動數據或漫遊來進行下載，將可能導致額外的費用。</string>
     <string name="error_enter_correct_house_number">輸入正確的門牌號碼</string>
-    <string name="editor_storey_number">樓層數量（最多 %d 層）</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">最多可編輯 %d 層的建築</string>
     <string name="editor_zip_code">郵遞區號</string>

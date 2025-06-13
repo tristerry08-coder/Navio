@@ -343,7 +343,6 @@
     <string name="downloader_of">%1$d ta\' %2$d</string>
     <string name="download_over_mobile_header">Niżżel fuq konnessjoni tan-netwerk ċellulari?</string>
     <string name="error_enter_correct_house_number">Daħħal numru tal-bini validu</string>
-    <string name="editor_storey_number">Numru ta’ sulari (massimu ta’ %d)</string>
     <string name="error_enter_correct_storey_number">In-numru ta’ sulari m’ għandux jaqbeż il-%d</string>
     <string name="editor_zip_code">Kodiċi ZIP</string>
     <string name="error_enter_correct_zip_code">Daħħal kodiċi ZIP validu</string>

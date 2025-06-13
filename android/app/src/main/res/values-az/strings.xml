@@ -499,7 +499,6 @@
     <string name="download_over_mobile_header">Mobil şəbəkə vasitəsilə endirilsin?</string>
     <string name="download_over_mobile_message">Bəzi planlarda və ya rouminqlə bu olduqca bahalı hesab oluna bilərr.</string>
     <string name="error_enter_correct_house_number">Etibarlı bina nömrəsini daxil edin</string>
-    <string name="editor_storey_number">Mərtəbə sayı (maks. %d)</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Mərtəbələrin sayı %d-dən çox olmamalıdır</string>
     <string name="editor_zip_code">Poçt kodu</string>

@@ -431,7 +431,6 @@
     <string name="editor_time_allday">Allan sólarhringinn (24 klst)</string>
     <string name="select_cuisine">Veldu matreiðsluhefð</string>
     <string name="error_enter_correct_house_number">Settu inn gilt númer byggingar</string>
-    <string name="editor_storey_number">Fjöldi hæða (hámark %d)</string>
     <string name="error_enter_correct_storey_number">Fjöldi hæða getur ekki verið meiri en %d</string>
     <string name="downloader_no_downloaded_maps_title">Þú hefur ekki sótt nein kort</string>
     <string name="current_location_unknown_error_title">Fyrirliggjandi staðsetning er óþekkt.</string>

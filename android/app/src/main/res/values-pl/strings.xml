@@ -499,7 +499,6 @@
     <string name="download_over_mobile_header">Czy pobrać, używając połączenia z siecią komórkową?</string>
     <string name="download_over_mobile_message">Może to być kosztowne przy niektórych planach taryfowych lub w roamingu.</string>
     <string name="error_enter_correct_house_number">Wprowadź poprawny numer domu</string>
-    <string name="editor_storey_number">Liczba kondygnacji (maks. %d)</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Liczba kondygnacji nie może przekraczać %d</string>
     <string name="editor_zip_code">Kod pocztowy</string>

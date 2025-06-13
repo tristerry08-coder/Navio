@@ -487,7 +487,6 @@
     <string name="download_over_mobile_header">Biztosan letölti mobilhálózati kapcsolaton keresztül?</string>
     <string name="download_over_mobile_message">Ez egyes díjcsomagok vagy roaming esetén jelentős költségekkel járhat.</string>
     <string name="error_enter_correct_house_number">Adjon meg egy érvényes házszámot</string>
-    <string name="editor_storey_number">Emeletek száma (legfeljebb: %d)</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Ez az épület legfeljebb %d emeletes lehet</string>
     <string name="editor_zip_code">Irányítószám</string>

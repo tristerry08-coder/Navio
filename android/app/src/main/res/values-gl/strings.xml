@@ -354,7 +354,6 @@
     <string name="download_over_mobile_header">Descargar con conexión de rede móbil?</string>
     <string name="download_over_mobile_message">Podería ser moi caro con certos plans ou con itinerancia de datos.</string>
     <string name="error_enter_correct_house_number">Introducir o número de domicilio correcto</string>
-    <string name="editor_storey_number">Número de plantas (máx. %d)</string>
     <string name="error_enter_correct_storey_number">O número de plantas non debe superar %d</string>
     <string name="error_enter_correct_zip_code">Introduza un código postal válido</string>
     <string name="editor_about_osm">As súas edicións cárganse na base de datos pública <a href="https://wiki.openstreetmap.org/wiki/About_OpenStreetMap">OpenStreetMap</a>. Por favor, non engada información persoal ou protexida por dereitos de autor.</string>

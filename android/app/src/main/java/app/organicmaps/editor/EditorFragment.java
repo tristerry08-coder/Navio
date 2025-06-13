@@ -431,8 +431,7 @@ public class EditorFragment extends BaseMwmFragment implements View.OnClickListe
 
     // Details
     View mBlockLevels = view.findViewById(R.id.block_levels);
-    mBuildingLevels = findInputAndInitBlock(mBlockLevels, R.drawable.ic_floor,
-        getString(R.string.editor_storey_number, Editor.nativeGetMaxEditableBuildingLevels()));
+    mBuildingLevels = findInputAndInitBlock(mBlockLevels, R.drawable.ic_floor, R.string.editor_building_levels);
     mBuildingLevels.setInputType(InputType.TYPE_CLASS_NUMBER);
     mInputBuildingLevels = mBlockLevels.findViewById(R.id.custom_input);
     View blockPhone = view.findViewById(R.id.block_phone);
