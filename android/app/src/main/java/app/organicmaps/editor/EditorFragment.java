@@ -189,6 +189,7 @@ public class EditorFragment extends BaseMwmFragment implements View.OnClickListe
     initMetadataEntry(Metadata.MetadataType.FMD_WEBSITE, R.string.error_enter_correct_web);
     initMetadataEntry(Metadata.MetadataType.FMD_WEBSITE_MENU, R.string.error_enter_correct_web);
     initMetadataEntry(Metadata.MetadataType.FMD_EMAIL, R.string.error_enter_correct_email);
+    initMetadataEntry(Metadata.MetadataType.FMD_LEVEL, R.string.error_enter_correct_level);
     initMetadataEntry(Metadata.MetadataType.FMD_CONTACT_FEDIVERSE, R.string.error_enter_correct_fediverse_page);
     initMetadataEntry(Metadata.MetadataType.FMD_CONTACT_FACEBOOK, R.string.error_enter_correct_facebook_page);
     initMetadataEntry(Metadata.MetadataType.FMD_CONTACT_INSTAGRAM, R.string.error_enter_correct_instagram_page);
@@ -445,6 +446,8 @@ public class EditorFragment extends BaseMwmFragment implements View.OnClickListe
             R.drawable.ic_website_menu, R.string.website_menu, InputType.TYPE_TEXT_VARIATION_URI);
     View emailBlock = initBlock(view, Metadata.MetadataType.FMD_EMAIL, R.id.block_email,
             R.drawable.ic_email, R.string.email, InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS);
+    View levelBlock = initBlock(view, Metadata.MetadataType.FMD_LEVEL, R.id.block_level,
+            R.drawable.ic_level_white, R.string.editor_level, InputType.TYPE_CLASS_NUMBER);
     View fediverseContactBlock = initBlock(view, Metadata.MetadataType.FMD_CONTACT_FEDIVERSE, R.id.block_fediverse,
             R.drawable.ic_mastodon_white, R.string.mastodon, InputType.TYPE_TEXT_VARIATION_URI);
     View facebookContactBlock = initBlock(view, Metadata.MetadataType.FMD_CONTACT_FACEBOOK, R.id.block_facebook,
@@ -502,6 +505,7 @@ public class EditorFragment extends BaseMwmFragment implements View.OnClickListe
     mDetailsBlocks.put(Metadata.MetadataType.FMD_WEBSITE, websiteBlock);
     mDetailsBlocks.put(Metadata.MetadataType.FMD_WEBSITE_MENU, websiteMenuBlock);
     mDetailsBlocks.put(Metadata.MetadataType.FMD_EMAIL, emailBlock);
+    mDetailsBlocks.put(Metadata.MetadataType.FMD_LEVEL, levelBlock);
     mDetailsBlocks.put(Metadata.MetadataType.FMD_OPERATOR, operatorBlock);
 
     mSocialMediaBlocks.put(Metadata.MetadataType.FMD_CONTACT_FEDIVERSE, fediverseContactBlock);

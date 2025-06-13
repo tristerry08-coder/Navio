@@ -601,6 +601,8 @@
     <string name="error_enter_correct_phone">Enter a valid phone number</string>
     <string name="error_enter_correct_web">Enter a valid web address</string>
     <string name="error_enter_correct_email">Enter a valid email</string>
+    <string name="editor_level">Floor (0 is ground floor)</string>
+    <string name="error_enter_correct_level">Enter a valid floor number</string>
     <string name="error_enter_correct_facebook_page">Enter a valid Facebook web address, account, or page name</string>
     <string name="error_enter_correct_instagram_page">Enter a valid Instagram username or web address</string>
     <string name="error_enter_correct_twitter_page">Enter a valid Twitter username or web address</string>
