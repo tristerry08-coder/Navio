@@ -9,7 +9,7 @@ Thank you for your interest in contributing to CoMaps!
 
 There are things to do for everyone:
 - [For translators](#translations)
-- [For UI/UX and graphic designers](#uiux-map-styling-and-icons)
+- [For UI/UX and graphic designers](#ui-ux-map-styling-and-icons)
 - [For developers](#code-contributions)
 - [Day-to-day activities](#day-to-day-activities) like user support, testing, issue management, community relations, etc.
 - [Submitting your work](#submitting-your-changes)
