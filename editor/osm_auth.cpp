@@ -80,9 +80,9 @@ bool OsmOAuth::IsValid(string const & ks)
   return !ks.empty();
 }
 
-OsmOAuth::OsmOAuth(string const & oauth2ClientId, string const & oauth2Secret, string const & oauth2Scope,
+OsmOAuth::OsmOAuth(string const & oauth2ClientId, string const & oauth2Scope,
                    string const & oauth2RedirectUri, string baseUrl, string apiUrl)
-  : m_oauth2params{oauth2ClientId, oauth2Secret, oauth2Scope, oauth2RedirectUri},
+  : m_oauth2params{oauth2ClientId, oauth2Scope, oauth2RedirectUri},
     m_baseUrl(std::move(baseUrl)), m_apiUrl(std::move(apiUrl))
 {
 }
@@ -108,18 +108,17 @@ OsmOAuth OsmOAuth::DevServerAuth()
   constexpr char const * kOsmDevServer = "https://master.apis.dev.openstreetmap.org";
   // CoMaps keys for OSM dev server
   constexpr char const * kOsmDevClientId = "Tj8yyx3FWy_N5wz6sUTAXTM6YBAiwVgM7sRLrLix2u8";
-  constexpr char const * kOsmDevClientSecret = "TdEQaoAQkcu_E2HWfr0RDaG5hMDk3gThO1RvWQtQc8o";
   constexpr char const * kOsmDevScope = "read_prefs write_api write_notes";
   constexpr char const * kOsmDevRedirectUri = "cm://oauth2/osm/callback";
 
-  return {kOsmDevClientId, kOsmDevClientSecret, kOsmDevScope, kOsmDevRedirectUri, kOsmDevServer, kOsmDevServer};
+  return {kOsmDevClientId, kOsmDevScope, kOsmDevRedirectUri, kOsmDevServer, kOsmDevServer};
 }
 // static
 OsmOAuth OsmOAuth::ProductionServerAuth()
 {
   constexpr char const * kOsmMainSiteURL = "https://www.openstreetmap.org";
   constexpr char const * kOsmApiURL = "https://api.openstreetmap.org";
-  return {OSM_OAUTH2_CLIENT_ID, OSM_OAUTH2_CLIENT_SECRET, OSM_OAUTH2_SCOPE, OSM_OAUTH2_REDIRECT_URI, kOsmMainSiteURL, kOsmApiURL};
+  return {OSM_OAUTH2_CLIENT_ID, OSM_OAUTH2_SCOPE, OSM_OAUTH2_REDIRECT_URI, kOsmMainSiteURL, kOsmApiURL};
 }
 
 void OsmOAuth::SetAuthToken(string const & oauthToken) { m_oauth2token = oauthToken; }
@@ -289,12 +288,10 @@ string OsmOAuth::BuildOAuth2Url() const
 
 string OsmOAuth::FinishAuthorization(string const & oauth2code) const
 {
-  /// @todo(pastk): remove client_secret everywhere, its not required for auth through non-confidential apps
   auto params = BuildPostRequest({
       {"grant_type", "authorization_code"},
       {"code", oauth2code},
       {"client_id", m_oauth2params.m_clientId},
-      //{"client_secret", m_oauth2params.m_clientSecret},
       {"redirect_uri", m_oauth2params.m_redirectUri},
       {"scope", m_oauth2params.m_scope},
   });

@@ -10,7 +10,6 @@ namespace osm
 struct Oauth2Params
 {
   std::string m_clientId;
-  std::string m_clientSecret;
   std::string m_scope;
   std::string m_redirectUri;
 };
@@ -60,7 +59,7 @@ public:
   static bool IsValid(std::string const & ks);
 
   /// The constructor. Simply stores a lot of strings in fields.
-  OsmOAuth(std::string const & oauth2ClientId, std::string const & oauth2Secret, std::string const & oauth2Scope,
+  OsmOAuth(std::string const & oauth2ClientId, std::string const & oauth2Scope,
            std::string const & oauth2RedirectUri, std::string baseUrl, std::string apiUrl);
 
   /// Should be used everywhere in production code instead of servers below.
@@ -96,7 +95,6 @@ public:
   // Getters
   std::string GetBaseUrl() const { return m_baseUrl; }
   std::string GetClientId() const { return m_oauth2params.m_clientId; }
-  std::string GetClientSecret() const { return m_oauth2params.m_clientSecret; }
   std::string GetScope() const { return m_oauth2params.m_scope; }
   std::string GetRedirectUri() const { return m_oauth2params.m_redirectUri; }
 
