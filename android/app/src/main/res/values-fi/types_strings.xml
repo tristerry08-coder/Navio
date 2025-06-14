@@ -1338,4 +1338,18 @@
     <string name="type.hwtag.yesbicycle">hwtag-yesbicycle</string>
     <string name="type.leisure.firepit">Tulentekopaikka</string>
     <string name="type.leisure">Leisure</string>
+    <string name="type.internet_access">Internet</string>
+    <string name="type.landuse.vineyard">Viinitarha</string>
+    <string name="type.landuse.village_green">Maa</string>
+    <string name="type.leisure.beach_resort">Rantalomakohde</string>
+    <string name="type.man_made.cairn">Kiviröykkiö</string>
+    <string name="type.man_made.cutline">Hakkuulinja</string>
+    <string name="type.man_made.pipeline">Putki</string>
+    <string name="type.man_made.pipeline.overground">Maanpäällinen putki</string>
+    <string name="type.man_made.storage_tank">Varastosäiliö</string>
+    <string name="type.man_made.breakwater">Aallonmurtaja</string>
+    <string name="type.leisure.recreation_ground">Virkistysalue</string>
+    <string name="type.internet_access.wlan">Internet</string>
+    <string name="type.man_made">Man Made</string>
+    <string name="type.fee.yes">$</string>
 </resources>

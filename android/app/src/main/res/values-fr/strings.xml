@@ -895,6 +895,6 @@
     <string name="error_enter_correct_bluesky_page">Entrez un nom d\'utilisateur ou une adresse web Bluesky correct</string>
     <string name="error_enter_correct_fediverse_page">Entrez un nom d\'utilisateur ou une adresse web Mastodon correct</string>
     <string name="saved">Enregistré</string>
-    <string name="pref_left_button_title">Configuration du bouton en bas à gauche</string>
+    <string name="pref_left_button_title">Configuration du bouton de gauche</string>
     <string name="pref_left_button_disable">Désactiver</string>
 </resources>

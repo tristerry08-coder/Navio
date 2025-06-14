@@ -884,4 +884,6 @@
     <string name="instagram_url">https://www.instagram.com/comapscommunity/</string>
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="saved">Salvato</string>
+    <string name="pref_left_button_title">Configurazione del bottone di sinistra</string>
+    <string name="pref_left_button_disable">Disattiva</string>
 </resources>
