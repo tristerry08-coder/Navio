@@ -705,6 +705,7 @@
     <string name="type.man_made.petroleum_well">Oil or Gas Well</string>
     <!-- A tower/mast constructed to burn off excess gas. -->
     <string name="type.man_made.flare">Gas Flare</string>
+    <string name="type.man_made.crane">Crane</string>
     <string name="type.man_made.wastewater_plant">Wastewater Treatment Plant</string>
     <string name="type.man_made.water_tap">Water Tap</string>
     <string name="type.man_made.water_tap.drinking_water_no">Water Tap</string>

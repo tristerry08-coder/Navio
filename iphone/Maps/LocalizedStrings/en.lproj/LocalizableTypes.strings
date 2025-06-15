@@ -787,6 +787,7 @@
 
 /* A tower/mast constructed to burn off excess gas. */
 "type.man_made.flare" = "Gas Flare";
+"type.man_made.crane" = "Crane";
 "type.man_made.wastewater_plant" = "Wastewater Treatment Plant";
 "type.man_made.water_tap" = "Water Tap";
 "type.man_made.water_tap.drinking_water_no" = "Water Tap";
