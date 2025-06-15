@@ -1352,9 +1352,6 @@ area|z17-[sport=cricket]
 node|z17-[sport=curling],
 area|z17-[sport=curling]
 {icon-image: curling-m.svg;}
-node|z17-[sport=diving],
-area|z17-[sport=diving]
-{icon-image: diving-m.svg;}
 node|z17-[sport=scuba_diving],
 area|z17-[sport=scuba_diving]
 {icon-image: diving-m.svg;}
