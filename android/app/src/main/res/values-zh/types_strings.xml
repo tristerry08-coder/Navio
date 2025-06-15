@@ -1402,4 +1402,5 @@
     <string name="type.highway.ladder">梯子</string>
     <string name="type.amenity.studio">演播厅</string>
     <string name="type.leisure.firepit">火坑</string>
+    <string name="type.man_made.crane">起重机</string>
 </resources>

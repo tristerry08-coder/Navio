@@ -890,4 +890,7 @@
     <string name="pref_left_button_title">Vasemman painikkeen asettelu</string>
     <string name="pref_left_button_disable">Poista käytöstä</string>
     <string name="saved">Tallennettu</string>
+    <string name="error_enter_correct_level">Syötä kerrosnumero</string>
+    <string name="editor_building_levels">Kerrokset (sis. pohjakerroksen, jätä pois katto)</string>
+    <string name="editor_level">Kerros (0 on pohjakerros)</string>
 </resources>

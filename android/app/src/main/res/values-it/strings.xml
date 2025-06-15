@@ -885,4 +885,7 @@
     <string name="saved">Salvato</string>
     <string name="pref_left_button_title">Configurazione del bottone di sinistra</string>
     <string name="pref_left_button_disable">Disattiva</string>
+    <string name="editor_building_levels">Piani (contando il piano terra, senza contare il tetto)</string>
+    <string name="editor_level">Piano (0 è il piano terra)</string>
+    <string name="error_enter_correct_level">Entra un numero di piano valido</string>
 </resources>

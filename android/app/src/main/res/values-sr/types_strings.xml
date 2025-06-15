@@ -1401,4 +1401,5 @@
     <string name="type.barrier.guard_rail">Заштитна ограда</string>
     <string name="type.amenity.studio">Студио</string>
     <string name="type.highway.ladder">Merdevine</string>
+    <string name="type.man_made.crane">Кран</string>
 </resources>

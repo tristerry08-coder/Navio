@@ -887,4 +887,7 @@
     <string name="pref_left_button_title">Подешавање левог дугмета</string>
     <string name="pref_left_button_disable">Onemogući</string>
     <string name="saved">Сачувано</string>
+    <string name="editor_building_levels">Spratovi (укљ. приземље, искључујући кров)</string>
+    <string name="error_enter_correct_level">Унесите важећи спрат</string>
+    <string name="editor_level">Спрат (0 је приземље)</string>
 </resources>

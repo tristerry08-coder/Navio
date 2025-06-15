@@ -1491,3 +1491,4 @@
 "type.barrier.guard_rail" = "Madal maanteepiire";
 "type.leisure.firepit" = "Tulease";
 "type.sport.diving" = "Sukeldumine";
+"type.man_made.crane" = "Kraana";

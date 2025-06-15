@@ -896,4 +896,7 @@
     <string name="saved">Enregistré</string>
     <string name="pref_left_button_title">Configuration du bouton de gauche</string>
     <string name="pref_left_button_disable">Désactiver</string>
+    <string name="editor_building_levels">Étages (y compris le rez-de-chaussée, sans compter le toit)</string>
+    <string name="editor_level">Étage (0 est le rez-de-chaussée)</string>
+    <string name="error_enter_correct_level">Entrez un numéro d\'étage valide</string>
 </resources>
