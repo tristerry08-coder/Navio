@@ -53311,6 +53311,71 @@ cont {
   }
 }
 cont {
+  name: "man_made-crane"
+  element {
+    scale: 16
+    symbol {
+      name: "crane-m"
+      priority: 850
+    }
+  }
+  element {
+    scale: 17
+    symbol {
+      name: "crane-m"
+      priority: 850
+    }
+  }
+  element {
+    scale: 18
+    symbol {
+      name: "crane-m"
+      priority: 850
+    }
+    caption {
+      primary {
+        height: 11
+        color: 4473924
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -9150
+    }
+  }
+  element {
+    scale: 19
+    symbol {
+      name: "crane-m"
+      priority: 850
+    }
+    caption {
+      primary {
+        height: 11
+        color: 4473924
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -9150
+    }
+  }
+  element {
+    scale: 20
+    symbol {
+      name: "crane-m"
+      priority: 850
+    }
+    caption {
+      primary {
+        height: 11
+        color: 4473924
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -9150
+    }
+  }
+}
+cont {
   name: "man_made-cross"
   element {
     scale: 16
