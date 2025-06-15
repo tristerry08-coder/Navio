@@ -89,6 +89,15 @@
 		<true/>
 		<key>NSExceptionDomains</key>
 		<dict>
+			<key>comaps.at</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+				<false/>
+			</dict>
 			<key>comaps.app</key>
 			<dict>
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
