@@ -121659,7 +121659,7 @@ cont {
   element {
     scale: 17
     symbol {
-      name: "diving-m"
+      name: "pitch-m"
       priority: 1350
       min_distance: 10
     }
@@ -121676,7 +121676,7 @@ cont {
   element {
     scale: 18
     symbol {
-      name: "diving-m"
+      name: "pitch-m"
       priority: 1350
       min_distance: 10
     }
@@ -121693,7 +121693,7 @@ cont {
   element {
     scale: 19
     symbol {
-      name: "diving-m"
+      name: "pitch-m"
       priority: 1350
       min_distance: 10
     }
@@ -121710,7 +121710,7 @@ cont {
   element {
     scale: 20
     symbol {
-      name: "diving-m"
+      name: "pitch-m"
       priority: 1350
       min_distance: 10
     }
