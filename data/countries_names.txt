@@ -1263,14 +1263,14 @@
   zh-Hant = 下奧地利州 - 西部
 
 [Austria_Lower Austria_Wien]
-  en = Vienna
+  en = Vienna + Lower Austria — East
   ar = فيينا
   az = Vyana
   be = Вена
   ca = Viena
   cs = Vídeň
   da = Wien
-  de = Wien
+  de = Wien + Östliches Niederösterreich
   el = Βιέννη
   es = Viena
   et = Viin
@@ -47760,17 +47760,17 @@
   uk = Клагенфурт
 
 [Austria_Lower Austria_West Description]
-  en = St. Pölten
+  en = Most- und Waldviertel
   el = Σαιντ Πόλτεν
   hu = Sankt Pölten
   ru = Санкт-Пёльтен
 
 [Austria_Lower Austria_Wien Description]
-  en = Vienna, Wiener Neustadt
+  en = Vienna, Wein- und Industrieviertel from Lower Austria
   ar = فيينا
   az = Vyana
   cs = Vídeň, Vídeňské Nové Město
-  de = Wien, Wiener Neustadt
+  de = Wien, Wein- und Industrieviertel von Niederösterreich
   el = Βιέννη, Βιένερ Νόισταντ
   es = Viena
   et = Viin, Wiener Neustadt
