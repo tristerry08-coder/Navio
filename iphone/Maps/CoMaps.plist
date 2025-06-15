@@ -130,10 +130,6 @@
 			<string>ANY</string>
 		</dict>
 	</dict>
-	<key>UIAppFonts</key>
-	<array>
-		<string>FredokaOne-Regular.ttf</string>
-	</array>
 	<key>UIApplicationShortcutItems</key>
 	<array>
 		<dict>
