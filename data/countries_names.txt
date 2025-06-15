@@ -1270,7 +1270,7 @@
   ca = Viena
   cs = Vídeň
   da = Wien
-  de = Wien + Östliches Niederösterreich
+  de = Wien + Niederösterreich — Ost
   el = Βιέννη
   es = Viena
   et = Viin
@@ -47760,17 +47760,17 @@
   uk = Клагенфурт
 
 [Austria_Lower Austria_West Description]
-  en = Most- und Waldviertel
+  en = Mostviertel und Waldviertel
   el = Σαιντ Πόλτεν
   hu = Sankt Pölten
   ru = Санкт-Пёльтен
 
 [Austria_Lower Austria_Wien Description]
-  en = Vienna, Wein- und Industrieviertel from Lower Austria
+  en = Vienna, Lower Austria (Industrieviertel and Weinviertel)
   ar = فيينا
   az = Vyana
   cs = Vídeň, Vídeňské Nové Město
-  de = Wien, Wein- und Industrieviertel von Niederösterreich
+  de = Wien, Nierderösterreich (Industrieviertel und Weinviertel)
   el = Βιέννη, Βιένερ Νόισταντ
   es = Viena
   et = Viin, Wiener Neustadt
