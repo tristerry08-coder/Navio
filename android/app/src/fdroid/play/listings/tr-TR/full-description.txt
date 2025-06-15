@@ -1,1 +1,2 @@
-Gönüllüler tarafından yürütülen, OpenStreetMap harita verisini kullanan, şeffaf, mahremiyete saygılı, kamu yararına olma kararlılığıyla güçlendirilmiş bir özgür yazılım.
+Gönüllüler tarafından yürütülen, OpenStreetMap harita verisini kullanan, şeffaf, mahremiyete saygılı, kamu yararına olma kararlılığıyla güçlendirilmiş bir özgür yazılım. CoMaps OrganicMaps isimli, esasen Maps.ME'nin çatalı olan bir özgür yazılımın çatalıdır.
+Projenin ortaya çıkma sebebini ve gidişatını <b><i>codeberg.org/comaps</i></b>'den okuyabilirsiniz.

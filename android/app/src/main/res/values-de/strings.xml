@@ -890,4 +890,7 @@
     <string name="pref_left_button_title">Einstellung linker Knopf</string>
     <string name="saved">Gespeichert</string>
     <string name="pref_left_button_disable">Deaktivieren</string>
+    <string name="editor_building_levels">Etagen (inkl. Erdgeschoss, ohne Dach)</string>
+    <string name="error_enter_correct_level">Geben Sie eine gültige Etagen Nummer ein</string>
+    <string name="editor_level">Etage (0 ist Erdgeschoss)</string>
 </resources>
