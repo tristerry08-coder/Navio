@@ -54,11 +54,13 @@
     <item name="android:fontFamily">@string/robotoMedium</item>
     <item name="android:textAllCaps">true</item>
     <item name="android:letterSpacing">0.04</item>
+    <item name="backgroundTint">@null</item>
   </style>
 
   <style name="MwmWidget.Button.Accent">
     <item name="android:background">?accentButtonBackground</item>
     <item name="android:textColor">?accentButtonTextColor</item>
+    <item name="backgroundTint">@null</item>
   </style>
 
   <style name="MwmWidget.Button.StackedButtonsDialog">
@@ -100,6 +102,7 @@
     <item name="android:paddingEnd">@dimen/margin_base</item>
     <item name="textAllCaps">true</item>
     <item name="android:gravity">center</item>
+    <item name="backgroundTint">@null</item>
   </style>
 
   <style name="MwmWidget.ProgressWheel.RoutingPlan">
