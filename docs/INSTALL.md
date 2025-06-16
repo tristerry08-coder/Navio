@@ -34,7 +34,7 @@ cd comaps
 
 Install required packages (Ubuntu/Debian):
 ```bash
-sudo apt install build-essential cmake qt6-base-dev qt6-svg-dev qt6-positioning-dev libicu-dev libfreetype-dev libharfbuzz-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev optipng
+sudo apt install build-essential cmake qt6-base-dev qt6-svg-dev qt6-positioning-dev libicu-dev libfreetype-dev libharfbuzz-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev optipng python3-protobuf
 ```
 
 If you plan to publish the app privately in stores check [special options](#special-cases-options).
@@ -82,6 +82,7 @@ xcode-select --install
 #### Homebrew packages
 ```bash
 brew install wget optipng cmake qt
+pip3 install "protobuf<3.21"
 ```
 
 #### Clone the repository

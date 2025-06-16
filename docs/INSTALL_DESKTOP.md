@@ -41,6 +41,7 @@ sudo apt update && sudo apt install -y \
     libxinerama-dev \
     libxcursor-dev \
     libxi-dev \
+    python3-protobuf \
     zlib1g-dev
 ```
 
@@ -79,6 +80,7 @@ sudo dnf install -y \
     qt6-qtpositioning \
     qt6-qtpositioning-devel \
     qt6-qtsvg-devel \
+    python3-protobuf \
     sqlite-devel
 ```
 
@@ -96,6 +98,7 @@ sudo apk add \
     qt6-qtpositioning-dev \
     qt6-qtsvg-dev \
     samurai \
+    py3-protobuf \
     sqlite-dev
 ```
 
@@ -103,6 +106,7 @@ sudo apk add \
 
 ```bash
 brew install cmake ninja qt@6
+pip3 install "protobuf<3.21"
 ```
 
 ### Windows

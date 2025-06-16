@@ -5,10 +5,11 @@
 
 SKIP_MAP_DOWNLOAD=$SKIP_MAP_DOWNLOAD
 SKIP_GENERATE_SYMBOLS=$SKIP_GENERATE_SYMBOLS
+SKIP_GENERATE_DRULES=$SKIP_GENERATE_DRULES
 
 ############################# PROCESS OPTIONS ################################
 
-TEMP=$(getopt -o ms --long skip-map-download,skip-generate-symbols \
+TEMP=$(getopt -o ms --long skip-map-download,skip-generate-symbols,skip-generate-drules \
               -n 'configure' -- "$@")
 
 if [ $? != 0 ] ; then echo "Terminating..." >&2 ; exit 1 ; fi
@@ -19,6 +20,7 @@ while true; do
   case "$1" in
     -m | --skip-map-download ) SKIP_MAP_DOWNLOAD=1; shift ;;
     -s | --skip-generate-symbols ) SKIP_GENERATE_SYMBOLS=1; shift ;;
+    -d | --skip-generate-drules ) SKIP_GENERATE_DRULES=1; shift ;;
     * ) break ;;
   esac
 done
@@ -87,3 +89,14 @@ if [ -z "$SKIP_GENERATE_SYMBOLS" ]; then
 else
   echo "Skipping generate symbols..."
 fi
+
+if [ -z "$SKIP_GENERATE_DRULES" ]; then
+  if Diff data/drules_hash data/styles/*/*/*.mapcss data/styles/*/*/*.prio.txt data/mapcss-mapping.csv; then
+    echo "Generating drules..."
+    bash ./tools/unix/generate_drules.sh
+  fi
+else
+  echo "Skipping generate drules..."
+fi
+
+echo "The repository is configured for development."

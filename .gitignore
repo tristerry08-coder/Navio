@@ -19,7 +19,6 @@ data/resources-*_design/*
 # symbols png/sdf are now generated at build
 data/resources-*_*/symbols.png
 data/resources-*_*/symbols.sdf
-data/drules_proto_default_design.bin
 data/colors_design.txt
 data/patterns_design.txt
 data/bookmarks
@@ -28,6 +27,12 @@ data/World.mwm
 data/WorldCoasts.mwm
 data/world_mwm/*
 data/*_hash
+data/drules_proto*
+data/classificator.txt
+data/types.txt
+data/visibility.txt
+data/colors.txt
+data/patterns.txt
 
 # Compiled Python
 *.pyc
