@@ -1392,11 +1392,12 @@
     <string name="type.boundary.administrative.3">Regionale Grenze</string>
     <string name="type.power.pole">Strommast</string>
     <string name="type.man_made.pipeline.overground">Oberirdische Rohrleitung</string>
-    <string name="type.sport.diving">Tauchen</string>
+    <string name="type.sport.diving">Turmspringen</string>
     <string name="type.amenity.love_hotel">Stundenhotel</string>
     <string name="type.landuse.plant_nursery">Gartenbau</string>
     <string name="type.leisure.firepit">Feuerstelle</string>
     <string name="type.barrier.guard_rail">Leitplanke</string>
     <string name="type.highway.ladder">Leiter</string>
     <string name="type.amenity.studio">Studio</string>
+    <string name="type.man_made.crane">Kran</string>
 </resources>

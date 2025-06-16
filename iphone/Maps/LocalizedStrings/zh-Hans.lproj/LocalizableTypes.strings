@@ -1490,5 +1490,5 @@
 "type.barrier.guard_rail" = "交通护栏";
 "type.highway.ladder" = "梯子";
 "type.amenity.studio" = "演播厅";
-"type.sport.diving" = "跳水";
+"type.sport.diving" = "高台跳水";
 "type.man_made.crane" = "起重机";

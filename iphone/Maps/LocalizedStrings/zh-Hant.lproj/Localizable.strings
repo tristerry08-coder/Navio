@@ -301,7 +301,7 @@
 "follow_us" = "追蹤並聯絡我們：";
 
 /* Alert text */
-"email_error_body" = "電子郵件客戶端未設定。請配置電子郵件客戶端或通過 %@ 聯絡我們。";
+"email_error_body" = "電子郵件客戶端未設定。請配置電子郵件客戶端或通過 %@ 聯絡我們";
 
 /* Alert title */
 "email_error_title" = "電子郵件發送失敗";
@@ -516,7 +516,7 @@
 "invalid_username_or_password" = "無效的使用者名稱或密碼。";
 "login" = "登入";
 "login_osm" = "登錄 OpenStreetMap";
-"forgot_password" = "忘記密碼";
+"forgot_password" = "忘記密碼？";
 "osm_account" = "OSM 帳號";
 "logout" = "登出";
 
@@ -568,7 +568,7 @@
 "message_invalid_feature_position" = "地點無法放置在這裡";
 
 /* Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. */
-"osm_presentation" = "截至 %@ 的社群創建的 OpenStreetMap 資料。請訪問 OpenStreetMap.org 以了解有關如何編輯和更新地圖的更多資訊。";
+"osm_presentation" = "截至 %@ 的社群創建的 OpenStreetMap 資料。請訪問 OpenStreetMap.org 以了解有關如何編輯和更新地圖的更多資訊";
 "login_to_make_edits_visible" = "建立 OpenStreetMap 帳戶或登入以向全世界發布您的地圖編輯。";
 
 /* Error dialog no space */

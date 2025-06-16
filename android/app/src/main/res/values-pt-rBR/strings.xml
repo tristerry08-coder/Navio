@@ -866,4 +866,7 @@
     <string name="prefs_languages_information_off">Para alguns idiomas, você precisará instalar um sintetizador de voz ou um pacote de idiomas adicional da loja de aplicativos (Google Play, Galaxy Store, App Gallery, FDroid).\nAbra as configurações do seu dispositivo → Idioma e entrada → Fala → Saída de texto para fala.\nAqui, você pode gerenciar as configurações de síntese de voz (por exemplo, baixar o pacote de idiomas para uso offline) e selecionar outro mecanismo de conversão de texto para fala.</string>
     <string name="codeberg">Codeberg</string>
     <string name="instagram_url">https://www.instagram.com/comapscommunity/</string>
+    <string name="editor_building_levels">Andares (incl. térreo, excl. sótão)</string>
+    <string name="error_enter_correct_level">Digite um número de andares válido</string>
+    <string name="editor_level">Andar (0 é o térreo)</string>
 </resources>

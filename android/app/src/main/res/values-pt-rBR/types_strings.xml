@@ -1206,8 +1206,9 @@
     <string name="type.amenity.love_hotel">Motel</string>
     <string name="type.leisure.firepit">Fogueira</string>
     <string name="type.landuse.plant_nursery">Viveiro de plantas</string>
-    <string name="type.sport.diving">Mergulho</string>
+    <string name="type.sport.diving">Mergulho em altura</string>
     <string name="type.amenity.studio">Estúdio de gravação</string>
     <string name="type.barrier.guard_rail">Guarda-corpo</string>
     <string name="type.highway.ladder">Escada</string>
+    <string name="type.man_made.crane">Guindaste</string>
 </resources>

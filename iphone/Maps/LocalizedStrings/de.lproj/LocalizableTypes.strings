@@ -1490,4 +1490,5 @@
 "type.landuse.plant_nursery" = "Gartenbau";
 "type.leisure.firepit" = "Feuerstelle";
 "type.amenity.studio" = "Studio";
-"type.sport.diving" = "Tauchen";
+"type.sport.diving" = "Turmspringen";
+"type.man_made.crane" = "Kran";

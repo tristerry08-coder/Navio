@@ -1395,7 +1395,7 @@
     <string name="type.man_made.utility_pole">公共设施杆</string>
     <string name="type.route.shuttle_train">穿梭列车</string>
     <string name="type.attraction.bumper_car">碰碰车</string>
-    <string name="type.sport.diving">跳水</string>
+    <string name="type.sport.diving">高台跳水</string>
     <string name="type.landuse.plant_nursery">苗圃</string>
     <string name="type.amenity.love_hotel">情侣酒店</string>
     <string name="type.barrier.guard_rail">交通护栏</string>

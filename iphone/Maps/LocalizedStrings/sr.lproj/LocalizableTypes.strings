@@ -1488,7 +1488,7 @@
 "type.leisure.firepit" = "Ognjište";
 "type.highway.ladder" = "Merdevine";
 "type.landuse.plant_nursery" = "Расадник";
-"type.sport.diving" = "Роњење";
+"type.sport.diving" = "Слободни скокови";
 "type.amenity.studio" = "Студио";
 "type.barrier.guard_rail" = "Заштитна ограда";
 "type.man_made.crane" = "Кран";

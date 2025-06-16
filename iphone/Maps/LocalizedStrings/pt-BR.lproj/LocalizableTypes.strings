@@ -1486,8 +1486,9 @@
 "type.leisure.sports_hall" = "Salão de esportes";
 "type.amenity.love_hotel" = "Motel";
 "type.barrier.guard_rail" = "Guarda-corpo";
-"type.sport.diving" = "Mergulho";
+"type.sport.diving" = "Mergulho em altura";
 "type.highway.ladder" = "Escada";
 "type.landuse.plant_nursery" = "Viveiro de plantas";
 "type.amenity.studio" = "Estúdio de gravação";
 "type.leisure.firepit" = "Fogueira";
+"type.man_made.crane" = "Guindaste";
