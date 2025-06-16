@@ -502,7 +502,7 @@
 "day_off_today" = "今天不營業";
 "day_off" = "不營業";
 "today" = "今天";
-"opens_tomorrow_at" = "Opens tomorrow at %@";
+"opens_tomorrow_at" = "明天 %@ 營業";
 "opens_dayoftheweek_at" = "Opens %1$@ at %2$@";
 "opens_at" = "Opens at %@";
 "opens_in" = "將於 %@ 後開業";
