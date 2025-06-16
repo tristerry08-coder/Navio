@@ -145,7 +145,7 @@ void SaveStyle(Writer & writer, std::string const & style,
   writer << indent << kIndent2 << "<Style id=\"" << style << "\">\n"
          << indent << kIndent4 << "<IconStyle>\n"
          << indent << kIndent6 << "<Icon>\n"
-         << indent << kIndent8 << "<href>https://comaps.app/placemarks/" << style << ".png</href>\n"
+         << indent << kIndent8 << "<href>https://comaps.at/placemarks/" << style << ".png</href>\n"
          << indent << kIndent6 << "</Icon>\n"
          << indent << kIndent4 << "</IconStyle>\n"
          << indent << kIndent2 << "</Style>\n";
