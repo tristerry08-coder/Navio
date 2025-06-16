@@ -6,6 +6,8 @@
 #include "indexer/feature_visibility.hpp"
 #include "indexer/scales.hpp"
 
+#include "base/string_utils.hpp"
+
 #include <algorithm>
 #include <limits>
 
@@ -72,10 +74,10 @@ void CaptionDescription::Init(FeatureType & f, int8_t deviceLang, int zoomLevel,
     return;
   }
 
-  // Set max text size to avoid VB/IB overflow in rendering.
-  size_t constexpr kMaxTextSize = 200;
-  if (m_mainText.size() > kMaxTextSize)
-    m_mainText = m_mainText.substr(0, kMaxTextSize) + "...";
+  // Set max text length to avoid VB/IB overflow in rendering.
+  size_t constexpr kMaxTextLength = 65; 
+  if (strings::Truncate(&m_mainText, kMaxTextLength))
+    m_mainText += "…";
 
   // TODO(pastk) : its better to determine housenumbers minZoom once upon drules load and cache it,
   // but it'd mean a lot of housenumbers-specific logic in otherwise generic RulesHolder..

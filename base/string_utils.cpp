@@ -5,6 +5,7 @@
 
 #include <algorithm>
 #include <cmath>
+#include <cstddef>
 #include <iomanip>
 #include <iterator>
 
@@ -267,6 +268,48 @@ void Trim(std::string_view & s, std::string_view anyOf)
 void Trim(std::string & s, std::string_view anyOf)
 {
   boost::trim_if(s, boost::is_any_of(anyOf));
+}
+
+bool Truncate(std::string & utf8, size_t const maxTextLengthPlus1)
+{
+  size_t codePoints = 0;
+
+  for (size_t i = 0; i < utf8.length(); ++i)
+  {
+    if ((utf8[i] & 0xC0) != 0x80)
+    {
+      ++codePoints;
+
+      if (codePoints == maxTextLengthPlus1)
+      {
+        --i;
+
+        unsigned char byte = utf8[i];
+        uint8_t bytesInCodepoint = 1;
+
+        if ((byte & 0x80) == 0x00)
+        {
+          bytesInCodepoint = 1;
+        }
+        else if ((byte & 0xE0) == 0xC0)
+        {
+          bytesInCodepoint = 2;
+        }
+        else if ((byte & 0xF0) == 0xE0)
+        {
+          bytesInCodepoint = 3;
+        }
+        else if ((byte & 0xF8) == 0xF0)
+        {
+          bytesInCodepoint = 4;
+        }
+
+        utf8.resize(i + bytesInCodepoint);
+        return true;
+      }
+    }
+  }
+  return false;
 }
 
 bool ReplaceFirst(std::string & str, std::string const & from, std::string const & to)

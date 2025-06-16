@@ -114,6 +114,8 @@ void Trim(std::string_view & sv);
 void Trim(std::string_view & s, std::string_view anyOf);
 void Trim(std::string & s, std::string_view anyOf);
 
+bool Truncate(std::string & utf8, size_t const maxTextLengthPlus1);
+
 // Replace the first match of the search substring in the input with the format string.
 // str - An input string
 // from - A substring to be searched for
