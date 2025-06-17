@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>app.organicmaps.desktop</id>
+  <id>app.comaps.desktop</id>
 
-  <name>Organic Maps</name>
-  <developer id="app.organicmaps">
-    <name>The Organic Maps Community</name>
+  <name>CoMaps</name>
+  <developer id="app.comaps">
+    <name>The CoMaps Community</name>
   </developer>
   <summary>Free offline maps for everyone</summary>
 
@@ -21,95 +21,44 @@
 
   <description>
     <p>
-      Organic Maps is a free Android &amp; iOS offline maps app for travelers,
+      CoMaps is a free Android &amp; iOS offline maps app for travelers,
       tourists, hikers, drivers and cyclists.
-      It uses crowd-sourced OpenStreetMap data and is developed with love by
-      <em>MapsWithMe</em> (<em>MapsMe</em>) founders and our community.
-      No ads, no tracking, no data collection, no crapware.
-      Your donations and positive reviews motivate and inspire us, thanks ❤️!
+      It uses crowd-sourced OpenStreetMap data.
     </p>
     <p>## Features</p>
     <p>
-      The Linux version of Organic Maps has not reached feature parity
+      The Linux version of CoMaps has not reached feature parity
       with the Android and iPhone versions yet, and has not been optimized
       for mobile devices yet.
-      Organic Maps is the ultimate companion app for travelers, tourists,
-      hikers, and cyclists:
-    </p>
-    <ul>
-      <li>
-        Detailed offline maps with places that don&apos;t exist on other maps,
-        thanks to OpenStreetMap
-      </li>
-      <li>Cycling routes, hiking trails, and walking paths</li>
-      <li>Contour lines, elevation profiles, peaks, and slopes</li>
-      <li>Turn-by-turn walking, cycling, and car navigation with voice guidance</li>
-      <li>Fast offline search on the map</li>
-      <li>Bookmarks and tracks export and import in KML, KMZ, GPX formats</li>
-      <li>Dark Mode to protect your eyes</li>
-      <li>Countries and regions don&apos;t take a lot of space</li>
-      <li>Free and open-source</li>
-    </ul>
-    <p>## Why Organic?</p>
-    <p>Organic Maps is pure and organic, made with love:</p>
-    <ul>
-      <li>Respects your privacy</li>
-      <li>Saves your battery</li>
-      <li>No unexpected mobile data charges</li>
-    </ul>
-    <p>Organic Maps app is free from trackers and other bad stuff:</p>
-    <ul>
-      <li>No ads</li>
-      <li>No tracking</li>
-      <li>No data collection</li>
-      <li>No phoning home</li>
-      <li>No annoying registration</li>
-      <li>No mandatory tutorials</li>
-      <li>No noisy email spam</li>
-      <li>No push notifications</li>
-      <li>No crapware</li>
-      <li>N̶o̶ ̶p̶e̶s̶t̶i̶c̶i̶d̶e̶s̶  Purely organic!</li>
-    </ul>
-    <p>The application is verified by Exodus Privacy Project.</p>
-    <p>Organic Maps doesn&apos;t request excessive permissions to spy on you.</p>
-    <p>At Organic Maps, we believe that privacy is a fundamental human right:</p>
-    <ul>
-      <li>Organic Maps is an indie community-driven open-source project</li>
-      <li>We protect your privacy from Big Tech&apos;s prying eyes</li>
-      <li>Stay safe no matter wherever you are</li>
-    </ul>
-    <p>
-      Reject surveillance - embrace your freedom.
-      <em>Give Organic Maps a try!</em>
     </p>
   </description>
 
-  <url type="homepage">https://organicmaps.app</url>
-  <url type="bugtracker">https://github.com/organicmaps/organicmaps/issues</url>
-  <url type="faq">https://organicmaps.app/faq/</url>
-  <url type="help">https://github.com/organicmaps/organicmaps/discussions/categories/q-a</url>
-  <url type="donation">https://organicmaps.app/donate</url>
-  <url type="translate">https://github.com/organicmaps/organicmaps/blob/master/docs/TRANSLATIONS.md</url>
-  <url type="contact">https://github.com/organicmaps/organicmaps#feedback=</url>
-  <url type="vcs-browser">https://github.com/organicmaps/organicmaps/</url>
-  <url type="contribute">https://github.com/organicmaps/organicmaps/blob/master/docs/CONTRIBUTING.md</url>
+  <url type="homepage">https://comaps.app</url>
+  <url type="bugtracker">https://codeberg.org/comaps/comaps/issues</url>
+  <url type="faq">https://www.comaps.app/support/</url>
+  <url type="help">https://www.comaps.app/community/</url>
+  <url type="donation">https://www.comaps.app/donate/</url>
+  <url type="translate">https://codeberg.org/comaps/comaps/src/branch/main/docs/TRANSLATIONS.md</url>
+  <url type="contact">https://www.comaps.app/community/</url>
+  <url type="vcs-browser">https://codeberg.org/comaps/comaps</url>
+  <url type="contribute">https://codeberg.org/comaps/comaps/src/branch/main/docs/CONTRIBUTING.md</url>
 
-  <launchable type="desktop-id">app.organicmaps.desktop.desktop</launchable>
+  <launchable type="desktop-id">app.comaps.desktop.desktop</launchable>
   <screenshots>
     <screenshot type="default" environment="plasma">
-      <image>https://organicmaps.app/images/screenshots/Desktop_light_routing.png</image>
+      <image>https://www.comaps.app/images/screenshots/Desktop_light_routing.png</image>
       <caption>Routing in light mode</caption>
     </screenshot>
     <screenshot environment="plasma:dark">
-      <image>https://organicmaps.app/images/screenshots/Desktop_dark_routing.png</image>
+      <image>https://www.comaps.app/images/screenshots/Desktop_dark_routing.png</image>
       <caption>Routing in dark mode</caption>
     </screenshot>
     <screenshot environment="plasma">
-      <image>https://organicmaps.app/images/screenshots/Desktop_light_overview.png</image>
+      <image>https://www.comaps.app/images/screenshots/Desktop_light_overview.png</image>
       <caption>Map overview in light mode</caption>
     </screenshot>
     <screenshot environment="plasma:dark">
-      <image>https://organicmaps.app/images/screenshots/Desktop_dark_overview.png</image>
+      <image>https://www.comaps.app/images/screenshots/Desktop_dark_overview.png</image>
       <caption>Map overview in dark mode</caption>
     </screenshot>
   </screenshots>
