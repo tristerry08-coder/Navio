@@ -38,15 +38,17 @@ public class RoutingErrorDialogFragment extends BaseRoutingErrorDialogFragment
         ResultCodesHelper.getDialogTitleSubtitle(requireContext(), mResultCode, mMissingMaps.size());
     Pair<String, String> titleMessage = resHolder.getTitleMessage();
 
-    TextView titleView = new TextView(requireContext());
-    titleView.setText(titleMessage.first);
-    titleView.setPadding(65, 32, 32, 16);
-    titleView.setTextSize(18);
-    titleView.setMaxLines(4);
-    titleView.setEllipsize(TextUtils.TruncateAt.END);
-    titleView.setTypeface(null, Typeface.BOLD);
-    builder.setCustomTitle(titleView);
-
+    if (!TextUtils.isEmpty(titleMessage.first))
+    {
+      TextView titleView = new TextView(requireContext());
+      titleView.setText(titleMessage.first);
+      titleView.setPadding(65, 32, 32, 16);
+      titleView.setTextSize(18);
+      titleView.setMaxLines(4);
+      titleView.setEllipsize(TextUtils.TruncateAt.END);
+      titleView.setTypeface(null, Typeface.BOLD);
+      builder.setCustomTitle(titleView);
+    }
     mMessage = titleMessage.second;
     builder.setNegativeButton(resHolder.getCancelBtnResId(), null);
     if (ResultCodesHelper.isDownloadable(mResultCode, mMissingMaps.size()))

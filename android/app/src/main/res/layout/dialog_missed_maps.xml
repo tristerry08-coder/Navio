@@ -15,6 +15,7 @@
     android:paddingEnd="@dimen/margin_base_plus"
     android:textAppearance="@style/MwmTextAppearance.Body2"
     android:visibility="gone"
+    tools:text="Select maps to download"
     tools:visibility="visible"/>
 
   <View
