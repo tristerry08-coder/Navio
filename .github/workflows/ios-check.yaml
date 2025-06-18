@@ -56,7 +56,7 @@ jobs:
           xcrun simctl bootstatus "${{ env.SIMULATOR_DEVICE }}" -b
           xcodebuild test \
             -workspace xcode/omim.xcworkspace \
-            -scheme OMaps \
+            -scheme CoMaps \
             -configuration Debug \
             -sdk iphonesimulator \
             -destination "platform=iOS Simulator,name=${{ env.SIMULATOR_DEVICE }},OS=latest" \
@@ -79,7 +79,7 @@ jobs:
         run: |
           xcodebuild build \
             -workspace xcode/omim.xcworkspace \
-            -scheme OMaps \
+            -scheme CoMaps \
             -configuration Release \
             -destination 'generic/platform=iOS' \
             -quiet \
