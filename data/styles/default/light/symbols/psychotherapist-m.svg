@@ -2,7 +2,7 @@
   <title>psychotherapist-m</title>
   <g>
     <circle id="outer" r="12" cx="12" cy="12" fill="#fff" opacity=".6"/>
-    <circle id="inner" r="11" cx="12" cy="12" fill="#c15746"/>
+    <circle id="inner" r="11" cx="12" cy="12" fill="#D85961"/>
     <g>
       <path id="body" style="fill:none;stroke:#fff;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round" d="m 5.97823,11.3506 4.88507,5.1778 3.8489,-2.5534 3.9605,2.6047"/>
       <circle id="head" r="1.8652495" cx="4.4898458" cy="8.5334015" style="fill:#fff"/>
