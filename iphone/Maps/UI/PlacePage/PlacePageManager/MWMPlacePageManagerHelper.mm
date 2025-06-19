@@ -19,11 +19,13 @@
 - (void)openWikipedia:(PlacePageData *)data;
 - (void)openWikimediaCommons:(PlacePageData *)data;
 - (void)openEmail:(PlacePageData *)data;
+- (void)openFediverse:(PlacePageData *)data;
 - (void)openFacebook:(PlacePageData *)data;
 - (void)openInstagram:(PlacePageData *)data;
 - (void)openTwitter:(PlacePageData *)data;
 - (void)openVk:(PlacePageData *)data;
 - (void)openLine:(PlacePageData *)data;
+- (void)openBluesky:(PlacePageData *)data;
 - (void)call:(PlacePagePhone *)phone;
 - (void)showAllFacilities:(PlacePageData *)data;
 - (void)showPlaceDescription:(NSString *)htmlString;
@@ -89,6 +91,10 @@
   [[MWMMapViewControlsManager manager].placePageManager openWikimediaCommons:data];
 }
 
++ (void)openFediverse:(PlacePageData *)data {
+  [[MWMMapViewControlsManager manager].placePageManager openFediverse:data];
+}
+
 + (void)openFacebook:(PlacePageData *)data {
   [[MWMMapViewControlsManager manager].placePageManager openFacebook:data];
 }
@@ -107,6 +113,10 @@
 
 + (void)openLine:(PlacePageData *)data {
   [[MWMMapViewControlsManager manager].placePageManager openLine:data];
+}
+
++ (void)openBluesky:(PlacePageData *)data {
+  [[MWMMapViewControlsManager manager].placePageManager openBluesky:data];
 }
 
 + (void)call:(PlacePagePhone *)phone {

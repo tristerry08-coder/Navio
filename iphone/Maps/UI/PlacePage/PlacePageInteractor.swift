@@ -100,6 +100,10 @@ extension PlacePageInteractor: PlacePageInfoViewControllerDelegate {
     MWMPlacePageManagerHelper.openWikimediaCommons(placePageData)
   }
   
+  func didPressFediverse() {
+    MWMPlacePageManagerHelper.openFediverse(placePageData)
+  }
+  
   func didPressFacebook() {
     MWMPlacePageManagerHelper.openFacebook(placePageData)
   }
@@ -118,6 +122,10 @@ extension PlacePageInteractor: PlacePageInfoViewControllerDelegate {
   
   func didPressLine() {
     MWMPlacePageManagerHelper.openLine(placePageData)
+  }
+  
+  func didPressBluesky() {
+    MWMPlacePageManagerHelper.openBluesky(placePageData)
   }
   
   func didPressEmail() {

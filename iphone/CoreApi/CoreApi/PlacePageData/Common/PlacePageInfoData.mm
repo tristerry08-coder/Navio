@@ -68,11 +68,13 @@ NSString * GetLocalizedMetadataValueString(MapObject::MetadataID metaID, std::st
           _email = ToNSString(value);
           _emailUrl = [NSURL URLWithString:[NSString stringWithFormat:@"mailto:%@", _email]];
           break;
+        case MetadataID::FMD_CONTACT_FEDIVERSE: _fediverse = ToNSString(value); break;
         case MetadataID::FMD_CONTACT_FACEBOOK: _facebook = ToNSString(value); break;
         case MetadataID::FMD_CONTACT_INSTAGRAM: _instagram = ToNSString(value); break;
         case MetadataID::FMD_CONTACT_TWITTER: _twitter = ToNSString(value); break;
         case MetadataID::FMD_CONTACT_VK: _vk = ToNSString(value); break;
         case MetadataID::FMD_CONTACT_LINE: _line = ToNSString(value); break;
+        case MetadataID::FMD_CONTACT_BLUESKY: _bluesky = ToNSString(value); break;
         case MetadataID::FMD_OPERATOR: _ppOperator = [NSString stringWithFormat:NSLocalizedString(@"operator", nil), ToNSString(value)]; break;
         case MetadataID::FMD_INTERNET:
           _wifiAvailable = (rawData.GetInternet() == feature::Internet::No)

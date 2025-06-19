@@ -13,11 +13,13 @@
 + (void)openWikipedia:(PlacePageData *)data;
 + (void)openWikimediaCommons:(PlacePageData *)data;
 + (void)openEmail:(PlacePageData *)data;
++ (void)openFediverse:(PlacePageData *)data;
 + (void)openFacebook:(PlacePageData *)data;
 + (void)openInstagram:(PlacePageData *)data;
 + (void)openTwitter:(PlacePageData *)data;
 + (void)openVk:(PlacePageData *)data;
 + (void)openLine:(PlacePageData *)data;
++ (void)openBluesky:(PlacePageData *)data;
 + (void)call:(PlacePagePhone *)phone;
 + (void)showAllFacilities:(PlacePageData *)data;
 + (void)showPlaceDescription:(NSString *)htmlString;

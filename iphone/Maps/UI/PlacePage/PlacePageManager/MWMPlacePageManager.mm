@@ -258,6 +258,11 @@ using namespace storage;
   [self.ownerViewController openUrl:data.infoData.wikimediaCommons externally:YES];
 }
 
+- (void)openFediverse:(PlacePageData *)data {
+  std::string const fullUrl = osm::socialContactToURL(osm::MapObject::MetadataID::FMD_CONTACT_FEDIVERSE, [data.infoData.fediverse UTF8String]);
+  [self.ownerViewController openUrl:ToNSString(fullUrl) externally:YES];
+}
+
 - (void)openFacebook:(PlacePageData *)data {
   std::string const fullUrl = osm::socialContactToURL(osm::MapObject::MetadataID::FMD_CONTACT_FACEBOOK, [data.infoData.facebook UTF8String]);
   [self.ownerViewController openUrl:ToNSString(fullUrl) externally:YES];
@@ -280,6 +285,11 @@ using namespace storage;
 
 - (void)openLine:(PlacePageData *)data {
   std::string const fullUrl = osm::socialContactToURL(osm::MapObject::MetadataID::FMD_CONTACT_LINE, [data.infoData.line UTF8String]);
+  [self.ownerViewController openUrl:ToNSString(fullUrl) externally:YES];
+}
+
+- (void)openBluesky:(PlacePageData *)data {
+  std::string const fullUrl = osm::socialContactToURL(osm::MapObject::MetadataID::FMD_CONTACT_BLUESKY, [data.infoData.bluesky UTF8String]);
   [self.ownerViewController openUrl:ToNSString(fullUrl) externally:YES];
 }
 

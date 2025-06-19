@@ -255,6 +255,9 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "समाचार";
 
+/* Text in the editor */
+"fediverse" = "Mastodon";
+
 /* Text in menu */
 "facebook" = "फेसबुक";
 
@@ -266,6 +269,12 @@
 
 /* Text in the editor */
 "vk" = "VK";
+
+/* Text in the editor */
+"line" = "Line";
+
+/* Text in the editor */
+"bluesky" = "Bluesky";
 
 /* Text in menu */
 "rate_the_app" = "एप्लिकेशन की श्रेणी बताओ";

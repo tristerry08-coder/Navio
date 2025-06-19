@@ -79,11 +79,13 @@ protocol PlacePageInfoViewControllerDelegate: AnyObject {
   func didPressWebsiteMenu()
   func didPressWikipedia()
   func didPressWikimediaCommons()
+  func didPressFediverse()
   func didPressFacebook()
   func didPressInstagram()
   func didPressTwitter()
   func didPressVk()
   func didPressLine()
+  func didPressBluesky()
   func didPressEmail()
   func didPressOpenInApp(from sourceView: UIView)
   func didCopy(_ content: String)
@@ -109,11 +111,13 @@ class PlacePageInfoViewController: UIViewController {
   private var wikipediaView: InfoItemViewController?
   private var wikimediaCommonsView: InfoItemViewController?
   private var emailView: InfoItemViewController?
+  private var fediverseView: InfoItemViewController?
   private var facebookView: InfoItemViewController?
   private var instagramView: InfoItemViewController?
   private var twitterView: InfoItemViewController?
   private var vkView: InfoItemViewController?
   private var lineView: InfoItemViewController?
+  private var blueskyView: InfoItemViewController?
   private var cuisineView: InfoItemViewController?
   private var operatorView: InfoItemViewController?
   private var wifiView: InfoItemViewController?
@@ -274,6 +278,18 @@ class PlacePageInfoViewController: UIViewController {
       })
     }
 
+    if let fediverse = placePageInfoData.fediverse {
+      fediverseView = createInfoItem(fediverse,
+                                    icon: UIImage(named: "ic_placepage_fediverse"),
+                                    style: .link,
+                                    tapHandler: { [weak self] in
+        self?.delegate?.didPressFediverse()
+      },
+                                    longPressHandler: { [weak self] in
+        self?.delegate?.didCopy(fediverse)
+      })
+    }
+
     if let facebook = placePageInfoData.facebook {
       facebookView = createInfoItem(facebook,
                                     icon: UIImage(named: "ic_placepage_facebook"),
@@ -331,6 +347,18 @@ class PlacePageInfoViewController: UIViewController {
       },
                                 longPressHandler: { [weak self] in
         self?.delegate?.didCopy(line)
+      })
+    }
+    
+    if let bluesky = placePageInfoData.line {
+      blueskyView = createInfoItem(bluesky,
+                                icon: UIImage(named: "ic_placepage_bluesky"),
+                                style: .link,
+                                tapHandler: { [weak self] in
+        self?.delegate?.didPressBluesky()
+      },
+                                longPressHandler: { [weak self] in
+        self?.delegate?.didCopy(bluesky)
       })
     }
 

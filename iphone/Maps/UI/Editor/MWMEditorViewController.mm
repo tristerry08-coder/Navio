@@ -669,7 +669,15 @@ void registerCellsForTableView(std::vector<MWMEditorCellID> const & cells, UITab
                          text:L(@"outdoor_seating")
                          value:feature::YesNoUnknownFromString(m_mapObject.GetMetadata(feature::Metadata::FMD_OUTDOOR_SEATING))];
     break;
-  } 
+  }
+  case MetadataID::FMD_CONTACT_FEDIVERSE:
+  {
+    [self configTextViewCell:cell
+                      cellID:cellID
+                        icon:@"ic_placepage_fediverse"
+                 placeholder:L(@"fediverse")];
+    break;
+  }
   case MetadataID::FMD_CONTACT_FACEBOOK:
   {
     [self configTextViewCell:cell
@@ -708,6 +716,14 @@ void registerCellsForTableView(std::vector<MWMEditorCellID> const & cells, UITab
                       cellID:cellID
                         icon:@"ic_placepage_line"
                  placeholder:L(@"line")];
+    break;
+  }
+  case MetadataID::FMD_CONTACT_BLUESKY:
+  {
+    [self configTextViewCell:cell
+                      cellID:cellID
+                        icon:@"ic_placepage_bluesky"
+                 placeholder:L(@"bluesky")];
     break;
   }
   case MWMEditorCellTypeNote:
