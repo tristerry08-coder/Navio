@@ -172,10 +172,10 @@
 "unknown_current_position" = "現在の座標が未確定です";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "CoMapsでピン情報を確認";
+"bookmark_share_email_subject" = "CoMapsでピン情報を確認！";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "CoMapsで現在地を確認";
+"my_position_share_email_subject" = "CoMapsで現在地を確認！";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "Eメール";
@@ -310,7 +310,7 @@
 "pref_calibration_title" = "コンパスの調整";
 
 /* Toast text when user hides UI with a long tap anywhere on the map */
-"long_tap_toast" = "インターフェイスを見るには、もう一度地図をロングタップする。";
+"long_tap_toast" = "インターフェイスを見るには、もう一度地図をロングタップする";
 
 /* Update all button text */
 "downloader_update_all_button" = "全てをアップデート";
@@ -561,7 +561,7 @@
 "editor_edit_place_name_hint" = "場所の名前";
 
 /* The second part of the editor_edit_place_name_hint to explain that name should be entered in a local language, see https://wiki.openstreetmap.org/wiki/Key:name */
-"editor_default_language_hint" = "現地の言葉でこう書かれている。";
+"editor_default_language_hint" = "現地の言葉でこう書かれている";
 "editor_edit_place_category_title" = "カテゴリ";
 "whatsnew_editor_message_1" = "アプリから直接地図に新しい場所を追加したり、既存の場所を編集できます。";
 "dialog_incorrect_feature_position" = "位置を変更してください";
@@ -615,7 +615,7 @@
 "location_services_disabled_on_device_2" = "2.プライバシーを選択する";
 "location_services_disabled_on_device_3" = "3.位置情報サービスを選択する";
 "location_services_disabled_on_device_4" = "4.位置情報サービスをオンにする";
-"location_services_disabled_on_device_additional_message" = "または、位置情報なしでオーガニック・マップを使い続ける";
+"location_services_disabled_on_device_additional_message" = "または、位置情報なしでCoMapsを使い続ける";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -774,7 +774,7 @@
 /* Speed camera settings menu option - Never warn (about speedcams) */
 "pref_tts_speedcams_never" = "自動速度違反取締装置を警告しません";
 "power_managment_title" = "電力節約モード";
-"power_managment_description" = "自動モードが選択されている場合、このアプリケーションは現在のバッテリーの充電状態に応じてバッテリー消費の激しい機能の無効化を開始します";
+"power_managment_description" = "自動モードが選択されている場合、このアプリケーションは現在のバッテリーの充電状態に応じてバッテリー消費の激しい機能の無効化を開始します。";
 "power_managment_setting_never" = "無効";
 "power_managment_setting_auto" = "自動";
 "power_managment_setting_manual_max" = "最大電力節約";
@@ -931,10 +931,10 @@
 "app_tip_00" = "私たちのコミュニティが作った地図をご利用いただき、ありがとうございます！";
 
 /* App tip #01 */
-"app_tip_01" = "あなたの寄付とサポートがあれば、世界で最高の地図を作成できます。";
+"app_tip_01" = "あなたの寄付とサポートがあれば、世界で最高の地図を作成できます！";
 
 /* App tip #02 */
-"app_tip_02" = "私たちのアプリは気に入っていますか? 開発をサポートするために寄付をお願いします！ まだ気に入らないですか？ お知らせください。修正させていただきます。";
+"app_tip_02" = "私たちのアプリは気に入っていますか? 開発をサポートするために寄付をお願いします！ まだ気に入らないですか？ お知らせください。修正させていただきます！";
 
 /* App tip #03 */
 "app_tip_03" = "ソフトウェア開発者を知っている場合は、必要な機能を実装するように依頼できます。";
@@ -961,7 +961,7 @@
 "car_used_on_the_phone_screen" = "端末の画面でCoMapsを使用している";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "あなたは今、車の画面でオーガニック・マップを使用している";
+"car_used_on_the_car_screen" = "あなたは今、車の画面でオCoMapsを使用している";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "電話で続ける";
@@ -1013,7 +1013,7 @@
 "icloud_synchronization_error_connection_error" = "エラー：接続エラーにより同期に失敗した";
 
 /* iCloud error message: Failed to synchronize due to iCloud quota exceeded */
-"icloud_synchronization_error_quota_exceeded" = "エラー：iCloudのクォータが超過したため、同期に失敗しました。";
+"icloud_synchronization_error_quota_exceeded" = "エラー：iCloudのクォータが超過したため、同期に失敗しました";
 
 /* iCloud error message: iCloud is not available */
 "icloud_synchronization_error_cloud_is_unavailable" = "エラー：iCloudが利用できない";

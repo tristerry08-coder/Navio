@@ -1373,4 +1373,7 @@
     <string name="type.psurface.unpaved_bad">psurface-unpaved_bad</string>
     <string name="type.psurface.unpaved_good">psurface-unpaved_good</string>
     <string name="type.route.shuttle_train">route-shuttle_train</string>
+    <string name="type.man_made.crane">Dźwig</string>
+    <string name="type.highway.ladder">Drabina</string>
+    <string name="type.leisure.firepit">Ognisko</string>
 </resources>

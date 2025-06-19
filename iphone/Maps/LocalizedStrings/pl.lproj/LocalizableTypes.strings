@@ -1484,3 +1484,6 @@
 
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "Hala sportowa";
+"type.man_made.crane" = "Dźwig";
+"type.highway.ladder" = "Drabina";
+"type.leisure.firepit" = "Ognisko";

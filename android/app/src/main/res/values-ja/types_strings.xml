@@ -628,7 +628,7 @@
     <string name="type.leisure.water_park">ウォーターパーク</string>
     <string name="type.man_made">構造物</string>
     <string name="type.man_made.breakwater">防波堤</string>
-    <string name="type.man_made.cairn">ケルン</string>
+    <string name="type.man_made.cairn">ケアン</string>
     <string name="type.man_made.chimney">工場煙突</string>
     <string name="type.man_made.cutline">森林の切れ目</string>
     <string name="type.man_made.survey_point">測量標</string>
@@ -673,7 +673,7 @@
     <string name="type.natural.earth_bank">崖</string>
     <string name="type.man_made.embankment">盛土</string>
     <string name="type.natural.coastline">海岸線</string>
-    <string name="type.natural.desert">荒野</string>
+    <string name="type.natural.desert">砂漠</string>
     <string name="type.natural.geyser">間欠泉</string>
     <string name="type.natural.glacier">氷河</string>
     <string name="type.natural.grassland">草原</string>
@@ -787,7 +787,7 @@
     <string name="type.railway.monorail.tunnel">モノレール(トンネル)</string>
     <string name="type.railway.narrow_gauge">狭軌鉄道</string>
     <string name="type.railway.narrow_gauge.bridge">狭軌鉄道(橋)</string>
-    <string name="type.railway.narrow_gauge.tunnel">ja = 狭軌鉄道(トンネル)</string>
+    <string name="type.railway.narrow_gauge.tunnel">狭軌鉄道(トンネル)</string>
     <string name="type.railway.platform">プラットホーム</string>
     <string name="type.railway.preserved">保存鉄道</string>
     <string name="type.railway.preserved.bridge">保存鉄道(橋)</string>
@@ -1337,4 +1337,9 @@
     <string name="type.amenity.parcel_locker">宅配ロッカー</string>
     <string name="type.amenity.waste_transfer_station">ゴミ処理場</string>
     <string name="type.mapswithme">mapswithme</string>
+    <string name="type.man_made.utility_pole">ユーティリティポール</string>
+    <string name="type.route.shuttle_train">シャトル列車</string>
+    <string name="type.attraction.big_wheel">観覧車</string>
+    <string name="type.man_made.crane">クレーン</string>
+    <string name="type.mapswithme.grid">mapswithme-グリッド</string>
 </resources>

@@ -157,7 +157,7 @@
 "share_bookmarks_email_body" = "您好！\n\n附件是我的書籤，請在 CoMaps 中打開。如果您沒有安裝 CoMaps，可以在這裡下載: https://www.comaps.app/download/\n\n祝您使用 CoMaps 旅行愉快！";
 
 /* message title of loading file */
-"load_kmz_title" = "正在載入書籤…";
+"load_kmz_title" = "正在載入書籤";
 
 /* Kmz file successful loading */
 "load_kmz_successful" = "書籤載入成功！ 您可以在地圖或書籤管理畫面中找到它們。";
@@ -503,10 +503,10 @@
 "day_off" = "不營業";
 "today" = "今天";
 "opens_tomorrow_at" = "明天 %@ 營業";
-"opens_dayoftheweek_at" = "Opens %1$@ at %2$@";
-"opens_at" = "Opens at %@";
+"opens_dayoftheweek_at" = "%1$@ %2$@ 營業";
+"opens_at" = "%@ 營業";
 "opens_in" = "將於 %@ 後開業";
-"closes_at" = "Closes at %@";
+"closes_at" = "%@ 打烊";
 "closes_in" = "將於 %@ 後歇業";
 "closed" = "已停止營業";
 "add_opening_hours" = "新增營業時間";
@@ -615,7 +615,7 @@
 "location_services_disabled_on_device_2" = "2. 點擊“隱私權”";
 "location_services_disabled_on_device_3" = "3. 選擇“定位服務”";
 "location_services_disabled_on_device_4" = "4. 開啟“定位服務”";
-"location_services_disabled_on_device_additional_message" = "或繼續使用 CoMaps，但無法定位到您目前所在的位置。";
+"location_services_disabled_on_device_additional_message" = "或繼續使用 CoMaps，但無法定位到您目前所在的位置";
 
 /* abbreviation for meters */
 "m" = "公尺";
@@ -774,7 +774,7 @@
 /* Speed camera settings menu option - Never warn (about speedcams) */
 "pref_tts_speedcams_never" = "永遠不會對測速照相機發出警告";
 "power_managment_title" = "省電模式";
-"power_managment_description" = "如果開啟省電模式，應用程序將根據手機的當前電量關閉耗電功能";
+"power_managment_description" = "如果開啟省電模式，應用程序將根據手機的當前電量關閉耗電功能。";
 "power_managment_setting_never" = "從不";
 "power_managment_setting_auto" = "當電量低時";
 "power_managment_setting_manual_max" = "最大程度省電";
@@ -791,7 +791,7 @@
 "avoid_ferry" = "避開渡輪";
 "avoid_motorways" = "避開高速公路";
 "unable_to_calc_alert_title" = "無法規劃路線";
-"unable_to_calc_alert_subtitle" = "很遺憾，我們無法使用所選的繞行設定規劃路線。請更改設定，然後重試";
+"unable_to_calc_alert_subtitle" = "很遺憾，我們無法使用所選的繞行設定規劃路線。請更改設定，然後重試。";
 "define_to_avoid_btn" = "選擇要避開的道路";
 "change_driving_options_btn" = "繞行設定已開啟";
 "toll_road" = "收費公路";

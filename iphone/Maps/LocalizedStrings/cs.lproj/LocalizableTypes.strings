@@ -1490,4 +1490,5 @@
 "type.barrier.guard_rail" = "Svodidla";
 "type.landuse.plant_nursery" = "Pěstitelská školka";
 "type.leisure.firepit" = "Ohniště";
-"type.sport.diving" = "Potápění se";
+"type.sport.diving" = "Skoky do vody z velkých výšek";
+"type.man_made.crane" = "Jeřáb";

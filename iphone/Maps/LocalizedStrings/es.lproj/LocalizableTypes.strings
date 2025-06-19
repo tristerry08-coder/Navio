@@ -1490,4 +1490,5 @@
 "type.barrier.guard_rail" = "Guardarraíl";
 "type.highway.ladder" = "Escalera";
 "type.landuse.plant_nursery" = "Vivero de plantas";
-"type.sport.diving" = "Buceo";
+"type.sport.diving" = "Salto de trampolín";
+"type.man_made.crane" = "Grúa";

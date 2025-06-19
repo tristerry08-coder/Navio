@@ -895,4 +895,7 @@
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="pref_left_button_title">Configurar botón izquierdo</string>
     <string name="pref_left_button_disable">Desactivar</string>
+    <string name="editor_level">Planta (0 es la planta baja)</string>
+    <string name="editor_building_levels">Plantas (incl. planta baja, excl. tejado)</string>
+    <string name="error_enter_correct_level">Introduce un número de planta válido</string>
 </resources>

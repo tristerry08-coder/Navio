@@ -1391,11 +1391,12 @@
     <string name="type.piste_type.downhill.intermediate.area">Středně těžká sjezdovka</string>
     <string name="type.piste_type.sled">Sáňkařská dráha</string>
     <string name="type.piste_type.sled.area">Sáňkařská dráha</string>
-    <string name="type.sport.diving">Potápění se</string>
+    <string name="type.sport.diving">Skoky do vody z velkých výšek</string>
     <string name="type.amenity.studio">Studio</string>
     <string name="type.barrier.guard_rail">Svodidla</string>
     <string name="type.amenity.love_hotel">Love Hotel</string>
     <string name="type.highway.ladder">Žebřík</string>
     <string name="type.landuse.plant_nursery">Pěstitelská školka</string>
     <string name="type.leisure.firepit">Ohniště</string>
+    <string name="type.man_made.crane">Jeřáb</string>
 </resources>

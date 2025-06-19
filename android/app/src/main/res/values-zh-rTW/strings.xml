@@ -168,7 +168,7 @@
     <string name="share_bookmarks_email_subject">已與您分享 CoMaps 書籤</string>
     <string name="share_bookmarks_email_body">您好！\n\n附件是我的書籤，請在 CoMaps 中打開。如果您沒有安裝 CoMaps，可以在這裡下載: https://www.comaps.app/download/\n\n祝您使用 CoMaps 旅行愉快！</string>
     <!-- message title of loading file -->
-    <string name="load_kmz_title">正在載入書籤…</string>
+    <string name="load_kmz_title">正在載入書籤</string>
     <!-- Kmz file successful loading -->
     <string name="load_kmz_successful">書籤載入成功！ 您可以在地圖或書籤管理畫面中找到它們。</string>
     <!-- Kml file loading failed -->
@@ -675,7 +675,7 @@
     <!-- Speed camera settings menu option - Never warn (about speedcams) -->
     <string name="pref_tts_speedcams_never">永遠不會對測速照相機發出警告</string>
     <string name="power_managment_title">省電模式</string>
-    <string name="power_managment_description">如果開啟省電模式，本應用將根據手機的當前電量關閉耗電功能。</string>
+    <string name="power_managment_description">如果開啟省電模式，應用程序將根據手機的當前電量關閉耗電功能。</string>
     <string name="power_managment_setting_never">從不</string>
     <string name="power_managment_setting_auto">當電量低時</string>
     <string name="power_managment_setting_manual_max">最大程度省電</string>
@@ -690,7 +690,7 @@
     <string name="avoid_ferry">避開渡輪</string>
     <string name="avoid_motorways">避開高速公路</string>
     <string name="unable_to_calc_alert_title">無法規劃路線</string>
-    <string name="unable_to_calc_alert_subtitle">很遺憾，我們無法使用所選的繞行設定規劃路線。這可能是由於您的繞行設定或 OpenStreetMap 資料不完整所造成的。請更改設定，然後重試。</string>
+    <string name="unable_to_calc_alert_subtitle">很遺憾，我們無法使用所選的繞行設定規劃路線。請更改設定，然後重試。</string>
     <string name="define_to_avoid_btn">選擇要避開的道路</string>
     <string name="change_driving_options_btn">繞行設定已開啟</string>
     <string name="toll_road">收費公路</string>

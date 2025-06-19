@@ -781,7 +781,7 @@
     <!-- App tip #01 -->
     <string name="app_tip_01">あなたの寄付とサポートがあれば、世界で最高の地図を作成できます！</string>
     <!-- App tip #02 -->
-    <string name="app_tip_02">私たちのアプリは気に入っていますか？開発をサポートするために寄付をお願いします！ まだ気に入らないですか？ お知らせください。修正させていただきます！</string>
+    <string name="app_tip_02">私たちのアプリは気に入っていますか? 開発をサポートするために寄付をお願いします！ まだ気に入らないですか？ お知らせください。修正させていただきます！</string>
     <!-- App tip #03 -->
     <string name="app_tip_03">ソフトウェア開発者を知っている場合は、必要な機能を実装するように依頼できます。</string>
     <!-- App tip #04 -->
@@ -799,7 +799,7 @@
     <!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
     <string name="car_used_on_the_phone_screen">端末の画面でCoMapsを使用している</string>
     <!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-    <string name="car_used_on_the_car_screen">あなたは今、車の画面でオーガニック・マップを使用している</string>
+    <string name="car_used_on_the_car_screen">あなたは今、車の画面でオCoMapsを使用している</string>
     <!-- Displayed on the phone screen. Android Auto connected -->
     <string name="aa_connected_title">アンドロイド・オートに接続している</string>
     <!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->

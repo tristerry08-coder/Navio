@@ -739,7 +739,7 @@
 "type.leisure.beach_resort" = "Beach Resort";
 "type.man_made" = "構造物";
 "type.man_made.breakwater" = "防波堤";
-"type.man_made.cairn" = "ケルン";
+"type.man_made.cairn" = "ケアン";
 "type.man_made.chimney" = "工場煙突";
 "type.man_made.cutline" = "森林の切れ目";
 "type.man_made.survey_point" = "測量標";
@@ -774,7 +774,7 @@
 "type.man_made.windmill" = "風車";
 "type.man_made.works" = "工場";
 "type.mapswithme" = "mapswithme";
-"type.mapswithme.grid" = "mapswithme-grid";
+"type.mapswithme.grid" = "mapswithme-グリッド";
 "type.military" = "軍事";
 "type.military.bunker" = "掩蔽壕";
 "type.mountain_pass" = "Mountain Pass";
@@ -798,7 +798,7 @@
 "type.natural.earth_bank" = "崖";
 "type.man_made.embankment" = "盛土";
 "type.natural.coastline" = "海岸線";
-"type.natural.desert" = "荒野";
+"type.natural.desert" = "砂漠";
 "type.natural.geyser" = "間欠泉";
 "type.natural.glacier" = "氷河";
 "type.natural.grassland" = "草原";
@@ -901,7 +901,7 @@
 "type.power.pole" = "電柱";
 
 /* A single pole supporting various public utilities, such as lighting or telephony. */
-"type.man_made.utility_pole" = "Utility Pole";
+"type.man_made.utility_pole" = "ユーティリティポール";
 "type.psurface" = "psurface";
 "type.psurface.paved_bad" = "psurface-paved_bad";
 "type.psurface.paved_good" = "psurface-paved_good";
@@ -929,7 +929,7 @@
 "type.railway.monorail.tunnel" = "モノレール(トンネル)";
 "type.railway.narrow_gauge" = "狭軌鉄道";
 "type.railway.narrow_gauge.bridge" = "狭軌鉄道(橋)";
-"type.railway.narrow_gauge.tunnel" = "ja = 狭軌鉄道(トンネル)";
+"type.railway.narrow_gauge.tunnel" = "狭軌鉄道(トンネル)";
 "type.railway.platform" = "プラットホーム";
 "type.railway.preserved" = "保存鉄道";
 "type.railway.preserved.bridge" = "保存鉄道(橋)";
@@ -1208,7 +1208,7 @@
 "type.railway.tram_stop" = "トラム";
 "type.route" = "ルート";
 "type.route.ferry" = "フェリー航路";
-"type.route.shuttle_train" = "route-shuttle_train";
+"type.route.shuttle_train" = "シャトル列車";
 "type.shop" = "買い物";
 "type.shop.alcohol" = "酒屋";
 "type.shop.bakery" = "パン屋";
@@ -1379,7 +1379,7 @@
 "type.attraction.amusement_ride" = "遊園地";
 "type.attraction.animal" = "アニマル・エンクロージャー";
 "type.attraction.bumper_car" = "バンパーカー";
-"type.attraction.big_wheel" = "Big Wheel";
+"type.attraction.big_wheel" = "観覧車";
 "type.attraction.carousel" = "カルーセル";
 "type.attraction.historic" = "歴史的アトラクション";
 "type.attraction.maze" = "迷路";
@@ -1491,3 +1491,4 @@
 "type.highway.ladder" = "階子";
 "type.leisure.firepit" = "焚き火場";
 "type.sport.diving" = "ハイダイビング";
+"type.man_made.crane" = "クレーン";
