@@ -38,9 +38,13 @@ area|z10-[place=islet]
 area|z0-[natural=coastline]
 {fill-color: @water;}
 
-area|z0-[natural=land],
-area|z10-[place=islet]
-{fill-color: @background;}
+area|z0-15[natural=land],
+area|z10-15[place=islet],
+{fill-color: @background0;}
+
+area|z16-[natural=land],
+area|z16-[place=islet],
+{fill-color: @background1;}
 
 /* 3.BOUNDARIES */
 
@@ -116,8 +120,9 @@ area|z10-12[leisure=park],
 {fill-color: @green0;}
 area|z13-15[leisure=park],
 {fill-color: @green1;}
-area|z16-[leisure=park],
 area|z14-15[natural=scrub],
+{fill-color: @green1;}
+area|z16-[leisure=park],
 {fill-color: @green2;}
 area|z16-[natural=scrub],
 {fill-color: @green3;}
@@ -131,7 +136,6 @@ area|z16-[landuse=grass],
 area|z14-15[natural=grassland],
 area|z14-[leisure=golf_course],
 area|z14-[leisure=miniature_golf],
-area|z14-[natural=heath],
 area|z14-[landuse=allotments],
 area|z14-[landuse=orchard],
 area|z14-[landuse=plant_nursery],
@@ -141,10 +145,11 @@ area|z14-[landuse=recreation_ground],
 area|z14-[landuse=village_green],
 area|z14-[landuse=field],
 {fill-color: @green1;}
+area|z11[landuse=forest],
 area|z16-[natural=grassland],
 area|z16-[landuse=meadow],
 {fill-color: @green1b;}
-area|z11-12[landuse=forest],
+area|z12[landuse=forest],
 area|z12[leisure=garden],
 {fill-color: @green2;}
 area|z13[landuse=forest],
@@ -167,10 +172,11 @@ area|z16-[leisure=garden][garden:type=residential],
 area|z17-[leisure=garden][garden:type=residential],
 {fill-color: @green2;}
 
+area|z12-[natural=heath],
+{fill-color: @heath;}
 area|z12-13[landuse=grass],
 area|z12-13[natural=grassland],
 area|z12-13[leisure=golf_course],
-area|z12-13[natural=heath],
 area|z12-13[landuse=allotments],
 area|z12-13[landuse=orchard],
 area|z12-13[landuse=plant_nursery],
@@ -363,6 +369,9 @@ area|z16-[railway=platform],
 area|z16-[leisure=playground],
 {fill-opacity: 1;}
 
+area|z15-[amenity=university],
+{fill-opacity: 0.9;}
+
 /* 7.1 Industrial */
 
 area|z15-[landuse=industrial],
@@ -390,8 +399,10 @@ area|z15-[landuse=education],
 
 area|z15-[leisure=pitch],
 area|z15-[leisure=track][area?],
-area|z16-[leisure=playground],
 {fill-color: @sport2;}
+
+area|z16-[leisure=playground],
+{fill-color: @playground;}
 
 area|z15-[leisure=stadium]
 {fill-color: @sport1;}
@@ -459,8 +470,11 @@ area|z15-19[aeroway=aerodrome]
 
 /* 7.7 Religion */
 
-area|z15-[landuse=churchyard]
-{fill-color: @background;}
+area|z15[landuse=churchyard],
+{fill-color: @background0;}
+
+area|z16-[landuse=churchyard],
+{fill-color: @background1;}
 
 /* 7.8 Agricultural */
 area|z10-[landuse=farmland],
@@ -484,17 +498,24 @@ area|z15-16[amenity=parking][parking=street_side],
 
 /* 8.1 Pier, dam, areal bridge, cutline */
 
-area|z12-[man_made=pier],
-area|z12-[man_made=breakwater],
-{fill-opacity: 1; fill-color: @background;}
+area|z12-15[man_made=pier],
+area|z12-15[man_made=breakwater],
+{fill-opacity: 1; fill-color: @background0;}
+
+area|z16-[man_made=pier],
+area|z16-[man_made=breakwater],
+{fill-opacity: 1; fill-color: @background1;}
 
 area|z14-[man_made=bridge],
 {fill-color: @bridge_background; fill-opacity: 0.8;}
 
+line|z14-15[man_made=pier],
+line|z14-15[man_made=breakwater],
+{width: 1.5;color: @background0; opacity: 0.7;}
 
-line|z14-[man_made=pier],
-line|z14-[man_made=breakwater],
-{width: 1.5;color: @background; opacity: 0.7;}
+line|z16-[man_made=pier],
+line|z16-[man_made=breakwater],
+{width: 1.5;color: @background1; opacity: 0.7;}
 
 line|z14-[waterway=dam],
 line|z14-[waterway=weir],
@@ -548,11 +569,11 @@ line|z19-[man_made=cutline],
 
 area|z14[building],
 area|z14[waterway=dam],
-{fill-color: @building0;fill-opacity: 0.5;}
+{fill-color: @building0;fill-opacity: 0.6;}
 
 area|z15[building],
 area|z15[waterway=dam],
-{fill-color: @building0;fill-opacity: 0.6;}
+{fill-color: @building0;fill-opacity: 0.7;}
 
 area|z14-15[aeroway=terminal],
 area|z16[building],
@@ -605,13 +626,13 @@ line|z19-[barrier=hedge],
 
 line|z14-[barrier=city_wall],
 line|z14-[historic=citywalls],
-{color: @building1; width: 2; opacity: 0.7;}
+{color: @historic_wall; width: 2; opacity: 0.9;}
 line|z15[barrier=city_wall],
 line|z15[historic=citywalls],
 {width: 2.8;}
 line|z16-[barrier=city_wall],
 line|z16-[historic=citywalls],
-{color: @building0; width: 4.5; dashes: 3,3,1.5,3;}
+{width: 4.5; dashes: 3,3,1.5,3;}
 line|z17[barrier=city_wall],
 line|z17[historic=citywalls],
 {width: 5.9; dashes: 4,4,1.9,4;}
@@ -656,7 +677,7 @@ line|z18-[barrier=retaining_wall],
 
 
 line|z16-[man_made=embankment],
-{color: @building1; width: 3.5; dashes: 4,2,2,1.5; opacity: 0.7;}
+{color: @building_border0; width: 3.5; dashes: 4,2,2,1.5; opacity: 0.7;}
 line|z17[man_made=embankment],
 {width: 5; dashes: 6,3,3,2;}
 line|z18-[man_made=embankment],

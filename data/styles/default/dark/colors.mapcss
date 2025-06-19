@@ -26,7 +26,8 @@
 
 /* 1.BASEMAP */
 
-@background: #000000;
+@background0: #000000;
+@background1: #000000;
 
 /* 2.BOUNDARY */
 
@@ -50,6 +51,7 @@
 /*3.2 Vegetation*/
 
 @forest: #141C00;
+@heath: #0F1400;
 @green0: #0F1400;
 @green1: #131900;
 @green1b: #141C00;
@@ -71,6 +73,7 @@
 @sport0: #21211B;
 @sport1: #262620;
 @sport2: #2A2A24;
+@playground: #2A2A24;
 @parking: #1F1B1B;
 @military: #B71C1C;
 @prison: #7f7f7f;
@@ -97,10 +100,13 @@
 @building1: #424242;
 @building_border0: #616161;
 @building_border1: #696969;
+@historic_wall: #696969;
 
 /* 5.ROADS */
 /* 5.1 All roads */
 
+@motorway0: #3B2015;
+@motorway1: #3B2015;
 @trunk0: #49291B;
 @trunk1: #49291B;
 @primary0: #593323;
@@ -126,6 +132,8 @@
 
 /* 5.3 Tunnels */
 
+@motorway_tunnel: #24140D;
+@motorway_tunnel_casing: #000000;
 @trunk_tunnel: #381F14;
 @trunk_tunnel_casing: #000000;
 @primary_tunnel: #4C2A1B;

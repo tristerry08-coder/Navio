@@ -3,16 +3,16 @@
 1.BASEMAP
 2.BOUNDARY
 3.NATURAL
-	3.1 Main natural
-	3.2 Vegetation
+  3.1 Main natural
+  3.2 Vegetation
 4.LANDUSE
-	4.1 Main landuse
-	4.2 Aerodrome
+  4.1 Main landuse
+  4.2 Aerodrome
   4.3 Barriers
   4.4 Buildings
 5.ROADS
   5.1 All roads
-	5.2 Bridges
+  5.2 Bridges
   5.3 Tunnels
   5.4 Piste
   5.5 Transport
@@ -26,7 +26,8 @@
 
 /* 1.BASEMAP */
 
-@background: #E3E1D2;
+@background0: #F5E8D6;
+@background1: #F5EADA;
 
 /* 2.BOUNDARY */
 
@@ -38,103 +39,110 @@
 /* 3.1 Main natural */
 
 @glacier: #FFFFFF;
-@water: #8BD3E0;
-@water_bad: #9dc7c1;
-@river: #36B0BF;
-@wetland: #c9ddd6;
-@beach: #FCEC7E;
+@water: #8AD8E7;
+@water_bad: #95C5B8;
+@river: #5FB4C5;
+@wetland: #C3E0D1;
+@beach: #FADDA0;
 @barerock: #D9D2BF;
 @scree: #CCC7BA;
-@desert: #EEE5B2;
+@desert: #F4E5C8;
 
 /*3.2 Vegetation*/
 
-@green0: #CFD5A8;
-@green1: #C6CF93;
-@green1b: #C1CC89;
-@green2: #BCC87E;
-@green3: #B3C471;
-@green4: #AEC26B;
-@green5: #B0C270;
-@forest: #AABF65;
-@green6: #888C38;
-@flowers: #B3C471;
+@heath: #CED797;
+@green0: #C8D48C;
+@green1: #C4D181;
+@green1b: #BECC76;
+@green2: #B6C96B;
+@green3: #B0C763;
+@green4: #B2C76A;
+@green5: #ADC45F;
+@forest: #A8BE5C;
+@green6: #7B8F35;
+@flowers: #B6C96B;
 
 /* 4.LANDUSE */
 /*4.1 Main landuse*/
 
-@pedestrian_area: #EDE8D6;
-@pedestrian_area_light: #F2EEDA;
-@university: #F8E4BA;
-@hospital: #F8D9D9;
-@industrial: #E4E2EB;
-@sport0: #DDD9B0;
-@sport1: #D7D3AC;
-@sport2: #D1CDA7;
-@parking: #F2F2BC;
-@military: #E53935;
+@pedestrian_area: #F7EDDF;
+@pedestrian_area_light: #FAF0E2;
+@university: #F5DFBC;
+@hospital: #FFDAD6;
+@industrial: #E5E5E4;
+@sport0: #F5EED3;
+@sport1: #E8E8C3;
+@sport2: #D4E796;
+@playground: #E4E7A2;
+@parking: #E8EFEC;
+@military: #DE2D28;
 @prison: #727272;
-@farmland: #E4DEAD;
-@farmyard: #E5D6AC;
+@farmland: #E4E0AD;
+@farmyard: #E6D6AF;
 
 /*4.2 Aerodrome*/
 
-@aerodrome0: #D4BFF2;
-@aerodrome1: #D4BFF2;
-@aerodrome2: #D1C0EB;
-@aerodrome3: #CFC1E8;
-@aerodrome4: #CDC0E3;
-@aerodrome5: #C8BCDE;
+@aerodrome0: #A1B3BE;
+@aerodrome1: #A1B3BE;
+@aerodrome2: #A1B3BE;
+@aerodrome3: #A1B3BE;
+@aerodrome4: #8BABBE;
+@aerodrome5: #82A3B7;
 
 /* 4.3 Barriers */
 @fence: #888888;
-@hedge: #8DB880;
+@hedge: #95A852;
 @cliff: #8C5826;
 
 /* 4.4 Buildings */
 
-@building0: #C9C8BB;
-@building1: #C2C0B3;
+@building0: #D5D6D2;
+@building1: #D0D1CC;
 @building_border0: #A1A096;
 @building_border1: #9B9A8F;
+@historic_wall: #AEAD9E;
 
 /* 5.ROADS */
 /* 5.1 All roads */
 
-@trunk0: #FF7326;
-@trunk1: #FF7A26;
-@primary0:  #FF8726;
-@primary1: #FF9440;
-@primary2: #FFA14C;
-@secondary0: #FFB226;
-@secondary1: #FFBF52;
+@motorway0: #F57A00;
+@motorway1: #F08800;
+@trunk0: #F29718;
+@trunk1: #F29E30;
+@primary0: #F5B74E;
+@primary1: #FABB40;
+@primary2: #FAC256;
+@secondary0: #FFCE5A;
+@secondary1: #FFD573;
 @tertiary: #FFFFFF;
-@residential: #F8F8F8;
-@pedestrian: #F8F8F8;
-@footway: #F8F8F8;
-@cycleway: #5654FF;
-@construction: #BBBBAA;
+@residential: #FFFEFE;
+@pedestrian: #FFFAF5;
+@footway: #FFFAF5;
+@cycleway: #8B8AFF;
+@construction: #B2B8C8;
 @track: #635730;
-@path: #A05012;
+@path: #8E4E1D;
 @path_expert: #3D2617;
 @bridleway: #3D361E;
 
 /* 5.2 Bridges */
 
-@bridge_background: #EDEBDB;
-@bridge_casing: #808080;
+@bridge_background: #FCF1DE;
+@bridge_casing: #E1D4BE;
 
 /* 5.3 Tunnels */
 
-@trunk_tunnel: #FCA462;
+@motorway_tunnel: #F2A540;
+@motorway_tunnel_casing: #808080;
+@trunk_tunnel: #F6BB5F;
 @trunk_tunnel_casing: #808080;
-@primary_tunnel: #FCA462;
+@primary_tunnel: #F6CB85;
 @primary_tunnel_casing: #808080;
-@secondary_tunnel: #FFBF52;
+@secondary_tunnel: #F9D393;
 @secondary_tunnel_casing:  #808080;
 @tertiary_tunnel: #FFFFFF;
 @tertiary_tunnel_casing:  #808080;
-@residential_tunnel: #FFFFFF;
+@residential_tunnel: #FFFEFE;
 @residential_tunnel_casing: #808080;
 
 /* 5.4 Piste */
@@ -149,15 +157,15 @@
 
 /* 5.5 Transport */
 
-@railway_light: #B2B1A2;
-@railway: #969586;
+@railway_light: #B0B1A4;
+@railway: #96968B;
 @railway_tourism: #9C7D65;
 @railway_dash: #EEEEEE;
 @railway_tunnel: #808080;
 @aerialway: #444444;
 @powerline: #969586;
 @tram: #7A7A7A;
-@ferry: #4499Bb;
+@ferry: #59A2AF;
 
 /* 6.LABELS COLORS */
 /* 6.1 Main labels */
@@ -169,7 +177,7 @@
 
 /* 6.2 Natural labels */
 
-@water_label: #4499Bb;
+@water_label: #278FA2;
 @park_label: #3A7921;
 @halo_park_label: #FFFFFF;
 
