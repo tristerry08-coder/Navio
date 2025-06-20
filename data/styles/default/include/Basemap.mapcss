@@ -434,8 +434,6 @@ area|z14-[area:highway=pedestrian],
 area|z14-[highway=footway][area?],
 area|z14-[area:highway=footway],
 area|z14-[area:highway=living_street],
-area|z16-[public_transport=platform],
-area|z16-[railway=platform],
 area|z16-[amenity=place_of_worship]
 {fill-color: @pedestrian_area;}
 
@@ -445,6 +443,10 @@ area|z16-[highway=footway][area?],
 area|z16-[area:highway=footway],
 area|z16-[area:highway=living_street],
 {fill-color: @pedestrian_area_light;}
+
+area|z16-[public_transport=platform],
+area|z16-[railway=platform],
+{fill-color: @railway_platform;}
 
 /* 7.6 Airports */
 

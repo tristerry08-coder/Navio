@@ -67,6 +67,7 @@
 
 @pedestrian_area: #F7EDDF;
 @pedestrian_area_light: #FAF0E2;
+@railway_platform: #ECE3D6;
 @university: #F5DFBC;
 @hospital: #FFDAD6;
 @industrial: #E5E5E4;
@@ -82,10 +83,10 @@
 
 /*4.2 Aerodrome*/
 
-@aerodrome0: #A1B3BE;
-@aerodrome1: #A1B3BE;
-@aerodrome2: #A1B3BE;
-@aerodrome3: #A1B3BE;
+@aerodrome0: #96B9CC;
+@aerodrome1: #94B6C9;
+@aerodrome2: #92B4C7;
+@aerodrome3: #90B1C4;
 @aerodrome4: #8BABBE;
 @aerodrome5: #82A3B7;
 

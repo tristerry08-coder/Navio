@@ -67,6 +67,7 @@
 
 @pedestrian_area: #262222;
 @pedestrian_area_light: #262222;
+@railway_platform: #262222;
 @university: #261F13;
 @hospital: #261916;
 @industrial: #191419;
