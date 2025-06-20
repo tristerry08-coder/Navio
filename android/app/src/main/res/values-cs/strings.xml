@@ -460,7 +460,7 @@
     <string name="editor_profile_changes">Oveřené změny</string>
     <string name="editor_focus_map_on_location">Přetažením mapy umístěte křížek na místo, kde se nachází místo nebo podnik.</string>
     <string name="editor_edit_place_title">Probíhají úpravy</string>
-    <string name="editor_add_place_title">Probíhá přidávání</string>
+    <string name="editor_add_place_title">Přidávání</string>
     <string name="editor_edit_place_name_hint">Název místa</string>
     <!-- The second part of the editor_edit_place_name_hint to explain that name should be entered in a local language, see https://wiki.openstreetmap.org/wiki/Key:name -->
     <string name="editor_default_language_hint">Jak je napsáno v místním jazyce</string>

@@ -1485,3 +1485,8 @@
 "type.leisure.sports_hall" = "Spor salonu";
 "type.amenity.studio" = "Stüdyo";
 "type.sport.diving" = "Dalış Sporu";
+"type.highway.ladder" = "Merdiven";
+"type.man_made.crane" = "Vinç";
+"type.leisure.firepit" = "Ateş çukuru";
+"type.landuse.plant_nursery" = "Fidanlık";
+"type.barrier.guard_rail" = "Korkuluk";

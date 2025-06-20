@@ -1342,4 +1342,5 @@
     <string name="type.attraction.big_wheel">観覧車</string>
     <string name="type.man_made.crane">クレーン</string>
     <string name="type.mapswithme.grid">mapswithme-グリッド</string>
+    <string name="type.barrier.chain">チェーンポール</string>
 </resources>

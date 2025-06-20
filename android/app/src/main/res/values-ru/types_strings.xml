@@ -1391,6 +1391,16 @@
     <string name="type.amenity.studio">Студия</string>
     <string name="type.leisure.firepit">Место разведения костра</string>
     <string name="type.highway.ladder">Лестница-лаз</string>
-    <string name="type.sport.diving">Подводное плавание</string>
+    <string name="type.sport.diving">Высотные прыжки в воду</string>
     <string name="type.amenity.love_hotel">Любовный отель</string>
+    <string name="type.man_made.crane">Кран</string>
+    <string name="type.hwtag.nofoot">Не пешая</string>
+    <string name="type.hwtag.nocar">Не для машин</string>
+    <string name="type.hwtag">Дорожный знак</string>
+    <string name="type.hwtag.yesbicycle">Велосипедам можно</string>
+    <string name="type.hwtag.yescar">Машинам можно</string>
+    <string name="type.hwtag.yesfoot">Пешком можно</string>
+    <string name="type.mapswithme">mapswithme</string>
+    <string name="type.mapswithme.grid">mapswithme-сетка</string>
+    <string name="type.route.shuttle_train">Челночный поезд</string>
 </resources>

@@ -1370,4 +1370,9 @@
     <string name="type.amenity.studio">Stüdyo</string>
     <string name="type.sport.diving">Dalış Sporu</string>
     <string name="type.man_made.survey_point">Anket Noktası</string>
+    <string name="type.highway.ladder">Merdiven</string>
+    <string name="type.man_made.crane">Vinç</string>
+    <string name="type.leisure.firepit">Ateş çukuru</string>
+    <string name="type.landuse.plant_nursery">Fidanlık</string>
+    <string name="type.barrier.guard_rail">Korkuluk</string>
 </resources>

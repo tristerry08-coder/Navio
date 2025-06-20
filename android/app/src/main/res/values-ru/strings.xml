@@ -898,4 +898,10 @@
     <string name="app_site_url">https://comaps.app/ru/</string>
     <string name="bluesky">Bluesky</string>
     <string name="codeberg">Codeberg</string>
+    <string name="saved">Сохранено</string>
+    <string name="pref_left_button_disable">Выключить</string>
+    <string name="pref_left_button_title">Настройки левой кнопки</string>
+    <string name="editor_building_levels">Этажей (вкл. подвалы искл. крышу)</string>
+    <string name="editor_level">Этаж (0 это первый этаж)</string>
+    <string name="error_enter_correct_level">Введите правильный номер этажа</string>
 </resources>

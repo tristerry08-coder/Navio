@@ -566,7 +566,7 @@
 "editor_add_select_category_popular_subtitle" = "Populární";
 "editor_add_select_category_all_subtitle" = "Všechny kategorie";
 "editor_edit_place_title" = "Probíhají úpravy";
-"editor_add_place_title" = "Probíhá přidávání";
+"editor_add_place_title" = "Přidávání";
 "editor_edit_place_name_hint" = "Název místa";
 
 /* The second part of the editor_edit_place_name_hint to explain that name should be entered in a local language, see https://wiki.openstreetmap.org/wiki/Key:name */

@@ -894,4 +894,5 @@
     <string name="error_enter_correct_bluesky_page">Gireceğiniz Bluesky kullanıcı adı ve adresi halihazırda mevcut olmalı</string>
     <string name="editor_building_levels">Katlar (zemin kat dahil, çatı hariç)</string>
     <string name="editor_level">Giriş (0 zemin kattır)</string>
+    <string name="error_enter_correct_level">Geçerli kat numarası girin</string>
 </resources>

@@ -38,7 +38,7 @@
     <string name="try_again">Tentar novamente</string>
     <string name="about_menu_title">Sobre o CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Projeto aberto alimentado pela comunidade</string>
+    <string name="about_headline">Projeto aberto desenvolvido pela comunidade</string>
     <!-- Text in About screen -->
     <string name="about_proposition_1">• Fácil de usar e polido</string>
     <!-- Text in About screen -->
@@ -88,9 +88,9 @@
     <!-- Header of settings activity where user defines storage path -->
     <string name="maps_storage">Guardar mapas em</string>
     <!-- Detailed description of Maps Storage settings button -->
-    <string name="maps_storage_summary">Selecione o local onde os mapas devem ser descarregados</string>
+    <string name="maps_storage_summary">Selecione uma pasta para onde os mapas devem ser descarregados.</string>
     <!-- E.g. "Downloaded maps: 500Mb" in Maps Storage settings -->
-    <string name="maps_storage_downloaded">Mapas</string>
+    <string name="maps_storage_downloaded">Mapas Descarregados</string>
     <!-- Question dialog for transferring maps from one storage to another -->
     <string name="move_maps">Mover mapas?</string>
     <!-- Ask user to wait several minutes (some long process in modal dialog). -->
@@ -822,7 +822,7 @@
     <!-- Message for the toast when saving the track recording is finished but nothing to save. -->
     <string name="track_recording_toast_nothing_to_save">O trajeto está vazio - não há nada para guardar</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
-    <string name="error_no_file_manager_app">Não é possível apresentar a caixa de diálogo de seleção de pastas porque não está instalada nenhuma aplicação adequada no seu dispositivo. Instale uma aplicação de gestão de ficheiros e tente novamente</string>
+    <string name="error_no_file_manager_app">Não é possível apresentar a caixa de diálogo de seleção de pastas porque não está instalada nenhuma aplicação adequada no seu dispositivo. Instale uma aplicação de gestão de ficheiros e tente novamente.</string>
     <string name="choose_color">Escolher cor</string>
     <string name="edit_track">Editar trajeto</string>
     <string name="uri_open_location_failed">Nenhuma aplicação instalada que possa abrir a localização</string>
@@ -859,4 +859,24 @@
     <string name="delete_place_empty_comment_error">Por favor indique a razão para apagar este local</string>
     <string name="editor_building_levels">Pisos (inc. rés de chão, excl. telhado)</string>
     <string name="error_enter_correct_level">Introduza um número de piso válido</string>
+    <string name="saved">Guardado</string>
+    <string name="codeberg">Codeberg</string>
+    <string name="disk_error">Não foi possível criar a pasta e mover os ficheiros no Armazenamento Interno do dispositivo ou no Cartão SD</string>
+    <string name="enable_show_on_lock_screen_description">Quando ativado, a aplicação irá funcionar sobre o ecrã de bloqueio mesmo quando o dispositivo estiver bloqueado.</string>
+    <string name="pref_left_button_disable">Desativar</string>
+    <string name="error_enter_correct_facebook_page">Introduza um endereço web válido para uma conta ou página de Facebook</string>
+    <string name="error_enter_correct_instagram_page">Introduza um nome de utilizador ou endereço web de Instagram válido</string>
+    <string name="error_enter_correct_twitter_page">Introduza um nome de utilizador ou endereço web do Twitter válido</string>
+    <string name="error_enter_correct_vk_page">Introduza um nome de utilizador ou endereço web de VK válido</string>
+    <string name="error_enter_correct_fediverse_page">Introduza um nome de utilizador ou endereço web do Mastodon válido</string>
+    <string name="error_enter_correct_bluesky_page">Introduza um nome de utilizador ou endereço web de Bluesky válido</string>
+    <string name="disk_error_title">Erro no disco</string>
+    <string name="disconnect_usb_cable_title">Desconecte o cabo USB</string>
+    <string name="enable_show_on_lock_screen">Mostrar no ecrã de bloqueio</string>
+    <string name="change_map_locale">Idioma do mapa</string>
+    <string name="telegram_url">https://t.me/CoMapsApp/</string>
+    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
+    <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
+    <string name="translated_om_site_url">https://comaps.app/</string>
+    <string name="comma_separated_pair">%1$s, %2$s</string>
 </resources>
