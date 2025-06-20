@@ -1,8 +1,8 @@
-• Dados do OSM de 2/06
-• Adicionada uma configuração para alterar ou ocultar o botão mais à esquerda
-• Salve rotas construídas como trilhas
-• Adicionado metrô de Qingdao, viveiros de plantas, guarda-corpos de rodovias, escadas, estúdios, casas de dança, fogueiras e motéis
-• Barra de navegação do sistema transparente no modo claro
-• Adicionadas opções de contato Mastodon e Bluesky aos POIs e ao editor OSM
-• Exibição de ângulo de azimute na visualização de seta de direção
-• Novas traduções
+• Atualizadas as cores do mapa - mais claras, quentes e amigáveis!
+• Editor OSM: adicionado um campo de "andar"
+• Atualizados ícones de postos de gasolina e recarga
+• Atualizadas cores de alguns elementos da interface do usuário
+• Correção de links de compartilhamento de localização
+• Correção de erros de tamanho de mapa exibidos incorretamente após download
+• Correção de pequenos saltos na seta de localização em alguns casos
+• Correções de bugs do Android 5 e 6

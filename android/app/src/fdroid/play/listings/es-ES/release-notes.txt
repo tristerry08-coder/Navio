@@ -1,0 +1,8 @@
+• colores del mapa renovados - más claros, cálidos y amigables!
+• editor OSM: campo "nivel" agregado
+• actualización de íconos de carga de combustible y electricidad
+• actualización de colores de algunos elementos de IU
+• corrección de links para compartir ubicación
+• corrección de tamaño incorrecto del mapa luego de errores de descarga
+• corrección de pequeños saltos de flechas de posición en algunos casos
+• corrección de bugs en Android 5 y 6

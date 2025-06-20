@@ -1,8 +1,8 @@
-• OpenStreetMap Daten vom 2. Juni
-• Neue Einstellungsoption zum Ändern oder Ausblenden der "Über CoMaps" Schaltfläche ganz links
-• Routen als GPS Track speichern
-• Qingdao Metro, Gärtnereien, Leitplanken, Leitern, Studios, Tanzsäle, Feuerstellen und Stundenhotels hinzugefügt
-• transparente Navigationsleiste im Light Mode
-• Mastodon und Bluesky Kontaktoptionen für POIs und im OSM-Editor hinzugefügt
-• Anzeige der Kompassgradzahl in der Richtungspfeilansicht
-• Übersetzungen aktualisiert
+• Kartenfarben aufgefrischt – heller, wärmer, freundlicher!
+• OSM-Editor: „Stockwerk“ Feld hinzugefügt
+• Symbole für Tankstellen und Ladestationen aktualisiert
+• Farben einiger UI Elemente überarbeitet
+• Funktionierende Links zum Teilen von Orten
+• Falsch angezeigte Kartengröße nach Downloadfehlern korrigiert
+• Kleine Sprünge des Standortpfeils in bestimmten Fällen behoben
+• Bugfixes für Android 5 & 6

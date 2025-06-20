@@ -1,8 +1,8 @@
-• OpenStreetMap data as of June 2
-• add a setting to change the leftmost button or hide it
-• save built routes as tracks
-• add Qingdao metro, plant nurseries, highway guard rails, ladders, studios, dance venues, firepits, love hotels
-• transparent system navigation bar in the light mode
-• add Mastodon and Bluesky contact options to POIs and OSM editor
-• display Azimuth angle in direction arrow view
-• update translations
+• refresh map colors - lighter, warmer, friendlier!
+• OSM editor: add a "level" field
+• update gas and charging stations icons
+• update colors of some UI elements
+• fix location sharing links
+• fix wrong displayed map size after download errors
+• fix small location arrow jumps in some cases
+• android 5&6 bugfixes

@@ -1,8 +1,8 @@
-• Données OpenStreetMap du 02 juin
-• Ajout d'une option pour personnaliser le bouton tout à gauche sur l'écran principal
-• Ajout de la possibilité d'enregistrer un itinéraire en tant que traces GPS
-• Ajout du métro de Qingdao, et divers objets sur la carte
-• Support de la barre de navigation transparent en mode clair
-• Ajout des tags Mastodon et Bluesky sur les lieux et dans l'éditeur
-• Affichage de l'azimut
-• Mise à jour des traductions
+• Mise à jour des couleurs de la carte, plus claires, plus chaudes et plus conviviales
+• Editeur OSM: ajout du champ "level"
+• Mise à jour des icônes des stations-service et bornes de recharge
+• Mise à jour des couleurs de certains éléments d'interface
+• Correction de lien de partage
+• Correction de la taille d'une carte suite à une erreur de téléchargement
+• Correction de saut de la localisation dans certaines situations
+• Corrections de bug sur Android 5&6
