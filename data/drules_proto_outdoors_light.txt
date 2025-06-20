@@ -54430,6 +54430,13 @@ cont {
 cont {
   name: "leisure-playground"
   element {
+    scale: 15
+    area {
+      color: 15001506
+      priority: -1800
+    }
+  }
+  element {
     scale: 16
     area {
       color: 15001506
