@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.22.1)
+
 project(omim C CXX)
 
 set(CMAKE_CXX_STANDARD 20)
@@ -105,7 +106,7 @@ if (${CMAKE_BUILD_TYPE} STREQUAL "Debug")
 elseif (${CMAKE_BUILD_TYPE} MATCHES "Rel")
   add_definitions(-DRELEASE)
   if (NOT MSVC)
-    add_compile_options(-Ofast $<$<CXX_COMPILER_ID:GNU>:-flto=auto>)  # Also enables -ffast-math
+    add_compile_options(-O3 $<$<CXX_COMPILER_ID:GNU>:-flto=auto>)
   endif()
 else()
   message(FATAL_ERROR "Unknown build type: " ${CMAKE_BUILD_TYPE})
