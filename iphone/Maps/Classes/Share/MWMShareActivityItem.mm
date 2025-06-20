@@ -107,7 +107,7 @@ NSString * httpGe0Url(NSString * shortUrl)
 - (LPLinkMetadata *)activityViewControllerLinkMetadata:(UIActivityViewController *)activityViewController API_AVAILABLE(ios(13.0))
 {
   LPLinkMetadata * metadata = [[LPLinkMetadata alloc] init];
-  metadata.originalURL = [NSURL URLWithString:[self url:NO]];
+  metadata.originalURL = [NSURL URLWithString:httpGe0Url([self url:NO])];
   metadata.title = self.isMyPosition ? L(@"core_my_position") : self.data.previewData.title;
   metadata.iconProvider = [[NSItemProvider alloc] initWithObject:[UIImage imageNamed:@"imgLogo"]];
   return metadata;
@@ -131,9 +131,9 @@ NSString * httpGe0Url(NSString * shortUrl)
   {
     BOOL const hasSubject = [activityType isEqualToString:UIActivityTypeMail];
     if (hasSubject)
-      return [NSString stringWithFormat:@"%@ %@", url, ge0Url];
+      return url;
     return [NSString
-        stringWithFormat:@"%@ %@\n%@", L(@"my_position_share_email_subject"), url, ge0Url];
+        stringWithFormat:@"%@ %@", L(@"my_position_share_email_subject"), url];
   }
 
   NSMutableArray *phones = [NSMutableArray new];
@@ -146,8 +146,7 @@ NSString * httpGe0Url(NSString * shortUrl)
                                  self.data.previewData.subtitle,
                                  self.data.previewData.secondarySubtitle,
                                  [phones componentsJoinedByString:@"; "],
-                                 url,
-                                 ge0Url};
+                                 url};
 
   for (auto const & str : strings)
   {
