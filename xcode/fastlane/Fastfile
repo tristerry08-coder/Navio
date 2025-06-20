@@ -121,7 +121,7 @@ platform :ios do
       build_configurations: "Release",
       use_automatic_signing: false,
       code_sign_identity: "Apple Distribution",
-      team_id: "9Z6432XD7L",
+      team_id: "534D2KJBUK",
       profile_name: "App Distribution (Fastlane)",
     )
     update_code_signing_settings(
@@ -130,11 +130,11 @@ platform :ios do
       build_configurations: "Release",
       use_automatic_signing: false,
       code_sign_identity: "Apple Distribution",
-      team_id: "9Z6432XD7L",
+      team_id: "534D2KJBUK",
       profile_name: "WidgetExtension Distribution (Fastlane)",
     )
     build_ios_app(
-      workspace: 'omim.xcworkspace',
+      workspace: 'CoMaps.xcworkspace',
       scheme: 'CoMaps',
       configuration: 'Release',
       destination: 'generic/platform=iOS',

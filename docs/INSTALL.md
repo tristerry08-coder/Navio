@@ -386,25 +386,25 @@ Set up your developer account and add certificates:
 
 Reconfigure the project to use your developer signing keys:
 
-- Open `xcode/omim.xcworkspace` in Xcode.
-- Click on the "Maps" project and select the "OMaps" target.
+- Open `xcode/CoMaps.xcworkspace` in Xcode.
+- Click on the "Maps" project and select the "CoMaps" target.
 - Open "Signing & Capabilities" tab.
-- Choose a unique bundle identifier (not app.organicmaps.debug) and your team.
+- Choose a unique bundle identifier (not app.comaps.debug) and your team.
 - Select "Automatically manage signing".
-- Click on "OMapsTests" target.
+- Click on "CoMapsTests" target.
 - Choose a unique bundle identifier based on the one you chose previously (e.g. app.comapsdev.tests) and your team.
-- Click on "OMapsWidgetExtension" target.
+- Click on "CoMapsWidgetExtension" target.
 - Choose a unique bundle identifier based on the one you chose previously (e.g. app.comapsdev.debug.widgetextension) and your team.
 
-If you want to run CoMaps on a real device, you have to remove the CarPlay entitlement. Open `iphone/Maps/OMaps-Debug.entitlements`
+If you want to run CoMaps on a real device, you have to remove the CarPlay entitlement. Open `iphone/Maps/CoMaps-Debug.entitlements`
 and remove the `com.apple.developer.carplay-maps` entry. Now you can sign your app again in the "Signing & Capabilities" tab. Testing CarPlay
 on a real device requires [requesting entitlements from Apple](https://developer.apple.com/documentation/carplay/requesting_carplay_entitlements).
 
 ### Building and running
 
-Open `xcode/omim.xcworkspace` in Xcode.
+Open `xcode/CoMaps.xcworkspace` in Xcode.
 
-Select "OMaps" product scheme.
+Select "CoMaps" product scheme.
 
 - Choose "Your Mac (Designed for iPad)" to run on Mac without using Simulator.
 - Choose either "iPhone _" or "iPad _" to run in the Simulator.
