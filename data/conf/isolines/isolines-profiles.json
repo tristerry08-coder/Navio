@@ -63,22 +63,10 @@
         {
             "key": "poor",
             "value": {
-                "alitudesStep": 500,
+                "alitudesStep": 100,
                 "gaussianFilterRFactor": 1.0,
                 "gaussianFilterStDev": 2.0,
-                "latLonStepFactor": 2,
-                "maxIsolinesLength": 500,
-                "medianFilterR": 1,
-                "simplificationZoom": 14
-            }
-        },
-        {
-            "key": "extra_poor",
-            "value": {
-                "alitudesStep": 1000,
-                "gaussianFilterRFactor": 1.0,
-                "gaussianFilterStDev": 2.0,
-                "latLonStepFactor": 2,
+                "latLonStepFactor": 4,
                 "maxIsolinesLength": 500,
                 "medianFilterR": 1,
                 "simplificationZoom": 14
