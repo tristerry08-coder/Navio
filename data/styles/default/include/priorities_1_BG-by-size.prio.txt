@@ -37,7 +37,7 @@ leisure-swimming_pool-private                       # area z13- (also has icon z
 landuse-landfill                                    # area z15- (also has icon z15-, caption(optional) z15-)
 === 220
 
-leisure-playground                                  # area z16- (also has icon z17-, caption(optional) z17-)
+leisure-playground                                  # area z15- (also has icon z17-, caption(optional) z17-)
 === 200
 
 amenity-fountain                                    # area z16- (also has icon z16-, caption(optional) z16-)
