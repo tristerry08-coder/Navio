@@ -27296,7 +27296,7 @@ cont {
     scale: 10
     lines {
       width: 0.9
-      color: 16103246
+      color: 16087552
       priority: 228
       join: BEVELJOIN
       cap: BUTTCAP
@@ -27320,7 +27320,7 @@ cont {
     scale: 11
     lines {
       width: 1.1
-      color: 16103246
+      color: 16087552
       priority: 228
       join: BEVELJOIN
       cap: BUTTCAP
@@ -27344,7 +27344,7 @@ cont {
     scale: 12
     lines {
       width: 1.4
-      color: 16103246
+      color: 16087552
       priority: 228
       join: BEVELJOIN
       cap: BUTTCAP
@@ -27368,7 +27368,7 @@ cont {
     scale: 13
     lines {
       width: 1.9
-      color: 16103246
+      color: 16087552
       priority: 228
       cap: BUTTCAP
     }
@@ -27391,7 +27391,7 @@ cont {
     scale: 14
     lines {
       width: 2.7
-      color: 16103246
+      color: 15763456
       priority: 228
       cap: BUTTCAP
     }
@@ -27414,7 +27414,7 @@ cont {
     scale: 15
     lines {
       width: 3.7
-      color: 16103246
+      color: 15763456
       priority: 228
       cap: BUTTCAP
     }
@@ -27437,7 +27437,7 @@ cont {
     scale: 16
     lines {
       width: 5.1
-      color: 16103246
+      color: 15763456
       priority: 228
     }
     path_text {
@@ -27459,7 +27459,7 @@ cont {
     scale: 17
     lines {
       width: 6.7
-      color: 16103246
+      color: 15763456
       priority: 228
     }
     path_text {
@@ -27481,7 +27481,7 @@ cont {
     scale: 18
     lines {
       width: 9.5
-      color: 16103246
+      color: 15763456
       priority: 228
     }
     path_text {
@@ -27503,7 +27503,7 @@ cont {
     scale: 19
     lines {
       width: 11.7
-      color: 16103246
+      color: 15763456
       priority: 228
     }
     path_text {
@@ -27525,7 +27525,7 @@ cont {
     scale: 20
     lines {
       width: 11.7
-      color: 16103246
+      color: 15763456
       priority: 228
     }
     path_text {
@@ -27550,7 +27550,7 @@ cont {
     scale: 10
     lines {
       width: 0.9
-      color: 16103246
+      color: 16087552
       priority: 228
       join: BEVELJOIN
       cap: BUTTCAP
@@ -27574,7 +27574,7 @@ cont {
     scale: 11
     lines {
       width: 1.1
-      color: 16103246
+      color: 16087552
       priority: 228
       join: BEVELJOIN
       cap: BUTTCAP
@@ -27598,7 +27598,7 @@ cont {
     scale: 12
     lines {
       width: 1.4
-      color: 16103246
+      color: 16087552
       priority: 228
       join: BEVELJOIN
       cap: BUTTCAP
@@ -27622,7 +27622,7 @@ cont {
     scale: 13
     lines {
       width: 1.9
-      color: 16103246
+      color: 16087552
       priority: 228
       cap: BUTTCAP
     }
@@ -27657,7 +27657,7 @@ cont {
     }
     lines {
       width: 2.7
-      color: 16103246
+      color: 15763456
       priority: 228
       cap: BUTTCAP
     }
@@ -27692,7 +27692,7 @@ cont {
     }
     lines {
       width: 3.7
-      color: 16103246
+      color: 15763456
       priority: 228
       cap: BUTTCAP
     }
@@ -27727,7 +27727,7 @@ cont {
     }
     lines {
       width: 5.1
-      color: 16103246
+      color: 15763456
       priority: 228
     }
     path_text {
@@ -27761,7 +27761,7 @@ cont {
     }
     lines {
       width: 6.7
-      color: 16103246
+      color: 15763456
       priority: 228
     }
     path_text {
@@ -27795,7 +27795,7 @@ cont {
     }
     lines {
       width: 9.5
-      color: 16103246
+      color: 15763456
       priority: 228
     }
     path_text {
@@ -27829,7 +27829,7 @@ cont {
     }
     lines {
       width: 11.7
-      color: 16103246
+      color: 15763456
       priority: 228
     }
     path_text {
@@ -27863,7 +27863,7 @@ cont {
     }
     lines {
       width: 11.7
-      color: 16103246
+      color: 15763456
       priority: 228
     }
     path_text {
@@ -27888,7 +27888,7 @@ cont {
     scale: 10
     lines {
       width: 0.9
-      color: 16103246
+      color: 16087552
       priority: 228
       join: BEVELJOIN
       cap: BUTTCAP
@@ -27912,7 +27912,7 @@ cont {
     scale: 11
     lines {
       width: 1.1
-      color: 16103246
+      color: 16087552
       priority: 228
       join: BEVELJOIN
       cap: BUTTCAP
@@ -27936,7 +27936,7 @@ cont {
     scale: 12
     lines {
       width: 1.4
-      color: 16103246
+      color: 16087552
       priority: 228
       join: BEVELJOIN
       cap: BUTTCAP
@@ -40016,7 +40016,7 @@ cont {
     scale: 10
     lines {
       width: 0.9
-      color: 16103246
+      color: 15900208
       priority: 228
       join: BEVELJOIN
       cap: BUTTCAP
@@ -40040,7 +40040,7 @@ cont {
     scale: 11
     lines {
       width: 1.1
-      color: 16103246
+      color: 15900208
       priority: 228
       join: BEVELJOIN
       cap: BUTTCAP
@@ -40064,7 +40064,7 @@ cont {
     scale: 12
     lines {
       width: 1.4
-      color: 16103246
+      color: 15900208
       priority: 228
       join: BEVELJOIN
       cap: BUTTCAP
@@ -40088,7 +40088,7 @@ cont {
     scale: 13
     lines {
       width: 1.9
-      color: 16103246
+      color: 15900208
       priority: 228
       cap: BUTTCAP
     }
@@ -40111,7 +40111,7 @@ cont {
     scale: 14
     lines {
       width: 2.7
-      color: 16103246
+      color: 15900208
       priority: 228
       cap: BUTTCAP
     }
@@ -40134,7 +40134,7 @@ cont {
     scale: 15
     lines {
       width: 3.7
-      color: 16103246
+      color: 15900208
       priority: 228
       cap: BUTTCAP
     }
@@ -40157,7 +40157,7 @@ cont {
     scale: 16
     lines {
       width: 5.1
-      color: 16103246
+      color: 15900208
       priority: 228
     }
     path_text {
@@ -40179,7 +40179,7 @@ cont {
     scale: 17
     lines {
       width: 6.7
-      color: 16103246
+      color: 15900208
       priority: 228
     }
     path_text {
@@ -40201,7 +40201,7 @@ cont {
     scale: 18
     lines {
       width: 9.5
-      color: 16103246
+      color: 15900208
       priority: 228
     }
     path_text {
@@ -40223,7 +40223,7 @@ cont {
     scale: 19
     lines {
       width: 11.7
-      color: 16103246
+      color: 15900208
       priority: 228
     }
     path_text {
@@ -40245,7 +40245,7 @@ cont {
     scale: 20
     lines {
       width: 11.7
-      color: 16103246
+      color: 15900208
       priority: 228
     }
     path_text {
@@ -40270,7 +40270,7 @@ cont {
     scale: 10
     lines {
       width: 0.9
-      color: 16103246
+      color: 15900208
       priority: 228
       join: BEVELJOIN
       cap: BUTTCAP
@@ -40294,7 +40294,7 @@ cont {
     scale: 11
     lines {
       width: 1.1
-      color: 16103246
+      color: 15900208
       priority: 228
       join: BEVELJOIN
       cap: BUTTCAP
@@ -40318,7 +40318,7 @@ cont {
     scale: 12
     lines {
       width: 1.4
-      color: 16103246
+      color: 15900208
       priority: 228
       join: BEVELJOIN
       cap: BUTTCAP
@@ -40342,7 +40342,7 @@ cont {
     scale: 13
     lines {
       width: 1.9
-      color: 16103246
+      color: 15900208
       priority: 228
       cap: BUTTCAP
     }
@@ -40377,7 +40377,7 @@ cont {
     }
     lines {
       width: 2.7
-      color: 16103246
+      color: 15900208
       priority: 228
       cap: BUTTCAP
     }
@@ -40412,7 +40412,7 @@ cont {
     }
     lines {
       width: 3.7
-      color: 16103246
+      color: 15900208
       priority: 228
       cap: BUTTCAP
     }
@@ -40447,7 +40447,7 @@ cont {
     }
     lines {
       width: 5.1
-      color: 16103246
+      color: 15900208
       priority: 228
     }
     path_text {
@@ -40481,7 +40481,7 @@ cont {
     }
     lines {
       width: 6.7
-      color: 16103246
+      color: 15900208
       priority: 228
     }
     path_text {
@@ -40515,7 +40515,7 @@ cont {
     }
     lines {
       width: 9.5
-      color: 16103246
+      color: 15900208
       priority: 228
     }
     path_text {
@@ -40549,7 +40549,7 @@ cont {
     }
     lines {
       width: 11.7
-      color: 16103246
+      color: 15900208
       priority: 228
     }
     path_text {
@@ -40583,7 +40583,7 @@ cont {
     }
     lines {
       width: 11.7
-      color: 16103246
+      color: 15900208
       priority: 228
     }
     path_text {
@@ -40608,7 +40608,7 @@ cont {
     scale: 10
     lines {
       width: 0.9
-      color: 16103246
+      color: 15900208
       priority: 228
       join: BEVELJOIN
       cap: BUTTCAP
@@ -40632,7 +40632,7 @@ cont {
     scale: 11
     lines {
       width: 1.1
-      color: 16103246
+      color: 15900208
       priority: 228
       join: BEVELJOIN
       cap: BUTTCAP
@@ -40656,7 +40656,7 @@ cont {
     scale: 12
     lines {
       width: 1.4
-      color: 16103246
+      color: 15900208
       priority: 228
       join: BEVELJOIN
       cap: BUTTCAP
