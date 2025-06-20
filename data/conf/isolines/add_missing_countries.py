@@ -19,7 +19,7 @@ with open('countries-to-generate.json') as f1:
       entry = {
             "key": c,
             "value": {
-                "profileName": "normal",
+                "profileName": "poor",
                 "tileCoordsSubset": list(),
                 "tilesAreBanned": False
             }

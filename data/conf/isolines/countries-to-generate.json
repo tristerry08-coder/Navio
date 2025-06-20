@@ -9691,6 +9691,262 @@
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
+        },
+        {
+            "key": "Angola",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Australia_Northern Territory",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Australia_Queensland",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Australia_Western Australia",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Brazil_Mato Grosso",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Brazil_North Region_East",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Brazil_North Region_West",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Cameroon_Central",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Canada_Nunavut_North",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Canada_Nunavut_South",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "China_Gansu",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "China_Sichuan",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Colombia_East",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Congo-Kinshasa_West",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Indonesia_Central",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Indonesia_West",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Iran_East",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Kenya",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Libya",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Madagascar",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Malaysia",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Mali",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Mongolia",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Mozambique",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Myanmar",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Vietnam",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Nigeria_South",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Russia_Krasnoyarsk Krai_North",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Russia_Sakha Republic",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Tanzania",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Zambia",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
+        },
+        {
+            "key": "Zimbabwe",
+            "value": {
+                "profileName": "poor",
+                "tileCoordsSubset": [],
+                "tilesAreBanned": false
+            }
         }
     ]
 }
