@@ -30,6 +30,7 @@
   <color name="black_16">#29000000</color> <!-- 16% black -->
   <color name="black_20">#33000000</color> <!-- 20% black -->
   <color name="black_24">#3D000000</color> <!-- 24% black -->
+  <color name="black_30">#4D000000</color>  <!-- 30% black -->
   <color name="black_38">#61000000</color>  <!-- 38% black -->
   <color name="black_40">#66000000</color>  <!-- 40% black -->
   <color name="black_50">#80000000</color> <!-- 50% black -->
@@ -124,8 +125,8 @@
   <!-- LanesView -->
   <color name="nav_lane_arrow_active_light">@color/white_primary</color>
   <color name="nav_lane_arrow_active_night">@color/black_primary</color>
-  <color name="nav_lane_arrow_inactive_light">@color/black_20</color>
-  <color name="nav_lane_arrow_inactive_night">@color/black_20</color>
+  <color name="nav_lane_arrow_inactive_light">@color/black_30</color>
+  <color name="nav_lane_arrow_inactive_night">@color/black_30</color>
 
   <!-- Editor -->
   <color name="bg_editor_light">#FFF2F6F6</color>
