@@ -423,7 +423,7 @@
 "dialog_routing_disclaimer_priority" = "— 道路の状況や道路交通法、道路標識をナビゲーションよりも常に優先してください;";
 "dialog_routing_disclaimer_precision" = "— マップは必ずしも正確であるとは限らず、また案内ルートが常に目的地までの最適なルートであるとは限りません。;";
 "dialog_routing_disclaimer_recommendations" = "— 表示されるルートはあくまでも推奨ルートとしてご利用ください。;";
-"dialog_routing_disclaimer_borders" = "— 国境付近のルートにご注意ください。アプリの作成したルートは時々入国の許可されていない国への国境を超える場合があります;";
+"dialog_routing_disclaimer_borders" = "— 国境付近のルートにご注意ください。アプリの作成したルートは時々入国の許可されていない国への国境を超える場合があります。";
 "dialog_routing_disclaimer_beware" = "よく注意して安全運転を心がけましょう！";
 "dialog_routing_check_gps" = "GPS信号をご確認ください";
 "dialog_routing_error_location_not_found" = "案内ルートを作成できません。現在のGPS座標が認識できません。";
@@ -970,7 +970,7 @@
 "car_used_on_the_phone_screen" = "端末の画面でCoMapsを使用している";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "あなたは今、車の画面でオCoMapsを使用している";
+"car_used_on_the_car_screen" = "あなたは今、車の画面でCoMapsを使用している";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "電話で続ける";
@@ -995,7 +995,7 @@
 "website_menu" = "メニューリンク";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "開発者にバグレポートを送りたいか？\nオーガニック・マップはエラー情報を自動収集しないため、我々はユーザーに依存している。CoMapsを応援してくださりありがとう！";
+"bugreport_alert_message" = "開発者にバグレポートを送りたいか？\nCoMapsはエラー情報を自動収集しないため、我々はユーザーに依存している。CoMapsを応援してくださりありがとう！";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "iCloud同期を有効にする";

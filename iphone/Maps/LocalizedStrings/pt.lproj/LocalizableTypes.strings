@@ -139,13 +139,13 @@
 "type.recycling.plastic_bottles" = "Garrafas de plástico";
 "type.recycling.scrap_metal" = "Sucata";
 "type.recycling.small_appliances" = "Pequenos eletrodomésticos";
-"type.recycling.cardboard" = "Cardboard";
-"type.recycling.cans" = "Cans";
-"type.recycling.shoes" = "Shoes";
-"type.recycling.green_waste" = "Green/Organic Waste";
-"type.recycling.cartons" = "Cartons";
+"type.recycling.cardboard" = "Cartão";
+"type.recycling.cans" = "Latas";
+"type.recycling.shoes" = "Sapato";
+"type.recycling.green_waste" = "Resíduos Verdes/Orgânicos";
+"type.recycling.cartons" = "Caixas";
 "type.amenity.restaurant" = "Restaurante";
-"type.amenity.sanitary_dump_station" = "Holding Tank Dump Station";
+"type.amenity.sanitary_dump_station" = "Estação de despejo de tanques de retenção";
 "type.amenity.school" = "Escola";
 
 /* Weather shelter (including sun shelters and natural rock shelters). */
@@ -171,29 +171,29 @@
 "type.amenity.university" = "Universidade";
 "type.amenity.vending_machine" = "Máquina de venda automática";
 "type.amenity.vending_machine.cigarettes" = "Máquina de venda de cigarros";
-"type.amenity.vending_machine.coffee" = "Coffee Dispenser";
-"type.amenity.vending_machine.condoms" = "Condoms Dispenser";
+"type.amenity.vending_machine.coffee" = "Dispensador de café";
+"type.amenity.vending_machine.condoms" = "Distribuidor de preservativos";
 "type.amenity.vending_machine.drinks" = "Máquina de venda de bebidas";
-"type.amenity.vending_machine.food" = "Food Dispenser";
-"type.amenity.vending_machine.newspapers" = "Newspaper Dispenser";
+"type.amenity.vending_machine.food" = "Distribuidor de alimentos";
+"type.amenity.vending_machine.newspapers" = "Distribuidor de jornais";
 "type.amenity.vending_machine.parking_tickets" = "Máquina venda de bilhetes de estacionamento";
 "type.amenity.vending_machine.public_transport_tickets" = "Máquina venda de bilhetes de transporte público";
-"type.amenity.vending_machine.sweets" = "Sweets Dispenser";
-"type.amenity.vending_machine.excrement_bags" = "Excrement Bags Dispenser";
+"type.amenity.vending_machine.sweets" = "Dispensador de doces";
+"type.amenity.vending_machine.excrement_bags" = "Dispensador de sacos de excrementos";
 "type.amenity.parcel_locker" = "Cacifo";
 "type.amenity.vehicle_inspection" = "Inspeção veicular";
-"type.amenity.vending_machine.fuel" = "Fuel Pump";
+"type.amenity.vending_machine.fuel" = "Bomba de combustível";
 "type.amenity.veterinary" = "Veterinário";
 "type.amenity.waste_basket" = "Caixote do lixo";
 "type.amenity.waste_disposal" = "Contentor do lixo";
-"type.amenity.waste_transfer_station" = "Waste Transfer Station";
+"type.amenity.waste_transfer_station" = "Estação de Transferência de Resíduos";
 "type.amenity.water_point" = "Ponto de água";
 "type.amenity.water_point.drinking_water_no" = "Ponto de água";
 "type.barrier" = "Barreira";
 "type.barrier.block" = "Bloco";
 "type.barrier.bollard" = "Pilarete";
 "type.barrier.border_control" = "Controlo de fronteira";
-"type.barrier.chain" = "Chain";
+"type.barrier.chain" = "Corrente";
 "type.barrier.city_wall" = "Muralha";
 "type.barrier.cycle_barrier" = "Barreira de bicicletas";
 "type.waterway.ditch" = "Vala de drenagem";
@@ -280,7 +280,7 @@
 "type.cuisine.beef_bowl" = "Tigela com carne bovina";
 "type.cuisine.brazilian" = "Cozinha brasileira";
 "type.cuisine.breakfast" = "Pequeno almoço";
-"type.cuisine.bubble_tea" = "Bubble Tea";
+"type.cuisine.bubble_tea" = "Chá de bolhas";
 "type.cuisine.burger" = "Hambúrguer";
 "type.cuisine.buschenschank" = "Buschenschank";
 "type.cuisine.cake" = "Bolo";
@@ -409,7 +409,7 @@
 
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.cycleway.tunnel" = "Túnel";
-"type.highway.elevator" = "Elevator";
+"type.highway.elevator" = "Elevador";
 "type.highway.footway" = "Caminho pedonal";
 "type.highway.footway.sidewalk" = "Passeio";
 "type.highway.footway.crossing" = "Passagem de peões";
@@ -596,8 +596,8 @@
 "type.area_highway.track" = "Pista para desportos não motorizados";
 "type.area_highway.trunk" = "Via rápida";
 "type.area_highway.unclassified" = "Estrada sem classificação";
-"type.highway.world_level" = "highway-world_level";
-"type.highway.world_towns_level" = "highway-world_towns_level";
+"type.highway.world_level" = "nível mundial de rodovias";
+"type.highway.world_towns_level" = "nível_das_cidades_do_mundo_das_rodovias";
 "type.historic" = "Objeto histórico";
 "type.historic.aircraft" = "Aeronaves Históricas";
 "type.historic.anchor" = "Âncora Histórica";
@@ -645,8 +645,8 @@
 "type.historic.wayside_shrine" = "Alminhas";
 "type.historic.wreck" = "Naufrágio";
 "type.hwtag" = "hwtag";
-"type.hwtag.bidir_bicycle" = "hwtag-bidir_bicycle";
-"type.hwtag.onedir_bicycle" = "hwtag-onedir_bicycle";
+"type.hwtag.bidir_bicycle" = "hwtag-bidir_bicicleta";
+"type.hwtag.onedir_bicycle" = "hwtag-onedir_bicicleta";
 "type.hwtag.lit" = "hwtag-lit";
 "type.hwtag.nobicycle" = "hwtag-nobicycle";
 "type.hwtag.nocar" = "hwtag-nocar";
@@ -654,7 +654,7 @@
 "type.hwtag.oneway" = "hwtag-oneway";
 "type.hwtag.private" = "hwtag-private";
 "type.hwtag.toll" = "hwtag-toll";
-"type.hwtag.yesbicycle" = "hwtag-yesbicycle";
+"type.hwtag.yesbicycle" = "hwtag-simbicicleta";
 "type.hwtag.yescar" = "hwtag-yescar";
 "type.hwtag.yesfoot" = "hwtag-yesfoot";
 "type.internet_access" = "Internet";
@@ -675,7 +675,7 @@
 "type.landuse.churchyard" = "Adro de igreja";
 "type.landuse.commercial" = "Área comercial";
 "type.landuse.construction" = "Construção";
-"type.landuse.education" = "Educational Facility";
+"type.landuse.education" = "Instalação Educativa";
 "type.landuse.farmland" = "Campo agrícola";
 "type.landuse.farmyard" = "Pátio de quinta";
 "type.landuse.field" = "Campo";
@@ -736,21 +736,21 @@
 "type.leisure.track" = "Pista para desportos não motorizados";
 "type.leisure.track.area" = "Pista para desportos não motorizados";
 "type.leisure.water_park" = "Parque aquático";
-"type.leisure.beach_resort" = "Beach Resort";
+"type.leisure.beach_resort" = "Resort de praia";
 "type.man_made" = "Construção humana";
 "type.man_made.breakwater" = "Molhe";
 "type.man_made.cairn" = "Moledro ou mariola";
 "type.man_made.chimney" = "Chaminé de fábrica";
 "type.man_made.cutline" = "Atalhada";
-"type.man_made.survey_point" = "Survey Point";
-"type.man_made.flagpole" = "Flagpole";
+"type.man_made.survey_point" = "Ponto de Levantamento";
+"type.man_made.flagpole" = "Mastro de bandeira";
 "type.man_made.lighthouse" = "Farol";
-"type.man_made.mast" = "Mast";
+"type.man_made.mast" = "Mastro";
 "type.man_made.pier" = "Pontão";
 "type.man_made.pipeline" = "Pipeline";
 "type.man_made.pipeline.overground" = "Pipeline aéreo";
 "type.man_made.silo" = "Silo";
-"type.man_made.storage_tank" = "Storage Tank";
+"type.man_made.storage_tank" = "Tanque de armazenamento";
 "type.man_made.surveillance" = "Câmara de vigilância";
 "type.man_made.tower" = "Torre";
 
@@ -773,11 +773,11 @@
 "type.man_made.water_well.drinking_water_no" = "Poço de água";
 "type.man_made.windmill" = "Moinho de vento";
 "type.man_made.works" = "Fábrica";
-"type.mapswithme" = "mapswithme";
-"type.mapswithme.grid" = "mapswithme-grid";
+"type.mapswithme" = "mapascomigo";
+"type.mapswithme.grid" = "mapascom-me-grade";
 "type.military" = "Militar";
 "type.military.bunker" = "Búnquer";
-"type.mountain_pass" = "Mountain Pass";
+"type.mountain_pass" = "Passo da Montanha";
 "type.natural" = "Natureza";
 
 /* A rocky land cover. */
@@ -898,14 +898,14 @@
 "type.power.tower" = "Torre de eletricidade";
 
 /* A single pole supporting minor power lines. */
-"type.power.pole" = "Power Pole";
+"type.power.pole" = "Poste de energia";
 
 /* A single pole supporting various public utilities, such as lighting or telephony. */
-"type.man_made.utility_pole" = "Utility Pole";
-"type.psurface" = "psurface";
-"type.psurface.paved_bad" = "psurface-paved_bad";
-"type.psurface.paved_good" = "psurface-paved_good";
-"type.psurface.unpaved_bad" = "psurface-unpaved_bad";
+"type.man_made.utility_pole" = "Poste de serviço público";
+"type.psurface" = "superfície p";
+"type.psurface.paved_bad" = "superfície pavimentada ruim";
+"type.psurface.paved_good" = "superfície pavimentada_boa";
+"type.psurface.unpaved_bad" = "psurface-não pavimentado_ruim";
 "type.psurface.unpaved_good" = "psurface-unpaved_good";
 "type.public_transport" = "Transporte público";
 "type.public_transport.platform" = "Plataforma de transporte público";
@@ -1208,7 +1208,7 @@
 "type.railway.tram_stop" = "Paragem de elétrico";
 "type.route" = "Rota";
 "type.route.ferry" = "Rota de ferry";
-"type.route.shuttle_train" = "route-shuttle_train";
+"type.route.shuttle_train" = "rota-ônibus_trem";
 "type.shop" = "Loja";
 "type.shop.alcohol" = "Loja de bebidas alcoolicas";
 "type.shop.bakery" = "Padaria";
@@ -1224,7 +1224,7 @@
 "type.shop.car_parts" = "Loja de peças para automóveis";
 "type.shop.car_repair" = "Oficina de automóveis";
 "type.shop.car_repair.tyres" = "Recauchutadora";
-"type.shop.caravan" = "RV Dealership";
+"type.shop.caravan" = "Concessionária de RV";
 "type.shop.carpet" = "Loja de tapetes";
 "type.shop.chemist" = "Parafarmácia";
 "type.shop.chocolate" = "Loja de chocolates";
@@ -1484,3 +1484,11 @@
 
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "Pavilhão desportivo";
+"type.man_made.crane" = "Guindaste";
+"type.landuse.plant_nursery" = "Viveiro de plantas";
+"type.amenity.love_hotel" = "Hotel do Amor";
+"type.amenity.studio" = "Estúdio";
+"type.barrier.guard_rail" = "Guarda-corpo";
+"type.highway.ladder" = "Escada";
+"type.leisure.firepit" = "Fogueira";
+"type.sport.diving" = "Mergulho alto";

@@ -38,15 +38,15 @@
     <string name="try_again">Probeer opnieuw</string>
     <string name="about_menu_title">Over CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Gratis voor iedereen, met liefde gemaakt</string>
+    <string name="about_headline">Open project, gemaakt door de community</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_1">• Geen advertenties, geen tracking, geen gegevensverzameling</string>
+    <string name="about_proposition_1">• Gebruiksvriendelijk en gestroomlijnd</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_2">• Geen batterijverlies, werkt offline</string>
+    <string name="about_proposition_2">• Privacygericht en vrij van advertenties</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Snel, minimalistisch, ontwikkeld door de gemeenschap</string>
+    <string name="about_proposition_3">• Offline, snel en compact</string>
     <!-- Text in About screen -->
-    <string name="about_developed_by_enthusiasts">Open-source applicatie gemaakt door enthousiastelingen en vrijwilligers.</string>
+    <string name="about_developed_by_enthusiasts">Volledig open source, non-profit, transparante besluitvorming en financiën.</string>
     <!-- The button that opens system location settings -->
     <string name="location_settings">Locatie-instellingen</string>
     <string name="close">Sluit</string>
@@ -300,9 +300,9 @@
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Update kaart</string>
     <!-- Preference title -->
-    <string name="google_play_services">Google Play-locatieservices</string>
+    <string name="google_play_services">Google Fused-locatieservices</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">Bepaal snel je locatie bij benadering via Bluetooth, WiFi of een mobiel netwerk</string>
+    <string name="pref_use_google_play">Een propriëtaire dienst die GPS, Wi-Fi, mobiele netwerken, enzovoort combineert om je locatie nauwkeuriger te bepalen. Het kan verbinding maken met Google-servers.</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -883,4 +883,12 @@
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="app_site_url">https://comaps.app/</string>
     <string name="bluesky">Bluesky</string>
+    <string name="saved">Opgeslagen</string>
+    <string name="codeberg">Codeberg</string>
+    <string name="pref_left_button_disable">Schakel uit</string>
+    <string name="error_enter_correct_fediverse_page">Voer een geldige Mastodon-gebruikersnaam of webadres in</string>
+    <string name="editor_level">Verdieping (0 is begane grond)</string>
+    <string name="editor_building_levels">Verdiepingen (incl. begane grond, excl. dak)</string>
+    <string name="error_enter_correct_level">Voer een geldig verdiepingnummer in</string>
+    <string name="error_enter_correct_bluesky_page">Voer een geldige Bluesky-gebruikersnaam of webadres in</string>
 </resources>

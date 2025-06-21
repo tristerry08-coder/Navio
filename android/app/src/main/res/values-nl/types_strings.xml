@@ -1396,6 +1396,9 @@
     <string name="type.amenity.food_court">Food court</string>
     <string name="type.highway.ladder">ladder</string>
     <string name="type.leisure.firepit">vuurplaats</string>
-    <string name="type.sport.diving">duiken</string>
     <string name="type.landuse.plant_nursery">plantenkwekerij</string>
+    <string name="type.man_made.crane">Kraan</string>
+    <string name="type.barrier.guard_rail">Vangrail</string>
+    <string name="type.amenity.love_hotel">Love Hotel</string>
+    <string name="type.amenity.studio">Studio</string>
 </resources>

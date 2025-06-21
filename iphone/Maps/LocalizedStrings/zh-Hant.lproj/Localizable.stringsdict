@@ -47,7 +47,7 @@
 			<key>zero</key>
 			<string>無軌跡</string>
 			<key>other</key>
-			<string>%d 軌跡</string>
+			<string>%d 個軌跡</string>
 		</dict>
 	</dict>
 </dict>

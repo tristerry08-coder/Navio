@@ -1,4 +1,4 @@
-Una app sviluppata dalla comunità, gratuita e open-source, basata su OpenStreetMap e sull'impegno alla trasparenza, al rispetto della Privacy senza scopo di lucro. CoMaps è uno spin-off di Organic Maps, che a sua volta deriva da Maps.ME.
+Una app sviluppata dalla comunità, gratuita e open-source, basata su OpenStreetMap e sull'impegno alla trasparenza, al rispetto della Privacy senza scopo di lucro.
 
 Unisciti alla nostra comunità e aiutaci a creare la migliore app di mappe.
 • usa l'app e consigliala

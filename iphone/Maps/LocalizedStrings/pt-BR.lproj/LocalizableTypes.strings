@@ -623,17 +623,17 @@
 "type.historic.locomotive" = "Locomotiva Histórica";
 "type.historic.memorial" = "Memorial";
 "type.historic.memorial.cross" = "Cruz de memorial";
-"type.historic.memorial.plaque" = "Placa comemorativa";
+"type.historic.memorial.plaque" = "Placa Comemorativa";
 "type.historic.memorial.sculpture" = "Escultura";
 "type.historic.memorial.statue" = "Estátua";
 "type.historic.memorial.stolperstein" = "Stolperstein";
 "type.historic.stone" = "Pedra Histórica";
-"type.historic.memorial.war_memorial" = "Memorial de guerra";
+"type.historic.memorial.war_memorial" = "Memorial de Guerra";
 "type.historic.mine" = "Mina Histórica";
 "type.historic.monument" = "Monumento";
 "type.historic.pillory" = "Pelourinho";
-"type.historic.ruins" = "Ruínas";
-"type.historic.ship" = "Barco";
+"type.historic.ruins" = "Ruínas Históricas";
+"type.historic.ship" = "Navio";
 "type.historic.tank" = "Tanque Histórico";
 "type.historic.tomb" = "Túmulo";
 
@@ -641,8 +641,8 @@
 "type.man_made.cross" = "Cruz";
 
 /* Usually a Christian historical cross placed along a road. */
-"type.historic.wayside_cross" = "Cruzeiro";
-"type.historic.wayside_shrine" = "Alminhas";
+"type.historic.wayside_cross" = "Cruz à beira da estrada";
+"type.historic.wayside_shrine" = "Santuário à beira da estrada";
 "type.historic.wreck" = "Naufrágio";
 "type.hwtag" = "hwtag";
 "type.hwtag.bidir_bicycle" = "hwtag-bidir_bicycle";
@@ -653,8 +653,8 @@
 "type.hwtag.nofoot" = "hwtag-nofoot";
 "type.hwtag.oneway" = "hwtag-oneway";
 "type.hwtag.private" = "hwtag-private";
-"type.hwtag.toll" = "hwtag-toll";
-"type.hwtag.yesbicycle" = "hwtag-yesbicycle";
+"type.hwtag.toll" = "hwtag-pedágio";
+"type.hwtag.yesbicycle" = "hwtag-simbicicleta";
 "type.hwtag.yescar" = "hwtag-yescar";
 "type.hwtag.yesfoot" = "hwtag-yesfoot";
 "type.internet_access" = "Internet";
@@ -777,56 +777,56 @@
 "type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Militar";
 "type.military.bunker" = "Búnquer";
-"type.mountain_pass" = "Mountain Pass";
+"type.mountain_pass" = "Passo da Montanha";
 "type.natural" = "Natureza";
 
 /* A rocky land cover. */
-"type.natural.bare_rock" = "Zona rochosa";
+"type.natural.bare_rock" = "Apenas Rock";
 
 /* A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. */
-"type.natural.shingle" = "Seixos";
+"type.natural.shingle" = "Telha";
 
 /* A loose surface consisting of angular, sharp stones. Usually on a mountain slope and prone to landslides. */
 "type.natural.scree" = "Pedregulho pedregoso";
 "type.natural.bay" = "Baía";
 "type.natural.beach" = "Praia";
 "type.natural.beach.sand" = "Praia de areia";
-"type.natural.beach.gravel" = "Praia de Cascalho";
+"type.natural.beach.gravel" = "Praia de cascalho";
 "type.natural.cape" = "Cabo";
-"type.natural.cave_entrance" = "Caverna";
-"type.natural.cliff" = "Falésia";
-"type.natural.earth_bank" = "Penhasco";
+"type.natural.cave_entrance" = "Entrada da Caverna";
+"type.natural.cliff" = "Penhasco";
+"type.natural.earth_bank" = "Banco de Terras";
 "type.man_made.embankment" = "Aterro";
-"type.natural.coastline" = "Linha costeira";
+"type.natural.coastline" = "Litoral";
 "type.natural.desert" = "Deserto";
 "type.natural.geyser" = "Gêiser";
 "type.natural.glacier" = "Geleira";
-"type.natural.grassland" = "Campo";
+"type.natural.grassland" = "Pastagem";
 "type.natural.heath" = "Charneca";
-"type.natural.hot_spring" = "Nascente de água quente";
+"type.natural.hot_spring" = "Fonte termal";
 "type.natural.water.lake" = "Lago";
-"type.natural.water.lock" = "Câmara de Eclusa";
-"type.natural.water.pond" = "Lagoa";
+"type.natural.water.lock" = "Câmara de eclusa";
+"type.natural.water.pond" = "Lago";
 "type.natural.water.reservoir" = "Reservatório";
-"type.natural.water.basin" = "Reservatório";
+"type.natural.water.basin" = "Bacia";
 "type.natural.water.river" = "Rio";
-"type.natural.land" = "Campo";
-"type.natural.meadow" = "Pradaria";
+"type.natural.land" = "Terra";
+"type.natural.meadow" = "Prado";
 "type.natural.orchard" = "Pomar";
 "type.natural.peak" = "Pico";
-"type.natural.saddle" = "Sela da Montanha";
-"type.natural.rock" = "Rochedo";
-"type.natural.scrub" = "Matagal";
-"type.natural.spring" = "Nascente";
-"type.natural.spring.drinking_water_no" = "Nascente";
+"type.natural.saddle" = "Sela de montanha";
+"type.natural.rock" = "Pedra";
+"type.natural.scrub" = "Esfregar";
+"type.natural.spring" = "Fonte Natural";
+"type.natural.spring.drinking_water_no" = "Fonte Natural";
 "type.natural.strait" = "Estreito";
-"type.natural.tree_row" = "Linha de árvores";
-"type.natural.vineyard" = "Vinha";
+"type.natural.tree_row" = "Fileira de árvores";
+"type.natural.vineyard" = "Vinhedo";
 "type.natural.volcano" = "Vulcão";
-"type.natural.water" = "Corpo de água";
+"type.natural.water" = "Água";
 "type.natural.wetland" = "Zona úmida";
-"type.natural.wetland.bog" = "Zona úmida";
-"type.natural.wetland.marsh" = "Zona úmida";
+"type.natural.wetland.bog" = "Jardim";
+"type.natural.wetland.marsh" = "Pântano";
 "type.noexit" = "Via sem saída";
 "type.office" = "Escritório";
 "type.office.company" = "Escritório de empresa";
@@ -845,7 +845,6 @@
 "type.place.city.capital.2" = "Capital";
 "type.place.city.capital.3" = "Cidade";
 "type.place.city.capital.4" = "Cidade";
-"type.place.city.capital.5" = "Cidade";
 "type.place.city.capital.6" = "Cidade";
 "type.place.city.capital.7" = "Cidade";
 "type.place.city.capital.8" = "Cidade";
@@ -856,8 +855,8 @@
 "type.place.farm" = "Fazenda";
 "type.place.hamlet" = "Lugarejo";
 "type.place.island" = "Ilha";
-"type.place.islet" = "Ilhéu";
-"type.place.isolated_dwelling" = "Habitação isolada";
+"type.place.islet" = "Ilhota";
+"type.place.isolated_dwelling" = "Moradia Isolada";
 "type.place.locality" = "Localidade";
 
 /* Named part of a city or town, bigger than place=neighbourhood and smaller than place=suburb (Wiki: https://wiki.openstreetmap.org/wiki/Tag:place%3Dquarter) */
@@ -936,27 +935,27 @@
 "type.railway.preserved.tunnel" = "Ferrovia preservada";
 "type.railway.rail" = "Ferrovia";
 "type.railway.rail.highspeed" = "Ferrovia de alta velocidade";
-"type.railway.rail.tourism" = "Ferrovia turística";
+"type.railway.rail.tourism" = "Ferrovia Turística";
 "type.railway.rail.main" = "Ferrovia";
 
 /* Includes ordinary railway=rail w/o more specific usage= and service= tags. */
-"type.railway.rail.branch" = "Ramal ferroviário";
+"type.railway.rail.branch" = "Ramal Ferroviário";
 
 /* Non-passenger utility tracks: industrial, military, test. */
-"type.railway.rail.utility" = "Ferrovia de serviços";
-"type.railway.rail.spur" = "Ramal de inserção";
+"type.railway.rail.utility" = "Ferrovia Utilitária";
+"type.railway.rail.spur" = "Ramal Ferroviário";
 
 /* Short service tracks: siding, yard, crossover. */
-"type.railway.rail.service" = "Linha de serviço";
+"type.railway.rail.service" = "Trilho de serviço";
 "type.railway.rail.bridge" = "Ponte ferroviária";
 "type.railway.rail.highspeed.bridge" = "Ponte ferroviária";
 "type.railway.rail.tourism.bridge" = "Ponte ferroviária";
-"type.railway.rail.main.bridge" = "Ponte ferroviária";
+"type.railway.rail.main.bridge" = "Ponte Ferroviária";
 "type.railway.rail.branch.bridge" = "Ponte ferroviária";
 "type.railway.rail.utility.bridge" = "Ponte ferroviária";
 "type.railway.rail.spur.bridge" = "Ponte ferroviária";
 "type.railway.rail.service.bridge" = "Ponte ferroviária";
-"type.railway.rail.tunnel" = "Túnel ferroviário";
+"type.railway.rail.tunnel" = "Túnel Ferroviário";
 "type.railway.rail.highspeed.tunnel" = "Túnel ferroviário";
 "type.railway.rail.tourism.tunnel" = "Túnel ferroviário";
 "type.railway.rail.main.tunnel" = "Túnel ferroviário";
@@ -1208,7 +1207,7 @@
 "type.railway.tram_stop" = "Parada de bonde";
 "type.route" = "Rota";
 "type.route.ferry" = "Rota de balsa";
-"type.route.shuttle_train" = "route-shuttle_train";
+"type.route.shuttle_train" = "rota-ônibus_trem";
 "type.shop" = "Loja";
 "type.shop.alcohol" = "Loja de bebidas alcoólicas";
 "type.shop.bakery" = "Padaria";
@@ -1335,8 +1334,8 @@
 "type.sport.australian_football" = "Futebol australiano";
 "type.sport.baseball" = "Beisebol";
 "type.sport.basketball" = "Basquetebol";
-"type.sport.beachvolleyball" = "Voleibol de praia";
-"type.sport.bowls" = "Lawn bowls";
+"type.sport.beachvolleyball" = "Vôlei de praia";
+"type.sport.bowls" = "Tigelas";
 "type.sport.chess" = "Xadrez";
 "type.sport.cricket" = "Críquete";
 "type.sport.curling" = "Curling";
@@ -1363,7 +1362,7 @@
 "type.sport.ice_hockey" = "Hóquei no gelo";
 "type.sport.field_hockey" = "Hóquei em campo";
 "type.sport.badminton" = "Badminton";
-"type.sport.pelota" = "Pelota basca";
+"type.sport.pelota" = "Pelota Basca";
 "type.tourism" = "Turismo";
 "type.tourism.aquarium" = "Aquário";
 
@@ -1420,7 +1419,7 @@
 "type.waterway.canal.tunnel" = "Túnel de canal";
 "type.waterway.fish_pass" = "Escada de peixes";
 "type.waterway.dam" = "Barragem";
-"type.barrier.ditch" = "Vala";
+"type.barrier.ditch" = "Fosso";
 "type.natural.water.ditch" = "Vala de drenagem";
 "type.waterway.ditch.tunnel" = "Bueiro";
 "type.waterway.dock" = "Doca";
@@ -1492,3 +1491,4 @@
 "type.amenity.studio" = "Estúdio de gravação";
 "type.leisure.firepit" = "Fogueira";
 "type.man_made.crane" = "Guindaste";
+"type.place.city.capital.5" = "Cidade";

@@ -1487,4 +1487,7 @@
 "type.highway.ladder" = "ladder";
 "type.leisure.firepit" = "vuurplaats";
 "type.landuse.plant_nursery" = "plantenkwekerij";
-"type.sport.diving" = "duiken";
+"type.amenity.studio" = "Studio";
+"type.man_made.crane" = "Kraan";
+"type.barrier.guard_rail" = "Vangrail";
+"type.amenity.love_hotel" = "Love Hotel";
