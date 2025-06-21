@@ -63,7 +63,6 @@ landuse-farmyard                                    # area z14-
 
 landuse-allotments                                  # area z12-
 landuse-farmland                                    # area z14-
-landuse-field                                       # area z12-
 landuse-meadow                                      # area z12-
 landuse-orchard                                     # area z12-
 landuse-recreation_ground                           # area z12-

@@ -102,7 +102,6 @@ area|z12-[landuse=vineyard],
 area|z12-[landuse=meadow],
 area|z12-[landuse=recreation_ground],
 area|z12-[landuse=village_green],
-area|z12-[landuse=field],
 {fill-opacity: 1;}
 
 area|z10[landuse=forest],
@@ -118,7 +117,6 @@ area|z12-[landuse=vineyard],
 area|z12-[landuse=meadow],
 area|z12-[landuse=recreation_ground],
 area|z12-[landuse=village_green],
-area|z12-[landuse=field],
 {fill-color: @green1;}
 
 area|z11-12[landuse=forest],

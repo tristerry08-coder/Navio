@@ -106,7 +106,6 @@ landuse-farmyard                                    # area z10- (also has captio
 
 landuse-allotments                                  # area z12- (also has caption z15-)
 landuse-farmland                                    # area z10- (also has caption z15-)
-landuse-field                                       # area z12-
 landuse-meadow                                      # area z12-
 landuse-orchard                                     # area z12- (also has caption z15-)
 landuse-recreation_ground                           # area z12- (also has caption z15-)

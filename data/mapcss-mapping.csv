@@ -421,7 +421,7 @@ aeroway|gate;315;
 # TODO: railway=preserved is deprecated in OSM, recommended mapping is railway:preserved=yes + railway=*
 railway|preserved;316;
 highway|path|horse;[highway=path][horse?];;name;int_name;317;
-landuse|field;318;
+deprecated:landuse|field:06.2025;318;x
 hwtag|nocycleway;319;
 leisure|water_park;320;
 natural|wetland|bog;[natural=wetland][wetland=bog];;name;int_name;321;
