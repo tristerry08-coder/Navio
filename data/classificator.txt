@@ -627,7 +627,6 @@ world  +
         education  -
         farmland  -
         farmyard  -
-        field  -
         flowerbed  -
         forest  +
             coniferous  -
