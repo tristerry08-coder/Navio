@@ -361,7 +361,6 @@ area|z15-[amenity=college],
 area|z15-[amenity=school],
 area|z15-[landuse=education],
 area|z16-[public_transport=platform],
-area|z16-[amenity=place_of_worship],
 area|z16-[railway=platform],
 area|z15-[leisure=playground],
 {fill-opacity: 1;}
@@ -431,7 +430,6 @@ area|z14-[area:highway=pedestrian],
 area|z14-[highway=footway][area?],
 area|z14-[area:highway=footway],
 area|z14-[area:highway=living_street],
-area|z16-[amenity=place_of_worship]
 {fill-color: @pedestrian_area;}
 
 area|z16-[highway=pedestrian][area?],
@@ -444,6 +442,14 @@ area|z16-[area:highway=living_street],
 area|z16-[public_transport=platform],
 area|z16-[railway=platform],
 {fill-color: @railway_platform;}
+
+/* Generic amenities */
+
+area|z14-[amenity=place_of_worship],
+area|z15-[tourism=camp_site],
+area|z15-[leisure=resort],
+area|z16-[amenity=police],
+{fill-opacity: 1; fill-color: @pedestrian_area_light;}
 
 /* 7.6 Airports */
 
