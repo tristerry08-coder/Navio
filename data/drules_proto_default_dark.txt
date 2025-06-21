@@ -9672,6 +9672,10 @@ cont {
   name: "amenity-place_of_worship"
   element {
     scale: 14
+    area {
+      color: 2499106
+      priority: -1760
+    }
     symbol {
       name: "place-of-worship-s"
       priority: 4150
@@ -9689,6 +9693,10 @@ cont {
   }
   element {
     scale: 15
+    area {
+      color: 2499106
+      priority: -1760
+    }
     symbol {
       name: "place-of-worship-m"
       priority: 4150
@@ -9814,6 +9822,10 @@ cont {
   name: "amenity-place_of_worship-buddhist"
   element {
     scale: 14
+    area {
+      color: 2499106
+      priority: -1760
+    }
     symbol {
       name: "buddhist-s"
       priority: 4200
@@ -9831,6 +9843,10 @@ cont {
   }
   element {
     scale: 15
+    area {
+      color: 2499106
+      priority: -1760
+    }
     symbol {
       name: "buddhist-m"
       priority: 4200
@@ -9956,6 +9972,10 @@ cont {
   name: "amenity-place_of_worship-christian"
   element {
     scale: 14
+    area {
+      color: 2499106
+      priority: -1760
+    }
     symbol {
       name: "christian-s"
       priority: 4200
@@ -9973,6 +9993,10 @@ cont {
   }
   element {
     scale: 15
+    area {
+      color: 2499106
+      priority: -1760
+    }
     symbol {
       name: "christian-m"
       priority: 4200
@@ -10098,6 +10122,10 @@ cont {
   name: "amenity-place_of_worship-christian-jehovahs_witness"
   element {
     scale: 14
+    area {
+      color: 2499106
+      priority: -1760
+    }
     symbol {
       name: "place-of-worship-s"
       priority: 4200
@@ -10115,6 +10143,10 @@ cont {
   }
   element {
     scale: 15
+    area {
+      color: 2499106
+      priority: -1760
+    }
     symbol {
       name: "place-of-worship-m"
       priority: 4200
@@ -10240,6 +10272,10 @@ cont {
   name: "amenity-place_of_worship-christian-mormon"
   element {
     scale: 14
+    area {
+      color: 2499106
+      priority: -1760
+    }
     symbol {
       name: "mormon-s"
       priority: 4200
@@ -10257,6 +10293,10 @@ cont {
   }
   element {
     scale: 15
+    area {
+      color: 2499106
+      priority: -1760
+    }
     symbol {
       name: "mormon-m"
       priority: 4200
@@ -10382,6 +10422,10 @@ cont {
   name: "amenity-place_of_worship-hindu"
   element {
     scale: 14
+    area {
+      color: 2499106
+      priority: -1760
+    }
     symbol {
       name: "hindu-s"
       priority: 4200
@@ -10399,6 +10443,10 @@ cont {
   }
   element {
     scale: 15
+    area {
+      color: 2499106
+      priority: -1760
+    }
     symbol {
       name: "hindu-m"
       priority: 4200
@@ -10524,6 +10572,10 @@ cont {
   name: "amenity-place_of_worship-jewish"
   element {
     scale: 14
+    area {
+      color: 2499106
+      priority: -1760
+    }
     symbol {
       name: "jewish-s"
       priority: 4200
@@ -10541,6 +10593,10 @@ cont {
   }
   element {
     scale: 15
+    area {
+      color: 2499106
+      priority: -1760
+    }
     symbol {
       name: "jewish-m"
       priority: 4200
@@ -10666,6 +10722,10 @@ cont {
   name: "amenity-place_of_worship-muslim"
   element {
     scale: 14
+    area {
+      color: 2499106
+      priority: -1760
+    }
     symbol {
       name: "muslim-s"
       priority: 4200
@@ -10683,6 +10743,10 @@ cont {
   }
   element {
     scale: 15
+    area {
+      color: 2499106
+      priority: -1760
+    }
     symbol {
       name: "muslim-m"
       priority: 4200
@@ -10808,6 +10872,10 @@ cont {
   name: "amenity-place_of_worship-shinto"
   element {
     scale: 14
+    area {
+      color: 2499106
+      priority: -1760
+    }
     symbol {
       name: "shinto-s"
       priority: 4200
@@ -10825,6 +10893,10 @@ cont {
   }
   element {
     scale: 15
+    area {
+      color: 2499106
+      priority: -1760
+    }
     symbol {
       name: "shinto-m"
       priority: 4200
@@ -10950,6 +11022,10 @@ cont {
   name: "amenity-place_of_worship-taoist"
   element {
     scale: 14
+    area {
+      color: 2499106
+      priority: -1760
+    }
     symbol {
       name: "taoist-s"
       priority: 4200
@@ -10967,6 +11043,10 @@ cont {
   }
   element {
     scale: 15
+    area {
+      color: 2499106
+      priority: -1760
+    }
     symbol {
       name: "taoist-m"
       priority: 4200
@@ -11091,7 +11171,18 @@ cont {
 cont {
   name: "amenity-police"
   element {
+    scale: 16
+    area {
+      color: 2499106
+      priority: -1830
+    }
+  }
+  element {
     scale: 17
+    area {
+      color: 2499106
+      priority: -1830
+    }
     symbol {
       name: "police-m"
       priority: 500
@@ -11108,6 +11199,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 2499106
+      priority: -1830
+    }
     symbol {
       name: "police-m"
       priority: 500
@@ -11124,6 +11219,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 2499106
+      priority: -1830
+    }
     symbol {
       name: "police-m"
       priority: 500
@@ -11140,6 +11239,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 2499106
+      priority: -1830
+    }
     symbol {
       name: "police-m"
       priority: 500
@@ -52099,7 +52202,18 @@ cont {
 cont {
   name: "leisure-resort"
   element {
+    scale: 15
+    area {
+      color: 2499106
+      priority: -1830
+    }
+  }
+  element {
     scale: 16
+    area {
+      color: 2499106
+      priority: -1830
+    }
     symbol {
       name: "hotel-m"
       priority: 2750
@@ -52117,6 +52231,10 @@ cont {
   }
   element {
     scale: 17
+    area {
+      color: 2499106
+      priority: -1830
+    }
     symbol {
       name: "hotel-m"
       priority: 2750
@@ -52134,6 +52252,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 2499106
+      priority: -1830
+    }
     symbol {
       name: "hotel-m"
       priority: 2750
@@ -52151,6 +52273,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 2499106
+      priority: -1830
+    }
     symbol {
       name: "hotel-m"
       priority: 2750
@@ -52168,6 +52294,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 2499106
+      priority: -1830
+    }
     symbol {
       name: "hotel-m"
       priority: 2750
@@ -124299,7 +124429,18 @@ cont {
 cont {
   name: "tourism-camp_site"
   element {
+    scale: 15
+    area {
+      color: 2499106
+      priority: -1830
+    }
+  }
+  element {
     scale: 16
+    area {
+      color: 2499106
+      priority: -1830
+    }
     symbol {
       name: "campsite-m"
       priority: 3800
@@ -124316,6 +124457,10 @@ cont {
   }
   element {
     scale: 17
+    area {
+      color: 2499106
+      priority: -1830
+    }
     symbol {
       name: "campsite-m"
       priority: 3800
@@ -124332,6 +124477,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 2499106
+      priority: -1830
+    }
     symbol {
       name: "campsite-m"
       priority: 3800
@@ -124348,6 +124497,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 2499106
+      priority: -1830
+    }
     symbol {
       name: "campsite-m"
       priority: 3800
@@ -124364,6 +124517,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 2499106
+      priority: -1830
+    }
     symbol {
       name: "campsite-m"
       priority: 3800
