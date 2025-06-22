@@ -58,7 +58,7 @@ done
 OPT_TARGET=${@:$OPTIND}
 
 CMAKE_CONFIG="${CMAKE_CONFIG:-} -U SKIP_QT_GUI"
-if [ "$OPT_TARGET" != "desktop" -a -z "$OPT_DESIGNER" -a -z "$OPT_STANDALONE" ]; then
+if [ "$OPT_TARGET" != "desktop" -a -z "$OPT_DESIGNER" -a -z "$OPT_STANDALONE"] || [[ "$OPT_TARGET" =~ "generator_tool|topography_generator_tool|world_roads_builder_tool|mwm_diff_tool" ]]; then
   CMAKE_CONFIG="${CMAKE_CONFIG:-} -DSKIP_QT_GUI=ON"
 fi
 
@@ -66,6 +66,10 @@ fi
 if [ -z "$OPT_DEBUG$OPT_RELEASE$OPT_RELEASEDEBUGINFO" ]; then
   OPT_DEBUG=1
   OPT_RELEASEDEBUGINFO=1
+fi
+
+if [[ "$OPT_TARGET" =~ "generator_tool|topography_generator_tool|world_roads_builder_tool|mwm_diff_tool" ]]; then
+  CMAKE_CONFIG="${CMAKE_CONFIG:-} -DGENERATOR_TOOL=ON"
 fi
 
 OMIM_PATH="$(cd "${OMIM_PATH:-$(dirname "$0")/../..}"; pwd)"

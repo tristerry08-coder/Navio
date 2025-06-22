@@ -94,11 +94,6 @@ if (PLATFORM_WIN)
   )
 endif()
 
-# Try fast native arch.
-if (PLATFORM_LINUX)
-  add_compile_options(-march=native)
-endif()
-
 # Built-in CMake configurations: Debug, Release, RelWithDebInfo, MinSizeRel
 if (${CMAKE_BUILD_TYPE} STREQUAL "Debug")
   add_definitions(-DDEBUG)
@@ -263,6 +258,10 @@ if (PLATFORM_DESKTOP)
   if (NOT SKIP_QT_GUI)
     add_subdirectory(qt)
     omim_add_tool_subdirectory(skin_generator)
+  endif()
+  if (GENERATOR_TOOL)
+    add_compile_options(-march=native -mtune=native)
+    message(STATUS "target CPU optimizations enabled, produced binaries will NOT work on a different CPU")
   endif()
   add_subdirectory(dev_sandbox)
 endif()
