@@ -266,7 +266,8 @@ public class NavigationController implements TrafficManager.TrafficCallback,
       mSpeedLimit.setSpeedLimit(0, false);
       return;
     }
-    final boolean speedLimitExceeded = info.speedLimitMps < location.getSpeed();
-    mSpeedLimit.setSpeedLimit(StringUtils.nativeFormatSpeed(info.speedLimitMps), speedLimitExceeded);
+    final int fSpeedLimit = StringUtils.nativeFormatSpeed(info.speedLimitMps);
+    final boolean speedLimitExceeded = fSpeedLimit < StringUtils.nativeFormatSpeed(location.getSpeed());
+    mSpeedLimit.setSpeedLimit(fSpeedLimit, speedLimitExceeded);
   }
 }
