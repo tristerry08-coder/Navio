@@ -86,6 +86,7 @@ protocol PlacePageInfoViewControllerDelegate: AnyObject {
   func didPressVk()
   func didPressLine()
   func didPressBluesky()
+  func didPressPanoramax()
   func didPressEmail()
   func didPressOpenInApp(from sourceView: UIView)
   func didCopy(_ content: String)
@@ -118,6 +119,7 @@ class PlacePageInfoViewController: UIViewController {
   private var vkView: InfoItemViewController?
   private var lineView: InfoItemViewController?
   private var blueskyView: InfoItemViewController?
+  private var panoramaxView: InfoItemViewController?
   private var cuisineView: InfoItemViewController?
   private var operatorView: InfoItemViewController?
   private var wifiView: InfoItemViewController?
@@ -359,6 +361,18 @@ class PlacePageInfoViewController: UIViewController {
       },
                                 longPressHandler: { [weak self] in
         self?.delegate?.didCopy(bluesky)
+      })
+    }
+	
+	  if let panoramax = placePageInfoData.panoramax {
+      panoramaxView = createInfoItem(panoramax,
+                                icon: UIImage(named: "ic_placepage_panoramax"),
+                                style: .link,
+                                tapHandler: { [weak self] in
+        self?.delegate?.didPressPanoramax()
+      },
+                                longPressHandler: { [weak self] in
+        self?.delegate?.didCopy(panoramax)
       })
     }
 

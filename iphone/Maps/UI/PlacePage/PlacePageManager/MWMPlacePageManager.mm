@@ -293,6 +293,11 @@ using namespace storage;
   [self.ownerViewController openUrl:ToNSString(fullUrl) externally:YES];
 }
 
+- (void)openPanoramax:(PlacePageData *)data {
+  std::string const fullUrl = osm::socialContactToURL(osm::MapObject::MetadataID::FMD_PANORAMAX, [data.infoData.panoramax UTF8String]);
+  [self.ownerViewController openUrl:ToNSString(fullUrl) externally:YES];
+}
+
 - (void)openEmail:(PlacePageData *)data {
   [MailComposer sendEmailWithSubject:nil body:nil toRecipients:@[data.infoData.email] attachmentFileURL:nil];
 }

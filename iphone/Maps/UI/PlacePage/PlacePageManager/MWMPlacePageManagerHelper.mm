@@ -26,6 +26,7 @@
 - (void)openVk:(PlacePageData *)data;
 - (void)openLine:(PlacePageData *)data;
 - (void)openBluesky:(PlacePageData *)data;
+- (void)openPanoramax:(PlacePageData *)data;
 - (void)call:(PlacePagePhone *)phone;
 - (void)showAllFacilities:(PlacePageData *)data;
 - (void)showPlaceDescription:(NSString *)htmlString;
@@ -117,6 +118,10 @@
 
 + (void)openBluesky:(PlacePageData *)data {
   [[MWMMapViewControlsManager manager].placePageManager openBluesky:data];
+}
+
++ (void)openPanoramax:(PlacePageData *)data {
+  [[MWMMapViewControlsManager manager].placePageManager openPanoramax:data];
 }
 
 + (void)call:(PlacePagePhone *)phone {

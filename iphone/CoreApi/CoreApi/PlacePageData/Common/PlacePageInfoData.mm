@@ -75,6 +75,7 @@ NSString * GetLocalizedMetadataValueString(MapObject::MetadataID metaID, std::st
         case MetadataID::FMD_CONTACT_VK: _vk = ToNSString(value); break;
         case MetadataID::FMD_CONTACT_LINE: _line = ToNSString(value); break;
         case MetadataID::FMD_CONTACT_BLUESKY: _bluesky = ToNSString(value); break;
+        case MetadataID::FMD_PANORAMAX: _panoramax = ToNSString(value); break;
         case MetadataID::FMD_OPERATOR: _ppOperator = [NSString stringWithFormat:NSLocalizedString(@"operator", nil), ToNSString(value)]; break;
         case MetadataID::FMD_INTERNET:
           _wifiAvailable = (rawData.GetInternet() == feature::Internet::No)

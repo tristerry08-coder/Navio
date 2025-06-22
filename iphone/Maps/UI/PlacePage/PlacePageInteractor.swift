@@ -128,6 +128,10 @@ extension PlacePageInteractor: PlacePageInfoViewControllerDelegate {
     MWMPlacePageManagerHelper.openBluesky(placePageData)
   }
   
+  func didPressPanoramax() {
+    MWMPlacePageManagerHelper.openPanoramax(placePageData)
+  }
+  
   func didPressEmail() {
     MWMPlacePageManagerHelper.openEmail(placePageData)
   }

@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, readonly, nullable) NSString *vk;
 @property(nonatomic, readonly, nullable) NSString *line;
 @property(nonatomic, readonly, nullable) NSString *bluesky;
+@property(nonatomic, readonly, nullable) NSString *panoramax;
 @property(nonatomic, readonly, nullable) NSString *email;
 @property(nonatomic, readonly, nullable) NSURL *emailUrl;
 @property(nonatomic, readonly, nullable) NSString *cuisine;
