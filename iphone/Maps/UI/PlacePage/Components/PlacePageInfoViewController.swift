@@ -350,7 +350,7 @@ class PlacePageInfoViewController: UIViewController {
       })
     }
     
-    if let bluesky = placePageInfoData.line {
+    if let bluesky = placePageInfoData.bluesky {
       blueskyView = createInfoItem(bluesky,
                                 icon: UIImage(named: "ic_placepage_bluesky"),
                                 style: .link,
