@@ -11,7 +11,6 @@ import android.text.style.StyleSpan;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
@@ -28,6 +27,7 @@ import app.organicmaps.util.UiUtils;
 import app.organicmaps.util.bottomsheet.MenuBottomSheetFragment;
 import app.organicmaps.util.bottomsheet.MenuBottomSheetItem;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import com.google.android.material.textview.MaterialTextView;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -362,10 +362,10 @@ class DownloaderAdapter extends RecyclerView.Adapter<DownloaderAdapter.ViewHolde
   private class ItemViewHolder extends BaseInnerViewHolder<CountryItem>
   {
     private final DownloaderStatusIcon mStatusIcon;
-    private final TextView mName;
-    private final TextView mSubtitle;
-    private final TextView mFoundName;
-    private final TextView mSize;
+    private final MaterialTextView mName;
+    private final MaterialTextView mSubtitle;
+    private final MaterialTextView mFoundName;
+    private final MaterialTextView mSize;
 
     private void processClick(boolean clickOnStatus)
     {
@@ -510,7 +510,7 @@ class DownloaderAdapter extends RecyclerView.Adapter<DownloaderAdapter.ViewHolde
   static class HeaderViewHolder extends BaseInnerViewHolder<String>
   {
     @NonNull
-    private final TextView mTitle;
+    private final MaterialTextView mTitle;
 
     HeaderViewHolder(@NonNull View frame)
     {

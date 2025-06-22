@@ -2,10 +2,11 @@ package app.organicmaps.downloader;
 
 import android.util.SparseIntArray;
 import android.view.View;
-import android.widget.ImageView;
 
 import androidx.annotation.AttrRes;
 import androidx.annotation.DrawableRes;
+
+import com.google.android.material.imageview.ShapeableImageView;
 
 import app.organicmaps.R;
 import app.organicmaps.widget.WheelProgressView;
@@ -15,7 +16,7 @@ import app.organicmaps.util.UiUtils;
 public class DownloaderStatusIcon
 {
   private final View mFrame;
-  protected final ImageView mIcon;
+  protected final ShapeableImageView mIcon;
   private final WheelProgressView mProgress;
 
   private static final SparseIntArray sIconsCache = new SparseIntArray();
