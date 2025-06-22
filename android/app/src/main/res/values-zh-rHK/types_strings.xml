@@ -595,7 +595,6 @@
     <string name="type.landuse.education">教育設施</string>
     <string name="type.landuse.farmland">農業用地</string>
     <string name="type.landuse.farmyard">農家庭院</string>
-    <string name="type.landuse.field">田地</string>
     <string name="type.landuse.flowerbed">花壇</string>
     <string name="type.landuse.forest">樹林</string>
     <string name="type.landuse.forest.coniferous">樹林</string>
@@ -1283,4 +1282,17 @@
     <string name="type.attraction.bumper_car">碰碰車</string>
     <string name="type.leisure.track">賽道</string>
     <string name="type.mapswithme">mapswithme</string>
+    <string name="type.leisure.track.area">賽道</string>
+    <string name="type.railway">鐵路要素</string>
+    <string name="type.amenity.studio">影樓</string>
+    <string name="type.fee.yes">$</string>
+    <string name="type.amenity.love_hotel">情侶酒店</string>
+    <string name="type.recycling.cardboard">卡紙</string>
+    <string name="type.recycling.cans">金屬罐</string>
+    <string name="type.recycling.shoes">鞋</string>
+    <string name="type.recycling.green_waste">園林/有機廢物</string>
+    <string name="type.recycling.cartons">紙皮箱</string>
+    <string name="type.barrier.guard_rail">安全護欄</string>
+    <string name="type.highway.ladder">梯</string>
+    <string name="type.route.ferry">航線</string>
 </resources>

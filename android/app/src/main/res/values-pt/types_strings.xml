@@ -582,7 +582,6 @@
     <string name="type.landuse.construction">Construção</string>
     <string name="type.landuse.farmland">Campo agrícola</string>
     <string name="type.landuse.farmyard">Pátio de quinta</string>
-    <string name="type.landuse.field">Campo</string>
     <string name="type.landuse.flowerbed">Canteiro de flores</string>
     <string name="type.landuse.forest">Floresta</string>
     <string name="type.landuse.forest.coniferous">Floresta de coníferas</string>

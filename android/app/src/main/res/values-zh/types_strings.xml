@@ -596,7 +596,6 @@
     <string name="type.landuse.education">教育设施</string>
     <string name="type.landuse.farmland">农业用地</string>
     <string name="type.landuse.farmyard">农家庭院</string>
-    <string name="type.landuse.field">田地</string>
     <string name="type.landuse.flowerbed">花坛</string>
     <string name="type.landuse.forest">森林</string>
     <string name="type.landuse.forest.coniferous">针叶林</string>

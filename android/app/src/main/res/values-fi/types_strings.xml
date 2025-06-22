@@ -588,7 +588,6 @@
     <string name="type.landuse.education">Koulutuslaitos</string>
     <string name="type.landuse.farmland">Maatalousmaa</string>
     <string name="type.landuse.farmyard">Maatila</string>
-    <string name="type.landuse.field">Kenttä</string>
     <string name="type.landuse.flowerbed">Kukkapenkki</string>
     <string name="type.landuse.forest">Metsä</string>
     <string name="type.landuse.forest.coniferous">Havumetsä</string>

@@ -1247,7 +1247,6 @@
     <string name="type.landuse.allotments">Kiskertek</string>
     <string name="type.landuse.brownfield">Barnamezős terület</string>
     <string name="type.landuse.construction">Építési terület</string>
-    <string name="type.landuse.field">Mező</string>
     <string name="type.landuse.garages">Garázssor</string>
     <string name="type.landuse.greenfield">Zöldmezős terület</string>
     <string name="type.landuse.greenhouse_horticulture">Üvegház</string>

@@ -1212,7 +1212,6 @@
     <string name="type.internet_access">Internet</string>
     <string name="type.junction.roundabout">Kruhový objezd</string>
     <string name="type.landuse.brownfield">Brownfield</string>
-    <string name="type.landuse.field">Pole</string>
     <string name="type.landuse.greenfield">Nezastavěná plocha</string>
     <string name="type.landuse.greenhouse_horticulture">Skleník</string>
     <string name="type.landuse.industrial">Průmyslová oblast</string>

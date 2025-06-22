@@ -1331,7 +1331,6 @@
     <string name="type.public_transport.platform">Banchina</string>
     <string name="type.railway.abandoned.tunnel">Tunnel ferroviario abbandonato</string>
     <string name="type.railway.light_rail.tunnel">Tunnel metropolitana</string>
-    <string name="type.landuse.field">Campo</string>
     <string name="type.internet_access">Internet</string>
     <string name="type.landuse.greenfield">Zona selvaggia</string>
     <string name="type.railway.light_rail.bridge">Ponte metropolitana</string>

@@ -1210,7 +1210,6 @@
     <string name="type.landuse">Markanvändning</string>
     <string name="type.landuse.construction">Byggarbetsplats</string>
     <string name="type.landuse.farmyard">Gård</string>
-    <string name="type.landuse.field">Åkermark</string>
     <string name="type.landuse.garages">Garage</string>
     <string name="type.landuse.greenhouse_horticulture">Växthus</string>
     <string name="type.landuse.industrial">Industriområde</string>

@@ -548,7 +548,6 @@
     <string name="type.landuse.education">Instalacións educativas</string>
     <string name="type.landuse.farmland">Terras agrícolas</string>
     <string name="type.landuse.farmyard">Granja</string>
-    <string name="type.landuse.field">Campo</string>
     <string name="type.landuse.flowerbed">Cama de flores</string>
     <string name="type.landuse.forest">Bosque</string>
     <string name="type.landuse.forest.coniferous">Bosque de coníferas</string>

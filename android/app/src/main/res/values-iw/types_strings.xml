@@ -610,7 +610,6 @@
     <string name="type.landuse.education">קריית חינוך</string>
     <string name="type.landuse.farmland">אדמה חקלאית</string>
     <string name="type.landuse.farmyard">חצר חקלאית</string>
-    <string name="type.landuse.field">שדה</string>
     <string name="type.landuse.flowerbed">ערוגת פרחים</string>
     <string name="type.landuse.forest">יער</string>
     <string name="type.landuse.forest.coniferous">יער מחטניים</string>

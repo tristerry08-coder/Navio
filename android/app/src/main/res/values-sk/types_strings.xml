@@ -587,7 +587,6 @@
     <string name="type.landuse.education">Vzdelávacia inštitúcia</string>
     <string name="type.landuse.farmland">Poľnohospodárska pôda</string>
     <string name="type.landuse.farmyard">Poľnohospodárske budovy</string>
-    <string name="type.landuse.field">Pole</string>
     <string name="type.landuse.flowerbed">Záhon</string>
     <string name="type.landuse.forest">Les</string>
     <string name="type.landuse.forest.coniferous">Ihličnatý les</string>

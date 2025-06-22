@@ -215,7 +215,7 @@
 "type.boundary.administrative" = "行政境界";
 
 /* Borders between countries. */
-"type.boundary.administrative.2" = "National Border";
+"type.boundary.administrative.2" = "国境";
 
 /* Country's primary subdivision borders, e.g. between regions, provinces, states.. */
 "type.boundary.administrative.3" = "行政界";
@@ -371,7 +371,7 @@
 /* This is for main/primary entrances, for secondary entrances see type.entrance */
 "type.entrance.main" = "正面玄関";
 "type.entrance.exit" = "終了する";
-"type.fee.yes" = "$";
+"type.fee.yes" = "￥";
 "type.fee.no" = "無料";
 "type.healthcare.laboratory" = "医療研究所";
 "type.healthcare.physiotherapist" = "理学療法士";
@@ -777,7 +777,7 @@
 "type.mapswithme.grid" = "mapswithme-グリッド";
 "type.military" = "軍事";
 "type.military.bunker" = "掩蔽壕";
-"type.mountain_pass" = "Mountain Pass";
+"type.mountain_pass" = "峠";
 "type.natural" = "自然";
 
 /* A rocky land cover. */
@@ -1445,19 +1445,19 @@
 "type.aerialway.platter" = "シュレップリフト";
 "type.aerialway.rope_tow" = "ロープトウ";
 "type.aerialway.t.bar" = "Tバーリフト";
-"type.piste_type.downhill" = "\\ダウンヒルスキーコース";
+"type.piste_type.downhill" = "ダウンヒルスキーコース";
 "type.piste_type.downhill.area" = "ダウンヒルスキー場";
-"type.piste_type.downhill.advanced" = "Downhill Ski Run";
-"type.piste_type.downhill.advanced.area" = "Downhill Ski Run";
-"type.piste_type.downhill.easy" = "Downhill Ski Run";
-"type.piste_type.downhill.easy.area" = "Downhill Ski Run";
-"type.piste_type.downhill.expert" = "Downhill Ski Run";
-"type.piste_type.downhill.expert.area" = "Downhill Ski Run";
-"type.piste_type.downhill.freeride" = "Downhill Ski Run";
-"type.piste_type.downhill.intermediate" = "Downhill Ski Run";
-"type.piste_type.downhill.intermediate.area" = "Downhill Ski Run";
-"type.piste_type.downhill.novice" = "Downhill Ski Run";
-"type.piste_type.downhill.novice.area" = "Downhill Ski Run";
+"type.piste_type.downhill.advanced" = "上級者向けのダウンヒルスキーコース";
+"type.piste_type.downhill.advanced.area" = "上級者向けのダウンヒルスキー場";
+"type.piste_type.downhill.easy" = "初級者向けのダウンヒルスキーコース";
+"type.piste_type.downhill.easy.area" = "初級者向けのダウンヒルスキー場";
+"type.piste_type.downhill.expert" = "エキスパート向けのダウンヒルスキーコース";
+"type.piste_type.downhill.expert.area" = "エキスパート向けのダウンヒルスキー場";
+"type.piste_type.downhill.freeride" = "フリーライド用のダウンヒルスキーコース";
+"type.piste_type.downhill.intermediate" = "中級者向けのダウンヒルスキーコース";
+"type.piste_type.downhill.intermediate.area" = "中級者向けのダウンヒルスキー場";
+"type.piste_type.downhill.novice" = "初心者向けのダウンヒルスキーコース";
+"type.piste_type.downhill.novice.area" = "初心者向けのダウンヒルスキー場";
 "type.piste_type.nordic" = "ノルディックスキーコース";
 "type.piste_type.sled" = "トボガンコース";
 "type.piste_type.sled.area" = "そりコース";

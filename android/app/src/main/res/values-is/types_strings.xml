@@ -1050,7 +1050,6 @@
     <string name="type.highway.footway.area">Svæði fyrir fótgangandi</string>
     <string name="type.highway.pedestrian.area">Svæði fyrir fótgangandi</string>
     <string name="type.historic.tank">Sögulegur skriðdreki</string>
-    <string name="type.landuse.field">Akur</string>
     <string name="type.place.ocean">Úthaf</string>
     <string name="type.shop.bathroom_furnishing">Baðherbergisinnréttingar</string>
     <string name="type.shop.garden_centre">Garðvöruverslun</string>

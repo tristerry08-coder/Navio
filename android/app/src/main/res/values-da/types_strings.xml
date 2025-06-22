@@ -1233,7 +1233,6 @@
     <string name="type.landuse.construction">Byggeplads</string>
     <string name="type.landuse.education">Uddannelsesområde</string>
     <string name="type.landuse.farmyard">Gårdanlæg</string>
-    <string name="type.landuse.field">Mark</string>
     <string name="type.landuse.garages">Garager</string>
     <string name="type.landuse.greenfield">Ubebygget område</string>
     <string name="type.landuse.industrial">Industriområde</string>

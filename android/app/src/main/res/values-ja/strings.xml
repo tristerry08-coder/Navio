@@ -824,7 +824,7 @@
     <!-- button in (app) TTS settings, to open the system TTS settings. -->
     <string name="pref_tts_open_system_settings">音声合成システムの設定</string>
     <!-- toast displayed when pressing the "Speech synthesis system settings" button, and the system settings aren't found. -->
-    <string name="pref_tts_no_system_tts">音声合成の設定が見つからなかった。</string>
+    <string name="pref_tts_no_system_tts">音声合成の設定が見つからなかった、お使いのデバイスがサポートしていますか？</string>
     <string name="drive_through">ドライブスルー</string>
     <string name="clear_the_search">検索をクリアする</string>
     <string name="zoom_in">ズームイン</string>

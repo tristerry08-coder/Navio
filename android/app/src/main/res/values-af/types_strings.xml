@@ -567,7 +567,6 @@
     <string name="type.landuse.education">Opvoedkundige fasiliteit</string>
     <string name="type.landuse.farmland">Landbougrond</string>
     <string name="type.landuse.farmyard">Plaaswerf</string>
-    <string name="type.landuse.field">Veld</string>
     <string name="type.landuse.forest">Woud</string>
     <string name="type.landuse.forest.coniferous">Naaldwoud</string>
     <string name="type.landuse.forest.deciduous">Loofwoud</string>

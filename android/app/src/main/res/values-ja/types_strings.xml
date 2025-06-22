@@ -1368,7 +1368,6 @@
     <string name="type.hwtag.yesbicycle">自転車通行許可タグ</string>
     <string name="type.hwtag.yescar">自動車通行許可タグ</string>
     <string name="type.hwtag.yesfoot">歩行者通行許可タグ</string>
-    <string name="type.landuse.field">農地</string>
     <string name="type.man_made.storage_tank">貯蔵タンク</string>
     <string name="type.leisure.beach_resort">ビーチリゾート</string>
     <string name="type.aerialway.j.bar">Jバーリフト</string>
@@ -1384,5 +1383,19 @@
     <string name="type.psurface.unpaved_bad">未舗装路面（悪い）</string>
     <string name="type.psurface.unpaved_good">未舗装路面（良い）</string>
     <string name="type.railway.subway.tunnel">地下鉄路線（トンネル）</string>
-    <string name="type.piste_type.downhill">\\ダウンヒルスキーコース</string>
+    <string name="type.piste_type.downhill">ダウンヒルスキーコース</string>
+    <string name="type.piste_type.downhill.easy.area">初級者向けのダウンヒルスキー場</string>
+    <string name="type.piste_type.downhill.intermediate">中級者向けのダウンヒルスキーコース</string>
+    <string name="type.boundary.administrative.2">国境</string>
+    <string name="type.fee.yes">￥</string>
+    <string name="type.piste_type.downhill.novice">初心者向けのダウンヒルスキーコース</string>
+    <string name="type.piste_type.downhill.novice.area">初心者向けのダウンヒルスキー場</string>
+    <string name="type.mountain_pass">峠</string>
+    <string name="type.piste_type.downhill.advanced">上級者向けのダウンヒルスキーコース</string>
+    <string name="type.piste_type.downhill.advanced.area">上級者向けのダウンヒルスキー場</string>
+    <string name="type.piste_type.downhill.easy">初級者向けのダウンヒルスキーコース</string>
+    <string name="type.piste_type.downhill.expert">エキスパート向けのダウンヒルスキーコース</string>
+    <string name="type.piste_type.downhill.expert.area">エキスパート向けのダウンヒルスキー場</string>
+    <string name="type.piste_type.downhill.freeride">フリーライド用のダウンヒルスキーコース</string>
+    <string name="type.piste_type.downhill.intermediate.area">中級者向けのダウンヒルスキー場</string>
 </resources>

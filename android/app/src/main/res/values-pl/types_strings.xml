@@ -594,7 +594,6 @@
     <string name="type.landuse.education">Placówki oświatowe</string>
     <string name="type.landuse.farmland">Grunt rolny</string>
     <string name="type.landuse.farmyard">Obejście gospodarskie</string>
-    <string name="type.landuse.field">Pole</string>
     <string name="type.landuse.flowerbed">Kwietnik</string>
     <string name="type.landuse.forest">Las</string>
     <string name="type.landuse.forest.coniferous">Las iglasty</string>

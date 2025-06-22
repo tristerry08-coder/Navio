@@ -585,7 +585,6 @@
     <string name="type.landuse.construction">Struktur</string>
     <string name="type.landuse.farmland">Kənd Təsərrüfatı Torpaqları</string>
     <string name="type.landuse.farmyard">Ferma rayonu</string>
-    <string name="type.landuse.field">Ərazi</string>
     <string name="type.landuse.flowerbed">Çiçəklik</string>
     <string name="type.landuse.forest">Meşə</string>
     <string name="type.landuse.forest.coniferous">Şam meşəsi</string>

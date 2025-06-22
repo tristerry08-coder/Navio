@@ -121,4 +121,7 @@
     <string name="type.piste_type.nordic">北歐滑雪道</string>
     <string name="type.piste_type.sled.area">雪橇滑道區</string>
     <string name="type.piste_type.sled">雪橇滑道</string>
+    <string name="type.fee.no">免費</string>
+    <string name="type.healthcare.laboratory">醫學實驗室</string>
+    <string name="type.fee.yes">$</string>
 </resources>
