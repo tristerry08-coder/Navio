@@ -34,7 +34,7 @@ def build_osmtools(path, output=subprocess.DEVNULL, error=subprocess.DEVNULL):
         if c.wait() != os.EX_OK:
             messages.append(f"The launch of {' '.join(c.args)} failed.")
     if messages:
-        raise BadExitStatusError("\n".split(messages))
+        raise BadExitStatusError("\n".join(messages))
 
     return result
 
