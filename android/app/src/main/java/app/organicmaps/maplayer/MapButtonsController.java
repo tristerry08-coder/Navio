@@ -213,11 +213,13 @@ public class MapButtonsController extends Fragment
       )
       {
         leftButtonView.setImageResource(R.drawable.ic_christmas_tree);
+        leftButtonView.setContentDescription(getString(R.string.help));
         leftButtonView.setOnClickListener((v) -> mMapButtonClickListener.onMapButtonClick(MapButtons.help));
       }
       else
       {
         mLeftButton.drawIcon(leftButtonView);
+        leftButtonView.setContentDescription(mLeftButton.getPrefsName());
         leftButtonView.setOnClickListener((v) -> mLeftButton.onClick(leftButtonView));
       }
       //      else
