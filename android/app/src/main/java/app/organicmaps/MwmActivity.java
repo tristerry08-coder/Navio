@@ -838,7 +838,7 @@ public class MwmActivity extends BaseMwmFragmentActivity
       @Override
       public String getPrefsName()
       {
-        return getString(R.string.help);
+        return getString(R.string.about_help);
       }
 
       @Override
@@ -2604,7 +2604,7 @@ public class MwmActivity extends BaseMwmFragmentActivity
       items.add(new MenuBottomSheetItem(R.string.share_my_location, R.drawable.ic_share, this::onShareLocationOptionSelected));
 
       if (!BUTTON_HELP_CODE.equals(activeLeftButton))
-        items.add(new MenuBottomSheetItem(R.string.about_menu_title, R.drawable.ic_question_mark, this::showHelp));
+        items.add(new MenuBottomSheetItem(R.string.about_help, R.drawable.ic_question_mark, this::showHelp));
 
       return items;
     }

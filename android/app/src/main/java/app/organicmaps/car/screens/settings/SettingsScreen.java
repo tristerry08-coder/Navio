@@ -109,7 +109,7 @@ public class SettingsScreen extends BaseMapScreen
   private Item createHelpItem()
   {
     final Row.Builder builder = new Row.Builder();
-    builder.setTitle(getCarContext().getString(R.string.help));
+    builder.setTitle(getCarContext().getString(R.string.about_help));
     builder.setOnClickListener(() -> getScreenManager().push(new HelpScreen(getCarContext(), getSurfaceRenderer())));
     builder.setBrowsable(true);
     return builder.build();

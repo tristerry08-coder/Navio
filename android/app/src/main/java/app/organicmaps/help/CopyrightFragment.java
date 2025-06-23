@@ -43,7 +43,7 @@ public class CopyrightFragment extends BaseMwmFragment
   {
     if (!mDelegate.onBackPressed())
     {
-      ((HelpActivity) requireActivity()).stackFragment(HelpFragment.class, getString(R.string.help), null);
+      ((HelpActivity) requireActivity()).stackFragment(HelpFragment.class, getString(R.string.about_help), null);
     }
 
     return true;

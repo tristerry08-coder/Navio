@@ -41,7 +41,7 @@ public class HelpScreen extends BaseMapScreen
   {
     final Header.Builder builder = new Header.Builder();
     builder.setStartHeaderAction(Action.BACK);
-    builder.setTitle(getCarContext().getString(R.string.help));
+    builder.setTitle(getCarContext().getString(R.string.about_help));
     return builder.build();
   }
 
