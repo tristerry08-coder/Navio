@@ -184,10 +184,6 @@ public class SettingsPrefsFragment extends BaseXmlSettingsFragment implements La
       {
         getSettingsActivity().stackFragment(VoiceInstructionsSettingsFragment.class, getString(R.string.pref_tts_enable_title), null);
       }
-      else if (key.equals(getString(R.string.pref_help)))
-      {
-        startActivity(new Intent(requireActivity(), HelpActivity.class));
-      }
       else if (key.equals(getString(R.string.pref_map_locale)))
       {
         LanguagesFragment langFragment = (LanguagesFragment)getSettingsActivity().stackFragment(LanguagesFragment.class, getString(R.string.change_map_locale), null);
