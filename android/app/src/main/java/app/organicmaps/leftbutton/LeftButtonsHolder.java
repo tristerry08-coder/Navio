@@ -43,13 +43,19 @@ public class LeftButtonsHolder
   }
 
   @Nullable
-  public LeftButton getActiveButton()
+  public String getActiveButtonCode()
   {
     String activeButtonCode = prefs.getString(leftButtonPreferenceKey, DEFAULT_BUTTON_CODE);
     if (!TextUtils.isEmpty(activeButtonCode))
-      return availableButtons.get(activeButtonCode);
+      return activeButtonCode;
     else
       return null;
+  }
+
+  @Nullable
+  public LeftButton getActiveButton()
+  {
+    return availableButtons.get(getActiveButtonCode());
   }
 
   public Collection<LeftButton> getAllButtons()

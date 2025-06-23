@@ -2584,20 +2584,28 @@ public class MwmActivity extends BaseMwmFragmentActivity
   {
     if (id.equals(MAIN_MENU_ID))
     {
+      final String activeLeftButton = buttonsHolder.getActiveButtonCode();
       ArrayList<MenuBottomSheetItem> items = new ArrayList<>();
-      items.add(new MenuBottomSheetItem(R.string.placepage_add_place_button, R.drawable.ic_plus, this::onAddPlaceOptionSelected));
-      items.add(new MenuBottomSheetItem(
-          R.string.download_maps,
-          R.drawable.ic_download,
-          getDownloadMapsCounter(),
-          this::onDownloadMapsOptionSelected
-      ));
-      mDonatesUrl = Config.getDonateUrl(getApplicationContext());
-      if (!TextUtils.isEmpty(mDonatesUrl))
+
+      if (!BUTTON_ADD_PLACE_CODE.equals(activeLeftButton))
+        items.add(new MenuBottomSheetItem(R.string.placepage_add_place_button, R.drawable.ic_plus, this::onAddPlaceOptionSelected));
+
+      items.add(new MenuBottomSheetItem(R.string.download_maps, R.drawable.ic_download, getDownloadMapsCounter(), this::onDownloadMapsOptionSelected));
+
+      if (!Config.getDonateUrl(getApplicationContext()).isEmpty())
         items.add(new MenuBottomSheetItem(R.string.donate, R.drawable.ic_donate, this::onDonateOptionSelected));
-      items.add(new MenuBottomSheetItem(R.string.settings, R.drawable.ic_settings, this::onSettingsOptionSelected));
-      items.add(new MenuBottomSheetItem(R.string.start_track_recording, R.drawable.ic_track_recording_off, -1, this::onTrackRecordingOptionSelected));
+
+      if (!BUTTON_SETTINGS_CODE.equals(activeLeftButton))
+        items.add(new MenuBottomSheetItem(R.string.settings, R.drawable.ic_settings, this::onSettingsOptionSelected));
+
+      if (!BUTTON_RECORD_TRACK_CODE.equals(activeLeftButton))
+        items.add(new MenuBottomSheetItem(R.string.start_track_recording, R.drawable.ic_track_recording_off, -1, this::onTrackRecordingOptionSelected));
+
       items.add(new MenuBottomSheetItem(R.string.share_my_location, R.drawable.ic_share, this::onShareLocationOptionSelected));
+
+      if (!BUTTON_HELP_CODE.equals(activeLeftButton))
+        items.add(new MenuBottomSheetItem(R.string.about_menu_title, R.drawable.ic_question_mark, this::showHelp));
+
       return items;
     }
     return null;
