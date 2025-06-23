@@ -365,7 +365,7 @@ class PlacePageInfoViewController: UIViewController {
     }
 	
 	  if let panoramax = placePageInfoData.panoramax {
-      panoramaxView = createInfoItem(L("panoramax"),
+      panoramaxView = createInfoItem(L("panoramax_picture"),
                                 icon: UIImage(named: "ic_placepage_panoramax"),
                                 style: .link,
                                 tapHandler: { [weak self] in
