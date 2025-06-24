@@ -76,7 +76,7 @@ void CaptionDescription::Init(FeatureType & f, int8_t deviceLang, int zoomLevel,
 
   // Set max text length to avoid VB/IB overflow in rendering.
   size_t constexpr kMaxTextLength = 65; 
-  if (strings::Truncate(&m_mainText, kMaxTextLength))
+  if (strings::Truncate(m_mainText, kMaxTextLength))
     m_mainText += "…";
 
   // TODO(pastk) : its better to determine housenumbers minZoom once upon drules load and cache it,
