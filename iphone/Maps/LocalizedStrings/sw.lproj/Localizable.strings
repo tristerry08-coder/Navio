@@ -609,7 +609,7 @@
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Mwendeshaji: %@";
 "editor_category_unsuitable_title" = "Je, huwezi kupata aina inayofaa?";
-"editor_category_unsuitable_text" = "Ramani za Kikaboni huruhusu kuongeza kategoria rahisi pekee, hiyo inamaanisha hakuna miji, barabara, maziwa, muhtasari wa majengo, n.k. Tafadhali ongeza kategoria kama hizo moja kwa moja kwenye <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Angalia <a href=\"https://www.comaps.app/support/advanced-map-editing/\">mwongozo wetu</a> kwa maagizo ya kina ya hatua kwa hatua.";
+"editor_category_unsuitable_text" = "CoMaps huruhusu kuongeza kategoria rahisi pekee, hiyo inamaanisha hakuna miji, barabara, maziwa, muhtasari wa majengo, n.k. Tafadhali ongeza kategoria kama hizo moja kwa moja kwenye <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Angalia <a href=\"https://www.comaps.app/support/advanced-map-editing/\">mwongozo wetu</a> kwa maagizo ya kina ya hatua kwa hatua.";
 "downloader_no_downloaded_maps_title" = "You haven't downloaded any maps";
 "downloader_no_downloaded_maps_message" = "Download maps to search and navigate offline.";
 "current_location_unknown_error_title" = "Current location is unknown.";
@@ -967,7 +967,7 @@
 "app_tip_09" = "Lengo letu kuu ni kujenga ramani za haraka, zinazozingatia faragha, na rahisi kutumia ambazo utapenda.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Sasa unatumia ramani za kikaboni kwenye skrini ya simu";
+"car_used_on_the_phone_screen" = "Sasa unatumia CoMaps kwenye skrini ya simu";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
 "car_used_on_the_car_screen" = "Sasa unatumia ramani za kikaboni kwenye skrini ya gari";
@@ -995,7 +995,7 @@
 "website_menu" = "Kiungo cha menyu";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Je, ungependa kutuma ripoti ya hitilafu kwa wasanidi programu?\nTunategemea watumiaji wetu kwani Ramani za Kikaboni hazikusanyi maelezo yoyote ya hitilafu kiotomatiki. Asante mapema kwa kusaidia Ramani za Organic!";
+"bugreport_alert_message" = "Je, ungependa kutuma ripoti ya hitilafu kwa wasanidi programu?\nTunategemea watumiaji wetu kwani CoMaps hazikusanyi maelezo yoyote ya hitilafu kiotomatiki. Asante mapema kwa kusaidia CoMaps!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Washa Usawazishaji wa iCloud";

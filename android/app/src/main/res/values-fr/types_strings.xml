@@ -1316,7 +1316,7 @@
     <string name="type.highway.ladder">Échelle</string>
     <string name="type.amenity.love_hotel">Love hotel</string>
     <string name="type.barrier.guard_rail">Glissière de sécurité</string>
-    <string name="type.sport.diving">Plongée</string>
+    <string name="type.sport.diving">Plongeon de haut vol</string>
     <string name="type.amenity.studio">Studio</string>
     <string name="type.leisure.firepit">Foyer</string>
     <string name="type.military">Armée</string>
@@ -1400,4 +1400,5 @@
     <string name="type.shop.bookmaker">Bookmaker</string>
     <string name="type.tourism.attraction">Attraction</string>
     <string name="type.hwtag">hwtag</string>
+    <string name="type.man_made.crane">Grue</string>
 </resources>

@@ -9,7 +9,7 @@
     <string name="delete">Slett</string>
     <string name="download_maps">Last ned kart</string>
     <!-- Settings/Downloader - info for country when download fails -->
-    <string name="download_has_failed">Nedlastingen mislyktes – trykk på nytt for å prøve en gang til</string>
+    <string name="download_has_failed">Nedlastingen mislyktes. Trykk for å prøve igjen.</string>
     <!-- Settings/Downloader - info for country which started downloading -->
     <string name="downloading">Laster ned …</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->
@@ -40,15 +40,15 @@
     <string name="try_again">Prøv på nytt</string>
     <string name="about_menu_title">Om CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Gratis for alle, laget med kjærlighet</string>
+    <string name="about_headline">Åpent prosjekt drevet av felleskapet</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_1">• Ingen annonser, ingen sporing, ingen datainnsamling</string>
+    <string name="about_proposition_1">• Lett å bruke og polert</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_2">• Ingen batterislitasje, fungerer offline</string>
+    <string name="about_proposition_2">• Personvernfokusert og reklamefri</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Rask, minimalistisk, utviklet av fellesskapet</string>
+    <string name="about_proposition_3">• Offline, rask og kompakt</string>
     <!-- Text in About screen -->
-    <string name="about_developed_by_enthusiasts">Open source-applikasjon opprettet av entusiaster og frivillige.</string>
+    <string name="about_developed_by_enthusiasts">Fullstendig åpen kildekode, ikke for profitt, gjennomsiktige beslutningsprosesser og finanser.</string>
     <!-- The button that opens system location settings -->
     <string name="location_settings">Innstillinger for plassering</string>
     <string name="close">Lukk</string>
@@ -58,7 +58,7 @@
     <string name="disconnect_usb_cable">Koble fra USB-kabelen eller sett inn minnekortet for å bruke CoMaps</string>
     <!-- Used in DownloadResources startup screen -->
     <string name="not_enough_free_space_on_sdcard">Frigjør plass på SD-kortet/USB-enheten først for å bruke appen</string>
-    <string name="download_resources">Før du begynner, la oss laste ned det generelle verdenskartet til enheten. Det trengs %s med data.</string>
+    <string name="download_resources">Før du begynner å bruke appen, last ned oversiktskartet over verden til enheten din.\nDet vil bruke %s lagringsplass.</string>
     <string name="download_resources_continue">Gå til kart</string>
     <string name="downloading_country_can_proceed">Laster ned %1$s (%2$s). Du kan nå \nfortsette til kartet.</string>
     <string name="download_country_ask">Vil du laste ned %1$s? (%2$s)</string>
@@ -90,7 +90,7 @@
     <!-- Header of settings activity where user defines storage path -->
     <string name="maps_storage">Lagre kart på</string>
     <!-- Detailed description of Maps Storage settings button -->
-    <string name="maps_storage_summary">Velg hvor du vil at kartene skal lastes ned til</string>
+    <string name="maps_storage_summary">Velg mappen hvor kartene skal lastes ned.</string>
     <!-- E.g. "Downloaded maps: 500Mb" in Maps Storage settings -->
     <string name="maps_storage_downloaded">Kart</string>
     <!-- Internal storage type in Maps Storage settings (not accessible by the user) -->
@@ -108,7 +108,7 @@
     <!-- Error moving map files from one storage to another -->
     <string name="move_maps_error">Kunne ikke flytte kart</string>
     <!-- Ask user to wait several minutes (some long process in modal dialog). -->
-    <string name="wait_several_minutes">Dette kan ta flere minutter. Vent et øyeblikk …</string>
+    <string name="wait_several_minutes">Dette kan ta flere minutter. \nVent…</string>
     <!-- Measurement units title in settings activity -->
     <string name="measurement_units">Måleenheter</string>
     <!-- Detailed description of Measurement Units settings button -->
@@ -191,7 +191,7 @@
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">Hei, se posisjonen min på CoMaps-kartet!</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
-    <string name="my_position_share_email">Hei,Jeg er her nå: %1$s. Klikk på denne koblingen %2$s eller denne %3$s for å se stedet på kartet. \n \nTakk.</string>
+    <string name="my_position_share_email">Hei, \nJeg er her nå: %1$s. Klikk denne lenken %2$s eller denne %3$s for å se stedet på kartet. \n \nTakk.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
     <string name="share">Del</string>
     <!-- Share by email button text, also used in editor and About. -->
@@ -306,7 +306,7 @@
     <!-- Preference title -->
     <string name="google_play_services">Google Play Stedstjenester</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">Finn raskt ut din omtrentlige posisjon via Bluetooth, WiFi eller mobilnettverk</string>
+    <string name="pref_use_google_play">Produsenteid tjeneste som kombinerer GPS, Wi-Fi, mobilnettverk etc. for å bestemme posisjonen din mer nøyaktig. Den kan koble til Google-servere.</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -356,7 +356,7 @@
     <string name="dialog_routing_disclaimer_priority">– Veiforhold, trafikkregler og skilt skal alltid prioriteres fremfor navigasjonsråd;</string>
     <string name="dialog_routing_disclaimer_precision">– Kartet kan inneholde unøyaktigheter, og den foreslåtte ruten er ikke nødvendigvis alltid den mest optimale veien;</string>
     <string name="dialog_routing_disclaimer_recommendations">– Foreslåtte ruter bør bare anses som anbefalinger;</string>
-    <string name="dialog_routing_disclaimer_borders">— Vær forsiktig når det gjelder ruter i grenseområder: rutene som appen vår oppretter kan komme til å krysse landegrenser i uatoriserte områder;</string>
+    <string name="dialog_routing_disclaimer_borders">— Vær forsiktig med ruter i grenseområder: rutene som appen vår oppretter kan noen ganger krysse landegrenser i uautoriserte områder.</string>
     <string name="dialog_routing_disclaimer_beware">Kjør trygt!</string>
     <string name="dialog_routing_check_gps">Sjekk GPS-signal</string>
     <string name="dialog_routing_error_location_not_found">Ingen rute ble opprettet. Nåværende GPS-koordinater ble ikke funnet.</string>
@@ -440,7 +440,7 @@
     <string name="closed">Stengt</string>
     <string name="edit_opening_hours">Rediger åpningstider</string>
     <string name="no_osm_account">Har du ingen konto hos OpenStreetMap?</string>
-    <string name="register_at_openstreetmap">Registrer deg</string>
+    <string name="register_at_openstreetmap">Registrer deg på OpenStreetMap</string>
     <string name="login">Logg inn</string>
     <!-- Status message indicating that user did not login to OSM profile yet. -->
     <string name="not_signed_in">Ikke logget inn</string>
@@ -551,11 +551,11 @@
     <string name="error_enter_correct_phone">Skriv riktig telefonnummer</string>
     <string name="error_enter_correct_web">Oppgi en gyldig nettadresse</string>
     <string name="error_enter_correct_email">Oppgi en gyldig epostadresse</string>
-    <string name="error_enter_correct_facebook_page">Skriv inn en gyldig Facebook-adresse, -konto eller -side.</string>
+    <string name="error_enter_correct_facebook_page">Skriv inn en gyldig Facebook-adresse, -konto eller -side</string>
     <string name="error_enter_correct_instagram_page">Skriv inn en gyldig Instagram-adresse eller -kontonavn</string>
-    <string name="error_enter_correct_twitter_page">Skriv inn en gyldig Twitter-adresse eller -brukernavn.</string>
-    <string name="error_enter_correct_vk_page">Skriv inn en gyldig VB-adresse eller -kontonavn</string>
-    <string name="error_enter_correct_line_page">Skriv inn en gyldig LINE-adresse eller -ID.</string>
+    <string name="error_enter_correct_twitter_page">Skriv inn en gyldig Twitter-adresse eller -brukernavn</string>
+    <string name="error_enter_correct_vk_page">Skriv inn en gyldig VK-adresse eller -kontonavn</string>
+    <string name="error_enter_correct_line_page">Skriv inn en gyldig LINE-adresse eller -ID</string>
     <string name="placepage_add_place_button">Legg til sted i OpenStreetMap</string>
     <!-- Displayed when saving some edits to the map to warn against publishing personal data -->
     <string name="editor_share_to_all_dialog_title">Vil du sende det til alle brukere?</string>
@@ -752,7 +752,7 @@
     <string name="elevation_profile_max_elevation">Maks. høyde</string>
     <string name="elevation_profile_difficulty">Vanskelighet</string>
     <string name="elevation_profile_distance">Avstand:</string>
-    <string name="elevation_profile_time">I rute</string>
+    <string name="elevation_profile_time">Tid:</string>
     <string name="isolines_toast_zooms_1_10">Forstørr kartet for å se høydekurver</string>
     <string name="downloader_loading_ios">Nedlasting</string>
     <string name="download_map_title">Last ned verdenskart</string>
@@ -861,4 +861,14 @@
     <string name="uri_open_location_failed">Ingen app installert som kan åpne stedet</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Auto i navigasjon</string>
+    <string name="gb">GB</string>
+    <string name="error_enter_correct_level">Angi et gyldig etasjenummer</string>
+    <string name="editor_level">Etasje (0 er nederste etasje)</string>
+    <string name="pref_left_button_disable">Deaktiver</string>
+    <string name="saved">Lagret</string>
+    <string name="telegram_url">https://t.me/CoMapsApp/</string>
+    <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/No:Hva_er_OpenStreetmap</string>
+    <string name="translated_om_site_url">https://comaps.app/</string>
+    <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
+    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
 </resources>

@@ -869,4 +869,11 @@
     <string name="editor_building_levels">Andares (incl. térreo, excl. sótão)</string>
     <string name="error_enter_correct_level">Digite um número de andares válido</string>
     <string name="editor_level">Andar (0 é o térreo)</string>
+    <string name="clear">Limpar</string>
+    <string name="route_type">Tipo de rota</string>
+    <string name="vehicle">Veículo</string>
+    <string name="pedestrian">Pedestre</string>
+    <string name="bicycle">Bicicleta</string>
+    <string name="ruler">Régua</string>
+    <string name="bookmark_color">Cor do favorito</string>
 </resources>

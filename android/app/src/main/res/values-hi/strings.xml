@@ -164,7 +164,7 @@
     <!-- SECTION: Other translations -->
     <!-- Notes field in Bookmarks view -->
     <string name="description">टिप्पणियाँ</string>
-    <string name="share_bookmarks_email_body">नमस्ते! \n \nमेरे बुकमार्क संलग्न हैं; कृपया उन्हें ऑर्गेनिक मानचित्र में खोलें। यदि आपने इसे इंस्टॉल नहीं किया है तो आप इसे यहां से डाउनलोड कर सकते हैं: https://www.comaps.app/download/ \n \nऑर्गेनिक मैप्स के साथ यात्रा का आनंद लें!</string>
+    <string name="share_bookmarks_email_body">नमस्ते! \n \nमेरे बुकमार्क संलग्न हैं; कृपया उन्हें CoMaps में खोलें। यदि आपने इसे इंस्टॉल नहीं किया है तो आप इसे यहां से डाउनलोड कर सकते हैं: https://www.comaps.app/download/ \n \nCoMaps के साथ यात्रा का आनंद लें!</string>
     <!-- message title of loading file -->
     <string name="load_kmz_title">बुकमार्क लोड हो रहे हैं</string>
     <!-- Kmz file successful loading -->
@@ -184,11 +184,11 @@
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">मानचित्र डाउनलोड अभी प्रगति पर है.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
-    <string name="my_position_share_sms">ऑर्गेनिक मानचित्र में मेरा वर्तमान स्थान देखें! %1$s या %2$s के पास ऑफ़लाइन मानचित्र नहीं हैं? यहां डाउनलोड करें: https://www.comaps.app/download/</string>
+    <string name="my_position_share_sms">CoMaps में मेरा वर्तमान स्थान देखें! %1$s या %2$s के पास ऑफ़लाइन मानचित्र नहीं हैं? यहां डाउनलोड करें: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
-    <string name="bookmark_share_email_subject">अरे, ऑर्गेनिक मैप्स में मेरा पिन देखें!</string>
+    <string name="bookmark_share_email_subject">अरे, CoMaps में मेरा पिन देखें!</string>
     <!-- Subject for emailed position -->
-    <string name="my_position_share_email_subject">अरे, ऑर्गेनिक मैप मानचित्र पर मेरा वर्तमान स्थान देखें!</string>
+    <string name="my_position_share_email_subject">अरे, CoMaps मानचित्र पर मेरा वर्तमान स्थान देखें!</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
     <string name="my_position_share_email">नमस्ते, \n \nमैं अब यहाँ हूँ: %1$s. इस लिंक पर क्लिक करें %2$s या यह लिंक %3$s मानचित्र पर स्थान देखने के लिए \n \nधन्यवाद.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -375,7 +375,7 @@
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
     <string name="osm_presentation">समुदाय-निर्मित OpenStreetMap डेटा %s तक। OpenStreetMap.org पर मानचित्र को संपादित और अपडेट करने के तरीके के बारे में और जानें</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">OpenStreetMap.org (OSM) एक निःशुल्क और खुला मानचित्र बनाने के लिए एक सामुदायिक परियोजना है। यह ऑर्गेनिक मैप्स में मानचित्र डेटा का मुख्य स्रोत है और विकिपीडिया के समान काम करता है। आप स्थानों को जोड़ या संपादित कर सकते हैं और वे दुनिया भर में लाखों उपयोगकर्ताओं के लिए उपलब्ध हो जाते हैं। \nसमुदाय में शामिल हों और सभी के लिए एक बेहतर मानचित्र बनाने में सहायता करें!</string>
+    <string name="login_osm_presentation">OpenStreetMap.org (OSM) एक निःशुल्क और खुला मानचित्र बनाने के लिए एक सामुदायिक परियोजना है। यह CoMaps में मानचित्र डेटा का मुख्य स्रोत है और विकिपीडिया के समान काम करता है। आप स्थानों को जोड़ या संपादित कर सकते हैं और वे दुनिया भर में लाखों उपयोगकर्ताओं के लिए उपलब्ध हो जाते हैं। \nसमुदाय में शामिल हों और सभी के लिए एक बेहतर मानचित्र बनाने में सहायता करें!</string>
     <string name="login_to_make_edits_visible">अपने मानचित्र संपादनों को दुनिया भर में प्रकाशित करने के लिए एक OpenStreetMap खाता बनाएं या लॉग इन करें।</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%2$d में से %1$d</string>
@@ -384,7 +384,7 @@
     <!-- Title for OSM note section in the editor -->
     <string name="editor_other_info">OpenStreetMap स्वयंसेवकों के लिए नोट (वैकल्पिक)</string>
     <!-- Hint of the input field in the OSM note section of the editor -->
-    <string name="editor_note_hint">मानचित्र में त्रुटियों का वर्णन करें या ऑर्गेनिक मानचित्र का उपयोग करके क्या संपादित नहीं किया जा सकता है</string>
+    <string name="editor_note_hint">मानचित्र में त्रुटियों का वर्णन करें या CoMaps का उपयोग करके क्या संपादित नहीं किया जा सकता है</string>
     <!-- Information about OSM at the top of the editing page -->
     <string name="editor_about_osm">आपके संपादन सार्वजनिक <a href="https://wiki.openstreetmap.org/wiki/About_OpenStreetMap">OpenStreetMap</a> डेटाबेस पर अपलोड किए जाते हैं। कृपया व्यक्तिगत या कॉपीराइट जानकारी न जोड़ें।</string>
     <string name="editor_more_about_osm">OpenStreetMap के बारे में अधिक जानकारी</string>
@@ -394,7 +394,7 @@
     <!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
     <string name="operator">ऑपरेटर: %s</string>
     <string name="editor_category_unsuitable_title">कोई उपयुक्त श्रेणी नहीं मिल रही?</string>
-    <string name="editor_category_unsuitable_text">ऑर्गेनिक मैप्स केवल सरल बिंदु श्रेणियां जोड़ने की अनुमति देता है, जिसका अर्थ है कि शहर, सड़कें, झीलें, भवन की रूपरेखा आदि नहीं। कृपया ऐसी श्रेणियां सीधे <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> पर जोड़ें।. विस्तृत चरण-दर-चरण निर्देशों के लिए हमारी <a href="https://www.comaps.app/support/advanced-map-editing/">मार्गदर्शिका</a> देखें।</string>
+    <string name="editor_category_unsuitable_text">CoMaps केवल सरल बिंदु श्रेणियां जोड़ने की अनुमति देता है, जिसका अर्थ है कि शहर, सड़कें, झीलें, भवन की रूपरेखा आदि नहीं। कृपया ऐसी श्रेणियां सीधे <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> पर जोड़ें।. विस्तृत चरण-दर-चरण निर्देशों के लिए हमारी <a href="https://www.comaps.app/support/advanced-map-editing/">मार्गदर्शिका</a> देखें।</string>
     <!-- abbreviation for meters -->
     <string name="m">मी</string>
     <!-- abbreviation for kilometers -->
@@ -530,9 +530,9 @@
     <!-- App tip #09 -->
     <string name="app_tip_09">हमारा मुख्य लक्ष्य तेज़, गोपनीयता-केंद्रित, उपयोग में आसान मानचित्र बनाना है जो आपको पसंद आएंगे।</string>
     <!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-    <string name="car_used_on_the_phone_screen">अब आप फ़ोन स्क्रीन पर ऑर्गेनिक मानचित्र का उपयोग कर रहे हैं</string>
+    <string name="car_used_on_the_phone_screen">अब आप फ़ोन स्क्रीन पर CoMaps का उपयोग कर रहे हैं</string>
     <!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-    <string name="car_used_on_the_car_screen">अब आप कार स्क्रीन पर ऑर्गेनिक मानचित्र का उपयोग कर रहे हैं</string>
+    <string name="car_used_on_the_car_screen">अब आप कार स्क्रीन पर CoMaps का उपयोग कर रहे हैं</string>
     <!-- Displayed on the phone screen. Android Auto connected -->
     <string name="aa_connected_title">आप Android Auto से कनेक्ट हैं</string>
     <!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->
@@ -540,11 +540,11 @@
     <!-- Displayed on the Android Auto or CarPlay screen. Button to display maps on the car screen instead of a phone. Must be no more than 18 symbols! -->
     <string name="car_continue_in_the_car">कार स्क्रीन पर</string>
     <!-- Ask user to grant location permissions -->
-    <string name="aa_location_permissions_request">ऑर्गेनिक मैप्स को स्थान पहुंच की आवश्यकता है। जब यह सुरक्षित हो, तो अपने फ़ोन पर अधिसूचना जांचें।</string>
+    <string name="aa_location_permissions_request">CoMaps को स्थान पहुंच की आवश्यकता है। जब यह सुरक्षित हो, तो अपने फ़ोन पर अधिसूचना जांचें।</string>
     <!-- Notification title for permission request from AA. -->
     <string name="aa_request_permission_notification">इस ऐप को आपकी अनुमति की आवश्यकता है</string>
     <!-- The text in the activity for location permission request. -->
-    <string name="aa_request_permission_activity_text">एंड्रॉइड ऑटो में ऑर्गेनिक मैप्स को प्रभावी ढंग से काम करने के लिए स्थान अनुमति की आवश्यकता होती है</string>
+    <string name="aa_request_permission_activity_text">Android Auto में CoMaps को प्रभावी ढंग से काम करने के लिए स्थान अनुमति की आवश्यकता होती है</string>
     <!-- Grant Permissions button. -->
     <string name="aa_grant_permissions">अनुमतियाँ प्रदान करें</string>
     <!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
@@ -595,4 +595,8 @@
     <string name="uri_open_location_failed">कोई ऐप इंस्टॉल नहीं है जो लोकेशन खोल सके</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">नेविगेशन में ऑटो</string>
+    <string name="telegram_url">https://t.me/CoMapsApp/</string>
+    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
+    <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
+    <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/About_OpenStreetMap</string>
 </resources>

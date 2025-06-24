@@ -117,12 +117,12 @@
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
     <string name="osm_presentation">Data ya OpenStreetMap iliyoundwa na jumuiya kufikia %s. Pata maelezo zaidi kuhusu jinsi ya kuhariri na kusasisha ramani katika OpenStreetMap.org</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">OpenStreetMap.org (OSM) ni mradi wa jumuiya wa kujenga ramani isiyolipishwa na iliyo wazi. Ndiyo chanzo kikuu cha data ya ramani katika Ramani za Kikaboni na inafanya kazi sawa na Wikipedia. Unaweza kuongeza au kubadilisha maeneo na yanapatikana kwa mamilioni ya watumiaji kote Ulimwenguni. \nJiunge na jumuiya na usaidie kutengeneza ramani bora kwa kila mtu!</string>
+    <string name="login_osm_presentation">OpenStreetMap.org (OSM) ni mradi wa jumuiya wa kujenga ramani isiyolipishwa na iliyo wazi. Ndiyo chanzo kikuu cha data ya ramani katika CoMaps na inafanya kazi sawa na Wikipedia. Unaweza kuongeza au kubadilisha maeneo na yanapatikana kwa mamilioni ya watumiaji kote Ulimwenguni. \nJiunge na jumuiya na usaidie kutengeneza ramani bora kwa kila mtu!</string>
     <string name="login_to_make_edits_visible">Fungua akaunti ya OpenStreetMap au ingia ili kuchapisha mabadiliko yako ya ramani kwa ulimwengu.</string>
     <!-- Title for OSM note section in the editor -->
     <string name="editor_other_info">Kumbuka kwa wanaojitolea wa OpenStreetMap (si lazima)</string>
     <!-- Hint of the input field in the OSM note section of the editor -->
-    <string name="editor_note_hint">Eleza hitilafu kwenye ramani au kile ambacho hakiwezi kuhaririwa kwa kutumia Ramani za Kikaboni</string>
+    <string name="editor_note_hint">Eleza hitilafu kwenye ramani au kile ambacho hakiwezi kuhaririwa kwa kutumia CoMaps</string>
     <!-- Information about OSM at the top of the editing page -->
     <string name="editor_about_osm">Mabadiliko yako yanapakiwa kwenye hifadhidata ya <a href="https://wiki.openstreetmap.org/wiki/About_OpenStreetMap">OpenStreetMap</a> ya umma. Tafadhali usiongeze maelezo ya kibinafsi au yenye hakimiliki.</string>
     <string name="editor_osm_history">Historia yako ya uhariri</string>
@@ -131,7 +131,7 @@
     <!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
     <string name="operator">Mwendeshaji: %s</string>
     <string name="editor_category_unsuitable_title">Je, huwezi kupata aina inayofaa?</string>
-    <string name="editor_category_unsuitable_text">Ramani za Kikaboni huruhusu kuongeza kategoria rahisi pekee, hiyo inamaanisha hakuna miji, barabara, maziwa, muhtasari wa majengo, n.k. Tafadhali ongeza kategoria kama hizo moja kwa moja kwenye <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Angalia <a href="https://www.comaps.app/support/advanced-map-editing/">mwongozo wetu</a> kwa maagizo ya kina ya hatua kwa hatua.</string>
+    <string name="editor_category_unsuitable_text">CoMaps huruhusu kuongeza kategoria rahisi pekee, hiyo inamaanisha hakuna miji, barabara, maziwa, muhtasari wa majengo, n.k. Tafadhali ongeza kategoria kama hizo moja kwa moja kwenye <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Angalia <a href="https://www.comaps.app/support/advanced-map-editing/">mwongozo wetu</a> kwa maagizo ya kina ya hatua kwa hatua.</string>
     <string name="placepage_personal_notes_hint">Vidokezo vya kibinafsi (maandishi au HTML)</string>
     <string name="placepage_add_place_button">Ongeza Mahali kwa OpenStreetMap</string>
     <string name="editor_share_to_all_dialog_message_2">Wahariri wa OpenStreetMap watakagua mabadiliko na kuwasiliana nawe ikiwa wana maswali yoyote.</string>
@@ -333,7 +333,7 @@
     <!-- App tip #09 -->
     <string name="app_tip_09">Lengo letu kuu ni kujenga ramani za haraka, zinazozingatia faragha, na rahisi kutumia ambazo utapenda.</string>
     <!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-    <string name="car_used_on_the_phone_screen">Sasa unatumia ramani za kikaboni kwenye skrini ya simu</string>
+    <string name="car_used_on_the_phone_screen">Sasa unatumia CoMaps kwenye skrini ya simu</string>
     <!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
     <string name="car_used_on_the_car_screen">Sasa unatumia ramani za kikaboni kwenye skrini ya gari</string>
     <!-- Displayed on the phone screen. Android Auto connected -->
@@ -398,4 +398,11 @@
     <string name="uri_open_location_failed">Hakuna Programu iliyosakinishwa inayoweza kufungua eneo</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Urambazaji otomatiki</string>
+    <string name="gb">GB</string>
+    <string name="mb">MB</string>
+    <string name="telegram_url">https://t.me/CoMapsApp/</string>
+    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
+    <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/About_OpenStreetMap</string>
+    <string name="translated_om_site_url">https://comaps.app/</string>
+    <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
 </resources>

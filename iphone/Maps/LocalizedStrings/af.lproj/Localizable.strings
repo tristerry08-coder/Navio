@@ -609,7 +609,7 @@
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Operateur: %@";
 "editor_category_unsuitable_title" = "Kan u nie 'n geskikte kategorie vind nie?";
-"editor_category_unsuitable_text" = "Organiese kaarte laat toe om slegs eenvoudige puntkategorieë by te voeg, dit beteken geen dorpe, paaie, mere, gebouomlynings, ens. Voeg asseblief sulke kategorieë direk by <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Gaan ons <a href=\"https://www.comaps.app/support/advanced-map-editing/\">gids</a> na vir gedetailleerde stap-vir-stap-instruksies.";
+"editor_category_unsuitable_text" = "CoMaps laat toe om slegs eenvoudige puntkategorieë by te voeg, dit beteken geen dorpe, paaie, mere, gebouomlynings, ens. Voeg asseblief sulke kategorieë direk by <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Gaan ons <a href=\"https://www.comaps.app/support/advanced-map-editing/\">gids</a> na vir gedetailleerde stap-vir-stap-instruksies.";
 "downloader_no_downloaded_maps_title" = "U het geen kaarte afgelaai nie";
 "downloader_no_downloaded_maps_message" = "Laai kaarte af om die ligging te soek en vanlyn te navigeer.";
 "current_location_unknown_error_title" = "Huidige ligging is onbekend.";
@@ -672,7 +672,7 @@
 
 /* Dialog before publishing the modifications to the public map. */
 "editor_share_to_all_dialog_message_1" = "Maak seker u het geen privaat of persoonlike data ingevoer nie.";
-"editor_share_to_all_dialog_message_2" = "OpenStraatMap-redigeerders sal die verandeirnge nagaan en u kontak indien hulle vrae het.";
+"editor_share_to_all_dialog_message_2" = "OpenStreetMap-redigeerders sal die verandeirnge nagaan en u kontak indien hulle vrae het.";
 "navigation_stop_button" = "Stop";
 
 /* iOS dialog for the case when recent track recording is on and the app comes back from background */

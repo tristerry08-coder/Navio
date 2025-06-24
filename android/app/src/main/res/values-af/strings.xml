@@ -493,7 +493,7 @@
     <!-- Title for OSM note section in the editor -->
     <string name="editor_other_info">Nota aan OpenStreetMap-vrywilligers (opsioneel)</string>
     <!-- Hint of the input field in the OSM note section of the editor -->
-    <string name="editor_note_hint">Beskryf foute in die kaart of wat nie met Organiese Kaarte geredigeer kan word nie</string>
+    <string name="editor_note_hint">Beskryf foute in die kaart of wat nie met CoMaps geredigeer kan word nie</string>
     <!-- Information about OSM at the top of the editing page -->
     <string name="editor_about_osm">Jou wysigings word opgelaai na die publieke <a href="https://wiki.openstreetmap.org/wiki/About_OpenStreetMap">OpenStreetMap</a>-databasis. Moet asseblief nie persoonlike of kopiereginligting byvoeg nie.</string>
     <string name="editor_more_about_osm">Meer oor OpenStreetMap</string>
@@ -503,7 +503,7 @@
     <!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
     <string name="operator">Operateur: %s</string>
     <string name="editor_category_unsuitable_title">Kan u nie \'n geskikte kategorie vind nie?</string>
-    <string name="editor_category_unsuitable_text">Organiese kaarte laat toe om slegs eenvoudige puntkategorieë by te voeg, dit beteken geen dorpe, paaie, mere, gebouomlynings, ens. Voeg asseblief sulke kategorieë direk by <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Gaan ons <a href="https://www.comaps.app/support/advanced-map-editing/">gids</a> na vir gedetailleerde stap-vir-stap-instruksies.</string>
+    <string name="editor_category_unsuitable_text">CoMaps laat toe om slegs eenvoudige puntkategorieë by te voeg, dit beteken geen dorpe, paaie, mere, gebouomlynings, ens. Voeg asseblief sulke kategorieë direk by <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Gaan ons <a href="https://www.comaps.app/support/advanced-map-editing/">gids</a> na vir gedetailleerde stap-vir-stap-instruksies.</string>
     <string name="downloader_no_downloaded_maps_title">U het geen kaarte afgelaai nie</string>
     <string name="downloader_no_downloaded_maps_message">Laai kaarte af om die ligging te soek en vanlyn te navigeer.</string>
     <string name="current_location_unknown_error_title">Huidige ligging is onbekend.</string>
@@ -546,7 +546,7 @@
     <string name="editor_share_to_all_dialog_title">Wil u dit na alle gebruikers stuur?</string>
     <!-- Dialog before publishing the modifications to the public map. -->
     <string name="editor_share_to_all_dialog_message_1">Maak seker u het geen privaat of persoonlike data ingevoer nie.</string>
-    <string name="editor_share_to_all_dialog_message_2">OpenStraatMap-redigeerders sal die verandeirnge nagaan en u kontak indien hulle vrae het.</string>
+    <string name="editor_share_to_all_dialog_message_2">OpenStreetMap-redigeerders sal die verandeirnge nagaan en u kontak indien hulle vrae het.</string>
     <!-- Shown as toast when starting the recent track recording -->
     <string name="track_recording">Opname van die spoor</string>
     <!-- For the first routing -->
@@ -797,4 +797,10 @@
     <string name="uri_open_location_failed">Geen toepassing geïnstalleer wat die ligging kan oopmaak nie</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Outo in navigasie</string>
+    <string name="telegram_url">https://t.me/CoMapsApp/</string>
+    <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/About_OpenStreetMap</string>
+    <string name="comma_separated_pair">%1$s, %2$s</string>
+    <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
+    <string name="translated_om_site_url">https://comaps.app/</string>
+    <string name="instagram_url">https://www.instagram.com/comapscommunity/</string>
 </resources>

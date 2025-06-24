@@ -624,7 +624,7 @@
 "location_services_disabled_on_device_2" = "2. בחר פרטיות";
 "location_services_disabled_on_device_3" = "3. בחר שירותי מיקום";
 "location_services_disabled_on_device_4" = "4. הפעל את שירותי המיקום";
-"location_services_disabled_on_device_additional_message" = "או המשך להשתמש במפות אורגניות ללא מיקום";
+"location_services_disabled_on_device_additional_message" = "או המשך להשתמש ב-CoMaps ללא מיקום";
 
 /* abbreviation for meters */
 "m" = "מ׳";
@@ -925,7 +925,7 @@
 "track_title" = "מסלול";
 
 /* Telegram group url for the "?" About page */
-"telegram_url" = "https://t.me/CoMapsApp/";
+"telegram_url" = "https://t.me/CoMapsApp";
 
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
@@ -995,7 +995,7 @@
 "website_menu" = "קישור לתפריט";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "האם תרצה לשלוח דוח באג למפתחים?\nאנו סומכים על המשתמשים שלנו מכיוון שמפות אורגניות לא אוספות כל מידע על שגיאות באופן אוטומטי. תודה מראש על התמיכה במפות אורגניות!";
+"bugreport_alert_message" = "האם תרצה לשלוח דוח באג למפתחים?\nאנו סומכים על המשתמשים שלנו מכיוון ש-CoMaps לא אוספות כל מידע על שגיאות באופן אוטומטי. תודה מראש על התמיכה ב-CoMaps!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "הפעל סנכרון iCloud";

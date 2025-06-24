@@ -899,4 +899,11 @@
     <string name="editor_building_levels">Étages (y compris le rez-de-chaussée, sans compter le toit)</string>
     <string name="editor_level">Étage (0 est le rez-de-chaussée)</string>
     <string name="error_enter_correct_level">Entrez un numéro d\'étage valide</string>
+    <string name="route_type">Type d\'itinéraire</string>
+    <string name="vehicle">Véhicule</string>
+    <string name="clear">Effacer</string>
+    <string name="pedestrian">À pied</string>
+    <string name="bicycle">Vélo</string>
+    <string name="ruler">Règle</string>
+    <string name="bookmark_color">Couleur du marque-page</string>
 </resources>

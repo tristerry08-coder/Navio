@@ -520,7 +520,7 @@
 "closed" = "已停止营业";
 "add_opening_hours" = "添加营业时间";
 "no_osm_account" = "没有 OpenStreetMap 账号吗？";
-"register_at_openstreetmap" = "注册";
+"register_at_openstreetmap" = "注册 OpenStreetMap 账号";
 "password_8_chars_min" = "密码（至少 8 个字符）";
 "invalid_username_or_password" = "无效的用户名或密码。";
 "login" = "登录";
@@ -752,7 +752,7 @@
 "bookmarks_error_message_empty_list_name" = "请输入列表名称";
 "bookmarks_error_title_list_name_already_taken" = "这个名称已经被使用了";
 "bookmarks_error_title_list_name_too_long" = "这个名称太长了";
-"profile" = "OpenStreetMap 资料";
+"profile" = "OpenStreetMap 个人资料";
 "bookmarks_detect_title" = "检测到新文件";
 "button_convert" = "转换";
 "bookmarks_convert_error_title" = "错误";
@@ -1058,7 +1058,7 @@
 "stop_track_recording" = "停止轨迹记录";
 
 /* Title for the "Stop Without Saving" action for the alert when saving a track recording. */
-"stop_without_saving" = "不保存停止";
+"stop_without_saving" = "停止而不保存";
 
 /* Title for the "Stop Without Saving" action for the alert when saving a track recording. */
 "continue_recording" = "继续录制";

@@ -877,8 +877,8 @@
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
-    <string name="translated_om_site_url">https://comaps.app/</string>
+    <string name="translated_om_site_url">https://comaps.app/pt/</string>
     <string name="comma_separated_pair">%1$s, %2$s</string>
     <string name="pref_left_button_title">Configuração do botão esquerdo</string>
-    <string name="error_enter_correct_line_page">Insira um ID de linha ou endereço da web válido</string>
+    <string name="error_enter_correct_line_page">Insira um ID de LINE ou endereço da web válido</string>
 </resources>

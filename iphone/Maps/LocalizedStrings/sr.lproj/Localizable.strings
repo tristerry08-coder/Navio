@@ -1040,7 +1040,7 @@
 "bookmarks_recently_deleted" = "Недавно обрисане листе";
 
 /* Title for the "Clear" button on the Recently Deleted Lists screen. */
-"clear" = "Обриши";
+"clear" = "Чисто";
 
 /* Title for the "Delete All" button on the Recently Deleted Lists screen. */
 "delete_all" = "Обриши све";

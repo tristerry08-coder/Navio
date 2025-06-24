@@ -438,7 +438,7 @@
     <string name="closed">Zatvorené</string>
     <string name="edit_opening_hours">Upraviť otváracie hodiny</string>
     <string name="no_osm_account">Nemáte účet v OpenStreetMap?</string>
-    <string name="register_at_openstreetmap">Zaregistrovať sa</string>
+    <string name="register_at_openstreetmap">Zaregistrujte sa na OpenStreetMap</string>
     <string name="login">Prihlásiť sa</string>
     <!-- Status message indicating that user did not login to OSM profile yet. -->
     <string name="not_signed_in">Nie ste prihlásený</string>
@@ -516,7 +516,7 @@
     <!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
     <string name="operator">Prevádzkovateľ: %s</string>
     <string name="editor_category_unsuitable_title">Nemôžete nájsť vhodnú kategóriu?</string>
-    <string name="editor_category_unsuitable_text">Organické mapy umožňujú pridávať len jednoduché kategórie bodov, teda žiadne mestá, cesty, jazerá, obrysy budov atď. Takéto kategórie pridávajte priamo na <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Pozrite si náš <a href="https://www.comaps.app/support/advanced-map-editing/">príručku</a>, kde nájdete podrobné pokyny krok za krokom.</string>
+    <string name="editor_category_unsuitable_text">CoMaps umožňujú pridávať len jednoduché kategórie bodov, teda žiadne mestá, cesty, jazerá, obrysy budov atď. Takéto kategórie pridávajte priamo na <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Pozrite si náš <a href="https://www.comaps.app/support/advanced-map-editing/">príručku</a>, kde nájdete podrobné pokyny krok za krokom.</string>
     <string name="downloader_no_downloaded_maps_title">Neprevzali ste žiadne mapy</string>
     <string name="downloader_no_downloaded_maps_message">Prevziať mapy na nájdenie pozície a navigovanie off-line.</string>
     <string name="current_location_unknown_error_title">Súčasná pozícia je neznáma.</string>
@@ -859,4 +859,9 @@
     <string name="uri_open_location_failed">Nie je nainštalovaná žiadna aplikácia, ktorá by mohla otvoriť umiestnenie</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Automaticky v navigácii</string>
+    <string name="telegram_url">https://t.me/CoMapsApp/</string>
+    <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/About_OpenStreetMap</string>
+    <string name="translated_om_site_url">https://comaps.app/</string>
+    <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
+    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
 </resources>

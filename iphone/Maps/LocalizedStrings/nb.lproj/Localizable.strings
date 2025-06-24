@@ -423,7 +423,7 @@
 "dialog_routing_disclaimer_priority" = "– Veiforhold, trafikkregler og skilt skal alltid prioriteres fremfor navigasjonsråd;";
 "dialog_routing_disclaimer_precision" = "– Kartet kan inneholde unøyaktigheter, og den foreslåtte ruten er ikke nødvendigvis alltid den mest optimale veien;";
 "dialog_routing_disclaimer_recommendations" = "– Foreslåtte ruter bør bare anses som anbefalinger;";
-"dialog_routing_disclaimer_borders" = "— Vær forsiktig når det gjelder ruter i grenseområder: rutene som appen vår oppretter kan komme til å krysse landegrenser i uatoriserte områder;";
+"dialog_routing_disclaimer_borders" = "— Vær forsiktig med ruter i grenseområder: rutene som appen vår oppretter kan noen ganger krysse landegrenser i uautoriserte områder.";
 "dialog_routing_disclaimer_beware" = "Kjør trygt!";
 "dialog_routing_check_gps" = "Sjekk GPS-signal";
 "dialog_routing_error_location_not_found" = "Ingen rute ble opprettet. Nåværende GPS-koordinater ble ikke funnet.";
@@ -520,7 +520,7 @@
 "closed" = "Stengt";
 "add_opening_hours" = "Legg til åpningstider";
 "no_osm_account" = "Har du ingen konto hos OpenStreetMap?";
-"register_at_openstreetmap" = "Registrer deg";
+"register_at_openstreetmap" = "Registrer deg på OpenStreetMap";
 "password_8_chars_min" = "Passord (minimum 8 tegn)";
 "invalid_username_or_password" = "Ugyldig brukernavn eller passord.";
 "login" = "Logg inn";
@@ -934,7 +934,7 @@
 "translated_om_site_url" = "https://www.comaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
-"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
+"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/No:Hva_er_OpenStreetmap";
 
 /* App Tip #00 */
 "app_tip_00" = "Takk for at du bruker kartene vi har laget i fellesskap!";

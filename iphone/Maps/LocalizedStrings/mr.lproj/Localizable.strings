@@ -606,7 +606,7 @@
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "ऑपरेटर: %@";
 "editor_category_unsuitable_title" = "योग्य श्रेणी शोधू शकत नाही?";
-"editor_category_unsuitable_text" = "ऑरगॅनिक नकाशे फक्त साध्या बिंदू श्रेणी जोडण्याची परवानगी देतात, म्हणजे शहरे, रस्ते, तलाव, इमारत बाह्यरेखा इ. कृपया अशा श्रेणी थेट <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> वर जोडा. तपशीलवार चरण-दर-चरण सूचनांसाठी आमचे <a href=\"https://www.comaps.app/support/advanced-map-editing/\">मार्गदर्शक</a> पहा.";
+"editor_category_unsuitable_text" = "CoMaps फक्त साध्या बिंदू श्रेणी जोडण्याची परवानगी देतात, म्हणजे शहरे, रस्ते, तलाव, इमारत बाह्यरेखा इ. कृपया अशा श्रेणी थेट <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> वर जोडा. तपशीलवार चरण-दर-चरण सूचनांसाठी आमचे <a href=\"https://www.comaps.app/support/advanced-map-editing/\">मार्गदर्शक</a> पहा.";
 "downloader_no_downloaded_maps_title" = "तुम्ही कोणतेही नकाशे डाउनलोड केलेले नाहीत";
 "downloader_no_downloaded_maps_message" = "स्थान शोधण्यासाठी नकाशे डाउनलोड करा आणि ऑफलाइन मार्गनिर्देशन वापरा.";
 "current_location_unknown_error_title" = "वर्तमान स्थान अज्ञात आहे.";
@@ -621,7 +621,7 @@
 "location_services_disabled_on_device_2" = "2. गोपनीयता निवडा";
 "location_services_disabled_on_device_3" = "3. स्थान सेवा निवडा";
 "location_services_disabled_on_device_4" = "4. स्थान सेवा चालू करा";
-"location_services_disabled_on_device_additional_message" = "किंवा स्थानाशिवाय ऑरगॅनिक नकाशे वापरणे सुरू ठेवा";
+"location_services_disabled_on_device_additional_message" = "किंवा स्थानाशिवाय CoMaps वापरणे सुरू ठेवा";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -964,10 +964,10 @@
 "app_tip_09" = "आमचे मुख्य ध्येय जलद, गोपनीयता-केंद्रित, वापरण्यास-सुलभ नकाशे तयार करणे आहे जे तुम्हाला आवडतील.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "तुम्ही आता फोन स्क्रीनवर ऑरगॅनिक नकाशे वापरत आहात";
+"car_used_on_the_phone_screen" = "तुम्ही आता फोन स्क्रीनवर CoMaps वापरत आहात";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "तुम्ही आता कार स्क्रीनवर ऑरगॅनिक नकाशे वापरत आहात";
+"car_used_on_the_car_screen" = "तुम्ही आता कार स्क्रीनवर CoMaps वापरत आहात";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "फोनवर सुरू ठेवा";
@@ -992,7 +992,7 @@
 "website_menu" = "मेनू लिंक";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "तुम्ही विकासकांना बग अहवाल पाठवू इच्छिता?\nआम्ही आमच्या वापरकर्त्यांवर अवलंबून आहोत कारण सेंद्रिय नकाशे कोणतीही त्रुटी माहिती स्वयंचलितपणे संकलित करत नाही. ऑरगॅनिक नकाशेला समर्थन दिल्याबद्दल आगाऊ धन्यवाद!";
+"bugreport_alert_message" = "तुम्ही विकासकांना बग अहवाल पाठवू इच्छिता?\nआम्ही आमच्या वापरकर्त्यांवर अवलंबून आहोत कारण CoMaps कोणतीही त्रुटी माहिती स्वयंचलितपणे संकलित करत नाही. CoMaps ला समर्थन दिल्याबद्दल आगाऊ धन्यवाद!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "iCloud सिंक्रोनाइझेशन सक्षम करा";

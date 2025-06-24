@@ -442,7 +442,7 @@
     <string name="closed">Suljettu</string>
     <string name="edit_opening_hours">Muokkaa aukioloaikoja</string>
     <string name="no_osm_account">Eikö sinulla ole OpenStreetMap-tiliä?</string>
-    <string name="register_at_openstreetmap">Rekisteröidy</string>
+    <string name="register_at_openstreetmap">Rekisteröi tili OpenStreetMapissa</string>
     <string name="login">Kirjaudu sisään</string>
     <!-- Status message indicating that user did not login to OSM profile yet. -->
     <string name="not_signed_in">Et ole kirjautunut sisään</string>
@@ -870,7 +870,7 @@
     <string name="level_value_generic">Kerros: %s</string>
     <string name="share_bookmarks_email_body">Hei! \n\nLiitteenä ovat kirjamerkkini; Avaa ne CoMaps -sovelluksessa. Mikäli sinulla ei ole vielä sovellusta asennettuna, voit ladata sen osoitteesta: https://www.comaps.app/download/ \n\nNauti matkustamisesta CoMaps:n kanssa!</string>
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
-    <string name="translated_om_site_url">https://comaps.app/</string>
+    <string name="translated_om_site_url">https://comaps.app/fi/</string>
     <string name="telegram">Telegram</string>
     <string name="twitter">X (Twitter)</string>
     <string name="mastodon">Mastodon</string>

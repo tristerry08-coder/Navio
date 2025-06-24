@@ -104,3 +104,5 @@
 "choose_street" = "Escueyi una cai";
 "search_results" = "Resultaos de la gueta";
 "editor_add_select_category_all_subtitle" = "Toles categoríes";
+"telegram_url" = "https://t.me/CoMapsApp/";
+"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";

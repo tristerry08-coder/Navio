@@ -15,7 +15,7 @@
     <string name="type.aeroway.aerodrome">Vliegveld</string>
     <string name="type.aeroway.aerodrome.international">Vliegveld</string>
     <string name="type.aeroway.apron">Platform</string>
-    <string name="type.aeroway.gate">Gate</string>
+    <string name="type.aeroway.gate">Poort</string>
     <string name="type.aeroway.helipad">Heliplatform</string>
     <string name="type.aeroway.runway">Startbaan</string>
     <string name="type.aeroway.taxiway">Taxibaan</string>
@@ -1385,19 +1385,20 @@
     <string name="type.route.shuttle_train">route-shuttle_train</string>
     <string name="type.mapswithme.grid">mapswithme-grid</string>
     <string name="type.attraction.big_wheel">Reuzenrad</string>
-    <string name="type.amenity.shelter.lean_to">Shelter</string>
+    <string name="type.amenity.shelter.lean_to">Afschotbeschutting</string>
     <string name="type.landuse.brownfield">Braakliggend terrein</string>
     <string name="type.landuse.greenfield">Greenfield</string>
     <string name="type.power.generator">Generator</string>
     <string name="type.highway.world_level">highway-world_level</string>
     <string name="type.highway.world_towns_level">highway-world_towns_level</string>
     <string name="type.leisure.hackerspace">Hackerspace</string>
-    <string name="type.amenity.food_court">Food court</string>
+    <string name="type.amenity.food_court">Foodcourt</string>
     <string name="type.highway.ladder">ladder</string>
-    <string name="type.leisure.firepit">vuurplaats</string>
-    <string name="type.landuse.plant_nursery">plantenkwekerij</string>
+    <string name="type.leisure.firepit">Vuurplaats</string>
+    <string name="type.landuse.plant_nursery">Plantenkwekerij</string>
     <string name="type.man_made.crane">Kraan</string>
     <string name="type.barrier.guard_rail">Vangrail</string>
     <string name="type.amenity.love_hotel">Love Hotel</string>
     <string name="type.amenity.studio">Studio</string>
+    <string name="type.sport.diving">Klifduiken</string>
 </resources>

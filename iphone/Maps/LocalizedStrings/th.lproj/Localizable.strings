@@ -520,7 +520,7 @@
 "closed" = "ปิด";
 "add_opening_hours" = "เพิ่มชั่วโมงทำการ";
 "no_osm_account" = "ไม่มีบัญชีใน OpenStreetMap?";
-"register_at_openstreetmap" = "ลงทะเบียน";
+"register_at_openstreetmap" = "ลงทะเบียนที่ OpenStreetMap";
 "password_8_chars_min" = "รหัสผ่าน (อย่างน้อย 8 ตัวอักษร)";
 "invalid_username_or_password" = "ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง";
 "login" = "ล็อกอิน";
@@ -609,7 +609,7 @@
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "ตัวดำเนินการ: %@";
 "editor_category_unsuitable_title" = "ไม่พบหมวดหมู่ที่เหมาะสมใช่ไหม?";
-"editor_category_unsuitable_text" = "แผนที่ทั่วไปอนุญาตให้เพิ่มหมวดหมู่จุดธรรมดาเท่านั้น ซึ่งหมายความว่าไม่มีเมือง ถนน ทะเลสาบ โครงร่างอาคาร ฯลฯ โปรดเพิ่มหมวดหมู่ดังกล่าวลงใน <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. ดู<a href=\"https://www.comaps.app/support/advanced-map-editing/\">คำแนะนำ</a> ของเราเพื่อดูคำแนะนำโดยละเอียดทีละขั้นตอน";
+"editor_category_unsuitable_text" = "CoMapsอนุญาตให้เพิ่มหมวดหมู่จุดธรรมดาเท่านั้น ซึ่งหมายความว่าไม่มีเมือง ถนน ทะเลสาบ โครงร่างอาคาร ฯลฯ โปรดเพิ่มหมวดหมู่ดังกล่าวลงใน <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. ดู<a href=\"https://www.comaps.app/support/advanced-map-editing/\">คำแนะนำ</a> ของเราเพื่อดูคำแนะนำโดยละเอียดทีละขั้นตอน";
 "downloader_no_downloaded_maps_title" = "คุณยังไม่ได้ดาวน์โหลดแผนที่";
 "downloader_no_downloaded_maps_message" = "ดาวน์โหลดแผนที่เพื่อค้นหาสถานที่ และนำทางแบบออฟไลน์";
 "current_location_unknown_error_title" = "ไม่ทราบชื่อของที่ตั้งปัจจุบัน";
@@ -624,7 +624,7 @@
 "location_services_disabled_on_device_2" = "2. เลือกความเป็นส่วนตัว";
 "location_services_disabled_on_device_3" = "3. เลือกบริการระบุตำแหน่ง";
 "location_services_disabled_on_device_4" = "4. เปิดบริการระบุตำแหน่ง";
-"location_services_disabled_on_device_additional_message" = "หรือใช้แผนที่ทั่วไปโดยไม่มีตำแหน่งต่อไป";
+"location_services_disabled_on_device_additional_message" = "หรือใช้CoMapsโดยไม่มีตำแหน่งต่อไป";
 
 /* abbreviation for meters */
 "m" = "ม.";
@@ -934,7 +934,7 @@
 "translated_om_site_url" = "https://www.comaps.app/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
-"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
+"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/Th:เกี่ยวกับ_OpenStreetMap";
 
 /* App Tip #00 */
 "app_tip_00" = "ขอขอบคุณที่ใช้แผนที่ที่สร้างโดยชุมชนของเรา!";
@@ -967,10 +967,10 @@
 "app_tip_09" = "เป้าหมายหลักของเราคือการสร้างแผนที่ที่รวดเร็ว เน้นความเป็นส่วนตัว และใช้งานง่ายที่คุณจะหลงรัก";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "ขณะนี้คุณกำลังใช้แผนที่ทั่วไปบนหน้าจอโทรศัพท์";
+"car_used_on_the_phone_screen" = "ขณะนี้คุณกำลังใช้CoMapsบนหน้าจอโทรศัพท์";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "ขณะนี้คุณกำลังใช้แผนที่ทั่วไปบนหน้าจอรถยนต์";
+"car_used_on_the_car_screen" = "ขณะนี้คุณกำลังใช้CoMapsบนหน้าจอรถยนต์";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "ดำเนินการต่อบนโทรศัพท์";

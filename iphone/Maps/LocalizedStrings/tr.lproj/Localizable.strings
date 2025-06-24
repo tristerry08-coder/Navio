@@ -782,7 +782,7 @@
 
 /* Speed camera settings menu option - Never warn (about speedcams) */
 "pref_tts_speedcams_never" = "Hiçbir zaman uyarma";
-"power_managment_title" = "Güç tutum kipi";
+"power_managment_title" = "Düşük güç modu";
 "power_managment_description" = "Kimi işlevler pahasına olsa da güç kullanımını düşürmeyi dener.";
 "power_managment_setting_never" = "Asla";
 "power_managment_setting_auto" = "Pil düşükken";
@@ -934,7 +934,7 @@
 "translated_om_site_url" = "https://www.comaps.app/tr/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
-"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/Tr:About";
+"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/Tr:About_OpenStreetMap";
 
 /* App Tip #00 */
 "app_tip_00" = "Topluluk tarafından oluşturulan haritalarımızı kullandığınız için teşekkür ederiz!";

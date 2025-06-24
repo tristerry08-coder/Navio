@@ -520,7 +520,7 @@
 "closed" = "Zavřeno";
 "add_opening_hours" = "Přidat otevírací dobu";
 "no_osm_account" = "Nemáte účet u OpenStreetMap?";
-"register_at_openstreetmap" = "Registrace";
+"register_at_openstreetmap" = "Zaregistrujte si účet na OpenStreetMap";
 "password_8_chars_min" = "Heslo (minimálně 8 znaků)";
 "invalid_username_or_password" = "Neplatné uživatelské jméno nebo heslo.";
 "login" = "Přihlásit se";
@@ -609,7 +609,7 @@
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Operátor: %@";
 "editor_category_unsuitable_title" = "Nemůžete najít vhodnou kategorii?";
-"editor_category_unsuitable_text" = "Organické mapy umožňují přidávat pouze jednoduché kategorie bodů, tedy žádná města, silnice, jezera, obrysy budov atd. Takové kategorie prosím přidávejte přímo na <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Podrobné pokyny krok za krokem najdete v našem <a href=\"https://www.comaps.app/support/advanced-map-editing/\">průvodci</a>.";
+"editor_category_unsuitable_text" = "CoMaps umožňují přidávat pouze jednoduché kategorie bodů, tedy žádná města, silnice, jezera, obrysy budov atd. Takové kategorie prosím přidávejte přímo na <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Podrobné pokyny krok za krokem najdete v našem <a href=\"https://www.comaps.app/support/advanced-map-editing/\">průvodci</a>.";
 "downloader_no_downloaded_maps_title" = "Nemáte stažené žádné mapy";
 "downloader_no_downloaded_maps_message" = "Stáhněte si mapy a hledejte cestu a její cíl, i když jste offline.";
 "current_location_unknown_error_title" = "Současná poloha nezjištěna.";

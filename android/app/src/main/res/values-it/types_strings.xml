@@ -42,7 +42,7 @@
     <string name="type.amenity.casino">Casinò</string>
     <string name="type.amenity.gambling">Gioco d\'azzardo</string>
     <string name="type.leisure.adult_gaming_centre">Centro giochi per adulti</string>
-    <string name="type.leisure.amusement_arcade">Arcade</string>
+    <string name="type.leisure.amusement_arcade">Sala giochi</string>
     <string name="type.amenity.charging_station">Stazione di ricarica</string>
     <string name="type.amenity.charging_station.bicycle">Stazione di ricarica per biciclette</string>
     <string name="type.amenity.charging_station.motorcar">Stazione di ricarica per autoveicoli</string>
@@ -229,7 +229,7 @@
     <string name="type.building.address">Indirizzo</string>
     <string name="type.building.has_parts">Edificio</string>
     <string name="type.building_part">Edificio</string>
-    <string name="type.building.garage">Garage</string>
+    <string name="type.building.garage">Garage privato</string>
     <string name="type.building.train_station">Edificio della stazione</string>
     <string name="type.building.warehouse">Magazzino</string>
     <string name="type.cemetery.grave">Tomba</string>
@@ -1398,6 +1398,7 @@
     <string name="type.psurface.unpaved_good">psurface-unpaved_good</string>
     <string name="type.amenity.love_hotel">Love hotel</string>
     <string name="type.highway.ladder">Scala</string>
-    <string name="type.sport.diving">Immersione</string>
+    <string name="type.sport.diving">Tuffi dalle grandi altezze</string>
     <string name="type.barrier.guard_rail">Barriera di contenimento</string>
+    <string name="type.man_made.crane">Gru permanente</string>
 </resources>

@@ -421,7 +421,7 @@
     <string name="closed">Zavřeno</string>
     <string name="edit_opening_hours">Upravit otevírací dobu</string>
     <string name="no_osm_account">Nemáte účet u OpenStreetMap?</string>
-    <string name="register_at_openstreetmap">Registrace</string>
+    <string name="register_at_openstreetmap">Zaregistrujte si účet na OpenStreetMap</string>
     <string name="login">Přihlásit se</string>
     <!-- Status message indicating that user did not login to OSM profile yet. -->
     <string name="not_signed_in">Nejste přihlášeni</string>
@@ -498,7 +498,7 @@
     <!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
     <string name="operator">Provozovatel: %s</string>
     <string name="editor_category_unsuitable_title">Nemůžete najít vhodnou kategorii?</string>
-    <string name="editor_category_unsuitable_text">Organické mapy umožňují přidávat pouze jednoduché kategorie bodů, tedy žádná města, silnice, jezera, obrysy budov atd. Takové kategorie prosím přidávejte přímo na <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Podrobné pokyny krok za krokem najdete v našem <a href="https://www.comaps.app/support/advanced-map-editing/">průvodci</a>.</string>
+    <string name="editor_category_unsuitable_text">CoMaps umožňují přidávat pouze jednoduché kategorie bodů, tedy žádná města, silnice, jezera, obrysy budov atd. Takové kategorie prosím přidávejte přímo na <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Podrobné pokyny krok za krokem najdete v našem <a href="https://www.comaps.app/support/advanced-map-editing/">průvodci</a>.</string>
     <string name="downloader_no_downloaded_maps_title">Nemáte stažené žádné mapy</string>
     <string name="downloader_no_downloaded_maps_message">Stáhněte si mapy a hledejte cestu a její cíl, i když jste offline.</string>
     <string name="current_location_unknown_error_title">Současná poloha nezjištěna.</string>
@@ -884,4 +884,11 @@
     <string name="error_enter_correct_level">Zadejte platné číslo podlaží</string>
     <string name="editor_building_levels">Podlaží (vč. přízemí, bez střechy)</string>
     <string name="editor_level">Podlaží (0 je přízemí)</string>
+    <string name="route_type">Typ trasy</string>
+    <string name="vehicle">Vozidlo</string>
+    <string name="pedestrian">Pěší</string>
+    <string name="bicycle">Kolo</string>
+    <string name="ruler">Měření</string>
+    <string name="bookmark_color">Barva záložky</string>
+    <string name="clear">Vymazat</string>
 </resources>

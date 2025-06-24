@@ -520,7 +520,7 @@
 "closed" = "Închis";
 "add_opening_hours" = "Adaugă orele de funcționare";
 "no_osm_account" = "Nu ai un cont OpenStreetMap?";
-"register_at_openstreetmap" = "Înscrie-te";
+"register_at_openstreetmap" = "Înregistrați-vă la OpenStreetMap";
 "password_8_chars_min" = "Parola (minim 8 caractere)";
 "invalid_username_or_password" = "Nume de utilizator sau parolă incorecte.";
 "login" = "Autentificare";

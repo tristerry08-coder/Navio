@@ -440,7 +440,7 @@
     <string name="closed">Zamknięte</string>
     <string name="edit_opening_hours">Edytuj godziny otwarcia</string>
     <string name="no_osm_account">Nie masz konta w OpenStreetMap?</string>
-    <string name="register_at_openstreetmap">Zarejestruj się</string>
+    <string name="register_at_openstreetmap">Zarejestruj się w OpenStreetMap</string>
     <string name="login">Zaloguj się</string>
     <!-- Status message indicating that user did not login to OSM profile yet. -->
     <string name="not_signed_in">Nie zalogowano</string>

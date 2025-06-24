@@ -170,7 +170,7 @@
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">Hej, kolla på min nuvarande position på CoMaps! %1$s eller %2$s Har du inte offline-kartor? Ladda ner här: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
-    <string name="bookmark_share_email_subject">Hej, kolla min kartnål på CoMaps kartan</string>
+    <string name="bookmark_share_email_subject">Hej, kolla min kartnål på CoMaps!</string>
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">Hej, kolla på min nuvarande position på CoMaps kartan!</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
@@ -415,7 +415,7 @@
     <string name="closed">Stängt</string>
     <string name="edit_opening_hours">Redigera öppettider</string>
     <string name="no_osm_account">Inget konto hos OpenStreetMap?</string>
-    <string name="register_at_openstreetmap">Registrera</string>
+    <string name="register_at_openstreetmap">Registrera dig på OpenStreetMap</string>
     <string name="login">Logga in</string>
     <!-- Status message indicating that user did not login to OSM profile yet. -->
     <string name="not_signed_in">Inte inloggad</string>
@@ -851,7 +851,7 @@
     <string name="share_bookmarks_email_body">Hej! \n \nJag bifogar mina bokmärken, öppna gärna dem med CoMaps. Om du inte redan har appen installerad, kan du ladda ner den här: https://www.comaps.app/download/ \n \nTrevlig resa med CoMaps!</string>
     <string name="instagram_url">https://www.instagram.com/comapscommunity/</string>
     <string name="telegram_url">https://t.me/CoMapsApp</string>
-    <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/About_OpenStreetMap</string>
+    <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/Sv:Om_OpenStreetMap</string>
     <string name="change_map_locale">Kartspråk</string>
     <string name="comma_separated_pair">%1$s, %2$s</string>
 </resources>

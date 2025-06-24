@@ -175,7 +175,7 @@
 "bookmark_share_email_subject" = "Hei, apskatiet manu grāmatzīmi CoMaps kartē!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Hei, apskati manu atrašanās vietu „Oganic Maps“ kartē!";
+"my_position_share_email_subject" = "Hei, apskati manu atrašanās vietu „CoMaps“ kartē!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "E-pasts";

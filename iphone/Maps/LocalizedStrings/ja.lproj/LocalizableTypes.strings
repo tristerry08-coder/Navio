@@ -1,6 +1,6 @@
 "type.addr_interpolation" = "アドレス/ブロック";
-"type.addr_interpolation.even" = "アドレス/ブロック";
-"type.addr_interpolation.odd" = "アドレス/ブロック";
+"type.addr_interpolation.even" = "アドレス/ブロック（偶数）";
+"type.addr_interpolation.odd" = "アドレス/ブロック（奇数）";
 "type.aerialway" = "索道";
 "type.aerialway.cable_car" = "ロープウェイ";
 "type.aerialway.chair_lift" = "チェアリフト";
@@ -21,7 +21,7 @@
 "type.amenity.arts_centre" = "芸術センター";
 "type.amenity.atm" = "ATM";
 "type.amenity.bank" = "銀行";
-"type.amenity.bar" = "居酒屋";
+"type.amenity.bar" = "バー";
 "type.amenity.bbq" = "バーベキューグリル";
 "type.amenity.bench" = "ベンチ";
 "type.amenity.bicycle_parking" = "駐輪場";
@@ -39,7 +39,7 @@
 "type.amenity.casino" = "カジノ";
 "type.amenity.gambling" = "ギャンブル";
 "type.leisure.adult_gaming_centre" = "アダルト ゲーム センター";
-"type.leisure.amusement_arcade" = "アーケード";
+"type.leisure.amusement_arcade" = "ゲームセンター";
 "type.amenity.charging_station" = "充電ステーション";
 "type.amenity.charging_station.bicycle" = "自転車充電ステーション";
 "type.amenity.charging_station.motorcar" = "自動車充電ステーション";
@@ -161,7 +161,7 @@
 "type.amenity.shelter.lean_to" = "三壁の避難所";
 "type.amenity.public_bath" = "公衆浴場";
 "type.amenity.shower" = "シャワー";
-"type.amenity.stripclub" = "ストリップクラブ";
+"type.amenity.stripclub" = "ストリップ劇場";
 "type.amenity.taxi" = "タクシー";
 "type.amenity.telephone" = "公衆電話";
 "type.amenity.theatre" = "劇場";
@@ -237,7 +237,7 @@
 "type.building.address" = "住所";
 "type.building.has_parts" = "建物";
 "type.building_part" = "建物";
-"type.building.garage" = "車庫";
+"type.building.garage" = "私有の車庫";
 "type.building.train_station" = "駅ビル";
 "type.building.warehouse" = "倉庫";
 "type.cemetery.grave" = "墓";
@@ -314,7 +314,7 @@
 "type.cuisine.international" = "国際料理";
 "type.cuisine.irish" = "アイルランド料理";
 "type.cuisine.italian" = "イタリア料理";
-"type.cuisine.italian_pizza" = "イタリア料理；ピザ";
+"type.cuisine.italian_pizza" = "イタリア料理、ピザ";
 "type.cuisine.japanese" = "日本料理";
 "type.cuisine.kebab" = "カバブ";
 "type.cuisine.korean" = "韓国料理";

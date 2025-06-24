@@ -172,10 +172,10 @@
 "unknown_current_position" = "आपका स्थान अभी तक निर्धारित नहीं किया गया है";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "अरे, ऑर्गेनिक मैप्स में मेरा पिन देखें!";
+"bookmark_share_email_subject" = "अरे, CoMaps में मेरा पिन देखें!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "अरे, ऑर्गेनिक मैप मानचित्र पर मेरा वर्तमान स्थान देखें!";
+"my_position_share_email_subject" = "अरे, CoMaps मानचित्र पर मेरा वर्तमान स्थान देखें!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "ईमेल";
@@ -609,7 +609,7 @@
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "ऑपरेटर: %@";
 "editor_category_unsuitable_title" = "कोई उपयुक्त श्रेणी नहीं मिल रही?";
-"editor_category_unsuitable_text" = "ऑर्गेनिक मैप्स केवल सरल बिंदु श्रेणियां जोड़ने की अनुमति देता है, जिसका अर्थ है कि शहर, सड़कें, झीलें, भवन की रूपरेखा आदि नहीं। कृपया ऐसी श्रेणियां सीधे <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> पर जोड़ें।. विस्तृत चरण-दर-चरण निर्देशों के लिए हमारी <a href=\"https://www.comaps.app/support/advanced-map-editing/\">मार्गदर्शिका</a> देखें।";
+"editor_category_unsuitable_text" = "CoMaps केवल सरल बिंदु श्रेणियां जोड़ने की अनुमति देता है, जिसका अर्थ है कि शहर, सड़कें, झीलें, भवन की रूपरेखा आदि नहीं। कृपया ऐसी श्रेणियां सीधे <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> पर जोड़ें।. विस्तृत चरण-दर-चरण निर्देशों के लिए हमारी <a href=\"https://www.comaps.app/support/advanced-map-editing/\">मार्गदर्शिका</a> देखें।";
 "downloader_no_downloaded_maps_title" = "You haven't downloaded any maps";
 "downloader_no_downloaded_maps_message" = "Download maps to search and navigate offline.";
 "current_location_unknown_error_title" = "Current location is unknown.";
@@ -624,7 +624,7 @@
 "location_services_disabled_on_device_2" = "2. गोपनीयता का चयन करें";
 "location_services_disabled_on_device_3" = "3. स्थान सेवाएँ चुनें";
 "location_services_disabled_on_device_4" = "4. स्थान सेवाएँ चालू करें";
-"location_services_disabled_on_device_additional_message" = "या स्थान के बिना ऑर्गेनिक मानचित्र का उपयोग जारी रखें";
+"location_services_disabled_on_device_additional_message" = "या स्थान के बिना CoMaps का उपयोग जारी रखें";
 
 /* abbreviation for meters */
 "m" = "मी";
@@ -967,10 +967,10 @@
 "app_tip_09" = "हमारा मुख्य लक्ष्य तेज़, गोपनीयता-केंद्रित, उपयोग में आसान मानचित्र बनाना है जो आपको पसंद आएंगे।";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "अब आप फ़ोन स्क्रीन पर ऑर्गेनिक मानचित्र का उपयोग कर रहे हैं";
+"car_used_on_the_phone_screen" = "अब आप फ़ोन स्क्रीन पर CoMaps का उपयोग कर रहे हैं";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "अब आप कार स्क्रीन पर ऑर्गेनिक मानचित्र का उपयोग कर रहे हैं";
+"car_used_on_the_car_screen" = "अब आप कार स्क्रीन पर CoMaps का उपयोग कर रहे हैं";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "फ़ोन पर जारी रखें";
@@ -995,7 +995,7 @@
 "website_menu" = "मेनू लिंक";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "क्या आप डेवलपर्स को बग रिपोर्ट भेजना चाहेंगे?\nहम अपने उपयोगकर्ताओं पर भरोसा करते हैं क्योंकि ऑर्गेनिक मैप्स स्वचालित रूप से कोई त्रुटि जानकारी एकत्र नहीं करता है। ऑर्गेनिक मैप्स का समर्थन करने के लिए अग्रिम धन्यवाद!";
+"bugreport_alert_message" = "क्या आप डेवलपर्स को बग रिपोर्ट भेजना चाहेंगे?\nहम अपने उपयोगकर्ताओं पर भरोसा करते हैं क्योंकि CoMaps स्वचालित रूप से कोई त्रुटि जानकारी एकत्र नहीं करता है। CoMaps का समर्थन करने के लिए अग्रिम धन्यवाद!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "iCloud सिंक्रोनाइज़ेशन सक्षम करें";

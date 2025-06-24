@@ -272,7 +272,7 @@
     <string name="remind_me_later">稍後提醒</string>
     <string name="support_organic_maps">支持 CoMaps</string>
     <!-- Button in the main Help dialog -->
-    <string name="how_to_support_us">支持本項目</string>
+    <string name="how_to_support_us">支持本專案</string>
     <!-- Button in the main Help dialog -->
     <string name="copyright">版權</string>
     <!-- Text in menu + Button in the main Help dialog -->
@@ -448,8 +448,8 @@
     <string name="closes_in">將於 %s 後歇業</string>
     <string name="closed">已停止營業</string>
     <string name="edit_opening_hours">編輯營業時間</string>
-    <string name="no_osm_account">沒有 OpenStreetMap 帳號嗎？</string>
-    <string name="register_at_openstreetmap">註冊</string>
+    <string name="no_osm_account">沒有 OpenStreetMap 帳戶嗎？</string>
+    <string name="register_at_openstreetmap">註冊 OpenStreetMap 帳戶</string>
     <string name="login">登入</string>
     <!-- Status message indicating that user did not login to OSM profile yet. -->
     <string name="not_signed_in">未登入</string>
@@ -519,7 +519,7 @@
     <!-- Title for OSM note section in the editor -->
     <string name="editor_other_info">OpenStreetMap 志工注意事項（可選）</string>
     <!-- Hint of the input field in the OSM note section of the editor -->
-    <string name="editor_note_hint">描述地圖中的錯誤或無法使用有機地圖編輯的內容</string>
+    <string name="editor_note_hint">描述地圖中的錯誤或無法使用 CoMaps 編輯的內容</string>
     <!-- Information about OSM at the top of the editing page -->
     <string name="editor_about_osm">您的編輯內容將上傳至公用 <a href="https://wiki.openstreetmap.org/wiki/Zh-hant:關於OpenStreetMap">OpenStreetMap</a> 資料庫。請不要添加個人或版權資訊。</string>
     <string name="editor_more_about_osm">關於 OpenStreetMap 的更多資訊</string>
@@ -529,7 +529,7 @@
     <!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
     <string name="operator">操作員: %s</string>
     <string name="editor_category_unsuitable_title">找不到合適的類別？</string>
-    <string name="editor_category_unsuitable_text">CoMaps 只允許添加簡單的點類別，即無法添加城鎮、道路、湖泊、建築輪廓等類別。請直接向 <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> 新增此類類別。請查看我們的<a href="https://www.comaps.app/support/advanced-map-editing/">指南</a>，以了解詳細的步驟說明。</string>
+    <string name="editor_category_unsuitable_text">CoMaps 只允許加入簡單的點類別，即無法添加城鎮、道路、湖泊、建築輪廓等類別。請直接向 <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> 新增此類類別。請查看我們的<a href="https://www.comaps.app/support/advanced-map-editing/">指南</a>，以了解詳細的步驟說明。</string>
     <string name="downloader_no_downloaded_maps_title">您尚未下載任何地圖</string>
     <string name="downloader_no_downloaded_maps_message">下載地圖來尋找位置和離線瀏覽。</string>
     <string name="current_location_unknown_error_title">目前位置未知。</string>
@@ -584,9 +584,9 @@
     <string name="mobile_data_option_always">一律使用</string>
     <string name="mobile_data_option_today">僅限今天</string>
     <string name="mobile_data_option_not_today">今天不使用</string>
-    <string name="mobile_data">手機網路</string>
+    <string name="mobile_data">行動網路</string>
     <!-- NOTE to translators: please synchronize your translation with the English one. -->
-    <string name="mobile_data_description">要顯示地點的詳細資訊（例如照片、價格和評價），需要使用手機網絡。</string>
+    <string name="mobile_data_description">要顯示地點的詳細資訊（例如照片、價格和評價），需要使用行動網路。</string>
     <string name="mobile_data_option_never">絕不使用</string>
     <string name="mobile_data_option_ask">一律詢問</string>
     <string name="traffic_update_maps_text">若要顯示交通資料，必須更新地圖。</string>
@@ -615,7 +615,7 @@
     <!-- Alert to ask user relogin to OpenStreetMap with OAuth2 flow after OAuth1 authentication is deprecated. -->
     <string name="alert_reauth_message">請登入 OpenStreetMap 以自動上傳您的所有地圖編輯。若要了解更多資訊請點擊<a href="https://github.com/organicmaps/organicmaps/issues/6144">這裡</a>。</string>
     <string name="dialog_error_storage_title">儲存空間存儲問題</string>
-    <string name="dialog_error_storage_message">外部儲存空間不可用，很可能是因為 SD 卡已移除、毀損，或檔案系統處於唯讀狀態。請進行檢查，然後透過 support@comaps.app</string>
+    <string name="dialog_error_storage_message">外部儲存空間不可用，很可能是因為 SD 卡已移除、毀損，或檔案系統處於唯讀狀態。請進行檢查，然後透過 support@comaps.app 聯絡我們</string>
     <string name="setting_emulate_bad_storage">模擬不良儲存空間</string>
     <string name="core_entrance">入口</string>
     <string name="error_enter_correct_name">請輸入正確的名稱</string>
@@ -639,7 +639,7 @@
     <string name="bookmarks_error_message_list_name_already_taken">請選擇其他名稱</string>
     <string name="please_wait">請稍候…</string>
     <string name="phone_number">電話號碼</string>
-    <string name="profile">OpenStreetMap 資料</string>
+    <string name="profile">OpenStreetMap 個人資料</string>
     <plurals name="bookmarks_detect_message">
         <item quantity="other">找到 %d 個文件，轉換後您可以看到它們。</item>
     </plurals>
@@ -782,7 +782,7 @@
     <!-- Current language of the map! -->
     <string name="change_map_locale">地圖語言</string>
     <!-- OpenStreetMap text on splash screen -->
-    <string name="splash_subtitle">地圖數據來自 OpenStreetMap</string>
+    <string name="splash_subtitle">地圖資料來自 OpenStreetMap</string>
     <!-- Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
     <string name="translated_om_site_url">https://comaps.app/zh-Hant/</string>
     <!-- Link to OSM wiki for Editor, Profile and About pages -->
@@ -818,11 +818,11 @@
     <!-- Displayed on the Android Auto or CarPlay screen. Button to display maps on the car screen instead of a phone. Must be no more than 18 symbols! -->
     <string name="car_continue_in_the_car">轉到汽車螢幕</string>
     <!-- Ask user to grant location permissions -->
-    <string name="aa_location_permissions_request">有機地圖需要位置存取權限。當安全時，請查看手機上的通知。</string>
+    <string name="aa_location_permissions_request">CoMaps 需要位置存取權限。在安全的情況下，請查看手機上的通知。</string>
     <!-- Notification title for permission request from AA. -->
     <string name="aa_request_permission_notification">此應用程式需要您的許可</string>
     <!-- The text in the activity for location permission request. -->
-    <string name="aa_request_permission_activity_text">Android Auto 中的有機地圖需要位置權限才能有效運作</string>
+    <string name="aa_request_permission_activity_text">Android Auto 中的 CoMaps 需要位置權限才能有效運作</string>
     <!-- Grant Permissions button. -->
     <string name="aa_grant_permissions">授予權限</string>
     <!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
@@ -867,7 +867,7 @@
     <!-- Message for the toast when saving the track recording is finished but nothing to save. -->
     <string name="track_recording_toast_nothing_to_save">軌跡為空 - 沒有可保存的內容</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
-    <string name="error_no_file_manager_app">無法顯示資料夾選擇對話框，因為您的裝置上沒有安裝合適的應用程式。請安裝檔案總管應用程式並重試。</string>
+    <string name="error_no_file_manager_app">無法顯示資料夾選擇對話框，因為您的裝置上沒有安裝合適的應用程式。請安裝檔案總管應用並重試。</string>
     <string name="choose_color">選擇顏色</string>
     <string name="edit_track">編輯軌跡</string>
     <string name="uri_open_location_failed">沒有安裝可以打開該位置的應用程式</string>
@@ -896,4 +896,11 @@
     <string name="editor_level">樓層（0 為地面層）</string>
     <string name="editor_building_levels">樓層（含地面層，不含屋頂）</string>
     <string name="error_enter_correct_level">請輸入有效的樓層數</string>
+    <string name="vehicle">車輛</string>
+    <string name="pedestrian">行人</string>
+    <string name="ruler">標尺</string>
+    <string name="bookmark_color">書籤顏色</string>
+    <string name="route_type">路線類型</string>
+    <string name="bicycle">自行車</string>
+    <string name="clear">清除</string>
 </resources>

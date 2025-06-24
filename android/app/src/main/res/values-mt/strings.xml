@@ -510,7 +510,7 @@
     <string name="common_check_internet_connection_dialog">Żgura li t-tagħmir tiegħek huwa mqabbad mal-Internet.</string>
     <string name="editor_edit_place_category_title">Kategorija</string>
     <string name="avoid_motorways">Evita l-passaġġi ħielsa</string>
-    <string name="login_osm_presentation">OpenStreetMap.org (OSM) huwa proġett komunitarju biex tinbena mappa ħielsa u miftuħa. Huwa s-sors ewlieni tad-dejta tal-mapep fil-mapep organiċi u xogħlijiet simili għall-Wikipedija. Tista ’żżid jew teditja postijiet u dawn isiru disponibbli għal miljuni ta’ utenti madwar id-dinja kollha. \nIngħaqad mal-komunita’ u għen biex issir mappa aħjar għal kulħadd!</string>
+    <string name="login_osm_presentation">OpenStreetMap.org (OSM) huwa proġett komunitarju biex tinbena mappa ħielsa u miftuħa. Huwa s-sors ewlieni tad-dejta tal-mapep fil-CoMaps u xogħlijiet simili għall-Wikipedija. Tista ’żżid jew teditja postijiet u dawn isiru disponibbli għal miljuni ta’ utenti madwar id-dinja kollha. \nIngħaqad mal-komunita’ u għen biex issir mappa aħjar għal kulħadd!</string>
     <string name="sort">Issortja…</string>
     <string name="enable_show_on_lock_screen_description">Meta tkun attivata, l-applikazzjoni taħdem fuq il-lockscreen anki meta t-tagħmir ikun imsakkar.</string>
     <string name="editor_comment_hint">Kumment…</string>
@@ -668,4 +668,9 @@
     <string name="read_in_wikipedia">Wikipedia</string>
     <string name="wikimedia_commons">Wikimedia Commons</string>
     <string name="twentyfour_seven">24/7</string>
+    <string name="telegram_url">https://t.me/CoMapsApp/</string>
+    <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/About_OpenStreetMap</string>
+    <string name="translated_om_site_url">https://comaps.app/</string>
+    <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
+    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
 </resources>

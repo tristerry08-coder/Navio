@@ -995,7 +995,7 @@
 "website_menu" = "Nuoroda į meniu";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Ar norite išsiųsti pranešimą apie klaidą programos kūrėjams?\nTokių pranešimų mes tikimės iš savo naudotojų, nes \"CoMaps\" nerenka jokios informacijos apie klaidas automatiškai. Iš anksto dėkojame, kad prisidedate prie „CoMaps“ tobulinimo!";
+"bugreport_alert_message" = "Ar norite išsiųsti pranešimą apie klaidą programos kūrėjams?\nTokių pranešimų mes tikimės iš savo naudotojų, nes „CoMaps“ nerenka jokios informacijos apie klaidas automatiškai. Iš anksto dėkojame, kad prisidedate prie „CoMaps“ tobulinimo!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "„iCloud“ sinchronizavimo įjungimas";

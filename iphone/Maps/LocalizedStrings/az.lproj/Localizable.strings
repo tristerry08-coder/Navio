@@ -609,7 +609,7 @@
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Operator: %@";
 "editor_category_unsuitable_title" = "Uyğun kateqoriya tapa bilmirsiniz?";
-"editor_category_unsuitable_text" = "Üzvi Xəritələr yalnız sadə nöqtə kateqoriyaları əlavə etməyə imkan verir, bu o deməkdir ki, şəhərlər, yollar, göllər, bina konturları və s. yoxdur. Lütfən, belə kateqoriyaları birbaşa <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> saytına əlavə edin. Ətraflı addım-addım təlimatlar üçün <a href=\"https://www.comaps.app/support/advanced-map-editing/\">bələdçimizi</a> yoxlayın.";
+"editor_category_unsuitable_text" = "CoMaps yalnız sadə nöqtə kateqoriyaları əlavə etməyə imkan verir, bu o deməkdir ki, şəhərlər, yollar, göllər, bina konturları və s. yoxdur. Lütfən, belə kateqoriyaları birbaşa <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> saytına əlavə edin. Ətraflı addım-addım təlimatlar üçün <a href=\"https://www.comaps.app/support/advanced-map-editing/\">bələdçimizi</a> yoxlayın.";
 "downloader_no_downloaded_maps_title" = "Siz heç bir xəritə endirməmisiniz";
 "downloader_no_downloaded_maps_message" = "Ünvanları tapmaq və oflayn naviqasiya etmək üçün xəritələri endirin.";
 "current_location_unknown_error_title" = "Cari yer məlum deyil.";
@@ -624,7 +624,7 @@
 "location_services_disabled_on_device_2" = "2. Məxfilik seçin";
 "location_services_disabled_on_device_3" = "3. Məkan Xidmətləri seçin";
 "location_services_disabled_on_device_4" = "4. Məkan Xidmətlərini yandırın";
-"location_services_disabled_on_device_additional_message" = "Və ya Məkan olmadan Üzvi Xəritələrdən istifadə etməyə davam edin";
+"location_services_disabled_on_device_additional_message" = "Və ya Məkan olmadan CoMapsdən istifadə etməyə davam edin";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -925,7 +925,7 @@
 "track_title" = "Yol qeydi";
 
 /* Telegram group url for the "?" About page */
-"telegram_url" = "https://t.me/CoMaps_TR";
+"telegram_url" = "https://t.me/CoMapsApp/";
 
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
@@ -934,7 +934,7 @@
 "translated_om_site_url" = "https://www.comaps.app/tr/";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
-"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/Tr:About";
+"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/Az:Layihə_haqqında";
 
 /* App Tip #00 */
 "app_tip_00" = "İcma tərəfindən yaradılmış xəritələrimizdən istifadə etdiyiniz üçün təşəkkür edirik!";
@@ -995,7 +995,7 @@
 "website_menu" = "Menyu keçidi";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Tərtibatçılara səhv hesabatı göndərmək istərdinizmi?\nÜzvi Xəritələr heç bir səhv məlumatını avtomatik toplamadığından istifadəçilərimizə etibar edirik. Üzvi Xəritələri dəstəklədiyiniz üçün əvvəlcədən təşəkkür edirik!";
+"bugreport_alert_message" = "Tərtibatçılara səhv hesabatı göndərmək istərdinizmi?\nCoMaps heç bir səhv məlumatını avtomatik toplamadığından istifadəçilərimizə etibar edirik. CoMaps dəstəklədiyiniz üçün əvvəlcədən təşəkkür edirik!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "iCloud Sinxronizasiyasını aktivləşdirin";

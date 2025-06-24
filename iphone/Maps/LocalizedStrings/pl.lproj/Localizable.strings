@@ -520,7 +520,7 @@
 "closed" = "Zamknięte";
 "add_opening_hours" = "Dodaj godziny otwarcia";
 "no_osm_account" = "Nie masz konta w OpenStreetMap?";
-"register_at_openstreetmap" = "Zarejestruj się";
+"register_at_openstreetmap" = "Zarejestruj się w OpenStreetMap";
 "password_8_chars_min" = "Hasło (minimum 8 znaków)";
 "invalid_username_or_password" = "Nieprawidłowa nazwa użytkownika lub hasło.";
 "login" = "Zaloguj się";

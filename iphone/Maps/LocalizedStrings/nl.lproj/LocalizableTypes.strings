@@ -12,7 +12,7 @@
 "type.aeroway.aerodrome" = "Vliegveld";
 "type.aeroway.aerodrome.international" = "Vliegveld";
 "type.aeroway.apron" = "Platform";
-"type.aeroway.gate" = "Gate";
+"type.aeroway.gate" = "Poort";
 "type.aeroway.helipad" = "Heliplatform";
 "type.aeroway.runway" = "Startbaan";
 "type.aeroway.taxiway" = "Taxibaan";
@@ -65,7 +65,7 @@
 "type.amenity.fast_food" = "Fast food";
 "type.amenity.ferry_terminal" = "Veerpont";
 "type.amenity.fire_station" = "Brandweer";
-"type.amenity.food_court" = "Food court";
+"type.amenity.food_court" = "Foodcourt";
 "type.amenity.fountain" = "Fontein";
 "type.amenity.fuel" = "Tankstation";
 
@@ -158,7 +158,7 @@
 "type.amenity.shelter.basic_hut" = "Bivakhut";
 
 /* A traditional 3-walled shelter (one side open), suitable for overnight camping. */
-"type.amenity.shelter.lean_to" = "Shelter";
+"type.amenity.shelter.lean_to" = "Afschotbeschutting";
 "type.amenity.public_bath" = "Publiek bad";
 "type.amenity.shower" = "Douche";
 "type.amenity.stripclub" = "Stripclub";
@@ -1485,9 +1485,10 @@
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "Sporthal";
 "type.highway.ladder" = "ladder";
-"type.leisure.firepit" = "vuurplaats";
-"type.landuse.plant_nursery" = "plantenkwekerij";
+"type.leisure.firepit" = "Vuurplaats";
+"type.landuse.plant_nursery" = "Plantenkwekerij";
 "type.amenity.studio" = "Studio";
 "type.man_made.crane" = "Kraan";
 "type.barrier.guard_rail" = "Vangrail";
 "type.amenity.love_hotel" = "Love Hotel";
+"type.sport.diving" = "Klifduiken";

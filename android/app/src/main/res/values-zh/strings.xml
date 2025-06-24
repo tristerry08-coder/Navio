@@ -449,7 +449,7 @@
     <string name="closed">已停止营业</string>
     <string name="edit_opening_hours">编辑营业时间</string>
     <string name="no_osm_account">没有 OpenStreetMap 账号吗？</string>
-    <string name="register_at_openstreetmap">注册</string>
+    <string name="register_at_openstreetmap">注册 OpenStreetMap 账号</string>
     <string name="login">登录</string>
     <!-- Status message indicating that user did not login to OSM profile yet. -->
     <string name="not_signed_in">未登录</string>
@@ -639,7 +639,7 @@
     <string name="bookmarks_error_message_list_name_already_taken">请选择其他名称</string>
     <string name="please_wait">请稍候…</string>
     <string name="phone_number">电话号码</string>
-    <string name="profile">OpenStreetMap 资料</string>
+    <string name="profile">OpenStreetMap 个人资料</string>
     <plurals name="bookmarks_detect_message">
         <item quantity="other">找到 %d 个文件，转换后您可以看到它们。</item>
     </plurals>
@@ -859,7 +859,7 @@
     <!-- Prompt for stopping a track recording. -->
     <string name="stop_track_recording">停止轨迹记录</string>
     <!-- Title for the "Stop Without Saving" action for the alert when saving a track recording. -->
-    <string name="stop_without_saving">不保存停止</string>
+    <string name="stop_without_saving">停止而不保存</string>
     <!-- Title for the "Stop Without Saving" action for the alert when saving a track recording. -->
     <string name="continue_recording">继续录制</string>
     <!-- Title for the alert when saving a track recording. -->
@@ -867,7 +867,7 @@
     <!-- Message for the toast when saving the track recording is finished but nothing to save. -->
     <string name="track_recording_toast_nothing_to_save">轨迹为空 — 无内容可保存</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
-    <string name="error_no_file_manager_app">由于您的设备上未安装合适的应用程序，因此无法显示文件夹选择对话框。请安装文件管理器应用程序并重试。</string>
+    <string name="error_no_file_manager_app">由于您的设备上未安装合适的应用程序，因此无法显示文件夹选择对话框。请安装文件管理器应用并重试。</string>
     <string name="choose_color">选择颜色</string>
     <string name="edit_track">编辑轨迹</string>
     <string name="uri_open_location_failed">未安装可以打开位置的应用</string>
@@ -881,7 +881,7 @@
     <string name="editor_line_social_network">LINE</string>
     <string name="openstreetmap">OpenStreetMap</string>
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
-    <string name="comma_separated_pair">%1$s，%2$s</string>
+    <string name="comma_separated_pair">%1$s, %2$s</string>
     <string name="github">GitHub</string>
     <string name="app_site_url">https://comaps.app/zh-Hans/</string>
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
@@ -896,4 +896,11 @@
     <string name="editor_level">楼层（0 表示地面层）</string>
     <string name="error_enter_correct_level">请输入有效的楼层编号</string>
     <string name="editor_building_levels">楼层（含地面层，不含屋顶）</string>
+    <string name="clear">清除</string>
+    <string name="vehicle">车辆</string>
+    <string name="route_type">路线类型</string>
+    <string name="bicycle">自行车</string>
+    <string name="ruler">标尺</string>
+    <string name="bookmark_color">书签颜色</string>
+    <string name="pedestrian">行人</string>
 </resources>

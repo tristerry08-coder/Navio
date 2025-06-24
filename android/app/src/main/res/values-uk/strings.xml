@@ -888,4 +888,6 @@
     <string name="wikimedia_commons">Wikimedia Commons</string>
     <string name="editor_add_phone">Додати телефон</string>
     <string name="comma_separated_pair">%1$s, %2$s</string>
+    <string name="telegram_url">https://t.me/CoMapsApp/</string>
+    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
 </resources>

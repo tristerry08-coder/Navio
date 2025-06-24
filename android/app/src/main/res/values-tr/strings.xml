@@ -508,7 +508,7 @@
     <!-- Title for OSM note section in the editor -->
     <string name="editor_other_info">OpenStreetMap gönüllülerine not (isteğe bağlı)</string>
     <!-- Hint of the input field in the OSM note section of the editor -->
-    <string name="editor_note_hint">Haritadaki hataları veya Organik Haritalar ile düzenlenemeyen şeyleri tanımlayın</string>
+    <string name="editor_note_hint">Haritadaki hataları veya CoMaps ile düzenlenemeyen şeyleri tanımlayın</string>
     <!-- Information about OSM at the top of the editing page -->
     <string name="editor_about_osm">Düzenlemeleriniz halka açık <a href="https://wiki.openstreetmap.org/wiki/Tr:About">OpenStreetMap</a> veritabanına yüklenir. Lütfen kişisel veya telif hakkıyla korunan bilgiler eklemeyin.</string>
     <string name="editor_more_about_osm">OpenStreetMap ile ilgili ek bilgi</string>
@@ -666,7 +666,7 @@
     <string name="pref_tts_speedcams_always">Her zaman uyar</string>
     <!-- Speed camera settings menu option - Never warn (about speedcams) -->
     <string name="pref_tts_speedcams_never">Hiçbir zaman uyarma</string>
-    <string name="power_managment_title">Güç tutum kipi</string>
+    <string name="power_managment_title">Düşük güç modu</string>
     <string name="power_managment_description">Kimi işlevler pahasına olsa da güç kullanımını düşürmeyi dener.</string>
     <string name="power_managment_setting_never">Asla</string>
     <string name="power_managment_setting_auto">Pil düşükken</string>
@@ -780,7 +780,7 @@
     <!-- Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->
     <string name="translated_om_site_url">https://comaps.app/tr/</string>
     <!-- Link to OSM wiki for Editor, Profile and About pages -->
-    <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/Tr:About</string>
+    <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/Tr:About_OpenStreetMap</string>
     <!-- App Tip #00 -->
     <string name="app_tip_00">Topluluk tarafından oluşturulan haritalarımızı kullandığınız için teşekkür ederiz!</string>
     <!-- App tip #01 -->

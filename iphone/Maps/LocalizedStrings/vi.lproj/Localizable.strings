@@ -520,7 +520,7 @@
 "closed" = "Đã đóng";
 "add_opening_hours" = "Thêm giờ làm việc";
 "no_osm_account" = "Bạn chưa có tài khoản tại OpenStreetMap ư?";
-"register_at_openstreetmap" = "Đăng ký";
+"register_at_openstreetmap" = "Đăng ký tại OpenStreetMap";
 "password_8_chars_min" = "Mật khẩu (tối thiểu 8 ký tự)";
 "invalid_username_or_password" = "Sai Tên người dùng hoặc Mật khẩu.";
 "login" = "Đăng nhập";
@@ -609,7 +609,7 @@
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Toán tử: %@";
 "editor_category_unsuitable_title" = "Không thể tìm thấy một danh mục phù hợp?";
-"editor_category_unsuitable_text" = "Bản đồ không phải trả tiền chỉ cho phép thêm các danh mục điểm đơn giản, nghĩa là không có thị trấn, đường, hồ, đường viền tòa nhà, v.v. Vui lòng thêm các danh mục đó trực tiếp vào <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Hãy xem <a href=\"https://www.comaps.app/support/advanced-map-editing/\">hướng dẫn</a> của chúng tôi để biết hướng dẫn chi tiết từng bước.";
+"editor_category_unsuitable_text" = "CoMaps chỉ cho phép thêm các danh mục điểm đơn giản, nghĩa là không có thị trấn, đường, hồ, đường viền tòa nhà, v.v. Vui lòng thêm các danh mục đó trực tiếp vào <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Hãy xem <a href=\"https://www.comaps.app/support/advanced-map-editing/\">hướng dẫn</a> của chúng tôi để biết hướng dẫn chi tiết từng bước.";
 "downloader_no_downloaded_maps_title" = "Bạn chưa tải về bất kỳ bản đồ nào";
 "downloader_no_downloaded_maps_message" = "Tải về bản đồ để tìm địa điểm và định hướng ngoại tuyến.";
 "current_location_unknown_error_title" = "Chưa biết địa điểm hiện tại.";
@@ -624,7 +624,7 @@
 "location_services_disabled_on_device_2" = "2. Chọn Quyền riêng tư";
 "location_services_disabled_on_device_3" = "3. Chọn Dịch vụ định vị";
 "location_services_disabled_on_device_4" = "4. Bật Dịch vụ định vị";
-"location_services_disabled_on_device_additional_message" = "Hoặc tiếp tục sử dụng Bản đồ không phải trả tiền mà không có Vị trí";
+"location_services_disabled_on_device_additional_message" = "Hoặc tiếp tục sử dụng CoMaps mà không có Vị trí";
 
 /* abbreviation for meters */
 "m" = "m";
@@ -967,10 +967,10 @@
 "app_tip_09" = "Mục tiêu chính của chúng tôi là xây dựng các bản đồ nhanh chóng, tập trung vào quyền riêng tư, dễ sử dụng mà bạn sẽ yêu thích.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "Bạn hiện đang sử dụng bản đồ không phải trả tiền trên màn hình điện thoại";
+"car_used_on_the_phone_screen" = "Bạn hiện đang sử dụng CoMaps trên màn hình điện thoại";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "Bạn hiện đang sử dụng bản đồ không phải trả tiền trên màn hình ô tô";
+"car_used_on_the_car_screen" = "Bạn hiện đang sử dụng bản CoMaps trên màn hình ô tô";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "Tiếp tục trên điện thoại";
@@ -995,7 +995,7 @@
 "website_menu" = "Liên kết thực đơn";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Bạn có muốn gửi báo cáo lỗi cho nhà phát triển không?\nChúng tôi dựa vào người dùng của mình vì Bản đồ không phải trả tiền không tự động thu thập bất kỳ thông tin lỗi nào. Cảm ơn bạn trước vì đã ủng hộ CoMaps!";
+"bugreport_alert_message" = "Bạn có muốn gửi báo cáo lỗi cho nhà phát triển không?\nChúng tôi dựa vào người dùng của mình vì CoMaps không tự động thu thập bất kỳ thông tin lỗi nào. Cảm ơn bạn trước vì đã ủng hộ CoMaps!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Kích hoạt đồng bộ hóa iCloud";

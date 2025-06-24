@@ -520,7 +520,7 @@
 "closed" = "Suljettu";
 "add_opening_hours" = "Lisää aukioloajat";
 "no_osm_account" = "Eikö sinulla ole OpenStreetMap-tiliä?";
-"register_at_openstreetmap" = "Rekisteröidy";
+"register_at_openstreetmap" = "Rekisteröi tili OpenStreetMapissa";
 "password_8_chars_min" = "Salasana (vähintään 8 merkkiä)";
 "invalid_username_or_password" = "Virheellinen käyttäjätunnus tai salasana.";
 "login" = "Kirjaudu sisään";

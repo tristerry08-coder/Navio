@@ -890,4 +890,11 @@
     <string name="editor_building_levels">Spratovi (укљ. приземље, искључујући кров)</string>
     <string name="error_enter_correct_level">Унесите важећи спрат</string>
     <string name="editor_level">Спрат (0 је приземље)</string>
+    <string name="clear">Чисто</string>
+    <string name="bicycle">Бицикла</string>
+    <string name="route_type">Тип руте</string>
+    <string name="pedestrian">Пешак</string>
+    <string name="ruler">Лењир</string>
+    <string name="bookmark_color">Колор маркера</string>
+    <string name="vehicle">Возило</string>
 </resources>

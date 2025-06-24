@@ -38,7 +38,7 @@
     <string name="try_again">再実行</string>
     <string name="about_menu_title">CoMapsについて</string>
     <!-- Text in About screen -->
-    <string name="about_headline">すべての人のために無料で、愛を込めて作られています</string>
+    <string name="about_headline">コミュニティ主導のオープンプロジェクト</string>
     <!-- Text in About screen -->
     <string name="about_proposition_1">• 広告、追跡なし、データ収集なし</string>
     <!-- Text in About screen -->
@@ -279,7 +279,7 @@
     <!-- Update all button text -->
     <string name="downloader_update_all_button">全てをアップデート</string>
     <!-- Cancel all button text -->
-    <string name="downloader_cancel_all">すべてキャンセル</string>
+    <string name="downloader_cancel_all">全てキャンセル</string>
     <!-- Downloaded maps list header -->
     <string name="downloader_downloaded_subtitle">ダウンロード済み</string>
     <!-- Country queued for download -->
@@ -494,7 +494,7 @@
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
     <string name="osm_presentation">コミュニティが作成した%s時点の OpenStreetMap のデータ。地図の編集や更新の方法については、OpenStreetMap.org を参照してください</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">OpenStreetMap.org(OSM)は、フリーでオープンな地図を構築するコミュニティ・プロジェクトです。OSMは、CoMapsの地図データの主要なソースであり、ウィキペディアと同じように機能します。あなたが場所を追加したり編集したりすると、世界中の何百万人ものユーザーがその場所を利用できるようになります。</string>
+    <string name="login_osm_presentation">OpenStreetMap.org(OSM)は、フリーでオープンな地図を構築するコミュニティ・プロジェクトです。OSMは、CoMapsの地図データの主要なソースであり、ウィキペディアと同じように機能します。あなたが場所を追加したり編集したりすると、世界中の何百万人ものユーザーがその場所を利用できるようになります。\nコミュニティに参加して、より良い地図を一緒に作りましょう！</string>
     <string name="login_to_make_edits_visible">OpenStreetMapのアカウントを作成するかログインして、あなたの地図編集を世界中に公開しましょう。</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%2$dのうち%1$d</string>
@@ -775,7 +775,7 @@
     <!-- OpenStreetMap text on splash screen -->
     <string name="splash_subtitle">OpenStreetMapからの地図データ</string>
     <!-- Link to OSM wiki for Editor, Profile and About pages -->
-    <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/JA:参加する</string>
+    <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/JA:OpenStreetMap_について</string>
     <!-- App Tip #00 -->
     <string name="app_tip_00">私たちのコミュニティが作った地図をご利用いただき、ありがとうございます！</string>
     <!-- App tip #01 -->
@@ -801,13 +801,13 @@
     <!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
     <string name="car_used_on_the_car_screen">あなたは今、車の画面でCoMapsを使用している</string>
     <!-- Displayed on the phone screen. Android Auto connected -->
-    <string name="aa_connected_title">アンドロイド・オートに接続している</string>
+    <string name="aa_connected_title">Android Autoに接続している</string>
     <!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->
     <string name="car_continue_on_the_phone">電話で続ける</string>
     <!-- Displayed on the Android Auto or CarPlay screen. Button to display maps on the car screen instead of a phone. Must be no more than 18 symbols! -->
     <string name="car_continue_in_the_car">車のスクリーンへ</string>
     <!-- Ask user to grant location permissions -->
-    <string name="aa_location_permissions_request">オーガニック・マップは位置情報へのアクセスを必要とする。安全になったら、携帯電話の通知をチェックしよう。</string>
+    <string name="aa_location_permissions_request">CoMapsは位置情報へのアクセスを必要とする。安全になったら、携帯電話の通知をチェックしよう。</string>
     <!-- Notification title for permission request from AA. -->
     <string name="aa_request_permission_notification">このアプリはあなたの許可を必要とする</string>
     <!-- The text in the activity for location permission request. -->
@@ -882,10 +882,20 @@
     <string name="translated_om_site_url">https://comaps.app/</string>
     <string name="error_enter_correct_bluesky_page">有効なBlueskyのユーザー名またはウェブアドレスを入力してください</string>
     <string name="saved">保存しました</string>
-    <string name="error_enter_correct_fediverse_page">有効なマストドンのユーザー名またはウェブアドレスを入力してください</string>
+    <string name="error_enter_correct_fediverse_page">有効なMastodonのユーザー名またはウェブアドレスを入力してください</string>
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="app_site_url">https://comaps.app/</string>
     <string name="bluesky">Bluesky</string>
     <string name="pref_left_button_title">左ボタンの設定</string>
     <string name="pref_left_button_disable">無効にする</string>
+    <string name="vehicle">車両</string>
+    <string name="pedestrian">歩行者</string>
+    <string name="bookmark_color">ブックマークの色</string>
+    <string name="editor_building_levels">階数（一階を含む、屋根を除く）</string>
+    <string name="editor_level">階数（0は一階）</string>
+    <string name="error_enter_correct_level">有効な階数を入力してください</string>
+    <string name="route_type">ルート種類</string>
+    <string name="bicycle">自転車</string>
+    <string name="ruler">ルーラー</string>
+    <string name="clear">クリア</string>
 </resources>

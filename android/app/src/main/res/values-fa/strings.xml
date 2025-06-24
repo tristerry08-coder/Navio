@@ -748,9 +748,9 @@
     <!-- App tip #09 -->
     <string name="app_tip_09">هدف اصلی ما ساختن نقشه هایی سریع، متمرکز بر حریم خصوصی و با کاربری آسان است که شما عاشق آن خواهید شد.</string>
     <!-- Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen -->
-    <string name="car_used_on_the_phone_screen">اکنون در حال استفاده از نقشه های ارگانیک در صفحه گوشی هستید</string>
+    <string name="car_used_on_the_phone_screen">اکنون در حال استفاده از CoMaps در صفحه گوشی هستید</string>
     <!-- Text on the phone placeholder screen that maps are displayed on the car screen -->
-    <string name="car_used_on_the_car_screen">اکنون از نقشه های ارگانیک در صفحه ماشین استفاده می کنید</string>
+    <string name="car_used_on_the_car_screen">اکنون از CoMaps در صفحه ماشین استفاده می کنید</string>
     <!-- Displayed on the phone screen. Android Auto connected -->
     <string name="aa_connected_title">شما به Android Auto متصل هستید</string>
     <!-- Displayed on the phone screen. Button to display maps on the phone screen instead of a car -->
@@ -762,7 +762,7 @@
     <!-- Notification title for permission request from AA. -->
     <string name="aa_request_permission_notification">این برنامه به اجازه شما نیاز دارد</string>
     <!-- The text in the activity for location permission request. -->
-    <string name="aa_request_permission_activity_text">نقشهu200cهای ارگانیک در Android Auto برای کارکرد مؤثر به مجوز مکان نیاز دارد</string>
+    <string name="aa_request_permission_activity_text">CoMaps در Android Auto برای کارکرد مؤثر به مجوز مکان نیاز دارد</string>
     <!-- Grant Permissions button. -->
     <string name="aa_grant_permissions">اعطای مجوزها</string>
     <!-- Outdoors/hiking map style (activity) name in the Styles and Layers dialog -->
@@ -813,4 +813,8 @@
     <string name="uri_open_location_failed">هیچ برنامه ای نصب نشده است که بتواند مکان را باز کند</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">خودکار در ناوبری</string>
+    <string name="telegram_url">https://t.me/CoMapsApp</string>
+    <string name="translated_om_site_url">https://comaps.app</string>
+    <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android</string>
+    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
 </resources>

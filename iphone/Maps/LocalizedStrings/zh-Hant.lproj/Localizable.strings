@@ -519,8 +519,8 @@
 "closes_in" = "將於 %@ 後歇業";
 "closed" = "已停止營業";
 "add_opening_hours" = "新增營業時間";
-"no_osm_account" = "沒有 OpenStreetMap 帳號嗎？";
-"register_at_openstreetmap" = "註冊";
+"no_osm_account" = "沒有 OpenStreetMap 帳戶嗎？";
+"register_at_openstreetmap" = "註冊 OpenStreetMap 帳戶";
 "password_8_chars_min" = "密碼（至少 8 個字符）";
 "invalid_username_or_password" = "無效的使用者名稱或密碼。";
 "login" = "登入";
@@ -609,7 +609,7 @@
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "操作員: %@";
 "editor_category_unsuitable_title" = "找不到合適的類別？";
-"editor_category_unsuitable_text" = "CoMaps 只允許添加簡單的點類別，即無法添加城鎮、道路、湖泊、建築輪廓等類別。請直接向 <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> 新增此類類別。請查看我們的<a href=\"https://www.comaps.app/support/advanced-map-editing/\">指南</a>，以了解詳細的步驟說明。";
+"editor_category_unsuitable_text" = "CoMaps 只允許加入簡單的點類別，即無法添加城鎮、道路、湖泊、建築輪廓等類別。請直接向 <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> 新增此類類別。請查看我們的<a href=\"https://www.comaps.app/support/advanced-map-editing/\">指南</a>，以了解詳細的步驟說明。";
 "downloader_no_downloaded_maps_title" = "您尚未下載任何地圖";
 "downloader_no_downloaded_maps_message" = "下載地圖來尋找位置和離線瀏覽。";
 "current_location_unknown_error_title" = "目前位置未知。";
@@ -693,10 +693,10 @@
 "mobile_data_option_always" = "一律使用";
 "mobile_data_option_today" = "僅限今天";
 "mobile_data_option_not_today" = "今天不使用";
-"mobile_data" = "手機網路";
+"mobile_data" = "行動網路";
 
 /* NOTE to translators: please synchronize your translation with the English one. */
-"mobile_data_description" = "要顯示地點的詳細資訊（例如照片、價格和評價），需要使用手機網絡。";
+"mobile_data_description" = "要顯示地點的詳細資訊（例如照片、價格和評價），需要使用行動網路。";
 "mobile_data_option_never" = "絕不使用";
 "mobile_data_option_ask" = "一律詢問";
 "traffic_update_maps_text" = "若要顯示交通資料，必須更新地圖。";
@@ -752,7 +752,7 @@
 "bookmarks_error_message_empty_list_name" = "請輸入列表名稱";
 "bookmarks_error_title_list_name_already_taken" = "這個名稱已經被使用了";
 "bookmarks_error_title_list_name_too_long" = "這個名稱太長了";
-"profile" = "OpenStreetMap 資料";
+"profile" = "OpenStreetMap 個人資料";
 "bookmarks_detect_title" = "檢測到新文件";
 "button_convert" = "轉換";
 "bookmarks_convert_error_title" = "錯誤";

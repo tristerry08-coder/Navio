@@ -624,7 +624,7 @@
 "location_services_disabled_on_device_2" = "2. Privacy را انتخاب کنید";
 "location_services_disabled_on_device_3" = "3. Location Services را انتخاب کنید";
 "location_services_disabled_on_device_4" = "4. Location Services را روشن کنید";
-"location_services_disabled_on_device_additional_message" = "یا به استفاده از نقشه های ارگانیک بدون موقعیت مکانی ادامه دهید";
+"location_services_disabled_on_device_additional_message" = "یا به استفاده از CoMaps بدون موقعیت مکانی ادامه دهید";
 
 /* abbreviation for meters */
 "m" = "متر";
@@ -925,7 +925,7 @@
 "track_title" = "مسیر";
 
 /* Telegram group url for the "?" About page */
-"telegram_url" = "https://t.me/CoMaps_EN";
+"telegram_url" = "https://t.me/CoMapsApp";
 
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comapscommunity/";
@@ -967,10 +967,10 @@
 "app_tip_09" = "هدف اصلی ما ساختن نقشه هایی سریع، متمرکز بر حریم خصوصی و با کاربری آسان است که شما عاشق آن خواهید شد.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
-"car_used_on_the_phone_screen" = "اکنون در حال استفاده از نقشه های ارگانیک در صفحه گوشی هستید";
+"car_used_on_the_phone_screen" = "اکنون در حال استفاده از CoMaps در صفحه گوشی هستید";
 
 /* Text on the phone placeholder screen that maps are displayed on the car screen */
-"car_used_on_the_car_screen" = "اکنون از نقشه های ارگانیک در صفحه ماشین استفاده می کنید";
+"car_used_on_the_car_screen" = "اکنون از CoMaps در صفحه ماشین استفاده می کنید";
 
 /* Displayed on the phone screen. Button to display maps on the phone screen instead of a car */
 "car_continue_on_the_phone" = "با تلفن ادامه دهید";
@@ -995,7 +995,7 @@
 "website_menu" = "لینک منو";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "آیا می خواهید یک گزارش اشکال برای توسعه دهندگان ارسال کنید؟\nما به کاربران خود تکیه می کنیم زیرا نقشه های ارگانیک هیچ گونه اطلاعات خطا را به طور خودکار جمع آوری نمی کند. پیشاپیش از شما برای حمایت از نقشه های ارگانیک سپاسگزاریم!";
+"bugreport_alert_message" = "آیا می خواهید یک گزارش اشکال برای توسعه دهندگان ارسال کنید؟\nما به کاربران خود تکیه می کنیم زیرا CoMaps هیچ گونه اطلاعات خطا را به طور خودکار جمع آوری نمی کند. پیشاپیش از شما برای حمایت از CoMaps سپاسگزاریم!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "همگام سازی iCloud را فعال کنید";

@@ -520,7 +520,7 @@
 "closed" = "Zatvorené";
 "add_opening_hours" = "Pridať otváracie hodiny";
 "no_osm_account" = "Nemáte účet v OpenStreetMap?";
-"register_at_openstreetmap" = "Zaregistrovať sa";
+"register_at_openstreetmap" = "Zaregistrujte sa na OpenStreetMap";
 "password_8_chars_min" = "Heslo (minimálne 8 znakov)";
 "invalid_username_or_password" = "Nesprávne používateľské meno alebo heslo.";
 "login" = "Prihlásiť sa";
@@ -609,7 +609,7 @@
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Prevádzkovateľ: %@";
 "editor_category_unsuitable_title" = "Nemôžete nájsť vhodnú kategóriu?";
-"editor_category_unsuitable_text" = "Organické mapy umožňujú pridávať len jednoduché kategórie bodov, teda žiadne mestá, cesty, jazerá, obrysy budov atď. Takéto kategórie pridávajte priamo na <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Pozrite si náš <a href=\"https://www.comaps.app/support/advanced-map-editing/\">príručku</a>, kde nájdete podrobné pokyny krok za krokom.";
+"editor_category_unsuitable_text" = "CoMaps umožňujú pridávať len jednoduché kategórie bodov, teda žiadne mestá, cesty, jazerá, obrysy budov atď. Takéto kategórie pridávajte priamo na <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Pozrite si náš <a href=\"https://www.comaps.app/support/advanced-map-editing/\">príručku</a>, kde nájdete podrobné pokyny krok za krokom.";
 "downloader_no_downloaded_maps_title" = "Neprevzali ste žiadne mapy";
 "downloader_no_downloaded_maps_message" = "Prevziať mapy na nájdenie pozície a navigovanie off-line.";
 "current_location_unknown_error_title" = "Súčasná pozícia je neznáma.";
