@@ -176,6 +176,11 @@
 
 - (BOOL)openUrl:(NSString *)urlString externally:(BOOL)externally
 {
+  return [self openUrl:urlString externally:externally skipEncoding:NO];
+}
+
+- (BOOL)openUrl:(NSString *)urlString externally:(BOOL)externally skipEncoding:(BOOL)skipEncoding
+{
   // TODO: This is a temporary workaround to open cyrillic/non-ASCII URLs.
   // URLs in OSM are stored in UTF-8. NSURL constructor documentation says:
   // > Must be a URL that conforms to RFC 2396. This method parses URLString according to RFCs 1738 and 1808.
@@ -183,13 +188,19 @@
   // 1. Split the (non-ASCII) string into components (host, path, query, fragment, etc.)
   // 2. Encode each component separately (they have different allowed characters).
   // 3. Merge them back into the string and create NSURL.
-  NSMutableCharacterSet * charset = [[NSMutableCharacterSet alloc] init];
-  [charset formUnionWithCharacterSet:NSCharacterSet.URLHostAllowedCharacterSet];
-  [charset formUnionWithCharacterSet:NSCharacterSet.URLPathAllowedCharacterSet];
-  [charset formUnionWithCharacterSet:NSCharacterSet.URLQueryAllowedCharacterSet];
-  [charset formUnionWithCharacterSet:NSCharacterSet.URLFragmentAllowedCharacterSet];
-  [charset addCharactersInString:@"#;/?:@&=+$,"];
-  NSString * encoded = [urlString stringByAddingPercentEncodingWithAllowedCharacters:charset];
+  NSString * encoded;
+  if (skipEncoding) {
+    encoded = urlString;
+  } else {
+    NSMutableCharacterSet * charset = [[NSMutableCharacterSet alloc] init];
+    [charset formUnionWithCharacterSet:NSCharacterSet.URLHostAllowedCharacterSet];
+    [charset formUnionWithCharacterSet:NSCharacterSet.URLPathAllowedCharacterSet];
+    [charset formUnionWithCharacterSet:NSCharacterSet.URLQueryAllowedCharacterSet];
+    [charset formUnionWithCharacterSet:NSCharacterSet.URLFragmentAllowedCharacterSet];
+    [charset addCharactersInString:@"#;/?:@&=+$,"];
+    encoded = [urlString stringByAddingPercentEncodingWithAllowedCharacters:charset];
+  }
+  
   // Matrix has an url with two hashes which doesn't work for NSURL and NSURLComponent.
   NSRange const matrixUrl = [encoded rangeOfString:@"#/#"];
   if (matrixUrl.location != NSNotFound)

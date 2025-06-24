@@ -36,15 +36,14 @@ extern NSString * const kMap2GoogleLoginSegue;
 - (IBAction)osmTap
 {
   [self close:^{
-    [self.alertController.ownerViewController performSegueWithIdentifier:kMap2OsmLoginSegue
-                                                                  sender:nil];
+    [self.alertController.ownerViewController openUrl:@(osm::OsmOAuth::ServerAuth().BuildOAuth2Url().c_str())  externally:NO skipEncoding:YES];
   }];
 }
 
 - (IBAction)signUpTap
 {
   [self close:^{
-    [self.alertController.ownerViewController openUrl:@(osm::OsmOAuth::ServerAuth().GetRegistrationURL().c_str())];
+    [self.alertController.ownerViewController openUrl:@(osm::OsmOAuth::ServerAuth().GetRegistrationURL().c_str()) externally:YES];
   }];
 }
 

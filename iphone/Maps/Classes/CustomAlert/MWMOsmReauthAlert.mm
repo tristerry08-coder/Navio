@@ -49,7 +49,7 @@ static NSString * const kMap2OsmLoginSegue = @"Map2OsmLogin";
 - (IBAction)osmTap
 {
   [self close:^{
-    [self.alertController.ownerViewController performSegueWithIdentifier:kMap2OsmLoginSegue sender:nil];
+    [self.alertController.ownerViewController openUrl:@(osm::OsmOAuth::ServerAuth().BuildOAuth2Url().c_str())  externally:NO skipEncoding:YES];
   }];
 }
 

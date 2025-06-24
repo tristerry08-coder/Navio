@@ -73,6 +73,13 @@ static inline CGFloat LengthCGPoint(CGPoint point)
 /// @param externally: If true, try to open URL in installed application or in Safari, otherwise open in internal browser without leaving the app.
 - (BOOL)openUrl:(NSString *)urlString externally:(BOOL)externally;
 
+/// Open URL externally in installed application (or in Safari if there are no appropriate application) if possible or internally in SFSafariViewController. Returns NO (false) if the url id invalid.
+///
+/// @param urlString: URL string to open.
+/// @param externally: If true, try to open URL in installed application or in Safari, otherwise open in internal browser without leaving the app.
+/// @param skipEncoding: If true, extra URL encoding will be skipped
+- (BOOL)openUrl:(NSString *)urlString externally:(BOOL)externally skipEncoding:(BOOL)skipEncoding;
+
 @end
 
 @interface UIImage (ImageWithColor)

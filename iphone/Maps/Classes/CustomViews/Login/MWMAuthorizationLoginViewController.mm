@@ -86,7 +86,8 @@ using namespace osm_auth_ios;
 {
   [self performOnlineAction:^
   {
-    [self performSegueWithIdentifier:kOSMAuthSegue sender:self.loginOSMButton];
+    
+    [self openUrl:@(OsmOAuth::ServerAuth().BuildOAuth2Url().c_str()) externally:NO skipEncoding:YES];
   }];
 }
 
@@ -94,7 +95,7 @@ using namespace osm_auth_ios;
 {
   [self performOnlineAction:^
   {
-    [self openUrl:@(OsmOAuth::ServerAuth().GetRegistrationURL().c_str())];
+    [self openUrl:@(OsmOAuth::ServerAuth().GetRegistrationURL().c_str()) externally:YES];
   }];
 }
 

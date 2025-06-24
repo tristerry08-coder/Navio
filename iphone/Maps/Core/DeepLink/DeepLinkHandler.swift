@@ -130,9 +130,25 @@
       // Not supported on iOS.
       return false;
     case .oAuth2:
-      // TODO: support OAuth2
-      return false;
+      var components = url.absoluteString.components(separatedBy: "cm://oauth2/osm/callback?code=")
+      components.removeAll { component in
+        component.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+      }
+      if let code = components.first {
+        Bridging.saveOauthToken(from: code)
+        let window = (UIApplication.shared.connectedScenes.filter { $0.activationState == .foregroundActive }.first(where: { $0 is UIWindowScene }) as? UIWindowScene)?.keyWindow
+        window?.rootViewController?.presentedViewController?.navigationController?.popToRootViewController(animated: true)
+        window?.rootViewController?.presentedViewController?.dismiss(animated: true)
+        return true
+      } else {
+        return false
+      }
     case .incorrect:
+      if url.absoluteString.starts(with: "cm://oauth2/osm/callback") {
+        let window = (UIApplication.shared.connectedScenes.filter { $0.activationState == .foregroundActive }.first(where: { $0 is UIWindowScene }) as? UIWindowScene)?.keyWindow
+        window?.rootViewController?.presentedViewController?.navigationController?.popToRootViewController(animated: true)
+        window?.rootViewController?.presentedViewController?.dismiss(animated: true)
+      }
       // Invalid URL or API parameters.
       return false;
     @unknown default:
