@@ -42,63 +42,18 @@ final class MailComposer: NSObject {
   }
 
   private static func sendEmailWith(subject: String, body: String, toRecipients recipients: [String], attachmentFileURL: URL? = nil) {
-    // If the attachment file path is provided, the default mail composer should be used.
-    if let attachmentFileURL {
-      if MWMMailViewController.canSendMail(), let attachmentData = try? Data(contentsOf: attachmentFileURL) {
-        let mailViewController = MWMMailViewController()
-        mailViewController.mailComposeDelegate = mailComposer
-        mailViewController.setSubject(subject)
-        mailViewController.setMessageBody(body, isHTML:false)
-        mailViewController.setToRecipients(recipients)
-        mailViewController.addAttachmentData(attachmentData, mimeType: "application/zip", fileName: attachmentFileURL.lastPathComponent)
-        topViewController.present(mailViewController, animated: true, completion:nil)
-      } else {
-        showMailComposingAlert(recipients: recipients)
-      }
-      return
-    }
-
-    // Before iOS 14, try to open alternate email apps first, assuming that if users installed them, they're using them.
-    let os = ProcessInfo().operatingSystemVersion
-    if (os.majorVersion < 14 && (openGmail(subject: subject, body: body, recipients: recipients) ||
-                                 openOutlook(subject: subject, body: body, recipients: recipients))) {
-      return
-    }
-
-    // From iOS 14, it is possible to change the default mail app, and mailto should open a default mail app.
-    if !openDefaultMailApp(subject: subject, body: body, recipients: recipients) {
+    // If the attachment file path is provided, the default mail composer should be used, if possible.
+    if let attachmentFileURL, MWMMailViewController.canSendMail(), let attachmentData = try? Data(contentsOf: attachmentFileURL) {
+      let mailViewController = MWMMailViewController()
+      mailViewController.mailComposeDelegate = mailComposer
+      mailViewController.setSubject(subject)
+      mailViewController.setMessageBody(body, isHTML:false)
+      mailViewController.setToRecipients(recipients)
+      mailViewController.addAttachmentData(attachmentData, mimeType: "application/zip", fileName: attachmentFileURL.lastPathComponent)
+      topViewController.present(mailViewController, animated: true, completion:nil)
+    } else if !openDefaultMailApp(subject: subject, body: body, recipients: recipients) {
       showMailComposingAlert(recipients: recipients)
     }
-  }
-
-  private static func openOutlook(subject: String, body: String, recipients: [String]) -> Bool {
-    var components = URLComponents(string: "ms-outlook://compose")!
-    components.queryItems = [
-      URLQueryItem(name: "to", value: recipients.joined(separator: ";")),
-      URLQueryItem(name: "subject", value: subject),
-      URLQueryItem(name: "body", value: body),
-    ]
-
-    if let url = components.url, UIApplication.shared.canOpenURL(url) {
-      UIApplication.shared.open(url)
-      return true
-    }
-    return false
-  }
-
-  private static func openGmail(subject: String, body: String, recipients: [String]) -> Bool {
-    var components = URLComponents(string: "googlegmail://co")!
-    components.queryItems = [
-      URLQueryItem(name: "to", value: recipients.joined(separator: ";")),
-      URLQueryItem(name: "subject", value: subject),
-      URLQueryItem(name: "body", value: body),
-    ]
-
-    if let url = components.url, UIApplication.shared.canOpenURL(url) {
-      UIApplication.shared.open(url)
-      return true
-    }
-    return false
   }
 
   private static func openDefaultMailApp(subject: String, body: String, recipients: [String]) -> Bool {
