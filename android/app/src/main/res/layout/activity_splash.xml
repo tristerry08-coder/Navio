@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
     android:orientation="vertical"
     tool:background="@color/bg_primary"
     android:gravity="center">
