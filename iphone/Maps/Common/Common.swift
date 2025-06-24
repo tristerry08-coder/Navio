@@ -27,11 +27,6 @@ func toString(_ cls: AnyClass) -> String {
   return String(describing: cls)
 }
 
-func statusBarHeight() -> CGFloat {
-  let statusBarSize = UIApplication.shared.statusBarFrame.size
-  return min(statusBarSize.height, statusBarSize.width)
-}
-
 func LOG(_ level: LogLevel,
          _ message: @autoclosure () -> Any,
          functionName: StaticString = #function,

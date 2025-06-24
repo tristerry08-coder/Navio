@@ -50,12 +50,6 @@ static inline BOOL equalScreenDimensions(CGFloat left, CGFloat right)
   return fabs(left - right) < 0.5;
 }
 
-static inline CGFloat statusBarHeight(void) NS_EXTENSION_UNAVAILABLE_IOS("Not available in extensions")
-{
-  CGSize const statusBarSize = UIApplication.sharedApplication.statusBarFrame.size;
-  return MIN(statusBarSize.height, statusBarSize.width);
-}
-
 static inline void performOnce(MWMVoidBlock block, NSString *key) {
   BOOL performed = [[NSUserDefaults standardUserDefaults] boolForKey:key];
   if (!performed) {

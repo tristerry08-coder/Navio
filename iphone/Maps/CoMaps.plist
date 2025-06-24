@@ -161,6 +161,8 @@
 			<string>app.comaps.3daction.route</string>
 		</dict>
 	</array>
+	<key>UIApplicationSupportsMultipleScenes</key>
+	<false/>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>

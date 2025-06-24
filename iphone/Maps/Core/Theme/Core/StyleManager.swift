@@ -22,8 +22,12 @@
   }
 
   func update () {
-    for window in UIApplication.shared.windows {
-      updateView(window.rootViewController?.view)
+    for scene in UIApplication.shared.connectedScenes {
+      if let windowsScene = scene as? UIWindowScene {
+        for window in windowsScene.windows {
+          updateView(window.rootViewController?.view)
+        }
+      }
     }
     
     let appDelegate = UIApplication.shared.delegate as! MapsAppDelegate

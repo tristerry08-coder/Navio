@@ -270,7 +270,7 @@ final class CarPlayService: NSObject {
 
     let alert = CPNavigationAlert(titleVariants: [L("trip_finished")],
                                   subtitleVariants: [subtitle],
-                                  imageSet: nil,
+                                  image: nil,
                                   primaryAction: doneAction,
                                   secondaryAction: nil,
                                   duration: 0)

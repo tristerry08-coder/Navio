@@ -40,7 +40,7 @@ class CopyableLabel: UILabel {
 
   override func copy(_ sender: Any?) {
     UIPasteboard.general.string = text
-    UIMenuController.shared.setMenuVisible(false, animated: true)
+    UIMenuController.shared.hideMenu()
   }
 
   override var canBecomeFirstResponder: Bool {

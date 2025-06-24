@@ -3,7 +3,7 @@ extension UIApplication {
 
   @objc
   func showLoadingOverlay(completion: (() -> Void)? = nil) {
-    guard let window = self.windows.first(where: { $0.isKeyWindow }) else {
+    guard let window = (self.connectedScenes.filter { $0.activationState == .foregroundActive }.first(where: { $0 is UIWindowScene }) as? UIWindowScene)?.windows.first(where: { $0.isKeyWindow }) else {
       completion?()
       return
     }

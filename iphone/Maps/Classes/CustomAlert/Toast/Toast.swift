@@ -70,7 +70,7 @@ final class Toast: NSObject {
 
   private func show(withAlignment alignment: Alignment, pinToSafeArea: Bool) {
     Self.hideAll()
-    guard let view = UIApplication.shared.keyWindow else { return }
+    guard let view = (UIApplication.shared.connectedScenes.filter { $0.activationState == .foregroundActive }.first(where: { $0 is UIWindowScene }) as? UIWindowScene)?.keyWindow else { return }
     view.addSubview(blurView)
 
     let leadingConstraint = blurView.leadingAnchor.constraint(greaterThanOrEqualTo: view.leadingAnchor, constant: Constants.horizontalOffset)

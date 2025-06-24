@@ -89,7 +89,7 @@
 
 - (BOOL)canMakeCalls
 {
-  if (UI_USER_INTERFACE_IDIOM() != UIUserInterfaceIdiomPhone)
+  if (UIDevice.currentDevice.userInterfaceIdiom != UIUserInterfaceIdiomPhone)
     return NO;
   NSURL * telURL = [NSURL URLWithString:@"tel://"];
   if (![UIApplication.sharedApplication canOpenURL:telURL])

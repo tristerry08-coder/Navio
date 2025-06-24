@@ -48,7 +48,7 @@ double getExactDPI(double contentScaleFactor)
   float const iPhoneDPI = 163.f;
   float const mDPI = 160.f;
 
-  switch (UI_USER_INTERFACE_IDIOM())
+  switch (UIDevice.currentDevice.userInterfaceIdiom)
   {
     case UIUserInterfaceIdiomPhone:
       return iPhoneDPI * contentScaleFactor;

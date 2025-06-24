@@ -222,19 +222,6 @@
   view.frame = window.bounds;
 }
 
-- (void)setAlertController:(MWMAlertViewController *)alertController {
-  _alertController = alertController;
-  UIView *view = alertController.view;
-  UIViewController *ownerViewController = alertController.ownerViewController;
-  view.frame = ownerViewController.view.bounds;
-  [ownerViewController.view addSubview:view];
-  [self addControllerViewToWindow];
-  auto const orientation = UIApplication.sharedApplication.statusBarOrientation;
-  [self rotate:orientation duration:0.0];
-  [view addSubview:self];
-  self.frame = view.bounds;
-}
-
 - (void)layoutSubviews {
   [super layoutSubviews];
   self.frame = self.superview.bounds;
