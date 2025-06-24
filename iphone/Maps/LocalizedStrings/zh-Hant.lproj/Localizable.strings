@@ -800,7 +800,7 @@
 "avoid_ferry" = "避開渡輪";
 "avoid_motorways" = "避開高速公路";
 "unable_to_calc_alert_title" = "無法規劃路線";
-"unable_to_calc_alert_subtitle" = "很遺憾，我們無法使用所選的繞行設定規劃路線。請更改設定，然後重試。";
+"unable_to_calc_alert_subtitle" = "很遺憾，找不到可行的路線。這可能是因為您的路線選項目前不可用或 OpenStreetMap 資料不完整。請更改路線選項再重試。";
 "define_to_avoid_btn" = "選擇要避開的道路";
 "change_driving_options_btn" = "繞行設定已開啟";
 "toll_road" = "收費公路";

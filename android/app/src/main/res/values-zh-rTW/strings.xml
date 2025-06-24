@@ -564,7 +564,7 @@
     <string name="error_enter_correct_email">請輸入有效的電子郵件</string>
     <string name="error_enter_correct_facebook_page">請輸入有效的 Facebook 網頁地址、帳號或頁面名稱</string>
     <string name="error_enter_correct_instagram_page">請輸入有效的 Instagram 用戶名或網頁地址</string>
-    <string name="error_enter_correct_twitter_page">請輸入有效的 Twitter 用戶名或網頁地址</string>
+    <string name="error_enter_correct_twitter_page">請輸入有效的 X（前Twitter）用戶名或網頁地址</string>
     <string name="error_enter_correct_vk_page">請輸入有效的 VK 用戶名或網頁地址</string>
     <string name="error_enter_correct_line_page">請輸入有效的 LINE ID 或網頁地址</string>
     <string name="placepage_add_place_button">將地點新增至 OpenStreetMap</string>
@@ -598,7 +598,7 @@
     <!-- Settings: "Send general feedback" button -->
     <string name="feedback_general">一般反應</string>
     <string name="prefs_languages_information">我們的語音導航使用“文字轉語音”系統。許多 Android 裝置使用 Google 的文字轉語音系統，您可以從 Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts) 下載或更新這一功能</string>
-    <string name="prefs_languages_information_off">對於某些語言，您需要從應用商店（例如 Google Play Store、Galaxy Store）中安裝其他語音合成器或語言套件\n打開您的裝置的設定 → 語言和輸入法 → 語音 → 文字轉語音 (TTS) 輸出\n您可以在這裡管理語音合成的設定（例如，下載語言包供離線使用）和選擇其他文字轉語音引擎。</string>
+    <string name="prefs_languages_information_off">某些語言需要從應用商店（Google Play、三星Galaxy Store、華為應用市場、F-Droid）安裝相關的語音合成器或語言套件，才能使用此功能。\n打開您的裝置的設定 → 語言和輸入法 → 語音 → 文字轉語音 (TTS) 輸出\n您可以在這裡管理語音合成的設定（例如，下載語言套件供離線使用）和選擇其他 TTS 引擎。</string>
     <string name="prefs_languages_information_off_link">如需瞭解更多資訊，請參閱此指南。</string>
     <string name="transliteration_title">拉丁字母音譯</string>
     <string name="learn_more">瞭解更多資訊</string>
@@ -690,7 +690,7 @@
     <string name="avoid_ferry">避開渡輪</string>
     <string name="avoid_motorways">避開高速公路</string>
     <string name="unable_to_calc_alert_title">無法規劃路線</string>
-    <string name="unable_to_calc_alert_subtitle">很遺憾，我們無法使用所選的繞行設定規劃路線。請更改設定，然後重試。</string>
+    <string name="unable_to_calc_alert_subtitle">很遺憾，找不到可行的路線。這可能是因為您的路線選項目前不可用或 OpenStreetMap 資料不完整。請更改路線選項再重試。</string>
     <string name="define_to_avoid_btn">選擇要避開的道路</string>
     <string name="change_driving_options_btn">繞行設定已開啟</string>
     <string name="toll_road">收費公路</string>

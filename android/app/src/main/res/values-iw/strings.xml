@@ -545,7 +545,7 @@
     <string name="error_enter_correct_email">הזן דוא\"ל תקין</string>
     <string name="error_enter_correct_facebook_page">הזן כתובת פייסבוק תקינה, משתמש, או שם עמוד</string>
     <string name="error_enter_correct_instagram_page">הזן כתובת אינטרנט או שם משתמש Instagram תקינים</string>
-    <string name="error_enter_correct_twitter_page">הזן כתובת אינטרנט או שם משתמש Twitter תקינים</string>
+    <string name="error_enter_correct_twitter_page">הזן כתובת אינטרנט או שם משתמש Twitter/X תקינים</string>
     <string name="error_enter_correct_vk_page">הזן כתובת אינטרנט או שם משתמש VK תקינים</string>
     <string name="error_enter_correct_line_page">הזן מזהה LINE או כתובת אינטרנט תקינים</string>
     <string name="placepage_add_place_button">הוסף מקום ל-OpenStreetMap</string>

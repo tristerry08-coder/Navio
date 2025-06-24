@@ -555,7 +555,7 @@
     <string name="error_enter_correct_email">有効なメールアドレスを入力してください</string>
     <string name="error_enter_correct_facebook_page">有効な Facebook URL、アカウント、またはページ名を入力してください</string>
     <string name="error_enter_correct_instagram_page">有効な Instagram ユーザー名またはURLを入力してください</string>
-    <string name="error_enter_correct_twitter_page">有効なTwitterユーザー名またはURLを入力してください</string>
+    <string name="error_enter_correct_twitter_page">有効なX(旧Twitter)ユーザー名またはURLを入力してください</string>
     <string name="error_enter_correct_vk_page">有効なVKユーザー名またはURLを入力してください</string>
     <string name="error_enter_correct_line_page">有効なLINEユーザー名またはURLを入力してください</string>
     <string name="placepage_add_place_button">OpenStreetMapに場所を追加する</string>
@@ -589,7 +589,7 @@
     <!-- Settings: "Send general feedback" button -->
     <string name="feedback_general">一般的なフィードバック</string>
     <string name="prefs_languages_information">音声案内にはシステムの TTS を使用します。多くの Android 端末が Google の TTS を使用しており、Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts) からダウンロードや更新を行うことができます</string>
-    <string name="prefs_languages_information_off">いくつかの言語では、アプリストア(Google Play、Galaxy Store 、App Gallery、FDroid)から音声合成または追加の言語パックをインストールする必要があります。\nお使いのデバイスで [設定] → [言語と入力] → [音声] → [音声出力] を開いてください。\nここで音声合成の設定 (たとえば、オフラインで使用する言語パックのダウンロードなど) を管理し、別の音声合成エンジンを選択できます。</string>
+    <string name="prefs_languages_information_off">いくつかの言語では、アプリストア(Google Play、Galaxy Store 、Huawei AppGallery、F-Droid)から音声合成または追加の言語パックをインストールする必要があります。\nお使いのデバイスで [設定] → [言語と入力] → [音声] → [音声出力] を開いてください。\nここで音声合成の設定 (たとえば、オフラインで使用する言語パックのダウンロードなど) を管理し、別の音声合成エンジンを選択できます。</string>
     <string name="prefs_languages_information_off_link">詳細については、このガイドをご確認ください。</string>
     <string name="transliteration_title">ラテン文字への翻字</string>
     <string name="learn_more">詳細情報</string>
