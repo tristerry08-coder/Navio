@@ -705,13 +705,13 @@ natural-rock                                        # icon z17- (also has captio
 highway-bridleway                                   # pathtext z15- (also has line z14-)
 highway-bridleway-bridge                            # pathtext z15- (also has line z14-, line::bridgeblack z17-, line::bridgewhite z15-)
 highway-bridleway-tunnel                            # pathtext z15- (also has line z14-, line::tunnelBackground z17-, line::tunnelCasing z17-)
-highway-path                                        # pathtext z15- (also has line z14-)
-highway-path-bicycle                                # pathtext z15- (also has line z14-, line::cycleline z14-)
-highway-path-bridge                                 # pathtext z15- (also has line z14-, line::bridgeblack z17-, line::bridgewhite z15-)
-highway-path-difficult                              # pathtext z15- (also has line z14-)
-highway-path-expert                                 # pathtext z15- (also has line z14-)
-highway-path-horse                                  # pathtext z15- (also has line z14-)
-highway-path-tunnel                                 # pathtext z15- (also has line z14-, line::tunnelBackground z17-, line::tunnelCasing z17-)
+highway-path                                        # pathtext z15- (also has line z15-)
+highway-path-bicycle                                # pathtext z15- (also has line z15-, line::cycleline z14-)
+highway-path-bridge                                 # pathtext z15- (also has line z15-, line::bridgeblack z17-, line::bridgewhite z15-)
+highway-path-difficult                              # pathtext z15- (also has line z15-)
+highway-path-expert                                 # pathtext z15- (also has line z15-)
+highway-path-horse                                  # pathtext z15- (also has line z15-)
+highway-path-tunnel                                 # pathtext z15- (also has line z15-, line::tunnelBackground z17-, line::tunnelCasing z17-)
 === 2820
 
 highway-steps                                       # pathtext z16- (also has line z15-)
@@ -719,11 +719,11 @@ highway-steps-bridge                                # pathtext z16- (also has li
 highway-steps-tunnel                                # pathtext z16- (also has line z15-, line::tunnelBackground z17-, line::tunnelCasing z17-)
 === 2810
 
-highway-track                                       # pathtext z15- (also has line z14-)
-highway-track-area                                  # pathtext z15- (also has line z14-)
-highway-track-bridge                                # pathtext z15- (also has line z14-, line::bridgeblack z17-, line::bridgewhite z15-)
-highway-track-no-access                             # pathtext z15- (also has line z14-)
-highway-track-tunnel                                # pathtext z15- (also has line z14-, line::tunnelBackground z17-, line::tunnelCasing z17-)
+highway-track                                       # pathtext z15- (also has line z15-)
+highway-track-area                                  # pathtext z15- (also has line z15-)
+highway-track-bridge                                # pathtext z15- (also has line z15-, line::bridgeblack z17-, line::bridgewhite z15-)
+highway-track-no-access                             # pathtext z15- (also has line z15-)
+highway-track-tunnel                                # pathtext z15- (also has line z15-, line::tunnelBackground z17-, line::tunnelCasing z17-)
 === 2780
 
 highway-service                                     # pathtext z16- (also has line z15-)
@@ -739,7 +739,7 @@ piste:type-downhill-expert                          # pathtext z15- (also has li
 piste:type-downhill-freeride                        # pathtext z15- (also has line z14-)
 piste:type-downhill-intermediate                    # pathtext z15- (also has line z14-)
 piste:type-downhill-novice                          # pathtext z15- (also has line z14-)
-piste:type-hike                                     # pathtext z15- (also has line z14-)
+piste:type-hike                                     # pathtext z15- (also has line z15-)
 piste:type-nordic                                   # pathtext z15- (also has line z14-)
 piste:type-skitour                                  # pathtext z15- (also has line z14-)
 piste:type-sled                                     # pathtext z15- (also has line z14-)
