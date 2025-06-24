@@ -714,7 +714,7 @@ line|z17-[highway=steps][bridge?]::bridgeblack,
 line|z16-[highway=road][bridge?]::bridgeblack,
 line|z16-[highway=service][bridge?]::bridgeblack
 {casing-linecap: butt;casing-color:@bridge_casing;casing-opacity: 0.7;}
-line|z14-[highway=track],
+line|z15-[highway=track],
 {color: @track;opacity: 0.6;}
 line|z14-[highway=raceway],
 {color: @track;opacity: 0.7;}
@@ -728,11 +728,11 @@ line|z16-[highway=footway],
 {opacity: 0.95;}
 line|z15-[highway=steps],
 {color: @residential;opacity: 1;}
-line|z14-[highway=path],
+line|z15-[highway=path],
 {color: @path;opacity: 0.6;}
-line|z14-[highway=path][_path_grade=expert],
+line|z15-[highway=path][_path_grade=expert],
 {color: @path_expert; opacity: 0.6;}
-line|z14-[piste:type=hike],
+line|z15-[piste:type=hike],
 {color: @piste; opacity: 0.4;}
 line|z17-[highway=footway][tunnel?]::tunnelBackground,
 line|z17-[highway=cycleway][tunnel?]::tunnelBackground,
@@ -916,8 +916,6 @@ line|z19-[highway=raceway],
 line|z19-[leisure=track][!area]
 {width:4; opacity: 0.8;}
 
-line|z14[highway=track],
-{width: 1.1; dashes: 6,2.5;}
 line|z15[highway=track],
 {width: 1.4; dashes: 6,2.5;}
 line|z16[highway=track],
@@ -929,9 +927,6 @@ line|z18[highway=track],
 line|z19-[highway=track],
 {width: 4.2; dashes: 12,3.5; opacity: 0.8;}
 
-line|z14[highway=path],
-line|z14[piste:type=hike],
-{width: 0.9; dashes: 3.5,2;}
 line|z15[highway=path],
 line|z15[piste:type=hike],
 {width: 1.1; dashes: 3.5,2;}
@@ -946,8 +941,6 @@ line|z18[highway=path],
 line|z19-[highway=path],
 {width: 3.7; dashes: 8,4.5; opacity: 0.8;}
 
-line|z14[highway=path][bicycle=designated],
-{width: 0.9; dashes: 3.5,2.7;}
 line|z15[highway=path][bicycle=designated],
 {width: 1.1; dashes: 3.5,2.7;}
 line|z16[highway=path][bicycle=designated],
@@ -959,8 +952,6 @@ line|z18[highway=path][bicycle=designated],
 line|z19-[highway=path][bicycle=designated],
 {width: 3.7; dashes: 8,6.2; opacity: 0.8;}
 
-line|z14[highway=path][_path_grade=difficult],
-{width: 0.9; dashes: 1,2;}
 line|z15[highway=path][_path_grade=difficult],
 {width: 1.1; dashes: 1,2;}
 line|z16[highway=path][_path_grade=difficult],
@@ -970,8 +961,6 @@ line|z17[highway=path][_path_grade=difficult],
 line|z18-[highway=path][_path_grade=difficult],
 {width: 2.8; dashes: 2.8,3.5;}
 
-line|z14[highway=path][_path_grade=expert],
-{width: 0.9; dashes: 1,4;}
 line|z15[highway=path][_path_grade=expert],
 {width: 1.1; dashes: 1,4;}
 line|z16[highway=path][_path_grade=expert],
