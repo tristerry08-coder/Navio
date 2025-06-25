@@ -13,7 +13,6 @@ import androidx.core.content.FileProvider;
 import androidx.documentfile.provider.DocumentFile;
 import app.organicmaps.BuildConfig;
 import app.organicmaps.sdk.util.log.Logger;
-import app.organicmaps.util.Utils;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -155,14 +154,6 @@ public class StorageUtils
                                       new File(path));
   }
 
-  /**
-   * Copy data from a URI into a local file.
-   * @param resolver content resolver
-   * @param from a source URI.
-   * @param to a destination file
-   * @return true on success and false if the provider recently crashed.
-   * @throws IOException - if I/O error occurs.
-   */
   static private boolean copyFile(InputStream from, OutputStream to) throws IOException
   {
     if (from == null || to == null)
@@ -175,6 +166,15 @@ public class StorageUtils
 
     return true;
   }
+
+  /**
+   * Copy data from a URI into a local file.
+   * @param resolver content resolver
+   * @param from a source URI.
+   * @param to a destination file
+   * @return true on success and false if the provider recently crashed.
+   * @throws IOException - if I/O error occurs.
+   */
   public static boolean copyFile(@NonNull ContentResolver resolver, @NonNull Uri from, @NonNull File to)
       throws IOException
   {

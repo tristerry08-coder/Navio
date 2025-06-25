@@ -219,8 +219,8 @@ public final class Config
   public static String getCurrentUiTheme(@NonNull Context context)
   {
     // This is the actual map theme, only set to theme_default/night
-    String defaultTheme = MwmApplication.from(context).getString(R.string.theme_default);
-    String res = getString(KEY_MISC_UI_THEME, defaultTheme);
+    final String defaultTheme = context.getString(R.string.theme_default);
+    final String res = getString(KEY_MISC_UI_THEME, defaultTheme);
 
     if (ThemeUtils.isValidTheme(context, res))
       return res;
@@ -240,8 +240,8 @@ public final class Config
   public static String getUiThemeSettings(@NonNull Context context)
   {
     // This is the default theme *mode*, eg. auto/dark/nav_auto/light.
-    String defaultSetting = MwmApplication.from(context).getString(R.string.theme_nav_auto);
-    String res = getString(KEY_MISC_UI_THEME_SETTINGS, defaultSetting);
+    final String defaultSetting = context.getString(R.string.theme_nav_auto);
+    final String res = getString(KEY_MISC_UI_THEME_SETTINGS, defaultSetting);
     if (ThemeUtils.isValidTheme(context, res) || ThemeUtils.isAutoTheme(context, res)
         || ThemeUtils.isNavAutoTheme(context, res))
       return res;
