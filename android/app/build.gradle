@@ -15,12 +15,6 @@ buildscript {
   }
 }
 
-repositories {
-  google()
-  mavenCentral()
-  maven { url 'https://www.jitpack.io' } // MPAndroidChart
-}
-
 apply plugin: 'com.android.application'
 apply plugin: 'com.github.triplet.play'
 apply plugin: 'ru.cian.huawei-publish-gradle-plugin'
@@ -412,6 +406,8 @@ android {
 }
 
 dependencies {
+  implementation project(':sdk')
+
   coreLibraryDesugaring libs.android.tools.desugar
 
   // Google Play Location Services
