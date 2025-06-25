@@ -967,4 +967,8 @@
     <string name="ruler">Ruler</string>
     <string name="bookmark_color">Bookmark color</string>
     <string name="about_help">About &amp; Help</string>
+    <string name="open_now">Open now</string>
+    <string name="closed_now">Closed now</string>
+    <!-- Used in place page preview for next open/close time. eg. "closing in 30 min • at 19:30" -->
+    <string name="at">at %s</string>
 </resources>

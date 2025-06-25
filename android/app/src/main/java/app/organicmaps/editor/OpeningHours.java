@@ -60,4 +60,6 @@ public final class OpeningHours
    * @return true if timetable string is valid OSM timetable.
    */
   public static native boolean nativeIsTimetableStringValid(String source);
+
+  public static native OhState nativeCurrentState(@NonNull Timetable[] timetables);
 }

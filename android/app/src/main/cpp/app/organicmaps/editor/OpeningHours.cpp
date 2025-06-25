@@ -321,4 +321,30 @@ Java_app_organicmaps_editor_OpeningHours_nativeIsTimetableStringValid(JNIEnv * e
 {
   return OpeningHours(jni::ToNativeString(env, jSource)).IsValid();
 }
+
+
+JNIEXPORT jobject JNICALL
+Java_app_organicmaps_editor_OpeningHours_nativeCurrentState(JNIEnv * env, jclass clazz, jobjectArray jTts)
+{
+  TimeTableSet tts = NativeTimetableSet(env, jTts);
+  time_t const now = time(nullptr);
+
+  /// @todo We should check closed/open time for specific feature's timezone.
+  OpeningHours::InfoT ohInfo = MakeOpeningHours(tts).GetInfo(now);
+  jclass ohStateClass = jni::GetGlobalClassRef(env, "app/organicmaps/editor/OhState");
+  jclass ruleStateClass = jni::GetGlobalClassRef(env, "app/organicmaps/editor/OhState$State");
+
+  static const std::unordered_map<RuleState, const char*> ruleState = {
+      {RuleState::Open, "Open"},
+      {RuleState::Closed, "Closed"},
+      {RuleState::Unknown, "Unknown"}
+  };
+
+  jfieldID stateField = env->GetStaticFieldID(ruleStateClass, ruleState.at(ohInfo.state), "Lapp/organicmaps/editor/OhState$State;");
+  jobject stateObj = env->GetStaticObjectField(ruleStateClass, stateField);
+  jmethodID constructor = env->GetMethodID(ohStateClass, "<init>", "(Lapp/organicmaps/editor/OhState$State;JJ)V");
+  jobject javaOhState = env->NewObject(ohStateClass, constructor, stateObj, (jlong) ohInfo.nextTimeOpen, (jlong) ohInfo.nextTimeClosed);
+
+  return javaOhState;
+}
 } // extern "C"

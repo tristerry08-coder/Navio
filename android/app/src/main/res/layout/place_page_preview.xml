@@ -72,6 +72,16 @@
         tools:background="#300000F0"
         tools:text="Subtitle, very very very very very very very long" />
       <com.google.android.material.textview.MaterialTextView
+          android:id="@+id/tv__open_state"
+          android:textAlignment="viewStart"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/margin_quarter"
+          android:ellipsize="end"
+          android:textAppearance="@style/MwmTextAppearance.Body3"
+          tools:background="#300000F0"
+          tools:text="Closes in 45 min • at 23:00" />
+      <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tv__address"
         android:textAlignment="viewStart"
         android:layout_width="match_parent"

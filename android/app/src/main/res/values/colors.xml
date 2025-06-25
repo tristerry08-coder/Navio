@@ -14,9 +14,9 @@
   <color name="base_accent_pressed_night">#FF588157</color>
   <color name="base_accent_transparent">#1EF9B42D</color>
 
-  <color name="base_red">#FFF54137</color>
   <color name="dark_red">#F51E30</color>
-  <color name="base_yellow">#FFFFC30A</color>
+  <color name="base_red">#DE241B</color>
+  <color name="base_yellow">#E6A100</color>
   <color name="base_green">#FF558B2F</color>
   <color name="light_green">#7CBC7B</color> <!-- secondary light -->
   <color name="driving_options_bg_black">#25282B</color>
