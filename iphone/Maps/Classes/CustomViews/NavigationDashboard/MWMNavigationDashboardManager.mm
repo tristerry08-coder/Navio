@@ -200,6 +200,8 @@ NSString *const kNavigationControlViewXibName = @"NavigationControlView";
 }
 
 - (void)onRouteStart {
+  [MWMSearch clear];
+  [self.searchManager close];
   self.state = MWMNavigationDashboardStateNavigation;
 }
 - (void)onRouteStop {
