@@ -395,7 +395,7 @@
     <string name="editor_example_values">مقادیر پیش فرض</string>
     <string name="editor_correct_mistake">تصحیح خطا</string>
     <string name="editor_add_select_location">مکان را انتخاب کنید</string>
-    <string name="editor_report_problem_desription_1">لطفا مشکلتان را با جزئیات توضیح دهید بطوری که انجمن OSM بتوانند آن را برطرف کنند.</string>
+    <string name="editor_report_problem_desription_1">لطفا مشکلتان را با جزئیات توضیح دهید بطوری که انجمن OpenStreetMap بتوانند آن را برطرف کنند.</string>
     <string name="editor_report_problem_desription_2">یا خودتان آن را انجام دهید در وبسایت https://www.openstreetmap.org/</string>
     <string name="editor_report_problem_send_button">ارسال</string>
     <string name="editor_report_problem_title">مشکل</string>
@@ -463,7 +463,7 @@
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
     <string name="osm_presentation">داده های OpenStreetMap ایجاد شده توسط انجمن از %s. درباره نحوه ویرایش و به روز رسانی نقشه در OpenStreetMap.org بیشتر بیاموزید</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">OpenStreetMap.org (OSM) یک پروژه اجتماعی برای ساخت یک نقشه رایگان و باز است. این منبع اصلی داده های نقشه در نقشه های ارگانیک است و مشابه ویکی پدیا کار می کند. میu200cتوانید مکانu200cها را اضافه یا ویرایش کنید تا در دسترس میلیونu200cها کاربر در سراسر جهان قرار گیرند. \nبه انجمن بپیوندید و به ایجاد نقشه بهتر برای همه کمک کنید!</string>
+    <string name="login_osm_presentation">OpenStreetMap.org (OSM) یک پروژه اجتماعی برای ساخت یک نقشه رایگان و باز است. این منبع اصلی داده های نقشه در CoMaps است و مشابه ویکی پدیا کار می کند. می توانید مکان ها را اضافه یا ویرایش کنید تا در دسترس میلیون ها کاربر در سراسر جهان قرار گیرند. \nبه انجمن بپیوندید و به ایجاد نقشه بهتر برای همه کمک کنید!</string>
     <string name="login_to_make_edits_visible">یک حساب OpenStreetMap ایجاد کنید یا وارد شوید تا ویرایش های نقشه خود را در جهان منتشر کنید.</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d از %2$d</string>
@@ -479,7 +479,7 @@
     <!-- Title for OSM note section in the editor -->
     <string name="editor_other_info">توجه به داوطلبان OpenStreetMap (اختیاری)</string>
     <!-- Hint of the input field in the OSM note section of the editor -->
-    <string name="editor_note_hint">خطاهای موجود در نقشه یا مواردی که با استفاده از نقشه های ارگانیک قابل ویرایش نیستند را شرح دهید</string>
+    <string name="editor_note_hint">خطاهای موجود در نقشه یا مواردی که با استفاده از CoMaps قابل ویرایش نیستند را شرح دهید</string>
     <!-- Information about OSM at the top of the editing page -->
     <string name="editor_about_osm">ویرایش های شما در پایگاه داده عمومی <a href="https://wiki.openstreetmap.org/wiki/Fa:About_OpenStreetMap">OpenStreetMap</a> آپلود می شود. لطفا اطلاعات شخصی یا دارای حق چاپ را اضافه نکنید.</string>
     <string name="editor_more_about_osm">در مورد OpenStreetMap بیشتر بدانید</string>
@@ -489,7 +489,7 @@
     <!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
     <string name="operator">اپراتور: %s</string>
     <string name="editor_category_unsuitable_title">آیا نمی توانید یک دسته بندی مناسب پیدا کنید؟</string>
-    <string name="editor_category_unsuitable_text">CoMaps اجازه میu200cدهد فقط دستهu200cهای نقطهu200cای ساده را اضافه کند، یعنی هیچ شهر، جاده، دریاچه، طرح کلی ساختمان و غیره وجود ندارد. لطفاً این دستهu200cها را مستقیماً به <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> اضافه کنید. برای دستورالعملu200cهای گام به گام، <a href="https://www.comaps.app/support/advanced-map-editing/">راهنمای</a> ما را بررسی کنید.</string>
+    <string name="editor_category_unsuitable_text">CoMaps اجازه می دهد فقط دسته های نقطه ای ساده را اضافه کند، یعنی هیچ شهر، جاده، دریاچه، طرح کلی ساختمان و غیره وجود ندارد. لطفاً این دسته ها را مستقیماً به <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> اضافه کنید. برای دستورالعمل های گام به گام، <a href="https://www.comaps.app/support/advanced-map-editing/">راهنمای</a> ما را بررسی کنید.</string>
     <string name="downloader_no_downloaded_maps_title">شما هیچ نقشه دانلود شده ای ندارید</string>
     <string name="downloader_no_downloaded_maps_message">برای جست وجو یک مکان و استفاده از قابلیت ناوبری، نقشه‌ها را دانلود کنید.</string>
     <string name="current_location_unknown_error_title">مکان فعلیتان ناشناس است.</string>
@@ -551,7 +551,7 @@
     <!-- Settings: "Send general feedback" button -->
     <string name="feedback_general">\"تنظیمات: دکمه \"ارسال بازخورد کلی</string>
     <string name="prefs_languages_information">ما از TTS سیستم برای دستورالعمل‌های صوتی استفاده می کنیم. بسیاری از دستگاه‌های Android از Google TTS استفاده می کنند، شما می توانید آن را از Google Play دانلود کنید (https://play.google.com/store/apps/details؟id=com.google.android.tts)</string>
-    <string name="prefs_languages_information_off">برای برخی از زبان‌ها، باید یک سینت سایزر گفتار یا بسته زبان دیگری را از فروشگاه برنامه (Google Play، Galaxy Store، AppGallery، F-Droid) نصب کنید.\nتنظیمات → زبان و ورودی → گفتار → خروجی متن به گفتار دستگاه خود را باز کنید.\nمی‌توانید تنظیمات مربوط به سینت سایزر گفتار را مدیریت کنید (به عنوان مثال، بسته‌های زبانی را برای استفاده آفلاین دانلود کنید) و یک موتور متن به گفتار متفاوت انتخاب کنید.</string>
+    <string name="prefs_languages_information_off">برای بعضی از زبان‌ها، شما باید speech synthesizer یا یک بسته زبان دیگر را از فروشگاه برنامه (Google Play, Galaxy Store, App Gallery, FDroid) نصب کنید. \n تنظیمات دستگاه خود را باز کنید. → زبان و ورودی → گفتار → خروجی متن به گفتار. می توانید تنظیمات برای ترکیب گفتار (به عنوان مثال، بسته‌های زبان را برای استفاده آفلاین دانلود کنید) را مدیریت کنید و یک موتور دیگر متن به گفتار را انتخاب کنید.</string>
     <string name="prefs_languages_information_off_link">برای اطلاعات بیشتر لطفا این راهنما را بررسی کنید.</string>
     <string name="transliteration_title">ترجمه به لاتین</string>
     <string name="learn_more">بیشتر بدانید</string>
@@ -582,7 +582,7 @@
     </plurals>
     <string name="bookmarks_create_new_group">ایجاد لیست جدید</string>
     <!-- Bookmark categories screen, button that opens folder selection dialog to import KML/KMZ/GPX/KMB files -->
-    <string name="bookmarks_import">وارد کردن نشانکu200cها و آهنگu200cها</string>
+    <string name="bookmarks_import">وارد کردن نشانک ها و آهنگ ها</string>
     <string name="bookmarks_error_message_share_general">با توجه به خطای برنامه، امکان اشتراک گذاری وجود ندارد</string>
     <string name="bookmarks_error_title_share_empty">خطای اشتراک</string>
     <string name="bookmarks_error_message_share_empty">یک لیست خالی را نمی توان به اشتراک گذاشت</string>
@@ -793,7 +793,7 @@
     <!-- To indicate if restaurant or other place has outdoor seating -->
     <string name="outdoor_seating">نشستن در فضای باز</string>
     <!-- Disclaimer summary shown when Power Saving Mode is enabled -->
-    <string name="power_save_dialog_summary">برای دقیقu200cترین ناوبری، توصیه میu200cکنیم حالت صرفهu200cجویی در مصرف انرژی را در تنظیمات باتری گوشی غیرفعال کنید.</string>
+    <string name="power_save_dialog_summary">برای دقیق ترین ناوبری، توصیه می کنیم حالت صرفه جویی در مصرف انرژی را در تنظیمات باتری گوشی غیرفعال کنید.</string>
     <!-- Prompt to start recording a track. -->
     <string name="start_track_recording">ضبط مسیر</string>
     <!-- Prompt for stopping a track recording. -->

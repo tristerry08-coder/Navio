@@ -503,7 +503,7 @@
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
     <string name="osm_presentation">بيانات OpenStreetMap التي أنشأها المجتمع اعتبارًا من %s. تعرف على المزيد حول كيفية تعديل الخريطة وتحديثها على OpenStreetMap.org</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">OpenStreetMap.org (OSM) هو مشروع مجتمعي لبناء خريطة مجانية ومفتوحة. إنه المصدر الرئيسي لبيانات الخرائط في الخرائط العضوية ويعمل على غرار ويكيبيديا. يمكنك إضافة الأماكن أو تعديلها وتصبح متاحة لملايين المستخدمين في جميع أنحاء العالم. نضم إلى المجتمع وساعد في إنشاء خريطة أفضل للجميع!</string>
+    <string name="login_osm_presentation">OpenStreetMap.org (OSM) هو مشروع مجتمعي لبناء خريطة مجانية ومفتوحة. إنه المصدر الرئيسي لبيانات الخرائط في CoMaps ويعمل على غرار ويكيبيديا. يمكنك إضافة الأماكن أو تعديلها وتصبح متاحة لملايين المستخدمين في جميع أنحاء العالم.\nنضم إلى المجتمع وساعد في إنشاء خريطة أفضل للجميع!</string>
     <string name="login_to_make_edits_visible">أنشئ حساباً على OpenStreetMap أو سجّل الدخول لنشر تعديلاتك على الخريطة للعالم.</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d من%2$d</string>
@@ -519,7 +519,7 @@
     <!-- Title for OSM note section in the editor -->
     <string name="editor_other_info">ملاحظة لمتطوعي OpenStreetMap (اختياري)</string>
     <!-- Hint of the input field in the OSM note section of the editor -->
-    <string name="editor_note_hint">وصف الأخطاء على الخريطة أو الأشياء التي لا يمكن تحريرها باستخدام الخرائط العضوية</string>
+    <string name="editor_note_hint">وصف الأخطاء على الخريطة أو الأشياء التي لا يمكن تحريرها باستخدام CoMaps</string>
     <!-- Information about OSM at the top of the editing page -->
     <string name="editor_about_osm">يتم تحميل تعديلاتك على قاعدة البيانات العامة <a href="https://wiki.openstreetmap.org/wiki/Ar:About_OpenStreetMap">OpenStreetMap</a>. يرجى عدم إضافة معلومات شخصية أو محمية بحقوق الطبع والنشر.</string>
     <string name="editor_more_about_osm">المزيد عن خريطة الشارع المفتوحة</string>

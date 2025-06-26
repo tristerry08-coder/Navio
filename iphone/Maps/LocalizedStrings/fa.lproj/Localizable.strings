@@ -609,7 +609,7 @@
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "اپراتور: %@";
 "editor_category_unsuitable_title" = "آیا نمی توانید یک دسته بندی مناسب پیدا کنید؟";
-"editor_category_unsuitable_text" = "CoMaps اجازه میu200cدهد فقط دستهu200cهای نقطهu200cای ساده را اضافه کند، یعنی هیچ شهر، جاده، دریاچه، طرح کلی ساختمان و غیره وجود ندارد. لطفاً این دستهu200cها را مستقیماً به <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> اضافه کنید. برای دستورالعملu200cهای گام به گام، <a href=\"https://www.comaps.app/support/advanced-map-editing/\">راهنمای</a> ما را بررسی کنید.";
+"editor_category_unsuitable_text" = "CoMaps اجازه می دهد فقط دسته های نقطه ای ساده را اضافه کند، یعنی هیچ شهر، جاده، دریاچه، طرح کلی ساختمان و غیره وجود ندارد. لطفاً این دسته ها را مستقیماً به <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> اضافه کنید. برای دستورالعمل های گام به گام، <a href=\"https://www.comaps.app/support/advanced-map-editing/\">راهنمای</a> ما را بررسی کنید.";
 "downloader_no_downloaded_maps_title" = "شما هیچ نقشه دانلود شده ای ندارید";
 "downloader_no_downloaded_maps_message" = "برای جست وجو یک مکان و استفاده از قابلیت ناوبری، نقشه‌ها را دانلود کنید.";
 "current_location_unknown_error_title" = "مکان فعلیتان ناشناس است.";
@@ -741,7 +741,7 @@
 "bookmarks_create_new_group" = "ایجاد لیست جدید";
 
 /* Bookmark categories screen, button that opens folder selection dialog to import KML/KMZ/GPX/KMB files */
-"bookmarks_import" = "وارد کردن نشانکu200cها و آهنگu200cها";
+"bookmarks_import" = "وارد کردن نشانک ها و آهنگ ها";
 "downloader_hide_screen" = "پنهان کردن صفحه";
 "downloader_percent" = "%@ (%@ از %@)";
 "downloader_process" = "در حال دانلود %@…";
@@ -928,10 +928,10 @@
 "telegram_url" = "https://t.me/CoMapsApp";
 
 /* Instagram account url for the "?" About page */
-"instagram_url" = "https://www.instagram.com/comapscommunity/";
+"instagram_url" = "https://www.instagram.com/comapscommunity";
 
 /* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
-"translated_om_site_url" = "https://www.comaps.app/";
+"translated_om_site_url" = "https://www.comaps.app";
 
 /* Link to OSM wiki for Editor, Profile and About pages */
 "osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/Fa:About_OpenStreetMap";
@@ -1001,7 +1001,7 @@
 "enable_icloud_synchronization_title" = "همگام سازی iCloud را فعال کنید";
 
 /* Message for the "Enable iCloud Syncronization" alert. */
-"enable_icloud_synchronization_message" = "همگام سازی iCloud یک ویژگی آزمایشی در دست توسعه است. مطمئن شوید که از تمام نشانکu200cها و آهنگu200cهای خود یک نسخه پشتیبان تهیه کردهu200cاید.";
+"enable_icloud_synchronization_message" = "همگام سازی iCloud یک ویژگی آزمایشی در دست توسعه است. مطمئن شوید که از تمام نشانک ها و آهنگ های خود یک نسخه پشتیبان تهیه کرده اید.";
 
 /* Title for the "iCloud Is Disabled" alert. */
 "icloud_disabled_title" = "iCloud غیرفعال است";

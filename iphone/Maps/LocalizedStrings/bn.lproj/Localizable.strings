@@ -1,1 +1,6 @@
 "osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
+"translated_om_site_url" = "https://www.comaps.app/";
+"close" = "বন্ধ";
+"zoom_to_country" = "ম্যাপে দেখান";
+"country_status_download_failed" = "ডাউনলোড ব্যর্থ হল";
+"download" = "ডাউনলোড";

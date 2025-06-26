@@ -893,4 +893,11 @@
     <string name="editor_building_levels">Etagen (inkl. Erdgeschoss, ohne Dach)</string>
     <string name="error_enter_correct_level">Geben Sie eine gültige Etagen Nummer ein</string>
     <string name="editor_level">Etage (0 ist Erdgeschoss)</string>
+    <string name="clear">Löschen</string>
+    <string name="vehicle">Fahrzeug</string>
+    <string name="bicycle">Fahrrad</string>
+    <string name="ruler">Lineal</string>
+    <string name="route_type">Routentyp</string>
+    <string name="pedestrian">Fußgänger</string>
+    <string name="bookmark_color">Lesezeichenfarbe</string>
 </resources>

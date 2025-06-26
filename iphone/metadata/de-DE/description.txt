@@ -1,13 +1,13 @@
-Eine von der Community betriebene, kostenlose Open-Source Karten App, die auf OpenStreetMap Daten basiert. Transparent, Daten sparsam und nicht gewinnorientiert.
+Eine von der Community betriebene, kostenlose Open-Source Karten App, die auf OpenStreetMap Daten basiert. Transparent, datensparsam und nicht gewinnorientiert.
 
-‣ <b>Einfach und ausgereift</b>: Essenzielle, leicht zu bedienende Funktionen, die einfach funktionieren.
-‣ <b>Offline-orientiert</b>: Plane und navigiere im Ausland ohne Mobilfunkverbindung, finde Wegpunkte auf abgelegenen Wanderungen usw. Alle Funktionen sind für den Offline-Einsatz konzipiert.
-‣ <b>Datenschutzfreundlich</b>: Die App wurde mit Fokus auf Privatsphäre entwickelt – keine Personenidentifikation, kein Tracking, keine Erfassung persönlicher Daten, keine Werbung.
-‣ <b>Spart Akku und Speicherplatz</b>: Verbraucht nicht unnötig Akku wie andere Navi-Apps. Kompakte Karten sparen Speicherplatz auf deinem Gerät.
-‣ <b>Kostenlos und von der Community entwickelt</b>: Menschen wie du haben geholfen, die App zu entwickeln – durch das Hinzufügen von Orten zu OpenStreetMap, Testen von neuen Funktionen, Softwareentwicklung oder Spenden.
-‣ <b>Offen und transparent bei Entscheidungen und Finanzen, gemeinnützig und vollständig Open Source</b>
+‣ Einfach und ausgereift: Essenzielle, leicht zu bedienende Funktionen, die einfach funktionieren.
+‣ Offline-orientiert: Plane und navigiere im Ausland ohne Mobilfunkverbindung, finde Wegpunkte auf abgelegenen Wanderungen usw. Alle Funktionen sind für den Offline-Einsatz konzipiert.
+‣ Datenschutzfreundlich: Die App wurde mit Fokus auf Privatsphäre entwickelt – keine Personenidentifikation, kein Tracking, keine Erfassung persönlicher Daten, keine Werbung.
+‣ Spart Akku und Speicherplatz: Verbraucht nicht unnötig Akku wie andere Navi-Apps. Kompakte Karten sparen Speicherplatz auf deinem Gerät.
+‣ Kostenlos und von der Community entwickelt: Menschen wie du haben geholfen, die App zu entwickeln – durch das Hinzufügen von Orten zu OpenStreetMap, Testen von neuen Funktionen, Softwareentwicklung oder Spenden.
+‣ Offen und transparent bei Entscheidungen und Finanzen, gemeinnützig und vollständig Open Source
 
-<b>Hauptfunktionen</b>:
+Hauptfunktionen:
 • Detaillierte, herunterladbare Karten mit Orten, die bei Google Maps oft fehlen
 • Outdoor-Modus mit hervorgehobenen Wanderwegen, Campingplätzen, Wasserquellen, Gipfeln, Höhenlinien usw.
 • Geh- und Radwege
@@ -24,5 +24,5 @@ Eine von der Community betriebene, kostenlose Open-Source Karten App, die auf Op
 • Kartenbearbeitung direkt in der App mit einem einfachen Editor
 • Unterstützung für CarPlay
 
-<b>Freiheit beginnt hier</b>
+Freiheit beginnt hier
 Entdecke deine Reise – navigiere in der Welt mit Datenschutz!

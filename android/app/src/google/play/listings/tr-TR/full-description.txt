@@ -1,0 +1,36 @@
+OpenStreetMap verilerine dayanan ve şeffaflık, gizlilik ve kar amacı gütmeyen olma taahhüdüyle güçlendirilen, topluluk tarafından yönetilen ücretsiz ve açık kaynaklı bir harita uygulaması.
+
+Topluluğa katılın ve en iyi harita uygulamasını oluşturmaya yardımcı olun
+• Uygulamayı kullanın ve bunu herkese duyurun
+• Geri bildirimde bulunun ve sorunları bildirin
+• Harita verilerini uygulamada veya OpenStreetMap web sitesinde güncelleyin
+
+<i>Geri bildirimleriniz ve 5 yıldızlı yorumlarınız bizim için en iyi destektir!</i>
+
+‣ <b>Basit ve Cilalı</b>: sadece işe yarayan, kullanımı kolay temel özellikler.
+‣ <b>Çevrim dışı odaklı</b>: Cep telefonu hizmetine ihtiyaç duymadan yurtdışı seyahatinizi planlayın ve gezinin, uzun bir yürüyüş sırasında rota noktalarını arayın, vb. Tüm uygulama işlevleri çevrimdışı çalışmak üzere tasarlanmıştır.
+‣ <b>Gizliliğe Saygı</b>: Uygulama gizlilik düşünülerek tasarlanmıştır; kişileri tanımlamaz, takip etmez ve kişisel bilgi toplamaz. Reklamsız.
+‣ <b>Pilinizden ve Alanınızdan Tasarruf Edin</b>: Diğer navigasyon uygulamaları gibi pilinizi tüketmez. Kompakt haritalar telefonunuzda değerli alan tasarrufu sağlar.
+‣ <b>Ücretsiz ve Topluluk Tarafından Oluşturuldu</b>: Sizin gibi insanlar, OpenStreetMap'e yerler ekleyerek, özellikleri test ederek ve geri bildirimde bulunarak ve geliştirme becerilerinizi ve paranızı katkıda bulunarak uygulamanın oluşturulmasına yardımcı oldunuz..
+‣ <b>Açık ve Şeffaf Karar Alma ve Finansman, Kar Amacı Gütmeyen ve Tamamen Açık Kaynak.</b>
+
+<b>Ana Özellikleri</b>:
+• Google Haritalar'da bulunmayan yerleri içeren indirilebilir detaylı haritalar
+• Vurgulanan yürüyüş parkurları, kamp alanları, su kaynakları, zirveler, kontur çizgileriyle açık hava modu gibi
+• Yürüyüş yolları ve bisiklet yolları
+• Restoranlar, benzin istasyonları, oteller, mağazalar, turistik yerler gibi ilgi çekici noktalar ve daha fazlası
+• İsme veya adrese göre veya ilgi noktası kategorisine göre arama yapın
+• Yürüyerek, bisikletle veya araçla seyahat edenler için sesli duyurularla navigasyon
+• Favori yerlerinizi tek bir dokunuşla yer imlerine ekleyin
+• Çevrim dışı Wikipedia makaleleri
+• Metro geçiş katmanı ve yönleri
+• Rota kaydı
+• Yer imlerini ve parkurları KML, KMZ, GPX formatlarında dışa ve içe aktarın
+• Geceleri kullanmak için karanlık mod
+• Temel bir yerleşik düzenleyici kullanarak herkes için harita verilerini iyileştirin
+• Android Auto desteği
+
+Lütfen uygulama sorunlarını bildirin, fikir önerin ve <b><i>comaps.app</i></b> web sitesinde topluluğumuza katılın.
+
+<b>Özgürlük Burada</b>
+Yolculuğunuzu keşfedin, gizlilik ve topluluk ön planda tutularak dünyayı keşfedin!

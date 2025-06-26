@@ -893,4 +893,11 @@
     <string name="error_enter_correct_level">Syötä kerrosnumero</string>
     <string name="editor_building_levels">Kerrokset (sis. pohjakerroksen, jätä pois katto)</string>
     <string name="editor_level">Kerros (0 on pohjakerros)</string>
+    <string name="clear">Tyhjennä</string>
+    <string name="route_type">Reitin tyyppi</string>
+    <string name="vehicle">Ajoneuvo</string>
+    <string name="pedestrian">Jalankulkija</string>
+    <string name="bicycle">Polkupyörä</string>
+    <string name="ruler">Viivoitin</string>
+    <string name="bookmark_color">Kirjanmerkin väri</string>
 </resources>
