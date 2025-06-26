@@ -1,5 +1,6 @@
 #import "MWMSideButtonsView.h"
 #import "MWMButton.h"
+#import "MWMRouter.h"
 #import "MWMMapViewControlsCommon.h"
 
 #include "base/math.hpp"
@@ -32,6 +33,10 @@ CGFloat const kButtonsBottomOffset = 6;
   CGFloat spacing = self.availableHeight - self.zoomOut.maxY - self.location.height;
   spacing = base::Clamp(spacing, kLocationButtonSpacingMin, kLocationButtonSpacingMax);
 
+  if (!IPAD && (UIDevice.currentDevice.orientation == UIDeviceOrientationLandscapeLeft || UIDevice.currentDevice.orientation == UIDeviceOrientationLandscapeRight) && [MWMRouter isRoutingActive]) {
+    spacing = spacing - 36;
+  }
+  
   self.location.minY = self.zoomOut.maxY + spacing;
   self.bounds = {{}, {self.zoomOut.width, self.location.maxY}};
   if (self.zoomHidden)
@@ -62,6 +67,9 @@ CGFloat const kButtonsBottomOffset = 6;
   [UIView animateWithDuration:kDefaultAnimationDuration
                    animations:^{
     self.midY = centerShift + self.superview.height / 2;
+    if ([MWMRouter isRoutingActive]) {
+      self.midY = self.midY - 18;
+    }
     if (self.maxY > self.bottomBound)
       self.maxY = self.bottomBound;
   }];
