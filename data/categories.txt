@@ -410,7 +410,7 @@ pl:4Atrakcje turystyczne|Osobliwości miasta|Turystyka|zwiedzanie
 pt:4Atrações turísticas|3Turismo|Miradouros
 pt-BR:4Atraçãos|3Turismo
 ro:5Obiective turistice|4Turism
-es:4Turismo
+es:5Atracciones turísticas|4Turismo
 et:Vaatamisväärsused
 eu:4Turismoa
 sr:5Туристичка атракција|5Атракција|5Атракције|6Знаменитости|5Туризам|5Turistička atrakcija|5Atrakcija|5Atrakcije|6Znamenitosti|5Turizam
