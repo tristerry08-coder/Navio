@@ -380,6 +380,9 @@ area|z15-[amenity=university],
 {fill-opacity: 0.9;}
 
 
+area|z13-[landuse=retail],
+{fill-color: @retail; fill-opacity: 1;}
+
 area|z15-[leisure=pitch],
 area|z15-[leisure=track][area?],
 area|z15-[leisure=fitness_station],
