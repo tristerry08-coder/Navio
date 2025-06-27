@@ -895,4 +895,6 @@
     <string name="pedestrian">Jalakäija</string>
     <string name="ruler">Joonlaud</string>
     <string name="bookmark_color">Järjehoidja värv</string>
+    <string name="panoramax">Panoramaxi pilt</string>
+    <string name="about_help">Rakenduse teave ja abiteave</string>
 </resources>

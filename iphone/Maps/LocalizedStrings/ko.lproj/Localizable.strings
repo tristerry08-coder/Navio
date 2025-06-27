@@ -482,7 +482,7 @@
 "read_in_wikipedia" = "Wikipedia";
 
 /* Place Page link to Wikimedia Commons. */
-"wikimedia_commons" = "Wikimedia Commons";
+"wikimedia_commons" = "위키미디어 공용";
 "p2p_your_location" = "위치";
 "p2p_start" = "시작";
 "p2p_from_here" = "출발지";

@@ -17,7 +17,7 @@
 "type.aeroway.runway" = "Landningsbana";
 "type.aeroway.taxiway" = "Taxibana";
 "type.aeroway.terminal" = "Terminal";
-"type.amenity" = "Infrastrukturen";
+"type.amenity" = "Infrastruktur";
 "type.amenity.arts_centre" = "Kulturcenter";
 "type.amenity.atm" = "Bankomat";
 "type.amenity.bank" = "Bank";
@@ -186,7 +186,7 @@
 "type.amenity.veterinary" = "Veterinär";
 "type.amenity.waste_basket" = "Papperskorg";
 "type.amenity.waste_disposal" = "Avfallscontainer";
-"type.amenity.waste_transfer_station" = "Waste Transfer Station";
+"type.amenity.waste_transfer_station" = "Återvinningscentral";
 "type.amenity.water_point" = "Vattenpost";
 "type.amenity.water_point.drinking_water_no" = "Vattenpost";
 "type.barrier" = "Hinder";
@@ -238,7 +238,7 @@
 "type.building.has_parts" = "Byggnad";
 "type.building_part" = "Byggnad";
 "type.building.garage" = "Garage";
-"type.building.train_station" = "Stationsbyggnaden";
+"type.building.train_station" = "Stationsbyggnad";
 "type.building.warehouse" = "Lager";
 "type.cemetery.grave" = "Grav";
 "type.craft" = "Hantverk";
@@ -428,7 +428,7 @@
 
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.living_street.tunnel" = "Tunnel";
-"type.highway.motorway" = "Gata";
+"type.highway.motorway" = "Motorväg";
 
 /* These translations are used for all type.highway.*.bridge. */
 "type.highway.motorway.bridge" = "Bro";
@@ -527,7 +527,7 @@
 "type.highway.service.tunnel" = "Tunnel";
 "type.highway.services" = "Rastplats";
 "type.highway.speed_camera" = "Hastighetskamera";
-"type.highway.steps" = "Gångväg";
+"type.highway.steps" = "Trappa";
 
 /* These translations are used for all type.highway.*.bridge. */
 "type.highway.steps.bridge" = "Bro";
@@ -592,7 +592,7 @@
 "type.area_highway.secondary" = "Gata";
 "type.area_highway.service" = "Gata";
 "type.area_highway.tertiary" = "Gata";
-"type.area_highway.steps" = "Gångväg";
+"type.area_highway.steps" = "Trappa";
 "type.area_highway.track" = "Gata";
 "type.area_highway.trunk" = "Gata";
 "type.area_highway.unclassified" = "Gata";
@@ -685,11 +685,11 @@
 "type.landuse.forest.deciduous" = "Skog";
 "type.landuse.forest.mixed" = "Skog";
 "type.landuse.garages" = "Garage";
-"type.landuse.grass" = "Gräsmattan";
+"type.landuse.grass" = "Gräsmatta";
 "type.landuse.greenfield" = "Obebyggt område";
 "type.landuse.greenhouse_horticulture" = "Växthus";
 "type.landuse.industrial" = "Industriområde";
-"type.landuse.landfill" = "Soptippen";
+"type.landuse.landfill" = "Soptipp";
 "type.landuse.meadow" = "Ängsmark";
 "type.landuse.military" = "Militärt område";
 "type.landuse.orchard" = "Fruktodling";
@@ -704,7 +704,7 @@
 "type.landuse.vineyard" = "Vingård";
 "type.leisure" = "Fritid";
 "type.leisure.common" = "Allmän plats";
-"type.leisure.dog_park" = "Hundparken";
+"type.leisure.dog_park" = "Hundpark";
 "type.leisure.fitness_centre" = "Gym";
 "type.leisure.fitness_station" = "Fitnesstation";
 "type.leisure.dance" = "Danshall";
@@ -717,10 +717,10 @@
 "type.leisure.marina" = "Småbåtshamn";
 "type.leisure.nature_reserve" = "Naturreservat";
 "type.leisure.outdoor_seating" = "Sittplatser utomhus";
-"type.leisure.park" = "Parken";
-"type.leisure.park.no.access" = "Parken";
-"type.leisure.park.permissive" = "Parken";
-"type.leisure.park.private" = "Parken";
+"type.leisure.park" = "Park";
+"type.leisure.park.no.access" = "Privat park";
+"type.leisure.park.permissive" = "Park";
+"type.leisure.park.private" = "Privat park";
 "type.leisure.picnic_table" = "Picknickbord";
 "type.leisure.pitch" = "Idrottsplats";
 "type.leisure.playground" = "Lekplats";
@@ -790,7 +790,7 @@
 "type.natural.scree" = "Stenig rasbrant";
 "type.natural.bay" = "Bukt";
 "type.natural.beach" = "Strand";
-"type.natural.beach.sand" = "Sandig strand";
+"type.natural.beach.sand" = "Sandstrand";
 "type.natural.beach.gravel" = "Grusstrand";
 "type.natural.cape" = "Udde";
 "type.natural.cave_entrance" = "Grotta";
@@ -816,7 +816,7 @@
 "type.natural.peak" = "Bergstopp";
 "type.natural.saddle" = "Fjällsadel";
 "type.natural.rock" = "Bergart";
-"type.natural.scrub" = "Ruggen";
+"type.natural.scrub" = "Rugge";
 "type.natural.spring" = "Vattenkälla";
 "type.natural.spring.drinking_water_no" = "Vattenkälla";
 "type.natural.strait" = "Sund";
@@ -1459,10 +1459,10 @@
 "type.piste_type.nordic" = "Längdskidspår";
 "type.piste_type.sled" = "Kälkbana";
 "type.piste_type.sled.area" = "Kälkbana";
-"type.piste_type.snow_park" = "Snöparken";
+"type.piste_type.snow_park" = "Snöpark";
 "type.piste_type.hike" = "Vandringsled i snö";
 "type.piste_type.connection" = "Piste Anslutning";
-"type.piste_type.skitour" = "Skitourleden";
+"type.piste_type.skitour" = "Skitourled";
 "type.amenity.events_venue" = "Evenemangslokal";
 "type.shop.auction" = "Auktion";
 "type.shop.collector" = "Samlingsföremål";
@@ -1482,3 +1482,5 @@
 
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "Idrottshall";
+"type.barrier.guard_rail" = "Vägräcke";
+"type.highway.ladder" = "Stege";

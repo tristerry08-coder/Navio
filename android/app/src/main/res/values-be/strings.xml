@@ -880,7 +880,7 @@
         <item quantity="other">Знойдзена %d файлаў. Вы можаце ўбачыць іх пасля пераўтварэння.</item>
     </plurals>
     <string name="error_enter_correct_vk_page">Увядзіце сапраўднае імя карыстальніка або спасылку VK</string>
-    <string name="wikimedia_commons">Wikimedia Commons</string>
+    <string name="wikimedia_commons">Вікісховішча</string>
     <string name="comma_separated_pair">%1$s, %2$s</string>
     <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/RU:О_проекте</string>
     <string name="instagram_url">https://www.instagram.com/comapscommunity</string>

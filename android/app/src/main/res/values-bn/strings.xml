@@ -29,10 +29,11 @@
     <string name="country_status_download_failed">ডাউনলোড ব্যর্থ হল</string>
     <string name="try_again">আবার চেষ্টা করুন</string>
     <string name="about_menu_title">CoMaps এর ব্যাপারে</string>
-    <string name="about_headline">উন্মুক্ত প্রকল্প, একটি সমাজ দ্বারা চলিত</string>
+    <string name="about_headline">উন্মুক্ত প্রকল্প, তার সমাজ দ্বারা চলিত</string>
     <string name="location_settings">লোকেশন সেটিংস</string>
     <string name="about_proposition_1">• ব্যবহার করা সহজ এবং দেখতে সুন্দর</string>
     <string name="about_proposition_2">• গোপনীয়তা বান্ধব এবং বিজ্ঞাপন মুক্ত</string>
     <string name="about_proposition_3">• অফলাইন, দ্রুত এবং ছোট সাইজ</string>
     <string name="about_developed_by_enthusiasts">পুরোপুরি ওপেন সোর্স, অলাভজনক, প্রকাশ্য সিদ্ধান্ত করণ এবং অর্থায়ন।</string>
+    <string name="wikimedia_commons">উইকিমিডিয়া কমন্স</string>
 </resources>

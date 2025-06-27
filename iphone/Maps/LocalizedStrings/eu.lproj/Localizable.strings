@@ -608,7 +608,7 @@
 /* Title for OSM note section in the editor */
 "editor_other_info" = "OpenStreetMap-eko boluntarioentzako oharra (aukerakoa)";
 "editor_detailed_description_hint" = "Iruzkin zehatza";
-"editor_detailed_description" = "Iradoki dituzun aldaketak OpenStreetMap komunitatean argitaratuko dira. Deskribatu mapa organikoetan editatu ezin diren xehetasunak.";
+"editor_detailed_description" = "Iradoki dituzun aldaketak OpenStreetMap komunitatean argitaratuko dira. Deskribatu CoMaps-en editatu ezin diren xehetasunak.";
 "editor_more_about_osm" = "OpenStreetMap-i buruzko informazio gehiago";
 "editor_operator" = "Operadorea";
 
@@ -1001,7 +1001,7 @@
 "website_menu" = "Menuaren esteka";
 
 /* Message for the bug report alert. */
-"bugreport_alert_message" = "Akatsen txostena bidali nahi diezu garatzaileei?\nGure erabiltzaileengan oinarritzen gara CoMaps-ek ez baitu automatikoki akatsen informaziorik biltzen. Eskerrik asko aldez aurretik Maps organikoak laguntzeagatik!";
+"bugreport_alert_message" = "Akatsen txostena bidali nahi diezu garatzaileei?\nGure erabiltzaileengan oinarritzen gara CoMaps-ek ez baitu automatikoki akatsen informaziorik biltzen. Eskerrik asko aldez aurretik CoMaps laguntzeagatik!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Gaitu iCloud sinkronizazioa";

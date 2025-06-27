@@ -960,4 +960,6 @@
     <string name="type.place.suburb">Suburbi</string>
     <string name="type.place.state.USA">Estat</string>
     <string name="type.power.line">Línia elèctrica</string>
+    <string name="type.amenity.studio">Estudi</string>
+    <string name="type.barrier.guard_rail">Barrera de seguretat</string>
 </resources>

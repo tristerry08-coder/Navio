@@ -316,7 +316,7 @@
 "follow_us" = "İzləyin və bizimlə əlaqə saxlayın:";
 
 /* Alert text */
-"email_error_body" = "E-poçt müştəri xidməti hələ quraşdırılmayıb. Zəhmət olmasa e-poçt müştəri xidmətini konfiqurasiya edin və ya %@ vasitəsilə bizimlə əlaqə saxlayın.";
+"email_error_body" = "E-poçt müştəri xidməti hələ quraşdırılmayıb. Zəhmət olmasa e-poçt müştəri xidmətini konfiqurasiya edin və ya %@ vasitəsilə bizimlə əlaqə saxlayın";
 
 /* Alert title */
 "email_error_title" = "E-poçt göndərmə xətası";
@@ -482,7 +482,7 @@
 "read_in_wikipedia" = "Vikipediya";
 
 /* Place Page link to Wikimedia Commons. */
-"wikimedia_commons" = "Wikimedia Commons";
+"wikimedia_commons" = "Vikianbar";
 "p2p_your_location" = "Məkanınız";
 "p2p_start" = "Başla";
 "p2p_from_here" = "Başlanğıc";
@@ -733,7 +733,7 @@
 "start_from_my_position" = "Buradan başlayın";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
-"alert_reauth_message_ios" = "Bütün xəritə redaktələrinizi avtomatik yükləmək üçün OpenStreetMap-a daxil olun.";
+"alert_reauth_message_ios" = "Bütün xəritə redaktələrinizi avtomatik yükləmək üçün OpenStreetMap-a daxil olun";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's link part */
 "alert_reauth_link_text_ios" = "burada";
@@ -793,7 +793,7 @@
 "power_managment_setting_never" = "Heç vaxt";
 "power_managment_setting_auto" = "Avtomatik";
 "power_managment_setting_manual_max" = "Maksimum enerji qənaəti";
-"enable_logging_warning_message" = "Yardım dialoq qutusunda “Problemi bildir” istifadə etməklə probleminizlə bağlı ətraflı diaqnostik jurnalları qeyd etmək və bizə göndərmək üçün bu seçimi müvəqqəti aktivləşdirin. Qeydlərə məkan məlumatı daxil ola bilər";
+"enable_logging_warning_message" = "Yardım dialoq qutusunda “Problemi bildir” istifadə etməklə probleminizlə bağlı ətraflı diaqnostik jurnalları qeyd etmək və bizə göndərmək üçün bu seçimi müvəqqəti aktivləşdirin. Qeydlərə məkan məlumatı daxil ola bilər.";
 "driving_options_title" = "Marşrutlaşdırma seçimləri";
 
 /* Recommended length for CarPlay and Android Auto is around 25-27 characters */
@@ -806,7 +806,7 @@
 "avoid_ferry" = "Bərə keçidlərindən çəkinin";
 "avoid_motorways" = "Magistral yoldan çəkinin";
 "unable_to_calc_alert_title" = "Marşrutu hesablamaq mümkün deyil";
-"unable_to_calc_alert_subtitle" = "Təəssüf ki, seçdiyiniz seçimlərə görə marşrut tapa bilmədik. Seçimləri dəyişdirin və yenidən cəhd edin";
+"unable_to_calc_alert_subtitle" = "Təəssüf ki, seçdiyiniz seçimlərə görə marşrut tapa bilmədik. Seçimləri dəyişdirin və yenidən cəhd edin.";
 "define_to_avoid_btn" = "Qarşısını almaq üçün yolları müəyyənləşdirin";
 "change_driving_options_btn" = "Sürmə seçimləri aktiv edildi";
 "toll_road" = "Ücrətli yol";

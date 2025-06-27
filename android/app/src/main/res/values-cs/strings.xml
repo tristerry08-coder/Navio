@@ -886,9 +886,11 @@
     <string name="editor_level">Podlaží (0 je přízemí)</string>
     <string name="route_type">Typ trasy</string>
     <string name="vehicle">Vozidlo</string>
-    <string name="pedestrian">Pěší</string>
-    <string name="bicycle">Kolo</string>
-    <string name="ruler">Měření</string>
+    <string name="pedestrian">Pěší zóna</string>
+    <string name="bicycle">Jízdní kolo</string>
+    <string name="ruler">Pravítko</string>
     <string name="bookmark_color">Barva záložky</string>
     <string name="clear">Vymazat</string>
+    <string name="panoramax">Obrázek Panoramax</string>
+    <string name="about_help">O aplikaci a nápověda</string>
 </resources>

@@ -671,7 +671,7 @@
     <string name="power_managment_setting_never">Heç vaxt</string>
     <string name="power_managment_setting_auto">Avtomatik</string>
     <string name="power_managment_setting_manual_max">Maksimum enerji qənaəti</string>
-    <string name="enable_logging_warning_message">Yardım dialoq qutusunda “Problemi bildir” istifadə etməklə probleminizlə bağlı ətraflı diaqnostik jurnalları qeyd etmək və bizə göndərmək üçün bu seçimi müvəqqəti aktivləşdirin. Qeydlərə məkan məlumatı daxil ola bilər</string>
+    <string name="enable_logging_warning_message">Yardım dialoq qutusunda “Problemi bildir” istifadə etməklə probleminizlə bağlı ətraflı diaqnostik jurnalları qeyd etmək və bizə göndərmək üçün bu seçimi müvəqqəti aktivləşdirin. Qeydlərə məkan məlumatı daxil ola bilər.</string>
     <string name="access_rules_author_only">Onlayn redaktə</string>
     <string name="driving_options_title">Marşrutlaşdırma seçimləri</string>
     <!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->
@@ -682,7 +682,7 @@
     <string name="avoid_ferry">Bərə keçidlərindən çəkinin</string>
     <string name="avoid_motorways">Magistral yoldan çəkinin</string>
     <string name="unable_to_calc_alert_title">Marşrutu hesablamaq mümkün deyil</string>
-    <string name="unable_to_calc_alert_subtitle">Təəssüf ki, seçdiyiniz seçimlərə görə marşrut tapa bilmədik. Seçimləri dəyişdirin və yenidən cəhd edin</string>
+    <string name="unable_to_calc_alert_subtitle">Təəssüf ki, seçdiyiniz seçimlərə görə marşrut tapa bilmədik. Seçimləri dəyişdirin və yenidən cəhd edin.</string>
     <string name="define_to_avoid_btn">Qarşısını almaq üçün yolları müəyyənləşdirin</string>
     <string name="change_driving_options_btn">Sürmə seçimləri aktiv edildi</string>
     <string name="toll_road">Ücrətli yol</string>
@@ -843,4 +843,5 @@
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
+    <string name="wikimedia_commons">Vikianbar</string>
 </resources>

@@ -8,7 +8,7 @@
     <string name="type.aeroway.aerodrome">Flygplats</string>
     <string name="type.aeroway.aerodrome.international">Flygplats</string>
     <string name="type.aeroway.helipad">Helikopterplatta</string>
-    <string name="type.amenity">Infrastrukturen</string>
+    <string name="type.amenity">Infrastruktur</string>
     <string name="type.amenity.arts_centre">Kulturcenter</string>
     <string name="type.amenity.atm">Bankomat</string>
     <string name="type.amenity.bbq">Grill för barbecue</string>
@@ -181,7 +181,7 @@
     <string name="type.building.address">Adress</string>
     <string name="type.building.has_parts">Byggnad</string>
     <string name="type.building_part">Byggnad</string>
-    <string name="type.building.train_station">Stationsbyggnaden</string>
+    <string name="type.building.train_station">Stationsbyggnad</string>
     <string name="type.cemetery.grave">Grav</string>
     <string name="type.craft">Hantverk</string>
     <string name="type.craft.beekeeper">Biodlare</string>
@@ -346,7 +346,7 @@
     <string name="type.highway.living_street.bridge">Bro</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.living_street.tunnel">Tunnel</string>
-    <string name="type.highway.motorway">Gata</string>
+    <string name="type.highway.motorway">Motorväg</string>
     <!-- These translations are used for all type.highway.*.bridge. -->
     <string name="type.highway.motorway.bridge">Bro</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
@@ -419,7 +419,7 @@
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.service.tunnel">Tunnel</string>
     <string name="type.highway.speed_camera">Hastighetskamera</string>
-    <string name="type.highway.steps">Gångväg</string>
+    <string name="type.highway.steps">Trappa</string>
     <!-- These translations are used for all type.highway.*.bridge. -->
     <string name="type.highway.steps.bridge">Bro</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
@@ -469,7 +469,7 @@
     <string name="type.area_highway.secondary">Gata</string>
     <string name="type.area_highway.service">Gata</string>
     <string name="type.area_highway.tertiary">Gata</string>
-    <string name="type.area_highway.steps">Gångväg</string>
+    <string name="type.area_highway.steps">Trappa</string>
     <string name="type.area_highway.track">Gata</string>
     <string name="type.area_highway.trunk">Gata</string>
     <string name="type.area_highway.unclassified">Gata</string>
@@ -530,11 +530,11 @@
     <string name="type.landuse.forest.coniferous">Skog</string>
     <string name="type.landuse.forest.deciduous">Skog</string>
     <string name="type.landuse.forest.mixed">Skog</string>
-    <string name="type.landuse.grass">Gräsmattan</string>
-    <string name="type.landuse.landfill">Soptippen</string>
+    <string name="type.landuse.grass">Gräsmatta</string>
+    <string name="type.landuse.landfill">Soptipp</string>
     <string name="type.landuse.railway">Järnvägsfaciliteter</string>
     <string name="type.landuse.reservoir">Vatten</string>
-    <string name="type.leisure.dog_park">Hundparken</string>
+    <string name="type.leisure.dog_park">Hundpark</string>
     <string name="type.leisure.fitness_centre">Gym</string>
     <string name="type.leisure.fitness_station">Fitnesstation</string>
     <string name="type.leisure.dance">Danshall</string>
@@ -544,10 +544,10 @@
     <string name="type.leisure.miniature_golf">Minigolf</string>
     <string name="type.leisure.nature_reserve">Naturreservat</string>
     <string name="type.leisure.outdoor_seating">Sittplatser utomhus</string>
-    <string name="type.leisure.park">Parken</string>
-    <string name="type.leisure.park.no.access">Parken</string>
-    <string name="type.leisure.park.permissive">Parken</string>
-    <string name="type.leisure.park.private">Parken</string>
+    <string name="type.leisure.park">Park</string>
+    <string name="type.leisure.park.no.access">Privat park</string>
+    <string name="type.leisure.park.permissive">Park</string>
+    <string name="type.leisure.park.private">Privat park</string>
     <string name="type.leisure.picnic_table">Picknickbord</string>
     <string name="type.leisure.pitch">Idrottsplats</string>
     <string name="type.leisure.playground">Lekplats</string>
@@ -586,7 +586,7 @@
     <string name="type.natural.scree">Stenig rasbrant</string>
     <string name="type.natural.bay">Bukt</string>
     <string name="type.natural.beach">Strand</string>
-    <string name="type.natural.beach.sand">Sandig strand</string>
+    <string name="type.natural.beach.sand">Sandstrand</string>
     <string name="type.natural.beach.gravel">Grusstrand</string>
     <string name="type.natural.cape">Udde</string>
     <string name="type.natural.cave_entrance">Grotta</string>
@@ -611,7 +611,7 @@
     <string name="type.natural.peak">Bergstopp</string>
     <string name="type.natural.saddle">Fjällsadel</string>
     <string name="type.natural.rock">Bergart</string>
-    <string name="type.natural.scrub">Ruggen</string>
+    <string name="type.natural.scrub">Rugge</string>
     <string name="type.natural.spring">Vattenkälla</string>
     <string name="type.natural.spring.drinking_water_no">Vattenkälla</string>
     <string name="type.natural.strait">Sund</string>
@@ -1148,10 +1148,10 @@
     <string name="type.wheelchair.limited">Delvis utrustad för handikappade</string>
     <string name="type.wheelchair.no">Ej utrustad för handikappade</string>
     <string name="type.wheelchair.yes">Utrustad för handikappade</string>
-    <string name="type.piste_type.snow_park">Snöparken</string>
+    <string name="type.piste_type.snow_park">Snöpark</string>
     <string name="type.piste_type.hike">Vandringsled i snö</string>
     <string name="type.piste_type.connection">Piste Anslutning</string>
-    <string name="type.piste_type.skitour">Skitourleden</string>
+    <string name="type.piste_type.skitour">Skitourled</string>
     <string name="type.amenity.events_venue">Evenemangslokal</string>
     <string name="type.shop.auction">Auktion</string>
     <string name="type.shop.collector">Samlingsföremål</string>
@@ -1341,4 +1341,7 @@
     <string name="type.leisure.hackerspace">Hackerspace</string>
     <string name="type.shop.kiosk">Kiosk</string>
     <string name="type.tourism.museum">Museum</string>
+    <string name="type.amenity.waste_transfer_station">Återvinningscentral</string>
+    <string name="type.barrier.guard_rail">Vägräcke</string>
+    <string name="type.highway.ladder">Stege</string>
 </resources>

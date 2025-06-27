@@ -900,4 +900,6 @@
     <string name="bicycle">Polkupyörä</string>
     <string name="ruler">Viivoitin</string>
     <string name="bookmark_color">Kirjanmerkin väri</string>
+    <string name="about_help">Tietoja ja ohje</string>
+    <string name="panoramax">Panoramax-kuva</string>
 </resources>
