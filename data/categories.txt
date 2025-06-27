@@ -86,7 +86,7 @@ cs:Kde se najíst|Jídlo
 da:Spisesteder|Mad
 nl:Waar iets gaan eten|Eten
 fi:Missä syödä|Ruoka
-fr:Un endroit pour manger|Nourriture
+fr:Un endroit pour manger|Nourriture|Manger
 de:Essmöglichkeiten|Essen|5Essensmöglichkeiten
 hi:कहाँ खाना है
 hu:Hol lehet enni valamit|Élelmiszer
@@ -217,7 +217,7 @@ cs:2Čerpací stanice|Benzinová pumpa|benzinka
 da:Brændstof|Benzin
 nl:3Benzine
 fi:3Huoltoasema
-fr:3Stations-service|4Essence|4Carburant
+fr:3Stations-service|3Station d'essence|4Essence|4Carburant|
 de:3Tankstelle|4Benzin|4Diesel|4Sprit
 hi:3गैस स्टेशन
 hu:Benzinkút
@@ -262,7 +262,7 @@ cs:4Parkoviště
 da:4Parkering
 nl:4Parkeerplaats
 fi:4Parkkipaikka
-fr:Stationnement
+fr:Stationnement|4Parking
 de:4Parkplatz|Parkhaus|Tiefgarage
 hi:4पार्किंग
 hu:4Parkoló
@@ -351,7 +351,7 @@ cs:Hotel|Hotely
 da:Hotel|Hoteller
 nl:Hotel|Hotels
 fi:Hotelli|Hotellit
-fr:Hôtel|Hôtels|4Hébergement
+fr:Hôtel|Hôtels|4Hébergement|Auberge
 de:Hotel|Hotels
 hi:4होटल
 hu:Szálloda|Szállodák|Hotel|Hotelek
@@ -660,7 +660,7 @@ cs:spořitelna|peníze
 da:penge
 nl:geld
 fi:2Raha
-fr:DAB|argent
+fr:DAB|GAB|argent
 de:5Bankomat|Geld
 hu:pénz|ATM
 id:uang
@@ -702,7 +702,7 @@ cs:3Banka
 da:3Bank
 nl:3Bank
 fi:3Pankki
-fr:3Banque
+fr:3Banque|Agence Bancaire
 de:3Bank
 hi:3बैंक
 hu:3Bank
@@ -751,7 +751,7 @@ et:Kasutatud
 eu:Bigarren eskuko
 fa:دست دوم
 fi:Käytetyt tavarat
-fr:D'occasion
+fr:D'occasion|Seconde main
 he:יד שניה
 hi:सेकंड हैंड
 hu:Second-hand|Használt cikk
@@ -1080,7 +1080,7 @@ ar:محطة وقود|بترول
 cs:2pumpa
 da:3Tankstation
 nl:3Tankstation|3brandstof
-fr:Station-service|3carburant|3essence
+fr:Station-service|Station-essence|3carburant|3essence
 de:Tankstation|3Tankstelle
 et:3Tankla
 hi:3पेट्रोल पंप
@@ -1126,7 +1126,7 @@ et:Pood
 eu:Denda
 fa:مرکزخرید
 fi:Kauppa
-fr:Magasin|Boutique
+fr:Magasin|Boutique|Commerce
 he:חנות
 hi:3दुकान
 hu:Bolt
@@ -1213,7 +1213,7 @@ ca:Cosmetics
 cs:4Kosmetika
 da:4Kosmetik
 fi:4Kosmetiikka|kauneudenhoito
-fr:4Produits de beauté|4cosmétique|soins de beauté
+fr:4Produits de beauté|4cosmétique|soins de beauté|Magasin de cosmétiques
 de:4Kosmetikgeschäft|Kosmetik|Schönheitspflege
 hi:4सौंदर्य प्रसाधन की दुकान|4कॉस्मेटिक्स
 hu:4Kozmetikum|házi gondozás
@@ -1255,7 +1255,7 @@ bg:4Продукти|хранителен магазин|пазар|лавка|�
 cs:Smíšené zboží|koloniál
 da:Døgnbutik|døgnkiosk|kiosk
 fi:Lähikauppa
-fr:Supérette
+fr:Supérette|Epicerie
 de:5Gemischtwarenladen|Lebensmittelhändler|Lebensmittelhandlung|Lebensmittelgeschäft|4Greißler|4Tante-Emma-Laden
 hi:4सुविधा की दुकान
 hu:Csemegebolt|ábécé
@@ -1415,7 +1415,7 @@ et:Kuuldeaparaadid
 eu:Entzungailuak
 fa:چادرهای
 fi:Kuulolaitteet
-fr:Aides auditives
+fr:Aides auditives|Audioprothésiste
 he:מכשירי שמיעה
 hi:कान की मशीन
 hu:Hallókészülékek
@@ -1733,7 +1733,7 @@ cs:3Obuv
 da:Skobutik
 nl:Schoenenwinkel|schoenwinkel
 fi:Kenkäkauppa
-fr:Magasin de chaussures
+fr:Magasin de chaussures|chausseur
 de:4Schuhgeschäft|Schuhe|Schuhladen|Schuhhandlung|Fußbekleidung
 hi:3जूते की दुकान
 hu:Cipőbolt
@@ -2099,7 +2099,7 @@ cs:4Sportovní zboží
 da:4Sportsudstyr|sport
 nl:4Sportartikelen
 fi:Urheilukauppa
-fr:Articles de sport
+fr:Articles de sport|Magasin d'équipements sportifs
 de:4Sportgeschäft|Sportartikel|Fitnessgeschäft
 hi:3खेल का सामान
 hu:4Sporteszközök
@@ -2139,7 +2139,7 @@ cs:3Supermarket
 da:3Supermarked|dagligvarebutik
 nl:3Supermarkt
 fi:3Supermarketti
-fr:3Supermarché|Hypermarché
+fr:3Supermarché|Hypermarché|Grande surface
 de:3Supermarkt
 hi:3सुपरमार्केट
 hu:3Szupermarket
@@ -2462,7 +2462,7 @@ cs:4Tržiště|samoobsluha|market
 da:3Markedsplads|marked
 nl:3Markt
 fi:3Kauppatori
-fr:3Marché
+fr:3Marché|Halle
 de:3Marktplatz|Markt
 hi:3बाजार
 hu:2Piac|vásárlás
@@ -2762,7 +2762,7 @@ cs:4Tramvajová zastávka|tramvaj|4zastávka|stanice
 da:3Sporvogn|station
 nl:3Tramhalte
 fi:4Raitiovaunupysäkki
-fr:Arrêt de tramway|3tramway|tram|arrêt
+fr:Arrêt de tramway|3tramway|tram|arrêt|Station de tram
 de:4Straßenbahnhaltestelle|4Tramhaltestelle|3Haltestelle|Tram|ÖPNV
 hu:4Villamosmegálló|3villamos|megálló
 id:3Perhentian trem
@@ -3319,7 +3319,7 @@ cs:Chrám|kostel|posvátné místo|bazilika
 da:4Kirke|tempel|kultsted
 nl:Kerk|tempel|kathedraal|gebedsplaats|gebedshuis
 fi:4Kirkko|uskonnollinen kohde
-fr:3Église|lieu de culte|temple|basilique
+fr:3Église|lieu de culte|temple|basilique|cathédrale
 de:4Kirche|Dom|3Kathedrale|4Münster|Anbetungsstätte|
 hi:4गिरजाघर
 hu:Templom|Székesegyház|Katedrális|Dóm|Bazilika|Istentiszteleti hely
@@ -3590,7 +3590,7 @@ cs:2Muzeum|zajímavost
 da:2Museum
 nl:2Museum|attractie
 fi:3Museo
-fr:2Musée
+fr:2Musée|Ecomusée
 de:2Museum|Ausstellung|3Galerie|Sehenswürdigkeit
 hi:4संग्रहालय
 hu:2Múzeum|kiállítás|3galéria|látványosság
@@ -4871,7 +4871,7 @@ bg:Кучешка зона|домашни любимци
 cs:3Psí hřiště
 es:Parque para perros
 et:3Koerte ala|koerte park
-fr:Parc canin
+fr:Parc canin|Espace sans laisse
 hi:श्वान पार्क
 nl:4Hondenpark|Hondengebied
 ko:개 놀이 공원|도그 파크
@@ -5167,7 +5167,7 @@ cs:3Kino|biograf
 da:3Biograf
 nl:3Bioscoop|filmtheater|cinema
 fi:Elokuvateatteri
-fr:3Cinéma
+fr:3Cinéma|Complexe cinématographique
 de:3Kino|Cinema|Filmtheater|Lichtspielhaus
 hi:3सिनेमा-घर
 hu:3Mozi
@@ -5331,7 +5331,7 @@ cs:Nevěstinec
 da:Bordel
 nl:Bordeel
 fi:Bordelli
-fr:Maison de prostitution
+fr:Maison de prostitution|maison close
 de:Bordell
 hi:वेश्यालय
 hu:Bordély
@@ -5575,7 +5575,7 @@ cs:Hasiči
 da:2Brandstation
 nl:Brandweer
 fi:Paloasema
-fr:Caserne de pompiers
+fr:Caserne de pompiers|centre de secours|centre de première intervention
 de:5Feuerwehr|Feuerwache
 hi:3दमकल केंद्र
 hu:Tűzoltóság
@@ -5885,7 +5885,7 @@ cs:Zubař
 da:Tandlæge
 nl:Tandarts
 fi:Hammaslääkäri
-fr:4Dentiste
+fr:4Dentiste|Cabinet dentaire
 de:4Zahnarzt
 hi:4दाँतों का डॉक्टर
 hu:Fogorvos
@@ -5971,7 +5971,7 @@ es:Fisioterapeuta
 eu:Fisioterapeuta
 fa:فیزیوتراپیست
 fi:Fysioterapeutti
-fr:Physiothérapeute
+fr:Physiothérapeute|Masseur-kinésithérapeute
 he:פיזיותרפיסט
 hi:4भौतिक चिकित्सा
 hu:Fizioterapeuta
@@ -6386,7 +6386,7 @@ cs:3Knihovna
 da:3Bibliotek
 nl:3Bibliotheek
 fi:Kirjasto
-fr:3Bibliothèque
+fr:3Bibliothèque|Médiathèque
 de:3Bibliothek|4Bücherei
 hi:4पुस्तकालय
 hu:3Könyvtár
@@ -6499,7 +6499,7 @@ ca:Farmàcia
 ar:متجر أدوية|صيدلية
 nl:Apotheek|drogist
 fi:3Farmasia
-fr:dispensaire
+fr:4Pharmacie|dispensaire
 de:Apotheke|Drogerie
 ja:ドラッグストア|薬剤師|調剤|薬屋
 ko:약물 매장|약종상
@@ -6616,7 +6616,7 @@ bg:Поща
 ar:مكتب بريد
 da:3Postkontor|posthus
 nl:3Postkantoor
-fr:3comptoir postal|bureau de poste
+fr:3bureau de poste|agence postale
 de:3Postfiliale|Postamt
 hi:3डाकघर
 id:Kantor pos
@@ -6653,7 +6653,7 @@ et:Sõiduki ülevaatus
 eu:Ibilgailuen Ikuskapena
 fa:بازرسی وسایل نقلیه
 fi:Ajoneuvon tarkastus
-fr:Inspection de véhicule
+fr:Inspection de véhicule|Contrôle technique
 he:לבדיקה טכנית
 hu:Gépjármű átvizsgálás
 id:Pemeriksaan kendaraan
@@ -6770,7 +6770,7 @@ cs:Recyklační nádoba
 da:Genbrugscontainer
 nl:Recycling container
 fi:Kierrätysjäteastia
-fr:Conteneur de recyclage
+fr:Conteneur de recyclage|PAVE|Point d'apport volontaire
 de:5Wertstoffcontainer|5Recyclingbehälter
 hi:रीसाइक्लिंग कंटेनर
 hu:Újrahasznosító tartály
@@ -6852,7 +6852,7 @@ cs:Staré oblečení|Recyklujte staré oblečení
 da:Gammelt tøj|Genbrug gammelt tøj
 nl:Oude kleding|Oude kleding recyclen
 fi:Vanhat vaatteet|Jätä tarpeettomat tavarat tähän
-fr:Vêtement usagés|Déposer des affaires non-utilisées
+fr:Vêtements usagés|Déposer des affaires non-utilisées
 de:4Altkleider|Alte Kleidung|Sachen spenden
 hu:Régi ruhák|Régi ruhák újrahasznosítása
 id:Pakaian lama|Mendaur ulang pakaian lama
@@ -7138,6 +7138,7 @@ recycling-cans|@category_recycling
 en:4Recycling of Cans|4Cans Recycling|4Aluminium Cans Recycling|3Tin Cans Recycling
 ru:5Приём жестяных и алюминиевых банок|5Переработка жестяных и алюминиевых банок|5Сдать жестяные и алюминиевые банки|4Сбор жестяных и алюминиевых банок|6Консервные банки|5Жестяные банки|5Алюминиевые банки|Пивные банки
 be:5Прыём бляшаных і алюмініевых слоікаў|5Перапрацоўка бляшаных і алюмініевых слоікаў|5Здаць бляшаныя і алюмініевыя банкі|4Збор бляшаных і алюмініевых слоікаў|6Кансервовыя банкі|5Бляшаныя банкі|5Алюмініевыя банкі|Піўныя банкі
+fr:Canette
 lv:Alumīnija skārdeņu pārstrāde|Alumīnija skārdeņu nodošana|skārdeņu pārstrāde|skārdeņu nodošana|
 tr:4Kutu Geri Dönüşümü
 uk:5Прийом жерстяних та алюмінієвих банок|5Переробка жерстяних та алюмінієвих банок|5Здати жерстяні та алюмінієві банки|4Збір жерстяних та алюмінієвих банок|6Консервні банки|5Жерстяні банки|5Алюмінієві банки|Пивні банки
@@ -7149,6 +7150,7 @@ sr:Рециклажа лименки|Reciklaža limenki
 recycling-shoes|@category_recycling
 en:4Recycling of Shoes|Shoes Recycling|Donate Shoes
 be:5Прыём абутку|Стары абутак|5Здаць абутак
+fr:Chaussures
 ru:5Приём обуви|Старая обувь|5Сдать обувь
 lv:Apavu pārstrāde|apavu nodošana|apavu konteiners
 tr:5Ayakkabı Geri Dönüşümü|Ayakkabı Toplama Kutusu
@@ -7160,6 +7162,7 @@ sr:Рециклажа обуће|Reciklaža obuće
 recycling-green_waste|@category_recycling
 en:4Recycling of Green Waste|5Organic Waste Recycling|5Green Waste Recycling|Food Waste|Garden Waste
 be:5Прыём арганічных адходаў|Прыём харчовых адходаў|5Здаць арганічныя адходы|4Збор арганічных адходаў|Збор харчовых адходаў|5Харчовыя адходы|6Садовыя адходы
+fr:Déchets verts
 ru:5Приём органических отходов|Приём пищевых отходов|5Сдать органические отходы|4Сбор органических отходов|Сбор пищевых отходов|5Пищевые отходы|6Садовые отходы
 lv:Bioloģiskie atkritumi|bioloģisko atkritumu nodošana
 tr:5Yeşil Atıkların Geri Dönüşümü
@@ -7198,7 +7201,7 @@ cs:3Škola
 da:2Skole
 nl:3School|basisschool|middelbare school
 fi:Koulu
-fr:3École
+fr:3École|Maternelle|Élémentaire|Primaire|Collège|Lycée|Secondaire 
 de:3Schule|Schulgebäude
 hi:4विदयालय
 hu:3Iskola
@@ -7287,7 +7290,7 @@ et:Bivouac-Küünla
 eu:Bivouac Borda
 fa:کلبه بیواک
 fi:Kota|Bivouac-mökki
-fr:Cabane de Bivouac
+fr:Cabane de bivouac
 he:בקתת לינה|בקתה
 hi:द्विवार्षिक झोपड़ी
 hu:Bivak Kunyhó
@@ -7955,7 +7958,7 @@ cs:Vesnička
 da:Landsby|landsby
 nl:Gehucht|buurtschap|dorpje|dorp
 fi:Pieni kylä
-fr:Hameau|village
+fr:Hameau|village|Ecart
 de:Weiler|Dorf
 et:Külake
 hi:गांव
@@ -8113,7 +8116,7 @@ cs:Závodiště
 da:Væddeløbsbane
 nl:Renbaan|racebaan
 fi:Kilparata
-fr:Circuit
+fr:Circuit|Piste de course
 de:Rennbahn
 hi:दौड़ का मैदान
 hu:Versenypálya
@@ -8263,6 +8266,7 @@ mr:बाहेर पडा
 
 highway-elevator
 en:Lift
+fr:Ascenseur
 hi:उत्थापक
 lv:lifts
 ru:Лифт
@@ -12853,7 +12857,7 @@ cs:4Myčka aut
 da:Bilvask
 nl:3Car wash|autowasstraat|wasstraat
 fi:4Autopesula
-fr:Station de lavage
+fr:Station de lavage|lavage-autp
 de:4Autowaschanlage|Autowäsche
 hi:कार धुलाई
 hu:4Autómosó
@@ -12892,7 +12896,7 @@ cs:4Veterinář
 da:Dyrlæge
 nl:Dierenarts
 fi:Eläinlääkäri
-fr:Docteur vétérinaire|véto
+fr:Docteur vétérinaire|véto|Clinique vétérinaire
 de:4Tierarzt
 hi:पशु चिकित्सक
 hu:Állatorvos
@@ -12932,7 +12936,7 @@ cs:Nabíjecí stanice|nabíjení
 da:Ladestation|opladning
 nl:Oplaadstation|opladen
 fi:Latausasema|lataus
-fr:Borne de recharge|station de recharge|4voiture électrique|4recharge
+fr:Borne de recharge|station de recharge|4voiture électrique|4recharge|IRVE
 de:4Ladestation|aufladen
 hi:4चार्जिंग स्टेशन
 hu:Töltőállomás|töltés
@@ -13061,7 +13065,7 @@ cs:Parkování kol
 da:4Cykelparkering
 nl:Fietsenstalling
 fi:Polkupyöräpysäköinti
-fr:Parking à vélo
+fr:Parking à vélo|Stationnement vélo
 de:6Fahrradständer
 hi:4साइकिल पार्किंग
 hu:Kerékpártároló
@@ -13183,7 +13187,7 @@ cs:3Fitness|tělocvična
 da:Trænings- og motionscenter|3fitnesscenter
 nl:3Fitnesscentrum|sportschool|gym|fitness|workout
 fi:Kuntosali
-fr:Centre fitness|salle de gym
+fr:Centre fitness|salle de gym|salle de sport
 de:3Fitnessstudio|Fitnesscenter|Fitness|Fitnessraum|Fitnessclub|Gesundheitsclub|Training|Trainingsraum|Turnhalle
 hi:4फिटनेस सेंटर
 hu:Edzőterem|Konditerem|Fitneszterem
@@ -13382,7 +13386,7 @@ cs:3zoologická zahrada
 da:3Zoo
 nl:Dierentuin|zoo
 fi:5Eläintarha
-fr:Zoo
+fr:Zoo|Parc Animalier
 de:Zoo
 hi:5चिड़ियाघर
 hu:Állatkert
@@ -13465,7 +13469,7 @@ cs:Informační centrum
 da:3Turistkontor
 nl:VVV|Toeristische informatie
 fi:3Turistitoimisto
-fr:Office de tourisme
+fr:Office de tourisme|syndicat d'initiative
 de:Fremdenverkehrsamt
 hu:3Tourinform iroda|Idegenforgalmi iroda
 id:Kantor wisata
@@ -13545,7 +13549,7 @@ cs:4Kulturní centrum
 da:Medborgerhus|forsamlingshus
 nl:Wijkcentrum
 fi:Monitoimitalo
-fr:Centre communautaire
+fr:Centre communautaire|Salle polyvalente|Salle des fêtes
 de:Bürgerhaus
 hi:5सामुदायिक केंद्र
 hu:Közösségi ház
@@ -13801,7 +13805,7 @@ et:Parkimispiletid|Parkimisautomaat
 eu:4Aparkatzeko txartelak ordaintzeko makina
 fa:پارکو متر
 fi:Pysäköintimaksuautomaatti
-fr:Horodateur
+fr:Horodateur|parcmètre
 hi:4पार्किंग टिकट
 hu:4Parkolóautomata
 id:Mesin pembayaran tiket parkir
@@ -13840,7 +13844,7 @@ eu:4Garraio publikorako txartelak saltzeko makina
 es-MX:Máquina expendedora de billetes de transporte público
 fa:دستگاه فروش خودکار بلیط های حمل و مواصلات عمومی
 fi:Julkisen liikenteen lippuautomaatti
-fr:Distributeur de billets de transport en commun
+fr:Distributeur de billets de transport en commun|ticket de bus
 hi:3टिकट मशीन
 hu:Automata jegykiadó tömegközlekedési eszközökhöz
 id:Mesin penjual otomatis tiket transportasi umum
@@ -14211,7 +14215,7 @@ bg:риба|морски дарове
 cs:Prodej ryb
 da:Fiskehandler
 fi:Kalakauppias
-fr:Poissonnier|fruits de mer
+fr:Poissonnier|Poissonnerie|fruits de mer
 de:Fischhändler|5Fischmarkt|Fisch|Meeresfrüchte|Schalentier
 hi:4समुद्री भोजन की दुकान
 hu:Halüzlet
@@ -14254,7 +14258,7 @@ es:Tienda de segunda mano
 et:4Kasutatud|Kirbuturg
 eu:Bigarren eskuko denda
 fa:ﻡﻭﺩ ﺖﺳﺩ ﻩﺎﮕﺷﻭﺮﻓ
-fr:Boutique d'objets d'occasion
+fr:Boutique d'objets d'occasion|seconde main
 he:היינש די תונח
 hi:4पुराने सामान की दुकान
 id:Toko Barang bekas
@@ -14330,7 +14334,7 @@ cs:Prodej vstupenek
 da:Billetkontor
 nl:Kaartverkoop|Kaartjesverkoop|kaartjes
 fi:Lippumyymälä
-fr:Billetterie
+fr:Billetterie|vente de billets
 de:4Kartenverkauf|Fahrkartenschalter|Fahrkartengeschäft|Fahrkarten|Fahrkartenzentrum|Fahrkartenausgabe|Fahrkartenagentur|Fahrkartenhäuschen|Reisecenter|Kassenschalter|Zahlschalter
 hi:3टिकट की दुकान
 hu:Jegyiroda
@@ -14410,7 +14414,7 @@ cs:Autodíly
 da:Bildele
 nl:Auto onderdelen
 fi:Auton osat
-fr:Pièces de voiture
+fr:Pièces de voiture|Pièces automobile
 de:4Autoersatzteile|Autoteile
 hi:4गाड़ी के पुर्जे
 hu:Autóalkatrész
@@ -14458,7 +14462,7 @@ et:Puhkemaja
 eu:Oporretako Etxea
 fa:کلبه تعطیلات
 fi:Lomamökki
-fr:Chalet de vacances
+fr:Chalet de vacances|Gîte
 he:קוטג' נופש
 hi:हॉलिडे कॉटेज
 hu:Nyaraló házikó
@@ -14684,7 +14688,7 @@ cs:3Aquacentrum
 da:5Vandpark
 nl:5Waterpark
 fi:5Vesipuisto
-fr:Centre aquatique
+fr:Centre aquatique|Parc aquatique
 de:Wasserpark|Freizeitbad|3Aquapark
 hi:3वाटर पार्क
 hu:Strand|Élményfürdő|3Aquapark
@@ -15032,7 +15036,7 @@ cs:Horolezecké centrum
 da:Klatrecenter
 nl:Klimhal
 fi:Kiipeilykeskus
-fr:Centre d'escalade
+fr:Centre d'escalade|Salle d'escalade
 de:Kletterzentrum|Kletterhalle
 hu:Hegymászóközpont
 id:Pusat Peralatan Mendaki
@@ -15429,7 +15433,7 @@ es:5Heladería
 et:5Jäätis
 eu:5Izozkitegia
 fi:5Jäätelökioski
-fr:Stand de crème glacée|Marchand de glaces
+fr:Stand de crème glacée|Marchand de glaces|Glacier
 hi:4आइसक्रीम
 hu:5Fagylaltárus
 id:Kios Es Krim
@@ -15509,7 +15513,7 @@ es:5Aparcamiento de motocicletas|5Estacionamiento de motocicletas|4Parking de mo
 et:Mootorrattaparkla
 eu:Motoentzako aparkalekua
 fi:5Moottoripyörien pysäköinti
-fr:Parking moto
+fr:Parking moto|Stationnement moto
 hi:5मोटरसाइकिल पार्किंग
 hu:4Motorkerékpár-parkoló
 id:Tempat Parkir Sepeda Motor
@@ -15550,7 +15554,7 @@ et:Invaliidide parkimiskoht
 eu:Ezinduentzako aparkalekua
 fa:ﻦﯿﻟﻮﻠﻌﻣ ﮎﺭﺎﭘ ﯼﺎﺟ
 fi:Vammaispysäköinti
-fr:Place de stationnement handicapé
+fr:Place de stationnement handicapé|Stationnement PMR|Parking PMR
 he:םיכנל הינח
 hi:4दिव्यांग पार्किंग स्थान
 hu:Mozgássérült parkolóhely
@@ -15589,7 +15593,7 @@ es:Residencia de ancianos
 et:Hooldekodu
 eu:Zaharren egoitza
 fi:Hoitokoti
-fr:Maison de retraite
+fr:Maison de retraite|résidence pour personnes âgées
 hi:4नर्सिंग होम
 hu:Idősek otthona
 id:Panti Jompo
@@ -15996,7 +16000,7 @@ es:Oficina de seguros|Corredor de seguros
 et:Kindlustusasutus
 eu:Aseguru bulegoa
 fi:Vakuutuslaitos
-fr:Bureau d’assurance|assureur
+fr:Bureau d’assurance|assureur|Agent d'assurance
 hi:बीमा कार्यालय
 hu:Biztosító
 id:Kantor Asuransi
