@@ -65,8 +65,8 @@
 /* 4.LANDUSE */
 /*4.1 Main landuse*/
 
-@pedestrian_area: #F7EDDF;
-@pedestrian_area_light: #FAF0E2;
+@pedestrian_area: #FAF0E2;
+@pedestrian_area_light: #FCF2E4;
 @railway_platform: #ECE3D6;
 @university: #F5DFBC;
 @hospital: #FFDAD6;

@@ -683,6 +683,9 @@ line|z19-[highway=busway],
 line|z13-[highway=pedestrian],
 line|z13-[highway=ford]
 {color: @pedestrian;opacity: 0.9;}
+line|z16-[highway=pedestrian],
+line|z16-[highway=ford],
+{opacity: 0.93;}
 
 line|z13-[highway=cycleway],
 line|z14-[highway=path][bicycle=designated]::cycleline,
@@ -720,9 +723,11 @@ line|z15-[leisure=track][!area],
 line|z14-[highway=bridleway]
 {color: @bridleway;opacity: 0.6;}
 line|z15-[highway=footway],
-{color: @footway;opacity: 0.87;}
-line|z15-[highway=steps],
 {color: @footway;opacity: 0.9;}
+line|z16-[highway=footway],
+{opacity: 0.95;}
+line|z15-[highway=steps],
+{color: @residential;opacity: 1;}
 line|z14-[highway=path],
 {color: @path;opacity: 0.6;}
 line|z14-[highway=path][_path_grade=expert],
