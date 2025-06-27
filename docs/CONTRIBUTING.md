@@ -57,7 +57,6 @@ Please [learn how to use `git rebase`](https://git-scm.com/book/en/v2/Git-Branch
 While we strive to help onboard new developers we don't have enough time to guide everyone step-by-step and explain in detail how everything works (in many cases we have to study the code ourselves). You'll need to be largely self-sufficient, expect to read a lot of code and documentation.
 
 - [Pull Request Guide](PR_GUIDE.md).
-- [How to write a commit message](COMMIT_MESSAGES.md).
 - [Directories structure](STRUCTURE.md)
 - [C++ Style Guide](CPP_STYLE.md).
 - [Java Style Guide](JAVA_STYLE.md).
