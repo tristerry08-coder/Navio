@@ -4,11 +4,12 @@ import android.content.res.Resources;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.textview.MaterialTextView;
 
 import app.organicmaps.R;
 import app.organicmaps.bookmarks.data.BookmarkCategory;
@@ -439,14 +440,14 @@ public class BookmarkListAdapter extends RecyclerView.Adapter<Holders.BaseBookma
         holder = bookmarkHolder;
         break;
       case TYPE_SECTION:
-        TextView tv = (TextView) inflater.inflate(R.layout.item_category_title, parent, false);
+        MaterialTextView tv = (MaterialTextView) inflater.inflate(R.layout.item_category_title, parent, false);
         holder = new Holders.SectionViewHolder(tv);
         break;
       case TYPE_DESC:
         View desc = inflater.inflate(R.layout.item_category_description, parent, false);
-        TextView moreBtn = desc.findViewById(R.id.more_btn);
-        TextView text = desc.findViewById(R.id.text);
-        TextView title = desc.findViewById(R.id.title);
+        MaterialTextView moreBtn = desc.findViewById(R.id.more_btn);
+        MaterialTextView text = desc.findViewById(R.id.text);
+        MaterialTextView title = desc.findViewById(R.id.title);
         setMoreButtonVisibility(text, moreBtn);
         holder = new Holders.DescriptionViewHolder(desc, mSectionsDataSource.getCategory());
         text.setOnClickListener(v -> onMoreButtonClicked(text, moreBtn));
@@ -537,12 +538,12 @@ public class BookmarkListAdapter extends RecyclerView.Adapter<Holders.BaseBookma
     }
   }
 
-  private void setMoreButtonVisibility(TextView text, TextView moreBtn)
+  private void setMoreButtonVisibility(MaterialTextView text, MaterialTextView moreBtn)
   {
     text.post(() -> setShortModeDescription(text, moreBtn));
   }
 
-  private void onMoreButtonClicked(TextView textView, TextView moreBtn)
+  private void onMoreButtonClicked(MaterialTextView textView, MaterialTextView moreBtn)
   {
     if (isShortModeDescription(textView))
     {
@@ -554,18 +555,18 @@ public class BookmarkListAdapter extends RecyclerView.Adapter<Holders.BaseBookma
     }
   }
 
-  private boolean isShortModeDescription(TextView text)
+  private boolean isShortModeDescription(MaterialTextView text)
   {
     return text.getMaxLines() == MAX_VISIBLE_LINES;
   }
 
-  private void setExpandedModeDescription(TextView textView, TextView moreBtn)
+  private void setExpandedModeDescription(MaterialTextView textView, MaterialTextView moreBtn)
   {
     textView.setMaxLines(Integer.MAX_VALUE);
     moreBtn.setVisibility(View.GONE);
   }
 
-  private void setShortModeDescription(TextView textView, TextView moreBtn)
+  private void setShortModeDescription(MaterialTextView textView, MaterialTextView moreBtn)
   {
     textView.setMaxLines(MAX_VISIBLE_LINES);
 

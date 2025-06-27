@@ -6,14 +6,15 @@ import android.location.Location;
 import android.text.Spanned;
 import android.text.TextUtils;
 import android.view.View;
-import android.widget.CheckBox;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.PluralsRes;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.imageview.ShapeableImageView;
+import com.google.android.material.textview.MaterialTextView;
+import com.google.android.material.checkbox.MaterialCheckBox;
 
 import app.organicmaps.R;
 import app.organicmaps.adapter.OnItemClickListener;
@@ -34,9 +35,9 @@ public class Holders
   public static class GeneralViewHolder extends RecyclerView.ViewHolder
   {
     @NonNull
-    private final TextView mText;
+    private final MaterialTextView mText;
     @NonNull
-    private final ImageView mImage;
+    private final ShapeableImageView mImage;
 
     GeneralViewHolder(@NonNull View itemView)
     {
@@ -46,13 +47,13 @@ public class Holders
     }
 
     @NonNull
-    public TextView getText()
+    public MaterialTextView getText()
     {
       return mText;
     }
 
     @NonNull
-    public ImageView getImage()
+    public ShapeableImageView getImage()
     {
       return mImage;
     }
@@ -61,9 +62,9 @@ public class Holders
   public static class HeaderViewHolder extends RecyclerView.ViewHolder
   {
     @NonNull
-    private final TextView mButton;
+    private final MaterialTextView mButton;
     @NonNull
-    private final TextView mText;
+    private final MaterialTextView mText;
 
 
     HeaderViewHolder(@NonNull View itemView)
@@ -74,13 +75,13 @@ public class Holders
     }
 
     @NonNull
-    public TextView getText()
+    public MaterialTextView getText()
     {
       return mText;
     }
 
     @NonNull
-    public TextView getButton()
+    public MaterialTextView getButton()
     {
       return mButton;
     }
@@ -168,7 +169,7 @@ public class Holders
     protected BookmarkCategory mEntity;
 
     @NonNull
-    protected final TextView mSize;
+    protected final MaterialTextView mSize;
 
     public CategoryViewHolderBase(@NonNull View root)
     {
@@ -229,9 +230,9 @@ public class Holders
     @NonNull
     private final View mView;
     @NonNull
-    private final TextView mName;
+    private final MaterialTextView mName;
     @NonNull
-    private final CheckBox mVisibilityMarker;
+    private final MaterialCheckBox mVisibilityMarker;
 
     CollectionViewHolder(@NonNull View root)
     {
@@ -268,11 +269,11 @@ public class Holders
   static class CategoryViewHolder extends CategoryViewHolderBase
   {
     @NonNull
-    private final TextView mName;
+    private final MaterialTextView mName;
     @NonNull
-    CheckBox mVisibilityMarker;
+    MaterialCheckBox mVisibilityMarker;
     @NonNull
-    ImageView mMoreButton;
+    ShapeableImageView mMoreButton;
 
     CategoryViewHolder(@NonNull View root)
     {
@@ -338,11 +339,11 @@ public class Holders
   static class BookmarkViewHolder extends BaseBookmarkHolder
   {
     @NonNull
-    private final ImageView mIcon;
+    private final ShapeableImageView mIcon;
     @NonNull
-    private final TextView mName;
+    private final MaterialTextView mName;
     @NonNull
-    private final TextView mDistance;
+    private final MaterialTextView mDistance;
 
     BookmarkViewHolder(@NonNull View itemView)
     {
@@ -384,12 +385,12 @@ public class Holders
   static class TrackViewHolder extends BaseBookmarkHolder
   {
     @NonNull
-    private final ImageView mIcon;
+    private final ShapeableImageView mIcon;
     @NonNull
-    private final TextView mName;
+    private final MaterialTextView mName;
     @NonNull
-    private final TextView mDistance;
-    private final ImageView mMoreButton;
+    private final MaterialTextView mDistance;
+    private final ShapeableImageView mMoreButton;
 
     TrackViewHolder(@NonNull View itemView)
     {
@@ -424,16 +425,16 @@ public class Holders
 
     public void setTrackIconClickListener(IconClickListener listener)
     {
-      mIcon.setOnClickListener(v -> listener.onItemClick((ImageView) v, getBindingAdapterPosition()));
+      mIcon.setOnClickListener(v -> listener.onItemClick((ShapeableImageView) v, getBindingAdapterPosition()));
     }
   }
 
   public static class SectionViewHolder extends BaseBookmarkHolder
   {
     @NonNull
-    private final TextView mView;
+    private final MaterialTextView mView;
 
-    SectionViewHolder(@NonNull TextView itemView)
+    SectionViewHolder(@NonNull MaterialTextView itemView)
     {
       super(itemView);
       mView = itemView;
@@ -452,9 +453,9 @@ public class Holders
     static final float SPACING_MULTIPLE = 1.0f;
     static final float SPACING_ADD = 0.0f;
     @NonNull
-    private final TextView mTitle;
+    private final MaterialTextView mTitle;
     @NonNull
-    private final TextView mDescText;
+    private final MaterialTextView mDescText;
 
     DescriptionViewHolder(@NonNull View itemView, @NonNull BookmarkCategory category)
     {

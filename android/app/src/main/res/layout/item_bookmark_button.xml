@@ -10,14 +10,14 @@
   android:paddingStart="@dimen/margin_quarter"
   android:paddingEnd="@dimen/dp_0"
   android:paddingVertical="@dimen/margin_half_plus">
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/image"
     android:layout_width="@dimen/nav_icon_size"
     android:layout_height="wrap_content"
     android:layout_gravity="center_vertical"
     app:tint="?colorAccent"
     tools:srcCompat="@drawable/ic_import" />
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/text"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"

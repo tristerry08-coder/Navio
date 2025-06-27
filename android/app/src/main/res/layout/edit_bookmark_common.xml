@@ -44,7 +44,7 @@
     android:layout_below="@+id/ll__bookmark_name"
     android:layout_marginStart="@dimen/margin_half"
     android:layout_marginEnd="@dimen/margin_half">
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:id="@+id/tv__bookmark_set_title"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
       android:layout_marginEnd="@dimen/margin_quadruple"
       android:text="@string/list"
       android:textAppearance="@style/MwmTextAppearance.Body3" />
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:id="@+id/tv__bookmark_set"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
@@ -73,7 +73,7 @@
       android:layout_alignBottom="@id/tv__bookmark_set"
       android:layout_marginEnd="@dimen/margin_quadruple"
       android:background="@color/divider" />
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
       android:id="@+id/iv__bookmark_color"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"

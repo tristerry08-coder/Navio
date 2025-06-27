@@ -6,17 +6,19 @@
   android:layout_width="match_parent"
   android:layout_height="wrap_content"
   android:background="@drawable/bg_clickable_card">
-  <CheckBox
+  <com.google.android.material.checkbox.MaterialCheckBox
     android:id="@+id/checkbox"
-    android:layout_width="@dimen/margin_double_plus"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_centerVertical="true"
     android:layout_alignParentTop="true"
     android:layout_alignBottom="@id/bottom_line_container"
+    android:layout_margin="@dimen/margin_half"
+    android:padding="@dimen/margin_half"
     android:background="@null"
-    android:button="@drawable/button_visibility_centre_inset"
+    android:button="@drawable/visibility_selector"
     android:buttonTint="?accentColorSelector" />
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/name"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -36,7 +38,7 @@
     android:paddingBottom="@dimen/margin_half_plus"
     android:layout_toStartOf="@id/more"
     android:orientation="horizontal">
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:id="@+id/size"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -46,7 +48,7 @@
       android:textAppearance="@style/MwmTextAppearance.Body3"
       tools:text="42000000" />
   </LinearLayout>
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/more"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"

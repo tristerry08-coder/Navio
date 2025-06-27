@@ -7,7 +7,7 @@
   android:background="@drawable/bg_clickable_card"
   android:paddingStart="@dimen/margin_base">
 
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/iv__bookmark_color"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -22,14 +22,14 @@
     android:layout_centerVertical="true"
     android:layout_toEndOf="@id/iv__bookmark_color"
     android:layout_toStartOf="@id/more">
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:id="@+id/tv__bookmark_name"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:singleLine="true"
       android:textAppearance="@style/MwmTextAppearance.Body1"/>
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:id="@+id/tv__bookmark_distance"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"

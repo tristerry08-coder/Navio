@@ -6,7 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
+
+import com.google.android.material.imageview.ShapeableImageView;
 
 import app.organicmaps.R;
 import app.organicmaps.bookmarks.data.Icon;
@@ -61,7 +62,7 @@ public class IconsAdapter extends ArrayAdapter<Icon>
 
   private static class SpinnerViewHolder
   {
-    final ImageView icon;
+    final ShapeableImageView icon;
 
     SpinnerViewHolder(View convertView)
     {

@@ -9,8 +9,6 @@ import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -34,8 +32,10 @@ import app.organicmaps.util.UiUtils;
 import app.organicmaps.util.WindowInsetUtils.PaddingInsetsListener;
 
 import com.google.android.material.appbar.MaterialToolbar;
+import com.google.android.material.imageview.ShapeableImageView;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
+import com.google.android.material.textview.MaterialTextView;
 
 import java.util.List;
 
@@ -54,8 +54,8 @@ public class EditBookmarkFragment extends BaseMwmDialogFragment implements View.
   private TextInputEditText mEtName;
   @NonNull
   private TextInputLayout clearNameBtn;
-  private TextView mTvBookmarkGroup;
-  private ImageView mIvColor;
+  private MaterialTextView mTvBookmarkGroup;
+  private ShapeableImageView mIvColor;
   private BookmarkCategory mBookmarkCategory;
   @Nullable
   private Icon mIcon;
@@ -208,7 +208,7 @@ public class EditBookmarkFragment extends BaseMwmDialogFragment implements View.
 
     ViewCompat.setOnApplyWindowInsetsListener(toolbar, PaddingInsetsListener.excludeBottom());
 
-    final ImageView imageView = toolbar.findViewById(R.id.save);
+    final ShapeableImageView imageView = toolbar.findViewById(R.id.save);
     switch (mType)
     {
       case TYPE_BOOKMARK ->
@@ -412,7 +412,7 @@ public class EditBookmarkFragment extends BaseMwmDialogFragment implements View.
   {
     mListener = listener;
   }
-  private void clearAndFocus(TextView textView)
+  private void clearAndFocus(TextInputEditText textView)
   {
     textView.getEditableText().clear();
     textView.requestFocus();

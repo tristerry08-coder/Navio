@@ -5,7 +5,7 @@
   android:paddingStart="@dimen/margin_double"
   android:paddingEnd="@dimen/margin_double"
   android:layout_height="@dimen/height_block_base">
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/text"
     android:layout_gravity="end|center_vertical"
     android:layout_width="wrap_content"

@@ -10,7 +10,7 @@
   android:paddingTop="@dimen/margin_half_plus"
   android:paddingEnd="@dimen/margin_base"
   android:paddingBottom="@dimen/margin_half_plus">
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/text_message"
     style="?fontHeadline6"
     android:layout_width="wrap_content"
@@ -20,7 +20,7 @@
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"
     tools:text="@string/categories" />
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/button"
     style="?fontSubtitle2"
     android:layout_width="wrap_content"

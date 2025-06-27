@@ -12,7 +12,7 @@
     android:layout_height="wrap_content"
     android:theme="@style/MwmWidget.ToolbarTheme">
 
-      <ImageView
+      <com.google.android.material.imageview.ShapeableImageView
         app:tint="@color/image_view"
         android:id="@+id/save"
         app:srcCompat="@drawable/ic_done"

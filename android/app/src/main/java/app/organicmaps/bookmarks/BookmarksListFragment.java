@@ -11,7 +11,6 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
@@ -53,6 +52,7 @@ import app.organicmaps.widget.placepage.BookmarkColorDialogFragment;
 import app.organicmaps.widget.placepage.EditBookmarkFragment;
 import app.organicmaps.widget.recycler.DividerItemDecorationWithPadding;
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
+import com.google.android.material.imageview.ShapeableImageView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -599,7 +599,7 @@ public class BookmarksListFragment extends BaseMwmRecyclerFragment<ConcatAdapter
     i.putExtra(MwmActivity.EXTRA_BOOKMARK_ID, bookmark.getBookmarkId());
   }
 
-  private void showColorDialog(ImageView v, int position)
+  private void showColorDialog(ShapeableImageView v, int position)
   {
     BookmarkListAdapter adapter = getBookmarkListAdapter();
 

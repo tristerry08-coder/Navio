@@ -1,8 +1,8 @@
 package app.organicmaps.bookmarks.data;
 
-import android.widget.ImageView;
+import com.google.android.material.imageview.ShapeableImageView;
 
 public interface IconClickListener
 {
-  void onItemClick(ImageView v, int position);
+  void onItemClick(ShapeableImageView v, int position);
 }
