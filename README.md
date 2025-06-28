@@ -32,20 +32,16 @@ A community-led free & open source maps app based on [OpenStreetMap](https://www
 There are apps for Android and iOS (and ARM MacOS).
 An alpha Linux / MacOS Qt desktop version, which is also suitable for Linux phones.
 
-The June app release is available on Google Play, F-Droid and as an APK to download now! We are working on publishing in the iOS App Store as well, please stay tuned!
-
-<!--
-[<img src="docs/badges/apple-appstore.png" alt="App Store" width="160">](https://apps.apple.com/app/comaps/id1567437057)
--->
+[<img src="docs/badges/apple-appstore.png" alt="App Store" width="160">](https://apps.apple.com/app/comaps/id6747180809)
 [<img src="docs/badges/google-play.png" alt="Google Play" width="160">](https://play.google.com/store/apps/details?id=app.comaps.google)
 [<img src="docs/badges/fdroid.png" alt="F-Droid" width="160">](https://f-droid.org/en/packages/app.comaps.fdroid/)
 [<img src="docs/badges/codeberg.png" alt="Codeberg" width="160">](https://codeberg.org/comaps/comaps/releases)
 
 <p float="left">
-  <img src="android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/1.jpg" width="180" />
-  <img src="android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/2.jpg" width="180" />
-  <img src="android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/3.jpg" width="180" />
-  <img src="android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/4.jpg" width="180" />
+  <img src="android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/1.png" width="180" />
+  <img src="android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/2.png" width="180" />
+  <img src="android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/3.png" width="180" />
+  <img src="android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/4.png" width="180" />
 </p>
 
 **Offline-focused**: Plan and navigate your trip abroad without the need for cellular service, search waypoints while on a distant hike, etc. All app functions are designed to work offline.
@@ -105,9 +101,9 @@ There is a dedicated Zulip chat for active contributors: [comaps.zulipchat.com](
 
 ### Feedback
 
-<!-- uncomment when linked resources are ready
-- **Rate us on the [App Store](https://apps.apple.com/app/comaps/id1567437057)
-and [Google Play](https://play.google.com/store/apps/details?id=app.comaps)**. -->
+
+- **Rate us on the [App Store](https://apps.apple.com/app/comaps/id6747180809)
+and [Google Play](https://play.google.com/store/apps/details?id=app.comaps.google)**.
 - Star our repos on Codeberg
 - Report bugs and discuss features at [the issue tracker](https://codeberg.org/comaps/comaps/issues)
 
@@ -116,6 +112,10 @@ and [Google Play](https://play.google.com/store/apps/details?id=app.comaps)**. -
 The app is free for everyone, so we rely on donations. Please [donate](https://opencollective.com/comaps/donate) to support the CoMaps community and see this open project thrive!
 
 The project's financial information is completely open and transparent at [our Open Collective](https://opencollective.com/comaps).
+
+## Privacy
+
+The Android application was analysed by the [Exodus platform](https://reports.exodus-privacy.eu.org/fr/reports/app.comaps.google/latest/)
 
 ## License and Copyright
 
