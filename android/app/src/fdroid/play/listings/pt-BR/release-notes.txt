@@ -1,8 +1,0 @@
-• Atualizadas as cores do mapa - mais claras, quentes e amigáveis!
-• Editor OSM: adicionado um campo de "andar"
-• Atualizados ícones de postos de gasolina e recarga
-• Atualizadas cores de alguns elementos da interface do usuário
-• Correção de links de compartilhamento de localização
-• Correção de erros de tamanho de mapa exibidos incorretamente após download
-• Correção de pequenos saltos na seta de localização em alguns casos
-• Correções de bugs do Android 5 e 6

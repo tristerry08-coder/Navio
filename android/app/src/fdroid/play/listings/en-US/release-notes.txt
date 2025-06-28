@@ -1,8 +1,7 @@
-• refresh map colors - lighter, warmer, friendlier!
-• OSM editor: add a "level" field
-• update gas and charging stations icons
-• update colors of some UI elements
-• fix location sharing links
-• fix wrong displayed map size after download errors
-• fix small location arrow jumps in some cases
-• android 5&6 bugfixes
+• OpenStreetMap data as of June 22
+• a setting for automatic bookmarks and tracks backup
+• added 100m-step altitude isolines to all regions that had worse or no isolines
+• display vegetation and playground color fills earlier, add fills to camp sites and some amenities
+• paths & tracks appear on the map later by default - still appear earlier in the outdoor style
+• hide active custom button action from the hamburger menu, move there About & Help from the settings
+• update map transport icons

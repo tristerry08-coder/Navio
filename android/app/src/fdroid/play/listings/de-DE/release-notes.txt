@@ -1,8 +1,6 @@
-• Kartenfarben aufgefrischt – heller, wärmer, freundlicher!
-• OSM-Editor: „Stockwerk“ Feld hinzugefügt
-• Symbole für Tankstellen und Ladestationen aktualisiert
-• Farben einiger UI Elemente überarbeitet
-• Funktionierende Links zum Teilen von Orten
-• Falsch angezeigte Kartengröße nach Downloadfehlern korrigiert
-• Kleine Sprünge des Standortpfeils in bestimmten Fällen behoben
-• Bugfixes für Android 5 & 6
+• OpenStreetMap-Daten vom 22. Juni
+• Optionale automatische Backups von Lesezeichen & Tracks
+• Neue 100m-Höhenlinien für Regionen die vorher gröbere/keine Isolinien hatten
+• Vegetation & Spielplätze werden früher angezeigt, neue Farben für Campingplätze & andere Einrichtungen
+• Pfade & Tracks werden standardmäßig bei höherem Zoom angezeigt, Outdoor-Stil für Detailübersicht
+• Aktion des linken Button nichtm mehr im Hamburger-Menü, stattdessen werden "Über & Hilfe" dort angezeigt
