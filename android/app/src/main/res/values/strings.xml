@@ -838,7 +838,7 @@
     <!-- Telegram group url for the "?" About page -->
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <!-- Instagram account url for the "?" About page -->
-    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
+    <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <!-- A link to the TTS FAQ -->
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <!-- Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content -->

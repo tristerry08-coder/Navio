@@ -17,7 +17,7 @@ enum SocialMedia {
     case .codeberg:
       return "https://codeberg.org/comaps/comaps/"
     case .linkedin:
-      return "https://www.linkedin.com/company/comaps-community/"
+      return "https://www.linkedin.com/company/comapsapp/"
     case .email:
       return "ios@comaps.app"
     case .matrix:
@@ -25,7 +25,7 @@ enum SocialMedia {
     case .fosstodon:
       return "https://floss.social/@CoMaps"
     case .facebook:
-      return "https://www.facebook.com/CoMapsCommunity/"
+      return "https://www.facebook.com/CoMapsApp/"
     case .bluesky:
       return "https://bsky.app/profile/comaps.app"
     case .instagram:
