@@ -856,6 +856,6 @@
     <string name="mb">MB</string>
     <string name="aa_request_permission_activity_text">CoMaps lietotnei ir nepieciešama atrašanās vietas atļauja sekmīgai Android Auto darbībai</string>
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
-    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
+    <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
 </resources>

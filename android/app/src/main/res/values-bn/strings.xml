@@ -18,7 +18,7 @@
     <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/About_OpenStreetMap</string>
     <string name="translated_om_site_url">https://comaps.app/</string>
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
-    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
+    <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="app_site_url">https://comaps.app/</string>
     <string name="location_is_disabled_long_text">আপনার ডিভাইস বা অ্যাপ এর সব লোকেশন পরিষেবা বন্ধ করা আছে। দয়া করে সেটিংস থেকে চালু করুন।</string>
     <string name="close">বন্ধ</string>

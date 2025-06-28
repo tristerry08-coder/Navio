@@ -122,7 +122,7 @@
     <string name="type.recycling.glass_bottles">Returglas</string>
     <string name="type.recycling.paper">Returpapper</string>
     <string name="type.recycling.plastic">Plastavfall</string>
-    <string name="type.recycling.plastic_bottles">Samling av plastflaskor</string>
+    <string name="type.recycling.plastic_bottles">Plastflaskor</string>
     <string name="type.recycling.scrap_metal">Metallskrap</string>
     <string name="type.recycling.small_appliances">Elektriskt avfall</string>
     <string name="type.amenity.restaurant">Restaurang</string>
@@ -461,7 +461,7 @@
     <string name="type.highway.unclassified.tunnel">Tunnel</string>
     <string name="type.area_highway.footway">Gångväg</string>
     <string name="type.area_highway.living_street">Gata</string>
-    <string name="type.area_highway.motorway">Gata</string>
+    <string name="type.area_highway.motorway">Motorväg</string>
     <string name="type.area_highway.path">Gångväg</string>
     <string name="type.area_highway.pedestrian">Gata</string>
     <string name="type.area_highway.primary">Gata</string>
@@ -1002,7 +1002,7 @@
     <string name="type.shop.mobile_phone">Mobilbutik</string>
     <string name="type.shop.money_lender">Pengar långivare</string>
     <string name="type.shop.motorcycle">Motorcykelaffär</string>
-    <string name="type.shop.motorcycle_repair">Motorcykel reparation</string>
+    <string name="type.shop.motorcycle_repair">Motorcykelreparation</string>
     <string name="type.shop.music">Musikaffär</string>
     <string name="type.shop.musical_instrument">Musikinstrumentbutik</string>
     <string name="type.shop.newsagent">Tidningsstånd</string>
@@ -1098,10 +1098,10 @@
     <string name="type.tourism.alpine_hut">Fjällstuga</string>
     <string name="type.tourism.apartment">Semesterlägenhet</string>
     <string name="type.tourism.artwork">Konstverk</string>
-    <string name="type.tourism.artwork.architecture">Konstverk</string>
+    <string name="type.tourism.artwork.architecture">Arkitektoniskt konstverk</string>
     <string name="type.tourism.artwork.painting">Konstverk</string>
-    <string name="type.tourism.artwork.sculpture">Konstverk</string>
-    <string name="type.tourism.artwork.statue">Konstverk</string>
+    <string name="type.tourism.artwork.sculpture">Skulptur</string>
+    <string name="type.tourism.artwork.statue">Staty</string>
     <string name="type.tourism.attraction">Attraktion</string>
     <string name="type.attraction.amusement_ride">Nöjesattraktion</string>
     <string name="type.attraction.animal">Inhägnad för djur</string>

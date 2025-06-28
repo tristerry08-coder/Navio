@@ -816,7 +816,7 @@
     <string name="nav_auto">Otomatis dalam navigasi</string>
     <string name="openstreetmap">OpenStreetMap</string>
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
-    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
+    <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/About_OpenStreetMap</string>
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
 </resources>

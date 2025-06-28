@@ -883,7 +883,7 @@
     <string name="codeberg">Codeberg</string>
     <string name="app_site_url">https://comaps.app/de/</string>
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
-    <string name="instagram_url">https://www.instagram.com/comapscommunity/</string>
+    <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="error_enter_correct_bluesky_page">Geben Sie einen gültigen Bluesky-Nutzernamen oder Webadresse ein</string>
     <string name="bluesky">Bluesky</string>
     <string name="error_enter_correct_fediverse_page">Geben Sie einen gültigen Mastodon-Nutzernamen oder Webadresse an</string>

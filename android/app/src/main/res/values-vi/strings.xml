@@ -807,7 +807,7 @@
     <string name="uri_open_location_failed">Không có ứng dụng nào được cài đặt có thể mở vị trí</string>
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Tự động điều hướng</string>
-    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
+    <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="gb">GB</string>
     <string name="app_site_url">https://comaps.app/</string>
     <string name="openstreetmap">OpenStreetMap</string>

@@ -885,7 +885,7 @@
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="codeberg">Codeberg</string>
     <string name="error_enter_correct_bluesky_page">Kirjoita kelvollinen Bluesky-käyttäjänimi tai verkko-osoite</string>
-    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
+    <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="app_site_url">https://comaps.app/</string>
     <string name="pref_left_button_title">Vasemman painikkeen asettelu</string>
     <string name="pref_left_button_disable">Poista käytöstä</string>

@@ -883,7 +883,7 @@
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="gb">GB</string>
     <string name="app_site_url">https://comaps.app/</string>
-    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
+    <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="codeberg">Codeberg</string>
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="pref_left_button_title">Sol alt tuş ataması</string>

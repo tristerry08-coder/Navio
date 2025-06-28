@@ -861,6 +861,6 @@
     <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/About_OpenStreetMap</string>
     <string name="translated_om_site_url">https://comaps.app</string>
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android</string>
-    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
+    <string name="instagram_url">https://www.instagram.com/comaps.app</string>
     <string name="wikimedia_commons">ויקישיתוף</string>
 </resources>

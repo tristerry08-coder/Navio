@@ -1279,4 +1279,16 @@
     <string name="type.leisure.slipway">Arrapala</string>
     <string name="type.leisure.track">Pista</string>
     <string name="type.leisure.track.area">Pista</string>
+    <string name="type.landuse.plant_nursery">Landare haztegia</string>
+    <string name="type.leisure.firepit">Su-ontzi</string>
+    <string name="type.man_made.breakwater">Dike</string>
+    <string name="type.man_made.cairn">Mugarri</string>
+    <string name="type.amenity.studio">Apartamentua</string>
+    <string name="type.man_made.mast">Masta</string>
+    <string name="type.man_made.pier">Ontziraleku</string>
+    <string name="type.man_made.pipeline">Hodi</string>
+    <string name="type.man_made.flagpole">Bandera-masta</string>
+    <string name="type.barrier.guard_rail">Baranda</string>
+    <string name="type.highway.ladder">Eskailera</string>
+    <string name="type.leisure.beach_resort">Hondartzako oporleku</string>
 </resources>

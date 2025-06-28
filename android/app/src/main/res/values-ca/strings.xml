@@ -882,7 +882,7 @@
     <string name="twitter">X (Twitter)</string>
     <string name="wikimedia_commons">Wikimedia Commons</string>
     <string name="matrix">[Matrix]</string>
-    <string name="instagram_url">https://www.instagram.com/comapscommunity/</string>
+    <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="comma_separated_pair">%1$s, %2$s</string>

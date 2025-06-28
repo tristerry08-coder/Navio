@@ -891,7 +891,7 @@
     <string name="wikimedia_commons">Викисклад</string>
     <string name="editor_line_social_network">LINE</string>
     <string name="vk">VK</string>
-    <string name="instagram_url">https://www.instagram.com/comapscommunity/</string>
+    <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="comma_separated_pair">%1$s, %2$s</string>
     <string name="error_enter_correct_bluesky_page">Введите имя пользователя Bluesky или веб-адрес</string>
     <string name="error_enter_correct_fediverse_page">Введите имя пользователя Mastodon или веб-адрес</string>
@@ -904,4 +904,11 @@
     <string name="editor_building_levels">Этажей (вкл. подвалы искл. крышу)</string>
     <string name="editor_level">Этаж (0 это первый этаж)</string>
     <string name="error_enter_correct_level">Введите правильный номер этажа</string>
+    <string name="about_help">О программе</string>
+    <string name="bookmark_color">Цвет метки</string>
+    <string name="bicycle">Велосипед</string>
+    <string name="vehicle">Вид транспорта</string>
+    <string name="pedestrian">Пешеход</string>
+    <string name="clear">Очистить</string>
+    <string name="route_type">Вид маршрута</string>
 </resources>

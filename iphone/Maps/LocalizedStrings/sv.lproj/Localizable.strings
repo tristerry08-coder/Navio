@@ -804,7 +804,7 @@
 
 /* Recommended length for CarPlay and Android Auto is around 25-27 characters */
 "avoid_ferry" = "Undvik färjetrafik";
-"avoid_motorways" = "Undvik motorvägen";
+"avoid_motorways" = "Undvik motorvägar";
 "unable_to_calc_alert_title" = "Det går inte att hitta rutt";
 "unable_to_calc_alert_subtitle" = "Tyvärr kunde vi inte hitta en rutt. Detta kan bero på dina ruttpreferenser eller ofullständigt kartunderlag i OpenStreetMap. Ändra gärna dina val och försök igen.";
 "define_to_avoid_btn" = "Definiera oönskade vägar";
@@ -934,7 +934,7 @@
 "telegram_url" = "https://t.me/CoMapsApp/";
 
 /* Instagram account url for the "?" About page */
-"instagram_url" = "https://www.instagram.com/comapscommunity/";
+"instagram_url" = "https://www.instagram.com/comaps.app/";
 
 /* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
 "translated_om_site_url" = "https://www.comaps.app/sv/";

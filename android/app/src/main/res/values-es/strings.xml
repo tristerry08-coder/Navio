@@ -888,7 +888,7 @@
     <string name="saved">Guardado</string>
     <string name="codeberg">Codeberg</string>
     <string name="error_enter_correct_fediverse_page">Introduce un nombre de usuario o una dirección web de Mastodon válidos</string>
-    <string name="instagram_url">https://www.instagram.com/comapscommunity/</string>
+    <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="app_site_url">https://comaps.app/es/</string>
     <string name="bluesky">Bluesky</string>
     <string name="error_enter_correct_bluesky_page">Introduce un nombre de usuario o una dirección web de Bluesky válidos</string>

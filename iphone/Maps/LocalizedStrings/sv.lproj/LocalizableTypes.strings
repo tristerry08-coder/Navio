@@ -136,7 +136,7 @@
 "type.recycling.glass_bottles" = "Returglas";
 "type.recycling.paper" = "Returpapper";
 "type.recycling.plastic" = "Plastavfall";
-"type.recycling.plastic_bottles" = "Samling av plastflaskor";
+"type.recycling.plastic_bottles" = "Plastflaskor";
 "type.recycling.scrap_metal" = "Metallskrap";
 "type.recycling.small_appliances" = "Elektriskt avfall";
 "type.recycling.cardboard" = "Kartong";
@@ -584,7 +584,7 @@
 "type.area_highway.cycleway" = "Cykelbana";
 "type.area_highway.footway" = "Gångväg";
 "type.area_highway.living_street" = "Gata";
-"type.area_highway.motorway" = "Gata";
+"type.area_highway.motorway" = "Motorväg";
 "type.area_highway.path" = "Gångväg";
 "type.area_highway.pedestrian" = "Gata";
 "type.area_highway.primary" = "Gata";
@@ -1268,7 +1268,7 @@
 "type.shop.mobile_phone" = "Mobilbutik";
 "type.shop.money_lender" = "Pengar långivare";
 "type.shop.motorcycle" = "Motorcykelaffär";
-"type.shop.motorcycle_repair" = "Motorcykel reparation";
+"type.shop.motorcycle_repair" = "Motorcykelreparation";
 "type.shop.music" = "Musikaffär";
 "type.shop.musical_instrument" = "Musikinstrumentbutik";
 "type.shop.newsagent" = "Tidningsstånd";
@@ -1370,10 +1370,10 @@
 "type.tourism.alpine_hut" = "Fjällstuga";
 "type.tourism.apartment" = "Semesterlägenhet";
 "type.tourism.artwork" = "Konstverk";
-"type.tourism.artwork.architecture" = "Konstverk";
+"type.tourism.artwork.architecture" = "Arkitektoniskt konstverk";
 "type.tourism.artwork.painting" = "Konstverk";
-"type.tourism.artwork.sculpture" = "Konstverk";
-"type.tourism.artwork.statue" = "Konstverk";
+"type.tourism.artwork.sculpture" = "Skulptur";
+"type.tourism.artwork.statue" = "Staty";
 "type.tourism.attraction" = "Attraktion";
 "type.attraction.amusement_ride" = "Nöjesattraktion";
 "type.attraction.animal" = "Inhägnad för djur";

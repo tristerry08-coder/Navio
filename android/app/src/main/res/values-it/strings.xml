@@ -880,7 +880,7 @@
     <string name="error_enter_correct_fediverse_page">Inserisci un nome utente o un indirizzo web Mastodon valido</string>
     <string name="bluesky">Bluesky</string>
     <string name="error_enter_correct_bluesky_page">Inserisci un nome utente o un indirizzo web Bluesky valido</string>
-    <string name="instagram_url">https://www.instagram.com/comapscommunity/</string>
+    <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="saved">Salvato</string>
     <string name="pref_left_button_title">Configurazione del bottone di sinistra</string>

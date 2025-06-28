@@ -885,7 +885,7 @@
     <string name="github">GitHub</string>
     <string name="app_site_url">https://comaps.app/zh-Hans/</string>
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
-    <string name="instagram_url">https://www.instagram.com/comapscommunity</string>
+    <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="codeberg">Codeberg</string>
     <string name="error_enter_correct_fediverse_page">请输入有效的 Mastodon 用户名或网址</string>
     <string name="bluesky">Bluesky</string>
