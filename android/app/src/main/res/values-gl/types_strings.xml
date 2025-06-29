@@ -1299,4 +1299,6 @@
     <string name="type.emergency.emergency_ward_entrance">Entrada a urxencias</string>
     <string name="type.amenity.dojo">Dojo</string>
     <string name="type.leisure.sports_hall">Pavillón deportivo</string>
+    <string name="type.highway.ladder">Escada</string>
+    <string name="type.man_made.crane">Grúa</string>
 </resources>

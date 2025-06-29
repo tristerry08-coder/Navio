@@ -1298,3 +1298,5 @@
 "type.emergency.emergency_ward_entrance" = "Entrada a urxencias";
 "type.amenity.dojo" = "Dojo";
 "type.leisure.sports_hall" = "Pavillón deportivo";
+"type.highway.ladder" = "Escada";
+"type.man_made.crane" = "Grúa";
