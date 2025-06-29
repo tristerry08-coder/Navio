@@ -102,8 +102,8 @@
 */
 @industrial: #E1DCE3;
 @sport: #C8DBAD;
-@parking: #F2F2CE;
-@parking_l: #FCFCC2;
+@parking: #E8EFEC;
+@parking_l: #E1EDE9;
 @military: #E53935;
 @prison: #727272;
 @farmland: #ededc3;
