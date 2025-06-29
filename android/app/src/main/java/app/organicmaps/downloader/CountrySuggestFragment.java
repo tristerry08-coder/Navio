@@ -6,12 +6,13 @@ import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.FragmentActivity;
+
+import com.google.android.material.button.MaterialButton;
+import com.google.android.material.textview.MaterialTextView;
 
 import app.organicmaps.R;
 import app.organicmaps.base.BaseMwmFragment;
@@ -30,10 +31,10 @@ public class CountrySuggestFragment extends BaseMwmFragment implements View.OnCl
   private LinearLayout mLlSelectDownload;
   private LinearLayout mLlActiveDownload;
   private WheelProgressView mWpvDownloadProgress;
-  private TextView mTvCountry;
-  private TextView mTvActiveCountry;
-  private TextView mTvProgress;
-  private Button mBtnDownloadMap;
+  private MaterialTextView mTvCountry;
+  private MaterialTextView mTvActiveCountry;
+  private MaterialTextView mTvProgress;
+  private MaterialButton mBtnDownloadMap;
 
   private CountryItem mCurrentCountry;
   private CountryItem mDownloadingCountry;
@@ -150,7 +151,7 @@ public class CountrySuggestFragment extends BaseMwmFragment implements View.OnCl
     mLlNoLocation = view.findViewById(R.id.ll__location_unknown);
     mBtnDownloadMap = view.findViewById(R.id.btn__download_map);
     mBtnDownloadMap.setOnClickListener(this);
-    Button selectMap = view.findViewById(R.id.btn__select_map);
+    MaterialButton selectMap = view.findViewById(R.id.btn__select_map);
     selectMap.setOnClickListener(this);
     mWpvDownloadProgress = view.findViewById(R.id.wpv__download_progress);
     mWpvDownloadProgress.setOnClickListener(this);

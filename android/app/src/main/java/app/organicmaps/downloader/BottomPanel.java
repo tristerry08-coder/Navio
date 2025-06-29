@@ -1,8 +1,8 @@
 package app.organicmaps.downloader;
 
 import android.view.View;
-import android.widget.Button;
 
+import com.google.android.material.button.MaterialButton;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import app.organicmaps.R;
 import app.organicmaps.util.StringUtils;
@@ -14,7 +14,7 @@ class BottomPanel
 {
   private final DownloaderFragment mFragment;
   private final FloatingActionButton mFab;
-  private final Button mButton;
+  private final MaterialButton mButton;
 
   private final View.OnClickListener mDownloadListener = new View.OnClickListener()
   {

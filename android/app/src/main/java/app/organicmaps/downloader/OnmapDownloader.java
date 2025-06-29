@@ -4,11 +4,13 @@ import android.location.Location;
 import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.core.view.ViewCompat;
+
+import com.google.android.material.button.MaterialButton;
+import com.google.android.material.textview.MaterialTextView;
+
 import app.organicmaps.MwmActivity;
 import app.organicmaps.R;
 import app.organicmaps.location.LocationHelper;
@@ -28,11 +30,11 @@ public class OnmapDownloader implements MwmActivity.LeftAnimationTrackListener
 
   private final MwmActivity mActivity;
   private final View mFrame;
-  private final TextView mParent;
-  private final TextView mTitle;
-  private final TextView mSize;
+  private final MaterialTextView mParent;
+  private final MaterialTextView mTitle;
+  private final MaterialTextView mSize;
   private final WheelProgressView mProgress;
-  private final Button mButton;
+  private final MaterialButton mButton;
 
   private int mStorageSubscriptionSlot;
 

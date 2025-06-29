@@ -9,7 +9,7 @@
   android:layout_height="match_parent">
   <include layout="@layout/toolbar_with_search"/>
 
-  <Button
+  <com.google.android.material.button.MaterialButton
     android:id="@+id/action"
     android:layout_width="match_parent"
     android:layout_height="@dimen/height_block_base"

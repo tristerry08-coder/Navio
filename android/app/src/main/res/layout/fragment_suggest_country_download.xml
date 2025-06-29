@@ -25,7 +25,7 @@
     wheel:layout_constraintEnd_toEndOf="parent"
     wheel:layout_constraintStart_toStartOf="parent"
     wheel:layout_constraintTop_toTopOf="parent">
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:gravity="center"
@@ -33,7 +33,7 @@
       android:text="@string/search_without_internet_advertisement"
       android:textAppearance="@style/MwmTextAppearance.Body2"/>
 
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
       android:layout_width="wrap_content"
       android:layout_height="@dimen/placeholder_size"
       android:layout_marginTop="@dimen/margin_half"
@@ -47,7 +47,7 @@
       android:layout_weight="1"
       android:gravity="center_horizontal"
       android:orientation="vertical">
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tv__country_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
         android:textAppearance="@style/MwmTextAppearance.Title"
         tools:text="Some country name"/>
 
-      <Button
+      <com.google.android.material.button.MaterialButton
         android:id="@+id/btn__download_map"
         style="@style/MwmWidget.Button.Primary"
         android:layout_marginTop="@dimen/margin_half"
@@ -75,7 +75,7 @@
       android:orientation="vertical"
       android:visibility="gone"
       tools:visibility="visible">
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
         android:layout_width="match_parent"
         android:layout_height="@dimen/height_block_base"
         android:layout_marginTop="@dimen/margin_half"
@@ -83,7 +83,7 @@
         android:text="@string/unknown_current_position"
         android:textAppearance="@style/MwmTextAppearance.Body3"/>
 
-      <Button
+      <com.google.android.material.button.MaterialButton
         android:id="@+id/btn__select_map"
         style="@style/MwmWidget.Button.Primary"
         android:layout_marginTop="@dimen/margin_half"
@@ -103,13 +103,13 @@
     android:visibility="gone"
     wheel:layout_constraintBottom_toTopOf="@+id/ll__select_download"
     wheel:layout_constraintTop_toTopOf="parent">
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:id="@+id/tv__active_country_name"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:textAppearance="@style/MwmTextAppearance.Title"/>
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:id="@+id/downloader_progress"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
