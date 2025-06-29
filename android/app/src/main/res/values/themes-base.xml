@@ -42,7 +42,6 @@
     <item name="dividerHorizontal">@color/divider</item>
 
     <item name="ppBackground">@color/bg_cards</item>
-    <item name="ppButtonsBackground">?panel</item>
 
     <item name="navNextTurnFrame">@drawable/bg_nav_next_turn</item>
     <item name="navNextNextTurnFrame">@drawable/bg_nav_next_next_turn</item>
@@ -179,7 +178,6 @@
     <item name="dividerHorizontal">@color/divider_night</item>
 
     <item name="ppBackground">@color/bg_cards_night</item>
-    <item name="ppButtonsBackground">@color/bg_window_night</item>
 
     <item name="navNextTurnFrame">@drawable/bg_nav_next_turn_night</item>
     <item name="navNextNextTurnFrame">@drawable/bg_nav_next_next_turn_night</item>
