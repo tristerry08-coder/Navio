@@ -944,7 +944,7 @@
     <string name="pref_backup_now_summary">Create a backup immediately</string>
     <string name="pref_backup_now_summary_progress">Backup in progress…</string>
     <string name="pref_backup_now_summary_ok">Backup completed successfully</string>
-    <string name="pref_backup_now_summary_empty_lists">Nothing to back up</string>
+    <string name="pref_backup_now_summary_empty_lists">No bookmarks and tracks to backup</string>
     <string name="pref_backup_now_summary_failed">Backup failed</string>
     <string name="pref_backup_now_summary_folder_unavailable">The backup folder is not available</string>
     <string name="pref_backup_status_summary_success">Last successful backup</string>
@@ -959,7 +959,7 @@
     <string name="dialog_report_error_with_logs">Please send us an error report:\n
     - \"Enable logging\" in the settings\n
     - reproduce the problem\n
-    - in the \"Help/About\" screen press a \"Report a bug\" button and send it to us via email or chat\n
+    - in the \"About &amp; Help\" screen press the \"Report a bug\" button and send via email or chat\n
     - disable logging
     </string>
     <string name="clear">Clear</string>

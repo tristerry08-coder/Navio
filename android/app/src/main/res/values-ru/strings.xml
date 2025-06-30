@@ -913,27 +913,27 @@
     <string name="route_type">Вид маршрута</string>
     <!-- Settings "Backup" category: "Backup" title -->
     <string name="pref_backup_title">Резервное копирование меток и треков</string>
-    <string name="pref_backup_summary">Автоматически сохранять в папку на устройстве</string>
-    <string name="pref_backup_now_title">Создать резервную копию</string>
-    <string name="pref_backup_now_summary">Запустить резервное копирование вручную</string>
+    <string name="pref_backup_summary">Автоматически сохранять в папку на Вашем устройстве</string>
+    <string name="pref_backup_now_title">Сделать резервную копию</string>
+    <string name="pref_backup_now_summary">Создать резервную копию прямо сейчас</string>
     <string name="pref_backup_now_summary_progress">Идёт резервное копирование…</string>
-    <string name="pref_backup_now_summary_ok">Копирование успешно завершено</string>
-    <string name="pref_backup_now_summary_empty_lists">Нет данных для копирования</string>
-    <string name="pref_backup_now_summary_failed">Ошибка при копировании</string>
-    <string name="pref_backup_now_summary_folder_unavailable">Папка для копий недоступна</string>
+    <string name="pref_backup_now_summary_ok">Резервная копия сделана успешно</string>
+    <string name="pref_backup_now_summary_empty_lists">Нет меток и треков для резервного копирования</string>
+    <string name="pref_backup_now_summary_failed">Ошибка при резервном копировании</string>
+    <string name="pref_backup_now_summary_folder_unavailable">Папка для резервных копий недоступна</string>
     <string name="pref_backup_status_summary_success">Последнее успешное копирование</string>
     <string name="pref_backup_location_title">Папка для резервных копий</string>
-    <string name="pref_backup_location_summary_initial">Сначала выберите папку и дайте доступ</string>
-    <string name="pref_backup_history_title">Хранить количество копий</string>
-    <string name="pref_backup_interval_title">Автозапуск</string>
-    <string name="backup_interval_every_day">Каждый день</string>
-    <string name="backup_interval_every_week">Каждую неделю</string>
+    <string name="pref_backup_location_summary_initial">Сначала выберите папку и дайте на неё доступ</string>
+    <string name="pref_backup_history_title">Количество копий для хранения</string>
+    <string name="pref_backup_interval_title">Автоматическое резервное копирование</string>
+    <string name="backup_interval_every_day">Ежедневно</string>
+    <string name="backup_interval_every_week">Еженедельно</string>
     <string name="backup_interval_manual_only">Выключено (только вручную)</string>
-    <string name="dialog_report_error_missing_folder">Выбранная папка для резервного копирования недоступна или нет права записи в неё. Пожалуйста, выберите другую папку</string>
+    <string name="dialog_report_error_missing_folder">Выбранная для резервного копирования папка отсутствует или доступна только для чтения. Пожалуйста, выберите другую папку.</string>
     <string name="dialog_report_error_with_logs">Пожалуйста, отправьте нам отчет об ошибке:\n
-    - Включите \"Запись логов\" в настройках\n
+    - \"Включить запись логов\" в настройках\n
     - воспроизведите проблему\n
-    - на экране \"Справка\" нажмите кнопку \"Сообщить о проблеме\" и отправьте нам отчет по почте или в чат\n
-    - отключите логирование
+    - на экране \"О программе и помощь\" нажмите кнопку \"Сообщить о проблеме\" и отправьте нам отчет по почте или в чат\n
+    - отключите запись логов
     </string>
 </resources>
