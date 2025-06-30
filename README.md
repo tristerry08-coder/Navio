@@ -1,62 +1,85 @@
-<!--<div align="center">
-  <img src="qt/res/logo.png" height="100"/>
-</div>-->
-
-<!-- a nav bar -->
-[Project Intro](https://codeberg.org/comaps#comaps)
- | [Governance](https://codeberg.org/comaps/Governance#comaps-project-governance-docs)
- | [FAQ](https://codeberg.org/comaps/Governance/src/branch/main/FAQ.md)
- | [Contribute](#contributing)
- | [Donate](https://www.comaps.app/donate)
- | [Keep Connected](https://codeberg.org/comaps#keep-connected)
-
-# [CoMaps](https://comaps.app) – Hike, Bike, Drive Offline – Easy Map Navigation with Privacy
-
-[
-  ![GitHub Actions Workflow Android Status](https://img.shields.io/github/actions/workflow/status/comaps/comaps/.github%2Fworkflows%2Fandroid-check.yaml?style=flat&label=Android%20Build&logo=android&logoColor=white)
-](https://github.com/comaps/comaps/actions/workflows/android-check.yaml)
-[
-  ![GitHub Actions Workflow iOS Status](https://img.shields.io/github/actions/workflow/status/comaps/comaps/.github%2Fworkflows%2Fios-check.yaml?style=flat&label=iOS%20Build&logo=apple&logoColor=white)
-](https://github.com/comaps/comaps/actions/workflows/ios-check.yaml)
-[
-  ![Donate via OpenCollective](https://img.shields.io/opencollective/all/comaps?logo=opencollective&color=blue&label=Open%20Collective%20Donors)
-](https://opencollective.com/comaps)
-[
-  ![Donate via Liberapay](https://img.shields.io/liberapay/patrons/CoMaps.svg?logo=liberapay&label=Liberapay%20Patrons&color=efcc00&)
-](https://liberapay.com/CoMaps)
+<!-- Navigation Bar -->
+<p align="center">
+  <a href="https://codeberg.org/comaps#comaps">Project Intro</a> |
+  <a href="https://codeberg.org/comaps/Governance#comaps-project-governance-docs">Governance</a> |
+  <a href="https://codeberg.org/comaps/Governance/src/branch/main/FAQ.md">FAQ</a> |
+  <a href="#contributing">Contribute</a> |
+  <a href="https://www.comaps.app/donate">Donate</a> |
+  <a href="https://codeberg.org/comaps#keep-connected">Keep Connected</a>
+</p>
 
 
 
-A community-led free & open source maps app based on [OpenStreetMap](https://www.openstreetmap.org) data and reinforced with commitment to transparency, privacy and being not-for-profit. CoMaps is a fork/spin-off of Organic Maps, which in turn is a fork of Maps.ME.
+<div align="center">
+<h1><a href="https://comaps.app/">CoMaps</a></h1>
+<h2>Hike, Bike, Drive Offline - Easy Map Navigation with Privacy</h2>
+</div>
+<div align="center">
+  <p align="center">
+    <a href="https://codeberg.org/comaps/comaps/releases">
+      <img src="https://img.shields.io/github/license/comaps/comaps?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=588157" alt="License" style="width: 90%; max-width: 150px;"/>
+    </a>
+    <a href="https://github.com/comaps/comaps/actions/workflows/android-check.yaml">
+      <img src="https://img.shields.io/github/actions/workflow/status/comaps/comaps/.github/workflows/android-check.yaml?label=Android%20Build&logo=android&logoColor=white&style=for-the-badge&color=588157" alt="Android Build Status" style="width: 90%; max-width: 170px;"/>
+    </a>
+    <a href="https://github.com/comaps/comaps/actions/workflows/ios-check.yaml">
+      <img src="https://img.shields.io/github/actions/workflow/status/comaps/comaps/.github/workflows/ios-check.yaml?label=iOS%20Build&logo=apple&logoColor=white&style=for-the-badge&color=588157" alt="iOS Build Status" style="width: 90%; max-width: 145px;"/>
+    </a>
+    <a href="https://opencollective.com/comaps">
+      <img src="https://img.shields.io/opencollective/all/comaps?label=Open%20Collective%20Donors&logo=opencollective&logoColor=white&style=for-the-badge&color=588157" alt="Open Collective Donors" style="width: 90%; max-width: 191px;"/>
+    </a>
+    <a href="https://liberapay.com/CoMaps">
+      <img src="https://img.shields.io/liberapay/patrons/CoMaps.svg?label=Liberapay%20Patrons&logo=liberapay&logoColor=white&style=for-the-badge&color=588157" alt="Liberapay Patrons" style="width: 90%; max-width: 160px;"/>
+    </a>
+  </p>
+</div>
 
-There are apps for Android and iOS (and ARM MacOS).
-An alpha Linux / MacOS Qt desktop version, which is also suitable for Linux phones.
+---
 
-[<img src="docs/badges/apple-appstore.png" alt="App Store" width="160">](https://apps.apple.com/app/comaps/id6747180809)
-[<img src="docs/badges/google-play.png" alt="Google Play" width="160">](https://play.google.com/store/apps/details?id=app.comaps.google)
-[<img src="docs/badges/fdroid.png" alt="F-Droid" width="160">](https://f-droid.org/en/packages/app.comaps.fdroid/)
-[<img src="docs/badges/codeberg.png" alt="Codeberg" width="160">](https://codeberg.org/comaps/comaps/releases)
+A community-led free & open source maps app based on [OpenStreetMap](https://www.openstreetmap.org), built for transparency, privacy, and not-for-profit values. A fork of Organic Maps, originally based on Maps.ME.
 
-<p float="left">
+**Available for:** Android, iOS, ARM macOS, and alpha Linux/macOS desktop builds (also usable on Linux phones).
+
+<p align="center">
+  <a href="https://apps.apple.com/app/comaps/id6747180809">
+    <img src="docs/badges/apple-appstore.png" alt="App Store" width="160"/>
+  </a>
+  <a href="https://play.google.com/store/apps/details?id=app.comaps.google">
+    <img src="docs/badges/google-play.png" alt="Google Play" width="160"/>
+  </a>
+  <a href="https://f-droid.org/en/packages/app.comaps.fdroid/">
+    <img src="docs/badges/fdroid.png" alt="F-Droid" width="160"/>
+  </a>
+  <a href="https://codeberg.org/comaps/comaps/releases">
+    <img src="docs/badges/codeberg.png" alt="Codeberg" width="160"/>
+  </a>
+</p>
+
+
+<!-- Screenshots -->
+<p align="center">
   <img src="android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/1.png" width="180" />
   <img src="android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/2.png" width="180" />
   <img src="android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/3.png" width="180" />
   <img src="android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/4.png" width="180" />
+  <img src="android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/5.png" width="180" />
+  <img src="android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/6.png" width="180" />
 </p>
 
-**Offline-focused**: Plan and navigate your trip abroad without the need for cellular service, search waypoints while on a distant hike, etc. All app functions are designed to work offline.
+---
 
-**Respecting Privacy**: The app is designed with privacy in mind - does not identify people, does not track, and does not collect personal information. Ads-free.
+## ⚡️ Highlights
 
-**Simple and Polished**: Essential, easy to use features that just work.
+- **Offline-first**: Navigate without a connection
+- **Privacy-respecting**: No tracking, Ads or data collection
+- **Lightweight**: Battery- and space-efficient
+- **Simple**: Polished, user-focused interface
+- **Community-built**: Free, open source, and collaborative
+- **Transparent**: Open finances and governance
 
-**Saves Your Battery and Space**: Doesn’t drain your battery like other navigation apps. Compact maps save precious space on your phone.
+---
 
-**Free and Built by the Community**: People like you helped build the app by adding places to [OpenStreetMap](https://www.openstreetmap.org), testing and giving feedback on features and contributing their development skills and money.
-
-**Open and Transparent Decision-making and Financials, Not-for-profit and Fully Open Source.**
-
-### Main Features
+## 🚀 Main Features
 
 - Downloadable detailed maps with places which are not available with Google Maps
 
@@ -86,41 +109,46 @@ An alpha Linux / MacOS Qt desktop version, which is also suitable for Linux phon
 
 - Android Auto and CarPlay support
 
-*Freedom Is Here - Discover your journey, navigate the world with privacy and community at the forefront!*
+ ***Freedom Is Here – Navigate the world with privacy and community at the forefront.***
 
-## Contributing
+---
+
+## 🤝 Contributing
 
 You can help by donating, contributing code, translating, or by telling others about it. To build the best maps app there is a need for software development, design, product, community development, and other areas. Reach out to us and let us know how you want to help.
 
-If you want to build the project, check [docs/INSTALL.md](docs/INSTALL.md). If you want to help the project,
-see [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md). You can help in many ways, the ability to code is not necessary.
+- Build instructions: [docs/INSTALL.md](docs/INSTALL.md)  
+- Contribution guide: [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md)
+> [!NOTE]  
+> Some docs might be outdated, contain broken links or old references to Organic Maps, etc. Its a work in progress and help is much appreciated!
 
-Some docs might be outdated, contain broken links or old references to Organic Maps, etc. Its a work in progress and help is much appreciated!
+There is a dedicated Zulip chat for active contributors: [Zulip](https://comaps.zulipchat.com)
 
-There is a dedicated Zulip chat for active contributors: [comaps.zulipchat.com](https://comaps.zulipchat.com)
+---
 
-### Feedback
+## 💬 Feedback
 
+- Rate us on [App Store](https://apps.apple.com/app/comaps/id6747180809) and [Google Play](https://play.google.com/store/apps/details?id=app.comaps.google)
+- Star our repos on Codeberg 
+- Report bugs or request features on the [issue tracker](https://codeberg.org/comaps/comaps/issues)
 
-- **Rate us on the [App Store](https://apps.apple.com/app/comaps/id6747180809)
-and [Google Play](https://play.google.com/store/apps/details?id=app.comaps.google)**.
-- Star our repos on Codeberg
-- Report bugs and discuss features at [the issue tracker](https://codeberg.org/comaps/comaps/issues)
+---
 
-## How is development funded?
+## 💸 Funding
 
-The app is free for everyone, so we rely on donations. Please [donate](https://opencollective.com/comaps/donate) to support the CoMaps community and see this open project thrive!
-
+CoMaps is free. To stay that way, it relies on your support.  
+Donate via [OpenCollective](https://opencollective.com/comaps/donate) or [Liberapay](https://liberapay.com/CoMaps).  
 The project's financial information is completely open and transparent at [our Open Collective](https://opencollective.com/comaps).
 
-## Privacy
+---
 
-The Android application was analysed by the [Exodus platform](https://reports.exodus-privacy.eu.org/fr/reports/app.comaps.google/latest/)
+## 🔒 Privacy
 
-## License and Copyright
+The Android app has been reviewed by [Exodus Privacy](https://reports.exodus-privacy.eu.org/fr/reports/app.comaps.google/latest/).
 
-Licensed under the Apache License, Version 2.0. See
-[LICENSE](LICENSE),
-[NOTICE](NOTICE)
-and [data/copyright.html](data/copyright.html)
-for more information.
+---
+
+## ⚖️ License
+
+Licensed under the Apache License 2.0.  
+See [LICENSE](LICENSE), [NOTICE](NOTICE), and [data/copyright.html](data/copyright.html). 
