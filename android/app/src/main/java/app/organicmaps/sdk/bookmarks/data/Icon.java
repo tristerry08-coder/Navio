@@ -74,39 +74,25 @@ public class Icon implements Parcelable
   /// @todo Can make better: take name-by-type from Core and make a concat: "R.drawable.ic_bookmark_" + name.
   // First icon should be "none" <-> BOOKMARK_ICON_TYPE_NONE.
   @DrawableRes
-  private static final int[] TYPE_ICONS = { R.drawable.ic_bookmark_none,
-                                            R.drawable.ic_bookmark_hotel,
-                                            R.drawable.ic_bookmark_animals,
-                                            R.drawable.ic_bookmark_buddhism,
-                                            R.drawable.ic_bookmark_building,
-                                            R.drawable.ic_bookmark_christianity,
-                                            R.drawable.ic_bookmark_entertainment,
-                                            R.drawable.ic_bookmark_money,
-                                            R.drawable.ic_bookmark_food,
-                                            R.drawable.ic_bookmark_gas,
-                                            R.drawable.ic_bookmark_judaism,
-                                            R.drawable.ic_bookmark_medicine,
-                                            R.drawable.ic_bookmark_mountain,
-                                            R.drawable.ic_bookmark_museum,
-                                            R.drawable.ic_bookmark_islam,
-                                            R.drawable.ic_bookmark_park,
-                                            R.drawable.ic_bookmark_parking,
-                                            R.drawable.ic_bookmark_shop,
-                                            R.drawable.ic_bookmark_sights,
-                                            R.drawable.ic_bookmark_swim,
-                                            R.drawable.ic_bookmark_water,
-                                            R.drawable.ic_bookmark_bar,
-                                            R.drawable.ic_bookmark_transport,
-                                            R.drawable.ic_bookmark_viewpoint,
-                                            R.drawable.ic_bookmark_sport,
-                                            R.drawable.ic_bookmark_none,  // pub
-                                            R.drawable.ic_bookmark_none,  // art
-                                            R.drawable.ic_bookmark_none,  // bank
-                                            R.drawable.ic_bookmark_none,  // cafe
-                                            R.drawable.ic_bookmark_none,  // pharmacy
-                                            R.drawable.ic_bookmark_none,  // stadium
-                                            R.drawable.ic_bookmark_none,  // theatre
-                                            R.drawable.ic_bookmark_none   // information
+  private static final int[] TYPE_ICONS = {
+      R.drawable.ic_bookmark_none,          R.drawable.ic_bookmark_hotel,     R.drawable.ic_bookmark_animals,
+      R.drawable.ic_bookmark_buddhism,      R.drawable.ic_bookmark_building,  R.drawable.ic_bookmark_christianity,
+      R.drawable.ic_bookmark_entertainment, R.drawable.ic_bookmark_money,     R.drawable.ic_bookmark_food,
+      R.drawable.ic_bookmark_gas,           R.drawable.ic_bookmark_judaism,   R.drawable.ic_bookmark_medicine,
+      R.drawable.ic_bookmark_mountain,      R.drawable.ic_bookmark_museum,    R.drawable.ic_bookmark_islam,
+      R.drawable.ic_bookmark_park,          R.drawable.ic_bookmark_parking,   R.drawable.ic_bookmark_shop,
+      R.drawable.ic_bookmark_sights,        R.drawable.ic_bookmark_swim,      R.drawable.ic_bookmark_water,
+      R.drawable.ic_bookmark_bar,           R.drawable.ic_bookmark_transport, R.drawable.ic_bookmark_viewpoint,
+      R.drawable.ic_bookmark_sport,
+      R.drawable.ic_bookmark_none, // pub
+      R.drawable.ic_bookmark_none, // art
+      R.drawable.ic_bookmark_none, // bank
+      R.drawable.ic_bookmark_none, // cafe
+      R.drawable.ic_bookmark_none, // pharmacy
+      R.drawable.ic_bookmark_none, // stadium
+      R.drawable.ic_bookmark_none, // theatre
+      R.drawable.ic_bookmark_none, // information
+      R.drawable.ic_bookmark_none  // ChargingStation
   };
 
   @PredefinedColor
