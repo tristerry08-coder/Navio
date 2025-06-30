@@ -292,18 +292,25 @@ public class BackupSettingsFragment
           @Override
           public void onBackupFailed(LocalBackupManager.ErrorCode errorCode)
           {
-            String errorMessage = switch (errorCode)
+            String errorMessage;
+            if (errorCode == LocalBackupManager.ErrorCode.EMPTY_CATEGORY)
             {
-              case EMPTY_CATEGORY -> requireContext().getString(R.string.pref_backup_now_summary_empty_lists);
-              default -> requireContext().getString(R.string.pref_backup_now_summary_failed);
-            };
-
-            Logger.e(TAG, "Manual backup was failed with code: " + errorCode);
+              errorMessage = requireContext().getString(R.string.pref_backup_now_summary_empty_lists);
+              Logger.i(TAG, "Nothing to backup");
+            }
+            else
+            {
+              errorMessage = requireContext().getString(R.string.pref_backup_now_summary_failed);
+              Logger.e(TAG, "Manual backup has failed: " + errorCode);
+            }
 
             backupNowOption.setEnabled(true);
             backupNowOption.setSummary(errorMessage);
 
-            showBackupErrorAlertDialog(requireContext().getString(R.string.dialog_report_error_with_logs));
+            if (errorCode != LocalBackupManager.ErrorCode.EMPTY_CATEGORY)
+            {
+              showBackupErrorAlertDialog(requireContext().getString(R.string.dialog_report_error_with_logs));
+            }
           }
         });
 
