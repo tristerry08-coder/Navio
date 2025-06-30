@@ -13,16 +13,16 @@
 # [CoMaps](https://comaps.app) – Hike, Bike, Drive Offline – Easy Map Navigation with Privacy
 
 [
-  ![GitHub Actions Workflow Android Status](https://img.shields.io/github/actions/workflow/status/comaps/comaps/.github%2Fworkflows%2Fandroid-check.yaml?style=flat&label=Android%20Build)
+  ![GitHub Actions Workflow Android Status](https://img.shields.io/github/actions/workflow/status/comaps/comaps/.github%2Fworkflows%2Fandroid-check.yaml?style=flat&label=Android%20Build&logo=android&logoColor=white)
 ](https://github.com/comaps/comaps/actions/workflows/android-check.yaml)
 [
-  ![GitHub Actions Workflow iOS Status](https://img.shields.io/github/actions/workflow/status/comaps/comaps/.github%2Fworkflows%2Fios-check.yaml?style=flat&label=iOS%20Build)
+  ![GitHub Actions Workflow iOS Status](https://img.shields.io/github/actions/workflow/status/comaps/comaps/.github%2Fworkflows%2Fios-check.yaml?style=flat&label=iOS%20Build&logo=apple&logoColor=white)
 ](https://github.com/comaps/comaps/actions/workflows/ios-check.yaml)
 [
-  ![Donate via OpenCollective](https://img.shields.io/opencollective/all/comaps?color=blue&label=Open%20Collective%20Donors)
+  ![Donate via OpenCollective](https://img.shields.io/opencollective/all/comaps?logo=opencollective&color=blue&label=Open%20Collective%20Donors)
 ](https://opencollective.com/comaps)
 [
-  ![Donate via Liberapay](https://img.shields.io/liberapay/patrons/CoMaps.svg?logo=liberapay&label=Liberapay%20Patrons)
+  ![Donate via Liberapay](https://img.shields.io/liberapay/patrons/CoMaps.svg?logo=liberapay&label=Liberapay%20Patrons&color=efcc00&)
 ](https://liberapay.com/CoMaps)
 
 
