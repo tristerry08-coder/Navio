@@ -11,7 +11,7 @@
   android:paddingEnd="@dimen/margin_base"
   android:paddingStart="@dimen/margin_half_plus">
 
-  <RadioButton
+  <com.google.android.material.radiobutton.MaterialRadioButton
     android:id="@+id/selected"
     android:layout_width="48dp"
     android:layout_height="48dp"
@@ -31,7 +31,7 @@
     app:layout_constraintStart_toEndOf="@+id/selected"
     app:layout_constraintTop_toTopOf="parent">
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:id="@+id/street_default"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
       android:textAppearance="@style/MwmTextAppearance.Body1"
       tools:text="Street name"/>
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:id="@+id/street_localized"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"

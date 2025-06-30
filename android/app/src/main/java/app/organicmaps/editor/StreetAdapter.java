@@ -4,11 +4,12 @@ import android.content.res.Resources;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.CompoundButton;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.radiobutton.MaterialRadioButton;
+import com.google.android.material.textview.MaterialTextView;
 
 import app.organicmaps.MwmApplication;
 import app.organicmaps.R;
@@ -86,9 +87,9 @@ public class StreetAdapter extends RecyclerView.Adapter<StreetAdapter.BaseViewHo
 
   protected class StreetViewHolder extends BaseViewHolder implements View.OnClickListener
   {
-    final TextView streetDef;
-    final TextView streetLoc;
-    final CompoundButton selected;
+    final MaterialTextView streetDef;
+    final MaterialTextView streetLoc;
+    final MaterialRadioButton selected;
 
     public StreetViewHolder(View itemView)
     {

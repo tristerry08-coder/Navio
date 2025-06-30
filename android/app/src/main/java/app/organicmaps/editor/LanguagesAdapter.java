@@ -3,10 +3,11 @@ package app.organicmaps.editor;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.textview.MaterialTextView;
 
 import app.organicmaps.R;
 import app.organicmaps.editor.data.Language;
@@ -42,12 +43,12 @@ public class LanguagesAdapter extends RecyclerView.Adapter<LanguagesAdapter.Hold
 
   protected class Holder extends RecyclerView.ViewHolder
   {
-    TextView name;
+    MaterialTextView name;
 
     public Holder(View itemView)
     {
       super(itemView);
-      name = (TextView) itemView;
+      name = (MaterialTextView) itemView;
       itemView.setOnClickListener(v -> mFragment.onLanguageSelected(mLanguages[getBindingAdapterPosition()]));
     }
 

@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -19,6 +18,7 @@ import app.organicmaps.R;
 import app.organicmaps.base.BaseMwmFragment;
 import app.organicmaps.util.UiUtils;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import com.google.android.material.textview.MaterialTextView;
 
 public class TimetableContainerFragment extends BaseMwmFragment implements TimetableChangedListener
 {
@@ -71,7 +71,7 @@ public class TimetableContainerFragment extends BaseMwmFragment implements Timet
 
   @SuppressWarnings("NullableProblems")
   @NonNull
-  private TextView mSwitchMode;
+  private MaterialTextView mSwitchMode;
 
   @SuppressWarnings("NullableProblems")
   @NonNull

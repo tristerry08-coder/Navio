@@ -8,8 +8,6 @@ import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import androidx.annotation.CallSuper;
 import androidx.annotation.DrawableRes;
@@ -22,8 +20,11 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import com.google.android.material.imageview.ShapeableImageView;
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textview.MaterialTextView;
+
 import app.organicmaps.Framework;
 import app.organicmaps.R;
 import app.organicmaps.base.BaseMwmFragment;
@@ -46,7 +47,7 @@ public class EditorFragment extends BaseMwmFragment implements View.OnClickListe
 {
   final static String LAST_INDEX_OF_NAMES_ARRAY = "LastIndexOfNamesArray";
 
-  private TextView mCategory;
+  private MaterialTextView mCategory;
   private View mCardName;
   private View mCardAddress;
   private View mCardDetails;
@@ -89,20 +90,20 @@ public class EditorFragment extends BaseMwmFragment implements View.OnClickListe
   };
 
   private MultilanguageAdapter mNamesAdapter;
-  private TextView mNamesCaption;
-  private TextView mAddLanguage;
-  private TextView mMoreLanguages;
+  private MaterialTextView mNamesCaption;
+  private MaterialTextView mAddLanguage;
+  private MaterialTextView mMoreLanguages;
 
-  private TextView mStreet;
+  private MaterialTextView mStreet;
   private TextInputEditText mHouseNumber;
   private TextInputEditText mBuildingLevels;
 
   // Define Metadata entries, that have more tricky logic, separately.
-  private TextView mPhone;
-  private TextView mEditPhoneLink;
-  private TextView mCuisine;
+  private MaterialTextView mPhone;
+  private MaterialTextView mEditPhoneLink;
+  private MaterialTextView mCuisine;
   private SwitchCompat mWifi;
-  private TextView mSelfService;
+  private MaterialTextView mSelfService;
   private SwitchCompat mOutdoorSeating;
 
   // Default Metadata entries.
@@ -132,12 +133,12 @@ public class EditorFragment extends BaseMwmFragment implements View.OnClickListe
   private TextInputLayout mInputBuildingLevels;
 
   private View mEmptyOpeningHours;
-  private TextView mOpeningHours;
+  private MaterialTextView mOpeningHours;
   private View mEditOpeningHours;
   private TextInputEditText mDescription;
   private final Map<Metadata.MetadataType, View> mDetailsBlocks = new HashMap<>();
   private final Map<Metadata.MetadataType, View> mSocialMediaBlocks = new HashMap<>();
-  private TextView mReset;
+  private MaterialTextView mReset;
 
   private EditorHostFragment mParent;
 
@@ -489,7 +490,7 @@ public class EditorFragment extends BaseMwmFragment implements View.OnClickListe
     mOpeningHours.setOnClickListener(this);
     final View cardMore = view.findViewById(R.id.cv__more);
     mDescription = findInput(cardMore);
-    TextView osmInfo = view.findViewById(R.id.osm_info);
+    MaterialTextView osmInfo = view.findViewById(R.id.osm_info);
     osmInfo.setMovementMethod(LinkMovementMethod.getInstance());
     mReset = view.findViewById(R.id.reset);
     mReset.setOnClickListener(this);
@@ -529,7 +530,7 @@ public class EditorFragment extends BaseMwmFragment implements View.OnClickListe
 
   private static TextInputEditText findInputAndInitBlock(View blockWithInput, @DrawableRes int icon, String hint)
   {
-    ((ImageView) blockWithInput.findViewById(R.id.icon)).setImageResource(icon);
+    ((ShapeableImageView) blockWithInput.findViewById(R.id.icon)).setImageResource(icon);
     final TextInputLayout input = blockWithInput.findViewById(R.id.custom_input);
     input.setHint(hint);
     return input.findViewById(R.id.input);

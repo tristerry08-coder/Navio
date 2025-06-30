@@ -6,7 +6,7 @@
   android:paddingBottom="@dimen/margin_base_plus"
   android:paddingTop="@dimen/margin_base_plus">
 
-  <Button
+  <com.google.android.material.button.MaterialButton
     android:id="@+id/btn__add_time"
     style="@style/MwmWidget.Button.Primary"
     android:layout_gravity="center"

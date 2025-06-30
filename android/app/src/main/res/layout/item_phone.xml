@@ -8,7 +8,7 @@
     android:paddingStart="@dimen/margin_half_plus"
     android:paddingEnd="@dimen/margin_half">
 
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/phone_icon"
         style="@style/MwmWidget.Editor.MetadataIcon"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,7 +37,7 @@
             android:inputType="phone"/>
     </com.google.android.material.textfield.TextInputLayout>
 
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
       android:id="@+id/delete_icon"
       style="@style/MwmWidget.Editor.MetadataIcon"
       android:layout_marginStart="@dimen/margin_half"

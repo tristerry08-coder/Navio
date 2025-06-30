@@ -7,8 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
@@ -20,7 +18,10 @@ import app.organicmaps.util.Constants;
 import app.organicmaps.util.Graphics;
 import app.organicmaps.util.InputUtils;
 import app.organicmaps.util.UiUtils;
+
+import com.google.android.material.imageview.ShapeableImageView;
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textview.MaterialTextView;
 
 public class AdvancedTimetableFragment extends BaseMwmFragment
                                        implements View.OnClickListener, TimetableProvider
@@ -28,8 +29,8 @@ public class AdvancedTimetableFragment extends BaseMwmFragment
   private boolean mIsExampleShown;
   private TextInputEditText mInput;
   private WebView mExample;
-  private TextView mExamplesTitle;
-  private static ImageView mSaveButton;
+  private MaterialTextView mExamplesTitle;
+  private static ShapeableImageView mSaveButton;
   @Nullable
   private String mInitTimetables;
   @Nullable

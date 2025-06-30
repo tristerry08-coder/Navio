@@ -4,11 +4,12 @@ import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.textview.MaterialTextView;
 
 import app.organicmaps.R;
 import app.organicmaps.editor.data.FeatureCategory;
@@ -78,7 +79,7 @@ public class FeatureCategoryAdapter extends RecyclerView.Adapter<RecyclerView.Vi
   protected class FeatureViewHolder extends RecyclerView.ViewHolder
   {
     @NonNull
-    private final TextView mName;
+    private final MaterialTextView mName;
     @NonNull
     private final View mSelected;
 
@@ -106,7 +107,7 @@ public class FeatureCategoryAdapter extends RecyclerView.Adapter<RecyclerView.Vi
     FooterViewHolder(@NonNull View itemView)
     {
       super(itemView);
-      TextView categoryUnsuitableText = itemView.findViewById(R.id.editor_category_unsuitable_text);
+      MaterialTextView categoryUnsuitableText = itemView.findViewById(R.id.editor_category_unsuitable_text);
       categoryUnsuitableText.setMovementMethod(LinkMovementMethod.getInstance());
     }
   }

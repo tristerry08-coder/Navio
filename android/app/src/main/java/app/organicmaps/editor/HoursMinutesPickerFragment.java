@@ -8,8 +8,6 @@ import android.os.Bundle;
 import android.text.format.DateFormat;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
 import android.widget.TimePicker;
 
 import androidx.annotation.IntRange;
@@ -19,8 +17,11 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.content.res.AppCompatResources;
 import androidx.fragment.app.FragmentManager;
 
+import com.google.android.material.button.MaterialButton;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.tabs.TabLayout;
+import com.google.android.material.textview.MaterialTextView;
+
 import app.organicmaps.R;
 import app.organicmaps.base.BaseMwmDialogFragment;
 import app.organicmaps.editor.data.HoursMinutes;
@@ -48,7 +49,7 @@ public class HoursMinutesPickerFragment extends BaseMwmDialogFragment
   private TabLayout mTabs;
 
   private int mId;
-  private Button mOkButton;
+  private MaterialButton mOkButton;
 
   public interface OnPickListener
   {
@@ -90,7 +91,7 @@ public class HoursMinutesPickerFragment extends BaseMwmDialogFragment
         .create();
 
     dialog.setOnShowListener(dialogInterface -> {
-      mOkButton = dialog.getButton(AlertDialog.BUTTON_POSITIVE);
+      mOkButton = (MaterialButton) dialog.getButton(AlertDialog.BUTTON_POSITIVE);
       mOkButton.setOnClickListener(v -> {
         if (mSelectedTab == TAB_FROM)
         {
@@ -134,19 +135,19 @@ public class HoursMinutesPickerFragment extends BaseMwmDialogFragment
     if (id != 0)
     {
       mPickerHoursLabel = mPicker.findViewById(id);
-      if (!(mPickerHoursLabel instanceof TextView))
+      if (!(mPickerHoursLabel instanceof MaterialTextView))
         mPickerHoursLabel = null;
     }
 
     mTabs = root.findViewById(R.id.tabs);
-    TextView tabView = (TextView) inflater.inflate(R.layout.tab_timepicker, mTabs, false);
+    MaterialTextView tabView = (MaterialTextView) inflater.inflate(R.layout.tab_timepicker, mTabs, false);
     tabView.setText(getResources().getString(R.string.editor_time_from));
     final ColorStateList textColor = AppCompatResources.getColorStateList(requireContext(),
         ThemeUtils.isNightTheme(requireContext()) ? R.color.accent_color_selector_night
                                                   : R.color.accent_color_selector);
     tabView.setTextColor(textColor);
     mTabs.addTab(mTabs.newTab().setCustomView(tabView), true);
-    tabView = (TextView) inflater.inflate(R.layout.tab_timepicker, mTabs, false);
+    tabView = (MaterialTextView) inflater.inflate(R.layout.tab_timepicker, mTabs, false);
     tabView.setText(getResources().getString(R.string.editor_time_to));
     tabView.setTextColor(textColor);
     mTabs.addTab(mTabs.newTab().setCustomView(tabView), true);

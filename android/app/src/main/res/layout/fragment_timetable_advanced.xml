@@ -13,7 +13,7 @@
     android:orientation="vertical"
     android:padding="@dimen/margin_half">
 
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       card_view:cardBackgroundColor="?cardBackground"
@@ -33,9 +33,9 @@
         tools:hint="hint"
         tools:text="trololo \ntrololo \ntrololo"/>
 
-    </androidx.cardview.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
 
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_marginTop="@dimen/margin_half"
@@ -50,7 +50,7 @@
         android:orientation="vertical"
         android:animateLayoutChanges="true">
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:id="@+id/tv__examples_title"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
@@ -75,7 +75,7 @@
 
       </LinearLayout>
 
-    </androidx.cardview.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
 
   </LinearLayout>
 

@@ -4,7 +4,7 @@
   xmlns:app="http://schemas.android.com/apk/res-auto"
   xmlns:tools="http://schemas.android.com/tools"
   style="@style/MwmWidget.Editor.MetadataBlock">
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/icon"
     style="@style/MwmWidget.Editor.MetadataIcon"
     app:layout_constraintBottom_toBottomOf="parent"

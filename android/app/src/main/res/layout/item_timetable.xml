@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView
+<com.google.android.material.card.MaterialCardView
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:tools="http://schemas.android.com/tools"
   style="@style/MwmWidget.Editor.CardView"
@@ -23,12 +23,12 @@
         android:id="@+id/day1"
         style="@style/MwmWidget.Editor.DayLayout">
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:id="@+id/tv__day"
           style="@style/MwmWidget.Editor.DayText"
           tools:text="Su"/>
 
-        <CheckBox
+        <com.google.android.material.checkbox.MaterialCheckBox
           android:id="@+id/chb__day"
           style="@style/MwmWidget.Editor.DayCheckBox"/>
 
@@ -44,12 +44,12 @@
         style="@style/MwmWidget.Editor.DayLayout"
         android:layout_weight="1">
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:id="@id/tv__day"
           style="@style/MwmWidget.Editor.DayText"
           tools:text="Mo"/>
 
-        <CheckBox
+        <com.google.android.material.checkbox.MaterialCheckBox
           android:id="@id/chb__day"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"/>
@@ -61,12 +61,12 @@
         style="@style/MwmWidget.Editor.DayLayout"
         android:layout_weight="1">
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:id="@id/tv__day"
           style="@style/MwmWidget.Editor.DayText"
           tools:text="Tu"/>
 
-        <CheckBox
+        <com.google.android.material.checkbox.MaterialCheckBox
           android:id="@id/chb__day"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"/>
@@ -78,12 +78,12 @@
         style="@style/MwmWidget.Editor.DayLayout"
         android:layout_weight="1">
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:id="@id/tv__day"
           style="@style/MwmWidget.Editor.DayText"
           tools:text="We"/>
 
-        <CheckBox
+        <com.google.android.material.checkbox.MaterialCheckBox
           android:id="@id/chb__day"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"/>
@@ -95,12 +95,12 @@
         style="@style/MwmWidget.Editor.DayLayout"
         android:layout_weight="1">
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:id="@id/tv__day"
           style="@style/MwmWidget.Editor.DayText"
           tools:text="Th"/>
 
-        <CheckBox
+        <com.google.android.material.checkbox.MaterialCheckBox
           android:id="@id/chb__day"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"/>
@@ -112,12 +112,12 @@
         style="@style/MwmWidget.Editor.DayLayout"
         android:layout_weight="1">
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:id="@id/tv__day"
           style="@style/MwmWidget.Editor.DayText"
           tools:text="Fr"/>
 
-        <CheckBox
+        <com.google.android.material.checkbox.MaterialCheckBox
           android:id="@id/chb__day"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"/>
@@ -133,12 +133,12 @@
         android:id="@+id/day7"
         style="@style/MwmWidget.Editor.DayLayout">
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:id="@id/tv__day"
           style="@style/MwmWidget.Editor.DayText"
           tools:text="Sa"/>
 
-        <CheckBox
+        <com.google.android.material.checkbox.MaterialCheckBox
           android:id="@id/chb__day"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"/>
@@ -162,7 +162,7 @@
       android:orientation="horizontal"
       android:padding="@dimen/margin_half_plus">
 
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -206,14 +206,14 @@
           android:orientation="vertical"
           android:padding="@dimen/margin_half_plus">
 
-          <TextView
+          <com.google.android.material.textview.MaterialTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/margin_eighth"
             android:text="@string/editor_time_open"
             android:textAppearance="@style/MwmTextAppearance.Body3"/>
 
-          <TextView
+          <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tv__time_open"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -231,14 +231,14 @@
           android:orientation="vertical"
           android:padding="@dimen/margin_half_plus">
 
-          <TextView
+          <com.google.android.material.textview.MaterialTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/margin_eighth"
             android:text="@string/editor_time_close"
             android:textAppearance="@style/MwmTextAppearance.Body3"/>
 
-          <TextView
+          <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tv__time_close"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -261,7 +261,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"/>
 
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tv__add_closed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -274,7 +274,7 @@
 
     </LinearLayout>
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:id="@+id/tv__remove_timetable"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -287,4 +287,4 @@
 
   </LinearLayout>
 
-</androidx.cardview.widget.CardView>
+</com.google.android.material.card.MaterialCardView>

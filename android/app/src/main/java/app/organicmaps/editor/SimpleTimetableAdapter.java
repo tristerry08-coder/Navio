@@ -4,11 +4,8 @@ import android.util.SparseArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import androidx.annotation.IdRes;
 import androidx.annotation.IntRange;
@@ -16,6 +13,10 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.widget.SwitchCompat;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.button.MaterialButton;
+import com.google.android.material.checkbox.MaterialCheckBox;
+import com.google.android.material.textview.MaterialTextView;
 
 import app.organicmaps.R;
 import app.organicmaps.editor.data.HoursMinutes;
@@ -185,15 +186,15 @@ class SimpleTimetableAdapter extends RecyclerView.Adapter<SimpleTimetableAdapter
     // Limit closed spans to avoid dynamic inflation of views in recycler's children. Yeah, its a hack.
     static final int MAX_CLOSED_SPANS = 10;
 
-    SparseArray<CheckBox> days = new SparseArray<>(7);
+    SparseArray<MaterialCheckBox> days = new SparseArray<>(7);
     View allday;
     SwitchCompat swAllday;
     View schedule;
     View openClose;
     View open;
     View close;
-    TextView tvOpen;
-    TextView tvClose;
+    MaterialTextView tvOpen;
+    MaterialTextView tvClose;
     View[] closedHours = new View[MAX_CLOSED_SPANS];
     View addClosed;
     View deleteTimetable;
@@ -316,7 +317,7 @@ class SimpleTimetableAdapter extends RecyclerView.Adapter<SimpleTimetableAdapter
         else
         {
           UiUtils.show(closedHours[i]);
-          ((TextView) closedHours[i].findViewById(R.id.tv__closed)).setText(timespan.toString());
+          ((MaterialTextView) closedHours[i].findViewById(R.id.tv__closed)).setText(timespan.toString());
         }
 
         i++;
@@ -333,18 +334,18 @@ class SimpleTimetableAdapter extends RecyclerView.Adapter<SimpleTimetableAdapter
     private void addDay(@IntRange(from = 1, to = 7) final int dayIndex, @IdRes int id)
     {
       final View day = itemView.findViewById(id);
-      final CheckBox checkBox = day.findViewById(R.id.chb__day);
+      final MaterialCheckBox checkBox = day.findViewById(R.id.chb__day);
       // Save index of the day to get it back when checkbox will be toggled.
       checkBox.setTag(dayIndex);
       days.put(dayIndex, checkBox);
       day.setOnClickListener(v -> checkBox.toggle());
 
-      ((TextView) day.findViewById(R.id.tv__day)).setText(TimeFormatUtils.formatShortWeekday(dayIndex));
+      ((MaterialTextView) day.findViewById(R.id.tv__day)).setText(TimeFormatUtils.formatShortWeekday(dayIndex));
     }
 
     private void switchWorkingDay(@IntRange(from = 1, to = 7) int dayIndex)
     {
-      final CheckBox checkBox = days.get(dayIndex);
+      final MaterialCheckBox checkBox = days.get(dayIndex);
       if (checkBox.isChecked())
         addWorkingDay(dayIndex, getBindingAdapterPosition());
       else
@@ -361,7 +362,7 @@ class SimpleTimetableAdapter extends RecyclerView.Adapter<SimpleTimetableAdapter
 
   private class AddTimetableViewHolder extends BaseTimetableViewHolder
   {
-    private final Button mAdd;
+    private final MaterialButton mAdd;
 
     AddTimetableViewHolder(View itemView)
     {

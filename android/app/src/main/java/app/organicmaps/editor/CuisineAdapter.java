@@ -3,12 +3,13 @@ package app.organicmaps.editor;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.CheckBox;
 import android.widget.CompoundButton;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.checkbox.MaterialCheckBox;
+import com.google.android.material.textview.MaterialTextView;
 
 import app.organicmaps.R;
 
@@ -100,8 +101,8 @@ public class CuisineAdapter extends RecyclerView.Adapter<CuisineAdapter.ViewHold
 
   protected class ViewHolder extends RecyclerView.ViewHolder implements CompoundButton.OnCheckedChangeListener
   {
-    final TextView cuisine;
-    final CheckBox selected;
+    final MaterialTextView cuisine;
+    final MaterialCheckBox selected;
 
     public ViewHolder(View itemView)
     {

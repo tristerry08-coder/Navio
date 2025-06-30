@@ -14,7 +14,7 @@
     android:gravity="end|center_vertical"
     android:theme="@style/MwmWidget.ToolbarTheme"
     tools:ignore="UnusedAttribute">
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:id="@+id/save"
       style="@style/MwmWidget.Downloader.ToolbarButton"
       android:text="@string/editor_report_problem_send_button"/>
@@ -38,24 +38,24 @@
         android:orientation="vertical"
         tools:visibility="gone">
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:id="@+id/problem_not_exist"
           style="@style/MwmWidget.Editor.Problem"
           android:text="@string/editor_report_problem_no_place_title"
           android:tag="@string/problem_does_not_exist"/>
 
         <!-- TODO: Uncomment when the multiple choices are supported -->
-        <!--<TextView-->
+        <!--<com.google.android.material.textview.MaterialTextView-->
           <!--android:id="@+id/problem_closed_repair"-->
           <!--style="@style/MwmWidget.Editor.Problem"-->
           <!--android:text="@string/editor_report_problem_under_construction_title"/>-->
 
-        <!--<TextView-->
+        <!--<com.google.android.material.textview.MaterialTextView-->
           <!--android:id="@+id/problem_duplicated_place"-->
           <!--style="@style/MwmWidget.Editor.Problem"-->
           <!--android:text="@string/editor_report_problem_duplicate_place_title"/>-->
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:id="@+id/problem_other"
           style="@style/MwmWidget.Editor.Problem"
           android:text="@string/editor_report_problem_other_title"/>
@@ -77,7 +77,7 @@
           android:padding="@dimen/margin_base"
           android:textAppearance="@style/MwmTextAppearance.Body1"/>
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_marginStart="@dimen/margin_base"
@@ -85,7 +85,7 @@
           android:layout_marginTop="@dimen/margin_quarter_plus"
           android:text="@string/editor_report_problem_desription_1"/>
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_marginStart="@dimen/margin_base"

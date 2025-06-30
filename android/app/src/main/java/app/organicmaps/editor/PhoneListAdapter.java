@@ -4,11 +4,11 @@ import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.material.imageview.ShapeableImageView;
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.android.material.textfield.TextInputEditText;
 import app.organicmaps.R;
@@ -94,7 +94,7 @@ public class PhoneListAdapter extends RecyclerView.Adapter<PhoneListAdapter.View
   {
     private int mPosition = -1;
     private final TextInputEditText mInput;
-    private final ImageView deleteButton;
+    private final ShapeableImageView deleteButton;
 
     public ViewHolder(@NonNull View itemView)
     {
@@ -116,7 +116,7 @@ public class PhoneListAdapter extends RecyclerView.Adapter<PhoneListAdapter.View
       deleteButton.setOnClickListener(this);
       // TODO: setting icons from code because icons defined in layout XML are white.
       deleteButton.setImageResource(R.drawable.ic_delete);
-      ((ImageView) itemView.findViewById(R.id.phone_icon)).setImageResource(R.drawable.ic_phone);
+      ((ShapeableImageView) itemView.findViewById(R.id.phone_icon)).setImageResource(R.drawable.ic_phone);
     }
 
     public void setPosition(int position)

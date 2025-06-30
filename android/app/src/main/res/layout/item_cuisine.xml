@@ -8,13 +8,13 @@
   android:orientation="horizontal"
   android:padding="@dimen/margin_base">
 
-  <CheckBox
+  <com.google.android.material.checkbox.MaterialCheckBox
     android:id="@+id/selected"
     android:layout_width="48dp"
     android:layout_height="48dp"
     android:layout_marginEnd="@dimen/margin_double"/>
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/cuisine"
     android:layout_width="0dp"
     android:layout_height="wrap_content"

@@ -4,11 +4,12 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.CompoundButton;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.radiobutton.MaterialRadioButton;
+import com.google.android.material.textview.MaterialTextView;
 
 import app.organicmaps.R;
 import app.organicmaps.util.Utils;
@@ -51,8 +52,8 @@ public class SelfServiceAdapter extends RecyclerView.Adapter<SelfServiceAdapter.
 
   protected class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener
   {
-    final TextView selfServiceDef;
-    final CompoundButton selected;
+    final MaterialTextView selfServiceDef;
+    final MaterialRadioButton selected;
 
     public ViewHolder(View itemView)
     {

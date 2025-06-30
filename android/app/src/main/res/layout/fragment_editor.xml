@@ -13,7 +13,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/margin_half"
     android:orientation="vertical">
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/osm_info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,7 +21,7 @@
         android:layout_marginBottom="@dimen/margin_base"
         android:text="@string/editor_about_osm"
         android:textAppearance="@style/MwmTextAppearance.Body4"/>
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
       android:id="@+id/cv__category"
       style="@style/MwmWidget.Editor.CardView">
       <RelativeLayout
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="0dp"
         android:padding="@dimen/margin_half_plus">
-        <ImageView
+        <com.google.android.material.imageview.ShapeableImageView
           android:id="@+id/icon"
           style="@style/MwmWidget.Editor.MetadataIcon"
           android:layout_width="wrap_content"
@@ -42,7 +42,7 @@
           tools:src="@drawable/ic_operator"
           app:tint="?iconTint" />
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:id="@+id/title"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
           android:text="@string/editor_edit_place_category_title"
           android:textAppearance="@style/MwmTextAppearance.Body4"
           tools:text="Trololo"/>
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:id="@+id/name"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
@@ -61,13 +61,13 @@
           android:textAppearance="@style/MwmTextAppearance.Body1"
           tools:text="Ololo"/>
       </RelativeLayout>
-    </androidx.cardview.widget.CardView>
-    <androidx.cardview.widget.CardView
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
       android:id="@+id/cv__name"
       style="@style/MwmWidget.Editor.CardView">
       <include layout="@layout/localized_name"/>
-    </androidx.cardview.widget.CardView>
-    <androidx.cardview.widget.CardView
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
       android:id="@+id/cv__address"
       style="@style/MwmWidget.Editor.CardView">
       <LinearLayout
@@ -76,7 +76,7 @@
         android:orientation="vertical"
         android:paddingEnd="@dimen/margin_base"
         android:paddingStart="@dimen/margin_base">
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_marginTop="@dimen/margin_base"
@@ -89,18 +89,18 @@
           style="@style/MwmWidget.Editor.MetadataBlock.Clickable"
           android:paddingBottom="@dimen/margin_half"
           android:paddingTop="@dimen/margin_half">
-          <ImageView
+          <com.google.android.material.imageview.ShapeableImageView
             style="@style/MwmWidget.Editor.MetadataIcon"
             app:srcCompat="@drawable/ic_street_address"
             tools:ignore="ContentDescription" />
-          <TextView
+          <com.google.android.material.textview.MaterialTextView
             android:id="@+id/street_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/editor_margin_left"
             android:text="@string/street"
             android:textAppearance="@style/MwmTextAppearance.Body4"/>
-          <TextView
+          <com.google.android.material.textview.MaterialTextView
             android:id="@+id/street"
             style="@style/MwmWidget.Editor.FieldLayout"
             android:layout_below="@id/street_title"
@@ -124,8 +124,8 @@
           android:id="@+id/block_zipcode"
           layout="@layout/item_editor_input"/>
       </LinearLayout>
-    </androidx.cardview.widget.CardView>
-    <androidx.cardview.widget.CardView
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
       android:id="@+id/cv__details"
       style="@style/MwmWidget.Editor.CardView">
       <LinearLayout
@@ -134,7 +134,7 @@
         android:orientation="vertical"
         android:paddingEnd="@dimen/margin_base"
         android:paddingStart="@dimen/margin_base">
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_marginTop="@dimen/margin_base"
@@ -153,18 +153,18 @@
             style="@style/MwmWidget.Editor.MetadataBlock.Clickable"
             android:paddingBottom="@dimen/margin_half"
             android:paddingTop="@dimen/margin_half">
-          <ImageView
+          <com.google.android.material.imageview.ShapeableImageView
               style="@style/MwmWidget.Editor.MetadataIcon"
               app:srcCompat="@drawable/ic_cuisine"
               tools:ignore="ContentDescription" />
-          <TextView
+          <com.google.android.material.textview.MaterialTextView
               android:id="@+id/title_cuisine"
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:layout_marginStart="@dimen/editor_margin_left"
               android:text="@string/cuisine"
               android:textAppearance="@style/MwmTextAppearance.Body4"/>
-          <TextView
+          <com.google.android.material.textview.MaterialTextView
               android:id="@+id/cuisine"
               style="@style/MwmWidget.Editor.FieldLayout"
               android:layout_below="@id/title_cuisine"
@@ -197,11 +197,11 @@
         <RelativeLayout
             android:id="@+id/block_phone"
             style="@style/MwmWidget.Editor.MetadataBlock.Clickable">
-          <ImageView
+          <com.google.android.material.imageview.ShapeableImageView
               style="@style/MwmWidget.Editor.MetadataIcon"
               app:srcCompat="@drawable/ic_phone"
               tools:ignore="ContentDescription"/>
-          <TextView
+          <com.google.android.material.textview.MaterialTextView
               android:id="@+id/phone"
               style="@style/MwmWidget.Editor.FieldLayout.EditText"
               android:layout_width="match_parent"
@@ -209,7 +209,7 @@
               android:layout_centerVertical="true"
               android:layout_marginStart="@dimen/editor_margin_left"
               android:layout_toStartOf="@+id/edit_phone"/>
-          <TextView
+          <com.google.android.material.textview.MaterialTextView
               android:id="@+id/edit_phone"
               android:layout_marginStart="@dimen/margin_half_plus"
               android:background="?clickableBackground"
@@ -235,11 +235,11 @@
         <RelativeLayout
             android:id="@+id/block_wifi"
             style="@style/MwmWidget.Editor.MetadataBlock.Clickable">
-          <ImageView
+          <com.google.android.material.imageview.ShapeableImageView
               style="@style/MwmWidget.Editor.MetadataIcon"
               app:srcCompat="@drawable/ic_wifi"
               tools:ignore="ContentDescription" />
-          <TextView
+          <com.google.android.material.textview.MaterialTextView
               style="@style/MwmWidget.Editor.FieldLayout.EditText"
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
@@ -260,18 +260,18 @@
             style="@style/MwmWidget.Editor.MetadataBlock.Clickable"
             android:paddingBottom="@dimen/margin_half"
             android:paddingTop="@dimen/margin_half">
-          <ImageView
+          <com.google.android.material.imageview.ShapeableImageView
               style="@style/MwmWidget.Editor.MetadataIcon"
               app:srcCompat="@drawable/ic_self_service"
               tools:ignore="ContentDescription" />
-          <TextView
+          <com.google.android.material.textview.MaterialTextView
               android:id="@+id/self_service_title"
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:layout_marginStart="@dimen/editor_margin_left"
               android:text="@string/self_service"
               android:textAppearance="@style/MwmTextAppearance.Body4"/>
-          <TextView
+          <com.google.android.material.textview.MaterialTextView
               android:id="@+id/self_service"
               style="@style/MwmWidget.Editor.FieldLayout"
               android:layout_below="@id/self_service_title"
@@ -292,11 +292,11 @@
         <RelativeLayout
             android:id="@+id/block_outdoor_seating"
             style="@style/MwmWidget.Editor.MetadataBlock.Clickable">
-          <ImageView
+          <com.google.android.material.imageview.ShapeableImageView
               style="@style/MwmWidget.Editor.MetadataIcon"
               app:srcCompat="@drawable/ic_outdoor_seating"
               tools:ignore="ContentDescription" />
-          <TextView
+          <com.google.android.material.textview.MaterialTextView
               style="@style/MwmWidget.Editor.FieldLayout.EditText"
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
@@ -312,9 +312,9 @@
               android:layout_centerVertical="true"/>
         </RelativeLayout>
       </LinearLayout>
-    </androidx.cardview.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
 
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
       android:id="@+id/cv__social_media"
       style="@style/MwmWidget.Editor.CardView">
       <LinearLayout
@@ -323,7 +323,7 @@
         android:orientation="vertical"
         android:paddingEnd="@dimen/margin_base"
         android:paddingStart="@dimen/margin_base">
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_marginTop="@dimen/margin_base"
@@ -355,9 +355,9 @@
             android:id="@+id/block_bluesky"
             layout="@layout/item_editor_input"/>
       </LinearLayout>
-    </androidx.cardview.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
 
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
       android:id="@+id/cv__building"
       style="@style/MwmWidget.Editor.CardView">
       <LinearLayout
@@ -366,7 +366,7 @@
         android:orientation="vertical"
         android:paddingEnd="@dimen/margin_base"
         android:paddingStart="@dimen/margin_base">
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_marginTop="@dimen/margin_base"
@@ -381,9 +381,9 @@
           layout="@layout/item_editor_input"/>
 
       </LinearLayout>
-    </androidx.cardview.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
 
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
       android:id="@+id/cv__more"
       style="@style/MwmWidget.Editor.CardView">
       <LinearLayout
@@ -391,7 +391,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="@dimen/margin_base">
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:fontFamily="@string/robotoMedium"
@@ -411,13 +411,13 @@
             android:hint="@string/editor_note_hint"/>
         </com.google.android.material.textfield.TextInputLayout>
       </LinearLayout>
-    </androidx.cardview.widget.CardView>
-    <androidx.cardview.widget.CardView
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
       android:id="@+id/cv__more"
       style="@style/MwmWidget.Editor.CardView"
       android:layout_marginTop="@dimen/margin_double"
       android:layout_marginBottom="@dimen/margin_base">
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
         android:id="@+id/reset"
         android:layout_width="match_parent"
         android:layout_height="36dp"
@@ -426,6 +426,6 @@
         android:textAppearance="@style/MwmTextAppearance.Button"
         android:textColor="@color/base_red"
         tools:text="Reset my changes"/>
-    </androidx.cardview.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
   </LinearLayout>
 </androidx.core.widget.NestedScrollView>

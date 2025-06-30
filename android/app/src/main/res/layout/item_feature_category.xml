@@ -9,7 +9,7 @@
   android:orientation="horizontal"
   android:padding="@dimen/margin_base">
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/name"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
@@ -17,7 +17,7 @@
     android:singleLine="true"
     android:textAppearance="@style/MwmTextAppearance.Body1"/>
 
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/selected"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"

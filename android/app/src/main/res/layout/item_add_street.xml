@@ -9,7 +9,7 @@
   android:orientation="horizontal"
   android:padding="@dimen/margin_base">
 
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:layout_width="24dp"
     android:layout_height="24dp"
     android:layout_marginEnd="@dimen/margin_double"
@@ -17,7 +17,7 @@
     app:srcCompat="@drawable/ic_plus"
     app:tint="?colorAccent" />
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/street"
     android:layout_width="0dp"
     android:layout_height="wrap_content"

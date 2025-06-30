@@ -29,7 +29,7 @@
         android:layout_marginEnd="?actionBarSize"
         tools:visibility="gone" />
 
-      <ImageView
+      <com.google.android.material.imageview.ShapeableImageView
         app:tint="@color/image_view"
         android:id="@+id/save"
         android:layout_width="?actionBarSize"
