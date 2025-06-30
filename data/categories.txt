@@ -217,7 +217,7 @@ cs:2Čerpací stanice|Benzinová pumpa|benzinka
 da:Brændstof|Benzin
 nl:3Benzine
 fi:3Huoltoasema
-fr:3Stations-service|3Station d'essence|4Essence|4Carburant|
+fr:3Stations-service|3Station d'essence|4Essence|4Carburant
 de:3Tankstelle|4Benzin|4Diesel|4Sprit
 hi:3गैस स्टेशन
 hu:Benzinkút
@@ -573,7 +573,7 @@ cs:3Bankomat
 da:3Hæveautomat
 nl:3Geldautomaat
 fi:Pankkiautomaatti
-fr:DAB|GAB|argent|Distributeur de billets
+fr:DAB|Distributeur automatique de billets|GAB|Guichet automatique bancaire|argent
 de:3Geldautomat|4Bankautomat|7Bargeldautomat
 hi:3एटीएम|3स्वचालित गणक मशीन
 hu:4Pénzautomata
@@ -5846,7 +5846,7 @@ cs:Lékařská ordinace|Klinika|nemocnice
 da:Lægekontor|lægehus|klinik|hospital
 nl:Huisartsenpost|Kliniek|huisarts|ziekenhuis|dokter
 fi:Lääkärin vastaanotto|Klinikka|sairaala
-fr:Cabinet médical|docteur|hôpital
+fr:Cabinet médical|docteur|hôpital|Médecin|Centre de santé|Maison de santé
 de:Arztpraxis|Klinik|Krankenhaus
 hi:3चिकित्सक
 hu:Rendelő|Klinika|orvosi rendelő|kórház
@@ -5885,7 +5885,7 @@ cs:Zubař
 da:Tandlæge
 nl:Tandarts
 fi:Hammaslääkäri
-fr:4Dentiste|Cabinet dentaire
+fr:4Dentiste|Cabinet dentaire|Centre dentaire
 de:4Zahnarzt
 hi:4दाँतों का डॉक्टर
 hu:Fogorvos
@@ -10891,7 +10891,7 @@ cs:3Auto opravna|auto|auta|Půjčení
 da:3Garage|3bilværksted|service station
 nl:3Auto reparatie|auto|wagen|garage
 fi:4Autokorjaamo
-fr:3Réparation d'automobiles|3garage|4station service|voiture|auto
+fr:3Réparation d'automobiles|3garage|4station service|voiture|auto|garagiste|mécano|mécanicien automobile
 de:3Autowerkstatt|Kfz|Reparaturwerkstatt|Auto|4Werkstatt
 hi:3वाहन मरम्मत की दुकान
 hu:3Autószerelő|Autószerviz|Gépkocsiszerviz|Autójavító|4javítóműhely|kocsi
