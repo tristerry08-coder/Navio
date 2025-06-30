@@ -39,9 +39,8 @@
 /* 3.1 Main natural */
 
 @glacier: #FFFFFF;
-@water: #8AD8E7;
-@water_bad: #95C5B8;
-@river: #5FB4C5;
+@water: #9EE4F2;
+@water_bad: #9CD7DE;
 @wetland: #C3E0D1;
 @beach: #FADDA0;
 @barerock: #D9D2BF;
@@ -50,17 +49,40 @@
 
 /*3.2 Vegetation*/
 
+@residential_garden: #EDE5CA;
+@residential_garden_13: #EDE5CB;
+@residential_garden_12: #EEE6CB;
+@park: #D5DB8F;
+@park_13: #D6DC93;
+@park_12: #D8DD96;
+@park_11: #D8DC97;
+@park_10: #DBDD9D;
 @heath: #CED797;
-@green0: #C8D48C;
-@green1: #C4D181;
-@green1b: #BECC76;
-@green2: #B6C96B;
-@green3: #B0C763;
-@green4: #B2C76A;
-@green5: #ADC45F;
-@forest: #A8BE5C;
-@green6: #7B8F35;
-@flowers: #B6C96B;
+@heath_13: #CFD89A;
+@heath_12: #D2D99E;
+@heath_11: #D4DAA0;
+@grass: #C4D181;
+@grass_13: #C6D285;
+@grass_12: #C9D48A;
+@grass_11: #CCD58E;
+@flowers: #BECC76;
+@golf: #B9C96F;
+@golf_13: #BBCB73;
+@golf_12: #BECC78;
+@allotments: #D5D395;
+@allotments_13: #D6D498;
+@allotments_12: #D8D59B;
+@scrubs: #B1C765;
+@scrubs_13: #B4C96B;
+@scrubs_12: #B8CB71;
+@scrubs_11: #BCCC76;
+@woods: #A4BD4F;
+@woods_13: #A8BE55;
+@woods_12: #ACC25C;
+@woods_11: #B1C462;
+@woods_10: #B4C469;
+
+@protected_nature: #7B8F35;
 
 /* 4.LANDUSE */
 /*4.1 Main landuse*/
@@ -80,7 +102,7 @@
 @parking: #E8EFEC;
 @military: #DE2D28;
 @prison: #727272;
-@farmland: #E4E0AD;
+@farmland: #E3DEAC;
 @farmyard: #E6D6AF;
 
 /*4.2 Aerodrome*/

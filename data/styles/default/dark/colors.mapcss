@@ -41,7 +41,6 @@
 @glacier: #111111;
 @water: #002222;
 @water_bad: #00261e;
-@river: #062026;
 @wetland: #001919;
 @beach: #28281A;
 @barerock: #302A2A;
@@ -50,17 +49,41 @@
 
 /*3.2 Vegetation*/
 
-@forest: #141C00;
-@heath: #0F1400;
-@green0: #0F1400;
-@green1: #131900;
-@green1b: #141C00;
-@green2: #141C00;
-@green3: #141C00;
-@green4: #141C00;
-@green5: #141C00;
-@green6: #2F4000;
+@residential_garden: #000000;
+@residential_garden_13: #000000;
+@residential_garden_12: #000000;
+@park: #000000;
+@park_13: #000000;
+@park_12: #000000;
+@park_11: #000000;
+@park_10: #000000;
+@heath: #141C00;
+@heath_13: #141C00;
+@heath_12: #141C00;
+@heath_11: #141C00;
+@grass: #141C00;
+@grass_13: #141C00;
+@grass_12: #141C00;
+@grass_11: #141C00;
 @flowers: #141C00;
+@golf: #141C00;
+@golf_13: #141C00;
+@golf_12: #141C00;
+@allotments: #141C00;
+@allotments_13: #141C00;
+@allotments_12: #141C00;
+@scrubs: #141C00;
+@scrubs_13: #141C00;
+@scrubs_12: #141C00;
+@scrubs_11: #141C00;
+@woods: #161F00;
+@woods_13: #161F00;
+@woods_12: #161F00;
+@woods_11: #161F00;
+@woods_10: #161F00;
+
+@protected_nature: #2F4000;
+
 
 /* 4.LANDUSE */
 /*4.1 Main landuse*/
