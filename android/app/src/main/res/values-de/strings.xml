@@ -900,4 +900,6 @@
     <string name="route_type">Routentyp</string>
     <string name="pedestrian">Fußgänger</string>
     <string name="bookmark_color">Lesezeichenfarbe</string>
+    <string name="about_help">Über &amp; Hilfe</string>
+    <string name="panoramax">Panoramax Bild</string>
 </resources>

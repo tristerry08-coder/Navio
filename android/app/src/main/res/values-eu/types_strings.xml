@@ -1340,4 +1340,5 @@
     <string name="type.tourism.hotel">Hotela</string>
     <string name="type.tourism.zoo">Zoo</string>
     <string name="type.railway.tram">Tranbia bidea</string>
+    <string name="type.man_made.survey_point">Markatze-puntua</string>
 </resources>

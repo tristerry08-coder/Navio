@@ -742,7 +742,7 @@
 "type.man_made.cairn" = "Mugarri";
 "type.man_made.chimney" = "Fabrikako tximinia";
 "type.man_made.cutline" = "Cutline";
-"type.man_made.survey_point" = "Survey Point";
+"type.man_made.survey_point" = "Markatze-puntua";
 "type.man_made.flagpole" = "Bandera-masta";
 "type.man_made.lighthouse" = "Itsasargia";
 "type.man_made.mast" = "Masta";
