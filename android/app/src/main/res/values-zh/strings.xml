@@ -903,4 +903,6 @@
     <string name="ruler">标尺</string>
     <string name="bookmark_color">书签颜色</string>
     <string name="pedestrian">行人</string>
+    <string name="about_help">关于和帮助</string>
+    <string name="panoramax">全景图片</string>
 </resources>

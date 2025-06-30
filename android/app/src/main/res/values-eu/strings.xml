@@ -881,4 +881,21 @@
     <string name="instagram">Instagram</string>
     <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/About_OpenStreetMap</string>
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
+    <string name="saved">Gordeta</string>
+    <string name="app_site_url">https://comaps.app/</string>
+    <string name="pref_left_button_disable">Desgaitu</string>
+    <string name="pref_left_button_title">Ezkerreko botoiaren ezarpena</string>
+    <string name="about_help">Honi buruz eta Laguntza</string>
+    <string name="bookmark_color">Laster-markaren kolorea</string>
+    <string name="bluesky">Bluesky</string>
+    <string name="error_enter_correct_bluesky_page">Sartu baliozko Blueskyko erabiltzaile-izena edo web helbidea</string>
+    <string name="error_enter_correct_fediverse_page">Sartu baliozko Mastodoneko erabiltzaile-izena edo web helbidea</string>
+    <string name="route_type">Ibilbide mota</string>
+    <string name="vehicle">Ibilgailua</string>
+    <string name="pedestrian">Oinezkoa</string>
+    <string name="bicycle">Bizikleta</string>
+    <string name="ruler">Erregela</string>
+    <string name="clear">Garbitu</string>
+    <string name="panoramax">Panoramax Picture</string>
+    <string name="codeberg">Codeberg</string>
 </resources>

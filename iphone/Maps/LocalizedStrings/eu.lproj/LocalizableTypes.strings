@@ -748,9 +748,9 @@
 "type.man_made.mast" = "Masta";
 "type.man_made.pier" = "Ontziraleku";
 "type.man_made.pipeline" = "Hodi";
-"type.man_made.pipeline.overground" = "Overground Pipeline";
+"type.man_made.pipeline.overground" = "Lur gaineko hodia";
 "type.man_made.silo" = "Siloa";
-"type.man_made.storage_tank" = "Storage Tank";
+"type.man_made.storage_tank" = "Biltegi-depositua";
 "type.man_made.surveillance" = "Zaintza Kamera";
 "type.man_made.tower" = "Dorrea";
 
@@ -765,19 +765,19 @@
 
 /* A tower/mast constructed to burn off excess gas. */
 "type.man_made.flare" = "Gas zuzia|Gas sugarra";
-"type.man_made.wastewater_plant" = "Wastewater Treatment Plant";
+"type.man_made.wastewater_plant" = "Hondakin urak araztegia";
 "type.man_made.water_tap" = "Ura hartzea";
 "type.man_made.water_tap.drinking_water_no" = "Ura hartzea";
 "type.man_made.water_tower" = "Ur depositua";
 "type.man_made.water_well" = "Ur putzua";
 "type.man_made.water_well.drinking_water_no" = "Ur putzua";
 "type.man_made.windmill" = "Haize-errota";
-"type.man_made.works" = "Industrial Works";
+"type.man_made.works" = "Lantegiak";
 "type.mapswithme" = "mapswithme";
 "type.mapswithme.grid" = "mapswithme-grid";
-"type.military" = "Military";
+"type.military" = "Eremu militarra";
 "type.military.bunker" = "Bunkerra";
-"type.mountain_pass" = "Mountain Pass";
+"type.mountain_pass" = "Mendatea";
 "type.natural" = "Natura";
 
 /* A rocky land cover. */
@@ -876,29 +876,29 @@
 "type.place.suburb" = "Auzoa";
 "type.place.town" = "Herria";
 "type.place.village" = "Herria";
-"type.power" = "Power";
-"type.power.generator" = "Power Generator";
+"type.power" = "Elektrizitatea";
+"type.power.generator" = "Energia sorgailua";
 "type.power.generator.solar" = "Eguzki-sorgailua";
 "type.power.generator.wind" = "Sorgailu eolikoa";
 "type.power.generator.gas" = "Gas-turbinetako zentral elektrikoa";
 "type.power.generator.hydro" = "Zentral hidroelektrikoa";
-"type.power.line" = "Power Line";
-"type.power.line.underground" = "Underground Power Line";
-"type.power.minor_line" = "Minor Power Line";
+"type.power.line" = "Linea elektrikoa";
+"type.power.line.underground" = "Lur-azpiko linea elektrikoa";
+"type.power.minor_line" = "Linea elektriko txikia";
 "type.power.plant" = "Elektrizitate-parkea";
 "type.power.plant.coal" = "Ikatz zentrala";
 "type.power.plant.gas" = "Gas-turbinetako zentral elektrikoa";
 "type.power.plant.hydro" = "Zentral hidroelektrikoa";
 "type.power.plant.solar" = "Eguzki-zentrala";
 "type.power.plant.wind" = "Zentral eolikoa";
-"type.power.station" = "Power Station";
+"type.power.station" = "Elektrizitate zentrala";
 "type.power.substation" = "Azpiestazioa";
 
 /* A tower or pylon carrying high voltage electricity cables. */
 "type.power.tower" = "Zutabe elektrikoa";
 
 /* A single pole supporting minor power lines. */
-"type.power.pole" = "Power Pole";
+"type.power.pole" = "Elektrizitate zutoina";
 
 /* A single pole supporting various public utilities, such as lighting or telephony. */
 "type.man_made.utility_pole" = "Utility Pole";
@@ -908,29 +908,29 @@
 "type.psurface.unpaved_bad" = "psurface-unpaved_bad";
 "type.psurface.unpaved_good" = "psurface-unpaved_good";
 "type.public_transport" = "Garraio publikoa";
-"type.public_transport.platform" = "Platform";
-"type.railway" = "Railway";
-"type.railway.abandoned" = "Abandoned Railway";
-"type.railway.abandoned.bridge" = "Abandoned Railway Bridge";
-"type.railway.abandoned.tunnel" = "Abandoned Railway Tunnel";
-"type.railway.construction" = "Railway Construction";
-"type.railway.crossing" = "Railway Crossing";
-"type.railway.disused" = "Disused Railway";
+"type.public_transport.platform" = "Plataforma";
+"type.railway" = "Trenbidea";
+"type.railway.abandoned" = "Utzitako trenbidea";
+"type.railway.abandoned.bridge" = "Utzitako trenbide zubia";
+"type.railway.abandoned.tunnel" = "Utzitako trenbide tunela";
+"type.railway.construction" = "Trenbidea eraikuntzan";
+"type.railway.crossing" = "Trenbide gurutzea";
+"type.railway.disused" = "Erabilerarik gabeko trenbidea";
 "type.railway.funicular" = "Funikularra";
-"type.railway.funicular.bridge" = "Funicular Bridge";
-"type.railway.funicular.tunnel" = "Funicular Tunnel";
+"type.railway.funicular.bridge" = "Funikularreko zubia";
+"type.railway.funicular.tunnel" = "Funikularreko tunela";
 "type.railway.halt" = "Tren geltokian";
 "type.railway.level_crossing" = "Trenbide-pasagunea";
-"type.railway.light_rail" = "Light Rail";
-"type.railway.light_rail.bridge" = "Light Rail Bridge";
-"type.railway.light_rail.tunnel" = "Light Rail Tunnel";
+"type.railway.light_rail" = "Tranbia erraila";
+"type.railway.light_rail.bridge" = "Tranbia zubia";
+"type.railway.light_rail.tunnel" = "Tranbia tunela";
 "type.railway.monorail" = "Tren monoraila";
-"type.railway.monorail.bridge" = "Monorail Bridge";
-"type.railway.monorail.tunnel" = "Monorail Tunnel";
-"type.railway.narrow_gauge" = "Narrow Gauge Rail";
+"type.railway.monorail.bridge" = "Monorrail zubia";
+"type.railway.monorail.tunnel" = "Monorrail tunela";
+"type.railway.narrow_gauge" = "Zabalera estuko trenbidea";
 "type.railway.narrow_gauge.bridge" = "Zabalera estuko trenbide-zubia";
-"type.railway.narrow_gauge.tunnel" = "Narrow Gauge Rail Tunnel";
-"type.railway.platform" = "Railway Platform";
+"type.railway.narrow_gauge.tunnel" = "Zabalera estuko trenbide tunela";
+"type.railway.platform" = "Trenbide plataforma";
 "type.railway.preserved" = "Preserved Rail";
 "type.railway.preserved.bridge" = "Preserved Rail Bridge";
 "type.railway.preserved.tunnel" = "Preserved Rail Tunnel";
@@ -1085,7 +1085,7 @@
 "type.railway.station.subway.wuhan" = "Metroa";
 "type.railway.station.subway.yerevan" = "Metroa";
 "type.railway.station.subway.yokohama" = "Metroa";
-"type.railway.subway" = "Subway Line";
+"type.railway.subway" = "Metro linea";
 "type.railway.subway.bridge" = "Subway Line Bridge";
 "type.railway.subway.tunnel" = "Subway Line Tunnel";
 "type.railway.subway_entrance" = "Metroko sarrera";
@@ -1202,11 +1202,11 @@
 "type.railway.subway_entrance.wuhan" = "Metroko sarrera";
 "type.railway.subway_entrance.yerevan" = "Metroko sarrera";
 "type.railway.subway_entrance.yokohama" = "Metroko sarrera";
-"type.railway.tram" = "Tram Line";
-"type.railway.tram.bridge" = "Tram Line Bridge";
-"type.railway.tram.tunnel" = "Tram Line Tunnel";
+"type.railway.tram" = "Tranbia bidea";
+"type.railway.tram.bridge" = "Tranbia bideko zubia";
+"type.railway.tram.tunnel" = "Tranbia bideko tunela";
 "type.railway.tram_stop" = "Tranbiaren geltokia";
-"type.route" = "Route";
+"type.route" = "Ibilbidea";
 "type.route.ferry" = "Ferry";
 "type.route.shuttle_train" = "route-shuttle_train";
 "type.shop" = "Denda";
@@ -1394,17 +1394,16 @@
 "type.tourism.gallery" = "Turismoa";
 "type.tourism.guest_house" = "Ostatua";
 "type.tourism.hostel" = "Gazteen aterpetxea";
-"type.tourism.hotel" = "Hotel";
+"type.tourism.hotel" = "Hotela";
 "type.tourism.information" = "Informazioa";
 "type.tourism.information.board" = "Informazio taula";
 "type.tourism.information.guidepost" = "Gida postua";
 "type.tourism.information.map" = "Mapa turistikoa";
 "type.tourism.information.office" = "Turismo bulegoa";
 "type.tourism.information.visitor_centre" = "Bisitarien Zentroa";
-"type.tourism.motel" = "Motel";
 "type.tourism.museum" = "Museoa";
 "type.tourism.picnic_site" = "Piknika";
-"type.leisure.resort" = "Resort";
+"type.leisure.resort" = "Oporleku";
 "type.tourism.theme_park" = "Parke tematiko";
 "type.tourism.viewpoint" = "Begiratokia";
 
@@ -1415,16 +1414,16 @@
 "type.traffic_calming" = "Traffic Calming";
 "type.traffic_calming.bump" = "Traffic Bump";
 "type.traffic_calming.hump" = "Traffic Hump";
-"type.waterway" = "Waterway";
-"type.waterway.canal" = "Canal";
-"type.waterway.canal.tunnel" = "Canal Tunnel";
+"type.waterway" = "Ibaibide";
+"type.waterway.canal" = "Kanala";
+"type.waterway.canal.tunnel" = "Kanal tunela";
 "type.waterway.fish_pass" = "Arrainen eskailera";
-"type.waterway.dam" = "Dam";
-"type.barrier.ditch" = "Ditch";
+"type.waterway.dam" = "Presa";
+"type.barrier.ditch" = "Erretena";
 "type.natural.water.ditch" = "Drainatze Zanga";
 "type.waterway.ditch.tunnel" = "Zuloa";
-"type.waterway.dock" = "Waterway Dock";
-"type.waterway.drain" = "Drain";
+"type.waterway.dock" = "Ibaibideko kaia";
+"type.waterway.drain" = "Estolda";
 "type.natural.water.drain" = "Drain";
 "type.waterway.drain.tunnel" = "Zuloa";
 "type.waterway.lock_gate" = "Atea";
@@ -1435,7 +1434,7 @@
 "type.waterway.stream.intermittent" = "Ibai";
 "type.waterway.stream.tunnel" = "Ibai";
 "type.waterway.waterfall" = "Ur-jauzia";
-"type.waterway.weir" = "Weir";
+"type.waterway.weir" = "Presa";
 "type.wheelchair" = "Gurpil-aulkia";
 "type.wheelchair.limited" = "Ezinduentzako partzialki hornitua";
 "type.wheelchair.no" = "Ezinduentzako ekipatuta ez dago";
@@ -1489,3 +1488,4 @@
 "type.amenity.studio" = "Apartamentua";
 "type.barrier.guard_rail" = "Baranda";
 "type.highway.ladder" = "Eskailera";
+"type.man_made.crane" = "Garabia";
