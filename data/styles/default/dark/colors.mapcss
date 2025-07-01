@@ -65,6 +65,7 @@
 /* 4.LANDUSE */
 /*4.1 Main landuse*/
 
+@general_area: #000000;
 @pedestrian_area: #262222;
 @pedestrian_area_light: #262222;
 @railway_platform: #262222;

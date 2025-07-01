@@ -430,14 +430,14 @@ area|z14-[area:highway=pedestrian],
 area|z14-[highway=footway][area?],
 area|z14-[area:highway=footway],
 area|z14-[area:highway=living_street],
-{fill-color: @pedestrian_area;}
+{fill-color: @pedestrian_area_light;}
 
 area|z16-[highway=pedestrian][area?],
 area|z16-[area:highway=pedestrian],
 area|z16-[highway=footway][area?],
 area|z16-[area:highway=footway],
 area|z16-[area:highway=living_street],
-{fill-color: @pedestrian_area_light;}
+{fill-color: @pedestrian_area;}
 
 area|z16-[public_transport=platform],
 area|z16-[railway=platform],
@@ -449,7 +449,7 @@ area|z14-[amenity=place_of_worship],
 area|z15-[tourism=camp_site],
 area|z15-[leisure=resort],
 area|z16-[amenity=police],
-{fill-opacity: 1; fill-color: @pedestrian_area_light;}
+{fill-opacity: 1; fill-color: @general_area;}
 
 /* 7.6 Airports */
 
