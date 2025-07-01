@@ -304,7 +304,7 @@
 "copyright" = "版权";
 
 /* Text in menu + Button in the main Help dialog */
-"report_a_bug" = "报告问题";
+"report_a_bug" = "报告错误";
 
 /* Button in the About screen */
 "report_incorrect_map_bug" = "报告或修复不正确的地图数据";

@@ -1,0 +1,1 @@
+comaps,mapas,open street maps,osm,viajes,senderismo,bicicleta,conducción,sin conexión,privacidad,navegación,gps

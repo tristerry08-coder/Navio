@@ -713,7 +713,7 @@
 
 /* "traffic" as in "road congestion" */
 "traffic_data_unavailable" = "Liiklusinfo ei ole saadaval";
-"enable_logging" = "Luba logimine";
+"enable_logging" = "Lülita logimine sisse";
 "log_file_size" = "Logifaili suurus: %@";
 "transliteration_title" = "Transliteratsioon ladina tähestikku";
 

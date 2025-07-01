@@ -1,0 +1,1 @@
+comaps,kaarten,open street maps,osm,reizen,wandelen,fietsen,rijden,offline,privacy,navigeren,gps

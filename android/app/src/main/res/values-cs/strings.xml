@@ -893,4 +893,23 @@
     <string name="clear">Vymazat</string>
     <string name="panoramax">Obrázek Panoramax</string>
     <string name="about_help">O aplikaci a nápověda</string>
+    <string name="pref_backup_summary">Automaticky zálohovat do složky na vašem zařízení</string>
+    <string name="pref_backup_title">Záloha záložek a stop</string>
+    <string name="pref_backup_now_title">Zálohovat nyní</string>
+    <string name="pref_backup_now_summary">Nyní vytvořit zálohu</string>
+    <string name="pref_backup_now_summary_ok">Záloha úspěšně dokončena</string>
+    <string name="pref_backup_now_summary_empty_lists">Nemáte žádné záložky ani stopy k zálohování</string>
+    <string name="pref_backup_now_summary_progress">Zálohování…</string>
+    <string name="pref_backup_now_summary_failed">Zálohování selhalo</string>
+    <string name="pref_backup_now_summary_folder_unavailable">Složka pro zálohování není dostupná</string>
+    <string name="pref_backup_status_summary_success">Poslední úspěšná záloha</string>
+    <string name="pref_backup_location_title">Umístění záloh</string>
+    <string name="pref_backup_location_summary_initial">Nejprve prosím vyberte složku a udělte oprávnění</string>
+    <string name="pref_backup_history_title">Počet záloh k uchování</string>
+    <string name="pref_backup_interval_title">Automatické zálohování</string>
+    <string name="backup_interval_manual_only">Vypnuto (pouze ručně)</string>
+    <string name="dialog_report_error_missing_folder">Vybrané umístění záloh není dostupné nebo zapisovatelné. Vyberte prosím jiné umístění.</string>
+    <string name="dialog_report_error_with_logs">Pošlete nám prosím hlášení o chybě:\n - „Povolit protokolování“ v nastavení\n - zopakujte problém\n - na stránce „O aplikaci a nápověda“ klepněte na tlačítko „Nahlásit chybu“ a odešlete hlášení skrze e-mail nebo chat\n - zakažte protokolování</string>
+    <string name="backup_interval_every_day">Denně</string>
+    <string name="backup_interval_every_week">Týdně</string>
 </resources>

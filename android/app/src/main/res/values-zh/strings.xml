@@ -276,7 +276,7 @@
     <!-- Button in the main Help dialog -->
     <string name="copyright">版权</string>
     <!-- Text in menu + Button in the main Help dialog -->
-    <string name="report_a_bug">报告问题</string>
+    <string name="report_a_bug">报告错误</string>
     <!-- Toast text when compass calibration may improve the correctness of the current position arrow -->
     <string name="compass_calibration_recommended">通过以 8 字形移动手机来改善箭头方向，以校准罗盘。</string>
     <!-- Toast text when compass calibration may improve the correctness of the current position arrow -->
@@ -905,4 +905,23 @@
     <string name="pedestrian">行人</string>
     <string name="about_help">关于和帮助</string>
     <string name="panoramax">全景图片</string>
+    <string name="pref_backup_summary">自动备份到设备上的文件夹</string>
+    <string name="pref_backup_now_title">立即备份</string>
+    <string name="pref_backup_now_summary">立即创建备份</string>
+    <string name="pref_backup_now_summary_progress">正在备份…</string>
+    <string name="pref_backup_now_summary_ok">备份已成功完成</string>
+    <string name="pref_backup_title">书签和轨迹备份</string>
+    <string name="pref_backup_now_summary_empty_lists">没有要备份的书签和轨迹</string>
+    <string name="pref_backup_now_summary_failed">备份失败</string>
+    <string name="pref_backup_now_summary_folder_unavailable">备份文件夹不可用</string>
+    <string name="pref_backup_status_summary_success">上次成功备份</string>
+    <string name="pref_backup_location_title">备份位置</string>
+    <string name="pref_backup_location_summary_initial">请先选择文件夹并授予权限</string>
+    <string name="pref_backup_history_title">要保留的备份数量</string>
+    <string name="pref_backup_interval_title">自动备份</string>
+    <string name="backup_interval_every_day">每日</string>
+    <string name="backup_interval_every_week">每周</string>
+    <string name="backup_interval_manual_only">关闭（仅手动）</string>
+    <string name="dialog_report_error_missing_folder">所选备份位置不可用或不可写入。请选择其他位置。</string>
+    <string name="dialog_report_error_with_logs">请向我们发送错误报告：\n - 在设置中“启用日志记录”\n - 重现问题\n - 在“关于和帮助”屏幕中点击“报告错误”按钮，然后通过电子邮件或聊天软件发送\n - 禁用日志记录</string>
 </resources>

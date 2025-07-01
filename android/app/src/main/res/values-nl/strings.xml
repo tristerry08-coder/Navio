@@ -881,7 +881,7 @@
     <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="mb">MB</string>
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
-    <string name="app_site_url">https://comaps.app/</string>
+    <string name="app_site_url">https://comaps.app/nl/</string>
     <string name="bluesky">Bluesky</string>
     <string name="saved">Opgeslagen</string>
     <string name="codeberg">Codeberg</string>
@@ -898,4 +898,22 @@
     <string name="pedestrian">Voetganger</string>
     <string name="ruler">Lineaal</string>
     <string name="about_help">Over &amp; help</string>
+    <string name="bookmark_color">Bladwijzer kleur</string>
+    <string name="backup_interval_every_day">Dagelijks</string>
+    <string name="backup_interval_manual_only">Uit (alleen handmatig)</string>
+    <string name="pref_backup_title">Back-up van bladwijzers en tracks</string>
+    <string name="pref_backup_summary">Automatisch back-up maken naar een map op je apparaat</string>
+    <string name="pref_backup_now_title">Nu back-uppen</string>
+    <string name="pref_backup_now_summary">Maak onmiddellijk een back-up</string>
+    <string name="pref_backup_now_summary_progress">Bezig met het maken van back-up…</string>
+    <string name="pref_backup_now_summary_ok">Back-up succesvol voltooid</string>
+    <string name="pref_backup_now_summary_empty_lists">Geen bladwijzers en tracks om een back-up van te maken</string>
+    <string name="pref_backup_status_summary_success">Laatste succesvolle back-up</string>
+    <string name="pref_backup_interval_title">Automatische back-up</string>
+    <string name="pref_backup_location_title">Back-up locatie</string>
+    <string name="pref_backup_now_summary_failed">Backup mislukt</string>
+    <string name="pref_backup_history_title">Aantal back-ups om te bewaren</string>
+    <string name="dialog_report_error_missing_folder">De geselecteerde back-uplocatie is niet beschikbaar of niet beschrijfbaar. Kies een andere locatie.</string>
+    <string name="backup_interval_every_week">Wekelijks</string>
+    <string name="pref_backup_now_summary_folder_unavailable">De back-up map is niet beschikbaar</string>
 </resources>

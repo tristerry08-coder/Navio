@@ -490,7 +490,7 @@
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
     <string name="osm_presentation">Von der Community erstellte OpenStreetMap-Daten (Stand: %s). Erfahre mehr darüber, wie du die Karte bearbeiten und aktualisieren kannst unter OpenStreetMap.org</string>
     <!-- OSM explanation on Android login screen -->
-    <string name="login_osm_presentation">OpenStreetMap.org (OSM) ist ein Gemeinschaftsprojekt zum Erstellen einer freien und offenen Karte. Es ist die Hauptquelle für Kartendaten in CoMaps und funktioniert ähnlich wie Wikipedia. Sie können Orte hinzufügen oder bearbeiten, die dann Millionen von Nutzern auf der ganzen Welt zur Verfügung stehen. \nTreten Sie der Gemeinschaft bei und helfen Sie mit, die Karte für alle besser zu machen!</string>
+    <string name="login_osm_presentation">OpenStreetMap.org (OSM) ist ein Gemeinschaftsprojekt zum Erstellen einer freien und offenen Karte. Es ist die Hauptquelle für Kartendaten in CoMaps und funktioniert ähnlich wie Wikipedia. Sie können Orte hinzufügen oder bearbeiten, die dann Millionen von Nutzenden auf der ganzen Welt zur Verfügung stehen. \nTreten Sie der Gemeinschaft bei und helfen Sie mit, die Karte für alle besser zu machen!</string>
     <string name="login_to_make_edits_visible">Erstellen Sie ein OpenStreetMap-Konto oder melden Sie sich an, um Ihre Kartenbearbeitungen weltweit zu veröffentlichen.</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d von %2$d</string>
@@ -646,7 +646,7 @@
     <string name="layers_title">Kartenstile und Ebenen</string>
     <string name="subway_data_unavailable">Die U-Bahnkarte steht nicht zur Verfügung</string>
     <string name="bookmarks_empty_list_title">Die Liste ist leer</string>
-    <string name="bookmarks_empty_list_message">Zum Hinzufügen eine Lesezeichens tippen Sie in der Karte auf den Ort und dann unten auf das Sternchen</string>
+    <string name="bookmarks_empty_list_message">Zum Hinzufügen eines Lesezeichens tippen Sie in der Karte auf den Ort und dann unten auf das Sternchen</string>
     <string name="category_desc_more">…mehr</string>
     <string name="export_file">KMZ exportieren</string>
     <string name="export_file_gpx">GPX exportieren</string>
@@ -834,7 +834,7 @@
     <!-- Restaurant or other food place's menu URL field in the Editor -->
     <string name="website_menu">Link zur Speisekarte</string>
     <!-- Button in the Place Page which opens a restaurant or other food place's menu in a browser -->
-    <string name="view_menu">Speisekarte</string>
+    <string name="view_menu">Speisekarte anzeigen</string>
     <!-- Title for the "Open in Another App" button on the PlacePage. -->
     <string name="open_in_app">In einer anderen App öffnen</string>
     <!-- To indicate if the place proposed self service... -->
@@ -902,4 +902,23 @@
     <string name="bookmark_color">Lesezeichenfarbe</string>
     <string name="about_help">Über &amp; Hilfe</string>
     <string name="panoramax">Panoramax Bild</string>
+    <string name="pref_backup_summary">Sichere automatisch in einen Ordner auf deinem Gerät</string>
+    <string name="pref_backup_now_summary">Sicherung sofort erstellen</string>
+    <string name="pref_backup_now_summary_ok">Sicherung erfolgreich abgeschlossen</string>
+    <string name="pref_backup_now_summary_empty_lists">Keine Lesezeichen und Tracks zum Sichern</string>
+    <string name="pref_backup_now_summary_failed">Sicherung fehlgeschlagen</string>
+    <string name="pref_backup_now_summary_folder_unavailable">Der Sicherungsordner ist nicht verfügbar</string>
+    <string name="pref_backup_location_summary_initial">Bitte wähle zuerst einen Ordner und erteile die Berechtigung</string>
+    <string name="pref_backup_history_title">Anzahl zu speichernder Sicherungen</string>
+    <string name="pref_backup_interval_title">Automatische Sicherung</string>
+    <string name="backup_interval_every_day">Täglich</string>
+    <string name="backup_interval_manual_only">Aus (nur manuell)</string>
+    <string name="pref_backup_title">Sicherung von Lesezeichen und Tracks</string>
+    <string name="pref_backup_status_summary_success">Letzte erfolgreiche Sicherung</string>
+    <string name="dialog_report_error_with_logs">Bitte sende uns einen Fehlerbericht:\n - in den Einstellungen \"Protokollierung aktivieren\"\n - das Problem reproduzieren\n - im Bildschirm \"Über &amp; Hilfe\" drücke den \"App-Fehler melden\"-Knopf und sende via E-Mail oder Chat\n - die Protokollierung deaktivieren</string>
+    <string name="dialog_report_error_missing_folder">Der ausgewählte Sicherungsort ist nicht verfügbar oder beschreibbar. Bitte wähle einen anderen Ort.</string>
+    <string name="pref_backup_now_title">Jetzt sichern</string>
+    <string name="pref_backup_location_title">Sicherungsort</string>
+    <string name="backup_interval_every_week">Wöchentlich</string>
+    <string name="pref_backup_now_summary_progress">Sicherung wird durchgeführt…</string>
 </resources>

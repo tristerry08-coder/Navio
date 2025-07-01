@@ -575,7 +575,7 @@
     <string name="traffic_update_app">Palun uuenda CoMapsi rakendust</string>
     <!-- "traffic" as in "road congestion" -->
     <string name="traffic_data_unavailable">Liiklusinfo ei ole saadaval</string>
-    <string name="enable_logging">Luba logimine</string>
+    <string name="enable_logging">Lülita logimine sisse</string>
     <!-- Settings: "Send general feedback" button -->
     <string name="feedback_general">Üldine tagasiside</string>
     <string name="prefs_languages_information">Hääljuhiste jaoks kasutame kõnesünteesi. Paljud Android-seadmed kasutavad Google\'i TTS-i, saad selle alla laadida või värskendada Google Play teenusest (https:play.google.comstoreappsdetails?id=com.google.android.tts)</string>
@@ -905,4 +905,15 @@
     <string name="pref_backup_now_summary_progress">Varundamine on töös…</string>
     <string name="pref_backup_now_summary_empty_lists">Pole järjehoidjaid ega radu, mida varundada</string>
     <string name="pref_backup_now_summary_failed">Varundamine ei õnnestunud</string>
+    <string name="backup_interval_manual_only">Pole kasutusel (vaid käsitsi varundus)</string>
+    <string name="dialog_report_error_with_logs">Palun saada meile veateade, selleks:\n - Vali seadistustest „Lülita logimine sisse“\n - korda probleemi\n - Vaatest „Rakenduse teave ja abiteave“ klõpsi „Teata veast“ nuppu ja saada veateade e-kirjaga või vestluses\n - lülita logimine välja</string>
+    <string name="pref_backup_now_summary_folder_unavailable">Varukoopia kaust pole saadaval</string>
+    <string name="pref_backup_status_summary_success">Viimane õnnestunud varundus</string>
+    <string name="pref_backup_location_summary_initial">Palun esmalt vali kaust ja siis anna selle jaoks õigused</string>
+    <string name="pref_backup_history_title">Hoitavate varukoopiate arv</string>
+    <string name="backup_interval_every_day">Kord päevas</string>
+    <string name="backup_interval_every_week">Kord nädalas</string>
+    <string name="dialog_report_error_missing_folder">Valitud varukoopiate kaust pole kas saadaval või kirjutatav. Palun vali muu kaust.</string>
+    <string name="pref_backup_location_title">Varukoopia asukoht</string>
+    <string name="pref_backup_interval_title">Automaatne varundus</string>
 </resources>
