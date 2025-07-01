@@ -124,7 +124,7 @@ public class DownloaderNotifier
     return new NotificationCompat.Builder(mContext, CHANNEL_ID)
             .setAutoCancel(true)
             .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
-            .setSmallIcon(R.drawable.ic_launcher)
+            .setSmallIcon(R.drawable.ic_launcher_small)
             .setColor(ContextCompat.getColor(mContext, R.color.notification))
             .setShowWhen(true)
             .setContentTitle(title)
