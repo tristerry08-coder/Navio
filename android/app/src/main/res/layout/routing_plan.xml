@@ -66,7 +66,7 @@
               android:layout_height="wrap_content"
               android:layout_marginEnd="@dimen/margin_half_plus"
               android:contentDescription="@string/subway"
-              tools:button="@drawable/ic_transit"
+              tools:button="@drawable/ic_route_planning_metro_40px"
               tools:buttonTint="?iconTintLight" />
 
           <app.organicmaps.widget.RoutingToolbarButton
