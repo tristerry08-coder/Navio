@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
 # Concatenates Android release notes in all languages into a single output format
-# suitable to upload to Google Play to update existing notes.
+# suitable to upload to Google Play to add or update existing notes.
 
-GPLAY_NOTES=android/app/src/google/play/release-notes/*/default.txt
+# Original relnotes files:
+GPLAY_NOTES=android/app/src/fdroid/play/listings/*/release-notes.txt
+# also symlinked for Triple-T automation to android/app/src/google/play/release-notes/*/default.txt
 
 for x in $(ls $GPLAY_NOTES); do
   l=$(basename $(dirname $x));
