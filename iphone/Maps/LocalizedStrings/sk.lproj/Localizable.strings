@@ -172,10 +172,10 @@
 "unknown_current_position" = "Vaša poloha zatiaľ nebola určená";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Pozri na moju značku na mape CoMaps";
+"bookmark_share_email_subject" = "Pozri na moju značku na mape CoMaps!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Pozrite si moju aktuálnu polohu na mape CoMaps";
+"my_position_share_email_subject" = "Pozrite si moju aktuálnu polohu na mape CoMaps!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "Email";
@@ -280,7 +280,7 @@
 "panoramax" = "Panoramax";
 
 /* Text in menu */
-"panoramax_picture" = "Panoramax Picture";
+"panoramax_picture" = "Obrázok Panoramax";
 
 /* Text in menu */
 "rate_the_app" = "Ohodnotiť aplikáciu";

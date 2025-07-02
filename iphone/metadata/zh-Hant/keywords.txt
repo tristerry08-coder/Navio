@@ -1,1 +1,1 @@
-comaps,maps,open street maps,osm,travel,hike,bike,drive,offline,privacy,navigate,gps
+comaps,地圖,open street maps,osm,旅行,徒步,騎車,駕車,離線,隱私,導航,全球定位系統

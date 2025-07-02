@@ -895,4 +895,18 @@
     <string name="editor_building_levels">Katlar (zemin kat dahil, çatı hariç)</string>
     <string name="editor_level">Giriş (0 zemin kattır)</string>
     <string name="error_enter_correct_level">Geçerli kat numarası girin</string>
+    <string name="about_help">Hakkında ve Yardım</string>
+    <string name="panoramax">Panoramax Görseli</string>
+    <string name="vehicle">Taşıt</string>
+    <string name="pedestrian">Yaya</string>
+    <string name="clear">Temizle</string>
+    <string name="route_type">Rota türü</string>
+    <string name="pref_backup_now_summary_failed">Yedek başarısız oldu</string>
+    <string name="pref_backup_location_title">Yedek konumu</string>
+    <string name="pref_backup_interval_title">Otomatik yedekleme</string>
+    <string name="backup_interval_every_day">Günlük</string>
+    <string name="backup_interval_every_week">Haftalık</string>
+    <string name="backup_interval_manual_only">Kapalı (yalnızca elle)</string>
+    <string name="bicycle">Bisiklet</string>
+    <string name="pref_backup_now_title">Şimdi yedekle</string>
 </resources>

@@ -660,7 +660,7 @@
 "type.internet_access" = "Internet";
 "type.internet_access.wlan" = "Internet";
 "type.junction" = "Straßenknotenpunkt";
-"type.junction.circular" = "Kreisverkehr";
+"type.junction.circular" = "Kreisförmige Kreuzung";
 "type.junction.roundabout" = "Kreisverkehr";
 "type.landuse" = "Landnutzung";
 "type.landuse.allotments" = "Kleingarten";
@@ -935,8 +935,8 @@
 "type.railway.preserved.bridge" = "Museumsbahnbrücke";
 "type.railway.preserved.tunnel" = "Museumsbahntunnel";
 "type.railway.rail" = "Eisenbahn";
-"type.railway.rail.highspeed" = "Hochgeschwindigkeits-eisenbahn";
-"type.railway.rail.tourism" = "Touristische eisenbahn";
+"type.railway.rail.highspeed" = "Hochgeschwindigkeits-Eisenbahn";
+"type.railway.rail.tourism" = "Touristische Eisenbahn";
 "type.railway.rail.main" = "Eisenbahn";
 
 /* Includes ordinary railway=rail w/o more specific usage= and service= tags. */

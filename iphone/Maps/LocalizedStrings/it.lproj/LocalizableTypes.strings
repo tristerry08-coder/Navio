@@ -326,7 +326,7 @@
 "type.cuisine.mediterranean" = "Cucina mediterranea";
 "type.cuisine.mexican" = "Cucina messicana";
 "type.cuisine.moroccan" = "Cucina marocchina";
-"type.cuisine.noodles" = "Noodles";
+"type.cuisine.noodles" = "Pasta lunga";
 "type.cuisine.oriental" = "Cucina orientale";
 "type.cuisine.pancake" = "Pancake";
 "type.cuisine.pasta" = "Pasta";
@@ -1490,5 +1490,5 @@
 "type.barrier.guard_rail" = "Barriera di contenimento";
 "type.landuse.plant_nursery" = "Vivaio";
 "type.amenity.studio" = "Studio";
-"type.highway.ladder" = "Scala";
+"type.highway.ladder" = "Scala a pioli";
 "type.man_made.crane" = "Gru permanente";

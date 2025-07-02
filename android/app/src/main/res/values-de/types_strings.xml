@@ -567,7 +567,7 @@
     <string name="type.historic.wayside_shrine">Bildstock</string>
     <string name="type.historic.wreck">Schiffswrack</string>
     <string name="type.junction">Straßenknotenpunkt</string>
-    <string name="type.junction.circular">Kreisverkehr</string>
+    <string name="type.junction.circular">Kreisförmige Kreuzung</string>
     <string name="type.junction.roundabout">Kreisverkehr</string>
     <string name="type.landuse">Landnutzung</string>
     <string name="type.landuse.allotments">Kleingarten</string>
@@ -808,8 +808,8 @@
     <string name="type.railway.preserved.bridge">Museumsbahnbrücke</string>
     <string name="type.railway.preserved.tunnel">Museumsbahntunnel</string>
     <string name="type.railway.rail">Eisenbahn</string>
-    <string name="type.railway.rail.highspeed">Hochgeschwindigkeits-eisenbahn</string>
-    <string name="type.railway.rail.tourism">Touristische eisenbahn</string>
+    <string name="type.railway.rail.highspeed">Hochgeschwindigkeits-Eisenbahn</string>
+    <string name="type.railway.rail.tourism">Touristische Eisenbahn</string>
     <string name="type.railway.rail.main">Eisenbahn</string>
     <!-- Includes ordinary railway=rail w/o more specific usage= and service= tags. -->
     <string name="type.railway.rail.branch">Sekundärbahn</string>
