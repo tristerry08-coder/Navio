@@ -40,7 +40,31 @@ ChunksDownloadStrategy::GetChunk(RangeT const & range)
 
 void ChunksDownloadStrategy::InitChunks(int64_t fileSize, int64_t chunkSize, ChunkStatusT status)
 {
-  m_chunks.reserve(static_cast<size_t>(fileSize / chunkSize + 2));
+  if (chunkSize == 0)
+  {
+    int64_t constexpr kMb = 1024 * 1024;
+    size_t const sizeMb = std::max(fileSize / kMb, static_cast<int64_t>(1));
+
+    size_t constexpr kTargetCount = 40;
+    size_t constexpr kMinMb = 1;
+    size_t constexpr kMaxMb = 16;
+    size_t const chunkMb = std::min(std::max(sizeMb / kTargetCount, kMinMb), kMaxMb);
+
+    size_t chunksCount = sizeMb / chunkMb;
+    if (static_cast<int64_t>(kMb * chunkMb * chunksCount) < fileSize)
+      ++chunksCount;
+    ASSERT_GREATER_OR_EQUAL(static_cast<int64_t>(kMb * chunkMb * chunksCount), fileSize, ());
+
+    LOG(LINFO, ("File size", sizeMb, "MB; chunk size", chunkMb, "MB; chunks count", chunksCount));
+
+    m_chunks.reserve(chunksCount + 1);
+    chunkSize = chunkMb * kMb;
+  }
+  else
+  {
+    m_chunks.reserve(static_cast<size_t>(fileSize / chunkSize + 2));
+  }
+
   for (int64_t i = 0; i < fileSize; i += chunkSize)
     m_chunks.push_back(ChunkT(i, status));
   // The last AUX chunk is just used to hold end of the range (eof) for the previous chunk.

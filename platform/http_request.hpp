@@ -59,7 +59,7 @@ public:
                                std::string const & filePath, int64_t fileSize,
                                Callback && onFinish,
                                Callback && onProgress = Callback(),
-                               int64_t chunkSize = 512 * 1024,
+                               int64_t chunkSize = 0, // 0 for auto
                                bool doCleanOnCancel = true);
 };
 } // namespace downloader

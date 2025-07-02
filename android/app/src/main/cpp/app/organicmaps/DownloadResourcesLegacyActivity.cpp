@@ -171,7 +171,7 @@ extern "C"
           curFile.GetRemoteSize(),
           std::bind(&DownloadFileFinished, ptr, _1),
           std::bind(&DownloadFileProgress, ptr, _1),
-          512 * 1024, false));
+          0, false));
     });
 
     return ERR_FILE_IN_PROGRESS;
