@@ -24,6 +24,7 @@ int64_t DoPing(std::string const & url)
     return kInvalidPing;
   }
 
+  LOG(LDEBUG, ("Pinging server", url));
   platform::HttpClient request(url);
   request.SetHttpMethod("HEAD");
   request.SetTimeout(kTimeoutInSeconds);
@@ -34,7 +35,7 @@ int64_t DoPing(std::string const & url)
   }
   else
   {
-    LOG(LWARNING, ("Request to server", url, "failed with code =", request.ErrorCode(), "; redirection =", request.WasRedirected()));
+    LOG(LWARNING, ("Ping to server", url, "failed with code =", request.ErrorCode(), "; wasRedirected =", request.WasRedirected()));
   }
 
   return kInvalidPing;

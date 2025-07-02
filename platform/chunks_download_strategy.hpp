@@ -65,6 +65,7 @@ public:
   void AddChunk(RangeT const & range, ChunkStatusT status);
 
   void SaveChunks(int64_t fileSize, std::string const & fName);
+  /// Inits the chunks list or loads from the resume file if there is an unfinished download.
   /// @return Already downloaded size.
   int64_t LoadOrInitChunks(std::string const & fName, int64_t fileSize, int64_t chunkSize);
 
@@ -81,7 +82,7 @@ public:
     EDownloadFailed,
     EDownloadSucceeded
   };
-  /// Should be called until returns ENextChunk
+  /// Get next chunk url ready to download. Should be called until returns ENextChunk.
   ResultT NextChunk(std::string & outUrl, RangeT & range);
 };
 } // namespace downloader

@@ -147,14 +147,14 @@ string ChunksDownloadStrategy::ChunkFinished(bool success, RangeT const & range)
         url = m_servers[s].m_url;
         if (success)
         {
+          LOG(LDEBUG, ("Completed chunk", m_servers[s].m_chunkIndex, "via", m_servers[s].m_url));
           // mark server as free and chunk as ready
           m_servers[s].m_chunkIndex = SERVER_READY;
           res.first->m_status = CHUNK_COMPLETE;
         }
         else
         {
-          LOG(LINFO, ("Thread for url", m_servers[s].m_url,
-                      "failed to download chunk number", m_servers[s].m_chunkIndex));
+          LOG(LWARNING, ("Failed to dl chunk", m_servers[s].m_chunkIndex, "via", m_servers[s].m_url));
           // remove failed server and mark chunk as free
           m_servers.erase(m_servers.begin() + s);
           res.first->m_status = CHUNK_FREE;
@@ -201,6 +201,7 @@ ChunksDownloadStrategy::NextChunk(string & outUrl, RangeT & range)
       range.second = m_chunks[i+1].m_pos - 1;
 
       m_chunks[i].m_status = CHUNK_DOWNLOADING;
+      LOG(LDEBUG, ("Download chunk", server->m_chunkIndex, "via", outUrl));
       return ENextChunk;
 
     case CHUNK_DOWNLOADING:

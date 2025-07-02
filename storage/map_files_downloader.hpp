@@ -32,8 +32,9 @@ public:
 
   virtual ~MapFilesDownloader() = default;
 
-  /// Asynchronously downloads a map file, periodically invokes
-  /// onProgress callback and finally invokes onDownloaded
+  /// Asynchronously downloads a map file (first queries the metaserver
+  /// for the map servers list, if it haven't been done before),
+  /// periodically invokes onProgress callback and finally invokes onDownloaded
   /// callback. Both callbacks will be invoked on the main thread.
   void DownloadMapFile(QueuedCountry && queuedCountry);
 
@@ -53,16 +54,19 @@ public:
    * @brief Async file download as string buffer (for small files only).
    * Request can be skipped if current servers list is empty.
    * Callback will be skipped on download error.
+   * NOTE: not in use at the moment.
    * @param[in]  url        Final url part like "index.json" or "maps/210415/countries.txt".
    * @param[in]  forceReset True - force reset current request, if any.
    */
   void DownloadAsString(std::string url, std::function<bool (std::string const &)> && callback, bool forceReset = false);
 
+  // Used in tests only.
   void SetServersList(ServersList const & serversList);
+
   void SetDownloadingPolicy(DownloadingPolicy * policy);
   void SetDataVersion(int64_t version) { m_dataVersion = version; }
 
-  /// @name Legacy functions for Android resourses downloading routine.
+  /// @name Legacy functions for Android resources downloading routine (initial World download).
   /// @{
   void EnsureMetaConfigReady(std::function<void ()> && callback);
   std::vector<std::string> MakeUrlListLegacy(std::string const & fileName) const;
@@ -70,9 +74,11 @@ public:
 
 protected:
   bool IsDownloadingAllowed() const;
+  // Produces download urls for all servers.
   std::vector<std::string> MakeUrlList(std::string const & relativeUrl) const;
 
-  // Synchronously loads list of servers by http client.
+  // Synchronously loads a list of map servers from the metaserver.
+  // On dl failure fallbacks to the hardcoded list.
   MetaConfig LoadMetaConfig();
 
 private:

@@ -139,6 +139,7 @@ class FileHttpRequest : public HttpRequest, public IHttpThreadCallback
   size_t m_goodChunksCount;
   bool m_doCleanProgressFiles;
 
+  // Starts a thread per each free/available server.
   ChunksDownloadStrategy::ResultT StartThreads()
   {
     string url;
@@ -198,6 +199,7 @@ class FileHttpRequest : public HttpRequest, public IHttpThreadCallback
     }
   }
 
+  // Saves current chunks' statuses into a resume file.
   void SaveResumeChunks()
   {
     try

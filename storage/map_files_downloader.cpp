@@ -166,6 +166,7 @@ MetaConfig MapFilesDownloader::LoadMetaConfig()
 
   if (!metaServerUrl.empty())
   {
+    LOG(LINFO, ("Requesting metaserver", metaServerUrl));
     platform::HttpClient request(metaServerUrl);
     request.SetRawHeader("X-OM-DataVersion", std::to_string(m_dataVersion));
     request.SetRawHeader("X-OM-AppVersion", pl.Version());
@@ -179,7 +180,11 @@ MetaConfig MapFilesDownloader::LoadMetaConfig()
   {
     metaConfig = downloader::ParseMetaConfig(pl.DefaultUrlsJSON());
     CHECK(metaConfig, ());
-    LOG(LWARNING, ("Can't get meta configuration from request, using default servers:", metaConfig->m_serversList));
+    LOG(LWARNING, ("Can't get metaserver configuration, using default servers:", metaConfig->m_serversList));
+  }
+  else
+  {
+    LOG(LINFO, ("Got servers list:", metaConfig->m_serversList));
   }
   CHECK(!metaConfig->m_serversList.empty(), ());
   return *metaConfig;
