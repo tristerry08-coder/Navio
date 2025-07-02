@@ -50,7 +50,7 @@ omim.sdf
 *.suo
 *.aps
 *.rc
-!qt/res/windows.rc
+!qt/res/windows/windows.rc
 *.pdb
 out/
 
