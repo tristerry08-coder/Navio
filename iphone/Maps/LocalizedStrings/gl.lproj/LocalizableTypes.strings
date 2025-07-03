@@ -1300,3 +1300,8 @@
 "type.leisure.sports_hall" = "Pavillón deportivo";
 "type.highway.ladder" = "Escada";
 "type.man_made.crane" = "Grúa";
+"type.barrier.guard_rail" = "Garda rail";
+"type.landuse.plant_nursery" = "Viveiro";
+"type.leisure.firepit" = "Fogueira";
+"type.sport.diving" = "Trampolín";
+"type.amenity.studio" = "Estudo";

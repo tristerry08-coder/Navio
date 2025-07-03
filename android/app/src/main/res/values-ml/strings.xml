@@ -5,4 +5,6 @@
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="self_service">സെൽഫ് സർവീസ്</string>
+    <string name="panoramax">Panoramax ചിത്രം</string>
+    <string name="editor_line_social_network">LINE</string>
 </resources>

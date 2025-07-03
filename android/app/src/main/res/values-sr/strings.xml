@@ -650,7 +650,7 @@
     <!-- this text will be shown in application notification preferences opposite checkbox which enable/disable downloader notifications. Devices on Android 8+ are affected. -->
     <string name="notification_channel_downloader">Преузимање мапа</string>
     <!-- "Speed cameras" settings menu option (should be short! no more than 47-50 chars) to warn a driver if there is a risk of exceeding the speed limit -->
-    <string name="pref_tts_speedcams_auto">Упозорење на прекорачење брзине</string>
+    <string name="pref_tts_speedcams_auto">Упозорити код прекорачења брзине</string>
     <!-- Speed camera settings menu option - Always warn (about speedcams) -->
     <string name="pref_tts_speedcams_always">Увек ме упозори</string>
     <!-- Speed camera settings menu option - Never warn (about speedcams) -->
@@ -848,7 +848,7 @@
     <string name="mastodon">Mastodon</string>
     <string name="facebook">Facebook</string>
     <string name="twitter">X (Twitter)</string>
-    <string name="editor_line_social_network">ЛИНИЈА</string>
+    <string name="editor_line_social_network">LINE</string>
     <string name="instagram">Instagram</string>
     <string name="elevation_profile_max_elevation">Максимална висина</string>
     <string name="elevation_profile_min_elevation">Минимална висина</string>
@@ -897,4 +897,25 @@
     <string name="ruler">Лењир</string>
     <string name="bookmark_color">Колор маркера</string>
     <string name="vehicle">Возило</string>
+    <string name="about_help">О програму и помоћ</string>
+    <string name="panoramax">Panoramax Picture</string>
+    <string name="pref_backup_now_title">Направите резервну копију сада</string>
+    <string name="pref_backup_now_summary">Направите резервну копију</string>
+    <string name="pref_backup_now_summary_progress">Снимање у току…</string>
+    <string name="pref_backup_now_summary_ok">Резервна копија је успешно завршена</string>
+    <string name="pref_backup_now_summary_failed">Резервна копија није успела</string>
+    <string name="pref_backup_now_summary_folder_unavailable">Фолдер за резервну копију није доступан</string>
+    <string name="pref_backup_location_title">Локација резервне копије</string>
+    <string name="pref_backup_location_summary_initial">Молим вас, прво изаберите фолдер и дајте дозволу</string>
+    <string name="pref_backup_history_title">Број сачуваних резервних копија</string>
+    <string name="backup_interval_every_day">Дневно</string>
+    <string name="backup_interval_every_week">Седмично</string>
+    <string name="backup_interval_manual_only">Искључено (само ручно)</string>
+    <string name="pref_backup_summary">Аутоматски направити резервну копију у фолдеру на уређају</string>
+    <string name="pref_backup_status_summary_success">Последња успешна резервна копија</string>
+    <string name="dialog_report_error_with_logs">Молимо вас, пошаљите нам поруку о грешци:\n- \"Омогући вођење дневника\" у подешавањима\n- репродукујте проблем\n- на екрану \"О програму и помоћ\" кликните на дугме \"Пријави грешку\" и пошаљите на е-маил или чат\n- онемогући вођење дневника</string>
+    <string name="dialog_report_error_missing_folder">Изабрана локација резервне копије није доступна за снимање. Молимо вас, одаберите друго место.</string>
+    <string name="pref_backup_interval_title">Аутоматска резервна копија</string>
+    <string name="pref_backup_now_summary_empty_lists">Нема маркера и путања за израду резервне копије</string>
+    <string name="pref_backup_title">Чување маркера и путања</string>
 </resources>

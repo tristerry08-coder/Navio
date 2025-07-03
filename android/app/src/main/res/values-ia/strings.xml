@@ -6,4 +6,6 @@
     <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="wikimedia_commons">Wikimedia Commons</string>
     <string name="self_service">Self-service</string>
+    <string name="panoramax">Imagine Panoramax</string>
+    <string name="editor_line_social_network">LINE</string>
 </resources>

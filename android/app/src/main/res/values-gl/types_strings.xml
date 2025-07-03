@@ -1301,4 +1301,9 @@
     <string name="type.leisure.sports_hall">Pavillón deportivo</string>
     <string name="type.highway.ladder">Escada</string>
     <string name="type.man_made.crane">Grúa</string>
+    <string name="type.barrier.guard_rail">Garda rail</string>
+    <string name="type.amenity.studio">Estudo</string>
+    <string name="type.landuse.plant_nursery">Viveiro</string>
+    <string name="type.leisure.firepit">Fogueira</string>
+    <string name="type.sport.diving">Trampolín</string>
 </resources>

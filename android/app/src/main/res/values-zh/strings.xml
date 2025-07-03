@@ -257,7 +257,7 @@
     <!-- Text in menu -->
     <string name="facebook">Facebook</string>
     <!-- Text in menu -->
-    <string name="twitter">X (推特)</string>
+    <string name="twitter">X（推特）</string>
     <!-- Settings: Send feedback button and dialog title -->
     <string name="feedback">反馈</string>
     <!-- Text in menu -->
@@ -904,13 +904,13 @@
     <string name="bookmark_color">书签颜色</string>
     <string name="pedestrian">行人</string>
     <string name="about_help">关于和帮助</string>
-    <string name="panoramax">全景图片</string>
+    <string name="panoramax">Panoramax 图片</string>
     <string name="pref_backup_summary">自动备份到设备上的文件夹</string>
     <string name="pref_backup_now_title">立即备份</string>
     <string name="pref_backup_now_summary">立即创建备份</string>
     <string name="pref_backup_now_summary_progress">正在备份…</string>
     <string name="pref_backup_now_summary_ok">备份已成功完成</string>
-    <string name="pref_backup_title">书签和轨迹备份</string>
+    <string name="pref_backup_title">备份书签与轨迹</string>
     <string name="pref_backup_now_summary_empty_lists">没有要备份的书签和轨迹</string>
     <string name="pref_backup_now_summary_failed">备份失败</string>
     <string name="pref_backup_now_summary_folder_unavailable">备份文件夹不可用</string>

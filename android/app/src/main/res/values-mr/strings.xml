@@ -838,4 +838,6 @@
     <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/About_OpenStreetMap</string>
     <string name="wikimedia_commons">विकिमीडिया कॉमन्स</string>
+    <string name="panoramax">Panoramax चित्र</string>
+    <string name="editor_line_social_network">LINE</string>
 </resources>

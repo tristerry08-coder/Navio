@@ -257,7 +257,7 @@
     <!-- Text in menu -->
     <string name="facebook">Facebook</string>
     <!-- Text in menu -->
-    <string name="twitter">X (推特)</string>
+    <string name="twitter">X（推特）</string>
     <!-- Settings: Send feedback button and dialog title -->
     <string name="feedback">回饋</string>
     <!-- Text in menu -->
@@ -903,4 +903,6 @@
     <string name="route_type">路線類型</string>
     <string name="bicycle">自行車</string>
     <string name="clear">清除</string>
+    <string name="pref_backup_title">書籤和軌跡備份</string>
+    <string name="panoramax">Panoramax 圖片</string>
 </resources>

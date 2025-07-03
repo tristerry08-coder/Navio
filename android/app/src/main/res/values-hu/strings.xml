@@ -874,4 +874,5 @@
     <string name="error_enter_correct_instagram_page">Adjon meg egy érvényes Instagram felhasználónevet vagy webcímet</string>
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
+    <string name="panoramax">Panoramax kép</string>
 </resources>

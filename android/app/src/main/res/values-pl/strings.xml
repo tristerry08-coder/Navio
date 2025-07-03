@@ -889,4 +889,5 @@
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="twitter">X (Twitter)</string>
     <string name="navigation_stop_button">Stop</string>
+    <string name="panoramax">Obraz Panoramax</string>
 </resources>

@@ -437,7 +437,7 @@
     <string name="placepage_add_business_button">Adicionar uma empresa</string>
     <string name="message_invalid_feature_position">Nenhum objeto pode ser posicionado aqui</string>
     <!-- Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. -->
-    <string name="osm_presentation">Dados do OpenStreetMap criados pela comunidade a partir de %s. Saiba mais sobre como editar e atualizar o mapa em OpenStreetMap.org</string>
+    <string name="osm_presentation">Dados do OpenStreetMap criados pela comunidade até %s. Saiba mais sobre como editar e atualizar o mapa em OpenStreetMap.org</string>
     <!-- OSM explanation on Android login screen -->
     <string name="login_osm_presentation">O OpenStreetMap (OSM) é um projeto comunitário aberto para construir um mapa gratuito. O OSM é a principal fonte de dados de mapas do CoMaps e funciona de forma semelhante à Wikipédia. Você pode adicionar ou editar lugares e eles ficam disponíveis para milhões de usuários no mundo todo. \nJunte-se à comunidade e ajude a criar um mapa melhor para todos!</string>
     <string name="login_to_make_edits_visible">Crie uma conta no OpenStreetMap ou faça login para publicar suas edições de mapas para o mundo.</string>
@@ -517,7 +517,7 @@
     <string name="traffic_update_app">Atualize o CoMaps</string>
     <!-- "traffic" as in "road congestion" -->
     <string name="traffic_data_unavailable">Não existem dados de tráfego</string>
-    <string name="enable_logging">Ativar o histórico</string>
+    <string name="enable_logging">Ativar registros de execução</string>
     <!-- Settings: "Send general feedback" button -->
     <string name="feedback_general">Opinão geral</string>
     <string name="prefs_languages_information">Utilizamos o sistema TTS (texto-para-voz) para instruções de voz. Muitos dispositivos do Android usam o TTS do Google, você pode baixá-lo ou atualizá-lo no Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts)</string>
@@ -600,7 +600,7 @@
     <string name="power_managment_setting_never">Nunca</string>
     <string name="power_managment_setting_auto">Automático</string>
     <string name="power_managment_setting_manual_max">Máxima economia de energia</string>
-    <string name="enable_logging_warning_message">A opção ativa logging para realizar diagnósticos. Pode ser útil para nossa equipe de suporte que estão solucionando problemas com o aplicativo. Ative esta opção apenas ao ser solicitado pelo suporte do CoMaps.</string>
+    <string name="enable_logging_warning_message">Ative esta opção temporariamente para criar registros de execução e manualmente nos enviar registros diagnósticos detalhados sobre seu problema usando \"Relatar um problema\" no diálogo de Ajuda. Registros de execução podem conter dados de localização.</string>
     <string name="access_rules_author_only">Edição online</string>
     <string name="driving_options_title">Opções de trajeto</string>
     <!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->
@@ -876,4 +876,25 @@
     <string name="bicycle">Bicicleta</string>
     <string name="ruler">Régua</string>
     <string name="bookmark_color">Cor do favorito</string>
+    <string name="about_help">Sobre &amp; Ajuda</string>
+    <string name="pref_backup_title">Backup dos favoritos e trajetos</string>
+    <string name="pref_backup_summary">Fazer backup automático para uma pasta no seu dispositivo</string>
+    <string name="pref_backup_now_title">Fazer backup agora</string>
+    <string name="pref_backup_now_summary">Criar um backup imediatamente</string>
+    <string name="pref_backup_now_summary_progress">Backup em andamento…</string>
+    <string name="pref_backup_now_summary_ok">Backup completado com sucesso</string>
+    <string name="pref_backup_now_summary_empty_lists">Sem favoritos ou trajetos para fazer backup</string>
+    <string name="pref_backup_now_summary_failed">Backup falhou</string>
+    <string name="pref_backup_now_summary_folder_unavailable">A pasta de backup está indisponível</string>
+    <string name="pref_backup_status_summary_success">Último backup com sucesso</string>
+    <string name="pref_backup_location_title">Localização do backup</string>
+    <string name="pref_backup_location_summary_initial">Por favor, primeiro selecione uma pasta e dê permissão</string>
+    <string name="pref_backup_history_title">Número de backups a manter</string>
+    <string name="pref_backup_interval_title">Backup automático</string>
+    <string name="backup_interval_every_day">Diariamente</string>
+    <string name="backup_interval_every_week">Semanalmente</string>
+    <string name="backup_interval_manual_only">Desligado (apenas manual)</string>
+    <string name="dialog_report_error_missing_folder">A localização de backup selecionada está indisponível ou não permite escrita. Por favor, selecione outra localização.</string>
+    <string name="dialog_report_error_with_logs">Por favor, nos envie um relatório de erro:\n - Habilite \"Ativar registros de execução\" nas configurações\n - reproduza o problema\n - na tela \"Sobre &amp; Ajuda\", pressione o botão \"Relatar um problema\" e envie via email ou chat\n - desative os registros de execução</string>
+    <string name="panoramax">Imagem Panoramax</string>
 </resources>

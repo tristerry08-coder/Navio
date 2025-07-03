@@ -600,4 +600,5 @@
     <string name="error_no_file_manager_app">Mistókst að birta val á möppum þar sem ekkert hentugt forrit er uppsett á tækinu þínu. Settu upp skráastjóra og prófaðu svo aftur.</string>
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
+    <string name="panoramax">Panoramax mynd</string>
 </resources>

@@ -832,7 +832,7 @@
 "no_available" = "Yox";
 
 /* To indicate the capacity of car parkings, bicycle parkings, electric vehicle charging stations... */
-"capacity" = "Capacity: %@";
+"capacity" = "Tutumu: %@";
 
 /* To indicate the network of ATMs, bicycle rentals, electric vehicle charging stations... */
 "network" = "Şəbəkə: %@";
@@ -945,32 +945,8 @@
 /* App Tip #00 */
 "app_tip_00" = "İcma tərəfindən yaradılmış xəritələrimizdən istifadə etdiyiniz üçün təşəkkür edirik!";
 
-/* App tip #01 */
-"app_tip_01" = "With your donations and support, we can create the best maps in the World!";
-
-/* App tip #02 */
-"app_tip_02" = "Do you like our app? Please donate to support the development! Don't like it yet? Please let us know why, and we will fix it!";
-
-/* App tip #03 */
-"app_tip_03" = "If you know a software developer, you can ask him or her to implement a feature that you need.";
-
 /* App tip #04 */
 "app_tip_04" = "Nəyisə seçmək üçün xəritədə istənilən yerə toxunun. Gizlətmək və interfeysi geri göstərmək üçün uzun müddət toxunun.";
-
-/* App tip #05 */
-"app_tip_05" = "Did you know that your current location on the map can be selected?";
-
-/* App tip #06 */
-"app_tip_06" = "You can help to translate our app into your language.";
-
-/* App tip #07 */
-"app_tip_07" = "Our app is developed by a few enthusiasts and the community.";
-
-/* App tip #08 */
-"app_tip_08" = "You can easily fix and improve the map data.";
-
-/* App tip #09 */
-"app_tip_09" = "Our main goal is to build fast, privacy-focused, easy-to-use maps that you will love.";
 
 /* Text on the Android Auto or CarPlay placeholder screen that maps are displayed on the phone screen */
 "car_used_on_the_phone_screen" = "İndi telefon ekranında CoMaps istifadə edirsiniz";

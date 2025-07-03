@@ -906,4 +906,5 @@
     <string name="bicycle">Vélo</string>
     <string name="ruler">Règle</string>
     <string name="bookmark_color">Couleur du marque-page</string>
+    <string name="panoramax">Image Panoramax</string>
 </resources>

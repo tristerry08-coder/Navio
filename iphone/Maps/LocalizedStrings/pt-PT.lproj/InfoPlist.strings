@@ -1,0 +1,5 @@
+"search" = "Procurar";
+"bookmarks_and_tracks" = "Favoritos e trilhas";
+"route" = "Rota";
+"NSLocationAlwaysUsageDescription" = "O acesso à sua localização atual em segundo plano é necessário para usar todas as funcionalidades da aplicação. É necessário para a navegação e guardar o último trajeto percorrido.";
+"NSLocationWhenInUseUsageDescription" = "O acesso à sua localização atual é utilizado em determinadas funções, tais como a navegação e guardar o último trajeto percorrido.";

@@ -150,4 +150,6 @@
     <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="wikimedia_commons">Zajednički poslužitelj</string>
     <string name="self_service">Samoposluživanje</string>
+    <string name="editor_line_social_network">LINE</string>
+    <string name="panoramax">Panoramax slika</string>
 </resources>

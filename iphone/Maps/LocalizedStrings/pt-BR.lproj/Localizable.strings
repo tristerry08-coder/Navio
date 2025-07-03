@@ -583,7 +583,7 @@
 "message_invalid_feature_position" = "Nenhum objeto pode ser posicionado aqui";
 
 /* Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. */
-"osm_presentation" = "Dados do OpenStreetMap criados pela comunidade a partir de %@. Saiba mais sobre como editar e atualizar o mapa em OpenStreetMap.org";
+"osm_presentation" = "Dados do OpenStreetMap criados pela comunidade até %@. Saiba mais sobre como editar e atualizar o mapa em OpenStreetMap.org";
 "login_to_make_edits_visible" = "Crie uma conta no OpenStreetMap ou faça login para publicar suas edições de mapas para o mundo.";
 
 /* Error dialog no space */
@@ -713,7 +713,7 @@
 
 /* "traffic" as in "road congestion" */
 "traffic_data_unavailable" = "Não existem dados de tráfego";
-"enable_logging" = "Ativar o histórico";
+"enable_logging" = "Ativar registros de execução";
 "log_file_size" = "Tamanho do arquivo de registro: %@";
 "transliteration_title" = "Transliterar para alfabeto latino";
 
@@ -793,7 +793,7 @@
 "power_managment_setting_never" = "Nunca";
 "power_managment_setting_auto" = "Automático";
 "power_managment_setting_manual_max" = "Máxima economia de energia";
-"enable_logging_warning_message" = "A opção ativa logging para realizar diagnósticos. Pode ser útil para nossa equipe de suporte que estão solucionando problemas com o aplicativo. Ative esta opção apenas ao ser solicitado pelo suporte do CoMaps.";
+"enable_logging_warning_message" = "Ative esta opção temporariamente para criar registros de execução e manualmente nos enviar registros diagnósticos detalhados sobre seu problema usando \"Relatar um problema\" no diálogo de Ajuda. Registros de execução podem conter dados de localização.";
 "driving_options_title" = "Opções de trajeto";
 
 /* Recommended length for CarPlay and Android Auto is around 25-27 characters */

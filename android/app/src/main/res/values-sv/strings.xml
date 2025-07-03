@@ -837,7 +837,7 @@
     <string name="mb">MB</string>
     <string name="closes_in">Stänger om %s</string>
     <string name="mastodon">Mastodon</string>
-    <string name="editor_line_social_network">RAD</string>
+    <string name="editor_line_social_network">LINE</string>
     <string name="level_value_generic">Nivå: %s</string>
     <string name="download_map_title">Ladda ner översiktskartan för hela världen</string>
     <string name="disconnect_usb_cable_title">Koppla ur USB-kabel</string>
@@ -854,4 +854,5 @@
     <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/Sv:Om_OpenStreetMap</string>
     <string name="change_map_locale">Kartspråk</string>
     <string name="comma_separated_pair">%1$s, %2$s</string>
+    <string name="panoramax">Panoramax-bild</string>
 </resources>

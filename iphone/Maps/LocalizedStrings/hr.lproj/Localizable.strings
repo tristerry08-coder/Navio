@@ -4,3 +4,4 @@
 "self_service" = "Samoposluživanje";
 "panoramax" = "Panoramax";
 "panoramax_picture" = "Panoramax slika";
+"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";

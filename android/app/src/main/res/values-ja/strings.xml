@@ -898,4 +898,6 @@
     <string name="bicycle">自転車</string>
     <string name="ruler">ルーラー</string>
     <string name="clear">クリア</string>
+    <string name="panoramax">Panoramax 写真</string>
+    <string name="pref_backup_title">ブックマークとバックアップのバックアップ</string>
 </resources>

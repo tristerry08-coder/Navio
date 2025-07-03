@@ -781,7 +781,7 @@
 "place_description_title" = "Опис места";
 
 /* "Speed cameras" settings menu option (should be short! no more than 47-50 chars) to warn a driver if there is a risk of exceeding the speed limit */
-"pref_tts_speedcams_auto" = "Упозорење на прекорачење брзине";
+"pref_tts_speedcams_auto" = "Упозорити код прекорачења брзине";
 
 /* Speed camera settings menu option - Always warn (about speedcams) */
 "pref_tts_speedcams_always" = "Увек ме упозори";

@@ -1,1 +1,1 @@
-comaps,maps,open street maps,osm,travel,hike,bike,drive,offline,privacy,navigate,gps
+comaps,mappe,open street maps,osm,viaggio,escursione,bicicletta,guida,offline,privacy,navigazione,gps

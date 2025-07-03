@@ -1294,8 +1294,8 @@
     <string name="type.waterway.river">Fluss</string>
     <string name="type.waterway.river.tunnel">Fluss</string>
     <string name="type.waterway.stream">Bach</string>
-    <string name="type.waterway.stream.ephemeral">Bach</string>
-    <string name="type.waterway.stream.intermittent">Bach</string>
+    <string name="type.waterway.stream.ephemeral">Vorübergehender Bach</string>
+    <string name="type.waterway.stream.intermittent">Zeitweiliger Bach</string>
     <string name="type.waterway.stream.tunnel">Bach</string>
     <string name="type.waterway.waterfall">Wasserfall</string>
     <string name="type.waterway.weir">Wehr</string>

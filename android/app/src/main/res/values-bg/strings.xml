@@ -839,4 +839,6 @@
     <string name="instagram">Instagram</string>
     <string name="downloader_loading_ios">Изтегляне</string>
     <string name="wikimedia_commons">Общомедия</string>
+    <string name="panoramax">Panoramax Снимка</string>
+    <string name="editor_line_social_network">LINE</string>
 </resources>

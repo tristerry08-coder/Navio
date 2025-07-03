@@ -1431,8 +1431,8 @@
 "type.waterway.river" = "Fluss";
 "type.waterway.river.tunnel" = "Fluss";
 "type.waterway.stream" = "Bach";
-"type.waterway.stream.ephemeral" = "Bach";
-"type.waterway.stream.intermittent" = "Bach";
+"type.waterway.stream.ephemeral" = "Vorübergehender Bach";
+"type.waterway.stream.intermittent" = "Zeitweiliger Bach";
 "type.waterway.stream.tunnel" = "Bach";
 "type.waterway.waterfall" = "Wasserfall";
 "type.waterway.weir" = "Wehr";

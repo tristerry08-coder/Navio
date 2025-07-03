@@ -40,15 +40,15 @@
     <string name="try_again">Tekrar Dene</string>
     <string name="about_menu_title">CoMaps Hakkında</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Topluluktan güç alan açık kaynaklı bir proje</string>
+    <string name="about_headline">Gücünü topluluktan alan açık kaynaklı bir proje</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_1">• Kullanımı kolay ve havalı</string>
+    <string name="about_proposition_1">• Kullanımı kolay ve temiz bir arayüz</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_2">• Gizlilik merkezli ve reklamsız</string>
+    <string name="about_proposition_2">• Gizlilik odaklı ve reklamsız</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Çevrimdışı çalışan, hızlı ve pratik</string>
+    <string name="about_proposition_3">• Çevrimdışı, hızlı ve pratik</string>
     <!-- Text in About screen -->
-    <string name="about_developed_by_enthusiasts">Tamamen açık kaynaklı, kâr gütmeyen, şeffaf mali yönetim ve karar alma mekanizması.</string>
+    <string name="about_developed_by_enthusiasts">Tamamen açık kaynaklı, kâr amacı gütmeyen, şeffaf fonlama ve karar alma süreçlerine sahip harita uygulaması.</string>
     <!-- The button that opens system location settings -->
     <string name="location_settings">Konum ayarları</string>
     <string name="close">Kapat</string>

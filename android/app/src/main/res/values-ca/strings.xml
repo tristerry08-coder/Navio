@@ -886,4 +886,5 @@
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="comma_separated_pair">%1$s, %2$s</string>
+    <string name="panoramax">Imatge Panoramax</string>
 </resources>
