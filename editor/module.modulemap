@@ -1,0 +1,6 @@
+module OSMEditor {
+    header "osm_auth.hpp"
+    header "osm_editor.hpp"
+    header "server_api.hpp"
+    requires cplusplus
+}

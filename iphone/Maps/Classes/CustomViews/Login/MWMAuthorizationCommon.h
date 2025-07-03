@@ -1,3 +1,4 @@
+#include <string>
 #include "editor/osm_auth.hpp"
 
 namespace osm_auth_ios

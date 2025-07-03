@@ -2,6 +2,8 @@
 #import <CoreApi/AppInfo.h>
 #import "MWMAuthorizationCommon.h"
 
+#include <string>
+#include <map>
 #include "editor/osm_editor.hpp"
 
 @implementation MWMEditorHelper

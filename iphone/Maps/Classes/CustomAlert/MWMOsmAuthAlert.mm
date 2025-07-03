@@ -1,6 +1,7 @@
 #import "MWMAlertViewController.h"
 #import "MWMOsmAuthAlert.h"
 
+#include <string>
 #include "editor/osm_auth.hpp"
 
 static NSString * const kMap2OsmLoginSegue = @"Map2OsmLogin";
