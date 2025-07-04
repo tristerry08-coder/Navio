@@ -26,8 +26,6 @@
 
 - (void)updateStatusBarStyle;
 
-- (void)migrateOAuthCredentials;
-
 - (void)performAction:(NSString *_Nonnull)action;
 
 - (void)openMenu;

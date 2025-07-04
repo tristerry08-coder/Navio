@@ -1,7 +1,6 @@
 #import "MWMEditorViralAlert.h"
 #import "MWMActivityViewController.h"
 #import "MWMAlertViewController.h"
-#import "MWMAuthorizationCommon.h"
 #import "SwiftBridge.h"
 
 @interface MWMEditorViralAlert ()

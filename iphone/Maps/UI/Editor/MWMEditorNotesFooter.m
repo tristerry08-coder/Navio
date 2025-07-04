@@ -22,7 +22,7 @@
 
 - (IBAction)osmTap
 {
-  [self.controller openUrl:L(@"osm_wiki_about_url")];
+  [self.controller openUrl:L(@"osm_more_about_url")];
 }
 
 @end

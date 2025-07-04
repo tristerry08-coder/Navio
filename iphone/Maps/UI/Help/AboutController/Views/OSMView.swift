@@ -75,7 +75,7 @@ final class OSMView: UIView {
 
   private func attributedString(for date: String) -> NSAttributedString {
     let osmLink = "OpenStreetMap.org"
-    let attributedString = NSMutableAttributedString(string: String(format: L("osm_presentation"), date.trimmingCharacters(in: .punctuationCharacters)),
+    let attributedString = NSMutableAttributedString(string: String(format: L("osm_explanation"), date.trimmingCharacters(in: .punctuationCharacters)),
                                                      attributes: [.font: UIFont.regular14(),
                                                                   .foregroundColor: StyleManager.shared.theme!.colors.blackPrimaryText]
     )

@@ -1,6 +1,5 @@
 #import "MWMEditorViewController.h"
 #import "MWMAlertViewController.h"
-#import "MWMAuthorizationCommon.h"
 #import "MWMButtonCell.h"
 #import "MWMCuisineEditorViewController.h"
 #import "MWMEditorAddAdditionalNameTableViewCell.h"
@@ -244,7 +243,7 @@ void registerCellsForTableView(std::vector<MWMEditorCellID> const & cells, UITab
       [self showNotesQueuedToast];
     break;
   case osm::Editor::SaveResult::SavedSuccessfully:
-    osm_auth_ios::AuthorizationSetNeedCheck(YES);
+    [Profile requestReauthorizationWithShouldReauthorize:YES];
     f.UpdatePlacePageInfoForCurrentSelection();
     [self.navigationController popToRootViewControllerAnimated:YES];
     break;

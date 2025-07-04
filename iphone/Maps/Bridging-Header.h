@@ -10,7 +10,6 @@
 
 #import <CoreApi/CoreApi.h>
 
-#import "Bridging.h"
 #import "DeepLinkRouteStrategyAdapter.h"
 #import "EAGLView.h"
 #import "FirstSession.h"

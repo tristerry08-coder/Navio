@@ -525,15 +525,28 @@
 "closes_in" = "Suletakse %@ jooksul";
 "closed" = "Suletud";
 "add_opening_hours" = "Lisa tööaeg";
-"no_osm_account" = "Sul puudub OpenStreetMapi konto?";
-"register_at_openstreetmap" = "Registreeru OpenStreetMapis";
-"password_8_chars_min" = "Salasõna (vähemalt 8 märki)";
-"invalid_username_or_password" = "Vigane kasutajanimi või salasõna.";
-"login" = "Logi sisse";
-"login_osm" = "Logi sisse OpenStreetMappi";
-"forgot_password" = "Unustasid oma salasõna?";
-"osm_account" = "OSMi kasutajakonto";
-"logout" = "Logi välja";
+
+/* OpenStreetMap */
+"osm_explanation" = "Kogukonna loodud OpenStreetMapi andmed seisuga %@. Lisateavet kaardi muutmise ja uuendamise kohta leiad OpenStreetMap.org saidist";
+"osm_more_about" = "Lisateave OpenStreetMapi kohta";
+"osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
+
+/* OpenStreetMap Profile */
+"osm_profile" = "OpenStreetMapi profiil";
+"osm_profile_promt" = "Loo OpenStreetMapi konto või logi sisse, et avaldada oma kaardimuudatused kogu maailmale.";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_login" = "Logi sisse OpenStreetMappi";
+"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
+"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
+"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
+"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_register_promt" = "Sul puudub OpenStreetMapi konto?";
+"osm_profile_register" = "Registreeru OpenStreetMapis";
+"osm_profile_verfied_changes" = "Kinnitatud muudatused";
+"osm_profile_view_edit_history" = "View Edit History";
+"osm_profile_view_notes" = "View Notes";
+"osm_profile_logout" = "Logout of OpenStreetMap account";
+"osm_profile_delete" = "Delete OpenStreetMap account";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Viimane üleslaadimine";
@@ -581,10 +594,6 @@
 "whatsnew_editor_message_1" = "Lisa kaardile uusi kohti ja muuda olemasolevaid otse rakenduses.";
 "dialog_incorrect_feature_position" = "Muuda asukohta";
 "message_invalid_feature_position" = "Ükski objekt ei saa siin asuda";
-
-/* Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. */
-"osm_presentation" = "Kogukonna loodud OpenStreetMapi andmed seisuga %@. Lisateavet kaardi muutmise ja uuendamise kohta leiad OpenStreetMap.org saidist";
-"login_to_make_edits_visible" = "Loo OpenStreetMapi konto või logi sisse, et avaldada oma kaardimuudatused kogu maailmale.";
 
 /* Error dialog no space */
 "migration_no_space_message" = "Allalaadimiseks vajad rohkem andmeruumi. Palun kustuta ebavajalikke andmeid.";
@@ -936,11 +945,8 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comaps.app/";
 
-/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site */
 "translated_om_site_url" = "https://www.comaps.app/et/";
-
-/* Link to OSM wiki for Editor, Profile and About pages */
-"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 
 /* App Tip #00 */
 "app_tip_00" = "Aitäh, et kasutad meie kogukonna koostatud kaarte!";

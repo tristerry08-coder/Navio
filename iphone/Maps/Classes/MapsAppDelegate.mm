@@ -1,7 +1,6 @@
 #import "MapsAppDelegate.h"
 
 #import "EAGLView.h"
-#import "MWMAuthorizationCommon.h"
 #import "MWMCoreRouterType.h"
 #import "MWMFrameworkListener.h"
 #import "MWMFrameworkObservers.h"
@@ -58,7 +57,6 @@ void InitLocalizedStrings() {
 }
 }  // namespace
 
-using namespace osm_auth_ios;
 
 @interface MapsAppDelegate () <MWMStorageObserver,
                                CPApplicationDelegate>

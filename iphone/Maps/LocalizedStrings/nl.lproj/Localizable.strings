@@ -525,15 +525,28 @@
 "closes_in" = "Sluit over %@";
 "closed" = "Gesloten";
 "add_opening_hours" = "Voeg openingstijden toe";
-"no_osm_account" = "Geen account bij OpenStreetMap?";
-"register_at_openstreetmap" = "Registreer bij OpenStreetMap";
-"password_8_chars_min" = "Wachtwoord (minimaal 8 tekens)";
-"invalid_username_or_password" = "Ongeldige gebruikersnaam of ongeldig wachtwoord.";
-"login" = "Log in";
-"login_osm" = "Log in bij OpenStreetMap";
-"forgot_password" = "Wachtwoord vergeten?";
-"osm_account" = "OSM-account";
-"logout" = "Log uit";
+
+/* OpenStreetMap */
+"osm_explanation" = "Door de gemeenschap gemaakte OpenStreetMap-gegevens tot %@. Lees meer over hoe je de kaart kunt bewerken en bijwerken op OpenStreetMap.org";
+"osm_more_about" = "Meer over OpenStreetMap";
+"osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/NL:Wat_is_OpenStreetMap%3F";
+
+/* OpenStreetMap Profile */
+"osm_profile" = "OpenStreetMap-profiel";
+"osm_profile_promt" = "Maak een OpenStreetMap account aan of log in om uw kaartbewerkingen voor de wereld te publiceren.";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_login" = "Log in bij OpenStreetMap";
+"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
+"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
+"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
+"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_register_promt" = "Geen account bij OpenStreetMap?";
+"osm_profile_register" = "Registreer bij OpenStreetMap";
+"osm_profile_verfied_changes" = "Gecontroleerde wijzigingen";
+"osm_profile_view_edit_history" = "View Edit History";
+"osm_profile_view_notes" = "View Notes";
+"osm_profile_logout" = "Logout of OpenStreetMap account";
+"osm_profile_delete" = "Delete OpenStreetMap account";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Laatste upload";
@@ -581,10 +594,6 @@
 "whatsnew_editor_message_1" = "Voeg nieuwe plaatsen toe aan de kaart en bewerk de bestaande rechtstreeks vanuit de app.";
 "dialog_incorrect_feature_position" = "Wijzig locatie";
 "message_invalid_feature_position" = "Hier kan geen object worden geplaatst";
-
-/* Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. */
-"osm_presentation" = "Door de gemeenschap gemaakte OpenStreetMap-gegevens tot %@. Lees meer over hoe je de kaart kunt bewerken en bijwerken op OpenStreetMap.org";
-"login_to_make_edits_visible" = "Maak een OpenStreetMap account aan of log in om uw kaartbewerkingen voor de wereld te publiceren.";
 
 /* Error dialog no space */
 "migration_no_space_message" = "Om te kunnen downloaden, heb je meer ruimte nodig. Verwijder overbodige gegevens.";
@@ -936,11 +945,8 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comaps.app/";
 
-/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site */
 "translated_om_site_url" = "https://www.comaps.app/nl/";
-
-/* Link to OSM wiki for Editor, Profile and About pages */
-"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/NL:Wat_is_OpenStreetMap%3F";
 
 /* App Tip #00 */
 "app_tip_00" = "Bedankt voor het gebruik van onze door de community gemaakte kaarten!";

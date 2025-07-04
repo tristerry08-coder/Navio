@@ -525,15 +525,28 @@
 "closes_in" = "Closes in %@";
 "closed" = "تعطیل";
 "add_opening_hours" = "اضافه کردن ساعت بازگشایی";
-"no_osm_account" = "آیا حساب OpenStreetMap ندارید؟";
-"register_at_openstreetmap" = "ثبت نام در OpenStreetMap";
-"password_8_chars_min" = "رمز عبور (حداقل 8 عدد یا حرف)";
-"invalid_username_or_password" = "نام کاربری یا رمز عبور نامعتبر است.";
-"login" = "ورود";
-"login_osm" = "شوید OpenStreetMap وارد";
-"forgot_password" = "رمز عبور خود را فراموش کردید؟";
-"osm_account" = "حساب OSM";
-"logout" = "خروج از حساب";
+
+/* OpenStreetMap */
+"osm_explanation" = "داده های OpenStreetMap ایجاد شده توسط انجمن از %@. درباره نحوه ویرایش و به روز رسانی نقشه در OpenStreetMap.org بیشتر بیاموزید";
+"osm_more_about" = "در مورد OpenStreetMap بیشتر بدانید";
+"osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Fa:About_OpenStreetMap";
+
+/* OpenStreetMap Profile */
+"osm_profile" = "OpenStreetMap نمایه";
+"osm_profile_promt" = "یک حساب OpenStreetMap ایجاد کنید یا وارد شوید تا ویرایش های نقشه خود را در جهان منتشر کنید.";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_login" = "شوید OpenStreetMap وارد";
+"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
+"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
+"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
+"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_register_promt" = "آیا حساب OpenStreetMap ندارید؟";
+"osm_profile_register" = "ثبت نام در OpenStreetMap";
+"osm_profile_verfied_changes" = "تغییرات تایید شد";
+"osm_profile_view_edit_history" = "View Edit History";
+"osm_profile_view_notes" = "View Notes";
+"osm_profile_logout" = "Logout of OpenStreetMap account";
+"osm_profile_delete" = "Delete OpenStreetMap account";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "اخرین بروزرسانی";
@@ -581,10 +594,6 @@
 "whatsnew_editor_message_1" = "اضافه کردن مکان به نقشه و ویرایش آن مستقیما از طریق این اپلیکیشن.";
 "dialog_incorrect_feature_position" = "تغییر موقعیت";
 "message_invalid_feature_position" = "نمی توان شی ای در این مکان باشد";
-
-/* Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. */
-"osm_presentation" = "داده های OpenStreetMap ایجاد شده توسط انجمن از %@. درباره نحوه ویرایش و به روز رسانی نقشه در OpenStreetMap.org بیشتر بیاموزید";
-"login_to_make_edits_visible" = "یک حساب OpenStreetMap ایجاد کنید یا وارد شوید تا ویرایش های نقشه خود را در جهان منتشر کنید.";
 
 /* Error dialog no space */
 "migration_no_space_message" = "برای دانلود، شما نیازمند فضای ذخیره سازی بیشتری هستید.لطفا داده‌های غیر ضروری خود را حذف کنید.";
@@ -936,11 +945,8 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comaps.app";
 
-/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site */
 "translated_om_site_url" = "https://www.comaps.app";
-
-/* Link to OSM wiki for Editor, Profile and About pages */
-"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/Fa:About_OpenStreetMap";
 
 /* App Tip #00 */
 "app_tip_00" = "از شما برای استفاده از نقشه های ساخته شده توسط جامعه سپاسگزاریم!";

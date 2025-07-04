@@ -525,15 +525,28 @@
 "closes_in" = "Closes in %@";
 "closed" = "닫음";
 "add_opening_hours" = "영업일 추가";
-"no_osm_account" = "OpenStreetMap에서 계정이 없습니까?";
-"register_at_openstreetmap" = "OpenStreetMap에 등록하세요";
-"password_8_chars_min" = "암호(최소 8자)";
-"invalid_username_or_password" = "잘못된 사용자 이름 또는 암호.";
-"login" = "로그인";
-"login_osm" = "OpenStreetMap에 로그인";
-"forgot_password" = "암호를 잊으 셨나요?";
-"osm_account" = "OSM 계정";
-"logout" = "로그 아웃";
+
+/* OpenStreetMap */
+"osm_explanation" = "커뮤니티에서 만든 오픈스트리트맵 데이터(%@ 기준). 지도를 편집하고 업데이트하는 방법에 대한 자세한 내용은 OpenStreetMap.org에서 확인하세요.";
+"osm_more_about" = "OpenStreetMap 정보";
+"osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Ko:OpenStreetMap_소개";
+
+/* OpenStreetMap Profile */
+"osm_profile" = "OpenStreetMap 프로필";
+"osm_profile_promt" = "OpenStreetMap 계정을 만들거나 로그인하여 지도 편집 내용을 전 세계에 공개하세요.";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_login" = "OpenStreetMap에 로그인";
+"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
+"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
+"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
+"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_register_promt" = "OpenStreetMap에서 계정이 없습니까?";
+"osm_profile_register" = "OpenStreetMap에 등록하세요";
+"osm_profile_verfied_changes" = "변경사항 승인";
+"osm_profile_view_edit_history" = "View Edit History";
+"osm_profile_view_notes" = "View Notes";
+"osm_profile_logout" = "Logout of OpenStreetMap account";
+"osm_profile_delete" = "Delete OpenStreetMap account";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "마지막 업로드";
@@ -581,10 +594,6 @@
 "whatsnew_editor_message_1" = "지도에 새로운 장소를 추가하고 응용 프로그램에서 직접 기존 편집 할 수 있습니다.";
 "dialog_incorrect_feature_position" = "위치 변경";
 "message_invalid_feature_position" = "목적지를 이곳에서 찾을 수 없습니다";
-
-/* Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. */
-"osm_presentation" = "커뮤니티에서 만든 오픈스트리트맵 데이터(%@ 기준). 지도를 편집하고 업데이트하는 방법에 대한 자세한 내용은 OpenStreetMap.org에서 확인하세요.";
-"login_to_make_edits_visible" = "OpenStreetMap 계정을 만들거나 로그인하여 지도 편집 내용을 전 세계에 공개하세요.";
 
 /* Error dialog no space */
 "migration_no_space_message" = "다운로드하려면, 더 많은 여유 공간이 필요합니다. 불필요한 데이터를 삭제하십시오.";
@@ -936,11 +945,8 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comaps.app/";
 
-/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site */
 "translated_om_site_url" = "https://www.comaps.app/";
-
-/* Link to OSM wiki for Editor, Profile and About pages */
-"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/Ko:OpenStreetMap_소개";
 
 /* App Tip #00 */
 "app_tip_00" = "커뮤니티에서 제작한 지도를 이용해 주셔서 감사합니다!";

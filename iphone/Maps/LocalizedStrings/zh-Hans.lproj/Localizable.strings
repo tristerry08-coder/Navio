@@ -525,15 +525,28 @@
 "closes_in" = "将于 %@ 后不营业";
 "closed" = "已停止营业";
 "add_opening_hours" = "添加营业时间";
-"no_osm_account" = "没有 OpenStreetMap 账号吗？";
-"register_at_openstreetmap" = "注册 OpenStreetMap 账号";
-"password_8_chars_min" = "密码（至少 8 个字符）";
-"invalid_username_or_password" = "无效的用户名或密码。";
-"login" = "登录";
-"login_osm" = "登录 OpenStreetMap";
-"forgot_password" = "忘记密码？";
-"osm_account" = "OSM 账号";
-"logout" = "登出";
+
+/* OpenStreetMap */
+"osm_explanation" = "截至 %@ 的社区创建的 OpenStreetMap 数据。请访问 OpenStreetMap.org 详细了解如何编辑和更新地图";
+"osm_more_about" = "关于 OpenStreetMap 的更多信息";
+"osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Zh-hans:关于";
+
+/* OpenStreetMap Profile */
+"osm_profile" = "OpenStreetMap 个人资料";
+"osm_profile_promt" = "创建 OpenStreetMap 账号或登录，向全世界发布您编辑的地图。";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_login" = "登录 OpenStreetMap";
+"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
+"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
+"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
+"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_register_promt" = "没有 OpenStreetMap 账号吗？";
+"osm_profile_register" = "注册 OpenStreetMap 账号";
+"osm_profile_verfied_changes" = "已验证的更改";
+"osm_profile_view_edit_history" = "View Edit History";
+"osm_profile_view_notes" = "View Notes";
+"osm_profile_logout" = "Logout of OpenStreetMap account";
+"osm_profile_delete" = "Delete OpenStreetMap account";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "最后上传";
@@ -581,10 +594,6 @@
 "whatsnew_editor_message_1" = "添加新地点到地图，并直接通过此应用编辑已存在的地点。";
 "dialog_incorrect_feature_position" = "更改位置";
 "message_invalid_feature_position" = "地点不能放置在这里";
-
-/* Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. */
-"osm_presentation" = "截至 %@ 的社区创建的 OpenStreetMap 数据。请访问 OpenStreetMap.org 详细了解如何编辑和更新地图";
-"login_to_make_edits_visible" = "创建 OpenStreetMap 账号或登录，向全世界发布您编辑的地图。";
 
 /* Error dialog no space */
 "migration_no_space_message" = "为了下载，您需要更多的存储空间。请删除不必要的文件。";
@@ -936,11 +945,8 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comaps.app/";
 
-/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site */
 "translated_om_site_url" = "https://www.comaps.app/zh-Hans/";
-
-/* Link to OSM wiki for Editor, Profile and About pages */
-"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/Zh-hans:关于";
 
 /* App Tip #00 */
 "app_tip_00" = "感谢您使用我们社区构建的地图！";

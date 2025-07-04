@@ -1,7 +1,6 @@
 #import "MapViewController.h"
 #import <CoreApi/MWMBookmarksManager.h>
 #import "EAGLView.h"
-#import "MWMAuthorizationCommon.h"
 #import "MWMAutoupdateController.h"
 #import "MWMEditorViewController.h"
 #import "MWMFrameworkListener.h"
@@ -425,10 +424,6 @@ NSString *const kSettingsSegue = @"Map2Settings";
   if ([MWMNavigationDashboardManager sharedManager].state == MWMNavigationDashboardStateHidden)
     self.controlsManager.menuState = self.controlsManager.menuRestoreState;
 
-  // Added in https://github.com/organicmaps/organicmaps/pull/7333
-  // After all users migrate to OAuth2 we can remove next code
-  [self migrateOAuthCredentials];
-
   if (self.trackRecordingManager.isActive)
     [self showTrackRecordingPlacePage];
 
@@ -499,8 +494,7 @@ NSString *const kSettingsSegue = @"Map2Settings";
 - (void)showViralAlertIfNeeded {
   NSUserDefaults *ud = NSUserDefaults.standardUserDefaults;
 
-  using namespace osm_auth_ios;
-  if (!AuthorizationIsNeedCheck() || [ud objectForKey:kUDViralAlertWasShown] || !AuthorizationHaveCredentials())
+  if (!Profile.needsReauthorization || [ud objectForKey:kUDViralAlertWasShown] || Profile.isExisting)
     return;
 
   if (osm::Editor::Instance().GetStats().m_edits.size() < 2)
@@ -534,14 +528,6 @@ NSString *const kSettingsSegue = @"Map2Settings";
 
 - (void)updateStatusBarStyle {
   [self setNeedsStatusBarAppearanceUpdate];
-}
-
-- (void)migrateOAuthCredentials {
-  if (osm_auth_ios::AuthorizationHaveOAuth1Credentials())
-  {
-    osm_auth_ios::AuthorizationClearOAuth1Credentials();
-    [self.alertController presentOsmReauthAlert];
-  }
 }
 
 - (id)initWithCoder:(NSCoder *)coder {
@@ -661,13 +647,12 @@ NSString *const kSettingsSegue = @"Map2Settings";
 #pragma mark - Authorization
 
 - (void)checkAuthorization {
-  using namespace osm_auth_ios;
-  BOOL const isAfterEditing = AuthorizationIsNeedCheck() && !AuthorizationHaveCredentials();
+  BOOL const isAfterEditing = Profile.needsReauthorization && !Profile.isExisting;
   if (isAfterEditing) {
-    AuthorizationSetNeedCheck(NO);
+    [Profile requestReauthorizationWithShouldReauthorize:NO];
     if (!Platform::IsConnected())
       return;
-    [self.alertController presentOsmAuthAlert];
+    [self presentViewController:BridgeControllers.profileAsAlert animated:YES completion:nil];
   }
 }
 

@@ -1,6 +1,5 @@
 @objc(MWMStoryboard)
 enum Storyboard: Int {
-  case authorization
   case launchScreen
   case main
   case settings
@@ -16,7 +15,6 @@ extension UIStoryboard {
   @objc static func instance(_ id: Storyboard) -> UIStoryboard {
     let name: String
     switch id {
-    case .authorization: name = "Authorization"
     case .launchScreen: name = "LaunchScreen"
     case .main: name = "Main"
     case .settings: name = "Settings"

@@ -525,15 +525,28 @@
 "closes_in" = "Slēgts pēc %@";
 "closed" = "Slēgts";
 "add_opening_hours" = "Pievienot darba laiku";
-"no_osm_account" = "Vai jums nav „OpenStreetMap“ konta?";
-"register_at_openstreetmap" = "Reģistrējieties „OpenStreetMap“";
-"password_8_chars_min" = "Parole (vismaz 8 simboli)";
-"invalid_username_or_password" = "Nederīgs lietotājvārds vai parole.";
-"login" = "Ierakstīties";
-"login_osm" = "Ierakstīties OpenStreetMap";
-"forgot_password" = "Vai aizmirsāt paroli?";
-"osm_account" = "OSM konts";
-"logout" = "Izrakstīties";
+
+/* OpenStreetMap */
+"osm_explanation" = "Kopienas veidotie „OpenStreetMap“ dati, %@. Uzziniet vairāk par to, kā piedalīties kartes rediģēšanā un uzlabošanā vietnē „OpenStreetMap.org“.";
+"osm_more_about" = "Vairāk par „OpenStreetMap“";
+"osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
+
+/* OpenStreetMap Profile */
+"osm_profile" = "„OpenStreetMap“ profils";
+"osm_profile_promt" = "Izveidojiet OpenStreetMap kontu vai piesakieties, lai publicētu savas kartes rediģējumus visā pasaulē.";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_login" = "Ierakstīties OpenStreetMap";
+"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
+"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
+"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
+"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_register_promt" = "Vai jums nav „OpenStreetMap“ konta?";
+"osm_profile_register" = "Reģistrējieties „OpenStreetMap“";
+"osm_profile_verfied_changes" = "Apstiprinātas izmaiņas";
+"osm_profile_view_edit_history" = "View Edit History";
+"osm_profile_view_notes" = "View Notes";
+"osm_profile_logout" = "Logout of OpenStreetMap account";
+"osm_profile_delete" = "Delete OpenStreetMap account";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Pēdējo reizi augšupielādēja";
@@ -581,10 +594,6 @@
 "whatsnew_editor_message_1" = "Pievienojiet kartei jaunas vietas un rediģējiet jau esošās uzreiz lietotnē.";
 "dialog_incorrect_feature_position" = "Mainīt atrašanās vietu";
 "message_invalid_feature_position" = "Šeit objekti nevar atrasties";
-
-/* Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. */
-"osm_presentation" = "Kopienas veidotie „OpenStreetMap“ dati, %@. Uzziniet vairāk par to, kā piedalīties kartes rediģēšanā un uzlabošanā vietnē „OpenStreetMap.org“.";
-"login_to_make_edits_visible" = "Izveidojiet OpenStreetMap kontu vai piesakieties, lai publicētu savas kartes rediģējumus visā pasaulē.";
 
 /* Error dialog no space */
 "migration_no_space_message" = "Lejupielādei nepieciešams vairāk vietas. Izdzēsiet liekos datus.";
@@ -936,11 +945,8 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comaps.app/";
 
-/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site */
 "translated_om_site_url" = "https://www.comaps.app/";
-
-/* Link to OSM wiki for Editor, Profile and About pages */
-"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 
 /* App Tip #00 */
 "app_tip_00" = "Paldies, ka izmantojat mūsu kopienas veidotās kartes!";

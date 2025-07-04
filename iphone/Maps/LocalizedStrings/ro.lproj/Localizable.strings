@@ -525,15 +525,28 @@
 "closes_in" = "Închide în %@";
 "closed" = "Închis";
 "add_opening_hours" = "Adaugă orele de funcționare";
-"no_osm_account" = "Nu ai un cont OpenStreetMap?";
-"register_at_openstreetmap" = "Înregistrați-vă la OpenStreetMap";
-"password_8_chars_min" = "Parola (minim 8 caractere)";
-"invalid_username_or_password" = "Nume de utilizator sau parolă incorecte.";
-"login" = "Autentificare";
-"login_osm" = "Conectați-vă la OpenStreetMap";
-"forgot_password" = "Ai uitat parola?";
-"osm_account" = "Cont OSM";
-"logout" = "Deconectare";
+
+/* OpenStreetMap */
+"osm_explanation" = "Date OpenStreetMap create de comunitate la data de %@. Aflați mai multe despre cum să editați și să actualizați harta la OpenStreetMap.org";
+"osm_more_about" = "Mai multe despre OpenStreetMap";
+"osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
+
+/* OpenStreetMap Profile */
+"osm_profile" = "Profil OpenStreetMap";
+"osm_profile_promt" = "Creați un cont OpenStreetMap sau conectați-vă pentru a vă publica edițiile de hartă în întreaga lume.";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_login" = "Conectați-vă la OpenStreetMap";
+"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
+"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
+"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
+"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_register_promt" = "Nu ai un cont OpenStreetMap?";
+"osm_profile_register" = "Înregistrați-vă la OpenStreetMap";
+"osm_profile_verfied_changes" = "Modificări confirmate";
+"osm_profile_view_edit_history" = "View Edit History";
+"osm_profile_view_notes" = "View Notes";
+"osm_profile_logout" = "Logout of OpenStreetMap account";
+"osm_profile_delete" = "Delete OpenStreetMap account";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Ultima încărcare";
@@ -581,10 +594,6 @@
 "whatsnew_editor_message_1" = "Adaugă locuri noi pe hartă și modifică-le pe cele existente direct din aplicație.";
 "dialog_incorrect_feature_position" = "Schimbă poziția";
 "message_invalid_feature_position" = "Niciun obiect nu poate fi poziționat aici";
-
-/* Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. */
-"osm_presentation" = "Date OpenStreetMap create de comunitate la data de %@. Aflați mai multe despre cum să editați și să actualizați harta la OpenStreetMap.org";
-"login_to_make_edits_visible" = "Creați un cont OpenStreetMap sau conectați-vă pentru a vă publica edițiile de hartă în întreaga lume.";
 
 /* Error dialog no space */
 "migration_no_space_message" = "Ai nevoie de mai mult spațiu pentru a descărca. Șterge datele care nu sunt necesare.";
@@ -936,11 +945,8 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comaps.app/";
 
-/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site */
 "translated_om_site_url" = "https://www.comaps.app/";
-
-/* Link to OSM wiki for Editor, Profile and About pages */
-"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 
 /* App Tip #00 */
 "app_tip_00" = "Vă mulțumim că utilizați hărțile create de comunitatea noastră!";

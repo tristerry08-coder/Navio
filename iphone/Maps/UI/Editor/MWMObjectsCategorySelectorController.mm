@@ -1,5 +1,4 @@
 #import "MWMObjectsCategorySelectorController.h"
-#import "MWMAuthorizationCommon.h"
 #import "MWMObjectsCategorySelectorDataSource.h"
 #import "MWMEditorViewController.h"
 #import "MWMKeyboard.h"

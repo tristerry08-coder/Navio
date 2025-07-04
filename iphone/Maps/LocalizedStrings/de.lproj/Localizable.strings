@@ -525,15 +525,29 @@
 "closes_in" = "Schließt in %@";
 "closed" = "Geschlossen";
 "add_opening_hours" = "Öffnungszeiten hinzufügen";
-"no_osm_account" = "Kein Konto bei OpenStreetMap?";
-"register_at_openstreetmap" = "Bei OpenStreetMap registrieren";
-"password_8_chars_min" = "Passwort (mindestens 8 Zeichen)";
-"invalid_username_or_password" = "Ungültiger Benutzername oder Passwort.";
-"login" = "Bei OpenStreetMap anmelden";
-"login_osm" = "Bei OpenStreetMap anmelden";
-"forgot_password" = "Passwort vergessen?";
-"osm_account" = "OSM Konto";
-"logout" = "Abmelden";
+
+/* OpenStreetMap */
+"osm_explanation" = "Von der Community erstellte OpenStreetMap-Daten (Stand: %@). Erfahre mehr darüber, wie du die Karte bearbeiten und aktualisieren kannst unter OpenStreetMap.org";
+"osm_more_about" = "Mehr Informationen über OpenStreetMap";
+"osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/DE:Über_OSM";
+
+/* OpenStreetMap Profile */
+"osm_profile" = "OpenStreetMap-Profil";
+"osm_profile_promt" = "Erstellen Sie ein OpenStreetMap-Konto oder melden Sie sich an, um Ihre Kartenbearbeitungen weltweit zu veröffentlichen.";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) ist ein Gemeinschaftsprojekt zur Erstellung einer freien und offenen Karte. Es ist die Hauptquelle für Kartendaten in CoMaps und funktioniert ähnlich wie Wikipedia. Sie können Orte hinzufügen oder bearbeiten, die dann Millionen von Nutzern weltweit zur Verfügung stehen. Werden Sie Teil der Gemeinschaft und helfen Sie mit, eine bessere Karte für alle zu erstellen!
+";
+"osm_profile_login" = "Bei OpenStreetMap anmelden";
+"osm_profile_reauthorize_promt" = "Das OpenStreetMap-Konoto wurde von dieser App getrennt";
+"osm_profile_reauthorize" = "OpenStreetMap-Konto erneut verbinden";
+"osm_profile_remove_promt" = "Wenn Sie Ihr Konto nicht erneut verbinden können oder möchten, können Sie es einfach aus dieser App entfernen";
+"osm_profile_remove" = "OpenStreetMap-Konto entfernen";
+"osm_profile_register_promt" = "Kein Konto bei OpenStreetMap?";
+"osm_profile_register" = "Bei OpenStreetMap registrieren";
+"osm_profile_verfied_changes" = "Bestätigte Änderungen der Karte";
+"osm_profile_view_edit_history" = "Bearbeitungsverlauf ansehen";
+"osm_profile_view_notes" = "Notizen ansehen";
+"osm_profile_logout" = "OpenStreetMap-Konto abmelden";
+"osm_profile_delete" = "OpenStreetMap-Konto löschen";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Zuletzt hochgeladen";
@@ -582,12 +596,8 @@
 "dialog_incorrect_feature_position" = "Standort wechseln";
 "message_invalid_feature_position" = "Ein Objekt kann hier nicht positioniert werden";
 
-/* Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. */
-"osm_presentation" = "Von der Community erstellte OpenStreetMap-Daten (Stand: %@). Erfahre mehr darüber, wie du die Karte bearbeiten und aktualisieren kannst unter OpenStreetMap.org";
-"login_to_make_edits_visible" = "Erstellen Sie ein OpenStreetMap-Konto oder melden Sie sich an, um Ihre Kartenbearbeitungen weltweit zu veröffentlichen.";
-
 /* Error dialog no space */
-"migration_no_space_message" = "Zum Herunterladen benötigen Sie mehr Platz. Bitte löschen Sie unnötige Daten.";
+"migration_no_space_message"  = "Zum Herunterladen benötigen Sie mehr Platz. Bitte löschen Sie unnötige Daten.";
 "editor_sharing_title" = "Ich habe die CoMaps-Karten verbessert";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
@@ -936,11 +946,8 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comaps.app/";
 
-/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site */
 "translated_om_site_url" = "https://www.comaps.app/de/";
-
-/* Link to OSM wiki for Editor, Profile and About pages */
-"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/DE:Über_OSM";
 
 /* App Tip #00 */
 "app_tip_00" = "Danke, dass du unsere von der Community erstellten Karten benutzt!";

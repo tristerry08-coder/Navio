@@ -525,15 +525,28 @@
 "closes_in" = "Closes in %@";
 "closed" = "ปิด";
 "add_opening_hours" = "เพิ่มชั่วโมงทำการ";
-"no_osm_account" = "ไม่มีบัญชีใน OpenStreetMap?";
-"register_at_openstreetmap" = "ลงทะเบียนที่ OpenStreetMap";
-"password_8_chars_min" = "รหัสผ่าน (อย่างน้อย 8 ตัวอักษร)";
-"invalid_username_or_password" = "ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง";
-"login" = "ล็อกอิน";
-"login_osm" = "เข้าสู่ระบบ OpenStreetMap";
-"forgot_password" = "ลืมรหัสผ่าน?";
-"osm_account" = "บัญชี OSM";
-"logout" = "ออกจากระบบ";
+
+/* OpenStreetMap */
+"osm_explanation" = "ข้อมูล OpenStreetMap ที่สร้างโดยชุมชน ณ %@ เรียนรู้เพิ่มเติมเกี่ยวกับวิธีแก้ไขและอัปเดตแผนที่ได้ที่ OpenStreetMap.org";
+"osm_more_about" = "ข้อมูลเพิ่มเติมเกี่ยวกับ OpenStreetMap";
+"osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Th:เกี่ยวกับ_OpenStreetMap";
+
+/* OpenStreetMap Profile */
+"osm_profile" = "โปรไฟล์ OpenStreetMap";
+"osm_profile_promt" = "สร้างบัญชี OpenStreetMap หรือเข้าสู่ระบบเพื่อเผยแพร่การแก้ไขแผนที่ของคุณไปทั่วโลก";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_login" = "เข้าสู่ระบบ OpenStreetMap";
+"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
+"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
+"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
+"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_register_promt" = "ไม่มีบัญชีใน OpenStreetMap?";
+"osm_profile_register" = "ลงทะเบียนที่ OpenStreetMap";
+"osm_profile_verfied_changes" = "การเปลี่ยนแปลงที่อนุมัติแล้ว";
+"osm_profile_view_edit_history" = "View Edit History";
+"osm_profile_view_notes" = "View Notes";
+"osm_profile_logout" = "Logout of OpenStreetMap account";
+"osm_profile_delete" = "Delete OpenStreetMap account";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "อัปโหลดครั้งสุดท้าย";
@@ -581,10 +594,6 @@
 "whatsnew_editor_message_1" = "เพิ่มสถานที่ใหม่ ๆ ไปยังแผนที่ และแก้ไขสถานที่ที่มีอยู่เดิมจากแอปโดยตรง";
 "dialog_incorrect_feature_position" = "เปลี่ยนสถานที่ตั้ง";
 "message_invalid_feature_position" = "ไม่สามารถตั้งวัตถุได้ที่นี่";
-
-/* Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. */
-"osm_presentation" = "ข้อมูล OpenStreetMap ที่สร้างโดยชุมชน ณ %@ เรียนรู้เพิ่มเติมเกี่ยวกับวิธีแก้ไขและอัปเดตแผนที่ได้ที่ OpenStreetMap.org";
-"login_to_make_edits_visible" = "สร้างบัญชี OpenStreetMap หรือเข้าสู่ระบบเพื่อเผยแพร่การแก้ไขแผนที่ของคุณไปทั่วโลก";
 
 /* Error dialog no space */
 "migration_no_space_message" = "ในการดาวน์โหลด คุณต้องมีพื้นที่มากขึ้น กรุณาลบเนื้อหาที่ไม่จำเป็นออกไป";
@@ -936,11 +945,8 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comaps.app/";
 
-/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site */
 "translated_om_site_url" = "https://www.comaps.app/";
-
-/* Link to OSM wiki for Editor, Profile and About pages */
-"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/Th:เกี่ยวกับ_OpenStreetMap";
 
 /* App Tip #00 */
 "app_tip_00" = "ขอขอบคุณที่ใช้แผนที่ที่สร้างโดยชุมชนของเรา!";

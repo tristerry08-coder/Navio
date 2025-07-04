@@ -525,15 +525,28 @@
 "closes_in" = "%@ sonra kapanıyor";
 "closed" = "Kapalı";
 "add_opening_hours" = "Açılış saatlerini ekle";
-"no_osm_account" = "OpenStreetMap hesabınız yok mu?";
-"register_at_openstreetmap" = "OpenStreetMap'e kaydol";
-"password_8_chars_min" = "Parola (en az 8 karakter)";
-"invalid_username_or_password" = "Geçersiz kullanıcı adı ya da parola.";
-"login" = "Oturum aç";
-"login_osm" = "OpenStreetMap'e giriş yap";
-"forgot_password" = "Şifrenizi mi unuttunuz?";
-"osm_account" = "OSM Hesabı";
-"logout" = "Oturumu kapat";
+
+/* OpenStreetMap */
+"osm_explanation" = "%@ tarihine ait topluluk tarafından oluşturulmuş OpenStreetMap verilerini kullanıyorsunuz. OpenStreetMap.org adresinden haritayı nasıl düzenleyebileceğinizle ilgili bilgi edinebilirsiniz";
+"osm_more_about" = "OpenStreetMap ile ilgili ek bilgi";
+"osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Tr:About_OpenStreetMap";
+
+/* OpenStreetMap Profile */
+"osm_profile" = "OpenStreetMap profili";
+"osm_profile_promt" = "Harita düzenlemelerinizi herkese ulaştırmak için OpenStreetMap hesabı oluşturun veya oturum açın.";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_login" = "OpenStreetMap'e giriş yap";
+"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
+"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
+"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
+"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_register_promt" = "OpenStreetMap hesabınız yok mu?";
+"osm_profile_register" = "OpenStreetMap'e kaydol";
+"osm_profile_verfied_changes" = "Doğrulanan Düzenleme";
+"osm_profile_view_edit_history" = "View Edit History";
+"osm_profile_view_notes" = "View Notes";
+"osm_profile_logout" = "Logout of OpenStreetMap account";
+"osm_profile_delete" = "Delete OpenStreetMap account";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Son yükleme";
@@ -581,10 +594,6 @@
 "whatsnew_editor_message_1" = "Doğrudan uygulamadan haritaya yeni yerler ekleyin ve var olan yerleri düzenleyin.";
 "dialog_incorrect_feature_position" = "Konumu değiştir";
 "message_invalid_feature_position" = "Buraya bir nesne konumlandırılamıyor";
-
-/* Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. */
-"osm_presentation" = "%@ tarihine ait topluluk tarafından oluşturulmuş OpenStreetMap verilerini kullanıyorsunuz. OpenStreetMap.org adresinden haritayı nasıl düzenleyebileceğinizle ilgili bilgi edinebilirsiniz";
-"login_to_make_edits_visible" = "Harita düzenlemelerinizi herkese ulaştırmak için OpenStreetMap hesabı oluşturun veya oturum açın.";
 
 /* Error dialog no space */
 "migration_no_space_message" = "İndirmek için daha çok alan gerekiyor. Lütfen gereksiz verileri silin.";
@@ -936,11 +945,8 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comaps.app/";
 
-/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site */
 "translated_om_site_url" = "https://www.comaps.app/tr/";
-
-/* Link to OSM wiki for Editor, Profile and About pages */
-"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/Tr:About_OpenStreetMap";
 
 /* App Tip #00 */
 "app_tip_00" = "Topluluk tarafından oluşturulan haritalarımızı kullandığınız için teşekkür ederiz!";

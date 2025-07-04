@@ -525,15 +525,28 @@
 "closes_in" = "Zavírá za %@";
 "closed" = "Zavřeno";
 "add_opening_hours" = "Přidat otevírací dobu";
-"no_osm_account" = "Nemáte účet u OpenStreetMap?";
-"register_at_openstreetmap" = "Zaregistrujte si účet na OpenStreetMap";
-"password_8_chars_min" = "Heslo (minimálně 8 znaků)";
-"invalid_username_or_password" = "Neplatné uživatelské jméno nebo heslo.";
-"login" = "Přihlásit se";
-"login_osm" = "Přihlásit se do OpenStreetMap";
-"forgot_password" = "Zapomenuté heslo?";
-"osm_account" = "Účet OSM";
-"logout" = "Odhlášení";
+
+/* OpenStreetMap */
+"osm_explanation" = "Data OpenStreetMap vytvořená komunitou ke dni %@. Další informace o tom, jak upravovat a aktualizovat mapu, najdete na stránkách OpenStreetMap.org";
+"osm_more_about" = "Další informace o projektu OpenStreetMap";
+"osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Cs:Co_je_OpenStreetMap";
+
+/* OpenStreetMap Profile */
+"osm_profile" = "Profil OpenStreetMap";
+"osm_profile_promt" = "Vytvořte si účet OpenStreetMap nebo se přihlaste a zveřejněte své úpravy mapy celému světu.";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_login" = "Přihlásit se do OpenStreetMap";
+"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
+"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
+"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
+"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_register_promt" = "Nemáte účet u OpenStreetMap?";
+"osm_profile_register" = "Zaregistrujte si účet na OpenStreetMap";
+"osm_profile_verfied_changes" = "Oveřené změny";
+"osm_profile_view_edit_history" = "View Edit History";
+"osm_profile_view_notes" = "View Notes";
+"osm_profile_logout" = "Logout of OpenStreetMap account";
+"osm_profile_delete" = "Delete OpenStreetMap account";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Poslední nahrání";
@@ -581,10 +594,6 @@
 "whatsnew_editor_message_1" = "Přidejte na mapu nová místa a upravte existující místa přímo z aplikace.";
 "dialog_incorrect_feature_position" = "Změnit umístění";
 "message_invalid_feature_position" = "Objekt zde nemůže být umístěn";
-
-/* Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. */
-"osm_presentation" = "Data OpenStreetMap vytvořená komunitou ke dni %@. Další informace o tom, jak upravovat a aktualizovat mapu, najdete na stránkách OpenStreetMap.org";
-"login_to_make_edits_visible" = "Vytvořte si účet OpenStreetMap nebo se přihlaste a zveřejněte své úpravy mapy celému světu.";
 
 /* Error dialog no space */
 "migration_no_space_message" = "Ke stažení potřebujete více volného místa. Odstraňte prosím nepotřebná data.";
@@ -936,11 +945,8 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comaps.app/";
 
-/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site */
 "translated_om_site_url" = "https://www.comaps.app/cs/";
-
-/* Link to OSM wiki for Editor, Profile and About pages */
-"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/Cs:Co_je_OpenStreetMap";
 
 /* App Tip #00 */
 "app_tip_00" = "Děkujeme, že používáte naše komunitní mapy!";

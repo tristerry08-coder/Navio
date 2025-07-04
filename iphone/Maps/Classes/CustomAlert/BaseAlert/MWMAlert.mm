@@ -4,8 +4,6 @@
 #import "MWMDownloadTransitMapAlert.h"
 #import "MWMEditorViralAlert.h"
 #import "MWMLocationAlert.h"
-#import "MWMOsmAuthAlert.h"
-#import "MWMOsmReauthAlert.h"
 #import "MWMPlaceDoesntExistAlert.h"
 #import "MWMRoutingDisclaimerAlert.h"
 
@@ -134,12 +132,6 @@
 
 + (MWMAlert *)editorViralAlert {
   return [MWMEditorViralAlert alert];
-}
-+ (MWMAlert *)osmAuthAlert {
-  return [MWMOsmAuthAlert alert];
-}
-+ (MWMAlert *)osmReauthAlert {
-  return [MWMOsmReauthAlert alert];
 }
 + (MWMAlert *)personalInfoWarningAlertWithBlock:(MWMVoidBlock)block {
   return [MWMDefaultAlert personalInfoWarningAlertWithBlock:block];

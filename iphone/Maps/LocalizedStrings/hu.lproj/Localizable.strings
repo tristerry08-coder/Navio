@@ -525,15 +525,28 @@
 "closes_in" = "Bezár ekkor: %@";
 "closed" = "Zárva";
 "add_opening_hours" = "Nyitvatartás hozzáadása";
-"no_osm_account" = "Nem rendelkezik még felhasználói fiókkal az OpenStreetMapen?";
-"register_at_openstreetmap" = "Regisztráció az OpenStreetMap oldalon";
-"password_8_chars_min" = "Jelszó (legalább 8 karakter)";
-"invalid_username_or_password" = "Érvénytelen felhasználónév vagy jelszó.";
-"login" = "Bejelentkezés";
-"login_osm" = "Jelentkezzen be az OpenStreetMap fiókjába";
-"forgot_password" = "Elfelejtette a jelszavát?";
-"osm_account" = "OSM-fiók";
-"logout" = "Kijelentkezés";
+
+/* OpenStreetMap */
+"osm_explanation" = "Közösség által létrehozott OpenStreetMap adatok innen: %@. További információkat a térkép szerkesztéséről és frissítéséről az OpenStreetMap.org oldalon találhat";
+"osm_more_about" = "További részletek az OpenStreetMap adatbázisról";
+"osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Hu:Névjegy";
+
+/* OpenStreetMap Profile */
+"osm_profile" = "OpenStreetMap profil";
+"osm_profile_promt" = "Hozzon létre egy fiókot az OpenStreetMapen, vagy jelentkezzen be, hogy közzétehesse térképszerkesztéseit a világ számára.";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_login" = "Jelentkezzen be az OpenStreetMap fiókjába";
+"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
+"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
+"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
+"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_register_promt" = "Nem rendelkezik még felhasználói fiókkal az OpenStreetMapen?";
+"osm_profile_register" = "Regisztráció az OpenStreetMap oldalon";
+"osm_profile_verfied_changes" = "Jóváhagyott módosítások";
+"osm_profile_view_edit_history" = "View Edit History";
+"osm_profile_view_notes" = "View Notes";
+"osm_profile_logout" = "Logout of OpenStreetMap account";
+"osm_profile_delete" = "Delete OpenStreetMap account";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Utolsó frissítés";
@@ -581,10 +594,6 @@
 "whatsnew_editor_message_1" = "Új helyek hozzáadása a térképhez, és a meglévők szerkesztése közvetlenül az alkalmazásból.";
 "dialog_incorrect_feature_position" = "Helyszín módosítása";
 "message_invalid_feature_position" = "Itt nem található objektum";
-
-/* Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. */
-"osm_presentation" = "Közösség által létrehozott OpenStreetMap adatok innen: %@. További információkat a térkép szerkesztéséről és frissítéséről az OpenStreetMap.org oldalon találhat";
-"login_to_make_edits_visible" = "Hozzon létre egy fiókot az OpenStreetMapen, vagy jelentkezzen be, hogy közzétehesse térképszerkesztéseit a világ számára.";
 
 /* Error dialog no space */
 "migration_no_space_message" = "A letöltéshez több szabad tárhelyre van szükség. Törölje a szükségtelen adatokat.";
@@ -936,11 +945,8 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comaps.app/";
 
-/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site */
 "translated_om_site_url" = "https://www.comaps.app/hu/";
-
-/* Link to OSM wiki for Editor, Profile and About pages */
-"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/Hu:Névjegy";
 
 /* App Tip #00 */
 "app_tip_00" = "Köszönjük, hogy használja a közösség által készített térképeinket!";

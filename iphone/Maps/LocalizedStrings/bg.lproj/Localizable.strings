@@ -525,15 +525,28 @@
 "closes_in" = "Closes in %@";
 "closed" = "Затворено";
 "add_opening_hours" = "Добавяне на работно време";
-"no_osm_account" = "Нямате акаунт в OpenStreetMap?";
-"register_at_openstreetmap" = "Регистриране в OpenStreetMap";
-"password_8_chars_min" = "Парола (поне 8 символа)";
-"invalid_username_or_password" = "Невалидно потребителско име или парола.";
-"login" = "Вход";
-"login_osm" = "Влезте в OpenStreetMap";
-"forgot_password" = "Забравили сте паролата си?";
-"osm_account" = "OSM Акаунт";
-"logout" = "Изход";
+
+/* OpenStreetMap */
+"osm_explanation" = "Създадени от общността данни от OpenStreetMap към %@. Научете повече за това как да редактирате и актуализирате картата в OpenStreetMap.org";
+"osm_more_about" = "Повече за OpenStreetMap";
+"osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Bg:About_OpenStreetMap";
+
+/* OpenStreetMap Profile */
+"osm_profile" = "Профил в OpenStreetMap";
+"osm_profile_promt" = "Създайте акаунт в OpenStreetMap или влезте в него, за да публикувате своите редакции на картата в света.";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_login" = "Влезте в OpenStreetMap";
+"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
+"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
+"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
+"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_register_promt" = "Нямате акаунт в OpenStreetMap?";
+"osm_profile_register" = "Регистриране в OpenStreetMap";
+"osm_profile_verfied_changes" = "Потвърдени промени";
+"osm_profile_view_edit_history" = "View Edit History";
+"osm_profile_view_notes" = "View Notes";
+"osm_profile_logout" = "Logout of OpenStreetMap account";
+"osm_profile_delete" = "Delete OpenStreetMap account";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Последно качване";
@@ -581,10 +594,6 @@
 "whatsnew_editor_message_1" = "Добавяне на нови места в картата и редакция на съществуващите директно от приложението.";
 "dialog_incorrect_feature_position" = "Смяна на местоположение";
 "message_invalid_feature_position" = "Тук не може да бъде намерен обект";
-
-/* Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. */
-"osm_presentation" = "Създадени от общността данни от OpenStreetMap към %@. Научете повече за това как да редактирате и актуализирате картата в OpenStreetMap.org";
-"login_to_make_edits_visible" = "Създайте акаунт в OpenStreetMap или влезте в него, за да публикувате своите редакции на картата в света.";
 
 /* Error dialog no space */
 "migration_no_space_message" = "За изтегляне ви е необходимо повече място. Моля, изтрийте всички ненужни данни.";
@@ -936,11 +945,8 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comaps.app/";
 
-/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site */
 "translated_om_site_url" = "https://www.comaps.app/";
-
-/* Link to OSM wiki for Editor, Profile and About pages */
-"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/Bg:About_OpenStreetMap";
 
 /* App Tip #00 */
 "app_tip_00" = "Благодарим ви, че използвате нашите карти, създадени от общността!";

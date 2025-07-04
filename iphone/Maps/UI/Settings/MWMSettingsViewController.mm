@@ -1,5 +1,4 @@
 #import "MWMSettingsViewController.h"
-#import "MWMAuthorizationCommon.h"
 #import "MWMTextToSpeech+CPP.h"
 #import "SwiftBridge.h"
 #import "MWMActivityViewController.h"
@@ -81,8 +80,11 @@ static NSString * const kUDDidShowICloudSynchronizationEnablingAlert = @"kUDDidS
 }
 
 - (void)configProfileSection {
-  NSString * userName = osm_auth_ios::OSMUserName();
-  [self.profileCell configWithTitle:L(@"profile") info:userName.length != 0 ? userName : @""];
+  NSString *userName = Profile.name;
+  if (userName == nil) {
+    userName = @"";
+  }
+  [self.profileCell configWithTitle:L(@"osm_profile") info:userName.length != 0 ? userName : @""];
 }
 
 - (void)configCommonSection {
@@ -343,9 +345,7 @@ static NSString * const kUDDidShowICloudSynchronizationEnablingAlert = @"kUDDidS
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
   [tableView deselectRowAtIndexPath:indexPath animated:true];
   auto cell = [tableView cellForRowAtIndexPath:indexPath];
-  if (cell == self.profileCell) {
-    [self performSegueWithIdentifier:@"SettingsToProfileSegue" sender:nil];
-  } else if (cell == self.unitsCell) {
+  if (cell == self.unitsCell) {
     [self performSegueWithIdentifier:@"SettingsToUnits" sender:nil];
   } else if (cell == self.mobileInternetCell) {
     [self performSegueWithIdentifier:@"SettingsToMobileInternetSegue" sender:nil];

@@ -525,15 +525,28 @@
 "closes_in" = "%@ barru itxiko da";
 "closed" = "Itxita";
 "add_opening_hours" = "Gehitu ordutegia";
-"no_osm_account" = "Ez al duzu OpenStreetMap konturik?";
-"register_at_openstreetmap" = "Eman izena OpenStreetMap-en";
-"password_8_chars_min" = "Pasahitza (gutxienez 8 karaktere)";
-"invalid_username_or_password" = "Erabiltzaile izena edo pasahitza baliogabea.";
-"login" = "Saioa hasi";
-"login_osm" = "Hasi saioa OpenStreetMap-en";
-"forgot_password" = "Pasahitza ahaztu duzu?";
-"osm_account" = "OSM kontua";
-"logout" = "Saioa itxi";
+
+/* OpenStreetMap */
+"osm_explanation" = "Komunitateak sortutako OpenStreetMap datuak %@-tik aurrera. Lortu informazio gehiago mapa editatu eta eguneratzeari buruz OpenStreetMap.org helbidean";
+"osm_more_about" = "OpenStreetMap-i buruzko informazio gehiago";
+"osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
+
+/* OpenStreetMap Profile */
+"osm_profile" = "OpenStreetMap profila";
+"osm_profile_promt" = "Sortu OpenStreetMap kontu bat edo hasi saioa zure maparen aldaketak munduan argitaratzeko.";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_login" = "Hasi saioa OpenStreetMap-en";
+"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
+"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
+"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
+"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_register_promt" = "Ez al duzu OpenStreetMap konturik?";
+"osm_profile_register" = "Eman izena OpenStreetMap-en";
+"osm_profile_verfied_changes" = "Egiaztatutako aldaketak";
+"osm_profile_view_edit_history" = "View Edit History";
+"osm_profile_view_notes" = "View Notes";
+"osm_profile_logout" = "Logout of OpenStreetMap account";
+"osm_profile_delete" = "Delete OpenStreetMap account";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Azken karga";
@@ -581,10 +594,6 @@
 "whatsnew_editor_message_1" = "Gehitu toki berriak mapan eta editatu uneko tokiak zuzenean aplikaziotik.";
 "dialog_incorrect_feature_position" = "Aldatu kokapena";
 "message_invalid_feature_position" = "Hemen ezin da objekturik jarri";
-
-/* Text in About and OSM Login screens. First %@ is replaced by a local, human readable date. */
-"osm_presentation" = "Komunitateak sortutako OpenStreetMap datuak %@-tik aurrera. Lortu informazio gehiago mapa editatu eta eguneratzeari buruz OpenStreetMap.org helbidean";
-"login_to_make_edits_visible" = "Sortu OpenStreetMap kontu bat edo hasi saioa zure maparen aldaketak munduan argitaratzeko.";
 
 /* Error dialog no space */
 "migration_no_space_message" = "Leku gehiago behar duzu deskargatzeko. Ezabatu beharrezkoak ez diren datuak.";
@@ -936,11 +945,8 @@
 /* Instagram account url for the "?" About page */
 "instagram_url" = "https://www.instagram.com/comaps.app/";
 
-/* Translated CoMaps site, add new translations here: https://github.com/organicmaps/organicmaps.github.io/tree/master/content */
+/* Translated CoMaps site */
 "translated_om_site_url" = "https://www.comaps.app/eu/";
-
-/* Link to OSM wiki for Editor, Profile and About pages */
-"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 
 /* App Tip #00 */
 "app_tip_00" = "Eskerrik asko gure komunitateak eraikitako mapak erabiltzeagatik!";

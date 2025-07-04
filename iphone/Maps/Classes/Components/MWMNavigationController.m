@@ -34,10 +34,11 @@
     [navigationController setNavigationBarHidden:YES animated:animated];
     return;
   }
-
-  NSAssert([viewController conformsToProtocol:@protocol(MWMController)], @"Controller must inherit ViewController or TableViewController class");
-  id<MWMController> vc = (id<MWMController>)viewController;
-  [navigationController setNavigationBarHidden:!vc.hasNavigationBar animated:animated];
+  
+  if ([viewController conformsToProtocol:@protocol(MWMController)]) {
+    id<MWMController> vc = (id<MWMController>)viewController;
+    [navigationController setNavigationBarHidden:!vc.hasNavigationBar animated:animated];
+  }
 }
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
