@@ -6,7 +6,7 @@
   android:layout_width="match_parent"
   android:layout_height="wrap_content"
   android:background="@drawable/bg_clickable_card">
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/iv__bookmark_color"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -22,7 +22,7 @@
     android:layout_toStartOf="@+id/more"
     android:layout_toEndOf="@id/iv__bookmark_color"
     android:orientation="vertical">
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:id="@+id/tv__bookmark_name"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
@@ -31,7 +31,7 @@
       android:singleLine="true"
       android:textAppearance="?fontBody1"
       tools:text="@string/tracks_title" />
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:id="@+id/tv__bookmark_distance"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
       android:textAppearance="?fontBody2"
       tools:text="@string/by_distance" />
   </LinearLayout>
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/more"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
