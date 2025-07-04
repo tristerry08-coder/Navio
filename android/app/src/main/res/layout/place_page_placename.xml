@@ -10,7 +10,7 @@
   tools:background="#2000FF00"
   tools:visibility="visible">
 
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/iv__place_name"
     style="@style/PlacePageMetadataIcon"
     android:layout_centerVertical="true"
@@ -22,7 +22,7 @@
     android:layout_height="4dp"
     android:layout_centerVertical="true"/>
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/tv__place_address"
     style="@style/PlacePageMetadataText"
     android:textAlignment="viewStart"
@@ -30,7 +30,7 @@
     android:layout_toEndOf="@id/iv__place_name"
     tools:text="Sample place"/>
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/tv__place_post_address"
     android:textAlignment="viewStart"
     android:layout_width="match_parent"

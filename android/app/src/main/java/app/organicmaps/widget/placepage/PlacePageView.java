@@ -13,7 +13,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 
 import androidx.annotation.IdRes;
 import androidx.annotation.NonNull;
@@ -49,11 +48,11 @@ import app.organicmaps.widget.placepage.sections.PlacePageBookmarkFragment;
 import app.organicmaps.widget.placepage.sections.PlacePageLinksFragment;
 import app.organicmaps.widget.placepage.sections.PlacePageOpeningHoursFragment;
 import app.organicmaps.widget.placepage.sections.PlacePagePhoneFragment;
-import app.organicmaps.widget.placepage.sections.PlacePageProductsFragment;
 import app.organicmaps.widget.placepage.sections.PlacePageWikipediaFragment;
 
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.button.MaterialButton;
+import com.google.android.material.textview.MaterialTextView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -88,38 +87,38 @@ public class PlacePageView extends Fragment implements View.OnClickListener,
   // Preview.
   private ViewGroup mPreview;
   private MaterialToolbar mToolbar;
-  private TextView mTvTitle;
-  private TextView mTvSecondaryTitle;
-  private TextView mTvSubtitle;
+  private MaterialTextView mTvTitle;
+  private MaterialTextView mTvSecondaryTitle;
+  private MaterialTextView mTvSubtitle;
   private ArrowView mAvDirection;
-  private TextView mTvDistance;
-  private TextView mTvAddress;
+  private MaterialTextView mTvDistance;
+  private MaterialTextView mTvAddress;
   // Details.
-  private TextView mTvLatlon;
+  private MaterialTextView mTvLatlon;
   private View mWifi;
-  private TextView mTvWiFi;
+  private MaterialTextView mTvWiFi;
   private View mOperator;
-  private TextView mTvOperator;
+  private MaterialTextView mTvOperator;
   private View mNetwork;
-  private TextView mTvNetwork;
+  private MaterialTextView mTvNetwork;
   private View mLevel;
-  private TextView mTvLevel;
+  private MaterialTextView mTvLevel;
   private View mAtm;
-  private TextView mTvAtm;
+  private MaterialTextView mTvAtm;
   private View mCapacity;
-  private TextView mTvCapacity;
+  private MaterialTextView mTvCapacity;
   private View mWheelchair;
-  private TextView mTvWheelchair;
+  private MaterialTextView mTvWheelchair;
   private View mDriveThrough;
-  private TextView mTvDriveThrough;
+  private MaterialTextView mTvDriveThrough;
   private View mSelfService;
-  private TextView mTvSelfService;
+  private MaterialTextView mTvSelfService;
   private View mCuisine;
-  private TextView mTvCuisine;
+  private MaterialTextView mTvCuisine;
   private View mOutdoorSeating;
-  private TextView mTvOutdoorSeating;
+  private MaterialTextView mTvOutdoorSeating;
   private View mEntrance;
-  private TextView mTvEntrance;
+  private MaterialTextView mTvEntrance;
   private View mEditPlace;
   private View mAddOrganisation;
   private View mAddPlace;
@@ -129,7 +128,7 @@ public class PlacePageView extends Fragment implements View.OnClickListener,
   private CoordinatesFormat mCoordsFormat = CoordinatesFormat.LatLonDecimal;
   // Downloader`s stuff
   private DownloaderStatusIcon mDownloaderIcon;
-  private TextView mDownloaderInfo;
+  private MaterialTextView mDownloaderInfo;
   private int mStorageCallbackSlot;
   @Nullable
   private CountryItem mCurrentCountry;
@@ -161,7 +160,7 @@ public class PlacePageView extends Fragment implements View.OnClickListener,
   private PlacePageViewModel mViewModel;
   private MapObject mMapObject;
 
-  private static void refreshMetadataOrHide(@Nullable String metadata, @NonNull View metaLayout, @NonNull TextView metaTv)
+  private static void refreshMetadataOrHide(@Nullable String metadata, @NonNull View metaLayout, @NonNull MaterialTextView metaTv)
   {
     if (!TextUtils.isEmpty(metadata))
     {
@@ -481,9 +480,9 @@ public class PlacePageView extends Fragment implements View.OnClickListener,
       mEditPlace.setEnabled(Editor.nativeShouldEnableEditPlace());
       mAddOrganisation.setEnabled(Editor.nativeShouldEnableAddPlace());
       mAddPlace.setEnabled(Editor.nativeShouldEnableAddPlace());
-      TextView mTvEditPlace = mEditPlace.findViewById(R.id.tv__editor);
-      TextView mTvAddBusiness = mAddPlace.findViewById(R.id.tv__editor);
-      TextView mTvAddPlace = mAddPlace.findViewById(R.id.tv__editor);
+      MaterialTextView mTvEditPlace = mEditPlace.findViewById(R.id.tv__editor);
+      MaterialTextView mTvAddBusiness = mAddPlace.findViewById(R.id.tv__editor);
+      MaterialTextView mTvAddPlace = mAddPlace.findViewById(R.id.tv__editor);
       final int editPlaceButtonColor = Editor.nativeShouldEnableEditPlace() ? ContextCompat.getColor(getContext(), UiUtils.getStyledResourceId(getContext(), androidx.appcompat.R.attr.colorAccent)) : getResources().getColor(R.color.button_accent_text_disabled);
       mTvEditPlace.setTextColor(editPlaceButtonColor);
       mTvAddBusiness.setTextColor(editPlaceButtonColor);

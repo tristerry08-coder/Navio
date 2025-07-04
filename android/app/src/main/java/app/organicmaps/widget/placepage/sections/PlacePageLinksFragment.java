@@ -5,7 +5,6 @@ import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -27,43 +26,45 @@ import java.util.List;
 import static android.view.View.GONE;
 import static android.view.View.VISIBLE;
 
+import com.google.android.material.textview.MaterialTextView;
+
 public class PlacePageLinksFragment extends Fragment implements Observer<MapObject>
 {
   private static final String TAG = PlacePageLinksFragment.class.getSimpleName();
 
   private View mFrame;
   private View mFacebookPage;
-  private TextView mTvFacebookPage;
+  private MaterialTextView mTvFacebookPage;
   private View mInstagramPage;
-  private TextView mTvInstagramPage;
+  private MaterialTextView mTvInstagramPage;
   private View mTwitterPage;
-  private TextView mTvTwitterPage;
+  private MaterialTextView mTvTwitterPage;
   private View mFediversePage;
-  private TextView mTvFediversePage;
+  private MaterialTextView mTvFediversePage;
   private View mBlueskyPage;
-  private TextView mTvBlueskyPage;
+  private MaterialTextView mTvBlueskyPage;
   private View mVkPage;
-  private TextView mTvVkPage;
+  private MaterialTextView mTvVkPage;
   private View mLinePage;
-  private TextView mTvLinePage;
+  private MaterialTextView mTvLinePage;
 
   private View mWebsite;
-  private TextView mTvWebsite;
+  private MaterialTextView mTvWebsite;
   private View mWebsiteMenu;
-  private TextView mTvWebsiteMenuSubsite;
+  private MaterialTextView mTvWebsiteMenuSubsite;
   private View mEmail;
-  private TextView mTvEmail;
+  private MaterialTextView mTvEmail;
   private View mWikimedia;
-  private TextView mTvWikimedia;
+  private MaterialTextView mTvWikimedia;
 
   private View mPanoramax;
-  private TextView mTvPanoramax;
+  private MaterialTextView mTvPanoramax;
 
   private PlacePageViewModel mViewModel;
   private MapObject mMapObject;
 
   private static void refreshMetadataOrHide(@Nullable String metadata, @NonNull View metaLayout,
-                                            @NonNull TextView metaTv)
+                                            @NonNull MaterialTextView metaTv)
   {
     if (!TextUtils.isEmpty(metadata))
     {

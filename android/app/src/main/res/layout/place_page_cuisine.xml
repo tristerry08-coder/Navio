@@ -8,14 +8,14 @@
   tools:visibility="visible"
   tools:ignore="UseCompoundDrawables">
 
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginEnd="@dimen/margin_base"
     app:tint="?iconTint"
     app:srcCompat="@drawable/ic_cuisine"/>
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/tv__place_cuisine"
     android:textAlignment="viewStart"
     android:layout_width="match_parent"

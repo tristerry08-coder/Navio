@@ -8,7 +8,7 @@
   tools:background="#20FF0000"
   tools:visibility="visible">
 
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/iv__place_website_menu"
     style="@style/PlacePageMetadataIcon"
     app:srcCompat="@drawable/ic_website_menu"
@@ -19,7 +19,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:id="@+id/tv__place_website_menu"
       android:textAlignment="viewStart"
       android:layout_width="wrap_content"
@@ -27,7 +27,7 @@
       android:text="@string/view_menu"
       android:textAppearance="@style/MwmTextAppearance.PlacePage.Accent" />
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tv__place_website_menu_subtitle"
         android:textAlignment="viewStart"
         android:layout_width="wrap_content"

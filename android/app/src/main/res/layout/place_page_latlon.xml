@@ -8,12 +8,12 @@
   android:visibility="visible"
   tools:background="#20FF0000">
 
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/iv__place_latlon"
     style="@style/PlacePageMetadataIcon"
     app:srcCompat="@drawable/ic_coordinates" />
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/tv__place_latlon"
     android:textAlignment="viewStart"
     style="@style/PlacePageMetadataText"

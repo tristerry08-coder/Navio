@@ -11,12 +11,12 @@
     style="@style/PlacePageItemFrame"
     android:visibility="visible"
     tools:background="#20FF0000">
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
       android:id="@+id/iv__place_wiki"
       style="@style/PlacePageMetadataIcon"
       app:srcCompat="@drawable/ic_wiki"
       app:tint="?colorAccent" />
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:id="@+id/tv__place_wiki"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"

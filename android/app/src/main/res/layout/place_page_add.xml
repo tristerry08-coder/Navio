@@ -6,7 +6,7 @@
   style="@style/PlacePageItemFrame"
   tools:visibility="visible">
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/tv__editor"
     style="@style/PlacePageMetadataText.Button"
     android:text="@string/placepage_add_place_button"

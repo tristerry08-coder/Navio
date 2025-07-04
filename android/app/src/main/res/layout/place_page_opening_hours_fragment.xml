@@ -5,7 +5,7 @@
   xmlns:tools="http://schemas.android.com/tools"
   style="@style/PlacePageItemFrame">
 
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/icon"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -14,7 +14,7 @@
     app:srcCompat="@drawable/ic_operating_hours"
     app:tint="?iconTint"/>
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/oh_today_label"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
     android:text="@string/today"
     tools:visibility="visible"/>
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/oh_today_open_time"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
     android:textAlignment="viewEnd"
     tools:visibility="visible"/>
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/oh_nonbusiness_time"
     android:layout_height="wrap_content"
     android:layout_width="wrap_content"

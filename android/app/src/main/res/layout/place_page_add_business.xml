@@ -7,7 +7,7 @@
   android:visibility="visible"
   tools:visibility="visible">
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/tv__editor"
     style="@style/PlacePageMetadataText.Button"
     android:gravity="center"

@@ -7,10 +7,12 @@ import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.textview.MaterialTextView;
+
 import app.organicmaps.R;
 import app.organicmaps.util.Utils;
 
@@ -61,7 +63,7 @@ public class PlacePhoneAdapter extends RecyclerView.Adapter<PlacePhoneAdapter.Vi
 
   public static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener, View.OnLongClickListener
   {
-    private final TextView mPhone;
+    private final MaterialTextView mPhone;
 
     public ViewHolder(@NonNull View itemView)
     {

@@ -8,12 +8,12 @@
   tools:background="#40FF0000"
   tools:visibility="visible">
 
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/iv__place_wifi"
     style="@style/PlacePageMetadataIcon"
     app:srcCompat="@drawable/ic_wifi"/>
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/tv__place_wifi"
     style="@style/PlacePageMetadataText"
     android:text="@string/yes"/>

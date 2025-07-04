@@ -9,13 +9,13 @@
   android:orientation="horizontal"
   android:visibility="visible">
 
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/iv__place_phone"
     style="@style/PlacePageMetadataIcon"
     app:srcCompat="@drawable/ic_phone"
     app:tint="?colorAccent"/>
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/tv__place_phone"
     android:textAlignment="viewStart"
     android:textDirection="ltr"

@@ -8,12 +8,12 @@
   tools:background="#4000FFFF"
   tools:visibility="visible">
 
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/iv__place_capacity"
     style="@style/PlacePageMetadataIcon"
     app:srcCompat="@drawable/ic_capacity_white" />
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/tv__place_capacity"
     android:textAlignment="viewStart"
     style="@style/PlacePageMetadataText"

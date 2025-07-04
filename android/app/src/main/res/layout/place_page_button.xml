@@ -7,13 +7,13 @@
   tools:layout_height="@dimen/place_page_buttons_height"
   tools:ignore="UseCompoundDrawables"
   tools:background="#40202020">
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/icon"
     style="@style/PlacePageButtonImage"
     android:contentDescription="@string/back"
     tools:src="@drawable/ic_share"/>
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/title"
     style="@style/PlacePageButtonText"
     tools:text="@string/back"/>

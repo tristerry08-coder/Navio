@@ -7,7 +7,7 @@
   android:layout_height="match_parent"
   android:orientation="vertical">
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/tv__bookmark_notes"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -18,7 +18,7 @@
     android:textAppearance="?android:attr/textAppearance"
     tools:text="Long, long text Long, long text Long, long text Long, long text Long, long text Long, long text "/>
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
       android:id="@+id/tv__bookmark_edit"
       style="@style/PlacePageMetadataText.Button"
       android:gravity="center"

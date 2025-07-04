@@ -8,12 +8,12 @@
   tools:background="#40FF0000"
   tools:visibility="visible">
 
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/iv__place_outdoor_seating"
     style="@style/PlacePageMetadataIcon"
     app:srcCompat="@drawable/ic_outdoor_seating"/>
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/tv__place_outdoor_seating"
     android:textAlignment="viewStart"
     style="@style/PlacePageMetadataText"

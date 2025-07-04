@@ -4,8 +4,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import androidx.annotation.AttrRes;
 import androidx.annotation.NonNull;
@@ -15,6 +13,10 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
+
+import com.google.android.material.imageview.ShapeableImageView;
+import com.google.android.material.textview.MaterialTextView;
+
 import app.organicmaps.R;
 import app.organicmaps.util.Graphics;
 import app.organicmaps.util.WindowInsetUtils.PaddingInsetsListener;
@@ -109,8 +111,8 @@ public final class PlacePageButtons extends Fragment implements Observer<List<Pl
     LayoutInflater inflater = LayoutInflater.from(requireContext());
     View parent = inflater.inflate(R.layout.place_page_button, mButtonsContainer, false);
 
-    ImageView icon = parent.findViewById(R.id.icon);
-    TextView title = parent.findViewById(R.id.title);
+    ShapeableImageView icon = parent.findViewById(R.id.icon);
+    MaterialTextView title = parent.findViewById(R.id.title);
 
     title.setText(current.getTitle());
     parent.setContentDescription(getString(current.getTitle()));

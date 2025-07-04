@@ -34,7 +34,7 @@
       android:layout_marginEnd="@dimen/margin_base"
       android:layout_weight="1"
       android:orientation="vertical">
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tv__title"
         android:textAlignment="viewStart"
         android:layout_width="match_parent"
@@ -48,7 +48,7 @@
         tools:background="#C0800000"
         tools:ignore="UnusedAttribute"
         tools:text="Title" />
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tv__secondary_title"
         android:textAlignment="viewStart"
         android:layout_width="match_parent"
@@ -61,7 +61,7 @@
         tools:background="#C0800000"
         tools:ignore="UnusedAttribute"
         tools:text="Secondary Title" />
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tv__subtitle"
         android:textAlignment="viewStart"
         android:layout_width="match_parent"
@@ -71,7 +71,7 @@
         android:textAppearance="@style/MwmTextAppearance.Body3"
         tools:background="#300000F0"
         tools:text="Subtitle, very very very very very very very long" />
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tv__address"
         android:textAlignment="viewStart"
         android:layout_width="match_parent"
@@ -80,7 +80,7 @@
         android:textAppearance="@style/MwmTextAppearance.Body3"
         tools:background="#60000000"
         tools:text="Lenina str, 10" />
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tv__downloader_details"
         android:textAlignment="viewStart"
         android:layout_width="wrap_content"
@@ -159,7 +159,7 @@
           android:scaleType="center"
           app:srcCompat="@drawable/ic_direction_pagepreview"
           app:tint="?colorAccent" />
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:id="@+id/tv__straight_distance"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"

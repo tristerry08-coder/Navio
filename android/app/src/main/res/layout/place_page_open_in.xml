@@ -8,13 +8,13 @@
   tools:background="#20FF0000"
   tools:visibility="visible">
 
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/iv__place_open_in"
     style="@style/PlacePageMetadataIcon"
     app:srcCompat="@drawable/ic_open_in"
     app:tint="?colorAccent"/>
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/tv__place_open_in"
     android:textAlignment="viewStart"
     android:layout_width="match_parent"

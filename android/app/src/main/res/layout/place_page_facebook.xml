@@ -7,13 +7,13 @@
   style="@style/PlacePageItemFrame"
   tools:background="#20FF0000"
   tools:visibility="visible">
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/iv__place_facebook"
     style="@style/PlacePageMetadataIcon"
     app:srcCompat="@drawable/ic_facebook_white"
     app:tint="?colorAccent"/>
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/tv__place_facebook_page"
     android:textAlignment="viewStart"
     android:layout_width="match_parent"

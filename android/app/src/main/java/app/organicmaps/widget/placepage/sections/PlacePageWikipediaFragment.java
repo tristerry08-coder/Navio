@@ -7,13 +7,15 @@ import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
+
+import com.google.android.material.textview.MaterialTextView;
+
 import app.organicmaps.R;
 import app.organicmaps.bookmarks.data.MapObject;
 import app.organicmaps.bookmarks.data.Metadata;
@@ -29,7 +31,7 @@ public class PlacePageWikipediaFragment extends Fragment implements Observer<Map
   private View mWiki;
   private View mPlaceDescriptionViewContainer;
 
-  private TextView mPlaceDescriptionView;
+  private MaterialTextView mPlaceDescriptionView;
 
   private PlacePageViewModel mViewModel;
 

@@ -9,13 +9,13 @@
   tools:background="#20FF0000"
   tools:visibility="visible">
 
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/iv__place_fediverse"
     style="@style/PlacePageMetadataIcon"
     app:srcCompat="@drawable/ic_mastodon_white"
     app:tint="?colorAccent"/>
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/tv__place_fediverse_page"
     android:textAlignment="viewStart"
     android:layout_width="match_parent"

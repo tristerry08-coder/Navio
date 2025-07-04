@@ -3,7 +3,6 @@ package app.organicmaps.widget.placepage.sections;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -20,6 +19,8 @@ import java.util.List;
 
 import static app.organicmaps.editor.data.TimeFormatUtils.formatNonBusinessTime;
 import static app.organicmaps.editor.data.TimeFormatUtils.formatWeekdaysRange;
+
+import com.google.android.material.textview.MaterialTextView;
 
 public class PlaceOpeningHoursAdapter extends RecyclerView.Adapter<PlaceOpeningHoursAdapter.ViewHolder>
 {
@@ -161,9 +162,9 @@ public class PlaceOpeningHoursAdapter extends RecyclerView.Adapter<PlaceOpeningH
 
   public static class ViewHolder extends RecyclerView.ViewHolder
   {
-    private final TextView mWeekdays;
-    private final TextView mOpenTime;
-    private final TextView mNonBusinessTime;
+    private final MaterialTextView mWeekdays;
+    private final MaterialTextView mOpenTime;
+    private final MaterialTextView mNonBusinessTime;
 
     public ViewHolder(@NonNull View itemView)
     {
