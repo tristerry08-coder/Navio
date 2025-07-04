@@ -77,6 +77,8 @@ android {
     buildConfigField 'String', 'REVIEW_URL', '""'
 
     setProperty('archivesBaseName', appName.replaceAll('\\s','') + '-' + defaultConfig.versionCode)
+
+    ndk.debugSymbolLevel = 'full'
   }
 
   flavorDimensions += 'default'
