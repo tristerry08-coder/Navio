@@ -39,6 +39,9 @@ project.ext.appName = 'CoMaps'
 android {
   namespace 'app.organicmaps'
 
+  // TODO: it should not be here, but in sdk/build.gradle. But for some reason it should be specified here as well.
+  ndkVersion '28.2.13676358'
+
   dependenciesInfo {
     // Disables dependency metadata when building APKs (for IzzyOnDroid/F-Droid)
     includeInApk = false
