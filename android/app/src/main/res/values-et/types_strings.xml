@@ -1401,4 +1401,5 @@
     <string name="type.barrier.guard_rail">Madal maanteepiire</string>
     <string name="type.amenity.studio">Stuudio</string>
     <string name="type.man_made.crane">Kraana</string>
+    <string name="type.railway.station.subway.qingdao">Metroojaam</string>
 </resources>

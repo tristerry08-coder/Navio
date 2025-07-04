@@ -626,7 +626,7 @@
     <string name="pref_backup_now_summary_failed">Fallou a copia</string>
     <string name="pref_backup_now_summary_folder_unavailable">O cartafol para a copia non está dispoñible</string>
     <string name="pref_backup_status_summary_success">Última copia exitosa</string>
-    <string name="pref_backup_location_title">Localización da copia</string>
+    <string name="pref_backup_location_title">Localización das copias</string>
     <string name="pref_backup_history_title">Número de copias a manter</string>
     <string name="pref_backup_interval_title">Copia automática</string>
     <string name="backup_interval_every_day">Diaria</string>

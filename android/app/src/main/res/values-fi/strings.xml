@@ -902,4 +902,22 @@
     <string name="bookmark_color">Kirjanmerkin väri</string>
     <string name="about_help">Tietoja ja ohje</string>
     <string name="panoramax">Panoramax-kuva</string>
+    <string name="pref_backup_summary">Varmuuskopioi laitteeseen automaattisesti</string>
+    <string name="pref_backup_now_title">Varmuuskopioi nyt</string>
+    <string name="pref_backup_now_summary">Luo varmuuskopio heti</string>
+    <string name="pref_backup_now_summary_ok">Varmuuskopiointi onnistui</string>
+    <string name="pref_backup_now_summary_empty_lists">Kirjanmerkkejä ja reittejä ei varmuuskopioitu</string>
+    <string name="pref_backup_now_summary_failed">Varmuuskopiointi epäonnistui</string>
+    <string name="pref_backup_now_summary_folder_unavailable">Varmuuskopion kansio ei saatavilla</string>
+    <string name="pref_backup_location_title">Varmuuskopion sijainti</string>
+    <string name="pref_backup_location_summary_initial">Valitse kansio ensin ja anna tarvittavat luvat</string>
+    <string name="pref_backup_history_title">Säilytettävien varmuuskopioiden määrä</string>
+    <string name="pref_backup_interval_title">Automaattinen varmuuskopiointi</string>
+    <string name="backup_interval_every_day">Päivittäin</string>
+    <string name="backup_interval_every_week">Viikottain</string>
+    <string name="dialog_report_error_missing_folder">Valittu varmuuskopio ei ole saatavilla tai kirjoituskelpoinen. Valitse eri sijainti.</string>
+    <string name="pref_backup_now_summary_progress">Varmuuskopiointi käynnissä…</string>
+    <string name="pref_backup_title">Kirjanmerkkien ja reittien varmuuskopiointi</string>
+    <string name="pref_backup_status_summary_success">Viimeisin onnistunut varmuuskopio</string>
+    <string name="backup_interval_manual_only">Pois (Varmuuskopioi manuaalisesti)</string>
 </resources>

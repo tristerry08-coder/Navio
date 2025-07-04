@@ -13,13 +13,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>Não há Favoritos</string>
+			<string>Sem Marcadores</string>
 			<key>one</key>
-			<string>Há %d Favorito</string>
+			<string>%d Marcadores</string>
 			<key>many</key>
-			<string>Há %d Favoritos</string>
+			<string>%d Marcadores</string>
 			<key>other</key>
-			<string>Há %d Favoritos</string>
+			<string>%d Marcadores</string>
 		</dict>
 	</dict>
 	<key>bookmarks_detect_message</key>

@@ -1306,4 +1306,5 @@
     <string name="type.landuse.plant_nursery">Viveiro</string>
     <string name="type.leisure.firepit">Fogueira</string>
     <string name="type.sport.diving">Trampolín</string>
+    <string name="type.amenity.love_hotel">Hotel por horas</string>
 </resources>

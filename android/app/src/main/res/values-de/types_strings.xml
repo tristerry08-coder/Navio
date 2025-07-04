@@ -1399,4 +1399,5 @@
     <string name="type.highway.ladder">Leiter</string>
     <string name="type.amenity.studio">Studio</string>
     <string name="type.man_made.crane">Kran</string>
+    <string name="type.railway.station.subway.qingdao">U-Bahn-Station</string>
 </resources>
