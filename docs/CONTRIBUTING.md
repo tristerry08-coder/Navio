@@ -60,6 +60,7 @@ While we strive to help onboard new developers we don't have enough time to guid
 - [Directories structure](STRUCTURE.md)
 - [C++ Style Guide](CPP_STYLE.md).
 - [Java Style Guide](JAVA_STYLE.md).
+- [Swift Style Guide](SWIFT_STYLE.md).
 - [Objective-C Style Guide](OBJC_STYLE.md).
 
 ...and more in the [docs folder](./) of the repository.
