@@ -50,7 +50,6 @@ public:
   /// @returns true if user have registered/signed up even if his email address was not confirmed yet.
   bool TestOSMUser(std::string const & userName);
   /// Get OSM user preferences in a convenient struct.
-  /// Throws in case of any error.
   UserPreferences GetUserPreferences() const;
   /// Please use at least created_by=* and comment=* tags.
   /// @returns created changeset ID.
