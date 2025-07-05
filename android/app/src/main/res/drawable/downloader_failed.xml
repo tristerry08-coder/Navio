@@ -4,8 +4,16 @@
   <item>
     <shape android:shape="oval">
       <solid android:color="@color/base_red"/>
+      <size
+          android:width="40dp"
+          android:height="40dp" />
     </shape>
   </item>
 
-  <item android:drawable="@drawable/ic_downloader_retry"/>
+  <item
+      android:bottom="8dp"
+      android:drawable="@drawable/ic_downloader_retry"
+      android:left="8dp"
+      android:right="8dp"
+      android:top="8dp" />
 </layer-list>

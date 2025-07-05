@@ -143,4 +143,11 @@
 
   <color name="material_calendar_surface_dark">#929292</color>
   <color name="notification_warning">#FFC22219</color>
+  
+  <!-- Downloader -->
+  <color name="dl_done">#ebebeb</color>
+  <color name="dl_done_night">#54575b</color>
+  <color name="dl_download">#FF37653F</color>
+  <color name="dl_download_night">#ffe68c</color>
+  <color name="dl_update">#ffc30a</color>
 </resources>

@@ -3,9 +3,17 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
   <item>
     <shape android:shape="oval">
-      <solid android:color="@color/base_yellow"/>
+      <solid android:color="@color/dl_update"/>
+      <size
+          android:width="40dp"
+          android:height="40dp" />
     </shape>
   </item>
 
-  <item android:drawable="@drawable/ic_downloader_update"/>
+  <item
+      android:bottom="8dp"
+      android:drawable="@drawable/ic_downloader_update"
+      android:left="8dp"
+      android:right="8dp"
+      android:top="8dp" />
 </layer-list>
