@@ -17,17 +17,9 @@ using namespace jni;
 
 bool LoadOsmUserPreferences(std::string const & oauthToken, UserPreferences & outPrefs)
 {
-  try
-  {
-    ServerApi06 const api(OsmOAuth::ServerAuth(oauthToken));
-    outPrefs = api.GetUserPreferences();
-    return true;
-  }
-  catch (std::exception const & ex)
-  {
-    LOG(LWARNING, ("Can't load user preferences from server: ", ex.what()));
-  }
-  return false;
+  ServerApi06 const api(OsmOAuth::ServerAuth(oauthToken));
+  outPrefs = api.GetUserPreferences();
+  return (outPrefs.m_id != 0);
 }
 }  // namespace
 
