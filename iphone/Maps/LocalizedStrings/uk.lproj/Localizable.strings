@@ -294,12 +294,6 @@
 /* Button in the main menu */
 "donate" = "Підтримати грошима";
 
-/* Tex label above the Donate button */
-"donate_description" = "Пожертвуйте, щоб разом створювати найкращі мапи!";
-"already_donated" = "Вже пожертвувано";
-"remind_me_later" = "Нагадати пізніше";
-"support_us" = "Підтримати CoMaps";
-
 /* Button in the main Help dialog */
 "copyright" = "Копірайт";
 

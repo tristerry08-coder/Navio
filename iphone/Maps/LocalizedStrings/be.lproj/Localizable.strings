@@ -294,12 +294,6 @@
 /* Button in the main menu */
 "donate" = "Падтрымаць грашыма";
 
-/* Tex label above the Donate button */
-"donate_description" = "Падтрымайць, каб разам ствараць лепшыя карты!";
-"already_donated" = "Ужо ахвяравана";
-"remind_me_later" = "Нагадаць пазней";
-"support_us" = "Падтрымаць CoMaps";
-
 /* Button in the main Help dialog */
 "copyright" = "Аўтарскія правы";
 

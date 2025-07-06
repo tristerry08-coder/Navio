@@ -294,12 +294,6 @@
 /* Button in the main menu */
 "donate" = "Donere";
 
-/* Tex label above the Donate button */
-"donate_description" = "Doner for å bygge de beste kartene sammen!";
-"already_donated" = "Allerede donert";
-"remind_me_later" = "Påminn senere";
-"support_us" = "Støtte CoMaps";
-
 /* Button in the main Help dialog */
 "copyright" = "Opphavsrett";
 

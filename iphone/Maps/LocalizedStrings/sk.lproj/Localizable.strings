@@ -294,12 +294,6 @@
 /* Button in the main menu */
 "donate" = "Darovať";
 
-/* Tex label above the Donate button */
-"donate_description" = "Darujte, aby sme spoločne vytvorili tie najlepšie mapy!";
-"already_donated" = "Už darované";
-"remind_me_later" = "Pripomeň neskôr";
-"support_us" = "Podporiť CoMaps";
-
 /* Button in the main Help dialog */
 "copyright" = "Autorské práva";
 

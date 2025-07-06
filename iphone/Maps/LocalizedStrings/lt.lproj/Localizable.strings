@@ -294,12 +294,6 @@
 /* Button in the main menu */
 "donate" = "Paaukoti";
 
-/* Tex label above the Donate button */
-"donate_description" = "Paaukokite, kad kartu sukurtume geriausius žemėlapius!";
-"already_donated" = "Jau paaukojau";
-"remind_me_later" = "Priminti vėliau";
-"support_us" = "Paremti „CoMaps“";
-
 /* Button in the main Help dialog */
 "copyright" = "Autorių teisės";
 

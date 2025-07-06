@@ -294,12 +294,6 @@
 /* Button in the main menu */
 "donate" = "Doar";
 
-/* Tex label above the Donate button */
-"donate_description" = "Doe para criarmos juntos os melhores mapas!";
-"already_donated" = "Já doei";
-"remind_me_later" = "Lembre-me mais tarde";
-"support_us" = "Apoie o CoMaps";
-
 /* Button in the main Help dialog */
 "copyright" = "Direitos autorais";
 

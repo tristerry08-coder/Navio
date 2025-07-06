@@ -294,12 +294,6 @@
 /* Button in the main menu */
 "donate" = "Faire un don";
 
-/* Tex label above the Donate button */
-"donate_description" = "Fais un don pour construire ensemble les meilleures cartes !";
-"already_donated" = "Déjà donné";
-"remind_me_later" = "Rappeler plus tard";
-"support_us" = "Soutenir CoMaps";
-
 /* Button in the main Help dialog */
 "copyright" = "Tous droits réservés";
 

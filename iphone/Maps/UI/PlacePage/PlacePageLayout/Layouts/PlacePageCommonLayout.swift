@@ -57,13 +57,6 @@ class PlacePageCommonLayout: NSObject, IPlacePageLayout {
     return vc
   } ()
 
-  private func productsViewController() -> ProductsViewController? {
-    let productsManager = FrameworkHelper.self
-    guard let configuration = productsManager.getProductsConfiguration() else { return nil }
-    let viewModel = ProductsViewModel(manager: productsManager, configuration: configuration)
-    return ProductsViewController(viewModel: viewModel)
-  }
-
   lazy var buttonsViewController: PlacePageButtonsViewController = {
     let vc = storyboard.instantiateViewController(ofType: PlacePageButtonsViewController.self)
     vc.buttonsData = placePageData.buttonsData!
@@ -107,10 +100,6 @@ class PlacePageCommonLayout: NSObject, IPlacePageLayout {
 
     if placePageData.infoData != nil {
       viewControllers.append(infoViewController)
-    }
-
-    if let productsViewController = productsViewController() {
-      viewControllers.append(productsViewController)
     }
 
     if placePageData.buttonsData != nil {

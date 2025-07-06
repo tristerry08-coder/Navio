@@ -294,12 +294,6 @@
 /* Button in the main menu */
 "donate" = "Dohaintza eman";
 
-/* Tex label above the Donate button */
-"donate_description" = "Eman dohaintza elkarrekin mapa onenak eraikitzeko!";
-"already_donated" = "Dohaintza jada emana";
-"remind_me_later" = "Gogoratu geroago";
-"support_us" = "Sustatu CoMaps";
-
 /* Button in the main Help dialog */
 "copyright" = "Egile eskubideak";
 

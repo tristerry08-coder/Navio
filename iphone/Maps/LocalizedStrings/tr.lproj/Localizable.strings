@@ -294,12 +294,6 @@
 /* Button in the main menu */
 "donate" = "Bağış yap";
 
-/* Tex label above the Donate button */
-"donate_description" = "En iyi harita uygulamasını birlikte geliştirmemiz için bağış yapın!";
-"already_donated" = "Zaten bağış yaptım";
-"remind_me_later" = "Sonra hatırlat";
-"support_us" = "CoMaps’i Destekleyin";
-
 /* Button in the main Help dialog */
 "copyright" = "Telif hakkı";
 

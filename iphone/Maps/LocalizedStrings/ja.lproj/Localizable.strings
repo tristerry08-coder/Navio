@@ -294,12 +294,6 @@
 /* Button in the main menu */
 "donate" = "寄付";
 
-/* Tex label above the Donate button */
-"donate_description" = "寄付して最高の地図を一緒に作ろう！";
-"already_donated" = "寄付済み";
-"remind_me_later" = "後でリマインド";
-"support_us" = "CoMaps を支援";
-
 /* Button in the main Help dialog */
 "copyright" = "著作権";
 

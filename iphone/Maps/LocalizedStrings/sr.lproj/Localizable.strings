@@ -294,12 +294,6 @@
 /* Button in the main menu */
 "donate" = "Донација";
 
-/* Tex label above the Donate button */
-"donate_description" = "Донирате да бисмо заједно направили најбоље мапе!";
-"already_donated" = "Већ је донирано";
-"remind_me_later" = "Подсети ме касније";
-"support_us" = "Подршка CoMaps";
-
 /* Button in the main Help dialog */
 "copyright" = "Copyright";
 

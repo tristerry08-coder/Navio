@@ -294,12 +294,6 @@
 /* Button in the main menu */
 "donate" = "Menyumbangkan";
 
-/* Tex label above the Donate button */
-"donate_description" = "Donasi untuk membangun peta terbaik bersama-sama!";
-"already_donated" = "Sudah disumbang";
-"remind_me_later" = "Ingatkan nanti";
-"support_us" = "Mendukung CoMaps";
-
 /* Button in the main Help dialog */
 "copyright" = "Hak cipta";
 

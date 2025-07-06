@@ -294,12 +294,6 @@
 /* Button in the main menu */
 "donate" = "Поддержать деньгами";
 
-/* Tex label above the Donate button */
-"donate_description" = "Поддержать деньгами, чтобы вместе создавать лучшие карты!";
-"already_donated" = "Уже пожертвовано";
-"remind_me_later" = "Напомнить позже";
-"support_us" = "Поддержать CoMaps";
-
 /* Button in the main Help dialog */
 "copyright" = "Копирайт";
 
