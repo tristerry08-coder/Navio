@@ -256,9 +256,6 @@
     <string name="faq">GYIK</string>
     <!-- Button in the main menu -->
     <string name="donate">Adományozás</string>
-    <string name="already_donated">Már adományozott</string>
-    <string name="remind_me_later">Emlékeztessen később</string>
-    <string name="support_organic_maps">CoMaps támogatása</string>
     <!-- Button in the main Help dialog -->
     <string name="how_to_support_us">A projekt támogatása</string>
     <!-- Button in the main Help dialog -->

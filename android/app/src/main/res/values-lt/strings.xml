@@ -248,9 +248,6 @@
     <string name="faq">Dažnai užduodami klausimai</string>
     <!-- Button in the main menu -->
     <string name="donate">Paaukoti</string>
-    <string name="already_donated">Jau paaukojau</string>
-    <string name="remind_me_later">Priminti vėliau</string>
-    <string name="support_organic_maps">Paremti „CoMaps“</string>
     <!-- Button in the main Help dialog -->
     <string name="how_to_support_us">Paremti projektą</string>
     <!-- Button in the main Help dialog -->

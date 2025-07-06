@@ -797,8 +797,6 @@
     <string name="faq">Perguntas frequentes</string>
     <string name="bluesky">Bluesky</string>
     <string name="openstreetmap">OpenStreetMap</string>
-    <string name="already_donated">Já doei</string>
-    <string name="remind_me_later">Lembre-me mais tarde</string>
     <string name="mastodon">Mastodon</string>
     <string name="facebook">Facebook</string>
     <string name="twitter">X (Twitter)</string>
@@ -810,7 +808,6 @@
     <string name="how_to_support_us">Apoie o projeto</string>
     <string name="google_play_services">Serviço de localização integrada do Google</string>
     <string name="editor_time_title">Horário de funcionamento</string>
-    <string name="support_organic_maps">Apoie o CoMaps</string>
     <string name="long_tap_toast">Dê um toque longo no mapa novamente para ver a interface</string>
     <string name="editor_time_add">Adicionar horário</string>
     <string name="editor_time_open">Aberto</string>

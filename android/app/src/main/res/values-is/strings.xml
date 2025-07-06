@@ -262,9 +262,6 @@
     <string name="search_in_the_list">Leita í listanum</string>
     <string name="religious_places">Trúarlegir staðir</string>
     <string name="download_map_title">Sækja heims-yfirlitskortið</string>
-    <string name="already_donated">Hef þegar styrkt verkefnið</string>
-    <string name="remind_me_later">Áminna mig síðar</string>
-    <string name="support_organic_maps">Styddu við CoMaps</string>
     <string name="how_to_support_us">Styddu við verkefnið</string>
     <string name="osm_log_out_confirmation">Ertu viss um að þú viljir skrá þig út af OpenStreetMap-aðgangnum þínum?</string>
     <string name="telegram">Telegram</string>

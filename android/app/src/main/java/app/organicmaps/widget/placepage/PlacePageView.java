@@ -70,7 +70,6 @@ public class PlacePageView extends Fragment implements View.OnClickListener,
 {
   private static final String PREF_COORDINATES_FORMAT = "coordinates_format";
   private static final String BOOKMARK_FRAGMENT_TAG = "BOOKMARK_FRAGMENT_TAG";
-  private static final String PRODUCTS_FRAGMENT_TAG = "PRODUCTS_FRAGMENT_TAG";
   private static final String WIKIPEDIA_FRAGMENT_TAG = "WIKIPEDIA_FRAGMENT_TAG";
   private static final String PHONE_FRAGMENT_TAG = "PHONE_FRAGMENT_TAG";
   private static final String OPENING_HOURS_FRAGMENT_TAG = "OPENING_HOURS_FRAGMENT_TAG";
@@ -391,18 +390,6 @@ public class PlacePageView extends Fragment implements View.OnClickListener,
     updateViewFragment(PlacePageWikipediaFragment.class, WIKIPEDIA_FRAGMENT_TAG, R.id.place_page_wikipedia_fragment, hasWikipediaEntry());
   }
 
-//  private boolean hasProductsEntry()
-//  {
-//    return Framework.nativeShouldShowProducts();
-//  }
-
-//  private void updateProductsView()
-//  {
-//    var hasProductsEntry = hasProductsEntry();
-//
-//    updateViewFragment(PlacePageProductsFragment.class, PRODUCTS_FRAGMENT_TAG, R.id.place_page_products_fragment, hasProductsEntry);
-//  }
-
   private void setTextAndColorizeSubtitle()
   {
     String text = mMapObject.getSubtitle();
@@ -493,7 +480,6 @@ public class PlacePageView extends Fragment implements View.OnClickListener,
     }
     updateLinksView();
     updateOpeningHoursView();
-    //updateProductsView(); Disable begging message on placepage
     updateWikipediaView();
     updateBookmarkView();
     updatePhoneView();

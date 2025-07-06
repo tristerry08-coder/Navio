@@ -247,9 +247,6 @@
     <string name="faq">Domande frequenti</string>
     <!-- Button in the main menu -->
     <string name="donate">Dona</string>
-    <string name="already_donated">Già donato</string>
-    <string name="remind_me_later">Ricorda più tardi</string>
-    <string name="support_organic_maps">Supporta CoMaps</string>
     <!-- Button in the main Help dialog -->
     <string name="how_to_support_us">Sostieni il progetto</string>
     <!-- Button in the main Help dialog -->

@@ -261,8 +261,6 @@
     <string name="faq">Biežāk uzdotie jautājumi</string>
     <!-- Button in the main menu -->
     <string name="donate">Ziedot</string>
-    <string name="remind_me_later">Atgādināt vēlāk</string>
-    <string name="support_organic_maps">Atbalstīt CoMaps</string>
     <!-- Button in the main Help dialog -->
     <string name="how_to_support_us">Atbalstiet projektu</string>
     <!-- Button in the main Help dialog -->
@@ -832,7 +830,6 @@
     <string name="edit_track">Labot ceļu</string>
     <string name="openstreetmap">OpenStreetMap</string>
     <string name="change_map_locale">Kartes valoda</string>
-    <string name="already_donated">Jau esmu ziedojis/usi</string>
     <string name="wikimedia_commons">Vikikrātuve</string>
     <string name="core_placepage_unknown_place">Punkts kartē</string>
     <string name="nav_auto">Automātisks navigācijas laikā</string>

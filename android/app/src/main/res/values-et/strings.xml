@@ -253,9 +253,6 @@
     <string name="faq">Korduma kippuvad küsimused</string>
     <!-- Button in the main menu -->
     <string name="donate">Anneta</string>
-    <string name="already_donated">Juba annetasin</string>
-    <string name="remind_me_later">Meenuta hiljem</string>
-    <string name="support_organic_maps">Toeta CoMapsi</string>
     <!-- Button in the main Help dialog -->
     <string name="how_to_support_us">Toeta meie projekti</string>
     <!-- Button in the main Help dialog -->

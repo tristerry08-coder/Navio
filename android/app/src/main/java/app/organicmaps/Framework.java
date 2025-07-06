@@ -13,7 +13,6 @@ import app.organicmaps.api.RequestType;
 import app.organicmaps.bookmarks.data.DistanceAndAzimut;
 import app.organicmaps.bookmarks.data.FeatureId;
 import app.organicmaps.bookmarks.data.MapObject;
-import app.organicmaps.products.ProductsConfig;
 import app.organicmaps.sdk.routing.JunctionInfo;
 import app.organicmaps.sdk.routing.RouteMarkData;
 import app.organicmaps.sdk.routing.RouteMarkType;
@@ -347,15 +346,5 @@ public class Framework
   public static native boolean nativeHasPlacePageInfo();
 
   public static native void nativeMemoryWarning();
-
-  public static native boolean nativeShouldShowProducts();
-
-  @Nullable
-  public static native ProductsConfig nativeGetProductsConfiguration();
-
-  public static native void nativeDidCloseProductsPopup(String reason);
-
-  public static native void nativeDidSelectProduct(String title, String link);
-
   public static native void nativeSaveRoute();
 }

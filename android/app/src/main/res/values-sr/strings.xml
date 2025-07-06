@@ -865,9 +865,6 @@
     <string name="precise_location_is_disabled_long_text">Да би се осигурала тачна навигација омогућите прецизну локацију у подешавањима.</string>
     <string name="mb">МБ</string>
     <string name="translated_om_site_url">https://comaps.app/</string>
-    <string name="already_donated">Већ је донирано</string>
-    <string name="remind_me_later">Подсети ме касније</string>
-    <string name="support_organic_maps">Подршка CoMaps</string>
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="editor_osm_history">Ваша историја уређивања</string>
     <string name="editor_osm_notes">Ваши подаци о мапи</string>

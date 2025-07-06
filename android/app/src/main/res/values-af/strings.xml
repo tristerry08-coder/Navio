@@ -250,9 +250,6 @@
     <string name="faq">Gereelde vrae</string>
     <!-- Button in the main menu -->
     <string name="donate">Skenk</string>
-    <string name="already_donated">Reeds geskenk</string>
-    <string name="remind_me_later">Herinner later</string>
-    <string name="support_organic_maps">Ondersteun CoMaps</string>
     <!-- Button in the main Help dialog -->
     <string name="how_to_support_us">Ondersteun die projek</string>
     <!-- Button in the main Help dialog -->

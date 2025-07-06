@@ -73,12 +73,6 @@
     <include layout="@layout/place_page_open_in"/>
   </LinearLayout>
 
-  <androidx.fragment.app.FragmentContainerView
-      android:id="@+id/place_page_products_fragment"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      tools:layout="@layout/place_page_products_fragment" />
-
   <include
     layout="@layout/place_page_fat_shadow"
     android:id="@+id/edit_top_space"
