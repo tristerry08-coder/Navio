@@ -18,7 +18,7 @@ namespace storage
 /// and file downloading.
 //
 // *NOTE*, this class is not thread-safe.
-class HttpMapFilesDownloader : public MapFilesDownloaderWithPing
+class HttpMapFilesDownloader : public MapFilesDownloader
 {
 public:
   virtual ~HttpMapFilesDownloader();
@@ -29,7 +29,7 @@ public:
   QueueInterface const & GetQueue() const override;
 
 private:
-  // MapFilesDownloaderWithServerList overrides:
+  // MapFilesDownloader overrides:
   void Download(QueuedCountry && queuedCountry) override;
 
   void Download();
