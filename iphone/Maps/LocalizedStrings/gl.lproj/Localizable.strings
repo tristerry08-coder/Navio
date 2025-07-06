@@ -34,7 +34,6 @@
 "month_ago_sorttype" = "Hai un mes";
 "downloader_updating_ios" = "Actualizando";
 "cancel" = "Cancelar";
-"donate_description" = "Faga un donativo para desenvolver xuntos os mellores mapas!";
 "cancel_download" = "Cancelar descarga";
 "delete" = "Eliminar";
 "download_maps" = "Descargar mapas";
@@ -243,15 +242,6 @@
 "closes_in" = "Pecha en %@";
 "closed" = "Pechado";
 "add_opening_hours" = "Engadir horarios de apertura";
-"no_osm_account" = "Non ten conta en OpenStreetMap?";
-"register_at_openstreetmap" = "Rexistrarse en OpenStreetMap";
-"password_8_chars_min" = "Contrasinal (mínimo 8 caracteres)";
-"invalid_username_or_password" = "Usuario ou contrasinal incorrectos.";
-"login" = "Acceder";
-"login_osm" = "Acceder a OpenStreetMap";
-"forgot_password" = "Esqueceu o seu contrasinal?";
-"osm_account" = "Conta OSM";
-"logout" = "Pechar sesión";
 "last_upload" = "Última carga";
 "thank_you" = "Grazas";
 "edit_place" = "Editar o lugar";
@@ -288,8 +278,6 @@
 "whatsnew_editor_message_1" = "Engada lugares novos ao mapa e edite os existentes directamente desde a aplicación.";
 "dialog_incorrect_feature_position" = "Cambiar localización";
 "message_invalid_feature_position" = "Non se pode situar ningún obxecto aquí";
-"osm_presentation" = "Datos de OpenStreetMap creados pola comunidade a partir de %@. Más información sobre como editar e actualizar o mapa en OpenStreetMap.org";
-"login_to_make_edits_visible" = "Cre unha conta OpenStreetMap ou inicie sesión para publicar as súas edicións de mapas en todo o mundo.";
 "downloader_of" = "%1$d de %2$d";
 "download_over_mobile_header" = "Descargar con conexión de rede móbil?";
 "migration_no_space_message" = "Necesita máis espazo para descargar. Elimine os datos innecesarios.";
@@ -512,7 +500,6 @@
 "telegram_url" = "https://t.me/CoMapsApp/";
 "instagram_url" = "https://www.instagram.com/comaps.app/";
 "translated_om_site_url" = "https://www.comaps.app/";
-"osm_wiki_about_url" = "https://wiki.openstreetmap.org/wiki/Gl:Acerca_do_OpenStreetMap";
 "app_tip_00" = "Grazas por utilizar os nosos mapas creados pola comunidade!";
 "app_tip_01" = "Coas súas doazóns e apoio, podemos crear os mellores mapas do mundo!";
 "app_tip_02" = "Gústalle a nosa aplicación? Por favor doe para apoiar o seu desenvolvemento! Aínda non lle gusta? Díganos por que e arranxarémolo!";

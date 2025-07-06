@@ -1280,4 +1280,5 @@
     <string name="type.aerialway.mixed_lift">رفع مختلط</string>
     <string name="type.amenity.love_hotel">فندق جب</string>
     <string name="type.amenity.studio">معرض</string>
+    <string name="type.railway.station.subway.qingdao">محطة مترو</string>
 </resources>

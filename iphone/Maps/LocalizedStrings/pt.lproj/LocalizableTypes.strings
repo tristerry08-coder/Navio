@@ -1051,7 +1051,7 @@
 "type.railway.station.subway.panama" = "Estação de metro";
 "type.railway.station.subway.paris" = "Estação de metro";
 "type.railway.station.subway.philadelphia" = "Estação de metro";
-"type.railway.station.subway.pyongyang" = "Estação de metro";
+"type.railway.station.subway.pyongyang" = "Estação de Metrô de Pyongyang";
 "type.railway.station.subway.rennes" = "Estação de metro";
 "type.railway.station.subway.rio" = "Estação de metro";
 "type.railway.station.subway.roma" = "Estação de metro";
@@ -1063,7 +1063,7 @@
 "type.railway.station.subway.sapporo" = "Estação de metro";
 "type.railway.station.subway.sendai" = "Estação de metro";
 "type.railway.station.subway.sf" = "Estação de metro";
-"type.railway.station.subway.shanghai" = "Estação de metro";
+"type.railway.station.subway.shanghai" = "Estação de Metrô de Xangai";
 "type.railway.station.subway.shenzhen" = "Estação de metro";
 "type.railway.station.subway.shiraz" = "Estação de metro";
 "type.railway.station.subway.singapore" = "Estação de metro";
@@ -1074,16 +1074,16 @@
 "type.railway.station.subway.taipei" = "Estação de metro";
 "type.railway.station.subway.taoyuan" = "Estação de metro";
 "type.railway.station.subway.tashkent" = "Estação de metro";
-"type.railway.station.subway.tbilisi" = "Estação de metro";
-"type.railway.station.subway.tehran" = "Estação de metro";
+"type.railway.station.subway.tbilisi" = "Estação de Metro de Tiblíssi";
+"type.railway.station.subway.tehran" = "Estação de Metro de Teerão";
 "type.railway.station.subway.tianjin" = "Estação de metro";
 "type.railway.station.subway.tokyo" = "Estação de metro";
-"type.railway.station.subway.valencia" = "Estação de metro";
-"type.railway.station.subway.vienna" = "Estação de metro";
-"type.railway.station.subway.warszawa" = "Estação de metro";
-"type.railway.station.subway.washington" = "Estação de metro";
+"type.railway.station.subway.valencia" = "Estação de Metro de Valência";
+"type.railway.station.subway.vienna" = "Estação de Metro de Viena";
+"type.railway.station.subway.warszawa" = "Estação de Metro de Varsóvia";
+"type.railway.station.subway.washington" = "Estação de Metrô de Washington";
 "type.railway.station.subway.wuhan" = "Estação de metro";
-"type.railway.station.subway.yerevan" = "Estação de metro";
+"type.railway.station.subway.yerevan" = "Estação de Metrô de Erevã";
 "type.railway.station.subway.yokohama" = "Estação de metro";
 "type.railway.subway" = "Metro";
 "type.railway.subway.bridge" = "Ponte de metro";
@@ -1492,3 +1492,4 @@
 "type.highway.ladder" = "Escada";
 "type.leisure.firepit" = "Fogueira";
 "type.sport.diving" = "Mergulho alto";
+"type.railway.station.subway.qingdao" = "Estação de metro";

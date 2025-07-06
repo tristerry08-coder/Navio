@@ -1401,4 +1401,5 @@
     <string name="type.tourism.attraction">Attraction</string>
     <string name="type.hwtag">hwtag</string>
     <string name="type.man_made.crane">Grue</string>
+    <string name="type.railway.station.subway.qingdao">Station de métro</string>
 </resources>

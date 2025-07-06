@@ -172,4 +172,5 @@
     <string name="type.amenity.bar">酒吧</string>
     <string name="type.aerialway.cable_car">纜車</string>
     <string name="type.cuisine.japanese">日本料理</string>
+    <string name="type.railway.station.subway.qingdao">捷運站</string>
 </resources>

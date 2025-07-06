@@ -1401,4 +1401,5 @@
     <string name="type.sport.diving">Tuffi dalle grandi altezze</string>
     <string name="type.barrier.guard_rail">Barriera di contenimento</string>
     <string name="type.man_made.crane">Gru permanente</string>
+    <string name="type.railway.station.subway.qingdao">Stazione metropolitana</string>
 </resources>

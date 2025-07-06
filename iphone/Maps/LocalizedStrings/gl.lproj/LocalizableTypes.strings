@@ -918,7 +918,7 @@
 "type.railway.station.subway.lille" = "Estación de metro";
 "type.railway.station.subway.lima" = "Estación de metro";
 "type.railway.station.subway.lisboa" = "Estación de metro";
-"type.railway.station.subway.london" = "Estación de metro";
+"type.railway.station.subway.london" = "Estación subterránea";
 "type.railway.station.subway.lyon" = "Estación de metro";
 "type.railway.station.subway.madrid" = "Estación de metro";
 "type.railway.station.subway.malaga" = "Estación de metro";
@@ -1306,3 +1306,4 @@
 "type.sport.diving" = "Trampolín";
 "type.amenity.studio" = "Estudo";
 "type.amenity.love_hotel" = "Hotel por horas";
+"type.railway.station.subway.qingdao" = "Estación de metro";

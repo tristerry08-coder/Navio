@@ -1401,4 +1401,5 @@
     <string name="type.amenity.love_hotel">Love Hotel</string>
     <string name="type.amenity.studio">Studio</string>
     <string name="type.sport.diving">Klifduiken</string>
+    <string name="type.railway.station.subway.qingdao">Metrostation</string>
 </resources>

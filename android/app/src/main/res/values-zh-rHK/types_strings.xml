@@ -1402,4 +1402,5 @@
     <string name="type.piste_type.downhill.novice.area">新手速降滑雪區</string>
     <string name="type.traffic_calming.hump">減速丘</string>
     <string name="type.sport.diving">高台跳水</string>
+    <string name="type.railway.station.subway.qingdao">地下鐵站</string>
 </resources>

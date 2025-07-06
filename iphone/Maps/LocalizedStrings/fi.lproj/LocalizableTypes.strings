@@ -1492,3 +1492,4 @@
 "type.landuse.plant_nursery" = "Kasvitarha";
 "type.leisure.firepit" = "Tulentekopaikka";
 "type.man_made.crane" = "Nosturi";
+"type.railway.station.subway.qingdao" = "Metro";

@@ -259,7 +259,7 @@
     <!-- Downloaded maps list header -->
     <string name="downloader_downloaded_subtitle">Nedladdade</string>
     <!-- Country queued for download -->
-    <string name="downloader_queued">Köade</string>
+    <string name="downloader_queued">Köad</string>
     <string name="downloader_near_me_subtitle">Nära mig</string>
     <!-- In maps downloader and country place page shows how many maps are downloaded / to download, e.g. "Maps: 3 of 10" -->
     <string name="downloader_status_maps">Kartor</string>
@@ -852,4 +852,6 @@
     <string name="change_map_locale">Kartspråk</string>
     <string name="comma_separated_pair">%1$s, %2$s</string>
     <string name="panoramax">Panoramax-bild</string>
+    <string name="backup_interval_every_day">Dagligen</string>
+    <string name="backup_interval_every_week">Veckovis</string>
 </resources>

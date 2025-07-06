@@ -1484,3 +1484,4 @@
 
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "Nhà thi đấu thể thao";
+"type.railway.station.subway.qingdao" = "Ngầm";

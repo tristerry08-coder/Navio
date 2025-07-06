@@ -887,4 +887,21 @@
     <string name="twitter">X (Twitter)</string>
     <string name="navigation_stop_button">Stop</string>
     <string name="panoramax">Obraz Panoramax</string>
+    <string name="saved">Zapisano</string>
+    <string name="app_site_url">https://comaps.app/pl/</string>
+    <string name="codeberg">Codeberg</string>
+    <string name="pref_left_button_disable">Wyłącz</string>
+    <string name="vehicle">Pojazd</string>
+    <string name="bicycle">Rower</string>
+    <string name="clear">Wyczyść</string>
+    <string name="bluesky">Bluesky</string>
+    <string name="bookmark_color">Kolor zakładki</string>
+    <string name="route_type">Typ trasy</string>
+    <string name="backup_interval_every_day">Codziennie</string>
+    <string name="backup_interval_every_week">Co tydzień</string>
+    <string name="pref_backup_now_title">Utwórz kopię zapasową teraz</string>
+    <string name="pref_backup_now_summary_failed">Tworzenie kopii zapasowej nie powiodło się</string>
+    <string name="about_help">O aplikacji i pomoc</string>
+    <string name="pref_backup_interval_title">Automatyczna kopia zapasowa</string>
+    <string name="pref_backup_now_summary_progress">Tworzenie kopii zapasowej…</string>
 </resources>
