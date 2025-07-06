@@ -31,13 +31,12 @@ public class HelpFragment extends BaseMwmFragment implements View.OnClickListene
   private String mDonateUrl;
   private ActivityResultLauncher<SharingUtils.SharingIntent> shareLauncher;
 
-  private TextView setupItem(@IdRes int id, boolean tint, @NonNull View frame)
+  private void setupItem(@IdRes int id, boolean tint, @NonNull View frame)
   {
     final TextView view = frame.findViewById(id);
     view.setOnClickListener(this);
     if (tint)
       Graphics.tint(view);
-    return view;
   }
 
   @Override
@@ -85,9 +84,8 @@ public class HelpFragment extends BaseMwmFragment implements View.OnClickListene
       donateView.setVisibility(View.GONE);
     else
     {
-      if (Config.isNY())
-        donateView.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.ic_christmas_tree, 0,
-            R.drawable.ic_christmas_tree, 0);
+      /*donateView.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.ic_donate, 0,
+                R.drawable.ic_donate, 0);*/
       setupItem(R.id.donate, isLandscape, root);
     }
 

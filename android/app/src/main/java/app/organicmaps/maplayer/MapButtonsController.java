@@ -1,6 +1,5 @@
 package app.organicmaps.maplayer;
 
-import static app.organicmaps.leftbutton.LeftButtonsHolder.BUTTON_HELP_CODE;
 import static app.organicmaps.leftbutton.LeftButtonsHolder.DISABLE_BUTTON_CODE;
 
 import android.animation.ArgbEvaluator;
@@ -9,7 +8,6 @@ import android.content.Context;
 import android.content.res.ColorStateList;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.text.TextUtils;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -206,22 +204,9 @@ public class MapButtonsController extends Fragment
 
       leftButtonView.setImageTintList(ColorStateList.valueOf(ThemeUtils.getColor(context, R.attr.iconTint)));
 
-      // Christmas tree with help button
-      if (Config.isNY() &&
-          mLeftButton.getCode().equals(BUTTON_HELP_CODE) &&
-          !TextUtils.isEmpty(Config.getDonateUrl(requireContext()))
-      )
-      {
-        leftButtonView.setImageResource(R.drawable.ic_christmas_tree);
-        leftButtonView.setContentDescription(getString(R.string.about_help));
-        leftButtonView.setOnClickListener((v) -> mMapButtonClickListener.onMapButtonClick(MapButtons.help));
-      }
-      else
-      {
-        mLeftButton.drawIcon(leftButtonView);
-        leftButtonView.setContentDescription(mLeftButton.getPrefsName());
-        leftButtonView.setOnClickListener((v) -> mLeftButton.onClick(leftButtonView));
-      }
+       mLeftButton.drawIcon(leftButtonView);
+       leftButtonView.setContentDescription(mLeftButton.getPrefsName());
+       leftButtonView.setOnClickListener((v) -> mLeftButton.onClick(leftButtonView));
       //      else
       //      {
       //        helpButton.setImageResource(R.drawable.ic_launcher);

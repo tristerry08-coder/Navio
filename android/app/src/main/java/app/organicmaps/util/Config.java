@@ -319,11 +319,6 @@ public final class Config
     nativeSetTransliteration(value);
   }
 
-  public static boolean isNY()
-  {
-    return getBool("NY");
-  }
-
   @NonNull
   @SuppressWarnings("ConstantConditions") // BuildConfig
   public static String getDonateUrl(@NonNull Context context)
