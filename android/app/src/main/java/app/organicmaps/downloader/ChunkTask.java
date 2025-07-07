@@ -209,7 +209,7 @@ class ChunkTask extends AsyncTask<Void, byte[], Integer>
         // @TODO Else display received web page to user - router is redirecting us to some page
       }
 
-      return downloadFromStream(new BufferedInputStream(urlConnection.getInputStream(), 65536));
+      return downloadFromStream(new BufferedInputStream(urlConnection.getInputStream(), 128 * Constants.KB));
     } catch (final MalformedURLException ex)
     {
       Logger.e(TAG, "Invalid url: " + mUrl, ex);
@@ -229,7 +229,7 @@ class ChunkTask extends AsyncTask<Void, byte[], Integer>
   {
     // Because of timeouts in InputStream.read (for bad connection),
     // try to introduce dynamic buffer size to read in one query.
-    final int[] arrSize = {64, 32, 1};
+    final int[] arrSize = {128, 32, 1};
     int ret = IO_EXCEPTION;
 
     for (int size : arrSize)
@@ -240,7 +240,7 @@ class ChunkTask extends AsyncTask<Void, byte[], Integer>
         break;
       } catch (final IOException ex)
       {
-        Logger.e(TAG, "IOException in downloadFromStream for chunk size: " + size, ex);
+        Logger.e(TAG, "IOException in downloadFromStream for buffer size: " + size, ex);
       }
     }
 
