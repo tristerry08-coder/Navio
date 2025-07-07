@@ -331,6 +331,43 @@ UNIT_TEST(ChunksDownloadStrategyFAIL)
   TEST_EQUAL(strategy.NextChunk(s2, r2), ChunksDownloadStrategy::EDownloadFailed, ());
 }
 
+UNIT_TEST(ChunksDownloadStrategyDynamicChunks)
+{
+  vector<string> const servers = {"UrlOfServer1", "UrlOfServer2"};
+
+  typedef pair<int64_t, int64_t> RangeT;
+
+  string url;
+  ChunksDownloadStrategy strategy(servers);
+
+  // Small 1MB file - one chunk
+  strategy.InitChunks(1024 * 1024, 0);
+  RangeT const R11{0, 1024 * 1024 - 1};
+  RangeT r1;
+  TEST_EQUAL(strategy.NextChunk(url, r1), ChunksDownloadStrategy::ENextChunk, ());
+  RangeT rEmpty;
+  TEST_EQUAL(strategy.NextChunk(url, rEmpty), ChunksDownloadStrategy::ENoFreeServers, ());
+  TEST(r1 == R11, (r1));
+
+  // Small 1MB+1b file - 2 chunks
+  strategy = ChunksDownloadStrategy(servers);
+  strategy.InitChunks(1024 * 1024 + 1, 0);
+  RangeT const R21{0, 1024 * 1024 - 1}, R22{1024 * 1024, 1024 * 1024};
+  TEST_EQUAL(strategy.NextChunk(url, r1), ChunksDownloadStrategy::ENextChunk, ());
+  RangeT r2;
+  TEST_EQUAL(strategy.NextChunk(url, r2), ChunksDownloadStrategy::ENextChunk, ());
+  TEST_EQUAL(strategy.NextChunk(url, rEmpty), ChunksDownloadStrategy::ENoFreeServers, ());
+  TEST(r1 == R21 && r2 == R22, (r1, r2));
+
+  // Big 200MB file - 5MB chunks
+  strategy = ChunksDownloadStrategy(servers);
+  strategy.InitChunks(200 * 1024 * 1024, 0);
+  RangeT const R31{0, 5 * 1024 * 1024 - 1}, R32{5 * 1024 * 1024, 2 * 5 * 1024 * 1024 - 1};
+  TEST_EQUAL(strategy.NextChunk(url, r1), ChunksDownloadStrategy::ENextChunk, ());
+  TEST_EQUAL(strategy.NextChunk(url, r2), ChunksDownloadStrategy::ENextChunk, ());
+  TEST(r1 == R31 && r2 == R32, (r1, r2));
+}
+
 namespace
 {
 string ReadFileAsString(string const & file)
