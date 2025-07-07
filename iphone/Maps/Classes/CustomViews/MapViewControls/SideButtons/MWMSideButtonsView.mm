@@ -31,7 +31,7 @@ CGFloat const kButtonsBottomOffset = 6;
 
 - (void)layoutSubviews {
   CGFloat spacing = self.availableHeight - self.zoomOut.maxY - self.location.height;
-  spacing = base::Clamp(spacing, kLocationButtonSpacingMin, kLocationButtonSpacingMax);
+  spacing = math::Clamp(spacing, kLocationButtonSpacingMin, kLocationButtonSpacingMax);
 
   if (!IPAD && (UIDevice.currentDevice.orientation == UIDeviceOrientationLandscapeLeft || UIDevice.currentDevice.orientation == UIDeviceOrientationLandscapeRight) && [MWMRouter isRoutingActive]) {
     spacing = spacing - 36;

@@ -79,7 +79,7 @@ bool NeedReplace(std::vector<m2::PointD> const & curSubpolygon,
   if (areaDiff > kMaxAreaDiffMetersSquared)
     return false;
 
-  if (base::AlmostEqualAbs(areaDiff, 0.0, BordersData::kEqualityEpsilon))
+  if (AlmostEqualAbs(areaDiff, 0.0, BordersData::kEqualityEpsilon))
     return false;
 
   // We know that |curSize| is always greater than 1, because we construct it such way, but we know
