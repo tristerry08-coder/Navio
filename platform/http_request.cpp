@@ -318,7 +318,10 @@ public:
               size <= static_cast<uint64_t>(fileSize))
         openMode = FileWriter::OP_WRITE_EXISTING;
       else
+      {
+        LOG(LWARNING, ("Incomplete file size is bigger than expected, re-downloading."));
         m_strategy.InitChunks(fileSize, chunkSize);
+      }
     }
 
     // Create file and reserve needed size.
