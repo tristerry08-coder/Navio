@@ -1379,7 +1379,7 @@
     <string name="type.mapswithme.grid">mapswithme-grid</string>
     <string name="type.hwtag.onedir_bicycle">hwtag-onedir_bicycle</string>
     <string name="type.hwtag.yesfoot">hwtag-yesfoot</string>
-    <string name="type.mapswithme">mapswithme</string>
+    <string name="type.mapswithme">MapsWithMe</string>
     <string name="type.hwtag.nobicycle">hwtag-nobicycle</string>
     <string name="type.hwtag.oneway">hwtag-oneway</string>
     <string name="type.route.shuttle_train">route-shuttle_train</string>

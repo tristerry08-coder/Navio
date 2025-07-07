@@ -1389,7 +1389,7 @@
     <string name="type.internet_access">Internet</string>
     <string name="type.internet_access.wlan">Internet</string>
     <string name="type.landuse.village_green">Terrain</string>
-    <string name="type.mapswithme">mapswithme</string>
+    <string name="type.mapswithme">MapsWithMe</string>
     <string name="type.mapswithme.grid">mapswithme-grid</string>
     <string name="type.military.bunker">Bunker</string>
     <string name="type.psurface">psurface</string>

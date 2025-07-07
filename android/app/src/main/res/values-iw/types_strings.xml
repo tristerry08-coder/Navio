@@ -677,7 +677,7 @@
     <string name="type.man_made.pier">מזח</string>
     <string name="type.man_made.pipeline">צינור</string>
     <string name="type.man_made.pipeline.overground">צינור עילי</string>
-    <string name="type.man_made.silo">סילו</string>
+    <string name="type.man_made.silo">ממגורה</string>
     <string name="type.man_made.storage_tank">מיכל איחסון</string>
     <string name="type.man_made.surveillance">מצלמת מעקב</string>
     <string name="type.man_made.tower">מגדל</string>
@@ -1058,4 +1058,5 @@
     <string name="type.amenity.dojo">דוג\'ו</string>
     <!-- https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall -->
     <string name="type.leisure.sports_hall">אולם ספורט</string>
+    <string name="type.mapswithme">MapsWithMe</string>
 </resources>

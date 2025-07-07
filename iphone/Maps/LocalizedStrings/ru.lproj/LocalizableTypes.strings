@@ -773,7 +773,7 @@
 "type.man_made.water_well.drinking_water_no" = "Колодец";
 "type.man_made.windmill" = "Ветряная мельница";
 "type.man_made.works" = "Промышленное производство";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-сетка";
 "type.military" = "Военные объекты";
 "type.military.bunker" = "Бункер";

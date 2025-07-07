@@ -773,7 +773,7 @@
 "type.man_made.water_well.drinking_water_no" = "Brunn";
 "type.man_made.windmill" = "Väderkvarn";
 "type.man_made.works" = "Fabrik";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Militärt";
 "type.military.bunker" = "Bunker";

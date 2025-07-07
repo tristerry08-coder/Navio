@@ -1263,7 +1263,7 @@
     <string name="type.landuse.vineyard">Mahastia</string>
     <string name="type.leisure">Aisia</string>
     <string name="type.leisure.common">Lurzoru publikoa</string>
-    <string name="type.leisure.hackerspace">Hacker-gunea</string>
+    <string name="type.leisure.hackerspace">Hacklab</string>
     <string name="type.leisure.ice_rink">Izotz-pista</string>
     <string name="type.leisure.marina">Kirol-portua</string>
     <string name="type.man_made.silo">Siloa</string>
@@ -1330,7 +1330,7 @@
     <string name="type.waterway">Ibaibide</string>
     <string name="type.waterway.drain">Estolda</string>
     <string name="type.man_made.pipeline.overground">Lur gaineko hodia</string>
-    <string name="type.man_made.storage_tank">Biltegi-depositua</string>
+    <string name="type.man_made.storage_tank">Andel</string>
     <string name="type.railway.construction">Trenbidea eraikuntzan</string>
     <string name="type.railway.funicular.bridge">Funikularreko zubia</string>
     <string name="type.railway.narrow_gauge.tunnel">Zabalera estuko trenbide tunela</string>
@@ -1341,4 +1341,8 @@
     <string name="type.tourism.zoo">Zoo</string>
     <string name="type.railway.tram">Tranbia bidea</string>
     <string name="type.man_made.survey_point">Markatze-puntua</string>
+    <string name="type.mapswithme">MapsWithMe</string>
+    <string name="type.man_made">Artifiziala</string>
+    <string name="type.amenity.love_hotel">Maitasun hotela</string>
+    <string name="type.noexit">Irteerarik gabeko bidea</string>
 </resources>

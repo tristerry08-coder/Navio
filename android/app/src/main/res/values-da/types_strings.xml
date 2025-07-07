@@ -1248,7 +1248,7 @@
     <string name="type.landuse.vineyard">Vinmark</string>
     <string name="type.leisure">Fritid</string>
     <string name="type.leisure.common">Fællesområde</string>
-    <string name="type.leisure.hackerspace">Hackerspace</string>
+    <string name="type.leisure.hackerspace">Hacklab</string>
     <string name="type.leisure.ice_rink">Skøjtebane</string>
     <string name="type.leisure.marina">Lystbådehavn</string>
     <string name="type.leisure.recreation_ground">Fritidsområde</string>
@@ -1357,4 +1357,5 @@
     <string name="type.piste_type.sled.area">Kælkebane</string>
     <string name="type.piste_type.downhill.novice.area">Meget let pist</string>
     <string name="type.railway.tram.bridge">Sporvejsbro</string>
+    <string name="type.mapswithme">MapsWithMe</string>
 </resources>

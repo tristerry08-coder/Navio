@@ -1399,7 +1399,7 @@
     <string name="type.hwtag.yesbicycle">Велосипедам можно</string>
     <string name="type.hwtag.yescar">Машинам можно</string>
     <string name="type.hwtag.yesfoot">Пешком можно</string>
-    <string name="type.mapswithme">mapswithme</string>
+    <string name="type.mapswithme">MapsWithMe</string>
     <string name="type.mapswithme.grid">mapswithme-сетка</string>
     <string name="type.route.shuttle_train">Челночный поезд</string>
 </resources>

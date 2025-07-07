@@ -773,7 +773,7 @@
 "type.man_made.water_well.drinking_water_no" = "Криниця";
 "type.man_made.windmill" = "Вітряний млин";
 "type.man_made.works" = "Промислове виробництво";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Військові об'єкти";
 "type.military.bunker" = "Бункер";

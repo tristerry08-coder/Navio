@@ -722,7 +722,7 @@
     <string name="type.railway.station.monorail">Stanice monorailu</string>
     <string name="type.railway.station.subway">Stanice metra</string>
     <string name="type.railway.station.subway.adana">Stanice metra</string>
-    <string name="type.railway.station.subway.algiers">Stanice metra</string>
+    <string name="type.railway.station.subway.algiers">Stanice metra v Alžíru</string>
     <string name="type.railway.station.subway.almaty">Stanice metra</string>
     <string name="type.railway.station.subway.amsterdam">Stanice metra</string>
     <string name="type.railway.station.subway.ankara">Stanice metra</string>
@@ -1226,7 +1226,7 @@
     <string name="type.man_made.pipeline.overground">Povrchové potrubí</string>
     <string name="type.man_made.wastewater_plant">Čistírna odpadních vod</string>
     <string name="type.man_made.works">Průmysl</string>
-    <string name="type.mapswithme">mapswithme</string>
+    <string name="type.mapswithme">MapsWithMe</string>
     <string name="type.military">Armáda</string>
     <string name="type.mountain_pass">Horské sedlo</string>
     <string name="type.power">Energie</string>

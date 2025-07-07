@@ -1383,8 +1383,8 @@
     <string name="type.man_made.mast">Mastro</string>
     <string name="type.man_made.silo">Silo</string>
     <string name="type.man_made.storage_tank">Tanque de armazenamento</string>
-    <string name="type.mapswithme">mapascomigo</string>
-    <string name="type.mapswithme.grid">mapascom-me-grade</string>
+    <string name="type.mapswithme">MapsWithMe</string>
+    <string name="type.mapswithme.grid">mapswithme-grade</string>
     <string name="type.mountain_pass">Passo da Montanha</string>
     <string name="type.man_made.utility_pole">Poste de serviço público</string>
     <string name="type.psurface">superfície p</string>

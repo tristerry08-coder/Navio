@@ -749,7 +749,7 @@
 "type.man_made.pier" = "מזח";
 "type.man_made.pipeline" = "צינור";
 "type.man_made.pipeline.overground" = "צינור עילי";
-"type.man_made.silo" = "סילו";
+"type.man_made.silo" = "ממגורה";
 "type.man_made.storage_tank" = "מיכל איחסון";
 "type.man_made.surveillance" = "מצלמת מעקב";
 "type.man_made.tower" = "מגדל";
@@ -773,7 +773,7 @@
 "type.man_made.water_well.drinking_water_no" = "באר מים";
 "type.man_made.windmill" = "טחנת רוח";
 "type.man_made.works" = "עבודות תעשיה";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "צבאי";
 "type.military.bunker" = "בונקר צבאי";

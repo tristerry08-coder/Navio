@@ -712,7 +712,7 @@
 "type.leisure.garden.residential" = "حديقة";
 "type.leisure.golf_course" = "ملعب غولف";
 "type.leisure.miniature_golf" = "Minigolf";
-"type.leisure.hackerspace" = "هاكرزبيس";
+"type.leisure.hackerspace" = "مختبر اختراق";
 "type.leisure.ice_rink" = "Ice Rink";
 "type.leisure.marina" = "مرسى";
 "type.leisure.nature_reserve" = "محمية طبيعية";
@@ -773,7 +773,7 @@
 "type.man_made.water_well.drinking_water_no" = "بئر ماء";
 "type.man_made.windmill" = "طاحونة هواء";
 "type.man_made.works" = "Industrial Works";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "عسكري";
 "type.military.bunker" = "ملجأ";

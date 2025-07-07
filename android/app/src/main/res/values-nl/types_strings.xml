@@ -856,7 +856,7 @@
     <string name="type.railway.station">Station</string>
     <string name="type.railway.station.funicular">Tunnel</string>
     <string name="type.railway.station.light_rail">Station</string>
-    <string name="type.railway.station.light_rail.berlin">Station</string>
+    <string name="type.railway.station.light_rail.berlin">S-bahn station</string>
     <string name="type.railway.station.light_rail.london">Station</string>
     <string name="type.railway.station.light_rail.porto">Station</string>
     <string name="type.railway.station.monorail">Station</string>
@@ -1380,7 +1380,7 @@
     <string name="type.hwtag.yesbicycle">hwtag-yesbicycle</string>
     <string name="type.hwtag.toll">hwtag-toll</string>
     <string name="type.hwtag.yescar">hwtag-yescar</string>
-    <string name="type.mapswithme">mapswithme</string>
+    <string name="type.mapswithme">MapsWithMe</string>
     <string name="type.tourism.motel">Motel</string>
     <string name="type.route.shuttle_train">route-shuttle_train</string>
     <string name="type.mapswithme.grid">mapswithme-grid</string>

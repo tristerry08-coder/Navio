@@ -634,7 +634,7 @@
     <string name="type.man_made.water_well.drinking_water_no">Pozo</string>
     <string name="type.man_made.windmill">Muíño</string>
     <string name="type.man_made.works">Fábrica</string>
-    <string name="type.mapswithme">mapswithme</string>
+    <string name="type.mapswithme">MapsWithMe</string>
     <string name="type.mapswithme.grid">mapswithme-grid</string>
     <string name="type.military">Militar</string>
     <string name="type.military.bunker">Búnker</string>

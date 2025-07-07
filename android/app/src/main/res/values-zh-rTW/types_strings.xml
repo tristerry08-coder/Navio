@@ -35,7 +35,7 @@
     <string name="type.amenity.waste_transfer_station">垃圾轉運站</string>
     <string name="type.amenity.vending_machine.excrement_bags">撿便袋販賣機</string>
     <string name="type.amenity.parcel_locker">智取櫃</string>
-    <string name="type.mapswithme">mapswithme</string>
+    <string name="type.mapswithme">MapsWithMe</string>
     <string name="type.hwtag.nocar">禁止汽車標籤</string>
     <string name="type.hwtag.yesfoot">允許行人標籤</string>
     <string name="type.hwtag">交通屬性標籤</string>
@@ -173,4 +173,5 @@
     <string name="type.aerialway.cable_car">纜車</string>
     <string name="type.cuisine.japanese">日本料理</string>
     <string name="type.railway.station.subway.qingdao">捷運站</string>
+    <string name="type.leisure.hackerspace">黑客空間</string>
 </resources>

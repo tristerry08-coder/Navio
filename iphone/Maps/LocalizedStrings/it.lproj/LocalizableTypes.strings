@@ -346,7 +346,7 @@
 "type.cuisine.spanish" = "Cucina spagnola";
 "type.cuisine.steak_house" = "Bisteccheria";
 "type.cuisine.sushi" = "Sushi";
-"type.cuisine.tapas" = "Tapas";
+"type.cuisine.tapas" = "Tapa";
 "type.cuisine.tea" = "Tè";
 "type.cuisine.thai" = "Cucina tailandese";
 "type.cuisine.turkish" = "Cucina turca";
@@ -773,7 +773,7 @@
 "type.man_made.water_well.drinking_water_no" = "Pozzo d'acqua";
 "type.man_made.windmill" = "Mulino a vento";
 "type.man_made.works" = "Fabbrica";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Forze armate";
 "type.military.bunker" = "Bunker";

@@ -1317,4 +1317,5 @@
     <!-- https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall -->
     <string name="type.leisure.sports_hall">Sportsaal</string>
     <string name="type.railway.station.subway.qingdao">Moltreinstasie</string>
+    <string name="type.mapswithme">MapsWithMe</string>
 </resources>

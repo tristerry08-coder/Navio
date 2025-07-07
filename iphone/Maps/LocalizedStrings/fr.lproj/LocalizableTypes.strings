@@ -773,7 +773,7 @@
 "type.man_made.water_well.drinking_water_no" = "Puits à eau";
 "type.man_made.windmill" = "Moulin à vent";
 "type.man_made.works" = "Usine";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Armée";
 "type.military.bunker" = "Bunker";

@@ -773,7 +773,7 @@
 "type.man_made.water_well.drinking_water_no" = "पाण्याची विहीर";
 "type.man_made.windmill" = "पवनचक्की";
 "type.man_made.works" = "औद्योगिक कामे";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "लष्करी";
 "type.military.bunker" = "बंकर";

@@ -773,7 +773,7 @@
 "type.man_made.water_well.drinking_water_no" = "Giếng Nước";
 "type.man_made.windmill" = "Cối xay gió";
 "type.man_made.works" = "Industrial Works";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Military";
 "type.military.bunker" = "Boongke";

@@ -914,4 +914,6 @@
     <string name="backup_interval_every_week">Wekelijks</string>
     <string name="pref_backup_now_summary_folder_unavailable">De back-up map is niet beschikbaar</string>
     <string name="panoramax">Panoramax-afbeelding</string>
+    <string name="pref_backup_location_summary_initial">Selecteer eerst een map en geef toestemming</string>
+    <string name="pref_left_button_title">Linkerknop configuratie</string>
 </resources>

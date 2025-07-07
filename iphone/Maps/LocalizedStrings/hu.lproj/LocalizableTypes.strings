@@ -1475,7 +1475,7 @@
 "type.hwtag.nofoot" = "útcímke-gyalogosan_nem_használható";
 "type.hwtag.yesbicycle" = "útcímke-kerékpárral_használható";
 "type.hwtag.yescar" = "útcímke-személyautóval_használható";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.hwtag.nobicycle" = "útcímke-kerékpárral_nem_használható";
 "type.mapswithme.grid" = "mapswithme-rács";
 "type.hwtag.nocar" = "útcímke-személyautóval_nem_használható";

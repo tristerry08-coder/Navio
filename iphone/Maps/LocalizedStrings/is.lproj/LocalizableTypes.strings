@@ -444,7 +444,7 @@
 "type.hwtag.yescar" = "hwtag-yescar";
 "type.hwtag.yesfoot" = "hwtag-yesfoot";
 "type.landuse.railway" = "Járnbrautasvæði";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-grid";
 "type.natural.water.lock" = "Skipastigahólf";
 "type.psurface" = "psurface";

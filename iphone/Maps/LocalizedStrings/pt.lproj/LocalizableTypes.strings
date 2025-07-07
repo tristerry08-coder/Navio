@@ -773,8 +773,8 @@
 "type.man_made.water_well.drinking_water_no" = "Poço de água";
 "type.man_made.windmill" = "Moinho de vento";
 "type.man_made.works" = "Fábrica";
-"type.mapswithme" = "mapascomigo";
-"type.mapswithme.grid" = "mapascom-me-grade";
+"type.mapswithme" = "MapsWithMe";
+"type.mapswithme.grid" = "mapswithme-grade";
 "type.military" = "Militar";
 "type.military.bunker" = "Búnquer";
 "type.mountain_pass" = "Passo da Montanha";

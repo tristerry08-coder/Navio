@@ -772,7 +772,7 @@
 "type.man_made.water_well.drinking_water_no" = "Su Kuyusu";
 "type.man_made.windmill" = "Yel Değirmeni";
 "type.man_made.works" = "Sanayi İşleri";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Askeri";
 "type.military.bunker" = "Sığınak";

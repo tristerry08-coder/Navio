@@ -705,7 +705,7 @@
 "type.man_made.water_well.drinking_water_no" = "Pozo";
 "type.man_made.windmill" = "Muíño";
 "type.man_made.works" = "Fábrica";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Militar";
 "type.military.bunker" = "Búnker";

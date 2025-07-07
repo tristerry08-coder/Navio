@@ -773,7 +773,7 @@
 "type.man_made.water_well.drinking_water_no" = "井戸";
 "type.man_made.windmill" = "風車";
 "type.man_made.works" = "工場";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-グリッド";
 "type.military" = "軍事";
 "type.military.bunker" = "掩蔽壕";

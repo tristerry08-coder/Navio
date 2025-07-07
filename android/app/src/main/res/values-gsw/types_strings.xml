@@ -577,7 +577,7 @@
     <string name="type.man_made.water_well.drinking_water_no">Brunne</string>
     <string name="type.man_made.windmill">Windmühli</string>
     <string name="type.man_made.works">Fabrik</string>
-    <string name="type.mapswithme">mapswithme</string>
+    <string name="type.mapswithme">MapsWithMe</string>
     <string name="type.mapswithme.grid">mapswithme-grid</string>
     <string name="type.military">Militärischs Objekt</string>
     <string name="type.mountain_pass">Gebirgspass</string>
@@ -731,7 +731,7 @@
     <string name="type.railway.rail.utility.tunnel">Isebahntunnel</string>
     <string name="type.railway.rail.spur.tunnel">Isebahntunnel</string>
     <string name="type.railway.station.light_rail.berlin">S-Bahnhof</string>
-    <string name="type.railway.station.light_rail.london">DLR Station</string>
+    <string name="type.railway.station.light_rail.london">DLR-Station</string>
     <string name="type.railway.station.light_rail.porto">Porto Metro</string>
     <string name="type.railway.station.monorail">Eischienebahn-Station</string>
     <string name="type.railway.station.subway">U-Bahn-Station</string>

@@ -28,6 +28,8 @@
 			<string>NSStringPluralRuleType</string>
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
+			<key>zero</key>
+			<string>%d Dateie sind gfunde worde. Du gsehsch sie nach de Konvertierig.</string>
 			<key>one</key>
 			<string>%d Datei isch gfunde worde. Du gsehsch sie nach de Konvertierig.</string>
 			<key>other</key>

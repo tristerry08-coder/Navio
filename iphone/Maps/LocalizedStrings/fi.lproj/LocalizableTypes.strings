@@ -773,7 +773,7 @@
 "type.man_made.water_well.drinking_water_no" = "Kaivo";
 "type.man_made.windmill" = "Tuulimylly";
 "type.man_made.works" = "Tehdas";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Sotilasalue";
 "type.military.bunker" = "Bunkkeri";

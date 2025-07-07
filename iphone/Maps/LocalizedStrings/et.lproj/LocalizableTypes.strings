@@ -772,7 +772,7 @@
 "type.man_made.water_well.drinking_water_no" = "Pole joogivesi";
 "type.man_made.windmill" = "Tuuleveski";
 "type.man_made.works" = "Tehas";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Militaarobjekt";
 "type.military.bunker" = "Punker";
@@ -1031,7 +1031,7 @@
 "type.railway.station.subway.malaga" = "Málaga metroojaam";
 "type.railway.station.subway.manila" = "Manila metroojaam";
 "type.railway.station.subway.maracaibo" = "Maracaibo metroojaam";
-"type.railway.station.subway.mashhad" = "Mashhad metroojaam";
+"type.railway.station.subway.mashhad" = "Mashhadi metroojaam";
 "type.railway.station.subway.mecca" = "Meka metroojaam";
 "type.railway.station.subway.medellin" = "Medellíni metroojaam";
 "type.railway.station.subway.mexico" = "Mexico City metroojaam";
@@ -1059,7 +1059,7 @@
 "type.railway.station.subway.santiago" = "Metroojaam";
 "type.railway.station.subway.santo_domingo" = "Santo Domingo metroojaam";
 "type.railway.station.subway.saopaulo" = "Metroojaam";
-"type.railway.station.subway.sapporo" = "Sapporo linna metroojaam";
+"type.railway.station.subway.sapporo" = "Sapporo metroojaam";
 "type.railway.station.subway.sendai" = "Sendai metroojaam";
 "type.railway.station.subway.sf" = "Metroojaam";
 "type.railway.station.subway.shanghai" = "Shanghai metroojaam";

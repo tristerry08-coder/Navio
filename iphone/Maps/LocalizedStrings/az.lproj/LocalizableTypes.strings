@@ -773,7 +773,7 @@
 "type.man_made.water_well.drinking_water_no" = "Su quyusu";
 "type.man_made.windmill" = "Yel dəyirmanı";
 "type.man_made.works" = "Sənaye İşləri";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Hərbi";
 "type.military.bunker" = "Sığınacaq";

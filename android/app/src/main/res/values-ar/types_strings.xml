@@ -622,7 +622,7 @@
     <string name="type.leisure.garden">حديقة</string>
     <string name="type.leisure.garden.residential">حديقة</string>
     <string name="type.leisure.golf_course">ملعب غولف</string>
-    <string name="type.leisure.hackerspace">هاكرزبيس</string>
+    <string name="type.leisure.hackerspace">مختبر اختراق</string>
     <string name="type.leisure.marina">مرسى</string>
     <string name="type.leisure.nature_reserve">محمية طبيعية</string>
     <string name="type.leisure.outdoor_seating">جلوس في الهواء الطلق</string>
@@ -1281,4 +1281,5 @@
     <string name="type.amenity.love_hotel">فندق جب</string>
     <string name="type.amenity.studio">معرض</string>
     <string name="type.railway.station.subway.qingdao">محطة مترو</string>
+    <string name="type.mapswithme">MapsWithMe</string>
 </resources>

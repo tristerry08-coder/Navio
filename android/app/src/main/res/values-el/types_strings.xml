@@ -1248,4 +1248,5 @@
     <string name="type.area_highway.cycleway">Ποδηλατόδρομος</string>
     <string name="type.aeroway.gate">Πύλη</string>
     <string name="type.amenity.atm">ATM</string>
+    <string name="type.mapswithme">MapsWithMe</string>
 </resources>

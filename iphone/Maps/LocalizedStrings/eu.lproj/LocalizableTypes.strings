@@ -712,7 +712,7 @@
 "type.leisure.garden.residential" = "Lorategi";
 "type.leisure.golf_course" = "Golf kurtsoa";
 "type.leisure.miniature_golf" = "Minigolfa";
-"type.leisure.hackerspace" = "Hacker-gunea";
+"type.leisure.hackerspace" = "Hacklab";
 "type.leisure.ice_rink" = "Izotz-pista";
 "type.leisure.marina" = "Kirol-portua";
 "type.leisure.nature_reserve" = "Erreserbatutako lurraldea";
@@ -737,7 +737,7 @@
 "type.leisure.track.area" = "Pista";
 "type.leisure.water_park" = "Ur-parkea";
 "type.leisure.beach_resort" = "Hondartzako oporleku";
-"type.man_made" = "Man Made";
+"type.man_made" = "Artifiziala";
 "type.man_made.breakwater" = "Dike";
 "type.man_made.cairn" = "Mugarri";
 "type.man_made.chimney" = "Fabrikako tximinia";
@@ -750,7 +750,7 @@
 "type.man_made.pipeline" = "Hodi";
 "type.man_made.pipeline.overground" = "Lur gaineko hodia";
 "type.man_made.silo" = "Siloa";
-"type.man_made.storage_tank" = "Biltegi-depositua";
+"type.man_made.storage_tank" = "Andel";
 "type.man_made.surveillance" = "Zaintza Kamera";
 "type.man_made.tower" = "Dorrea";
 
@@ -773,7 +773,7 @@
 "type.man_made.water_well.drinking_water_no" = "Ur putzua";
 "type.man_made.windmill" = "Haize-errota";
 "type.man_made.works" = "Lantegiak";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Eremu militarra";
 "type.military.bunker" = "Bunkerra";
@@ -827,7 +827,7 @@
 "type.natural.wetland" = "Lur paduratsua";
 "type.natural.wetland.bog" = "Zohikaztegi";
 "type.natural.wetland.marsh" = "Padura";
-"type.noexit" = "Dead End";
+"type.noexit" = "Irteerarik gabeko bidea";
 "type.office" = "Bulegoa";
 "type.office.company" = "Bulegoa";
 "type.office.estate_agent" = "Higiezinen agentea";
@@ -1489,3 +1489,4 @@
 "type.barrier.guard_rail" = "Baranda";
 "type.highway.ladder" = "Eskailera";
 "type.man_made.crane" = "Garabia";
+"type.amenity.love_hotel" = "Maitasun hotela";

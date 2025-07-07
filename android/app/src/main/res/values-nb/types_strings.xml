@@ -1192,4 +1192,7 @@
     <string name="type.amenity.dojo">Dojo</string>
     <!-- https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall -->
     <string name="type.leisure.sports_hall">Idrettshall</string>
+    <string name="type.leisure.hackerspace">Skaperverksted</string>
+    <string name="type.man_made.silo">Silo</string>
+    <string name="type.mapswithme">MapsWithMe</string>
 </resources>

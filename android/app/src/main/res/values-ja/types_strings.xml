@@ -1336,7 +1336,7 @@
     <string name="type.amenity.vending_machine.excrement_bags">うんち袋の自販機</string>
     <string name="type.amenity.parcel_locker">宅配ロッカー</string>
     <string name="type.amenity.waste_transfer_station">ゴミ処理場</string>
-    <string name="type.mapswithme">mapswithme</string>
+    <string name="type.mapswithme">MapsWithMe</string>
     <string name="type.man_made.utility_pole">ユーティリティポール</string>
     <string name="type.route.shuttle_train">シャトル列車</string>
     <string name="type.attraction.big_wheel">観覧車</string>

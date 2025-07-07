@@ -528,8 +528,7 @@
 /* OpenStreetMap Profile */
 "osm_profile" = "OpenStreetMap-Profil";
 "osm_profile_promt" = "Erstellen Sie ein OpenStreetMap-Konto oder melden Sie sich an, um Ihre Kartenbearbeitungen weltweit zu veröffentlichen.";
-"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) ist ein Gemeinschaftsprojekt zur Erstellung einer freien und offenen Karte. Es ist die Hauptquelle für Kartendaten in CoMaps und funktioniert ähnlich wie Wikipedia. Sie können Orte hinzufügen oder bearbeiten, die dann Millionen von Nutzern weltweit zur Verfügung stehen. Werden Sie Teil der Gemeinschaft und helfen Sie mit, eine bessere Karte für alle zu erstellen!
-";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) ist ein Gemeinschaftsprojekt zur Erstellung einer freien und offenen Karte. Es ist die Hauptquelle für Kartendaten in CoMaps und funktioniert ähnlich wie Wikipedia. Sie können Orte hinzufügen oder bearbeiten, die dann Millionen von Nutzern weltweit zur Verfügung stehen. Werden Sie Teil der Gemeinschaft und helfen Sie mit, eine bessere Karte für alle zu erstellen!";
 "osm_profile_login" = "Bei OpenStreetMap anmelden";
 "osm_profile_reauthorize_promt" = "Das OpenStreetMap-Konoto wurde von dieser App getrennt";
 "osm_profile_reauthorize" = "OpenStreetMap-Konto erneut verbinden";
@@ -591,7 +590,7 @@
 "message_invalid_feature_position" = "Ein Objekt kann hier nicht positioniert werden";
 
 /* Error dialog no space */
-"migration_no_space_message"  = "Zum Herunterladen benötigen Sie mehr Platz. Bitte löschen Sie unnötige Daten.";
+"migration_no_space_message" = "Zum Herunterladen benötigen Sie mehr Platz. Bitte löschen Sie unnötige Daten.";
 "editor_sharing_title" = "Ich habe die CoMaps-Karten verbessert";
 
 /* Downloaded 10 **of** 20 <- it is that "of" */
@@ -1005,10 +1004,10 @@
 "bugreport_alert_message" = "Willst du einen Fehlerbericht an die Entwickler schicken?\nWir sind auf unsere Nutzer angewiesen, da CoMaps keine Fehlerinformationen automatisch sammelt. Wir danken dir im Voraus für deine Unterstützung von CoMaps!";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
-"enable_icloud_synchronization_title" = "Aktiviere die iCloud-Syncronisierung";
+"enable_icloud_synchronization_title" = "Aktiviere die iCloud-Synchronisierung";
 
 /* Message for the "Enable iCloud Syncronization" alert. */
-"enable_icloud_synchronization_message" = "Die iCloud-Synchronisierung ist eine experimentelle Funktion, die noch entwickelt wird. Vergewissere dich, dass du eine Sicherungskopie all deiner Lesezeichen und Titel erstellt hast.";
+"enable_icloud_synchronization_message" = "Die iCloud-Synchronisierung ist eine experimentelle Funktion, die noch entwickelt wird. Vergewissere dich, dass du eine Sicherungskopie all deiner Lesezeichen und Tracks erstellt hast.";
 
 /* Title for the "iCloud Is Disabled" alert. */
 "icloud_disabled_title" = "iCloud ist deaktiviert";

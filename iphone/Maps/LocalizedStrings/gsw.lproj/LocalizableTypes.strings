@@ -667,7 +667,7 @@
 "type.man_made.water_well.drinking_water_no" = "Brunne";
 "type.man_made.windmill" = "Windmühli";
 "type.man_made.works" = "Fabrik";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Militärischs Objekt";
 "type.military.bunker" = "Bunker";
@@ -836,7 +836,7 @@
 "type.railway.station.funicular" = "Standseilbahn";
 "type.railway.station.light_rail" = "Stadtbahnbahnhof";
 "type.railway.station.light_rail.berlin" = "S-Bahnhof";
-"type.railway.station.light_rail.london" = "DLR Station";
+"type.railway.station.light_rail.london" = "DLR-Station";
 "type.railway.station.light_rail.porto" = "Porto Metro";
 "type.railway.station.monorail" = "Eischienebahn-Station";
 "type.railway.station.subway" = "U-Bahn-Station";
@@ -1306,3 +1306,4 @@
 "type.piste_type.connection" = "Pisteaaschluss";
 "type.piste_type.skitour" = "Skitour Pfad";
 "type.amenity.events_venue" = "Verastaltigszentrum";
+"type.landuse.field" = "Feld";

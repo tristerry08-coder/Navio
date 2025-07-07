@@ -1390,7 +1390,7 @@
     <string name="type.hwtag">交通属性标签</string>
     <string name="type.hwtag.yescar">允许汽车标签</string>
     <string name="type.man_made.survey_point">测量点</string>
-    <string name="type.mapswithme">mapswithme</string>
+    <string name="type.mapswithme">MapsWithMe</string>
     <string name="type.man_made.utility_pole">公共设施杆</string>
     <string name="type.route.shuttle_train">穿梭列车</string>
     <string name="type.attraction.bumper_car">碰碰车</string>

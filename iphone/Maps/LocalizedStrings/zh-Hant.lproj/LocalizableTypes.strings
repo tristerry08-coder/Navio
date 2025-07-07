@@ -711,7 +711,7 @@
 "type.leisure.garden.residential" = "花園";
 "type.leisure.golf_course" = "高爾夫球場";
 "type.leisure.miniature_golf" = "小型高爾夫球場";
-"type.leisure.hackerspace" = "駭客空間";
+"type.leisure.hackerspace" = "黑客空間";
 "type.leisure.ice_rink" = "滑冰場";
 "type.leisure.marina" = "遊艇碼頭";
 "type.leisure.nature_reserve" = "自然保護區";
@@ -772,7 +772,7 @@
 "type.man_made.water_well.drinking_water_no" = "水井";
 "type.man_made.windmill" = "風車";
 "type.man_made.works" = "工廠";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-網格";
 "type.military" = "軍事";
 "type.military.bunker" = "地堡";

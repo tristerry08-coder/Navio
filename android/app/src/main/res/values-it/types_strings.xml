@@ -337,7 +337,7 @@
     <string name="type.cuisine.spanish">Cucina spagnola</string>
     <string name="type.cuisine.steak_house">Bisteccheria</string>
     <string name="type.cuisine.sushi">Sushi</string>
-    <string name="type.cuisine.tapas">Tapas</string>
+    <string name="type.cuisine.tapas">Tapa</string>
     <string name="type.cuisine.tea">Tè</string>
     <string name="type.cuisine.thai">Cucina tailandese</string>
     <string name="type.cuisine.turkish">Cucina turca</string>
@@ -1340,7 +1340,7 @@
     <string name="type.man_made.cairn">Tumulo</string>
     <string name="type.railway.funicular.tunnel">Galleria funicolare</string>
     <string name="type.leisure.hackerspace">Hackerspace</string>
-    <string name="type.mapswithme">mapswithme</string>
+    <string name="type.mapswithme">MapsWithMe</string>
     <string name="type.mapswithme.grid">mapswithme-grid</string>
     <string name="type.internet_access.wlan">Internet</string>
     <string name="type.leisure.recreation_ground">Area divertimento</string>

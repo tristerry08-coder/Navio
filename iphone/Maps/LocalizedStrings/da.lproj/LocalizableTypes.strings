@@ -710,7 +710,7 @@
 "type.leisure.garden.residential" = "Have";
 "type.leisure.golf_course" = "Golf";
 "type.leisure.miniature_golf" = "Minigolf";
-"type.leisure.hackerspace" = "Hackerspace";
+"type.leisure.hackerspace" = "Hacklab";
 "type.leisure.ice_rink" = "Skøjtebane";
 "type.leisure.marina" = "Lystbådehavn";
 "type.leisure.nature_reserve" = "Naturreservat";
@@ -771,7 +771,7 @@
 "type.man_made.water_well.drinking_water_no" = "Brønd";
 "type.man_made.windmill" = "Vindmølle";
 "type.man_made.works" = "Fabrik";
-"type.mapswithme" = "mapswithme";
+"type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Militær";
 "type.military.bunker" = "Bunker";

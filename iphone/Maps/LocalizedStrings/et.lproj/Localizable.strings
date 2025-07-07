@@ -528,19 +528,19 @@
 /* OpenStreetMap Profile */
 "osm_profile" = "OpenStreetMapi profiil";
 "osm_profile_promt" = "Loo OpenStreetMapi konto või logi sisse, et avaldada oma kaardimuudatused kogu maailmale.";
-"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) on kogukonna projekt, mille eesmärk on luua tasuta ja avatud kaart. See on CoMapsi peamine kaardiandmete allikas ja toimib sarnaselt Vikipeediaga. Saad lisada või muuta kohti ja need muutuvad kättesaadavaks miljonitele kasutajatele üle kogu maailma.\nLiitu kogukonnaga ja aita luua kõigi jaoks paremat kaarti!";
 "osm_profile_login" = "Logi sisse OpenStreetMappi";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_reauthorize_promt" = "OpenStreetMap kasutajakonto ühendus on siit rakendusest katkestatud";
+"osm_profile_reauthorize" = "Loo uuesti ühendus OpenStreetMapiga";
+"osm_profile_remove_promt" = "Kui sa ei saa või ei taha ühendust uuesti luua, siis võid kasutajakonto rakendusest eemaldada";
+"osm_profile_remove" = "Eemalda OpenStreetMapi kasutajakonto";
 "osm_profile_register_promt" = "Sul puudub OpenStreetMapi konto?";
 "osm_profile_register" = "Registreeru OpenStreetMapis";
 "osm_profile_verfied_changes" = "Kinnitatud muudatused";
-"osm_profile_view_edit_history" = "View Edit History";
+"osm_profile_view_edit_history" = "Vaata muudatuste ajalugu";
 "osm_profile_view_notes" = "View Notes";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Logi OpenStreetMapi kasutajakonto välja";
+"osm_profile_delete" = "Kustuta OpenStreetMapi kasutajakonto";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Viimane üleslaadimine";
