@@ -11,6 +11,7 @@ import android.text.style.StyleSpan;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -62,6 +63,15 @@ class DownloaderAdapter extends RecyclerView.Adapter<DownloaderAdapter.ViewHolde
 
   private int mListenerSlot;
   private CountryItem mSelectedItem;
+
+  private final OnBackPressedCallback mBackPressedCallback = new OnBackPressedCallback(false) {
+    @Override
+    public void handleOnBackPressed()
+    {
+      goUpwards();
+      setEnabled(canGoUpwards());
+    }
+  };
 
   private static class GenericItem
   {
@@ -693,6 +703,7 @@ class DownloaderAdapter extends RecyclerView.Adapter<DownloaderAdapter.ViewHolde
 
     lm.scrollToPosition(0);
 
+    mBackPressedCallback.setEnabled(true);
     if (!refresh)
       return;
 
@@ -722,6 +733,12 @@ class DownloaderAdapter extends RecyclerView.Adapter<DownloaderAdapter.ViewHolde
 
     mFragment.update();
     return true;
+  }
+
+  @NonNull
+  OnBackPressedCallback getBackPressedCallback()
+  {
+    return mBackPressedCallback;
   }
 
   void setAvailableMapsMode()
