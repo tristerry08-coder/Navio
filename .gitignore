@@ -14,8 +14,7 @@ stxxl.errlog
 stxxl.log
 screenlog.0
 
-data/styles/*/*/out/*
-data/resources-*_design/*
+data/resources-*_design
 # symbols png/sdf are now generated at build
 data/resources-*_*/symbols.png
 data/resources-*_*/symbols.sdf
@@ -53,8 +52,7 @@ omim.sdf
 *.rc
 !qt/res/windows.rc
 *.pdb
-out/*
-qt/mapswithme.log
+out/
 
 # XCode
 xcode/keys/*
