@@ -73,10 +73,6 @@ line[waterway][tunnel]
 {width: 0;}
 
 
-area|z13-[tourism=camp_site],
-{fill-opacity: 1; fill-color: @pedestrian_area_light;}
-
-
 line|z13-[man_made=cutline],
 {width: 1.7; color: @green0; opacity: 0.6;}
 line|z14[man_made=cutline],

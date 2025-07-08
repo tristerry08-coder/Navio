@@ -241,7 +241,6 @@ area|z15-[natural=water][tunnel],
 {fill-opacity: 0.15;}
 
 area|z11-[natural=wetland],
-area|z11-[leisure=marina],
 area|z13-[leisure=swimming_pool],
 area|z16-[amenity=fountain],
 {fill-opacity: 1;}
@@ -336,7 +335,6 @@ area|z10-[aeroway=aerodrome][aerodrome=international],
 area|z10-[aeroway=aerodrome],
 area|z14-[amenity=hospital],
 area|z14-[amenity=doctors],
-area|z14-[healthcare=laboratory],
 area|z14-[highway=pedestrian][area?],
 area|z14-[area:highway=pedestrian],
 area|z14-[highway=footway][area?],
@@ -445,11 +443,34 @@ area|z16-[railway=platform],
 
 /* Generic amenities */
 
-area|z14-[amenity=place_of_worship],
-area|z15-[tourism=camp_site],
-area|z15-[leisure=resort],
-area|z16-[amenity=police],
+/*
+Might be problematic as marina areas encompass both land and water,
+need to make sure that coastline water is rendered on top.
+area|z13-[leisure=marina],
+*/
+
+area|z13-[leisure=water_park],
+area|z13-[amenity=place_of_worship],
+area|z13-[tourism=camp_site],
+area|z13-[emergency=mountain_rescue],
+area|z13-[leisure=resort],
+area|z13-[highway=services],
+area|z13-[highway=rest_area],
+
+area|z15-[leisure=dog_park],
+area|z15-[amenity=police],
+area|z15-[amenity=courthouse],
+area|z15-[amenity=fire_station],
+area|z15-[amenity=recycling][recycling_type=centre],
+area|z15-[amenity=social_facility],
+area|z15-[amenity=marketplace],
+area|z15-[office=diplomatic],
+area|z15-[amenity=vehicle_inspection],
+area|z15-[amenity=car_wash],
+area|z15-[amenity=charging_station][motorcar?],
+area|z15-[amenity=fuel],
 {fill-opacity: 1; fill-color: @general_area;}
+
 
 /* 7.6 Airports */
 

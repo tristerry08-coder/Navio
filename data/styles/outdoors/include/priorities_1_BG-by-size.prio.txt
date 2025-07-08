@@ -50,9 +50,25 @@ landuse-cemetery                                    # area z14- (also has icon z
 landuse-cemetery-christian                          # area z14- (also has icon z15-, caption(optional) z15-)
 === 180
 
+amenity-courthouse
+amenity-car_wash
+amenity-fire_station
+amenity-marketplace
 amenity-police                                      # area z16- (also has icon z17-, caption(optional) z17-)
+amenity-recycling-centre
+amenity-social_facility
+amenity-vehicle_inspection
+amenity-charging_station-motorcar
+amenity-fuel
+emergency-mountain_rescue
+highway-services
+highway-rest_area
 highway-pedestrian-area                             # area z14- (also has line z13-, pathtext z14-)
+landuse-garages
+leisure-dog_park
 leisure-resort                                      # area z15- (also has icon z16-, caption(optional) z16-)
+leisure-water_park
+office-diplomatic
 tourism-camp_site                                   # area z13- (also has icon z13-, caption(optional) z13-)
 === 170
 
