@@ -735,6 +735,9 @@
 "placepage_add_stop" = "Tambah perhentian";
 "start_from_my_position" = "Mulai dari";
 
+/* Title for button when a route was saved. */
+"saved" = "Saved";
+
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Silahkan login ke OpenStreetMap untuk mengupload semua hasil edit peta Anda secara otomatis. Pelajari lebih lanjut";
 

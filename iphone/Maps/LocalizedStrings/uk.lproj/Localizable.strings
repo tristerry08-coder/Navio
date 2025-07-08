@@ -735,6 +735,9 @@
 "placepage_add_stop" = "Додати зупинку";
 "start_from_my_position" = "Почати з";
 
+/* Title for button when a route was saved. */
+"saved" = "Saved";
+
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Будь ласка увійдіть в акаунт OpenStreetMap.org, щоб автоматично публікувати зміни до мапи. Подробиці за";
 

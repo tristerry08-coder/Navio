@@ -735,6 +735,9 @@
 "placepage_add_stop" = "Lägg till stopp";
 "start_from_my_position" = "Starta från";
 
+/* Title for button when a route was saved. */
+"saved" = "Saved";
+
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Logga in på OpenStreetMap för att automatiskt ladda upp alla dina kartredigeringar. Läs mer";
 
