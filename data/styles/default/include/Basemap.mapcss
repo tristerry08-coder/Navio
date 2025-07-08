@@ -333,8 +333,6 @@ line[waterway][tunnel]
 
 area|z10-[aeroway=aerodrome][aerodrome=international],
 area|z10-[aeroway=aerodrome],
-area|z14-[amenity=hospital],
-area|z14-[amenity=doctors],
 area|z14-[highway=pedestrian][area?],
 area|z14-[area:highway=pedestrian],
 area|z14-[highway=footway][area?],
@@ -342,23 +340,11 @@ area|z14-[area:highway=footway],
 area|z14-[area:highway=living_street],
 area|z14-[amenity=grave_yard],
 area|z14-[landuse=cemetery],
-area|z14-[amenity=university],
 area|z15-[landuse=churchyard],
-area|z15-[leisure=pitch],
-area|z15-[leisure=stadium],
-area|z15-[leisure=track][area?],
 area|z15-[amenity=parking],
-area|z15-[amenity=kindergarten],
-area|z15-[amenity=college],
-area|z15-[amenity=school],
-area|z15-[landuse=education],
 area|z16-[public_transport=platform],
 area|z16-[railway=platform],
-area|z15-[leisure=playground],
 {fill-opacity: 1;}
-
-area|z15-[amenity=university],
-{fill-opacity: 0.9;}
 
 /* 7.1 Industrial */
 
@@ -376,31 +362,38 @@ area|z13-[power=generator],
 
 /* 7.2 Hospital */
 
-area|z14-[amenity=hospital],
-area|z14-[amenity=doctors]
-{fill-color: @hospital;}
+area|z13-[amenity=hospital],
+area|z13-[amenity=clinic],
+area|z15-[amenity=doctors],
+{fill-color: @hospital; fill-opacity: 1;}
 
 /* 7.3 University & Sport */
 
-area|z14-[amenity=university],
-area|z15-[amenity=college],
-area|z15-[amenity=school],
-area|z15-[amenity=kindergarten],
-area|z15-[landuse=education],
-{fill-color: @university;}
+area|z13-[amenity=university],
+area|z13-[amenity=college],
+area|z13-[amenity=school],
+area|z13-[amenity=kindergarten],
+area|z13-[amenity=childcare],
+area|z13-[landuse=education],
+{fill-color: @university; fill-opacity: 1;}
+
+area|z15-[amenity=university],
+{fill-opacity: 0.9;}
+
 
 area|z15-[leisure=pitch],
 area|z15-[leisure=track][area?],
-{fill-color: @sport2;}
+area|z15-[leisure=fitness_station],
+{fill-color: @sport2; fill-opacity: 1;}
 
 area|z15-[leisure=playground],
-{fill-color: @playground;}
+{fill-color: @playground; fill-opacity: 1;}
 
-area|z15-[leisure=stadium]
-{fill-color: @sport1;}
+area|z13-[leisure=stadium],
+{fill-color: @sport1; fill-opacity: 1;}
 
-area|z15-[leisure=sports_centre]
-{fill-color: @sport0;}
+area|z13-[leisure=sports_centre],
+{fill-color: @sport0; fill-opacity: 1;}
 
 area|z14-[piste:type=snow_park],
 {fill-color: @piste; fill-opacity: 0.2;}

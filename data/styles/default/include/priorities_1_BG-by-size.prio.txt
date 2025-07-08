@@ -130,6 +130,7 @@ landuse-orchard                                     # area z12- (also has captio
 landuse-recreation_ground                           # area z12- (also has caption z15-)
 landuse-village_green                               # area z12-
 landuse-vineyard                                    # area z12- (also has caption z15-)
+leisure-fitness_station
 leisure-pitch                                       # area z15- (also has icon z17-, caption(optional) z17-)
 natural-bare_rock                                   # area z11- (also has caption z14-)
 natural-scree                                       # area z11-
@@ -174,6 +175,8 @@ power-generator-wind
 === 50
 
 amenity-college                                     # area z15- (also has icon z16-, caption(optional) z16-)
+amenity-clinic
+amenity-childcare
 amenity-hospital                                    # area z14- (also has icon z14-, caption(optional) z15-)
 amenity-kindergarten                                # area z15- (also has icon z17-, caption(optional) z17-)
 amenity-school                                      # area z15- (also has icon z17-, caption(optional) z17-)
