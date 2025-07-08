@@ -416,7 +416,6 @@ piste:type-sled                                     # line z12- (also has pathte
 === 120
 
 building:part                                       # area z16-
-landuse-garages                                     # area z15-
 === 110
 
 barrier-retaining_wall                              # line z16-

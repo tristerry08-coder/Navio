@@ -343,13 +343,7 @@ area|z14-[area:highway=living_street],
 area|z14-[amenity=grave_yard],
 area|z14-[landuse=cemetery],
 area|z14-[amenity=university],
-area|z15-[landuse=garages],
-area|z15-[landuse=industrial],
-area|z15-[landuse=construction],
 area|z15-[landuse=churchyard],
-area|z15-[landuse=landfill],
-area|z15-[landuse=railway],
-area|z15-[landuse=quarry],
 area|z15-[leisure=pitch],
 area|z15-[leisure=stadium],
 area|z15-[leisure=track][area?],
@@ -368,13 +362,17 @@ area|z15-[amenity=university],
 
 /* 7.1 Industrial */
 
-area|z15-[landuse=industrial],
-area|z15-[landuse=construction],
-area|z15-[landuse=landfill],
-area|z15-[landuse=railway],
-area|z15-[landuse=quarry],
-area|z15-[landuse=garages],
-{fill-color: @industrial;}
+area|z13-[landuse=industrial],
+area|z13-[man_made=works],
+area|z13-[landuse=construction],
+area|z13-[landuse=landfill],
+area|z13-[amenity=waste_transfer_station],
+area|z13-[landuse=railway],
+area|z13-[landuse=quarry],
+area|z13-[power=plant],
+area|z13-[power=substation],
+area|z13-[power=generator],
+{fill-opacity: 1; fill-color: @industrial;}
 
 /* 7.2 Hospital */
 
@@ -456,6 +454,7 @@ area|z13-[emergency=mountain_rescue],
 area|z13-[leisure=resort],
 area|z13-[highway=services],
 area|z13-[highway=rest_area],
+area|z13-[landuse=garages],
 
 area|z15-[leisure=dog_park],
 area|z15-[amenity=police],
