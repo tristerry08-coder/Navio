@@ -314,7 +314,7 @@ amenity-theatre                                     # icon z14- (also has captio
 historic-battlefield                                # icon z15- (also has caption(optional) z15-)
 historic-city_gate                                  # icon z13- (also has caption(optional) z13-)
 historic-memorial-war_memorial                      # icon z15- (also has caption(optional) z15-)
-leisure-water_park                                  # icon z16- (also has caption(optional) z16-)
+leisure-water_park                                  # icon z16- (also has caption(optional) z16-, area z13-)
 shop-mall                                           # icon z14- (also has caption(optional) z14-)
 tourism-aquarium                                    # icon z16- (also has caption(optional) z16-)
 tourism-museum                                      # icon z13- (also has caption(optional) z13-)
@@ -322,9 +322,9 @@ tourism-theme_park                                  # icon z14- (also has captio
 tourism-zoo                                         # icon z13- (also has caption(optional) z13-)
 === 5200
 
-amenity-hospital                                    # icon z14- (also has caption(optional) z15-, area z14-)
-amenity-university                                  # icon z14- (also has caption(optional) z14-, area z14-)
-leisure-stadium                                     # icon z13- (also has caption(optional) z13-, area z15-)
+amenity-hospital                                    # icon z14- (also has caption(optional) z15-, area z13-)
+amenity-university                                  # icon z14- (also has caption(optional) z14-, area z13-)
+leisure-stadium                                     # icon z13- (also has caption(optional) z13-, area z13-)
 === 5100
 
 leisure-marina                                      # icon z16- (also has caption(optional) z16-)
@@ -370,25 +370,25 @@ tourism-attraction                                  # icon z14- (also has captio
 tourism-gallery                                     # icon z15- (also has caption(optional) z15-)
 === 4300
 
-amenity-charging_station-motorcar                   # icon z14- (also has caption(optional) z14-)
-amenity-fuel                                        # icon z14- (also has caption(optional) z14-)
+amenity-charging_station-motorcar                   # icon z14- (also has caption(optional) z14-, area z15-)
+amenity-fuel                                        # icon z14- (also has caption(optional) z14-, area z15-)
 === 4270
 
-highway-services                                    # icon z14- (also has caption(optional) z14-)
+highway-services                                    # icon z14- (also has caption(optional) z14-, area z13-)
 === 4250
 
-amenity-place_of_worship-buddhist                   # icon z14- (also has caption(optional) z14-, area z14-)
-amenity-place_of_worship-christian                  # icon z14- (also has caption(optional) z14-, area z14-)
-amenity-place_of_worship-christian-jehovahs_witness  # icon z14- (also has caption(optional) z14-, area z14-)
-amenity-place_of_worship-christian-mormon           # icon z14- (also has caption(optional) z14-, area z14-)
-amenity-place_of_worship-hindu                      # icon z14- (also has caption(optional) z14-, area z14-)
-amenity-place_of_worship-jewish                     # icon z14- (also has caption(optional) z14-, area z14-)
-amenity-place_of_worship-muslim                     # icon z14- (also has caption(optional) z14-, area z14-)
-amenity-place_of_worship-shinto                     # icon z14- (also has caption(optional) z14-, area z14-)
-amenity-place_of_worship-taoist                     # icon z14- (also has caption(optional) z14-, area z14-)
+amenity-place_of_worship-buddhist                   # icon z14- (also has caption(optional) z14-, area z13-)
+amenity-place_of_worship-christian                  # icon z14- (also has caption(optional) z14-, area z13-)
+amenity-place_of_worship-christian-jehovahs_witness  # icon z14- (also has caption(optional) z14-, area z13-)
+amenity-place_of_worship-christian-mormon           # icon z14- (also has caption(optional) z14-, area z13-)
+amenity-place_of_worship-hindu                      # icon z14- (also has caption(optional) z14-, area z13-)
+amenity-place_of_worship-jewish                     # icon z14- (also has caption(optional) z14-, area z13-)
+amenity-place_of_worship-muslim                     # icon z14- (also has caption(optional) z14-, area z13-)
+amenity-place_of_worship-shinto                     # icon z14- (also has caption(optional) z14-, area z13-)
+amenity-place_of_worship-taoist                     # icon z14- (also has caption(optional) z14-, area z13-)
 === 4200
 
-amenity-place_of_worship                            # icon z14- (also has caption(optional) z14-, area z14-)
+amenity-place_of_worship                            # icon z14- (also has caption(optional) z14-, area z13-)
 historic-memorial                                   # icon z15- (also has caption(optional) z15-)
 === 4150
 
@@ -409,11 +409,11 @@ amenity-pub                                         # icon z15- (also has captio
 
 amenity-shelter-basic_hut                           # icon z12- (also has caption(optional) z13-)
 amenity-shelter-lean_to                             # icon z12- (also has caption(optional) z13-)
-emergency-mountain_rescue                           # icon z12- (also has caption(optional) z12-)
+emergency-mountain_rescue                           # icon z12- (also has caption(optional) z12-, area z13-)
 tourism-wilderness_hut                              # icon z12- (also has caption(optional) z13-)
 === 3900
 
-highway-rest_area                                   # icon z14- (also has caption(optional) z15-)
+highway-rest_area                                   # icon z14- (also has caption(optional) z15-, area z13-)
 tourism-camp_site                                   # icon z13- (also has caption(optional) z13-, area z13-)
 tourism-caravan_site                                # icon z13- (also has caption(optional) z13-)
 tourism-chalet                                      # icon z14- (also has caption(optional) z14-)
@@ -747,14 +747,14 @@ piste:type-snow_park                                # caption z15- (also has are
 === 2770
 
 amenity-townhall                                    # icon z16- (also has caption(optional) z16-)
-leisure-resort                                      # icon z16- (also has caption(optional) z16-, area z15-)
+leisure-resort                                      # icon z16- (also has caption(optional) z16-, area z13-)
 tourism-hotel                                       # icon z16- (also has caption(optional) z16-)
 === 2750
 
 amenity-arts_centre                                 # icon z17- (also has caption(optional) z17-)
 amenity-bank                                        # icon z16- (also has caption(optional) z16-)
 amenity-library                                     # icon z18- (also has caption(optional) z18-)
-amenity-marketplace                                 # icon z16- (also has caption(optional) z16-)
+amenity-marketplace                                 # icon z16- (also has caption(optional) z16-, area z15-)
 amenity-pharmacy                                    # icon z16- (also has caption(optional) z17-)
 shop-convenience                                    # icon z16- (also has caption(optional) z16-)
 shop-deli                                           # icon z16- (also has caption(optional) z16-)
@@ -825,7 +825,7 @@ tourism-zoo-petting                                 # icon z15- (also has captio
 
 amenity-bureau_de_change                            # icon z17- (also has caption(optional) z18-)
 amenity-public_bath                                 # icon z17- (also has caption(optional) z17-)
-amenity-vehicle_inspection                          # icon z16- (also has caption(optional) z16-)
+amenity-vehicle_inspection                          # icon z16- (also has caption(optional) z16-, area z15-)
 craft-brewery                                       # icon z17- (also has caption(optional) z18-)
 craft-confectionery                                 # icon z17- (also has caption(optional) z18-)
 craft-winery                                        # icon z17- (also has caption(optional) z18-)
@@ -873,7 +873,7 @@ barrier-lift_gate                                   # icon z16- (also has captio
 barrier-stile                                       # icon z16- (also has caption(optional) z16-)
 barrier-swing_gate                                  # icon z16- (also has caption(optional) z16-)
 barrier-turnstile                                   # icon z16- (also has caption(optional) z16-)
-leisure-dog_park                                    # icon z16- (also has caption(optional) z16-)
+leisure-dog_park                                    # icon z16- (also has caption(optional) z16-, area z15-)
 === 2300
 
 highway-busway                                      # pathtext z16- (also has line z15-)
@@ -881,9 +881,9 @@ highway-busway-bridge                               # pathtext z16- (also has li
 highway-busway-tunnel                               # pathtext z16- (also has line z15-)
 === 2250
 
-amenity-clinic                                      # icon z17- (also has caption(optional) z17-)
-amenity-college                                     # icon z16- (also has caption(optional) z16-, area z15-)
-amenity-courthouse                                  # icon z17- (also has caption(optional) z17-)
+amenity-clinic                                      # icon z17- (also has caption(optional) z17-, area z13-)
+amenity-college                                     # icon z16- (also has caption(optional) z16-, area z13-)
+amenity-courthouse                                  # icon z17- (also has caption(optional) z17-, area z15-)
 amenity-dentist                                     # icon z17- (also has caption(optional) z17-)
 landuse-military                                    # icon z16- (also has caption(optional) z17-, area z12-)
 landuse-military-danger_area                        # icon z16- (also has caption(optional) z17-, area z10-)
@@ -905,14 +905,14 @@ railway-level_crossing                              # icon z17-
 railway-platform                                    # caption z16- (also has area z16-)
 === 1650
 
-amenity-car_wash                                    # icon z17- (also has caption(optional) z17-)
-amenity-childcare                                   # icon z17- (also has caption(optional) z17-)
-amenity-doctors                                     # icon z17- (also has caption(optional) z17-, area z14-)
+amenity-car_wash                                    # icon z17- (also has caption(optional) z17-, area z15-)
+amenity-childcare                                   # icon z17- (also has caption(optional) z17-, area z13-)
+amenity-doctors                                     # icon z17- (also has caption(optional) z17-, area z15-)
 amenity-driving_school                              # icon z17- (also has caption(optional) z19-)
 amenity-language_school                             # icon z17- (also has caption(optional) z19-)
 amenity-money_transfer                              # icon z17- (also has caption(optional) z18-)
 amenity-music_school                                # icon z17- (also has caption(optional) z19-)
-amenity-recycling-centre                            # icon z17- (also has caption(optional) z19-)
+amenity-recycling-centre                            # icon z17- (also has caption(optional) z19-, area z15-)
 amenity-veterinary                                  # icon z16- (also has caption(optional) z16-)
 craft-electrician                                   # icon z17- (also has caption(optional) z18-)
 craft-electronics_repair                            # icon z17- (also has caption(optional) z18-)
@@ -984,8 +984,8 @@ shop-video_games                                    # icon z16- (also has captio
 === 1600
 
 aeroway-gate                                        # icon z17- (also has caption(optional) z17-)
-amenity-kindergarten                                # icon z17- (also has caption(optional) z17-, area z15-)
-amenity-school                                      # icon z17- (also has caption(optional) z17-, area z15-)
+amenity-kindergarten                                # icon z17- (also has caption(optional) z17-, area z13-)
+amenity-school                                      # icon z17- (also has caption(optional) z17-, area z13-)
 amenity-studio                                      # icon z16- (also has caption(optional) z16-)
 historic-archaeological_site                        # icon z17- (also has caption(optional) z17-)
 historic-boundary_stone                             # icon z16- (also has caption(optional) z16-)
@@ -1004,7 +1004,7 @@ tourism-artwork-painting                            # icon z15- (also has captio
 amenity-shelter                                     # icon z12- (also has caption(optional) z13-)
 amenity-shelter-public_transport                    # icon z14- (also has caption(optional) z14-)
 emergency-lifeguard                                 # icon z14- (also has caption(optional) z18-)
-leisure-fitness_station                             # icon z17- (also has caption(optional) z17-)
+leisure-fitness_station                             # icon z17- (also has caption(optional) z17-, area z15-)
 leisure-playground                                  # icon z17- (also has caption(optional) z17-, area z15-)
 natural-cliff                                       # pathtext z14- (also has line z12-)
 === 1500
@@ -1057,7 +1057,7 @@ isoline-step_50                                     # pathtext z15- (also has li
 landuse-recreation_ground                           # caption z15- (also has area z12-)
 leisure-dance                                       # icon z17- (also has caption(optional) z17-)
 leisure-recreation_ground                           # caption z17-
-leisure-sports_centre                               # icon z17- (also has caption(optional) z17-, area z15-)
+leisure-sports_centre                               # icon z17- (also has caption(optional) z17-, area z13-)
 leisure-sports_hall                                 # icon z17- (also has caption(optional) z17-)
 === 1250
 
@@ -1085,8 +1085,8 @@ amenity-grave_yard                                  # icon z17- (also has captio
 amenity-grave_yard-christian                        # icon z17- (also has caption(optional) z17-, area z14-)
 amenity-nursing_home                                # icon z17- (also has caption(optional) z17-)
 amenity-prison                                      # icon z17- (also has caption(optional) z17-, area z12-)
-amenity-social_facility                             # icon z17- (also has caption(optional) z17-)
-amenity-waste_transfer_station                      # icon z17- (also has caption(optional) z19-)
+amenity-social_facility                             # icon z17- (also has caption(optional) z17-, area z15-)
+amenity-waste_transfer_station                      # icon z17- (also has caption(optional) z19-, area z13-)
 highway-ladder                                      # icon z16- (also has caption(optional) z17-)
 historic-ruins                                      # icon z17- (also has caption(optional) z17-)
 landuse-farmland                                    # caption z15- (also has area z10-)
@@ -1107,18 +1107,18 @@ junction-circular                                   # caption z17-
 junction-roundabout                                 # caption z17-
 man_made-breakwater                                 # caption z17- (also has line z14-, area z12-)
 man_made-pier                                       # caption z17- (also has line z14-, area z12-)
-man_made-works                                      # icon z16- (also has caption(optional) z17-)
+man_made-works                                      # icon z16- (also has caption(optional) z17-, area z13-)
 public_transport-platform                           # caption z17- (also has area z16-)
 waterway-lock_gate                                  # icon z16-
 === 700
 
 amenity-brothel                                     # icon z18- (also has caption(optional) z18-)
 amenity-casino                                      # icon z17- (also has caption(optional) z17-)
-amenity-fire_station                                # icon z18- (also has caption(optional) z18-)
+amenity-fire_station                                # icon z18- (also has caption(optional) z18-, area z15-)
 amenity-gambling                                    # icon z17- (also has caption(optional) z17-)
 amenity-internet_cafe                               # icon z18- (also has caption(optional) z19-)
 amenity-love_hotel                                  # icon z18- (also has caption(optional) z18-)
-amenity-police                                      # icon z17- (also has caption(optional) z17-, area z16-)
+amenity-police                                      # icon z17- (also has caption(optional) z17-, area z15-)
 amenity-stripclub                                   # icon z18- (also has caption(optional) z18-)
 craft                                               # icon z18- (also has caption(optional) z18-)
 craft-beekeeper                                     # icon z17- (also has caption(optional) z18-)
@@ -1142,7 +1142,7 @@ healthcare-speech_therapist                         # icon z17- (also has captio
 leisure-adult_gaming_centre                         # icon z17- (also has caption(optional) z17-)
 leisure-amusement_arcade                            # icon z17- (also has caption(optional) z17-)
 office-company                                      # icon z18- (also has caption(optional) z18-)
-office-diplomatic                                   # icon z17- (also has caption(optional) z17-)
+office-diplomatic                                   # icon z17- (also has caption(optional) z17-, area z15-)
 office-ngo                                          # icon z18- (also has caption(optional) z18-)
 office-telecommunication                            # icon z18- (also has caption(optional) z18-)
 shop-agrarian                                       # icon z18- (also has caption(optional) z18-)
@@ -1209,12 +1209,12 @@ building                                            # caption z16- (also has are
 building-garage                                     # caption z16- (also has area z14-)
 building-has_parts                                  # caption z16- (also has area z14-)
 man_made-utility_pole                               # icon z15-
-power-plant                                         # icon z17-
-power-plant-coal                                    # icon z17-
-power-plant-gas                                     # icon z17-
-power-plant-hydro                                   # icon z17-
-power-plant-solar                                   # icon z17-
-power-plant-wind                                    # icon z13- (also has caption(optional) z16-)
+power-plant                                         # icon z17- (also has area z13-)
+power-plant-coal                                    # icon z17- (also has area z13-)
+power-plant-gas                                     # icon z17- (also has area z13-)
+power-plant-hydro                                   # icon z17- (also has area z13-)
+power-plant-solar                                   # icon z17- (also has area z13-)
+power-plant-wind                                    # icon z13- (also has caption(optional) z16-, area z13-)
 power-pole                                          # icon z15-
 power-station                                       # icon z17- (also has caption(optional) z17-)
 === 230
@@ -1244,23 +1244,23 @@ amenity-parking-street_side-fee                     # icon z18- (also has captio
 === 150
 
 landuse-commercial                                  # caption z17-
-landuse-construction                                # caption z15- (also has area z15-)
+landuse-construction                                # caption z15- (also has area z13-)
 landuse-farmyard                                    # caption z15- (also has area z10-)
-landuse-industrial                                  # caption z15- (also has area z15-)
-landuse-industrial-mine                             # icon z15- (also has caption(optional) z15-, area z15-)
-landuse-landfill                                    # icon z15- (also has caption(optional) z15-, area z15-)
-landuse-quarry                                      # icon z15- (also has caption(optional) z15-, area z15-)
-landuse-railway                                     # caption z15- (also has area z15-)
+landuse-industrial                                  # caption z15- (also has area z13-)
+landuse-industrial-mine                             # icon z15- (also has caption(optional) z15-, area z13-)
+landuse-landfill                                    # icon z15- (also has caption(optional) z15-, area z13-)
+landuse-quarry                                      # icon z15- (also has caption(optional) z15-, area z13-)
+landuse-railway                                     # caption z15- (also has area z13-)
 landuse-residential                                 # caption z17-
 leisure-common                                      # caption z17-
 leisure-slipway                                     # caption z17-
 leisure-track                                       # caption z16- (also has line z15-)
 leisure-track-area                                  # caption z16- (also has area z15-)
 man_made-petroleum_well                             # icon z14- (also has caption(optional) z18-)
-power-generator                                     # icon z17-
-power-generator-gas                                 # icon z17-
-power-generator-hydro                               # icon z17-
-power-generator-wind                                # icon z13- (also has caption(optional) z16-)
+power-generator                                     # icon z17- (also has area z13-)
+power-generator-gas                                 # icon z17- (also has area z13-)
+power-generator-hydro                               # icon z17- (also has area z13-)
+power-generator-wind                                # icon z13- (also has caption(optional) z16-, area z13-)
 === 120
 
 amenity-parking-lane-private                        # icon z19- (also has caption(optional) z19-, area z17-)
@@ -1465,7 +1465,7 @@ leisure-swimming_pool-private                       # icon z17- (also has captio
 # historic-battlefield                              # caption(optional) z15- (also has icon z15-)
 # historic-city_gate                                # caption(optional) z13- (also has icon z13-)
 # historic-memorial-war_memorial                    # caption(optional) z15- (also has icon z15-)
-# leisure-water_park                                # caption(optional) z16- (also has icon z16-)
+# leisure-water_park                                # caption(optional) z16- (also has icon z16-, area z13-)
 # shop-mall                                         # caption(optional) z14- (also has icon z14-)
 # tourism-aquarium                                  # caption(optional) z16- (also has icon z16-)
 # tourism-museum                                    # caption(optional) z13- (also has icon z13-)
@@ -1473,9 +1473,9 @@ leisure-swimming_pool-private                       # icon z17- (also has captio
 # tourism-zoo                                       # caption(optional) z13- (also has icon z13-)
 # === -4800
 
-# amenity-hospital                                  # caption(optional) z15- (also has icon z14-, area z14-)
-# amenity-university                                # caption(optional) z14- (also has icon z14-, area z14-)
-# leisure-stadium                                   # caption(optional) z13- (also has icon z13-, area z15-)
+# amenity-hospital                                  # caption(optional) z15- (also has icon z14-, area z13-)
+# amenity-university                                # caption(optional) z14- (also has icon z14-, area z13-)
+# leisure-stadium                                   # caption(optional) z13- (also has icon z13-, area z13-)
 # === -4900
 
 # leisure-marina                                    # caption(optional) z16- (also has icon z16-)
@@ -1519,25 +1519,25 @@ leisure-swimming_pool-private                       # icon z17- (also has captio
 # tourism-gallery                                   # caption(optional) z15- (also has icon z15-)
 # === -5700
 
-# amenity-charging_station-motorcar                 # caption(optional) z14- (also has icon z14-)
-# amenity-fuel                                      # caption(optional) z14- (also has icon z14-)
+# amenity-charging_station-motorcar                 # caption(optional) z14- (also has icon z14-, area z15-)
+# amenity-fuel                                      # caption(optional) z14- (also has icon z14-, area z15-)
 # === -5730
 
-# highway-services                                  # caption(optional) z14- (also has icon z14-)
+# highway-services                                  # caption(optional) z14- (also has icon z14-, area z13-)
 # === -5750
 
-# amenity-place_of_worship-buddhist                 # caption(optional) z14- (also has icon z14-, area z14-)
-# amenity-place_of_worship-christian                # caption(optional) z14- (also has icon z14-, area z14-)
-# amenity-place_of_worship-christian-jehovahs_witness  # caption(optional) z14- (also has icon z14-, area z14-)
-# amenity-place_of_worship-christian-mormon         # caption(optional) z14- (also has icon z14-, area z14-)
-# amenity-place_of_worship-hindu                    # caption(optional) z14- (also has icon z14-, area z14-)
-# amenity-place_of_worship-jewish                   # caption(optional) z14- (also has icon z14-, area z14-)
-# amenity-place_of_worship-muslim                   # caption(optional) z14- (also has icon z14-, area z14-)
-# amenity-place_of_worship-shinto                   # caption(optional) z14- (also has icon z14-, area z14-)
-# amenity-place_of_worship-taoist                   # caption(optional) z14- (also has icon z14-, area z14-)
+# amenity-place_of_worship-buddhist                 # caption(optional) z14- (also has icon z14-, area z13-)
+# amenity-place_of_worship-christian                # caption(optional) z14- (also has icon z14-, area z13-)
+# amenity-place_of_worship-christian-jehovahs_witness  # caption(optional) z14- (also has icon z14-, area z13-)
+# amenity-place_of_worship-christian-mormon         # caption(optional) z14- (also has icon z14-, area z13-)
+# amenity-place_of_worship-hindu                    # caption(optional) z14- (also has icon z14-, area z13-)
+# amenity-place_of_worship-jewish                   # caption(optional) z14- (also has icon z14-, area z13-)
+# amenity-place_of_worship-muslim                   # caption(optional) z14- (also has icon z14-, area z13-)
+# amenity-place_of_worship-shinto                   # caption(optional) z14- (also has icon z14-, area z13-)
+# amenity-place_of_worship-taoist                   # caption(optional) z14- (also has icon z14-, area z13-)
 # === -5800
 
-# amenity-place_of_worship                          # caption(optional) z14- (also has icon z14-, area z14-)
+# amenity-place_of_worship                          # caption(optional) z14- (also has icon z14-, area z13-)
 # historic-memorial                                 # caption(optional) z15- (also has icon z15-)
 # === -5850
 
@@ -1558,11 +1558,11 @@ leisure-swimming_pool-private                       # icon z17- (also has captio
 
 # amenity-shelter-basic_hut                         # caption(optional) z13- (also has icon z12-)
 # amenity-shelter-lean_to                           # caption(optional) z13- (also has icon z12-)
-# emergency-mountain_rescue                         # caption(optional) z12- (also has icon z12-)
+# emergency-mountain_rescue                         # caption(optional) z12- (also has icon z12-, area z13-)
 # tourism-wilderness_hut                            # caption(optional) z13- (also has icon z12-)
 # === -6100
 
-# highway-rest_area                                 # caption(optional) z15- (also has icon z14-)
+# highway-rest_area                                 # caption(optional) z15- (also has icon z14-, area z13-)
 # tourism-camp_site                                 # caption(optional) z13- (also has icon z13-, area z13-)
 # tourism-caravan_site                              # caption(optional) z13- (also has icon z13-)
 # tourism-chalet                                    # caption(optional) z14- (also has icon z14-)
@@ -1722,14 +1722,14 @@ leisure-swimming_pool-private                       # icon z17- (also has captio
 # === -7150
 
 # amenity-townhall                                  # caption(optional) z16- (also has icon z16-)
-# leisure-resort                                    # caption(optional) z16- (also has icon z16-, area z15-)
+# leisure-resort                                    # caption(optional) z16- (also has icon z16-, area z13-)
 # tourism-hotel                                     # caption(optional) z16- (also has icon z16-)
 # === -7250
 
 # amenity-arts_centre                               # caption(optional) z17- (also has icon z17-)
 # amenity-bank                                      # caption(optional) z16- (also has icon z16-)
 # amenity-library                                   # caption(optional) z18- (also has icon z18-)
-# amenity-marketplace                               # caption(optional) z16- (also has icon z16-)
+# amenity-marketplace                               # caption(optional) z16- (also has icon z16-, area z15-)
 # amenity-pharmacy                                  # caption(optional) z17- (also has icon z16-)
 # shop-convenience                                  # caption(optional) z16- (also has icon z16-)
 # shop-deli                                         # caption(optional) z16- (also has icon z16-)
@@ -1796,7 +1796,7 @@ leisure-swimming_pool-private                       # icon z17- (also has captio
 
 # amenity-bureau_de_change                          # caption(optional) z18- (also has icon z17-)
 # amenity-public_bath                               # caption(optional) z17- (also has icon z17-)
-# amenity-vehicle_inspection                        # caption(optional) z16- (also has icon z16-)
+# amenity-vehicle_inspection                        # caption(optional) z16- (also has icon z16-, area z15-)
 # craft-brewery                                     # caption(optional) z18- (also has icon z17-)
 # craft-confectionery                               # caption(optional) z18- (also has icon z17-)
 # craft-winery                                      # caption(optional) z18- (also has icon z17-)
@@ -1844,12 +1844,12 @@ leisure-swimming_pool-private                       # icon z17- (also has captio
 # barrier-stile                                     # caption(optional) z16- (also has icon z16-)
 # barrier-swing_gate                                # caption(optional) z16- (also has icon z16-)
 # barrier-turnstile                                 # caption(optional) z16- (also has icon z16-)
-# leisure-dog_park                                  # caption(optional) z16- (also has icon z16-)
+# leisure-dog_park                                  # caption(optional) z16- (also has icon z16-, area z15-)
 # === -7700
 
-# amenity-clinic                                    # caption(optional) z17- (also has icon z17-)
-# amenity-college                                   # caption(optional) z16- (also has icon z16-, area z15-)
-# amenity-courthouse                                # caption(optional) z17- (also has icon z17-)
+# amenity-clinic                                    # caption(optional) z17- (also has icon z17-, area z13-)
+# amenity-college                                   # caption(optional) z16- (also has icon z16-, area z13-)
+# amenity-courthouse                                # caption(optional) z17- (also has icon z17-, area z15-)
 # amenity-dentist                                   # caption(optional) z17- (also has icon z17-)
 # landuse-military                                  # caption(optional) z17- (also has icon z16-, area z12-)
 # landuse-military-danger_area                      # caption(optional) z17- (also has icon z16-, area z10-)
@@ -1861,14 +1861,14 @@ leisure-swimming_pool-private                       # icon z17- (also has captio
 # tourism-picnic_site                               # caption(optional) z14- (also has icon z14-)
 # === -8200
 
-# amenity-car_wash                                  # caption(optional) z17- (also has icon z17-)
-# amenity-childcare                                 # caption(optional) z17- (also has icon z17-)
-# amenity-doctors                                   # caption(optional) z17- (also has icon z17-, area z14-)
+# amenity-car_wash                                  # caption(optional) z17- (also has icon z17-, area z15-)
+# amenity-childcare                                 # caption(optional) z17- (also has icon z17-, area z13-)
+# amenity-doctors                                   # caption(optional) z17- (also has icon z17-, area z15-)
 # amenity-driving_school                            # caption(optional) z19- (also has icon z17-)
 # amenity-language_school                           # caption(optional) z19- (also has icon z17-)
 # amenity-money_transfer                            # caption(optional) z18- (also has icon z17-)
 # amenity-music_school                              # caption(optional) z19- (also has icon z17-)
-# amenity-recycling-centre                          # caption(optional) z19- (also has icon z17-)
+# amenity-recycling-centre                          # caption(optional) z19- (also has icon z17-, area z15-)
 # amenity-veterinary                                # caption(optional) z16- (also has icon z16-)
 # craft-electrician                                 # caption(optional) z18- (also has icon z17-)
 # craft-electronics_repair                          # caption(optional) z18- (also has icon z17-)
@@ -1940,8 +1940,8 @@ leisure-swimming_pool-private                       # icon z17- (also has captio
 # === -8400
 
 # aeroway-gate                                      # caption(optional) z17- (also has icon z17-)
-# amenity-kindergarten                              # caption(optional) z17- (also has icon z17-, area z15-)
-# amenity-school                                    # caption(optional) z17- (also has icon z17-, area z15-)
+# amenity-kindergarten                              # caption(optional) z17- (also has icon z17-, area z13-)
+# amenity-school                                    # caption(optional) z17- (also has icon z17-, area z13-)
 # amenity-studio                                    # caption(optional) z16- (also has icon z16-)
 # historic-archaeological_site                      # caption(optional) z17- (also has icon z17-)
 # historic-boundary_stone                           # caption(optional) z16- (also has icon z16-)
@@ -1960,7 +1960,7 @@ leisure-swimming_pool-private                       # icon z17- (also has captio
 # amenity-shelter                                   # caption(optional) z13- (also has icon z12-)
 # amenity-shelter-public_transport                  # caption(optional) z14- (also has icon z14-)
 # emergency-lifeguard                               # caption(optional) z18- (also has icon z14-)
-# leisure-fitness_station                           # caption(optional) z17- (also has icon z17-)
+# leisure-fitness_station                           # caption(optional) z17- (also has icon z17-, area z15-)
 # leisure-playground                                # caption(optional) z17- (also has icon z17-, area z15-)
 # === -8500
 
@@ -2009,7 +2009,7 @@ leisure-swimming_pool-private                       # icon z17- (also has captio
 # amenity-atm                                       # caption(optional) z18- (also has icon z18-)
 # amenity-dojo                                      # caption(optional) z18- (also has icon z17-)
 # leisure-dance                                     # caption(optional) z17- (also has icon z17-)
-# leisure-sports_centre                             # caption(optional) z17- (also has icon z17-, area z15-)
+# leisure-sports_centre                             # caption(optional) z17- (also has icon z17-, area z13-)
 # leisure-sports_hall                               # caption(optional) z17- (also has icon z17-)
 # === -8750
 
@@ -2031,8 +2031,8 @@ leisure-swimming_pool-private                       # icon z17- (also has captio
 # amenity-grave_yard-christian                      # caption(optional) z17- (also has icon z17-, area z14-)
 # amenity-nursing_home                              # caption(optional) z17- (also has icon z17-)
 # amenity-prison                                    # caption(optional) z17- (also has icon z17-, area z12-)
-# amenity-social_facility                           # caption(optional) z17- (also has icon z17-)
-# amenity-waste_transfer_station                    # caption(optional) z19- (also has icon z17-)
+# amenity-social_facility                           # caption(optional) z17- (also has icon z17-, area z15-)
+# amenity-waste_transfer_station                    # caption(optional) z19- (also has icon z17-, area z13-)
 # highway-ladder                                    # caption(optional) z17- (also has icon z16-)
 # historic-ruins                                    # caption(optional) z17- (also has icon z17-)
 # leisure-ice_rink                                  # caption(optional) z17- (also has icon z17-)
@@ -2045,16 +2045,16 @@ leisure-swimming_pool-private                       # icon z17- (also has captio
 # man_made-tower-communication                      # caption(optional) z14- (also has icon z13-)
 # === -9150
 
-# man_made-works                                    # caption(optional) z17- (also has icon z16-)
+# man_made-works                                    # caption(optional) z17- (also has icon z16-, area z13-)
 # === -9300
 
 # amenity-brothel                                   # caption(optional) z18- (also has icon z18-)
 # amenity-casino                                    # caption(optional) z17- (also has icon z17-)
-# amenity-fire_station                              # caption(optional) z18- (also has icon z18-)
+# amenity-fire_station                              # caption(optional) z18- (also has icon z18-, area z15-)
 # amenity-gambling                                  # caption(optional) z17- (also has icon z17-)
 # amenity-internet_cafe                             # caption(optional) z19- (also has icon z18-)
 # amenity-love_hotel                                # caption(optional) z18- (also has icon z18-)
-# amenity-police                                    # caption(optional) z17- (also has icon z17-, area z16-)
+# amenity-police                                    # caption(optional) z17- (also has icon z17-, area z15-)
 # amenity-stripclub                                 # caption(optional) z18- (also has icon z18-)
 # craft                                             # caption(optional) z18- (also has icon z18-)
 # craft-beekeeper                                   # caption(optional) z18- (also has icon z17-)
@@ -2078,7 +2078,7 @@ leisure-swimming_pool-private                       # icon z17- (also has captio
 # leisure-adult_gaming_centre                       # caption(optional) z17- (also has icon z17-)
 # leisure-amusement_arcade                          # caption(optional) z17- (also has icon z17-)
 # office-company                                    # caption(optional) z18- (also has icon z18-)
-# office-diplomatic                                 # caption(optional) z17- (also has icon z17-)
+# office-diplomatic                                 # caption(optional) z17- (also has icon z17-, area z15-)
 # office-ngo                                        # caption(optional) z18- (also has icon z18-)
 # office-telecommunication                          # caption(optional) z18- (also has icon z18-)
 # shop-agrarian                                     # caption(optional) z18- (also has icon z18-)
@@ -2138,7 +2138,7 @@ leisure-swimming_pool-private                       # icon z17- (also has captio
 # emergency-emergency_ward_entrance                 # caption(optional) z18- (also has icon z18-)
 # === -9750
 
-# power-plant-wind                                  # caption(optional) z16- (also has icon z13-)
+# power-plant-wind                                  # caption(optional) z16- (also has icon z13-, area z13-)
 # power-station                                     # caption(optional) z17- (also has icon z17-)
 # === -9770
 
@@ -2163,11 +2163,11 @@ leisure-swimming_pool-private                       # icon z17- (also has captio
 # amenity-parking-street_side-fee                   # caption(optional) z18- (also has icon z18-, area z17-)
 # === -9850
 
-# landuse-industrial-mine                           # caption(optional) z15- (also has icon z15-, area z15-)
-# landuse-landfill                                  # caption(optional) z15- (also has icon z15-, area z15-)
-# landuse-quarry                                    # caption(optional) z15- (also has icon z15-, area z15-)
+# landuse-industrial-mine                           # caption(optional) z15- (also has icon z15-, area z13-)
+# landuse-landfill                                  # caption(optional) z15- (also has icon z15-, area z13-)
+# landuse-quarry                                    # caption(optional) z15- (also has icon z15-, area z13-)
 # man_made-petroleum_well                           # caption(optional) z18- (also has icon z14-)
-# power-generator-wind                              # caption(optional) z16- (also has icon z13-)
+# power-generator-wind                              # caption(optional) z16- (also has icon z13-, area z13-)
 # === -9880
 
 # amenity-parking-lane-private                      # caption(optional) z19- (also has icon z19-, area z17-)
@@ -2220,7 +2220,7 @@ emergency-phone                                     # icon z17-
 
 amenity-waste_basket                                # icon z18- (also has caption(optional) z19-)
 emergency-fire_hydrant                              # icon z19- (also has caption(optional) z19-)
-power-substation                                    # icon z19- (also has caption(optional) z19-)
+power-substation                                    # icon z19- (also has caption(optional) z19-, area z13-)
 === -9990
 
 # amenity-bench                                     # caption(optional) z19- (also has icon z18-)
@@ -2247,7 +2247,7 @@ entrance-exit                                       # icon z19- (also has captio
 # entrance-exit                                     # caption(optional) z19- (also has icon z19-)
 # man_made-cairn                                    # caption(optional) z17- (also has icon z17-)
 # man_made-survey_point                             # caption(optional) z15- (also has icon z14-)
-# power-substation                                  # caption(optional) z19- (also has icon z19-)
+# power-substation                                  # caption(optional) z19- (also has icon z19-, area z13-)
 # tourism-information                               # caption(optional) z15- (also has icon z15-)
 # tourism-information-board                         # caption(optional) z15- (also has icon z15-)
 # tourism-information-guidepost                     # caption(optional) z15- (also has icon z15-)

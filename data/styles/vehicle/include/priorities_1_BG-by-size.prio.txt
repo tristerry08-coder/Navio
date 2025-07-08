@@ -86,7 +86,7 @@ landuse-forest-deciduous                            # area z10- (also has icon z
 landuse-forest-mixed                                # area z10- (also has icon z12-, caption(optional) z12-)
 === 50
 
-amenity-waste_transfer_station
+amenity-waste_transfer_station                      # area z15-
 landuse-churchyard                                  # area z15-
 landuse-construction                                # area z15-
 landuse-industrial                                  # area z15-
@@ -94,19 +94,19 @@ landuse-industrial-mine                             # area z15-
 landuse-landfill                                    # area z15- (also has caption z15-)
 landuse-quarry                                      # area z15- (also has caption z15-)
 landuse-railway                                     # area z15- (also has caption z15-)
-man_made-works
-power-plant
-power-plant-coal
-power-plant-gas
-power-plant-hydro
-power-plant-solar
-power-plant-wind
-power-substation
-power-generator
-power-generator-gas
-power-generator-hydro
-power-generator-solar
-power-generator-wind
+man_made-works                                      # area z15-
+power-generator                                     # area z15-
+power-generator-gas                                 # area z15-
+power-generator-hydro                               # area z15-
+power-generator-solar                               # area z15-
+power-generator-wind                                # area z15-
+power-plant                                         # area z15-
+power-plant-coal                                    # area z15-
+power-plant-gas                                     # area z15-
+power-plant-hydro                                   # area z15-
+power-plant-solar                                   # area z15-
+power-plant-wind                                    # area z15-
+power-substation                                    # area z15-
 === 40
 
 aeroway-aerodrome                                   # area z10- (also has icon z14-, caption(optional) z14-)

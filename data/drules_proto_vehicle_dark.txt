@@ -5739,6 +5739,51 @@ cont {
   }
 }
 cont {
+  name: "amenity-waste_transfer_station"
+  element {
+    scale: 15
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+}
+cont {
   name: "amenity-water_point"
   element {
     scale: 16
@@ -28726,51 +28771,6 @@ cont {
   }
 }
 cont {
-  name: "landuse-garages"
-  element {
-    scale: 15
-    area {
-      color: 854541
-      priority: 90
-    }
-  }
-  element {
-    scale: 16
-    area {
-      color: 854541
-      priority: 90
-    }
-  }
-  element {
-    scale: 17
-    area {
-      color: 854541
-      priority: 90
-    }
-  }
-  element {
-    scale: 18
-    area {
-      color: 854541
-      priority: 90
-    }
-  }
-  element {
-    scale: 19
-    area {
-      color: 854541
-      priority: 90
-    }
-  }
-  element {
-    scale: 20
-    area {
-      color: 854541
-      priority: 90
-    }
-  }
-}
-cont {
   name: "landuse-grass"
   element {
     scale: 12
@@ -32447,6 +32447,51 @@ cont {
     area {
       color: 1292174597
       priority: 20
+    }
+  }
+}
+cont {
+  name: "man_made-works"
+  element {
+    scale: 15
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 854541
+      priority: -1960
     }
   }
 }
@@ -43162,6 +43207,546 @@ cont {
         offset_y: 1
       }
       priority: 3050
+    }
+  }
+}
+cont {
+  name: "power-generator"
+  element {
+    scale: 15
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+}
+cont {
+  name: "power-generator-gas"
+  element {
+    scale: 15
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+}
+cont {
+  name: "power-generator-hydro"
+  element {
+    scale: 15
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+}
+cont {
+  name: "power-generator-solar"
+  element {
+    scale: 15
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+}
+cont {
+  name: "power-generator-wind"
+  element {
+    scale: 15
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+}
+cont {
+  name: "power-plant"
+  element {
+    scale: 15
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+}
+cont {
+  name: "power-plant-coal"
+  element {
+    scale: 15
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+}
+cont {
+  name: "power-plant-gas"
+  element {
+    scale: 15
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+}
+cont {
+  name: "power-plant-hydro"
+  element {
+    scale: 15
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+}
+cont {
+  name: "power-plant-solar"
+  element {
+    scale: 15
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+}
+cont {
+  name: "power-plant-wind"
+  element {
+    scale: 15
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+}
+cont {
+  name: "power-substation"
+  element {
+    scale: 15
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 854541
+      priority: -1960
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 854541
+      priority: -1960
     }
   }
 }

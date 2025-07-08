@@ -4332,7 +4332,25 @@ cont {
 cont {
   name: "amenity-car_wash"
   element {
+    scale: 15
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
     scale: 17
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "car-wash-m"
       priority: 1600
@@ -4350,6 +4368,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "car-wash-m"
       priority: 1600
@@ -4367,6 +4389,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "car-wash-m"
       priority: 1600
@@ -4384,6 +4410,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "car-wash-m"
       priority: 1600
@@ -4660,6 +4690,10 @@ cont {
   }
   element {
     scale: 15
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "charging-station-m"
       priority: 4270
@@ -4677,6 +4711,10 @@ cont {
   }
   element {
     scale: 16
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "charging-station-m"
       priority: 4270
@@ -4694,6 +4732,10 @@ cont {
   }
   element {
     scale: 17
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "charging-station-m"
       priority: 4270
@@ -4710,6 +4752,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "charging-station-m"
       priority: 4270
@@ -4726,6 +4772,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "charging-station-m"
       priority: 4270
@@ -4742,6 +4792,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "charging-station-m"
       priority: 4270
@@ -4760,7 +4814,39 @@ cont {
 cont {
   name: "amenity-childcare"
   element {
+    scale: 13
+    area {
+      color: 16113596
+      priority: -1960
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 16113596
+      priority: -1960
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 16113596
+      priority: -1960
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 16113596
+      priority: -1960
+    }
+  }
+  element {
     scale: 17
+    area {
+      color: 16113596
+      priority: -1960
+    }
     symbol {
       name: "kindergarten-m"
       priority: 1600
@@ -4777,6 +4863,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 16113596
+      priority: -1960
+    }
     symbol {
       name: "kindergarten-m"
       priority: 1600
@@ -4793,6 +4883,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 16113596
+      priority: -1960
+    }
     symbol {
       name: "kindergarten-m"
       priority: 1600
@@ -4809,6 +4903,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 16113596
+      priority: -1960
+    }
     symbol {
       name: "kindergarten-m"
       priority: 1600
@@ -4894,7 +4992,39 @@ cont {
 cont {
   name: "amenity-clinic"
   element {
+    scale: 13
+    area {
+      color: 16767702
+      priority: -1960
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 16767702
+      priority: -1960
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 16767702
+      priority: -1960
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 16767702
+      priority: -1960
+    }
+  }
+  element {
     scale: 17
+    area {
+      color: 16767702
+      priority: -1960
+    }
     symbol {
       name: "clinic-m"
       priority: 2000
@@ -4912,6 +5042,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 16767702
+      priority: -1960
+    }
     symbol {
       name: "clinic-m"
       priority: 2000
@@ -4928,6 +5062,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 16767702
+      priority: -1960
+    }
     symbol {
       name: "clinic-m"
       priority: 2000
@@ -4944,6 +5082,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 16767702
+      priority: -1960
+    }
     symbol {
       name: "clinic-m"
       priority: 2000
@@ -4961,6 +5103,20 @@ cont {
 }
 cont {
   name: "amenity-college"
+  element {
+    scale: 13
+    area {
+      color: 16113596
+      priority: -1960
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 16113596
+      priority: -1960
+    }
+  }
   element {
     scale: 15
     area {
@@ -5307,7 +5463,25 @@ cont {
 cont {
   name: "amenity-courthouse"
   element {
+    scale: 15
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
     scale: 17
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "public-building-m"
       priority: 2000
@@ -5324,6 +5498,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "public-building-m"
       priority: 2000
@@ -5340,6 +5518,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "public-building-m"
       priority: 2000
@@ -5356,6 +5538,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "public-building-m"
       priority: 2000
@@ -5440,13 +5626,6 @@ cont {
 }
 cont {
   name: "amenity-doctors"
-  element {
-    scale: 14
-    area {
-      color: 16767702
-      priority: -1770
-    }
-  }
   element {
     scale: 15
     area {
@@ -6188,7 +6367,32 @@ cont {
 cont {
   name: "amenity-fire_station"
   element {
+    scale: 15
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
     scale: 18
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "fire_station-m"
       priority: 500
@@ -6205,6 +6409,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "fire_station-m"
       priority: 500
@@ -6221,6 +6429,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "fire_station-m"
       priority: 500
@@ -6470,6 +6682,10 @@ cont {
   }
   element {
     scale: 15
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "fuel-m"
       priority: 4270
@@ -6487,6 +6703,10 @@ cont {
   }
   element {
     scale: 16
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "fuel-m"
       priority: 4270
@@ -6504,6 +6724,10 @@ cont {
   }
   element {
     scale: 17
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "fuel-m"
       priority: 4270
@@ -6520,6 +6744,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "fuel-m"
       priority: 4270
@@ -6536,6 +6764,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "fuel-m"
       priority: 4270
@@ -6552,6 +6784,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "fuel-m"
       priority: 4270
@@ -6848,6 +7084,13 @@ cont {
 }
 cont {
   name: "amenity-hospital"
+  element {
+    scale: 13
+    area {
+      color: 16767702
+      priority: -1960
+    }
+  }
   element {
     scale: 14
     area {
@@ -7216,6 +7459,20 @@ cont {
 cont {
   name: "amenity-kindergarten"
   element {
+    scale: 13
+    area {
+      color: 16113596
+      priority: -1960
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 16113596
+      priority: -1960
+    }
+  }
+  element {
     scale: 15
     area {
       color: 16113596
@@ -7499,7 +7756,18 @@ cont {
 cont {
   name: "amenity-marketplace"
   element {
+    scale: 15
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
     scale: 16
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "marketplace-m"
       priority: 2700
@@ -7517,6 +7785,10 @@ cont {
   }
   element {
     scale: 17
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "marketplace-m"
       priority: 2700
@@ -7534,6 +7806,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "marketplace-m"
       priority: 2700
@@ -7551,6 +7827,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "marketplace-m"
       priority: 2700
@@ -7568,6 +7848,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "marketplace-m"
       priority: 2700
@@ -9813,6 +10097,13 @@ cont {
 cont {
   name: "amenity-place_of_worship"
   element {
+    scale: 13
+    area {
+      color: 16445409
+      priority: -1760
+    }
+  }
+  element {
     scale: 14
     area {
       color: 16445409
@@ -9962,6 +10253,13 @@ cont {
 }
 cont {
   name: "amenity-place_of_worship-buddhist"
+  element {
+    scale: 13
+    area {
+      color: 16445409
+      priority: -1760
+    }
+  }
   element {
     scale: 14
     area {
@@ -10113,6 +10411,13 @@ cont {
 cont {
   name: "amenity-place_of_worship-christian"
   element {
+    scale: 13
+    area {
+      color: 16445409
+      priority: -1760
+    }
+  }
+  element {
     scale: 14
     area {
       color: 16445409
@@ -10262,6 +10567,13 @@ cont {
 }
 cont {
   name: "amenity-place_of_worship-christian-jehovahs_witness"
+  element {
+    scale: 13
+    area {
+      color: 16445409
+      priority: -1760
+    }
+  }
   element {
     scale: 14
     area {
@@ -10413,6 +10725,13 @@ cont {
 cont {
   name: "amenity-place_of_worship-christian-mormon"
   element {
+    scale: 13
+    area {
+      color: 16445409
+      priority: -1760
+    }
+  }
+  element {
     scale: 14
     area {
       color: 16445409
@@ -10562,6 +10881,13 @@ cont {
 }
 cont {
   name: "amenity-place_of_worship-hindu"
+  element {
+    scale: 13
+    area {
+      color: 16445409
+      priority: -1760
+    }
+  }
   element {
     scale: 14
     area {
@@ -10713,6 +11039,13 @@ cont {
 cont {
   name: "amenity-place_of_worship-jewish"
   element {
+    scale: 13
+    area {
+      color: 16445409
+      priority: -1760
+    }
+  }
+  element {
     scale: 14
     area {
       color: 16445409
@@ -10862,6 +11195,13 @@ cont {
 }
 cont {
   name: "amenity-place_of_worship-muslim"
+  element {
+    scale: 13
+    area {
+      color: 16445409
+      priority: -1760
+    }
+  }
   element {
     scale: 14
     area {
@@ -11013,6 +11353,13 @@ cont {
 cont {
   name: "amenity-place_of_worship-shinto"
   element {
+    scale: 13
+    area {
+      color: 16445409
+      priority: -1760
+    }
+  }
+  element {
     scale: 14
     area {
       color: 16445409
@@ -11163,6 +11510,13 @@ cont {
 cont {
   name: "amenity-place_of_worship-taoist"
   element {
+    scale: 13
+    area {
+      color: 16445409
+      priority: -1760
+    }
+  }
+  element {
     scale: 14
     area {
       color: 16445409
@@ -11312,6 +11666,13 @@ cont {
 }
 cont {
   name: "amenity-police"
+  element {
+    scale: 15
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
   element {
     scale: 16
     area {
@@ -11911,7 +12272,25 @@ cont {
 cont {
   name: "amenity-recycling-centre"
   element {
+    scale: 15
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
     scale: 17
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "recycling-m"
       priority: 1600
@@ -11919,6 +12298,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "recycling-m"
       priority: 1600
@@ -11926,6 +12309,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "recycling-m"
       priority: 1600
@@ -11942,6 +12329,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "recycling-m"
       priority: 1600
@@ -12218,6 +12609,20 @@ cont {
 }
 cont {
   name: "amenity-school"
+  element {
+    scale: 13
+    area {
+      color: 16113596
+      priority: -1960
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 16113596
+      priority: -1960
+    }
+  }
   element {
     scale: 15
     area {
@@ -12926,7 +13331,25 @@ cont {
 cont {
   name: "amenity-social_facility"
   element {
+    scale: 15
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
     scale: 17
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "social_facility-m"
       priority: 850
@@ -12943,6 +13366,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "social_facility-m"
       priority: 850
@@ -12959,6 +13386,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "social_facility-m"
       priority: 850
@@ -12975,6 +13406,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "social_facility-m"
       priority: 850
@@ -13545,6 +13980,13 @@ cont {
 cont {
   name: "amenity-university"
   element {
+    scale: 13
+    area {
+      color: 16113596
+      priority: -1960
+    }
+  }
+  element {
     scale: 14
     area {
       color: 16113596
@@ -13747,7 +14189,18 @@ cont {
 cont {
   name: "amenity-vehicle_inspection"
   element {
+    scale: 15
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
     scale: 16
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "vehicle_inspection-m"
       priority: 2400
@@ -13764,6 +14217,10 @@ cont {
   }
   element {
     scale: 17
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "vehicle_inspection-m"
       priority: 2400
@@ -13781,6 +14238,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "vehicle_inspection-m"
       priority: 2400
@@ -13798,6 +14259,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "vehicle_inspection-m"
       priority: 2400
@@ -13815,6 +14280,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "vehicle_inspection-m"
       priority: 2400
@@ -14654,7 +15123,39 @@ cont {
 cont {
   name: "amenity-waste_transfer_station"
   element {
+    scale: 13
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
     scale: 17
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "recycling-m"
       priority: 850
@@ -14662,6 +15163,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "recycling-m"
       priority: 850
@@ -14669,6 +15174,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "recycling-m"
       priority: 850
@@ -14685,6 +15194,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "recycling-m"
       priority: 850
@@ -21395,6 +21908,10 @@ cont {
   }
   element {
     scale: 13
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "hospital-s"
       priority: 3900
@@ -21411,6 +21928,10 @@ cont {
   }
   element {
     scale: 14
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "hospital-m"
       priority: 3900
@@ -21427,6 +21948,10 @@ cont {
   }
   element {
     scale: 15
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "hospital-m"
       priority: 3900
@@ -21443,6 +21968,10 @@ cont {
   }
   element {
     scale: 16
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "hospital-m"
       priority: 3900
@@ -21459,6 +21988,10 @@ cont {
   }
   element {
     scale: 17
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "hospital-m"
       priority: 3900
@@ -21475,6 +22008,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "hospital-m"
       priority: 3900
@@ -21491,6 +22028,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "hospital-m"
       priority: 3900
@@ -21507,6 +22048,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "hospital-m"
       priority: 3900
@@ -33429,7 +33974,18 @@ cont {
 cont {
   name: "highway-rest_area"
   element {
+    scale: 13
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
     scale: 14
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "picnic-m"
       priority: 3800
@@ -33437,6 +33993,10 @@ cont {
   }
   element {
     scale: 15
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "picnic-m"
       priority: 3800
@@ -33454,6 +34014,10 @@ cont {
   }
   element {
     scale: 16
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "picnic-m"
       priority: 3800
@@ -33470,6 +34034,10 @@ cont {
   }
   element {
     scale: 17
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "picnic-m"
       priority: 3800
@@ -33486,6 +34054,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "picnic-m"
       priority: 3800
@@ -33502,6 +34074,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "picnic-m"
       priority: 3800
@@ -33518,6 +34094,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "picnic-m"
       priority: 3800
@@ -36003,7 +36583,18 @@ cont {
 cont {
   name: "highway-services"
   element {
+    scale: 13
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
     scale: 14
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "car-repair-s"
       priority: 4250
@@ -36021,6 +36612,10 @@ cont {
   }
   element {
     scale: 15
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "car-repair-m"
       priority: 4250
@@ -36038,6 +36633,10 @@ cont {
   }
   element {
     scale: 16
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "car-repair-m"
       priority: 4250
@@ -36054,6 +36653,10 @@ cont {
   }
   element {
     scale: 17
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "car-repair-m"
       priority: 4250
@@ -36070,6 +36673,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "car-repair-m"
       priority: 4250
@@ -36086,6 +36693,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "car-repair-m"
       priority: 4250
@@ -36102,6 +36713,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "car-repair-m"
       priority: 4250
@@ -47669,6 +48284,20 @@ cont {
 cont {
   name: "landuse-construction"
   element {
+    scale: 13
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
     scale: 15
     area {
       color: 15066596
@@ -47755,6 +48384,20 @@ cont {
 }
 cont {
   name: "landuse-education"
+  element {
+    scale: 13
+    area {
+      color: 16113596
+      priority: -1970
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 16113596
+      priority: -1970
+    }
+  }
   element {
     scale: 15
     area {
@@ -49407,45 +50050,59 @@ cont {
 cont {
   name: "landuse-garages"
   element {
+    scale: 13
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
     scale: 15
     area {
-      color: 15066596
-      priority: 110
+      color: 16445409
+      priority: -1830
     }
   }
   element {
     scale: 16
     area {
-      color: 15066596
-      priority: 110
+      color: 16445409
+      priority: -1830
     }
   }
   element {
     scale: 17
     area {
-      color: 15066596
-      priority: 110
+      color: 16445409
+      priority: -1830
     }
   }
   element {
     scale: 18
     area {
-      color: 15066596
-      priority: 110
+      color: 16445409
+      priority: -1830
     }
   }
   element {
     scale: 19
     area {
-      color: 15066596
-      priority: 110
+      color: 16445409
+      priority: -1830
     }
   }
   element {
     scale: 20
     area {
-      color: 15066596
-      priority: 110
+      color: 16445409
+      priority: -1830
     }
   }
 }
@@ -49524,6 +50181,20 @@ cont {
 }
 cont {
   name: "landuse-industrial"
+  element {
+    scale: 13
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
   element {
     scale: 15
     area {
@@ -49611,6 +50282,20 @@ cont {
 }
 cont {
   name: "landuse-industrial-mine"
+  element {
+    scale: 13
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
   element {
     scale: 15
     area {
@@ -49734,6 +50419,20 @@ cont {
 }
 cont {
   name: "landuse-landfill"
+  element {
+    scale: 13
+    area {
+      color: 15066596
+      priority: -1780
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 15066596
+      priority: -1780
+    }
+  }
   element {
     scale: 15
     area {
@@ -50417,6 +51116,20 @@ cont {
 cont {
   name: "landuse-quarry"
   element {
+    scale: 13
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
     scale: 15
     area {
       color: 15066596
@@ -50539,6 +51252,20 @@ cont {
 }
 cont {
   name: "landuse-railway"
+  element {
+    scale: 13
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
   element {
     scale: 15
     area {
@@ -51819,7 +52546,18 @@ cont {
 cont {
   name: "leisure-dog_park"
   element {
+    scale: 15
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
     scale: 16
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "dog_park-m"
       priority: 2300
@@ -51837,6 +52575,10 @@ cont {
   }
   element {
     scale: 17
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "dog_park-m"
       priority: 2300
@@ -51854,6 +52596,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "dog_park-m"
       priority: 2300
@@ -51871,6 +52617,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "dog_park-m"
       priority: 2300
@@ -51888,6 +52638,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "dog_park-m"
       priority: 2300
@@ -52052,7 +52806,25 @@ cont {
 cont {
   name: "leisure-fitness_station"
   element {
+    scale: 15
+    area {
+      color: 13952918
+      priority: -1920
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 13952918
+      priority: -1920
+    }
+  }
+  element {
     scale: 17
+    area {
+      color: 13952918
+      priority: -1920
+    }
     symbol {
       name: "fitness_station-m"
       priority: 1500
@@ -52070,6 +52842,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 13952918
+      priority: -1920
+    }
     symbol {
       name: "fitness_station-m"
       priority: 1500
@@ -52087,6 +52863,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 13952918
+      priority: -1920
+    }
     symbol {
       name: "fitness_station-m"
       priority: 1500
@@ -52104,6 +52884,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 13952918
+      priority: -1920
+    }
     symbol {
       name: "fitness_station-m"
       priority: 1500
@@ -54629,6 +55413,20 @@ cont {
 cont {
   name: "leisure-resort"
   element {
+    scale: 13
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
     scale: 15
     area {
       color: 16445409
@@ -54862,6 +55660,20 @@ cont {
 cont {
   name: "leisure-sports_centre"
   element {
+    scale: 13
+    area {
+      color: 16117459
+      priority: -1810
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 16117459
+      priority: -1810
+    }
+  }
+  element {
     scale: 15
     area {
       color: 16117459
@@ -55035,6 +55847,10 @@ cont {
   name: "leisure-stadium"
   element {
     scale: 13
+    area {
+      color: 15263939
+      priority: -1750
+    }
     symbol {
       name: "stadium-s"
       priority: 5100
@@ -55052,6 +55868,10 @@ cont {
   }
   element {
     scale: 14
+    area {
+      color: 15263939
+      priority: -1750
+    }
     symbol {
       name: "stadium-s"
       priority: 5100
@@ -55612,7 +56432,32 @@ cont {
 cont {
   name: "leisure-water_park"
   element {
+    scale: 13
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
     scale: 16
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "swimming-m"
       priority: 5200
@@ -55630,6 +56475,10 @@ cont {
   }
   element {
     scale: 17
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "swimming-m"
       priority: 5200
@@ -55647,6 +56496,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "swimming-m"
       priority: 5200
@@ -55664,6 +56517,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "swimming-m"
       priority: 5200
@@ -55681,6 +56538,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "swimming-m"
       priority: 5200
@@ -58505,7 +59366,32 @@ cont {
 cont {
   name: "man_made-works"
   element {
+    scale: 13
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
     scale: 16
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "factory-m"
       priority: 700
@@ -58513,6 +59399,10 @@ cont {
   }
   element {
     scale: 17
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "factory-m"
       priority: 700
@@ -58529,6 +59419,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "factory-m"
       priority: 700
@@ -58545,6 +59439,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "factory-m"
       priority: 700
@@ -58561,6 +59459,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "factory-m"
       priority: 700
@@ -66179,7 +67081,25 @@ cont {
 cont {
   name: "office-diplomatic"
   element {
+    scale: 15
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 16445409
+      priority: -1830
+    }
+  }
+  element {
     scale: 17
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "embassy-m"
       priority: 500
@@ -66196,6 +67116,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "embassy-m"
       priority: 500
@@ -66212,6 +67136,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "embassy-m"
       priority: 500
@@ -66228,6 +67156,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 16445409
+      priority: -1830
+    }
     symbol {
       name: "embassy-m"
       priority: 500
@@ -74714,7 +75646,39 @@ cont {
 cont {
   name: "power-generator"
   element {
+    scale: 13
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
     scale: 17
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 120
@@ -74722,6 +75686,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 120
@@ -74729,6 +75697,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 120
@@ -74736,6 +75708,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 120
@@ -74745,7 +75721,39 @@ cont {
 cont {
   name: "power-generator-gas"
   element {
+    scale: 13
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
     scale: 17
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 120
@@ -74753,6 +75761,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 120
@@ -74760,6 +75772,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 120
@@ -74767,6 +75783,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 120
@@ -74776,7 +75796,39 @@ cont {
 cont {
   name: "power-generator-hydro"
   element {
+    scale: 13
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
     scale: 17
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 120
@@ -74784,6 +75836,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 120
@@ -74791,6 +75847,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 120
@@ -74798,6 +75858,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 120
@@ -74805,9 +75869,72 @@ cont {
   }
 }
 cont {
+  name: "power-generator-solar"
+  element {
+    scale: 13
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+}
+cont {
   name: "power-generator-wind"
   element {
     scale: 13
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "dot-m"
       priority: 120
@@ -74815,6 +75942,10 @@ cont {
   }
   element {
     scale: 14
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "dot-m"
       priority: 120
@@ -74822,6 +75953,10 @@ cont {
   }
   element {
     scale: 15
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "dot-m"
       priority: 120
@@ -74829,6 +75964,10 @@ cont {
   }
   element {
     scale: 16
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "wind_turbine-m"
       priority: 120
@@ -74845,6 +75984,10 @@ cont {
   }
   element {
     scale: 17
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "wind_turbine-m"
       priority: 120
@@ -74861,6 +76004,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "wind_turbine-m"
       priority: 120
@@ -74877,6 +76024,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "wind_turbine-m"
       priority: 120
@@ -74893,6 +76044,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "wind_turbine-m"
       priority: 120
@@ -75211,7 +76366,39 @@ cont {
 cont {
   name: "power-plant"
   element {
+    scale: 13
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
     scale: 17
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 230
@@ -75219,6 +76406,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 230
@@ -75226,6 +76417,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 230
@@ -75233,6 +76428,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 230
@@ -75242,7 +76441,39 @@ cont {
 cont {
   name: "power-plant-coal"
   element {
+    scale: 13
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
     scale: 17
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 230
@@ -75250,6 +76481,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 230
@@ -75257,6 +76492,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 230
@@ -75264,6 +76503,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 230
@@ -75273,7 +76516,39 @@ cont {
 cont {
   name: "power-plant-gas"
   element {
+    scale: 13
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
     scale: 17
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 230
@@ -75281,6 +76556,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 230
@@ -75288,6 +76567,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 230
@@ -75295,6 +76578,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 230
@@ -75304,7 +76591,39 @@ cont {
 cont {
   name: "power-plant-hydro"
   element {
+    scale: 13
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
     scale: 17
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 230
@@ -75312,6 +76631,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 230
@@ -75319,6 +76642,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 230
@@ -75326,6 +76653,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 230
@@ -75335,7 +76666,39 @@ cont {
 cont {
   name: "power-plant-solar"
   element {
+    scale: 13
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
     scale: 17
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 230
@@ -75343,6 +76706,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 230
@@ -75350,6 +76717,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 230
@@ -75357,6 +76728,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: 230
@@ -75367,6 +76742,10 @@ cont {
   name: "power-plant-wind"
   element {
     scale: 13
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power_plant_wind-m"
       priority: 230
@@ -75374,6 +76753,10 @@ cont {
   }
   element {
     scale: 14
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power_plant_wind-m"
       priority: 230
@@ -75381,6 +76764,10 @@ cont {
   }
   element {
     scale: 15
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power_plant_wind-m"
       priority: 230
@@ -75388,6 +76775,10 @@ cont {
   }
   element {
     scale: 16
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power_plant_wind-m"
       priority: 230
@@ -75404,6 +76795,10 @@ cont {
   }
   element {
     scale: 17
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power_plant_wind-m"
       priority: 230
@@ -75420,6 +76815,10 @@ cont {
   }
   element {
     scale: 18
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power_plant_wind-m"
       priority: 230
@@ -75436,6 +76835,10 @@ cont {
   }
   element {
     scale: 19
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power_plant_wind-m"
       priority: 230
@@ -75452,6 +76855,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power_plant_wind-m"
       priority: 230
@@ -75582,7 +76989,53 @@ cont {
 cont {
   name: "power-substation"
   element {
+    scale: 13
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 15066596
+      priority: -1950
+    }
+  }
+  element {
     scale: 19
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: -9990
@@ -75599,6 +77052,10 @@ cont {
   }
   element {
     scale: 20
+    area {
+      color: 15066596
+      priority: -1950
+    }
     symbol {
       name: "power-m"
       priority: -9990
@@ -130205,7 +131662,7 @@ cont {
   element {
     scale: 13
     area {
-      color: 16577510
+      color: 16445409
       priority: -1830
     }
     symbol {
@@ -130226,7 +131683,7 @@ cont {
   element {
     scale: 14
     area {
-      color: 16577510
+      color: 16445409
       priority: -1830
     }
     symbol {
@@ -130247,7 +131704,7 @@ cont {
   element {
     scale: 15
     area {
-      color: 16577510
+      color: 16445409
       priority: -1830
     }
     symbol {
@@ -130268,7 +131725,7 @@ cont {
   element {
     scale: 16
     area {
-      color: 16577510
+      color: 16445409
       priority: -1830
     }
     symbol {
@@ -130288,7 +131745,7 @@ cont {
   element {
     scale: 17
     area {
-      color: 16577510
+      color: 16445409
       priority: -1830
     }
     symbol {
@@ -130308,7 +131765,7 @@ cont {
   element {
     scale: 18
     area {
-      color: 16577510
+      color: 16445409
       priority: -1830
     }
     symbol {
@@ -130328,7 +131785,7 @@ cont {
   element {
     scale: 19
     area {
-      color: 16577510
+      color: 16445409
       priority: -1830
     }
     symbol {
@@ -130348,7 +131805,7 @@ cont {
   element {
     scale: 20
     area {
-      color: 16577510
+      color: 16445409
       priority: -1830
     }
     symbol {
