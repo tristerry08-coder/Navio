@@ -138,37 +138,37 @@ import OSMEditor
     
     /// Reload the OpenStreetMap profile
     static func reload() async {
-        // Could be done in nicer way, but that would require iOS 17+
-        await withCheckedContinuation { continuation in
-            let networkPathMonitor: NWPathMonitor = NWPathMonitor()
-            networkPathMonitor.pathUpdateHandler = { path in
-                Task {
-                    if path.status != .unsatisfied {
-                        let userDefaults = UserDefaults.standard
-                        if let userPreferences = await reloadUserPreferences() {
-                            userDefaults.set(String(describing: userPreferences.m_displayName), forKey: userDefaultsKeyName)
-                            userDefaults.set(Int(userPreferences.m_changesets), forKey: userDefaultsKeyNumberOfEdits)
-                        } else if path.status == .satisfied {
-                            userDefaults.set(true, forKey: userDefaultsNeedsReauthorization)
+        if isExisting {
+            // Could be done in nicer way, but that would require iOS 17+
+            await withCheckedContinuation { continuation in
+                let networkPathMonitor: NWPathMonitor = NWPathMonitor()
+                networkPathMonitor.pathUpdateHandler = { path in
+                    Task {
+                        if path.status != .unsatisfied {
+                            let userDefaults = UserDefaults.standard
+                            if let userPreferences = await reloadUserPreferences() {
+                                userDefaults.set(String(describing: userPreferences.m_displayName), forKey: userDefaultsKeyName)
+                                userDefaults.set(Int(userPreferences.m_changesets), forKey: userDefaultsKeyNumberOfEdits)
+                            } else if path.status == .satisfied {
+                                userDefaults.set(true, forKey: userDefaultsNeedsReauthorization)
+                            }
                         }
+                        networkPathMonitor.cancel()
+                        continuation.resume()
                     }
-                    networkPathMonitor.cancel()
-                    continuation.resume()
                 }
+                networkPathMonitor.start(queue: .main)
             }
-            networkPathMonitor.start(queue: .main)
         }
     }
     
     
     /// Logout of the OpenStreetMap profile
     static func logout() {
-        if isExisting {
-            let userDefaults = UserDefaults.standard
-            userDefaults.removeObject(forKey: userDefaultsKeyAuthorizationToken)
-            userDefaults.removeObject(forKey: userDefaultsKeyName)
-            userDefaults.removeObject(forKey: userDefaultsKeyNumberOfEdits)
-            userDefaults.removeObject(forKey: userDefaultsNeedsReauthorization)
-        }
+        let userDefaults = UserDefaults.standard
+        userDefaults.removeObject(forKey: userDefaultsKeyAuthorizationToken)
+        userDefaults.removeObject(forKey: userDefaultsKeyName)
+        userDefaults.removeObject(forKey: userDefaultsKeyNumberOfEdits)
+        userDefaults.removeObject(forKey: userDefaultsNeedsReauthorization)
     }
 }
