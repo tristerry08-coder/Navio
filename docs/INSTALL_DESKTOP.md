@@ -169,18 +169,18 @@ tools/unix/build_omim.sh -d help
 
 The generated binaries appear in `../omim-build-<buildtype>`.
 
-A desktop app binary is `OMaps`. To run e.g. a release version:
+A desktop app binary is `CoMaps`. To run e.g. a release version:
 
 _Linux:_
 
 ```bash
-../omim-build-release/OMaps
+../omim-build-release/CoMaps
 ```
 
 _macOS:_
 
 ```bash
-../omim-build-release/OMaps.app/Contents/MacOS/OMaps
+../omim-build-release/CoMaps.app/Contents/MacOS/CoMaps
 ```
 
 ### Testing
@@ -269,12 +269,12 @@ There are also other commands for turning on/off isolines, anti-aliasing, etc. C
 To make the desktop app display maps in a different language add a `-lang` option, e.g. for the Russian language:
 
 ```bash
-../omim-build-release/OMaps -lang ru
+../omim-build-release/CoMaps -lang ru
 ```
 
-By default `OMaps` expects a repository's `data` folder to be present in the current working directory, add a `-data_path` option to override it.
+By default `CoMaps` expects a repository's `data` folder to be present in the current working directory, add a `-data_path` option to override it.
 
-Check `OMaps -help` for a list of all run-time options.
+Check `CoMaps -help` for a list of all run-time options.
 
 When running the desktop app with lots of maps, increase the open files limit. In MacOS the default value is only 256.
 Use `ulimit -n 2000`, put it into `~/.bash_profile` to apply it to all new sessions.
