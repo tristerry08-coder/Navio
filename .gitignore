@@ -14,10 +14,10 @@ stxxl.errlog
 stxxl.log
 screenlog.0
 
-data/resources-*_design
+data/symbols/*/design/
 # symbols png/sdf are now generated at build
-data/resources-*_*/symbols.png
-data/resources-*_*/symbols.sdf
+data/symbols/**/symbols.png
+data/symbols/**/symbols.sdf
 data/colors_design.txt
 data/patterns_design.txt
 data/bookmarks
