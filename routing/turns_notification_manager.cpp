@@ -77,9 +77,12 @@ std::string NotificationManager::GenerateTurnText(uint32_t distanceUnits, uint8_
 {
   auto const lengthUnits = m_settings.GetLengthUnits();
 
-  if (turn.m_turn != CarDirection::None)
+  if (turn.m_turn != CarDirection::None && turn.m_turn != CarDirection::EnterRoundAbout)
     return m_getTtsText.GetTurnNotification(
         {distanceUnits, exitNum, useThenInsteadOfDistance, turn.m_turn, lengthUnits, nextStreetInfo});
+  else if (turn.m_turn == CarDirection::EnterRoundAbout) // Don't include roundabout street name in TTS
+    return m_getTtsText.GetTurnNotification(
+        {distanceUnits, exitNum, useThenInsteadOfDistance, turn.m_turn, lengthUnits});
 
   return m_getTtsText.GetTurnNotification({distanceUnits, exitNum, useThenInsteadOfDistance, turn.m_pedestrianTurn, lengthUnits, nextStreetInfo});
 }
@@ -133,9 +136,9 @@ void NotificationManager::GenerateTurnNotifications(std::vector<TurnItemDist> co
     return;
   }
 
-  if (distBetweenTurnsMeters < kDistanceNotifyThresholdM)
+  if ((distBetweenTurnsMeters < kDistanceNotifyThresholdM) || IsClassicEntranceToRoundabout(firstTurn, secondTurn))
   {
-    // distanceUnits is not used because of "Then" is used
+    // distanceUnits is not used because "Then" is used
     distBetweenTurnsMeters = 0;
   }
 
