@@ -8,6 +8,10 @@ import Combine
     static private let userDefaultsKeyHasShownSyncBetaAlert = "kUDDidShowICloudSynchronizationEnablingAlert"
     
     
+    /// Key for storing the type of action used for the bottom left main interface button in the user defaults
+    static private let userDefaultsKeyLeftButtonType = "LeftButtonType"
+    
+    
     /// The current distance unit
     static var distanceUnit: DistanceUnit {
         get {
@@ -34,6 +38,21 @@ import Combine
         }
         set {
             SettingsBridge.setZoomButtonsEnabled(newValue)
+        }
+    }
+    
+    
+    /// The type of action used for the bottom left main interface button
+    static var leftButtonType: LeftButtonType {
+        get {
+            if let leftButtonTypeRawValue = UserDefaults.standard.string(forKey: userDefaultsKeyLeftButtonType), let leftButtonType = LeftButtonType(rawValue: leftButtonTypeRawValue) {
+                return leftButtonType
+            }
+            
+            return .help
+        }
+        set {
+            UserDefaults.standard.set(newValue.rawValue, forKey: userDefaultsKeyLeftButtonType)
         }
     }
     
@@ -287,7 +306,7 @@ import Combine
             return RoutingOptions().avoidToll
         }
         set {
-            var routingOptions = RoutingOptions()
+            let routingOptions = RoutingOptions()
             routingOptions.avoidToll = newValue
             routingOptions.save()
         }
@@ -300,7 +319,7 @@ import Combine
             return RoutingOptions().avoidDirty
         }
         set {
-            var routingOptions = RoutingOptions()
+            let routingOptions = RoutingOptions()
             routingOptions.avoidDirty = newValue
             routingOptions.save()
         }
@@ -313,7 +332,7 @@ import Combine
             return RoutingOptions().avoidFerry
         }
         set {
-            var routingOptions = RoutingOptions()
+            let routingOptions = RoutingOptions()
             routingOptions.avoidFerry = newValue
             routingOptions.save()
         }
@@ -326,7 +345,7 @@ import Combine
             return RoutingOptions().avoidMotorway
         }
         set {
-            var routingOptions = RoutingOptions()
+            let routingOptions = RoutingOptions()
             routingOptions.avoidMotorway = newValue
             routingOptions.save()
         }

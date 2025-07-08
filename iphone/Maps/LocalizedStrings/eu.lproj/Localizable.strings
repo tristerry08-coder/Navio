@@ -200,6 +200,7 @@
 "share_my_location" = "Partekatu nire kokapena";
 "prefs_group_route" = "Nabigazioa";
 "pref_zoom_title" = "Zoom botoiak";
+"pref_left_button_type" = "Left Main Button";
 
 /* Settings «Map» category: «Appearance» title */
 "pref_appearance_title" = "Itxura";
@@ -209,6 +210,9 @@
 
 /* Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. */
 "pref_appearance_dark" = "Iluna";
+
+/* Generic «Disabled» string */
+"disabled" = "Disabled";
 
 /* Generic «Off» string */
 "off" = "Desgaituta";

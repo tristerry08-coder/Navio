@@ -200,6 +200,7 @@
 "share_my_location" = "Compartilhar a minha localização";
 "prefs_group_route" = "Navegação";
 "pref_zoom_title" = "Botões de zoom";
+"pref_left_button_type" = "Left Main Button";
 
 /* Settings «Map» category: «Appearance» title */
 "pref_appearance_title" = "Aparência";
@@ -209,6 +210,9 @@
 
 /* Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. */
 "pref_appearance_dark" = "Escura";
+
+/* Generic «Disabled» string */
+"disabled" = "Disabled";
 
 /* Generic «Off» string */
 "off" = "Desligado";

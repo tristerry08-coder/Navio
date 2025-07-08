@@ -16,6 +16,10 @@ struct SettingsView: View {
     @State private var hasZoomButtons: Bool = true
     
     
+    /// The selected left button type
+    @State private var selectedLeftButtonType: Settings.LeftButtonType = .help
+    
+    
     /// If 3D buildings should be displayed
     @State private var has3dBuildings: Bool = true
     
@@ -99,6 +103,14 @@ struct SettingsView: View {
                     
                     Toggle("pref_zoom_title", isOn: $hasZoomButtons)
                         .tint(.accent)
+                    
+                    Picker(selection: $selectedLeftButtonType) {
+                        ForEach(Settings.LeftButtonType.allCases) { leftButtonType in
+                            Text(leftButtonType.description)
+                        }
+                    } label: {
+                        Text("pref_left_button_type")
+                    }
                     
                     Toggle(isOn: $has3dBuildings) {
                         VStack(alignment: .leading) {
@@ -239,6 +251,7 @@ struct SettingsView: View {
         .onAppear {
             selectedDistanceUnit = Settings.distanceUnit
             hasZoomButtons = Settings.hasZoomButtons
+            selectedLeftButtonType = Settings.leftButtonType
             has3dBuildings = Settings.has3dBuildings
             hasAutomaticDownload = Settings.hasAutomaticDownload
             hasIncreasedFontsize = Settings.hasIncreasedFontsize
@@ -255,6 +268,9 @@ struct SettingsView: View {
         }
         .onChange(of: hasZoomButtons) { changedHasZoomButtons in
             Settings.hasZoomButtons = changedHasZoomButtons
+        }
+        .onChange(of: selectedLeftButtonType) { changedSelectedLeftButtonType in
+            Settings.leftButtonType = changedSelectedLeftButtonType
         }
         .onChange(of: has3dBuildings) { changedHas3dBuildings in
             Settings.has3dBuildings = changedHas3dBuildings

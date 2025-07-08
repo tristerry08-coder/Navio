@@ -199,6 +199,7 @@
 "share_my_location" = "내 위치 공유";
 "prefs_group_route" = "내비게이션";
 "pref_zoom_title" = "확대/축소 버튼";
+"pref_left_button_type" = "Left Main Button";
 
 /* Settings «Map» category: «Appearance» title */
 "pref_appearance_title" = "모양";
@@ -208,6 +209,9 @@
 
 /* Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. */
 "pref_appearance_dark" = "다크";
+
+/* Generic «Disabled» string */
+"disabled" = "Disabled";
 
 /* Generic «Off» string */
 "off" = "끄기";

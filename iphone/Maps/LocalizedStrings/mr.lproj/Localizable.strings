@@ -200,6 +200,7 @@
 "share_my_location" = "माझे स्थान सामायिक करा";
 "prefs_group_route" = "मार्गनिर्देशन";
 "pref_zoom_title" = "झूम बटणे";
+"pref_left_button_type" = "Left Main Button";
 
 /* Settings «Map» category: «Appearance» title */
 "pref_appearance_title" = "दर्शनी रूप";
@@ -209,6 +210,9 @@
 
 /* Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. */
 "pref_appearance_dark" = "अंधार";
+
+/* Generic «Disabled» string */
+"disabled" = "Disabled";
 
 /* Generic «Off» string */
 "off" = "बंद";

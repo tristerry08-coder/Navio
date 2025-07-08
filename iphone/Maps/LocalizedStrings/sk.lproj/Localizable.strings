@@ -200,6 +200,7 @@
 "share_my_location" = "Zdieľať moje umiestnenie";
 "prefs_group_route" = "Navigácia";
 "pref_zoom_title" = "Tlačidlá priblíženia/oddialenia";
+"pref_left_button_type" = "Left Main Button";
 
 /* Settings «Map» category: «Appearance» title */
 "pref_appearance_title" = "Vzhľad";
@@ -209,6 +210,9 @@
 
 /* Settings "Appearance" category: "Dark" title, should be consistent with the pref_appearance_title translation. */
 "pref_appearance_dark" = "Tmavý";
+
+/* Generic «Disabled» string */
+"disabled" = "Disabled";
 
 /* Generic «Off» string */
 "off" = "Vypnúť";
