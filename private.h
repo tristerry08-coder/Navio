@@ -6,7 +6,7 @@
 #define MWM_GEOLOCATION_SERVER ""
 #define DIFF_LIST_URL ""
 #define METASERVER_URL "https://cdn-us-1.comaps.app/servers"
-#define DEFAULT_URLS_JSON "[ \"https://cdn-us-2.comaps.tech/\", \"https://cdn-fi-1.comaps.app/\", \"https://comaps-cdn.s3-website.cloud.ru/\" ]"
+#define DEFAULT_URLS_JSON "[ \"https://cdn-us-2.comaps.tech/\", \"https://comaps.firewall-gateway.de/\", \"https://cdn-us-1.comaps.app/\", \"https://cdn-fi-1.comaps.app/\", \"https://comaps-cdn.s3-website.cloud.ru/\" ]"
 #define DEFAULT_CONNECTION_CHECK_IP "151.101.195.52"  // For now the IP of comaps.app (Fastly CDN)
 #define TRAFFIC_DATA_BASE_URL ""
 #define USER_BINDING_PKCS12 ""
