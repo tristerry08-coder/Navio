@@ -120,7 +120,9 @@
 				45E4557E205849A600D9F45E /* Products */,
 				45E4560220584E1C00D9F45E /* Frameworks */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		45E4557E205849A600D9F45E /* Products */ = {
 			isa = PBXGroup;

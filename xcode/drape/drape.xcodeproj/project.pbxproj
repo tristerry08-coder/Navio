@@ -363,7 +363,9 @@
 				6729A4F31A691F6A007D5872 /* drape */,
 				6729A4F21A691F6A007D5872 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		6729A4F21A691F6A007D5872 /* Products */ = {
 			isa = PBXGroup;

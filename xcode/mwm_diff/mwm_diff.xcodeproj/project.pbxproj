@@ -38,7 +38,9 @@
 				4586D0D41F48130600DF9CE5 /* mwm_diff */,
 				4586D0D31F48130600DF9CE5 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		4586D0D31F48130600DF9CE5 /* Products */ = {
 			isa = PBXGroup;

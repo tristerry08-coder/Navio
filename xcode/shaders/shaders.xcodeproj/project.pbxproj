@@ -223,7 +223,9 @@
 				4566607A20E2546C0085E8C1 /* shaders */,
 				456660DB20E25A390085E8C1 /* shaders_tests */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		4566606F20E254060085E8C1 /* Products */ = {
 			isa = PBXGroup;

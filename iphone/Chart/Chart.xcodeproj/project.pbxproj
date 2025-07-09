@@ -93,7 +93,9 @@
 				47375D982420D4DB00FFCC49 /* Chart */,
 				47375D972420D4DB00FFCC49 /* Products */,
 			);
+			indentWidth = 4;
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		47375D972420D4DB00FFCC49 /* Products */ = {
 			isa = PBXGroup;

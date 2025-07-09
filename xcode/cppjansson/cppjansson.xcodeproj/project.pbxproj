@@ -56,7 +56,9 @@
 				71407E7A294CB3E800FBD9A4 /* cppjansson */,
 				71407E58294C9FD000FBD9A4 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		71407E58294C9FD000FBD9A4 /* Products */ = {
 			isa = PBXGroup;
@@ -157,9 +159,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 71407E71294CB35000FBD9A4 /* common-debug.xcconfig */;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-                );
+				HEADER_SEARCH_PATHS = "$(inherited)";
 			};
 			name = Debug;
 		};
@@ -167,9 +167,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 71407E74294CB37700FBD9A4 /* common-release.xcconfig */;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-                );
+				HEADER_SEARCH_PATHS = "$(inherited)";
 			};
 			name = Release;
 		};

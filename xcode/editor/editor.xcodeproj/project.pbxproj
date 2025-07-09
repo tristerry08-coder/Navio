@@ -206,7 +206,9 @@
 				3496ABEA1DC2041800C5DDBA /* Frameworks */,
 				3411386C1C15AD97002E3B3E /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		3411386C1C15AD97002E3B3E /* Products */ = {
 			isa = PBXGroup;

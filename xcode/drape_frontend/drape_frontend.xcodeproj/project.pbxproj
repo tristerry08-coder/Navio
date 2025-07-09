@@ -443,7 +443,9 @@
 				670947411BDF9B99005014C0 /* drape_frontend */,
 				6709473B1BDF9B82005014C0 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		6709473B1BDF9B82005014C0 /* Products */ = {
 			isa = PBXGroup;

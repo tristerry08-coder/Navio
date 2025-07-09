@@ -97,7 +97,9 @@
 				67BECB4B1DDA43AF00FC4E99 /* Products */,
 				67BECB831DDA474400FC4E99 /* Frameworks */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		67BECB4B1DDA43AF00FC4E99 /* Products */ = {
 			isa = PBXGroup;

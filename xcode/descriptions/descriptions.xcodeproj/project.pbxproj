@@ -42,7 +42,9 @@
 				BBD4571421A6BD0400B0A79C /* descriptions */,
 				BBD4571321A6BD0300B0A79C /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		BBD4571321A6BD0300B0A79C /* Products */ = {
 			isa = PBXGroup;

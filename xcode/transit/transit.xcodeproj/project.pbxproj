@@ -64,7 +64,9 @@
 				56D7F2F51FE7F0F200D99E62 /* Products */,
 				56D7F2F61FE7F0F200D99E62 /* transit */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		56D7F2F51FE7F0F200D99E62 /* Products */ = {
 			isa = PBXGroup;

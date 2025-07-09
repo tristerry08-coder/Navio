@@ -67,7 +67,9 @@
 				47A13C6724B4A86000027D4F /* DatePicker */,
 				47A13C6624B4A86000027D4F /* Products */,
 			);
+			indentWidth = 4;
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		47A13C6624B4A86000027D4F /* Products */ = {
 			isa = PBXGroup;

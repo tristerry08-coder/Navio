@@ -325,7 +325,9 @@
 				675342E11A3F59EF00A0A8C3 /* Products */,
 				34F5584C1DBF327C00A4FC11 /* Frameworks */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		675342E11A3F59EF00A0A8C3 /* Products */ = {
 			isa = PBXGroup;

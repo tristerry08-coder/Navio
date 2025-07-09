@@ -209,7 +209,7 @@
 		ED965B122CD67A9B0049E39E /* AltitudeFormatter.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AltitudeFormatter.mm; sourceTree = "<group>"; };
 		ED965B202CD8F5AA0049E39E /* DurationFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DurationFormatter.h; sourceTree = "<group>"; };
 		ED965B212CD8F5AA0049E39E /* DurationFormatter.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DurationFormatter.mm; sourceTree = "<group>"; };
-		ED965B282CDA159C0049E39E /* DateTimeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeFormatter.swift; sourceTree = "<group>"; };
+		ED965B282CDA159C0049E39E /* DateTimeFormatter.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = DateTimeFormatter.swift; sourceTree = "<group>"; tabWidth = 4; };
 		EDC4E34E2C5D222D009286A2 /* RecentlyDeletedCategory.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RecentlyDeletedCategory.mm; sourceTree = "<group>"; };
 		EDC4E34F2C5D222D009286A2 /* RecentlyDeletedCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentlyDeletedCategory.h; sourceTree = "<group>"; };
 		EDC4E3502C5D222D009286A2 /* RecentlyDeletedCategory+Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RecentlyDeletedCategory+Core.h"; sourceTree = "<group>"; };
@@ -237,7 +237,9 @@
 				470015F02342509C00EBF03D /* Products */,
 				4700161123425CFC00EBF03D /* Frameworks */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		470015F02342509C00EBF03D /* Products */ = {
 			isa = PBXGroup;
@@ -581,7 +583,7 @@
 				BuildIndependentTargetsInParallel = YES;
 				DefaultBuildSystemTypeForWorkspace = Latest;
 				LastUpgradeCheck = 1510;
-				ORGANIZATIONNAME = "CoMaps";
+				ORGANIZATIONNAME = CoMaps;
 				TargetAttributes = {
 					470015EE2342509C00EBF03D = {
 						CreatedOnToolsVersion = 10.2;

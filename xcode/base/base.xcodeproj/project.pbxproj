@@ -384,7 +384,9 @@
 				39FD26C71CC659D200AFF551 /* base_tests */,
 				675341781A3F57BF00A0A8C3 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		675341781A3F57BF00A0A8C3 /* Products */ = {
 			isa = PBXGroup;

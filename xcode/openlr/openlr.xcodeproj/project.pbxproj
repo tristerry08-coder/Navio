@@ -98,7 +98,9 @@
 				671E78F51E6A4FE400B2859B /* openlr */,
 				671E78F41E6A4FE400B2859B /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		671E78F41E6A4FE400B2859B /* Products */ = {
 			isa = PBXGroup;
