@@ -1,10 +1,13 @@
-import SwiftUI
 import SafariServices
-
+import SwiftUI
 
 /// View for Safari via a Safari view controller
 struct SafariView: UIViewControllerRepresentable {
     // MARK: Properties
+    
+    /// The notification name for dismissing this view
+    static let dismissNotificationName: Notification.Name = Notification.Name(rawValue: "DismissSafariView")
+    
     
     /// The url
     let url: URL
@@ -24,7 +27,7 @@ struct SafariView: UIViewControllerRepresentable {
         let safariViewControllerConfiguration = SFSafariViewController.Configuration()
         safariViewControllerConfiguration.activityButton = nil
         safariViewControllerConfiguration.barCollapsingEnabled = true
-
+        
         let safariViewController = SFSafariViewController(url: url, configuration: safariViewControllerConfiguration)
         safariViewController.preferredBarTintColor = UIColor.accent
         safariViewController.preferredControlTintColor = UIColor.white

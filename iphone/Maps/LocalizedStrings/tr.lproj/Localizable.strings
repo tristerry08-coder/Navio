@@ -229,7 +229,10 @@
 "pref_map_3d_buildings_disabled_summary" = "3B yapılar güç tutum kipindeyken kapatılır";
 
 /* Settings «Route» category: «Tts enabled» title */
-"pref_tts_enable_title" = "Sesli Yönlendirme";
+"pref_tts_title" = "Sesli Yönlendirme";
+
+/* Settings «Route» category: «Tts enable» title */
+"pref_tts_enable_title" = "Enable Voice Instructions";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "Sokak Adlarını Söyle";
@@ -1003,6 +1006,9 @@
 
 /* Message for the bug report alert. */
 "bugreport_alert_message" = "Geliştiricilere bir hata raporu göndermek ister misiniz?\nCoMaps otomatik olarak herhangi bir hata bilgisi toplamadığı için bu konuda kullanıcılarımıza güveniyoruz. CoMaps'i desteklediğiniz için şimdiden teşekkür ederiz!";
+
+/* Title for the iCloud syncronization setting */
+"icloud_sync" = "iCloud Syncronization (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "iCloud Senkronizasyonunu Etkinleştir";

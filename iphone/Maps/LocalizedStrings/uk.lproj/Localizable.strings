@@ -229,7 +229,10 @@
 "pref_map_3d_buildings_disabled_summary" = "3D будівлі вимкнені в режимі енергозбереження";
 
 /* Settings «Route» category: «Tts enabled» title */
-"pref_tts_enable_title" = "Голосові інструкції";
+"pref_tts_title" = "Голосові інструкції";
+
+/* Settings «Route» category: «Tts enable» title */
+"pref_tts_enable_title" = "Enable Voice Instructions";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "Проговорювати назви вулиць";
@@ -1003,6 +1006,9 @@
 
 /* Message for the bug report alert. */
 "bugreport_alert_message" = "Бажаєте надіслати розробникам звіт про помилку?\nМи покладаємося на наших користувачів, оскільки CoMaps не збирає інформацію про помилки автоматично. Заздалегідь дякуємо за підтримку CoMaps!";
+
+/* Title for the iCloud syncronization setting */
+"icloud_sync" = "iCloud Syncronization (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Увімкнути синхронізацію з iCloud";

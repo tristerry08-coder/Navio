@@ -229,7 +229,10 @@
 "pref_map_3d_buildings_disabled_summary" = "3D binalar enerjiyə qənaət rejimində söndürülür";
 
 /* Settings «Route» category: «Tts enabled» title */
-"pref_tts_enable_title" = "Səsli təlimatlar";
+"pref_tts_title" = "Səsli təlimatlar";
+
+/* Settings «Route» category: «Tts enable» title */
+"pref_tts_enable_title" = "Enable Voice Instructions";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "Küçə adlarını elan edin";
@@ -979,6 +982,9 @@
 
 /* Message for the bug report alert. */
 "bugreport_alert_message" = "Tərtibatçılara səhv hesabatı göndərmək istərdinizmi?\nCoMaps heç bir səhv məlumatını avtomatik toplamadığından istifadəçilərimizə etibar edirik. CoMaps dəstəklədiyiniz üçün əvvəlcədən təşəkkür edirik!";
+
+/* Title for the iCloud syncronization setting */
+"icloud_sync" = "iCloud Syncronization (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "iCloud Sinxronizasiyasını aktivləşdirin";

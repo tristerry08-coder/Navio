@@ -6,6 +6,8 @@
 #include <CoreApi/Framework.h>
 #include <CoreApi/Logger.h>
 
+using namespace power_management;
+
 namespace
 {
 char const * kAutoDownloadEnabledKey = "AutoDownloadEnabled";
@@ -23,6 +25,57 @@ NSString * const kUDFileLoggingEnabledKey = @"FileLoggingEnabledKey";
 }  // namespace
 
 @implementation MWMSettings
+
++ (BOOL)buildings3dViewEnabled;
+{
+  bool _ = true, on = true;
+  GetFramework().Load3dMode(_, on);
+  if (GetFramework().GetPowerManager().GetScheme() == power_management::Scheme::EconomyMaximum) {
+    return false;
+  } else {
+    return on;
+  }
+}
+
++ (void)setBuildings3dViewEnabled:(BOOL)buildings3dViewEnabled;
+{
+  auto &f = GetFramework();
+  bool _ = true, is3dBuildings = true;
+  f.Load3dMode(_, is3dBuildings);
+  is3dBuildings = static_cast<bool>(buildings3dViewEnabled);
+  f.Save3dMode(_, is3dBuildings);
+  f.Allow3dMode(_, is3dBuildings);
+}
+
++ (BOOL)perspectiveViewEnabled;
+{
+  bool _ = true, on = true;
+  auto &f = GetFramework();
+  f.Load3dMode(on, _);
+  return on;
+}
+
++ (void)setPerspectiveViewEnabled:(BOOL)perspectiveViewEnabled;
+{
+  auto &f = GetFramework();
+  bool is3d = true, _ = true;
+  f.Load3dMode(is3d, _);
+  is3d = static_cast<bool>(perspectiveViewEnabled);
+  f.Save3dMode(is3d, _);
+  f.Allow3dMode(is3d, _);
+}
+
++ (BOOL)autoZoomEnabled
+{
+  return GetFramework().LoadAutoZoom();
+}
+
++ (void)setAutoZoomEnabled:(BOOL)autoZoomEnabled
+{
+  auto &f = GetFramework();
+  f.AllowAutoZoom(autoZoomEnabled);
+  f.SaveAutoZoom(autoZoomEnabled);
+}
 
 + (BOOL)autoDownloadEnabled
 {
@@ -99,6 +152,29 @@ NSString * const kUDFileLoggingEnabledKey = @"FileLoggingEnabledKey";
   BOOL const autoOff = theme != MWMThemeAuto;
   [ud setBool:autoOff forKey:kUDAutoNightModeOff];
   [MWMThemeManager invalidate];
+}
+
++ (NSInteger)powerManagement
+{
+  Scheme scheme = GetFramework().GetPowerManager().GetScheme();
+  if (scheme == Scheme::EconomyMaximum) {
+    return 2;
+  } else if (scheme == Scheme::Auto) {
+    return 1;
+  }
+
+  return 0;
+}
+
++ (void)setPowerManagement:(NSInteger)powerManagement
+{
+  Scheme scheme = Scheme::Normal;
+  if (powerManagement == 2) {
+    scheme = Scheme::EconomyMaximum;
+  } else if (powerManagement == 1) {
+    scheme = Scheme::Auto;
+  }
+  GetFramework().GetPowerManager().SetScheme(scheme);
 }
 
 + (BOOL)routingDisclaimerApproved
@@ -183,6 +259,12 @@ NSString * const kUDFileLoggingEnabledKey = @"FileLoggingEnabledKey";
 + (void)setFileLoggingEnabled:(BOOL)fileLoggingEnabled {
   [NSUserDefaults.standardUserDefaults setBool:fileLoggingEnabled forKey:kUDFileLoggingEnabledKey];
   [Logger setFileLoggingEnabled:fileLoggingEnabled];
+}
+
++ (NSInteger)logFileSize
+{
+  uint64_t logFileSize = [Logger getLogFileSize];
+  return logFileSize;
 }
 
 @end

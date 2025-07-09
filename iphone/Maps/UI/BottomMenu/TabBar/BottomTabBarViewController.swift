@@ -36,7 +36,7 @@ class BottomTabBarViewController: UIViewController {
   
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
-    if Settings.isNY() {
+    if SettingsBridge.isNY() {
       helpButton.setTitle("🎄", for: .normal)
       helpButton.setImage(nil, for: .normal)
     }

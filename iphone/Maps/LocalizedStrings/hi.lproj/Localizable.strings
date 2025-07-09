@@ -229,7 +229,10 @@
 "pref_map_3d_buildings_disabled_summary" = "3डी इमारतें बिजली बचत मोड में अक्षम हैं";
 
 /* Settings «Route» category: «Tts enabled» title */
-"pref_tts_enable_title" = "ध्वनि निर्देश";
+"pref_tts_title" = "ध्वनि निर्देश";
+
+/* Settings «Route» category: «Tts enable» title */
+"pref_tts_enable_title" = "Enable Voice Instructions";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "सड़कों के नाम की घोषणा करें";
@@ -1003,6 +1006,9 @@
 
 /* Message for the bug report alert. */
 "bugreport_alert_message" = "क्या आप डेवलपर्स को बग रिपोर्ट भेजना चाहेंगे?\nहम अपने उपयोगकर्ताओं पर भरोसा करते हैं क्योंकि CoMaps स्वचालित रूप से कोई त्रुटि जानकारी एकत्र नहीं करता है। CoMaps का समर्थन करने के लिए अग्रिम धन्यवाद!";
+
+/* Title for the iCloud syncronization setting */
+"icloud_sync" = "iCloud Syncronization (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "iCloud सिंक्रोनाइज़ेशन सक्षम करें";

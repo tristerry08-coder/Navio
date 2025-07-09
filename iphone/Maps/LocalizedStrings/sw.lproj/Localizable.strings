@@ -219,7 +219,10 @@
 "pref_map_3d_buildings_disabled_summary" = "Majengo ya 3D yamezimwa katika hali ya kuokoa nishati";
 
 /* Settings «Route» category: «Tts enabled» title */
-"pref_tts_enable_title" = "Tangaza Majina ya Mitaa";
+"pref_tts_title" = "Tangaza Majina ya Mitaa";
+
+/* Settings «Route» category: «Tts enable» title */
+"pref_tts_enable_title" = "Enable Voice Instructions";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "Tangaza Majina ya Mitaa";
@@ -993,6 +996,9 @@
 
 /* Message for the bug report alert. */
 "bugreport_alert_message" = "Je, ungependa kutuma ripoti ya hitilafu kwa wasanidi programu?\nTunategemea watumiaji wetu kwani CoMaps hazikusanyi maelezo yoyote ya hitilafu kiotomatiki. Asante mapema kwa kusaidia CoMaps!";
+
+/* Title for the iCloud syncronization setting */
+"icloud_sync" = "iCloud Syncronization (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Washa Usawazishaji wa iCloud";

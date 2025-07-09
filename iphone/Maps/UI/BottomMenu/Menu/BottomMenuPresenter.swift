@@ -32,7 +32,7 @@ class BottomMenuPresenter: NSObject {
     self.view = view
     self.interactor = interactor
     self.sections = sections
-    let disableDonate = Settings.donateUrl() == nil
+    let disableDonate = SettingsBridge.donateUrl() == nil
     self.menuCells = CellType.allCases.filter { disableDonate ? $0 != .donate : true }
     self.cellToHighlight = Self.getCellToHighlight()
     super.init()
@@ -112,7 +112,7 @@ extension BottomMenuPresenter {
                        title: L("download_maps"),
                        badgeCount: MapsAppDelegate.theApp().badgeNumber())
       case .donate:
-        cell.configure(imageName: Settings.isNY() ? "ic_christmas_tree" : "ic_menu_donate",
+        cell.configure(imageName: SettingsBridge.isNY() ? "ic_christmas_tree" : "ic_menu_donate",
                        title: L("donate"))
       case .settings:
         cell.configure(imageName: "ic_menu_settings",

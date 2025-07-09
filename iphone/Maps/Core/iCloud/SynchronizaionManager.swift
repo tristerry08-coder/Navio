@@ -1,3 +1,5 @@
+import Combine
+
 enum VoidResult {
   case success
   case failure(Error)
@@ -37,10 +39,16 @@ final class iCloudSynchronizaionManager: NSObject {
     var onSynchronizationStateDidChangeHandler: ((SynchronizationManagerState) -> Void)?
   }
 
+  var statePublisher: AnyPublisher<SynchronizationManagerState, Never> {
+    stateSubject.eraseToAnyPublisher()
+  }
+
+  private let stateSubject = PassthroughSubject<SynchronizationManagerState, Never>()
+
   let fileManager: FileManager
   private let localDirectoryMonitor: LocalDirectoryMonitor
   private let cloudDirectoryMonitor: CloudDirectoryMonitor
-  private let settings: Settings.Type
+  private let settings: SettingsBridge.Type
   private let bookmarksManager: BookmarksManager
   private var synchronizationStateManager: SynchronizationStateResolver
   private var fileWriter: SynchronizationFileWriter?
@@ -66,7 +74,7 @@ final class iCloudSynchronizaionManager: NSObject {
     do {
       let localDirectoryMonitor = try FileSystemDispatchSourceMonitor(fileManager: fileManager, directory: fileManager.bookmarksDirectoryUrl, fileType: fileType)
       let clodStorageManager = iCloudSynchronizaionManager(fileManager: fileManager,
-                                                           settings: Settings.self,
+                                                           settings: SettingsBridge.self,
                                                            bookmarksManager: BookmarksManager.shared(),
                                                            cloudDirectoryMonitor: cloudDirectoryMonitor,
                                                            localDirectoryMonitor: localDirectoryMonitor,
@@ -79,7 +87,7 @@ final class iCloudSynchronizaionManager: NSObject {
 
   // MARK: - Initialization
   init(fileManager: FileManager,
-       settings: Settings.Type,
+       settings: SettingsBridge.Type,
        bookmarksManager: BookmarksManager,
        cloudDirectoryMonitor: CloudDirectoryMonitor,
        localDirectoryMonitor: LocalDirectoryMonitor,
@@ -307,10 +315,16 @@ extension iCloudSynchronizaionManager {
     observers.removeValue(forKey: id)
   }
 
+  func notifyObservers() {
+    notifyObserversOnSynchronizationError(synchronizationError)
+  }
+
   private func notifyObserversOnSynchronizationError(_ error: Error?) {
     let state = SynchronizationManagerState(isAvailable: cloudDirectoryMonitor.isCloudAvailable(),
                                                  isOn: settings.iCLoudSynchronizationEnabled(),
                                                  error: error as? NSError)
+    stateSubject.send(state)
+    
     observers.removeUnreachable().forEach { _, observable in
       DispatchQueue.main.async {
         observable.onSynchronizationStateDidChangeHandler?(state)

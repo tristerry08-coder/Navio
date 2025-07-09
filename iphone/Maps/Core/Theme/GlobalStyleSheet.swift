@@ -136,7 +136,7 @@ extension GlobalStyleSheet: IStyleSheet {
       }
     case .switch:
       return .add { s in
-        s.onTintColor = colors.linkBlue
+        s.onTintColor = UIColor.accent
       }
     case .pageControl:
       return .add { s in

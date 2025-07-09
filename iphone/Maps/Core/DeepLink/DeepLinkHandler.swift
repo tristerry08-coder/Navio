@@ -138,9 +138,7 @@
         Task(priority: .userInitiated) {
           await Profile.saveAuthorizationToken(from: code)
           DispatchQueue.main.sync {
-            let window = (UIApplication.shared.connectedScenes.filter { $0.activationState == .foregroundActive }.first(where: { $0 is UIWindowScene }) as? UIWindowScene)?.keyWindow
-            window?.rootViewController?.presentedViewController?.navigationController?.popToRootViewController(animated: true)
-            window?.rootViewController?.presentedViewController?.dismiss(animated: true)
+            NotificationCenter.default.post(name: SafariView.dismissNotificationName, object: nil)
           }
         }
         return true
@@ -149,9 +147,7 @@
       }
     case .incorrect:
       if url.absoluteString.starts(with: "cm://oauth2/osm/callback") {
-        let window = (UIApplication.shared.connectedScenes.filter { $0.activationState == .foregroundActive }.first(where: { $0 is UIWindowScene }) as? UIWindowScene)?.keyWindow
-        window?.rootViewController?.presentedViewController?.navigationController?.popToRootViewController(animated: true)
-        window?.rootViewController?.presentedViewController?.dismiss(animated: true)
+        NotificationCenter.default.post(name: SafariView.dismissNotificationName, object: nil)
       }
       // Invalid URL or API parameters.
       return false;

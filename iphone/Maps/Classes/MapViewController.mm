@@ -605,12 +605,6 @@ NSString *const kSettingsSegue = @"Map2Settings";
   [self.navigationController pushViewController:descriptionViewController animated:YES];
 }
 
-- (void)openDrivingOptions {
-  UIStoryboard *sb = [UIStoryboard instance:MWMStoryboardDrivingOptions];
-  UIViewController *vc = [sb instantiateInitialViewController];
-  [self.navigationController pushViewController:vc animated:YES];
-}
-
 - (void)processMyPositionStateModeEvent:(MWMMyPositionMode)mode {
   self.currentPositionMode = mode;
   [MWMLocationManager setMyPositionMode:mode];

@@ -229,7 +229,10 @@
 "pref_map_3d_buildings_disabled_summary" = "3D 建築在省電模式下將會關閉";
 
 /* Settings «Route» category: «Tts enabled» title */
-"pref_tts_enable_title" = "語音提示";
+"pref_tts_title" = "語音提示";
+
+/* Settings «Route» category: «Tts enable» title */
+"pref_tts_enable_title" = "Enable Voice Instructions";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "播報街道名稱";
@@ -1002,6 +1005,9 @@
 
 /* Message for the bug report alert. */
 "bugreport_alert_message" = "您想向開發人員發送錯誤報告嗎？\n由於 CoMaps 不會自動收集任何錯誤資訊，因此我們只能依靠用戶的協助。感謝您對 CoMaps 的支持！";
+
+/* Title for the iCloud syncronization setting */
+"icloud_sync" = "iCloud Syncronization (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "啟用 iCloud 同步";

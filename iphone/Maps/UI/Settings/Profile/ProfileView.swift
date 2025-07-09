@@ -1,6 +1,5 @@
 import SwiftUI
 
-
 /// View for the OpenStreetMap profile
 struct ProfileView: View {
     // MARK: - Properties
@@ -21,6 +20,10 @@ struct ProfileView: View {
     var isPresentedAsAlert: Bool = false
     
     
+    /// The publisher to know when to stop showing the Safari view for the login form
+    private let stopShowingLoginPublisher = NotificationCenter.default.publisher(for: SafariView.dismissNotificationName)
+    
+    
     /// The actual view
     var body: some View {
         NavigationView {
@@ -33,7 +36,7 @@ struct ProfileView: View {
                             Text("close")
                         } icon: {
                             Image(systemName: "xmark.circle.fill")
-                            .font(.title)
+                                .font(.title)
                         }
                     }
                     .labelStyle(.iconOnly)
@@ -41,6 +44,7 @@ struct ProfileView: View {
                     .foregroundStyle(.primary)
                     .padding([.top, .leading, .trailing])
                     .frame(maxWidth: .infinity, alignment: .trailing)
+                    .background(Color(uiColor: .systemGroupedBackground))
                 }
                 
                 if Profile.isExisting {
@@ -50,6 +54,7 @@ struct ProfileView: View {
                 }
             }
         }
+        .accentColor(.accent)
         .navigationViewStyle(StackNavigationViewStyle())
         .navigationTitle(Profile.name ?? String(localized: "osm_profile"))
         .toolbar {
@@ -71,5 +76,10 @@ struct ProfileView: View {
             }
         }
         .tag(lastUpdated)
+        .onReceive(stopShowingLoginPublisher) { _ in
+            if isPresentedAsAlert {
+                dismiss()
+            }
+        }
     }
 }

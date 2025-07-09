@@ -229,7 +229,10 @@
 "pref_map_3d_buildings_disabled_summary" = "A 3D-s épületek energiatakarékos módban ki vannak kapcsolva";
 
 /* Settings «Route» category: «Tts enabled» title */
-"pref_tts_enable_title" = "Hangutasítások";
+"pref_tts_title" = "Hangutasítások";
+
+/* Settings «Route» category: «Tts enable» title */
+"pref_tts_enable_title" = "Enable Voice Instructions";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "Utcanevek felolvasása";
@@ -1003,6 +1006,9 @@
 
 /* Message for the bug report alert. */
 "bugreport_alert_message" = "Szeretne hibajelentést küldeni a fejlesztőknek?\nA felhasználóinkra támaszkodunk, mivel az CoMaps nem gyűjt automatikusan hibainformációkat. Előre is köszönjük, hogy támogatja az CoMaps csapatát!";
+
+/* Title for the iCloud syncronization setting */
+"icloud_sync" = "iCloud Syncronization (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "iCloud-szinkronizálás engedélyezése";

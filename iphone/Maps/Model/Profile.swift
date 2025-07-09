@@ -1,7 +1,6 @@
 import Network
 import OSMEditor
 
-
 /// The OpenStreetMap profile
 @objc class Profile: NSObject {
     // MARK: Properties

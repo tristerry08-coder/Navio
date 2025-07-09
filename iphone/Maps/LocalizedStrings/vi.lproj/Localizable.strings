@@ -229,7 +229,10 @@
 "pref_map_3d_buildings_disabled_summary" = "Tòa nhà 3D bị tắt ở chế độ tiết kiệm năng lượng";
 
 /* Settings «Route» category: «Tts enabled» title */
-"pref_tts_enable_title" = "Hướng dẫn bằng Giọng nói";
+"pref_tts_title" = "Hướng dẫn bằng Giọng nói";
+
+/* Settings «Route» category: «Tts enable» title */
+"pref_tts_enable_title" = "Enable Voice Instructions";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "Thông báo tên đường";
@@ -1002,6 +1005,9 @@
 
 /* Message for the bug report alert. */
 "bugreport_alert_message" = "Bạn có muốn gửi báo cáo lỗi cho nhà phát triển không?\nChúng tôi dựa vào người dùng của mình vì CoMaps không tự động thu thập bất kỳ thông tin lỗi nào. Cảm ơn bạn trước vì đã ủng hộ CoMaps!";
+
+/* Title for the iCloud syncronization setting */
+"icloud_sync" = "iCloud Syncronization (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Kích hoạt đồng bộ hóa iCloud";

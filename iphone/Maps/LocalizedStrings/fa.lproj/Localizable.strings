@@ -229,7 +229,10 @@
 "pref_map_3d_buildings_disabled_summary" = "ساختمان های سه بعدی در حالت صرفه جویی در مصرف برق خاموش می شوند";
 
 /* Settings «Route» category: «Tts enabled» title */
-"pref_tts_enable_title" = "دستور العمل صوتی";
+"pref_tts_title" = "دستور العمل صوتی";
+
+/* Settings «Route» category: «Tts enable» title */
+"pref_tts_enable_title" = "Enable Voice Instructions";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "نام خیابان ها را اعلام کنید";
@@ -1003,6 +1006,9 @@
 
 /* Message for the bug report alert. */
 "bugreport_alert_message" = "آیا می خواهید یک گزارش اشکال برای توسعه دهندگان ارسال کنید؟\nما به کاربران خود تکیه می کنیم زیرا CoMaps هیچ گونه اطلاعات خطا را به طور خودکار جمع آوری نمی کند. پیشاپیش از شما برای حمایت از CoMaps سپاسگزاریم!";
+
+/* Title for the iCloud syncronization setting */
+"icloud_sync" = "iCloud Syncronization (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "همگام سازی iCloud را فعال کنید";

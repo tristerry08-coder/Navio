@@ -1,6 +1,5 @@
 import SwiftUI
 
-
 /// View for the OpenStreetMapp profile
 struct NoExistingProfileView: View {
     // MARK: - Properties
@@ -13,25 +12,29 @@ struct NoExistingProfileView: View {
     @State private var showLogin: Bool = false
     
     
+    /// The publisher to know when to stop showing the Safari view for the login form
+    private let stopShowingLoginPublisher = NotificationCenter.default.publisher(for: SafariView.dismissNotificationName)
+    
+    
     /// The actual view
     var body: some View {
         VStack(alignment: .leading) {
-            ScrollView {
+            List {
                 VStack(alignment: .leading) {
                     Text("osm_profile_promt")
-                    .font(.headline)
+                        .font(.headline)
                     
                     HStack(alignment: .top) {
                         Image(.osmLogo)
-                        .resizable()
-                        .aspectRatio(1, contentMode: .fit)
-                        .frame(maxWidth: 50)
-                        .padding(.top, 6)
+                            .resizable()
+                            .aspectRatio(1, contentMode: .fit)
+                            .frame(maxWidth: 50)
+                            .padding(.top, 6)
                         
                         Text("osm_profile_explanation")
                     }
                 }
-                .padding()
+                .padding(.bottom)
             }
             
             Spacer(minLength: 0)
@@ -42,7 +45,8 @@ struct NoExistingProfileView: View {
                         showLogin = true
                     } label: {
                         Text("osm_profile_login")
-                        .frame(maxWidth: .infinity)
+                            .lineLimit(1)
+                            .frame(maxWidth: .infinity)
                     }
                     .buttonStyle(BorderedProminentButtonStyle())
                     .controlSize(.large)
@@ -53,7 +57,7 @@ struct NoExistingProfileView: View {
                 }
                 
                 Divider()
-                .padding([.top, .bottom])
+                    .padding([.top, .bottom])
                 
                 VStack(alignment: .leading) {
                     Text("osm_profile_register_promt")
@@ -62,7 +66,8 @@ struct NoExistingProfileView: View {
                         openUrl(Profile.registrationUrl)
                     } label: {
                         Text("osm_profile_register")
-                        .frame(maxWidth: .infinity)
+                            .lineLimit(1)
+                            .frame(maxWidth: .infinity)
                     }
                     .buttonStyle(BorderedButtonStyle())
                     .controlSize(.large)
@@ -70,6 +75,10 @@ struct NoExistingProfileView: View {
                 }
             }
             .padding([.bottom, .leading, .trailing])
+            .background(Color(uiColor: .systemGroupedBackground))
+        }
+        .onReceive(stopShowingLoginPublisher) { _ in
+            showLogin = false
         }
     }
 }

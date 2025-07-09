@@ -229,7 +229,10 @@
 "pref_map_3d_buildings_disabled_summary" = "3D-rakennukset ovat poissa päältä virransäästötilassa";
 
 /* Settings «Route» category: «Tts enabled» title */
-"pref_tts_enable_title" = "Ääniohjeistukset";
+"pref_tts_title" = "Ääniohjeistukset";
+
+/* Settings «Route» category: «Tts enable» title */
+"pref_tts_enable_title" = "Enable Voice Instructions";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "Ilmoita kadunnimet";
@@ -1003,6 +1006,9 @@
 
 /* Message for the bug report alert. */
 "bugreport_alert_message" = "Haluatko lähettää vikailmoituksen kehittäjille?\nLuotamme käyttäjiin, sillä CoMaps ei kerää virhetietoja automaattisesti. Kiitos etukäteen CoMapsin tukemisesta!";
+
+/* Title for the iCloud syncronization setting */
+"icloud_sync" = "iCloud Syncronization (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Ota iCloud-synkronointi käyttöön";

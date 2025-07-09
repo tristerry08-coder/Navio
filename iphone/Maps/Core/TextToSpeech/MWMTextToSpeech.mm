@@ -2,6 +2,7 @@
 #import "MWMRouter.h"
 #import "MWMTextToSpeech+CPP.h"
 #import "SwiftBridge.h"
+#import "TTSTester.h"
 
 #include "LocaleTranslator.h"
 
@@ -10,6 +11,7 @@
 #include "platform/languages.hpp"
 
 using namespace locale_translator;
+using namespace routing;
 
 namespace
 {
@@ -169,8 +171,61 @@ using Observers = NSHashTable<Observer>;
 }
 
 - (BOOL)active { return [[self class] isTTSEnabled] && [MWMRouter areTurnNotificationsEnabled]; }
+
++ (NSDictionary<NSString *, NSString *> *)availableLanguages
+{
+  NSMutableDictionary<NSString *, NSString *> *availableLanguages = [[NSMutableDictionary alloc] init];
+  auto const & v = [[self tts] availableLanguages];
+  for (auto i: v) {
+    [availableLanguages setObject:@(i.second.c_str()) forKey:@(i.first.c_str())];
+  }
+  return availableLanguages;
+}
+
++ (NSString *)selectedLanguage {
+  if ([self savedLanguage] != nil) {
+    return [self savedLanguage];
+  }
+
+  NSString * preferedLanguageBcp47 = [AVSpeechSynthesisVoice currentLanguageCode];
+
+  std::pair<std::string, std::string> const lan =
+  std::make_pair(preferedLanguageBcp47.UTF8String, tts::translateLocale(preferedLanguageBcp47.UTF8String));
+
+  std::vector<std::pair<std::string, std::string>> const availableLanguages = [[self tts] availableLanguages];
+  if (find(availableLanguages.begin(), availableLanguages.end(), lan) !=
+      availableLanguages.end()) {
+    return preferedLanguageBcp47;
+  }
+
+  return kDefaultLanguage;
+}
+
 + (NSString *)savedLanguage {
   return [NSUserDefaults.standardUserDefaults stringForKey:kUserDefaultsTTSLanguageBcp47];
+}
+
++ (NSInteger)speedCameraMode
+{
+  SpeedCameraManagerMode mode = GetFramework().GetRoutingManager().GetSpeedCamManager().GetMode();
+  if (mode == SpeedCameraManagerMode::Auto) {
+    return 2;
+  } else if (mode == SpeedCameraManagerMode::Always) {
+    return 1;
+  }
+
+  return 0;
+}
+
++ (void)setSpeedCameraMode:(NSInteger)speedCameraMode
+{
+  SpeedCameraManagerMode mode = SpeedCameraManagerMode::Never;
+  if (speedCameraMode == 2) {
+    mode = SpeedCameraManagerMode::Auto;
+  } else if (speedCameraMode == 1) {
+    mode = SpeedCameraManagerMode::Always;
+  }
+  GetFramework().GetRoutingManager().GetSpeedCamManager().SetMode(mode);
 }
 
 - (void)createVoice:(NSString *)locale {
@@ -206,6 +261,13 @@ using Observers = NSHashTable<Observer>;
         ("The UI language and English are not available for TTS. MWMTextToSpeech is invalid."));
   }
 }
+
++ (void)playTest
+{
+  TTSTester * ttsTester = [[TTSTester alloc] init];
+  [ttsTester playRandomTestString];
+}
+
 
 - (void)speakOneString:(NSString *)textToSpeak {
   AVSpeechUtterance * utterance = [AVSpeechUtterance speechUtteranceWithString:textToSpeak];

@@ -229,7 +229,10 @@
 "pref_map_3d_buildings_disabled_summary" = "3D-geboue is gedeaktiveer in batterybesparingsmodus";
 
 /* Settings «Route» category: «Tts enabled» title */
-"pref_tts_enable_title" = "Steminstruksies";
+"pref_tts_title" = "Steminstruksies";
+
+/* Settings «Route» category: «Tts enable» title */
+"pref_tts_enable_title" = "Enable Voice Instructions";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "Announce Street Names";
@@ -1002,6 +1005,9 @@
 
 /* Message for the bug report alert. */
 "bugreport_alert_message" = "Wil jy 'n foutverslag aan die ontwikkelaars stuur?\nOns maak staat op ons gebruikers aangesien CoMaps nie outomaties enige foutinligting insamel nie. By voorbaat dankie vir die ondersteuning van CoMaps!";
+
+/* Title for the iCloud syncronization setting */
+"icloud_sync" = "iCloud Syncronization (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Aktiveer iCloud-sinchronisasie";

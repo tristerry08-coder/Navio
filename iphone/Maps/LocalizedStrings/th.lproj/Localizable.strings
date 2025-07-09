@@ -229,7 +229,10 @@
 "pref_map_3d_buildings_disabled_summary" = "สิ่งปลูกสร้าง 3 มิติจะปิดในโหมดประหยัดพลังงาน";
 
 /* Settings «Route» category: «Tts enabled» title */
-"pref_tts_enable_title" = "คำแนะนำด้วยเสียง";
+"pref_tts_title" = "คำแนะนำด้วยเสียง";
+
+/* Settings «Route» category: «Tts enable» title */
+"pref_tts_enable_title" = "Enable Voice Instructions";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "ประกาศชื่อถนน";
@@ -1003,6 +1006,9 @@
 
 /* Message for the bug report alert. */
 "bugreport_alert_message" = "คุณต้องการส่งรายงานข้อผิดพลาดไปยังนักพัฒนาหรือไม่?\nเราไว้วางใจผู้ใช้ของเราเนื่องจาก CoMaps จะไม่รวบรวมข้อมูลข้อผิดพลาดใด ๆ โดยอัตโนมัติ ขอขอบคุณล่วงหน้าสำหรับการสนับสนุน CoMaps!";
+
+/* Title for the iCloud syncronization setting */
+"icloud_sync" = "iCloud Syncronization (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "เปิดใช้งานการซิงโครไนซ์ iCloud";

@@ -1,5 +1,14 @@
-NS_SWIFT_NAME(Settings)
+NS_SWIFT_NAME(SettingsBridge)
 @interface MWMSettings : NSObject
+
++ (BOOL)buildings3dViewEnabled;
++ (void)setBuildings3dViewEnabled:(BOOL)buildings3dViewEnabled;
+
++ (BOOL)perspectiveViewEnabled;
++ (void)setPerspectiveViewEnabled:(BOOL)perspectiveViewEnabled;
+
++ (BOOL)autoZoomEnabled;
++ (void)setAutoZoomEnabled:(BOOL)autoZoomEnabled;
 
 + (BOOL)autoDownloadEnabled;
 + (void)setAutoDownloadEnabled:(BOOL)autoDownloadEnabled;
@@ -15,6 +24,9 @@ NS_SWIFT_NAME(Settings)
 
 + (MWMTheme)theme;
 + (void)setTheme:(MWMTheme)theme;
+
++ (NSInteger)powerManagement;
++ (void)setPowerManagement:(NSInteger)powerManagement;
 
 + (BOOL)routingDisclaimerApproved;
 + (void)setRoutingDisclaimerApproved;
@@ -40,5 +52,6 @@ NS_SWIFT_NAME(Settings)
 + (void)initializeLogging;
 + (BOOL)isFileLoggingEnabled;
 + (void)setFileLoggingEnabled:(BOOL)fileLoggingEnabled;
++ (NSInteger)logFileSize;
 
 @end

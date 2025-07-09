@@ -229,7 +229,10 @@
 "pref_map_3d_buildings_disabled_summary" = "3D-byggnader är avstängda i energisparläge";
 
 /* Settings «Route» category: «Tts enabled» title */
-"pref_tts_enable_title" = "Röstinstruktioner";
+"pref_tts_title" = "Röstinstruktioner";
+
+/* Settings «Route» category: «Tts enable» title */
+"pref_tts_enable_title" = "Enable Voice Instructions";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "Läs upp gatunamn";
@@ -1003,6 +1006,9 @@
 
 /* Message for the bug report alert. */
 "bugreport_alert_message" = "Vill du skicka en felrapport till utvecklarna?\nVi förlitar oss på våra användare eftersom CoMaps inte samlar in någon felinformation automatiskt. Tack på förhand för att du stöder CoMaps!";
+
+/* Title for the iCloud syncronization setting */
+"icloud_sync" = "iCloud Syncronization (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Aktivera iCloud-synkronisering";

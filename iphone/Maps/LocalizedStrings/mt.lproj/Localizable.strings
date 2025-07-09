@@ -229,7 +229,10 @@
 "pref_map_3d_buildings_disabled_summary" = "Il-binjiet 3D huma mitfigħin fil-mod tal-iffrankar tal-enerġija";
 
 /* Settings «Route» category: «Tts enabled» title */
-"pref_tts_enable_title" = "Istruzzjonijiet tal-vuċi";
+"pref_tts_title" = "Istruzzjonijiet tal-vuċi";
+
+/* Settings «Route» category: «Tts enable» title */
+"pref_tts_enable_title" = "Enable Voice Instructions";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "Ħabbar l-ismijiet tat-toroq";
@@ -1003,6 +1006,9 @@
 
 /* Message for the bug report alert. */
 "bugreport_alert_message" = "Would you like to send a bug report to the developers?\nWe rely on our users as CoMaps doesn't collect any error information automatically. Thank you in advance for supporting CoMaps!";
+
+/* Title for the iCloud syncronization setting */
+"icloud_sync" = "iCloud Syncronization (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Enable iCloud Syncronization";

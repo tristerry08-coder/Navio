@@ -7,7 +7,12 @@
 + (void)setTTSEnabled:(BOOL)enabled;
 + (BOOL)isStreetNamesTTSEnabled;
 + (void)setStreetNamesTTSEnabled:(BOOL)enabled;
++ (NSDictionary<NSString *, NSString *> *)availableLanguages;
++ (NSString *)selectedLanguage;
 + (NSString *)savedLanguage;
++ (NSInteger)speedCameraMode;
++ (void)setSpeedCameraMode:(NSInteger)speedCameraMode;
++ (void)playTest;
 
 + (void)addObserver:(id<MWMTextToSpeechObserver>)observer;
 + (void)removeObserver:(id<MWMTextToSpeechObserver>)observer;

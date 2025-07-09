@@ -66,7 +66,7 @@ final class ThemeManager: NSObject {
   }
 
   @objc static func invalidate() {
-    instance.update(theme: Settings.theme())
+    instance.update(theme: SettingsBridge.theme())
   }
 
   @available(iOS 13.0, *)

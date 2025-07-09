@@ -2,11 +2,9 @@
 enum Storyboard: Int {
   case launchScreen
   case main
-  case settings
   case welcome
   case sharing
   case categorySettings
-  case drivingOptions
   case carPlay
   case placePage
 }
@@ -17,11 +15,9 @@ extension UIStoryboard {
     switch id {
     case .launchScreen: name = "LaunchScreen"
     case .main: name = "Main"
-    case .settings: name = "Settings"
     case .welcome: name = "Welcome"
     case .sharing: name = "BookmarksSharingFlow"
     case .categorySettings: name = "CategorySettings"
-    case .drivingOptions: name = "DrivingOptions"
     case .carPlay: name = "CarPlayStoryboard"
     case .placePage: name = "PlacePage"
     }

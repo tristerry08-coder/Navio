@@ -128,7 +128,7 @@ private extension AboutController {
     func setupDonation() {
       donationView.donateButtonDidTapHandler = { [weak self] in
         guard let self else { return }
-        self.openUrl(self.isDonateEnabled() ? Settings.donateUrl() : L("translated_om_site_url") + "support-us/")
+        self.openUrl(self.isDonateEnabled() ? SettingsBridge.donateUrl() : L("translated_om_site_url") + "support-us/")
       }
     }
 
@@ -266,7 +266,7 @@ private extension AboutController {
   }
 
   func isDonateEnabled() -> Bool {
-    return Settings.donateUrl() != nil
+    return SettingsBridge.donateUrl() != nil
   }
 
   func buildInfoTableViewData() -> [AboutInfoTableViewCellModel] {

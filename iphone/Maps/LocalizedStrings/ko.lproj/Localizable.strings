@@ -228,7 +228,10 @@
 "pref_map_3d_buildings_disabled_summary" = "3D 빌딩은 절전 모드에서 꺼집니다";
 
 /* Settings «Route» category: «Tts enabled» title */
-"pref_tts_enable_title" = "음성 지침";
+"pref_tts_title" = "음성 지침";
+
+/* Settings «Route» category: «Tts enable» title */
+"pref_tts_enable_title" = "Enable Voice Instructions";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "\"거리 이름 발표\"";
@@ -1002,6 +1005,9 @@
 
 /* Message for the bug report alert. */
 "bugreport_alert_message" = "개발자에게 버그 리포트를 보내시겠습니까?\nCoMaps은 오류 정보를 자동으로 수집하지 않으므로 사용자의 도움을 받아야 합니다. CoMaps을 이용해 주셔서 미리 감사드립니다!";
+
+/* Title for the iCloud syncronization setting */
+"icloud_sync" = "iCloud Syncronization (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "iCloud 동기화 활성화";

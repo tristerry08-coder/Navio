@@ -229,7 +229,10 @@
 "pref_map_3d_buildings_disabled_summary" = "Els edificis en 3D es desactiven en mode d'estalvi d'energia";
 
 /* Settings «Route» category: «Tts enabled» title */
-"pref_tts_enable_title" = "Instruccions de veu";
+"pref_tts_title" = "Instruccions de veu";
+
+/* Settings «Route» category: «Tts enable» title */
+"pref_tts_enable_title" = "Enable Voice Instructions";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "Anuncia els noms dels carrers";
@@ -1003,6 +1006,9 @@
 
 /* Message for the bug report alert. */
 "bugreport_alert_message" = "Voleu enviar un informe d’error als desenvolupadors?\nEns refiem dels nostres usuaris, ja que l’CoMaps no recull cap informació d’errors automàticament. Gràcies per avançat per donar suport a CoMaps!";
+
+/* Title for the iCloud syncronization setting */
+"icloud_sync" = "iCloud Syncronization (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Activa la sincronització amb l’iCloud";

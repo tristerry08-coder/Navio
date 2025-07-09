@@ -229,7 +229,10 @@
 "pref_map_3d_buildings_disabled_summary" = "يتم إيقاف تشغيل المباني ثلاثية الأبعاد في وضع توفير الطاقة";
 
 /* Settings «Route» category: «Tts enabled» title */
-"pref_tts_enable_title" = "تعليمات صوتية";
+"pref_tts_title" = "تعليمات صوتية";
+
+/* Settings «Route» category: «Tts enable» title */
+"pref_tts_enable_title" = "Enable Voice Instructions";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "أعلن أسماء الشوارع";
@@ -1002,6 +1005,9 @@
 
 /* Message for the bug report alert. */
 "bugreport_alert_message" = "هل ترغب في إرسال تقرير عن الأخطاء إلى المطورين؟\nنحن نعتمد على مستخدمينا لأن تطبيق CoMaps لا يجمع أي معلومات عن الأخطاء تلقائيًا. شكرًا لك مقدمًا على دعم CoMaps!";
+
+/* Title for the iCloud syncronization setting */
+"icloud_sync" = "iCloud Syncronization (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "تمكين مزامنة iCloud";

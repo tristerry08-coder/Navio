@@ -1,6 +1,5 @@
 import SwiftUI
 
-
 /// View for the OpenStreetMapp profile
 struct ExistingProfileView: View {
     // MARK: - Properties
@@ -25,6 +24,10 @@ struct ExistingProfileView: View {
     @State private var showNotes: Bool = false
     
     
+    /// The publisher to know when to stop showing the Safari view for the login form
+    private let stopShowingLoginPublisher = NotificationCenter.default.publisher(for: SafariView.dismissNotificationName)
+    
+    
     /// If the profile is being presented as an alert
     var isPresentedAsAlert: Bool = false
     
@@ -33,36 +36,32 @@ struct ExistingProfileView: View {
     var body: some View {
         VStack(alignment: .leading) {
             if Profile.needsReauthorization {
-                ScrollView {
+                List {
                     Text("osm_profile_reauthorize_promt")
-                    .font(.headline)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding()
+                        .font(.headline)
+                        .frame(maxWidth: .infinity, alignment: .leading)
                 }
             } else if !isPresentedAsAlert {
-                ScrollView {
-                    VStack {
+                List {
+                    Section {
                         VStack {
                             Text(Profile.numberOfEdits ?? 0, format: .number)
-                            .font(.largeTitle)
-                            .bold()
-                            .frame(maxWidth: .infinity)
+                                .font(.largeTitle)
+                                .bold()
+                                .frame(maxWidth: .infinity)
                             
                             Text("osm_profile_verfied_changes")
                         }
-                        .padding()
+                        .padding([.top, .bottom])
                         .frame(maxWidth: .infinity)
-                        .background {
-                            RoundedRectangle(cornerRadius: 10)
-                            .stroke(Color.secondary.opacity(0.3), lineWidth: 1)
-                        }
-                        
+                    } footer: {
                         if let editHistoryUrl = Profile.editHistoryUrl {
                             Button {
                                 showEditHistory = true
                             } label: {
                                 Text("osm_profile_view_edit_history")
-                                .frame(maxWidth: .infinity)
+                                    .lineLimit(1)
+                                    .frame(maxWidth: .infinity)
                             }
                             .buttonStyle(BorderedProminentButtonStyle())
                             .controlSize(.large)
@@ -70,25 +69,30 @@ struct ExistingProfileView: View {
                             .sheet(isPresented: $showEditHistory) {
                                 SafariView(url: editHistoryUrl, dismissButton: .close)
                             }
+                            .padding([.top, .bottom])
+                            .listRowInsets(.init(top: 0, leading: 0, bottom: 0, trailing: 0))
                         }
-                        
-                        if let notesUrl = Profile.notesUrl {
+                    }
+                    
+                    if let notesUrl = Profile.notesUrl {
+                        Section {
                             Button {
                                 showNotes = true
                             } label: {
                                 Text("osm_profile_view_notes")
-                                .frame(maxWidth: .infinity)
+                                    .lineLimit(1)
+                                    .frame(maxWidth: .infinity)
                             }
                             .buttonStyle(BorderedProminentButtonStyle())
+                            .buttonBorderShape(.roundedRectangle(radius: 0))
                             .controlSize(.large)
                             .font(.headline)
-                            .padding(.top)
                             .sheet(isPresented: $showNotes) {
                                 SafariView(url: notesUrl, dismissButton: .close)
                             }
+                            .listRowInsets(.init(top: 0, leading: 0, bottom: 0, trailing: 0))
                         }
                     }
-                    .padding()
                 }
                 .refreshable {
                     await Profile.reload()
@@ -106,7 +110,8 @@ struct ExistingProfileView: View {
                         showLogin = true
                     } label: {
                         Text("osm_profile_reauthorize")
-                        .frame(maxWidth: .infinity)
+                            .lineLimit(1)
+                            .frame(maxWidth: .infinity)
                     }
                     .buttonStyle(BorderedProminentButtonStyle())
                     .controlSize(.large)
@@ -116,7 +121,7 @@ struct ExistingProfileView: View {
                     }
                     
                     Divider()
-                    .padding([.top, .bottom])
+                        .padding([.top, .bottom])
                     
                     VStack(alignment: .leading) {
                         Text("osm_profile_remove_promt")
@@ -126,7 +131,8 @@ struct ExistingProfileView: View {
                             lastUpdated = Date.now
                         } label: {
                             Text("osm_profile_remove")
-                            .frame(maxWidth: .infinity)
+                                .lineLimit(1)
+                                .frame(maxWidth: .infinity)
                         }
                         .buttonStyle(BorderedButtonStyle())
                         .controlSize(.large)
@@ -139,7 +145,8 @@ struct ExistingProfileView: View {
                         }
                     } label: {
                         Text("osm_more_about")
-                        .frame(maxWidth: .infinity)
+                            .lineLimit(1)
+                            .frame(maxWidth: .infinity)
                     }
                     .buttonStyle(BorderedButtonStyle())
                     .controlSize(.large)
@@ -147,6 +154,10 @@ struct ExistingProfileView: View {
                 }
             }
             .padding([.bottom, .leading, .trailing])
+            .background(Color(uiColor: .systemGroupedBackground))
+        }
+        .onReceive(stopShowingLoginPublisher) { _ in
+            showLogin = false
         }
     }
 }

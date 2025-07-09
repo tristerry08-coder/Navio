@@ -48,7 +48,7 @@ extension BottomMenuInteractor: BottomMenuInteractorProtocol {
 
   func donate() {
     close()
-    guard var url = Settings.donateUrl() else { return }
+    guard var url = SettingsBridge.donateUrl() else { return }
     if url == "https://www.comaps.app/donate/" {
       url = L("translated_om_site_url") + "donate/"
     }

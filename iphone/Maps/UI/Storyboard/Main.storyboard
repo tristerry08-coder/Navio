@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wns-nH-AQU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wns-nH-AQU">
     <device id="iPad13_0rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -29,11 +29,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1032" height="1376"/>
                                 <subviews>
                                     <view hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="65S-M4-TnM" customClass="NavigationInfoArea" customModule="CoMaps" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24" width="1032" height="1332"/>
+                                        <rect key="frame" x="0.0" y="24" width="1032" height="1307"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
                                     </view>
                                     <view hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TdT-ia-GP9">
-                                        <rect key="frame" x="0.0" y="0.0" width="1032" height="1356"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1032" height="1331"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="350" id="XLL-zv-Bym"/>
@@ -50,7 +50,7 @@
                                         </variation>
                                     </view>
                                     <view hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aVk-ab-LFJ" customClass="TabBarArea" customModule="CoMaps" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="1308" width="1032" height="68"/>
+                                        <rect key="frame" x="0.0" y="1283" width="1032" height="93"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" priority="100" constant="350" id="aj4-lb-h52"/>
@@ -67,26 +67,26 @@
                                         </variation>
                                     </view>
                                     <view hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="awj-9E-eBS" customClass="PlacePageArea" customModule="CoMaps" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="1032" height="1356"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1032" height="1331"/>
                                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
                                     </view>
                                     <view hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FFY-Dy-Wou" customClass="VisibleArea" customModule="CoMaps" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="1032" height="1356"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1032" height="1331"/>
                                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
                                     </view>
                                     <view hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NI8-tV-i2B" customClass="WidgetsArea" customModule="CoMaps" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24" width="1032" height="1332"/>
+                                        <rect key="frame" x="0.0" y="24" width="1032" height="1307"/>
                                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
                                     </view>
                                     <view hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xJx-UU-IdV" customClass="SideButtonsArea" customModule="CoMaps" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24" width="1032" height="1332"/>
+                                        <rect key="frame" x="0.0" y="24" width="1032" height="1307"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
                                     </view>
                                     <view hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QKu-4A-UgP" customClass="TrafficButtonArea" customModule="CoMaps" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24" width="1032" height="1332"/>
+                                        <rect key="frame" x="0.0" y="24" width="1032" height="1307"/>
                                     </view>
                                     <view hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yto-Gu-Ugz" userLabel="Track Recording Button Area" customClass="TrackRecordingButtonArea" customModule="CoMaps" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="24" width="1032" height="1332"/>
+                                        <rect key="frame" x="0.0" y="24" width="1032" height="1307"/>
                                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
                                     </view>
                                 </subviews>
@@ -99,7 +99,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="at1-V1-pzl" customClass="TouchTransparentView" customModule="CoMaps" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="722" width="440" height="152"/>
+                                <rect key="frame" x="0.0" y="1131" width="1032" height="152"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
                                 <constraints>
@@ -209,7 +209,7 @@
                         <segue destination="h4a-ne-bSJ" kind="custom" identifier="Map2MapDownloaderSegue" customClass="MWMSegue" id="Tkr-Ad-FQL"/>
                         <segue destination="lFr-lA-JTW" kind="show" identifier="PP2BookmarkEditing" id="0A8-4b-0A2"/>
                         <segue destination="Psz-BY-Fy4" kind="presentation" identifier="PP2BookmarkEditingIPAD" modalPresentationStyle="formSheet" id="k6v-a7-5DO"/>
-                        <segue destination="DdR-kk-MnB" kind="custom" identifier="Map2Settings" customClass="MWMSegue" id="wtl-on-KxQ"/>
+                        <segue destination="zWe-Rs-11p" kind="presentation" identifier="Map2Settings" id="QPJ-CO-oy8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cKg-Q7-bFd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -309,7 +309,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="interactive" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="X1H-IB-Nv1">
-                                <rect key="frame" x="0.0" y="24" width="1032" height="1288"/>
+                                <rect key="frame" x="0.0" y="24" width="1032" height="1263"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="styleName" value="PressBackground"/>
@@ -320,7 +320,7 @@
                                 </connections>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aQv-7U-zAP">
-                                <rect key="frame" x="0.0" y="24" width="1032" height="1288"/>
+                                <rect key="frame" x="0.0" y="24" width="1032" height="1263"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PrH-u2-IEv" userLabel="Editor View" customClass="MWMTextView">
                                         <rect key="frame" x="0.0" y="36" width="1032" height="88"/>
@@ -358,7 +358,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="separator_image" translatesAutoresizingMaskIntoConstraints="NO" id="5T5-Pp-hb5">
-                                        <rect key="frame" x="0.0" y="1243" width="1032" height="1"/>
+                                        <rect key="frame" x="0.0" y="1218" width="1032" height="1"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="ZXK-zv-uSz"/>
                                         </constraints>
@@ -488,7 +488,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SZQ-ra-FC3" userLabel="Mode Switch">
-                                <rect key="frame" x="0.0" y="1312" width="1032" height="44"/>
+                                <rect key="frame" x="0.0" y="1287" width="1032" height="44"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fB1-w2-lJI">
                                         <rect key="frame" x="0.0" y="0.0" width="1032" height="44"/>
@@ -647,7 +647,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="interactive" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="JbV-y9-HBo">
-                                <rect key="frame" x="0.0" y="80" width="1032" height="1276"/>
+                                <rect key="frame" x="0.0" y="80" width="1032" height="1251"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="styleName" value="TableView:PressBackground"/>
@@ -718,7 +718,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="interactive" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="ina-WD-kps">
-                                <rect key="frame" x="0.0" y="80" width="1032" height="1276"/>
+                                <rect key="frame" x="0.0" y="80" width="1032" height="1251"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="styleName" value="TableView:PressBackground"/>
@@ -806,7 +806,7 @@
                                 </connections>
                             </containerView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CDj-ol-HRP">
-                                <rect key="frame" x="0.0" y="1292" width="1032" height="84"/>
+                                <rect key="frame" x="0.0" y="1267" width="1032" height="109"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="styleName" value="PressBackground"/>
@@ -849,20 +849,20 @@
             <objects>
                 <viewController storyboardIdentifier="MWMNoMapsViewController" id="3el-Zi-2E4" customClass="MWMNoMapsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4WP-vj-Alg">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1032" height="1376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gmw-e3-n53" userLabel="Container" customClass="MWMNoMapsView">
-                                <rect key="frame" x="13" y="24" width="367" height="804"/>
+                                <rect key="frame" x="308.5" y="24" width="415.5" height="1307"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dCZ-PN-2Ob" userLabel="BoundsView">
-                                        <rect key="frame" x="16" y="0.0" width="335" height="804"/>
+                                        <rect key="frame" x="16" y="0.0" width="383.5" height="1307"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="87G-jh-N8H" userLabel="CenteredView">
-                                                <rect key="frame" x="0.0" y="347.5" width="335" height="109.5"/>
+                                                <rect key="frame" x="0.0" y="599" width="383.5" height="109.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="У вас нет загруженных карт" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abh-G0-Alr" userLabel="Title">
-                                                        <rect key="frame" x="0.0" y="40" width="335" height="24"/>
+                                                        <rect key="frame" x="0.0" y="40" width="383.5" height="24"/>
                                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -872,7 +872,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Загрузите необходимые карты, чтобы находить места и пользоваться навигацией без интернета." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LaW-Ad-mYI" userLabel="Text">
-                                                        <rect key="frame" x="0.0" y="76" width="335" height="33.5"/>
+                                                        <rect key="frame" x="0.0" y="76" width="383.5" height="33.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -930,7 +930,7 @@
                                 </connections>
                             </view>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Moj-UK-oyl" userLabel="DownloadMaps" customClass="MWMButton">
-                                <rect key="frame" x="76.5" y="748" width="240" height="44"/>
+                                <rect key="frame" x="396" y="1247" width="240" height="44"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="49x-bx-JJj"/>
@@ -1029,6 +1029,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hlm-dO-yBR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1818" y="-190"/>
+        </scene>
+        <!--Settings Bridge Controller-->
+        <scene sceneID="rC6-l4-Abg">
+            <objects>
+                <hostingController storyboardIdentifier="SettingsBridgeController" id="zWe-Rs-11p" customClass="SettingsBridgeController" customModule="CoMaps" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c37-uR-cHF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2098" y="190"/>
         </scene>
         <!--Downloader No Results Embed View Controller-->
         <scene sceneID="Bce-Yn-A6n">
