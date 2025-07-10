@@ -7,4 +7,6 @@
     <string name="self_service">സെൽഫ് സർവീസ്</string>
     <string name="panoramax">Panoramax ചിത്രം</string>
     <string name="editor_line_social_network">LINE</string>
+    <string name="kilometres">കിലോമീറ്ററുകൾ</string>
+    <string name="app_site_url">https://comaps.app/</string>
 </resources>

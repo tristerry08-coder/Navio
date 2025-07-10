@@ -528,7 +528,7 @@
 /* OpenStreetMap Profile */
 "osm_profile" = "Προφίλ OpenStreetMap";
 "osm_profile_promt" = "Δημιουργήστε έναν λογαριασμό OpenStreetMap ή συνδεθείτε για να δημοσιεύσετε τις επεξεργασίες του χάρτη σας στον κόσμο.";
-"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_explanation" = "Το [OpenStreetMap.org](https://openstreetmap.org) (OSM) είναι ένα κοινοτικό έργο για τη δημιουργία ενός ελεύθερου και ανοικτού χάρτη. Είναι η κύρια πηγή δεδομένων χάρτη στους CoMaps και λειτουργεί παρόμοια με τη Wikipedia. Μπορείτε να προσθέσετε ή να επεξεργαστείτε τοποθεσίες και αυτές γίνονται διαθέσιμες σε εκατομμύρια χρήστες σε όλο τον κόσμο. \nΕνταχθείτε στην κοινότητα και βοηθήστε να φτιάξουμε έναν καλύτερο χάρτη για όλους!";
 "osm_profile_login" = "Συνδεθείτε στο OpenStreetMap";
 "osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
 "osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
@@ -537,8 +537,6 @@
 "osm_profile_register_promt" = "Δεν έχετε λογαριασμό OpenStreetMap;";
 "osm_profile_register" = "Εγγραφή στο OpenStreetMap";
 "osm_profile_verfied_changes" = "Επαληθευμένες αλλαγές";
-"osm_profile_view_edit_history" = "View Edit History";
-"osm_profile_view_notes" = "View Notes";
 "osm_profile_logout" = "Logout of OpenStreetMap account";
 "osm_profile_delete" = "Delete OpenStreetMap account";
 

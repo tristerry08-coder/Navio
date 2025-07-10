@@ -525,7 +525,7 @@
 /* OpenStreetMap Profile */
 "osm_profile" = "OpenStreetMap प्रोफाइल";
 "osm_profile_promt" = "एक OpenStreetMap खाते तयार करा किंवा तुमची नकाशा संपादने जगासमोर प्रकाशित करण्यासाठी लॉग इन करा.";
-"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) हा एक विनामूल्य आणि खुला नकाशा तयार करण्यासाठी एक समुदाय प्रकल्प आहे. CoMaps मधील नकाशा डेटाचा हा मुख्य स्त्रोत आहे आणि विकिपीडिया प्रमाणेच कार्य करतो. तुम्ही ठिकाणे जोडू किंवा संपादित करू शकता आणि ती जगभरातील लाखो वापरकर्त्यांसाठी उपलब्ध होतील. \nसमुदायामध्ये सामील व्हा आणि प्रत्येकासाठी चांगला नकाशा बनवण्यात मदत करा!";
 "osm_profile_login" = "OpenStreetMap मध्ये लॉगिन करा";
 "osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
 "osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
@@ -534,8 +534,6 @@
 "osm_profile_register_promt" = "OpenStreetMap खाते नाही?";
 "osm_profile_register" = "OpenStreetMap वर नोंदणी करा";
 "osm_profile_verfied_changes" = "सत्यापित बदल";
-"osm_profile_view_edit_history" = "View Edit History";
-"osm_profile_view_notes" = "View Notes";
 "osm_profile_logout" = "Logout of OpenStreetMap account";
 "osm_profile_delete" = "Delete OpenStreetMap account";
 

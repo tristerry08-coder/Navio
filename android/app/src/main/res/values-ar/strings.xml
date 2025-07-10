@@ -890,4 +890,5 @@
     <string name="wikimedia_commons">ويكيميديا كومنز</string>
     <string name="editor_line_social_network">LINE</string>
     <string name="panoramax">صورة Panoramax</string>
+    <string name="app_site_url">https://comaps.app/ar</string>
 </resources>

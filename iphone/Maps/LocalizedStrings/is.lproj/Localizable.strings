@@ -2,3 +2,9 @@
 "panoramax" = "Panoramax";
 "panoramax_picture" = "Panoramax mynd";
 "self_service" = "Sjálfsafgreiðsla";
+"fediverse" = "Mastodon";
+"facebook" = "Facebook";
+"kilometres" = "Kílómetrar";
+"bluesky" = "Bluesky";
+"translated_om_site_url" = "https://www.comaps.app/";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) er samfélagsverkefni sem stefnir að uppbyggingu á frjálsu og opnu landakorti. Þetta er meginuppistaðan í CoMaps og virkar svipað og Wikipedia. Þú getur bætt við eð breytt stöðum, og verða þeir þá aðgengilegir milljónum notenda um víða veröld. \nTaktu þátt og hjálpaðu til við að gera betri landakort fyrir alla!";

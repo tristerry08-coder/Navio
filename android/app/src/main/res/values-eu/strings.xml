@@ -438,7 +438,7 @@
     <string name="register_at_openstreetmap">Eman izena OpenStreetMap-en</string>
     <string name="login">Saioa hasi</string>
     <!-- Status message indicating that user did not login to OSM profile yet. -->
-    <string name="not_signed_in">Ez zaude saiatuta</string>
+    <string name="not_signed_in">Saioa hasi gabe</string>
     <string name="login_osm">Hasi saioa OpenStreetMap-en</string>
     <string name="password">Pasahitza</string>
     <string name="forgot_password">Pasahitza ahaztu duzu?</string>
@@ -879,7 +879,7 @@
     <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/About_OpenStreetMap</string>
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="saved">Gordeta</string>
-    <string name="app_site_url">https://comaps.app/</string>
+    <string name="app_site_url">https://comaps.app/eu/</string>
     <string name="pref_left_button_disable">Desgaitu</string>
     <string name="pref_left_button_title">Ezkerreko botoiaren ezarpena</string>
     <string name="about_help">Honi buruz eta Laguntza</string>

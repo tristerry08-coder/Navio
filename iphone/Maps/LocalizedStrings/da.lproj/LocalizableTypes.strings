@@ -874,22 +874,22 @@
 "type.place.suburb" = "Forstad";
 "type.place.town" = "By";
 "type.place.village" = "Landsby";
-"type.power" = "Power";
-"type.power.generator" = "Power Generator";
+"type.power" = "Strøm";
+"type.power.generator" = "Strømgenerator";
 "type.power.generator.solar" = "Solar generator";
 "type.power.generator.wind" = "Vindgenerator";
 "type.power.generator.gas" = "Gasturbine kraftværk";
 "type.power.generator.hydro" = "Vandkraftværk";
-"type.power.line" = "Power Line";
-"type.power.line.underground" = "Underground Power Line";
-"type.power.minor_line" = "Minor Power Line";
+"type.power.line" = "Strømledning";
+"type.power.line.underground" = "Underjordisk strømledning";
+"type.power.minor_line" = "Mindre strømledning";
 "type.power.plant" = "Kraftværk";
 "type.power.plant.coal" = "Kulkraftværk";
 "type.power.plant.gas" = "Gasturbine kraftværk";
 "type.power.plant.hydro" = "Vandkraftværk";
 "type.power.plant.solar" = "Solcelleanlæg";
 "type.power.plant.wind" = "Vindkraftværk";
-"type.power.station" = "Power Station";
+"type.power.station" = "Kraftværk";
 "type.power.substation" = "Transformerstation";
 
 /* A tower or pylon carrying high voltage electricity cables. */
@@ -1482,3 +1482,9 @@
 
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "Sportshal";
+"type.amenity.studio" = "Studie";
+"type.landuse.plant_nursery" = "Planteskole";
+"type.leisure.firepit" = "Bålplads";
+"type.man_made.crane" = "Kran";
+"type.barrier.guard_rail" = "Autoværn";
+"type.highway.ladder" = "Stige";

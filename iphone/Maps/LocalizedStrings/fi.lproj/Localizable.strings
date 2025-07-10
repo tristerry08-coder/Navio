@@ -528,7 +528,7 @@
 /* OpenStreetMap Profile */
 "osm_profile" = "OpenStreetMap-profiili";
 "osm_profile_promt" = "Luo OpenStreetMap-tili tai kirjaudu sisään, jotta voit julkaista karttamuokkauksesi maailmalle.";
-"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) on yhteisöprojekti, jonka tarkoituksena on rakentaa ilmainen ja avoin kartta. Se on CoMapsin tärkein karttatietojen lähde ja toimii samalla tavalla kuin Wikipedia. Voit lisätä tai muokata paikkoja, ja ne tulevat miljoonien käyttäjien saataville kaikkialla maailmassa. \nLiity yhteisöön ja auta tekemään parempi kartta kaikille!";
 "osm_profile_login" = "Kirjaudu OpenStreetMapiin";
 "osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
 "osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
@@ -537,8 +537,6 @@
 "osm_profile_register_promt" = "Eikö sinulla ole OpenStreetMap-tiliä?";
 "osm_profile_register" = "Rekisteröi tili OpenStreetMapissa";
 "osm_profile_verfied_changes" = "Vahvistetut karttamuutokset";
-"osm_profile_view_edit_history" = "View Edit History";
-"osm_profile_view_notes" = "View Notes";
 "osm_profile_logout" = "Logout of OpenStreetMap account";
 "osm_profile_delete" = "Delete OpenStreetMap account";
 

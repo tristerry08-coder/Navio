@@ -882,4 +882,5 @@
     <string name="osm_wiki_about_url">https://wiki.openstreetmap.org/wiki/RU:О_проекте</string>
     <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="panoramax">Фота Panoramax</string>
+    <string name="app_site_url">https://comaps.app/ru/</string>
 </resources>

@@ -528,7 +528,7 @@
 /* OpenStreetMap Profile */
 "osm_profile" = "OpenStreetMap profil";
 "osm_profile_promt" = "Opret en OpenStreetMap-konto eller log ind for at offentliggøre dine kortredigeringer til hele verden.";
-"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) er et fællesskabsprojekt til opbygning af et gratis og åbent kort. Det er hovedkilden til kortdata i CoMaps og fungerer på samme måde som Wikipedia. Du kan tilføje eller redigere steder, og de bliver tilgængelige for millioner af brugere over hele verden.\nSlut dig til fællesskabet og vær med til at skabe et bedre kort for alle!";
 "osm_profile_login" = "Log ind på OpenStreetMap";
 "osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
 "osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
@@ -537,8 +537,6 @@
 "osm_profile_register_promt" = "Har du ikke OpenStreetMap-konto?";
 "osm_profile_register" = "Tilmeld dig OpenStreetMap";
 "osm_profile_verfied_changes" = "Bekræftede ændringer";
-"osm_profile_view_edit_history" = "View Edit History";
-"osm_profile_view_notes" = "View Notes";
 "osm_profile_logout" = "Logout of OpenStreetMap account";
 "osm_profile_delete" = "Delete OpenStreetMap account";
 

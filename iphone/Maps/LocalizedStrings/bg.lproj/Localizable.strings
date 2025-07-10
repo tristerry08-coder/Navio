@@ -528,7 +528,7 @@
 /* OpenStreetMap Profile */
 "osm_profile" = "Профил в OpenStreetMap";
 "osm_profile_promt" = "Създайте акаунт в OpenStreetMap или влезте в него, за да публикувате своите редакции на картата в света.";
-"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) е общностен проект за създаване на безплатна и отворена карта. Той е основният източник на картографски данни в CoMaps и работи подобно на Wikipedia. Можете да добавяте или редактирате места и те стават достъпни за милиони потребители по целия свят. \nПрисъединете се към общността и помогнете за създаването на по-добра карта за всички!";
 "osm_profile_login" = "Влезте в OpenStreetMap";
 "osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
 "osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
@@ -537,8 +537,6 @@
 "osm_profile_register_promt" = "Нямате акаунт в OpenStreetMap?";
 "osm_profile_register" = "Регистриране в OpenStreetMap";
 "osm_profile_verfied_changes" = "Потвърдени промени";
-"osm_profile_view_edit_history" = "View Edit History";
-"osm_profile_view_notes" = "View Notes";
 "osm_profile_logout" = "Logout of OpenStreetMap account";
 "osm_profile_delete" = "Delete OpenStreetMap account";
 

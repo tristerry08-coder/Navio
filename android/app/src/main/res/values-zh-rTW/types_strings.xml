@@ -174,4 +174,8 @@
     <string name="type.cuisine.japanese">日本料理</string>
     <string name="type.railway.station.subway.qingdao">捷運站</string>
     <string name="type.leisure.hackerspace">黑客空間</string>
+    <string name="type.barrier.retaining_wall">擋土牆</string>
+    <string name="type.barrier.lift_gate">遮斷機</string>
+    <string name="type.barrier.entrance">入口</string>
+    <string name="type.barrier.kissing_gate">窄門</string>
 </resources>

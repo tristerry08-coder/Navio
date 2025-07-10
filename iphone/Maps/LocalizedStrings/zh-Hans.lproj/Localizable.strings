@@ -528,7 +528,7 @@
 /* OpenStreetMap Profile */
 "osm_profile" = "OpenStreetMap 个人资料";
 "osm_profile_promt" = "创建 OpenStreetMap 账号或登录，向全世界发布您编辑的地图。";
-"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org)（OSM）是一个构建免费开放地图的社区项目。它是 CoMaps 中地图数据的主要来源，其工作原理类似于维基百科。您可以添加或编辑地点，可供全世界数以百万计的用户使用并受益。\n加入OSM，让我们共绘更优质的地图吧！";
 "osm_profile_login" = "登录 OpenStreetMap";
 "osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
 "osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
@@ -537,8 +537,6 @@
 "osm_profile_register_promt" = "没有 OpenStreetMap 账号吗？";
 "osm_profile_register" = "注册 OpenStreetMap 账号";
 "osm_profile_verfied_changes" = "已验证的更改";
-"osm_profile_view_edit_history" = "View Edit History";
-"osm_profile_view_notes" = "View Notes";
 "osm_profile_logout" = "Logout of OpenStreetMap account";
 "osm_profile_delete" = "Delete OpenStreetMap account";
 

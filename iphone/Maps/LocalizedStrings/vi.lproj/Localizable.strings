@@ -528,7 +528,6 @@
 /* OpenStreetMap Profile */
 "osm_profile" = "Hồ sơ OpenStreetMap";
 "osm_profile_promt" = "Tạo tài khoản OpenStreetMap hoặc đăng nhập để xuất bản các chỉnh sửa bản đồ của bạn với thế giới.";
-"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
 "osm_profile_login" = "Đăng nhập vào OpenStreetMap";
 "osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
 "osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
@@ -537,8 +536,6 @@
 "osm_profile_register_promt" = "Bạn chưa có tài khoản tại OpenStreetMap ư?";
 "osm_profile_register" = "Đăng ký tại OpenStreetMap";
 "osm_profile_verfied_changes" = "Các thay đổi đã được xác thực";
-"osm_profile_view_edit_history" = "View Edit History";
-"osm_profile_view_notes" = "View Notes";
 "osm_profile_logout" = "Logout of OpenStreetMap account";
 "osm_profile_delete" = "Delete OpenStreetMap account";
 
@@ -1078,3 +1075,4 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Tuyến đường trống - không có gì để lưu";
 "edit_track" = "Chỉnh sửa tuyến đường";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) là một dự án cộng đồng nhằm xây dựng bản đồ mở và miễn phí. Đây là nguồn dữ liệu bản đồ chính trong CoMaps và hoạt động tương tự như Wikipedia. Bạn có thể thêm hoặc chỉnh sửa địa điểm và chúng sẽ có sẵn cho hàng triệu người dùng trên toàn thế giới. \nTham gia cộng đồng và giúp tạo bản đồ tốt hơn cho mọi người!";

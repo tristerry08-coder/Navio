@@ -154,7 +154,6 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "RV용";
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks; please open them in CoMaps. If you don't have it installed you can download it here: https://www.comaps.app/download/\n\nEnjoy travelling with CoMaps!";
 
 /* message title of loading file */
 "load_kmz_title" = "즐겨찾기 로드";
@@ -172,10 +171,10 @@
 "unknown_current_position" = "귀하의 위치를 아직 알아내지 못 했습니다";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "CoMaps 지도에서 내 핀 보기";
+"bookmark_share_email_subject" = "CoMaps 지도에서 내 핀 보기!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "CoMaps 지도에서 제 현재 위치를 살펴 보시기 바랍니다";
+"my_position_share_email_subject" = "CoMaps 지도에서 제 현재 위치를 살펴 보시기 바랍니다!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "이메일";
@@ -226,7 +225,7 @@
 "pref_map_3d_buildings_title" = "주변 건물 3D";
 
 /* A message in Settings/Preferences explaining why is it not possible to enable 3D buildings when max power saving mode is enabled */
-"pref_map_3d_buildings_disabled_summary" = "3D 빌딩은 절전 모드에서 꺼집니다.";
+"pref_map_3d_buildings_disabled_summary" = "3D 빌딩은 절전 모드에서 꺼집니다";
 
 /* Settings «Route» category: «Tts enabled» title */
 "pref_tts_enable_title" = "음성 지침";
@@ -235,7 +234,7 @@
 "pref_tts_street_names_title" = "\"거리 이름 발표\"";
 
 /* Settings «Route» category: «Tts announce street names» description */
-"pref_tts_street_names_description" = "\"사용하도록 설정하면 회전할 거리 또는 출구의 이름을 소리내어 말합니다.\"";
+"pref_tts_street_names_description" = "사용하도록 설정하면 회전할 거리 또는 출구의 이름을 소리내어 말합니다.";
 
 /* Settings «Route» category: «Tts language» title */
 "pref_tts_language_title" = "음성 언어";
@@ -528,7 +527,7 @@
 /* OpenStreetMap Profile */
 "osm_profile" = "OpenStreetMap 프로필";
 "osm_profile_promt" = "OpenStreetMap 계정을 만들거나 로그인하여 지도 편집 내용을 전 세계에 공개하세요.";
-"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM)은 무료 오픈스트리트맵을 구축하기 위한 커뮤니티 프로젝트입니다. CoMaps의 지도 데이터의 주요 소스이며 위키백과와 유사하게 작동합니다. 장소를 추가하거나 편집하면 전 세계 수백만 명의 사용자가 사용할 수 있습니다. \n커뮤니티에 참여하여 모두를 위한 더 나은 지도를 만드는 데 도움을 주세요!";
 "osm_profile_login" = "OpenStreetMap에 로그인";
 "osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
 "osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
@@ -537,8 +536,6 @@
 "osm_profile_register_promt" = "OpenStreetMap에서 계정이 없습니까?";
 "osm_profile_register" = "OpenStreetMap에 등록하세요";
 "osm_profile_verfied_changes" = "변경사항 승인";
-"osm_profile_view_edit_history" = "View Edit History";
-"osm_profile_view_notes" = "View Notes";
 "osm_profile_logout" = "Logout of OpenStreetMap account";
 "osm_profile_delete" = "Delete OpenStreetMap account";
 

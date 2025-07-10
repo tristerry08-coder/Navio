@@ -1358,4 +1358,16 @@
     <string name="type.piste_type.downhill.novice.area">Meget let pist</string>
     <string name="type.railway.tram.bridge">Sporvejsbro</string>
     <string name="type.mapswithme">MapsWithMe</string>
+    <string name="type.landuse.plant_nursery">Planteskole</string>
+    <string name="type.leisure.firepit">Bålplads</string>
+    <string name="type.man_made.crane">Kran</string>
+    <string name="type.barrier.guard_rail">Autoværn</string>
+    <string name="type.amenity.studio">Studie</string>
+    <string name="type.power.generator">Strømgenerator</string>
+    <string name="type.power">Strøm</string>
+    <string name="type.power.line.underground">Underjordisk strømledning</string>
+    <string name="type.power.minor_line">Mindre strømledning</string>
+    <string name="type.power.station">Kraftværk</string>
+    <string name="type.power.line">Strømledning</string>
+    <string name="type.highway.ladder">Stige</string>
 </resources>

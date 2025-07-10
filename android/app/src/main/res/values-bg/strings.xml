@@ -838,4 +838,5 @@
     <string name="wikimedia_commons">Общомедия</string>
     <string name="panoramax">Panoramax Снимка</string>
     <string name="editor_line_social_network">LINE</string>
+    <string name="app_site_url">https://comaps.app/</string>
 </resources>

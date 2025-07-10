@@ -4,7 +4,7 @@
     <string name="download_has_failed">Preuzimanje neuspješno. Dotaknite za ponovni pokušaj.</string>
     <string name="cancel">Odustani</string>
     <string name="delete">Obriši</string>
-    <string name="kilometres">Kilometri</string>
+    <string name="kilometres">Kilometara</string>
     <string name="downloading">Preuzimanje…</string>
     <string name="download_maps">Preuzmi Karte</string>
     <string name="miles">Milje</string>
@@ -125,7 +125,7 @@
     <string name="trip_finished">Stigli ste!</string>
     <string name="sort">Sortiraj…</string>
     <string name="money">Novac</string>
-    <string name="app_site_url">https://comaps.app/</string>
+    <string name="app_site_url">https://comaps.app/hr/</string>
     <string name="mb">MB</string>
     <string name="gb">GB</string>
     <string name="location_is_disabled_long_text">Trenutno su vam onemogućene sve usluge lokacije za ovaj uređaj ili aplikaciju. Molim omogućite ih u Postavkama.</string>
@@ -152,4 +152,5 @@
     <string name="self_service">Samoposluživanje</string>
     <string name="editor_line_social_network">LINE</string>
     <string name="panoramax">Panoramax slika</string>
+    <string name="bluesky">Bluesky</string>
 </resources>

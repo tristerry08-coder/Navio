@@ -4,3 +4,7 @@
 "self_service" = "Samoposluživanje";
 "panoramax" = "Panoramax";
 "panoramax_picture" = "Panoramax slika";
+"fediverse" = "Mastodon";
+"facebook" = "Facebook";
+"bluesky" = "Bluesky";
+"kilometres" = "Kilometara";

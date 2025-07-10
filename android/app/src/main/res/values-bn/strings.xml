@@ -39,4 +39,6 @@
     <string name="self_service">স্ব-সেবা</string>
     <string name="panoramax">Panoramax ছবি</string>
     <string name="editor_line_social_network">LINE</string>
+    <string name="mastodon">Mastodon</string>
+    <string name="bluesky">Bluesky</string>
 </resources>

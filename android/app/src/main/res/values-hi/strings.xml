@@ -599,4 +599,5 @@
     <string name="wikimedia_commons">विकिमीडिया कॉमन्स</string>
     <string name="panoramax">Panoramax चित्र</string>
     <string name="editor_line_social_network">LINE</string>
+    <string name="app_site_url">https://comaps.app/hi/</string>
 </resources>

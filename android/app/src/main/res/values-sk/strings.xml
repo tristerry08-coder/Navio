@@ -863,4 +863,5 @@
     <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="panoramax">Obrázok Panoramax</string>
     <string name="editor_line_social_network">LINE</string>
+    <string name="app_site_url">https://comaps.app/</string>
 </resources>

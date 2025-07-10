@@ -826,7 +826,7 @@
     <!-- preference string for using auto theme only in navigation mode -->
     <string name="nav_auto">Auto na navegação</string>
     <string name="menu">Menu</string>
-    <string name="app_site_url">https://comaps.app/</string>
+    <string name="app_site_url">https://comaps.app/pt/</string>
     <string name="maps_storage_external">Armazenamento externo partilhado</string>
     <string name="mb">MB</string>
     <string name="editor_level">Piso (0 é o rés de chão)</string>

@@ -8,4 +8,7 @@
     <string name="self_service">Vetëshërbim</string>
     <string name="panoramax">Fotografia Panoramax</string>
     <string name="editor_line_social_network">LINE</string>
+    <string name="app_site_url">https://comaps.app/</string>
+    <string name="bluesky">Bluesky</string>
+    <string name="kilometres">Kilometra</string>
 </resources>

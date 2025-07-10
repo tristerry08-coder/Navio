@@ -528,19 +528,10 @@
 /* OpenStreetMap Profile */
 "osm_profile" = "Profilo OpenStreetMap";
 "osm_profile_promt" = "Crea un account OpenStreetMap o effettua il login per pubblicare le tue modifiche alla mappa in tutto il mondo.";
-"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
 "osm_profile_login" = "Accedi a OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
 "osm_profile_register_promt" = "Non hai un account OpenStreetMap?";
 "osm_profile_register" = "Iscriviti a OpenStreetMap";
 "osm_profile_verfied_changes" = "Modifiche approvate";
-"osm_profile_view_edit_history" = "View Edit History";
-"osm_profile_view_notes" = "View Notes";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Ultimo caricamento";
@@ -736,7 +727,7 @@
 "start_from_my_position" = "Parti da";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Salvato";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Accedi a OpenStreetMap per caricare automaticamente tutte le tue modifiche alla mappa. Per saperne di più";
@@ -1078,3 +1069,4 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "La traccia è vuota - non c'è nulla da salvare";
 "edit_track" = "Modifica traccia";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) è un progetto comunitario per creare una mappa libera e aperta. È la principale fonte di dati cartografici di CoMaps e funziona in modo simile a Wikipedia. Puoi aggiungere o modificare luoghi che diventano disponibili per milioni di utenti in tutto il mondo. \nEntra a far parte della comunità e contribuisci a creare una mappa migliore per tutti!";

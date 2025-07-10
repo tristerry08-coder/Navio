@@ -196,7 +196,7 @@
     <string name="type.barrier.fence">篱笆</string>
     <string name="type.barrier.gate">门</string>
     <string name="type.barrier.hedge">灌木篱笆</string>
-    <string name="type.barrier.kissing_gate">门</string>
+    <string name="type.barrier.kissing_gate">窄门</string>
     <string name="type.barrier.lift_gate">道闸</string>
     <string name="type.barrier.retaining_wall">挡土墙</string>
     <string name="type.barrier.stile">台阶</string>
@@ -946,8 +946,8 @@
     <string name="type.railway.station.subway.spb">地铁车站</string>
     <string name="type.railway.station.subway.stockholm">地铁车站</string>
     <string name="type.railway.station.subway.tabriz">地铁车站</string>
-    <string name="type.railway.station.subway.taipei">地铁车站</string>
-    <string name="type.railway.station.subway.taoyuan">地铁车站</string>
+    <string name="type.railway.station.subway.taipei">捷运车站</string>
+    <string name="type.railway.station.subway.taoyuan">捷运车站</string>
     <string name="type.railway.station.subway.tashkent">地铁车站</string>
     <string name="type.railway.station.subway.tbilisi">地铁车站</string>
     <string name="type.railway.station.subway.tehran">地铁车站</string>
@@ -1119,7 +1119,7 @@
     <string name="type.shop.florist">花店</string>
     <string name="type.shop.funeral_directors">殡仪馆</string>
     <string name="type.shop.furniture">家具店</string>
-    <string name="type.shop.garden_centre">幼儿园</string>
+    <string name="type.shop.garden_centre">园艺中心</string>
     <string name="type.shop.gas">燃气站</string>
     <string name="type.shop.gift">礼品店</string>
     <string name="type.shop.greengrocer">蔬果零售店</string>

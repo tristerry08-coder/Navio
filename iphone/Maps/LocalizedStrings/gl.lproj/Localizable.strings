@@ -551,3 +551,5 @@
 "panoramax" = "Panoramax";
 "panoramax_picture" = "Imaxe Panoramax";
 "bluesky" = "Bluesky";
+"fediverse" = "Mastodon";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) é un proxecto comunitario para construír un mapa libre e aberto. É a principal fonte de datos cartográficos de CoMaps e funciona de forma similar a Wikipedia. Vostede pode engadir ou editar lugares e estes pasan a estar dispoñibles para millóns de usuarios de todo o mundo. \nÚnase á comunidade e axude a crear un mapa mellor para todos!";

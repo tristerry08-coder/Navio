@@ -884,4 +884,5 @@
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="comma_separated_pair">%1$s, %2$s</string>
     <string name="panoramax">Imatge Panoramax</string>
+    <string name="app_site_url">https://comaps.app/ca/</string>
 </resources>

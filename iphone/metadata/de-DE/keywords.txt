@@ -1,1 +1,1 @@
-comaps,karten,open street maps,osm,wandern,unterwegs,fahrrad,auto,offline,datenschutz,navigieren,navi,gps
+comaps,karten,open street maps,osm,wandern,unterwegs,fahrrad,auto,offline,datenschutz,navigieren,gps

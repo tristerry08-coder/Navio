@@ -848,4 +848,5 @@
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="panoramax">Imagine Panoramax</string>
     <string name="editor_line_social_network">LINE</string>
+    <string name="app_site_url">https://comaps.app/</string>
 </resources>

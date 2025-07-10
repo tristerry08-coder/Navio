@@ -528,7 +528,6 @@
 /* OpenStreetMap Profile */
 "osm_profile" = "OpenStreetMap-profiel";
 "osm_profile_promt" = "Skep 'n OpenStreetMap-rekening of meld aan om jou kaartwysigings aan die wêreld te publiseer.";
-"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
 "osm_profile_login" = "Teken aan op OpenStreetMap";
 "osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
 "osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
@@ -537,8 +536,6 @@
 "osm_profile_register_promt" = "Het u nie ’n OpenStreetMap-rekening nie?";
 "osm_profile_register" = "Registreer by OpenStreetMap";
 "osm_profile_verfied_changes" = "Bevestigde veranderinge";
-"osm_profile_view_edit_history" = "View Edit History";
-"osm_profile_view_notes" = "View Notes";
 "osm_profile_logout" = "Logout of OpenStreetMap account";
 "osm_profile_delete" = "Delete OpenStreetMap account";
 
@@ -1078,3 +1075,4 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Roete is leeg - niks om te red nie";
 "edit_track" = "Wysig Roete";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is 'n gemeenskapsprojek om 'n gratis en oop kaart te bou. Dit is die hoofbron van kaartdata in CoMaps en werk soortgelyk aan Wikipedia. Jy kan plekke byvoeg of wysig en hulle word beskikbaar vir miljoene gebruikers regoor die wêreld. \nSluit aan by die gemeenskap en help om 'n beter kaart vir almal te maak!";

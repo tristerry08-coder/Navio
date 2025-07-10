@@ -528,7 +528,7 @@
 /* OpenStreetMap Profile */
 "osm_profile" = "Профіль OpenStreetMap";
 "osm_profile_promt" = "Створіть обліковий запис OpenStreetMap або увійдіть до нього, щоб опублікувати свої редагування мапи для всього світу.";
-"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) - це громадський проект зі створення вільної та відкритої мапи. Це основне джерело картографічних даних в CoMaps і працює подібно до Вікіпедії. Ви можете додавати або редагувати місця, і вони стають доступними мільйонам користувачів по всьому світу. \nПриєднуйтесь до спільноти і допоможіть зробити мапу кращою для всіх!";
 "osm_profile_login" = "Увійдіть до OpenStreetMap";
 "osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
 "osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
@@ -537,8 +537,6 @@
 "osm_profile_register_promt" = "Не зареєстровані в OpenStreetMap?";
 "osm_profile_register" = "Зареєструватися";
 "osm_profile_verfied_changes" = "Виправлення, що ураховані";
-"osm_profile_view_edit_history" = "View Edit History";
-"osm_profile_view_notes" = "View Notes";
 "osm_profile_logout" = "Logout of OpenStreetMap account";
 "osm_profile_delete" = "Delete OpenStreetMap account";
 

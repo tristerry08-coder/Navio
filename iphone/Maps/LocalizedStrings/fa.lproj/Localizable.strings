@@ -528,7 +528,7 @@
 /* OpenStreetMap Profile */
 "osm_profile" = "OpenStreetMap نمایه";
 "osm_profile_promt" = "یک حساب OpenStreetMap ایجاد کنید یا وارد شوید تا ویرایش های نقشه خود را در جهان منتشر کنید.";
-"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) یک پروژه اجتماعی برای ساخت یک نقشه رایگان و باز است. این منبع اصلی داده های نقشه در CoMaps است و مشابه ویکی پدیا کار می کند. می توانید مکان ها را اضافه یا ویرایش کنید تا در دسترس میلیون ها کاربر در سراسر جهان قرار گیرند. \nبه انجمن بپیوندید و به ایجاد نقشه بهتر برای همه کمک کنید!";
 "osm_profile_login" = "شوید OpenStreetMap وارد";
 "osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
 "osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
@@ -537,8 +537,6 @@
 "osm_profile_register_promt" = "آیا حساب OpenStreetMap ندارید؟";
 "osm_profile_register" = "ثبت نام در OpenStreetMap";
 "osm_profile_verfied_changes" = "تغییرات تایید شد";
-"osm_profile_view_edit_history" = "View Edit History";
-"osm_profile_view_notes" = "View Notes";
 "osm_profile_logout" = "Logout of OpenStreetMap account";
 "osm_profile_delete" = "Delete OpenStreetMap account";
 

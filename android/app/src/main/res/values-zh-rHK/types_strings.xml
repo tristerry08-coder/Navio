@@ -196,8 +196,8 @@
     <string name="type.barrier.fence">籬笆</string>
     <string name="type.barrier.gate">門</string>
     <string name="type.barrier.hedge">灌木籬笆</string>
-    <string name="type.barrier.kissing_gate">門</string>
-    <string name="type.barrier.lift_gate">遮斷機</string>
+    <string name="type.barrier.kissing_gate">窄門</string>
+    <string name="type.barrier.lift_gate">閘竿</string>
     <string name="type.barrier.retaining_wall">擋土牆</string>
     <string name="type.barrier.stile">梯磴</string>
     <string name="type.barrier.turnstile">旋轉門</string>

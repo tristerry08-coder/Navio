@@ -598,4 +598,6 @@
     <string name="telegram_url">https://t.me/CoMapsApp/</string>
     <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="panoramax">Panoramax mynd</string>
+    <string name="bluesky">Bluesky</string>
+    <string name="app_site_url">https://comaps.app/</string>
 </resources>

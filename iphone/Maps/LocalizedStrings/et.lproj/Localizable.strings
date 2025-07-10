@@ -538,7 +538,6 @@
 "osm_profile_register" = "Registreeru OpenStreetMapis";
 "osm_profile_verfied_changes" = "Kinnitatud muudatused";
 "osm_profile_view_edit_history" = "Vaata muudatuste ajalugu";
-"osm_profile_view_notes" = "View Notes";
 "osm_profile_logout" = "Logi OpenStreetMapi kasutajakonto välja";
 "osm_profile_delete" = "Kustuta OpenStreetMapi kasutajakonto";
 
@@ -736,7 +735,7 @@
 "start_from_my_position" = "Alusta kohast";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Salvestatud";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Oma kaardimuudatuste automaatseks üleslaadimiseks palun logi sisse OpenStreetMappi. Lisateave";

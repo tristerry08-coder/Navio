@@ -522,13 +522,13 @@
 
 /* OpenStreetMap */
 "osm_explanation" = "Von der Community erstellte OpenStreetMap-Daten (Stand: %@). Erfahre mehr darüber, wie du die Karte bearbeiten und aktualisieren kannst unter OpenStreetMap.org";
-"osm_more_about" = "Mehr Informationen über OpenStreetMap";
+"osm_more_about" = "Mehr Infos über OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/DE:Über_OSM";
 
 /* OpenStreetMap Profile */
 "osm_profile" = "OpenStreetMap-Profil";
 "osm_profile_promt" = "Erstellen Sie ein OpenStreetMap-Konto oder melden Sie sich an, um Ihre Kartenbearbeitungen weltweit zu veröffentlichen.";
-"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) ist ein Gemeinschaftsprojekt zur Erstellung einer freien und offenen Karte. Es ist die Hauptquelle für Kartendaten in CoMaps und funktioniert ähnlich wie Wikipedia. Sie können Orte hinzufügen oder bearbeiten, die dann Millionen von Nutzern weltweit zur Verfügung stehen. Werden Sie Teil der Gemeinschaft und helfen Sie mit, eine bessere Karte für alle zu erstellen!";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) ist ein Gemeinschaftsprojekt zur Erstellung einer freien und offenen Karte. Es ist die Hauptquelle für Kartendaten in CoMaps und funktioniert ähnlich wie Wikipedia. Sie können Orte hinzufügen oder bearbeiten, die dann Millionen von Nutzern weltweit zur Verfügung stehen.\nWerden Sie Teil der Gemeinschaft und helfen Sie mit, eine bessere Karte für alle zu erstellen!";
 "osm_profile_login" = "Bei OpenStreetMap anmelden";
 "osm_profile_reauthorize_promt" = "Das OpenStreetMap-Konoto wurde von dieser App getrennt";
 "osm_profile_reauthorize" = "OpenStreetMap-Konto erneut verbinden";

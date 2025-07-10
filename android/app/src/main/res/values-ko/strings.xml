@@ -172,9 +172,9 @@
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">현재 위치를 알아 보십시오. %1$s 또는 %2$s 열기</string>
     <!-- Subject for emailed bookmark -->
-    <string name="bookmark_share_email_subject">CoMaps 지도에서 내 핀 보기</string>
+    <string name="bookmark_share_email_subject">CoMaps 지도에서 내 핀 보기!</string>
     <!-- Subject for emailed position -->
-    <string name="my_position_share_email_subject">CoMaps 지도에서 제 현재 위치를 살펴 보시기 바랍니다</string>
+    <string name="my_position_share_email_subject">CoMaps 지도에서 제 현재 위치를 살펴 보시기 바랍니다!</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
     <string name="my_position_share_email">안녕하세요. \n \n지금 다음 위치에 있습니다: %1$s. %2$s 또는 %3$s 링크를 클릭하여 지도상에서 해당 장소를 살펴보시기 바랍니다. \n \n감사합니다.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -210,13 +210,13 @@
     <!-- Settings «Map» category: «3D buildings» title -->
     <string name="pref_map_3d_buildings_title">주변 건물 3D</string>
     <!-- A message in Settings/Preferences explaining why is it not possible to enable 3D buildings when max power saving mode is enabled -->
-    <string name="pref_map_3d_buildings_disabled_summary">3D 빌딩은 절전 모드에서 꺼집니다.</string>
+    <string name="pref_map_3d_buildings_disabled_summary">3D 빌딩은 절전 모드에서 꺼집니다</string>
     <!-- Settings «Route» category: «Tts enabled» title -->
     <string name="pref_tts_enable_title">음성 지침</string>
     <!-- Settings «Route» category: «Tts announce street names» title -->
     <string name="pref_tts_street_names_title">\"거리 이름 발표\"</string>
     <!-- Settings «Route» category: «Tts announce street names» description -->
-    <string name="pref_tts_street_names_description">\"사용하도록 설정하면 회전할 거리 또는 출구의 이름을 소리내어 말합니다.\"</string>
+    <string name="pref_tts_street_names_description">사용하도록 설정하면 회전할 거리 또는 출구의 이름을 소리내어 말합니다.</string>
     <!-- Settings «Route» category: «Tts language» title -->
     <string name="pref_tts_language_title">음성 언어</string>
     <!-- Settings «Route» category: «Test Voice Directions» title -->

@@ -183,4 +183,6 @@
     <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="wikimedia_commons">Wikimedia Commons</string>
     <string name="panoramax">Panoramax Foto</string>
+    <string name="app_site_url">https://comaps.app/</string>
+    <string name="bluesky">Bluesky</string>
 </resources>

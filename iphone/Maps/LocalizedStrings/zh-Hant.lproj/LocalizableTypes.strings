@@ -203,7 +203,7 @@
 "type.barrier.fence" = "籬笆";
 "type.barrier.gate" = "門";
 "type.barrier.hedge" = "灌木籬笆";
-"type.barrier.kissing_gate" = "門";
+"type.barrier.kissing_gate" = "窄門";
 "type.barrier.lift_gate" = "遮斷機";
 "type.barrier.retaining_wall" = "擋土牆";
 "type.barrier.stile" = "梯磴";

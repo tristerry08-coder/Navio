@@ -528,7 +528,6 @@
 /* OpenStreetMap Profile */
 "osm_profile" = "OpenStreetMap 個人資料";
 "osm_profile_promt" = "建立 OpenStreetMap 帳戶或登入以向全世界發布您的地圖編輯。";
-"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
 "osm_profile_login" = "登錄 OpenStreetMap";
 "osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
 "osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
@@ -537,8 +536,6 @@
 "osm_profile_register_promt" = "沒有 OpenStreetMap 帳戶嗎？";
 "osm_profile_register" = "註冊 OpenStreetMap 帳戶";
 "osm_profile_verfied_changes" = "已驗證的變更";
-"osm_profile_view_edit_history" = "View Edit History";
-"osm_profile_view_notes" = "View Notes";
 "osm_profile_logout" = "Logout of OpenStreetMap account";
 "osm_profile_delete" = "Delete OpenStreetMap account";
 
@@ -1078,3 +1075,4 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "軌跡為空 - 沒有可保存的內容";
 "edit_track" = "編輯軌跡";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org)（OSM）是一個建立免費開放地圖的社群專案。 它是CoMaps中地圖資料的主要來源，其工作原理類似於維基百科。 您可以新增或編輯地點，可供全世界數以百萬計的使用者使用並受益。\n 加入OSM，讓我們共繪更優質的地圖吧！";

@@ -7,22 +7,15 @@
 
 /* Button which deletes downloaded country */
 "delete" = "Delete";
-"download_maps" = "Download Maps";
-
-/* Settings/Downloader - info for country which started downloading */
-"downloading" = "Downloading…";
 
 /* Choose measurement on first launch alert - choose metric system button */
-"kilometres" = "Kilometers";
+"kilometres" = "Kilomita";
 
 /* Leave Review dialog - Review button */
 "leave_a_review" = "Leave a Review";
 
 /* Choose measurement on first launch alert - choose imperial system button */
 "miles" = "Miles";
-
-/* A text for current gps location point/arrow selected on the map */
-"core_my_position" = "My Position";
 
 /* Update maps later button text */
 "later" = "Later";
@@ -39,9 +32,6 @@
 /* Button text for the button at the center of the screen when the country is not downloaded and the size should not be shown */
 "country_status_download_without_size" = "Download Map";
 
-/* Message to display at the center of the screen when the country download has failed */
-"country_status_download_failed" = "Download has failed";
-
 /* Text in About screen */
 "about_headline" = "Bure kwa kila mtu, iliyotengenezwa na upendo";
 
@@ -54,7 +44,7 @@
 /* Text in About screen */
 "about_proposition_3" = "• Haraka, minimalist, iliyotengenezwa na jumuiya";
 "close" = "Close";
-"download" = "Download";
+"download" = "Pakua";
 
 /* REMOVE THIS STRING AFTER REFACTORING */
 "continue_button" = "Continue";
@@ -528,7 +518,7 @@
 /* OpenStreetMap Profile */
 "osm_profile" = "OpenStreetMap profile";
 "osm_profile_promt" = "Fungua akaunti ya OpenStreetMap au ingia ili kuchapisha mabadiliko yako ya ramani kwa ulimwengu.";
-"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) ni mradi wa jumuiya wa kujenga ramani isiyolipishwa na iliyo wazi. Ndiyo chanzo kikuu cha data ya ramani katika CoMaps na inafanya kazi sawa na Wikipedia. Unaweza kuongeza au kubadilisha maeneo na yanapatikana kwa mamilioni ya watumiaji kote Ulimwenguni. \nJiunge na jumuiya na usaidie kutengeneza ramani bora kwa kila mtu!";
 "osm_profile_login" = "Ingia kwa OpenStreetMap";
 "osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
 "osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
@@ -537,8 +527,6 @@
 "osm_profile_register_promt" = "Don't have an OpenStreetMap account?";
 "osm_profile_register" = "Register at OpenStreetMap";
 "osm_profile_verfied_changes" = "Verified Changes";
-"osm_profile_view_edit_history" = "View Edit History";
-"osm_profile_view_notes" = "View Notes";
 "osm_profile_logout" = "Logout of OpenStreetMap account";
 "osm_profile_delete" = "Delete OpenStreetMap account";
 
