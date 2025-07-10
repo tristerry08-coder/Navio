@@ -36,7 +36,7 @@ public class LocationHelper implements BaseLocationProvider.Listener
 {
   private static final long INTERVAL_FOLLOW_MS = 0;
   private static final long INTERVAL_NOT_FOLLOW_MS = 3000;
-  private static final long INTERVAL_NAVIGATION_MS = 0;
+  private static final long INTERVAL_NAVIGATION_MS = 1000;
   private static final long INTERVAL_TRACK_RECORDING = 0;
 
   private static final long AGPS_EXPIRATION_TIME_MS = 16 * 60 * 60 * 1000; // 16 hours
