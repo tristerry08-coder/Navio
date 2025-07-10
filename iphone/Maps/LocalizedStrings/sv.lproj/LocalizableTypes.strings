@@ -891,7 +891,6 @@
 "type.power.plant.hydro" = "Vattenkraftverk";
 "type.power.plant.solar" = "Solkraftverk";
 "type.power.plant.wind" = "Vindkraftverk";
-"type.power.station" = "Kraftstation";
 "type.power.substation" = "Ställverk";
 
 /* A tower or pylon carrying high voltage electricity cables. */

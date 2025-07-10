@@ -890,7 +890,6 @@
 "type.power.plant.hydro" = "Hüdroelektrijaam";
 "type.power.plant.solar" = "Päikeseelektrijaam";
 "type.power.plant.wind" = "Tuuleelektrijaam";
-"type.power.station" = "Elektrijaam";
 "type.power.substation" = "Alajaam";
 
 /* A tower or pylon carrying high voltage electricity cables. */

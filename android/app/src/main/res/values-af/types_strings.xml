@@ -761,7 +761,6 @@
     <string name="type.power.plant.hydro">Hidroëlektriese kragsentrale</string>
     <string name="type.power.plant.solar">Sonkragsentrale</string>
     <string name="type.power.plant.wind">Windkragsentrale</string>
-    <string name="type.power.station">Kragstasie</string>
     <string name="type.power.substation">Substasie</string>
     <!-- A tower or pylon carrying high voltage electricity cables. -->
     <string name="type.power.tower">Kragmas</string>

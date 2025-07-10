@@ -774,7 +774,6 @@
     <string name="type.power.plant.hydro">Usina hidrelétrica</string>
     <string name="type.power.plant.solar">Planta de energia solar</string>
     <string name="type.power.plant.wind">Usina de energia eólica</string>
-    <string name="type.power.station">Subestação elétrica</string>
     <string name="type.power.substation">Subestação elétrica</string>
     <!-- A tower or pylon carrying high voltage electricity cables. -->
     <string name="type.power.tower">Torre de eletricidade</string>

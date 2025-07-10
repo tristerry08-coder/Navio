@@ -825,7 +825,6 @@
     <string name="type.power.plant.hydro">Hydroelectric Power Plant</string>
     <string name="type.power.plant.solar">Solar Power Plant</string>
     <string name="type.power.plant.wind">Wind Power Plant</string>
-    <string name="type.power.station">Power Station</string>
     <string name="type.power.substation">Substation</string>
     <!-- A tower or pylon carrying high voltage electricity cables. -->
     <string name="type.power.tower">Power Tower</string>

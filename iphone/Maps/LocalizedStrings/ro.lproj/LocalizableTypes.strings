@@ -891,7 +891,6 @@
 "type.power.plant.hydro" = "Centrală hidroelectrică";
 "type.power.plant.solar" = "Centrală solară";
 "type.power.plant.wind" = "Centrală eoliană";
-"type.power.station" = "Power Station";
 "type.power.substation" = "Stație subterană";
 
 /* A tower or pylon carrying high voltage electricity cables. */

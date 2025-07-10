@@ -1235,7 +1235,6 @@
     <string name="type.power.line.underground">Podzemní elektrické vedení</string>
     <string name="type.power.pole">Sloup elektrického vedení</string>
     <string name="type.man_made.utility_pole">Užitkový sloup</string>
-    <string name="type.power.station">Elektrostanice</string>
     <string name="type.railway">Železnice</string>
     <string name="type.railway.disused">Nepoužívaná železnice</string>
     <string name="type.railway.funicular.bridge">Most pozemní lanové dráhy</string>

@@ -889,7 +889,6 @@
 "type.power.plant.hydro" = "Водноелектрическа централа";
 "type.power.plant.solar" = "Слънчева електроцентрала";
 "type.power.plant.wind" = "Вятърна електроцентрала";
-"type.power.station" = "Power Station";
 "type.power.substation" = "Substation";
 
 /* A tower or pylon carrying high voltage electricity cables. */

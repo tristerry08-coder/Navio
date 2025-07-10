@@ -773,7 +773,6 @@
 "type.power.plant.hydro" = "Wasserchraftwerch";
 "type.power.plant.solar" = "Solarchraftwerch";
 "type.power.plant.wind" = "Windchraftaalag";
-"type.power.station" = "Umspannwerch";
 "type.power.tower" = "Hochspannigsmascht";
 "type.power.pole" = "Strommascht";
 "type.man_made.utility_pole" = "Versorgigsmascht";

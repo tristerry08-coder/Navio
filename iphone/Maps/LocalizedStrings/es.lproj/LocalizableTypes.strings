@@ -891,7 +891,6 @@
 "type.power.plant.hydro" = "Planta de energía hidroeléctrica";
 "type.power.plant.solar" = "Planta de energía solar";
 "type.power.plant.wind" = "Planta eólica";
-"type.power.station" = "Estación eléctrica";
 "type.power.substation" = "Subestación eléctrica";
 
 /* A tower or pylon carrying high voltage electricity cables. */

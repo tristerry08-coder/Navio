@@ -891,7 +891,6 @@
 "type.power.plant.hydro" = "Waterkrachtcentrale";
 "type.power.plant.solar" = "Zonne-energiecentrale";
 "type.power.plant.wind" = "Windkrachtcentrale";
-"type.power.station" = "Transformatorstation";
 "type.power.substation" = "Transformatorstation";
 
 /* A tower or pylon carrying high voltage electricity cables. */

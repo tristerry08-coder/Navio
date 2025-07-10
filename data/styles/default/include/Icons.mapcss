@@ -1032,8 +1032,6 @@ node|z17-[amenity=bicycle_repair_station],
 area|z17-[amenity=bicycle_repair_station],
 node|z17-[amenity=post_office],
 area|z17-[amenity=post_office],
-node|z17-[power=station],
-area|z17-[power=station],
 node|z17-[man_made=works],
 area|z17-[man_made=works],
 node|z17-[amenity=parcel_locker],
@@ -1745,8 +1743,6 @@ node|z17-[amenity=waste_transfer_station],
 area|z17-[amenity=waste_transfer_station],
 {icon-image: recycling-m.svg;}
 
-node|z17-[power=station],
-area|z17-[power=station],
 node|z17-[power=plant],
 area|z17-[power=plant],
 /* Skip individual solar generators, because there are a lot of mapped panels */

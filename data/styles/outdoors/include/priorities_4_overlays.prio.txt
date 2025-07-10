@@ -1216,7 +1216,6 @@ power-plant-hydro                                   # icon z17- (also has area z
 power-plant-solar                                   # icon z17- (also has area z13-)
 power-plant-wind                                    # icon z13- (also has caption(optional) z16-, area z13-)
 power-pole                                          # icon z15-
-power-station                                       # icon z17- (also has caption(optional) z17-)
 === 230
 
 barrier-entrance                                    # icon z16- (also has caption(optional) z16-)
@@ -2139,7 +2138,6 @@ leisure-swimming_pool-private                       # icon z17- (also has captio
 # === -9750
 
 # power-plant-wind                                  # caption(optional) z16- (also has icon z13-, area z13-)
-# power-station                                     # caption(optional) z17- (also has icon z17-)
 # === -9770
 
 # barrier-entrance                                  # caption(optional) z16- (also has icon z16-)

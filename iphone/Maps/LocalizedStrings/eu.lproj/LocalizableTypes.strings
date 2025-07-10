@@ -891,7 +891,6 @@
 "type.power.plant.hydro" = "Zentral hidroelektrikoa";
 "type.power.plant.solar" = "Eguzki-zentrala";
 "type.power.plant.wind" = "Zentral eolikoa";
-"type.power.station" = "Elektrizitate zentrala";
 "type.power.substation" = "Azpiestazioa";
 
 /* A tower or pylon carrying high voltage electricity cables. */

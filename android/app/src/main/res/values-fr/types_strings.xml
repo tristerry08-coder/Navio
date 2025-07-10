@@ -1326,7 +1326,6 @@
     <string name="type.amenity.place_of_worship.hindu">Temple hindou</string>
     <string name="type.amenity.shelter.lean_to">Abri en appentis</string>
     <string name="type.tourism.attraction.specified">Attraction</string>
-    <string name="type.power.station">Centrale électrique</string>
     <string name="type.traffic_calming">Ralentisseur de vitesse</string>
     <string name="type.amenity.place_of_worship.buddhist">Temple bouddhiste</string>
     <string name="type.cuisine.bubble_tea">Bubble tea</string>

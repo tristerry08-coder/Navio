@@ -794,7 +794,6 @@
     <string name="type.power.plant.hydro">Гідроелектростанція</string>
     <string name="type.power.plant.solar">Сонячна електростанція</string>
     <string name="type.power.plant.wind">Вітрова електростанція</string>
-    <string name="type.power.station">Електростанція</string>
     <string name="type.power.substation">Підстанція</string>
     <!-- A tower or pylon carrying high voltage electricity cables. -->
     <string name="type.power.tower">Стовп ЛЕП</string>

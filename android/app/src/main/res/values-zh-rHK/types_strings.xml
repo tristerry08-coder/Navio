@@ -1315,7 +1315,6 @@
     <string name="type.power">電力要素</string>
     <string name="type.power.generator">發電機</string>
     <string name="type.power.line">輸電線</string>
-    <string name="type.power.station">發電廠</string>
     <string name="type.power.pole">電線桿</string>
     <string name="type.man_made.utility_pole">公用事業桿</string>
     <string name="type.psurface">路面</string>

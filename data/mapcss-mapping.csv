@@ -319,7 +319,7 @@ place|county;215;
 sport|table_tennis;216;
 sport|beachvolleyball;217;
 sport|volleyball;218;
-power|station;219;
+deprecated:power|station:07.2025;219;x
 sport|swimming;220;
 leisure|track;221;
 sport|skateboard;222;

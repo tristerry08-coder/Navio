@@ -364,7 +364,6 @@
 "type.power.minor_line" = "Minni raflína";
 "type.power.plant.gas" = "Gastúrbínuknúin aflstöð";
 "type.power.plant.hydro" = "Vatnsaflstöð";
-"type.power.station" = "Orkuver";
 "type.railway.abandoned.bridge" = "Aflögð járnbrautarbrú";
 "type.railway.light_rail.bridge" = "Léttlestarbrú";
 "type.railway.light_rail.tunnel" = "Léttlestargöng";

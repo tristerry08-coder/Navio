@@ -890,7 +890,6 @@
 "type.power.plant.hydro" = "Hidroelektrik Santrali";
 "type.power.plant.solar" = "Güneş Enerjisi Santrali";
 "type.power.plant.wind" = "Rüzgar Santrali";
-"type.power.station" = "Elektrik Santrali";
 "type.power.substation" = "Trafo";
 
 /* A tower or pylon carrying high voltage electricity cables. */

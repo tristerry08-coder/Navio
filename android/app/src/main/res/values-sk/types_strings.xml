@@ -775,7 +775,6 @@
     <string name="type.power.plant.hydro">Vodná elektráreň</string>
     <string name="type.power.plant.solar">Solárna elektráreň</string>
     <string name="type.power.plant.wind">Veterná elektráreň</string>
-    <string name="type.power.station">Elektrická stanica</string>
     <string name="type.power.substation">Rozvodňa</string>
     <!-- A tower or pylon carrying high voltage electricity cables. -->
     <string name="type.power.tower">Stĺp elektrického vedenia</string>

@@ -891,7 +891,6 @@
 "type.power.plant.hydro" = "Su elektrik stansiyası";
 "type.power.plant.solar" = "Günəş Elektrik Stansiyası";
 "type.power.plant.wind" = "Yel deyirmani";
-"type.power.station" = "Stansiya";
 "type.power.substation" = "Transformator";
 
 /* A tower or pylon carrying high voltage electricity cables. */

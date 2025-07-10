@@ -891,7 +891,6 @@
 "type.power.plant.hydro" = "תחנת כוח הידרואלקטרית";
 "type.power.plant.solar" = "תחנת כוח סולארית";
 "type.power.plant.wind" = "תחנת כוח רוח";
-"type.power.station" = "תחנת כוח";
 "type.power.substation" = "תחנת כוח משנית";
 
 /* A tower or pylon carrying high voltage electricity cables. */

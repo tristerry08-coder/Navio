@@ -459,7 +459,6 @@
     <!-- Named part of a city or town, bigger than place=quarter (Wiki: https://wiki.openstreetmap.org/wiki/Tag:place%3Dsuburb) -->
     <string name="type.place.suburb">उपनगर</string>
     <string name="type.place.village">गाँव</string>
-    <string name="type.power.station">बिजली घर</string>
     <string name="type.power.substation">विद्युत उपकेंद्र</string>
     <!-- A tower or pylon carrying high voltage electricity cables. -->
     <string name="type.power.tower">संचरण स्तम्भ</string>

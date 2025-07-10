@@ -800,7 +800,6 @@
     <string name="type.power.plant.hydro">Гидроэлектростанция</string>
     <string name="type.power.plant.solar">Солнечная электростанция</string>
     <string name="type.power.plant.wind">Ветряная электростанция</string>
-    <string name="type.power.station">Электростанция</string>
     <string name="type.power.substation">Подстанция</string>
     <!-- A tower or pylon carrying high voltage electricity cables. -->
     <string name="type.power.tower">Опора ЛЭП</string>

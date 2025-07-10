@@ -891,7 +891,6 @@
 "type.power.plant.hydro" = "محطة توليد الطاقة الكهرمائية";
 "type.power.plant.solar" = "محطة طاقة شمسية";
 "type.power.plant.wind" = "محطة طاقة الرياح";
-"type.power.station" = "Power Station";
 "type.power.substation" = "محطة كهرباء فرعية";
 
 /* A tower or pylon carrying high voltage electricity cables. */

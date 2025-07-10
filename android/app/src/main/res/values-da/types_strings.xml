@@ -1367,7 +1367,6 @@
     <string name="type.power">Strøm</string>
     <string name="type.power.line.underground">Underjordisk strømledning</string>
     <string name="type.power.minor_line">Mindre strømledning</string>
-    <string name="type.power.station">Kraftværk</string>
     <string name="type.power.line">Strømledning</string>
     <string name="type.highway.ladder">Stige</string>
 </resources>

@@ -676,7 +676,6 @@
     <string name="type.power.plant.hydro">Wasserchraftwerch</string>
     <string name="type.power.plant.solar">Solarchraftwerch</string>
     <string name="type.power.plant.wind">Windchraftaalag</string>
-    <string name="type.power.station">Umspannwerch</string>
     <string name="type.power.substation">Umspannwerch</string>
     <string name="type.power.tower">Hochspannigsmascht</string>
     <string name="type.power.pole">Strommascht</string>

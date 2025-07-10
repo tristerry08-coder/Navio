@@ -891,7 +891,6 @@
 "type.power.plant.hydro" = "نیروگاه برق آبی";
 "type.power.plant.solar" = "نیروگاه خورشیدی";
 "type.power.plant.wind" = "نیروگاه بادی";
-"type.power.station" = "Power Station";
 "type.power.substation" = "Substation";
 
 /* A tower or pylon carrying high voltage electricity cables. */

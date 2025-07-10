@@ -790,7 +790,6 @@
     <string name="type.power.plant.hydro">Waterkrachtcentrale</string>
     <string name="type.power.plant.solar">Zonne-energiecentrale</string>
     <string name="type.power.plant.wind">Windkrachtcentrale</string>
-    <string name="type.power.station">Transformatorstation</string>
     <string name="type.power.substation">Transformatorstation</string>
     <!-- A tower or pylon carrying high voltage electricity cables. -->
     <string name="type.power.tower">Elektriciteitsmast</string>

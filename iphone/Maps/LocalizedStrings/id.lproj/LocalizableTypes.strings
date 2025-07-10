@@ -891,7 +891,6 @@
 "type.power.plant.hydro" = "Pembangkit listrik tenaga air";
 "type.power.plant.solar" = "Pembangkit listrik tenaga surya";
 "type.power.plant.wind" = "Pembangkit listrik tenaga angin";
-"type.power.station" = "Power Station";
 "type.power.substation" = "Stasiun bawah tanah";
 
 /* A tower or pylon carrying high voltage electricity cables. */

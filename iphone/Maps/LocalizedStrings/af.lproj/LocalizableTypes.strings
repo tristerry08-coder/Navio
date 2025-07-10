@@ -891,7 +891,6 @@
 "type.power.plant.hydro" = "Hidroëlektriese kragsentrale";
 "type.power.plant.solar" = "Sonkragsentrale";
 "type.power.plant.wind" = "Windkragsentrale";
-"type.power.station" = "Kragstasie";
 "type.power.substation" = "Substasie";
 
 /* A tower or pylon carrying high voltage electricity cables. */

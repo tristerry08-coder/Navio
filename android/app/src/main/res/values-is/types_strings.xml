@@ -1150,7 +1150,6 @@
     <string name="type.power.minor_line">Minni raflína</string>
     <string name="type.power.plant.gas">Gastúrbínuknúin aflstöð</string>
     <string name="type.power.plant.hydro">Vatnsaflstöð</string>
-    <string name="type.power.station">Orkuver</string>
     <string name="type.railway.abandoned.bridge">Aflögð járnbrautarbrú</string>
     <string name="type.railway.light_rail.bridge">Léttlestarbrú</string>
     <string name="type.railway.light_rail.tunnel">Léttlestargöng</string>

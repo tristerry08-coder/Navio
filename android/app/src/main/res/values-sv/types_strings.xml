@@ -1287,7 +1287,6 @@
     <string name="type.leisure.beach_resort">Badort</string>
     <string name="type.man_made">Konstgjord anläggning</string>
     <string name="type.man_made.storage_tank">Lagringstank</string>
-    <string name="type.power.station">Kraftstation</string>
     <string name="type.railway.crossing">Järnvägsövergång</string>
     <string name="type.railway.funicular.tunnel">Bergbanetunnel</string>
     <string name="type.railway.disused">Otrafikerad järnväg</string>

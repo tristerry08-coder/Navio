@@ -890,7 +890,6 @@
 "type.power.plant.hydro" = "水力發電廠";
 "type.power.plant.solar" = "太陽能發電廠";
 "type.power.plant.wind" = "風力發電廠";
-"type.power.station" = "發電廠";
 "type.power.substation" = "變電所";
 
 /* A tower or pylon carrying high voltage electricity cables. */

@@ -891,7 +891,6 @@
 "type.power.plant.hydro" = "Nhà máy thủy điện";
 "type.power.plant.solar" = "Nhà máy điện mặt trời";
 "type.power.plant.wind" = "Nhà máy điện gió";
-"type.power.station" = "Power Station";
 "type.power.substation" = "Trạm biến áp";
 
 /* A tower or pylon carrying high voltage electricity cables. */

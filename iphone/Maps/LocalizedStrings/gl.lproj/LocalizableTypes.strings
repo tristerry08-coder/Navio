@@ -799,7 +799,6 @@
 "type.power.plant.hydro" = "Planta de enerxía hidroeléctrica";
 "type.power.plant.solar" = "Planta de enerxía solar";
 "type.power.plant.wind" = "Planta eólica";
-"type.power.station" = "Estación eléctrica";
 "type.power.substation" = "Subestación eléctrica";
 "type.power.tower" = "Torre eléctrica";
 "type.power.pole" = "Poste eléctrico";

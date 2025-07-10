@@ -867,7 +867,6 @@
 "type.power.plant.hydro" = "Vízerőmű";
 "type.power.plant.solar" = "Naperőmű";
 "type.power.plant.wind" = "Szélerőmű";
-"type.power.station" = "Villamosenergia-létesítmény (elavult)";
 "type.power.substation" = "Alállomás";
 
 /* A tower or pylon carrying high voltage electricity cables. */

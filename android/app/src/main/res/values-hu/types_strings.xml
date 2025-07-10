@@ -1310,7 +1310,6 @@
     <string name="type.leisure.hackerspace">Hackerspace</string>
     <string name="type.leisure.marina">Kishajókikötő</string>
     <string name="type.man_made.cairn">Kőhalom (mesterséges)</string>
-    <string name="type.power.station">Villamosenergia-létesítmény (elavult)</string>
     <string name="type.railway.light_rail">Könnyűvasút, HÉV</string>
     <string name="type.railway.light_rail.bridge">HÉV-híd</string>
     <string name="type.railway.light_rail.tunnel">HÉV-alagút</string>

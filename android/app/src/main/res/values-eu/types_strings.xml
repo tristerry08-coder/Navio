@@ -1301,7 +1301,6 @@
     <string name="type.power.line">Linea elektrikoa</string>
     <string name="type.power.line.underground">Lur-azpiko linea elektrikoa</string>
     <string name="type.power.minor_line">Linea elektriko txikia</string>
-    <string name="type.power.station">Elektrizitate zentrala</string>
     <string name="type.public_transport.platform">Plataforma</string>
     <string name="type.railway">Trenbidea</string>
     <string name="type.railway.abandoned">Utzitako trenbidea</string>

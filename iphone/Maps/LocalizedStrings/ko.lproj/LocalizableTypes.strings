@@ -891,7 +891,6 @@
 "type.power.plant.hydro" = "수력 발전소";
 "type.power.plant.solar" = "태양광 발전소";
 "type.power.plant.wind" = "풍력 발전소";
-"type.power.station" = "Power Station";
 "type.power.substation" = "변전소";
 
 /* A tower or pylon carrying high voltage electricity cables. */

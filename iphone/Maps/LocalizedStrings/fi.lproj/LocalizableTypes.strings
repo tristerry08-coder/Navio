@@ -891,7 +891,6 @@
 "type.power.plant.hydro" = "Vesivoimalaitos";
 "type.power.plant.solar" = "Aurinkovoimala";
 "type.power.plant.wind" = "Tuulivoimala";
-"type.power.station" = "Voimalaitos";
 "type.power.substation" = "Muuntoasema";
 
 /* A tower or pylon carrying high voltage electricity cables. */

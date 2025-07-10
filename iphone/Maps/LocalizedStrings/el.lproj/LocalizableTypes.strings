@@ -891,7 +891,6 @@
 "type.power.plant.hydro" = "Υδροηλεκτρικό εργοστάσιο";
 "type.power.plant.solar" = "Ηλιακός σταθμός παραγωγής ενέργειας";
 "type.power.plant.wind" = "Αιολική μονάδα παραγωγής ενέργειας";
-"type.power.station" = "Power Station";
 "type.power.substation" = "Υποσταθμός";
 
 /* A tower or pylon carrying high voltage electricity cables. */

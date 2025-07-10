@@ -891,7 +891,6 @@
 "type.power.plant.hydro" = "Kiwanda cha umeme wa maji";
 "type.power.plant.solar" = "Kiwanda cha nishati ya jua";
 "type.power.plant.wind" = "Kiwanda cha nguvu cha upepo";
-"type.power.station" = "Power Station";
 "type.power.substation" = "Substation";
 
 /* A tower or pylon carrying high voltage electricity cables. */

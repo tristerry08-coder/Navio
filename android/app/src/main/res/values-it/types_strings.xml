@@ -1320,7 +1320,6 @@
     <string name="type.landuse.brownfield">Zona industriale</string>
     <string name="type.landuse.village_green">Terra</string>
     <string name="type.leisure.common">Suolo Pubblico</string>
-    <string name="type.power.station">Centralina Elettrica</string>
     <string name="type.power.pole">Palo di alimentazione</string>
     <string name="type.railway.funicular.bridge">Ponte funicolare</string>
     <string name="type.railway.monorail.bridge">Ponte monorotaia</string>

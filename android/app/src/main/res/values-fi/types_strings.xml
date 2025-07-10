@@ -1365,7 +1365,6 @@
     <string name="type.leisure.track.area">Juoksurata</string>
     <string name="type.man_made.survey_point">Maanmittauspiste</string>
     <string name="type.man_made.wastewater_plant">Jätevedenpuhdistamo</string>
-    <string name="type.power.station">Voimalaitos</string>
     <string name="type.power.pole">Sähköpylväs</string>
     <string name="type.man_made.crane">Nosturi</string>
     <string name="type.man_made.works">Tehdas</string>

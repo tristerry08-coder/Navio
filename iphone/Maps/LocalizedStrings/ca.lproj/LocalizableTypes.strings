@@ -891,7 +891,6 @@
 "type.power.plant.hydro" = "Central hidroelèctrica";
 "type.power.plant.solar" = "Central d'energia solar";
 "type.power.plant.wind" = "Central eòlica";
-"type.power.station" = "Power Station";
 "type.power.substation" = "Subestació";
 
 /* A tower or pylon carrying high voltage electricity cables. */

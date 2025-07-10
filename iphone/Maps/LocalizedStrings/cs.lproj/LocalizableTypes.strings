@@ -891,7 +891,6 @@
 "type.power.plant.hydro" = "Vodní elektrárna";
 "type.power.plant.solar" = "Solární elektrárna";
 "type.power.plant.wind" = "Větrná elektrárna";
-"type.power.station" = "Elektrostanice";
 "type.power.substation" = "Rozvodna";
 
 /* A tower or pylon carrying high voltage electricity cables. */

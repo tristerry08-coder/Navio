@@ -740,7 +740,6 @@
     <string name="type.power.plant.hydro">Planta de enerxía hidroeléctrica</string>
     <string name="type.power.plant.solar">Planta de enerxía solar</string>
     <string name="type.power.plant.wind">Planta eólica</string>
-    <string name="type.power.station">Estación eléctrica</string>
     <string name="type.power.substation">Subestación eléctrica</string>
     <string name="type.power.tower">Torre eléctrica</string>
     <string name="type.power.pole">Poste eléctrico</string>

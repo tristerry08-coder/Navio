@@ -777,7 +777,6 @@
     <string name="type.power.plant.hydro">Wasserkraftwerk</string>
     <string name="type.power.plant.solar">Solarkraftwerk</string>
     <string name="type.power.plant.wind">Windkraftanlage</string>
-    <string name="type.power.station">Umspannwerk</string>
     <string name="type.power.substation">Umspannwerk</string>
     <!-- A tower or pylon carrying high voltage electricity cables. -->
     <string name="type.power.tower">Hochspannungsmast</string>
