@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.text.format.DateFormat;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TimePicker;
 
 import androidx.annotation.IntRange;
@@ -17,7 +18,6 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.content.res.AppCompatResources;
 import androidx.fragment.app.FragmentManager;
 
-import com.google.android.material.button.MaterialButton;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.textview.MaterialTextView;
@@ -49,7 +49,7 @@ public class HoursMinutesPickerFragment extends BaseMwmDialogFragment
   private TabLayout mTabs;
 
   private int mId;
-  private MaterialButton mOkButton;
+  private Button mOkButton;
 
   public interface OnPickListener
   {
@@ -91,7 +91,7 @@ public class HoursMinutesPickerFragment extends BaseMwmDialogFragment
         .create();
 
     dialog.setOnShowListener(dialogInterface -> {
-      mOkButton = (MaterialButton) dialog.getButton(AlertDialog.BUTTON_POSITIVE);
+      mOkButton = dialog.getButton(AlertDialog.BUTTON_POSITIVE);
       mOkButton.setOnClickListener(v -> {
         if (mSelectedTab == TAB_FROM)
         {
