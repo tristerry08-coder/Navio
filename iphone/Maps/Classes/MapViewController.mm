@@ -817,7 +817,7 @@ NSString *const kSettingsSegue = @"Map2Settings";
 
 - (NSArray *)keyCommands {
   NSArray *commands = @[
-  [UIKeyCommand commandWithTitle:@"Zoom Out" image:[UIImage systemImageNamed: @"minus.magnifyingglass"] action:@selector(zoomIn) input:@"-" modifierFlags:UIKeyModifierCommand propertyList:nil],
+  [UIKeyCommand commandWithTitle:@"Zoom Out" image:[UIImage systemImageNamed: @"minus.magnifyingglass"] action:@selector(zoomOut) input:@"-" modifierFlags:UIKeyModifierCommand propertyList:nil],
   [UIKeyCommand commandWithTitle:@"Zoom In" image:[UIImage systemImageNamed: @"plus.magnifyingglass"] action:@selector(zoomIn) input:@"+" modifierFlags:UIKeyModifierCommand propertyList:nil],
   [UIKeyCommand commandWithTitle:@"Go Back" image:nil action:@selector(goBack) input:UIKeyInputEscape modifierFlags:0 propertyList:nil],
   [UIKeyCommand commandWithTitle:@"Switch position mode" image:nil action:@selector(switchPositionMode) input:@"0" modifierFlags:UIKeyModifierCommand propertyList:nil]
