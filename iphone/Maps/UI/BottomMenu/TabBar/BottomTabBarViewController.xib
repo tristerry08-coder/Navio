@@ -11,15 +11,15 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BottomTabBarViewController" customModule="CoMaps" customModuleProvider="target">
             <connections>
                 <outlet property="bookmarksButton" destination="dgG-ki-3tB" id="md5-3T-9tb"/>
-                <outlet property="bookmarksConstraint" destination="Jc7-nc-elY" id="znE-nm-2ye"/>
+                <outlet property="bookmarksConstraintWithLeftButton" destination="Jc7-nc-elY" id="gW7-8e-E6m"/>
+                <outlet property="bookmarksConstraintWithoutLeftButton" destination="NRb-vj-MFg" id="C3Z-Ia-D6i"/>
                 <outlet property="downloadBadge" destination="uDI-ZC-4wx" id="fAf-cy-Ozn"/>
                 <outlet property="leftButton" destination="dzf-7Z-N6a" id="LMZ-H7-ftQ"/>
                 <outlet property="leftButtonBadge" destination="0pe-0n-d1F" id="tmx-0P-tch"/>
-                <outlet property="leftButtonConstraint" destination="u3G-gY-98J" id="l3k-P8-o3h"/>
                 <outlet property="moreButton" destination="svD-yi-GrZ" id="kjk-ZW-nZN"/>
-                <outlet property="moreConstraint" destination="Q0b-gd-HwS" id="o6P-Oq-Rr5"/>
                 <outlet property="searchButton" destination="No0-ld-JX3" id="m5F-UT-j94"/>
-                <outlet property="searchConstraint" destination="tDb-w1-ueQ" id="3Ud-uq-OFt"/>
+                <outlet property="searchConstraintWithLeftButton" destination="tDb-w1-ueQ" id="WaI-Xb-1bu"/>
+                <outlet property="searchConstraintWithoutLeftButton" destination="cQg-jW-uSD" id="cMy-EC-G07"/>
                 <outlet property="view" destination="zuH-WU-hiP" id="eoa-4I-wKs"/>
             </connections>
         </placeholder>
@@ -118,10 +118,12 @@
                         <constraint firstItem="svD-yi-GrZ" firstAttribute="height" secondItem="vum-s3-PHx" secondAttribute="height" id="Fde-um-JL6"/>
                         <constraint firstItem="dgG-ki-3tB" firstAttribute="centerX" secondItem="vum-s3-PHx" secondAttribute="centerX" multiplier="1.25" id="Jc7-nc-elY"/>
                         <constraint firstItem="dgG-ki-3tB" firstAttribute="centerY" secondItem="vum-s3-PHx" secondAttribute="centerY" id="JjT-sc-hIY"/>
+                        <constraint firstItem="dgG-ki-3tB" firstAttribute="centerX" secondItem="vum-s3-PHx" secondAttribute="centerX" id="NRb-vj-MFg"/>
                         <constraint firstItem="svD-yi-GrZ" firstAttribute="centerX" secondItem="vum-s3-PHx" secondAttribute="centerX" multiplier="1.75" id="Q0b-gd-HwS"/>
                         <constraint firstItem="dgG-ki-3tB" firstAttribute="height" secondItem="vum-s3-PHx" secondAttribute="height" id="Rs8-Hl-CAc"/>
                         <constraint firstItem="uDI-ZC-4wx" firstAttribute="centerX" secondItem="svD-yi-GrZ" secondAttribute="centerX" constant="8" id="XNb-Ba-Hn7"/>
                         <constraint firstItem="dzf-7Z-N6a" firstAttribute="centerY" secondItem="vum-s3-PHx" secondAttribute="centerY" id="Zug-zY-KIX"/>
+                        <constraint firstItem="No0-ld-JX3" firstAttribute="centerX" secondItem="vum-s3-PHx" secondAttribute="centerX" multiplier="0.25" id="cQg-jW-uSD"/>
                         <constraint firstItem="0pe-0n-d1F" firstAttribute="centerY" secondItem="dzf-7Z-N6a" secondAttribute="centerY" constant="-8" id="pgw-rN-LCe"/>
                         <constraint firstItem="svD-yi-GrZ" firstAttribute="centerY" secondItem="vum-s3-PHx" secondAttribute="centerY" id="sja-hO-YY3"/>
                         <constraint firstItem="No0-ld-JX3" firstAttribute="centerX" secondItem="vum-s3-PHx" secondAttribute="centerX" multiplier="0.75" id="tDb-w1-ueQ"/>
@@ -129,6 +131,12 @@
                         <constraint firstItem="dzf-7Z-N6a" firstAttribute="height" secondItem="vum-s3-PHx" secondAttribute="height" id="yTg-8g-H1p"/>
                         <constraint firstItem="uDI-ZC-4wx" firstAttribute="centerY" secondItem="svD-yi-GrZ" secondAttribute="centerY" constant="-8" id="yq3-ui-IaL"/>
                     </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="cQg-jW-uSD"/>
+                            <exclude reference="NRb-vj-MFg"/>
+                        </mask>
+                    </variation>
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="aaw-Hz-zma"/>

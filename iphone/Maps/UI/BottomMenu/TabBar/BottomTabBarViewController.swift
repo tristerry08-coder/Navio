@@ -5,13 +5,13 @@ class BottomTabBarViewController: UIViewController {
   var presenter: BottomTabBarPresenterProtocol!
   
   @IBOutlet var searchButton: MWMButton!
-  @IBOutlet var searchConstraint: NSLayoutConstraint!
+  @IBOutlet var searchConstraintWithLeftButton: NSLayoutConstraint?
+  @IBOutlet var searchConstraintWithoutLeftButton: NSLayoutConstraint?
   @IBOutlet var leftButton: MWMButton!
-  @IBOutlet var leftButtonConstraint: NSLayoutConstraint!
   @IBOutlet var bookmarksButton: MWMButton!
-  @IBOutlet var bookmarksConstraint: NSLayoutConstraint!
+  @IBOutlet var bookmarksConstraintWithLeftButton: NSLayoutConstraint?
+  @IBOutlet var bookmarksConstraintWithoutLeftButton: NSLayoutConstraint?
   @IBOutlet var moreButton: MWMButton!
-  @IBOutlet var moreConstraint: NSLayoutConstraint!
   @IBOutlet var downloadBadge: UIView!
   @IBOutlet var leftButtonBadge: UIView!
   
@@ -38,7 +38,9 @@ class BottomTabBarViewController: UIViewController {
     presenter.configure()
     
     NotificationCenter.default.addObserver(forName: UserDefaults.didChangeNotification, object: nil, queue: nil) { _ in
-      self.updateLeftButton()
+      DispatchQueue.main.async {
+        self.updateLeftButton()
+      }
     }
   }
   
@@ -105,17 +107,15 @@ class BottomTabBarViewController: UIViewController {
   }
   
   private func updateLeftButton() {
-    NSLayoutConstraint.deactivate([leftButtonConstraint, searchConstraint, bookmarksConstraint, moreConstraint])
-    
     let leftButtonType = Settings.leftButtonType
     if leftButtonType == .hidden {
       leftButton.isHidden = true
       leftButtonBadge.isHidden = true
 
-      leftButtonConstraint = NSLayoutConstraint(item: leftButtonConstraint.firstItem!, attribute: leftButtonConstraint.firstAttribute, relatedBy: leftButtonConstraint.relation, toItem: leftButtonConstraint.secondItem, attribute: leftButtonConstraint.secondAttribute, multiplier: 0.01, constant: leftButtonConstraint.constant)
-      searchConstraint = NSLayoutConstraint(item: searchConstraint.firstItem!, attribute: searchConstraint.firstAttribute, relatedBy: searchConstraint.relation, toItem: searchConstraint.secondItem, attribute: searchConstraint.secondAttribute, multiplier: 0.25, constant: searchConstraint.constant)
-      bookmarksConstraint = NSLayoutConstraint(item: bookmarksConstraint.firstItem!, attribute: bookmarksConstraint.firstAttribute, relatedBy: bookmarksConstraint.relation, toItem: bookmarksConstraint.secondItem, attribute: bookmarksConstraint.secondAttribute, multiplier: 1, constant: bookmarksConstraint.constant)
-      moreConstraint = NSLayoutConstraint(item: moreConstraint.firstItem!, attribute: moreConstraint.firstAttribute, relatedBy: moreConstraint.relation, toItem: moreConstraint.secondItem, attribute: moreConstraint.secondAttribute, multiplier: 1.75, constant: moreConstraint.constant)
+      if let searchConstraintWithLeftButton, let searchConstraintWithoutLeftButton, let bookmarksConstraintWithLeftButton, let bookmarksConstraintWithoutLeftButton {
+        NSLayoutConstraint.deactivate([searchConstraintWithLeftButton, bookmarksConstraintWithLeftButton])
+        NSLayoutConstraint.activate([searchConstraintWithoutLeftButton, bookmarksConstraintWithoutLeftButton])
+      }
     } else {
       leftButton.isHidden = false
       leftButtonBadge.isHidden = !needsToShowleftButtonBadge()
@@ -124,12 +124,11 @@ class BottomTabBarViewController: UIViewController {
       leftButton.setImage(leftButtonType.image, for: .normal)
       leftButton.accessibilityLabel = leftButtonType.description;
 
-      leftButtonConstraint = NSLayoutConstraint(item: leftButtonConstraint.firstItem!, attribute: leftButtonConstraint.firstAttribute, relatedBy: leftButtonConstraint.relation, toItem: leftButtonConstraint.secondItem, attribute: leftButtonConstraint.secondAttribute, multiplier: 0.25, constant: leftButtonConstraint.constant)
-      searchConstraint = NSLayoutConstraint(item: searchConstraint.firstItem!, attribute: searchConstraint.firstAttribute, relatedBy: searchConstraint.relation, toItem: searchConstraint.secondItem, attribute: searchConstraint.secondAttribute, multiplier: 0.75, constant: searchConstraint.constant)
-      bookmarksConstraint = NSLayoutConstraint(item: bookmarksConstraint.firstItem!, attribute: bookmarksConstraint.firstAttribute, relatedBy: bookmarksConstraint.relation, toItem: bookmarksConstraint.secondItem, attribute: bookmarksConstraint.secondAttribute, multiplier: 1.25, constant: bookmarksConstraint.constant)
-      moreConstraint = NSLayoutConstraint(item: moreConstraint.firstItem!, attribute: moreConstraint.firstAttribute, relatedBy: moreConstraint.relation, toItem: moreConstraint.secondItem, attribute: moreConstraint.secondAttribute, multiplier: 1.75, constant: moreConstraint.constant)
+      if let searchConstraintWithLeftButton, let searchConstraintWithoutLeftButton, let bookmarksConstraintWithLeftButton, let bookmarksConstraintWithoutLeftButton {
+        NSLayoutConstraint.deactivate([searchConstraintWithoutLeftButton, bookmarksConstraintWithoutLeftButton])
+        NSLayoutConstraint.activate([searchConstraintWithLeftButton, bookmarksConstraintWithLeftButton])
+      }
     }
-    NSLayoutConstraint.activate([leftButtonConstraint, searchConstraint, bookmarksConstraint, moreConstraint])
   }
   
   private func updateBadge() {
