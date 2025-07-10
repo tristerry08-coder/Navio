@@ -605,6 +605,10 @@ NSString *const kSettingsSegue = @"Map2Settings";
   [self.navigationController pushViewController:descriptionViewController animated:YES];
 }
 
+- (void)openDrivingOptions {
+  [self presentViewController:BridgeControllers.routingOptions animated:YES completion:nil];
+}
+
 - (void)processMyPositionStateModeEvent:(MWMMyPositionMode)mode {
   self.currentPositionMode = mode;
   [MWMLocationManager setMyPositionMode:mode];

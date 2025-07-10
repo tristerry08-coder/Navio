@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// View for thenavigation settings
+/// View for the navigation settings
 struct SettingsNavigationView: View {
     // MARK: - Properties
     

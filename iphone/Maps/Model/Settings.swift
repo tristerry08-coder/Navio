@@ -287,7 +287,9 @@ import Combine
             return RoutingOptions().avoidToll
         }
         set {
-            RoutingOptions().avoidToll = newValue
+            var routingOptions = RoutingOptions()
+            routingOptions.avoidToll = newValue
+            routingOptions.save()
         }
     }
     
@@ -298,7 +300,9 @@ import Combine
             return RoutingOptions().avoidDirty
         }
         set {
-            RoutingOptions().avoidDirty = newValue
+            var routingOptions = RoutingOptions()
+            routingOptions.avoidDirty = newValue
+            routingOptions.save()
         }
     }
     
@@ -309,7 +313,9 @@ import Combine
             return RoutingOptions().avoidFerry
         }
         set {
-            RoutingOptions().avoidFerry = newValue
+            var routingOptions = RoutingOptions()
+            routingOptions.avoidFerry = newValue
+            routingOptions.save()
         }
     }
     
@@ -320,7 +326,9 @@ import Combine
             return RoutingOptions().avoidMotorway
         }
         set {
-            RoutingOptions().avoidMotorway = newValue
+            var routingOptions = RoutingOptions()
+            routingOptions.avoidMotorway = newValue
+            routingOptions.save()
         }
     }
     

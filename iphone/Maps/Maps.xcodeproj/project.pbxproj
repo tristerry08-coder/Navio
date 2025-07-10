@@ -16,6 +16,7 @@
 		272F1F3D2E0EE0C800FA52EF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1F3C2E0EE0C400FA52EF /* ProfileView.swift */; };
 		272F1F462E0EEF9400FA52EF /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1F452E0EEF8B00FA52EF /* SafariView.swift */; };
 		2765D1D02E13F9C20005CA2B /* BridgeControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2765D1CD2E13F9BC0005CA2B /* BridgeControllers.swift */; };
+		27768F482E1FF8880086784A /* RoutingOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27768F472E1FF8830086784A /* RoutingOptionsView.swift */; };
 		279367562E1BE16300AA5C3D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279367552E1BE16300AA5C3D /* Settings.swift */; };
 		2793675A2E1BE17300AA5C3D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279367592E1BE17300AA5C3D /* SettingsView.swift */; };
 		27AF184C2E1D5B2D00CD41E2 /* SettingsNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF184B2E1D5A2700CD41E2 /* SettingsNavigationView.swift */; };
@@ -775,6 +776,7 @@
 		272F1F3C2E0EE0C400FA52EF /* ProfileView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		272F1F452E0EEF8B00FA52EF /* SafariView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		2765D1CD2E13F9BC0005CA2B /* BridgeControllers.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = BridgeControllers.swift; sourceTree = "<group>"; tabWidth = 4; };
+		27768F472E1FF8830086784A /* RoutingOptionsView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = RoutingOptionsView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		279367552E1BE16300AA5C3D /* Settings.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; tabWidth = 4; };
 		279367592E1BE17300AA5C3D /* SettingsView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = UI/Settings/SettingsView.swift; sourceTree = SOURCE_ROOT; tabWidth = 4; };
 		27AF184B2E1D5A2700CD41E2 /* SettingsNavigationView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = SettingsNavigationView.swift; sourceTree = "<group>"; tabWidth = 4; };
@@ -1944,6 +1946,14 @@
 				270C9C252E16AB6300ABA688 /* Profile.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		27768F442E1FF8620086784A /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				27768F472E1FF8830086784A /* RoutingOptionsView.swift */,
+			);
+			path = Routing;
 			sourceTree = "<group>";
 		};
 		27AF185B2E1DB64B00CD41E2 /* Settings Types */ = {
@@ -3611,6 +3621,7 @@
 		F6E2FBFB1E097B9F0083EBEC /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				27768F442E1FF8620086784A /* Routing */,
 				ED9857022C4ECFFC00694F6C /* MailComposer */,
 				ED43B8B92C12061600D07BAA /* DocumentPicker */,
 				ED99667C2B94FBC20083CE55 /* ColorPicker */,
@@ -4611,6 +4622,7 @@
 				EDC4E34C2C5D1BEF009286A2 /* RecentlyDeletedCategoriesViewModel.swift in Sources */,
 				F62607FD207B790300176C5A /* SpinnerAlert.swift in Sources */,
 				3444DFD21F17620C00E73099 /* MWMMapWidgetsHelper.mm in Sources */,
+				27768F482E1FF8880086784A /* RoutingOptionsView.swift in Sources */,
 				3472B5E1200F86C800DC6CD5 /* MWMEditorHelper.mm in Sources */,
 				99F3EB1123F418C900C713F8 /* PlacePageBuilder.swift in Sources */,
 				4735008A23A83CF700661A95 /* DownloadedMapsDataSource.swift in Sources */,

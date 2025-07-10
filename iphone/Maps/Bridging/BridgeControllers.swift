@@ -9,6 +9,13 @@ import UIKit
         profileBridgeController.view.backgroundColor = .systemGroupedBackground
         return profileBridgeController
     }
+    
+    /// The `RoutingOptionsView` for presentation in an alert
+    @objc static func routingOptions() -> UIViewController {
+        let routinOptionsBridgeController = UIHostingController(rootView: RoutingOptionsView())
+        routinOptionsBridgeController.view.backgroundColor = .systemGroupedBackground
+        return routinOptionsBridgeController
+    }
 }
 
 
