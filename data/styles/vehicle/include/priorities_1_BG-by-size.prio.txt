@@ -87,7 +87,6 @@ landuse-forest-mixed                                # area z10- (also has icon z
 === 50
 
 amenity-waste_transfer_station                      # area z15-
-landuse-churchyard                                  # area z15-
 landuse-construction                                # area z15-
 landuse-industrial                                  # area z15-
 landuse-industrial-mine                             # area z15-

@@ -27,6 +27,7 @@ amenity-place_of_worship-jewish                     # area z13- (also has icon z
 amenity-place_of_worship-muslim                     # area z13- (also has icon z14-, caption(optional) z14-)
 amenity-place_of_worship-shinto                     # area z13- (also has icon z14-, caption(optional) z14-)
 amenity-place_of_worship-taoist                     # area z13- (also has icon z14-, caption(optional) z14-)
+landuse-religious
 === 240
 
 amenity-doctors                                     # area z15- (also has icon z17-, caption(optional) z17-)
@@ -153,7 +154,6 @@ landuse-forest-mixed                                # area z10- (also has icon z
 === 60
 
 amenity-waste_transfer_station                      # area z13- (also has icon z17-, caption(optional) z19-)
-landuse-churchyard                                  # area z15-
 landuse-construction                                # area z13- (also has caption z15-)
 landuse-industrial                                  # area z13- (also has caption z15-)
 landuse-industrial-mine                             # area z13- (also has icon z15-, caption(optional) z15-)

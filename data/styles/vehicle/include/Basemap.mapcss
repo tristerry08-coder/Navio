@@ -362,9 +362,6 @@ area|z15-19[aeroway=aerodrome][aerodrome=international],
 area|z15-19[aeroway=aerodrome]
 {fill-color: @aerodrome5;}
 
-/* 7.7 Religion */
-area|z15-[landuse=churchyard]
-{fill-color: @background; fill-opacity: 1;}
 
 /* 7.8 Agricultural */
 area|z14-[landuse=farmland],
