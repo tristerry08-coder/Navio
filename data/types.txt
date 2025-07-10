@@ -216,7 +216,7 @@ mapswithme
 *sport|table_tennis
 *sport|beachvolleyball
 *sport|volleyball
-*power|station
+mapswithme
 *sport|swimming
 *leisure|track
 *sport|skateboard
@@ -1327,7 +1327,7 @@ tourism|attraction
 *amenity|parking_space|underground
 *amenity|parking_space|private
 *amenity|parking_space|permissive
-*landuse|churchyard
+*landuse|religious
 *isoline|step_1000
 *isoline|step_500
 *isoline|step_100

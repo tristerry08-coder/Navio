@@ -27261,51 +27261,6 @@ cont {
   }
 }
 cont {
-  name: "landuse-churchyard"
-  element {
-    scale: 15
-    area {
-      color: 328965
-      priority: -1960
-    }
-  }
-  element {
-    scale: 16
-    area {
-      color: 328965
-      priority: -1960
-    }
-  }
-  element {
-    scale: 17
-    area {
-      color: 328965
-      priority: -1960
-    }
-  }
-  element {
-    scale: 18
-    area {
-      color: 328965
-      priority: -1960
-    }
-  }
-  element {
-    scale: 19
-    area {
-      color: 328965
-      priority: -1960
-    }
-  }
-  element {
-    scale: 20
-    area {
-      color: 328965
-      priority: -1960
-    }
-  }
-}
-cont {
   name: "landuse-construction"
   element {
     scale: 15

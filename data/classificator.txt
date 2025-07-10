@@ -621,7 +621,6 @@ world  +
         cemetery  +
             christian  -
             {}
-        churchyard  -
         commercial  -
         construction  -
         education  -
@@ -650,6 +649,7 @@ world  +
         quarry  -
         railway  -
         recreation_ground  -
+        religious  -
         reservoir  -
         residential  -
         retail  -
@@ -891,7 +891,6 @@ world  +
             wind  -
             {}
         pole  -
-        station  -
         substation  -
         tower  -
         {}
