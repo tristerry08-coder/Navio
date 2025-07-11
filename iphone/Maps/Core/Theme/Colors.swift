@@ -16,9 +16,9 @@ class DayColors: IColors {
   // Orange color (use for status 15 min in place page)
   var orange = UIColor(255, 120, 5, alpha100)
   // Blue color (use for links and phone numbers)
-  var linkBlue = UIColor(30, 150, 240, alpha100)
-  var linkBlueHighlighted = UIColor(30, 150, 240, alpha30)
-  var linkBlueDark = UIColor(25, 135, 215, alpha100)
+  var linkBlue = UIColor.accent
+  var linkBlueHighlighted = UIColor.accent
+  var linkBlueDark = UIColor.accent
   var buttonRed = UIColor(244, 67, 67, alpha100)
   var buttonRedHighlighted = UIColor(183, 28, 28, alpha100)
   var blackPrimaryText = UIColor(0, 0, 0, alpha87)
@@ -78,9 +78,9 @@ class NightColors: IColors {
   // Orange color (use for status 15 min in place page)
   var orange =  UIColor(250, 190, 10, alpha100)
   // Blue color (use for links and phone numbers)
-  var linkBlue = UIColor(80, 195, 240, alpha100)
-  var linkBlueHighlighted = UIColor(60, 155, 190, alpha30)
-  var linkBlueDark = UIColor(75, 185, 230, alpha100)
+  var linkBlue = UIColor.accent
+  var linkBlueHighlighted = UIColor.accent
+  var linkBlueDark = UIColor.accent
   var buttonRed = UIColor(244, 67, 67, alpha100)
   var buttonRedHighlighted = UIColor(183, 28, 28, alpha100)
   var blackPrimaryText =  UIColor(255, 255, 255, alpha90)

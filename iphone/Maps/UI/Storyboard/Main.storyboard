@@ -1061,11 +1061,15 @@
         <segue reference="OEF-kR-jKi"/>
         <segue reference="0A8-4b-0A2"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" name="Accent Color"/>
     <resources>
         <image name="ic_add_button" width="28" height="28"/>
         <image name="ic_arrow_gray_down" width="28" height="28"/>
         <image name="ic_arrow_gray_right" width="28" height="28"/>
         <image name="separator_image" width="1" height="1"/>
+        <namedColor name="Accent Color">
+            <color red="0.3449999988079071" green="0.50599998235702515" blue="0.34099999070167542" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
