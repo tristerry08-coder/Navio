@@ -114,7 +114,6 @@ int64_t ChunksDownloadStrategy::LoadOrInitChunks(string const & fName, int64_t f
                                                  int64_t chunkSize)
 {
   ASSERT ( fileSize > 0, () );
-  ASSERT ( chunkSize > 0, () );
 
   if (Platform::IsFileExistsByFullPath(fName))
   {
