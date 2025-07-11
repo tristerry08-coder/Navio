@@ -43,8 +43,11 @@
     attrSet.displayName = [[CSLocalizedString alloc] initWithLocalizedStrings:localizedStrings];
 
     NSString * categoryKeyString = @(categoryKey.c_str());
-    NSString * imageName = [NSString stringWithFormat:@"ic_%@_spotlight", categoryKeyString];
-    UIImage * image = [UIImage imageNamed:imageName];
+    NSString * imageName = [NSString stringWithFormat:@"Search/Categories/%@", [categoryKeyString stringByReplacingOccurrencesOfString: @"category_" withString:@""]];
+    UIGraphicsBeginImageContext(CGSizeMake(360, 360));
+    [[UIImage imageNamed:imageName] drawInRect:CGRectMake(0, 0, 360, 360)];
+    UIImage * image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext() ;
     attrSet.thumbnailData = UIImagePNGRepresentation(image);
 
     CSSearchableItem * item =

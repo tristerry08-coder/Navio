@@ -15,11 +15,11 @@ final class SearchCategoryCell: UITableViewCell {
   func configure(with categoryName: String) {
     self.categoryName = categoryName
     textLabel?.text = L(categoryName)
-    imageView?.mwm_name = String(format: "ic_%@", categoryName)
+    imageView?.image = UIImage(named: String(format: "Search/Categories/%@", categoryName.replacingOccurrences(of: "category_", with: "")))
   }
 
   override func applyTheme() {
     super.applyTheme()
-    imageView?.mwm_name = String(format: "ic_%@", categoryName)
+    imageView?.image = UIImage(named: String(format: "Search/Categories/%@", categoryName.replacingOccurrences(of: "category_", with: "")))
   }
 }
