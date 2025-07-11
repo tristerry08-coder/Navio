@@ -1306,4 +1306,5 @@
     <string name="type.railway.subway_entrance.wuhan">U-Bahn-Iigang</string>
     <string name="type.railway.subway_entrance.yerevan">U-Bahn-Iigang</string>
     <string name="type.railway.subway_entrance.yokohama">U-Bahn-Iigang</string>
+    <string name="type.landuse.religious">Religiöses Land</string>
 </resources>

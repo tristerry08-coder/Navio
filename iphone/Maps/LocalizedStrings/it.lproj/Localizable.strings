@@ -1080,3 +1080,4 @@
 "track_recording_toast_nothing_to_save" = "La traccia è vuota - non c'è nulla da salvare";
 "edit_track" = "Modifica traccia";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) è un progetto comunitario per creare una mappa libera e aperta. È la principale fonte di dati cartografici di CoMaps e funziona in modo simile a Wikipedia. Puoi aggiungere o modificare luoghi che diventano disponibili per milioni di utenti in tutto il mondo. \nEntra a far parte della comunità e contribuisci a creare una mappa migliore per tutti!";
+"osm_profile_logout" = "Disconnettersi dall'account OpenStreetMap";

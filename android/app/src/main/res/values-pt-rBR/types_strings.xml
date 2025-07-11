@@ -1389,4 +1389,5 @@
     <string name="type.railway.rail.service.bridge">Ponte ferroviária</string>
     <string name="type.shop.hearing_aids">Loja de aparelhos auditivos</string>
     <string name="type.railway.station.subway.qingdao">Estação de Metrô</string>
+    <string name="type.landuse.religious">Local Religioso</string>
 </resources>

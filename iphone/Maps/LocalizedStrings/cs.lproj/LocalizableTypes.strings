@@ -672,7 +672,7 @@
 
 /* In most (European) countries, сemeteries are usually independent of places of worship (e.g. military cemeteries), while grave yards are usually the yard of a place of worship. */
 "type.landuse.cemetery.christian" = "Hřbitov";
-"type.landuse.religious" = "Religious Land";
+"type.landuse.religious" = "Náboženské území";
 "type.landuse.commercial" = "Komerční zóna";
 "type.landuse.construction" = "Stavební oblast";
 "type.landuse.education" = "Vzdělávací zařízení";
@@ -1429,16 +1429,16 @@
 "type.waterway.lock_gate" = "Stavidlo";
 "type.waterway.river" = "Řeka";
 "type.waterway.river.tunnel" = "Řeka";
-"type.waterway.stream" = "Řeka";
-"type.waterway.stream.ephemeral" = "Řeka";
-"type.waterway.stream.intermittent" = "Řeka";
-"type.waterway.stream.tunnel" = "Řeka";
+"type.waterway.stream" = "Vodní tok";
+"type.waterway.stream.ephemeral" = "Dočasný tok";
+"type.waterway.stream.intermittent" = "Občasný tok";
+"type.waterway.stream.tunnel" = "Vodní tok";
 "type.waterway.waterfall" = "Vodopád";
 "type.waterway.weir" = "Jez";
 "type.wheelchair" = "Vozíčkář";
-"type.wheelchair.limited" = "Omezený vstup pro vozíčkáře";
+"type.wheelchair.limited" = "Omezený přístup pro vozíčkáře";
 "type.wheelchair.no" = "Bez přístupu pro vozíčkáře";
-"type.wheelchair.yes" = "Plný vstup pro vozíčkáře";
+"type.wheelchair.yes" = "Plný přístup pro vozíčkáře";
 "type.aerialway.j.bar" = "Jednokotva";
 "type.aerialway.magic_carpet" = "Jezdící koberec";
 "type.aerialway.platter" = "Poma";

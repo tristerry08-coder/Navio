@@ -236,7 +236,7 @@
 "pref_tts_title" = "Sprachführung";
 
 /* Settings «Route» category: «Tts enable» title */
-"pref_tts_enable_title" = "Enable Voice Instructions";
+"pref_tts_enable_title" = "Sprachführung aktivieren";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "Straßennamen ankündigen";
@@ -743,7 +743,7 @@
 "start_from_my_position" = "Starten von";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Gespeichert";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Bitte melde dich bei OpenStreetMap an, um alle deine Kartenbearbeitungen automatisch hochzuladen. Erfahre mehr";
@@ -1014,7 +1014,7 @@
 "bugreport_alert_message" = "Willst du einen Fehlerbericht an die Entwickler schicken?\nWir sind auf unsere Nutzer angewiesen, da CoMaps keine Fehlerinformationen automatisch sammelt. Wir danken dir im Voraus für deine Unterstützung von CoMaps!";
 
 /* Title for the iCloud syncronization setting */
-"icloud_sync" = "iCloud Syncronization (Beta)";
+"icloud_sync" = "iCloud Synchronisierung (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Aktiviere die iCloud-Synchronisierung";

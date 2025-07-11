@@ -1144,14 +1144,14 @@
     <string name="type.waterway.lock_gate">Stavidlo</string>
     <string name="type.waterway.river">Řeka</string>
     <string name="type.waterway.river.tunnel">Řeka</string>
-    <string name="type.waterway.stream">Řeka</string>
-    <string name="type.waterway.stream.ephemeral">Řeka</string>
-    <string name="type.waterway.stream.intermittent">Řeka</string>
-    <string name="type.waterway.stream.tunnel">Řeka</string>
+    <string name="type.waterway.stream">Vodní tok</string>
+    <string name="type.waterway.stream.ephemeral">Dočasný tok</string>
+    <string name="type.waterway.stream.intermittent">Občasný tok</string>
+    <string name="type.waterway.stream.tunnel">Vodní tok</string>
     <string name="type.waterway.waterfall">Vodopád</string>
-    <string name="type.wheelchair.limited">Omezený vstup pro vozíčkáře</string>
+    <string name="type.wheelchair.limited">Omezený přístup pro vozíčkáře</string>
     <string name="type.wheelchair.no">Bez přístupu pro vozíčkáře</string>
-    <string name="type.wheelchair.yes">Plný vstup pro vozíčkáře</string>
+    <string name="type.wheelchair.yes">Plný přístup pro vozíčkáře</string>
     <string name="type.piste_type.snow_park">Snowpark</string>
     <string name="type.piste_type.hike">Zimní stezka</string>
     <string name="type.piste_type.connection">Připojení sjezdovky</string>
@@ -1397,4 +1397,5 @@
     <string name="type.leisure.firepit">Ohniště</string>
     <string name="type.man_made.crane">Jeřáb</string>
     <string name="type.railway.station.subway.qingdao">Stanice metra</string>
+    <string name="type.landuse.religious">Náboženské území</string>
 </resources>

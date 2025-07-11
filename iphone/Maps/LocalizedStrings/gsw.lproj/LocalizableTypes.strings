@@ -574,7 +574,7 @@
 "type.landuse.brownfield" = "Brache";
 "type.landuse.cemetery" = "Fridhof";
 "type.landuse.cemetery.christian" = "Fridhof";
-"type.landuse.religious" = "Religious Land";
+"type.landuse.religious" = "Religiöses Land";
 "type.landuse.commercial" = "Gwerbegebiet";
 "type.landuse.construction" = "Baustell";
 "type.landuse.education" = "Bildigsiirichtig";

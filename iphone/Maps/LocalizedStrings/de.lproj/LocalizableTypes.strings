@@ -9,10 +9,10 @@
 "type.aerialway.mixed_lift" = "Kombibahn";
 "type.aerialway.station" = "Liftstation";
 "type.aeroway" = "Luftverkehr";
-"type.aeroway.aerodrome" = "Flugplatz";
-"type.aeroway.aerodrome.international" = "Flughafen";
+"type.aeroway.aerodrome" = "Flughafen";
+"type.aeroway.aerodrome.international" = "Internationaler Flughafen";
 "type.aeroway.apron" = "Vorfeld";
-"type.aeroway.gate" = "Tor";
+"type.aeroway.gate" = "Gate";
 "type.aeroway.helipad" = "Hubschrauberlandeplatz";
 "type.aeroway.runway" = "Start-/Landebahn";
 "type.aeroway.taxiway" = "Rollweg";
@@ -41,7 +41,7 @@
 "type.leisure.adult_gaming_centre" = "Gaming-Zentrum für Erwachsene";
 "type.leisure.amusement_arcade" = "Arkade";
 "type.amenity.charging_station" = "Ladestation";
-"type.amenity.charging_station.bicycle" = "Fahrrad Ladestation";
+"type.amenity.charging_station.bicycle" = "Fahrrad-Ladestation";
 "type.amenity.charging_station.motorcar" = "Kfz-Ladestation";
 "type.amenity.childcare" = "Kindertagesstätte";
 "type.amenity.cinema" = "Kino";
@@ -672,7 +672,7 @@
 
 /* In most (European) countries, сemeteries are usually independent of places of worship (e.g. military cemeteries), while grave yards are usually the yard of a place of worship. */
 "type.landuse.cemetery.christian" = "Friedhof";
-"type.landuse.religious" = "Religious Land";
+"type.landuse.religious" = "Religiöses Land";
 "type.landuse.commercial" = "Gewerbegebiet";
 "type.landuse.construction" = "Baustelle";
 "type.landuse.education" = "Bildungseinrichtung";

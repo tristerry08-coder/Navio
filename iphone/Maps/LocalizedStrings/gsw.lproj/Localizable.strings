@@ -149,7 +149,7 @@
 "pref_map_3d_title" = "Perspektivischi Aasicht";
 "pref_map_3d_buildings_title" = "3D-Gebäude";
 "pref_map_3d_buildings_disabled_summary" = "3D-Gebäude werded im Energiesparmodus uusgschaltet";
-"pref_tts_enable_title" = "Sprachfüehrig";
+"pref_tts_enable_title" = "Sprachfüehrig aktiviere";
 "pref_tts_street_names_title" = "Strassenäme aakündige";
 "pref_tts_street_names_description" = "Wenn aktiviert, wird de Name vo de Strass oder Uusfahrt, wo abboge wird, luut aakündigt.";
 "pref_tts_language_title" = "Sprach für d Sprachfüehrig";
@@ -572,3 +572,7 @@
 "download_button" = "Abelade";
 "map" = "Charte";
 "saved" = "Gspeicheret";
+"pref_tts_title" = "Sprachfüehrig";
+"icloud_sync" = "iCloud Synchronisierig (Beta)";
+"pref_left_button_type" = "Lingge Hauptbutton";
+"disabled" = "Deaktiviert";

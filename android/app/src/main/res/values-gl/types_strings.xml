@@ -1306,4 +1306,5 @@
     <string name="type.sport.diving">Trampolín</string>
     <string name="type.amenity.love_hotel">Hotel por horas</string>
     <string name="type.railway.station.subway.qingdao">Estación de metro</string>
+    <string name="type.landuse.religious">Sagrado</string>
 </resources>

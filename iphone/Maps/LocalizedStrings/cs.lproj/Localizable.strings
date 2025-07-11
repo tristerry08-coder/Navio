@@ -200,7 +200,7 @@
 "share_my_location" = "Sdílet mé umístění";
 "prefs_group_route" = "Navigace";
 "pref_zoom_title" = "Tlačítka přiblížení/oddálení";
-"pref_left_button_type" = "Left Main Button";
+"pref_left_button_type" = "Levé hlavní tlačítko";
 
 /* Settings «Map» category: «Appearance» title */
 "pref_appearance_title" = "Vzhled";
@@ -212,7 +212,7 @@
 "pref_appearance_dark" = "Tmavý";
 
 /* Generic «Disabled» string */
-"disabled" = "Disabled";
+"disabled" = "Zakázáno";
 
 /* Generic «Off» string */
 "off" = "Vypnuto";
@@ -236,7 +236,7 @@
 "pref_tts_title" = "Hlasové instrukce";
 
 /* Settings «Route» category: «Tts enable» title */
-"pref_tts_enable_title" = "Enable Voice Instructions";
+"pref_tts_enable_title" = "Zapnout hlasové pokyny";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "Oznamovat názvy ulic";
@@ -537,15 +537,15 @@
 "osm_profile_promt" = "Vytvořte si účet OpenStreetMap nebo se přihlaste a zveřejněte své úpravy mapy celému světu.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) je komunitní projekt, jehož cílem je vytvořit svobodnou a otevřenou mapu. Je hlavním zdrojem mapových dat v aplikaci CoMaps a funguje podobně jako Wikipedie. Můžete přidávat nebo upravovat místa a ta se pak stanou dostupná milionům uživatelů po celém světě. \nPřipojte se ke komunitě a pomozte vytvořit lepší mapu pro všechny!";
 "osm_profile_login" = "Přihlásit se do OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_reauthorize_promt" = "Účet OpenStreetMap byl odpojen z této aplikace";
+"osm_profile_reauthorize" = "Znovu připojit pomocí OpenStreetMap";
+"osm_profile_remove_promt" = "Pokud nemůžete nebo nechcete znovu připojit svůj účet, můžete jej jednoduše odebrat z této aplikace";
+"osm_profile_remove" = "Odebrat účet OpenStreetMap";
 "osm_profile_register_promt" = "Nemáte účet u OpenStreetMap?";
 "osm_profile_register" = "Zaregistrujte si účet na OpenStreetMap";
 "osm_profile_verfied_changes" = "Oveřené změny";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Odhlásit se z účtu OpenStreetMap";
+"osm_profile_delete" = "Odstranit účet OpenStreetMap";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Poslední nahrání";
@@ -741,7 +741,7 @@
 "start_from_my_position" = "Začít z";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Uloženo";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Přihlaste se do OpenStreetMap, abyste mohli automaticky nahrávat všechny své úpravy mapy. Více informací";
@@ -1012,7 +1012,7 @@
 "bugreport_alert_message" = "Chcete poslat vývojářům hlášení o chybě?\nSpoléháme na naše uživatele, protože společnost CoMaps neshromažďuje žádné informace o chybách automaticky. Předem vám děkujeme za podporu CoMaps!";
 
 /* Title for the iCloud syncronization setting */
-"icloud_sync" = "iCloud Syncronization (Beta)";
+"icloud_sync" = "Synchronizace iCloud (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Povolení synchronizace s iCloudem";
@@ -1086,3 +1086,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Trasa je prázdná - není co ukládat";
 "edit_track" = "Upravit trasu";
+"osm_profile_view_notes" = "Zobrazit poznámky";
+"osm_profile_view_edit_history" = "Zorbazit historii úprav";

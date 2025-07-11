@@ -543,8 +543,6 @@
 "osm_profile_register_promt" = "¿No tiene cuenta en OpenStreetMap?";
 "osm_profile_register" = "Registrarse en OpenStreetMap";
 "osm_profile_verfied_changes" = "Cambios verificados";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Última carga";

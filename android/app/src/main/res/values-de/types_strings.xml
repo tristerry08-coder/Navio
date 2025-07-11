@@ -12,8 +12,8 @@
     <string name="type.aerialway.mixed_lift">Kombibahn</string>
     <string name="type.aerialway.station">Liftstation</string>
     <string name="type.aeroway">Luftverkehr</string>
-    <string name="type.aeroway.aerodrome">Flugplatz</string>
-    <string name="type.aeroway.aerodrome.international">Flughafen</string>
+    <string name="type.aeroway.aerodrome">Flughafen</string>
+    <string name="type.aeroway.aerodrome.international">Internationaler Flughafen</string>
     <string name="type.aeroway.apron">Vorfeld</string>
     <string name="type.aeroway.helipad">Hubschrauberlandeplatz</string>
     <string name="type.aeroway.runway">Start-/Landebahn</string>
@@ -41,7 +41,7 @@
     <string name="type.leisure.adult_gaming_centre">Gaming-Zentrum für Erwachsene</string>
     <string name="type.leisure.amusement_arcade">Arkade</string>
     <string name="type.amenity.charging_station">Ladestation</string>
-    <string name="type.amenity.charging_station.bicycle">Fahrrad Ladestation</string>
+    <string name="type.amenity.charging_station.bicycle">Fahrrad-Ladestation</string>
     <string name="type.amenity.charging_station.motorcar">Kfz-Ladestation</string>
     <string name="type.amenity.childcare">Kindertagesstätte</string>
     <string name="type.amenity.cinema">Kino</string>
@@ -1381,7 +1381,7 @@
     <string name="type.fee.yes">$</string>
     <string name="type.man_made.utility_pole">Versorgungsmast</string>
     <string name="type.cuisine.bubble_tea">Bubble Tea</string>
-    <string name="type.aeroway.gate">Tor</string>
+    <string name="type.aeroway.gate">Gate</string>
     <string name="type.amenity.biergarten">Biergarten</string>
     <string name="type.amenity.kindergarten">Kindergarten</string>
     <string name="type.public_transport.platform">Plattform</string>
@@ -1398,4 +1398,5 @@
     <string name="type.amenity.studio">Studio</string>
     <string name="type.man_made.crane">Kran</string>
     <string name="type.railway.station.subway.qingdao">U-Bahn-Station</string>
+    <string name="type.landuse.religious">Religiöses Land</string>
 </resources>
