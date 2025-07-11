@@ -1,1 +1,7 @@
-<svg height="28" viewBox="0 0 28 28" width="28" xmlns="http://www.w3.org/2000/svg"><g fill="none" opacity=".898664"><circle cx="14" cy="14" fill="#7f5933" fill-rule="evenodd" r="14"/><path d="m22.1666667 11.3275-5.7166667-.8155-2.45-5.712-2.45 5.712-5.71666667.8155 4.08333334 4.0798333-.81666667 5.726 4.9-2.4628333 4.9 2.4476667-.8166667-5.7108334z" fill="#000"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tourism_dark</title>
+    <g id="tourism_dark" stroke="none" fill="none" fill-rule="evenodd">
+        <path d="M14,0 C21.7319865,0 28,6.2680135 28,14 C28,21.7319865 21.7319865,28 14,28 C6.2680135,28 0,21.7319865 0,14 C0,6.2680135 6.2680135,0 14,0 Z M14,4.8 L11.55,10.512 L5.83333333,11.3275 L9.91666667,15.4073333 L9.1,21.1333333 L14,18.6705 L18.9,21.1181667 L18.0833333,15.4073333 L22.1666667,11.3275 L16.45,10.512 L14,4.8 Z" id="Shape" fill="#7F5933"></path>
+    </g>
+</svg>
