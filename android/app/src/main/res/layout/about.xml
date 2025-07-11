@@ -17,15 +17,14 @@
       android:orientation="vertical"
       android:padding="@dimen/margin_base">
 
-    <!--ImageView
+    <ImageView
         android:layout_width="@dimen/about_logo"
         android:layout_height="@dimen/about_logo"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/margin_base"
-        android:layout_marginBottom="@dimen/margin_half"
+        android:layout_marginBottom="@dimen/margin_base"
         android:contentDescription="@string/app_name"
-        app:srcCompat="@drawable/ic_launcher"
-        app:tint="?attr/colorLogo" /-->
+        app:srcCompat="@drawable/ic_logo_monochrome"
+        app:tint="?attr/colorLogo"/>
 
     <TextView
         android:id="@+id/version"

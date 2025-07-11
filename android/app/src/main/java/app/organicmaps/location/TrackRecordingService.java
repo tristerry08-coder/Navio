@@ -107,7 +107,7 @@ public class TrackRecordingService extends Service implements LocationListener
         .setOngoing(true)
         .setShowWhen(true)
         .setOnlyAlertOnce(true)
-        .setSmallIcon(R.drawable.ic_launcher_small)
+        .setSmallIcon(R.drawable.ic_logo_small)
         .setContentTitle(context.getString(R.string.track_recording))
         .addAction(0, context.getString(R.string.navigation_stop_button), getExitPendingIntent(context))
         .setContentIntent(getPendingIntent(context))

@@ -850,7 +850,7 @@ public class MwmActivity extends BaseMwmFragmentActivity
       @Override
       public void drawIcon(FloatingActionButton imageView)
       {
-        imageView.setImageResource(R.drawable.ic_question_mark);
+        imageView.setImageResource(R.drawable.ic_logo_monochrome);
       }
 
       @Override
@@ -2615,7 +2615,7 @@ public class MwmActivity extends BaseMwmFragmentActivity
       items.add(new MenuBottomSheetItem(R.string.share_my_location, R.drawable.ic_share, this::onShareLocationOptionSelected));
 
       if (!BUTTON_HELP_CODE.equals(activeLeftButton))
-        items.add(new MenuBottomSheetItem(R.string.about_help, R.drawable.ic_question_mark, this::showHelp));
+        items.add(new MenuBottomSheetItem(R.string.about_help, R.drawable.ic_logo_monochrome, this::showHelp));
 
       return items;
     }

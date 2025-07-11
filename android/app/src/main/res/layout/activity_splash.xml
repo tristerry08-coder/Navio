@@ -14,7 +14,7 @@
       android:layout_width="300dp"
       android:layout_height="0dp"
       android:contentDescription="@null"
-      app:srcCompat="@drawable/ic_launcher"
+      app:srcCompat="@drawable/ic_launcher_foreground"
       android:layout_weight="1000"
       android:layout_margin="@dimen/margin_double"/>
 
@@ -22,8 +22,18 @@
       android:id="@+id/tv__app_name"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginBottom="@dimen/margin_double"
+      android:text="@string/app_name"
+      android:gravity="center_horizontal"
+      android:textAppearance="@style/MwmTextAppearance.Title.Splash" />
+
+  <TextView
+      android:id="@+id/tv__splash_subtitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
       android:text="@string/splash_subtitle"
+      android:layout_marginStart="@dimen/margin_double"
+      android:layout_marginEnd="@dimen/margin_double"
+      android:layout_marginBottom="@dimen/margin_double"
       android:gravity="center_horizontal"
       android:textAppearance="@style/MwmTextAppearance.Toolbar" />
 
