@@ -44,11 +44,12 @@
 
     NSString * categoryKeyString = @(categoryKey.c_str());
     NSString * imageName = [NSString stringWithFormat:@"Search/Categories/%@", [categoryKeyString stringByReplacingOccurrencesOfString: @"category_" withString:@""]];
+    UIImage * image = [UIImage imageNamed:imageName inBundle:nil compatibleWithTraitCollection:[UITraitCollection traitCollectionWithUserInterfaceStyle: UIUserInterfaceStyleLight]];
     UIGraphicsBeginImageContext(CGSizeMake(360, 360));
-    [[UIImage imageNamed:imageName] drawInRect:CGRectMake(0, 0, 360, 360)];
-    UIImage * image = UIGraphicsGetImageFromCurrentImageContext();
+    [image drawInRect:CGRectMake(0, 0, 360, 360)];
+    UIImage * resizedImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext() ;
-    attrSet.thumbnailData = UIImagePNGRepresentation(image);
+    attrSet.thumbnailData = UIImagePNGRepresentation(resizedImage);
 
     CSSearchableItem * item =
         [[CSSearchableItem alloc] initWithUniqueIdentifier:categoryKeyString
