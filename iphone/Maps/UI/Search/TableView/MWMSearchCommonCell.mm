@@ -22,14 +22,14 @@
   self.locationLabel.text = result.addressText;
   [self.locationLabel sizeToFit];
   self.infoLabel.text = result.infoText;
-  self.distanceLabel.text = result.distanceText;
+  self.distanceLabel.textColor = [UIColor.labelColor colorWithAlphaComponent:0.7];
   self.popularView.hidden = YES;
   self.openLabel.text = result.openStatusText;
   self.openLabel.textColor = result.openStatusColor;
   [self.openLabel setHidden:result.openStatusText.length == 0];
   [self setStyleNameAndApply:@"Background"];
-  [self.iconImageView setStyleNameAndApply:@"BlueBackground"];
   self.iconImageView.image = [[UIImage imageNamed:result.iconImageName] imageWithTintColor:UIColor.white];
+  self.iconImageView.backgroundColor = [UIColor colorNamed:@"Base Colors/Blue Color"];
   self.separatorInset = UIEdgeInsetsMake(0, kSearchCellSeparatorInset, 0, 0);
 }
 

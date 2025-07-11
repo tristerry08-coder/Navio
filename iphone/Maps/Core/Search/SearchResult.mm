@@ -54,11 +54,11 @@
       case osm::Yes: {
         const int minutes = result.GetMinutesUntilClosed();
         if (minutes < 60) { // less than 1 hour
-          _openStatusColor = UIColor.systemYellowColor;
+          _openStatusColor = [UIColor colorNamed:@"Base Colors/Yellow Color"];
           NSString * time = [NSString stringWithFormat:@"%d %@", minutes, L(@"minute")];
           _openStatusText = [NSString stringWithFormat:L(@"closes_in"), time];
         } else {
-          _openStatusColor = UIColor.systemGreenColor;
+          _openStatusColor = [UIColor colorNamed:@"Base Colors/Green Color"];
           _openStatusText = L(@"editor_time_open");
         }
         break;
@@ -71,7 +71,7 @@
         } else {
           _openStatusText = L(@"closed");
         }
-        _openStatusColor = UIColor.systemRedColor;
+        _openStatusColor = [UIColor colorNamed:@"Base Colors/Red Color"];
         break;
       }
       case osm::Unknown: {
