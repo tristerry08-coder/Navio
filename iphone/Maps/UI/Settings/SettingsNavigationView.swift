@@ -102,6 +102,7 @@ struct SettingsNavigationView: View {
                             .frame(maxWidth: .infinity)
                     }
                     .buttonStyle(BorderedButtonStyle())
+                    .foregroundStyle(.alternativeAccent)
                     .padding([.top, .bottom])
                     .listRowInsets(.init(top: 0, leading: 0, bottom: 0, trailing: 0))
                 }

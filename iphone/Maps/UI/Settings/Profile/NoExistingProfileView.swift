@@ -32,6 +32,7 @@ struct NoExistingProfileView: View {
                             .padding(.top, 6)
                         
                         Text("osm_profile_explanation")
+                            .tint(.alternativeAccent)
                     }
                 }
                 .padding(.bottom)
@@ -67,6 +68,7 @@ struct NoExistingProfileView: View {
                     } label: {
                         Text("osm_profile_register")
                             .lineLimit(1)
+                            .foregroundStyle(.alternativeAccent)
                             .frame(maxWidth: .infinity)
                     }
                     .buttonStyle(BorderedButtonStyle())

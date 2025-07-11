@@ -76,6 +76,6 @@ struct RoutingOptionsView: View {
         .onChange(of: shouldAvoidMotorwaysWhileRouting) { changedShouldAvoidMotorwaysWhileRouting in
             Settings.shouldAvoidMotorwaysWhileRouting = changedShouldAvoidMotorwaysWhileRouting
         }
-        .accentColor(.alternativeAccent)
+        .accentColor(.toolbarAccent)
     }
 }

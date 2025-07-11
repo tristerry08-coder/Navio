@@ -310,6 +310,6 @@ struct SettingsView: View {
         .onReceive(Settings.syncStatePublisher) { syncState in
             isSyncPossible = syncState.isAvailable
         }
-        .accentColor(.alternativeAccent)
+        .accentColor(.toolbarAccent)
     }
 }

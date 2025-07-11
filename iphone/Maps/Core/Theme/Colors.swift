@@ -63,7 +63,7 @@ class DayColors: IColors {
 class NightColors: IColors {
   var clear = UIColor.clear
   var primaryDark = UIColor(25, 30, 35, alpha100)
-  var primary =  UIColor(45, 50, 55, alpha100)
+  var primary = UIColor.accent
   var secondary =  UIColor(0x25, 0x28, 0x2b, alpha100)
   // Light green color
   var primaryLight = UIColor(65, 70, 75, alpha100)
@@ -71,7 +71,7 @@ class NightColors: IColors {
   var tabBarButtonBackground = UIColor(60, 64, 68, alpha70)
   var downloadBadgeBackground = UIColor(230, 70, 60, alpha100)
   // Background color && press color
-  var pressBackground = UIColor(50, 54, 58, alpha100)
+  var pressBackground = UIColor(28, 28, 30, alpha100)
   // Red color (use for status closed in place page)
   var red =  UIColor(230, 70, 60, alpha100)
   var errorPink = UIColor(246, 60, 51, alpha26)
@@ -88,7 +88,7 @@ class NightColors: IColors {
   var blackHintText =  UIColor(255, 255, 255, alpha30)
   var blackDividers =  UIColor(255, 255, 255, alpha08)
   var solidDividers = UIColor(84, 86, 90, alpha100)
-  var white =  UIColor(60, 64, 68, alpha100)
+  var white =  UIColor(34, 34, 36, alpha100)
   var whitePrimaryText = UIColor(255, 255, 255, alpha87)
   var whitePrimaryTextHighlighted = UIColor(255, 255, 255, alpha30)
   var whiteSecondaryText =  UIColor(0, 0, 0, alpha70)

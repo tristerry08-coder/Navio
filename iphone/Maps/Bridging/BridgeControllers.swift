@@ -33,6 +33,6 @@ class SettingsBridgeController: UIHostingController<SettingsView> {
 class ProfileBridgeController: UIHostingController<ProfileView> {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder, rootView: ProfileView())
-        self.view.tintColor = .alternativeAccent
+        self.view.tintColor = .toolbarAccent
     }
 }

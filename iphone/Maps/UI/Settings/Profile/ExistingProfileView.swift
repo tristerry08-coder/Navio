@@ -132,6 +132,7 @@ struct ExistingProfileView: View {
                         } label: {
                             Text("osm_profile_remove")
                                 .lineLimit(1)
+                                .foregroundStyle(.alternativeAccent)
                                 .frame(maxWidth: .infinity)
                         }
                         .buttonStyle(BorderedButtonStyle())
@@ -146,6 +147,7 @@ struct ExistingProfileView: View {
                     } label: {
                         Text("osm_more_about")
                             .lineLimit(1)
+                            .foregroundStyle(.alternativeAccent)
                             .frame(maxWidth: .infinity)
                     }
                     .buttonStyle(BorderedButtonStyle())
