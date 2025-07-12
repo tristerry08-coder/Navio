@@ -65,6 +65,13 @@ project.ext.appName = 'CoMaps'
 android {
   namespace 'app.organicmaps'
 
+  dependenciesInfo {
+    // Disables dependency metadata when building APKs (for IzzyOnDroid/F-Droid)
+    includeInApk = false
+    // Disables dependency metadata when building Android App Bundles (for Google Play)
+    includeInBundle = false
+  }
+
   buildFeatures {
     dataBinding = true
     buildConfig = true
