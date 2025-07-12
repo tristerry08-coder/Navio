@@ -111,6 +111,10 @@ public:
   {
     return m_baseUrl + "/user/" + user + "/notes";
   }
+  std::string GetDeleteURL() const
+  {
+    return m_baseUrl + "/account/deletion";
+  }
   std::string BuildOAuth2Url() const;
   //@}
 

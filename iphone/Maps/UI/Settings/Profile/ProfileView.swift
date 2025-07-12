@@ -58,15 +58,32 @@ struct ProfileView: View {
         .toolbar {
             ToolbarItem(placement: .destructiveAction) {
                 if !isPresentedAsAlert, Profile.isExisting, !Profile.needsReauthorization {
-                    Button {
-                        Profile.logout()
-                        lastUpdated = Date.now
+                    Menu {
+                        Button {
+                            Profile.logout()
+                            lastUpdated = Date.now
+                        } label: {
+                            if #available(iOS 16, *) {
+                                Label("osm_profile_logout", systemImage: "rectangle.portrait.and.arrow.forward")
+                            } else {
+                                Label("osm_profile_logout", systemImage: "power")
+                            }
+                        }
+                        
+                        Button(role: .destructive) {
+                            openUrl(Profile.deleteUrl)
+                        } label: {
+                            Label("osm_profile_delete", systemImage: "trash")
+                        }
                     } label: {
                         if #available(iOS 16, *) {
                             Label("osm_profile_logout", systemImage: "rectangle.portrait.and.arrow.forward")
                         } else {
                             Label("osm_profile_logout", systemImage: "power")
                         }
+                    } primaryAction: {
+                        Profile.logout()
+                        lastUpdated = Date.now
                     }
                 }
             }

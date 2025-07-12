@@ -95,6 +95,13 @@ import OSMEditor
     }
     
     
+    /// The URL for deleting an OpenStreetMap profile
+    static var deleteUrl: URL {
+        return URL(string: String(describing: osm.OsmOAuth.ServerAuth().GetDeleteURL()))!
+    }
+    
+    
+    
     // MARK: Methods
     
     /// Save the authorization token based on a code during the Oauth process
