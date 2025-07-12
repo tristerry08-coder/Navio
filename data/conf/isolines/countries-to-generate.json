@@ -348,7 +348,7 @@
         {
             "key": "Argentina_Cuyo",
             "value": {
-                "profileName": "small",
+                "profileName": "extra_small",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -1652,7 +1652,7 @@
         {
             "key": "China_Ningxia Hui",
             "value": {
-                "profileName": "normal",
+                "profileName": "extra_small",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -3661,7 +3661,7 @@
         {
             "key": "India_Arunachal Pradesh",
             "value": {
-                "profileName": "normal",
+                "profileName": "poor",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -3733,7 +3733,7 @@
         {
             "key": "India_Himachal Pradesh",
             "value": {
-                "profileName": "normal",
+                "profileName": "extra_small",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -3741,7 +3741,7 @@
         {
             "key": "India_Jammu and Kashmir",
             "value": {
-                "profileName": "normal",
+                "profileName": "extra_small",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -3893,7 +3893,7 @@
         {
             "key": "India_Uttarakhand",
             "value": {
-                "profileName": "normal",
+                "profileName": "extra_small",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -4957,7 +4957,7 @@
         {
             "key": "Kyrgyzstan",
             "value": {
-                "profileName": "small",
+                "profileName": "extra_small",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -5229,7 +5229,7 @@
         {
             "key": "Namibia",
             "value": {
-                "profileName": "small",
+                "profileName": "extra_small",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -7629,7 +7629,7 @@
         {
             "key": "Turkmenistan",
             "value": {
-                "profileName": "small",
+                "profileName": "extra_small",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
