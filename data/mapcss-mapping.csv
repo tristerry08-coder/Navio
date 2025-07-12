@@ -96,6 +96,7 @@ highway|service|parking_aisle;[highway=service][service=parking_aisle];;name;int
 place|hamlet;30;
 moved:highway|road:05.2024;31;highway|road
 deprecated:highway|track|grade2:04.2024;[highway=track][tracktype=grade2];x;name;int_name;32;highway|track
+# ~1.5M usages w/o a more specific wetland=*
 natural|wetland;33;
 deprecated:highway|track|grade3:04.4024;[highway=track][tracktype=grade3];x;name;int_name;34;highway|track
 # ~1M usages.
@@ -304,7 +305,8 @@ amenity|charging_station|motorcar;[amenity=charging_station][motorcar?];;name;in
 leisure|golf_course;202;
 highway|service|bridge;[highway=service][bridge?];;name;int_name;203;
 deprecated:power|minor_line:01.2017;204;x
-natural|wetland|marsh;[natural=wetland][wetland=marsh],[natural=marsh];;name;int_name;205;
+# Marsh 500K usages, wet_meadow 160K
+natural|wetland|marsh;[natural=wetland][wetland=marsh],[natural=wetland][wetland=wet_meadow],[natural=wetland][wetland=dambo];;;;205;
 leisure|stadium;206;
 amenity|doctors;207;
 railway|disused;208;
@@ -424,7 +426,8 @@ highway|path|horse;[highway=path][horse?];;name;int_name;317;
 deprecated:landuse|field:06.2025;318;x
 hwtag|nocycleway;319;
 leisure|water_park;320;
-natural|wetland|bog;[natural=wetland][wetland=bog];;name;int_name;321;
+# 1M usages
+natural|wetland|bog;[natural=wetland][wetland=bog],[natural=wetland][wetland=string_bog];;;;321;
 man_made|windmill;322;
 military|bunker;323;
 aerialway|chair_lift;324;
@@ -774,13 +777,13 @@ deprecated|deprecated;654;x
 deprecated|deprecated;655;x
 deprecated|deprecated;656;x
 deprecated:boundary|administrative|municipality:04.2024;[boundary=administrative][border_type=municipality];x;name;int_name;657;
-deprecated|deprecated;658;x
-deprecated|deprecated;659;x
-deprecated|deprecated;660;x
-deprecated|deprecated;661;x
-deprecated|deprecated;662;x
-deprecated|deprecated;663;x
-deprecated|deprecated;664;x
+natural|wetland|saltmarsh;[natural=wetland][wetland=saltmarsh];;;;658;
+natural|wetland|saltmarsh|tidal;[natural=wetland][wetland=saltmarsh][tidal=yes];;;;659;
+natural|wetland|fen;[natural=wetland][wetland=fen];;;;660;
+natural|wetland|reedbed;[natural=wetland][wetland=reedbed];;;;661;
+natural|wetland|swamp;[natural=wetland][wetland=swamp];;;;662;
+natural|wetland|mangrove;[natural=wetland][wetland=mangrove];;;;663;
+natural|wetland|tidalflat;[natural=wetland][wetland=tidalflat];;;;664;
 deprecated|railway|yard|bridge:06.2023;665;x
 deprecated|deprecated;666;x
 deprecated|deprecated;667;x

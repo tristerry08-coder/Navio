@@ -119,6 +119,13 @@ amenity-parking-street_side-private                 # area z17- (also has icon z
 natural-wetland                                     # area z11- (also has caption z16-)
 natural-wetland-bog                                 # area z11- (also has caption z16-)
 natural-wetland-marsh                               # area z11- (also has caption z16-)
+natural-wetland-saltmarsh
+natural-wetland-saltmarsh-tidal
+natural-wetland-fen
+natural-wetland-reedbed
+natural-wetland-swamp
+natural-wetland-mangrove
+natural-wetland-tidalflat
 === 90
 
 landuse-farmyard                                    # area z10- (also has caption z15-)

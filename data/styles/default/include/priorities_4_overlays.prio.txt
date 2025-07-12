@@ -895,6 +895,13 @@ leisure-miniature_golf                              # icon z17- (also has captio
 natural-wetland                                     # caption z16- (also has area z11-)
 natural-wetland-bog                                 # caption z16- (also has area z11-)
 natural-wetland-marsh                               # caption z16- (also has area z11-)
+natural-wetland-saltmarsh
+natural-wetland-saltmarsh-tidal
+natural-wetland-fen
+natural-wetland-reedbed
+natural-wetland-swamp
+natural-wetland-mangrove
+natural-wetland-tidalflat
 tourism-picnic_site                                 # icon z16- (also has caption(optional) z16-)
 === 1800
 

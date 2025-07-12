@@ -694,6 +694,13 @@ emergency-emergency_ward_entrance                   # icon z18- (also has captio
 natural-wetland                                     # caption z16- (also has area z11-)
 natural-wetland-bog                                 # caption z16- (also has area z11-)
 natural-wetland-marsh                               # caption z16- (also has area z11-)
+natural-wetland-saltmarsh
+natural-wetland-saltmarsh-tidal
+natural-wetland-fen
+natural-wetland-reedbed
+natural-wetland-swamp
+natural-wetland-mangrove
+natural-wetland-tidalflat
 === 450
 
 railway-tram_stop                                   # icon z17- (also has caption(optional) z17-)
