@@ -737,7 +737,14 @@
     <string name="type.natural.water">Водоём</string>
     <string name="type.natural.wetland">Болотистая местность</string>
     <string name="type.natural.wetland.bog">Торфяное болото</string>
-    <string name="type.natural.wetland.marsh">Болотистая местность</string>
+    <string name="type.natural.wetland.marsh">Травянистое болото</string>
+    <string name="type.natural.wetland.saltmarsh">Солёноводное болото</string>
+    <string name="type.natural.wetland.saltmarsh.tidal">Приливное болото</string>
+    <string name="type.natural.wetland.fen">Торфяное болото</string>
+    <string name="type.natural.wetland.reedbed">Плавни</string>
+    <string name="type.natural.wetland.swamp">Заболоченный лес</string>
+    <string name="type.natural.wetland.mangrove">Мангровое болото</string>
+    <string name="type.natural.wetland.tidalflat">Грязевая отмель</string>
     <string name="type.noexit">Тупик</string>
     <string name="type.office">Офис</string>
     <string name="type.office.company">Организация</string>

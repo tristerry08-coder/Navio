@@ -764,6 +764,13 @@
     <string name="type.natural.wetland">Wetland</string>
     <string name="type.natural.wetland.bog">Bog</string>
     <string name="type.natural.wetland.marsh">Marsh</string>
+    <string name="type.natural.wetland.saltmarsh">Salt Marsh</string>
+    <string name="type.natural.wetland.saltmarsh.tidal">Tidal Salt Marsh</string>
+    <string name="type.natural.wetland.fen">Fen</string>
+    <string name="type.natural.wetland.reedbed">Reed Bed</string>
+    <string name="type.natural.wetland.swamp">Swamp</string>
+    <string name="type.natural.wetland.mangrove">Mangrove</string>
+    <string name="type.natural.wetland.tidalflat">Tidal Flat</string>
     <string name="type.noexit">Dead End</string>
     <string name="type.office">Office</string>
     <string name="type.office.company">Company Office</string>

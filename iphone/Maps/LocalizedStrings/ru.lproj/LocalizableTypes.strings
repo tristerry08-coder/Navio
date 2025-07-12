@@ -826,7 +826,14 @@
 "type.natural.water" = "Водоём";
 "type.natural.wetland" = "Болотистая местность";
 "type.natural.wetland.bog" = "Торфяное болото";
-"type.natural.wetland.marsh" = "Болотистая местность";
+"type.natural.wetland.marsh" = "Травянистое болото";
+"type.natural.wetland.saltmarsh" = "Солёноводное болото";
+"type.natural.wetland.saltmarsh.tidal" = "Приливное болото";
+"type.natural.wetland.fen" = "Торфяное болото";
+"type.natural.wetland.reedbed" = "Плавни";
+"type.natural.wetland.swamp" = "Заболоченный лес";
+"type.natural.wetland.mangrove" = "Мангровое болото";
+"type.natural.wetland.tidalflat" = "Грязевая отмель";
 "type.noexit" = "Тупик";
 "type.office" = "Офис";
 "type.office.company" = "Организация";

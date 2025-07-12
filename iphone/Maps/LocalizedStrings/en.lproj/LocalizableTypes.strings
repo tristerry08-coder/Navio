@@ -850,6 +850,13 @@
 "type.natural.wetland" = "Wetland";
 "type.natural.wetland.bog" = "Bog";
 "type.natural.wetland.marsh" = "Marsh";
+"type.natural.wetland.saltmarsh" = "Salt Marsh";
+"type.natural.wetland.saltmarsh.tidal" = "Tidal Salt Marsh";
+"type.natural.wetland.fen" = "Fen";
+"type.natural.wetland.reedbed" = "Reed Bed";
+"type.natural.wetland.swamp" = "Swamp";
+"type.natural.wetland.mangrove" = "Mangrove";
+"type.natural.wetland.tidalflat" = "Tidal Flat";
 "type.noexit" = "Dead End";
 "type.office" = "Office";
 "type.office.company" = "Company Office";
