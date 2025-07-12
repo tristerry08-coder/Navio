@@ -105,7 +105,9 @@ private extension AboutController {
 
     func setupLogo() {
       logoImageView.contentMode = .scaleAspectFit
-      logoImageView.image = UIImage(named: "logo")
+      logoImageView.image = UIImage(named: "Logo")
+      logoImageView.layer.cornerRadius = 12
+      logoImageView.layer.masksToBounds = true
     }
 
     func setupHeaderTitle() {

@@ -39,7 +39,7 @@
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="30"/>
                             <inset key="imageEdgeInsets" minX="9" minY="9" maxX="9" maxY="9"/>
-                            <state key="normal" image="logo"/>
+                            <state key="normal" image="Logo"/>
                             <connections>
                                 <action selector="onLeftButtonPressed:" destination="-1" eventType="touchUpInside" id="1gx-P2-sRJ"/>
                             </connections>
@@ -157,9 +157,9 @@
         </view>
     </objects>
     <resources>
+        <image name="Logo" width="1024" height="1024"/>
         <image name="ic_menu" width="48" height="48"/>
         <image name="ic_menu_bookmark_list" width="48" height="48"/>
         <image name="ic_menu_search" width="48" height="48"/>
-        <image name="logo" width="462" height="512"/>
     </resources>
 </document>

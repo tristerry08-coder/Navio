@@ -109,7 +109,7 @@ NSString * httpGe0Url(NSString * shortUrl)
   LPLinkMetadata * metadata = [[LPLinkMetadata alloc] init];
   metadata.originalURL = [NSURL URLWithString:httpGe0Url([self url:NO])];
   metadata.title = self.isMyPosition ? L(@"core_my_position") : self.data.previewData.title;
-  metadata.iconProvider = [[NSItemProvider alloc] initWithObject:[UIImage imageNamed:@"imgLogo"]];
+  metadata.iconProvider = [[NSItemProvider alloc] initWithObject:[UIImage imageNamed:@"Logo"]];
   return metadata;
 }
 
