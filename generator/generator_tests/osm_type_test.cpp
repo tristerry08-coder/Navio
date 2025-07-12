@@ -2458,7 +2458,6 @@ UNIT_CLASS_TEST(TestWithClassificator, OsmType_SimpleTypesSmoke)
     {"landuse", "commercial"},
     {"landuse", "construction"},
     {"landuse", "farmland"},
-    {"landuse", "field"},
     {"landuse", "garages"},
     {"landuse", "grass"},
     {"landuse", "industrial"},
