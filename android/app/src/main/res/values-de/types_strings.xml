@@ -1399,4 +1399,11 @@
     <string name="type.man_made.crane">Kran</string>
     <string name="type.railway.station.subway.qingdao">U-Bahn-Station</string>
     <string name="type.landuse.religious">Religiöses Land</string>
+    <string name="type.natural.wetland.saltmarsh">Salzwiese</string>
+    <string name="type.natural.wetland.saltmarsh.tidal">Gezeitenabhängige Salzwiese</string>
+    <string name="type.natural.wetland.fen">Niedermoor</string>
+    <string name="type.natural.wetland.reedbed">Röhricht</string>
+    <string name="type.natural.wetland.swamp">Bruch</string>
+    <string name="type.natural.wetland.mangrove">Mangrove</string>
+    <string name="type.natural.wetland.tidalflat">Watt</string>
 </resources>

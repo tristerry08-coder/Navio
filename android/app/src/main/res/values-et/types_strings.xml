@@ -1400,4 +1400,5 @@
     <string name="type.amenity.studio">Stuudio</string>
     <string name="type.man_made.crane">Kraana</string>
     <string name="type.railway.station.subway.qingdao">Qingdao metroojaam</string>
+    <string name="type.landuse.religious">Usuorganisatsiooni maa</string>
 </resources>

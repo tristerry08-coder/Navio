@@ -1086,3 +1086,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Reitti on tyhjä - ei mitään tallennettavaa";
 "edit_track" = "Muokkaa reittiä";
+"osm_profile_view_edit_history" = "Näytä muokkaushistoria";
+"osm_profile_view_notes" = "Näytä muistiinpanot";

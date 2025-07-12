@@ -1492,3 +1492,5 @@
 "type.highway.ladder" = "Scala a pioli";
 "type.man_made.crane" = "Gru permanente";
 "type.railway.station.subway.qingdao" = "Stazione metropolitana di Qingdao";
+"type.natural.wetland.swamp" = "Palude";
+"type.natural.wetland.mangrove" = "Mangrovie";

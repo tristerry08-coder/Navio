@@ -1492,3 +1492,10 @@
 "type.sport.diving" = "Turmspringen";
 "type.man_made.crane" = "Kran";
 "type.railway.station.subway.qingdao" = "U-Bahn-Station";
+"type.natural.wetland.saltmarsh" = "Salzwiese";
+"type.natural.wetland.saltmarsh.tidal" = "Gezeitenabhängige Salzwiese";
+"type.natural.wetland.fen" = "Niedermoor";
+"type.natural.wetland.reedbed" = "Röhricht";
+"type.natural.wetland.swamp" = "Bruch";
+"type.natural.wetland.mangrove" = "Mangrove";
+"type.natural.wetland.tidalflat" = "Watt";

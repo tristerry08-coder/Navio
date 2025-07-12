@@ -1400,4 +1400,6 @@
     <string name="type.barrier.guard_rail">Barriera di contenimento</string>
     <string name="type.man_made.crane">Gru permanente</string>
     <string name="type.railway.station.subway.qingdao">Stazione metropolitana</string>
+    <string name="type.natural.wetland.swamp">Palude</string>
+    <string name="type.natural.wetland.mangrove">Mangrovie</string>
 </resources>

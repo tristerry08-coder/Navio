@@ -1307,4 +1307,11 @@
     <string name="type.railway.subway_entrance.yerevan">U-Bahn-Iigang</string>
     <string name="type.railway.subway_entrance.yokohama">U-Bahn-Iigang</string>
     <string name="type.landuse.religious">Religiöses Land</string>
+    <string name="type.natural.wetland.saltmarsh">Salzwiese</string>
+    <string name="type.natural.wetland.saltmarsh.tidal">Geziiteabhängigi Salzwiese</string>
+    <string name="type.natural.wetland.fen">Niedermoor</string>
+    <string name="type.natural.wetland.reedbed">Röhricht</string>
+    <string name="type.natural.wetland.swamp">Bruch</string>
+    <string name="type.natural.wetland.mangrove">Mangrove</string>
+    <string name="type.natural.wetland.tidalflat">Watt</string>
 </resources>

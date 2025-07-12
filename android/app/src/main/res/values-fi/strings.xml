@@ -917,4 +917,5 @@
     <string name="pref_backup_title">Kirjanmerkkien ja reittien varmuuskopiointi</string>
     <string name="pref_backup_status_summary_success">Viimeisin onnistunut varmuuskopio</string>
     <string name="backup_interval_manual_only">Pois (Varmuuskopioi manuaalisesti)</string>
+    <string name="dialog_report_error_with_logs">Lähetä meille virheraportti:\n - kytke \"Ota loki käyttöön\" asetuksista\n - yritä toistaa ongelma\n - paina \"Tietoja ja ohje\" valikosta \"Ilmoita virhe\" painiketta ja lähetä virheraportti sähköpostin tai chatin kautta\n - kytke lokitallennus pois käytöstä</string>
 </resources>

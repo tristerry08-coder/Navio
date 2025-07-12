@@ -1306,3 +1306,10 @@
 "type.piste_type.skitour" = "Skitour Pfad";
 "type.amenity.events_venue" = "Verastaltigszentrum";
 "type.landuse.field" = "Feld";
+"type.natural.wetland.saltmarsh" = "Salzwiese";
+"type.natural.wetland.saltmarsh.tidal" = "Geziiteabhängigi Salzwiese";
+"type.natural.wetland.fen" = "Niedermoor";
+"type.natural.wetland.reedbed" = "Röhricht";
+"type.natural.wetland.swamp" = "Bruch";
+"type.natural.wetland.mangrove" = "Mangrove";
+"type.natural.wetland.tidalflat" = "Watt";

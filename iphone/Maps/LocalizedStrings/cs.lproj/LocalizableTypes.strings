@@ -826,7 +826,7 @@
 "type.natural.water" = "Vodní plocha";
 "type.natural.wetland" = "Mokřadní oblast";
 "type.natural.wetland.bog" = "Rašeliniště";
-"type.natural.wetland.marsh" = "Bažina";
+"type.natural.wetland.marsh" = "Močál";
 "type.noexit" = "Slepý konec";
 "type.office" = "Kancelář";
 "type.office.company" = "Kancelář společnosti";
@@ -1492,3 +1492,9 @@
 "type.sport.diving" = "Skoky do vody z velkých výšek";
 "type.man_made.crane" = "Jeřáb";
 "type.railway.station.subway.qingdao" = "Stanice metra v Čching-tao";
+"type.natural.wetland.saltmarsh.tidal" = "Přílivové slanisko";
+"type.natural.wetland.fen" = "Slatiniště";
+"type.natural.wetland.swamp" = "Bažina";
+"type.natural.wetland.saltmarsh" = "Slanisko";
+"type.natural.wetland.reedbed" = "Rákosina";
+"type.natural.wetland.mangrove" = "mangrovy";

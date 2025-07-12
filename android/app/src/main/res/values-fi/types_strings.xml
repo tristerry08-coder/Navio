@@ -1399,4 +1399,5 @@
     <string name="type.mountain_pass">Vuoristosola</string>
     <string name="type.attraction.big_wheel">Maailmanpyörä</string>
     <string name="type.railway.station.subway.qingdao">Metro</string>
+    <string name="type.landuse.religious">Uskonnollinen maa</string>
 </resources>
