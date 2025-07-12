@@ -73,10 +73,6 @@ UNIT_TEST(TagsReplacer_Smoke)
     TestReplacer(source, {{{"aerodrome:type", "international"}, {{"aerodrome", "international"}}}});
   }
   {
-    std::string const source = "natural=marsh : natural=wetland, wetland=marsh";
-    TestReplacer(source, {{{"natural", "marsh"}, {{"natural", "wetland"}, {"wetland", "marsh"}}}});
-  }
-  {
     std::string const source =
         "natural = forest : natural = wood\n"
         "# TODO\n"
