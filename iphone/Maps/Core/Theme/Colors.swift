@@ -1,7 +1,7 @@
 class DayColors: IColors {
   var clear = UIColor.clear
   var primaryDark = UIColor(24, 128, 68, alpha100)
-  var primary = UIColor(88, 129, 87, alpha100)
+  var primary = UIColor.accent
   var secondary = UIColor(55, 101, 63, alpha100)
   // Light green color
   var primaryLight = UIColor(124, 188, 123, alpha100)
@@ -78,7 +78,7 @@ class NightColors: IColors {
   // Orange color (use for status 15 min in place page)
   var orange =  UIColor(250, 190, 10, alpha100)
   // Blue color (use for links and phone numbers)
-  var linkBlue = UIColor.accent
+  var linkBlue = UIColor.alternativeAccent
   var linkBlueHighlighted = UIColor.accent
   var linkBlueDark = UIColor.accent
   var buttonRed = UIColor(244, 67, 67, alpha100)

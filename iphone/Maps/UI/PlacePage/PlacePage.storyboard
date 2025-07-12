@@ -1118,14 +1118,13 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7vg-3k-GS4">
                                                     <rect key="frame" x="0.0" y="55" width="160" height="84"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vRP-2J-LW2">
-                                                            <rect key="frame" x="52" y="0.0" width="56" height="56"/>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.forward.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vRP-2J-LW2">
+                                                            <rect key="frame" x="52" y="0.5" width="56" height="55"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="56" id="NDQ-ud-eh3"/>
                                                                 <constraint firstAttribute="height" constant="56" id="qBt-XP-S5F"/>
                                                             </constraints>
                                                             <userDefinedRuntimeAttributes>
-                                                                <userDefinedRuntimeAttribute type="string" keyPath="mwm_name" value="btn_float_more"/>
                                                                 <userDefinedRuntimeAttribute type="string" keyPath="coloring" value="MWMOther"/>
                                                             </userDefinedRuntimeAttributes>
                                                         </imageView>
@@ -1493,6 +1492,7 @@
     </scenes>
     <resources>
         <image name="Place Page/Direction Indicator" width="32" height="32"/>
+        <image name="arrow.forward.circle.fill" catalog="system" width="128" height="123"/>
         <image name="dialog_btn_press" width="280" height="44"/>
         <image name="ic_arrow_gray_down" width="28" height="28"/>
         <image name="ic_operator" width="28" height="28"/>
