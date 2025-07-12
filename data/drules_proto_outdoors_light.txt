@@ -51769,6 +51769,65 @@ cont {
   }
 }
 cont {
+  name: "landuse-retail"
+  element {
+    scale: 13
+    area {
+      color: 15720923
+      priority: -1970
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 15720923
+      priority: -1970
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 15720923
+      priority: -1970
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 15720923
+      priority: -1970
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 15720923
+      priority: -1970
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 15720923
+      priority: -1970
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 15720923
+      priority: -1970
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 15720923
+      priority: -1970
+    }
+  }
+}
+cont {
   name: "landuse-salt_pond"
   element {
     scale: 1
