@@ -62568,7 +62568,763 @@ cont {
   }
 }
 cont {
+  name: "natural-wetland-fen"
+  element {
+    scale: 11
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 12
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 13
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+}
+cont {
+  name: "natural-wetland-mangrove"
+  element {
+    scale: 11
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 12
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 13
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+}
+cont {
   name: "natural-wetland-marsh"
+  element {
+    scale: 11
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 12
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 13
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+}
+cont {
+  name: "natural-wetland-reedbed"
+  element {
+    scale: 11
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 12
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 13
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+}
+cont {
+  name: "natural-wetland-saltmarsh"
+  element {
+    scale: 11
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 12
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 13
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+}
+cont {
+  name: "natural-wetland-saltmarsh-tidal"
+  element {
+    scale: 11
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 12
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 13
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+}
+cont {
+  name: "natural-wetland-swamp"
+  element {
+    scale: 11
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 12
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 13
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 6425
+      priority: -1910
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+  element {
+    scale: 20
+    area {
+      color: 6425
+      priority: -1910
+    }
+    caption {
+      primary {
+        height: 11
+        color: 19033
+      }
+      priority: 1800
+    }
+  }
+}
+cont {
+  name: "natural-wetland-tidalflat"
   element {
     scale: 11
     area {

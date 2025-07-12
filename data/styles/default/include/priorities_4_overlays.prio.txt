@@ -894,14 +894,14 @@ leisure-golf_course                                 # icon z15- (also has captio
 leisure-miniature_golf                              # icon z17- (also has caption(optional) z17-, area z14-)
 natural-wetland                                     # caption z16- (also has area z11-)
 natural-wetland-bog                                 # caption z16- (also has area z11-)
+natural-wetland-fen                                 # caption z16- (also has area z11-)
+natural-wetland-mangrove                            # caption z16- (also has area z11-)
 natural-wetland-marsh                               # caption z16- (also has area z11-)
-natural-wetland-saltmarsh
-natural-wetland-saltmarsh-tidal
-natural-wetland-fen
-natural-wetland-reedbed
-natural-wetland-swamp
-natural-wetland-mangrove
-natural-wetland-tidalflat
+natural-wetland-reedbed                             # caption z16- (also has area z11-)
+natural-wetland-saltmarsh                           # caption z16- (also has area z11-)
+natural-wetland-saltmarsh-tidal                     # caption z16- (also has area z11-)
+natural-wetland-swamp                               # caption z16- (also has area z11-)
+natural-wetland-tidalflat                           # caption z16- (also has area z11-)
 tourism-picnic_site                                 # icon z16- (also has caption(optional) z16-)
 === 1800
 

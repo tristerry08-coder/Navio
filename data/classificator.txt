@@ -790,7 +790,15 @@ world  +
             {}
         wetland  +
             bog  -
+            fen  -
+            mangrove  -
             marsh  -
+            reedbed  -
+            saltmarsh  +
+                tidal  -
+                {}
+            swamp  -
+            tidalflat  -
             {}
         {}
     noexit  -
