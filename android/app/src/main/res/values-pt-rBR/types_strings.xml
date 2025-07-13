@@ -1273,7 +1273,7 @@
     <string name="type.natural.volcano">Vulcão</string>
     <string name="type.natural.water">Água</string>
     <string name="type.natural.wetland.bog">Jardim</string>
-    <string name="type.natural.wetland.marsh">Pântano</string>
+    <string name="type.natural.wetland.marsh">Brejo</string>
     <string name="type.place.city">Cidade</string>
     <string name="type.place.city.capital">Capital</string>
     <string name="type.place.city.capital.10">Cidade</string>
@@ -1390,4 +1390,11 @@
     <string name="type.shop.hearing_aids">Loja de aparelhos auditivos</string>
     <string name="type.railway.station.subway.qingdao">Estação de Metrô</string>
     <string name="type.landuse.religious">Local Religioso</string>
+    <string name="type.natural.wetland.saltmarsh.tidal">Marisma</string>
+    <string name="type.natural.wetland.fen">Fen</string>
+    <string name="type.natural.wetland.reedbed">Caniçal</string>
+    <string name="type.natural.wetland.swamp">Pântano</string>
+    <string name="type.natural.wetland.mangrove">Manguezal</string>
+    <string name="type.natural.wetland.tidalflat">Planície de Maré</string>
+    <string name="type.natural.wetland.saltmarsh">Sapal</string>
 </resources>

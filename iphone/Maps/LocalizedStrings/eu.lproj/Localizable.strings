@@ -372,7 +372,7 @@
 "routing_download_maps_along" = "Deskargatu zure arrastoaren mapa guztiak";
 
 /* Text for routing error dialog */
-"routing_requires_all_map" = "Arrasto bat sortzeko beharrezkoa da helmugako kokapenaren mapa guztiak deskargatzea eta eguneratzea.";
+"routing_requires_all_map" = "Arrasto bat sortzeko beharrezkoa da kokapenetik helmugarainoko mapa guztiak deskargatzea eta eguneratzea.";
 
 /* bookmark button text */
 "bookmark" = "Markagailua";
@@ -428,7 +428,7 @@
 "blue_gray" = "Gris urdinxka";
 "dialog_routing_disclaimer_title" = "Arrastoa jarraitzean, kontuan izan:";
 "dialog_routing_disclaimer_priority" = "— Bidearen egoera, zirkulazio arauek eta bide seinaleek lehentasuna dute beti nabigazio-iradokizunen gainetik;";
-"dialog_routing_disclaimer_precision" = "— Mapa zehazgabea izan daiteke eta helmugara iristeko biderik onena ez den ibilbide bat iradoki dezake;";
+"dialog_routing_disclaimer_precision" = "— Zehaztasunik gabeko mapa izan daiteke eta helmugara iristeko biderik onena ez den ibilbide bat iradoki dezake;";
 "dialog_routing_disclaimer_recommendations" = "— Iradokitako ibilbideak gomendio gisa soilik hartu behar dira;";
 "dialog_routing_disclaimer_borders" = "— Kontuz ibili muga-eremuak dituzten ibilbideetan: gure aplikazioak sortutako ibilbideek batzuetan herrialdeen mugak zeharkatu ditzakete baimendu gabeko tokietan.";
 "dialog_routing_disclaimer_beware" = "Egon adi eta seguru errepideetan!";
@@ -440,7 +440,7 @@
 "dialog_routing_download_files" = "Deskargatu beharrezko fitxategiak";
 "dialog_routing_download_and_update_all" = "Deskargatu eta eguneratu mapa eta ibilbideen informazio guztia aurreikusitako ibilbidearekin batera arrastoa kalkulatzeko.";
 "dialog_routing_unable_locate_route" = "Ezin da ibilbiderik aurkitu";
-"dialog_routing_change_start_or_end" = "Ezarri zure abiapuntua edo helmuga.";
+"dialog_routing_change_start_or_end" = "Ezarri zure abiapuntua edota helmuga.";
 "dialog_routing_change_start" = "Ezarri abiapuntua";
 "dialog_routing_start_not_determined" = "Ibilbidea ez da sortu. Abiapuntua ezin izan da aurkitu.";
 "dialog_routing_select_closer_start" = "Hautatu errepide batetik gertuko abiapuntua.";
@@ -486,8 +486,8 @@
 "wikimedia_commons" = "Wikimedia Commons";
 "p2p_your_location" = "Zure kokapena";
 "p2p_start" = "Hasi";
-"p2p_from_here" = "Hemendik";
-"p2p_to_here" = "Bidea hona";
+"p2p_from_here" = "Abiapuntua";
+"p2p_to_here" = "Helmuga";
 "p2p_only_from_current" = "Nabigazioa zure uneko kokapenetik soilik dago erabilgarri.";
 "p2p_reroute_from_current" = "Zure uneko kokapenetik ibilbide bat antolatzea nahi duzu?";
 "editor_time_add" = "Gehitu ordutegia";
@@ -732,7 +732,7 @@
 "routing_add_start_point" = "Erabili bilaketa edo sakatu mapan ibilbidearen abiapuntua gehitzeko";
 
 /* User selected the start of a route by pressing Route From. Now the destination of a route should be selected using search or by tapping on the map and then pressing "Route To". */
-"routing_add_finish_point" = "Erabili bilaketa edo sakatu mapan helmuga puntu bat gehitzeko";
+"routing_add_finish_point" = "Erabili bilaketa edo sakatu mapan helmuga puntua gehitzeko";
 "planning_route_manage_route" = "Kudeatu ibilbidea";
 "button_plan" = "Planifikatu";
 "placepage_remove_stop" = "Kendu geltokia";
@@ -824,7 +824,7 @@
 "unpaved_road" = "Asfaltatu gabeko errepidea";
 "ferry_crossing" = "Ferry zeharkaldia";
 "trip_start" = "Goazen";
-"pick_destination" = "Helmuga";
+"pick_destination" = "Norakoa";
 "follow_my_position" = "Berriz zentratu";
 "search_results" = "Bilaketa emaitzak";
 "then_turn" = "Gero";

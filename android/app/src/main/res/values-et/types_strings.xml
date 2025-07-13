@@ -1401,4 +1401,11 @@
     <string name="type.man_made.crane">Kraana</string>
     <string name="type.railway.station.subway.qingdao">Qingdao metroojaam</string>
     <string name="type.landuse.religious">Usuorganisatsiooni maa</string>
+    <string name="type.natural.wetland.saltmarsh.tidal">Loodete mõjutatud sooldunud padur</string>
+    <string name="type.natural.wetland.fen">Madalsoo</string>
+    <string name="type.natural.wetland.reedbed">Roostik</string>
+    <string name="type.natural.wetland.swamp">Lodu</string>
+    <string name="type.natural.wetland.mangrove">Mangroov</string>
+    <string name="type.natural.wetland.tidalflat">Loodeline tasandik</string>
+    <string name="type.natural.wetland.saltmarsh">Sooldunud padur</string>
 </resources>

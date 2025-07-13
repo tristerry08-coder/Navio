@@ -1492,3 +1492,10 @@
 "type.sport.diving" = "Vettehüpped";
 "type.man_made.crane" = "Kraana";
 "type.railway.station.subway.qingdao" = "Qingdao metroojaam";
+"type.natural.wetland.fen" = "Madalsoo";
+"type.natural.wetland.reedbed" = "Roostik";
+"type.natural.wetland.swamp" = "Lodu";
+"type.natural.wetland.mangrove" = "Mangroov";
+"type.natural.wetland.tidalflat" = "Loodeline tasandik";
+"type.natural.wetland.saltmarsh" = "Sooldunud padur";
+"type.natural.wetland.saltmarsh.tidal" = "Loodete mõjutatud sooldunud padur";

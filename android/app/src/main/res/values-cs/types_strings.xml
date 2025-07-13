@@ -774,7 +774,7 @@
     <string name="type.railway.station.subway.lille">Stanice metra</string>
     <string name="type.railway.station.subway.lima">Stanice metra</string>
     <string name="type.railway.station.subway.lisboa">Stanice metra</string>
-    <string name="type.railway.station.subway.london">Stanice metra</string>
+    <string name="type.railway.station.subway.london">Stanice londýnského metra</string>
     <string name="type.railway.station.subway.lyon">Stanice metra</string>
     <string name="type.railway.station.subway.madrid">Stanice metra</string>
     <string name="type.railway.station.subway.malaga">Stanice metra</string>
@@ -1403,5 +1403,6 @@
     <string name="type.natural.wetland.fen">Slatiniště</string>
     <string name="type.natural.wetland.reedbed">Rákosina</string>
     <string name="type.natural.wetland.swamp">Bažina</string>
-    <string name="type.natural.wetland.mangrove">mangrovy</string>
+    <string name="type.natural.wetland.mangrove">Mangrovy</string>
+    <string name="type.natural.wetland.tidalflat">Wattové pobřeží</string>
 </resources>

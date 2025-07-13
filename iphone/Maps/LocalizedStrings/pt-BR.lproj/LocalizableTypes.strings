@@ -826,7 +826,7 @@
 "type.natural.water" = "Água";
 "type.natural.wetland" = "Zona úmida";
 "type.natural.wetland.bog" = "Jardim";
-"type.natural.wetland.marsh" = "Pântano";
+"type.natural.wetland.marsh" = "Brejo";
 "type.noexit" = "Via sem saída";
 "type.office" = "Escritório";
 "type.office.company" = "Escritório de empresa";
@@ -1492,3 +1492,10 @@
 "type.man_made.crane" = "Guindaste";
 "type.place.city.capital.5" = "Cidade";
 "type.railway.station.subway.qingdao" = "Estação de Metrô";
+"type.natural.wetland.saltmarsh.tidal" = "Marisma";
+"type.natural.wetland.fen" = "Fen";
+"type.natural.wetland.reedbed" = "Caniçal";
+"type.natural.wetland.swamp" = "Pântano";
+"type.natural.wetland.mangrove" = "Manguezal";
+"type.natural.wetland.tidalflat" = "Planície de Maré";
+"type.natural.wetland.saltmarsh" = "Sapal";
