@@ -92,19 +92,21 @@ struct SettingsNavigationView: View {
                 } header: {
                     Text("pref_tts_title")
                 } footer: {
-                    Button {
-                        Settings.playVoiceRoutingTest()
-                    } label: {
-                        Text("pref_tts_test_voice_title")
-                            .bold()
-                            .lineLimit(1)
-                            .padding(4)
-                            .frame(maxWidth: .infinity)
+                    if shouldProvideVoiceRouting {
+                        Button {
+                            Settings.playVoiceRoutingTest()
+                        } label: {
+                            Text("pref_tts_test_voice_title")
+                                .bold()
+                                .lineLimit(1)
+                                .padding(4)
+                                .frame(maxWidth: .infinity)
+                        }
+                        .buttonStyle(BorderedButtonStyle())
+                        .foregroundStyle(.alternativeAccent)
+                        .padding([.top, .bottom])
+                        .listRowInsets(.init(top: 0, leading: 0, bottom: 0, trailing: 0))
                     }
-                    .buttonStyle(BorderedButtonStyle())
-                    .foregroundStyle(.alternativeAccent)
-                    .padding([.top, .bottom])
-                    .listRowInsets(.init(top: 0, leading: 0, bottom: 0, trailing: 0))
                 }
                 
                 Section {
