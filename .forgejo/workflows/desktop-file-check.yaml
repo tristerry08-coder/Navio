@@ -3,20 +3,20 @@ on:
   workflow_dispatch: # Manual trigger
   pull_request:
     paths:
-      - qt/res/app.organicmaps.desktop.desktop
+      - qt/res/app.comaps.desktop.desktop
       - .forgejo/workflows/desktop-file-check.yaml  # Run check on self change
 
 jobs:
   validate-desktop-file:
     name: Validate .desktop file
-    runs-on: ubuntu-24.04
+    runs-on: codeberg-tiny
     steps:
       - name: Checkout sources
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
           sparse-checkout: |
-            qt/res/app.organicmaps.desktop.desktop
+            qt/res/app.comaps.desktop.desktop
 
       - name: Install desktop-file-validate tool
         shell: bash
@@ -27,4 +27,4 @@ jobs:
 
       - name: Validate desktop file
         shell: bash
-        run: desktop-file-validate qt/res/app.organicmaps.desktop.desktop && echo "Successfully validated .desktop file"
+        run: desktop-file-validate qt/res/app.comaps.desktop.desktop && echo "Successfully validated .desktop file"

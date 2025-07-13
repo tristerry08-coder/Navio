@@ -33,7 +33,7 @@ concurrency:
 jobs:
   should-run-check:
     name: Should run coverage
-    runs-on: ubuntu-24.04
+    runs-on: codeberg-tiny
     outputs:
       run-from-pr: ${{ steps.run-from-pr.outputs.run-from-pr }}
       manually-triggered: ${{ steps.manually-triggered.outputs.manually-triggered }}
@@ -59,14 +59,9 @@ jobs:
   coverage:
     needs: should-run-check
     name: Generate coverage report
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     if: ${{ needs.should-run-check.outputs.run-from-pr == 'true' || needs.should-run-check.outputs.manually-triggered == 'true'}}
     steps:
-      - name: Free disk space by removing .NET, Android and Haskell
-        shell: bash
-        run: |
-          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc
-
       - name: Checkout sources
         uses: actions/checkout@v4
         with:

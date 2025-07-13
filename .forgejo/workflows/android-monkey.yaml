@@ -4,12 +4,9 @@ on:
   schedule:
     - cron:  '0 5 * * 0' # Once per week at 05:00 UTC
 
-env:
-  JAVA_HOME: /usr/lib/jvm/temurin-17-jdk-amd64  # Java 17 is required for Android Gradle 8 plugin
-
 jobs:
   precondition:
-    runs-on: ubuntu-latest
+    runs-on: codeberg-tiny
     name: Check preconditions
     steps:
       - name: Checkout sources
@@ -34,6 +31,8 @@ jobs:
   android-google-beta:
     name: Android Google Beta
     runs-on: ubuntu-latest
+    container:
+      image: runmymind/docker-android-sdk:latest
     needs: precondition
     if: ${{ needs.precondition.outputs.updated != '' }}
     environment: beta

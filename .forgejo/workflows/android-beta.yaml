@@ -32,13 +32,12 @@ on:
       - track_generator/**
       - xcode/**
 
-env:
-  JAVA_HOME: /usr/lib/jvm/temurin-17-jdk-amd64  # Java 17 is required for Android Gradle 8 plugin
-
 jobs:
   android-google-beta:
     name: Android Google Beta
     runs-on: ubuntu-latest
+    container:
+      image: runmymind/docker-android-sdk:latest
     environment: beta
     steps:
       - name: Install build tools and dependencies

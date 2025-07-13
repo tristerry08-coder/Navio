@@ -31,18 +31,13 @@ on:
 jobs:
   linux-no-unity:
     name: Linux no unity build
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     # Cancels previous jobs if the same branch or PR was updated again.
     concurrency:
       group: ${{ github.workflow }}-no-unity-${{ github.event.pull_request.number || github.ref }}
       cancel-in-progress: true
 
     steps:
-      - name: Free disk space by removing .NET, Android and Haskell
-        shell: bash
-        run: |
-          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc
-
       - name: Checkout sources
         uses: actions/checkout@v4
         with:
@@ -95,7 +90,7 @@ jobs:
 
   linux-matrix:
     name: Linux builds and tests
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
@@ -107,11 +102,6 @@ jobs:
       cancel-in-progress: true
 
     steps:
-      - name: Free disk space by removing .NET, Android and Haskell
-        shell: bash
-        run: |
-          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc
-
       - name: Checkout sources
         uses: actions/checkout@v4
 
