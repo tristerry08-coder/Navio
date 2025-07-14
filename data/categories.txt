@@ -1134,7 +1134,7 @@ id:Toko
 it:Negozio
 ja:お買い物|ショップ|商店|雑貨|買い物
 ko:가게|상점
-en:Veikals|Bode|U+1F3EA|U+1F3EC
+lv:Veikals|Bode
 mr:दुकान|शॉप|स्टोर
 nb:Butikk
 nl:Winkel
