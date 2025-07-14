@@ -626,7 +626,7 @@
 "type.historic.memorial.plaque" = "Placa Comemorativa";
 "type.historic.memorial.sculpture" = "Escultura";
 "type.historic.memorial.statue" = "Estátua";
-"type.historic.memorial.stolperstein" = "Pedra Memorial";
+"type.historic.memorial.stolperstein" = "Pedra memorial";
 "type.historic.stone" = "Pedra Histórica";
 "type.historic.memorial.war_memorial" = "Memorial de Guerra";
 "type.historic.mine" = "Mina Histórica";
@@ -672,7 +672,7 @@
 
 /* In most (European) countries, сemeteries are usually independent of places of worship (e.g. military cemeteries), while grave yards are usually the yard of a place of worship. */
 "type.landuse.cemetery.christian" = "Cemitério cristão";
-"type.landuse.religious" = "Local Religioso";
+"type.landuse.religious" = "Local religioso";
 "type.landuse.commercial" = "Área comercial";
 "type.landuse.construction" = "Construção";
 "type.landuse.education" = "Instituições educacionais";
@@ -781,7 +781,7 @@
 "type.natural" = "Natureza";
 
 /* A rocky land cover. */
-"type.natural.bare_rock" = "Apenas Rock";
+"type.natural.bare_rock" = "Leito rochoso";
 
 /* A land cover consisting of rounded rock fragments (pebbles) on a beach or riverbed. */
 "type.natural.shingle" = "Telha";
@@ -969,7 +969,7 @@
 "type.railway.station.light_rail.london" = "Estação de trem";
 "type.railway.station.light_rail.porto" = "Estação de metrô";
 "type.railway.station.monorail" = "Estação de trem";
-"type.railway.station.subway" = "Estação de Metrô";
+"type.railway.station.subway" = "Estação de metrô";
 "type.railway.station.subway.adana" = "Estação de metrô";
 "type.railway.station.subway.algiers" = "Estação de metrô";
 "type.railway.station.subway.almaty" = "Estação de metrô";
@@ -1013,7 +1013,7 @@
 "type.railway.station.subway.istanbul" = "Estação de metrô";
 "type.railway.station.subway.izmir" = "Estação de metrô";
 "type.railway.station.subway.kazan" = "Estação de metrô";
-"type.railway.station.subway.kharkiv" = "Estação de Metrô";
+"type.railway.station.subway.kharkiv" = "Estação de metrô";
 "type.railway.station.subway.kiev" = "Estação de metrô";
 "type.railway.station.subway.kobe" = "Estação de metrô";
 "type.railway.station.subway.kolkata" = "Estação de metrô";
@@ -1033,23 +1033,23 @@
 "type.railway.station.subway.mashhad" = "Estação de metrô";
 "type.railway.station.subway.mecca" = "Estação de metrô";
 "type.railway.station.subway.medellin" = "Estação de metrô";
-"type.railway.station.subway.mexico" = "Estação de Metrô";
-"type.railway.station.subway.milan" = "Estação de Metrô";
-"type.railway.station.subway.minsk" = "Estação de Metrô";
-"type.railway.station.subway.montreal" = "Estação de Metrô";
-"type.railway.station.subway.moscow" = "Estação de Metrô";
+"type.railway.station.subway.mexico" = "Estação de metrô";
+"type.railway.station.subway.milan" = "Estação de metrô";
+"type.railway.station.subway.minsk" = "Estação de metrô";
+"type.railway.station.subway.montreal" = "Estação de metrô";
+"type.railway.station.subway.moscow" = "Estação de metrô";
 "type.railway.station.subway.munchen" = "Estação de metrô";
-"type.railway.station.subway.nagoya" = "Estação de Metrô";
-"type.railway.station.subway.newyork" = "Estação de Metrô";
+"type.railway.station.subway.nagoya" = "Estação de metrô";
+"type.railway.station.subway.newyork" = "Estação de metrô";
 "type.railway.station.subway.nnov" = "Estação de metrô";
-"type.railway.station.subway.novosibirsk" = "Estação de Metrô";
-"type.railway.station.subway.osaka" = "Estação de Metrô";
-"type.railway.station.subway.oslo" = "Estação de Metrô";
+"type.railway.station.subway.novosibirsk" = "Estação de metrô";
+"type.railway.station.subway.osaka" = "Estação de metrô";
+"type.railway.station.subway.oslo" = "Estação de metrô";
 "type.railway.station.subway.palma" = "Estação de metrô";
-"type.railway.station.subway.panama" = "Estação de Metrô";
+"type.railway.station.subway.panama" = "Estação de metrô";
 "type.railway.station.subway.paris" = "Estação de metrô";
 "type.railway.station.subway.philadelphia" = "Estação de metrô";
-"type.railway.station.subway.pyongyang" = "Estação de Metrô";
+"type.railway.station.subway.pyongyang" = "Estação de metrô";
 "type.railway.station.subway.rennes" = "Estação de metrô";
 "type.railway.station.subway.rio" = "Estação de metrô";
 "type.railway.station.subway.roma" = "Estação de metrô";
@@ -1491,11 +1491,11 @@
 "type.leisure.firepit" = "Fogueira";
 "type.man_made.crane" = "Guindaste";
 "type.place.city.capital.5" = "Cidade";
-"type.railway.station.subway.qingdao" = "Estação de Metrô";
+"type.railway.station.subway.qingdao" = "Estação de metrô";
 "type.natural.wetland.saltmarsh.tidal" = "Marisma";
 "type.natural.wetland.fen" = "Fen";
 "type.natural.wetland.reedbed" = "Caniçal";
 "type.natural.wetland.swamp" = "Pântano";
 "type.natural.wetland.mangrove" = "Manguezal";
-"type.natural.wetland.tidalflat" = "Planície de Maré";
+"type.natural.wetland.tidalflat" = "Planície de maré";
 "type.natural.wetland.saltmarsh" = "Sapal";

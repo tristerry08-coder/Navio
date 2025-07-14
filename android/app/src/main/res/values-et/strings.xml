@@ -913,4 +913,7 @@
     <string name="dialog_report_error_missing_folder">Valitud varukoopiate kaust pole kas saadaval või kirjutatav. Palun vali muu kaust.</string>
     <string name="pref_backup_location_title">Varukoopia asukoht</string>
     <string name="pref_backup_interval_title">Automaatne varundus</string>
+    <string name="open_now">Hetkel avatud</string>
+    <string name="at">kell %s</string>
+    <string name="closed_now">Praegu suletud</string>
 </resources>

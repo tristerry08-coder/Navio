@@ -193,7 +193,7 @@
 "version" = "CoMaps bertsioa: %@";
 
 /* Title for tracks category in bookmarks manager */
-"tracks_title" = "Arrastoak";
+"tracks_title" = "Arrasto";
 
 /* Length of track in cell that describes route */
 "length" = "Luzera";

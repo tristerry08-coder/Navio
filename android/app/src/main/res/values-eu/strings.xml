@@ -203,7 +203,7 @@
     <!-- Confirmation for OpenStreetMap log out. -->
     <string name="osm_log_out_confirmation">Ziur zure OpenStreetMap kontutik saioa amaitu nahi duzula?</string>
     <!-- Title for tracks category in bookmarks manager -->
-    <string name="tracks_title">Arrastoak</string>
+    <string name="tracks_title">Arrasto</string>
     <!-- Length of track in cell that describes route -->
     <string name="length">Luzera</string>
     <string name="share_my_location">Partekatu nire kokapena</string>
