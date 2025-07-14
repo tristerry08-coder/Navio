@@ -1,6 +1,6 @@
 extension UITableView {
   @objc override func applyTheme() {
-    if styleName.isEmpty {
+    if styleName.isEmpty, style != .insetGrouped, style != .grouped {
       setStyle(.tableView)
     }
     for style in StyleManager.shared.getStyle(styleName)

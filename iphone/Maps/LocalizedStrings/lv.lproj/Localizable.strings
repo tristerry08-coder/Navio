@@ -46,13 +46,13 @@
 "about_headline" = "Bezmaksas, pieejama visiem un veidota ar mīlestību";
 
 /* Text in About screen */
-"about_proposition_1" = "• Nesatur reklāmas, izsekošanu un nevāc datus";
+"about_proposition_1" = "Nesatur reklāmas, izsekošanu un nevāc datus";
 
 /* Text in About screen */
-"about_proposition_2" = "• Neizlādē bateriju, darbojas bez interneta pieslēguma";
+"about_proposition_2" = "Neizlādē bateriju, darbojas bez interneta pieslēguma";
 
 /* Text in About screen */
-"about_proposition_3" = "• Ātra, minimālistiska un kopienas izstrādāta";
+"about_proposition_3" = "Ātra, minimālistiska un kopienas izstrādāta";
 "close" = "Aizvērt";
 "download" = "Lejupielādēt";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "E-pasts";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Nokopēts starpliktuvē: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "„CoMaps“ versija: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Ceļi";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Jaunumi";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Brīvprātīgi palīdzēt";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Sekojiet un sazinieties ar mums:";
+"follow_us" = "Sekojiet un sazinieties ar mums";
 
 /* Alert text */
 "email_error_body" = "E-pasta klients nav sagatavots darbam. Konfigurējiet to vai sazinieties ar mums: %@";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Pievienot darba laiku";
 
 /* OpenStreetMap */
-"osm_explanation" = "Kopienas veidotie „OpenStreetMap“ dati, %@. Uzziniet vairāk par to, kā piedalīties kartes rediģēšanā un uzlabošanā vietnē „OpenStreetMap.org“.";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Kopienas veidotie „OpenStreetMap“ dati, %@. Uzziniet vairāk par to, kā piedalīties kartes rediģēšanā un uzlabošanā vietnē „OpenStreetMap.org“.";
 "osm_more_about" = "Vairāk par „OpenStreetMap“";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 

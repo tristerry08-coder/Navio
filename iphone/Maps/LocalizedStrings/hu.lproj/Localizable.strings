@@ -46,13 +46,13 @@
 "about_headline" = "Mindenki számára ingyenes – szeretettel készült";
 
 /* Text in About screen */
-"about_proposition_1" = "• Nincs hirdetés, nyomon követés és adatgyűjtés";
+"about_proposition_1" = "Nincs hirdetés, nyomon követés és adatgyűjtés";
 
 /* Text in About screen */
-"about_proposition_2" = "• Nem merül le az akkumulátor – offline is működik";
+"about_proposition_2" = "Nem merül le az akkumulátor – offline is működik";
 
 /* Text in About screen */
-"about_proposition_3" = "• Gyors, minimalista – a közösség által fejlesztett";
+"about_proposition_3" = "Gyors, minimalista – a közösség által fejlesztett";
 "close" = "Bezár";
 "download" = "Letöltés";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "E-mail-cím";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "A vágólapra másolva: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Az CoMaps verziója: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Nyomvonalak";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Hírek";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Önkéntes";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Kövessen és lépjen kapcsolatba velünk:";
+"follow_us" = "Kövessen és lépjen kapcsolatba velünk";
 
 /* Alert text */
 "email_error_body" = "Az e-mail kliens nem lett beállítva. Állítsa be, vagy lépjen kapcsolatba velünk a(z) %@ címen";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Nyitvatartás hozzáadása";
 
 /* OpenStreetMap */
-"osm_explanation" = "Közösség által létrehozott OpenStreetMap adatok innen: %@. További információkat a térkép szerkesztéséről és frissítéséről az OpenStreetMap.org oldalon találhat";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Közösség által létrehozott OpenStreetMap adatok innen: %@. További információkat a térkép szerkesztéséről és frissítéséről az OpenStreetMap.org oldalon találhat";
 "osm_more_about" = "További részletek az OpenStreetMap adatbázisról";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Hu:Névjegy";
 

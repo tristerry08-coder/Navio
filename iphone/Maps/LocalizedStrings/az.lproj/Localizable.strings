@@ -46,13 +46,13 @@
 "about_headline" = "Hər kəs üçün ödənişsiz və sevgi ilə hazırlanmış xəritə";
 
 /* Text in About screen */
-"about_proposition_1" = "• Reklam yoxdur, izləmə yoxdur, məlumatların toplanması yoxdur";
+"about_proposition_1" = "Reklam yoxdur, izləmə yoxdur, məlumatların toplanması yoxdur";
 
 /* Text in About screen */
-"about_proposition_2" = "• Batareyanın boşalması yoxdur, oflayn işləyir";
+"about_proposition_2" = "Batareyanın boşalması yoxdur, oflayn işləyir";
 
 /* Text in About screen */
-"about_proposition_3" = "• Sürətli, minimalist, icma tərəfindən hazırlanmışdır";
+"about_proposition_3" = "Sürətli, minimalist, icma tərəfindən hazırlanmışdır";
 "close" = "Yaxın";
 "download" = "Yüklə";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "E-poçt";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Buferə kopyalandı: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps versiyası: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Marşrutlari";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Xəbərlər";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Könüllü olmaq";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "İzləyin və bizimlə əlaqə saxlayın:";
+"follow_us" = "İzləyin və bizimlə əlaqə saxlayın";
 
 /* Alert text */
 "email_error_body" = "E-poçt müştəri xidməti hələ quraşdırılmayıb. Zəhmət olmasa e-poçt müştəri xidmətini konfiqurasiya edin və ya %@ vasitəsilə bizimlə əlaqə saxlayın";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Açılış saatlarını əlavə edin";
 
 /* OpenStreetMap */
-"osm_explanation" = "%@ tarixinə icma tərəfindən yaradılmış OpenStreetMap datası. OpenStreetMap.org saytında xəritəni necə redaktə etmək və yeniləmək haqqında ətraflı məlumat əldə edin";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "%@ tarixinə icma tərəfindən yaradılmış OpenStreetMap datası. OpenStreetMap.org saytında xəritəni necə redaktə etmək və yeniləmək haqqında ətraflı məlumat əldə edin";
 "osm_more_about" = "OpenStreetMap haqqında əlavə məlumat";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Az:Layihə_haqqında";
 

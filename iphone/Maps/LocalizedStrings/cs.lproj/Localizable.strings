@@ -46,13 +46,13 @@
 "about_headline" = "Zdarma pro všechny, vyrobené s láskou";
 
 /* Text in About screen */
-"about_proposition_1" = "• Žádné reklamy, žádné sledování, žádný sběr dat";
+"about_proposition_1" = "Žádné reklamy, žádné sledování, žádný sběr dat";
 
 /* Text in About screen */
-"about_proposition_2" = "• Žádné vybíjení baterie, funguje offline";
+"about_proposition_2" = "Žádné vybíjení baterie, funguje offline";
 
 /* Text in About screen */
-"about_proposition_3" = "• Rychlé, minimalistické, vyvinuté komunitou";
+"about_proposition_3" = "Rychlé, minimalistické, vyvinuté komunitou";
 "close" = "Zavřít";
 "download" = "Stáhnout";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "E-mail";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Zkopírováno do schránky: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Verze CoMaps: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Stopy";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Novinky";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Dobrovolnictví";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Sledujte nás a kontaktujte nás:";
+"follow_us" = "Sledujte nás a kontaktujte nás";
 
 /* Alert text */
 "email_error_body" = "Emailový klient nebyl ještě nakonfigurován. Nastavte ho, prosím, nebo použijte jiný způsob k našemu kontaktování na %@";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Přidat otevírací dobu";
 
 /* OpenStreetMap */
-"osm_explanation" = "Data OpenStreetMap vytvořená komunitou ke dni %@. Další informace o tom, jak upravovat a aktualizovat mapu, najdete na stránkách OpenStreetMap.org";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Data OpenStreetMap vytvořená komunitou ke dni %@. Další informace o tom, jak upravovat a aktualizovat mapu, najdete na stránkách OpenStreetMap.org";
 "osm_more_about" = "Další informace o projektu OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Cs:Co_je_OpenStreetMap";
 

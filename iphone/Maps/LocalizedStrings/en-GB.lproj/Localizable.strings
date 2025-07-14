@@ -43,16 +43,17 @@
 "country_status_download_failed" = "Download has failed";
 
 /* Text in About screen */
-"about_headline" = "Free for everyone, made with love";
+"about_headline" = "Open project powered by the community";
 
 /* Text in About screen */
-"about_proposition_1" = "• No ads, no tracking, no data collection";
+"about_proposition_1" = "Offline, fast and easy to use";
 
 /* Text in About screen */
-"about_proposition_2" = "• No battery drain, works offline";
+"about_proposition_2" = "Privacy-focused and ads-free";
 
 /* Text in About screen */
-"about_proposition_3" = "• Fast, minimalist, developed by the community";
+"about_proposition_3" = "Transparent and not for profit";
+
 "close" = "Close";
 "download" = "Download";
 
@@ -180,6 +181,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "Email";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Copied to clipboard: %@";
 
@@ -191,6 +195,9 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps version: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Tracks";
@@ -262,6 +269,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "News";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +333,7 @@
 "volunteer" = "Volunteer";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Follow and contact us:";
+"follow_us" = "Follow and contact us";
 
 /* Alert text */
 "email_error_body" = "The email client has not been set up. Please configure it or contact us at %@";
@@ -528,7 +547,8 @@
 "add_opening_hours" = "Add opening hours";
 
 /* OpenStreetMap */
-"osm_explanation" = "Community-created OpenStreetMap data as of %@. Learn more about how to edit and update the map at OpenStreetMap.org";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Community-created map data as of *%@*. Learn more about how to edit and update the map at [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "More about OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 

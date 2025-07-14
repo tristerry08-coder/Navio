@@ -11,7 +11,11 @@ extension UIApplication {
     DispatchQueue.main.async {
       UIApplication.overlayViewController.modalPresentationStyle = .overFullScreen
       UIApplication.overlayViewController.modalTransitionStyle = .crossDissolve
-      window.rootViewController?.present(UIApplication.overlayViewController, animated: true, completion: completion)
+        if window.rootViewController?.presentedViewController != nil {
+          window.rootViewController?.presentedViewController?.present(UIApplication.overlayViewController, animated: true, completion: completion)
+        } else {
+          window.rootViewController?.present(UIApplication.overlayViewController, animated: true, completion: completion)
+        }
     }
   }
 

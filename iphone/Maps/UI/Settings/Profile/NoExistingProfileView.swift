@@ -25,7 +25,7 @@ struct NoExistingProfileView: View {
                         .font(.headline)
                     
                     HStack(alignment: .top) {
-                        Image(.osmLogo)
+                        Image(.openStreetMapLogo)
                             .resizable()
                             .aspectRatio(1, contentMode: .fit)
                             .frame(maxWidth: 50)
@@ -35,7 +35,7 @@ struct NoExistingProfileView: View {
                             .tint(.alternativeAccent)
                     }
                 }
-                .padding(.bottom)
+                .padding(.bottom, 8)
             }
             
             Spacer(minLength: 0)

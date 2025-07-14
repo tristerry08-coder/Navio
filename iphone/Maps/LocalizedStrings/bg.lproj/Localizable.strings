@@ -46,13 +46,13 @@
 "about_headline" = "Безплатно за всички, направени с любов";
 
 /* Text in About screen */
-"about_proposition_1" = "• Без реклами, без проследяване, без събиране на данни";
+"about_proposition_1" = "Без реклами, без проследяване, без събиране на данни";
 
 /* Text in About screen */
-"about_proposition_2" = "• Без източване на батерията, работи офлайн";
+"about_proposition_2" = "Без източване на батерията, работи офлайн";
 
 /* Text in About screen */
-"about_proposition_3" = "• Бърз, прост, разработен от общността";
+"about_proposition_3" = "Бърз, прост, разработен от общността";
 "close" = "Затваряне";
 "download" = "Изтегляне";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "Имейл";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Копирано в клипборда: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Версия на CoMaps: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Пътеки";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Новини";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "За доброволчество";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Следвайте и се свържете с нас:";
+"follow_us" = "Следвайте и се свържете с нас";
 
 /* Alert text */
 "email_error_body" = "Имейл клиентът не е настроен. Моля, конфигурирайте го или използвайте друг начин, за да се свържете с нас на %@";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Добавяне на работно време";
 
 /* OpenStreetMap */
-"osm_explanation" = "Създадени от общността данни от OpenStreetMap към %@. Научете повече за това как да редактирате и актуализирате картата в OpenStreetMap.org";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Създадени от общността данни от OpenStreetMap към %@. Научете повече за това как да редактирате и актуализирате картата в OpenStreetMap.org";
 "osm_more_about" = "Повече за OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Bg:About_OpenStreetMap";
 

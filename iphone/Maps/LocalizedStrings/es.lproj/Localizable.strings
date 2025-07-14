@@ -46,13 +46,13 @@
 "about_headline" = "Gratis para todos, hecho con amor";
 
 /* Text in About screen */
-"about_proposition_1" = "• Sin anuncios, sin rastreo, sin recopilación de datos";
+"about_proposition_1" = "Sin anuncios, sin rastreo, sin recopilación de datos";
 
 /* Text in About screen */
-"about_proposition_2" = "• Consumo de batería mínimo, funciona sin conexión";
+"about_proposition_2" = "Consumo de batería mínimo, funciona sin conexión";
 
 /* Text in About screen */
-"about_proposition_3" = "• Rápido, minimalista, desarrollado por la comunidad";
+"about_proposition_3" = "Rápido, minimalista, desarrollado por la comunidad";
 "close" = "Cerrar";
 "download" = "Descargar";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "Correo";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Copiado en el portapapeles: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Versión de CoMaps: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Trayectos";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Noticias";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Voluntariado";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Síganos y póngase en contacto con nosotros:";
+"follow_us" = "Síganos y póngase en contacto con nosotros";
 
 /* Alert text */
 "email_error_body" = "No se ha configurado el cliente de correo electrónico. Configúrelo o contáctenos en %@";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Añadir horarios de apertura";
 
 /* OpenStreetMap */
-"osm_explanation" = "Datos de OpenStreetMap creados por la comunidad a partir de %@. Más información sobre cómo editar y actualizar el mapa en OpenStreetMap.org";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Datos de OpenStreetMap creados por la comunidad a partir de %@. Más información sobre cómo editar y actualizar el mapa en OpenStreetMap.org";
 "osm_more_about" = "Más acerca de OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/ES:Acerca_de_OpenStreetMap";
 

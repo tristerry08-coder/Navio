@@ -46,13 +46,13 @@
 "about_headline" = "Miễn phí cho mọi người, được làm bằng tình yêu";
 
 /* Text in About screen */
-"about_proposition_1" = "• Không có quảng cáo, không theo dõi, không thu thập dữ liệu";
+"about_proposition_1" = "Không có quảng cáo, không theo dõi, không thu thập dữ liệu";
 
 /* Text in About screen */
-"about_proposition_2" = "• Không hao pin, hoạt động offline";
+"about_proposition_2" = "Không hao pin, hoạt động offline";
 
 /* Text in About screen */
-"about_proposition_3" = "• Nhanh chóng, tối giản, được phát triển bởi cộng đồng";
+"about_proposition_3" = "Nhanh chóng, tối giản, được phát triển bởi cộng đồng";
 "close" = "Đóng";
 "download" = "Tải xuống";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "Email";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Đã sao chép vào Bảng tạm: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Phiên bản CoMaps: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Dấu vết";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Tin tức";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Tình nguyện";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Theo dõi và liên hệ với chúng tôi:";
+"follow_us" = "Theo dõi và liên hệ với chúng tôi";
 
 /* Alert text */
 "email_error_body" = "Trình khách email này chưa được thiết lập. Bạn vui lòng cấu hình nó hoặc sử dụng một cách khác để liên hệ với chúng tôi tại %@";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Thêm giờ làm việc";
 
 /* OpenStreetMap */
-"osm_explanation" = "Dữ liệu OpenStreetMap do cộng đồng tạo ra kể từ %@. Tìm hiểu thêm về cách chỉnh sửa và cập nhật bản đồ tại OpenStreetMap.org";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Dữ liệu OpenStreetMap do cộng đồng tạo ra kể từ %@. Tìm hiểu thêm về cách chỉnh sửa và cập nhật bản đồ tại OpenStreetMap.org";
 "osm_more_about" = "Thông tin bổ sung về OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 

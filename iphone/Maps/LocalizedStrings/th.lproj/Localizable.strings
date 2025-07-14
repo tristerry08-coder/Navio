@@ -46,13 +46,13 @@
 "about_headline" = "ฟรีสำหรับทุกคนทำด้วยความรัก";
 
 /* Text in About screen */
-"about_proposition_1" = "• ไม่มีโฆษณาไม่มีการติดตามไม่มีการรวบรวมข้อมูล";
+"about_proposition_1" = "ไม่มีโฆษณาไม่มีการติดตามไม่มีการรวบรวมข้อมูล";
 
 /* Text in About screen */
-"about_proposition_2" = "• ไม่มีแบตเตอรี่หมด ทำงานแบบออฟไลน์";
+"about_proposition_2" = "ไม่มีแบตเตอรี่หมด ทำงานแบบออฟไลน์";
 
 /* Text in About screen */
-"about_proposition_3" = "• รวดเร็ว เรียบง่าย พัฒนาโดยชุมชน";
+"about_proposition_3" = "รวดเร็ว เรียบง่าย พัฒนาโดยชุมชน";
 "close" = "ปิด";
 "download" = "ดาวน์โหลด";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "อีเมล";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "คัดลอกไปยังคลิปบอร์ด: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "เวอร์ชัน CoMaps: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "การติดตาม";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "ข่าว";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "อาสาสมัคร";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "ติดตามและติดต่อเรา:";
+"follow_us" = "ติดตามและติดต่อเรา";
 
 /* Alert text */
 "email_error_body" = "อีเมลลูกค้ายังไม่ได้รับการจัดตั้งขึ้น กรุณาตั้งค่าหรือใช้วิธีอื่นที่จะติดต่อเราที่ %@";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "เพิ่มชั่วโมงทำการ";
 
 /* OpenStreetMap */
-"osm_explanation" = "ข้อมูล OpenStreetMap ที่สร้างโดยชุมชน ณ %@ เรียนรู้เพิ่มเติมเกี่ยวกับวิธีแก้ไขและอัปเดตแผนที่ได้ที่ OpenStreetMap.org";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "ข้อมูล OpenStreetMap ที่สร้างโดยชุมชน ณ %@ เรียนรู้เพิ่มเติมเกี่ยวกับวิธีแก้ไขและอัปเดตแผนที่ได้ที่ OpenStreetMap.org";
 "osm_more_about" = "ข้อมูลเพิ่มเติมเกี่ยวกับ OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Th:เกี่ยวกับ_OpenStreetMap";
 

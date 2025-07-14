@@ -112,7 +112,7 @@ extension BottomMenuPresenter {
                        title: L("download_maps"),
                        badgeCount: MapsAppDelegate.theApp().badgeNumber())
       case .donate:
-        cell.configure(imageName: SettingsBridge.isNY() ? "ic_christmas_tree" : "ic_menu_donate",
+        cell.configure(imageName: "ic_menu_donate",
                        title: L("donate"))
       case .settings:
         cell.configure(imageName: "ic_menu_settings",

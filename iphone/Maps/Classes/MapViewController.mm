@@ -40,6 +40,7 @@ NSString *const kEditorSegue = @"Map2EditorSegue";
 NSString *const kUDViralAlertWasShown = @"ViralAlertWasShown";
 NSString *const kPP2BookmarkEditingSegue = @"PP2BookmarkEditing";
 NSString *const kSettingsSegue = @"Map2Settings";
+NSString *const kAboutSegue = @"Map2About";
 }  // namespace
 
 @interface NSValueWrapper : NSObject
@@ -582,6 +583,10 @@ NSString *const kSettingsSegue = @"Map2Settings";
 
 - (void)openSettings {
   [self performSegueWithIdentifier:kSettingsSegue sender:nil];
+}
+
+- (void)openAbout {
+  [self performSegueWithIdentifier:kAboutSegue sender:nil];
 }
 
 - (void)openMapsDownloader:(MWMMapDownloaderMode)mode {

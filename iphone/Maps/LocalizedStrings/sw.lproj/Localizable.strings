@@ -36,13 +36,13 @@
 "about_headline" = "Bure kwa kila mtu, iliyotengenezwa na upendo";
 
 /* Text in About screen */
-"about_proposition_1" = "• Hakuna matangazo, hakuna ufuatiliaji, hakuna mkusanyiko wa data";
+"about_proposition_1" = "Hakuna matangazo, hakuna ufuatiliaji, hakuna mkusanyiko wa data";
 
 /* Text in About screen */
-"about_proposition_2" = "• Hakuna betri kuisha, inafanya kazi nje ya mtandao";
+"about_proposition_2" = "Hakuna betri kuisha, inafanya kazi nje ya mtandao";
 
 /* Text in About screen */
-"about_proposition_3" = "• Haraka, minimalist, iliyotengenezwa na jumuiya";
+"about_proposition_3" = "Haraka, minimalist, iliyotengenezwa na jumuiya";
 "close" = "Close";
 "download" = "Pakua";
 
@@ -170,6 +170,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "Email";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Copied to clipboard: %@";
 
@@ -181,6 +184,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Toleo la CoMaps: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Tracks";
@@ -252,6 +257,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Habari";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -304,7 +321,7 @@
 "volunteer" = "Kujitolea";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Fuata na uwasiliane nasi:";
+"follow_us" = "Fuata na uwasiliane nasi";
 
 /* Alert text */
 "email_error_body" = "The email client has not been set up. Please configure it or contact us at %@";
@@ -518,7 +535,8 @@
 "add_opening_hours" = "Add opening hours";
 
 /* OpenStreetMap */
-"osm_explanation" = "Data ya OpenStreetMap iliyoundwa na jumuiya kufikia %@. Pata maelezo zaidi kuhusu jinsi ya kuhariri na kusasisha ramani katika OpenStreetMap.org";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Data ya OpenStreetMap iliyoundwa na jumuiya kufikia %@. Pata maelezo zaidi kuhusu jinsi ya kuhariri na kusasisha ramani katika OpenStreetMap.org";
 "osm_more_about" = "More about OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 

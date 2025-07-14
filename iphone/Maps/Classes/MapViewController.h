@@ -30,6 +30,7 @@
 
 - (void)openMenu;
 - (void)openSettings;
+- (void)openAbout;
 - (void)openMapsDownloader:(MWMMapDownloaderMode)mode;
 - (void)openEditor;
 - (void)openBookmarkEditor;

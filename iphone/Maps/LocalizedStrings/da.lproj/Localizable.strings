@@ -46,13 +46,13 @@
 "about_headline" = "Gratis for alle, lavet med kærlighed";
 
 /* Text in About screen */
-"about_proposition_1" = "• Ingen annoncer, ingen sporing, ingen dataindsamling";
+"about_proposition_1" = "Ingen annoncer, ingen sporing, ingen dataindsamling";
 
 /* Text in About screen */
-"about_proposition_2" = "• Intet batteridræn, fungerer offline";
+"about_proposition_2" = "Intet batteridræn, fungerer offline";
 
 /* Text in About screen */
-"about_proposition_3" = "• Hurtig, minimalistisk, udviklet i fællesskab";
+"about_proposition_3" = "Hurtig, minimalistisk, udviklet i fællesskab";
 "close" = "Luk";
 "download" = "Hent";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "E-mail";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Kopieret til udklipsholderen: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps version: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Spor";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Nyheder";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "At melde sig som frivillig";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Følg og kontakt os:";
+"follow_us" = "Følg og kontakt os";
 
 /* Alert text */
 "email_error_body" = "Emailklienten er ikke blevet sat op. Venligst konfigurér den eller brug en anden måde til at kontakte os på %@";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Tilføj arbejdstid";
 
 /* OpenStreetMap */
-"osm_explanation" = "Fællesskabsskabte OpenStreetMap-data fra %@. Få mere at vide om, hvordan du redigerer og opdaterer kortet på OpenStreetMap.org";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Fællesskabsskabte OpenStreetMap-data fra %@. Få mere at vide om, hvordan du redigerer og opdaterer kortet på OpenStreetMap.org";
 "osm_more_about" = "Mere om OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Da:Om_OpenStreetMap";
 

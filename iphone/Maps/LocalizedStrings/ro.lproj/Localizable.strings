@@ -46,13 +46,13 @@
 "about_headline" = "Gratuit pentru toată lumea, făcut cu dragoste";
 
 /* Text in About screen */
-"about_proposition_1" = "• Fără reclame, fără urmărire, fără colectare de date";
+"about_proposition_1" = "Fără reclame, fără urmărire, fără colectare de date";
 
 /* Text in About screen */
-"about_proposition_2" = "• Nu consumă baterie, funcționează offline";
+"about_proposition_2" = "Nu consumă baterie, funcționează offline";
 
 /* Text in About screen */
-"about_proposition_3" = "• Rapid, minimalist, dezvoltat de comunitate";
+"about_proposition_3" = "Rapid, minimalist, dezvoltat de comunitate";
 "close" = "Închide";
 "download" = "Descarcă";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "E-mail";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Copiat în notițe: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Versiunea CoMaps: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Trasee";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Știri";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Pentru a fi voluntar";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Urmăriți-ne și contactați-ne:";
+"follow_us" = "Urmăriți-ne și contactați-ne";
 
 /* Alert text */
 "email_error_body" = "Aplicația de email nu a fost stabilită. Stabilește-o sau utilizează alt mod de a ne contacta la %@.";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Adaugă orele de funcționare";
 
 /* OpenStreetMap */
-"osm_explanation" = "Date OpenStreetMap create de comunitate la data de %@. Aflați mai multe despre cum să editați și să actualizați harta la OpenStreetMap.org";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Date OpenStreetMap create de comunitate la data de %@. Aflați mai multe despre cum să editați și să actualizați harta la OpenStreetMap.org";
 "osm_more_about" = "Mai multe despre OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 

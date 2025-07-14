@@ -46,13 +46,13 @@
 "about_headline" = "सभी के लिए मुफ़्त, प्यार से बनाया गया";
 
 /* Text in About screen */
-"about_proposition_1" = "• कोई विज्ञापन नहीं, कोई ट्रैकिंग नहीं, कोई डेटा संग्रह नहीं";
+"about_proposition_1" = "कोई विज्ञापन नहीं, कोई ट्रैकिंग नहीं, कोई डेटा संग्रह नहीं";
 
 /* Text in About screen */
-"about_proposition_2" = "• कोई बैटरी ख़त्म नहीं, ऑफ़लाइन काम करता है";
+"about_proposition_2" = "कोई बैटरी ख़त्म नहीं, ऑफ़लाइन काम करता है";
 
 /* Text in About screen */
-"about_proposition_3" = "• तेज़, न्यूनतम, समुदाय द्वारा विकसित";
+"about_proposition_3" = "तेज़, न्यूनतम, समुदाय द्वारा विकसित";
 "close" = "बंद करना";
 "download" = "डाउन लोड करना";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "ईमेल";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "क्लिपबोर्ड पर नकल: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "ऑर्गेनिकमैप्स संस्करण: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "पटरियों";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "समाचार";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "स्वयंसेवक";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "फ़ॉलो करें और हमसे संपर्क करें:";
+"follow_us" = "फ़ॉलो करें और हमसे संपर्क करें";
 
 /* Alert text */
 "email_error_body" = "ईमेल क्लाइंट सेट अप नहीं किया गया है. कृपया इसे कॉन्फ़िगर करें या %@ पर हमसे संपर्क करें";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Add opening hours";
 
 /* OpenStreetMap */
-"osm_explanation" = "समुदाय-निर्मित OpenStreetMap डेटा %@ तक। OpenStreetMap.org पर मानचित्र को संपादित और अपडेट करने के तरीके के बारे में और जानें";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "समुदाय-निर्मित OpenStreetMap डेटा %@ तक। OpenStreetMap.org पर मानचित्र को संपादित और अपडेट करने के तरीके के बारे में और जानें";
 "osm_more_about" = "OpenStreetMap के बारे में अधिक जानकारी";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 

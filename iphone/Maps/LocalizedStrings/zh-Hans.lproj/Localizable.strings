@@ -46,13 +46,13 @@
 "about_headline" = "对每个人都免费，用爱制成";
 
 /* Text in About screen */
-"about_proposition_1" = "• 没有广告，不会跟踪您，更不会收集您的数据";
+"about_proposition_1" = "没有广告，不会跟踪您，更不会收集您的数据";
 
 /* Text in About screen */
-"about_proposition_2" = "• 无需耗费太多电量，可离线工作";
+"about_proposition_2" = "无需耗费太多电量，可离线工作";
 
 /* Text in About screen */
-"about_proposition_3" = "• 快速且简约，由社区开发";
+"about_proposition_3" = "快速且简约，由社区开发";
 "close" = "关闭";
 "download" = "下载";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "电子邮件";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "已复制到剪贴板：%@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps 版本：%@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "轨迹";
@@ -261,6 +266,18 @@
 
 /* Text in About menu, opens CoMaps news website */
 "news" = "新闻";
+
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "添加营业时间";
 
 /* OpenStreetMap */
-"osm_explanation" = "截至 %@ 的社区创建的 OpenStreetMap 数据。请访问 OpenStreetMap.org 详细了解如何编辑和更新地图";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "截至 %@ 的社区创建的 OpenStreetMap 数据。请访问 OpenStreetMap.org 详细了解如何编辑和更新地图";
 "osm_more_about" = "关于 OpenStreetMap 的更多信息";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Zh-hans:关于";
 

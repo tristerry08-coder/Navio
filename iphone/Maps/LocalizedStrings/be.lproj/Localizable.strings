@@ -46,13 +46,13 @@
 "about_headline" = "Бясплатная для ўсіх, зробленая з любоўю";
 
 /* Text in About screen */
-"about_proposition_1" = "• Без рэкламы, без трэкінгу, без збірання вашых даных";
+"about_proposition_1" = "Без рэкламы, без трэкінгу, без збірання вашых даных";
 
 /* Text in About screen */
-"about_proposition_2" = "• Без празмернай разрадкі батарэі, працуе ў аўтаномным рэжыме";
+"about_proposition_2" = "Без празмернай разрадкі батарэі, працуе ў аўтаномным рэжыме";
 
 /* Text in About screen */
-"about_proposition_3" = "• Хуткая, мінімалістычная, распрацаваная супольнасцю";
+"about_proposition_3" = "Хуткая, мінімалістычная, распрацаваная супольнасцю";
 "close" = "Закрыць";
 "download" = "Спампаваць";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "Электронная пошта";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Скапіявана ў буфер абмену: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Версія CoMaps: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Маршруты";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Навіны";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Стаць валанцёрам";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Падпісвайцеся і пішыце нам:";
+"follow_us" = "Падпісвайцеся і пішыце нам";
 
 /* Alert text */
 "email_error_body" = "Паштовы кліент не наладжаны. Наладзьце яго альбо звяжыцеся з намі па адрасе %@ іншым чынам.";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Дадаць часы працы";
 
 /* OpenStreetMap */
-"osm_explanation" = "Створаныя супольнасцю даныя OpenStreetMap па стане на %@. Даведайцеся больш пра тое, як рэдагаваць і абнаўляць карту на OpenStreetMap.org";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Створаныя супольнасцю даныя OpenStreetMap па стане на %@. Даведайцеся больш пра тое, як рэдагаваць і абнаўляць карту на OpenStreetMap.org";
 "osm_more_about" = "Падрабязней пра OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/RU:О_проекте";
 

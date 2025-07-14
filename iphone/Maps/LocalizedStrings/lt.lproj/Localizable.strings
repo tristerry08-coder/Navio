@@ -46,13 +46,13 @@
 "about_headline" = "Nemokama visiems, sukurta su meile";
 
 /* Text in About screen */
-"about_proposition_1" = "• Jokių reklamų, sekimo, duomenų rinkimo";
+"about_proposition_1" = "Jokių reklamų, sekimo, duomenų rinkimo";
 
 /* Text in About screen */
-"about_proposition_2" = "• Neiškrauna akumuliatoriaus, nes veikia neprisijungus prie interneto";
+"about_proposition_2" = "Neiškrauna akumuliatoriaus, nes veikia neprisijungus prie interneto";
 
 /* Text in About screen */
-"about_proposition_3" = "• Sparti, minimalistinė, vystoma bendruomenės";
+"about_proposition_3" = "Sparti, minimalistinė, vystoma bendruomenės";
 "close" = "Užverti";
 "download" = "Atsiųsti";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "El. paštas";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Nukopijuota į iškarpinę: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "„CoMaps“ versija: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Trasos";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Naujienos";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Prisidėti";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Sekite ar susisiekite su mumis:";
+"follow_us" = "Sekite ar susisiekite su mumis";
 
 /* Alert text */
 "email_error_body" = "El. pašto programa nenustatyta. Sukonfigūruokite ją arba susisiekite su mumis adresu %@";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Pridėti darbo valandas";
 
 /* OpenStreetMap */
-"osm_explanation" = "Bendruomenės surinkti „OpenStreetMap“ duomenys %@ dienai. Sužinokite, kaip redaguoti ir atnaujinti žemėlapį, apsilankydami OpenStreetMap.org svetainėje";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Bendruomenės surinkti „OpenStreetMap“ duomenys %@ dienai. Sužinokite, kaip redaguoti ir atnaujinti žemėlapį, apsilankydami OpenStreetMap.org svetainėje";
 "osm_more_about" = "Plačiau apie „OpenStreetMap“";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 

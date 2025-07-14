@@ -20,6 +20,15 @@ import UIKit
 
 
 
+/// Class for using the SwiftUI `AboutView` in the interface builder
+class AboutBridgeController: UIHostingController<AboutView> {
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder, rootView: AboutView())
+    }
+}
+
+
+
 /// Class for using the SwiftUI `SettingsView` in the interface builder
 class SettingsBridgeController: UIHostingController<SettingsView> {
     required init?(coder aDecoder: NSCoder) {

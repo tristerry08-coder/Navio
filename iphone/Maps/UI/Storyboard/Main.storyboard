@@ -210,6 +210,7 @@
                         <segue destination="lFr-lA-JTW" kind="show" identifier="PP2BookmarkEditing" id="0A8-4b-0A2"/>
                         <segue destination="Psz-BY-Fy4" kind="presentation" identifier="PP2BookmarkEditingIPAD" modalPresentationStyle="formSheet" id="k6v-a7-5DO"/>
                         <segue destination="zWe-Rs-11p" kind="presentation" identifier="Map2Settings" id="QPJ-CO-oy8"/>
+                        <segue destination="IpF-2S-aOf" kind="presentation" identifier="Map2About" id="7vx-Zd-bqe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cKg-Q7-bFd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1021,6 +1022,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EOe-gE-2W7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2705" y="4393"/>
+        </scene>
+        <!--About Bridge Controller-->
+        <scene sceneID="yGh-dT-FN5">
+            <objects>
+                <hostingController storyboardIdentifier="AboutBridgeController" id="IpF-2S-aOf" customClass="AboutBridgeController" customModule="CoMaps" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GIR-DI-T7U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1550" y="-785"/>
         </scene>
         <!--MWMSettingsViewController-->
         <scene sceneID="ecD-Uc-PMs">

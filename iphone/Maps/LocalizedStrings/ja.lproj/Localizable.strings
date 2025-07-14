@@ -46,13 +46,13 @@
 "about_headline" = "すべての人のために無料で、愛を込めて作られています";
 
 /* Text in About screen */
-"about_proposition_1" = "• 広告、追跡なし、データ収集なし";
+"about_proposition_1" = "広告、追跡なし、データ収集なし";
 
 /* Text in About screen */
-"about_proposition_2" = "• バッテリーの消耗がなく、オフラインで動作する";
+"about_proposition_2" = "バッテリーの消耗がなく、オフラインで動作する";
 
 /* Text in About screen */
-"about_proposition_3" = "• 高速、ミニマリスト、コミュニティによる開発";
+"about_proposition_3" = "高速、ミニマリスト、コミュニティによる開発";
 "close" = "閉じる";
 "download" = "ダウンロード";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "Eメール";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "クリップボードにコピーしました: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMapsバージョン: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "トラック";
@@ -261,6 +266,18 @@
 
 /* Text in About menu, opens CoMaps news website */
 "news" = "ニュース";
+
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "営業時間を追加";
 
 /* OpenStreetMap */
-"osm_explanation" = "コミュニティが作成した%@時点の OpenStreetMap のデータ。地図の編集や更新の方法については、OpenStreetMap.org を参照してください";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "コミュニティが作成した%@時点の OpenStreetMap のデータ。地図の編集や更新の方法については、OpenStreetMap.org を参照してください";
 "osm_more_about" = "OpenStreetMapについての詳細";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/JA:OpenStreetMap_について";
 

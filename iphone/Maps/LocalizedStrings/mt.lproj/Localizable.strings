@@ -46,13 +46,13 @@
 "about_headline" = "B' xejn għal kulħadd, magħmul bl-imħabba";
 
 /* Text in About screen */
-"about_proposition_1" = "• Bla reklami, bla traċċar, bla kollezjoni ta' data";
+"about_proposition_1" = "Bla reklami, bla traċċar, bla kollezjoni ta' data";
 
 /* Text in About screen */
-"about_proposition_2" = "• Bla ħela ta' batterija, jaħdem offline";
+"about_proposition_2" = "Bla ħela ta' batterija, jaħdem offline";
 
 /* Text in About screen */
-"about_proposition_3" = "• Malajr, minimalista, żvillupat mill-komunità";
+"about_proposition_3" = "Malajr, minimalista, żvillupat mill-komunità";
 "close" = "Ġħalaq";
 "download" = "Niżżel";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "E-mejl";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Ikkupjat fil-klibbord: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Verżjoni ta' CoMaps: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Korsa";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Aħbarijiet";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Voluntier";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Segwi u kkuntattjana:";
+"follow_us" = "Segwi u kkuntattjana";
 
 /* Alert text */
 "email_error_body" = "Il-klijent tal-posta elettronika ma ġiex ikkonfigurat. Jekk jogħġbok ikkonfiguraha jew ikkuntattjana fuq %@";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Add opening hours";
 
 /* OpenStreetMap */
-"osm_explanation" = "Community-created OpenStreetMap data as of %@. Learn more about how to edit and update the map at OpenStreetMap.org";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Community-created OpenStreetMap data as of %@. Learn more about how to edit and update the map at OpenStreetMap.org";
 "osm_more_about" = "Aktar dwar OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 

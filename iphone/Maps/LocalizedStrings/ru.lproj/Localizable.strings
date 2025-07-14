@@ -46,13 +46,13 @@
 "about_headline" = "Бесплатно для всех, сделано с любовью";
 
 /* Text in About screen */
-"about_proposition_1" = "• Без рекламы, без трекинга, без слежки";
+"about_proposition_1" = "Без рекламы, без трекинга, без слежки";
 
 /* Text in About screen */
-"about_proposition_2" = "• Не разряжает батарею, работает в автономном режиме";
+"about_proposition_2" = "Не разряжает батарею, работает в автономном режиме";
 
 /* Text in About screen */
-"about_proposition_3" = "• Быстрый, минималистичный, разработанный сообществом";
+"about_proposition_3" = "Быстрый, минималистичный, разработанный сообществом";
 "close" = "Закрыть";
 "download" = "Загрузить";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "Email";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Скопировано в буфер обмена: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Версия CoMaps: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Треки";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Новости";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Cтать волонтёром";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Подписывайтесь и пишите нам:";
+"follow_us" = "Подписывайтесь и пишите нам";
 
 /* Alert text */
 "email_error_body" = "Почтовый клиент не настроен. Настройте его или используйте другие способы для связи. Наш адрес - %@";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Добавить время работы";
 
 /* OpenStreetMap */
-"osm_explanation" = "Созданные сообществом данные OpenStreetMap по состоянию на %@. Узнайте больше о том, как редактировать и обновлять карту, на сайте OpenStreetMap.org";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Созданные сообществом данные OpenStreetMap по состоянию на %@. Узнайте больше о том, как редактировать и обновлять карту, на сайте OpenStreetMap.org";
 "osm_more_about" = "Подробнее об OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/RU:О_проекте";
 

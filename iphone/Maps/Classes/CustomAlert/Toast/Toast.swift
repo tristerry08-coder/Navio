@@ -113,3 +113,10 @@ final class Toast: NSObject {
     }
   }
 }
+
+extension NSLayoutConstraint {
+  func withPriority(_ priority: UILayoutPriority) -> NSLayoutConstraint {
+    self.priority = priority
+    return self
+  }
+}

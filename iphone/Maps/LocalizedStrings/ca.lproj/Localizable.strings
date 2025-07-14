@@ -46,13 +46,13 @@
 "about_headline" = "Gratuït per a tothom, fet amb amor";
 
 /* Text in About screen */
-"about_proposition_1" = "• Sense publicitat, rastreig ni recopilació de dades";
+"about_proposition_1" = "Sense publicitat, rastreig ni recopilació de dades";
 
 /* Text in About screen */
-"about_proposition_2" = "• Consum de bateria mínim, funciona fora de línia";
+"about_proposition_2" = "Consum de bateria mínim, funciona fora de línia";
 
 /* Text in About screen */
-"about_proposition_3" = "• Ràpid, minimalista, desenvolupat per la comunitat";
+"about_proposition_3" = "Ràpid, minimalista, desenvolupat per la comunitat";
 "close" = "Tanca";
 "download" = "Baixa";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "Correu-e";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "S’ha copiat al porta-retalls: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Versió de l’CoMaps: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Recorreguts";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Notícies";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Fer-se voluntari";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Segueix i contacta amb nosaltres:";
+"follow_us" = "Segueix i contacta amb nosaltres";
 
 /* Alert text */
 "email_error_body" = "No s'ha configurat cap client de correu electrònic. Configureu-lo o useu un altra via per contactar amb nosaltres a %@";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Afegeix horari d'obertura";
 
 /* OpenStreetMap */
-"osm_explanation" = "Dades de l’OpenStreetMap creades per la comunitat a partir de %@. Obteniu més informació sobre com editar i actualitzar el mapa a OpenStreetMap.org";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Dades de l’OpenStreetMap creades per la comunitat a partir de %@. Obteniu més informació sobre com editar i actualitzar el mapa a OpenStreetMap.org";
 "osm_more_about" = "Més sobre l'OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Ca:About_OpenStreetMap";
 

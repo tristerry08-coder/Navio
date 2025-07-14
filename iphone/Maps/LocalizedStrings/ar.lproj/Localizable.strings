@@ -46,13 +46,13 @@
 "about_headline" = "مجاني للجميع ، مصنوع من الحب";
 
 /* Text in About screen */
-"about_proposition_1" = "• لا إعلانات ، لا تتبع ، لا جمع البيانات";
+"about_proposition_1" = "لا إعلانات ، لا تتبع ، لا جمع البيانات";
 
 /* Text in About screen */
-"about_proposition_2" = "• لا يوجد استنزاف للبطارية، يعمل دون اتصال بالإنترنت";
+"about_proposition_2" = "لا يوجد استنزاف للبطارية، يعمل دون اتصال بالإنترنت";
 
 /* Text in About screen */
-"about_proposition_3" = "• سريع وبسيط، تم تطويره بواسطة المجتمع";
+"about_proposition_3" = "سريع وبسيط، تم تطويره بواسطة المجتمع";
 "close" = "إغلاق";
 "download" = "تنزيل";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "البريد الالكتروني";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "تم النسخ الى الحافظة: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "إصدار CoMaps: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "المسارات";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "أخبار";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "للتطوع";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "تابعنا وتواصل معنا:";
+"follow_us" = "تابعنا وتواصل معنا";
 
 /* Alert text */
 "email_error_body" = "لم يتم تنصيب البريد الإلكتروني. يرجى تفعيله أو استخدام أي وسيلة أخرى للاتصال بنا على %@";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "أضف ساعات العمل";
 
 /* OpenStreetMap */
-"osm_explanation" = "بيانات OpenStreetMap التي أنشأها المجتمع اعتبارًا من %@. تعرف على المزيد حول كيفية تعديل الخريطة وتحديثها على OpenStreetMap.org";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "بيانات OpenStreetMap التي أنشأها المجتمع اعتبارًا من %@. تعرف على المزيد حول كيفية تعديل الخريطة وتحديثها على OpenStreetMap.org";
 "osm_more_about" = "المزيد عن خريطة الشارع المفتوحة";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Ar:About_OpenStreetMap";
 

@@ -46,13 +46,13 @@
 "about_headline" = "Δωρεάν για όλους, φτιαγμένα με αγάπη";
 
 /* Text in About screen */
-"about_proposition_1" = "• Χωρίς διαφημίσεις, χωρίς tracking, χωρίς συλλογή δεδομένων";
+"about_proposition_1" = "Χωρίς διαφημίσεις, χωρίς tracking, χωρίς συλλογή δεδομένων";
 
 /* Text in About screen */
-"about_proposition_2" = "• Δεν εξαντλεί τη μπαταρία, λειτουργεί εκτός σύνδεσης";
+"about_proposition_2" = "Δεν εξαντλεί τη μπαταρία, λειτουργεί εκτός σύνδεσης";
 
 /* Text in About screen */
-"about_proposition_3" = "- Γρήγορο, μινιμαλιστικό, αναπτυγμένο από την κοινότητα";
+"about_proposition_3" = "Γρήγορο, μινιμαλιστικό, αναπτυγμένο από την κοινότητα";
 "close" = "Κλείσιμο";
 "download" = "Λήψη";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "Email";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Αντιγράφηκε στο Πρόχειρο: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Έκδοση CoMaps: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Διαδρομές";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Νέα";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Γίνετε εθελοντής";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Ακολουθήστε και επικοινωνήστε μαζί μας:";
+"follow_us" = "Ακολουθήστε και επικοινωνήστε μαζί μας";
 
 /* Alert text */
 "email_error_body" = "Το πρόγραμμα ηλεκτρονικού ταχυδρομείου δεν έχει ρυθμιστεί. Ρυθμίστε το ή χρησιμοποιήστε άλλο τρόπο να επικοινωνήσετε μαζί μας στη διεύθυνση %@";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Προσθέστε ώρες λειτουργίας";
 
 /* OpenStreetMap */
-"osm_explanation" = "Δεδομένα OpenStreetMap που δημιουργήθηκαν από την κοινότητα στις %@. Μάθετε περισσότερα για τον τρόπο επεξεργασίας και ενημέρωσης του χάρτη στο OpenStreetMap.org";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Δεδομένα OpenStreetMap που δημιουργήθηκαν από την κοινότητα στις %@. Μάθετε περισσότερα για τον τρόπο επεξεργασίας και ενημέρωσης του χάρτη στο OpenStreetMap.org";
 "osm_more_about" = "Περισσότερα σχετικά με το OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/El:Σχετικά_με_το_OpenStreetMap";
 

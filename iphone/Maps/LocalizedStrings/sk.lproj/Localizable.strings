@@ -46,13 +46,13 @@
 "about_headline" = "Zadarmo pre každého, vyrobené s láskou";
 
 /* Text in About screen */
-"about_proposition_1" = "• Žiadne reklamy, žiadne sledovanie, žiadny zber údajov";
+"about_proposition_1" = "Žiadne reklamy, žiadne sledovanie, žiadny zber údajov";
 
 /* Text in About screen */
-"about_proposition_2" = "• Žiadne vybíjanie batérie, funguje v režime offline";
+"about_proposition_2" = "Žiadne vybíjanie batérie, funguje v režime offline";
 
 /* Text in About screen */
-"about_proposition_3" = "• Rýchly, minimalistický, vyvinutý komunitou";
+"about_proposition_3" = "Rýchly, minimalistický, vyvinutý komunitou";
 "close" = "Zavrieť";
 "download" = "Stiahnuť";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "Email";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Skopírované do schránky: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Verzia CoMaps: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Stopy";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Správy";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Dobrovoľníctvo";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Sledujte nás a kontaktujte nás:";
+"follow_us" = "Sledujte nás a kontaktujte nás";
 
 /* Alert text */
 "email_error_body" = "Emailový klient nebol nastavený. Nakonfigurujte ho prosím alebo použite iný spôsob k tomu, abyste nás kontaktovali na %@";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Pridať otváracie hodiny";
 
 /* OpenStreetMap */
-"osm_explanation" = "Údaje OpenStreetMap vytvorené komunitou od %@. Viac informácií o tom, ako upravovať a aktualizovať mapu, nájdete na stránke OpenStreetMap.org";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Údaje OpenStreetMap vytvorené komunitou od %@. Viac informácií o tom, ako upravovať a aktualizovať mapu, nájdete na stránke OpenStreetMap.org";
 "osm_more_about" = "Viac o OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 

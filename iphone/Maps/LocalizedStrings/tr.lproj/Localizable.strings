@@ -46,13 +46,13 @@
 "about_headline" = "Sevgiyle yapılmış, herkes için ücretsiz harita";
 
 /* Text in About screen */
-"about_proposition_1" = "• Reklam yok, izleyici yok, veri toplama yok";
+"about_proposition_1" = "Reklam yok, izleyici yok, veri toplama yok";
 
 /* Text in About screen */
-"about_proposition_2" = "• Pilinizi tüketmez, çevrim dışı çalışır";
+"about_proposition_2" = "Pilinizi tüketmez, çevrim dışı çalışır";
 
 /* Text in About screen */
-"about_proposition_3" = "• Hızlı, minimalist, toplulukça geliştirilmiş";
+"about_proposition_3" = "Hızlı, minimalist, toplulukça geliştirilmiş";
 "close" = "Kapat";
 "download" = "İndir";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "E-posta";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Panoya kopyalandı: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps sürümü: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "GPS Kayıtları";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Haberler";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Gönüllü ol";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Bizi izle ve iletişime geç:";
+"follow_us" = "Bizi izle ve iletişime geç";
 
 /* Alert text */
 "email_error_body" = "E-posta istemcisi henüz kurulmamış. Lütfen e-posta istemcisini yapılandırın veya bize %@ adresinden ulaşmak için başka bir yöntem deneyin";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Açılış saatlerini ekle";
 
 /* OpenStreetMap */
-"osm_explanation" = "%@ tarihine ait topluluk tarafından oluşturulmuş OpenStreetMap verilerini kullanıyorsunuz. OpenStreetMap.org adresinden haritayı nasıl düzenleyebileceğinizle ilgili bilgi edinebilirsiniz";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "%@ tarihine ait topluluk tarafından oluşturulmuş OpenStreetMap verilerini kullanıyorsunuz. OpenStreetMap.org adresinden haritayı nasıl düzenleyebileceğinizle ilgili bilgi edinebilirsiniz";
 "osm_more_about" = "OpenStreetMap ile ilgili ek bilgi";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Tr:About_OpenStreetMap";
 

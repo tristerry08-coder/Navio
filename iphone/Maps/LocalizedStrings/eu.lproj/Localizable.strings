@@ -46,13 +46,13 @@
 "about_headline" = "Denontzat doan, maitasunez egina";
 
 /* Text in About screen */
-"about_proposition_1" = "• Ez iragarkirik, ez jarraipenik, ez datu-bilketarik";
+"about_proposition_1" = "Ez iragarkirik, ez jarraipenik, ez datu-bilketarik";
 
 /* Text in About screen */
-"about_proposition_2" = "• Ez da bateria deskargatzen, konexiorik gabe funtzionatzen du";
+"about_proposition_2" = "Ez da bateria deskargatzen, konexiorik gabe funtzionatzen du";
 
 /* Text in About screen */
-"about_proposition_3" = "• Azkarra, minimalista, komunitateak garatua";
+"about_proposition_3" = "Azkarra, minimalista, komunitateak garatua";
 "close" = "Itxi";
 "download" = "Deskargatu";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "Posta elektronikoa";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Arbelean kopiatu da: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps bertsioa: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Arrasto";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Albisteak";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Boluntario izateko";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Jarraitu eta jarri gurekin harremanetan:";
+"follow_us" = "Jarraitu eta jarri gurekin harremanetan";
 
 /* Alert text */
 "email_error_body" = "Posta elektronikoko bezeroa ez da konfiguratu. Mesedez, konfigura ezazu edo erabili beste moduren bat gurekin harremanetan jartzeko %@ helbidean";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Gehitu ordutegia";
 
 /* OpenStreetMap */
-"osm_explanation" = "Komunitateak sortutako OpenStreetMap datuak %@-tik aurrera. Lortu informazio gehiago mapa editatu eta eguneratzeari buruz OpenStreetMap.org helbidean";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Komunitateak sortutako OpenStreetMap datuak %@-tik aurrera. Lortu informazio gehiago mapa editatu eta eguneratzeari buruz OpenStreetMap.org helbidean";
 "osm_more_about" = "OpenStreetMap-i buruzko informazio gehiago";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 

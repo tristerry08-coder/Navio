@@ -46,13 +46,13 @@
 "about_headline" = "Gratis vir almal, gemaak met liefde";
 
 /* Text in About screen */
-"about_proposition_1" = "• Geen advertensies, geen nasporing, geen dataversameling";
+"about_proposition_1" = "Geen advertensies, geen nasporing, geen dataversameling";
 
 /* Text in About screen */
-"about_proposition_2" = "• Geen battery dreineer, werk vanlyn";
+"about_proposition_2" = "Geen battery dreineer, werk vanlyn";
 
 /* Text in About screen */
-"about_proposition_3" = "• Vinnig, minimalisties, ontwikkel deur die gemeenskap";
+"about_proposition_3" = "Vinnig, minimalisties, ontwikkel deur die gemeenskap";
 "close" = "Sluit";
 "download" = "Laai af";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "E-pos";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Na knipbord gekopieer: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps weergawe: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Paaie";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Nuus";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Om vrywillig te wees";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Volg en kontak ons:";
+"follow_us" = "Volg en kontak ons";
 
 /* Alert text */
 "email_error_body" = "Die e-posleser is nie opgestel nie. Stel dit asb. op of kontak ons by %@";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Voeg besigheidsure toe";
 
 /* OpenStreetMap */
-"osm_explanation" = "Gemeenskap-geskepte OpenStreetMap-data vanaf %@. Kom meer te wete oor hoe om die kaart te redigeer en op te dateer by OpenStreetMap.org";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Gemeenskap-geskepte OpenStreetMap-data vanaf %@. Kom meer te wete oor hoe om die kaart te redigeer en op te dateer by OpenStreetMap.org";
 "osm_more_about" = "Meer oor OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 

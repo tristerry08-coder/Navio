@@ -46,13 +46,13 @@
 "about_headline" = "Gratis voor iedereen, met liefde gemaakt";
 
 /* Text in About screen */
-"about_proposition_1" = "• Geen advertenties, geen tracking, geen gegevensverzameling";
+"about_proposition_1" = "Geen advertenties, geen tracking, geen gegevensverzameling";
 
 /* Text in About screen */
-"about_proposition_2" = "• Geen batterijverlies, werkt offline";
+"about_proposition_2" = "Geen batterijverlies, werkt offline";
 
 /* Text in About screen */
-"about_proposition_3" = "• Snel, minimalistisch, ontwikkeld door de gemeenschap";
+"about_proposition_3" = "Snel, minimalistisch, ontwikkeld door de gemeenschap";
 "close" = "Sluit";
 "download" = "Download";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "E-mail";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Naar het klembord gekopieerd: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps versie: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Tracks";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Nieuws";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Vrijwilligerswerk";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Volg ons en neem contact met ons op:";
+"follow_us" = "Volg ons en neem contact met ons op";
 
 /* Alert text */
 "email_error_body" = "Het e-mailprogramma is niet ingesteld. Stel het programma in of neem contact met ons op via %@";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Voeg openingstijden toe";
 
 /* OpenStreetMap */
-"osm_explanation" = "Door de gemeenschap gemaakte OpenStreetMap-gegevens tot %@. Lees meer over hoe je de kaart kunt bewerken en bijwerken op OpenStreetMap.org";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Door de gemeenschap gemaakte OpenStreetMap-gegevens tot %@. Lees meer over hoe je de kaart kunt bewerken en bijwerken op OpenStreetMap.org";
 "osm_more_about" = "Meer over OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/NL:Wat_is_OpenStreetMap%3F";
 

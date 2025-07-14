@@ -46,13 +46,13 @@
 "about_headline" = "Gratis för alla, skapad med kärlek";
 
 /* Text in About screen */
-"about_proposition_1" = "• Inga annonser, ingen spårning, ingen datainsamling";
+"about_proposition_1" = "Inga annonser, ingen spårning, ingen datainsamling";
 
 /* Text in About screen */
-"about_proposition_2" = "• Låg batteriförbrukning, fungerar utan uppkoppling";
+"about_proposition_2" = "Låg batteriförbrukning, fungerar utan uppkoppling";
 
 /* Text in About screen */
-"about_proposition_3" = "• Snabb, minimalistisk, utvecklad av gemenskapen";
+"about_proposition_3" = "Snabb, minimalistisk, utvecklad av gemenskapen";
 "close" = "Stäng";
 "download" = "Ladda ner";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "E-post";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Kopierat till urklipp: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps-version: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Rutter";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Nyheter";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Bli volontär";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Följ och kontakta oss:";
+"follow_us" = "Följ och kontakta oss";
 
 /* Alert text */
 "email_error_body" = "Emailklienten har inte konfigurerats. Ställ in den eller använd ett annat sätt att kontakta oss på %@";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Lägg till öppettider";
 
 /* OpenStreetMap */
-"osm_explanation" = "Community-skapade OpenStreetMap-data från och med %@. Läs mer om hur du redigerar och uppdaterar kartan på OpenStreetMap.org";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Community-skapade OpenStreetMap-data från och med %@. Läs mer om hur du redigerar och uppdaterar kartan på OpenStreetMap.org";
 "osm_more_about" = "Mer om OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Sv:Om_OpenStreetMap";
 

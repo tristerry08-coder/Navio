@@ -46,13 +46,13 @@
 "about_headline" = "Gratis untuk semua orang, dibuat dengan cinta";
 
 /* Text in About screen */
-"about_proposition_1" = "• Tidak ada iklan, tidak ada pelacakan, tidak ada pengumpulan data";
+"about_proposition_1" = "Tidak ada iklan, tidak ada pelacakan, tidak ada pengumpulan data";
 
 /* Text in About screen */
-"about_proposition_2" = "• Tidak menguras baterai, bekerja secara offline";
+"about_proposition_2" = "Tidak menguras baterai, bekerja secara offline";
 
 /* Text in About screen */
-"about_proposition_3" = "• Cepat, minimalis, dikembangkan oleh komunitas";
+"about_proposition_3" = "Cepat, minimalis, dikembangkan oleh komunitas";
 "close" = "Tutup";
 "download" = "Unduh";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "Surel";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Telah Disalin ke Papan Klip: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Versi CoMaps: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Jalur";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Berita";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Untuk Menjadi Relawan";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Ikuti dan hubungi kami:";
+"follow_us" = "Ikuti dan hubungi kami";
 
 /* Alert text */
 "email_error_body" = "Surel pelanggan belum diatur. Mohon konfigurasikan atau gunakan cara lain untuk menghubungi kami di %@";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Tambah jam kerja";
 
 /* OpenStreetMap */
-"osm_explanation" = "Data OpenStreetMap yang dibuat oleh komunitas pada tanggal %@. Pelajari lebih lanjut mengenai cara mengedit dan memperbarui peta di OpenStreetMap.org";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Data OpenStreetMap yang dibuat oleh komunitas pada tanggal %@. Pelajari lebih lanjut mengenai cara mengedit dan memperbarui peta di OpenStreetMap.org";
 "osm_more_about" = "Selengkapnya tentang OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 

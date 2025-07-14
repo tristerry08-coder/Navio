@@ -43,16 +43,16 @@
 "country_status_download_failed" = "Herunterladen fehlgeschlagen";
 
 /* Text in About screen */
-"about_headline" = "Kostenlos für alle, mit Liebe gemacht";
+"about_headline" = "Ein offenes Projekt der Community";
 
 /* Text in About screen */
-"about_proposition_1" = "• Keine Werbung, kein Tracking, keine Datenerfassung";
+"about_proposition_1" = "Offline, schnell und einfach zu benutzen";
 
 /* Text in About screen */
-"about_proposition_2" = "• Minimaler Batterieverbrauch, funktioniert offline";
+"about_proposition_2" = "Datenschutzorientiert und wersbefrei";
 
 /* Text in About screen */
-"about_proposition_3" = "• Schnell, minimalistisch, von der Community entwickelt";
+"about_proposition_3" = "Transparent und nicht gewinnorientiert";
 "close" = "Schließen";
 "download" = "Herunterladen";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "Email";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "In die Zwischenablage kopieren";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "In die Zwischenablage kopiert: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps Version: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nKartendaten: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Tracks";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Neuigkeiten";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -290,7 +307,7 @@
 "panoramax_picture" = "Panoramax Bild";
 
 /* Text in menu */
-"rate_the_app" = "Bewerten Sie die App";
+"rate_the_app" = "Bewerte die App";
 
 /* Text in menu */
 "help" = "Hilfe";
@@ -314,7 +331,7 @@
 "volunteer" = "Freiwillig helfen";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Folge und kontaktiere uns:";
+"follow_us" = "Folge und kontaktiere uns";
 
 /* Alert text */
 "email_error_body" = "Der Email-Client ist noch nicht eingerichtet worden. Konfigurieren Sie ihn bitte oder nutzen Sie eine andere Möglichkeit oder kontaktieren Sie uns unter %@";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Öffnungszeiten hinzufügen";
 
 /* OpenStreetMap */
-"osm_explanation" = "Von der Community erstellte OpenStreetMap-Daten (Stand: %@). Erfahre mehr darüber, wie du die Karte bearbeiten und aktualisieren kannst unter OpenStreetMap.org";
+"osm_mapdata" = "Kartendaten von OpenStreetMap";
+"osm_mapdata_explanation %@" = "Von der Community erstellte Kartendaten vom *%@*. Erfahre mehr darüber, wie du die Karte bearbeiten und aktualisieren kannst unter [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "Mehr Infos über OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/DE:Über_OSM";
 

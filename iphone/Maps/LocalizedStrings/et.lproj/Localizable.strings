@@ -46,13 +46,13 @@
 "about_headline" = "Tasuta ja vaba kõigi jaoks, tehtud armastusega";
 
 /* Text in About screen */
-"about_proposition_1" = "• Pole reklaame, jälitamist ega andmekogumist";
+"about_proposition_1" = "Pole reklaame, jälitamist ega andmekogumist";
 
 /* Text in About screen */
-"about_proposition_2" = "• Ei tühjenda akut, töötab võrguühenduseta";
+"about_proposition_2" = "Ei tühjenda akut, töötab võrguühenduseta";
 
 /* Text in About screen */
-"about_proposition_3" = "• Kiire, minimalistlik, kogukonna poolt väljatöötatud";
+"about_proposition_3" = "Kiire, minimalistlik, kogukonna poolt väljatöötatud";
 "close" = "Sulge";
 "download" = "Laadi alla";
 
@@ -180,6 +180,9 @@
 /* Share by email button text, also used in editor and About. */
 "email" = "E-post";
 
+/* Text for message to copy something */
+"copy_to_clipboard" = "Copy to Clipboard";
+
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Kopeeritud lõikelauale: %@";
 
@@ -191,6 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMapsi versioon: %@";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Rajad";
@@ -262,6 +267,18 @@
 /* Text in About menu, opens CoMaps news website */
 "news" = "Uudised";
 
+/* Text in the about screen */
+"social_codeberg" = "Codeberg";
+"social_mastodon" = "Mastodon";
+"social_lemmy" = "Lemmy";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_linkedin" = "LinkedIn";
+"social_facebook" = "Facebook";
+"social_email" = "E-Mail";
+
 /* Text in the editor */
 "fediverse" = "Mastodon";
 
@@ -314,7 +331,7 @@
 "volunteer" = "Vabatahtlik kaastöö";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Jälgi ja võta meiega ühendust:";
+"follow_us" = "Jälgi ja võta meiega ühendust";
 
 /* Alert text */
 "email_error_body" = "E-posti klienti ei ole seadistatud. Palun seadista see või kasuta mõnda muud võimalust meiega ühenduse võtmiseks aadressil %@";
@@ -528,7 +545,8 @@
 "add_opening_hours" = "Lisa tööaeg";
 
 /* OpenStreetMap */
-"osm_explanation" = "Kogukonna loodud OpenStreetMapi andmed seisuga %@. Lisateavet kaardi muutmise ja uuendamise kohta leiad OpenStreetMap.org saidist";
+"osm_mapdata" = "Map data from OpenStreetMap";
+"osm_mapdata_explanation %@" = "Kogukonna loodud OpenStreetMapi andmed seisuga %@. Lisateavet kaardi muutmise ja uuendamise kohta leiad OpenStreetMap.org saidist";
 "osm_more_about" = "Lisateave OpenStreetMapi kohta";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 

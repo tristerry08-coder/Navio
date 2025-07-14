@@ -51,16 +51,12 @@ extension BottomTabBarInteractor: BottomTabBarInteractorProtocol {
           }
         }
       default:
-        MapViewController.shared()?.navigationController?.pushViewController(AboutController(), animated: true)
+        mapViewController?.openAbout()
     }
   }
   
   func openFaq() {
-    guard let navigationController = MapViewController.shared()?.navigationController else { return }
-    let aboutController = AboutController(onDidAppearCompletionHandler: {
-      navigationController.pushViewController(FaqController(), animated: true)
-    })
-    navigationController.pushViewController(aboutController, animated: true)
+      mapViewController?.openAbout()
   }
   
   func openBookmarks() {
