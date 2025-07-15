@@ -8,6 +8,9 @@
   <a href="https://codeberg.org/comaps#keep-connected">Keep Connected</a>
 </p>
 
+<div align="center" >
+<img src="docs/badges/logo.svg" width="150">
+</div>
 
 
 <div align="center">
