@@ -146,6 +146,12 @@ The project's financial information is completely open and transparent at [our O
 
 The Android app has been reviewed by [Exodus Privacy](https://reports.exodus-privacy.eu.org/fr/reports/app.comaps.google/latest/).
 
+To [verify](https://developer.android.com/studio/command-line/apksigner#usage-verify) the APK, use the following signing certificate fingerprints:
+```
+SHA-256: 4894e8e6963627ef660031d8593fe77297f835acb4e23810003e926135023b4c
+SHA-1: 8b7b5739f917e9f7c681671ced0c9c8562123ade
+MD5: 9cce0ffea281dc2f0e0a154d6d2e281e
+```
 ---
 
 ## ⚖️ License
