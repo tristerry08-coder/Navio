@@ -174,47 +174,41 @@ line|z15-[isoline=zero],
 line|z15-[isoline=step_10],
 {color: @isoline10;}
 
-line|z10-11[isoline=step_1000],
-{width: 0.8; opacity: 0.45;}
-line|z10-11[isoline=step_500],
-{width: 0.8; opacity: 0.25;}
-line|z11[isoline=step_100],
-{width: 0.6; opacity: 0.15;}
+line|z10[isoline=step_1000],
+line|z10[isoline=step_500],
+{width: 1.0; opacity: 0.3;}
+line|z11-12[isoline=step_1000],
+line|z11-12[isoline=step_500],
+{width: 1.6; opacity: 0.3;}
+line|z11-12[isoline=step_100],
+{width: 1.1; opacity: 0.3;}
 
-line|z12-13[isoline=step_1000],
-{width: 1.0; opacity: 0.45;}
-line|z12-13[isoline=step_500],
-{width: 0.8; opacity: 0.35;}
-line|z12-13[isoline=step_100],
-{width: 0.8; opacity: 0.25;}
-line|z13[isoline=step_50],
-{width: 0.6; opacity: 0.15;}
+line|z13-14[isoline=step_1000],
+line|z13-14[isoline=step_500],
+{width: 1.6; opacity: 0.4;}
+line|z13-14[isoline=step_100],
+{width: 1.6; opacity: 0.25;}
+line|z13-14[isoline=step_50],
+{width: 1.1; opacity: 0.25;}
 
-line|z14-[isoline=step_1000],
-{width: 1.2; opacity: 0.5;}
-line|z14-15[isoline=step_500],
-{width: 1.0; opacity: 0.45;}
-line|z14-15[isoline=step_100],
-{width: 0.8; opacity: 0.35;}
-line|z14-15[isoline=step_50],
-{width: 0.8; opacity: 0.25;}
+line|z15-16[isoline=step_1000],
+line|z15-16[isoline=step_500],
+{width: 1.6; opacity: 0.5;}
+line|z15-16[isoline=step_100],
+line|z15-16[isoline=step_50],
+{width: 1.6; opacity: 0.35;}
+line|z15-16[isoline=step_50],
+{width: 1.6; opacity: 0.25;}
+line|z15-16[isoline=zero],
+line|z15-16[isoline=step_10],
+{width: 1.1; opacity: 0.35;}
 
-line|z15[isoline=zero],
-line|z15[isoline=step_10],
-{width: 0.8; opacity: 0.25;}
-
+line|z17-[isoline=step_1000],
 line|z16-[isoline=step_500],
-{width: 1.2; opacity: 0.5;}
-line|z16-[isoline=step_100],
-{width: 1.0; opacity: 0.45;}
-line|z16-17[isoline=step_50],
-{width: 0.8; opacity: 0.35;}
-line|z16-17[isoline=zero],
-line|z16-17[isoline=step_10],
-{width: 0.8; opacity: 0.35;}
-
-line|z18-[isoline=step_50],
-{width: 1.0; opacity: 0.45;}
-line|z18-[isoline=zero],
-line|z18-[isoline=step_10],
-{width: 0.8; opacity: 0.45;}
+{width: 1.6; opacity: 0.6;}
+line|z17-[isoline=step_100],
+line|z17-[isoline=step_50],
+{width: 1.6; opacity: 0.5;}
+line|z17-[isoline=zero],
+line|z17-[isoline=step_10],
+{width: 1.6; opacity: 0.35;}
