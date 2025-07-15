@@ -41,7 +41,15 @@
 @glacier: #111111;
 @water: #002222;
 @water_bad: #00261e;
-@wetland: #001919;
+@wetland_tidal: #001919;
+@wetland_tidal_saltmarsh: #001919;
+@wetland_saltmarsh: #001919;
+@wetland_marsh: #001919;
+@wetland_fen: #001919;
+@wetland_bog: #001919;
+@wetland_reedbed: #001919;
+@wetland_swamp: #001919;
+@wetland_mangrove: #001919;
 @beach: #28281A;
 @barerock: #302A2A;
 @scree: #242020;
