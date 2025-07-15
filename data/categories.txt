@@ -10138,7 +10138,7 @@ mr:इमारत|बिल्डिंग|वाडा
 
 # First keyword should match [police] definition in strings.txt!
 @category_police
-en:4Police
+en:4Police|cops
 ru:4Полиция|милиция
 be:4Паліцыя|міліція
 bg:4Полиция
