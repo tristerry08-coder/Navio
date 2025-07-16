@@ -22,6 +22,7 @@
   self.locationLabel.text = result.addressText;
   [self.locationLabel sizeToFit];
   self.infoLabel.text = result.infoText;
+  self.distanceLabel.text = result.distanceText;
   self.distanceLabel.textColor = [UIColor.labelColor colorWithAlphaComponent:0.7];
   self.popularView.hidden = YES;
   self.openLabel.text = result.openStatusText;
