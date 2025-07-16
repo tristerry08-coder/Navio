@@ -1492,3 +1492,10 @@
 "type.leisure.firepit" = "Tulentekopaikka";
 "type.man_made.crane" = "Nosturi";
 "type.railway.station.subway.qingdao" = "Metro";
+"type.natural.wetland.saltmarsh" = "Marskimaa";
+"type.natural.wetland.saltmarsh.tidal" = "Marskimaa";
+"type.natural.wetland.fen" = "Avosuo";
+"type.natural.wetland.reedbed" = "Ruovikko";
+"type.natural.wetland.swamp" = "Suo";
+"type.natural.wetland.mangrove" = "Mangrove";
+"type.natural.wetland.tidalflat" = "Vuorovesitasanko";

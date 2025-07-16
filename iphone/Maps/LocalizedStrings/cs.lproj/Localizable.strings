@@ -527,7 +527,7 @@
 "autodownload" = "Automaticky stahovat mapy";
 
 /* Place Page opening hours text */
-"closed_now" = "Nyní je zavřeno";
+"closed_now" = "Zavřeno";
 
 /* Place Page opening hours text */
 "daily" = "Denně";

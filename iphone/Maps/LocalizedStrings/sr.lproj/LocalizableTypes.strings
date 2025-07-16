@@ -672,7 +672,7 @@
 
 /* In most (European) countries, сemeteries are usually independent of places of worship (e.g. military cemeteries), while grave yards are usually the yard of a place of worship. */
 "type.landuse.cemetery.christian" = "Хришћанско гробље";
-"type.landuse.religious" = "Religious Land";
+"type.landuse.religious" = "Верско земљиште";
 "type.landuse.commercial" = "Кмерцијална област";
 "type.landuse.construction" = "Градилиште";
 "type.landuse.education" = "Образовна установа";
@@ -1491,3 +1491,10 @@
 "type.amenity.studio" = "Студио";
 "type.barrier.guard_rail" = "Заштитна ограда";
 "type.man_made.crane" = "Кран";
+"type.natural.wetland.mangrove" = "Мангров";
+"type.natural.wetland.fen" = "Тресетна мочвара";
+"type.natural.wetland.reedbed" = "Плавни";
+"type.natural.wetland.tidalflat" = "Блатњави спруд";
+"type.natural.wetland.swamp" = "Мочварна шума";
+"type.natural.wetland.saltmarsh.tidal" = "Слана мочвара у зони плиме";
+"type.natural.wetland.saltmarsh" = "Приморска слана мочвара";

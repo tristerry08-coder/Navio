@@ -527,7 +527,7 @@
 "autodownload" = "Аутоматско преузимање мапа";
 
 /* Place Page opening hours text */
-"closed_now" = "Затворено сада";
+"closed_now" = "Сада је затворено";
 
 /* Place Page opening hours text */
 "daily" = "Сваки дан";
@@ -1104,3 +1104,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Путања је празна, нема шта да се сачува";
 "edit_track" = "Измените путању";
+"osm_profile_view_notes" = "Погледајте белешке";
+"osm_profile_view_edit_history" = "Погледајте историју уређивања";

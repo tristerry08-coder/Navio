@@ -850,7 +850,7 @@
     <string name="type.railway.station">Железничка станица</string>
     <string name="type.railway.station.funicular">Успињача</string>
     <string name="type.railway.station.light_rail">Железничка станица</string>
-    <string name="type.railway.station.light_rail.berlin">Железничка станица</string>
+    <string name="type.railway.station.light_rail.berlin">Стадтбахн станица</string>
     <string name="type.railway.station.light_rail.london">Железничка станица</string>
     <string name="type.railway.station.light_rail.porto">Железничка станица</string>
     <string name="type.railway.station.monorail">Железничка станица</string>
@@ -1400,4 +1400,12 @@
     <string name="type.highway.ladder">Merdevine</string>
     <string name="type.man_made.crane">Кран</string>
     <string name="type.railway.station.subway.qingdao">Метро станица</string>
+    <string name="type.landuse.religious">Верско земљиште</string>
+    <string name="type.natural.wetland.fen">Тресетна мочвара</string>
+    <string name="type.natural.wetland.reedbed">Плавни</string>
+    <string name="type.natural.wetland.swamp">Мочварна шума</string>
+    <string name="type.natural.wetland.mangrove">Мангров</string>
+    <string name="type.natural.wetland.tidalflat">Блатњави спруд</string>
+    <string name="type.natural.wetland.saltmarsh.tidal">Слана мочвара у зони плиме</string>
+    <string name="type.natural.wetland.saltmarsh">Приморска слана мочвара</string>
 </resources>

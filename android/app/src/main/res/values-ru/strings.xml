@@ -782,7 +782,7 @@
     <!-- Current language of the map! -->
     <string name="change_map_locale">Язык карты</string>
     <!-- OpenStreetMap text on splash screen -->
-    <string name="splash_subtitle">Картографические данные из OpenStreetMap</string>
+    <string name="splash_subtitle">На основе карт OpenStreetMap</string>
     <!-- Telegram group url for the "?" About page -->
     <string name="telegram_url">https://t.me/CoMaps_RU</string>
     <!-- A link to the TTS FAQ -->

@@ -1,4 +1,4 @@
-Eine von der Community betriebene, kostenlose Open-Source Karten App, die auf OpenStreetMap-Daten basiert. Transparent, datensparsam und nicht gewinnorientiert.
+Eine von der Community betriebene, kostenlose Open-Source Karten App, die auf OpenStreetMap-Daten basiert. Ein Gemeinschaftsprojekt mit Fokus auf Transparenz und non-profit.
 
 Werde Teil der Community und hilf mit, die beste Karten-App zu entwickeln
 • Nutze die App und erzähle anderen davon
@@ -8,8 +8,8 @@ Werde Teil der Community und hilf mit, die beste Karten-App zu entwickeln
 <i>Dein Feedback und deine 5-Sterne-Bewertung sind die beste Unterstützung für uns!</i>
 
 ‣ <b>Einfach und ausgereift</b>: Essenzielle, leicht zu bedienende Funktionen, die einfach funktionieren.
-‣ <b>Offline-orientiert</b>: Plane und navigiere im Ausland ohne Mobilfunkverbindung, finde Wegpunkte auf abgelegenen Wanderungen usw. Alle Funktionen sind für den Offline-Einsatz konzipiert.
-‣ <b>Datenschutzfreundlich</b>: Die App wurde mit Fokus auf Privatsphäre entwickelt – keine Personenidentifikation, kein Tracking, keine Erfassung persönlicher Daten, keine Werbung.
+‣ <b>Offlinekarten</b>: Plane und navigiere im Ausland ohne Mobilfunkverbindung, finde Wegpunkte auf abgelegenen Wanderungen usw. Alle Funktionen sind für den Offline-Einsatz konzipiert.
+‣ <b>Datenschutz ist uns wichtig!</b>: Die App wurde mit Fokus auf Privatsphäre entwickelt – kein Tracking, keine Erfassung persönlicher Daten, keine Werbung.
 ‣ <b>Spart Akku und Speicherplatz</b>: Verbraucht nicht unnötig Akku wie andere Navi-Apps. Kompakte Karten sparen Speicherplatz auf Deinem Gerät.
 ‣ <b>Kostenlos und von der Community entwickelt</b>: Menschen wie du haben geholfen, die App zu entwickeln – durch das Hinzufügen von Orten zu OpenStreetMap, Testen von neuen Funktionen, Softwareentwicklung oder Spenden.
 ‣ <b>Offen und transparent bei Entscheidungen und Finanzen, gemeinnützig und vollständig Open Source</b>
@@ -32,5 +32,5 @@ Werde Teil der Community und hilf mit, die beste Karten-App zu entwickeln
 
 Bitte melde Probleme, schlage neue Funktionen vor und werde Teil der Community auf unserer Website: <b><i>comaps.app</i></b>
 
-<b>Freiheit beginnt hier</b>
+<b>Entdecke die Unabhängigkeit</b>
 Entdecke deine Reise – navigiere in der Welt mit Datenschutz!

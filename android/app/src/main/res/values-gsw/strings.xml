@@ -636,4 +636,7 @@
     <string name="ok">OK</string>
     <string name="sort_bookmarks">Lesezeiche sortiere</string>
     <string name="translated_om_site_url">https://comaps.app/de/</string>
+    <string name="open_now">Jetzt offe</string>
+    <string name="closed_now">Jetzt zue</string>
+    <string name="at">am %s</string>
 </resources>

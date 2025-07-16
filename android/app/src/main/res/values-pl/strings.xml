@@ -38,15 +38,15 @@
     <string name="try_again">Spróbuj ponownie</string>
     <string name="about_menu_title">O aplikacji CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Darmowa dla wszystkich, wykonana z miłością</string>
+    <string name="about_headline">Otwarty projekt tworzony przez społeczność</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_1">• Bez reklam, bez śledzenia, bez gromadzenia danych</string>
+    <string name="about_proposition_1">• Łatwy w użyciu i dopracowany</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_2">• Nie zużywa baterii, działa w trybie offline</string>
+    <string name="about_proposition_2">• Skoncentrowany na prywatności i wolny od reklam</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Szybki, minimalistyczny, opracowany przez społeczność</string>
+    <string name="about_proposition_3">• Offline, szybki i kompaktowy</string>
     <!-- Text in About screen -->
-    <string name="about_developed_by_enthusiasts">Aplikacja typu open source stworzona przez entuzjastów i wolontariuszy.</string>
+    <string name="about_developed_by_enthusiasts">W pełni open source, non-profit z przejrzystym podejmowaniem decyzji i finansami.</string>
     <!-- The button that opens system location settings -->
     <string name="location_settings">Ustawienia lokalizacji</string>
     <string name="close">Zamknij</string>
@@ -88,7 +88,7 @@
     <!-- Header of settings activity where user defines storage path -->
     <string name="maps_storage">Zapisz mapy do</string>
     <!-- Detailed description of Maps Storage settings button -->
-    <string name="maps_storage_summary">Określa położenie przechowywania pobranych map</string>
+    <string name="maps_storage_summary">Wybierz folder, do którego pobrać mapy.</string>
     <!-- E.g. "Downloaded maps: 500Mb" in Maps Storage settings -->
     <string name="maps_storage_downloaded">Mapy</string>
     <!-- Internal storage type in Maps Storage settings (not accessible by the user) -->
@@ -187,7 +187,7 @@
     <!-- Subject for emailed bookmark -->
     <string name="bookmark_share_email_subject">Hej, spójrz na mój znacznik w CoMaps!</string>
     <!-- Subject for emailed position -->
-    <string name="my_position_share_email_subject">Zobacz moją aktualną lokalizację na mapie przy użyciu CoMaps</string>
+    <string name="my_position_share_email_subject">Hej, sprawdź moją aktualną lokalizację na mapie CoMaps!</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
     <string name="my_position_share_email">Cześć, \n \nJestem teraz tutaj: %1$s. Naciśnij na ten link %2$s lub ten %3$s, aby zobaczyć to miejsce na mapie. \n \nDziękuję.</string>
     <!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -299,9 +299,9 @@
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Aktualizuj mapę</string>
     <!-- Preference title -->
-    <string name="google_play_services">Usługi lokalizacyjne Google Play</string>
+    <string name="google_play_services">Usługa lokalizacji Google Fused</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">Szybko określ swoją przybliżoną lokalizację przez Bluetooth, WiFi lub sieć komórkową</string>
+    <string name="pref_use_google_play">Własnościowa usługa łącząca GPS, Wi-Fi, sieci komórkowe itp., aby dokładniej określić Twoją lokalizację. Może łączyć się z serwerami Google.</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -351,7 +351,7 @@
     <string name="dialog_routing_disclaimer_priority">— Warunki na drodze, przepisy ruchu drogowego i znaki drogowe zawsze są ważniejsze niż wskazówki nawigacji;</string>
     <string name="dialog_routing_disclaimer_precision">— Mapa może być niedokładna, a sugerowana trasa może nie być optymalnym sposobem dotarcia do celu;</string>
     <string name="dialog_routing_disclaimer_recommendations">— Sugerowane trasy należy traktować jedynie jako rekomendacje;</string>
-    <string name="dialog_routing_disclaimer_borders">— Prosimy zachować ostrożność na trasach w strefie nadgranicznej: wyznaczone przez naszą aplikację trasy mogą przecinać granice państw w niedozwolonych do przekroczenia miejscach;</string>
+    <string name="dialog_routing_disclaimer_borders">— Zachowaj ostrożność na trasach w strefach przygranicznych: trasy tworzone przez naszą aplikację mogą czasem przekraczać granice państw w nieautoryzowanych miejscach.</string>
     <string name="dialog_routing_disclaimer_beware">Podczas podróży zachowaj czujność i prowadź ostrożnie!</string>
     <string name="dialog_routing_check_gps">Sprawdź sygnał GPS</string>
     <string name="dialog_routing_error_location_not_found">Nie można wyznaczyć trasy. Nie można ustalić współrzędnych GPS.</string>
@@ -505,7 +505,7 @@
     <!-- Title for OSM note section in the editor -->
     <string name="editor_other_info">Uwaga dla wolontariuszy OpenStreetMap (opcjonalnie)</string>
     <!-- Hint of the input field in the OSM note section of the editor -->
-    <string name="editor_note_hint">Proszę opisać błędy na mapie lub rzeczy, których nie można edytować za pomocą CoMaps.</string>
+    <string name="editor_note_hint">Opisz błędy na mapie lub elementy, których nie można edytować w CoMaps</string>
     <!-- Information about OSM at the top of the editing page -->
     <string name="editor_about_osm">Państwa zmiany są przesyłane do publicznej bazy danych <a href="https://wiki.openstreetmap.org/wiki/Pl:Wstęp">OpenStreetMap</a>. Prosimy nie dodawać informacji osobistych lub chronionych prawem autorskim.</string>
     <string name="editor_more_about_osm">Więcej o OpenStreetMap</string>
@@ -583,7 +583,7 @@
     <!-- Settings: "Send general feedback" button -->
     <string name="feedback_general">Ogólne uwagi</string>
     <string name="prefs_languages_information">Stosujemy system TTS dla komend głosowych. Stosuje go wiele urządzeń z systemem Android, można go pobrać lub zaktualizować z Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts)</string>
-    <string name="prefs_languages_information_off">W przypadku niektórych języków wymagana będzie instalacja innego syntezatora lub pakietu językowego ze strony aplikacji (Google Play, Galaxy Store, App Gallery, FDroid). Otwórz ustawienia urządzenia → Język i klawiatura → Mowa → Przetwarzanie tekstu na mowę. \nMożesz w tym miejscu zarządzać ustawieniami syntezy mowy (np. pobrać pakiet językowy do stosowania offline) i wybrać inny silnik przetwarzania tekstu na mowę.</string>
+    <string name="prefs_languages_information_off">Dla niektórych języków konieczne będzie zainstalowanie syntezatora mowy lub dodatkowego pakietu językowego ze sklepu z aplikacjami (Google Play, Galaxy Store, App Gallery, FDroid). \nOtwórz ustawienia urządzenia → Język i wprowadzanie → Mowa → Wysyłanie tekstu na mowę. \nTutaj możesz zarządzać ustawieniami syntezy mowy (na przykład pobrać pakiet językowy do użytku offline) oraz wybrać inny silnik tekst-na-mowę.</string>
     <string name="prefs_languages_information_off_link">Aby uzyskać więcej informacji, spójrz na ten poradnik.</string>
     <string name="transliteration_title">Transkrypcja na alfabet łaciński</string>
     <string name="learn_more">Dowiedz się więcej</string>
@@ -611,8 +611,8 @@
     <plurals name="bookmarks_places">
         <item quantity="one">%d zakładka</item>
         <item quantity="few">%d zakładki</item>
-        <item quantity="many"/>
-        <item quantity="other"/>
+        <item quantity="many">%d zakładek</item>
+        <item quantity="other">%d zakładek</item>
     </plurals>
     <string name="bookmarks_create_new_group">Utwórz nową listę</string>
     <!-- Bookmark categories screen, button that opens folder selection dialog to import KML/KMZ/GPX/KMB files -->
@@ -631,15 +631,15 @@
     <plurals name="bookmarks_detect_message">
         <item quantity="one">Znaleziono %d plik. Zobaczysz go po konwersji.</item>
         <item quantity="few">Znaleziono %d pliki. Zobaczysz je po konwersji.</item>
-        <item quantity="many"/>
-        <item quantity="other"/>
+        <item quantity="many">Znaleziono %d plików. Zobaczysz je po konwersji.</item>
+        <item quantity="other">Znaleziono %d plików. Zobaczysz je po konwersji.</item>
     </plurals>
     <string name="restore">Przywróć</string>
     <plurals name="tracks">
         <item quantity="one">%d trasa</item>
         <item quantity="few">%d trasy</item>
-        <item quantity="many"/>
-        <item quantity="other"/>
+        <item quantity="many">%d tras</item>
+        <item quantity="other">%d tras</item>
     </plurals>
     <!-- Settings privacy group in settings screen -->
     <string name="privacy">Prywatność</string>
@@ -650,7 +650,7 @@
     <string name="layers_title">Style i warstwy mapy</string>
     <string name="subway_data_unavailable">Mapa metra jest niedostępna</string>
     <string name="bookmarks_empty_list_title">Lista jest pusta</string>
-    <string name="bookmarks_empty_list_message">Aby dodać zakładkę, dotknij miejsca na mapie, a następnie dotknij ikony gwiazdy.</string>
+    <string name="bookmarks_empty_list_message">Aby dodać zakładkę, stuknij miejsce na mapie, a następnie ikonę gwiazdki</string>
     <string name="category_desc_more">…więcej</string>
     <string name="export_file">Eksportuj KMZ</string>
     <string name="export_file_gpx">Eksport GPX</string>
@@ -669,7 +669,7 @@
     <!-- Speed camera settings menu option - Never warn (about speedcams) -->
     <string name="pref_tts_speedcams_never">Nigdy nie ostrzegaj</string>
     <string name="power_managment_title">Tryb oszczędzania energii</string>
-    <string name="power_managment_description">Jeśli jest włączony tryb oszczędzania energii, wtedy aplikacja wyłączy funkcje energochłonne, zależnie od bieżącego poziomu załadowania telefonu</string>
+    <string name="power_managment_description">Spróbuj zmniejszyć zużycie energii kosztem części funkcji.</string>
     <string name="power_managment_setting_never">Nigdy</string>
     <string name="power_managment_setting_auto">Automatycznie</string>
     <string name="power_managment_setting_manual_max">Maksymalna oszczędność energii</string>
@@ -684,7 +684,7 @@
     <string name="avoid_ferry">Unikaj przepraw promowych</string>
     <string name="avoid_motorways">Unikaj autostrad</string>
     <string name="unable_to_calc_alert_title">Brak możliwości zbudowania trasy</string>
-    <string name="unable_to_calc_alert_subtitle">Wyznaczanie trasy nie powiodło się. Przyczyną mogą być ustawienia nawigacji lub niekompletne dane OpenStreetMap. Zmień ustawienia i spróbuj ponownie</string>
+    <string name="unable_to_calc_alert_subtitle">Nie udało się znaleźć trasy. Może to być spowodowane ustawieniami nawigacji lub niekompletnymi danymi OpenStreetMap. Zmień opcje nawigacji i spróbuj ponownie.</string>
     <string name="define_to_avoid_btn">Dostosuj ścieżkę objazdu</string>
     <string name="change_driving_options_btn">Ustawienia objazdu są włączone</string>
     <string name="toll_road">Droga płatna</string>
@@ -746,7 +746,7 @@
     <string name="dialog_pedestrian_route_is_long_header">Nie znaleziono trasy metra</string>
     <string name="dialog_pedestrian_route_is_long_message">Wybierz punkt początkowy lub końcowy trasy najbliżej do stacji metra</string>
     <string name="button_layer_isolines">Poziomice</string>
-    <string name="isolines_activation_error_dialog">Do skorzystania z poziomic, pobierz mapę tego obszaru.</string>
+    <string name="isolines_activation_error_dialog">Aktywacja linii konturowych wymaga pobrania danych mapy dla tego obszaru</string>
     <string name="isolines_location_error_dialog">Poziomice nie są jeszcze dostępne w tym regionie</string>
     <string name="elevation_profile_ascent">Wejście</string>
     <string name="elevation_profile_descent">Zejście</string>
@@ -861,7 +861,7 @@
     <!-- Message for the toast when saving the track recording is finished but nothing to save. -->
     <string name="track_recording_toast_nothing_to_save">Trasa jest pusta - nic do zapisania</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
-    <string name="error_no_file_manager_app">Nie można wyświetlić okna dialogowego wyboru folderu, ponieważ na urządzeniu nie zainstalowano odpowiedniej aplikacji. Proszę zainstalować aplikację menedżera plików i spróbować ponownie</string>
+    <string name="error_no_file_manager_app">Nie można wyświetlić okna wyboru folderu, ponieważ na urządzeniu nie jest zainstalowana odpowiednia aplikacja. Zainstaluj menedżer plików i spróbuj ponownie.</string>
     <string name="choose_color">Wybierz kolor</string>
     <string name="edit_track">Edytuj trasę</string>
     <string name="uri_open_location_failed">Brak zainstalowanej aplikacji, która może otworzyć lokalizację</string>
@@ -904,4 +904,28 @@
     <string name="about_help">O aplikacji i pomoc</string>
     <string name="pref_backup_interval_title">Automatyczna kopia zapasowa</string>
     <string name="pref_backup_now_summary_progress">Tworzenie kopii zapasowej…</string>
+    <string name="editor_building_levels">Piętra (w tym parter, z wyłączeniem dachu)</string>
+    <string name="error_enter_correct_level">Wprowadź prawidłowy numer piętra</string>
+    <string name="ruler">Linijka</string>
+    <string name="error_enter_correct_fediverse_page">Wprowadź poprawną nazwę użytkownika Mastodon lub adres internetowy</string>
+    <string name="error_enter_correct_bluesky_page">Wprowadź poprawną nazwę użytkownika Bluesky lub adres internetowy</string>
+    <string name="pref_left_button_title">Konfiguracja lewego przycisku</string>
+    <string name="pref_backup_title">Kopia zapasowa zakładek i tras</string>
+    <string name="pref_backup_summary">Automatycznie twórz kopię zapasową do folderu na urządzeniu</string>
+    <string name="pref_backup_now_summary">Utwórz kopię zapasową natychmiast</string>
+    <string name="pref_backup_now_summary_ok">Kopia zapasowa została pomyślnie utworzona</string>
+    <string name="pref_backup_now_summary_empty_lists">Brak zakładek i tras do wykonania kopii zapasowej</string>
+    <string name="pref_backup_now_summary_folder_unavailable">Folder kopii zapasowej jest niedostępny</string>
+    <string name="pref_backup_status_summary_success">Ostatnia pomyślna kopia zapasowa</string>
+    <string name="pref_backup_location_title">Lokalizacja kopii zapasowej</string>
+    <string name="pref_backup_location_summary_initial">Najpierw wybierz folder i nadaj uprawnienia</string>
+    <string name="pref_backup_history_title">Liczba kopii zapasowych do zachowania</string>
+    <string name="pedestrian">Pieszy</string>
+    <string name="editor_level">Piętro (0 to parter)</string>
+    <string name="open_now">Teraz otwarte</string>
+    <string name="dialog_report_error_with_logs">Prosimy o przesłanie raportu błędu: \n- w ustawieniach włącz „Rejestrowanie” \n- odtwórz problem\n- na ekranie „O aplikacji i pomoc” naciśnij przycisk „Zgłoś błąd” i wyślij e-mailem lub przez czat\n- wyłącz rejestrowanie</string>
+    <string name="backup_interval_manual_only">Wyłączone (tylko ręcznie)</string>
+    <string name="dialog_report_error_missing_folder">Wybrana lokalizacja kopii zapasowej jest niedostępna lub nie można do niej zapisywać. Proszę wybierz inną lokalizację.</string>
+    <string name="closed_now">Zamknięte teraz</string>
+    <string name="at">o %s</string>
 </resources>

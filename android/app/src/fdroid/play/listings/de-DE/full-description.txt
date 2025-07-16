@@ -1,4 +1,4 @@
-Eine von der Community betriebene, kostenlose Open-Source Karten-App, die auf OpenStreetMap Daten basiert. Transparent, datensparsam und nicht gewinnorientiert. CoMaps ist ein Fork/Abspaltung von Organic Maps, die wiederum ein Fork/Abspaltung von Maps.Me ist.
+Eine von der Community betriebene, kostenlose Open-Source Karten-App, die auf OpenStreetMap Daten basiert. Transparent und nicht gewinnorientiert. CoMaps ist ein Fork/Abspaltung von Organic Maps, die wiederum ein Fork/Abspaltung von Maps.Me ist.
 
 Lese mehr über die Gründe und Ziele des Projektes unter <b><i>codeberg.org/comaps</i></b>.
 Werde Teil der Community und hilf mit, die beste Karten-App zu entwickeln
@@ -28,5 +28,5 @@ Werde Teil der Community und hilf mit, die beste Karten-App zu entwickeln
 • Dunkler Modus für die Nutzung bei Nacht
 • Kartenbearbeitung direkt in der App mit einem einfachen Editor
 
-<b>Freiheit beginnt hier</b>
+<b>Entdecke die Unabhängigkeit</b>
 Entdecke deine Reise – navigiere in der Welt mit Datenschutz!

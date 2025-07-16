@@ -918,7 +918,7 @@
     <string name="pref_backup_location_title">Sicherungsort</string>
     <string name="backup_interval_every_week">Wöchentlich</string>
     <string name="pref_backup_now_summary_progress">Sicherung wird durchgeführt…</string>
-    <string name="open_now">Geöffnet</string>
+    <string name="open_now">Jetzt geöffnet</string>
     <string name="at">um %s</string>
-    <string name="closed_now">Geschlossen</string>
+    <string name="closed_now">Jetzt geschlossen</string>
 </resources>

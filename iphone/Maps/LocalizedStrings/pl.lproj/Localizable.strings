@@ -175,7 +175,7 @@
 "bookmark_share_email_subject" = "Hej, spójrz na mój znacznik w CoMaps!";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Zobacz moją aktualną lokalizację na mapie przy użyciu CoMaps";
+"my_position_share_email_subject" = "Hej, sprawdź moją aktualną lokalizację na mapie CoMaps!";
 
 /* Share by email button text, also used in editor and About. */
 "email" = "Email";
@@ -447,7 +447,7 @@
 "dialog_routing_disclaimer_priority" = "— Warunki na drodze, przepisy ruchu drogowego i znaki drogowe zawsze są ważniejsze niż wskazówki nawigacji;";
 "dialog_routing_disclaimer_precision" = "— Mapa może być niedokładna, a sugerowana trasa może nie być optymalnym sposobem dotarcia do celu;";
 "dialog_routing_disclaimer_recommendations" = "— Sugerowane trasy należy traktować jedynie jako rekomendacje;";
-"dialog_routing_disclaimer_borders" = "— Prosimy zachować ostrożność na trasach w strefie nadgranicznej: wyznaczone przez naszą aplikację trasy mogą przecinać granice państw w niedozwolonych do przekroczenia miejscach;";
+"dialog_routing_disclaimer_borders" = "— Zachowaj ostrożność na trasach w strefach przygranicznych: trasy tworzone przez naszą aplikację mogą czasem przekraczać granice państw w nieautoryzowanych miejscach.";
 "dialog_routing_disclaimer_beware" = "Podczas podróży zachowaj czujność i prowadź ostrożnie!";
 "dialog_routing_check_gps" = "Sprawdź sygnał GPS";
 "dialog_routing_error_location_not_found" = "Nie można wyznaczyć trasy. Nie można ustalić współrzędnych GPS.";
@@ -527,7 +527,7 @@
 "autodownload" = "Automatyczne pobieranie";
 
 /* Place Page opening hours text */
-"closed_now" = "Nieczynne";
+"closed_now" = "Zamknięte teraz";
 
 /* Place Page opening hours text */
 "daily" = "Codziennie";
@@ -588,7 +588,7 @@
 "email_or_username" = "Email lub nazwa użytkownika";
 "phone" = "Telefon";
 "level" = "Kondygnacja";
-"please_note" = "Uwaga!";
+"please_note" = "Prosimy zauważyć";
 "downloader_delete_map_dialog" = "Wszystkie zmiany dotyczące mapy zostaną usunięte wraz z nią.";
 "downloader_update_maps" = "Aktualizuj mapy";
 "downloader_search_field_hint" = "Znajdź mapę";
@@ -818,7 +818,7 @@
 /* Speed camera settings menu option - Never warn (about speedcams) */
 "pref_tts_speedcams_never" = "Nigdy nie ostrzegaj";
 "power_managment_title" = "Tryb oszczędzania energii";
-"power_managment_description" = "Jeśli jest włączony tryb oszczędzania energii, wtedy aplikacja wyłączy funkcje energochłonne, zależnie od bieżącego poziomu załadowania telefonu";
+"power_managment_description" = "Spróbuj zmniejszyć zużycie energii kosztem części funkcji.";
 "power_managment_setting_never" = "Nigdy";
 "power_managment_setting_auto" = "Automatycznie";
 "power_managment_setting_manual_max" = "Maksymalna oszczędność energii";
@@ -835,7 +835,7 @@
 "avoid_ferry" = "Unikaj przepraw promowych";
 "avoid_motorways" = "Unikaj autostrad";
 "unable_to_calc_alert_title" = "Brak możliwości zbudowania trasy";
-"unable_to_calc_alert_subtitle" = "Wyznaczanie trasy nie powiodło się. Przyczyną mogą być ustawienia nawigacji lub niekompletne dane OpenStreetMap. Zmień ustawienia i spróbuj ponownie";
+"unable_to_calc_alert_subtitle" = "Nie udało się znaleźć trasy. Może to być spowodowane ustawieniami nawigacji lub niekompletnymi danymi OpenStreetMap. Zmień opcje nawigacji i spróbuj ponownie.";
 "define_to_avoid_btn" = "Dostosuj ścieżkę objazdu";
 "change_driving_options_btn" = "Ustawienia objazdu są włączone";
 "toll_road" = "Droga płatna";
@@ -918,7 +918,7 @@
 "dialog_pedestrian_route_is_long_header" = "Nie znaleziono trasy metra";
 "dialog_pedestrian_route_is_long_message" = "Wybierz punkt początkowy lub końcowy trasy najbliżej do stacji metra";
 "button_layer_isolines" = "Poziomice";
-"isolines_activation_error_dialog" = "Do skorzystania z poziomic, pobierz mapę tego obszaru.";
+"isolines_activation_error_dialog" = "Aktywacja linii konturowych wymaga pobrania danych mapy dla tego obszaru";
 "isolines_location_error_dialog" = "Poziomice nie są jeszcze dostępne w tym regionie";
 "elevation_profile_diff_level" = "Poziom trudności";
 "elevation_profile_diff_level_easy" = "Łatwy";

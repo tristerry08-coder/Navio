@@ -1104,3 +1104,4 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "轨迹为空 — 无内容可保存";
 "edit_track" = "编辑轨迹";
+"osm_profile_view_edit_history" = "查看编辑历史";

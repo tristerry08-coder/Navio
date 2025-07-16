@@ -925,4 +925,5 @@
     <string name="about_help">À propos &amp; aide</string>
     <string name="dialog_report_error_missing_folder">L\'emplacement de sauvegarde choisi n\'est pas disponible ou accessible en écriture. Veuillez sélectionner un autre emplacement.</string>
     <string name="dialog_report_error_with_logs">Veuillez nous envoyer un rapport d\'erreur :\n - \"Activer la journalisation\" dans les paramètres\n - reproduire le problème\n - dans l\'écran \"À propos &amp; Help\", appuyez sur le bouton \"SIGNAER UN BUG\" et envoyez-le par e-mail ou par chat\n - désactiver la journalisation</string>
+    <string name="pref_backup_now_summary">Créer une sauvegarde immédiatement</string>
 </resources>

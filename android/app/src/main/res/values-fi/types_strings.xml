@@ -1400,4 +1400,11 @@
     <string name="type.attraction.big_wheel">Maailmanpyörä</string>
     <string name="type.railway.station.subway.qingdao">Metro</string>
     <string name="type.landuse.religious">Uskonnollinen maa</string>
+    <string name="type.natural.wetland.saltmarsh">Marskimaa</string>
+    <string name="type.natural.wetland.saltmarsh.tidal">Marskimaa</string>
+    <string name="type.natural.wetland.fen">Avosuo</string>
+    <string name="type.natural.wetland.swamp">Suo</string>
+    <string name="type.natural.wetland.mangrove">Mangrove</string>
+    <string name="type.natural.wetland.tidalflat">Vuorovesitasanko</string>
+    <string name="type.natural.wetland.reedbed">Ruovikko</string>
 </resources>
