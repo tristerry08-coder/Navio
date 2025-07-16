@@ -375,6 +375,17 @@ void GetReadableName(NameParamsIn const & in, NameParamsOut & out)
     GetReadableNameImpl(in, in.IsNativeOrSimilarLang(), out);
 }
 
+string const GetReadableAddress(string const & address) {
+  // Instead of housenumber range strings like 123:456, hyphenate like 123 - 456
+  string out = address;
+  size_t pos = 0;
+  while ((pos = out.find(":", pos)) != string::npos) {
+    out.replace(pos, 1, "\u2009\u2013\u2009"); // thin space + en-dash + thin space
+    break;
+  }
+  return out;
+}
+
 /*
 int8_t GetNameForSearchOnBooking(RegionData const & regionData, StringUtf8Multilang const & src, string & name)
 {

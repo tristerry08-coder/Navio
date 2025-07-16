@@ -12,6 +12,7 @@
 #include "indexer/data_source.hpp"
 #include "indexer/feature_algo.hpp"
 #include "indexer/feature_data.hpp"
+#include "indexer/feature_utils.hpp"
 #include "indexer/ftypes_matcher.hpp"
 #include "indexer/road_shields_parser.hpp"
 #include "indexer/search_string_utils.hpp"
@@ -304,7 +305,7 @@ ftypes::LocalityType GetLocalityIndex(feature::TypesHolder const & types)
 // TODO: Format street and house number according to local country's rules.
 string FormatStreetAndHouse(ReverseGeocoder::Address const & addr)
 {
-  return addr.GetStreetName() + ", " + addr.GetHouseNumber();
+  return addr.GetStreetName() + ", " + feature::GetReadableAddress(addr.GetHouseNumber());
 }
 
 // TODO: Share common formatting code for search results and place page.
@@ -512,7 +513,7 @@ private:
         {
           string streetName;
           m_ranker.GetBestMatchName(*streetFeature, streetName);
-          name = streetName + ", " + addr.GetHouseNumber();
+          name = streetName + ", " + feature::GetReadableAddress(addr.GetHouseNumber());
         }
       }
     }

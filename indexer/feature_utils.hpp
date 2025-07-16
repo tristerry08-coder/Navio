@@ -121,6 +121,9 @@ namespace feature
   /// - country language name.
   void GetReadableName(NameParamsIn const & in, NameParamsOut & out);
 
+  /// Format house numbers etc to be more human-readable instead of using symbols like 123:456
+  std::string const GetReadableAddress(std::string const & address);
+
   /// Returns language id as return result and name for search on booking in the @name parameter,
   ///  the priority is the following:
   /// - default name;

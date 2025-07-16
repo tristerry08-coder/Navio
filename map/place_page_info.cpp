@@ -51,7 +51,7 @@ void Info::SetFromFeatureType(FeatureType & ft)
   bool emptyTitle = false;
 
   m_primaryFeatureName = out.GetPrimary();
-  m_uiAddress = m_address;
+  m_uiAddress = feature::GetReadableAddress(m_address);
 
   if (IsBookmark())
   {
