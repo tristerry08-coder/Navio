@@ -2,7 +2,7 @@ import SwiftUI
 
 /// View for the routing options
 struct RoutingOptionsView: View {
-    // MARK: - Properties
+    // MARK: Properties
     
     /// The dismiss action of the environment
     @Environment(\.dismiss) private var dismiss

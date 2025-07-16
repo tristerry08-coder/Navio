@@ -2,7 +2,7 @@ import SwiftUI
 
 /// View for the OpenStreetMap profile
 struct ProfileView: View {
-    // MARK: - Properties
+    // MARK: Properties
     
     /// The dismiss action of the environment
     @Environment(\.dismiss) private var dismiss
@@ -26,32 +26,30 @@ struct ProfileView: View {
     
     /// The actual view
     var body: some View {
-        NavigationView {
-            VStack(spacing: 0) {
-                if isPresentedAsAlert {
-                    Button {
-                        dismiss()
-                    } label: {
-                        Label {
-                            Text("close")
-                        } icon: {
-                            Image(systemName: "xmark.circle.fill")
-                                .font(.title)
-                        }
+        VStack(spacing: 0) {
+            if isPresentedAsAlert {
+                Button {
+                    dismiss()
+                } label: {
+                    Label {
+                        Text("close")
+                    } icon: {
+                        Image(systemName: "xmark.circle.fill")
+                            .font(.title)
                     }
-                    .labelStyle(.iconOnly)
-                    .buttonStyle(PlainButtonStyle())
-                    .foregroundStyle(.primary)
-                    .padding([.top, .leading, .trailing])
-                    .frame(maxWidth: .infinity, alignment: .trailing)
-                    .background(Color(uiColor: .systemGroupedBackground))
                 }
-                
-                if Profile.isExisting {
-                    ExistingProfileView(lastUpdated: $lastUpdated, isPresentedAsAlert: isPresentedAsAlert)
-                } else {
-                    NoExistingProfileView()
-                }
+                .labelStyle(.iconOnly)
+                .buttonStyle(PlainButtonStyle())
+                .foregroundStyle(.primary)
+                .padding([.top, .leading, .trailing])
+                .frame(maxWidth: .infinity, alignment: .trailing)
+                .background(Color(uiColor: .systemGroupedBackground))
+            }
+            
+            if Profile.isExisting {
+                ExistingProfileView(lastUpdated: $lastUpdated, isPresentedAsAlert: isPresentedAsAlert)
+            } else {
+                NoExistingProfileView()
             }
         }
         .accentColor(.accent)
@@ -64,7 +62,11 @@ struct ProfileView: View {
                         Profile.logout()
                         lastUpdated = Date.now
                     } label: {
-                        Label("osm_profile_logout", systemImage: "rectangle.portrait.and.arrow.forward")
+                        if #available(iOS 16, *) {
+                            Label("osm_profile_logout", systemImage: "rectangle.portrait.and.arrow.forward")
+                        } else {
+                            Label("osm_profile_logout", systemImage: "power")
+                        }
                     }
                 }
             }

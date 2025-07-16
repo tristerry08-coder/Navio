@@ -2,7 +2,7 @@ import SwiftUI
 
 /// View for the OpenStreetMapp profile
 struct NoExistingProfileView: View {
-    // MARK: - Properties
+    // MARK: Properties
     
     /// The open url action of the environment
     @Environment(\.openURL) private var openUrl

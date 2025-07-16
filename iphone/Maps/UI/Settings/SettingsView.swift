@@ -2,7 +2,7 @@ import SwiftUI
 
 /// View for the settings
 struct SettingsView: View {
-    // MARK: - Properties
+    // MARK: Properties
     
     /// The dismiss action of the environment
     @Environment(\.dismiss) private var dismiss
@@ -235,7 +235,7 @@ struct SettingsView: View {
                     Text("enable_logging_warning_message")
                 }
             }
-            .navigationTitle(String(localized: "settings"))
+            .navigationTitle("settings")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {

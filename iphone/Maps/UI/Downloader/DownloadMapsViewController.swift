@@ -25,7 +25,7 @@ class DownloadMapsViewController: MWMViewController {
   @IBOutlet var noMapsContainer: UIView!
   @IBOutlet var downloadAllViewContainer: UIView!
 
-  // MARK: - Properties
+  // MARK: Properties
 
   private var searchController = UISearchController(searchResultsController: nil)
   var dataSource: IDownloaderDataSource!

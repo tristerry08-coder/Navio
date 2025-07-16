@@ -19,15 +19,15 @@ extension Settings {
         var description: String {
             switch self {
                 case .hidden:
-                    return L("disabled")
+                    return String(localized: "disabled")
                 case .help:
-                    return L("help")
+                    return String(localized: "help")
                 case .addPlace:
-                    return L("placepage_add_place_button")
+                    return String(localized: "placepage_add_place_button")
                 case .settings:
-                    return L("settings")
+                    return String(localized: "settings")
                 case .recordTrack:
-                    return L("start_track_recording")
+                    return String(localized: "start_track_recording")
             }
         }
         
