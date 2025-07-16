@@ -969,7 +969,7 @@ void Storage::RegisterLocalFile(platform::LocalCountryFile const & localFile)
   /// Funny, but ptr->GetCountryFile() has valid name only. Size and sha1 are not initialized.
   /// @todo Store only name (CountryId) in LocalCountryFile instead of CountryFile?
   if (m_currentVersion == ptr->GetVersion() && size != GetCountryFile(countryId).GetRemoteSize())
-    LOG(LERROR, ("Inconsistent MWM and version for", *ptr));
+    LOG(LWARNING, ("Inconsistent MWM and version for", *ptr));
 }
 
 void Storage::DeleteCountryFiles(CountryId const & countryId, MapFileType type, bool deferredDelete)
