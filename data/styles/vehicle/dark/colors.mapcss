@@ -64,6 +64,7 @@
 @hospital: #261916;
 */
 @industrial: #0D0A0D;
+@construction_area: #0D0A0D;
 @sport: #070F0A;
 @military: #B71C1C;
 @prison: #7f7f7f;

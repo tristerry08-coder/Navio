@@ -300,7 +300,6 @@ area|z15-[amenity=parking],
 
 area|z15-[landuse=industrial],
 area|z15-[man_made=works],
-area|z15-[landuse=construction],
 area|z15-[landuse=landfill],
 area|z15-[amenity=waste_transfer_station],
 area|z15-[landuse=railway],
@@ -310,6 +309,8 @@ area|z15-[power=substation],
 area|z15-[power=generator],
 {fill-opacity: 1; fill-color: @industrial;}
 
+area|z15-[landuse=construction],
+{fill-opacity: 1; fill-color: @construction_area;}
 
 /* 7.2 Hospital */
 

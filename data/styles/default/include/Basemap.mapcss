@@ -384,7 +384,6 @@ area|z16-[railway=platform],
 
 area|z13-[landuse=industrial],
 area|z13-[man_made=works],
-area|z13-[landuse=construction],
 area|z13-[landuse=landfill],
 area|z13-[amenity=waste_transfer_station],
 area|z13-[landuse=railway],
@@ -393,6 +392,9 @@ area|z13-[power=plant],
 area|z13-[power=substation],
 area|z13-[power=generator],
 {fill-opacity: 1; fill-color: @industrial;}
+
+area|z13-[landuse=construction],
+{fill-opacity: 1; fill-color: @construction_area;}
 
 /* 7.2 Hospital */
 

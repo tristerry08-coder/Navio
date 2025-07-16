@@ -96,6 +96,7 @@
 @retail: #130C11;
 @hospital: #261916;
 @industrial: #191419;
+@construction_area: #191419;
 @sport0: #21211B;
 @sport1: #262620;
 @sport2: #2A2A24;

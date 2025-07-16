@@ -101,6 +101,7 @@
 @hospital: #F8D9D9;
 */
 @industrial: #E1DCE3;
+@construction_area: #E4E3E6;
 @sport: #C8DBAD;
 @parking: #E8EFEC;
 @parking_l: #E1EDE9;
