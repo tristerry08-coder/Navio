@@ -70,7 +70,7 @@ While we strive to help onboard new developers we don't have enough time to guid
 Please help us:
 - processing users questions and feedback in chats, app stores, email and social media and creating follow-up issues or updating existing ones
 - reproducing and triaging reported bugs
-- testing upcoming features and bug fixes for Android, iOS and desktop versions
+- [testing upcoming features and bug fixes for Android, iOS and desktop versions](TESTING.md)
 - keeping [issues](https://codeberg.org/comaps/comaps/issues) in order (check for duplicates, organize, assign labels, link related issues, etc.)
 - composing nice user-centric release notes and news items
 - etc.
