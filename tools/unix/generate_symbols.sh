@@ -20,27 +20,16 @@ export PYTHONDONTWRITEBYTECODE=1
 # Add env var to disable renderer on a display (renderer not working into a Github container)
 export QT_QPA_PLATFORM=offscreen
 
+BINARY_NAME=skin_generator_tool
 OMIM_PATH="${OMIM_PATH:-$(cd "$(dirname "$0")/../.."; pwd)}"
-OUT_PATH="$OMIM_PATH/out/release"
-SKIN_GENERATOR="${SKIN_GENERATOR:-$OUT_PATH/skin_generator_tool}"
+BUILD_DIR="$OMIM_PATH/build"
+SKIN_GENERATOR="${SKIN_GENERATOR:-$BUILD_DIR/$BINARY_NAME}"
 DATA_PATH="$OMIM_PATH/data"
 
-# If skin_generator does not exist then build it
-if [ ! -f "$SKIN_GENERATOR" ];
-then
-  source "$OMIM_PATH/tools/autobuild/detect_cmake.sh"
-  # OS-specific parameters
-  if [ "$(uname -s)" == "Darwin" ]; then
-    PROCESSES=$(sysctl -n hw.ncpu)
-  else
-    PROCESSES=$(nproc)
-  fi
-  mkdir -p "$OUT_PATH"
-  pushd "$OUT_PATH" > /dev/null
-  "$CMAKE" "$OMIM_PATH" -DSKIP_TESTS:bool=true
-  make skin_generator_tool -j$PROCESSES
-  popd > /dev/null
-fi
+# cmake rebuilds skin generator binary if necessary.
+cmake -S "$OMIM_PATH" -B "$BUILD_DIR" -G Ninja -DCMAKE_BUILD_TYPE=Release -DSKIP_TESTS:bool=true
+cmake --build "$BUILD_DIR" --target "$BINARY_NAME"
+
 
 # Helper function to build skin
 # Parameter $1 - style type (default)
