@@ -135,6 +135,16 @@ final class TrackRecordingManager: NSObject {
       completion?(.failure(error))
     }
   }
+    
+  func stop(completion: ((StopTrackRecordingResult) -> Void)? = nil) {
+    unsubscribeFromTrackRecordingProgressUpdates()
+    trackRecorder.stopTrackRecording()
+    trackRecordingInfo = .empty()
+    activityManager?.stop()
+    notifyObservers()
+
+    completion?(.trackIsEmpty)
+  }
 
   func stopAndSave(withName name: String = "", completion: ((StopTrackRecordingResult) -> Void)? = nil) {
     unsubscribeFromTrackRecordingProgressUpdates()

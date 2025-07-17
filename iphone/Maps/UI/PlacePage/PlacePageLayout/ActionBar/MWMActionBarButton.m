@@ -21,6 +21,8 @@ NSString *titleForButton(MWMActionBarButtonType type, BOOL isSelected) {
       return L(isSelected ? @"delete" : @"save");
     case MWMActionBarButtonTypeSaveTrackRecording:
       return L(@"save");
+    case MWMActionBarButtonTypeNotSaveTrackRecording:
+      return L(@"delete");
     case MWMActionBarButtonTypeRouteFrom:
       return L(@"p2p_from_here");
     case MWMActionBarButtonTypeRouteTo:
@@ -113,6 +115,10 @@ NSString *titleForButton(MWMActionBarButtonType type, BOOL isSelected) {
       break;
     case MWMActionBarButtonTypeSaveTrackRecording:
       [self.button setImage:[UIImage imageNamed:@"ic_placepage_save_track_recording"] forState:UIControlStateNormal];
+      break;
+    case MWMActionBarButtonTypeNotSaveTrackRecording:
+      [self.button setImage:[UIImage systemImageNamed:@"trash.fill" withConfiguration:[UIImageSymbolConfiguration configurationWithPointSize:22 weight:UIImageSymbolWeightSemibold]] forState:UIControlStateNormal];
+      self.button.coloring = MWMButtonColoringRed;
       break;
     case MWMActionBarButtonTypeRouteFrom:
       [self.button setImage:[UIImage imageNamed:@"ic_route_from"] forState:UIControlStateNormal];
