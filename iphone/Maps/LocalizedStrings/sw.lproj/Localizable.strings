@@ -256,11 +256,8 @@
 "social_mastodon" = "Mastodon";
 "social_lemmy" = "Lemmy";
 "social_matrix" = "Matrix";
-"social_telegram" = "Telegram";
-"social_instagram" = "Instagram";
 "social_bluesky" = "Bluesky";
-"social_linkedin" = "LinkedIn";
-"social_facebook" = "Facebook";
+"social_pixelfed" = "Pixelfed";
 "social_email" = "Barua pepe";
 
 /* Text in the editor */
@@ -942,12 +939,6 @@
 
 /* edit track screen title */
 "track_title" = "Track";
-
-/* Telegram group url for the "?" About page */
-"telegram_url" = "https://t.me/CoMapsApp/";
-
-/* Instagram account url for the "?" About page */
-"instagram_url" = "https://www.instagram.com/comaps.app/";
 
 /* Translated CoMaps site */
 "translated_om_site_url" = "https://www.comaps.app/";

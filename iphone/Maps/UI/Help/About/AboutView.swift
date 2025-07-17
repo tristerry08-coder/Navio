@@ -144,6 +144,7 @@ struct AboutView: View {
                                     .aspectRatio(contentMode: .fit)
                             }
                         }
+                        .tint(.alternativeAccent)
                     }
                 } header: {
                     Text("follow_us")
