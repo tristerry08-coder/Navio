@@ -55767,7 +55767,7 @@ cont {
       priority: -1810
     }
     symbol {
-      name: "pitch-m"
+      name: "sports_centre-m"
       priority: 1250
       min_distance: 10
     }
@@ -55788,7 +55788,7 @@ cont {
       priority: -1810
     }
     symbol {
-      name: "pitch-m"
+      name: "sports_centre-m"
       priority: 1250
       min_distance: 10
     }
@@ -55809,7 +55809,7 @@ cont {
       priority: -1810
     }
     symbol {
-      name: "pitch-m"
+      name: "sports_centre-m"
       priority: 1250
       min_distance: 10
     }
@@ -55830,7 +55830,7 @@ cont {
       priority: -1810
     }
     symbol {
-      name: "pitch-m"
+      name: "sports_centre-m"
       priority: 1250
       min_distance: 10
     }
@@ -55850,7 +55850,7 @@ cont {
   element {
     scale: 17
     symbol {
-      name: "pitch-m"
+      name: "sports_centre-m"
       priority: 1250
       min_distance: 10
     }
@@ -55867,7 +55867,7 @@ cont {
   element {
     scale: 18
     symbol {
-      name: "pitch-m"
+      name: "sports_centre-m"
       priority: 1250
       min_distance: 10
     }
@@ -55884,7 +55884,7 @@ cont {
   element {
     scale: 19
     symbol {
-      name: "pitch-m"
+      name: "sports_centre-m"
       priority: 1250
       min_distance: 10
     }
@@ -55901,7 +55901,7 @@ cont {
   element {
     scale: 20
     symbol {
-      name: "pitch-m"
+      name: "sports_centre-m"
       priority: 1250
       min_distance: 10
     }
