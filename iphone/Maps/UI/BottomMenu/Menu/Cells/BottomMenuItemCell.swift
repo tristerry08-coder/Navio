@@ -17,7 +17,17 @@ class BottomMenuItemCell: UITableViewCell {
   private(set) var isEnabled: Bool = true
 
   func configure(imageName: String, title: String, badgeCount: UInt = .zero, enabled: Bool = true) {
-    icon.image = UIImage(named: imageName)
+    if imageName == "help" {
+      icon.image = Settings.LeftButtonType.help.image
+    } else if imageName == "plus" {
+      icon.image = Settings.LeftButtonType.addPlace.image
+    } else if imageName == "track_recorder_inactive" || imageName == "track_recorder_active" || imageName == "ic_menu_download" || imageName == "ic_menu_donate" {
+      icon.image = UIImage(named: imageName)
+    } else {
+      let configuration = UIImage.SymbolConfiguration(pointSize: 22, weight: .semibold)
+      icon.image = UIImage(systemName: imageName, withConfiguration: configuration)!
+    }
+    
     label.text = title
     badgeBackground.isHidden = badgeCount == 0
     badgeCountLabel.text = "\(badgeCount)"

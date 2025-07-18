@@ -8,10 +8,11 @@ class BottomMenuPresenter: NSObject {
   enum CellType: Int, CaseIterable {
     case addPlace
     case recordTrack
-    case downloadMaps
-    case donate
-    case settings
     case share
+    case donate
+    case downloadMaps
+    case settings
+    case help
   }
 
   enum Sections: Int {
@@ -22,7 +23,7 @@ class BottomMenuPresenter: NSObject {
   private weak var view: BottomMenuViewProtocol?
   private let interactor: BottomMenuInteractorProtocol
   private let sections: [Sections]
-  private let menuCells: [CellType]
+  private var menuCells: [CellType]
   private let trackRecorder = TrackRecordingManager.shared
   private var cellToHighlight: CellType?
 
@@ -32,8 +33,7 @@ class BottomMenuPresenter: NSObject {
     self.view = view
     self.interactor = interactor
     self.sections = sections
-    let disableDonate = SettingsBridge.donateUrl() == nil
-    self.menuCells = CellType.allCases.filter { disableDonate ? $0 != .donate : true }
+    self.menuCells = []
     self.cellToHighlight = Self.getCellToHighlight()
     super.init()
   }
@@ -78,6 +78,22 @@ extension BottomMenuPresenter {
     case .layers:
       return 1
     case .items:
+      let leftButtonType = Settings.leftButtonType
+      menuCells = CellType.allCases.filter { cell in
+        if cell == .donate {
+          return false
+        } else if leftButtonType == .addPlace, cell == .addPlace {
+          return false
+        } else if leftButtonType == .recordTrack, cell == .recordTrack {
+          return false
+        } else if leftButtonType == .help, cell == .help {
+          return false
+        } else if leftButtonType == .settings, cell == .settings {
+          return false
+        }
+
+        return true
+      }
       return menuCells.count
     }
   }
@@ -96,7 +112,7 @@ extension BottomMenuPresenter {
       switch menuCells[indexPath.row] {
       case .addPlace:
         let enabled = MWMNavigationDashboardManager.shared().state == .hidden && FrameworkHelper.canEditMapAtViewportCenter()
-        cell.configure(imageName: "ic_add_place",
+        cell.configure(imageName: "plus",
                        title: L("placepage_add_place_button"),
                        enabled: enabled)
       case .recordTrack:
@@ -114,11 +130,14 @@ extension BottomMenuPresenter {
       case .donate:
         cell.configure(imageName: "ic_menu_donate",
                        title: L("donate"))
+      case .help:
+        cell.configure(imageName: "help",
+                       title: L("help"))
       case .settings:
-        cell.configure(imageName: "ic_menu_settings",
+        cell.configure(imageName: "gearshape.fill",
                        title: L("settings"))
       case .share:
-        cell.configure(imageName: "ic_menu_share",
+        cell.configure(imageName: "square.and.arrow.up",
                        title: L("share_my_location"))
       }
       return cell
@@ -151,6 +170,8 @@ extension BottomMenuPresenter {
         interactor.downloadMaps()
       case .donate:
         interactor.donate()
+      case .help:
+        interactor.openHelp()
       case .settings:
         interactor.openSettings()
       case .share:

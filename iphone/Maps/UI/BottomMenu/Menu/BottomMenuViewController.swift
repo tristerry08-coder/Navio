@@ -32,6 +32,12 @@ class BottomMenuViewController: MWMViewController {
     tableView.delegate = presenter
     tableView.registerNib(cell: BottomMenuItemCell.self)
     tableView.registerNib(cell: BottomMenuLayersCell.self)
+
+    NotificationCenter.default.addObserver(forName: UserDefaults.didChangeNotification, object: nil, queue: nil) { _ in
+      DispatchQueue.main.async {
+        self.tableView.reloadData()
+      }
+    }
   }
 
   override func viewDidAppear(_ animated: Bool) {

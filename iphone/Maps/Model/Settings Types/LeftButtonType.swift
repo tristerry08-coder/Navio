@@ -2,10 +2,10 @@ extension Settings {
     /// The type of the left bottom bar button
     enum LeftButtonType: String, Codable, CaseIterable, Identifiable {
         case hidden = "Hidden"
-        case help = "Help"
         case addPlace = "AddPlace"
-        case settings = "Settings"
         case recordTrack = "RecordTrack"
+        case settings = "Settings"
+        case help = "Help"
         
         
         
@@ -20,30 +20,30 @@ extension Settings {
             switch self {
                 case .hidden:
                     return String(localized: "disabled")
-                case .help:
-                    return String(localized: "help")
                 case .addPlace:
                     return String(localized: "placepage_add_place_button")
-                case .settings:
-                    return String(localized: "settings")
                 case .recordTrack:
                     return String(localized: "start_track_recording")
+                case .settings:
+                    return String(localized: "settings")
+                case .help:
+                    return String(localized: "help")
             }
         }
         
         
         /// The image
         var image: UIImage {
-            let configuration = UIImage.SymbolConfiguration(pointSize: 22, weight: .semibold)
+            let configuration = UIImage.SymbolConfiguration(pointSize: 24, weight: .semibold)
             switch self {
-                case .help:
-                    return UIImage(systemName: "questionmark", withConfiguration: configuration)!
                 case .addPlace:
                     return UIImage(systemName: "plus", withConfiguration: configuration)!
-                case .settings:
-                    return UIImage(systemName: "gearshape.fill", withConfiguration: configuration)!
                 case .recordTrack:
                     return UIImage.MainButtons.LeftButton.recordTrack.withConfiguration(configuration)
+                case .settings:
+                    return UIImage(systemName: "gearshape.fill", withConfiguration: UIImage.SymbolConfiguration(pointSize: 22, weight: .semibold))!
+                case .help:
+                    return UIImage(systemName: "info.circle", withConfiguration: configuration)!
                 default:
                     return UIImage()
             }

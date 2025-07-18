@@ -3,6 +3,7 @@ protocol BottomMenuInteractorProtocol: AnyObject {
   func addPlace()
   func downloadMaps()
   func donate()
+  func openHelp()
   func openSettings()
   func shareLocation(cell: BottomMenuItemCell)
   func toggleTrackRecording()
@@ -58,6 +59,11 @@ extension BottomMenuInteractor: BottomMenuInteractorProtocol {
   func downloadMaps() {
     close()
     delegate?.actionDownloadMaps(.downloaded)
+  }
+
+  func openHelp() {
+    close()
+    mapViewController?.openAbout()
   }
 
   func openSettings() {
