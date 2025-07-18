@@ -1,0 +1,243 @@
+name: map-generator
+on:
+  workflow_dispatch: # Manual trigger
+    inputs:
+      jobs:
+        description: 'Which job(s) to run right now?'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - copy-coasts
+          - planet
+          - wiki
+          - isolines
+          - subways
+          - maps
+
+env:
+  WIKIMEDIA_USERNAME: ${{ secrets.WIKIMEDIA_USERNAME }}
+  WIKIMEDIA_PASSWORD: ${{ secrets.WIKIMEDIA_PASSWORD }}
+  S3_KEY_ID: ${{ secrets.S3_KEY_ID }}
+  S3_SECRET_KEY: ${{ secrets.S3_SECRET_KEY }}
+  S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
+  S3_BUCKET: ${{ secrets.S3_BUCKET }}
+  SFTP_USER: ${{ secrets.SFTP_USER }}
+  SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
+  SFTP_HOST: ${{ secrets.SFTP_HOST }}
+  SFTP_PATH: ${{ secrets.SFTP_PATH }}
+  DEBIAN_FRONTEND: noninteractive
+  TZ: Etc/UTC 
+
+jobs:
+  copy-coasts:
+    if: inputs.jobs == 'copy-coasts' || inputs.jobs == 'all'
+    name: Copy Coasts
+    runs-on: mapfilemaker
+    container:
+      image: ubuntu:latest
+      volumes:
+        - /media/4tbexternal:/media/4tbexternal
+    concurrency:
+      group: ${{ github.workflow }}-map-generator-${{ github.event.pull_request.number || github.ref }}
+      cancel-in-progress: true
+    steps:
+      - name: Copy Coasts
+        shell: bash
+        run: |
+          cp /media/4tbexternal/osm-maps/*/intermediate_data/WorldCoasts.geom /media/4tbexternal/osm-planet/latest_coasts.geom
+          cp /media/4tbexternal/osm-maps/*/intermediate_data/WorldCoasts.rawgeom /media/4tbexternal/osm-planet/latest_coasts.rawgeom
+
+  update-planet:
+    if: inputs.jobs == 'planet' || inputs.jobs == 'all'
+    name: Update Planet
+    runs-on: mapfilemaker
+    container:
+      image: ubuntu:latest
+      volumes:
+        - /media/4tbexternal:/media/4tbexternal
+    concurrency:
+      group: ${{ github.workflow }}-map-generator-${{ github.event.pull_request.number || github.ref }}
+      cancel-in-progress: true
+    steps:
+      - name: Install dependencies
+        shell: bash
+        run: |
+          apt-get update -y
+          apt-get install -y pyosmium osmium-tool python3-venv
+      - name: Update Planet
+        shell: bash
+        run: |
+          cd /media/4tbexternal/osm-planet/planet/
+          pyosmium-up-to-date planet-latest.osm.pbf -o planet-latest-new.osm.pbf -vv --size 16384
+          mv planet-latest-new.osm.pbf planet-latest.osm.pbf
+
+  wiki-update:
+    if: inputs.jobs == 'wiki' || inputs.jobs == 'all'
+    name: Update Wikipedia
+    runs-on: mapfilemaker
+    container:
+      image: ubuntu:latest
+      volumes:
+        - /media/4tbexternal:/media/4tbexternal
+    concurrency:
+      group: ${{ github.workflow }}-map-generator-${{ github.event.pull_request.number || github.ref }}
+      cancel-in-progress: true
+    steps:
+      - name: Install dependencies
+        shell: bash
+        run: |
+          apt-get update -y
+          apt-get install -y jq curl wget2 rustc cargo
+      - name: Update Wikipedia from Enterprise API
+        shell: bash
+        run: |
+          cd /media/4tbexternal/wikiparser
+          ./download.sh /media/4tbexternal/osm-planet/wikipedia/dumps
+          ./run.sh /media/4tbexternal/osm-planet/wikipedia/build \
+          /media/4tbexternal/osm-planet/planet/planet-latest.osm.pbf \
+          /media/4tbexternal/osm-planet/wikipedia/dumps/latest/*.tar.gz
+
+  update-isolines:
+    if: inputs.jobs == 'isolines' || inputs.jobs == 'all'
+    name: Update Isolines
+    runs-on: mapfilemaker
+    container:
+      image: ubuntu:latest
+      volumes:
+        - /media/4tbexternal:/media/4tbexternal
+    concurrency:
+      group: ${{ github.workflow }}-map-generator-${{ github.event.pull_request.number || github.ref }}
+      cancel-in-progress: true
+    steps:
+      - name: Update Isolines
+        shell: bash
+        run: |
+          apt-get update -qq \
+          && apt-get install -y --no-install-recommends \
+          curl \
+          osmctools \
+          rclone \
+          openssh-client \
+          sshpass \
+          vim \
+          wget \
+          build-essential \
+          clang \
+          cmake \
+          python3 \
+          python3-pip \
+          python3.12-venv \
+          qt6-base-dev \
+          qt6-positioning-dev \
+          libc++-dev \
+          libfreetype-dev \
+          libglvnd-dev \
+          libgl1-mesa-dev \
+          libharfbuzz-dev \
+          libicu-dev \
+          libqt6svg6-dev \
+          libqt6positioning6-plugins \
+          libqt6positioning6 \
+          libsqlite3-dev \
+          libxrandr-dev \
+          libxinerama-dev \
+          libxcursor-dev \
+          libxi-dev \
+          zlib1g-dev
+          cd /media/4tbexternal/comaps-init/
+          ./tools/unix/build_omim.sh -R topography_generator_tool
+          rm -rf ../osm-planet/isolines/
+          mkdir ../osm-planet/isolines/
+          ../omim-build-relwithdebinfo/topography_generator_tool \
+          --profiles_path=./data/conf/isolines/isolines-profiles.json \
+          --countries_to_generate_path=./data/conf/isolines/countries-to-generate.json \
+          --tiles_isolines_out_dir=../osm-planet/isolines/tmp-tiles/ \
+          --countries_isolines_out_dir=../osm-planet/isolines/ \
+          --data_dir=./data/ \
+          --srtm_path=../osm-planet/SRTM-patched-europe/ \
+          --threads=22
+
+  update-subways:
+    if: inputs.jobs == 'subways' || inputs.jobs == 'all'
+    name: Update Subways
+    runs-on: mapfilemaker
+    container:
+      image: ubuntu:latest
+      volumes:
+        - /media/4tbexternal:/media/4tbexternal
+    concurrency:
+      group: ${{ github.workflow }}-map-generator-${{ github.event.pull_request.number || github.ref }}
+      cancel-in-progress: true
+    steps:
+      - name: Update Subways
+        shell: bash
+        run: |
+          apt-get update -qq \
+          && apt-get install -y --no-install-recommends \
+          curl osmctools osmium-tool python3-venv
+          cd /media/4tbexternal/comaps-init/
+          cp tools/unix/maps/settings.sh.prod tools/unix/maps/settings.sh
+          ./tools/unix/maps/generate_subways.sh
+
+  generate-maps:
+    if: inputs.jobs == 'maps' || inputs.jobs == 'all'
+    name: Generate Maps
+    runs-on: mapfilemaker
+    container:
+      image: ubuntu:latest
+      volumes:
+        - /media/4tbexternal:/media/4tbexternal
+      options: --ulimit nofile=262144:262144
+    concurrency:
+      group: ${{ github.workflow }}-map-generator-${{ github.event.pull_request.number || github.ref }}
+      cancel-in-progress: true
+    steps:
+      - name: Install dependencies
+        shell: bash
+        run: |
+          apt-get update -qq \
+          && apt-get install -y --no-install-recommends \
+          curl \
+          osmctools \
+          rclone \
+          openssh-client \
+          sshpass \
+          vim \
+          wget \
+          build-essential \
+          clang \
+          cmake \
+          ninja-build \
+          python3 \
+          python3-pip \
+          python3.12-venv \
+          qt6-base-dev \
+          qt6-positioning-dev \
+          libc++-dev \
+          libfreetype-dev \
+          libglvnd-dev \
+          libgl1-mesa-dev \
+          libharfbuzz-dev \
+          libicu-dev \
+          libqt6svg6-dev \
+          libqt6positioning6-plugins \
+          libqt6positioning6 \
+          libsqlite3-dev \
+          libxrandr-dev \
+          libxinerama-dev \
+          libxcursor-dev \
+          libxi-dev \
+          zlib1g-dev
+      - name: Symlink paths for repo scripts
+        shell: bash
+        run: |
+          ln -s /media/4tbexternal/comaps-init /root/OM/organicmaps
+          ln -s /media/4tbexternal/osm-planet /home/planet
+          ln -s /media/4tbexternal/osm-maps /root/OM/maps_build
+      - name: Run docker_maps_generator.sh
+        shell: bash
+        run: |
+          cd /root/OM/organicmaps
+          ./tools/unix/docker_maps_generator.sh
