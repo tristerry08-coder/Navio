@@ -43,16 +43,13 @@
 "country_status_download_failed" = "Помилка завантаження";
 
 /* Text in About screen */
-"about_headline" = "Безкоштовно для всіх, зроблене з любов'ю";
+"about_headline" = "Відкритий проєкт, що створюється спільнотою";
 
 /* Text in About screen */
-"about_proposition_1" = "Без реклами, без трекінгу, без стеження";
+"about_proposition_1" = "Офлайн, швидкий та простий у використанні";
 
 /* Text in About screen */
-"about_proposition_2" = "Не розряджає батарею, працює в автономному режимі";
-
-/* Text in About screen */
-"about_proposition_3" = "Швидкий, мінімалістичний, розроблений спільнотою";
+"about_proposition_2" = "Орієнтований на конфіденційність та без реклами";
 "close" = "Закрити";
 "download" = "Завантажити";
 
@@ -181,7 +178,7 @@
 "email" = "Ел. пошта";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Скопіювати до буфера обміну";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Скопійовано в буфер обміну: %@";
@@ -194,8 +191,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Версія CoMaps: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Версія %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Версія: %@ (%@)\nДані карти: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Маршрути";
@@ -277,7 +274,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "Електро́нна по́шта";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -545,8 +542,8 @@
 "add_opening_hours" = "Додати години роботи";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Дані OpenStreetMap, створені спільнотою, станом на %@. Дізнайтеся більше про те, як редагувати та оновлювати мапу на OpenStreetMap.org";
+"osm_mapdata" = "Дані карти з OpenStreetMap";
+"osm_mapdata_explanation %@" = "Дані карти, створені спільнотою, станом на *%@*. Дізнайтеся більше про те, як редагувати та оновлювати мапу на [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "Більше про OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Uk:Про_проект";
 
@@ -554,16 +551,16 @@
 "osm_profile" = "Профіль OpenStreetMap";
 "osm_profile_promt" = "Створіть обліковий запис OpenStreetMap або увійдіть до нього, щоб опублікувати свої редагування мапи для всього світу.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) - це громадський проект зі створення вільної та відкритої мапи. Це основне джерело картографічних даних в CoMaps і працює подібно до Вікіпедії. Ви можете додавати або редагувати місця, і вони стають доступними мільйонам користувачів по всьому світу. \nПриєднуйтесь до спільноти і допоможіть зробити мапу кращою для всіх!";
-"osm_profile_login" = "Увійдіть до OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Увійти до облікового запису OpenStreetMap";
+"osm_profile_reauthorize_promt" = "Обліковий запис OpenStreetMap було відключено від цієї програми";
+"osm_profile_reauthorize" = "Повторно підключитися до OpenStreetMap";
+"osm_profile_remove_promt" = "Якщо ви не можете або не хочете повторно підключити свій обліковий запис, ви можете просто Прибрати його з цієї програми";
+"osm_profile_remove" = "Прибрати обліковий запис OpenStreetMap";
 "osm_profile_register_promt" = "Не зареєстровані в OpenStreetMap?";
 "osm_profile_register" = "Зареєструватися";
 "osm_profile_verfied_changes" = "Виправлення, що ураховані";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Вийти з облікового запису OpenStreetMap";
+"osm_profile_delete" = "Видалити обліковий запис OpenStreetMap";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Остання вiдправка";
@@ -759,7 +756,7 @@
 "start_from_my_position" = "Почати з";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Збережено";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Будь ласка увійдіть в акаунт OpenStreetMap.org, щоб автоматично публікувати зміни до мапи. Подробиці за";
@@ -1104,3 +1101,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Маршрут порожній - нічого зберігати";
 "edit_track" = "Редагувати маршрут";
+"osm_profile_view_notes" = "Переглянути нотатки";
+"osm_profile_view_edit_history" = "Переглянути історію редагувань";

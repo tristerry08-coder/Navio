@@ -43,16 +43,10 @@
 "country_status_download_failed" = "دانلود با شکست مواجه شد";
 
 /* Text in About screen */
-"about_headline" = "رایگان برای همه ، ساخته شده با عشق";
+"about_proposition_1" = "آفلاین، سریع و آسان برای استفاده";
 
 /* Text in About screen */
-"about_proposition_1" = "بدون تبلیغات ، ردیابی ، جمع آوری داده ها";
-
-/* Text in About screen */
-"about_proposition_2" = "بدون تخلیه باتری، آفلاین کار می کند";
-
-/* Text in About screen */
-"about_proposition_3" = "سریع، مینیمالیستی، توسعه یافته توسط انجمن";
+"about_proposition_2" = "متمرکز بر حریم خصوصی و بدون تبلیغات";
 "close" = "بستن";
 "download" = "دانلود";
 
@@ -181,7 +175,7 @@
 "email" = "ایمیل";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "رونوشت در بریده‌دان";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "کپی در کلیپ‌برد: %@";
@@ -194,8 +188,8 @@
 
 /* Prints version number in About dialog */
 "version" = "نسخه CoMaps: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "نسخه %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "نسخه: %@ (%@)\nداده‌های نقشه: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "مسیر";
@@ -269,18 +263,18 @@
 
 /* Text in the about screen */
 "social_codeberg" = "Codeberg";
-"social_mastodon" = "Mastodon";
-"social_lemmy" = "Lemmy";
-"social_matrix" = "Matrix";
-"social_telegram" = "Telegram";
-"social_instagram" = "Instagram";
-"social_bluesky" = "Bluesky";
-"social_linkedin" = "LinkedIn";
+"social_mastodon" = "ماستودون";
+"social_lemmy" = "لمی";
+"social_matrix" = "ماتریس";
+"social_telegram" = "تلگرام";
+"social_instagram" = "اینستاگرام";
+"social_bluesky" = "بلواسکای";
+"social_linkedin" = "لینکدین";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "ایمیل";
 
 /* Text in the editor */
-"fediverse" = "Mastodon";
+"fediverse" = "ماستودون";
 
 /* Text in menu */
 "facebook" = "Facebook";
@@ -545,8 +539,8 @@
 "add_opening_hours" = "اضافه کردن ساعت بازگشایی";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "داده های OpenStreetMap ایجاد شده توسط انجمن از %@. درباره نحوه ویرایش و به روز رسانی نقشه در OpenStreetMap.org بیشتر بیاموزید";
+"osm_mapdata" = "داده‌های نقشه از OpenStreetMap";
+"osm_mapdata_explanation %@" = "داده های نقشه ایجاد شده توسط انجمن از *%@*. درباره نحوه ویرایش و به روز رسانی نقشه در [OpenStreetMap.org](https://openstreetmap.org) بیشتر بیاموزید.";
 "osm_more_about" = "در مورد OpenStreetMap بیشتر بدانید";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Fa:About_OpenStreetMap";
 
@@ -554,16 +548,16 @@
 "osm_profile" = "OpenStreetMap نمایه";
 "osm_profile_promt" = "یک حساب OpenStreetMap ایجاد کنید یا وارد شوید تا ویرایش های نقشه خود را در جهان منتشر کنید.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) یک پروژه اجتماعی برای ساخت یک نقشه رایگان و باز است. این منبع اصلی داده های نقشه در CoMaps است و مشابه ویکی پدیا کار می کند. می توانید مکان ها را اضافه یا ویرایش کنید تا در دسترس میلیون ها کاربر در سراسر جهان قرار گیرند. \nبه انجمن بپیوندید و به ایجاد نقشه بهتر برای همه کمک کنید!";
-"osm_profile_login" = "شوید OpenStreetMap وارد";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "ورود به حساب کاربری OpenStreetMap";
+"osm_profile_reauthorize_promt" = "اتصال حساب کاربری OpenStreetMap از این برنامه قطع شد";
+"osm_profile_reauthorize" = "اتصال مجدد به OpenStreetMap";
+"osm_profile_remove_promt" = "اگر نمی‌توانید یا نمی‌خواهید حساب کاربری خود را دوباره متصل کنید، می‌توانید آن را از این برنامه حذف کنید";
+"osm_profile_remove" = "حذف حافظه حساب کاربری OpenStreetMap از این برنامه";
 "osm_profile_register_promt" = "آیا حساب OpenStreetMap ندارید؟";
 "osm_profile_register" = "ثبت نام در OpenStreetMap";
 "osm_profile_verfied_changes" = "تغییرات تایید شد";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "خروج از حساب کاربری OpenStreetMap";
+"osm_profile_delete" = "حذف حساب کاربری OpenStreetMap";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "اخرین بروزرسانی";
@@ -759,7 +753,7 @@
 "start_from_my_position" = "شروع از";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "ذخیره شد";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "لطفاً به OpenStreetMap وارد شوید تا به طور خودکار تمام ویرایش های نقشه خود را آپلود کنید.";
@@ -1104,3 +1098,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "مسیر خالی است - چیزی برای ذخیره کردن وجود ندارد";
 "edit_track" = "ویرایش مسیر";
+"osm_profile_view_notes" = "مشاهده یادداشت‌ها";
+"osm_profile_view_edit_history" = "مشاهده تاریخچه ویرایش‌ها";

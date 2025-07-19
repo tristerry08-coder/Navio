@@ -43,16 +43,13 @@
 "country_status_download_failed" = "Laster ned mislyktes";
 
 /* Text in About screen */
-"about_headline" = "Gratis for alle, laget med kjærlighet";
+"about_headline" = "Åpent prosjekt drevet av felleskapet";
 
 /* Text in About screen */
-"about_proposition_1" = "Ingen annonser, ingen sporing, ingen datainnsamling";
+"about_proposition_1" = "Offline, raskt og brukervennlig";
 
 /* Text in About screen */
-"about_proposition_2" = "Ingen batterislitasje, fungerer offline";
-
-/* Text in About screen */
-"about_proposition_3" = "Rask, minimalistisk, utviklet av fellesskapet";
+"about_proposition_2" = "Personvernfokusert og annonsefritt";
 "close" = "Lukk";
 "download" = "Last ned";
 
@@ -181,7 +178,7 @@
 "email" = "E-post";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Kopier til utklippstavlen";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Kopiert til utklippstavlen: %@";
@@ -194,8 +191,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps versjon: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Versjon %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Versjon: %@ (%@)\nKartdata: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Ruter";
@@ -277,7 +274,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "E-post";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -545,8 +542,8 @@
 "add_opening_hours" = "Legg til åpningstider";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Fellesskapsopprettede OpenStreetMap-data fra %@. Les mer om hvordan du redigerer og oppdaterer kartet på OpenStreetMap.org.";
+"osm_mapdata" = "Kartdata fra OpenStreetMap";
+"osm_mapdata_explanation %@" = "Fellesskapsopprettede kartdata fra *%@*. Les mer om hvordan du redigerer og oppdaterer kartet på [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "Mer om OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/No:Hva_er_OpenStreetmap";
 
@@ -554,16 +551,16 @@
 "osm_profile" = "OpenStreetMap profil";
 "osm_profile_promt" = "Opprett en OpenStreetMap-konto eller logg inn for å publisere kartredigeringene dine til hele verden.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) er et fellesskapsprosjekt for å bygge et gratis og åpent kart. Det er hovedkilden til kartdata i CoMaps og fungerer på samme måte som Wikipedia. Du kan legge til eller redigere steder, og de blir tilgjengelige for millioner av brukere over hele verden. \nBli med i fellesskapet og bidra til å lage et bedre kart for alle!";
-"osm_profile_login" = "Logg på OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Logg inn på OpenStreetMap-konto";
+"osm_profile_reauthorize_promt" = "OpenStreetMap-kontoen ble koblet fra denne appen";
+"osm_profile_reauthorize" = "Koble til OpenStreetMap på nytt";
+"osm_profile_remove_promt" = "Hvis du ikke kan eller vil koble til kontoen din på nytt, kan du bare fjerne den fra denne appen";
+"osm_profile_remove" = "Fjern OpenStreetMap-konto";
 "osm_profile_register_promt" = "Har du ingen konto hos OpenStreetMap?";
 "osm_profile_register" = "Registrer deg på OpenStreetMap";
 "osm_profile_verfied_changes" = "Bekreftede endringer";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Logg ut av OpenStreetMap-konto";
+"osm_profile_delete" = "Slett OpenStreetMap-konto";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Siste opplasting";
@@ -759,7 +756,7 @@
 "start_from_my_position" = "Start fra";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Lagret";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Logg inn på OpenStreetMap for automatisk å laste opp alle kartredigeringene dine. Finn ut mer";
@@ -1104,3 +1101,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Ruten er tom - ingenting å lagre";
 "edit_track" = "Rediger ruten";
+"osm_profile_view_edit_history" = "Vis redigeringshistorikk";
+"osm_profile_view_notes" = "Vis merknader";

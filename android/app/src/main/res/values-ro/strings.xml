@@ -38,13 +38,11 @@
     <string name="try_again">Mai încearcă</string>
     <string name="about_menu_title">Despre CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Gratuit pentru toată lumea, făcut cu dragoste</string>
-    <!-- Text in About screen -->
     <string name="about_proposition_1">• Fără reclame, fără urmărire, fără colectare de date</string>
     <!-- Text in About screen -->
     <string name="about_proposition_2">• Nu consumă baterie, funcționează offline</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Rapid, minimalist, dezvoltat de comunitate</string>
+    <string name="about_proposition_3">• Offline, rapid și compact</string>
     <!-- Text in About screen -->
     <string name="about_developed_by_enthusiasts">Aplicație open-source creată de entuziaști și voluntari.</string>
     <!-- The button that opens system location settings -->
@@ -849,4 +847,5 @@
     <string name="panoramax">Imagine Panoramax</string>
     <string name="editor_line_social_network">LINE</string>
     <string name="app_site_url">https://comaps.app/</string>
+    <string name="saved">Salvat</string>
 </resources>

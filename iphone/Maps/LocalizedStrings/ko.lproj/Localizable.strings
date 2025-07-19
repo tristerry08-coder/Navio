@@ -43,16 +43,10 @@
 "country_status_download_failed" = "다운로드에 실패하였습니다";
 
 /* Text in About screen */
-"about_headline" = "사랑으로 만든 모든 사람에게 무료";
+"about_proposition_1" = "오프라인, 빠르고 사용하기 쉽습니다";
 
 /* Text in About screen */
-"about_proposition_1" = "광고 없음, 추적 없음, 데이터 수집 없음";
-
-/* Text in About screen */
-"about_proposition_2" = "배터리 소모 없음, 오프라인에서 작동";
-
-/* Text in About screen */
-"about_proposition_3" = "빠르고 미니멀한, 커뮤니티가 개발한";
+"about_proposition_2" = "개인 정보 보호에 중점을 두고 광고 없음";
 "close" = "닫기";
 "download" = "다운로드";
 
@@ -180,7 +174,7 @@
 "email" = "이메일";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "클립보드에 복사";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "클립보드에 복사됨: %@";
@@ -193,8 +187,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps 버전: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "버전 %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "버전: %@ (%@)\n지도 데이터: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "트랙";
@@ -268,18 +262,18 @@
 
 /* Text in the about screen */
 "social_codeberg" = "Codeberg";
-"social_mastodon" = "Mastodon";
-"social_lemmy" = "Lemmy";
+"social_mastodon" = "마스토돈";
+"social_lemmy" = "레미";
 "social_matrix" = "Matrix";
 "social_telegram" = "Telegram";
 "social_instagram" = "Instagram";
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "이메일";
 
 /* Text in the editor */
-"fediverse" = "Mastodon";
+"fediverse" = "마스토돈";
 
 /* Text in menu */
 "facebook" = "Facebook";
@@ -544,8 +538,8 @@
 "add_opening_hours" = "영업일 추가";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "커뮤니티에서 만든 오픈스트리트맵 데이터(%@ 기준). 지도를 편집하고 업데이트하는 방법에 대한 자세한 내용은 OpenStreetMap.org에서 확인하세요.";
+"osm_mapdata" = "OpenStreetMap의 지도 데이터";
+"osm_mapdata_explanation %@" = "커뮤니티에서 만든 지도 데이터(*%@* 기준). 지도를 편집하고 업데이트하는 방법에 대한 자세한 내용은 [OpenStreetMap.org](https://openstreetmap.org)에서 확인하세요.";
 "osm_more_about" = "OpenStreetMap 정보";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Ko:OpenStreetMap_소개";
 
@@ -553,16 +547,16 @@
 "osm_profile" = "OpenStreetMap 프로필";
 "osm_profile_promt" = "OpenStreetMap 계정을 만들거나 로그인하여 지도 편집 내용을 전 세계에 공개하세요.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM)은 무료 오픈스트리트맵을 구축하기 위한 커뮤니티 프로젝트입니다. CoMaps의 지도 데이터의 주요 소스이며 위키백과와 유사하게 작동합니다. 장소를 추가하거나 편집하면 전 세계 수백만 명의 사용자가 사용할 수 있습니다. \n커뮤니티에 참여하여 모두를 위한 더 나은 지도를 만드는 데 도움을 주세요!";
-"osm_profile_login" = "OpenStreetMap에 로그인";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "OpenStreetMap 계정 로그인";
+"osm_profile_reauthorize_promt" = "OpenStreetMap 계정이 이 앱에서 연결 해제되었습니다";
+"osm_profile_reauthorize" = "OpenStreetMap에 다시 연결";
+"osm_profile_remove_promt" = "계정을 다시 연결할 수 없거나 원하지 않는 경우, 이 앱에서 계정을 제거할 수 있습니다";
+"osm_profile_remove" = "OpenStreetMap 계정 제거";
 "osm_profile_register_promt" = "OpenStreetMap에서 계정이 없습니까?";
 "osm_profile_register" = "OpenStreetMap에 등록하세요";
 "osm_profile_verfied_changes" = "변경사항 승인";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "OpenStreetMap 계정 로그아웃";
+"osm_profile_delete" = "OpenStreetMap 계정 삭제";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "마지막 업로드";
@@ -758,7 +752,7 @@
 "start_from_my_position" = "시작 위치:";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "저장됨";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "모든 지도 편집 내용을 자동으로 업로드하려면 오픈스트리트맵에 로그인하세요. 자세히 알아보기";
@@ -1103,3 +1097,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "경로가 비어 있음 - 저장할 항목이 없음";
 "edit_track" = "경로 편집";
+"osm_profile_view_notes" = "참고 보기";
+"osm_profile_view_edit_history" = "편집 기록 보기";

@@ -43,16 +43,10 @@
 "country_status_download_failed" = "Изтеглянето се провали";
 
 /* Text in About screen */
-"about_headline" = "Безплатно за всички, направени с любов";
+"about_proposition_1" = "Офлайн, бърз и лесен за използване";
 
 /* Text in About screen */
-"about_proposition_1" = "Без реклами, без проследяване, без събиране на данни";
-
-/* Text in About screen */
-"about_proposition_2" = "Без източване на батерията, работи офлайн";
-
-/* Text in About screen */
-"about_proposition_3" = "Бърз, прост, разработен от общността";
+"about_proposition_2" = "Фокус върху поверителността и без реклами";
 "close" = "Затваряне";
 "download" = "Изтегляне";
 
@@ -181,7 +175,7 @@
 "email" = "Имейл";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Копиране в клипборда";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Копирано в клипборда: %@";
@@ -194,8 +188,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Версия на CoMaps: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Версия %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Версия: %@ (%@)\nКартографски данни: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Пътеки";
@@ -277,7 +271,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "Е-поща";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -545,8 +539,8 @@
 "add_opening_hours" = "Добавяне на работно време";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Създадени от общността данни от OpenStreetMap към %@. Научете повече за това как да редактирате и актуализирате картата в OpenStreetMap.org";
+"osm_mapdata" = "Картографски данни от OpenStreetMap";
+"osm_mapdata_explanation %@" = "Създадени от общността данни от картата към *%@*. Научете повече за това как да редактирате и актуализирате картата в [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "Повече за OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Bg:About_OpenStreetMap";
 
@@ -554,16 +548,16 @@
 "osm_profile" = "Профил в OpenStreetMap";
 "osm_profile_promt" = "Създайте акаунт в OpenStreetMap или влезте в него, за да публикувате своите редакции на картата в света.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) е общностен проект за създаване на безплатна и отворена карта. Той е основният източник на картографски данни в CoMaps и работи подобно на Wikipedia. Можете да добавяте или редактирате места и те стават достъпни за милиони потребители по целия свят. \nПрисъединете се към общността и помогнете за създаването на по-добра карта за всички!";
-"osm_profile_login" = "Влезте в OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Влизане в акаунт в OpenStreetMap";
+"osm_profile_reauthorize_promt" = "Акаунтът в OpenStreetMap е прекъснат от това приложение";
+"osm_profile_reauthorize" = "Свързване отново с OpenStreetMap";
+"osm_profile_remove_promt" = "Ако не можете или не искате да свържете отново акаунта си, можете просто да го премахнете от това приложение";
+"osm_profile_remove" = "Премахване на акаунт в OpenStreetMap";
 "osm_profile_register_promt" = "Нямате акаунт в OpenStreetMap?";
 "osm_profile_register" = "Регистриране в OpenStreetMap";
 "osm_profile_verfied_changes" = "Потвърдени промени";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Излизане от акаунт в OpenStreetMap";
+"osm_profile_delete" = "Изтриване на акаунт в OpenStreetMap";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Последно качване";
@@ -759,7 +753,7 @@
 "start_from_my_position" = "Start from";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Запазено";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Моля, влезте в OpenStreetMap, за да качвате автоматично всичките си редакции на картата. Научете повече";
@@ -1104,3 +1098,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Маршрутът е празен - няма какво да запазвате";
 "edit_track" = "Редактиране на маршрут";
+"osm_profile_view_notes" = "Преглед на бележки";
+"osm_profile_view_edit_history" = "Преглед на историята на промените";

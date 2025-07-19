@@ -43,16 +43,13 @@
 "country_status_download_failed" = "Преузимање није успело";
 
 /* Text in About screen */
-"about_headline" = "Слободна за све, направљена с љубављу";
+"about_proposition_1" = "Офлајн, брзо и једноставно за коришћење";
 
 /* Text in About screen */
-"about_proposition_1" = "Без реклама, без праћења, без сакупљања података";
+"about_proposition_2" = "Фокусирано на приватност и без огласа";
 
 /* Text in About screen */
-"about_proposition_2" = "Без непотребне потрошње батерије, ради и без интернета";
-
-/* Text in About screen */
-"about_proposition_3" = "Брза, минималистичка, направљена од стране заједнице";
+"about_proposition_3" = "Транспарентно и непрофитно";
 "close" = "Затвори";
 "download" = "Преузми";
 
@@ -181,7 +178,7 @@
 "email" = "Email";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Копирај у клипборд";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Копирано у клипборд: %@";
@@ -194,8 +191,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps верзија: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Верзија %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Верзија: %@ (%@)\nПодаци мапе: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Путање";
@@ -277,7 +274,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "Е-пошта";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -545,8 +542,8 @@
 "add_opening_hours" = "Додај радно време";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Подаци са OpenStreetMap-а које је креирала заједница до %@. Научите више о томе како да мењате и ажурирате мапу на OpenStreetMap.org";
+"osm_mapdata" = "Подаци мапе из OpenStreetMap-а";
+"osm_mapdata_explanation %@" = "Подаци мапе које је креирала заједница до *%@*. Научите више о томе како да мењате и ажурирате мапу на [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "Више о OpenStreetMap-у";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 
@@ -554,16 +551,16 @@
 "osm_profile" = "OpenStreetMap профил";
 "osm_profile_promt" = "Пријавите се на openstreetmap.org да бисте објавили ваше промене остатку света.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) је пројекат заједнице који има за циљ прављење бесплатне, слободне и отворене мапе. OSM је главни извор података за мапе у CoMaps-у и функционише на сличан начин као Википедија. Можете додати или променити места и ваше промене постају видљиве милионима корисника широм света. \nПридружите се заједници и помозите да направимо бољу мапу која је доступна свима!";
-"osm_profile_login" = "Пријава на OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Пријави се на OpenStreetMap налог";
+"osm_profile_reauthorize_promt" = "OpenStreetMap налог је искључен из ове апликације";
+"osm_profile_reauthorize" = "Поново се повежи са OpenStreetMap-ом";
+"osm_profile_remove_promt" = "Ако не можете или не желите поново да повежете свој налог, можете га једноставно уклонити из ове апликације";
+"osm_profile_remove" = "Уклони OpenStreetMap налог";
 "osm_profile_register_promt" = "Немате OpenStreetMap налог?";
 "osm_profile_register" = "Региструјте се на OpenStreetMap-у";
 "osm_profile_verfied_changes" = "Верификоване промене";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Одјави се са OpenStreetMap налога";
+"osm_profile_delete" = "Избриши OpenStreetMap налог";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Последње слање";
@@ -759,7 +756,7 @@
 "start_from_my_position" = "Крени од";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Сачувано";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Молим вас да се улогујете на OpenStreetMap да бисте аутоматски послали све ваше промене на мапи. Сазнајте више";
@@ -1105,4 +1102,4 @@
 "track_recording_toast_nothing_to_save" = "Путања је празна, нема шта да се сачува";
 "edit_track" = "Измените путању";
 "osm_profile_view_notes" = "Погледајте белешке";
-"osm_profile_view_edit_history" = "Погледајте историју уређивања";
+"osm_profile_view_edit_history" = "Погледајте историју измена";

@@ -46,13 +46,10 @@
 "about_headline" = "Hər kəs üçün ödənişsiz və sevgi ilə hazırlanmış xəritə";
 
 /* Text in About screen */
-"about_proposition_1" = "Reklam yoxdur, izləmə yoxdur, məlumatların toplanması yoxdur";
+"about_proposition_1" = "Oflayn, sürətli və istifadəsi asan";
 
 /* Text in About screen */
-"about_proposition_2" = "Batareyanın boşalması yoxdur, oflayn işləyir";
-
-/* Text in About screen */
-"about_proposition_3" = "Sürətli, minimalist, icma tərəfindən hazırlanmışdır";
+"about_proposition_2" = "Məxfiliyə yönəlmiş və reklamsız";
 "close" = "Yaxın";
 "download" = "Yüklə";
 
@@ -181,7 +178,7 @@
 "email" = "E-poçt";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Buferə kopyalayın";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Buferə kopyalandı: %@";
@@ -194,8 +191,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps versiyası: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Versiya %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Versiya: %@ (%@)\nXəritə Data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Marşrutlari";
@@ -277,7 +274,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "Elektron poçt";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -545,8 +542,8 @@
 "add_opening_hours" = "Açılış saatlarını əlavə edin";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "%@ tarixinə icma tərəfindən yaradılmış OpenStreetMap datası. OpenStreetMap.org saytında xəritəni necə redaktə etmək və yeniləmək haqqında ətraflı məlumat əldə edin";
+"osm_mapdata" = "OpenStreetMap-dan xəritə məlumatları";
+"osm_mapdata_explanation %@" = "*%@* tarixinə icma tərəfindən yaradılmış xəritə məlumatları. [OpenStreetMap.org](https://openstreetmap.org) saytında xəritəni necə redaktə etmək və yeniləmək haqqında ətraflı məlumat əldə edin.";
 "osm_more_about" = "OpenStreetMap haqqında əlavə məlumat";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Az:Layihə_haqqında";
 
@@ -554,16 +551,16 @@
 "osm_profile" = "OpenStreetMap profili";
 "osm_profile_promt" = "OpenStreetMap hesabı yaradın və ya xəritə redaktələrinizi dünyada dərc etmək üçün daxil olun.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) pulsuz və açıq xəritə yaratmaq üçün icma layihəsidir. O, CoMaps xəritə məlumatlarının əsas mənbəyidir və Vikipediyaya oxşar işləyir. Siz yerlər əlavə edə və ya redaktə edə bilərsiniz və onlar bütün dünyada milyonlarla istifadəçi üçün əlçatan olur. \nİcmaya qoşulun və hər kəs üçün daha yaxşı xəritə yaratmağa kömək edin!";
-"osm_profile_login" = "OpenStreetMap-a daxil olun";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "OpenStreetMap hesabına daxil olun";
+"osm_profile_reauthorize_promt" = "OpenStreetMap hesabının bu proqramla əlaqəsi kəsildi";
+"osm_profile_reauthorize" = "OpenStreetMap ilə yenidən əlaqə qurun";
+"osm_profile_remove_promt" = "Hesabınızı yenidən qoşa bilmirsinizsə və ya istəmirsinizsə, onu bu proqramdan silə bilərsiniz";
+"osm_profile_remove" = "OpenStreetMap hesabını bu proqramdan silin";
 "osm_profile_register_promt" = "OpenStreetMap hesabınız yoxdur?";
 "osm_profile_register" = "OpenStreetMap üçün qeydiyyatdan keçin";
 "osm_profile_verfied_changes" = "Təsdiqlənmiş Dəyişikliklər";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "OpenStreetMap hesabından çıxın";
+"osm_profile_delete" = "OpenStreetMap hesabını silin";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Son yükləmə";
@@ -759,7 +756,7 @@
 "start_from_my_position" = "Buradan başlayın";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Saxlandı";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Bütün xəritə redaktələrinizi avtomatik yükləmək üçün OpenStreetMap-a daxil olun";
@@ -1080,3 +1077,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Marşrut boşdur - saxlamaq üçün heç nə yoxdur";
 "edit_track" = "Marşrutu redaktə edin";
+"osm_profile_view_edit_history" = "Redaktə tarixçəsinə baxın";
+"osm_profile_view_notes" = "Qeydlərə baxın";

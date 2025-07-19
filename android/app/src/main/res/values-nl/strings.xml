@@ -916,4 +916,7 @@
     <string name="panoramax">Panoramax-afbeelding</string>
     <string name="pref_backup_location_summary_initial">Selecteer eerst een map en geef toestemming</string>
     <string name="pref_left_button_title">Linkerknop configuratie</string>
+    <string name="open_now">Nu open</string>
+    <string name="closed_now">Nu gesloten</string>
+    <string name="at">om %s</string>
 </resources>

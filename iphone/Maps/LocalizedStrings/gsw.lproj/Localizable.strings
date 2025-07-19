@@ -62,7 +62,7 @@
 "report_a_bug" = "App-Fehler melde";
 "report_incorrect_map_bug" = "Falschi Chartedate melde oder korrigiere";
 "volunteer" = "Freiwillig helfe";
-"follow_us" = "Folg und kontaktier eus:";
+"follow_us" = "Folg und kontaktier eus";
 "email_error_body" = "De Email-Client isch nonig iigrichtet worde. Konfigurier ihn bitte oder nutz en anderi Möglichkeit oder kontaktier eus under %@";
 "email_error_title" = "Fehler bim Email-Versand";
 "downloader_search_results" = "Gfunde";
@@ -89,7 +89,7 @@
 "downloader_no_space_message" = "Bitte lösch unnötigi Date";
 "editor_category_unsuitable_text" = "Mit CoMaps cha mer nur eifachi Punktkategorie hinzuefüege, drum kei Städt, Strasse, See, Gebäudeumriss etc. Bitte füeg sottigi Kategorie direkt bi <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> hinzue. I eusem <a href=\"https://www.comaps.app/support/advanced-map-editing/\">Leitfade</a> findsch du e detaillierti Schritt-für-Schritt-Aaleitig.";
 "wikimedia_commons" = "Wikimedia Commons";
-"about_headline" = "Gratis für alli, mit Liebi gmacht";
+"about_headline" = "Offnigs Projekt, vo de Gmeinschaft entwicklet";
 "operator" = "Betriiber: %@";
 "share_bookmarks_email_body" = "Hallo!\n\nIm Ahang sind mini Lesezeiche; bitte öffne sie in CoMaps. Wenn du d App nöd installiert hesch, chasch sie da abelade: https://comaps.app/download/\n\nViel Spass bim Reise mit CoMaps!";
 "cancel" = "Abbräche";
@@ -106,9 +106,9 @@
 "add_new_set" = "Neui Lischte hinzuefüege";
 "bookmark_set_name" = "Name vo de Lesezeichelischte";
 "bookmarks" = "Lesezeiche";
-"about_proposition_1" = "• Kei Werbig, keis Tracking, kei Dateerfassig";
-"about_proposition_2" = "• Minimale Batterieverbruuch, funktioniert offline";
-"about_proposition_3" = "• Schnell, minimalistisch, vo de Community entwicklet";
+"about_proposition_1" = "Offline, schnell und eifach z benutze";
+"about_proposition_2" = "Dateschutzorientiert und werbefrei";
+"about_proposition_3" = "Transparent und nöd gwünnorientiert";
 "core_my_places" = "Miini Ort";
 "address" = "Adresse";
 "settings" = "Iistellige";
@@ -437,7 +437,6 @@
 "use_cellular_data" = "Ja";
 "panoramax_picture" = "Panoramax Bild";
 "country_status_download_without_size" = "Charte abelade";
-"osm_explanation" = "Vo de Community erstellti OpenStreetMap-Date (Stand: %@). Erfahr meh drüber, wie du d Charte bearbeite und aktualisiere chasch under OpenStreetMap.org";
 "osm_profile_promt" = "Erstell es OpenStreetMap-Konto oder meld dich a, zum dini Chartebearbeitige weltwiit z veröffentliche.";
 "osm_more_about" = "Meh Informatione über OpenStreetMap";
 "osm_profile" = "OpenStreetMap-Profil";
@@ -562,7 +561,7 @@
 "recover" = "Wiederherstelle";
 "recover_all" = "Alles wiederherstelle";
 "location_services_disabled_2" = "2. Uf Standort tippe";
-"osm_profile_login" = "Bi OpenStreetMap aamelde";
+"osm_profile_login" = "OpenStreetMap-Konto aamelde";
 "osm_profile_register_promt" = "Keis Konto bi OpenStreetMap?";
 "osm_profile_register" = "Bi OpenStreetMap registriere";
 "osm_profile_verfied_changes" = "Bestätigti Änderige a de Charte";
@@ -576,3 +575,18 @@
 "icloud_sync" = "iCloud Synchronisierig (Beta)";
 "pref_left_button_type" = "Lingge Hauptbutton";
 "disabled" = "Deaktiviert";
+"copy_to_clipboard" = "I d Zwüscheablag kopiere";
+"version %@ (%@)" = "Version %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nChartedate: %@";
+"social_codeberg" = "Codeberg";
+"social_lemmy" = "Lemmy";
+"social_linkedin" = "LinkedIn";
+"social_email" = "E-Mail";
+"osm_mapdata_explanation %@" = "Vo de Community erstellti Chartedate vom *%@*. Erfahr meh drüber, wie du d Charte bearbeite und aktualisiere chasch under [OpenStreetMap.org](https://openstreetmap.org).";
+"osm_mapdata" = "Chartedate vo OpenStreetMap";
+"social_matrix" = "Matrix";
+"social_telegram" = "Telegram";
+"social_instagram" = "Instagram";
+"social_bluesky" = "Bluesky";
+"social_facebook" = "Facebook";
+"social_mastodon" = "Mastodon";

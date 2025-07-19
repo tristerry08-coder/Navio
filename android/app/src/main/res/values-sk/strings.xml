@@ -38,13 +38,11 @@
     <string name="try_again">Skúsiť znova</string>
     <string name="about_menu_title">O aplikácii CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Zadarmo pre každého, vyrobené s láskou</string>
-    <!-- Text in About screen -->
     <string name="about_proposition_1">• Žiadne reklamy, žiadne sledovanie, žiadny zber údajov</string>
     <!-- Text in About screen -->
     <string name="about_proposition_2">• Žiadne vybíjanie batérie, funguje v režime offline</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Rýchly, minimalistický, vyvinutý komunitou</string>
+    <string name="about_proposition_3">• Offline, rýchle a kompaktné</string>
     <!-- Text in About screen -->
     <string name="about_developed_by_enthusiasts">Aplikácia s otvoreným zdrojovým kódom vytvorená nadšencami a dobrovoľníkmi.</string>
     <!-- The button that opens system location settings -->
@@ -864,4 +862,5 @@
     <string name="panoramax">Obrázok Panoramax</string>
     <string name="editor_line_social_network">LINE</string>
     <string name="app_site_url">https://comaps.app/</string>
+    <string name="saved">Uložené</string>
 </resources>

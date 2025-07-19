@@ -39,13 +39,11 @@
     <string name="try_again">Δοκιμάστε ξανά</string>
     <string name="about_menu_title">Σχετικά με το CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Δωρεάν για όλους, φτιαγμένα με αγάπη</string>
-    <!-- Text in About screen -->
     <string name="about_proposition_1">• Χωρίς διαφημίσεις, χωρίς tracking, χωρίς συλλογή δεδομένων</string>
     <!-- Text in About screen -->
     <string name="about_proposition_2">• Δεν εξαντλεί τη μπαταρία, λειτουργεί εκτός σύνδεσης</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">- Γρήγορο, μινιμαλιστικό, αναπτυγμένο από την κοινότητα</string>
+    <string name="about_proposition_3">• Εκτός σύνδεσης, γρήγορο και συμπαγές</string>
     <!-- Text in About screen -->
     <string name="about_developed_by_enthusiasts">Εφαρμογή ανοιχτού κώδικα που δημιουργήθηκε από θιασώτες και εθελοντές.</string>
     <!-- The button that opens system location settings -->
@@ -880,4 +878,5 @@
     <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="panoramax">εικόνα Panoramax</string>
     <string name="app_site_url">https://comaps.app/</string>
+    <string name="saved">Αποθηκεύτηκε</string>
 </resources>

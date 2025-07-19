@@ -221,4 +221,7 @@
     <string name="editor_line_social_network">LINE</string>
     <string name="panoramax">Imagen Panoramax</string>
     <string name="app_site_url">https://comaps.app/es/</string>
+    <string name="about_headline">Proyecto abierto impulsado por la comunidad</string>
+    <string name="saved">Guardado</string>
+    <string name="about_proposition_3">• No necesita conexión a internet, rápido y compacto</string>
 </resources>

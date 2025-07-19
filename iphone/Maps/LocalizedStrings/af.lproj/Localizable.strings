@@ -43,16 +43,10 @@
 "country_status_download_failed" = "Aflaai het misluk";
 
 /* Text in About screen */
-"about_headline" = "Gratis vir almal, gemaak met liefde";
+"about_proposition_1" = "Vanlyn, vinnig en maklik om te gebruik";
 
 /* Text in About screen */
-"about_proposition_1" = "Geen advertensies, geen nasporing, geen dataversameling";
-
-/* Text in About screen */
-"about_proposition_2" = "Geen battery dreineer, werk vanlyn";
-
-/* Text in About screen */
-"about_proposition_3" = "Vinnig, minimalisties, ontwikkel deur die gemeenskap";
+"about_proposition_2" = "Privaatheidsgerig en advertensievry";
 "close" = "Sluit";
 "download" = "Laai af";
 
@@ -181,7 +175,7 @@
 "email" = "E-pos";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Kopieer na knipbord";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Na knipbord gekopieer: %@";
@@ -194,8 +188,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps weergawe: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Weergawe %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Weergawe: %@ (%@)\nKaartdata: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Paaie";
@@ -277,7 +271,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "E-pos";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -545,24 +539,24 @@
 "add_opening_hours" = "Voeg besigheidsure toe";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Gemeenskap-geskepte OpenStreetMap-data vanaf %@. Kom meer te wete oor hoe om die kaart te redigeer en op te dateer by OpenStreetMap.org";
+"osm_mapdata" = "Kaartdata van OpenStreetMap";
+"osm_mapdata_explanation %@" = "Gemeenskap-geskepte kaartdata vanaf *%@*. Kom meer te wete oor hoe om die kaart te redigeer en op te dateer by [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "Meer oor OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 
 /* OpenStreetMap Profile */
 "osm_profile" = "OpenStreetMap-profiel";
 "osm_profile_promt" = "Skep 'n OpenStreetMap-rekening of meld aan om jou kaartwysigings aan die wêreld te publiseer.";
-"osm_profile_login" = "Teken aan op OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Meld aan by OpenStreetMap-rekening";
+"osm_profile_reauthorize_promt" = "Die OpenStreetMap-rekening is van hierdie toepassing ontkoppel";
+"osm_profile_reauthorize" = "Verbind weer met OpenStreetMap";
+"osm_profile_remove_promt" = "As jy nie jou rekening kan of wil herkoppel nie, kan jy dit bloot van hierdie toepassing verwyder";
+"osm_profile_remove" = "Verwyder OpenStreetMap-rekening";
 "osm_profile_register_promt" = "Het u nie ’n OpenStreetMap-rekening nie?";
 "osm_profile_register" = "Registreer by OpenStreetMap";
 "osm_profile_verfied_changes" = "Bevestigde veranderinge";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Meld af van OpenStreetMap-rekening";
+"osm_profile_delete" = "Vee OpenStreetMap-rekening uit";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Laaste oplaai";
@@ -758,7 +752,7 @@
 "start_from_my_position" = "Begin vanaf";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Gestoor";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Meld asseblief aan by OpenStreetMap om al jou kaartwysigings outomaties op te laai. Kom meer te wete";
@@ -1104,3 +1098,5 @@
 "track_recording_toast_nothing_to_save" = "Roete is leeg - niks om te red nie";
 "edit_track" = "Wysig Roete";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is 'n gemeenskapsprojek om 'n gratis en oop kaart te bou. Dit is die hoofbron van kaartdata in CoMaps en werk soortgelyk aan Wikipedia. Jy kan plekke byvoeg of wysig en hulle word beskikbaar vir miljoene gebruikers regoor die wêreld. \nSluit aan by die gemeenskap en help om 'n beter kaart vir almal te maak!";
+"osm_profile_view_notes" = "Bekyk notas";
+"osm_profile_view_edit_history" = "Bekyk wysigingsgeskiedenis";

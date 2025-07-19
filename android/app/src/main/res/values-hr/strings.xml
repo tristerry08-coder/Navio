@@ -153,4 +153,5 @@
     <string name="editor_line_social_network">LINE</string>
     <string name="panoramax">Panoramax slika</string>
     <string name="bluesky">Bluesky</string>
+    <string name="saved">Spremljeno</string>
 </resources>

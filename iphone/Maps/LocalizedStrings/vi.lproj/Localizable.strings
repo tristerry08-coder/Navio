@@ -43,16 +43,10 @@
 "country_status_download_failed" = "Tải xuống đã thất bại";
 
 /* Text in About screen */
-"about_headline" = "Miễn phí cho mọi người, được làm bằng tình yêu";
+"about_proposition_1" = "Ngoại tuyến, nhanh chóng và dễ sử dụng";
 
 /* Text in About screen */
-"about_proposition_1" = "Không có quảng cáo, không theo dõi, không thu thập dữ liệu";
-
-/* Text in About screen */
-"about_proposition_2" = "Không hao pin, hoạt động offline";
-
-/* Text in About screen */
-"about_proposition_3" = "Nhanh chóng, tối giản, được phát triển bởi cộng đồng";
+"about_proposition_2" = "Tập trung vào quyền riêng tư và không có quảng cáo";
 "close" = "Đóng";
 "download" = "Tải xuống";
 
@@ -181,7 +175,7 @@
 "email" = "Email";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Sao chép vào bộ nhớ tạm";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Đã sao chép vào Bảng tạm: %@";
@@ -194,8 +188,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Phiên bản CoMaps: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Phiên bản %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Phiên bản: %@ (%@)\nDữ liệu bản đồ: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Dấu vết";
@@ -545,24 +539,24 @@
 "add_opening_hours" = "Thêm giờ làm việc";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Dữ liệu OpenStreetMap do cộng đồng tạo ra kể từ %@. Tìm hiểu thêm về cách chỉnh sửa và cập nhật bản đồ tại OpenStreetMap.org";
+"osm_mapdata" = "Dữ liệu bản đồ từ OpenStreetMap";
+"osm_mapdata_explanation %@" = "Dữ liệu bản đồ do cộng đồng tạo ra kể từ *%@*. Tìm hiểu thêm về cách chỉnh sửa và cập nhật bản đồ tại [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "Thông tin bổ sung về OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 
 /* OpenStreetMap Profile */
 "osm_profile" = "Hồ sơ OpenStreetMap";
 "osm_profile_promt" = "Tạo tài khoản OpenStreetMap hoặc đăng nhập để xuất bản các chỉnh sửa bản đồ của bạn với thế giới.";
-"osm_profile_login" = "Đăng nhập vào OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Đăng nhập vào tài khoản OpenStreetMap";
+"osm_profile_reauthorize_promt" = "Tài khoản OpenStreetMap đã bị ngắt kết nối khỏi ứng dụng này";
+"osm_profile_reauthorize" = "Kết nối lại với OpenStreetMap";
+"osm_profile_remove_promt" = "Nếu bạn không thể hoặc không muốn kết nối lại tài khoản của mình, bạn có thể xóa tài khoản đó khỏi ứng dụng này";
+"osm_profile_remove" = "Xóa thông tin tài khoản OpenStreetMap khỏi ứng dụng này";
 "osm_profile_register_promt" = "Bạn chưa có tài khoản tại OpenStreetMap ư?";
 "osm_profile_register" = "Đăng ký tại OpenStreetMap";
 "osm_profile_verfied_changes" = "Các thay đổi đã được xác thực";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Đăng xuất khỏi tài khoản OpenStreetMap";
+"osm_profile_delete" = "Xóa tài khoản OpenStreetMap";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Tải lên mới nhất";
@@ -758,7 +752,7 @@
 "start_from_my_position" = "Bắt đầu từ";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Đã lưu";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Vui lòng đăng nhập vào OpenStreetMap để tự động tải lên tất cả các chỉnh sửa bản đồ của bạn. Tìm hiểu thêm";
@@ -1104,3 +1098,5 @@
 "track_recording_toast_nothing_to_save" = "Tuyến đường trống - không có gì để lưu";
 "edit_track" = "Chỉnh sửa tuyến đường";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) là một dự án cộng đồng nhằm xây dựng bản đồ mở và miễn phí. Đây là nguồn dữ liệu bản đồ chính trong CoMaps và hoạt động tương tự như Wikipedia. Bạn có thể thêm hoặc chỉnh sửa địa điểm và chúng sẽ có sẵn cho hàng triệu người dùng trên toàn thế giới. \nTham gia cộng đồng và giúp tạo bản đồ tốt hơn cho mọi người!";
+"osm_profile_view_notes" = "Xem Ghi chú";
+"osm_profile_view_edit_history" = "Xem Lịch sử Đóng góp";

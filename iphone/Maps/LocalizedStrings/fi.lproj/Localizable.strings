@@ -43,16 +43,16 @@
 "country_status_download_failed" = "Lataus epäonnistui";
 
 /* Text in About screen */
-"about_headline" = "Ilmainen kaikille, tehty rakkaudella";
+"about_headline" = "Avoin projekti yhteisön voimin";
 
 /* Text in About screen */
-"about_proposition_1" = "Ei mainoksia, ei seurantaa, ei tiedonkeruuta";
+"about_proposition_1" = "Yhteydetön tila, nopea ja helppokäyttöinen";
 
 /* Text in About screen */
-"about_proposition_2" = "Ei akun tyhjenemistä, toimii offline-tilassa";
+"about_proposition_2" = "Yksityisyyteen keskittynyt ja mainokseton";
 
 /* Text in About screen */
-"about_proposition_3" = "Nopea, minimalistinen, yhteisön kehittämä";
+"about_proposition_3" = "Läpinäkyvä ja voittoa tavoittelematon";
 "close" = "Sulje";
 "download" = "Lataa";
 
@@ -181,7 +181,7 @@
 "email" = "Sähköposti";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Kopioi leikepöydälle";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Kopioitu leikepöydälle: %@";
@@ -194,8 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps versio: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Versio %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Versio: %@ (%@)\nKarttatiedot: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Reitit";
@@ -277,7 +277,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "Sähköposti";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -545,8 +545,8 @@
 "add_opening_hours" = "Lisää aukioloajat";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Yhteisön luomat OpenStreetMap-tiedot %@:sta alkaen. Lisätietoja kartan muokkaamisesta ja päivittämisestä osoitteessa OpenStreetMap.org";
+"osm_mapdata" = "Karttatiedot OpenStreetMapista";
+"osm_mapdata_explanation %@" = "Yhteisön luomat karttadata *%@*:sta alkaen. Lisätietoja kartan muokkaamisesta ja päivittämisestä osoitteessa [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "Lisätietoja OpenStreetMap:sta";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 
@@ -554,16 +554,16 @@
 "osm_profile" = "OpenStreetMap-profiili";
 "osm_profile_promt" = "Luo OpenStreetMap-tili tai kirjaudu sisään, jotta voit julkaista karttamuokkauksesi maailmalle.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) on yhteisöprojekti, jonka tarkoituksena on rakentaa ilmainen ja avoin kartta. Se on CoMapsin tärkein karttatietojen lähde ja toimii samalla tavalla kuin Wikipedia. Voit lisätä tai muokata paikkoja, ja ne tulevat miljoonien käyttäjien saataville kaikkialla maailmassa. \nLiity yhteisöön ja auta tekemään parempi kartta kaikille!";
-"osm_profile_login" = "Kirjaudu OpenStreetMapiin";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Kirjaudu OpenStreetMap-tilille";
+"osm_profile_reauthorize_promt" = "OpenStreetMap-tilin yhteys tähän sovellukseen irrotettiin";
+"osm_profile_reauthorize" = "Yhdistä uudelleen OpenStreetMapiin";
+"osm_profile_remove_promt" = "Jos et voi tai halua yhdistää tiliäsi uudelleen, voit vain poistaa sen tästä sovelluksesta";
+"osm_profile_remove" = "Poista OpenStreetMap-tilin muisti tästä sovelluksesta";
 "osm_profile_register_promt" = "Eikö sinulla ole OpenStreetMap-tiliä?";
 "osm_profile_register" = "Rekisteröi tili OpenStreetMapissa";
 "osm_profile_verfied_changes" = "Vahvistetut karttamuutokset";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Kirjaudu ulos OpenStreetMap-tililtä";
+"osm_profile_delete" = "Poista OpenStreetMap-tili";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Viimeisin lisäys";
@@ -759,7 +759,7 @@
 "start_from_my_position" = "Aloita kohdasta";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Tallennettu";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Kirjaudu sisään OpenStreetMapiin, jotta voit ladata kaikki karttamuutoksesi automaattisesti. Lisätietoja";
@@ -1105,4 +1105,4 @@
 "track_recording_toast_nothing_to_save" = "Reitti on tyhjä - ei mitään tallennettavaa";
 "edit_track" = "Muokkaa reittiä";
 "osm_profile_view_edit_history" = "Näytä muokkaushistoria";
-"osm_profile_view_notes" = "Näytä muistiinpanot";
+"osm_profile_view_notes" = "Näytä ilmoitukset";

@@ -43,16 +43,16 @@
 "country_status_download_failed" = "Error durante la descarga";
 
 /* Text in About screen */
-"about_headline" = "Gratis para todos, hecho con amor";
+"about_headline" = "Proyecto abierto impulsado por la comunidad";
 
 /* Text in About screen */
-"about_proposition_1" = "Sin anuncios, sin rastreo, sin recopilación de datos";
+"about_proposition_1" = "No necesita conexión a internet, rápido y fácil de usar";
 
 /* Text in About screen */
-"about_proposition_2" = "Consumo de batería mínimo, funciona sin conexión";
+"about_proposition_2" = "Centrado en la privacidad y sin publicidad";
 
 /* Text in About screen */
-"about_proposition_3" = "Rápido, minimalista, desarrollado por la comunidad";
+"about_proposition_3" = "Transparente y sin fines de lucro";
 "close" = "Cerrar";
 "download" = "Descargar";
 
@@ -181,7 +181,7 @@
 "email" = "Correo";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Copiar al portapapeles";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Copiado en el portapapeles: %@";
@@ -194,8 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Versión de CoMaps: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Versión %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Versión: %@ (%@)\nDatos del mapa: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Trayectos";
@@ -277,7 +277,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "Correo electrónico";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -545,8 +545,8 @@
 "add_opening_hours" = "Añadir horarios de apertura";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Datos de OpenStreetMap creados por la comunidad a partir de %@. Más información sobre cómo editar y actualizar el mapa en OpenStreetMap.org";
+"osm_mapdata" = "Datos de mapas de OpenStreetMap";
+"osm_mapdata_explanation %@" = "Datos de mapas creados por la comunidad a partir de *%@*. Más información sobre cómo editar y actualizar el mapa en [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "Más acerca de OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/ES:Acerca_de_OpenStreetMap";
 
@@ -554,16 +554,16 @@
 "osm_profile" = "Perfil de OpenStreetMap";
 "osm_profile_promt" = "Cree una cuenta OpenStreetMap o inicie sesión para publicar sus ediciones de mapas en todo el mundo.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) es un proyecto comunitario para construir un mapa libre y abierto. Es la principal fuente de datos cartográficos de CoMaps y funciona de forma similar a Wikipedia. Usted puede añadir o editar lugares y estos pasan a estar disponibles para millones de usuarios de todo el mundo.\n¡Únase a la comunidad y ayude a crear un mapa mejor para todos!";
-"osm_profile_login" = "Acceder a OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Iniciar sesión en la cuenta de OpenStreetMap";
+"osm_profile_reauthorize_promt" = "La cuenta de OpenStreetMap se desconectó de esta aplicación";
+"osm_profile_reauthorize" = "Volver a conectar con OpenStreetMap";
+"osm_profile_remove_promt" = "Si no puedes o no quieres reconectar tu cuenta, simplemente puedes quitarla de esta aplicación";
+"osm_profile_remove" = "Quitar cuenta de OpenStreetMap";
 "osm_profile_register_promt" = "¿No tiene cuenta en OpenStreetMap?";
 "osm_profile_register" = "Registrarse en OpenStreetMap";
 "osm_profile_verfied_changes" = "Cambios verificados";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Cerrar sesión de la cuenta de OpenStreetMap";
+"osm_profile_delete" = "Eliminar cuenta de OpenStreetMap";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Última carga";
@@ -759,7 +759,7 @@
 "start_from_my_position" = "Empezar desde";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Guardado";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Inicia sesión en OpenStreetMap para cargar automáticamente todas tus ediciones de mapas. Más información";
@@ -1104,3 +1104,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "El trayecto está vacío; no hay nada que guardar";
 "edit_track" = "Editar trayecto";
+"osm_profile_view_edit_history" = "Ver historial de ediciones";
+"osm_profile_view_notes" = "Ver notas";

@@ -43,16 +43,10 @@
 "country_status_download_failed" = "การดาวน์โหลดล้มเหลว";
 
 /* Text in About screen */
-"about_headline" = "ฟรีสำหรับทุกคนทำด้วยความรัก";
+"about_proposition_1" = "ออฟไลน์ รวดเร็ว และใช้งานง่าย";
 
 /* Text in About screen */
-"about_proposition_1" = "ไม่มีโฆษณาไม่มีการติดตามไม่มีการรวบรวมข้อมูล";
-
-/* Text in About screen */
-"about_proposition_2" = "ไม่มีแบตเตอรี่หมด ทำงานแบบออฟไลน์";
-
-/* Text in About screen */
-"about_proposition_3" = "รวดเร็ว เรียบง่าย พัฒนาโดยชุมชน";
+"about_proposition_2" = "เน้นความเป็นส่วนตัวและไม่มีโฆษณา";
 "close" = "ปิด";
 "download" = "ดาวน์โหลด";
 
@@ -181,7 +175,7 @@
 "email" = "อีเมล";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "คัดลอกไปยังคลิปบอร์ด";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "คัดลอกไปยังคลิปบอร์ด: %@";
@@ -194,8 +188,8 @@
 
 /* Prints version number in About dialog */
 "version" = "เวอร์ชัน CoMaps: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "เวอร์ชัน %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "เวอร์ชัน: %@ (%@)\nข้อมูลแผนที่: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "การติดตาม";
@@ -277,7 +271,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "อีเมล";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -545,8 +539,8 @@
 "add_opening_hours" = "เพิ่มชั่วโมงทำการ";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "ข้อมูล OpenStreetMap ที่สร้างโดยชุมชน ณ %@ เรียนรู้เพิ่มเติมเกี่ยวกับวิธีแก้ไขและอัปเดตแผนที่ได้ที่ OpenStreetMap.org";
+"osm_mapdata" = "ข้อมูลแผนที่จาก OpenStreetMap";
+"osm_mapdata_explanation %@" = "ข้อมูลแผนที่ที่สร้างโดยชุมชน ณ *%@* เรียนรู้เพิ่มเติมเกี่ยวกับวิธีแก้ไขและอัปเดตแผนที่ได้ที่ [OpenStreetMap.org](https://openstreetmap.org)";
 "osm_more_about" = "ข้อมูลเพิ่มเติมเกี่ยวกับ OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Th:เกี่ยวกับ_OpenStreetMap";
 
@@ -554,16 +548,16 @@
 "osm_profile" = "โปรไฟล์ OpenStreetMap";
 "osm_profile_promt" = "สร้างบัญชี OpenStreetMap หรือเข้าสู่ระบบเพื่อเผยแพร่การแก้ไขแผนที่ของคุณไปทั่วโลก";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) เป็นโครงการชุมชนเพื่อสร้างแผนที่แบบเปิดและเสรี เป็นแหล่งข้อมูลแผนที่หลักในCoMapsและทำงานคล้ายกับวิกิพีเดีย คุณสามารถเพิ่มหรือแก้ไขสถานที่ได้ และสถานที่เหล่านั้นจะพร้อมให้บริการแก่ผู้ใช้หลายล้านคนทั่วโลก \nเข้าร่วมชุมชนและช่วยสร้างแผนที่ที่ดีขึ้นสำหรับทุกคน!";
-"osm_profile_login" = "เข้าสู่ระบบ OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "เข้าสู่ระบบบัญชี OpenStreetMap";
+"osm_profile_reauthorize_promt" = "บัญชี OpenStreetMap ถูกตัดการเชื่อมต่อจากแอปนี้";
+"osm_profile_reauthorize" = "เชื่อมต่อใหม่ด้วย OpenStreetMap";
+"osm_profile_remove_promt" = "หากคุณไม่สามารถหรือไม่ต้องการเชื่อมต่อบัญชีของคุณอีกครั้ง คุณสามารถลบบัญชีออกจากแอปนี้ได้เลย";
+"osm_profile_remove" = "นำบัญชี OpenStreetMap ออก";
 "osm_profile_register_promt" = "ไม่มีบัญชีใน OpenStreetMap?";
 "osm_profile_register" = "ลงทะเบียนที่ OpenStreetMap";
 "osm_profile_verfied_changes" = "การเปลี่ยนแปลงที่อนุมัติแล้ว";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "ออกจากระบบบัญชี OpenStreetMap";
+"osm_profile_delete" = "ลบบัญชี OpenStreetMap";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "อัปโหลดครั้งสุดท้าย";
@@ -759,7 +753,7 @@
 "start_from_my_position" = "เริ่มจาก";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "บันทึกแล้ว";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "กรุณาเข้าสู่ระบบ OpenStreetMap เพื่ออัปโหลดการแก้ไขแผนที่ทั้งหมดของคุณโดยอัตโนมัติ เรียนรู้เพิ่มเติม";
@@ -1104,3 +1098,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "เส้นทางว่างเปล่า - ไม่มีอะไรจะบันทึก";
 "edit_track" = "แก้ไขเส้นทาง";
+"osm_profile_view_notes" = "ดูหมายเหตุ";
+"osm_profile_view_edit_history" = "ดูประวัติการแก้ไข";

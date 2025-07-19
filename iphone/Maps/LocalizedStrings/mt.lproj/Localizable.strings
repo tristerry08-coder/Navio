@@ -43,16 +43,10 @@
 "country_status_download_failed" = "It-tniżżil falla";
 
 /* Text in About screen */
-"about_headline" = "B' xejn għal kulħadd, magħmul bl-imħabba";
+"about_proposition_1" = "Offline, veloċi u faċli biex tużah";
 
 /* Text in About screen */
-"about_proposition_1" = "Bla reklami, bla traċċar, bla kollezjoni ta' data";
-
-/* Text in About screen */
-"about_proposition_2" = "Bla ħela ta' batterija, jaħdem offline";
-
-/* Text in About screen */
-"about_proposition_3" = "Malajr, minimalista, żvillupat mill-komunità";
+"about_proposition_2" = "Iffukat fuq il-privatezza u mingħajr reklami";
 "close" = "Ġħalaq";
 "download" = "Niżżel";
 
@@ -181,7 +175,7 @@
 "email" = "E-mejl";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Ikkopja lejn il-Klipboard";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Ikkupjat fil-klibbord: %@";
@@ -194,8 +188,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Verżjoni ta' CoMaps: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Verżjoni %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Verżjoni: %@ (%@)\nData tal-Mappa: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Korsa";
@@ -277,7 +271,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "Imejl";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -545,8 +539,7 @@
 "add_opening_hours" = "Add opening hours";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Community-created OpenStreetMap data as of %@. Learn more about how to edit and update the map at OpenStreetMap.org";
+"osm_mapdata" = "Dejta tal-mappa minn OpenStreetMap";
 "osm_more_about" = "Aktar dwar OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 
@@ -554,16 +547,16 @@
 "osm_profile" = "Profil ta’ OpenStreetMap";
 "osm_profile_promt" = "Oħloq kont OpenStreetMap jew idħol biex tippubblika l-editjar tal-mapep tiegħek fid-dinja.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) huwa proġett komunitarju biex tinbena mappa ħielsa u miftuħa. Huwa s-sors ewlieni tad-dejta tal-mapep fil-CoMaps u xogħlijiet simili għall-Wikipedija. Tista ’żżid jew teditja postijiet u dawn isiru disponibbli għal miljuni ta’ utenti madwar id-dinja kollha. \nIngħaqad mal-komunita’ u għen biex issir mappa aħjar għal kulħadd!";
-"osm_profile_login" = "Illoggja f’ OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Idħol fil-kont ta' OpenStreetMap";
+"osm_profile_reauthorize_promt" = "Il-kont ta' OpenStreetMap ġie skonnettjat minn din l-app";
+"osm_profile_reauthorize" = "Erġa' qabbad ma' OpenStreetMap";
+"osm_profile_remove_promt" = "Jekk ma tistax jew ma tridx terġa' tikkonnettja l-kont tiegħek, tista' sempliċement tneħħih minn din l-app";
+"osm_profile_remove" = "Neħħi l-kont ta' OpenStreetMap";
 "osm_profile_register_promt" = "M’ għandekx kont ta’ OpenStreetMap?";
 "osm_profile_register" = "Irreġistra f’ OpenStreetMap";
 "osm_profile_verfied_changes" = "Bidliet Ivverifikati";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Oħroġ mill-kont ta' OpenStreetMap";
+"osm_profile_delete" = "Ħassar il-kont ta' OpenStreetMap";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Last upload";
@@ -759,7 +752,7 @@
 "start_from_my_position" = "Start from";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Salvat";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Please login to OpenStreetMap to automatically upload all your map edits. Learn more";
@@ -1104,3 +1097,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Il-Korsija hija vojta - xejn x’ tissejvja";
 "edit_track" = "Editja l-Korsija";
+"osm_profile_view_notes" = "Ara n-noti";
+"osm_profile_view_edit_history" = "Ara l-istorja tal-modifiki";

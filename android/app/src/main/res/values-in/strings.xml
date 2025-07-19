@@ -40,13 +40,11 @@
     <string name="try_again">Coba Lagi</string>
     <string name="about_menu_title">Tentang CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Gratis untuk semua orang, dibuat dengan cinta</string>
-    <!-- Text in About screen -->
     <string name="about_proposition_1">• Tidak ada iklan, tidak ada pelacakan, tidak ada pengumpulan data</string>
     <!-- Text in About screen -->
     <string name="about_proposition_2">• Tidak menguras baterai, bekerja secara offline</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Cepat, minimalis, dikembangkan oleh komunitas</string>
+    <string name="about_proposition_3">• Offline, cepat dan kompak</string>
     <!-- Text in About screen -->
     <string name="about_developed_by_enthusiasts">Aplikasi open-source yang dibuat oleh penggemar dan sukarelawan.</string>
     <!-- The button that opens system location settings -->
@@ -819,4 +817,5 @@
     <string name="panoramax">Gambar Panoramax</string>
     <string name="editor_line_social_network">LINE</string>
     <string name="app_site_url">https://comaps.app/id/</string>
+    <string name="saved">Disimpan</string>
 </resources>

@@ -13,13 +13,13 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>marque-page</string>
+			<string>Zéro signet</string>
 			<key>one</key>
-			<string>marque-page</string>
+			<string>%d signet</string>
 			<key>many</key>
-			<string>marque-pages</string>
+			<string>%d signets</string>
 			<key>other</key>
-			<string>marque-pages</string>
+			<string>%d signets</string>
 		</dict>
 	</dict>
 	<key>bookmarks_detect_message</key>

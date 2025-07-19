@@ -34,13 +34,11 @@
     <string name="try_again">Erġa prova</string>
     <string name="about_menu_title">Dwar CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">B\' xejn għal kulħadd, magħmul bl-imħabba</string>
-    <!-- Text in About screen -->
     <string name="about_proposition_1">• Bla reklami, bla traċċar, bla kollezjoni ta\' data</string>
     <!-- Text in About screen -->
     <string name="about_proposition_2">• Bla ħela ta\' batterija, jaħdem offline</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Malajr, minimalista, żvillupat mill-komunità</string>
+    <string name="about_proposition_3">• Offline, veloċi u kompatt</string>
     <!-- Text in About screen -->
     <string name="about_developed_by_enthusiasts">Apliażżjoni tas-sors miftuħ magħmula min dilettanti u il-voluntiera</string>
     <!-- The button that opens system location settings -->
@@ -672,4 +670,5 @@
     <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="panoramax">Ritratt Panoramax</string>
     <string name="app_site_url">https://comaps.app/</string>
+    <string name="saved">Salvat</string>
 </resources>

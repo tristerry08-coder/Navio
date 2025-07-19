@@ -43,16 +43,16 @@
 "country_status_download_failed" = "İndirme başarısız oldu";
 
 /* Text in About screen */
-"about_headline" = "Sevgiyle yapılmış, herkes için ücretsiz harita";
+"about_headline" = "Gücünü topluluktan alan açık kaynaklı bir proje";
 
 /* Text in About screen */
-"about_proposition_1" = "Reklam yok, izleyici yok, veri toplama yok";
+"about_proposition_1" = "Çevrimdışı, hızlı ve kullanımı kolay";
 
 /* Text in About screen */
-"about_proposition_2" = "Pilinizi tüketmez, çevrim dışı çalışır";
+"about_proposition_2" = "Gizlilik odaklı ve reklamsız";
 
 /* Text in About screen */
-"about_proposition_3" = "Hızlı, minimalist, toplulukça geliştirilmiş";
+"about_proposition_3" = "Şeffaf ve kar amacı gütmeyen";
 "close" = "Kapat";
 "download" = "İndir";
 
@@ -181,7 +181,7 @@
 "email" = "E-posta";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Panoya kopyala";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Panoya kopyalandı: %@";
@@ -194,8 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps sürümü: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Sürüm %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Sürüm: %@ (%@)\nHarita Verileri: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "GPS Kayıtları";
@@ -277,7 +277,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "E-posta";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -545,8 +545,8 @@
 "add_opening_hours" = "Açılış saatlerini ekle";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "%@ tarihine ait topluluk tarafından oluşturulmuş OpenStreetMap verilerini kullanıyorsunuz. OpenStreetMap.org adresinden haritayı nasıl düzenleyebileceğinizle ilgili bilgi edinebilirsiniz";
+"osm_mapdata" = "OpenStreetMap'ten harita verileri";
+"osm_mapdata_explanation %@" = "*%@* tarihine ait topluluk tarafından oluşturulmuş harita verilerini kullanıyorsunuz. [OpenStreetMap.org](https://openstreetmap.org) adresinden haritayı nasıl düzenleyebileceğinizle ilgili bilgi edinebilirsiniz.";
 "osm_more_about" = "OpenStreetMap ile ilgili ek bilgi";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Tr:About_OpenStreetMap";
 
@@ -554,16 +554,16 @@
 "osm_profile" = "OpenStreetMap profili";
 "osm_profile_promt" = "Harita düzenlemelerinizi herkese ulaştırmak için OpenStreetMap hesabı oluşturun veya oturum açın.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM), ücretsiz ve açık harita oluşturmayı amaçlayan bir topluluk projesidir. OSM, CoMaps'teki harita verilerinin ana kaynağıdır ve Vikipedi'ye benzer şekilde çalışır. Haritadaki yerleri ekleyebilir veya düzenleyebilirsiniz ve bunlar tüm dünyadaki milyonlarca kullanıcı tarafından kullanılabilir hale gelir. \nTopluluğa katılın ve herkes için daha iyi bir harita oluşturmaya yardımcı olun!";
-"osm_profile_login" = "OpenStreetMap'e giriş yap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "OpenStreetMap hesabına giriş yap";
+"osm_profile_reauthorize_promt" = "OpenStreetMap hesabının bu uygulamayla bağlantısı kesildi";
+"osm_profile_reauthorize" = "OpenStreetMap ile yeniden bağlan";
+"osm_profile_remove_promt" = "Hesabınızı yeniden bağlayamıyorsanız veya bağlamak istemiyorsanız, bu uygulamadan kaldırabilirsiniz";
+"osm_profile_remove" = "OpenStreetMap hesabını kaldır";
 "osm_profile_register_promt" = "OpenStreetMap hesabınız yok mu?";
 "osm_profile_register" = "OpenStreetMap'e kaydol";
 "osm_profile_verfied_changes" = "Doğrulanan Düzenleme";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "OpenStreetMap hesabından çıkış yap";
+"osm_profile_delete" = "OpenStreetMap hesabını sil";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Son yükleme";
@@ -759,7 +759,7 @@
 "start_from_my_position" = "Buradan başla";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Kaydedildi";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Tüm harita düzenlemelerinizi otomatik olarak yüklemek için lütfen OpenStreetMap'e giriş yapın. Daha fazla bilgi";
@@ -1104,3 +1104,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Kaydınız boş - kaydedilecek bir şey yok";
 "edit_track" = "Kaydı Düzenle";
+"osm_profile_view_edit_history" = "Düzenleme geçmişini görüntüle";
+"osm_profile_view_notes" = "Notları görüntüle";

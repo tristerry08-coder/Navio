@@ -43,16 +43,10 @@
 "country_status_download_failed" = "Sikertelen letöltés";
 
 /* Text in About screen */
-"about_headline" = "Mindenki számára ingyenes – szeretettel készült";
+"about_proposition_1" = "Offline, gyors és könnyen használható";
 
 /* Text in About screen */
-"about_proposition_1" = "Nincs hirdetés, nyomon követés és adatgyűjtés";
-
-/* Text in About screen */
-"about_proposition_2" = "Nem merül le az akkumulátor – offline is működik";
-
-/* Text in About screen */
-"about_proposition_3" = "Gyors, minimalista – a közösség által fejlesztett";
+"about_proposition_2" = "Adatvédelem-központú és hirdetésmentes";
 "close" = "Bezár";
 "download" = "Letöltés";
 
@@ -181,7 +175,7 @@
 "email" = "E-mail-cím";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Másolás vágólapra";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "A vágólapra másolva: %@";
@@ -194,8 +188,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Az CoMaps verziója: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "%@ (%@) verzió";
+"version: %@ (%@)\nmap data: %@" = "Vverzió: %@ (%@)\nTérképadatok: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Nyomvonalak";
@@ -545,8 +539,8 @@
 "add_opening_hours" = "Nyitvatartás hozzáadása";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Közösség által létrehozott OpenStreetMap adatok innen: %@. További információkat a térkép szerkesztéséről és frissítéséről az OpenStreetMap.org oldalon találhat";
+"osm_mapdata" = "Térképadatok az OpenStreetMap-ből";
+"osm_mapdata_explanation %@" = "Közösség által létrehozott térképadatok innen: *%@*. További információkat a térkép szerkesztéséről és frissítéséről az [OpenStreetMap.org](https://openstreetmap.org) oldalon találhat.";
 "osm_more_about" = "További részletek az OpenStreetMap adatbázisról";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Hu:Névjegy";
 
@@ -554,16 +548,16 @@
 "osm_profile" = "OpenStreetMap profil";
 "osm_profile_promt" = "Hozzon létre egy fiókot az OpenStreetMapen, vagy jelentkezzen be, hogy közzétehesse térképszerkesztéseit a világ számára.";
 "osm_profile_explanation" = "Az [OpenStreetMap.org](https://openstreetmap.org) (OSM) egy közösségi projekt, amelynek célja egy ingyenes és nyílt térkép létrehozása. Ez az CoMaps alkalmazás térképadatainak fő forrása, és a Wikipédiához hasonlóan működik. Helyeket adhat hozzá vagy szerkeszthet, és azok világszerte felhasználók milliói számára válnak elérhetővé. \nCsatlakozzon a közösséghez, és segítsen egy jobb térképet készíteni mindenki számára!";
-"osm_profile_login" = "Jelentkezzen be az OpenStreetMap fiókjába";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Bejelentkezés az OpenStreetMap fiókba";
+"osm_profile_reauthorize_promt" = "Az OpenStreetMap fiókot leválasztották erről az alkalmazásról";
+"osm_profile_reauthorize" = "Újracsatlakozás az OpenStreetMap-hez";
+"osm_profile_remove_promt" = "Ha nem tudja vagy nem akarja újra csatlakoztatni fiókját, egyszerűen eltávolíthatja az alkalmazásból";
+"osm_profile_remove" = "OpenStreetMap-fiók eltávolítása";
 "osm_profile_register_promt" = "Nem rendelkezik még felhasználói fiókkal az OpenStreetMapen?";
 "osm_profile_register" = "Regisztráció az OpenStreetMap oldalon";
 "osm_profile_verfied_changes" = "Jóváhagyott módosítások";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Kijelentkezés az OpenStreetMap fiókból";
+"osm_profile_delete" = "OpenStreetMap-fiók törlése";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Utolsó frissítés";
@@ -759,7 +753,7 @@
 "start_from_my_position" = "Kiindulás innen:";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Mentett";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Jelentkezzen be az OpenStreetMap rendszerébe, hogy automatikusan feltölthesse az összes térképszerkesztését. Tudjon meg többet";
@@ -1104,3 +1098,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "A nyomvonal üres – nincs mit menteni";
 "edit_track" = "Nyomvonal szerkesztése";
+"osm_profile_view_notes" = "Jegyzetek megtekintése";
+"osm_profile_view_edit_history" = "Szerkesztési előzmények megtekintése";

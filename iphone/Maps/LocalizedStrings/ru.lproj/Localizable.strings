@@ -43,16 +43,16 @@
 "country_status_download_failed" = "Ошибка загрузки";
 
 /* Text in About screen */
-"about_headline" = "Бесплатно для всех, сделано с любовью";
+"about_headline" = "Открытый проект создаваемый сообществом";
 
 /* Text in About screen */
-"about_proposition_1" = "Без рекламы, без трекинга, без слежки";
+"about_proposition_1" = "Автономный, быстрый и просто в использовании";
 
 /* Text in About screen */
-"about_proposition_2" = "Не разряжает батарею, работает в автономном режиме";
+"about_proposition_2" = "Ориентированный на конфиденциальность и без рекламы";
 
 /* Text in About screen */
-"about_proposition_3" = "Быстрый, минималистичный, разработанный сообществом";
+"about_proposition_3" = "Прозрачный и некоммерческий";
 "close" = "Закрыть";
 "download" = "Загрузить";
 
@@ -181,7 +181,7 @@
 "email" = "Email";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Скопировать в буфер обмена";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Скопировано в буфер обмена: %@";
@@ -194,8 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Версия CoMaps: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Версия %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Версия: %@ (%@)\nКартографические данные: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Треки";
@@ -232,7 +232,7 @@
 "pref_map_3d_title" = "Перспективный вид";
 
 /* Settings «Map» category: «3D buildings» title */
-"pref_map_3d_buildings_title" = "3D здания";
+"pref_map_3d_buildings_title" = "3D-здания";
 
 /* A message in Settings/Preferences explaining why is it not possible to enable 3D buildings when max power saving mode is enabled */
 "pref_map_3d_buildings_disabled_summary" = "3D-здания отключаются в режиме энергосбережения";
@@ -257,7 +257,7 @@
 
 /* Title for "Other" section in TTS settings. */
 "pref_tts_other_section_title" = "Другой";
-"pref_map_auto_zoom" = "Автозум";
+"pref_map_auto_zoom" = "Автомасштабирование";
 "placepage_distance" = "Расстояние";
 "search_show_on_map" = "Посмотреть на карте";
 
@@ -277,7 +277,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "Электронная почта";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -545,8 +545,8 @@
 "add_opening_hours" = "Добавить время работы";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Созданные сообществом данные OpenStreetMap по состоянию на %@. Узнайте больше о том, как редактировать и обновлять карту, на сайте OpenStreetMap.org";
+"osm_mapdata" = "Картографические данные из OpenStreetMap";
+"osm_mapdata_explanation %@" = "Созданные сообществом картографические данные по состоянию на *%@*. Узнайте больше о том, как редактировать и обновлять карту, на сайте [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "Подробнее об OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/RU:О_проекте";
 
@@ -554,16 +554,16 @@
 "osm_profile" = "Профиль OpenStreetMap";
 "osm_profile_promt" = "Создайте учетную запись OpenStreetMap или войдите в нее, чтобы опубликовать свои правки на карте для всего мира.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) - это открытый проект сообщества по созданию бесплатной карты. Он является основным источником картографических данных в CoMaps и работает как Википедия. Кто угодно может добавлять или редактировать места, которые позже увидят миллионы пользователей по всему миру. \nПрисоединяйтесь к сообществу и помогите сделать лучшую карту для всех!";
-"osm_profile_login" = "Войти в OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Войти в аккаунт OpenStreetMap";
+"osm_profile_reauthorize_promt" = "Аккаунт OpenStreetMap был отключен от этого приложения";
+"osm_profile_reauthorize" = "Подключиться снова к OpenStreetMap";
+"osm_profile_remove_promt" = "Если вы не можете или не хотите повторно подключать свой аккаунт, вы можете просто Убрать его из этого приложения";
+"osm_profile_remove" = "Убрать аккаунт OpenStreetMap";
 "osm_profile_register_promt" = "Не зарегистрированы в OpenStreetMap?";
 "osm_profile_register" = "Зарегистрироваться";
 "osm_profile_verfied_changes" = "Учтённые правки";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Выйти из аккаунта OpenStreetMap";
+"osm_profile_delete" = "Удалить аккаунт OpenStreetMap";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Последняя отправка";
@@ -759,7 +759,7 @@
 "start_from_my_position" = "Начать от";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Сохранено";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Пожалуйста войдите в аккаунт OpenStreetMap.org, чтобы публиковать ваши изменения карты. Подробности по";
@@ -829,11 +829,11 @@
 "avoid_tolls" = "Избегать платных дорог";
 
 /* Recommended length for CarPlay and Android Auto is around 25-27 characters */
-"avoid_unpaved" = "Избегать грунтовые дороги";
+"avoid_unpaved" = "Избегать грунтовых дорог";
 
 /* Recommended length for CarPlay and Android Auto is around 25-27 characters */
-"avoid_ferry" = "Избегать паромы";
-"avoid_motorways" = "Избегать автомагистрали";
+"avoid_ferry" = "Избегать паромов";
+"avoid_motorways" = "Избегать автомагистралей";
 "unable_to_calc_alert_title" = "Невозможно построить маршрут";
 "unable_to_calc_alert_subtitle" = "Маршрут не найден. Это могло быть спровоцировано вашими настройками прокладки маршрута или неполными данными OpenStreetMap. Пожалуйта, измените ваши настройки прокладки маршрута и попробуйте снова.";
 "define_to_avoid_btn" = "Настроить пути объезда";
@@ -1030,7 +1030,7 @@
 "bugreport_alert_message" = "Хотите отправить разработчикам сообщение об ошибке?\nМы полагаемся на наших пользователей, так как CoMaps не собирает информацию об ошибках автоматически. Заранее спасибо за поддержку CoMaps!";
 
 /* Title for the iCloud syncronization setting */
-"icloud_sync" = "iCloud Syncronization (Beta)";
+"icloud_sync" = "Синхронизация с iCloud (бета)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Включить синхронизацию с iCloud";
@@ -1104,3 +1104,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Трек пуст - нечего сохранять";
 "edit_track" = "Редактировать маршрут";
+"osm_profile_view_edit_history" = "История правок";
+"osm_profile_view_notes" = "Заметки";

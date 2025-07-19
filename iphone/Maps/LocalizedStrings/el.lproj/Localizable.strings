@@ -43,16 +43,10 @@
 "country_status_download_failed" = "Η λήψη απέτυχε";
 
 /* Text in About screen */
-"about_headline" = "Δωρεάν για όλους, φτιαγμένα με αγάπη";
+"about_proposition_1" = "Εκτός σύνδεσης, γρήγορο και εύχρηστο";
 
 /* Text in About screen */
-"about_proposition_1" = "Χωρίς διαφημίσεις, χωρίς tracking, χωρίς συλλογή δεδομένων";
-
-/* Text in About screen */
-"about_proposition_2" = "Δεν εξαντλεί τη μπαταρία, λειτουργεί εκτός σύνδεσης";
-
-/* Text in About screen */
-"about_proposition_3" = "Γρήγορο, μινιμαλιστικό, αναπτυγμένο από την κοινότητα";
+"about_proposition_2" = "Εστιασμένο στην ιδιωτικότητα και χωρίς διαφημίσεις";
 "close" = "Κλείσιμο";
 "download" = "Λήψη";
 
@@ -181,7 +175,7 @@
 "email" = "Email";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Αντιγραφή στο πρόχειρο";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Αντιγράφηκε στο Πρόχειρο: %@";
@@ -194,8 +188,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Έκδοση CoMaps: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Έκδοση %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Έκδοση: %@ (%@)\nΔεδομένα χάρτη: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Διαδρομές";
@@ -277,7 +271,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "Ηλεκτρονικό ταχυδρομείο";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -545,8 +539,8 @@
 "add_opening_hours" = "Προσθέστε ώρες λειτουργίας";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Δεδομένα OpenStreetMap που δημιουργήθηκαν από την κοινότητα στις %@. Μάθετε περισσότερα για τον τρόπο επεξεργασίας και ενημέρωσης του χάρτη στο OpenStreetMap.org";
+"osm_mapdata" = "Δεδομένα χάρτη από το OpenStreetMap";
+"osm_mapdata_explanation %@" = "Δεδομένα χαρτών που δημιουργήθηκαν από την κοινότητα στις *%@*. Μάθετε περισσότερα για τον τρόπο επεξεργασίας και ενημέρωσης του χάρτη στο [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "Περισσότερα σχετικά με το OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/El:Σχετικά_με_το_OpenStreetMap";
 
@@ -554,16 +548,16 @@
 "osm_profile" = "Προφίλ OpenStreetMap";
 "osm_profile_promt" = "Δημιουργήστε έναν λογαριασμό OpenStreetMap ή συνδεθείτε για να δημοσιεύσετε τις επεξεργασίες του χάρτη σας στον κόσμο.";
 "osm_profile_explanation" = "Το [OpenStreetMap.org](https://openstreetmap.org) (OSM) είναι ένα κοινοτικό έργο για τη δημιουργία ενός ελεύθερου και ανοικτού χάρτη. Είναι η κύρια πηγή δεδομένων χάρτη στους CoMaps και λειτουργεί παρόμοια με τη Wikipedia. Μπορείτε να προσθέσετε ή να επεξεργαστείτε τοποθεσίες και αυτές γίνονται διαθέσιμες σε εκατομμύρια χρήστες σε όλο τον κόσμο. \nΕνταχθείτε στην κοινότητα και βοηθήστε να φτιάξουμε έναν καλύτερο χάρτη για όλους!";
-"osm_profile_login" = "Συνδεθείτε στο OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Σύνδεση στον λογαριασμό OpenStreetMap";
+"osm_profile_reauthorize_promt" = "Ο λογαριασμός OpenStreetMap αποσυνδέθηκε από αυτήν την εφαρμογή";
+"osm_profile_reauthorize" = "Επανασύνδεση με το OpenStreetMap";
+"osm_profile_remove_promt" = "Αν δεν μπορείτε ή δεν θέλετε να επανασυνδέσετε τον λογαριασμό σας, μπορείτε απλά να τον καταργήσετε από αυτήν την εφαρμογή";
+"osm_profile_remove" = "Κατάργηση λογαριασμού OpenStreetMap";
 "osm_profile_register_promt" = "Δεν έχετε λογαριασμό OpenStreetMap;";
 "osm_profile_register" = "Εγγραφή στο OpenStreetMap";
 "osm_profile_verfied_changes" = "Επαληθευμένες αλλαγές";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Αποσύνδεση από τον λογαριασμό OpenStreetMap";
+"osm_profile_delete" = "Διαγραφή λογαριασμού OpenStreetMap";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Τελευταία μεταφόρτωση";
@@ -759,7 +753,7 @@
 "start_from_my_position" = "Έναρξη από";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Αποθηκεύτηκε";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Παρακαλούμε συνδεθείτε στο OpenStreetMap για να ανεβάσετε αυτόματα όλες τις επεξεργασίες του χάρτη σας. Μάθετε περισσότερα";
@@ -1104,3 +1098,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Η διαδρομή είναι άδεια - δεν υπάρχει τίποτα να αποθηκεύσετε";
 "edit_track" = "Επεξεργασία διαδρομής";
+"osm_profile_view_notes" = "Προβολή σημειώσεων";
+"osm_profile_view_edit_history" = "Προβολή ιστορικού επεξεργασιών";

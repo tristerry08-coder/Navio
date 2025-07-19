@@ -41,13 +41,11 @@
     <string name="try_again">Probeer weer</string>
     <string name="about_menu_title">Oor CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Gratis vir almal, gemaak met liefde</string>
-    <!-- Text in About screen -->
     <string name="about_proposition_1">• Geen advertensies, geen nasporing, geen dataversameling</string>
     <!-- Text in About screen -->
     <string name="about_proposition_2">• Geen battery dreineer, werk vanlyn</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Vinnig, minimalisties, ontwikkel deur die gemeenskap</string>
+    <string name="about_proposition_3">• Vanlyn, vinnig en kompak</string>
     <!-- Text in About screen -->
     <string name="about_developed_by_enthusiasts">Oopbrontoepassing geskep deur entoesiaste en vrywilligers.</string>
     <string name="close">Sluit</string>
@@ -803,4 +801,5 @@
     <string name="panoramax">Panoramax-prent</string>
     <string name="editor_line_social_network">LINE</string>
     <string name="app_site_url">https://comaps.app/</string>
+    <string name="saved">Gestoor</string>
 </resources>

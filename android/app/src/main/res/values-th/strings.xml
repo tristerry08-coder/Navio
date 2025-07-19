@@ -40,13 +40,11 @@
     <string name="try_again">ลองอีกครั้ง</string>
     <string name="about_menu_title">เกี่ยวกับ CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">ฟรีสำหรับทุกคนทำด้วยความรัก</string>
-    <!-- Text in About screen -->
     <string name="about_proposition_1">• ไม่มีโฆษณาไม่มีการติดตามไม่มีการรวบรวมข้อมูล</string>
     <!-- Text in About screen -->
     <string name="about_proposition_2">• ไม่มีแบตเตอรี่หมด ทำงานแบบออฟไลน์</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• รวดเร็ว เรียบง่าย พัฒนาโดยชุมชน</string>
+    <string name="about_proposition_3">• ออฟไลน์ รวดเร็ว และกะทัดรัด</string>
     <!-- Text in About screen -->
     <string name="about_developed_by_enthusiasts">แอปพลิเคชันโอเพนซอร์ซที่สร้างขึ้นโดยผู้ที่ชื่นชอบและอาสาสมัคร</string>
     <!-- The button that opens system location settings -->
@@ -820,4 +818,5 @@
     <string name="panoramax">ภาพถ่าย Panoramax</string>
     <string name="editor_line_social_network">LINE</string>
     <string name="app_site_url">https://comaps.app/</string>
+    <string name="saved">บันทึกแล้ว</string>
 </resources>

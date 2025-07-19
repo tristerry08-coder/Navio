@@ -38,13 +38,11 @@
     <string name="try_again">Thử lại</string>
     <string name="about_menu_title">Giới thiệu về CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Miễn phí cho mọi người, được làm bằng tình yêu</string>
-    <!-- Text in About screen -->
     <string name="about_proposition_1">• Không có quảng cáo, không theo dõi, không thu thập dữ liệu</string>
     <!-- Text in About screen -->
     <string name="about_proposition_2">• Không hao pin, hoạt động offline</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Nhanh chóng, tối giản, được phát triển bởi cộng đồng</string>
+    <string name="about_proposition_3">• Ngoại tuyến, nhanh chóng và nhỏ gọn</string>
     <!-- Text in About screen -->
     <string name="about_developed_by_enthusiasts">Ứng dụng nguồn mở được tạo bởi những người đam mê và tình nguyện viên.</string>
     <!-- The button that opens system location settings -->
@@ -814,4 +812,5 @@
     <string name="translated_om_site_url">https://comaps.app/</string>
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>
     <string name="panoramax">Ảnh Panoramax</string>
+    <string name="saved">Đã lưu</string>
 </resources>

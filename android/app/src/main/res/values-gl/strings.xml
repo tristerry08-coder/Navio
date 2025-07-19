@@ -636,4 +636,7 @@
     <string name="pref_backup_now_summary">Crear unha copia agora mesmo</string>
     <string name="pref_backup_location_summary_initial">Primeiro elixe un cartafol e concede permiso de acceso</string>
     <string name="pref_backup_title">Copia de apoio de marcadores e rutas</string>
+    <string name="open_now">Aberto agora</string>
+    <string name="closed_now">Agora Fechado</string>
+    <string name="at">ás %s</string>
 </resources>

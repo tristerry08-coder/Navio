@@ -1400,4 +1400,12 @@
     <string name="type.hwtag">hwtag</string>
     <string name="type.man_made.crane">Grue</string>
     <string name="type.railway.station.subway.qingdao">Station de métro</string>
+    <string name="type.landuse.religious">Terre religieuse</string>
+    <string name="type.natural.wetland.saltmarsh.tidal">Marais salant à marée</string>
+    <string name="type.natural.wetland.fen">Marais</string>
+    <string name="type.natural.wetland.swamp">Marais</string>
+    <string name="type.natural.wetland.mangrove">Mangrove</string>
+    <string name="type.natural.wetland.tidalflat">Estran</string>
+    <string name="type.natural.wetland.reedbed">Roselière</string>
+    <string name="type.natural.wetland.saltmarsh">Marais salant</string>
 </resources>

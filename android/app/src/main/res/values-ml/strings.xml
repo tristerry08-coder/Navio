@@ -9,5 +9,7 @@
     <string name="editor_line_social_network">LINE</string>
     <string name="kilometres">കിലോമീറ്ററുകൾ</string>
     <string name="app_site_url">https://comaps.app/</string>
-    <string name="mastodon">Mastodon</string>
+    <string name="mastodon">മാസ്റ്റഡോൺ</string>
+    <string name="saved">സംരക്ഷിച്ചു</string>
+    <string name="about_proposition_3">• ഓഫ്‌ലൈൻ, വേഗതയേറിയതും ഒതുക്കമുള്ളതും</string>
 </resources>

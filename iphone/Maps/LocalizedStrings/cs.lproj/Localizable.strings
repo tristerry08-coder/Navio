@@ -43,16 +43,16 @@
 "country_status_download_failed" = "Stahování selhalo";
 
 /* Text in About screen */
-"about_headline" = "Zdarma pro všechny, vyrobené s láskou";
+"about_headline" = "Otevřený projekt vyvíjený komunitou";
 
 /* Text in About screen */
-"about_proposition_1" = "Žádné reklamy, žádné sledování, žádný sběr dat";
+"about_proposition_1" = "Offline, rychlé a snadno použitelné";
 
 /* Text in About screen */
-"about_proposition_2" = "Žádné vybíjení baterie, funguje offline";
+"about_proposition_2" = "Zaměřeno na soukromí a bez reklam";
 
 /* Text in About screen */
-"about_proposition_3" = "Rychlé, minimalistické, vyvinuté komunitou";
+"about_proposition_3" = "Transparentní a neziskové";
 "close" = "Zavřít";
 "download" = "Stáhnout";
 
@@ -181,7 +181,7 @@
 "email" = "E-mail";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Zkopírovat do schránky";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Zkopírováno do schránky: %@";
@@ -194,8 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Verze CoMaps: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Verze %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Verze: %@ (%@)\nMapová data: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Stopy";
@@ -545,8 +545,8 @@
 "add_opening_hours" = "Přidat otevírací dobu";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Data OpenStreetMap vytvořená komunitou ke dni %@. Další informace o tom, jak upravovat a aktualizovat mapu, najdete na stránkách OpenStreetMap.org";
+"osm_mapdata" = "Mapová data z OpenStreetMap";
+"osm_mapdata_explanation %@" = "Data map vytvořená komunitou ke dni *%@*. Další informace o tom, jak upravovat a aktualizovat mapu, najdete na stránkách [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "Další informace o projektu OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Cs:Co_je_OpenStreetMap";
 
@@ -554,7 +554,7 @@
 "osm_profile" = "Profil OpenStreetMap";
 "osm_profile_promt" = "Vytvořte si účet OpenStreetMap nebo se přihlaste a zveřejněte své úpravy mapy celému světu.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) je komunitní projekt, jehož cílem je vytvořit svobodnou a otevřenou mapu. Je hlavním zdrojem mapových dat v aplikaci CoMaps a funguje podobně jako Wikipedie. Můžete přidávat nebo upravovat místa a ta se pak stanou dostupná milionům uživatelů po celém světě. \nPřipojte se ke komunitě a pomozte vytvořit lepší mapu pro všechny!";
-"osm_profile_login" = "Přihlásit se do OpenStreetMap";
+"osm_profile_login" = "Přihlásit se k účtu OpenStreetMap";
 "osm_profile_reauthorize_promt" = "Účet OpenStreetMap byl odpojen z této aplikace";
 "osm_profile_reauthorize" = "Znovu připojit pomocí OpenStreetMap";
 "osm_profile_remove_promt" = "Pokud nemůžete nebo nechcete znovu připojit svůj účet, můžete jej jednoduše odebrat z této aplikace";
@@ -1105,4 +1105,4 @@
 "track_recording_toast_nothing_to_save" = "Trasa je prázdná - není co ukládat";
 "edit_track" = "Upravit trasu";
 "osm_profile_view_notes" = "Zobrazit poznámky";
-"osm_profile_view_edit_history" = "Zorbazit historii úprav";
+"osm_profile_view_edit_history" = "Zobrazit historii úprav";

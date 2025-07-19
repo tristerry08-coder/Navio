@@ -705,8 +705,8 @@
 "type.leisure" = "Tempo libero";
 "type.leisure.common" = "Suolo Pubblico";
 "type.leisure.dog_park" = "Area sgambamento cani";
-"type.leisure.fitness_centre" = "Centro benessere";
-"type.leisure.fitness_station" = "Centro fitness";
+"type.leisure.fitness_centre" = "Palestra";
+"type.leisure.fitness_station" = "Area Fitness";
 "type.leisure.dance" = "Sala da ballo";
 "type.leisure.garden" = "Giardino";
 "type.leisure.garden.residential" = "Giardino";

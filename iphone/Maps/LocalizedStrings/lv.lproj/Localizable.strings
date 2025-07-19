@@ -43,16 +43,10 @@
 "country_status_download_failed" = "Lejupielāde neizdevās";
 
 /* Text in About screen */
-"about_headline" = "Bezmaksas, pieejama visiem un veidota ar mīlestību";
+"about_proposition_1" = "Bezsaistē, ātri un ērti lietojams";
 
 /* Text in About screen */
-"about_proposition_1" = "Nesatur reklāmas, izsekošanu un nevāc datus";
-
-/* Text in About screen */
-"about_proposition_2" = "Neizlādē bateriju, darbojas bez interneta pieslēguma";
-
-/* Text in About screen */
-"about_proposition_3" = "Ātra, minimālistiska un kopienas izstrādāta";
+"about_proposition_2" = "Konfidencialitātei orientēts un bez reklāmām";
 "close" = "Aizvērt";
 "download" = "Lejupielādēt";
 
@@ -181,7 +175,7 @@
 "email" = "E-pasts";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Ievietot starpliktuvē";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Nokopēts starpliktuvē: %@";
@@ -194,8 +188,8 @@
 
 /* Prints version number in About dialog */
 "version" = "„CoMaps“ versija: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "%@ (%@) versija";
+"version: %@ (%@)\nmap data: %@" = "Versija: %@ (%@)\nKartes dati: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Ceļi";
@@ -277,7 +271,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "E-pasts";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -545,8 +539,8 @@
 "add_opening_hours" = "Pievienot darba laiku";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Kopienas veidotie „OpenStreetMap“ dati, %@. Uzziniet vairāk par to, kā piedalīties kartes rediģēšanā un uzlabošanā vietnē „OpenStreetMap.org“.";
+"osm_mapdata" = "Kartes dati no OpenStreetMap";
+"osm_mapdata_explanation %@" = "Kopienas veidoti karšu dati, *%@*. Uzziniet vairāk par to, kā piedalīties kartes rediģēšanā un uzlabošanā vietnē „[OpenStreetMap.org](https://openstreetmap.org)“.";
 "osm_more_about" = "Vairāk par „OpenStreetMap“";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 
@@ -554,16 +548,16 @@
 "osm_profile" = "„OpenStreetMap“ profils";
 "osm_profile_promt" = "Izveidojiet OpenStreetMap kontu vai piesakieties, lai publicētu savas kartes rediģējumus visā pasaulē.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) ir kopienas projekts, kura mērķis ir izveidot atvērtajos datos balstītu karti, kura ir pieejama bez maksas. Tas ir CoMaps galvenais karšu datu avots un darbojas līdzīgi kā Vikipēdija. Jūs varat pievienot vai rediģēt vietas, un tās kļūst pieejamas miljoniem lietotāju visā pasaulē.\nPievienojieties kopienai, lai palīdzētu izveidot labāku karti visiem!";
-"osm_profile_login" = "Ierakstīties OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Pieslēgties OpenStreetMap kontam";
+"osm_profile_reauthorize_promt" = "OpenStreetMap konts tika atvienots no šīs lietotnes";
+"osm_profile_reauthorize" = "Atkārtoti izveidot savienojumu ar OpenStreetMap";
+"osm_profile_remove_promt" = "Ja nevarat vai nevēlaties atkārtoti pievienot savu kontu, varat to vienkārši noņemt no šīs lietotnes";
+"osm_profile_remove" = "Noņemt OpenStreetMap kontu";
 "osm_profile_register_promt" = "Vai jums nav „OpenStreetMap“ konta?";
 "osm_profile_register" = "Reģistrējieties „OpenStreetMap“";
 "osm_profile_verfied_changes" = "Apstiprinātas izmaiņas";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Atteikties no OpenStreetMap konta";
+"osm_profile_delete" = "Dzēst OpenStreetMap kontu";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Pēdējo reizi augšupielādēja";
@@ -759,7 +753,7 @@
 "start_from_my_position" = "Sākt no";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Saglabāts";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Ierakstieties „OpenStreetMap“, lai automātiski augšupielādētu visus kartes rediģējumus. Uzziniet vairāk";
@@ -1104,3 +1098,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Ceļš ir tukšs – nav ko saglabāt";
 "edit_track" = "Labot ceļu";
+"osm_profile_view_edit_history" = "Skatīt labojumu vēsturi";
+"osm_profile_view_notes" = "Skatīt piezīmes";

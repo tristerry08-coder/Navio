@@ -902,7 +902,7 @@
     <string name="pedestrian">行人</string>
     <string name="about_help">关于和帮助</string>
     <string name="panoramax">Panoramax 图片</string>
-    <string name="pref_backup_summary">自动备份到设备上的文件夹</string>
+    <string name="pref_backup_summary">自动备份到您设备上的文件夹</string>
     <string name="pref_backup_now_title">立即备份</string>
     <string name="pref_backup_now_summary">立即创建备份</string>
     <string name="pref_backup_now_summary_progress">正在备份…</string>
@@ -921,4 +921,6 @@
     <string name="backup_interval_manual_only">关闭（仅手动）</string>
     <string name="dialog_report_error_missing_folder">所选备份位置不可用或不可写入。请选择其他位置。</string>
     <string name="dialog_report_error_with_logs">请向我们发送错误报告：\n - 在设置中“启用日志记录”\n - 重现问题\n - 在“关于和帮助”屏幕中点击“报告错误”按钮，然后通过电子邮件或聊天软件发送\n - 禁用日志记录</string>
+    <string name="closed_now">已歇业</string>
+    <string name="open_now">营业中</string>
 </resources>

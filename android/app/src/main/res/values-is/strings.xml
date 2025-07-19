@@ -406,7 +406,7 @@
     <string name="choose_color">Veldu lit</string>
     <string name="uri_open_location_failed">Ekkert forrit er uppsett sem gæti opnað staðsetninguna</string>
     <string name="about_proposition_2">• Tæmir ekki rafhlöðuna, virkar án nettengingar</string>
-    <string name="about_proposition_3">• Hraðvirkt, mínímalískt, hannað af notendunum</string>
+    <string name="about_proposition_3">• Ótengdur, hraður og nettur</string>
     <string name="failed_to_open_file">Mistókst að opna skrána %1$s \n \n%2$s</string>
     <string name="routing_download_maps_along">Sækja öll landakort meðfram leiðinni þinni</string>
     <string name="about_developed_by_enthusiasts">Forrit með opinn grunnkóða sem útbúið er af áhugafólki og sjálfboðaliðum.</string>
@@ -600,4 +600,5 @@
     <string name="panoramax">Panoramax mynd</string>
     <string name="bluesky">Bluesky</string>
     <string name="app_site_url">https://comaps.app/</string>
+    <string name="saved">Vistað</string>
 </resources>

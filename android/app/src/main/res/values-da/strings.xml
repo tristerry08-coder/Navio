@@ -900,4 +900,7 @@
     <string name="pref_backup_location_title">Placering af sikkerhedskopi</string>
     <string name="pref_left_button_disable">Deaktiver</string>
     <string name="app_site_url">https://comaps.app/</string>
+    <string name="closed_now">Lukket nu</string>
+    <string name="open_now">Åben nu</string>
+    <string name="at">kl. %s</string>
 </resources>

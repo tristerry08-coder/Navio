@@ -43,16 +43,13 @@
 "country_status_download_failed" = "Atsiuntimas nepavyko";
 
 /* Text in About screen */
-"about_headline" = "Nemokama visiems, sukurta su meile";
+"about_headline" = "Atviras projektas, kurį kuria bendruomenė";
 
 /* Text in About screen */
-"about_proposition_1" = "Jokių reklamų, sekimo, duomenų rinkimo";
+"about_proposition_1" = "Veikia sparčiai, paprasta naudoti ir be interneto";
 
 /* Text in About screen */
-"about_proposition_2" = "Neiškrauna akumuliatoriaus, nes veikia neprisijungus prie interneto";
-
-/* Text in About screen */
-"about_proposition_3" = "Sparti, minimalistinė, vystoma bendruomenės";
+"about_proposition_2" = "Orientuotas į privatumą ir be reklamų";
 "close" = "Užverti";
 "download" = "Atsiųsti";
 
@@ -181,7 +178,7 @@
 "email" = "El. paštas";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Koipjuoti į iškarpinę";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Nukopijuota į iškarpinę: %@";
@@ -194,8 +191,8 @@
 
 /* Prints version number in About dialog */
 "version" = "„CoMaps“ versija: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "%@ (%@) versija";
+"version: %@ (%@)\nmap data: %@" = "Versija: %@ (%@)\nŽemėlapio duomenys: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Trasos";
@@ -277,7 +274,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "El. paštas";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -545,8 +542,8 @@
 "add_opening_hours" = "Pridėti darbo valandas";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Bendruomenės surinkti „OpenStreetMap“ duomenys %@ dienai. Sužinokite, kaip redaguoti ir atnaujinti žemėlapį, apsilankydami OpenStreetMap.org svetainėje";
+"osm_mapdata" = "Žemėlapio duomenys iš „OpenStreetMap“";
+"osm_mapdata_explanation %@" = "Bendruomenės surinkti žemėlapių duomenys *%@* dienai. Sužinokite, kaip redaguoti ir atnaujinti žemėlapį, apsilankydami [OpenStreetMap.org](https://openstreetmap.org) svetainėje.";
 "osm_more_about" = "Plačiau apie „OpenStreetMap“";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 
@@ -554,16 +551,16 @@
 "osm_profile" = "„OpenStreetMap“ profilis";
 "osm_profile_promt" = "Susikurkite „OpenStreetMap“ paskyrą arba prisijunkite, kad galėtumėte skelbti savo žemėlapio pakeitimus pasauliui.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) – tai bendruomenės projektas, kuriuo siekiama sukurti laisvą ir atvirą žemėlapį. Tai – pagrindinis „CoMaps“ žemėlapių duomenų šaltinis, veikiantis panašiu principu, kaip „Vikipedija“. Galite pridėti ar taisyti vietas, o jos tampa prieinamos milijonams naudotojų visame pasaulyje. \nPrisijunkite prie bendruomenės ir padėkite kurti geresnį žemėlapį visiems!";
-"osm_profile_login" = "Prisijungti prie „OpenStreetMap“";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Prisijungti prie „OpenStreetMap“ paskyros";
+"osm_profile_reauthorize_promt" = "„OpenStreetMap“ paskyra buvo atjungta nuo šios programėlės";
+"osm_profile_reauthorize" = "Iš naujo prisijungti prie „OpenStreetMap“";
+"osm_profile_remove_promt" = "Jei negalite arba nenorite iš naujo prijungti savo paskyros, galite ją tiesiog pašalinti iš šios programėlės";
+"osm_profile_remove" = "Pašalinti „OpenStreetMap“ paskyrą";
 "osm_profile_register_promt" = "Neturite „OpenStreetMap“ paskyros?";
 "osm_profile_register" = "Registruotis „OpenStreetMap“";
 "osm_profile_verfied_changes" = "Patvirtinti pakeitimai";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Atsijungti nuo „OpenStreetMap“ paskyros";
+"osm_profile_delete" = "Ištrinti „OpenStreetMap“ paskyrą";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Paskutinis įkėlimas";
@@ -759,7 +756,7 @@
 "start_from_my_position" = "Pradėti iš";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Išsaugota";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Prisijunkite prie „OpenStreetMap“, kad galėtumėte automatiškai įkelti visus savo žemėlapio pakeitimus. Išsamesnė informacija –";
@@ -1104,3 +1101,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Trasa tuščia – nėra ką įrašyti";
 "edit_track" = "Redaguoti trasą";
+"osm_profile_view_notes" = "Peržiūrėti pastabas";
+"osm_profile_view_edit_history" = "Peržiūrėti keitimų istoriją";

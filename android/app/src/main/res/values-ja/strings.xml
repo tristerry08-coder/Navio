@@ -44,7 +44,7 @@
     <!-- Text in About screen -->
     <string name="about_proposition_2">• バッテリーの消耗がなく、オフラインで動作する</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• 高速、ミニマリスト、コミュニティによる開発</string>
+    <string name="about_proposition_3">• オフライン、高速、簡潔</string>
     <!-- Text in About screen -->
     <string name="about_developed_by_enthusiasts">愛好家とボランティアによって作成されたオープンソースアプリケーション。</string>
     <!-- The button that opens system location settings -->

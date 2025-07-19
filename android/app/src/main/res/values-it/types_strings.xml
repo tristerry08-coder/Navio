@@ -613,8 +613,8 @@
     <string name="type.landuse.vineyard">Vigne</string>
     <string name="type.leisure">Tempo libero</string>
     <string name="type.leisure.dog_park">Area sgambamento cani</string>
-    <string name="type.leisure.fitness_centre">Centro benessere</string>
-    <string name="type.leisure.fitness_station">Centro fitness</string>
+    <string name="type.leisure.fitness_centre">Palestra</string>
+    <string name="type.leisure.fitness_station">Area Fitness</string>
     <string name="type.leisure.dance">Sala da ballo</string>
     <string name="type.leisure.garden">Giardino</string>
     <string name="type.leisure.garden.residential">Giardino</string>

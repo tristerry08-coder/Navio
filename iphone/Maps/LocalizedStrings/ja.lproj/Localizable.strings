@@ -43,16 +43,16 @@
 "country_status_download_failed" = "ダウンロードに失敗しました";
 
 /* Text in About screen */
-"about_headline" = "すべての人のために無料で、愛を込めて作られています";
+"about_headline" = "コミュニティ主導のオープンプロジェクト";
 
 /* Text in About screen */
-"about_proposition_1" = "広告、追跡なし、データ収集なし";
+"about_proposition_1" = "オフライン、高速、使いやすい";
 
 /* Text in About screen */
-"about_proposition_2" = "バッテリーの消耗がなく、オフラインで動作する";
+"about_proposition_2" = "プライバシー重視、広告なし";
 
 /* Text in About screen */
-"about_proposition_3" = "高速、ミニマリスト、コミュニティによる開発";
+"about_proposition_3" = "透明な経営と非営利";
 "close" = "閉じる";
 "download" = "ダウンロード";
 
@@ -181,7 +181,7 @@
 "email" = "Eメール";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "クリップボードにコピー";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "クリップボードにコピーしました: %@";
@@ -194,8 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMapsバージョン: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "バージョン %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "バージョン: %@ (%@)\n地図データ: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "トラック";
@@ -277,7 +277,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "電子メール";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -331,7 +331,7 @@
 "volunteer" = "ボランティアに参加する";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "フォローして連絡しよう：";
+"follow_us" = "フォローして連絡しよう";
 
 /* Alert text */
 "email_error_body" = "メールアプリは設定されていません。設定するか、%@にご連絡ください";
@@ -545,8 +545,8 @@
 "add_opening_hours" = "営業時間を追加";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "コミュニティが作成した%@時点の OpenStreetMap のデータ。地図の編集や更新の方法については、OpenStreetMap.org を参照してください";
+"osm_mapdata" = "OpenStreetMapからの地図データ";
+"osm_mapdata_explanation %@" = "コミュニティが作成した*%@*時点の地図データ。地図の編集や更新の方法については、[OpenStreetMap.org](https://openstreetmap.org) を参照してください。";
 "osm_more_about" = "OpenStreetMapについての詳細";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/JA:OpenStreetMap_について";
 
@@ -554,16 +554,16 @@
 "osm_profile" = "OpenStreetMap プロフィール";
 "osm_profile_promt" = "OpenStreetMapのアカウントを作成するかログインして、あなたの地図編集を世界中に公開しましょう。";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM)は、フリーでオープンな地図を構築するコミュニティ・プロジェクトです。OSMは、CoMapsの地図データの主要なソースであり、ウィキペディアと同じように機能します。あなたが場所を追加したり編集したりすると、世界中の何百万人ものユーザーがその場所を利用できるようになります。\nコミュニティに参加して、より良い地図を一緒に作りましょう！";
-"osm_profile_login" = "OpenStreetMapにログイン";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "OpenStreetMapアカウントにログイン";
+"osm_profile_reauthorize_promt" = "OpenStreetMapアカウントがこのアプリから切断されました";
+"osm_profile_reauthorize" = "OpenStreetMapに再接続";
+"osm_profile_remove_promt" = "アカウントを再接続できない場合、または再接続したくない場合は、このアプリからアカウントを削除することができます";
+"osm_profile_remove" = "このアプリからOpenStreetMapアカウントの記憶を削除";
 "osm_profile_register_promt" = "OpenStreetMapのアカウントをお持ちではないですか？";
 "osm_profile_register" = "OpenStreetMapのアカウントを登録";
 "osm_profile_verfied_changes" = "確認された変更";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "OpenStreetMapアカウントからログアウト";
+"osm_profile_delete" = "OpenStreetMapアカウントを削除";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "最終更新";
@@ -759,7 +759,7 @@
 "start_from_my_position" = "出発地";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "保存しました";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "すべてのマップ編集を自動的にアップロードするには、OpenStreetMapにログインしてください。詳しくは";
@@ -1104,3 +1104,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "ルートが空です - 保存するものがありません";
 "edit_track" = "ルートを編集";
+"osm_profile_view_notes" = "メモを表示";
+"osm_profile_view_edit_history" = "編集履歴を表示";

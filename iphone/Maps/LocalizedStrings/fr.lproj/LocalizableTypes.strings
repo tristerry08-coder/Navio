@@ -672,7 +672,7 @@
 
 /* In most (European) countries, сemeteries are usually independent of places of worship (e.g. military cemeteries), while grave yards are usually the yard of a place of worship. */
 "type.landuse.cemetery.christian" = "Cimetière chrétien";
-"type.landuse.religious" = "Religious Land";
+"type.landuse.religious" = "Terre religieuse";
 "type.landuse.commercial" = "Zone commerciale";
 "type.landuse.construction" = "Chantier de construction";
 "type.landuse.education" = "Établissements éducatifs";
@@ -1054,15 +1054,15 @@
 "type.railway.station.subway.rennes" = "Station de métro";
 "type.railway.station.subway.rio" = "Station de métro";
 "type.railway.station.subway.roma" = "Station de métro";
-"type.railway.station.subway.rotterdam" = "Station de Métro de Rotterdam";
+"type.railway.station.subway.rotterdam" = "Station de métro";
 "type.railway.station.subway.samara" = "Station de métro";
 "type.railway.station.subway.santiago" = "Station de métro";
 "type.railway.station.subway.santo_domingo" = "Station de métro";
 "type.railway.station.subway.saopaulo" = "Station de métro";
-"type.railway.station.subway.sapporo" = "Station de Métro de Sapporo";
+"type.railway.station.subway.sapporo" = "Station de métro";
 "type.railway.station.subway.sendai" = "Station de métro";
 "type.railway.station.subway.sf" = "Station de métro";
-"type.railway.station.subway.shanghai" = "Station de Métro de Shanghai";
+"type.railway.station.subway.shanghai" = "Station de métro";
 "type.railway.station.subway.shenzhen" = "Station de métro";
 "type.railway.station.subway.shiraz" = "Station de métro";
 "type.railway.station.subway.singapore" = "Station de métro";
@@ -1074,15 +1074,15 @@
 "type.railway.station.subway.taoyuan" = "Station de métro";
 "type.railway.station.subway.tashkent" = "Station de métro";
 "type.railway.station.subway.tbilisi" = "Station de métro";
-"type.railway.station.subway.tehran" = "Station de Métro de Téhéran";
+"type.railway.station.subway.tehran" = "Station de métro";
 "type.railway.station.subway.tianjin" = "Station de métro";
 "type.railway.station.subway.tokyo" = "Station de métro";
-"type.railway.station.subway.valencia" = "Station de Métro de Valence";
+"type.railway.station.subway.valencia" = "Station de métro";
 "type.railway.station.subway.vienna" = "Station de métro";
 "type.railway.station.subway.warszawa" = "Station de métro";
 "type.railway.station.subway.washington" = "Station de métro";
 "type.railway.station.subway.wuhan" = "Station de métro";
-"type.railway.station.subway.yerevan" = "Station de Métro d'Erevan";
+"type.railway.station.subway.yerevan" = "Station de métro";
 "type.railway.station.subway.yokohama" = "Station de métro";
 "type.railway.subway" = "Ligne de métro";
 "type.railway.subway.bridge" = "Voie de métro";
@@ -1491,4 +1491,11 @@
 "type.sport.diving" = "Plongeon de haut vol";
 "type.highway.ladder" = "Échelle";
 "type.man_made.crane" = "Grue";
-"type.railway.station.subway.qingdao" = "Station de Métro de Qingdao";
+"type.railway.station.subway.qingdao" = "Station de métro";
+"type.natural.wetland.saltmarsh.tidal" = "Marais salant à marée";
+"type.natural.wetland.fen" = "Marais";
+"type.natural.wetland.swamp" = "Marais";
+"type.natural.wetland.mangrove" = "Mangrove";
+"type.natural.wetland.tidalflat" = "Estran";
+"type.natural.wetland.reedbed" = "Roselière";
+"type.natural.wetland.saltmarsh" = "Marais salant";

@@ -43,16 +43,10 @@
 "country_status_download_failed" = "Sťahovanie zlyhalo";
 
 /* Text in About screen */
-"about_headline" = "Zadarmo pre každého, vyrobené s láskou";
+"about_proposition_1" = "Offline, rýchle a jednoduché použitie";
 
 /* Text in About screen */
-"about_proposition_1" = "Žiadne reklamy, žiadne sledovanie, žiadny zber údajov";
-
-/* Text in About screen */
-"about_proposition_2" = "Žiadne vybíjanie batérie, funguje v režime offline";
-
-/* Text in About screen */
-"about_proposition_3" = "Rýchly, minimalistický, vyvinutý komunitou";
+"about_proposition_2" = "Zamerané na súkromie a bez reklám";
 "close" = "Zavrieť";
 "download" = "Stiahnuť";
 
@@ -181,7 +175,7 @@
 "email" = "Email";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Kopírovať do schránky";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Skopírované do schránky: %@";
@@ -194,8 +188,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Verzia CoMaps: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Verzia %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Verzia: %@ (%@)\nMapové údaje: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Stopy";
@@ -545,8 +539,8 @@
 "add_opening_hours" = "Pridať otváracie hodiny";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Údaje OpenStreetMap vytvorené komunitou od %@. Viac informácií o tom, ako upravovať a aktualizovať mapu, nájdete na stránke OpenStreetMap.org";
+"osm_mapdata" = "Údaje mapy z OpenStreetMap";
+"osm_mapdata_explanation %@" = "Údaje mapy vytvorené komunitou od *%@*. Viac informácií o tom, ako upravovať a aktualizovať mapu, nájdete na stránke [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "Viac o OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 
@@ -554,16 +548,16 @@
 "osm_profile" = "Profil OpenStreetMap";
 "osm_profile_promt" = "Vytvorte si účet OpenStreetMap alebo sa prihláste a zverejnite svoje úpravy mapy na celom svete.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) je komunitný projekt na vytvorenie bezplatnej a otvorenej mapy. Je hlavným zdrojom mapových údajov v službe CoMaps a funguje podobne ako Wikipédia. Môžete pridávať alebo upravovať miesta a tie sa stanú dostupnými pre milióny používateľov na celom svete. \nPridajte sa ku komunite a pomôžte vytvoriť lepšiu mapu pre všetkých!";
-"osm_profile_login" = "Prihláste sa do OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Prihlásiť sa do účtu OpenStreetMap";
+"osm_profile_reauthorize_promt" = "Účet OpenStreetMap bol odpojený od tejto aplikácie";
+"osm_profile_reauthorize" = "Znova sa pripojiť k OpenStreetMap";
+"osm_profile_remove_promt" = "Ak nemôžete alebo nechcete znova pripojiť svoj používateľský účet, môžete ho jednoducho odstrániť z tejto aplikácie";
+"osm_profile_remove" = "Odstrániť zapamätané údaje o účte OpenStreetMap z tejto aplikácie";
 "osm_profile_register_promt" = "Nemáte účet v OpenStreetMap?";
 "osm_profile_register" = "Zaregistrujte sa na OpenStreetMap";
 "osm_profile_verfied_changes" = "Overené zmeny";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Odhlásiť sa z účtu OpenStreetMap";
+"osm_profile_delete" = "Zmazať účet OpenStreetMap";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Posledné nahrávanie";
@@ -759,7 +753,7 @@
 "start_from_my_position" = "Začať od";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Uložené";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Prihláste sa do OpenStreetMap, aby ste mohli automaticky nahrať všetky svoje úpravy mapy. Viac informácií sa dozviete";
@@ -1104,3 +1098,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Trasa je prázdna - nie je čo ukladať";
 "edit_track" = "Upraviť trasu";
+"osm_profile_view_notes" = "Zobraziť poznámky";
+"osm_profile_view_edit_history" = "Zobraziť históriu úprav";

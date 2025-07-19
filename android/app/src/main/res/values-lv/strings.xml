@@ -38,13 +38,11 @@
     <string name="try_again">Mēģināt vēlreiz</string>
     <string name="about_menu_title">Par „CoMaps“</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Bezmaksas, pieejama visiem un veidota ar mīlestību</string>
-    <!-- Text in About screen -->
     <string name="about_proposition_1">• Nesatur reklāmas, izsekošanu un nevāc datus</string>
     <!-- Text in About screen -->
     <string name="about_proposition_2">• Neizlādē bateriju, darbojas bez interneta pieslēguma</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Ātra, minimālistiska un kopienas izstrādāta</string>
+    <string name="about_proposition_3">• Bezsaistē, ātri un kompakti</string>
     <!-- Text in About screen -->
     <string name="about_developed_by_enthusiasts">Atvērtā pirmkoda programma, ko veidojuši entuziasti un brīvprātīgie.</string>
     <!-- The button that opens system location settings -->
@@ -858,4 +856,5 @@
     <string name="panoramax">Panoramax attēls</string>
     <string name="editor_line_social_network">LINE</string>
     <string name="app_site_url">https://comaps.app/</string>
+    <string name="saved">Saglabāts</string>
 </resources>

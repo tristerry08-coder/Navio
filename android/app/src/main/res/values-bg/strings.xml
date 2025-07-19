@@ -41,13 +41,11 @@
     <string name="try_again">Опитайте отново</string>
     <string name="about_menu_title">Относно приложението</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Безплатно за всички, направени с любов</string>
-    <!-- Text in About screen -->
     <string name="about_proposition_1">• Без реклами, без проследяване, без събиране на данни</string>
     <!-- Text in About screen -->
     <string name="about_proposition_2">• Без източване на батерията, работи офлайн</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Бърз, прост, разработен от общността</string>
+    <string name="about_proposition_3">• Офлайн, бърз и компактен</string>
     <!-- Text in About screen -->
     <string name="about_developed_by_enthusiasts">Приложение с отворен код, създадено от ентусиасти и доброволци.</string>
     <!-- The button that opens system location settings -->
@@ -839,4 +837,5 @@
     <string name="panoramax">Panoramax Снимка</string>
     <string name="editor_line_social_network">LINE</string>
     <string name="app_site_url">https://comaps.app/</string>
+    <string name="saved">Запазено</string>
 </resources>

@@ -41,13 +41,13 @@
     <string name="try_again">Спробуйте ще раз</string>
     <string name="about_menu_title">Про CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Безкоштовно для всіх, зроблене з любов\'ю</string>
+    <string name="about_headline">Відкритий проєкт, що створюється спільнотою</string>
     <!-- Text in About screen -->
     <string name="about_proposition_1">• Без реклами, без трекінгу, без стеження</string>
     <!-- Text in About screen -->
     <string name="about_proposition_2">• Не розряджає батарею, працює в автономному режимі</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Швидкий, мінімалістичний, розроблений спільнотою</string>
+    <string name="about_proposition_3">• Офлайн, швидкий та компактний</string>
     <!-- Text in About screen -->
     <string name="about_developed_by_enthusiasts">Програма з відкритим кодом, створена ентузіастами та волонтерами.</string>
     <!-- The button that opens system location settings -->
@@ -889,4 +889,5 @@
     <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="panoramax">Фото Panoramax</string>
     <string name="app_site_url">https://comaps.app/uk/</string>
+    <string name="saved">Збережено</string>
 </resources>

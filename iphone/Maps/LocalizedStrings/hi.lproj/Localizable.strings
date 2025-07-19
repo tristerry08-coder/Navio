@@ -43,16 +43,10 @@
 "country_status_download_failed" = "डाउनलोड विफल हो गया है";
 
 /* Text in About screen */
-"about_headline" = "सभी के लिए मुफ़्त, प्यार से बनाया गया";
+"about_proposition_1" = "ऑफ़लाइन, तेज़ और उपयोग में आसान";
 
 /* Text in About screen */
-"about_proposition_1" = "कोई विज्ञापन नहीं, कोई ट्रैकिंग नहीं, कोई डेटा संग्रह नहीं";
-
-/* Text in About screen */
-"about_proposition_2" = "कोई बैटरी ख़त्म नहीं, ऑफ़लाइन काम करता है";
-
-/* Text in About screen */
-"about_proposition_3" = "तेज़, न्यूनतम, समुदाय द्वारा विकसित";
+"about_proposition_2" = "गोपनीयता-केंद्रित और विज्ञापन-मुक्त";
 "close" = "बंद करना";
 "download" = "डाउन लोड करना";
 
@@ -181,7 +175,7 @@
 "email" = "ईमेल";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "क्लिपबोर्ड पर कॉपी करें";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "क्लिपबोर्ड पर नकल: %@";
@@ -194,8 +188,8 @@
 
 /* Prints version number in About dialog */
 "version" = "ऑर्गेनिकमैप्स संस्करण: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "संस्करण %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "संस्करण: %@ (%@)\nमानचित्र डेटा: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "पटरियों";
@@ -269,7 +263,7 @@
 
 /* Text in the about screen */
 "social_codeberg" = "Codeberg";
-"social_mastodon" = "Mastodon";
+"social_mastodon" = "मास्टोडॉन";
 "social_lemmy" = "Lemmy";
 "social_matrix" = "Matrix";
 "social_telegram" = "Telegram";
@@ -277,10 +271,10 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "ईमेल";
 
 /* Text in the editor */
-"fediverse" = "Mastodon";
+"fediverse" = "मास्टोडॉन";
 
 /* Text in menu */
 "facebook" = "फेसबुक";
@@ -545,8 +539,8 @@
 "add_opening_hours" = "Add opening hours";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "समुदाय-निर्मित OpenStreetMap डेटा %@ तक। OpenStreetMap.org पर मानचित्र को संपादित और अपडेट करने के तरीके के बारे में और जानें";
+"osm_mapdata" = "OpenStreetMap से मानचित्र डेटा";
+"osm_mapdata_explanation %@" = "समुदाय-निर्मित मानचित्र डेटा *%@* तक। [OpenStreetMap.org](https://openstreetmap.org) पर मानचित्र को संपादित और अपडेट करने के तरीके के बारे में और जानें।";
 "osm_more_about" = "OpenStreetMap के बारे में अधिक जानकारी";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 
@@ -554,16 +548,16 @@
 "osm_profile" = "OpenStreetMap प्रोफ़ाइल";
 "osm_profile_promt" = "अपने मानचित्र संपादनों को दुनिया भर में प्रकाशित करने के लिए एक OpenStreetMap खाता बनाएं या लॉग इन करें।";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) एक निःशुल्क और खुला मानचित्र बनाने के लिए एक सामुदायिक परियोजना है। यह CoMaps में मानचित्र डेटा का मुख्य स्रोत है और विकिपीडिया के समान काम करता है। आप स्थानों को जोड़ या संपादित कर सकते हैं और वे दुनिया भर में लाखों उपयोगकर्ताओं के लिए उपलब्ध हो जाते हैं। \nसमुदाय में शामिल हों और सभी के लिए एक बेहतर मानचित्र बनाने में सहायता करें!";
-"osm_profile_login" = "Login to OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "OpenStreetMap खाते में लॉग इन करें";
+"osm_profile_reauthorize_promt" = "OpenStreetMap खाता इस ऐप से डिस्कनेक्ट हो गया था";
+"osm_profile_reauthorize" = "OpenStreetMap से पुनः कनेक्ट करें";
+"osm_profile_remove_promt" = "अगर आप अपना खाता दोबारा कनेक्ट नहीं कर पा रहे हैं या नहीं करना चाहते हैं, तो आप इसे इस ऐप से हटा सकते हैं";
+"osm_profile_remove" = "इस ऐप से OpenStreetMap खाते की मेमोरी हटाएँ";
 "osm_profile_register_promt" = "आपके पास अभी तक OpenStreetMap खाता नहीं है?";
 "osm_profile_register" = "Openstreetmap पर पंजीकरण करें";
 "osm_profile_verfied_changes" = "Verified Changes";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "OpenStreetMap खाते से लॉगआउट करें";
+"osm_profile_delete" = "OpenStreetMap खाता हटाएँ";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Last upload";
@@ -759,7 +753,7 @@
 "start_from_my_position" = "Start from";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "सहेजी हुई";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "कृपया अपने सभी मानचित्र संपादनों को स्वचालित रूप से अपलोड करने के लिए OpenStreetMap पर लॉगिन करें। अधिक जानें";
@@ -1104,3 +1098,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "मार्ग खाली है - बचाने के लिए कुछ नहीं";
 "edit_track" = "मार्ग संपादित करें";
+"osm_profile_view_notes" = "नोट्स देखें";
+"osm_profile_view_edit_history" = "संपादन इतिहास देखें";

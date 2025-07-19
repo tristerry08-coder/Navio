@@ -228,7 +228,7 @@
     <!-- Settings «Map» category: «Perspective view» title -->
     <string name="pref_map_3d_title">Перспективный вид</string>
     <!-- Settings «Map» category: «3D buildings» title -->
-    <string name="pref_map_3d_buildings_title">3D здания</string>
+    <string name="pref_map_3d_buildings_title">3D-здания</string>
     <!-- A message in Settings/Preferences explaining why is it not possible to enable 3D buildings when max power saving mode is enabled -->
     <string name="pref_map_3d_buildings_disabled_summary">3D-здания отключаются в режиме энергосбережения</string>
     <!-- Settings «Route» category: «Tts enabled» title -->
@@ -245,7 +245,7 @@
     <string name="pref_tts_playing_test_voice">Проверьте громкость или системные настройки преобразования текста в речь, если сейчас ничего не слышно.</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
     <string name="pref_tts_unavailable">Не доступны</string>
-    <string name="pref_map_auto_zoom">Автозум</string>
+    <string name="pref_map_auto_zoom">Автомасштабирование</string>
     <string name="placepage_distance">Расстояние</string>
     <string name="search_show_on_map">Посмотреть на карте</string>
     <!-- Menu button -->
@@ -685,10 +685,10 @@
     <!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->
     <string name="avoid_tolls">Избегать платных дорог</string>
     <!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->
-    <string name="avoid_unpaved">Избегать грунтовые дороги</string>
+    <string name="avoid_unpaved">Избегать грунтовых дорог</string>
     <!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->
-    <string name="avoid_ferry">Избегать паромы</string>
-    <string name="avoid_motorways">Избегать автомагистрали</string>
+    <string name="avoid_ferry">Избегать паромов</string>
+    <string name="avoid_motorways">Избегать автомагистралей</string>
     <string name="unable_to_calc_alert_title">Невозможно построить маршрут</string>
     <string name="unable_to_calc_alert_subtitle">Маршрут не найден. Это могло быть спровоцировано вашими настройками прокладки маршрута или неполными данными OpenStreetMap. Пожалуйта, измените ваши настройки прокладки маршрута и попробуйте снова.</string>
     <string name="define_to_avoid_btn">Настроить пути объезда</string>

@@ -11,4 +11,6 @@
     <string name="bluesky">Bluesky</string>
     <string name="kilometres">Kilometros</string>
     <string name="app_site_url">https://comaps.app/</string>
+    <string name="saved">Salvate</string>
+    <string name="about_proposition_3">• Offline, rapide e compacte</string>
 </resources>

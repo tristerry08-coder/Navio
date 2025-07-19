@@ -6,12 +6,12 @@ Můžete se zde také připojit ke komunitě pomáhat s vytvářením nejlepší
 • Poskytujte zpětnou vazbu a nahlašujte problémy
 • Aktualizujte mapová data v aplikaci nebo na webu OpenStreetMap
 
-• <b>Zaměřené na offline použití</b>: Plánujte a navigujte své cesty do zahraničí bez nutnosti mobilních dat, hledejte body na vzdálených túrách apod. Všechny funkce aplikace jsou navrženy tak, aby fungovaly offline.
-• <b>S ohledem na soukromí</b>: Aplikace je navržená s důrazem na soukromí – neidentifikuje lidi, nesleduje vás a nesbírá osobní údaje. Bez reklam.
-• <b>Jednoduché a vyladěné</b>: Základní, snadno použitelné funkce, které prostě fungují.
-• <b>Šetří vaši baterii a místo</b>: Nevybíjí vaší baterii, jako ostatní navigační aplikace. Kompaktní mapy šetří cenné místo ve vašem telefonu.
-• <b>Bezplatné a vytvořené komunitou</b>: S vytvářením aplikace pomáhají lidé, jako jste vy, přidáváním míst do projektu OpenStreetMap, testováním a poskytováním zpětné vazby k funkcím a přispíváním svými vývojářskými schopnostmi a penězi.
-• <b>Otevřené a transparentní rozhodování a nakládání s financemi, neziskovost a plně otevřený zdrojový kód.</b>
+‣ <b>Zaměřené na offline použití</b>: Plánujte a navigujte své cesty do zahraničí bez nutnosti mobilních dat, hledejte body na vzdálených túrách apod. Všechny funkce aplikace jsou navrženy tak, aby fungovaly offline.
+‣ <b>S ohledem na soukromí</b>: Aplikace je navržená s důrazem na soukromí – neidentifikuje lidi, nesleduje vás a nesbírá osobní údaje. Bez reklam.
+‣ <b>Jednoduché a vyladěné</b>: Základní, snadno použitelné funkce, které prostě fungují.
+‣ <b>Šetří vaši baterii a místo</b>: Nevybíjí vaší baterii, jako ostatní navigační aplikace. Kompaktní mapy šetří cenné místo ve vašem telefonu.
+‣ <b>Bezplatné a vytvořené komunitou</b>: S vytvářením aplikace pomáhají lidé, jako jste vy, přidáváním míst do projektu OpenStreetMap, testováním a poskytováním zpětné vazby k funkcím a přispíváním svými vývojářskými schopnostmi a penězi.
+‣ <b>Otevřené a transparentní rozhodování a nakládání s financemi, neziskovost a plně otevřený zdrojový kód.</b>
 
 <b>Hlavní funkce</b>:
 • Stahovatelné podrobné mapy s místy, která nenajdete ani v Mapách Google

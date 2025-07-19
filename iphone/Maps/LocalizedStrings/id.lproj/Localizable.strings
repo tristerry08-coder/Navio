@@ -43,16 +43,10 @@
 "country_status_download_failed" = "Sedang Mengunduh telah gagal";
 
 /* Text in About screen */
-"about_headline" = "Gratis untuk semua orang, dibuat dengan cinta";
+"about_proposition_1" = "Offline, cepat dan mudah digunakan";
 
 /* Text in About screen */
-"about_proposition_1" = "Tidak ada iklan, tidak ada pelacakan, tidak ada pengumpulan data";
-
-/* Text in About screen */
-"about_proposition_2" = "Tidak menguras baterai, bekerja secara offline";
-
-/* Text in About screen */
-"about_proposition_3" = "Cepat, minimalis, dikembangkan oleh komunitas";
+"about_proposition_2" = "Berfokus pada privasi dan bebas iklan";
 "close" = "Tutup";
 "download" = "Unduh";
 
@@ -181,7 +175,7 @@
 "email" = "Surel";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Salin ke papan klip";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Telah Disalin ke Papan Klip: %@";
@@ -194,8 +188,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Versi CoMaps: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Versi %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Versi: %@ (%@)\nData Peta: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Jalur";
@@ -277,7 +271,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "Alamat surel";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -545,8 +539,8 @@
 "add_opening_hours" = "Tambah jam kerja";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Data OpenStreetMap yang dibuat oleh komunitas pada tanggal %@. Pelajari lebih lanjut mengenai cara mengedit dan memperbarui peta di OpenStreetMap.org";
+"osm_mapdata" = "Data peta dari OpenStreetMap";
+"osm_mapdata_explanation %@" = "Data peta yang dibuat oleh komunitas pada tanggal *%@*. Pelajari lebih lanjut mengenai cara mengedit dan memperbarui peta di [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "Selengkapnya tentang OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 
@@ -554,16 +548,16 @@
 "osm_profile" = "Profil OpenStreetMap";
 "osm_profile_promt" = "Buat akun OpenStreetMap atau masuk untuk mempublikasikan hasil editan peta Anda ke seluruh dunia.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) adalah sebuah proyek komunitas untuk membuat sebuah peta yang bebas dan terbuka. OSM merupakan sumber utama data peta di CoMaps dan berfungsi mirip dengan Wikipedia. Anda dapat menambahkan atau mengedit tempat dan tempat tersebut tersedia untuk jutaan pengguna di seluruh Dunia. \nBergabunglah dengan komunitas dan bantu membuat peta yang lebih baik untuk semua orang!";
-"osm_profile_login" = "Masuk ke OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Masuk ke akun OpenStreetMap";
+"osm_profile_reauthorize_promt" = "Akun OpenStreetMap terputus dari aplikasi ini";
+"osm_profile_reauthorize" = "Hubungkan kembali dengan OpenStreetMap";
+"osm_profile_remove_promt" = "Jika Anda tidak dapat atau tidak ingin menghubungkan kembali akun Anda, Anda dapat menghapusnya dari aplikasi ini";
+"osm_profile_remove" = "Hapus memori akun OpenStreetMap dari aplikasi ini";
 "osm_profile_register_promt" = "Tidak ada akun di OpenStreetMap?";
 "osm_profile_register" = "Daftar di OpenStreetMap";
 "osm_profile_verfied_changes" = "Perubahan Terverifikasi";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Keluar dari akun OpenStreetMap";
+"osm_profile_delete" = "Hapus akun OpenStreetMap";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Pengunggahan terakhir";
@@ -759,7 +753,7 @@
 "start_from_my_position" = "Mulai dari";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Disimpan";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Silahkan login ke OpenStreetMap untuk mengupload semua hasil edit peta Anda secara otomatis. Pelajari lebih lanjut";
@@ -1104,3 +1098,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Jalur kosong - tidak ada yang bisa disimpan";
 "edit_track" = "Edit Jalur";
+"osm_profile_view_notes" = "Lihat catatan";
+"osm_profile_view_edit_history" = "Lihat riwayat suntingan";

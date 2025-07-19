@@ -322,7 +322,7 @@
 "type.cuisine.lebanese" = "Ливанская кухня";
 "type.cuisine.local" = "Местная кухня";
 "type.cuisine.malagasy" = "Мадагаскарская кухня";
-"type.cuisine.malaysian" = "Малазийская кухня";
+"type.cuisine.malaysian" = "Малайзийская кухня";
 "type.cuisine.mediterranean" = "Средиземноморская кухня";
 "type.cuisine.mexican" = "Мексиканская кухня";
 "type.cuisine.moroccan" = "Марокканская кухня";
@@ -672,7 +672,7 @@
 
 /* In most (European) countries, сemeteries are usually independent of places of worship (e.g. military cemeteries), while grave yards are usually the yard of a place of worship. */
 "type.landuse.cemetery.christian" = "Христианское кладбище";
-"type.landuse.religious" = "Religious Land";
+"type.landuse.religious" = "Церковный двор";
 "type.landuse.commercial" = "Коммерческая застройка";
 "type.landuse.construction" = "Стройка";
 "type.landuse.education" = "Образовательные учреждения";
@@ -826,7 +826,7 @@
 "type.natural.water" = "Водоём";
 "type.natural.wetland" = "Болотистая местность";
 "type.natural.wetland.bog" = "Торфяное болото";
-"type.natural.wetland.marsh" = "Травянистое болото";
+"type.natural.wetland.marsh" = "Болото";
 "type.natural.wetland.saltmarsh" = "Солёноводное болото";
 "type.natural.wetland.saltmarsh.tidal" = "Приливное болото";
 "type.natural.wetland.fen" = "Торфяное болото";
@@ -1353,7 +1353,7 @@
 "type.sport.multi" = "Различные виды спорта";
 
 /* Used to tag a scuba diving site. */
-"type.sport.scuba_diving" = "Место для дайвинга";
+"type.sport.scuba_diving" = "Место для ныряния с аквалангом";
 "type.sport.shooting" = "Стрельба";
 "type.sport.skateboard" = "Скейтбординг";
 "type.sport.skiing" = "Лыжи";
@@ -1494,7 +1494,8 @@
 "type.sport.diving" = "Высотные прыжки в воду";
 "type.barrier.guard_rail" = "Дорожное ограждение (отбойник)";
 "type.highway.ladder" = "Лестница-лаз";
-"type.landuse.plant_nursery" = "Питомник растений";
+"type.landuse.plant_nursery" = "Садовый питомник";
 "type.amenity.studio" = "Студия";
-"type.leisure.firepit" = "Место разведения костра";
+"type.leisure.firepit" = "Кострище";
 "type.man_made.crane" = "Кран";
+"type.railway.station.subway.qingdao" = "Станция метро";

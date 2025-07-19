@@ -43,16 +43,13 @@
 "country_status_download_failed" = "Allalaadimine ei õnnestunud";
 
 /* Text in About screen */
-"about_headline" = "Tasuta ja vaba kõigi jaoks, tehtud armastusega";
+"about_headline" = "Avatud projekt, mida toetab toimekas kogukond";
 
 /* Text in About screen */
-"about_proposition_1" = "Pole reklaame, jälitamist ega andmekogumist";
+"about_proposition_1" = "Töötab ilma võrguühenduseta, kiire ja hõlpsasti kasutatav";
 
 /* Text in About screen */
-"about_proposition_2" = "Ei tühjenda akut, töötab võrguühenduseta";
-
-/* Text in About screen */
-"about_proposition_3" = "Kiire, minimalistlik, kogukonna poolt väljatöötatud";
+"about_proposition_2" = "Privaatsusele orienteeritud ja reklaamivaba";
 "close" = "Sulge";
 "download" = "Laadi alla";
 
@@ -181,7 +178,7 @@
 "email" = "E-post";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Kopeeri lõikelauale";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Kopeeritud lõikelauale: %@";
@@ -194,8 +191,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMapsi versioon: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Versioon %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Versioon: %@ (%@)\nKaardiandmed: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Rajad";
@@ -277,7 +274,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "E-kiri";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -545,8 +542,8 @@
 "add_opening_hours" = "Lisa tööaeg";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Kogukonna loodud OpenStreetMapi andmed seisuga %@. Lisateavet kaardi muutmise ja uuendamise kohta leiad OpenStreetMap.org saidist";
+"osm_mapdata" = "OpenStreetMapi kaardiandmed";
+"osm_mapdata_explanation %@" = "Kogukonna loodud kaardiandmed seisuga *%@*. Lisateavet kaardi muutmise ja uuendamise kohta leiad [OpenStreetMap.org](https://openstreetmap.org) saidist.";
 "osm_more_about" = "Lisateave OpenStreetMapi kohta";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 
@@ -554,7 +551,7 @@
 "osm_profile" = "OpenStreetMapi profiil";
 "osm_profile_promt" = "Loo OpenStreetMapi konto või logi sisse, et avaldada oma kaardimuudatused kogu maailmale.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) on kogukonna projekt, mille eesmärk on luua tasuta ja avatud kaart. See on CoMapsi peamine kaardiandmete allikas ja toimib sarnaselt Vikipeediaga. Saad lisada või muuta kohti ja need muutuvad kättesaadavaks miljonitele kasutajatele üle kogu maailma.\nLiitu kogukonnaga ja aita luua kõigi jaoks paremat kaarti!";
-"osm_profile_login" = "Logi sisse OpenStreetMappi";
+"osm_profile_login" = "Logi sisse OpenStreetMapi kasutajakontole";
 "osm_profile_reauthorize_promt" = "OpenStreetMap kasutajakonto ühendus on siit rakendusest katkestatud";
 "osm_profile_reauthorize" = "Loo uuesti ühendus OpenStreetMapiga";
 "osm_profile_remove_promt" = "Kui sa ei saa või ei taha ühendust uuesti luua, siis võid kasutajakonto rakendusest eemaldada";
@@ -1105,4 +1102,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Rada on tühi - ei ole midagi salvestada";
 "edit_track" = "Muuda rada";
-"osm_profile_view_notes" = "Vaata märkmeid";
+"osm_profile_view_notes" = "Vaata märkused";
+"about_proposition_3" = "Läbipaistev ja kasumit mittetaotlev";

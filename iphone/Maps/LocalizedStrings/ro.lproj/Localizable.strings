@@ -43,16 +43,10 @@
 "country_status_download_failed" = "Descărcarea a eșuat";
 
 /* Text in About screen */
-"about_headline" = "Gratuit pentru toată lumea, făcut cu dragoste";
+"about_proposition_1" = "Offline, rapid și ușor de utilizat";
 
 /* Text in About screen */
-"about_proposition_1" = "Fără reclame, fără urmărire, fără colectare de date";
-
-/* Text in About screen */
-"about_proposition_2" = "Nu consumă baterie, funcționează offline";
-
-/* Text in About screen */
-"about_proposition_3" = "Rapid, minimalist, dezvoltat de comunitate";
+"about_proposition_2" = "Concentrat pe confidențialitate și fără reclame";
 "close" = "Închide";
 "download" = "Descarcă";
 
@@ -181,7 +175,7 @@
 "email" = "E-mail";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Copiați în clipboard";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Copiat în notițe: %@";
@@ -194,8 +188,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Versiunea CoMaps: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Versiunea %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Versiunea: %@ (%@)\nDate cartografice: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Trasee";
@@ -545,8 +539,8 @@
 "add_opening_hours" = "Adaugă orele de funcționare";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Date OpenStreetMap create de comunitate la data de %@. Aflați mai multe despre cum să editați și să actualizați harta la OpenStreetMap.org";
+"osm_mapdata" = "Datele hărții de la OpenStreetMap";
+"osm_mapdata_explanation %@" = "Date cartografice create de comunitate la data de *%@*. Aflați mai multe despre cum să editați și să actualizați harta la [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "Mai multe despre OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 
@@ -554,16 +548,16 @@
 "osm_profile" = "Profil OpenStreetMap";
 "osm_profile_promt" = "Creați un cont OpenStreetMap sau conectați-vă pentru a vă publica edițiile de hartă în întreaga lume.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) este un proiect comunitar pentru construirea unei hărți libere și deschise. Este principala sursă de date cartografice în CoMaps și funcționează similar cu Wikipedia. Puteți adăuga sau edita locuri, iar acestea devin disponibile pentru milioane de utilizatori din întreaga lume. \nAlăturați-vă comunității și ajutați la crearea unei hărți mai bune pentru toată lumea!";
-"osm_profile_login" = "Conectați-vă la OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Conectează-te la contul OpenStreetMap";
+"osm_profile_reauthorize_promt" = "Contul OpenStreetMap a fost deconectat de la această aplicație";
+"osm_profile_reauthorize" = "Reconectează-te cu OpenStreetMap";
+"osm_profile_remove_promt" = "Dacă nu puteți sau nu doriți să vă reconectați contul, îl puteți elimina din această aplicație";
+"osm_profile_remove" = "Elimină contul OpenStreetMap";
 "osm_profile_register_promt" = "Nu ai un cont OpenStreetMap?";
 "osm_profile_register" = "Înregistrați-vă la OpenStreetMap";
 "osm_profile_verfied_changes" = "Modificări confirmate";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Deconectează-te de la contul OpenStreetMap";
+"osm_profile_delete" = "Șterge contul OpenStreetMap";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Ultima încărcare";
@@ -759,7 +753,7 @@
 "start_from_my_position" = "Pornește de la";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Salvat";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Vă rugăm să vă conectați la OpenStreetMap pentru a încărca automat toate modificările aduse hărții. Aflați mai multe";
@@ -1104,3 +1098,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Traseul este gol - nu este nimic de salvat";
 "edit_track" = "Editează traseul";
+"osm_profile_view_edit_history" = "Vizualizați istoricul modificărilor";
+"osm_profile_view_notes" = "Vizualizați notițe";

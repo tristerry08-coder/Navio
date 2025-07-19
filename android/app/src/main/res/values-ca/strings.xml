@@ -38,13 +38,11 @@
     <string name="try_again">Torna-ho a intentar</string>
     <string name="about_menu_title">Quant a l’CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Gratuït per a tothom, fet amb amor</string>
-    <!-- Text in About screen -->
     <string name="about_proposition_1">• Sense publicitat, rastreig ni recopilació de dades</string>
     <!-- Text in About screen -->
     <string name="about_proposition_2">• Consum de bateria mínim, funciona fora de línia</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Ràpid, minimalista, desenvolupat per la comunitat</string>
+    <string name="about_proposition_3">• Fora de línia, ràpid i compacte</string>
     <!-- Text in About screen -->
     <string name="about_developed_by_enthusiasts">Aplicació de codi obert creada per entusiastes i voluntaris.</string>
     <!-- The button that opens system location settings -->
@@ -885,4 +883,5 @@
     <string name="comma_separated_pair">%1$s, %2$s</string>
     <string name="panoramax">Imatge Panoramax</string>
     <string name="app_site_url">https://comaps.app/ca/</string>
+    <string name="saved">S\'ha desat</string>
 </resources>

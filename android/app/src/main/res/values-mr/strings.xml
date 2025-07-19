@@ -40,7 +40,7 @@
     <!-- Text in About screen -->
     <string name="about_proposition_2">• बॅटरी संपत नाही, ऑफलाइन कार्य करते</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• जलद, मिनिमलिस्ट, समुदायाद्वारे विकसित</string>
+    <string name="about_proposition_3">• ऑफलाइन, जलद आणि संक्षिप्त</string>
     <!-- The button that opens system location settings -->
     <string name="location_settings">स्थान सेटिंग्ज</string>
     <string name="close">बंद</string>
@@ -826,7 +826,6 @@
     <string name="about_proposition_1">• जाहिराती नाही, माहितीचा मागोवा नाही, डेटा संग्रहण नाही</string>
     <string name="donate">दान करा</string>
     <string name="login_osm">OpenStreetMap मध्ये लॉगिन करा</string>
-    <string name="about_headline">सर्वांसाठी विनामूल्य, आवडीने तयार केलेले</string>
     <string name="pref_tts_street_names_description">चालू केल्यास, वळण घेण्यापूर्वी रस्त्याचे किंवा वळणाचे नाव बोलून सांगितले जाईल.</string>
     <string name="editor_share_to_all_dialog_message_2">OpenStreetMap संपादक बदल तपासतील व काही प्रश्न असल्यास तुमच्याशी संपर्क साधतील.</string>
     <string name="category_rv">कँपिंग वाहन सोयी</string>
@@ -838,4 +837,5 @@
     <string name="panoramax">Panoramax चित्र</string>
     <string name="editor_line_social_network">LINE</string>
     <string name="app_site_url">https://comaps.app/mr/</string>
+    <string name="saved">जतन केले</string>
 </resources>

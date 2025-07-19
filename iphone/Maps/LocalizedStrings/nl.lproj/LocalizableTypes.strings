@@ -672,7 +672,7 @@
 
 /* In most (European) countries, сemeteries are usually independent of places of worship (e.g. military cemeteries), while grave yards are usually the yard of a place of worship. */
 "type.landuse.cemetery.christian" = "Christelijke begraafplaats";
-"type.landuse.religious" = "Religious Land";
+"type.landuse.religious" = "Religieus Land";
 "type.landuse.commercial" = "Commercieel gebied";
 "type.landuse.construction" = "Bouwplaats";
 "type.landuse.education" = "Educatieve voorzieningen";
@@ -1492,3 +1492,9 @@
 "type.amenity.love_hotel" = "Love Hotel";
 "type.sport.diving" = "Klifduiken";
 "type.railway.station.subway.qingdao" = "Metrostation";
+"type.natural.wetland.fen" = "Laagveen";
+"type.natural.wetland.reedbed" = "Rietland";
+"type.natural.wetland.swamp" = "Moeras";
+"type.natural.wetland.mangrove" = "mangrove";
+"type.natural.wetland.saltmarsh" = "Zoutmoeras";
+"type.natural.wetland.saltmarsh.tidal" = "Kwelder";

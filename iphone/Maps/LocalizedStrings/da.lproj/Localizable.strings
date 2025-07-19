@@ -43,16 +43,13 @@
 "country_status_download_failed" = "Hentning mislykket";
 
 /* Text in About screen */
-"about_headline" = "Gratis for alle, lavet med kærlighed";
+"about_headline" = "Åbent projekt drevet af fællesskabet";
 
 /* Text in About screen */
-"about_proposition_1" = "Ingen annoncer, ingen sporing, ingen dataindsamling";
+"about_proposition_1" = "Offline, hurtig og nem at bruge";
 
 /* Text in About screen */
-"about_proposition_2" = "Intet batteridræn, fungerer offline";
-
-/* Text in About screen */
-"about_proposition_3" = "Hurtig, minimalistisk, udviklet i fællesskab";
+"about_proposition_2" = "Privatlivsfokuseret og reklamefri";
 "close" = "Luk";
 "download" = "Hent";
 
@@ -181,7 +178,7 @@
 "email" = "E-mail";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Kopiér til udklipsholder";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Kopieret til udklipsholderen: %@";
@@ -195,7 +192,7 @@
 /* Prints version number in About dialog */
 "version" = "CoMaps version: %@";
 "version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nKortdata: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Spor";
@@ -545,8 +542,8 @@
 "add_opening_hours" = "Tilføj arbejdstid";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Fællesskabsskabte OpenStreetMap-data fra %@. Få mere at vide om, hvordan du redigerer og opdaterer kortet på OpenStreetMap.org";
+"osm_mapdata" = "Kortdata fra OpenStreetMap";
+"osm_mapdata_explanation %@" = "Fællesskabsskabte kortdata fra *%@*. Få mere at vide om, hvordan du redigerer og opdaterer kortet på [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "Mere om OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Da:Om_OpenStreetMap";
 
@@ -554,16 +551,16 @@
 "osm_profile" = "OpenStreetMap profil";
 "osm_profile_promt" = "Opret en OpenStreetMap-konto eller log ind for at offentliggøre dine kortredigeringer til hele verden.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) er et fællesskabsprojekt til opbygning af et gratis og åbent kort. Det er hovedkilden til kortdata i CoMaps og fungerer på samme måde som Wikipedia. Du kan tilføje eller redigere steder, og de bliver tilgængelige for millioner af brugere over hele verden.\nSlut dig til fællesskabet og vær med til at skabe et bedre kort for alle!";
-"osm_profile_login" = "Log ind på OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Log ind på OpenStreetMap-konto";
+"osm_profile_reauthorize_promt" = "OpenStreetMap-kontoen blev afbrudt forbindelsen til denne app";
+"osm_profile_reauthorize" = "Genopret forbindelse til OpenStreetMap";
+"osm_profile_remove_promt" = "Hvis du ikke kan eller vil genoprette forbindelsen til din konto, kan du blot fjerne den fra denne app";
+"osm_profile_remove" = "Fjern OpenStreetMap-konto";
 "osm_profile_register_promt" = "Har du ikke OpenStreetMap-konto?";
 "osm_profile_register" = "Tilmeld dig OpenStreetMap";
 "osm_profile_verfied_changes" = "Bekræftede ændringer";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Log ud af OpenStreetMap-konto";
+"osm_profile_delete" = "Slet OpenStreetMap-konto";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Sidste overførsel";
@@ -759,7 +756,7 @@
 "start_from_my_position" = "Start fra";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Gemt";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Log ind på OpenStreetMap for automatisk at uploade alle dine kortredigeringer. Få mere at vide";
@@ -1104,3 +1101,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Sporet er tomt - der er ikke noget at gemme";
 "edit_track" = "Rediger spor";
+"osm_profile_view_edit_history" = "Se redigeringshistorik";
+"osm_profile_view_notes" = "Se bemærkninger";

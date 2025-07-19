@@ -46,7 +46,7 @@
     <!-- Text in About screen -->
     <string name="about_proposition_2">• Batareyanın boşalması yoxdur, oflayn işləyir</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Sürətli, minimalist, icma tərəfindən hazırlanmışdır</string>
+    <string name="about_proposition_3">• Oflayn, sürətli və yığcam</string>
     <!-- Text in About screen -->
     <string name="about_developed_by_enthusiasts">Həvəskarlar və könüllülər tərəfindən yaradılan açıq mənbə proqramı.</string>
     <!-- The button that opens system location settings -->
@@ -844,4 +844,5 @@
     <string name="panoramax">Panoramax Şəkil</string>
     <string name="editor_line_social_network">LINE</string>
     <string name="app_site_url">https://comaps.app/tr/</string>
+    <string name="saved">Saxlandı</string>
 </resources>

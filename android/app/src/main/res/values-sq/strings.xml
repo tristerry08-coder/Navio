@@ -11,4 +11,6 @@
     <string name="app_site_url">https://comaps.app/</string>
     <string name="bluesky">Bluesky</string>
     <string name="kilometres">Kilometra</string>
+    <string name="saved">U ruajtën</string>
+    <string name="about_proposition_3">• Jashtë linje, i shpejtë dhe kompakt</string>
 </resources>

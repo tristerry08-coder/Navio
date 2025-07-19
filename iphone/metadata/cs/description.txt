@@ -1,11 +1,11 @@
 Komunitou vedená bezplatná a otevřená mapová aplikace založená na datech z projektu OpenStreetMap a posílená závazkem k transparentnosti, soukromí a neziskovosti.
 
-• Jednoduché a vyladěné: Základní, snadno použitelné funkce, které prostě fungují.
-• Zaměřené na offline použití: Plánujte a navigujte své cesty do zahraničí bez nutnosti mobilních dat, hledejte body na vzdálených túrách apod. Všechny funkce aplikace jsou navrženy tak, aby fungovaly offline.
-• S ohledem na soukromí: Aplikace je navržená s důrazem na soukromí – neidentifikuje lidi, nesleduje vás a nesbírá osobní údaje. Bez reklam.
-• Šetří vaši baterii a místo: Nevybíjí vaší baterii, jako ostatní navigační aplikace. Kompaktní mapy šetří cenné místo ve vašem telefonu.
-• Bezplatné a vytvořené komunitou: S vytvářením aplikace pomáhají lidé, jako jste vy, přidáváním míst do projektu OpenStreetMap, testováním a poskytováním zpětné vazby k funkcím a přispíváním svými vývojářskými schopnostmi a penězi.
-• Otevřené a transparentní rozhodování a nakládání s financemi, neziskovost a plně otevřený zdrojový kód.
+‣ Jednoduché a vyladěné: Základní, snadno použitelné funkce, které prostě fungují.
+‣ Zaměřené na offline použití: Plánujte a navigujte své cesty do zahraničí bez nutnosti mobilních dat, hledejte body na vzdálených túrách apod. Všechny funkce aplikace jsou navrženy tak, aby fungovaly offline.
+‣ S ohledem na soukromí: Aplikace je navržená s důrazem na soukromí – neidentifikuje lidi, nesleduje vás a nesbírá osobní údaje. Bez reklam.
+‣ Šetří vaši baterii a místo: Nevybíjí vaší baterii, jako ostatní navigační aplikace. Kompaktní mapy šetří cenné místo ve vašem telefonu.
+‣ Bezplatné a vytvořené komunitou: S vytvářením aplikace pomáhají lidé, jako jste vy, přidáváním míst do projektu OpenStreetMap, testováním a poskytováním zpětné vazby k funkcím a přispíváním svými vývojářskými schopnostmi a penězi.
+‣ Otevřené a transparentní rozhodování a nakládání s financemi, neziskovost a plně otevřený zdrojový kód.
 
 Hlavní funkce:
 • Stahovatelné podrobné mapy s místy, která nenajdete ani v Mapách Google

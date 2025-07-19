@@ -902,4 +902,10 @@
     <string name="clear">清除</string>
     <string name="pref_backup_title">書籤和軌跡備份</string>
     <string name="panoramax">Panoramax 圖片</string>
+    <string name="pref_backup_location_title">備份位置</string>
+    <string name="closed_now">現已打烊</string>
+    <string name="open_now">營業中</string>
+    <string name="pref_backup_location_summary_initial">請先選擇資料夾並授予權限</string>
+    <string name="about_help">關於和幫助</string>
+    <string name="pref_backup_summary">自動備份至您裝置上的資料夾</string>
 </resources>

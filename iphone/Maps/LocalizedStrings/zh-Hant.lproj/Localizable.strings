@@ -43,16 +43,16 @@
 "country_status_download_failed" = "下載失敗";
 
 /* Text in About screen */
-"about_headline" = "對每個人都免費，用愛製成";
+"about_headline" = "由社群推動的開放項目";
 
 /* Text in About screen */
-"about_proposition_1" = "沒有廣告，不會跟蹤您，更不會收集您的數據";
+"about_proposition_1" = "離線、快速、易用";
 
 /* Text in About screen */
-"about_proposition_2" = "無需耗費太多電量，可離線工作";
+"about_proposition_2" = "注重隱私且無廣告";
 
 /* Text in About screen */
-"about_proposition_3" = "快速且簡約，由社區開發";
+"about_proposition_3" = "決策問責、財務透明、非營利性";
 "close" = "關閉";
 "download" = "下載";
 
@@ -181,7 +181,7 @@
 "email" = "電子郵件";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "複製到剪貼簿";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "已複製到剪貼簿：%@";
@@ -194,8 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps 版本：%@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "%@ (%@) 版本";
+"version: %@ (%@)\nmap data: %@" = "版本: %@ (%@)\n地圖資料: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "軌跡";
@@ -277,7 +277,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "電子郵件";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -331,7 +331,7 @@
 "volunteer" = "志願者";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "追蹤並聯絡我們：";
+"follow_us" = "追蹤並聯絡我們";
 
 /* Alert text */
 "email_error_body" = "電子郵件客戶端未設定。請配置電子郵件客戶端或通過 %@ 聯絡我們";
@@ -527,7 +527,7 @@
 "autodownload" = "自動下載";
 
 /* Place Page opening hours text */
-"closed_now" = "現已關門";
+"closed_now" = "現已打烊";
 
 /* Place Page opening hours text */
 "daily" = "每天";
@@ -545,24 +545,24 @@
 "add_opening_hours" = "新增營業時間";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "截至 %@ 的社群創建的 OpenStreetMap 資料。請訪問 OpenStreetMap.org 以了解有關如何編輯和更新地圖的更多資訊";
+"osm_mapdata" = "地圖資料源於 OpenStreetMap";
+"osm_mapdata_explanation %@" = "截至 *%@* 的地圖資料由社群所創建。請訪問 [OpenStreetMap.org](https://openstreetmap.org) 以了解有關如何編輯和更新地圖的更多資訊。";
 "osm_more_about" = "關於 OpenStreetMap 的更多資訊";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Zh-hant:關於OpenStreetMap";
 
 /* OpenStreetMap Profile */
 "osm_profile" = "OpenStreetMap 個人資料";
 "osm_profile_promt" = "建立 OpenStreetMap 帳戶或登入以向全世界發布您的地圖編輯。";
-"osm_profile_login" = "登錄 OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "登入 OpenStreetMap 帳號";
+"osm_profile_reauthorize_promt" = "OpenStreetMap 帳號已與此應用斷開連接";
+"osm_profile_reauthorize" = "重新連接 OpenStreetMap";
+"osm_profile_remove_promt" = "如果您無法或不願重新連接帳號，可以直接從本應用中移除";
+"osm_profile_remove" = "移除 OpenStreetMap 帳號";
 "osm_profile_register_promt" = "沒有 OpenStreetMap 帳戶嗎？";
 "osm_profile_register" = "註冊 OpenStreetMap 帳戶";
 "osm_profile_verfied_changes" = "已驗證的變更";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "登出 OpenStreetMap 帳號";
+"osm_profile_delete" = "刪除 OpenStreetMap 帳號";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "最後上傳";
@@ -758,7 +758,7 @@
 "start_from_my_position" = "起點";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "已儲存";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "請登入 OpenStreetMap 以自動上傳您的所有地圖編輯。了解更多";
@@ -1104,3 +1104,5 @@
 "track_recording_toast_nothing_to_save" = "軌跡為空 - 沒有可保存的內容";
 "edit_track" = "編輯軌跡";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org)（OSM）是一個建立免費開放地圖的社群專案。 它是CoMaps中地圖資料的主要來源，其工作原理類似於維基百科。 您可以新增或編輯地點，可供全世界數以百萬計的使用者使用並受益。\n 加入OSM，讓我們共繪更優質的地圖吧！";
+"osm_profile_view_edit_history" = "查看編輯歷史記錄";
+"osm_profile_view_notes" = "查看註記";

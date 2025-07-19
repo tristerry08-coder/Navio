@@ -185,4 +185,6 @@
     <string name="panoramax">Panoramax Foto</string>
     <string name="app_site_url">https://comaps.app/</string>
     <string name="bluesky">Bluesky</string>
+    <string name="saved">Archivos</string>
+    <string name="about_proposition_3">• Offline, rápidu y compactu</string>
 </resources>

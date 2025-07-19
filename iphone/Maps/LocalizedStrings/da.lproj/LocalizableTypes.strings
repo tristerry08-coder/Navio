@@ -1487,3 +1487,4 @@
 "type.man_made.crane" = "Kran";
 "type.barrier.guard_rail" = "Autoværn";
 "type.highway.ladder" = "Stige";
+"type.amenity.love_hotel" = "Kærlighedshotel";

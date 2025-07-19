@@ -43,16 +43,10 @@
 "country_status_download_failed" = "ההורדה נכשלה";
 
 /* Text in About screen */
-"about_headline" = "חינם לכולם, מיוצרים באהבה";
+"about_proposition_1" = "לא מקוון, מהיר וקל לשימוש";
 
 /* Text in About screen */
-"about_proposition_1" = "ללא מודעות, ללא מעקב, ללא איסוף נתונים";
-
-/* Text in About screen */
-"about_proposition_2" = "אין ריקון סוללה, עובד במצב לא מקוון";
-
-/* Text in About screen */
-"about_proposition_3" = "מהיר, מינימליסטי, שפותח על ידי הקהילה";
+"about_proposition_2" = "ממוקד פרטיות וללא פרסומות";
 "close" = "סגור";
 "download" = "הורדה";
 
@@ -181,7 +175,7 @@
 "email" = "דוא\"ל";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "העתקה ללוח";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "הועתק: %@";
@@ -194,8 +188,8 @@
 
 /* Prints version number in About dialog */
 "version" = "גרסת מפות אורגניות: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "גרסה %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "גרסה: %@ (%@)\nנתוני מפה: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "מסלולים";
@@ -269,18 +263,18 @@
 
 /* Text in the about screen */
 "social_codeberg" = "Codeberg";
-"social_mastodon" = "Mastodon";
+"social_mastodon" = "מסטודון";
 "social_lemmy" = "Lemmy";
 "social_matrix" = "Matrix";
-"social_telegram" = "Telegram";
-"social_instagram" = "Instagram";
-"social_bluesky" = "Bluesky";
+"social_telegram" = "טלגרם";
+"social_instagram" = "אינסטגרם";
+"social_bluesky" = "בלוסקיי";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "דואר אלקטרוני";
 
 /* Text in the editor */
-"fediverse" = "Mastodon";
+"fediverse" = "מסטודון";
 
 /* Text in menu */
 "facebook" = "Facebook";
@@ -545,8 +539,8 @@
 "add_opening_hours" = "הוספת שעות פעילות";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "נתוני OpenStreetMap שנוצרו על ידי הקהילה החל מ-%@. למידע נוסף על איך לערוך ולעדכן את המפה ב-OpenStreetMap.org";
+"osm_mapdata" = "נתוני מפה מ-OpenStreetMap";
+"osm_mapdata_explanation %@" = "נתוני מפה שנוצרו על ידי הקהילה החל מ-*%@*. למידע נוסף על איך לערוך ולעדכן את המפה ב-[OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "עוד על OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 
@@ -554,16 +548,16 @@
 "osm_profile" = "פרופיל OpenStreetMap";
 "osm_profile_promt" = "צור חשבון OpenStreetMap או היכנס כדי לפרסם את עריכות המפה שלך לעולם.";
 "osm_profile_explanation" = "‏[OpenStreetMap.org](https://openstreetmap.org) (OSM) הוא פרויקט קהילתי לבניית מפה חופשית ופתוחה. זהו המקור העיקרי לנתוני מפות ב-CoMaps והוא פועל בדומה לוויקיפדיה. ניתן להוסיף או לערוך מקומות והם הופכים לזמינים למיליוני משתמשים בכל רחבי העולם. \nהצטרף לקהילה ועזור ליצור מפה טובה יותר לכולם!";
-"osm_profile_login" = "היכנס ל-OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "התחברות לחשבון OpenStreetMap";
+"osm_profile_reauthorize_promt" = "חשבון OpenStreetMap נותק מאפליקציה זו";
+"osm_profile_reauthorize" = "התחברות מחדש ל-OpenStreetMap";
+"osm_profile_remove_promt" = "אם אינך יכול או רוצה לחבר מחדש את החשבון שלך, תוכל פשוט להסיר אותו מהאפליקציה הזו";
+"osm_profile_remove" = "הסר חשבון OpenStreetMap";
 "osm_profile_register_promt" = "אין לך חשבון OpenStreetMap?";
 "osm_profile_register" = "הירשם ב-OpenStreetMap";
 "osm_profile_verfied_changes" = "שינויים מאומתים";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "התנתקות מחשבון OpenStreetMap";
+"osm_profile_delete" = "מחק חשבון OpenStreetMap";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "עדכון אחרון";
@@ -759,7 +753,7 @@
 "start_from_my_position" = "Start from";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "נשמר";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "התחבר ל-OpenStreetMap כדי להעלות אוטומטית את כל עריכות המפה שלך. למידע נוסף";
@@ -1104,3 +1098,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "המסלול ריק - אין מה לשמור";
 "edit_track" = "עריכת מסלול";
+"osm_profile_view_edit_history" = "הצג היסטוריית עריכות";
+"osm_profile_view_notes" = "הצג הערות";

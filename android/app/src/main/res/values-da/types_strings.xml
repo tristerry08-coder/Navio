@@ -1368,4 +1368,5 @@
     <string name="type.power.minor_line">Mindre strømledning</string>
     <string name="type.power.line">Strømledning</string>
     <string name="type.highway.ladder">Stige</string>
+    <string name="type.amenity.love_hotel">Kærlighedshotel</string>
 </resources>

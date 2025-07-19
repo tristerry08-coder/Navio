@@ -43,16 +43,16 @@
 "country_status_download_failed" = "Download fallito";
 
 /* Text in About screen */
-"about_headline" = "Gratuita per tutti, fatta con amore";
+"about_headline" = "Progetto Aperto e sviluppato dalla comunità";
 
 /* Text in About screen */
-"about_proposition_1" = "Nessun annuncio, nessun tracciamento, nessuna raccolta di dati";
+"about_proposition_1" = "Usabile senza connessione, veloce e facile da usare";
 
 /* Text in About screen */
-"about_proposition_2" = "Consuma poca batteria, funziona offline";
+"about_proposition_2" = "Attenta alla privacy e senza pubblicità";
 
 /* Text in About screen */
-"about_proposition_3" = "Veloce, minimalista, sviluppato dalla comunità";
+"about_proposition_3" = "Trasparente e senza scopo di lucro";
 "close" = "Chiudi";
 "download" = "Scarica";
 
@@ -181,7 +181,7 @@
 "email" = "E-mail";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Copia negli Appunti";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Copiato negli appunti: %@";
@@ -194,8 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Versione di CoMaps: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Versione %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Versione: %@ (%@)\nDati Mappa: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Tracce";
@@ -545,15 +545,15 @@
 "add_opening_hours" = "Aggiungi orari di apertura";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Dati OpenStreetMap creati dalla comunità al %@. Per saperne di più su come modificare e aggiornare la mappa, visita OpenStreetMap.org";
+"osm_mapdata" = "Dati cartografici da OpenStreetMap";
+"osm_mapdata_explanation %@" = "Dati cartografici creati dalla comunità al *%@*. Per saperne di più su come modificare e aggiornare la mappa, visita [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "Informazioni su OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/IT:About_OpenStreetMap";
 
 /* OpenStreetMap Profile */
 "osm_profile" = "Profilo OpenStreetMap";
 "osm_profile_promt" = "Crea un account OpenStreetMap o effettua il login per pubblicare le tue modifiche alla mappa in tutto il mondo.";
-"osm_profile_login" = "Accedi a OpenStreetMap";
+"osm_profile_login" = "Accedi all'account OpenStreetMap";
 "osm_profile_register_promt" = "Non hai un account OpenStreetMap?";
 "osm_profile_register" = "Iscriviti a OpenStreetMap";
 "osm_profile_verfied_changes" = "Modifiche approvate";
@@ -1098,4 +1098,11 @@
 "track_recording_toast_nothing_to_save" = "La traccia è vuota - non c'è nulla da salvare";
 "edit_track" = "Modifica traccia";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) è un progetto comunitario per creare una mappa libera e aperta. È la principale fonte di dati cartografici di CoMaps e funziona in modo simile a Wikipedia. Puoi aggiungere o modificare luoghi che diventano disponibili per milioni di utenti in tutto il mondo. \nEntra a far parte della comunità e contribuisci a creare una mappa migliore per tutti!";
-"osm_profile_logout" = "Disconnettersi dall'account OpenStreetMap";
+"osm_profile_logout" = "Uscire dall'account OpenStreetMap";
+"osm_profile_reauthorize_promt" = "L'account OpenStreetMap è stato disconnesso da questa app";
+"osm_profile_remove" = "Rimuovi account OpenStreetMap";
+"osm_profile_view_edit_history" = "Visualizza la cronologia delle modifiche";
+"osm_profile_remove_promt" = "Se non puoi o non vuoi ricollegare il tuo account, puoi semplicemente rimuoverlo da questa app";
+"osm_profile_delete" = "Elimina account OpenStreetMap";
+"osm_profile_reauthorize" = "Riconnettiti a OpenStreetMap";
+"osm_profile_view_notes" = "Visualizza note";

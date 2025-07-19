@@ -43,16 +43,10 @@
 "country_status_download_failed" = "فشلت عملية تنزيل";
 
 /* Text in About screen */
-"about_headline" = "مجاني للجميع ، مصنوع من الحب";
+"about_proposition_1" = "غير متصل بالإنترنت، سريع وسهل الاستخدام";
 
 /* Text in About screen */
-"about_proposition_1" = "لا إعلانات ، لا تتبع ، لا جمع البيانات";
-
-/* Text in About screen */
-"about_proposition_2" = "لا يوجد استنزاف للبطارية، يعمل دون اتصال بالإنترنت";
-
-/* Text in About screen */
-"about_proposition_3" = "سريع وبسيط، تم تطويره بواسطة المجتمع";
+"about_proposition_2" = "مُركّز على الخصوصية وخالٍ من الإعلانات";
 "close" = "إغلاق";
 "download" = "تنزيل";
 
@@ -181,7 +175,7 @@
 "email" = "البريد الالكتروني";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "انسخ إلى الحافظة";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "تم النسخ الى الحافظة: %@";
@@ -194,8 +188,8 @@
 
 /* Prints version number in About dialog */
 "version" = "إصدار CoMaps: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "الإصدار %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "الإصدار: %@ (%@)\nبيانات الخريطة: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "المسارات";
@@ -269,18 +263,18 @@
 
 /* Text in the about screen */
 "social_codeberg" = "Codeberg";
-"social_mastodon" = "Mastodon";
-"social_lemmy" = "Lemmy";
-"social_matrix" = "Matrix";
-"social_telegram" = "Telegram";
-"social_instagram" = "Instagram";
-"social_bluesky" = "Bluesky";
-"social_linkedin" = "LinkedIn";
+"social_mastodon" = "ماستدون";
+"social_lemmy" = "ليمي";
+"social_matrix" = "ماتركس";
+"social_telegram" = "تيليجرام";
+"social_instagram" = "إنستغرام";
+"social_bluesky" = "بلوسكاي";
+"social_linkedin" = "لينكد إن";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "بريد إلكتروني";
 
 /* Text in the editor */
-"fediverse" = "Mastodon";
+"fediverse" = "ماستدون";
 
 /* Text in menu */
 "facebook" = "فيسبوك";
@@ -545,24 +539,24 @@
 "add_opening_hours" = "أضف ساعات العمل";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "بيانات OpenStreetMap التي أنشأها المجتمع اعتبارًا من %@. تعرف على المزيد حول كيفية تعديل الخريطة وتحديثها على OpenStreetMap.org";
+"osm_mapdata" = "بيانات الخريطة من OpenStreetMap";
+"osm_mapdata_explanation %@" = "بيانات الخريطة التي أنشأها المجتمع اعتبارًا من *%@*. تعرف على المزيد حول كيفية تعديل الخريطة وتحديثها على [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "المزيد عن خريطة الشارع المفتوحة";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Ar:About_OpenStreetMap";
 
 /* OpenStreetMap Profile */
 "osm_profile" = "ملف الشخصي على خريطة الشارع المفتوحة";
 "osm_profile_promt" = "أنشئ حساباً على OpenStreetMap أو سجّل الدخول لنشر تعديلاتك على الخريطة للعالم.";
-"osm_profile_login" = "تسجيل الدخول الى OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "تسجيل الدخول إلى حساب OpenStreetMap";
+"osm_profile_reauthorize_promt" = "تم فصل حساب OpenStreetMap عن هذا التطبيق";
+"osm_profile_reauthorize" = "إعادة الاتصال بـ OpenStreetMap";
+"osm_profile_remove_promt" = "إذا كنت لا تستطيع أو لا ترغب في إعادة ربط حسابك، يمكنك ببساطة إزالته من هذا التطبيق";
+"osm_profile_remove" = "إزالة حساب OpenStreetMap";
 "osm_profile_register_promt" = "ليس لديك حساب في خريطة الشارع المفتوحة؟";
 "osm_profile_register" = "التسجيل في خريطة الشارع المفتوحة";
 "osm_profile_verfied_changes" = "التعديلات التي تم التحقق منها";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "تسجيل الخروج من حساب OpenStreetMap";
+"osm_profile_delete" = "حذف حساب OpenStreetMap";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "آخر تعديل";
@@ -758,7 +752,7 @@
 "start_from_my_position" = "بدء من";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "تم الحفظ";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "برجاء تسجيل الدخول إلى OpenStreetMap لتحميل جميع تعديلات الخريطة تلقائيًا. تعرف على المزيد";
@@ -1104,3 +1098,5 @@
 "track_recording_toast_nothing_to_save" = "المسار فارغ - لا يوجد شيء للحفظ";
 "edit_track" = "تعديل المسار";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) هو مشروع مجتمعي لبناء خريطة مجانية ومفتوحة. إنه المصدر الرئيسي لبيانات الخرائط في CoMaps ويعمل على غرار ويكيبيديا. يمكنك إضافة الأماكن أو تعديلها وتصبح متاحة لملايين المستخدمين في جميع أنحاء العالم.\nنضم إلى المجتمع وساعد في إنشاء خريطة أفضل للجميع!";
+"osm_profile_view_edit_history" = "عرض سجل مساهمات";
+"osm_profile_view_notes" = "عرض ملاحظات";

@@ -43,16 +43,13 @@
 "country_status_download_failed" = "Deskargak huts egin du";
 
 /* Text in About screen */
-"about_headline" = "Denontzat doan, maitasunez egina";
+"about_headline" = "Proiektu irekia, auzolanean egina";
 
 /* Text in About screen */
-"about_proposition_1" = "Ez iragarkirik, ez jarraipenik, ez datu-bilketarik";
+"about_proposition_1" = "Offline, azkarra eta erabiltzeko erraza";
 
 /* Text in About screen */
-"about_proposition_2" = "Ez da bateria deskargatzen, konexiorik gabe funtzionatzen du";
-
-/* Text in About screen */
-"about_proposition_3" = "Azkarra, minimalista, komunitateak garatua";
+"about_proposition_2" = "Pribatutasunean zentratua eta iragarkirik gabekoa";
 "close" = "Itxi";
 "download" = "Deskargatu";
 
@@ -181,7 +178,7 @@
 "email" = "Posta elektronikoa";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Kopiatu arbelean";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Arbelean kopiatu da: %@";
@@ -194,8 +191,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps bertsioa: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "%@ (%@) Bertsioa";
+"version: %@ (%@)\nmap data: %@" = "Bertsioa: %@ (%@)\nMaparen datuak: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Arrasto";
@@ -277,7 +274,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "Posta elektroniko";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -545,8 +542,8 @@
 "add_opening_hours" = "Gehitu ordutegia";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Komunitateak sortutako OpenStreetMap datuak %@-tik aurrera. Lortu informazio gehiago mapa editatu eta eguneratzeari buruz OpenStreetMap.org helbidean";
+"osm_mapdata" = "OpenStreetMap-eko mapa-datuak";
+"osm_mapdata_explanation %@" = "Komunitateak sortutako mapa-datuak *%@*-tik aurrera. Lortu informazio gehiago mapa editatu eta eguneratzeari [OpenStreetMap.org](https://openstreetmap.org) helbidean.";
 "osm_more_about" = "OpenStreetMap-i buruzko informazio gehiago";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 
@@ -554,16 +551,16 @@
 "osm_profile" = "OpenStreetMap profila";
 "osm_profile_promt" = "Sortu OpenStreetMap kontu bat edo hasi saioa zure maparen aldaketak munduan argitaratzeko.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) mapa libre eta irekia eraikitzeko komunitateko proiektu bat da. CoMaps-en mapen datuen iturri nagusia da eta Wikipediaren antzera funtzionatzen du. Tokiak gehitu edo edita ditzakezu eta mundu osoko milioika erabiltzailerentzat eskuragarri egongo dira. \nSartu komunitatean eta lagundu mapa hobea egiten guztiontzat!";
-"osm_profile_login" = "Hasi saioa OpenStreetMap-en";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Hasi saioa OpenStreetMap kontuan";
+"osm_profile_reauthorize_promt" = "OpenStreetMap kontua aplikazio honetatik deskonektatu da";
+"osm_profile_reauthorize" = "Konektatu berriro OpenStreetMap-ekin";
+"osm_profile_remove_promt" = "Zure kontua berriro konektatu ezin baduzu edo ez baduzu nahi, aplikazio honetatik kendu dezakezu";
+"osm_profile_remove" = "Kendu OpenStreetMap kontua";
 "osm_profile_register_promt" = "Ez al duzu OpenStreetMap konturik?";
 "osm_profile_register" = "Eman izena OpenStreetMap-en";
 "osm_profile_verfied_changes" = "Egiaztatutako aldaketak";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Itxi saioa OpenStreetMap kontuan";
+"osm_profile_delete" = "Ezabatu OpenStreetMap kontua";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Azken karga";
@@ -759,7 +756,7 @@
 "start_from_my_position" = "Hasi hemendik";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Gordeta";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Hasi saioa OpenStreetMap-en zure mapen aldaketa guztiak automatikoki kargatzeko. Lortu informazio gehiago";
@@ -1104,3 +1101,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Ibilbidea hutsik dago; ez dago ezer gordetzeko";
 "edit_track" = "Editatu arrastoa";
+"osm_profile_view_notes" = "Oharrak ikusi";
+"osm_profile_view_edit_history" = "Aldaketen historia ikusi";

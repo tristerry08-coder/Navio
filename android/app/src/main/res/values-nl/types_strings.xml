@@ -1400,4 +1400,11 @@
     <string name="type.amenity.studio">Studio</string>
     <string name="type.sport.diving">Klifduiken</string>
     <string name="type.railway.station.subway.qingdao">Metrostation</string>
+    <string name="type.landuse.religious">Religieus Land</string>
+    <string name="type.natural.wetland.saltmarsh.tidal">Kwelder</string>
+    <string name="type.natural.wetland.fen">Laagveen</string>
+    <string name="type.natural.wetland.reedbed">Rietland</string>
+    <string name="type.natural.wetland.swamp">Moeras</string>
+    <string name="type.natural.wetland.saltmarsh">Zoutmoeras</string>
+    <string name="type.natural.wetland.mangrove">mangrove</string>
 </resources>

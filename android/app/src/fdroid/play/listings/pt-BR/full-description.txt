@@ -8,7 +8,6 @@ Junte-se à comunidade e ajude a criar o melhor aplicativo de mapas.
 
 ‣ <b>Foco offline</b>: Planeje e navegue em sua viagem ao exterior sem a necessidade de sinal de celular, pesquise pontos de referência durante uma caminhada distante, etc. Todas as funções do aplicativo foram projetadas para funcionar offline.
 ‣ <b>Respeito à privacidade</b>: O aplicativo foi projetado com a privacidade em mente - não identifica pessoas, não rastreia e não coleta informações pessoais. Livre de anúncios.
-
 ‣ <b>Simples e sofisticado</b>: recursos essenciais e fáceis de usar que simplesmente funcionam.
 ‣ <b>Economiza bateria e espaço</b>: Não esgota a bateria como outros aplicativos de navegação. Mapas compactos economizam espaço precioso no seu celular.
 ‣ <b>Gratuito e desenvolvido pela comunidade</b>: Pessoas como você ajudaram a desenvolver o aplicativo adicionando lugares ao OpenStreetMap, testando e dando feedback sobre os recursos e contribuindo com suas habilidades de desenvolvimento e dinheiro.

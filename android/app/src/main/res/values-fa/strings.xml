@@ -41,13 +41,11 @@
     <string name="try_again">تلاش مجدد</string>
     <string name="about_menu_title">CoMaps درباره‌ی</string>
     <!-- Text in About screen -->
-    <string name="about_headline">رایگان برای همه ، ساخته شده با عشق</string>
-    <!-- Text in About screen -->
     <string name="about_proposition_1">• بدون تبلیغات ، ردیابی ، جمع آوری داده ها</string>
     <!-- Text in About screen -->
     <string name="about_proposition_2">• بدون تخلیه باتری، آفلاین کار می کند</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• سریع، مینیمالیستی، توسعه یافته توسط انجمن</string>
+    <string name="about_proposition_3">• آفلاین، سریع و جمع و جور</string>
     <!-- Text in About screen -->
     <string name="about_developed_by_enthusiasts">برنامه منبع باز ایجاد شده توسط علاقه مندان و داوطلبان.</string>
     <!-- The button that opens system location settings -->
@@ -818,4 +816,5 @@
     <string name="panoramax">تصویر Panoramax</string>
     <string name="editor_line_social_network">LINE</string>
     <string name="app_site_url">https://comaps.app</string>
+    <string name="saved">ذخیره شد</string>
 </resources>

@@ -33,16 +33,10 @@
 "country_status_download_without_size" = "Download Map";
 
 /* Text in About screen */
-"about_headline" = "Bure kwa kila mtu, iliyotengenezwa na upendo";
+"about_proposition_1" = "Nje ya mtandao, haraka na rahisi kutumia";
 
 /* Text in About screen */
-"about_proposition_1" = "Hakuna matangazo, hakuna ufuatiliaji, hakuna mkusanyiko wa data";
-
-/* Text in About screen */
-"about_proposition_2" = "Hakuna betri kuisha, inafanya kazi nje ya mtandao";
-
-/* Text in About screen */
-"about_proposition_3" = "Haraka, minimalist, iliyotengenezwa na jumuiya";
+"about_proposition_2" = "Inalenga faragha na bila matangazo";
 "close" = "Close";
 "download" = "Pakua";
 
@@ -171,7 +165,7 @@
 "email" = "Email";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Nakili kwenye ubao wako wa kunakili";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Copied to clipboard: %@";
@@ -184,8 +178,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Toleo la CoMaps: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Toleo la %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Toleo: %@ (%@)\nData ya Ramani: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Tracks";
@@ -267,7 +261,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "Barua pepe";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -535,8 +529,8 @@
 "add_opening_hours" = "Add opening hours";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Data ya OpenStreetMap iliyoundwa na jumuiya kufikia %@. Pata maelezo zaidi kuhusu jinsi ya kuhariri na kusasisha ramani katika OpenStreetMap.org";
+"osm_mapdata" = "Data ya ramani kutoka OpenStreetMap";
+"osm_mapdata_explanation %@" = "Data ya ramani iliyoundwa na jumuiya kufikia *%@*. Pata maelezo zaidi kuhusu jinsi ya kuhariri na kusasisha ramani katika [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "More about OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/About_OpenStreetMap";
 
@@ -544,16 +538,16 @@
 "osm_profile" = "OpenStreetMap profile";
 "osm_profile_promt" = "Fungua akaunti ya OpenStreetMap au ingia ili kuchapisha mabadiliko yako ya ramani kwa ulimwengu.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) ni mradi wa jumuiya wa kujenga ramani isiyolipishwa na iliyo wazi. Ndiyo chanzo kikuu cha data ya ramani katika CoMaps na inafanya kazi sawa na Wikipedia. Unaweza kuongeza au kubadilisha maeneo na yanapatikana kwa mamilioni ya watumiaji kote Ulimwenguni. \nJiunge na jumuiya na usaidie kutengeneza ramani bora kwa kila mtu!";
-"osm_profile_login" = "Ingia kwa OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Ingia kwenye akaunti ya OpenStreetMap";
+"osm_profile_reauthorize_promt" = "Akaunti ya OpenStreetMap imekatwa kutoka kwa programu hii";
+"osm_profile_reauthorize" = "Unganisha tena na OpenStreetMap";
+"osm_profile_remove_promt" = "Kama huwezi au hutaki kuunganisha akaunti yako tena, unaweza kuiondoa tu kutoka kwenye programu hii";
+"osm_profile_remove" = "Ondoa akaunti ya OpenStreetMap";
 "osm_profile_register_promt" = "Don't have an OpenStreetMap account?";
 "osm_profile_register" = "Register at OpenStreetMap";
 "osm_profile_verfied_changes" = "Verified Changes";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Ondoka kwenye akaunti ya OpenStreetMap";
+"osm_profile_delete" = "Futa akaunti ya OpenStreetMap";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Last upload";
@@ -749,7 +743,7 @@
 "start_from_my_position" = "Anzia";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Imehifadhiwa";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Tafadhali ingia kwenye OpenStreetMap ili kupakia kiotomatiki hariri zako zote za ramani. Pata maelezo zaidi";
@@ -1094,3 +1088,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Njia ni tupu - hakuna cha kuhifadhi";
 "edit_track" = "Hariri Njia";
+"osm_profile_view_notes" = "Angalia madokezo";
+"osm_profile_view_edit_history" = "Angalia historia ya uhariri";

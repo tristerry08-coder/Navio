@@ -43,16 +43,10 @@
 "country_status_download_failed" = "La baixada ha fallat";
 
 /* Text in About screen */
-"about_headline" = "Gratuït per a tothom, fet amb amor";
+"about_proposition_1" = "Fora de línia, ràpid i fàcil d'utilitzar";
 
 /* Text in About screen */
-"about_proposition_1" = "Sense publicitat, rastreig ni recopilació de dades";
-
-/* Text in About screen */
-"about_proposition_2" = "Consum de bateria mínim, funciona fora de línia";
-
-/* Text in About screen */
-"about_proposition_3" = "Ràpid, minimalista, desenvolupat per la comunitat";
+"about_proposition_2" = "Centrat en la privadesa i sense anuncis";
 "close" = "Tanca";
 "download" = "Baixa";
 
@@ -181,7 +175,7 @@
 "email" = "Correu-e";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Copia al porta-retalls";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "S’ha copiat al porta-retalls: %@";
@@ -194,8 +188,8 @@
 
 /* Prints version number in About dialog */
 "version" = "Versió de l’CoMaps: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Versió %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Versió: %@ (%@)\nDades del mapa: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Recorreguts";
@@ -277,7 +271,7 @@
 "social_bluesky" = "Bluesky";
 "social_linkedin" = "LinkedIn";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "Adreça electrònica";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -545,8 +539,8 @@
 "add_opening_hours" = "Afegeix horari d'obertura";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Dades de l’OpenStreetMap creades per la comunitat a partir de %@. Obteniu més informació sobre com editar i actualitzar el mapa a OpenStreetMap.org";
+"osm_mapdata" = "Dades del mapa d'OpenStreetMap";
+"osm_mapdata_explanation %@" = "Dades de mapes creades per la comunitat a partir de *%@*. Obteniu més informació sobre com editar i actualitzar el mapa a [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "Més sobre l'OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Ca:About_OpenStreetMap";
 
@@ -554,16 +548,16 @@
 "osm_profile" = "Perfil de l’OpenStreetMap";
 "osm_profile_promt" = "Creeu un compte d'OpenStreetMap o inicieu sessió per publicar les vostres edicions de mapes al món.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) és un projecte comunitari per construir un mapa lliure i obert. És la font principal de dades de mapes a CoMaps i funciona de manera similar a la Viquipèdia. Pots afegir o editar llocs i estaran disponibles per a milions d'usuaris de tot el món. \nUneix-te a la comunitat i ajuda a crear un mapa millor per a tothom!";
-"osm_profile_login" = "Inicia sessió a l’OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "Inicies la sessió al compte d'OpenStreetMap";
+"osm_profile_reauthorize_promt" = "El compte d'OpenStreetMap s'ha desconnectat d'aquesta aplicació";
+"osm_profile_reauthorize" = "Torna a connectar-te amb OpenStreetMap";
+"osm_profile_remove_promt" = "Si no pots o no vols tornar a connectar el teu compte, simplement el pots eliminar d'aquesta aplicació";
+"osm_profile_remove" = "Elimina la memòria del compte d'OpenStreetMap d'aquesta aplicació";
 "osm_profile_register_promt" = "No teniu compte de l’OpenStreetMap?";
 "osm_profile_register" = "Registre a OpenStreetMap";
 "osm_profile_verfied_changes" = "Canvis verificats";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "Tanca la sessió del compte d'OpenStreetMap";
+"osm_profile_delete" = "Elimina el compte d'OpenStreetMap";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Última pujada";
@@ -759,7 +753,7 @@
 "start_from_my_position" = "Comença des de";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "S'ha desat";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Si us plau, inicieu sessió a OpenStreetMap per carregar automàticament totes les edicions de mapes. Més informació";
@@ -1104,3 +1098,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "El recorregut està buit; no hi ha res a desar";
 "edit_track" = "Edita el recorregut";
+"osm_profile_view_edit_history" = "Veure l'historial d'edicions";
+"osm_profile_view_notes" = "Veure notes";

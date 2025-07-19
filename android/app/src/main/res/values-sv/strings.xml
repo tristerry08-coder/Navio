@@ -38,13 +38,11 @@
     <string name="try_again">Försök igen</string>
     <string name="about_menu_title">Om CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Gratis för alla, skapad med kärlek</string>
-    <!-- Text in About screen -->
     <string name="about_proposition_1">• Inga annonser, ingen spårning, ingen datainsamling</string>
     <!-- Text in About screen -->
     <string name="about_proposition_2">• Låg batteriförbrukning, fungerar utan uppkoppling</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_3">• Snabb, minimalistisk, utvecklad av gemenskapen</string>
+    <string name="about_proposition_3">• Offline, snabb och kompakt</string>
     <!-- Text in About screen -->
     <string name="about_developed_by_enthusiasts">Öppen källkod-app skapad av entusiaster och frivilliga.</string>
     <!-- The button that opens system location settings -->
@@ -855,4 +853,5 @@
     <string name="backup_interval_every_day">Dagligen</string>
     <string name="backup_interval_every_week">Veckovis</string>
     <string name="app_site_url">https://comaps.app/sv/</string>
+    <string name="saved">Sparad</string>
 </resources>

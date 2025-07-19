@@ -43,16 +43,16 @@
 "country_status_download_failed" = "下载失败";
 
 /* Text in About screen */
-"about_headline" = "对每个人都免费，用爱制成";
+"about_headline" = "由社区推动的开放项目";
 
 /* Text in About screen */
-"about_proposition_1" = "没有广告，不会跟踪您，更不会收集您的数据";
+"about_proposition_1" = "离线、快速、易用";
 
 /* Text in About screen */
-"about_proposition_2" = "无需耗费太多电量，可离线工作";
+"about_proposition_2" = "注重隐私且无广告";
 
 /* Text in About screen */
-"about_proposition_3" = "快速且简约，由社区开发";
+"about_proposition_3" = "决策问责、财务透明、非营利性";
 "close" = "关闭";
 "download" = "下载";
 
@@ -181,7 +181,7 @@
 "email" = "电子邮件";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "复制到剪贴板";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "已复制到剪贴板：%@";
@@ -194,8 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps 版本：%@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "%@ (%@) 版本";
+"version: %@ (%@)\nmap data: %@" = "版本: %@ (%@)\n地图数据: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "轨迹";
@@ -275,9 +275,9 @@
 "social_telegram" = "Telegram";
 "social_instagram" = "Instagram";
 "social_bluesky" = "Bluesky";
-"social_linkedin" = "LinkedIn";
+"social_linkedin" = "领英";
 "social_facebook" = "Facebook";
-"social_email" = "E-Mail";
+"social_email" = "邮箱";
 
 /* Text in the editor */
 "fediverse" = "Mastodon";
@@ -331,7 +331,7 @@
 "volunteer" = "志愿者";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "关注并联系我们：";
+"follow_us" = "关注并联系我们";
 
 /* Alert text */
 "email_error_body" = "尚未设置电子邮件客户端。请进行配置或通过 %@ 联系我们";
@@ -527,7 +527,7 @@
 "autodownload" = "自动下载";
 
 /* Place Page opening hours text */
-"closed_now" = "现已关门";
+"closed_now" = "已歇业";
 
 /* Place Page opening hours text */
 "daily" = "每天";
@@ -545,8 +545,8 @@
 "add_opening_hours" = "添加营业时间";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "截至 %@ 的社区创建的 OpenStreetMap 数据。请访问 OpenStreetMap.org 详细了解如何编辑和更新地图";
+"osm_mapdata" = "地图数据来自 OpenStreetMap";
+"osm_mapdata_explanation %@" = "截至 *%@* 的地图数据由社区所创建。请访问 [OpenStreetMap.org](https://openstreetmap.org) 详细了解如何编辑和更新地图。";
 "osm_more_about" = "关于 OpenStreetMap 的更多信息";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/Zh-hans:关于";
 
@@ -554,16 +554,16 @@
 "osm_profile" = "OpenStreetMap 个人资料";
 "osm_profile_promt" = "创建 OpenStreetMap 账号或登录，向全世界发布您编辑的地图。";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org)（OSM）是一个构建免费开放地图的社区项目。它是 CoMaps 中地图数据的主要来源，其工作原理类似于维基百科。您可以添加或编辑地点，可供全世界数以百万计的用户使用并受益。\n加入OSM，让我们共绘更优质的地图吧！";
-"osm_profile_login" = "登录 OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Remove OpenStreetMap account";
+"osm_profile_login" = "登录 OpenStreetMap 帐户";
+"osm_profile_reauthorize_promt" = "OpenStreetMap 帐户已与此应用断开连接";
+"osm_profile_reauthorize" = "重新连接 OpenStreetMap";
+"osm_profile_remove_promt" = "如果您无法或不想重新连接账户，可以直接从本应用中移除";
+"osm_profile_remove" = "移除 OpenStreetMap 帐户";
 "osm_profile_register_promt" = "没有 OpenStreetMap 账号吗？";
 "osm_profile_register" = "注册 OpenStreetMap 账号";
 "osm_profile_verfied_changes" = "已验证的更改";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Delete OpenStreetMap account";
+"osm_profile_logout" = "退出 OpenStreetMap 帐户";
+"osm_profile_delete" = "删除 OpenStreetMap 帐户";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "最后上传";
@@ -759,7 +759,7 @@
 "start_from_my_position" = "起点";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "已保存";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "请登录 OpenStreetMap 以自动上传您的所有地图编辑。了解更多";
@@ -1105,3 +1105,4 @@
 "track_recording_toast_nothing_to_save" = "轨迹为空 — 无内容可保存";
 "edit_track" = "编辑轨迹";
 "osm_profile_view_edit_history" = "查看编辑历史";
+"osm_profile_view_notes" = "查看注记";

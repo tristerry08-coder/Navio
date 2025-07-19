@@ -43,16 +43,16 @@
 "country_status_download_failed" = "Downloaden is mislukt";
 
 /* Text in About screen */
-"about_headline" = "Gratis voor iedereen, met liefde gemaakt";
+"about_headline" = "Open project, gemaakt door de community";
 
 /* Text in About screen */
-"about_proposition_1" = "Geen advertenties, geen tracking, geen gegevensverzameling";
+"about_proposition_1" = "Offline, snel en gebruiksvriendelijk";
 
 /* Text in About screen */
-"about_proposition_2" = "Geen batterijverlies, werkt offline";
+"about_proposition_2" = "Privacygericht en advertentievrij";
 
 /* Text in About screen */
-"about_proposition_3" = "Snel, minimalistisch, ontwikkeld door de gemeenschap";
+"about_proposition_3" = "Transparant en zonder winstoogmerk";
 "close" = "Sluit";
 "download" = "Download";
 
@@ -181,7 +181,7 @@
 "email" = "E-mail";
 
 /* Text for message to copy something */
-"copy_to_clipboard" = "Copy to Clipboard";
+"copy_to_clipboard" = "Kopiëren naar klembord";
 
 /* Text for message when used successfully copied something */
 "copied_to_clipboard" = "Naar het klembord gekopieerd: %@";
@@ -194,8 +194,8 @@
 
 /* Prints version number in About dialog */
 "version" = "CoMaps versie: %@";
-"version %@ (%@)" = "Version %@ (%@)";
-"version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nMap Data: %@";
+"version %@ (%@)" = "Versie %@ (%@)";
+"version: %@ (%@)\nmap data: %@" = "Versie: %@ (%@)\nKaartgegevens: %@";
 
 /* Title for tracks category in bookmarks manager */
 "tracks_title" = "Tracks";
@@ -545,8 +545,8 @@
 "add_opening_hours" = "Voeg openingstijden toe";
 
 /* OpenStreetMap */
-"osm_mapdata" = "Map data from OpenStreetMap";
-"osm_mapdata_explanation %@" = "Door de gemeenschap gemaakte OpenStreetMap-gegevens tot %@. Lees meer over hoe je de kaart kunt bewerken en bijwerken op OpenStreetMap.org";
+"osm_mapdata" = "Kaartgegevens van OpenStreetMap";
+"osm_mapdata_explanation %@" = "Door de gemeenschap gemaakte kaartgegevens tot *%@*. Lees meer over hoe je de kaart kunt bewerken en bijwerken op [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_more_about" = "Meer over OpenStreetMap";
 "osm_more_about_url" = "https://wiki.openstreetmap.org/wiki/NL:Wat_is_OpenStreetMap%3F";
 
@@ -554,16 +554,16 @@
 "osm_profile" = "OpenStreetMap-profiel";
 "osm_profile_promt" = "Maak een OpenStreetMap account aan of log in om uw kaartbewerkingen voor de wereld te publiceren.";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is een gemeenschapsproject om een vrije en open kaart te bouwen. Het is de belangrijkste bron van kaartgegevens in CoMaps en werkt ongeveer hetzelfde als Wikipedia. U kunt plaatsen toevoegen of bewerken en deze worden dan beschikbaar voor miljoenen gebruikers over de hele wereld. \nSluit u aan bij de gemeenschap en help mee om een betere kaart voor iedereen te maken!";
-"osm_profile_login" = "Log in bij OpenStreetMap";
-"osm_profile_reauthorize_promt" = "The OpenStreetMap account was disconnected from this app";
-"osm_profile_reauthorize" = "Reconnect with OpenStreetMap";
-"osm_profile_remove_promt" = "If you can't or don't want to reconnect your account, you can just remove it from this app";
-"osm_profile_remove" = "Verwijder OpenStreetMap account";
+"osm_profile_login" = "Inloggen bij OpenStreetMap-account";
+"osm_profile_reauthorize_promt" = "Het OpenStreetMap-account is losgekoppeld van deze app";
+"osm_profile_reauthorize" = "Opnieuw verbinden met OpenStreetMap";
+"osm_profile_remove_promt" = "Als je je account niet opnieuw kunt of wilt koppelen, kun je het gewoon uit deze app verwijderen";
+"osm_profile_remove" = "Geheugen van OpenStreetMap-account uit deze app verwijderen";
 "osm_profile_register_promt" = "Geen account bij OpenStreetMap?";
 "osm_profile_register" = "Registreer bij OpenStreetMap";
 "osm_profile_verfied_changes" = "Gecontroleerde wijzigingen";
-"osm_profile_logout" = "Logout of OpenStreetMap account";
-"osm_profile_delete" = "Verwijder OpenStreetMap account";
+"osm_profile_logout" = "Uitloggen bij OpenStreetMap-account";
+"osm_profile_delete" = "OpenStreetMap-account verwijderen";
 
 /* Information text: "Last upload 11.01.2016" */
 "last_upload" = "Laatste upload";
@@ -759,7 +759,7 @@
 "start_from_my_position" = "Start vanaf";
 
 /* Title for button when a route was saved. */
-"saved" = "Saved";
+"saved" = "Opgeslagen";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
 "alert_reauth_message_ios" = "Log in op OpenStreetMap om al je kaartbewerkingen automatisch te uploaden. Meer informatie";
@@ -1104,3 +1104,5 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Route is leeg - niets om op te slaan";
 "edit_track" = "Route bewerken";
+"osm_profile_view_edit_history" = "Bewerkingsgeschiedenis bekijken";
+"osm_profile_view_notes" = "Opmerkingen bekijken";
