@@ -95,7 +95,8 @@ public class Icon implements Parcelable
       R.drawable.ic_bookmark_none, // ChargingStation
       R.drawable.ic_bookmark_none, // BicycleParking
       R.drawable.ic_bookmark_none, // BicycleParkingCovered
-      R.drawable.ic_bookmark_none  // BicycleRental
+      R.drawable.ic_bookmark_none, // BicycleRental
+      R.drawable.ic_bookmark_none  // FastFood
   };
 
   @PredefinedColor
