@@ -3,6 +3,7 @@ package app.organicmaps.downloader;
 import static android.Manifest.permission.POST_NOTIFICATIONS;
 import static android.content.pm.PackageManager.PERMISSION_GRANTED;
 
+import android.app.ForegroundServiceStartNotAllowedException;
 import android.app.Service;
 import android.content.Intent;
 import android.content.pm.ServiceInfo;
@@ -42,10 +43,24 @@ public class DownloaderService extends Service implements MapManager.StorageCall
 
     var notification = mNotifier.buildProgressNotification();
     Logger.i(TAG, "Starting Downloader Foreground Service");
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q)
-      ServiceCompat.startForeground(this, DownloaderNotifier.NOTIFICATION_ID, notification, ServiceInfo.FOREGROUND_SERVICE_TYPE_DATA_SYNC);
-    else
-      ServiceCompat.startForeground(this, DownloaderNotifier.NOTIFICATION_ID, notification, 0);
+    try
+    {
+      int type = 0;
+      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q)
+        type = ServiceInfo.FOREGROUND_SERVICE_TYPE_DATA_SYNC;
+      ServiceCompat.startForeground(this, DownloaderNotifier.NOTIFICATION_ID, notification, type);
+    }
+    catch (Exception e)
+    {
+      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S &&
+          e instanceof ForegroundServiceStartNotAllowedException)
+      {
+        // App not in a valid state to start foreground service (e.g started from bg)
+        Logger.e(TAG, "Not in a valid state to start foreground service", e);
+      }
+      else
+        Logger.e(TAG, "Failed to promote the service to foreground", e);
+    }
 
     return START_NOT_STICKY;
   }

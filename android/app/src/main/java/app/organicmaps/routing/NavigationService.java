@@ -7,6 +7,7 @@ import static android.content.pm.PackageManager.PERMISSION_GRANTED;
 import static app.organicmaps.util.Constants.Vendor.XIAOMI;
 
 import android.annotation.SuppressLint;
+import android.app.ForegroundServiceStartNotAllowedException;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
@@ -226,10 +227,25 @@ public class NavigationService extends Service implements LocationListener
     }
 
     Logger.i(TAG, "Starting Navigation Foreground service");
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q)
-      ServiceCompat.startForeground(this, NavigationService.NOTIFICATION_ID, getNotificationBuilder(this).build(), ServiceInfo.FOREGROUND_SERVICE_TYPE_LOCATION);
-    else
-      ServiceCompat.startForeground(this, NavigationService.NOTIFICATION_ID, getNotificationBuilder(this).build(), 0);
+
+    try
+    {
+      int type = 0;
+      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q)
+        type = ServiceInfo.FOREGROUND_SERVICE_TYPE_LOCATION;
+      ServiceCompat.startForeground(this, NavigationService.NOTIFICATION_ID, getNotificationBuilder(this).build(), type);
+    }
+    catch (Exception e)
+    {
+      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S &&
+          e instanceof ForegroundServiceStartNotAllowedException)
+      {
+        // App not in a valid state to start foreground service (e.g started from bg)
+        Logger.e(TAG, "Not in a valid state to start foreground service", e);
+      }
+      else
+        Logger.e(TAG, "Failed to promote the service to foreground", e);
+    }
 
     final LocationHelper locationHelper = LocationHelper.from(this);
 
