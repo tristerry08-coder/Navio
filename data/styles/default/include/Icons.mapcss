@@ -702,9 +702,9 @@ node|z15-[amenity=biergarten],
 node|z15[amenity=cafe],
 {icon-image: cafe-m.svg;icon-min-distance: 12;}
 node|z15[amenity=restaurant],
+node|z15[amenity=food_court],
 {icon-image: restaurant-m.svg;icon-min-distance: 28;}
 node|z15[amenity=fast_food],
-node|z15[amenity=food_court],
 {icon-image: fastfood-m.svg;icon-min-distance: 28;}
 node|z15[amenity=bar],
 {icon-image: bar-m.svg;icon-min-distance: 28;}
@@ -715,9 +715,9 @@ node|z15[amenity=biergarten],
 node|z16-[amenity=cafe],
 {icon-image: cafe-m.svg;icon-min-distance: 12;}
 node|z16-[amenity=restaurant],
+node|z16-[amenity=food_court],
 {icon-image: restaurant-m.svg;icon-min-distance: 12;}
 node|z16-[amenity=fast_food],
-node|z16-[amenity=food_court],
 {icon-image: fastfood-m.svg;icon-min-distance: 12;}
 node|z16-[amenity=bar],
 {icon-image: bar-m.svg;icon-min-distance: 12;}
