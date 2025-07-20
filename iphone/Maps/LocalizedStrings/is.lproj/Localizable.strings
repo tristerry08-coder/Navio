@@ -1,4 +1,3 @@
-"instagram_url" = "https://www.instagram.com/comaps.app/";
 "panoramax" = "Panoramax";
 "panoramax_picture" = "Panoramax mynd";
 "self_service" = "Sjálfsafgreiðsla";
@@ -15,13 +14,11 @@
 "social_email" = "Tölvupóstur";
 "follow_us" = "Fylgdu okkur og hafðu samband";
 "copy_to_clipboard" = "Afrita á klippispjald";
-"social_facebook" = "Facebook";
 "version %@ (%@)" = "Útgáfa %@ (%@)";
 "version: %@ (%@)\nmap data: %@" = "Útgáfa: %@ (%@)\nKortgögn: %@";
 "social_codeberg" = "Codeberg";
 "social_lemmy" = "Lemmy";
 "social_matrix" = "Matrix";
-"social_linkedin" = "LinkedIn";
 "osm_profile_delete" = "Eyða OpenStreetMap reikningi";
 "osm_profile_login" = "Innskráning á OpenStreetMap reikning";
 "osm_profile_reauthorize_promt" = "OpenStreetMap reikningurinn var aftengdur þessu forriti";
@@ -31,6 +28,4 @@
 "osm_profile_logout" = "Útskráning af OpenStreetMap reikningi";
 "osm_profile_view_notes" = "Skoða minnispunkta";
 "osm_profile_remove_promt" = "Ef þú getur ekki eða vilt ekki tengja reikninginn þinn aftur geturðu einfaldlega fjarlægt hann úr þessu forriti";
-"social_telegram" = "Telegram";
-"social_instagram" = "Instagram";
 "social_bluesky" = "Bluesky";

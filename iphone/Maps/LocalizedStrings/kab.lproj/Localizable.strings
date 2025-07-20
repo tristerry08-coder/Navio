@@ -1,4 +1,3 @@
-"instagram_url" = "https://www.instagram.com/comaps.app/";
 "panoramax_picture" = "Tugna n Panoramax";
 "panoramax" = "Panoramax";
 "self_service" = "Aseqdec n yiman";
@@ -11,7 +10,6 @@
 "about_proposition_1" = "Yezmer ad yaweḍ berra i usmel, s tɣawla yerna s lfeɛl i useqdec";
 "follow_us" = "Ḍfer-aɣ, tenremseḍ yid-neɣ";
 "social_email" = "Imayl";
-"social_facebook" = "Facebook";
 "copy_to_clipboard" = "Nɣel ɣer tecfawt";
 "version %@ (%@)" = "Alqem %@ (%@)";
 "version: %@ (%@)\nmap data: %@" = "Alqem: %@ (%@)\nIsefka n tkarḍa: %@";
@@ -20,9 +18,6 @@
 "osm_profile_logout" = "Tuffɣa seg umiḍan n OpenStreetMap";
 "osm_profile_view_notes" = "Wali tamawt";
 "social_lemmy" = "Lemmy";
-"social_linkedin" = "LinkedIn";
-"social_telegram" = "Telegram";
-"social_instagram" = "Instagram";
 "social_bluesky" = "Bluesky";
 "osm_profile_login" = "Akeccum ɣer amiḍan n OpenStreetMap";
 "osm_profile_reauthorize" = "Aɛiwed n tuqqna s OpenStreetMap";

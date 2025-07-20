@@ -401,8 +401,6 @@
 "elevation_profile_max_elevation" = "Max. Höchi";
 "isolines_toast_zooms_1_10" = "Charte vergrössere, zum d Höhelinie sichtbar z mache";
 "downloader_loading_ios" = "Wird abeglade";
-"telegram_url" = "https://t.me/CoMapsApp/";
-"instagram_url" = "https://www.instagram.com/comaps.app/";
 "app_tip_00" = "Danke, dass du eusi vo de Community erstellte Charte bruuchsch!";
 "app_tip_01" = "Mit dinere Spend und dinere Unterstützig chönd mir die beste Charte vo de Welt erstelle!";
 "capacity" = "Kapazität: %@";
@@ -580,13 +578,9 @@
 "version: %@ (%@)\nmap data: %@" = "Version: %@ (%@)\nChartedate: %@";
 "social_codeberg" = "Codeberg";
 "social_lemmy" = "Lemmy";
-"social_linkedin" = "LinkedIn";
 "social_email" = "E-Mail";
 "osm_mapdata_explanation %@" = "Vo de Community erstellti Chartedate vom *%@*. Erfahr meh drüber, wie du d Charte bearbeite und aktualisiere chasch under [OpenStreetMap.org](https://openstreetmap.org).";
 "osm_mapdata" = "Chartedate vo OpenStreetMap";
 "social_matrix" = "Matrix";
-"social_telegram" = "Telegram";
-"social_instagram" = "Instagram";
 "social_bluesky" = "Bluesky";
-"social_facebook" = "Facebook";
 "social_mastodon" = "Mastodon";

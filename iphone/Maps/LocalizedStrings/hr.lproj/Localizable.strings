@@ -1,6 +1,5 @@
 "wikimedia_commons" = "Zajednički poslužitelj";
 "translated_om_site_url" = "https://www.comaps.app/hr/";
-"instagram_url" = "https://www.instagram.com/comaps.app/";
 "self_service" = "Samoposluživanje";
 "panoramax" = "Panoramax";
 "panoramax_picture" = "Panoramax slika";
@@ -14,15 +13,12 @@
 "about_proposition_1" = "Offline, brz i jednostavno za korištenje";
 "social_email" = "E-pošta";
 "follow_us" = "Pratite nas i kontaktirajte";
-"social_facebook" = "Facebook";
 "copy_to_clipboard" = "Kopiraj u međuspremnik";
 "version %@ (%@)" = "Verzija %@ (%@)";
 "version: %@ (%@)\nmap data: %@" = "Verzija: %@ (%@)\nPodaci karte: %@";
 "social_codeberg" = "Codeberg";
-"social_linkedin" = "LinkedIn";
 "social_lemmy" = "Lemmy";
 "social_matrix" = "Matrix";
-"social_instagram" = "Instagram";
 "osm_profile_delete" = "Izbriši OpenStreetMap račun";
 "osm_profile_logout" = "Odjavi se s OpenStreetMap računa";
 "osm_profile_login" = "Prijavi se na OpenStreetMap račun";
@@ -32,5 +28,4 @@
 "osm_profile_view_notes" = "Prikaži bilješke";
 "osm_profile_reauthorize_promt" = "OpenStreetMap račun je isključen iz ove aplikacije";
 "osm_profile_remove_promt" = "Ako ne možete ili ne želite ponovno povezati svoj račun, možete ga jednostavno ukloniti iz ove aplikacije";
-"social_telegram" = "Telegram";
 "social_bluesky" = "Bluesky";

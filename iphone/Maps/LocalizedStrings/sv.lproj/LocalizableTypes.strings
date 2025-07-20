@@ -826,7 +826,7 @@
 "type.natural.water" = "Vatten";
 "type.natural.wetland" = "Sumpmarken";
 "type.natural.wetland.bog" = "Myr";
-"type.natural.wetland.marsh" = "Kärr";
+"type.natural.wetland.marsh" = "Träsk";
 "type.noexit" = "Återvändsgränd";
 "type.office" = "Kontor";
 "type.office.company" = "Företagskontor";
@@ -1483,3 +1483,10 @@
 "type.leisure.sports_hall" = "Idrottshall";
 "type.barrier.guard_rail" = "Vägräcke";
 "type.highway.ladder" = "Stege";
+"type.leisure.firepit" = "Eldstad";
+"type.natural.wetland.fen" = "Kärr";
+"type.natural.wetland.saltmarsh" = "Saltträsk";
+"type.natural.wetland.saltmarsh.tidal" = "Tidvattens saltträsk";
+"type.man_made.crane" = "Kran";
+"type.natural.wetland.reedbed" = "Vass";
+"type.natural.wetland.swamp" = "Träsk";

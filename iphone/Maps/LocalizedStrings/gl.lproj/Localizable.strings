@@ -496,8 +496,6 @@
 "placepage_track_name_hint" = "Nome do traxecto";
 "move" = "Mover";
 "track_title" = "Traxecto";
-"telegram_url" = "https://t.me/CoMapsApp/";
-"instagram_url" = "https://www.instagram.com/comaps.app/";
 "translated_om_site_url" = "https://www.comaps.app/";
 "app_tip_00" = "Grazas por utilizar os nosos mapas creados pola comunidade!";
 "app_tip_01" = "Coas súas doazóns e apoio, podemos crear os mellores mapas do mundo!";
@@ -556,7 +554,6 @@
 "osm_mapdata" = "Datos do mapa de OpenStreetMap";
 "social_email" = "Correo electrónico";
 "copy_to_clipboard" = "Copiar ao Portapapeis";
-"social_facebook" = "Facebook";
 "version %@ (%@)" = "Versión %@ (%@)";
 "version: %@ (%@)\nmap data: %@" = "Versión: %@ (%@)\nDatos do mapa: %@";
 "social_codeberg" = "Codeberg";
@@ -570,9 +567,6 @@
 "osm_profile_view_edit_history" = "Ver o historial de edicións";
 "osm_profile_logout" = "Pechar sesión na conta de OpenStreetMap";
 "social_lemmy" = "Lemmy";
-"social_linkedin" = "LinkedIn";
 "social_matrix" = "Matrix";
 "osm_profile_delete" = "Eliminar a conta de OpenStreetMap";
-"social_telegram" = "Telegram";
-"social_instagram" = "Instagram";
 "social_bluesky" = "Bluesky";

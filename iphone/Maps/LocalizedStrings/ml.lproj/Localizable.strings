@@ -1,4 +1,3 @@
-"instagram_url" = "https://www.instagram.com/comaps.app/";
 "panoramax" = "Panoramax";
 "panoramax_picture" = "Panoramax ചിത്രം";
 "self_service" = "സെൽഫ് സർവീസ്";
@@ -11,7 +10,6 @@
 "about_proposition_1" = "ഓഫ്‌ലൈൻ, വേഗതയേറിയതും ഉപയോഗിക്കാൻ എളുപ്പമുള്ളതും";
 "follow_us" = "ഞങ്ങളെ പിന്തുടരുക, ബന്ധപ്പെടുക";
 "social_email" = "ഇ-മെയിൽ";
-"social_facebook" = "ഫേസ്ബുക്ക്";
 "copy_to_clipboard" = "ക്ലിപ്പ്ബോർഡിലേയ്ക്ക് പകർത്തുക";
 "version %@ (%@)" = "പതിപ്പ് %@ (%@)";
 "version: %@ (%@)\nmap data: %@" = "പതിപ്പ്: %@ (%@)\nമാപ്പ് ഡാറ്റ: %@";
@@ -22,13 +20,10 @@
 "osm_profile_remove_promt" = "നിങ്ങളുടെ അക്കൗണ്ട് വീണ്ടും കണക്ട് ചെയ്യാൻ താൽപ്പര്യമില്ലെങ്കിൽ, ഈ ആപ്പിൽ നിന്ന് അത് നീക്കം ചെയ്യാം";
 "social_mastodon" = "മാസ്റ്റഡോൺ";
 "social_lemmy" = "Lemmy";
-"social_linkedin" = "LinkedIn";
 "social_matrix" = "Matrix";
-"social_instagram" = "ഇൻസ്റ്റാഗ്രാം";
 "social_bluesky" = "Bluesky";
 "osm_profile_logout" = "ഓപ്പൺസ്ട്രീറ്റ്മാപ്പ് അക്കൗണ്ടിൽ നിന്ന് ലോഗൗട്ട് ചെയ്യുക";
 "osm_profile_view_notes" = "കുറിപ്പുകൾ കാണുക";
 "osm_profile_view_edit_history" = "എഡിറ്റ് ചരിത്രം കാണുക";
 "osm_profile_remove" = "OpenStreetMap അക്കൗണ്ട് നീക്കം ചെയ്യുക";
 "osm_profile_delete" = "OpenStreetMap അക്കൗണ്ട് ഇല്ലാതാക്കുക";
-"social_telegram" = "Telegram";

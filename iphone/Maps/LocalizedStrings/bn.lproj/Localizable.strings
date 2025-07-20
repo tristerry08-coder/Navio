@@ -4,7 +4,6 @@
 "country_status_download_failed" = "ডাউনলোড ব্যর্থ হল";
 "download" = "ডাউনলোড";
 "wikimedia_commons" = "উইকিমিডিয়া কমন্স";
-"instagram_url" = "https://www.instagram.com/comaps.app/";
 "panoramax_picture" = "Panoramax ছবি";
 "self_service" = "স্ব-সেবা";
 "panoramax" = "Panoramax";
@@ -17,7 +16,6 @@
 "about_proposition_1" = "অফলাইন, দ্রুত এবং সহজেই ব্যবহারযোগ্য";
 "follow_us" = "আমাদের অনুসরণ করুন এবং যোগাযোগ করুন";
 "social_email" = "ই-মেইল";
-"social_facebook" = "Facebook";
 "copy_to_clipboard" = "ক্লিপবোর্ডে অনুলিপি";
 "version %@ (%@)" = "সংস্করণ %@ (%@)";
 "version: %@ (%@)\nmap data: %@" = "সংস্করণ: %@ (%@)\nমানচিত্রের তথ্য: %@";
@@ -29,10 +27,7 @@
 "osm_profile_remove_promt" = "যদি আপনি আপনার অ্যাকাউন্ট পুনরায় সংযুক্ত করতে না পারেন বা না চান, তাহলে আপনি এটিকে এই অ্যাপ থেকে সরিয়ে দিতে পারেন";
 "social_mastodon" = "মাস্টোডন";
 "social_lemmy" = "Lemmy";
-"social_linkedin" = "LinkedIn";
 "social_matrix" = "Matrix";
-"social_telegram" = "Telegram";
-"social_instagram" = "ইন্সটাগ্রাম";
 "osm_profile_logout" = "OpenStreetMap অ্যাকাউন্ট থেকে লগ আউট করুন";
 "osm_profile_delete" = "OpenStreetMap অ্যাকাউন্ট মুছুন";
 "osm_profile_view_edit_history" = "সম্পাদনাসমূহর ইতিহাস দেখুন";

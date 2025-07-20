@@ -620,7 +620,7 @@
     <string name="type.natural.water">Vatten</string>
     <string name="type.natural.wetland">Sumpmarken</string>
     <string name="type.natural.wetland.bog">Myr</string>
-    <string name="type.natural.wetland.marsh">Kärr</string>
+    <string name="type.natural.wetland.marsh">Träsk</string>
     <string name="type.office">Kontor</string>
     <string name="type.office.company">Företagskontor</string>
     <string name="type.office.estate_agent">Fastighetsmäklare</string>
@@ -1342,4 +1342,11 @@
     <string name="type.amenity.waste_transfer_station">Återvinningscentral</string>
     <string name="type.barrier.guard_rail">Vägräcke</string>
     <string name="type.highway.ladder">Stege</string>
+    <string name="type.man_made.crane">Kran</string>
+    <string name="type.leisure.firepit">Eldstad</string>
+    <string name="type.natural.wetland.saltmarsh">Saltträsk</string>
+    <string name="type.natural.wetland.saltmarsh.tidal">Tidvattens saltträsk</string>
+    <string name="type.natural.wetland.fen">Kärr</string>
+    <string name="type.natural.wetland.reedbed">Vass</string>
+    <string name="type.natural.wetland.swamp">Träsk</string>
 </resources>

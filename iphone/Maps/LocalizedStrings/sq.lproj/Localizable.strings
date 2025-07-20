@@ -1,6 +1,5 @@
 "wikimedia_commons" = "Wikimedia Commons";
 "translated_om_site_url" = "https://www.comaps.app/";
-"instagram_url" = "https://www.instagram.com/comaps.app/";
 "fediverse" = "Mastodon";
 "panoramax_picture" = "Fotografia Panoramax";
 "panoramax" = "Panoramax";
@@ -13,7 +12,6 @@
 "osm_mapdata" = "Të dhënat e hartës nga OpenStreetMap";
 "follow_us" = "Na ndiqni dhe na kontaktoni";
 "social_email" = "E-Mail";
-"social_facebook" = "Facebook";
 "copy_to_clipboard" = "Kopjoje në të Papastër";
 "version %@ (%@)" = "Versioni %@ (%@)";
 "version: %@ (%@)\nmap data: %@" = "Versioni: %@ (%@)\nTë dhënat e hartës: %@";
@@ -26,10 +24,7 @@
 "osm_profile_view_notes" = "Shiko shënimet";
 "osm_profile_remove_promt" = "Nëse nuk mundeni ose nuk dëshironi të rikyçni llogarinë tuaj, thjesht mund ta hiqni atë nga ky aplikacion";
 "social_lemmy" = "Lemmy";
-"social_linkedin" = "LinkedIn";
 "social_matrix" = "Matrix";
-"social_telegram" = "Telegram";
-"social_instagram" = "Instagram";
 "osm_profile_delete" = "Fshi llogarinë OpenStreetMap";
 "osm_profile_logout" = "Dil nga llogaria OpenStreetMap";
 "social_bluesky" = "Bluesky";

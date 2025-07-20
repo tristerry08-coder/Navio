@@ -104,10 +104,8 @@
 "choose_street" = "Escueyi una cai";
 "search_results" = "Resultaos de la gueta";
 "editor_add_select_category_all_subtitle" = "Toles categoríes";
-"telegram_url" = "https://t.me/CoMapsApp/";
 "translated_om_site_url" = "https://www.comaps.app/";
 "wikimedia_commons" = "Wikimedia Commons";
-"instagram_url" = "https://www.instagram.com/comaps.app/";
 "panoramax_picture" = "Panoramax Foto";
 "panoramax" = "Panoramax";
 "fediverse" = "Mastodon";
@@ -118,7 +116,6 @@
 "about_proposition_1" = "Offline, rápidu y fácil d'usu";
 "follow_us" = "Siguios y contactaos";
 "social_email" = "Corréu electrónicu";
-"social_facebook" = "Facebook";
 "copy_to_clipboard" = "Copiar nel Presentable";
 "version %@ (%@)" = "Versión %@ (%@)";
 "version: %@ (%@)\nmap data: %@" = "Versión: %@ (%@)\nDatos del mapa: %@";
@@ -129,12 +126,9 @@
 "osm_profile_remove" = "La cuenta d'OpenStreetMap enllazada nun s'utiliza";
 "osm_profile_remove_promt" = "Si nun puede o nun quier volver conectar la so cuenta, puede quitalo d'esta aplicación";
 "social_lemmy" = "Lemmy";
-"social_linkedin" = "LinkedIn";
 "social_matrix" = "Matrix";
 "osm_profile_delete" = "La cuenta d'OpenStreetMap va ser borrada";
 "osm_profile_view_edit_history" = "Ver l'historial d'ediciones";
 "osm_profile_view_notes" = "Ver les notes";
 "osm_profile_logout" = "La cuenta d'OpenStreetMap nun ye activa";
-"social_telegram" = "Telegram";
-"social_instagram" = "Instagram";
 "social_bluesky" = "Bluesky";
