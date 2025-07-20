@@ -30,7 +30,7 @@ There are some other files not mentioned here.
 
 ### Map features / classificator
 
-- `mapcss-mapping.csv` - mapping between OSM tags and OM types.
+- `mapcss-mapping.csv` - mapping between OSM tags and CoMaps types.
 - `replaced_tags.txt` - merging similar OSM tags.
 - `mixed_tags.txt` - pedestrian streets of high popularity.
 
@@ -38,7 +38,7 @@ There are some other files not mentioned here.
 - `config.xsd` - XML schema for `editor.config`.
 
 Automatically generated:
-- `classificator.txt` - hierarchical list of all OM types.
+- `classificator.txt` - hierarchical list of all CoMaps types.
 - `types.txt`
 
 ### Styles and icons

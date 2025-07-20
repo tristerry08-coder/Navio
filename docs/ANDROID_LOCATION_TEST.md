@@ -72,7 +72,7 @@ This test-case should work with the same behavior regardless of
 - Tap on location button - "To continue, turn on device..." dialog
   should re-appear again.
 
-5. OM location dialog (negative case)
+5. CoMaps location dialog (negative case)
 
 - Use non-Google flavor or disable Google Play Location in the app settings;
 - Disable Wi-Fi, disable Cellular Data, disable Location;
