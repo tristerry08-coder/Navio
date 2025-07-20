@@ -1495,6 +1495,7 @@
 "type.natural.wetland.fen" = "Laagveen";
 "type.natural.wetland.reedbed" = "Rietland";
 "type.natural.wetland.swamp" = "Moeras";
-"type.natural.wetland.mangrove" = "mangrove";
+"type.natural.wetland.mangrove" = "Mangrove";
 "type.natural.wetland.saltmarsh" = "Zoutmoeras";
 "type.natural.wetland.saltmarsh.tidal" = "Kwelder";
+"type.natural.wetland.tidalflat" = "Wad";

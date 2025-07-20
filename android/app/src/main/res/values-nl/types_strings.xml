@@ -1406,5 +1406,6 @@
     <string name="type.natural.wetland.reedbed">Rietland</string>
     <string name="type.natural.wetland.swamp">Moeras</string>
     <string name="type.natural.wetland.saltmarsh">Zoutmoeras</string>
-    <string name="type.natural.wetland.mangrove">mangrove</string>
+    <string name="type.natural.wetland.mangrove">Mangrove</string>
+    <string name="type.natural.wetland.tidalflat">Wad</string>
 </resources>

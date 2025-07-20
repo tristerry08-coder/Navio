@@ -217,7 +217,7 @@
 "pref_appearance_dark" = "Donker";
 
 /* Generic «Disabled» string */
-"disabled" = "Disabled";
+"disabled" = "Uitgeschakeld";
 
 /* Generic «Off» string */
 "off" = "Uit";
