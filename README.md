@@ -147,7 +147,7 @@ The project's financial information is completely open and transparent at [our O
 
 ## 🔒 Privacy
 
-The Android app has been reviewed by [Exodus Privacy](https://reports.exodus-privacy.eu.org/fr/reports/app.comaps.google/latest/).
+The Android app has been reviewed by [Exodus Privacy](https://reports.exodus-privacy.eu.org/en/reports/app.comaps.google/latest/).
 
 To [verify](https://developer.android.com/studio/command-line/apksigner#usage-verify) the APK, use the following signing certificate fingerprints:
 ```
