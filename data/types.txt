@@ -487,7 +487,7 @@ mapswithme
 *leisure|park|permissive
 *highway|bridleway|tunnel
 *highway|motorway_link|tunnel
-mapswithme
+*leisure|escape_game
 mapswithme
 mapswithme
 *highway|tertiary_link|bridge

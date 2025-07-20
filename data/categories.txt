@@ -8954,6 +8954,9 @@ tr:Minigolf
 uk:Мінігольф
 zh-Hans:迷你高尔夫
 
+leisure-escape_game
+en:4Escape Room|Escape Game
+
 leisure-hackerspace
 en:4Hackerspace
 ar:هاكرزبيس

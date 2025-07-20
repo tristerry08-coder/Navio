@@ -1270,6 +1270,8 @@ area|z17-[amenity=language_school]
 node|z17-[leisure=hackerspace],
 area|z17-[leisure=hackerspace]
 {icon-image: hackerspace-m.svg;}
+node|z17-[leisure=escape_game]
+{icon-image: escape_game.svg;}
 
 /* 5.3 Sport */
 
