@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Downloads all maps necessary for learning to rank to the current
 # directory.

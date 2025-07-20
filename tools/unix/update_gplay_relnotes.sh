@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Concatenates Android release notes in all languages into a single output format
 # suitable to upload to Google Play to update existing notes.

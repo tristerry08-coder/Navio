@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #####################################
 # Locates generator_tool executable #
 #####################################

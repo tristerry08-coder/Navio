@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -e -u
 SCRIPTS_PATH="$(dirname "$0")"
 "$SCRIPTS_PATH/generate_symbols.sh"

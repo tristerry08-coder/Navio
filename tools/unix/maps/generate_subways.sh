@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -e -u -o pipefail
 
 # Generate subways.transit.json file consumed by the maps generator.

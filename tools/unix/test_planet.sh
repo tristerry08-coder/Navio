@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #####################################################
 # Tests a planet build made with generate_planet.sh #
 #####################################################

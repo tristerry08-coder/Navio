@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -e -u -x
 
 OMIM_PATH="${OMIM_PATH:-$(dirname "$0")/../..}"

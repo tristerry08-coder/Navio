@@ -34,7 +34,7 @@ whole planet is also applicable.
 The last three steps may be expressed as the following shell script:
 
 ```bash
-#!/bin/bash
+#!/usr/bin/env bash
 set -e
 
 REPO="/path/to/cloned/repo"

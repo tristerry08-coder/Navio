@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Should be used everywhere to generate a consistent version number based
 # on the date of the last commit and a number of commits on that day.
 set -euo pipefail
