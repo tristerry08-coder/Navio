@@ -5,12 +5,12 @@ class BottomTabBarViewController: UIViewController {
   var presenter: BottomTabBarPresenterProtocol!
   
   @IBOutlet var searchButton: MWMButton!
-  @IBOutlet var searchConstraintWithLeftButton: NSLayoutConstraint?
-  @IBOutlet var searchConstraintWithoutLeftButton: NSLayoutConstraint?
+  @IBOutlet var searchConstraintWithLeftButton: NSLayoutConstraint!
+  @IBOutlet var searchConstraintWithoutLeftButton: NSLayoutConstraint!
   @IBOutlet var leftButton: MWMButton!
   @IBOutlet var bookmarksButton: MWMButton!
-  @IBOutlet var bookmarksConstraintWithLeftButton: NSLayoutConstraint?
-  @IBOutlet var bookmarksConstraintWithoutLeftButton: NSLayoutConstraint?
+  @IBOutlet var bookmarksConstraintWithLeftButton: NSLayoutConstraint!
+  @IBOutlet var bookmarksConstraintWithoutLeftButton: NSLayoutConstraint!
   @IBOutlet var moreButton: MWMButton!
   @IBOutlet var downloadBadge: UIView!
   @IBOutlet var leftButtonBadge: UIView!
@@ -48,8 +48,12 @@ class BottomTabBarViewController: UIViewController {
     super.viewWillAppear(animated)
     
     leftButton.imageView?.contentMode = .scaleAspectFit
-    updateLeftButton()
     updateBadge()
+  }
+  
+  override func viewWillLayoutSubviews() {
+    super.viewWillLayoutSubviews()
+    updateLeftButton()
   }
   
   static func updateAvailableArea(_ frame: CGRect) {
