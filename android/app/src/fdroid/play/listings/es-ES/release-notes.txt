@@ -1,6 +1,9 @@
-• datos de OpenStreetMap a 22 de junio
-• añadido ajuste para la copia de seguridad automática de marcadores y trazas
-• añadidas isolíneas de 100 m a las regiones que tenían isolíneas peores o no tenían isolíneas
-• se muestra antes la vegetación y zonas de juego, añadidas áreas a campings y otros servicios
-• los senderos y pistas aparecen más tarde - siguen igual en estilo de outdoors
-• se oculta botón personalizado del menú y se mueve allí Acerca de y Ayuda desde los ajustes
+¡Presentamos el logo de CoMaps!
+• mejora de isolíneas con más detalle para muchas regiones
+• añade enlaces de imágenes de Panoramax a POIs seleccionados
+• datos de OpenStreetMap a 13 de julio
+• añadidos rellenos de color a muchas características
+• se muestra el estado de horarios de apertura al seleccionar un POI
+• se dividen los humedales en tipos distintos
+• se actualiza la vegetación y otros colores del mapa, así como otros iconos
+• exteriores: líneas de contorno de altitud más gruesas

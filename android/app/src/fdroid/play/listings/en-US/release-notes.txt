@@ -1,7 +1,10 @@
-• OpenStreetMap data as of June 22
-• a setting for automatic bookmarks and tracks backup
-• added 100m-step altitude isolines to all regions that had worse or no isolines
-• display vegetation and playground color fills earlier, add fills to camp sites and some amenities
-• paths & tracks appear on the map later by default - still appear earlier in the outdoor style
-• hide active custom button action from the hamburger menu, move there About & Help from the settings
-• update map transport icons
+Introducing CoMaps logo!
+
+• upgrade altitude contour lines for many regions to 20 or 50 meters step
+• add Panoramax Picture links to selected POIs
+• OpenStreetMap data as of July 13
+• add color fills to many features and display fills earlier for existing features
+• display opening hours state when selecting a POI
+• split all wetlands into several distinct types
+• update vegetation and other map colors, update some map icons
+• outdoors: bolder altitude contour lines

@@ -1,6 +1,7 @@
-• Données OpenStreetMap du 22 juin
-• Sauvegarde automatique des signets et traces GPS en local
-• Ajout des courbes d'altitude avec un précision de 100 mètres dans toutes les régions qui avaient peu de courbes ou aucune
-• Ajustements des styles notamment sur la végétation, les aires de jeu et les chemins
-• Masque l’action active du bouton personnalisé dans le menu hamburger
-• Correction de certains plantages et bugs
+Présentation du logo CoMaps !
+• Amélioration des courbes d’altitude à une précision de 20 ou 50 mètres pour de nombreuses régions
+• Ajout d'un lien vers les images Panoramax des POI
+• Données OpenStreetMap du 13 juillet
+• Affichage de l’état des heures d’ouverture lors de la sélection d’un POI
+• Mise à jour du style(végétation et zones humides), mise à jour de certaines icônes de la carte
+• Outdoors: Améliorations de la visibilité des courbes d'altitude
