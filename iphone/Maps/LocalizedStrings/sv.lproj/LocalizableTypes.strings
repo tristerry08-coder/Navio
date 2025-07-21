@@ -1497,3 +1497,5 @@
 "type.sport.diving" = "Höghöjdsdykning";
 "type.tourism.zoo.petting" = "Djurpark för barn";
 "type.amenity.love_hotel" = "Kärlekshotell";
+"type.amenity.studio" = "Studio";
+"type.landuse.plant_nursery" = "Plant Nursery";

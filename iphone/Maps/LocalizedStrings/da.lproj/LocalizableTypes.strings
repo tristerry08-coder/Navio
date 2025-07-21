@@ -1488,3 +1488,14 @@
 "type.barrier.guard_rail" = "Autoværn";
 "type.highway.ladder" = "Stige";
 "type.amenity.love_hotel" = "Kærlighedshotel";
+"type.natural.wetland.tidalflat" = "Tidal Flat";
+"type.sport.diving" = "High Diving";
+"type.hwtag.onedir_bicycle" = "hwtag-onedir_bicycle";
+"type.natural.wetland.swamp" = "Swamp";
+"type.hwtag.bidir_bicycle" = "hwtag-bidir_bicycle";
+"type.natural.wetland.saltmarsh" = "Salt Marsh";
+"type.natural.wetland.mangrove" = "Mangrove";
+"type.natural.wetland.fen" = "Fen";
+"type.natural.wetland.saltmarsh.tidal" = "Tidal Salt Marsh";
+"type.natural.wetland.reedbed" = "Reed Bed";
+"type.railway.station.subway.qingdao" = "Subway Station";

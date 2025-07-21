@@ -1494,3 +1494,8 @@
 "type.railway.station.subway.qingdao" = "Stazione metropolitana di Qingdao";
 "type.natural.wetland.swamp" = "Palude";
 "type.natural.wetland.mangrove" = "Mangrovie";
+"type.natural.wetland.tidalflat" = "Tidal Flat";
+"type.natural.wetland.saltmarsh" = "Salt Marsh";
+"type.natural.wetland.fen" = "Fen";
+"type.natural.wetland.saltmarsh.tidal" = "Tidal Salt Marsh";
+"type.natural.wetland.reedbed" = "Reed Bed";

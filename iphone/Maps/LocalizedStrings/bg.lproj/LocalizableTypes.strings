@@ -1494,3 +1494,8 @@
 "type.natural.wetland.tidalflat" = "Приливната равнина";
 "type.sport.diving" = "Високо гмуркане";
 "type.leisure.firepit" = "Огнище";
+"type.natural.wetland.fen" = "Fen";
+"type.natural.wetland.saltmarsh" = "Salt Marsh";
+"type.man_made.crane" = "Crane";
+"type.natural.wetland.saltmarsh.tidal" = "Tidal Salt Marsh";
+"type.landuse.plant_nursery" = "Plant Nursery";

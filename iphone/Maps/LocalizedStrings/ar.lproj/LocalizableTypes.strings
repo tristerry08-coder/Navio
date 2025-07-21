@@ -1486,3 +1486,16 @@
 "type.amenity.love_hotel" = "فندق جب";
 "type.amenity.studio" = "معرض";
 "type.railway.station.subway.qingdao" = "محطة مترو";
+"type.landuse.plant_nursery" = "Plant Nursery";
+"type.leisure.firepit" = "Firepit";
+"type.natural.wetland.tidalflat" = "Tidal Flat";
+"type.sport.diving" = "High Diving";
+"type.highway.ladder" = "Ladder";
+"type.natural.wetland.swamp" = "Swamp";
+"type.man_made.crane" = "Crane";
+"type.natural.wetland.saltmarsh" = "Salt Marsh";
+"type.natural.wetland.mangrove" = "Mangrove";
+"type.barrier.guard_rail" = "Guard Rail";
+"type.natural.wetland.fen" = "Fen";
+"type.natural.wetland.saltmarsh.tidal" = "Tidal Salt Marsh";
+"type.natural.wetland.reedbed" = "Reed Bed";

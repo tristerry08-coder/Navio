@@ -1491,3 +1491,11 @@
 "type.landuse.plant_nursery" = "Vivero de plantas";
 "type.sport.diving" = "Salto de trampolín";
 "type.man_made.crane" = "Grúa";
+"type.natural.wetland.fen" = "Fen";
+"type.natural.wetland.saltmarsh.tidal" = "Tidal Salt Marsh";
+"type.natural.wetland.reedbed" = "Reed Bed";
+"type.natural.wetland.tidalflat" = "Tidal Flat";
+"type.natural.wetland.swamp" = "Swamp";
+"type.natural.wetland.saltmarsh" = "Salt Marsh";
+"type.natural.wetland.mangrove" = "Mangrove";
+"type.railway.station.subway.qingdao" = "Subway Station";

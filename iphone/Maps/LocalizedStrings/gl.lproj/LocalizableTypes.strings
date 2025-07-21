@@ -1306,3 +1306,10 @@
 "type.amenity.studio" = "Estudo";
 "type.amenity.love_hotel" = "Hotel por horas";
 "type.railway.station.subway.qingdao" = "Estación de metro";
+"type.natural.wetland.tidalflat" = "Tidal Flat";
+"type.natural.wetland.swamp" = "Swamp";
+"type.natural.wetland.saltmarsh" = "Salt Marsh";
+"type.natural.wetland.mangrove" = "Mangrove";
+"type.natural.wetland.fen" = "Fen";
+"type.natural.wetland.saltmarsh.tidal" = "Tidal Salt Marsh";
+"type.natural.wetland.reedbed" = "Reed Bed";

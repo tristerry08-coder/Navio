@@ -1493,3 +1493,9 @@
 "type.natural.wetland.fen" = "Bataklık";
 "type.natural.wetland.saltmarsh" = "Tuz Bataklığı";
 "type.natural.wetland.saltmarsh.tidal" = "Gelgit Tuz Bataklığı";
+"type.hwtag.lit" = "hwtag-lit";
+"type.railway.station.subway.qingdao" = "Subway Station";
+"type.natural.wetland.tidalflat" = "Tidal Flat";
+"type.natural.wetland.swamp" = "Swamp";
+"type.natural.wetland.mangrove" = "Mangrove";
+"type.natural.wetland.reedbed" = "Reed Bed";

@@ -1492,3 +1492,10 @@
 "type.leisure.firepit" = "Fogueira";
 "type.sport.diving" = "Mergulho alto";
 "type.railway.station.subway.qingdao" = "Estação de metro";
+"type.natural.wetland.tidalflat" = "Tidal Flat";
+"type.natural.wetland.swamp" = "Swamp";
+"type.natural.wetland.saltmarsh" = "Salt Marsh";
+"type.natural.wetland.mangrove" = "Mangrove";
+"type.natural.wetland.fen" = "Fen";
+"type.natural.wetland.saltmarsh.tidal" = "Tidal Salt Marsh";
+"type.natural.wetland.reedbed" = "Reed Bed";
