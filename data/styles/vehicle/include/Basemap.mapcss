@@ -340,7 +340,17 @@ area|z16-[landuse=cemetery]
 
 /* 7.5 Pedestrian areas */
 
+/* Generic amenities */
 
+area|z13-[highway=services],
+area|z13-[highway=rest_area],
+area|z13-[landuse=garages],
+
+area|z15-[amenity=charging_station][motorcar?],
+area|z15-[amenity=fuel],
+area|z17-[amenity=vehicle_inspection],
+area|z17-[amenity=car_wash],
+{fill-opacity: 1; fill-color: @general_area;}
 
 /* 7.6 Airports */
 

@@ -31,6 +31,13 @@ amenity-parking-street_side-private                 # area z15- (also has icon z
 === 160
 
 leisure-stadium                                     # area z15-
+highway-services
+highway-rest_area
+landuse-garages
+amenity-vehicle_inspection
+amenity-car_wash
+amenity-charging_station-motorcar
+amenity-fuel
 === 150
 
 amenity-grave_yard                                  # area z14-

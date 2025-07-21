@@ -100,6 +100,7 @@
 @unversity: #F8E4BA;
 @hospital: #F8D9D9;
 */
+@general_area: #FAEFE1;
 @industrial: #E1DCE3;
 @construction_area: #E4E3E6;
 @sport: #C8DBAD;
