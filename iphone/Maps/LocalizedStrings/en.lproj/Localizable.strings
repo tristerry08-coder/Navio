@@ -219,6 +219,9 @@
 "pref_zoom_title" = "Zoom buttons";
 "pref_left_button_type" = "Left Main Button";
 
+/* Settings «Map» category: «Map Appearance» title */
+"pref_mapappearance_title" = "Map Appearance";
+
 /* Settings «Map» category: «Appearance» title */
 "pref_appearance_title" = "Appearance";
 

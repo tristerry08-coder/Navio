@@ -53,8 +53,21 @@ final class ThemeManager: NSObject {
       }
     }(actualTheme)
 
-
-    FrameworkHelper.setTheme(actualTheme)
+    if Settings.mapAppearance == .light {
+      if actualTheme == .vehicleDay || actualTheme == .vehicleNight {
+          FrameworkHelper.setTheme(.vehicleDay)
+      } else {
+          FrameworkHelper.setTheme(.day)
+      }
+    } else if Settings.mapAppearance == .dark {
+      if actualTheme == .vehicleDay || actualTheme == .vehicleNight {
+        FrameworkHelper.setTheme(.vehicleNight)
+      } else {
+        FrameworkHelper.setTheme(.night)
+      }
+    } else {
+      FrameworkHelper.setTheme(actualTheme)
+    }
     if nightMode != newNightMode || StyleManager.shared.hasTheme() == false{
       UIColor.setNightMode(newNightMode)
       if newNightMode {

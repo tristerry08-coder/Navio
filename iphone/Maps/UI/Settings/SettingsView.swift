@@ -36,6 +36,10 @@ struct SettingsView: View {
     @State private var shouldTransliterateToLatin: Bool = true
     
     
+    /// The selected map appearance
+    @State private var selectedMapAppearance: Settings.Appearance = .auto
+    
+    
     /// The selected appearance
     @State private var selectedAppearance: Settings.Appearance = .auto
     
@@ -135,12 +139,12 @@ struct SettingsView: View {
                     Toggle("transliteration_title", isOn: $shouldTransliterateToLatin)
                         .tint(.accent)
                     
-                    Picker(selection: $selectedAppearance) {
-                        ForEach(Settings.Appearance.allCases) { appearance in
-                            Text(appearance.description)
+                    Picker(selection: $selectedMapAppearance) {
+                        ForEach(Settings.Appearance.allCases) { mapAppearance in
+                            Text(mapAppearance.description)
                         }
                     } label: {
-                        Text("pref_appearance_title")
+                        Text("pref_mapappearance_title")
                     }
                 }
                 
@@ -198,6 +202,14 @@ struct SettingsView: View {
                 }
                 
                 Section {
+                    Picker(selection: $selectedAppearance) {
+                        ForEach(Settings.Appearance.allCases) { appearance in
+                            Text(appearance.description)
+                        }
+                    } label: {
+                        Text("pref_appearance_title")
+                    }
+                    
                     Toggle("pref_calibration_title", isOn: $shouldCalibrateCompass)
                         .tint(.accent)
                     
@@ -256,6 +268,7 @@ struct SettingsView: View {
             hasAutomaticDownload = Settings.hasAutomaticDownload
             hasIncreasedFontsize = Settings.hasIncreasedFontsize
             shouldTransliterateToLatin = Settings.shouldTransliterateToLatin
+            selectedMapAppearance = Settings.mapAppearance
             selectedAppearance = Settings.appearance
             shouldSync = Settings.shouldSync
             shouldCalibrateCompass = Settings.shouldCalibrateCompass
@@ -283,6 +296,9 @@ struct SettingsView: View {
         }
         .onChange(of: shouldTransliterateToLatin) { changedShouldTransliterateToLatin in
             Settings.shouldTransliterateToLatin = changedShouldTransliterateToLatin
+        }
+        .onChange(of: selectedMapAppearance) { changedSelectedMapAppearance in
+            Settings.mapAppearance = changedSelectedMapAppearance
         }
         .onChange(of: selectedAppearance) { changedSelectedAppearance in
             Settings.appearance = changedSelectedAppearance

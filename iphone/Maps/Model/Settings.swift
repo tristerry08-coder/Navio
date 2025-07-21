@@ -12,6 +12,10 @@ import Combine
     static private let userDefaultsKeyLeftButtonType = "LeftButtonType"
     
     
+    /// Key for storing the map appearance in the user defaults
+    static private let userDefaultsKeyMapAppearance = "MapAppearance"
+    
+    
     /// The current distance unit
     static var distanceUnit: DistanceUnit {
         get {
@@ -143,6 +147,23 @@ import Combine
         }
         set {
             SettingsBridge.setCompassCalibrationEnabled(newValue)
+        }
+    }
+    
+    
+    /// The current map appearance
+    @objc static var mapAppearance: Appearance {
+        get {
+            let mapAppearanceRawValue = UserDefaults.standard.integer(forKey: userDefaultsKeyMapAppearance)
+            if mapAppearanceRawValue != 0, let mapAppearance = Appearance(rawValue: mapAppearanceRawValue) {
+                return mapAppearance
+            }
+            
+            return .auto
+        }
+        set {
+            UserDefaults.standard.set(newValue.rawValue, forKey: userDefaultsKeyMapAppearance)
+            ThemeManager.invalidate()
         }
     }
     
