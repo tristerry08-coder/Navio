@@ -1349,4 +1349,11 @@
     <string name="type.natural.wetland.fen">Kärr</string>
     <string name="type.natural.wetland.reedbed">Vass</string>
     <string name="type.natural.wetland.swamp">Träsk</string>
+    <string name="type.natural.wetland.mangrove">Mangroveträsk</string>
+    <string name="type.railway.monorail.tunnel">Monorail Tunnel</string>
+    <string name="type.railway.station.subway.qingdao">Tunnelbana</string>
+    <string name="type.natural.wetland.tidalflat">Tidvatten</string>
+    <string name="type.sport.diving">Höghöjdsdykning</string>
+    <string name="type.amenity.love_hotel">Kärlekshotell</string>
+    <string name="type.tourism.zoo.petting">Djurpark för barn</string>
 </resources>

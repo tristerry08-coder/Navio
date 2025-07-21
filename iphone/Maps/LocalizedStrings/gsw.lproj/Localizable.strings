@@ -62,7 +62,7 @@
 "report_a_bug" = "App-Fehler melde";
 "report_incorrect_map_bug" = "Falschi Chartedate melde oder korrigiere";
 "volunteer" = "Freiwillig helfe";
-"follow_us" = "Folg und kontaktier eus";
+"follow_us" = "Bliib in Kontakt";
 "email_error_body" = "De Email-Client isch nonig iigrichtet worde. Konfigurier ihn bitte oder nutz en anderi Möglichkeit oder kontaktier eus under %@";
 "email_error_title" = "Fehler bim Email-Versand";
 "downloader_search_results" = "Gfunde";
@@ -584,3 +584,4 @@
 "social_matrix" = "Matrix";
 "social_bluesky" = "Bluesky";
 "social_mastodon" = "Mastodon";
+"social_pixelfed" = "Pixelfed";

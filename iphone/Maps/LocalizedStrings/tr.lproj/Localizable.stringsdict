@@ -13,11 +13,11 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>0 yer imi</string>
+			<string>Yer imi yok</string>
 			<key>one</key>
 			<string>%d yer imi</string>
 			<key>other</key>
-			<string>%d yer imi</string>
+			<string>%d yer imleri</string>
 		</dict>
 	</dict>
 	<key>bookmarks_detect_message</key>

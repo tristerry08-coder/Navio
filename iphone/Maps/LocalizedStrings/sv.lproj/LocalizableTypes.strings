@@ -1490,3 +1490,10 @@
 "type.man_made.crane" = "Kran";
 "type.natural.wetland.reedbed" = "Vass";
 "type.natural.wetland.swamp" = "Träsk";
+"type.natural.wetland.mangrove" = "Mangroveträsk";
+"type.railway.station.subway.qingdao" = "Tunnelbana";
+"type.railway.monorail.tunnel" = "Monorail Tunnel";
+"type.natural.wetland.tidalflat" = "Tidvatten";
+"type.sport.diving" = "Höghöjdsdykning";
+"type.tourism.zoo.petting" = "Djurpark för barn";
+"type.amenity.love_hotel" = "Kärlekshotell";

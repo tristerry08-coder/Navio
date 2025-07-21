@@ -880,7 +880,7 @@
     <string name="error_enter_correct_fediverse_page">Унесите важеће корисничко име Мастодона или веб адресу</string>
     <string name="error_enter_correct_bluesky_page">Unesite važeće Bluesky korisničko ime ili veb adresu</string>
     <string name="pref_left_button_title">Подешавање левог дугмета</string>
-    <string name="pref_left_button_disable">Onemogući</string>
+    <string name="pref_left_button_disable">Искључи</string>
     <string name="saved">Сачувано</string>
     <string name="editor_building_levels">Spratovi (укљ. приземље, искључујући кров)</string>
     <string name="error_enter_correct_level">Унесите важећи спрат</string>
@@ -896,14 +896,14 @@
     <string name="panoramax">Panoramax Picture</string>
     <string name="pref_backup_now_title">Направите резервну копију сада</string>
     <string name="pref_backup_now_summary">Направите резервну копију</string>
-    <string name="pref_backup_now_summary_progress">Снимање у току…</string>
+    <string name="pref_backup_now_summary_progress">Правим резервну копију…</string>
     <string name="pref_backup_now_summary_ok">Резервна копија је успешно завршена</string>
     <string name="pref_backup_now_summary_failed">Резервна копија није успела</string>
     <string name="pref_backup_now_summary_folder_unavailable">Фолдер за резервну копију није доступан</string>
-    <string name="pref_backup_location_title">Локација резервне копије</string>
+    <string name="pref_backup_location_title">Локација резервних копија</string>
     <string name="pref_backup_location_summary_initial">Молим вас, прво изаберите фолдер и дајте дозволу</string>
     <string name="pref_backup_history_title">Број сачуваних резервних копија</string>
-    <string name="backup_interval_every_day">Дневно</string>
+    <string name="backup_interval_every_day">Сваки дан</string>
     <string name="backup_interval_every_week">Седмично</string>
     <string name="backup_interval_manual_only">Искључено (само ручно)</string>
     <string name="pref_backup_summary">Аутоматски направити резервну копију у фолдеру на уређају</string>
@@ -913,7 +913,8 @@
     <string name="pref_backup_interval_title">Аутоматска резервна копија</string>
     <string name="pref_backup_now_summary_empty_lists">Нема маркера и путања за израду резервне копије</string>
     <string name="pref_backup_title">Чување маркера и путања</string>
-    <string name="closed_now">Сада је затворено</string>
+    <string name="closed_now">Затворено сада</string>
     <string name="open_now">Сада је отворено</string>
     <string name="at">на %s</string>
+    <string name="about_headline">Отворени пројекат који покреће заједница</string>
 </resources>

@@ -328,7 +328,7 @@
 "volunteer" = "Vrijwilligerswerk";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Volg ons en neem contact met ons op";
+"follow_us" = "Verbind met ons";
 
 /* Alert text */
 "email_error_body" = "Het e-mailprogramma is niet ingesteld. Stel het programma in of neem contact met ons op via %@";

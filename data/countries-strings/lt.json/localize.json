@@ -52,13 +52,13 @@
 "US_Pennsylvania_Reading":"Skaitomas",
 "United Kingdom":"Jungtinė Karalystė",
 "Armenia":"armėnų",
-"Azerbaijan":"azerbaidžaniečių",
+"Azerbaijan":"Azerbaidžanas",
 "Italy_Lombardy":"Lombardų",
 "Jamaica":"Jamaikiečių",
 "Spain_Extremadura":"ispanų kalbos Ekstremadūros tarmė",
 "US_Georgia":"Georgian",
 "Spain_Galicia_North Short":"galisų",
-"Azerbaijan Region":"azerbaidžaniečių",
+"Azerbaijan Region":"Irano Azerbaidžanas",
 "Bolivia":"Boliviečių",
 "Canada_Ontario_Bame":"Barrier",
 "France_Corsica":"korsikiečių",
@@ -244,5 +244,6 @@
 "Belarus_Brest Region":"Bresto sritis",
 "Belarus_Homiel Region":"Gomelio sritis",
 "Belarus_Minsk Region":"Minsko sritis",
-"Belarus_Vitebsk Region":"Vitebsko sritis"
+"Belarus_Vitebsk Region":"Vitebsko sritis",
+"North Korea":"Šiaurės Korėja"
 }

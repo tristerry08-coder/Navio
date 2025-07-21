@@ -907,4 +907,20 @@
     <string name="bicycle">Bisiklet</string>
     <string name="pref_backup_now_title">Şimdi yedekle</string>
     <string name="pref_backup_status_summary_success">Son başarılı yedekleme</string>
+    <string name="pref_backup_now_summary">Hemen bir yedek oluşturun</string>
+    <string name="pref_backup_summary">Cihazınızdaki bir klasöre otomatik olarak yedekleme yapın</string>
+    <string name="pref_backup_now_summary_progress">Yedekleme sürüyor…</string>
+    <string name="pref_backup_now_summary_ok">Yedekleme başarıyla tamamlandı</string>
+    <string name="pref_backup_location_summary_initial">Lütfen önce bir klasör seçin ve izin verin</string>
+    <string name="pref_backup_history_title">Saklanacak yedekleme sayısı</string>
+    <string name="ruler">Cetvel</string>
+    <string name="bookmark_color">Yer imi rengi</string>
+    <string name="open_now">Şimdi aç</string>
+    <string name="closed_now">Şimdi kapandı</string>
+    <string name="at">%s\'da</string>
+    <string name="pref_backup_title">Yer imleri ve izlerin yedeği</string>
+    <string name="dialog_report_error_with_logs">Lütfen bize hata raporu yollayın:\n - Ayarlardan \"Günlüğe kaydetmeyi etkinleştir\" \n - hatayı tekrarlayın\n - \"Hakkında ve Yardım\" ekranında \"Hata Bildir\" düğmesine basın ve e-posta veya sohbet yoluyla gönderin\n - günlüğe kaydetmeyi devre dışı bırak</string>
+    <string name="pref_backup_now_summary_folder_unavailable">Yedekleme klasörü kullanılamıyor</string>
+    <string name="pref_backup_now_summary_empty_lists">Yedeklenecek yer imi ve parça yok</string>
+    <string name="dialog_report_error_missing_folder">Seçilen yedekleme konumu kullanılamıyor veya yazılabilir değil. Lütfen farklı bir konum seçin.</string>
 </resources>

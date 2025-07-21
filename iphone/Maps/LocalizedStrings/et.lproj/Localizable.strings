@@ -325,7 +325,7 @@
 "volunteer" = "Vabatahtlik kaastöö";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Jälgi ja võta meiega ühendust";
+"follow_us" = "Võta meiega ühendust";
 
 /* Alert text */
 "email_error_body" = "E-posti klienti ei ole seadistatud. Palun seadista see või kasuta mõnda muud võimalust meiega ühenduse võtmiseks aadressil %@";

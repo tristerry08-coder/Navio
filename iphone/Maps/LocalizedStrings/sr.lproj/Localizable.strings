@@ -202,7 +202,7 @@
 "share_my_location" = "Подели моју локацију";
 "prefs_group_route" = "Навигација";
 "pref_zoom_title" = "Дугме за зумирање";
-"pref_left_button_type" = "Left Main Button";
+"pref_left_button_type" = "Лево главно дугме";
 
 /* Settings «Map» category: «Appearance» title */
 "pref_appearance_title" = "Изглед";
@@ -214,7 +214,7 @@
 "pref_appearance_dark" = "Тамно";
 
 /* Generic «Disabled» string */
-"disabled" = "Disabled";
+"disabled" = "Недоступно";
 
 /* Generic «Off» string */
 "off" = "Искључено";
@@ -238,7 +238,7 @@
 "pref_tts_title" = "Гласовне инструкције";
 
 /* Settings «Route» category: «Tts enable» title */
-"pref_tts_enable_title" = "Enable Voice Instructions";
+"pref_tts_enable_title" = "Омогућите гласовне инструкције";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "Најави име улице";
@@ -325,7 +325,7 @@
 "volunteer" = "Волонтирајте";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Пратите и контактирајте нас";
+"follow_us" = "Контактирајте нас";
 
 /* Alert text */
 "email_error_body" = "Email клијент није подешен. Молимо вас да га подесите или нас контактирајте на %@";
@@ -521,7 +521,7 @@
 "autodownload" = "Аутоматско преузимање мапа";
 
 /* Place Page opening hours text */
-"closed_now" = "Сада је затворено";
+"closed_now" = "Затворено сада";
 
 /* Place Page opening hours text */
 "daily" = "Сваки дан";
@@ -1094,3 +1094,4 @@
 "edit_track" = "Измените путању";
 "osm_profile_view_notes" = "Погледајте белешке";
 "osm_profile_view_edit_history" = "Погледајте историју измена";
+"about_headline" = "Отворени пројекат који покреће заједница";

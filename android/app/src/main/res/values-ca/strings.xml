@@ -38,13 +38,13 @@
     <string name="try_again">Torna-ho a intentar</string>
     <string name="about_menu_title">Quant a l’CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_1">• Sense publicitat, rastreig ni recopilació de dades</string>
+    <string name="about_proposition_1">• Fàcil d\'usar i elegant</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_2">• Consum de bateria mínim, funciona fora de línia</string>
+    <string name="about_proposition_2">• Centrat en la privacitat i sense anuncis</string>
     <!-- Text in About screen -->
     <string name="about_proposition_3">• Fora de línia, ràpid i compacte</string>
     <!-- Text in About screen -->
-    <string name="about_developed_by_enthusiasts">Aplicació de codi obert creada per entusiastes i voluntaris.</string>
+    <string name="about_developed_by_enthusiasts">Codi totalment obert, sense ànim de lucre i transparència en la presa de decisions i finances.</string>
     <!-- The button that opens system location settings -->
     <string name="location_settings">Paràmetres d’ubicació</string>
     <string name="close">Tanca</string>
@@ -297,9 +297,9 @@
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Actualitza el mapa</string>
     <!-- Preference title -->
-    <string name="google_play_services">Serveis d\'ubicació de Google Play</string>
+    <string name="google_play_services">Servei d\'ubicació de Google Fused</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">Determineu ràpidament la vostra ubicació aproximada mitjançant Bluetooth, WiFi o xarxa mòbil</string>
+    <string name="pref_use_google_play">Un servei de propietat que combina GPS, Wi-Fi, xarxes mòbils, etc. per a determinar la teva ubicació amb més precisió. Pot ser que es connecti als serveis de Google.</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -884,4 +884,19 @@
     <string name="panoramax">Imatge Panoramax</string>
     <string name="app_site_url">https://comaps.app/ca/</string>
     <string name="saved">S\'ha desat</string>
+    <string name="about_headline">Projecte obert, desenvolupat per la comunitat</string>
+    <string name="codeberg">Codeberg</string>
+    <string name="bluesky">Bluesky</string>
+    <string name="error_enter_correct_level">Introdueix un valor de pis vàlid</string>
+    <string name="error_enter_correct_fediverse_page">Introdueix un nom d\'usuari o una adreça web de Mastodon vàlids</string>
+    <string name="pref_backup_now_summary">Crear una còpia de seguretat immediatament</string>
+    <string name="pref_backup_now_title">Crear una còpia de seguretat ara</string>
+    <string name="pref_backup_now_summary_progress">Còpia de seguretat en progrés…</string>
+    <string name="editor_building_levels">Pisos (incl. baixos, excl. teulada)</string>
+    <string name="pref_left_button_disable">Desactivar</string>
+    <string name="editor_level">Pis (0 és la planta baixa)</string>
+    <string name="error_enter_correct_bluesky_page">Introdueix un nom d\'usuari o una adreça web de Bluesky vàlids</string>
+    <string name="pref_backup_title">Còpia de seguretat de marcadors i recorreguts</string>
+    <string name="pref_left_button_title">Configuració del botó esquerre</string>
+    <string name="pref_backup_summary">Còpia de seguretat automàtica a un directori del teu dispositiu</string>
 </resources>

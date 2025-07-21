@@ -328,7 +328,7 @@
 "volunteer" = "Freiwillig helfen";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Folge und kontaktiere uns";
+"follow_us" = "Bleib in Kontakt";
 
 /* Alert text */
 "email_error_body" = "Der Email-Client ist noch nicht eingerichtet worden. Konfigurieren Sie ihn bitte oder nutzen Sie eine andere Möglichkeit oder kontaktieren Sie uns unter %@";

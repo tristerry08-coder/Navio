@@ -328,7 +328,7 @@
 "volunteer" = "Voluntarie-se";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Siga-nos e entre em contato conosco";
+"follow_us" = "Conecte-se conosco";
 
 /* Alert text */
 "email_error_body" = "O cliente de email não está configurado. Por favor, configure-o ou utilize qualquer outro modo para nos contatar através de %@";

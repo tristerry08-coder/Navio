@@ -671,7 +671,7 @@
 
 /* In most (European) countries, сemeteries are usually independent of places of worship (e.g. military cemeteries), while grave yards are usually the yard of a place of worship. */
 "type.landuse.cemetery.christian" = "Hristiyan Mezarlığı";
-"type.landuse.religious" = "Religious Land";
+"type.landuse.religious" = "Dini Toprak";
 "type.landuse.commercial" = "Ticari Alan";
 "type.landuse.construction" = "Yapı";
 "type.landuse.education" = "Eğitim tesisi";
@@ -1489,3 +1489,7 @@
 "type.leisure.firepit" = "Ateş çukuru";
 "type.landuse.plant_nursery" = "Fidanlık";
 "type.barrier.guard_rail" = "Korkuluk";
+"type.amenity.love_hotel" = "Aşk Oteli";
+"type.natural.wetland.fen" = "Bataklık";
+"type.natural.wetland.saltmarsh" = "Tuz Bataklığı";
+"type.natural.wetland.saltmarsh.tidal" = "Gelgit Tuz Bataklığı";

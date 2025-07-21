@@ -850,7 +850,7 @@
     <string name="type.railway.station">Железничка станица</string>
     <string name="type.railway.station.funicular">Успињача</string>
     <string name="type.railway.station.light_rail">Железничка станица</string>
-    <string name="type.railway.station.light_rail.berlin">Стадтбахн станица</string>
+    <string name="type.railway.station.light_rail.berlin">Железничка станица</string>
     <string name="type.railway.station.light_rail.london">Железничка станица</string>
     <string name="type.railway.station.light_rail.porto">Железничка станица</string>
     <string name="type.railway.station.monorail">Железничка станица</string>
@@ -909,7 +909,7 @@
     <string name="type.railway.station.subway.lille">Метро станица</string>
     <string name="type.railway.station.subway.lima">Метро станица</string>
     <string name="type.railway.station.subway.lisboa">Метро станица</string>
-    <string name="type.railway.station.subway.london">Метро станица</string>
+    <string name="type.railway.station.subway.london">Подземна станица</string>
     <string name="type.railway.station.subway.lyon">Метро станица</string>
     <string name="type.railway.station.subway.madrid">Метро станица</string>
     <string name="type.railway.station.subway.malaga">Метро станица</string>
