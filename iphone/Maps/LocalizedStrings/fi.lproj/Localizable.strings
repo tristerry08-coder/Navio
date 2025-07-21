@@ -1097,3 +1097,4 @@
 "edit_track" = "Muokkaa reittiä";
 "osm_profile_view_edit_history" = "Näytä muokkaushistoria";
 "osm_profile_view_notes" = "Näytä ilmoitukset";
+"pref_mapappearance_title" = "Map Appearance";

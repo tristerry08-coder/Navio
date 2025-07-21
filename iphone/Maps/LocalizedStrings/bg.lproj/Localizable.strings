@@ -1091,3 +1091,6 @@
 "edit_track" = "Редактиране на маршрут";
 "osm_profile_view_notes" = "Преглед на бележки";
 "osm_profile_view_edit_history" = "Преглед на историята на промените";
+"about_headline" = "Open project powered by the community";
+"about_proposition_3" = "Transparent and not for profit";
+"pref_mapappearance_title" = "Map Appearance";

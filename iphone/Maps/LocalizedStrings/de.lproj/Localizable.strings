@@ -1097,3 +1097,4 @@
 /* Message for the toast when saving the track recording is finished but nothing to save. */
 "track_recording_toast_nothing_to_save" = "Route ist leer - nichts zu speichern";
 "edit_track" = "Track bearbeiten";
+"pref_mapappearance_title" = "Kartendarstellung";

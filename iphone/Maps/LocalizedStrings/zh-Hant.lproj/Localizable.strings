@@ -1097,3 +1097,4 @@
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org)（OSM）是一個建立免費開放地圖的社群專案。 它是CoMaps中地圖資料的主要來源，其工作原理類似於維基百科。 您可以新增或編輯地點，可供全世界數以百萬計的使用者使用並受益。\n 加入OSM，讓我們共繪更優質的地圖吧！";
 "osm_profile_view_edit_history" = "查看編輯歷史記錄";
 "osm_profile_view_notes" = "查看註記";
+"pref_mapappearance_title" = "Map Appearance";

@@ -1091,3 +1091,6 @@
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) هو مشروع مجتمعي لبناء خريطة مجانية ومفتوحة. إنه المصدر الرئيسي لبيانات الخرائط في CoMaps ويعمل على غرار ويكيبيديا. يمكنك إضافة الأماكن أو تعديلها وتصبح متاحة لملايين المستخدمين في جميع أنحاء العالم.\nنضم إلى المجتمع وساعد في إنشاء خريطة أفضل للجميع!";
 "osm_profile_view_edit_history" = "عرض سجل مساهمات";
 "osm_profile_view_notes" = "عرض ملاحظات";
+"about_headline" = "Open project powered by the community";
+"about_proposition_3" = "Transparent and not for profit";
+"pref_mapappearance_title" = "Map Appearance";

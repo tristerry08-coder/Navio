@@ -1097,3 +1097,4 @@
 "osm_profile_delete" = "Elimina account OpenStreetMap";
 "osm_profile_reauthorize" = "Riconnettiti a OpenStreetMap";
 "osm_profile_view_notes" = "Visualizza note";
+"pref_mapappearance_title" = "Map Appearance";

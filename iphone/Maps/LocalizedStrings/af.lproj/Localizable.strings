@@ -1091,3 +1091,6 @@
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is 'n gemeenskapsprojek om 'n gratis en oop kaart te bou. Dit is die hoofbron van kaartdata in CoMaps en werk soortgelyk aan Wikipedia. Jy kan plekke byvoeg of wysig en hulle word beskikbaar vir miljoene gebruikers regoor die wêreld. \nSluit aan by die gemeenskap en help om 'n beter kaart vir almal te maak!";
 "osm_profile_view_notes" = "Bekyk notas";
 "osm_profile_view_edit_history" = "Bekyk wysigingsgeskiedenis";
+"about_headline" = "Open project powered by the community";
+"about_proposition_3" = "Transparent and not for profit";
+"pref_mapappearance_title" = "Map Appearance";

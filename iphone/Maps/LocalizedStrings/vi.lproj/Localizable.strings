@@ -1091,3 +1091,6 @@
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) là một dự án cộng đồng nhằm xây dựng bản đồ mở và miễn phí. Đây là nguồn dữ liệu bản đồ chính trong CoMaps và hoạt động tương tự như Wikipedia. Bạn có thể thêm hoặc chỉnh sửa địa điểm và chúng sẽ có sẵn cho hàng triệu người dùng trên toàn thế giới. \nTham gia cộng đồng và giúp tạo bản đồ tốt hơn cho mọi người!";
 "osm_profile_view_notes" = "Xem Ghi chú";
 "osm_profile_view_edit_history" = "Xem Lịch sử Đóng góp";
+"about_headline" = "Open project powered by the community";
+"about_proposition_3" = "Transparent and not for profit";
+"pref_mapappearance_title" = "Map Appearance";

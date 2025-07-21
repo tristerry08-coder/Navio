@@ -1090,3 +1090,7 @@
 "edit_track" = "경로 편집";
 "osm_profile_view_notes" = "참고 보기";
 "osm_profile_view_edit_history" = "편집 기록 보기";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks; please open them in CoMaps. If you don't have it installed you can download it here: https://www.comaps.app/download/\n\nEnjoy travelling with CoMaps!";
+"about_headline" = "Open project powered by the community";
+"about_proposition_3" = "Transparent and not for profit";
+"pref_mapappearance_title" = "Map Appearance";

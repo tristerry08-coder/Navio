@@ -1091,3 +1091,6 @@
 "edit_track" = "ویرایش مسیر";
 "osm_profile_view_notes" = "مشاهده یادداشت‌ها";
 "osm_profile_view_edit_history" = "مشاهده تاریخچه ویرایش‌ها";
+"about_headline" = "Open project powered by the community";
+"about_proposition_3" = "Transparent and not for profit";
+"pref_mapappearance_title" = "Map Appearance";

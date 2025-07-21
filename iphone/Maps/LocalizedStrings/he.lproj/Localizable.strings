@@ -1091,3 +1091,6 @@
 "edit_track" = "עריכת מסלול";
 "osm_profile_view_edit_history" = "הצג היסטוריית עריכות";
 "osm_profile_view_notes" = "הצג הערות";
+"about_headline" = "Open project powered by the community";
+"about_proposition_3" = "Transparent and not for profit";
+"pref_mapappearance_title" = "Map Appearance";
