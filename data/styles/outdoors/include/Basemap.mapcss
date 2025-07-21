@@ -189,13 +189,12 @@ line|z13-14[isoline=step_500],
 line|z13-14[isoline=step_100],
 {width: 1.6; opacity: 0.25;}
 line|z13-14[isoline=step_50],
-{width: 1.1; opacity: 0.25;}
+{width: 1.1; opacity: 0.3;}
 
 line|z15-16[isoline=step_1000],
 line|z15-16[isoline=step_500],
 {width: 1.6; opacity: 0.5;}
 line|z15-16[isoline=step_100],
-line|z15-16[isoline=step_50],
 {width: 1.6; opacity: 0.35;}
 line|z15-16[isoline=step_50],
 {width: 1.6; opacity: 0.25;}
@@ -204,7 +203,7 @@ line|z15-16[isoline=step_10],
 {width: 1.1; opacity: 0.35;}
 
 line|z17-[isoline=step_1000],
-line|z16-[isoline=step_500],
+line|z17-[isoline=step_500],
 {width: 1.6; opacity: 0.6;}
 line|z17-[isoline=step_100],
 line|z17-[isoline=step_50],
