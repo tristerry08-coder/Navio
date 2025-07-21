@@ -160,7 +160,7 @@
     <string name="type.barrier.border_control">국경통제소</string>
     <string name="type.barrier.city_wall">도시의 벽</string>
     <string name="type.waterway.ditch">배수구</string>
-    <string name="type.natural.water.moat">\"해자 외호\"</string>
+    <string name="type.natural.water.moat">해자 외호</string>
     <string name="type.natural.water.wastewater">폐수</string>
     <string name="type.barrier.entrance">입구</string>
     <string name="type.barrier.gate">게이트</string>
@@ -479,7 +479,7 @@
     <string name="type.area_highway.unclassified">거리</string>
     <!-- SECTION: Types: Historic -->
     <string name="type.historic">역사적 물건</string>
-    <string name="type.historic.aircraft">\"역사적인 항공기\"</string>
+    <string name="type.historic.aircraft">역사적인 항공기</string>
     <string name="type.historic.anchor">역사적인 앵커</string>
     <string name="type.historic.archaeological_site">발굴</string>
     <string name="type.historic.battlefield">전장터</string>
@@ -530,7 +530,7 @@
     <!-- In most (European) countries, сemeteries are usually independent of places of worship (e.g. military cemeteries), while grave yards are usually the yard of a place of worship. -->
     <string name="type.landuse.cemetery.christian">묘소</string>
     <string name="type.landuse.farmland">농지</string>
-    <string name="type.landuse.flowerbed">\"화단\"</string>
+    <string name="type.landuse.flowerbed">화단</string>
     <string name="type.landuse.forest">숲</string>
     <string name="type.landuse.forest.coniferous">숲</string>
     <string name="type.landuse.forest.deciduous">숲</string>
@@ -542,7 +542,7 @@
     <string name="type.leisure.dog_park">애완견 지역</string>
     <string name="type.leisure.fitness_centre">피트니스센터</string>
     <string name="type.leisure.fitness_station">피트니스 스테이션</string>
-    <string name="type.leisure.dance">\"댄스홀\"</string>
+    <string name="type.leisure.dance">댄스홀</string>
     <string name="type.leisure.garden">정원</string>
     <string name="type.leisure.garden.residential">정원</string>
     <string name="type.leisure.golf_course">골프장</string>
@@ -554,7 +554,7 @@
     <string name="type.leisure.park.no.access">공원</string>
     <string name="type.leisure.park.permissive">공원</string>
     <string name="type.leisure.park.private">공원</string>
-    <string name="type.leisure.picnic_table">\"피크닉 테이블\"</string>
+    <string name="type.leisure.picnic_table">피크닉 테이블</string>
     <string name="type.leisure.pitch">운동장</string>
     <string name="type.leisure.playground">놀이터</string>
     <string name="type.leisure.sauna">사우나</string>
@@ -986,7 +986,7 @@
     <string name="type.shop.electronics">전자제품</string>
     <string name="type.shop.erotic">성인용품 가게</string>
     <string name="type.shop.fabric">원단 가게</string>
-    <string name="type.shop.farm">\"농장 식품 가게\"</string>
+    <string name="type.shop.farm">농장 식품 가게</string>
     <string name="type.shop.fashion_accessories">패션 악세사리</string>
     <string name="type.shop.florist">꽃가게</string>
     <string name="type.shop.funeral_directors">장의사</string>
@@ -995,16 +995,16 @@
     <string name="type.shop.gas">주유소</string>
     <string name="type.shop.gift">선물 가게</string>
     <string name="type.shop.greengrocer">청과상</string>
-    <string name="type.shop.grocery">\"식료품점\"</string>
+    <string name="type.shop.grocery">식료품점</string>
     <string name="type.shop.hairdresser">이발사</string>
-    <string name="type.shop.health_food">\"건강식품 가게\"</string>
+    <string name="type.shop.health_food">건강식품 가게</string>
     <string name="type.shop.hearing_aids">보청기 스토어</string>
     <string name="type.shop.herbalist">허브 가게</string>
     <string name="type.shop.hifi">하이파이 오디오</string>
-    <string name="type.shop.houseware">\"가정용품 가게\"</string>
+    <string name="type.shop.houseware">가정용품 가게</string>
     <string name="type.shop.jewelry">보석류</string>
     <string name="type.shop.kiosk">정자</string>
-    <string name="type.shop.kitchen">\"주방용품점\"</string>
+    <string name="type.shop.kitchen">주방용품점</string>
     <string name="type.shop.laundry">세탁소</string>
     <string name="type.shop.mall">몰</string>
     <string name="type.shop.massage">마사지샵</string>
@@ -1054,19 +1054,19 @@
     <string name="type.shop.charity">자선 상점</string>
     <string name="type.shop.cheese">치즈 가게</string>
     <string name="type.shop.craft">예술과 공예</string>
-    <string name="type.shop.dairy">\"유제품\"</string>
-    <string name="type.shop.electrical">\"전기용품점\"</string>
+    <string name="type.shop.dairy">유제품</string>
+    <string name="type.shop.electrical">전기용품점</string>
     <string name="type.shop.fishing">낚시점</string>
     <string name="type.shop.interior_decoration">실내 장식</string>
     <string name="type.shop.lottery">복권</string>
-    <string name="type.shop.medical_supply">\"의료용품\"</string>
+    <string name="type.shop.medical_supply">의료용품</string>
     <string name="type.shop.nutrition_supplements">영양 보조제</string>
     <string name="type.shop.paint">그림 물감</string>
-    <string name="type.shop.perfumery">\"향료 제조업\"</string>
-    <string name="type.shop.sewing">\"재봉용품\"</string>
+    <string name="type.shop.perfumery">향료 제조업</string>
+    <string name="type.shop.sewing">재봉용품</string>
     <string name="type.shop.storage_rental">스토리지 렌탈</string>
     <string name="type.shop.tobacco">담배</string>
-    <string name="type.shop.trade">\"거래 용품\"</string>
+    <string name="type.shop.trade">거래 용품</string>
     <string name="type.shop.watches">시계</string>
     <string name="type.shop.wholesale">도매점</string>
     <string name="type.sport">스포츠</string>
