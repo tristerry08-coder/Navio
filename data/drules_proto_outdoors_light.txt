@@ -47260,7 +47260,7 @@ cont {
     scale: 13
     lines {
       width: 1.1
-      color: 3226891606
+      color: 3008787798
       priority: 60
       cap: BUTTCAP
     }
@@ -47269,7 +47269,7 @@ cont {
     scale: 14
     lines {
       width: 1.1
-      color: 3226891606
+      color: 3008787798
       priority: 60
       cap: BUTTCAP
     }
@@ -47464,7 +47464,7 @@ cont {
     scale: 16
     lines {
       width: 1.6
-      color: 1716085065
+      color: 2152292681
       priority: 60
     }
     path_text {

@@ -1018,6 +1018,9 @@ cont {
   name: "amenity-car_wash"
   element {
     scale: 17
+    area {
+      priority: -1850
+    }
     symbol {
       name: "car-wash-m"
       priority: 2650
@@ -1035,6 +1038,9 @@ cont {
   }
   element {
     scale: 18
+    area {
+      priority: -1850
+    }
     symbol {
       name: "car-wash-m"
       priority: 2650
@@ -1051,6 +1057,9 @@ cont {
   }
   element {
     scale: 19
+    area {
+      priority: -1850
+    }
     symbol {
       name: "car-wash-m"
       priority: 2650
@@ -1067,6 +1076,9 @@ cont {
   }
   element {
     scale: 20
+    area {
+      priority: -1850
+    }
     symbol {
       name: "car-wash-m"
       priority: 2650
@@ -1271,6 +1283,9 @@ cont {
   }
   element {
     scale: 15
+    area {
+      priority: -1850
+    }
     symbol {
       name: "charging-station-m"
       priority: 3200
@@ -1288,6 +1303,9 @@ cont {
   }
   element {
     scale: 16
+    area {
+      priority: -1850
+    }
     symbol {
       name: "charging-station-m"
       priority: 3200
@@ -1305,6 +1323,9 @@ cont {
   }
   element {
     scale: 17
+    area {
+      priority: -1850
+    }
     symbol {
       name: "charging-station-m"
       priority: 3200
@@ -1321,6 +1342,9 @@ cont {
   }
   element {
     scale: 18
+    area {
+      priority: -1850
+    }
     symbol {
       name: "charging-station-m"
       priority: 3200
@@ -1337,6 +1361,9 @@ cont {
   }
   element {
     scale: 19
+    area {
+      priority: -1850
+    }
     symbol {
       name: "charging-station-m"
       priority: 3200
@@ -1353,6 +1380,9 @@ cont {
   }
   element {
     scale: 20
+    area {
+      priority: -1850
+    }
     symbol {
       name: "charging-station-m"
       priority: 3200
@@ -1735,6 +1765,9 @@ cont {
   }
   element {
     scale: 15
+    area {
+      priority: -1850
+    }
     symbol {
       name: "fuel-m"
       priority: 3200
@@ -1752,6 +1785,9 @@ cont {
   }
   element {
     scale: 16
+    area {
+      priority: -1850
+    }
     symbol {
       name: "fuel-m"
       priority: 3200
@@ -1769,6 +1805,9 @@ cont {
   }
   element {
     scale: 17
+    area {
+      priority: -1850
+    }
     symbol {
       name: "fuel-m"
       priority: 3200
@@ -1785,6 +1824,9 @@ cont {
   }
   element {
     scale: 18
+    area {
+      priority: -1850
+    }
     symbol {
       name: "fuel-m"
       priority: 3200
@@ -1801,6 +1843,9 @@ cont {
   }
   element {
     scale: 19
+    area {
+      priority: -1850
+    }
     symbol {
       name: "fuel-m"
       priority: 3200
@@ -1817,6 +1862,9 @@ cont {
   }
   element {
     scale: 20
+    area {
+      priority: -1850
+    }
     symbol {
       name: "fuel-m"
       priority: 3200
@@ -5576,6 +5624,9 @@ cont {
   name: "amenity-vehicle_inspection"
   element {
     scale: 17
+    area {
+      priority: -1850
+    }
     symbol {
       name: "vehicle_inspection-m"
       priority: 2650
@@ -5584,6 +5635,9 @@ cont {
   }
   element {
     scale: 18
+    area {
+      priority: -1850
+    }
     symbol {
       name: "vehicle_inspection-m"
       priority: 2650
@@ -5591,6 +5645,9 @@ cont {
   }
   element {
     scale: 19
+    area {
+      priority: -1850
+    }
     symbol {
       name: "vehicle_inspection-m"
       priority: 2650
@@ -5598,6 +5655,9 @@ cont {
   }
   element {
     scale: 20
+    area {
+      priority: -1850
+    }
     symbol {
       name: "vehicle_inspection-m"
       priority: 2650
@@ -15945,7 +16005,16 @@ cont {
 cont {
   name: "highway-rest_area"
   element {
+    scale: 13
+    area {
+      priority: -1850
+    }
+  }
+  element {
     scale: 14
+    area {
+      priority: -1850
+    }
     symbol {
       name: "picnic-m"
       priority: 4150
@@ -15963,6 +16032,9 @@ cont {
   }
   element {
     scale: 15
+    area {
+      priority: -1850
+    }
     symbol {
       name: "picnic-m"
       priority: 4150
@@ -15979,6 +16051,9 @@ cont {
   }
   element {
     scale: 16
+    area {
+      priority: -1850
+    }
     symbol {
       name: "picnic-m"
       priority: 4150
@@ -15995,6 +16070,9 @@ cont {
   }
   element {
     scale: 17
+    area {
+      priority: -1850
+    }
     symbol {
       name: "picnic-m"
       priority: 4150
@@ -16011,6 +16089,9 @@ cont {
   }
   element {
     scale: 18
+    area {
+      priority: -1850
+    }
     symbol {
       name: "picnic-m"
       priority: 4150
@@ -16027,6 +16108,9 @@ cont {
   }
   element {
     scale: 19
+    area {
+      priority: -1850
+    }
     symbol {
       name: "picnic-m"
       priority: 4150
@@ -16043,6 +16127,9 @@ cont {
   }
   element {
     scale: 20
+    area {
+      priority: -1850
+    }
     symbol {
       name: "picnic-m"
       priority: 4150
@@ -18645,6 +18732,9 @@ cont {
   }
   element {
     scale: 13
+    area {
+      priority: -1850
+    }
     symbol {
       name: "car-repair-m"
       priority: 4200
@@ -18662,6 +18752,9 @@ cont {
   }
   element {
     scale: 14
+    area {
+      priority: -1850
+    }
     symbol {
       name: "car-repair-m"
       priority: 4200
@@ -18679,6 +18772,9 @@ cont {
   }
   element {
     scale: 15
+    area {
+      priority: -1850
+    }
     symbol {
       name: "car-repair-m"
       priority: 4200
@@ -18696,6 +18792,9 @@ cont {
   }
   element {
     scale: 16
+    area {
+      priority: -1850
+    }
     symbol {
       name: "car-repair-m"
       priority: 4200
@@ -18713,6 +18812,9 @@ cont {
   }
   element {
     scale: 17
+    area {
+      priority: -1850
+    }
     symbol {
       name: "car-repair-m"
       priority: 4200
@@ -18729,6 +18831,9 @@ cont {
   }
   element {
     scale: 18
+    area {
+      priority: -1850
+    }
     symbol {
       name: "car-repair-m"
       priority: 4200
@@ -18745,6 +18850,9 @@ cont {
   }
   element {
     scale: 19
+    area {
+      priority: -1850
+    }
     symbol {
       name: "car-repair-m"
       priority: 4200
@@ -18761,6 +18869,9 @@ cont {
   }
   element {
     scale: 20
+    area {
+      priority: -1850
+    }
     symbol {
       name: "car-repair-m"
       priority: 4200
@@ -28723,6 +28834,57 @@ cont {
       priority: 2200
     }
     apply_if: "!name"
+  }
+}
+cont {
+  name: "landuse-garages"
+  element {
+    scale: 13
+    area {
+      priority: -1850
+    }
+  }
+  element {
+    scale: 14
+    area {
+      priority: -1850
+    }
+  }
+  element {
+    scale: 15
+    area {
+      priority: -1850
+    }
+  }
+  element {
+    scale: 16
+    area {
+      priority: -1850
+    }
+  }
+  element {
+    scale: 17
+    area {
+      priority: -1850
+    }
+  }
+  element {
+    scale: 18
+    area {
+      priority: -1850
+    }
+  }
+  element {
+    scale: 19
+    area {
+      priority: -1850
+    }
+  }
+  element {
+    scale: 20
+    area {
+      priority: -1850
+    }
   }
 }
 cont {

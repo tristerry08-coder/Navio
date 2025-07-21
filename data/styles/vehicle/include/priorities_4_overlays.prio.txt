@@ -62,11 +62,11 @@ highway-motorway_junction                           # caption z15-
 highway-primary_link                                # pathtext z11- (also has shield::shield z11-, line z11-, line(casing) z14-)
 highway-primary_link-bridge                         # pathtext z11- (also has shield::shield z11-, line z11-, line::bridgeblack z14-, line::bridgewhite z14-, line(casing) z14-)
 highway-primary_link-tunnel                         # pathtext z11- (also has shield::shield z11-, line z11-, line(casing) z14-)
-highway-services                                    # icon z12- (also has caption(optional) z13-)
+highway-services                                    # icon z12- (also has caption(optional) z13-, area z13-)
 === 4200
 
 highway-ford                                        # icon z14-
-highway-rest_area                                   # icon z14- (also has caption(optional) z14-)
+highway-rest_area                                   # icon z14- (also has caption(optional) z14-, area z13-)
 highway-secondary                                   # pathtext z10- (also has shield::shield z12-, line z10-, line(casing) z14-)
 highway-secondary-bridge                            # pathtext z10- (also has shield::shield z12-, line z10-, line::bridgeblack z14-, line::bridgewhite z14-, line(casing) z14-)
 highway-secondary-tunnel                            # pathtext z10- (also has shield::shield z12-, line z10-, line(casing) z14-)
@@ -170,8 +170,8 @@ aeroway-aerodrome-international                     # icon z7- (also has caption
 place-town                                          # caption z8-
 === 3250
 
-amenity-charging_station-motorcar                   # icon z14- (also has caption(optional) z14-)
-amenity-fuel                                        # icon z12- (also has caption(optional) z12-)
+amenity-charging_station-motorcar                   # icon z14- (also has caption(optional) z14-, area z15-)
+amenity-fuel                                        # icon z12- (also has caption(optional) z12-, area z15-)
 === 3200
 
 amenity-charging_station                            # icon z16- (also has caption(optional) z16-)
@@ -216,8 +216,8 @@ barrier-lift_gate                                   # icon z16- (also has captio
 railway-level_crossing                              # icon z17-
 === 2700
 
-amenity-car_wash                                    # icon z17- (also has caption(optional) z17-)
-amenity-vehicle_inspection                          # icon z17-
+amenity-car_wash                                    # icon z17- (also has caption(optional) z17-, area z17-)
+amenity-vehicle_inspection                          # icon z17- (also has area z17-)
 amenity-vending_machine-parking_tickets             # icon z17- (also has caption(optional) z17-)
 shop-car_parts                                      # icon z17-
 shop-car_repair                                     # icon z17-
@@ -754,17 +754,17 @@ entrance-main                                       # icon z18- (also has captio
 # They follow the order of their correspoding icons.
 #
 
-# highway-services                                  # caption(optional) z13- (also has icon z12-)
+# highway-services                                  # caption(optional) z13- (also has icon z12-, area z13-)
 # === -5800
 
-# highway-rest_area                                 # caption(optional) z14- (also has icon z14-)
+# highway-rest_area                                 # caption(optional) z14- (also has icon z14-, area z13-)
 # === -5850
 
 # aeroway-aerodrome-international                   # caption(optional) z10- (also has icon z7-, area z10-)
 # === -6700
 
-# amenity-charging_station-motorcar                 # caption(optional) z14- (also has icon z14-)
-# amenity-fuel                                      # caption(optional) z12- (also has icon z12-)
+# amenity-charging_station-motorcar                 # caption(optional) z14- (also has icon z14-, area z15-)
+# amenity-fuel                                      # caption(optional) z12- (also has icon z12-, area z15-)
 # === -6800
 
 # amenity-charging_station                          # caption(optional) z16- (also has icon z16-)
@@ -795,7 +795,7 @@ entrance-main                                       # icon z18- (also has captio
 # barrier-lift_gate                                 # caption(optional) z16- (also has icon z16-)
 # === -7250
 
-# amenity-car_wash                                  # caption(optional) z17- (also has icon z17-)
+# amenity-car_wash                                  # caption(optional) z17- (also has icon z17-, area z17-)
 # amenity-vending_machine-parking_tickets           # caption(optional) z17- (also has icon z17-)
 # shop-car_repair-tyres                             # caption(optional) z15- (also has icon z15-)
 # === -7350
