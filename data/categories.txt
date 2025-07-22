@@ -662,7 +662,7 @@ nl:geld
 fi:2Raha
 fr:DAB|GAB|argent
 de:5Bankomat|Geld
-hu:pénz|ATM
+hu:Bankautomata|pénz|ATM
 id:uang
 it:soldi
 ja:atm|お金|マネー|金|引き出し|預金|振り込み
@@ -684,10 +684,10 @@ tr:3para
 uk:гроші
 vi:2Máy atm|tiền
 zh-Hans:钱|atm
-zh-Hant:1atm|理財|錢|金錢
+zh-Hant:自動櫃員機|1atm|理財|錢|金錢
 el:χρήματα
 sk:sporiteľna|peniaze
-fa:دستگاه خودپرداز
+fa:دستگاه خودپرداز|خودپرداز
 
 
 # First keyword should match [category_bank] definition in strings.txt!
@@ -803,7 +803,7 @@ pt-BR:dinheiro|U+1F3E6|U+1F4B0|U+1F4B2|U+1F4B3|U+1F4B4|U+1F4B5|U+1F4B6|U+1F4B7
 ro:bani
 es:dinero
 et:raha
-eu:3dirua
+eu:Banketxea|3dirua
 sr:новац|novac
 sv:pengar
 th:เงิน
@@ -7201,7 +7201,7 @@ cs:3Škola
 da:2Skole
 nl:3School|basisschool|middelbare school
 fi:Koulu
-fr:3École|Maternelle|Élémentaire|Primaire|Collège|Lycée|Secondaire 
+fr:3École|Maternelle|Élémentaire|Primaire|Collège|Lycée|Secondaire
 de:3Schule|Schulgebäude
 hi:4विदयालय
 hu:3Iskola
