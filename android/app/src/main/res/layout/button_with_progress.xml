@@ -13,6 +13,7 @@
     android:layout_marginStart="@dimen/margin_base"
     android:text="@string/download_country_ask"
     android:textAppearance="?fontBody2"
+    app:buttonTint="?colorAccent"
     android:visibility="gone"
     tools:visibility="visible"/>
   <com.google.android.material.progressindicator.LinearProgressIndicator
