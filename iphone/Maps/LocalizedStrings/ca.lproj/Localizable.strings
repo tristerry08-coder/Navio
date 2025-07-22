@@ -518,7 +518,7 @@
 "autodownload" = "Baixada automàtica";
 
 /* Place Page opening hours text */
-"closed_now" = "Ara és tancat";
+"closed_now" = "Tancat ara";
 
 /* Place Page opening hours text */
 "daily" = "Diari";
@@ -1060,7 +1060,7 @@
 "bookmarks_recently_deleted" = "Llistes suprimides recentment";
 
 /* Title for the "Clear" button on the Recently Deleted Lists screen. */
-"clear" = "Neteja";
+"clear" = "Netejar";
 
 /* Title for the "Delete All" button on the Recently Deleted Lists screen. */
 "delete_all" = "Suprimeix-ho tot";

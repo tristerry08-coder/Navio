@@ -349,13 +349,13 @@
 "type.cuisine.thai" = "Тайландска";
 "type.cuisine.turkish" = "Турска";
 "type.cuisine.vegan" = "Веганска";
-"type.cuisine.vegetarian" = "Vegetarian";
-"type.cuisine.vietnamese" = "Vietnamese";
-"type.emergency" = "Emergency";
+"type.cuisine.vegetarian" = "Вегетарианска";
+"type.cuisine.vietnamese" = "Виетнамска";
+"type.emergency" = "Спешна помощ";
 "type.emergency.assembly_point" = "Авариен сборен пункт";
-"type.emergency.defibrillator" = "Defibrillator";
+"type.emergency.defibrillator" = "Дефибрилатор";
 "type.emergency.fire_hydrant" = "Пожарен кран";
-"type.emergency.phone" = "Emergency Phone";
+"type.emergency.phone" = "Телефон за спешни случаи";
 
 /* A place where a lifeguard is on duty. */
 "type.emergency.lifeguard" = "Спасител";
@@ -382,11 +382,11 @@
 "type.healthcare.sample_collection" = "Вземане на проби";
 "type.healthcare.speech_therapist" = "Логопедия";
 "type.highway" = "Магистрала";
-"type.highway.bridleway" = "Bridle Path";
+"type.highway.bridleway" = "Пътека за юздечки";
 
 /* These translations are used for all type.highway.*.bridge. */
 "type.highway.bridleway.bridge" = "Мост";
-"type.highway.bridleway.permissive" = "Bridle Path";
+"type.highway.bridleway.permissive" = "Пътека за юздечки";
 
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.bridleway.tunnel" = "Тунел";
@@ -398,7 +398,7 @@
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.busway.tunnel" = "Тунел";
 "type.highway.bus_stop" = "Спирка";
-"type.highway.construction" = "Road Under Construction";
+"type.highway.construction" = "Път в процес на изграждане";
 "type.highway.cycleway" = "Пътека за колела";
 
 /* These translations are used for all type.highway.*.bridge. */
@@ -419,7 +419,7 @@
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.footway.tunnel" = "Тунел";
 "type.highway.ford" = "Брод";
-"type.highway.living_street" = "Living Street";
+"type.highway.living_street" = "Жилищна улица";
 
 /* These translations are used for all type.highway.*.bridge. */
 "type.highway.living_street.bridge" = "Мост";
@@ -546,13 +546,13 @@
 
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.tertiary_link.tunnel" = "Тунел";
-"type.highway.track" = "Track";
-"type.highway.track.area" = "Track";
+"type.highway.track" = "Пътека";
+"type.highway.track.area" = "Пътека";
 
 /* These translations are used for all type.highway.*.bridge. */
 "type.highway.track.bridge" = "Мост";
-"type.highway.track.grade1" = "Track";
-"type.highway.track.no.access" = "Track";
+"type.highway.track.grade1" = "Пътека";
+"type.highway.track.no.access" = "Пътека";
 
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.track.tunnel" = "Тунел";
@@ -581,7 +581,7 @@
 "type.highway.unclassified.tunnel" = "Тунел";
 "type.area_highway.cycleway" = "Пътека за колела";
 "type.area_highway.footway" = "Пешеходен път";
-"type.area_highway.living_street" = "Living Street";
+"type.area_highway.living_street" = "Жилищна улица";
 "type.area_highway.motorway" = "Магистрала";
 "type.area_highway.path" = "Път";
 "type.area_highway.pedestrian" = "Пешеходна улица";
@@ -590,8 +590,8 @@
 "type.area_highway.secondary" = "Второстепенен път";
 "type.area_highway.service" = "Обслужващ път";
 "type.area_highway.tertiary" = "Третостепенен път";
-"type.area_highway.steps" = "Stairs";
-"type.area_highway.track" = "Track";
+"type.area_highway.steps" = "Стълбища";
+"type.area_highway.track" = "Пътека";
 "type.area_highway.trunk" = "Автомагистрала";
 "type.area_highway.unclassified" = "Малък път";
 "type.highway.world_level" = "highway-world_level";
@@ -657,47 +657,47 @@
 "type.hwtag.yesfoot" = "hwtag-yesfoot";
 "type.internet_access" = "Internet";
 "type.internet_access.wlan" = "Internet";
-"type.junction" = "Junction";
+"type.junction" = "Съединение";
 "type.junction.circular" = "Кръгово";
 "type.junction.roundabout" = "Кръгово";
-"type.landuse" = "Landuse";
-"type.landuse.allotments" = "Allotments";
+"type.landuse" = "Земеползване";
+"type.landuse.allotments" = "Овощни градини";
 "type.landuse.basin" = "Езерце";
-"type.landuse.brownfield" = "Brownfield";
+"type.landuse.brownfield" = "Земля за застройки";
 
 /* In most (European) countries, сemeteries are usually independent of places of worship (e.g. military cemeteries), while grave yards are usually the yard of a place of worship. */
 "type.landuse.cemetery" = "Гробище";
 
 /* In most (European) countries, сemeteries are usually independent of places of worship (e.g. military cemeteries), while grave yards are usually the yard of a place of worship. */
 "type.landuse.cemetery.christian" = "Християнско гробище";
-"type.landuse.religious" = "Religious Land";
-"type.landuse.commercial" = "Commercial Area";
-"type.landuse.construction" = "Construction Area";
-"type.landuse.education" = "Educational Facility";
-"type.landuse.farmland" = "Farmland";
-"type.landuse.farmyard" = "Farmyard";
-"type.landuse.field" = "Field";
+"type.landuse.religious" = "Религиозна земя";
+"type.landuse.commercial" = "Търговска зона";
+"type.landuse.construction" = "Строителна зона";
+"type.landuse.education" = "Учебно заведение";
+"type.landuse.farmland" = "Земеделска земя";
+"type.landuse.farmyard" = "Стопански двор";
+"type.landuse.field" = "Поле";
 "type.landuse.flowerbed" = "Цветна леха";
 "type.landuse.forest" = "Forest";
-"type.landuse.forest.coniferous" = "Coniferous Forest";
-"type.landuse.forest.deciduous" = "Deciduous Forest";
-"type.landuse.forest.mixed" = "Mixed-Leaf Forest";
-"type.landuse.garages" = "Garages";
+"type.landuse.forest.coniferous" = "Иглолистни гори";
+"type.landuse.forest.deciduous" = "Широколистна гора";
+"type.landuse.forest.mixed" = "Смесена гора";
+"type.landuse.garages" = "Гаражи";
 "type.landuse.grass" = "Grass";
-"type.landuse.greenfield" = "Greenfield";
-"type.landuse.greenhouse_horticulture" = "Greenhouse";
-"type.landuse.industrial" = "Industrial Area";
-"type.landuse.landfill" = "Landfill";
+"type.landuse.greenfield" = "Земля за застройки";
+"type.landuse.greenhouse_horticulture" = "Оранжерия";
+"type.landuse.industrial" = "Индустриална зона";
+"type.landuse.landfill" = "Депо за отпадъци";
 "type.landuse.meadow" = "Meadow";
-"type.landuse.military" = "Military Area";
-"type.landuse.orchard" = "Orchard";
-"type.landuse.quarry" = "Quarry";
-"type.landuse.railway" = "Railway Premises";
-"type.landuse.recreation_ground" = "Recreation Ground";
-"type.landuse.reservoir" = "Reservoir";
-"type.landuse.residential" = "Residential Area";
-"type.landuse.retail" = "Retail Area";
-"type.landuse.salt_pond" = "Salt Pond";
+"type.landuse.military" = "Военна зона";
+"type.landuse.orchard" = "Овощна градина";
+"type.landuse.quarry" = "Кариера";
+"type.landuse.railway" = "Железопътни съоръжения";
+"type.landuse.recreation_ground" = "Място за отдих";
+"type.landuse.reservoir" = "Резервоар";
+"type.landuse.residential" = "Жилищна зона";
+"type.landuse.retail" = "Търговска площ";
+"type.landuse.salt_pond" = "Солено езеро";
 "type.landuse.village_green" = "Land";
 "type.landuse.vineyard" = "Vineyard";
 "type.leisure" = "Място за отдих";
@@ -739,17 +739,17 @@
 "type.man_made.breakwater" = "Вълнолом";
 "type.man_made.cairn" = "Керн";
 "type.man_made.chimney" = "Комин";
-"type.man_made.cutline" = "Cutline";
-"type.man_made.survey_point" = "Survey Point";
-"type.man_made.flagpole" = "Flagpole";
-"type.man_made.lighthouse" = "Lighthouse";
-"type.man_made.mast" = "Mast";
-"type.man_made.pier" = "Pier";
-"type.man_made.pipeline" = "Pipeline";
-"type.man_made.pipeline.overground" = "Overground Pipeline";
+"type.man_made.cutline" = "Просека";
+"type.man_made.survey_point" = "Геодезическа точка";
+"type.man_made.flagpole" = "Мачта за знаме";
+"type.man_made.lighthouse" = "Фар";
+"type.man_made.mast" = "Мачта";
+"type.man_made.pier" = "Пирс";
+"type.man_made.pipeline" = "Тръбопровод";
+"type.man_made.pipeline.overground" = "Надземен тръбопровод";
 "type.man_made.silo" = "Складова кула";
-"type.man_made.storage_tank" = "Storage Tank";
-"type.man_made.surveillance" = "Surveillance Camera";
+"type.man_made.storage_tank" = "Резервоар за съхранение";
+"type.man_made.surveillance" = "Камера за наблюдение";
 "type.man_made.tower" = "Tower";
 
 /* A huge telecommunications tower. Often a local monument or a landmark. */
@@ -763,18 +763,18 @@
 
 /* A tower/mast constructed to burn off excess gas. */
 "type.man_made.flare" = "Газова факла";
-"type.man_made.wastewater_plant" = "Wastewater Treatment Plant";
-"type.man_made.water_tap" = "Water Tap";
-"type.man_made.water_tap.drinking_water_no" = "Water Tap";
-"type.man_made.water_tower" = "Water Tower";
-"type.man_made.water_well" = "Water Well";
-"type.man_made.water_well.drinking_water_no" = "Water Well";
-"type.man_made.windmill" = "Windmill";
-"type.man_made.works" = "Industrial Works";
+"type.man_made.wastewater_plant" = "Пречиствателна станция за отпадъчни води";
+"type.man_made.water_tap" = "Кранче за вода";
+"type.man_made.water_tap.drinking_water_no" = "Кранче за вода";
+"type.man_made.water_tower" = "Водна кула";
+"type.man_made.water_well" = "Кладенец";
+"type.man_made.water_well.drinking_water_no" = "Кладенец";
+"type.man_made.windmill" = "Вятърна мелница";
+"type.man_made.works" = "Промишлени предприятия";
 "type.mapswithme" = "MapsWithMe";
 "type.mapswithme.grid" = "mapswithme-grid";
-"type.military" = "Military";
-"type.military.bunker" = "Bunker";
+"type.military" = "Военни";
+"type.military.bunker" = "Бункер";
 "type.mountain_pass" = "Mountain Pass";
 "type.natural" = "Природа";
 
@@ -825,17 +825,17 @@
 "type.natural.wetland" = "Влажна зона";
 "type.natural.wetland.bog" = "Торфено блато";
 "type.natural.wetland.marsh" = "Блато";
-"type.noexit" = "Dead End";
+"type.noexit" = "Задънена улица";
 "type.office" = "Office";
-"type.office.company" = "Company Office";
-"type.office.estate_agent" = "Estate Agent";
-"type.office.government" = "Government Office";
-"type.office.insurance" = "Insurance Office";
-"type.office.lawyer" = "Lawyer";
-"type.office.ngo" = "Non-Governmental Organization";
+"type.office.company" = "Офис на компанията";
+"type.office.estate_agent" = "Агент по недвижими имоти";
+"type.office.government" = "Правителствен офис";
+"type.office.insurance" = "Застрахователна служба";
+"type.office.lawyer" = "Адвокат";
+"type.office.ngo" = "Неправителствена организация";
 "type.office.telecommunication" = "Телекомуникационна компания";
-"type.organic.only" = "Organic";
-"type.organic.yes" = "Organic";
+"type.organic.only" = "Органичен";
+"type.organic.yes" = "Органичен";
 "type.place.city" = "Град";
 "type.place.city.capital" = "Столица";
 "type.place.city.capital.10" = "Град";
@@ -874,31 +874,31 @@
 "type.place.suburb" = "Предградие";
 "type.place.town" = "Градче";
 "type.place.village" = "Село";
-"type.power" = "Power";
-"type.power.generator" = "Power Generator";
+"type.power" = "Електричество";
+"type.power.generator" = "Генератор на електроенергия";
 "type.power.generator.solar" = "Слънчев генератор";
 "type.power.generator.wind" = "Вятърен генератор";
 "type.power.generator.gas" = "Газотурбинна електроцентрала";
 "type.power.generator.hydro" = "Водноелектрическа централа";
-"type.power.line" = "Power Line";
-"type.power.line.underground" = "Underground Power Line";
-"type.power.minor_line" = "Minor Power Line";
+"type.power.line" = "Електропровод";
+"type.power.line.underground" = "Подземен електропровод";
+"type.power.minor_line" = "Електропровод за ниско напрежение";
 "type.power.plant" = "Електроцентрала";
 "type.power.plant.coal" = "Въглищна централа";
 "type.power.plant.gas" = "Газотурбинна електроцентрала";
 "type.power.plant.hydro" = "Водноелектрическа централа";
 "type.power.plant.solar" = "Слънчева електроцентрала";
 "type.power.plant.wind" = "Вятърна електроцентрала";
-"type.power.substation" = "Substation";
+"type.power.substation" = "Подстанция";
 
 /* A tower or pylon carrying high voltage electricity cables. */
-"type.power.tower" = "Power Tower";
+"type.power.tower" = "Електрическа кула";
 
 /* A single pole supporting minor power lines. */
-"type.power.pole" = "Power Pole";
+"type.power.pole" = "Електрически стълб";
 
 /* A single pole supporting various public utilities, such as lighting or telephony. */
-"type.man_made.utility_pole" = "Utility Pole";
+"type.man_made.utility_pole" = "Стълб за комунални услуги";
 "type.psurface" = "psurface";
 "type.psurface.paved_bad" = "psurface-paved_bad";
 "type.psurface.paved_good" = "psurface-paved_good";
@@ -906,24 +906,24 @@
 "type.psurface.unpaved_good" = "psurface-unpaved_good";
 "type.public_transport" = "Public Transport";
 "type.public_transport.platform" = "Platform";
-"type.railway" = "Railway";
-"type.railway.abandoned" = "Abandoned Railway";
-"type.railway.abandoned.bridge" = "Abandoned Railway Bridge";
-"type.railway.abandoned.tunnel" = "Abandoned Railway Tunnel";
-"type.railway.construction" = "Railway Construction";
-"type.railway.crossing" = "Railway Crossing";
-"type.railway.disused" = "Disused Railway";
+"type.railway" = "Железопътна линия";
+"type.railway.abandoned" = "Изоставена железопътна линия";
+"type.railway.abandoned.bridge" = "Изоставен железопътен мост";
+"type.railway.abandoned.tunnel" = "Изоставен железопътен тунел";
+"type.railway.construction" = "Строителство на железопътни линии";
+"type.railway.crossing" = "Железопътен прелез";
+"type.railway.disused" = "Неизползвана железопътна линия";
 "type.railway.funicular" = "Фуникуляр";
-"type.railway.funicular.bridge" = "Funicular Bridge";
-"type.railway.funicular.tunnel" = "Funicular Tunnel";
-"type.railway.halt" = "Rail Halt";
-"type.railway.level_crossing" = "Level Crossing";
-"type.railway.light_rail" = "Light Rail";
-"type.railway.light_rail.bridge" = "Light Rail Bridge";
-"type.railway.light_rail.tunnel" = "Light Rail Tunnel";
-"type.railway.monorail" = "Monorail";
-"type.railway.monorail.bridge" = "Monorail Bridge";
-"type.railway.monorail.tunnel" = "Monorail Tunnel";
+"type.railway.funicular.bridge" = "Фуникулярен мост";
+"type.railway.funicular.tunnel" = "Фуникулярен тунел";
+"type.railway.halt" = "Железопътна спирка";
+"type.railway.level_crossing" = "Железопътен прелез";
+"type.railway.light_rail" = "Скоростен трамвай";
+"type.railway.light_rail.bridge" = "Мост на скоростен трамвай";
+"type.railway.light_rail.tunnel" = "Тунел на скоростен трамвай";
+"type.railway.monorail" = "Монорелс";
+"type.railway.monorail.bridge" = "Мост на монорелсите";
+"type.railway.monorail.tunnel" = "Тунел на монорелсите";
 "type.railway.narrow_gauge" = "Narrow Gauge Rail";
 "type.railway.narrow_gauge.bridge" = "Narrow Gauge Rail Bridge";
 "type.railway.narrow_gauge.tunnel" = "Narrow Gauge Rail Tunnel";
@@ -1494,8 +1494,8 @@
 "type.natural.wetland.tidalflat" = "Приливната равнина";
 "type.sport.diving" = "Високо гмуркане";
 "type.leisure.firepit" = "Огнище";
-"type.natural.wetland.fen" = "Fen";
-"type.natural.wetland.saltmarsh" = "Salt Marsh";
-"type.man_made.crane" = "Crane";
-"type.natural.wetland.saltmarsh.tidal" = "Tidal Salt Marsh";
-"type.landuse.plant_nursery" = "Plant Nursery";
+"type.natural.wetland.fen" = "Мочурище";
+"type.natural.wetland.saltmarsh" = "Солено блато";
+"type.man_made.crane" = "Кран";
+"type.natural.wetland.saltmarsh.tidal" = "Приливни солени блато";
+"type.landuse.plant_nursery" = "Посадъчен материал";

@@ -36,7 +36,7 @@
     <string name="country_status_download_failed">La baixada ha fallat</string>
     <!-- Button text for the button under the country_status_download_failed message -->
     <string name="try_again">Torna-ho a intentar</string>
-    <string name="about_menu_title">Quant a l’CoMaps</string>
+    <string name="about_menu_title">Quant al CoMaps</string>
     <!-- Text in About screen -->
     <string name="about_proposition_1">• Fàcil d\'usar i elegant</string>
     <!-- Text in About screen -->
@@ -899,4 +899,29 @@
     <string name="pref_backup_title">Còpia de seguretat de marcadors i recorreguts</string>
     <string name="pref_left_button_title">Configuració del botó esquerre</string>
     <string name="pref_backup_summary">Còpia de seguretat automàtica a un directori del teu dispositiu</string>
+    <string name="pref_backup_now_summary_ok">Còpia de seguretat completada amb èxit</string>
+    <string name="pref_backup_now_summary_empty_lists">No hi ha marcadors o recorreguts per a fer una còpia de seguretat</string>
+    <string name="pref_backup_now_summary_failed">Còpia de seguretat fallida</string>
+    <string name="pref_backup_now_summary_folder_unavailable">El directori de la còpia de seguretat no està disponible</string>
+    <string name="pref_backup_status_summary_success">Última còpia de seguretat amb èxit</string>
+    <string name="pref_backup_location_title">Ubicació de la còpia de seguretat</string>
+    <string name="pref_backup_location_summary_initial">Si us plau, selecciona primer un directori i proporciona accés</string>
+    <string name="pref_backup_history_title">Nombre de còpies de seguretat a mantenir</string>
+    <string name="pref_backup_interval_title">Còpia de seguretat automàtica</string>
+    <string name="backup_interval_every_day">Diari</string>
+    <string name="backup_interval_every_week">Setmanal</string>
+    <string name="backup_interval_manual_only">Desactivat (només manual)</string>
+    <string name="clear">Netejar</string>
+    <string name="route_type">Tipus de ruta</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="pedestrian">A peu</string>
+    <string name="bicycle">Bicicleta</string>
+    <string name="ruler">Regle</string>
+    <string name="bookmark_color">Color del marcador</string>
+    <string name="about_help">Quant a i Ajuda</string>
+    <string name="open_now">Obert ara</string>
+    <string name="closed_now">Tancat ara</string>
+    <string name="at">a les %s</string>
+    <string name="dialog_report_error_missing_folder">La ubicació seleccionada per a la còpia de seguretat no està disponible o no s\'hi pot escriure. Si us plau, selecciona una ubicació diferent.</string>
+    <string name="dialog_report_error_with_logs">Si us plau, envia\'ns un informe d\'error:\n - \"Activa el registre\" a la configuració\n - reprodueix el problema\n - a la pantalla \"Quant a i Ajuda\" prem el botó \"Informa d’un error\" i envia-ho via email o xat\n - desactiva el registre</string>
 </resources>

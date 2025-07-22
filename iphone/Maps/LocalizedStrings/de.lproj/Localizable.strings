@@ -99,7 +99,7 @@
 "category_fuel" = "Tankstelle";
 
 /* Search category for parking lots; any changes should be duplicated in categories.txt @category_parking! */
-"category_parking" = "Parkplatz";
+"category_parking" = "Parkplätze";
 
 /* Search category for malls/clothes/shoes/gifts/jewellery/sport shops; any changes should be duplicated in categories.txt @category_shopping! */
 "category_shopping" = "Shopping";
@@ -111,7 +111,7 @@
 "category_hotel" = "Hotel";
 
 /* Search category sight seeings and touristic attractions; any changes should be duplicated in categories.txt @category_tourism! */
-"category_tourism" = "Sehenswürdigkeit";
+"category_tourism" = "Sehenswürdigkeiten";
 
 /* Search category for entertainment; any changes should be duplicated in categories.txt @category_entertainment! */
 "category_entertainment" = "Unterhaltung";
@@ -301,7 +301,7 @@
 "panoramax" = "Panoramax";
 
 /* Text in menu */
-"panoramax_picture" = "Panoramax Bild";
+"panoramax_picture" = "Panoramax-Bild";
 
 /* Text in menu */
 "rate_the_app" = "Bewerte die App";
