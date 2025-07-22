@@ -25,8 +25,7 @@ When reporting a bug please provide as much information as possible: OS and appl
 list of actions leading to a bug, a log file produced by the app.
 
 When using CoMaps app on a device, use the built-in "Report a bug" option:
-on Android it creates a new e-mail with a log file attached. Your issue will be processed much
-faster if you send it to <bugs@comaps.app>. Enabling logs in CoMaps settings on Android
+on Android it creates a new e-mail with a log file attached. Enabling logs in CoMaps settings on Android
 before sending the bug report also helps us a lot with debugging.
 
 ### Translations
