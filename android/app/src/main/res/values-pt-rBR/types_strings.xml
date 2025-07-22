@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- SECTION: Types -->
-    <string name="type.addr_interpolation">Endereço/Bloco</string>
+    <string name="type.addr_interpolation">Endereço/bloco</string>
     <string name="type.addr_interpolation.even">Endereço/Bloco</string>
     <string name="type.addr_interpolation.odd">Endereço/Bloco</string>
     <string name="type.aerialway">Transporte aéreo</string>

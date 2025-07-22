@@ -1008,4 +1008,5 @@
     <string name="type.landuse.quarry">Кариера</string>
     <string name="type.office.insurance">Застрахователна служба</string>
     <string name="type.railway.monorail.tunnel">Тунел на монорелсите</string>
+    <string name="type.boundary.national_park">National Park</string>
 </resources>
