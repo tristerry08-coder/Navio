@@ -1499,3 +1499,4 @@
 "type.natural.wetland.saltmarsh" = "Zoutmoeras";
 "type.natural.wetland.saltmarsh.tidal" = "Kwelder";
 "type.natural.wetland.tidalflat" = "Wad";
+"type.leisure.escape_game" = "Escape Room";

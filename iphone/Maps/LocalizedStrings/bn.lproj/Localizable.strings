@@ -86,7 +86,6 @@
 "pref_tts_test_voice_title" = "Test Voice Directions (TTS, Text-To-Speech)";
 "pref_map_auto_zoom" = "Auto zoom";
 "pref_tts_language_title" = "Voice Language";
-"pref_tts_enable_title" = "Enable Voice Instructions";
 "facebook" = "Facebook";
 "instagram" = "Instagram";
 "vk" = "VK";
@@ -586,3 +585,4 @@
 "thank_you" = "Thank You";
 "yes_available" = "Yes";
 "pref_mapappearance_title" = "Map Appearance";
+"pref_tts_enable_title" = "Enable Voice Instructions";

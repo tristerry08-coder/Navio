@@ -1499,3 +1499,4 @@
 "type.natural.wetland.tidalflat" = "Loodeline tasandik";
 "type.natural.wetland.saltmarsh" = "Sooldunud padur";
 "type.natural.wetland.saltmarsh.tidal" = "Loodete mõjutatud sooldunud padur";
+"type.leisure.escape_game" = "Põgenemistuba";

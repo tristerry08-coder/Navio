@@ -1408,4 +1408,5 @@
     <string name="type.natural.wetland.mangrove">Mangroov</string>
     <string name="type.natural.wetland.tidalflat">Loodeline tasandik</string>
     <string name="type.natural.wetland.saltmarsh">Sooldunud padur</string>
+    <string name="type.leisure.escape_game">Põgenemistuba</string>
 </resources>

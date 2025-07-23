@@ -524,7 +524,7 @@
 "autodownload" = "Téléchargement automatique";
 
 /* Place Page opening hours text */
-"closed_now" = "Actuellement fermé";
+"closed_now" = "Fermé actuellement";
 
 /* Place Page opening hours text */
 "daily" = "Quotidien";

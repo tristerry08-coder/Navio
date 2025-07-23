@@ -1313,3 +1313,4 @@
 "type.power.generator.hydro" = "Hydroelectric Power Plant";
 "type.place.suburb" = "Suburb";
 "type.power" = "Power";
+"type.leisure.escape_game" = "Escape Room";

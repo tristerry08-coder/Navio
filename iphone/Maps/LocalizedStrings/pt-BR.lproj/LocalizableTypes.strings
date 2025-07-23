@@ -1499,3 +1499,4 @@
 "type.natural.wetland.mangrove" = "Manguezal";
 "type.natural.wetland.tidalflat" = "Planície de maré";
 "type.natural.wetland.saltmarsh" = "Sapal";
+"type.leisure.escape_game" = "Escape Room";

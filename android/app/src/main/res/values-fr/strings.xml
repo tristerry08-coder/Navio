@@ -907,7 +907,7 @@
     <string name="pref_backup_now_title">Sauvegarder maintenant</string>
     <string name="backup_interval_every_day">Chaque jour</string>
     <string name="open_now">Actuellement ouvert</string>
-    <string name="closed_now">Actuellement fermé</string>
+    <string name="closed_now">Fermé actuellement</string>
     <string name="pref_backup_now_summary_progress">Sauvegarde en cours…</string>
     <string name="pref_backup_now_summary_failed">La sauvegarde a échoué</string>
     <string name="backup_interval_every_week">Chaque semaine</string>

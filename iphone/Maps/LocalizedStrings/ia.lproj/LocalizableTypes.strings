@@ -1313,3 +1313,4 @@
 "type.place.city" = "City";
 "type.amenity.parking_entrance.permissive" = "Parking Entrance";
 "type.cuisine.italian_pizza" = "Italian, Pizza";
+"type.leisure.escape_game" = "Escape Room";

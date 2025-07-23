@@ -1313,3 +1313,4 @@
 "type.emergency.emergency_ward_entrance" = "Emergency Ward Entrance";
 "type.leisure.sports_hall" = "Sports hall";
 "type.amenity.dojo" = "Dojo";
+"type.leisure.escape_game" = "Escape Room";

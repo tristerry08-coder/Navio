@@ -1,1 +1,1 @@
-comaps, cartes, cartes routières ouvertes, osm, voyage, randonnée, vélo, conduite, hors ligne, confidentialité, navigation, GPS
+cartes,cartes routières ouvertes,osm,voyage,randonnée,vélo,conduite,hors ligne,confidentialité,GPS

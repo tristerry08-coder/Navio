@@ -895,4 +895,22 @@
     <string name="clear">Garbitu</string>
     <string name="panoramax">Panoramax Irudia</string>
     <string name="codeberg">Codeberg</string>
+    <string name="pref_backup_now_title">Babeskopia egin orain</string>
+    <string name="pref_backup_now_summary">Sortu babeskopia berehala</string>
+    <string name="pref_backup_now_summary_ok">Babeskopia behar bezala egin da</string>
+    <string name="pref_backup_now_summary_empty_lists">Ez dago babeskopia egiteko markagailu eta arrastorik</string>
+    <string name="pref_backup_now_summary_failed">Babeskopiak huts egin du</string>
+    <string name="pref_backup_status_summary_success">Behar bezala sortutako azken babeskopia</string>
+    <string name="pref_backup_location_title">Babeskopien kokapena</string>
+    <string name="pref_backup_location_summary_initial">Hautatu karpeta eta eman baimena</string>
+    <string name="pref_backup_history_title">Gorde beharreko babeskopia kopurua</string>
+    <string name="pref_backup_interval_title">Babeskopia automatikoa</string>
+    <string name="backup_interval_every_day">Egunero</string>
+    <string name="backup_interval_every_week">Astero</string>
+    <string name="backup_interval_manual_only">Itzalita (eskuz bakarrik)</string>
+    <string name="pref_backup_title">Markagailu eta arrastoen babeskopia</string>
+    <string name="pref_backup_summary">Egin babeskopia zure gailuan automatikoki</string>
+    <string name="pref_backup_now_summary_folder_unavailable">Babeskopiaren karpeta ez dago eskuragarri</string>
+    <string name="dialog_report_error_missing_folder">Babeskopiarako hautatutako kokapena ez dago eskuragarri edo ezin da idatzi. Hautatu beste kokapen bat.</string>
+    <string name="pref_backup_now_summary_progress">Babeskopia egiten…</string>
 </resources>

@@ -21,7 +21,7 @@ Hoofdfuncties:
 • Exporteer en importeer bladwijzers en tracks in KML, KMZ, GPX-formaten
 • Een donkere modus voor gebruik 's nachts
 • Verbeter kaartgegevens voor iedereen met een eenvoudige ingebouwde editor
-• Ondersteuning voor Android Auto
+• Ondersteuning voor CarPlay
 
 Vrijheid is hier
 Ontdek je reis, navigeer over de wereld met privacy en community voorop!

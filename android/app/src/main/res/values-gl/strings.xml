@@ -507,7 +507,7 @@
     <string name="category_wifi">Wifi</string>
     <string name="next_button">Seguinte</string>
     <string name="editor_report_problem_send_button">Enviar</string>
-    <string name="translated_om_site_url">https://comaps.app/</string>
+    <string name="translated_om_site_url">https://comaps.app/gl/</string>
     <string name="category_shopping">Compras</string>
     <string name="placepage_distance">Distancia</string>
     <string name="today">Hoxe</string>
@@ -601,7 +601,7 @@
     <string name="saved">Gardado</string>
     <string name="pref_left_button_disable">Desactivar</string>
     <string name="pref_left_button_title">Configurar botón esquerdo</string>
-    <string name="app_site_url">https://comaps.app/</string>
+    <string name="app_site_url">https://comaps.app/gl/</string>
     <string name="about_help">Sobre e Axuda</string>
     <string name="bicycle">En bicicleta</string>
     <string name="bluesky">Bluesky</string>

@@ -241,7 +241,7 @@
 "pref_tts_title" = "Istruzioni vocali";
 
 /* Settings «Route» category: «Tts enable» title */
-"pref_tts_enable_title" = "Enable Voice Instructions";
+"pref_tts_enable_title" = "Abilita istruzioni vocali";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "Annunciare i nomi delle strade";

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_site_url">https://comaps.app/de/</string>
+    <string name="app_site_url">https://comaps.app/gsw/</string>
     <string name="back">Zrugg</string>
     <string name="cancel">Abbräche</string>
     <string name="delete">Lösche</string>
@@ -635,7 +635,7 @@
     <string name="toll_road">Mautstrass</string>
     <string name="ok">OK</string>
     <string name="sort_bookmarks">Lesezeiche sortiere</string>
-    <string name="translated_om_site_url">https://comaps.app/de/</string>
+    <string name="translated_om_site_url">https://comaps.app/gsw/</string>
     <string name="open_now">Jetzt offe</string>
     <string name="closed_now">Jetzt zue</string>
     <string name="at">am %s</string>

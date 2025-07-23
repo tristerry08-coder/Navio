@@ -1314,4 +1314,5 @@
     <string name="type.natural.wetland.swamp">Bruch</string>
     <string name="type.natural.wetland.mangrove">Mangrove</string>
     <string name="type.natural.wetland.tidalflat">Watt</string>
+    <string name="type.leisure.escape_game">Escape Room</string>
 </resources>

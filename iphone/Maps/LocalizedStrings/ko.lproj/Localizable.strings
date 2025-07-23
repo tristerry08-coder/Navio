@@ -234,7 +234,7 @@
 "pref_tts_title" = "음성 지침";
 
 /* Settings «Route» category: «Tts enable» title */
-"pref_tts_enable_title" = "Enable Voice Instructions";
+"pref_tts_enable_title" = "음성 지침 활성화";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "거리 이름 발표";

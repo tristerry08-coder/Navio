@@ -241,7 +241,7 @@
 "pref_tts_title" = "音声指示";
 
 /* Settings «Route» category: «Tts enable» title */
-"pref_tts_enable_title" = "Enable Voice Instructions";
+"pref_tts_enable_title" = "音声指示を有効にする";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "通りの名前を発表";
