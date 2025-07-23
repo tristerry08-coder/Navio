@@ -495,7 +495,7 @@ NSString *const kAboutSegue = @"Map2About";
 - (void)showViralAlertIfNeeded {
   NSUserDefaults *ud = NSUserDefaults.standardUserDefaults;
 
-  if (!Profile.needsReauthorization || [ud objectForKey:kUDViralAlertWasShown] || Profile.isExisting)
+  if (!Profile.needsReauthorization || [ud objectForKey:kUDViralAlertWasShown] || !Profile.isExisting)
     return;
 
   if (osm::Editor::Instance().GetStats().m_edits.size() < 2)
