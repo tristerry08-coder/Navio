@@ -85,7 +85,7 @@ public class PlacePageLinksFragment extends Fragment implements Observer<MapObje
       case FMD_WEBSITE_MENU ->
           mMapObject.getWebsiteUrl(false /* strip */, Metadata.MetadataType.FMD_WEBSITE_MENU);
       case FMD_CONTACT_FACEBOOK, FMD_CONTACT_INSTAGRAM, FMD_CONTACT_TWITTER,
-           FMD_CONTACT_FEDIVERSE, FMD_CONTACT_BLUESKY, FMD_CONTACT_VK, FMD_CONTACT_LINE ->
+           FMD_CONTACT_FEDIVERSE, FMD_CONTACT_BLUESKY, FMD_CONTACT_VK, FMD_CONTACT_LINE, FMD_PANORAMAX ->
       {
         if (TextUtils.isEmpty(mMapObject.getMetadata(type)))
           yield "";
@@ -171,7 +171,7 @@ public class PlacePageLinksFragment extends Fragment implements Observer<MapObje
     mPanoramax = mFrame.findViewById(R.id.ll__place_panoramax);
     mTvPanoramax = mFrame.findViewById(R.id.tv__place_panoramax);
     mPanoramax.setOnClickListener((v) -> openUrl(Metadata.MetadataType.FMD_PANORAMAX));
-    mTvPanoramax.setOnLongClickListener((v) -> copyUrl(mPanoramax, Metadata.MetadataType.FMD_PANORAMAX));
+    mPanoramax.setOnLongClickListener((v) -> copyUrl(mPanoramax, Metadata.MetadataType.FMD_PANORAMAX));
   }
 
   private void openUrl(Metadata.MetadataType type)
@@ -192,6 +192,7 @@ public class PlacePageLinksFragment extends Fragment implements Observer<MapObje
     final String title = switch (type){
       case FMD_WEBSITE -> mMapObject.getWebsiteUrl(false /* strip */, Metadata.MetadataType.FMD_WEBSITE);
       case FMD_WEBSITE_MENU -> mMapObject.getWebsiteUrl(false /* strip */, Metadata.MetadataType.FMD_WEBSITE_MENU);
+      case FMD_PANORAMAX -> null; // Don't add raw ID to list, as it's useless for users.
       default -> mMapObject.getMetadata(type);
     };
     // Add user names for social media if available
@@ -237,7 +238,8 @@ public class PlacePageLinksFragment extends Fragment implements Observer<MapObje
     refreshMetadataOrHide(line, mLinePage, mTvLinePage);
 
     final String panoramax = mMapObject.getMetadata(Metadata.MetadataType.FMD_PANORAMAX);
-    refreshMetadataOrHide(panoramax, mPanoramax, mTvPanoramax);
+    final String panoramaxTitle = TextUtils.isEmpty(panoramax) ? "" : getResources().getString(R.string.panoramax);
+    refreshMetadataOrHide(panoramaxTitle, mPanoramax, mTvPanoramax);
   }
 
   @Override

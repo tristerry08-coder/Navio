@@ -26,6 +26,7 @@ constexpr string_view kVk{"contact:vk"};
 constexpr string_view kLine{"contact:line"};
 constexpr string_view kFediverse{"contact:mastodon"};
 constexpr string_view kBluesky{"contact:bluesky"};
+constexpr string_view kPanoramax{"panoramax"};
 
 constexpr string_view kProfilePhp{"profile.php"};
 
@@ -608,7 +609,7 @@ bool ValidateBlueskyPage(string const & page)
 
 bool isSocialContactTag(string_view tag)
 {
-  return tag == kInstagram || tag == kFacebook || tag == kTwitter || tag == kVk || tag == kLine || tag == kFediverse || tag == kBluesky;
+  return tag == kInstagram || tag == kFacebook || tag == kTwitter || tag == kVk || tag == kLine || tag == kFediverse || tag == kBluesky || tag == kPanoramax;
 }
 
 bool isSocialContactTag(MapObject::MetadataID const metaID)
@@ -619,7 +620,8 @@ bool isSocialContactTag(MapObject::MetadataID const metaID)
          metaID == MapObject::MetadataID::FMD_CONTACT_VK ||
          metaID == MapObject::MetadataID::FMD_CONTACT_LINE ||
          metaID == MapObject::MetadataID::FMD_CONTACT_FEDIVERSE ||
-         metaID == MapObject::MetadataID ::FMD_CONTACT_BLUESKY;
+         metaID == MapObject::MetadataID::FMD_CONTACT_BLUESKY ||
+         metaID == MapObject::MetadataID::FMD_PANORAMAX;
 }
 
 // Functions ValidateAndFormat_{facebook,instagram,twitter,vk}(...) by default strip domain name
@@ -647,6 +649,8 @@ string socialContactToURL(string_view tag, string_view value)
     else // 'value' is an URL.
       return string{kHttps}.append(value);
   }
+  if (tag == kPanoramax)
+    return string{kUrlPanoramax}.append(value);
 
   return string{value};
 }
