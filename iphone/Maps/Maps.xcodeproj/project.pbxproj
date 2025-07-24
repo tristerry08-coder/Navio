@@ -15,6 +15,8 @@
 		272F1F3B2E0EE0A300FA52EF /* NoExistingProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1F3A2E0EE09500FA52EF /* NoExistingProfileView.swift */; };
 		272F1F3D2E0EE0C800FA52EF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1F3C2E0EE0C400FA52EF /* ProfileView.swift */; };
 		272F1F462E0EEF9400FA52EF /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1F452E0EEF8B00FA52EF /* SafariView.swift */; };
+		2752B6CA2E31197500887CC4 /* MapLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2752B6C92E31197000887CC4 /* MapLanguage.swift */; };
+		2752B6CE2E3121D900887CC4 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2752B6CD2E3121D800887CC4 /* Language.swift */; };
 		2765D1D02E13F9C20005CA2B /* BridgeControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2765D1CD2E13F9BC0005CA2B /* BridgeControllers.swift */; };
 		27697F742E25177600FBD913 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27697F732E25177300FBD913 /* AboutView.swift */; };
 		27697F7F2E254A5500FBD913 /* CopyrightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27697F7C2E254A5000FBD913 /* CopyrightView.swift */; };
@@ -774,6 +776,8 @@
 		272F1F3A2E0EE09500FA52EF /* NoExistingProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoExistingProfileView.swift; sourceTree = "<group>"; };
 		272F1F3C2E0EE0C400FA52EF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		272F1F452E0EEF8B00FA52EF /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		2752B6C92E31197000887CC4 /* MapLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLanguage.swift; sourceTree = "<group>"; };
+		2752B6CD2E3121D800887CC4 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		2765D1CD2E13F9BC0005CA2B /* BridgeControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeControllers.swift; sourceTree = "<group>"; };
 		27697F732E25177300FBD913 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		27697F7C2E254A5000FBD913 /* CopyrightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyrightView.swift; sourceTree = "<group>"; };
@@ -1981,6 +1985,8 @@
 		27AF185B2E1DB64B00CD41E2 /* Settings Types */ = {
 			isa = PBXGroup;
 			children = (
+				2752B6CD2E3121D800887CC4 /* Language.swift */,
+				2752B6C92E31197000887CC4 /* MapLanguage.swift */,
 				27AF184F2E1DB61500CD41E2 /* VoiceRoutingLanguage.swift */,
 				27768FDF2E201BE60086784A /* LeftButtonType.swift */,
 				27AF18512E1DB61F00CD41E2 /* DistanceUnit.swift */,
@@ -4463,6 +4469,7 @@
 				3454D7C51E07F045004AF2AD /* UIButton+Orientation.m in Sources */,
 				34AB66831FC5AA330078E451 /* NavigationAddPointToastView.swift in Sources */,
 				F6E2FE4C1E097BA00083EBEC /* MWMPlacePageManager.mm in Sources */,
+				2752B6CA2E31197500887CC4 /* MapLanguage.swift in Sources */,
 				3404757E1E081B3300C92850 /* iosOGLContext.mm in Sources */,
 				993F5513237C622700545511 /* DeepLinkHandler.swift in Sources */,
 				993DF11223F6BDB100AC231A /* UIImageRenderer.swift in Sources */,
@@ -4589,6 +4596,7 @@
 				6741A9E71BF340DE002C974C /* MWMCircularProgressView.m in Sources */,
 				34AC8FDB1EFC07FE00E7F910 /* UILabel+NumberOfVisibleLines.swift in Sources */,
 				ED79A5AD2BD7BA0F00952D1F /* UIApplication+LoadingOverlay.swift in Sources */,
+				2752B6CE2E3121D900887CC4 /* Language.swift in Sources */,
 				9959C75C24599CCD008FD4FD /* DirectionView.swift in Sources */,
 				47CA68D62500448D00671019 /* BookmarksListInteractor.swift in Sources */,
 				4767CD9F20AAD48A00BD8166 /* Checkmark.swift in Sources */,

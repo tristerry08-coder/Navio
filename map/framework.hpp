@@ -706,6 +706,7 @@ private:
 public:
   static std::string GetMapLanguageCode();
   void SetMapLanguageCode(std::string const & langCode);
+  void ResetMapLanguageCode();
 
   void SetLargeFontsSize(bool isLargeSize);
   bool LoadLargeFontsSize();

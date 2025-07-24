@@ -2498,6 +2498,16 @@ void Framework::SetMapLanguageCode(std::string const & langCode)
     m_searchAPI->SetLocale(langCode);
 }
 
+void Framework::ResetMapLanguageCode()
+{
+  settings::Delete(settings::kMapLanguageCode);
+  if (m_drapeEngine)
+    ApplyMapLanguageCode(languages::GetCurrentMapLanguage());
+
+  if (m_searchAPI)
+    m_searchAPI->SetLocale(languages::GetCurrentMapLanguage());
+}
+
 void Framework::ApplyMapLanguageCode(std::string const & langCode)
 {
   int8_t langIndex = StringUtf8Multilang::GetLangIndex(langCode);

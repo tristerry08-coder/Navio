@@ -32,6 +32,10 @@ struct SettingsView: View {
     @State private var hasIncreasedFontsize: Bool = false
     
     
+    /// The selected language for the map
+    @State var selectedLanguageForMap: Settings.MapLanguage.ID? = nil
+    
+    
     /// If names should be transliterated to Latin
     @State private var shouldTransliterateToLatin: Bool = true
     
@@ -136,8 +140,32 @@ struct SettingsView: View {
                     Toggle("big_font", isOn: $hasIncreasedFontsize)
                         .tint(.accent)
                     
-                    Toggle("transliteration_title", isOn: $shouldTransliterateToLatin)
-                        .tint(.accent)
+                    Picker(selection: $selectedLanguageForMap) {
+                        ForEach(Settings.availableLanguagesForMap) { languageForMap in
+                            Text(languageForMap.localizedName)
+                                .tag(languageForMap.id)
+                            
+                            if languageForMap.id == "auto" || languageForMap.id == "default" {
+                                Divider()
+                            }
+                        }
+                    } label: {
+                        Text("pref_maplanguage_title")
+                    }
+                    
+                    Toggle(isOn: $shouldTransliterateToLatin) {
+                        VStack(alignment: .leading) {
+                            Text("transliteration_title")
+                            
+                            if selectedLanguageForMap == "default" {
+                                Text("transliteration_title_disabled_summary")
+                                    .font(.footnote)
+                                    .foregroundStyle(.secondary)
+                            }
+                        }
+                    }
+                    .tint(.accent)
+                    .disabled(selectedLanguageForMap == "default")
                     
                     Picker(selection: $selectedMapAppearance) {
                         ForEach(Settings.Appearance.allCases) { mapAppearance in
@@ -267,6 +295,7 @@ struct SettingsView: View {
             has3dBuildings = Settings.has3dBuildings
             hasAutomaticDownload = Settings.hasAutomaticDownload
             hasIncreasedFontsize = Settings.hasIncreasedFontsize
+            selectedLanguageForMap = Settings.languageForMap
             shouldTransliterateToLatin = Settings.shouldTransliterateToLatin
             selectedMapAppearance = Settings.mapAppearance
             selectedAppearance = Settings.appearance
@@ -293,6 +322,11 @@ struct SettingsView: View {
         }
         .onChange(of: hasIncreasedFontsize) { changedHasIncreasedFontsize in
             Settings.hasIncreasedFontsize = changedHasIncreasedFontsize
+        }
+        .onChange(of: selectedLanguageForMap) { changedSelectedLanguageForMap in
+            if let changedSelectedLanguageForMap {
+                Settings.languageForMap = changedSelectedLanguageForMap
+            }
         }
         .onChange(of: shouldTransliterateToLatin) { changedShouldTransliterateToLatin in
             Settings.shouldTransliterateToLatin = changedShouldTransliterateToLatin

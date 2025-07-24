@@ -140,6 +140,28 @@ import Combine
     }
     
     
+    /// The available languages for the map
+    static var availableLanguagesForMap: [MapLanguage] {
+        var languages = SettingsBridge.availableMapLanguages().map { language in
+            return MapLanguage(id: language.key, localizedName: language.value)
+        }.sorted()
+        languages.insert(MapLanguage(id: "default", localizedName: String(localized: "pref_maplanguage_local")), at: 0)
+        languages.insert(MapLanguage(id: "auto", localizedName: String(localized: "auto")), at: 0)
+        return languages
+    }
+    
+    
+    /// The current language for the map
+    static var languageForMap: MapLanguage.ID {
+        get {
+            return SettingsBridge.mapLanguageCode()
+        }
+        set {
+            SettingsBridge.setMapLanguageCode(newValue)
+        }
+    }
+    
+    
     /// If the compass should be calibrated
     @objc static var shouldCalibrateCompass: Bool {
         get {

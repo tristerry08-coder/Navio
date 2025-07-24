@@ -219,6 +219,12 @@
 "pref_zoom_title" = "Zoom buttons";
 "pref_left_button_type" = "Left Main Button";
 
+/* Settings «Map» category: «Map Language» title */
+"pref_maplanguage_title" = "Map Language";
+
+/* Settings «Map» category: «Map Language» local value */
+"pref_maplanguage_local" = "Local Language";
+
 /* Settings «Map» category: «Map Appearance» title */
 "pref_mapappearance_title" = "Map Appearance";
 
@@ -764,6 +770,7 @@
 "enable_logging" = "Enable logging";
 "log_file_size" = "Log file size: %@";
 "transliteration_title" = "Transliterate into Latin alphabet";
+"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
 
 /* Subway exits for public transport marks on the map */
 "core_exit" = "Exit";

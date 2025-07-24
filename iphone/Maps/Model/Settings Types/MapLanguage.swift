@@ -1,6 +1,6 @@
 extension Settings {
-    /// A language used for voice guidance during routing
-    struct VoiceRoutingLanguage: Language {
+    /// A language used for the map
+    struct MapLanguage: Language {
         // MARK: Properties
         
         /// The id
