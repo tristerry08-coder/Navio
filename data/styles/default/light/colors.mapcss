@@ -80,15 +80,15 @@
 @allotments: #D5D395;
 @allotments_13: #D6D498;
 @allotments_12: #D8D59B;
-@scrubs: #B1C765;
-@scrubs_13: #B4C96B;
-@scrubs_12: #B8CB71;
-@scrubs_11: #BCCC76;
-@woods: #A4BD4F;
-@woods_13: #A8BE55;
-@woods_12: #ACC25C;
-@woods_11: #B1C462;
-@woods_10: #B4C469;
+@scrubs: #ACC261;
+@scrubs_13: #AFC467;
+@scrubs_12: #B3C66D;
+@scrubs_11: #B7C873;
+@woods: #A2BA4E;
+@woods_13: #A6BD55;
+@woods_12: #AABF5C;
+@woods_11: #AFC162;
+@woods_10: #B3C369;
 
 @protected_nature: #7B8F35;
 
