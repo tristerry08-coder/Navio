@@ -39,10 +39,10 @@
 /* 3.1 Main natural */
 
 @glacier: #FFFFFF;
-@water: #9EE4F2;
-@water_bad: #9CD7DE;
-@wetland_tidal: #BBE5E8;
-@wetland_tidal_saltmarsh: #A6E0D6;
+@water: #89CDDC;
+@water_bad: #8FCDD3;
+@wetland_tidal: #9FD2DB;
+@wetland_tidal_saltmarsh: #A0DAD1;
 @wetland_saltmarsh: #AADEC4;
 @wetland_marsh: #ABDDC2;
 @wetland_fen: #B6DEC5;
