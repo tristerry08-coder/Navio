@@ -5144,8 +5144,6 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = app.comaps.debug;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_INCLUDE_PATHS = "$(OMIM_ROOT)/editor";
-				SWIFT_OBJC_INTEROP_MODE = objcxx;
 			};
 			name = Debug;
 		};
@@ -5179,8 +5177,6 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = app.comaps;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_INCLUDE_PATHS = "$(OMIM_ROOT)/editor";
-				SWIFT_OBJC_INTEROP_MODE = objcxx;
 			};
 			name = Release;
 		};
@@ -5305,7 +5301,7 @@
 					"$(OTHER_CFLAGS)",
 					"-fcxx-modules",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -cxx-interoperability-mode=default";
+				OTHER_SWIFT_FLAGS = "-cxx-interoperability-mode=default $(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_IDENTIFIER}";
 				PRODUCT_NAME = "CoMaps (Debug)";
 				SDKROOT = iphoneos;
@@ -5314,6 +5310,7 @@
 				SWIFT_INCLUDE_PATHS = "$(OMIM_ROOT)/editor";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = SwiftBridge.h;
+				SWIFT_OBJC_INTEROP_MODE = objcxx;
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -5356,6 +5353,7 @@
 				SWIFT_INCLUDE_PATHS = "$(OMIM_ROOT)/editor";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = SwiftBridge.h;
+				SWIFT_OBJC_INTEROP_MODE = objcxx;
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
