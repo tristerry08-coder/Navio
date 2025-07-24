@@ -2,7 +2,7 @@
 
 #include "map/gps_tracker.hpp"
 
-#include "app/organicmaps/core/jni_helper.hpp"
+#include "app/organicmaps/sdk/core/jni_helper.hpp"
 
 #include <chrono>
 

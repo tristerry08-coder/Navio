@@ -2,8 +2,8 @@ package app.organicmaps.backup;
 
 import static app.organicmaps.backup.BackupUtils.getBackupName;
 import static app.organicmaps.backup.BackupUtils.getBackupFolders;
-import static app.organicmaps.util.StorageUtils.copyFileToDocumentFile;
-import static app.organicmaps.util.StorageUtils.deleteDirectoryRecursive;
+import static app.organicmaps.sdk.util.StorageUtils.copyFileToDocumentFile;
+import static app.organicmaps.sdk.util.StorageUtils.deleteDirectoryRecursive;
 
 import android.app.Activity;
 import android.net.Uri;
@@ -17,13 +17,13 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-import app.organicmaps.bookmarks.data.BookmarkCategory;
-import app.organicmaps.bookmarks.data.BookmarkManager;
-import app.organicmaps.bookmarks.data.BookmarkSharingResult;
-import app.organicmaps.bookmarks.data.KmlFileType;
-import app.organicmaps.util.concurrency.ThreadPool;
-import app.organicmaps.util.concurrency.UiThread;
-import app.organicmaps.util.log.Logger;
+import app.organicmaps.sdk.bookmarks.data.BookmarkCategory;
+import app.organicmaps.sdk.bookmarks.data.BookmarkManager;
+import app.organicmaps.sdk.bookmarks.data.BookmarkSharingResult;
+import app.organicmaps.sdk.bookmarks.data.KmlFileType;
+import app.organicmaps.sdk.util.concurrency.ThreadPool;
+import app.organicmaps.sdk.util.concurrency.UiThread;
+import app.organicmaps.sdk.util.log.Logger;
 
 public class LocalBackupManager implements BookmarkManager.BookmarksSharingListener
 {

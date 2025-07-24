@@ -324,7 +324,7 @@ Java_app_organicmaps_sdk_editor_OpeningHours_nativeIsTimetableStringValid(JNIEnv
 
 
 JNIEXPORT jobject JNICALL
-Java_app_organicmaps_editor_OpeningHours_nativeCurrentState(JNIEnv * env, jclass clazz, jobjectArray jTts)
+Java_app_organicmaps_sdk_editor_OpeningHours_nativeCurrentState(JNIEnv * env, jclass clazz, jobjectArray jTts)
 {
   TimeTableSet tts = NativeTimetableSet(env, jTts);
   time_t const now = time(nullptr);

@@ -2,7 +2,7 @@ package app.organicmaps.backup;
 
 import static app.organicmaps.settings.BackupSettingsFragment.MAX_BACKUPS_DEFAULT_COUNT;
 import static app.organicmaps.settings.BackupSettingsFragment.MAX_BACKUPS_KEY;
-import static app.organicmaps.util.StorageUtils.isFolderWritable;
+import static app.organicmaps.sdk.util.StorageUtils.isFolderWritable;
 
 import android.app.Activity;
 import android.content.Context;
@@ -29,8 +29,8 @@ import java.util.List;
 import java.util.Locale;
 
 import app.organicmaps.R;
-import app.organicmaps.util.UiUtils;
-import app.organicmaps.util.log.Logger;
+import app.organicmaps.sdk.util.UiUtils;
+import app.organicmaps.sdk.util.log.Logger;
 
 public class BackupUtils
 {

@@ -5,14 +5,14 @@ import static app.organicmaps.backup.BackupUtils.isBackupFolderAvailable;
 import static app.organicmaps.settings.BackupSettingsFragment.BACKUP_FOLDER_PATH_KEY;
 import static app.organicmaps.settings.BackupSettingsFragment.BACKUP_INTERVAL_KEY;
 import static app.organicmaps.settings.BackupSettingsFragment.LAST_BACKUP_TIME_KEY;
-import static app.organicmaps.util.StorageUtils.isFolderWritable;
+import static app.organicmaps.sdk.util.StorageUtils.isFolderWritable;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
 
 import androidx.preference.PreferenceManager;
 
-import app.organicmaps.util.log.Logger;
+import app.organicmaps.sdk.util.log.Logger;
 
 public class PeriodicBackupRunner
 {

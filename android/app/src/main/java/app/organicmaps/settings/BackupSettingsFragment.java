@@ -3,7 +3,7 @@ package app.organicmaps.settings;
 import static app.organicmaps.backup.BackupUtils.formatReadableFolderPath;
 import static app.organicmaps.backup.BackupUtils.getMaxBackups;
 import static app.organicmaps.backup.BackupUtils.isBackupFolderAvailable;
-import static app.organicmaps.util.StorageUtils.isFolderWritable;
+import static app.organicmaps.sdk.util.StorageUtils.isFolderWritable;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -27,7 +27,7 @@ import java.text.DateFormat;
 
 import app.organicmaps.R;
 import app.organicmaps.backup.LocalBackupManager;
-import app.organicmaps.util.log.Logger;
+import app.organicmaps.sdk.util.log.Logger;
 
 
 public class BackupSettingsFragment
