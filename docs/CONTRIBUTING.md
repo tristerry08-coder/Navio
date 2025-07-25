@@ -102,5 +102,4 @@ Git has a flag that can sign a commit for you. An example using it is:
 
     git commit -s -m 'An example commit message'
 
-Use your real name or on some rare cases a company email address, but we
-disallow pseudonyms or anonymous contributions.
+You can sign-off using your pseudonym or real name.
