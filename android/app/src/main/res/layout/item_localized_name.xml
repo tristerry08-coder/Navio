@@ -21,7 +21,8 @@
       android:hint="@string/editor_edit_place_name_hint"
       android:inputType="textCapSentences"
       android:padding="@dimen/margin_base"
-      android:singleLine="true" />
+      android:singleLine="true"
+      android:textAlignment="viewStart" />
   </com.google.android.material.textfield.TextInputLayout>
   <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/delete"

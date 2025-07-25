@@ -10,14 +10,16 @@
     android:id="@+id/checkbox"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_centerVertical="true"
-    android:layout_alignParentTop="true"
     android:layout_alignBottom="@id/bottom_line_container"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_centerVertical="true"
     android:layout_margin="@dimen/margin_half"
-    android:padding="@dimen/margin_half"
+    android:layout_marginStart="8dp"
     android:background="@null"
     android:button="@drawable/visibility_selector"
-    android:buttonTint="?accentColorSelector" />
+    android:buttonTint="?accentColorSelector"
+    android:padding="@dimen/margin_half" />
   <com.google.android.material.textview.MaterialTextView
     android:id="@+id/name"
     android:layout_width="wrap_content"
@@ -27,6 +29,7 @@
     android:layout_toEndOf="@id/checkbox"
     android:ellipsize="middle"
     android:singleLine="true"
+    android:textAlignment="viewStart"
     android:textAppearance="?fontBody1"
     tools:text="Bookmark name looooooooooooooooooongasdasdasd" />
   <LinearLayout

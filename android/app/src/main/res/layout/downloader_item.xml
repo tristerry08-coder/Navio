@@ -43,6 +43,7 @@
       android:layout_height="wrap_content"
       android:textAppearance="@style/MwmTextAppearance.Body4"
       android:maxLines="1"
+      android:textAlignment="viewStart"
       tools:text="Крымск"
       tools:background="#60FF00FF"/>
 
@@ -50,6 +51,7 @@
       android:id="@+id/name"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
+      android:textAlignment="viewStart"
       android:textAppearance="@style/MwmTextAppearance.Body1"
       tools:text="Донецкая область"
       tools:background="#40FF0000"/>
@@ -58,6 +60,7 @@
       android:id="@+id/subtitle"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
+      android:textAlignment="viewStart"
       android:textAppearance="@style/MwmTextAppearance.Body4"
       tools:text="Украина"
       tools:background="#60FFFF00"/>

@@ -33,6 +33,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/name"
         android:padding="@dimen/margin_half_double_plus"
+        android:textAlignment="viewStart"
         android:inputType="textCapSentences"
         android:singleLine="true" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -64,6 +65,7 @@
       android:paddingTop="@dimen/margin_quarter_plus"
       android:paddingBottom="@dimen/margin_half_plus"
       android:padding="@dimen/margin_half_double_plus"
+      android:textAlignment="viewStart"
       android:textAppearance="@style/MwmTextAppearance.Body1"
       app:drawableEndCompat="@drawable/ic_arrow_down" />
     <View
@@ -100,6 +102,7 @@
       android:layout_height="wrap_content"
       android:padding="@dimen/margin_half_double_plus"
       android:hint="@string/placepage_personal_notes_hint"
-      android:inputType="textMultiLine" />
+      android:inputType="textMultiLine"
+      android:textAlignment="viewStart" />
   </com.google.android.material.textfield.TextInputLayout>
 </RelativeLayout>
