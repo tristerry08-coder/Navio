@@ -6,6 +6,7 @@
 #include "indexer/ftypes_matcher.hpp"
 #include "indexer/scales.hpp"
 
+#include "platform/preferred_languages.hpp"
 #include "platform/localization.hpp"
 #include "platform/distance.hpp"
 
@@ -124,6 +125,14 @@ bool IsNativeLang(feature::RegionData const & regionData, int8_t deviceLang)
 vector<int8_t> MakeLanguagesPriorityList(int8_t deviceLang, bool preferDefault)
 {
   vector<int8_t> langPriority = {deviceLang};
+  for (auto const & lang : languages::GetPreferredLangIndexes())
+  {
+    if (find(langPriority.begin(), langPriority.end(), lang) == langPriority.end())
+    {
+      langPriority.push_back(lang);
+    }
+  }
+  
   if (preferDefault)
     langPriority.push_back(StrUtf8::kDefaultCode);
 

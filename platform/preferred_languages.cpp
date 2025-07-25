@@ -188,6 +188,22 @@ std::string GetCurrentMapLanguage()
   return languageCode;
 }
 
+std::vector<int8_t> GetPreferredLangIndexes()
+{
+  std::vector<int8_t> langs = {};
+  for (auto const & systemLanguage : GetSystemPreferred())
+  {
+    auto normalizedLang = Normalize(systemLanguage);
+    int8_t lang = StringUtf8Multilang::GetLangIndex(normalizedLang);
+    if (lang != StringUtf8Multilang::kUnsupportedLanguageCode
+           && find(langs.begin(), langs.end(), lang) == langs.end())
+    {
+      langs.push_back(lang);
+    }
+  }
+  return langs;
+}
+
 std::string GetTwine(std::string const & lang)
 {
   // Special cases for different Chinese variations.
