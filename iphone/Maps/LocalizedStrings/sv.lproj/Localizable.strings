@@ -518,7 +518,7 @@
 "autodownload" = "Automatisk nedladdning";
 
 /* Place Page opening hours text */
-"closed_now" = "Stängt just nu";
+"closed_now" = "Stängt nu";
 
 /* Place Page opening hours text */
 "daily" = "Dagligen";
@@ -1094,3 +1094,6 @@
 "about_proposition_3" = "Transparent and not for profit";
 "about_headline" = "Open project powered by the community";
 "pref_mapappearance_title" = "Map Appearance";
+"pref_maplanguage_title" = "Map Language";
+"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
+"pref_maplanguage_local" = "Local Language";

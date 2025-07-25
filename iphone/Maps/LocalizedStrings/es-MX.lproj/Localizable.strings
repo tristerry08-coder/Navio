@@ -1098,3 +1098,6 @@
 "osm_profile_view_edit_history" = "Ver historial de ediciones";
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) is a community project to build a free and open map. It's the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.\nJoin the community and help to make a better map for everyone!";
 "pref_mapappearance_title" = "Map Appearance";
+"pref_maplanguage_title" = "Map Language";
+"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
+"pref_maplanguage_local" = "Local Language";

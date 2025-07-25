@@ -586,3 +586,6 @@
 "hide" = "Hide";
 "navigation_stop_button" = "Stop";
 "pref_mapappearance_title" = "Map Appearance";
+"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
+"pref_maplanguage_title" = "Map Language";
+"pref_maplanguage_local" = "Local Language";

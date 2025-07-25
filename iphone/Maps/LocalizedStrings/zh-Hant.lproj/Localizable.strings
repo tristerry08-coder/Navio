@@ -328,7 +328,7 @@
 "volunteer" = "志願者";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "追蹤並聯絡我們";
+"follow_us" = "聯絡我們";
 
 /* Alert text */
 "email_error_body" = "電子郵件客戶端未設定。請配置電子郵件客戶端或通過 %@ 聯絡我們";
@@ -1098,3 +1098,6 @@
 "osm_profile_view_edit_history" = "查看編輯歷史記錄";
 "osm_profile_view_notes" = "查看註記";
 "pref_mapappearance_title" = "Map Appearance";
+"pref_maplanguage_title" = "Map Language";
+"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
+"pref_maplanguage_local" = "Local Language";

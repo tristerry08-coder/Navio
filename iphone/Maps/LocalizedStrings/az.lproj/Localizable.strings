@@ -1080,3 +1080,6 @@
 "app_tip_02" = "Do you like our app? Please donate to support the development! Don't like it yet? Please let us know why, and we will fix it!";
 "app_tip_01" = "With your donations and support, we can create the best maps in the World!";
 "pref_mapappearance_title" = "Map Appearance";
+"pref_maplanguage_title" = "Map Language";
+"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
+"pref_maplanguage_local" = "Local Language";

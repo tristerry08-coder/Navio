@@ -586,3 +586,6 @@
 "pref_zoom_title" = "Zoom buttons";
 "car_continue_in_the_car" = "To the car screen";
 "pref_mapappearance_title" = "Map Appearance";
+"pref_maplanguage_title" = "Map Language";
+"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
+"pref_maplanguage_local" = "Local Language";

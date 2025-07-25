@@ -1097,4 +1097,7 @@
 "edit_track" = "ルートを編集";
 "osm_profile_view_notes" = "メモを表示";
 "osm_profile_view_edit_history" = "編集履歴を表示";
-"pref_mapappearance_title" = "Map Appearance";
+"pref_mapappearance_title" = "マップの外観";
+"pref_maplanguage_title" = "Map Language";
+"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
+"pref_maplanguage_local" = "Local Language";

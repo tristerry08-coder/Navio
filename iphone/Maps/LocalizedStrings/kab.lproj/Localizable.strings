@@ -16,13 +16,13 @@
 "social_codeberg" = "Codeberg";
 "osm_profile_delete" = "Kkes amiḍan n OpenStreetMap";
 "osm_profile_logout" = "Tuffɣa seg umiḍan n OpenStreetMap";
-"osm_profile_view_notes" = "Wali tamawt";
+"osm_profile_view_notes" = "Wali tizmilin";
 "social_lemmy" = "Lemmy";
 "social_bluesky" = "Bluesky";
 "osm_profile_login" = "Akeccum ɣer amiḍan n OpenStreetMap";
 "osm_profile_reauthorize" = "Aɛiwed n tuqqna s OpenStreetMap";
 "osm_profile_remove" = "Kkes tasmekta n umiḍan n OpenStreetMap seg useɣzan-a";
-"osm_profile_view_edit_history" = "Wali amezruy n ubeddel";
+"osm_profile_view_edit_history" = "Wali amezruy n tiẓrigin";
 "osm_profile_reauthorize_promt" = "Imiḍan n OpenStreetMap yettwaqleɛ seg useɣzan-a";
 "osm_profile_remove_promt" = "Ma ur tezmireḍ ara neɣ ur tebɣiḍ ara ad ternuḍ amidan-ik, tzemreḍ kan ad t-tekkseḍ seg usmel-a";
 "downloader_search_field_hint" = "Find map";
@@ -586,3 +586,6 @@
 "length" = "Length";
 "done" = "Done";
 "pref_mapappearance_title" = "Map Appearance";
+"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
+"pref_maplanguage_title" = "Map Language";
+"pref_maplanguage_local" = "Local Language";

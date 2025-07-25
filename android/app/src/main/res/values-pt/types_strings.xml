@@ -1401,4 +1401,12 @@
     <string name="type.psurface.unpaved_good">psurface-unpaved_good</string>
     <string name="type.landuse.education">Instalação Educativa</string>
     <string name="type.railway.station.subway.qingdao">Estação de metro</string>
+    <string name="type.leisure.escape_game">Escape Room</string>
+    <string name="type.landuse.religious">Local Religioso</string>
+    <string name="type.natural.wetland.saltmarsh">Sapal</string>
+    <string name="type.natural.wetland.saltmarsh.tidal">Marisma</string>
+    <string name="type.natural.wetland.fen">Fen</string>
+    <string name="type.natural.wetland.reedbed">Caniçal</string>
+    <string name="type.natural.wetland.swamp">Pântano</string>
+    <string name="type.natural.wetland.mangrove">Mangal</string>
 </resources>

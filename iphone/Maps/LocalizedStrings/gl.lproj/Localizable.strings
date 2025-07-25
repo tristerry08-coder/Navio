@@ -128,7 +128,7 @@
 "report_a_bug" = "Informar dun fallo";
 "report_incorrect_map_bug" = "Informar ou corrixir datos de mapa incorrectos";
 "volunteer" = "Voluntariado";
-"follow_us" = "Síganos e póñase en contacto connosco";
+"follow_us" = "Contacta con nós";
 "email_error_body" = "Non se configurou o cliente de correo electrónico. Configúreo ou @contáctar en %@";
 "email_error_title" = "Erro de envío de correo";
 "pref_calibration_title" = "Calibración do compás";
@@ -586,3 +586,6 @@
 "osm_mapdata_explanation %@" = "Community-created map data as of *%@*. Learn more about how to edit and update the map at [OpenStreetMap.org](https://openstreetmap.org).";
 "social_pixelfed" = "Pixelfed";
 "pref_mapappearance_title" = "Map Appearance";
+"pref_maplanguage_title" = "Map Language";
+"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
+"pref_maplanguage_local" = "Local Language";

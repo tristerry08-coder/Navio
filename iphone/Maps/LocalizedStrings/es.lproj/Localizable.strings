@@ -328,7 +328,7 @@
 "volunteer" = "Voluntariado";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Síganos y póngase en contacto con nosotros";
+"follow_us" = "Conecta con nosotros";
 
 /* Alert text */
 "email_error_body" = "No se ha configurado el cliente de correo electrónico. Configúrelo o contáctenos en %@";
@@ -1098,3 +1098,6 @@
 "osm_profile_view_edit_history" = "Ver historial de ediciones";
 "osm_profile_view_notes" = "Ver notas";
 "pref_mapappearance_title" = "Map Appearance";
+"pref_maplanguage_title" = "Map Language";
+"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
+"pref_maplanguage_local" = "Local Language";

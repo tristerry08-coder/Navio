@@ -1098,3 +1098,6 @@
 "track_recording_toast_nothing_to_save" = "Route ist leer - nichts zu speichern";
 "edit_track" = "Track bearbeiten";
 "pref_mapappearance_title" = "Kartendarstellung";
+"pref_maplanguage_title" = "Map Language";
+"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
+"pref_maplanguage_local" = "Local Language";

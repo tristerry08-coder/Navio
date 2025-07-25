@@ -890,4 +890,5 @@
     <string name="panoramax">صورة Panoramax</string>
     <string name="app_site_url">https://comaps.app/ar</string>
     <string name="saved">تم الحفظ</string>
+    <string name="bluesky">بلوسكاي</string>
 </resources>

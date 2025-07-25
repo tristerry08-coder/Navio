@@ -72,7 +72,7 @@
     <string name="type.amenity.nursing_home">Vårdhem</string>
     <string name="type.amenity.parking">Parkering</string>
     <string name="type.amenity.parking.fee">Parkering</string>
-    <string name="type.amenity.parking.multi.storey">Flervånings parkering</string>
+    <string name="type.amenity.parking.multi.storey">Flervåningsparkering</string>
     <string name="type.amenity.parking.multi.storey.fee">Flervånings parkering</string>
     <string name="type.amenity.parking.no.access">Privat parkering</string>
     <string name="type.amenity.parking.permissive">Privat parkering</string>

@@ -1343,4 +1343,6 @@
     <string name="type.man_made">Artifiziala</string>
     <string name="type.amenity.love_hotel">Maitasun hotela</string>
     <string name="type.noexit">Irteerarik gabeko bidea</string>
+    <string name="type.leisure.escape_game">Escape Room</string>
+    <string name="type.landuse.religious">Eremu erlijiosoa</string>
 </resources>

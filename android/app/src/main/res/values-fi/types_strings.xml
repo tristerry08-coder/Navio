@@ -1407,4 +1407,5 @@
     <string name="type.natural.wetland.mangrove">Mangrove</string>
     <string name="type.natural.wetland.tidalflat">Vuorovesitasanko</string>
     <string name="type.natural.wetland.reedbed">Ruovikko</string>
+    <string name="type.leisure.escape_game">Pakohuonepeli</string>
 </resources>

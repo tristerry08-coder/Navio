@@ -913,4 +913,7 @@
     <string name="pref_backup_now_summary_folder_unavailable">Babeskopiaren karpeta ez dago eskuragarri</string>
     <string name="dialog_report_error_missing_folder">Babeskopiarako hautatutako kokapena ez dago eskuragarri edo ezin da idatzi. Hautatu beste kokapen bat.</string>
     <string name="pref_backup_now_summary_progress">Babeskopia egiten…</string>
+    <string name="editor_level">Solairuak (O beheko solairua da)</string>
+    <string name="editor_building_levels">Solairuak (beheko solairua barne, sabaia ez)</string>
+    <string name="error_enter_correct_level">Sartu baliozko solairu kopurua</string>
 </resources>

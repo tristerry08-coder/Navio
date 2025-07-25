@@ -202,7 +202,7 @@
 "share_my_location" = "Bendrinti mano vietą";
 "prefs_group_route" = "Navigacija";
 "pref_zoom_title" = "Mastelio mygtukai";
-"pref_left_button_type" = "Left Main Button";
+"pref_left_button_type" = "Kairysis pagrindinis mygtukas";
 
 /* Settings «Map» category: «Appearance» title */
 "pref_appearance_title" = "Išvaizda";
@@ -1094,5 +1094,8 @@
 "edit_track" = "Redaguoti trasą";
 "osm_profile_view_notes" = "Peržiūrėti pastabas";
 "osm_profile_view_edit_history" = "Peržiūrėti keitimų istoriją";
-"about_proposition_3" = "Transparent and not for profit";
-"pref_mapappearance_title" = "Map Appearance";
+"about_proposition_3" = "Skaidrus ir nesiekiantis pelno";
+"pref_mapappearance_title" = "Žemėlapio išvaizda";
+"pref_maplanguage_title" = "Map Language";
+"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
+"pref_maplanguage_local" = "Local Language";

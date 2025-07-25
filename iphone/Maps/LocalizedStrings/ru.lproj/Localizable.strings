@@ -328,7 +328,7 @@
 "volunteer" = "Cтать волонтёром";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Подписывайтесь и пишите нам";
+"follow_us" = "Свяжитесь с нами";
 
 /* Alert text */
 "email_error_body" = "Почтовый клиент не настроен. Настройте его или используйте другие способы для связи. Наш адрес - %@";
@@ -1098,3 +1098,6 @@
 "osm_profile_view_edit_history" = "История правок";
 "osm_profile_view_notes" = "Заметки";
 "pref_mapappearance_title" = "Map Appearance";
+"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
+"pref_maplanguage_title" = "Map Language";
+"pref_maplanguage_local" = "Local Language";

@@ -672,7 +672,7 @@
 
 /* In most (European) countries, сemeteries are usually independent of places of worship (e.g. military cemeteries), while grave yards are usually the yard of a place of worship. */
 "type.landuse.cemetery.christian" = "Cemitério cristão";
-"type.landuse.religious" = "Religious Land";
+"type.landuse.religious" = "Local Religioso";
 "type.landuse.commercial" = "Área comercial";
 "type.landuse.construction" = "Construção";
 "type.landuse.education" = "Instalação Educativa";
@@ -1493,10 +1493,10 @@
 "type.sport.diving" = "Mergulho alto";
 "type.railway.station.subway.qingdao" = "Estação de metro";
 "type.natural.wetland.tidalflat" = "Tidal Flat";
-"type.natural.wetland.swamp" = "Swamp";
-"type.natural.wetland.saltmarsh" = "Salt Marsh";
-"type.natural.wetland.mangrove" = "Mangrove";
+"type.natural.wetland.swamp" = "Pântano";
+"type.natural.wetland.saltmarsh" = "Sapal";
+"type.natural.wetland.mangrove" = "Mangal";
 "type.natural.wetland.fen" = "Fen";
-"type.natural.wetland.saltmarsh.tidal" = "Tidal Salt Marsh";
-"type.natural.wetland.reedbed" = "Reed Bed";
+"type.natural.wetland.saltmarsh.tidal" = "Marisma";
+"type.natural.wetland.reedbed" = "Caniçal";
 "type.leisure.escape_game" = "Escape Room";

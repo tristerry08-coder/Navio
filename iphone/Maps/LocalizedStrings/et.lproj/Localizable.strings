@@ -325,7 +325,7 @@
 "volunteer" = "Vabatahtlik kaastöö";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Võta meiega ühendust";
+"follow_us" = "Suhtle meiega";
 
 /* Alert text */
 "email_error_body" = "E-posti klienti ei ole seadistatud. Palun seadista see või kasuta mõnda muud võimalust meiega ühenduse võtmiseks aadressil %@";
@@ -1096,3 +1096,6 @@
 "osm_profile_view_notes" = "Vaata märkused";
 "about_proposition_3" = "Läbipaistev ja kasumit mittetaotlev";
 "pref_mapappearance_title" = "Kaardi välimus";
+"pref_maplanguage_title" = "Map Language";
+"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
+"pref_maplanguage_local" = "Local Language";

@@ -31,9 +31,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>fitxategi %d aurkitu da. Elkarrizketaren ondoren ikusiko duzu.</string>
+			<string>Fitxategi %d aurkitu da. Bihurketaren ondoren ikusiko duzu.</string>
 			<key>other</key>
-			<string>%d fitxategi aurkitu dira. Elkarrizketaren ondoren ikusiko dituzu.</string>
+			<string>%d fitxategi aurkitu dira. Bihurketaren ondoren ikusiko dituzu.</string>
 		</dict>
 	</dict>
 	<key>tracks</key>
@@ -47,9 +47,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%d arrasto</string>
+			<string>arrasto %d</string>
 			<key>other</key>
-			<string>%d arrastos</string>
+			<string>%d arrasto</string>
 		</dict>
 	</dict>
 </dict>

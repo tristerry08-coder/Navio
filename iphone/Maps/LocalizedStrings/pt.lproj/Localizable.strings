@@ -325,7 +325,7 @@
 "volunteer" = "Voluntaria-te";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Segue-nos e contacta-nos";
+"follow_us" = "Entra em contacto connosco";
 
 /* Alert text */
 "email_error_body" = "O programa de email não está configurado. Por favor, configure-o ou utilize qualquer outra forma de nos contactar através de %@";
@@ -1094,5 +1094,8 @@
 "edit_track" = "Editar trajeto";
 "osm_profile_view_notes" = "Ver notas";
 "osm_profile_view_edit_history" = "Ver histórico de edições";
-"about_proposition_3" = "Transparent and not for profit";
-"pref_mapappearance_title" = "Map Appearance";
+"about_proposition_3" = "Transparente e sem fins lucrativos";
+"pref_mapappearance_title" = "Aparência do Mapa";
+"pref_maplanguage_title" = "Map Language";
+"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
+"pref_maplanguage_local" = "Local Language";

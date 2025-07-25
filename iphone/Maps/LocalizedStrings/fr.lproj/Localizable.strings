@@ -34,7 +34,7 @@
 "use_cellular_data" = "Oui";
 
 /* View and button titles for accessibility */
-"zoom_to_country" = "Voir sur la carte";
+"zoom_to_country" = "Afficher la carte";
 
 /* Button text for the button at the center of the screen when the country is not downloaded and the size should not be shown */
 "country_status_download_without_size" = "Téléchargez la carte";
@@ -328,7 +328,7 @@
 "volunteer" = "Se porter volontaire";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Échange avec nous";
+"follow_us" = "Rentrez en contact avec nous";
 
 /* Alert text */
 "email_error_body" = "Le client de courriel n'a pas été configuré. Veuillez le configurer ou nous contacter à %@";
@@ -1098,3 +1098,6 @@
 "osm_profile_view_notes" = "Afficher les notes";
 "osm_profile_view_edit_history" = "Afficher l'historique des modifications";
 "pref_mapappearance_title" = "Apparence de la carte";
+"pref_maplanguage_title" = "Map Language";
+"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
+"pref_maplanguage_local" = "Local Language";

@@ -906,4 +906,7 @@
     <string name="pref_backup_title">Backup dos marcadores e trajetos</string>
     <string name="dialog_report_error_missing_folder">A localização de backup selecionada não está disponível ou não permite escrita. Selecione outra localização, por favor.</string>
     <string name="dialog_report_error_with_logs">Por favor, envie-nos um reporte de erro:\n - \"Ativar o histórico\" nas definições\n - reproduza o problema\n - no ecrã de \"Acerca &amp; Ajuda\" pressione o botão para \"Reportar um problema\" e envie via email ou chat\n - desative o histórico</string>
+    <string name="open_now">Aberto agora</string>
+    <string name="closed_now">Fechado agora</string>
+    <string name="at">às %s</string>
 </resources>

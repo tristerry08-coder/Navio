@@ -586,3 +586,6 @@
 "traffic_update_maps_text" = "To display traffic data, maps must be updated.";
 "routing_requires_all_map" = "In order to create a route, we need to download and update all the maps from your location to your destination.";
 "pref_mapappearance_title" = "Map Appearance";
+"pref_maplanguage_title" = "Map Language";
+"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
+"pref_maplanguage_local" = "Local Language";
