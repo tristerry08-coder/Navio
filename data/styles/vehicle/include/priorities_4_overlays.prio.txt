@@ -239,10 +239,10 @@ amenity-parking-underground                         # icon z15- (also has captio
 amenity-parking-underground-fee                     # icon z15- (also has caption(optional) z16-)
 === 2550
 
-amenity-motorcycle_parking                          # icon z17-
+amenity-motorcycle_parking                          # icon z17- (also has area z17-)
 amenity-parking_entrance                            # icon z16-
 amenity-parking_entrance-permissive                 # icon z16-
-landuse-garages
+landuse-garages                                     # caption z16- (also has area z13-)
 === 2530
 
 amenity-parking-lane                                # icon z17- (also has area z15-)

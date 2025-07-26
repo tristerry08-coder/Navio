@@ -58,22 +58,22 @@ amenity-fire_station                                # area z15- (also has icon z
 amenity-fuel                                        # area z15- (also has icon z14-, caption(optional) z14-)
 amenity-marketplace                                 # area z15- (also has icon z16-, caption(optional) z16-)
 amenity-police                                      # area z15- (also has icon z17-, caption(optional) z17-)
+amenity-ranger_station                              # area z13- (also has icon z13-, caption(optional) z14-)
 amenity-recycling-centre                            # area z15- (also has icon z17-, caption(optional) z19-)
 amenity-social_facility                             # area z15- (also has icon z17-, caption(optional) z17-)
-amenity-ranger_station
 amenity-vehicle_inspection                          # area z15- (also has icon z16-, caption(optional) z16-)
 emergency-mountain_rescue                           # area z13- (also has icon z12-, caption(optional) z12-)
 highway-pedestrian-area                             # area z14- (also has line z13-, pathtext z14-)
 highway-rest_area                                   # area z13- (also has icon z14-, caption(optional) z15-)
 highway-services                                    # area z13- (also has icon z14-, caption(optional) z14-)
-landuse-garages                                     # area z13-
+landuse-garages                                     # area z13- (also has caption z15-)
 leisure-dog_park                                    # area z15- (also has icon z16-, caption(optional) z16-)
 leisure-resort                                      # area z13- (also has icon z16-, caption(optional) z16-)
 leisure-water_park                                  # area z13- (also has icon z16-, caption(optional) z16-)
 office-diplomatic                                   # area z15- (also has icon z17-, caption(optional) z17-)
 tourism-camp_site                                   # area z13- (also has icon z13-, caption(optional) z13-)
-tourism-information-office
-tourism-information-visitor_centre
+tourism-information-office                          # area z15- (also has icon z13-, caption(optional) z14-)
+tourism-information-visitor_centre                  # area z13- (also has icon z13-, caption(optional) z14-)
 === 170
 
 highway-footway-area                                # area z14- (also has line z11-, pathtext z13-)
@@ -103,6 +103,9 @@ public_transport-platform                           # area z16- (also has captio
 railway-platform                                    # area z16- (also has caption z16-)
 === 110
 
+amenity-bicycle_parking                             # area z15- (also has icon z17-, caption(optional) z17-)
+amenity-bicycle_parking-covered                     # area z15- (also has icon z17-, caption(optional) z17-)
+amenity-motorcycle_parking                          # area z15- (also has icon z17-, caption(optional) z17-)
 amenity-parking                                     # area z15- (also has icon z16-, caption(optional) z18-)
 amenity-parking-fee                                 # area z15- (also has icon z16-, caption(optional) z18-)
 amenity-parking-lane                                # area z17- (also has icon z18-, caption(optional) z18-)
@@ -117,9 +120,6 @@ amenity-parking-private                             # area z17- (also has icon z
 amenity-parking-street_side                         # area z17- (also has icon z18-, caption(optional) z18-)
 amenity-parking-street_side-fee                     # area z17- (also has icon z18-, caption(optional) z18-)
 amenity-parking-street_side-private                 # area z17- (also has icon z18-, caption(optional) z18-)
-amenity-bicycle_parking
-amenity-bicycle_parking-covered
-amenity-motorcycle_parking
 === 100
 
 natural-wetland                                     # area z11- (also has caption z16-)
@@ -199,7 +199,7 @@ amenity-university                                  # area z13- (also has icon z
 aeroway-aerodrome                                   # area z10- (also has icon z14-, caption(optional) z14-)
 aeroway-aerodrome-international                     # area z10- (also has icon z7-, caption(optional) z10-)
 landuse-education                                   # area z13-
-landuse-retail                                      # area z13-
+landuse-retail                                      # area z13- (also has caption z16-)
 leisure-beach_resort                                # area z10- (also has icon z16-, caption(optional) z16-)
 natural-beach                                       # area z10- (also has caption z14-)
 natural-beach-gravel                                # area z10- (also has caption z14-)

@@ -2125,6 +2125,9 @@ cont {
   name: "amenity-motorcycle_parking"
   element {
     scale: 17
+    area {
+      priority: -1840
+    }
     symbol {
       name: "motorcycle-parking-m"
       priority: 2530
@@ -2132,6 +2135,9 @@ cont {
   }
   element {
     scale: 18
+    area {
+      priority: -1840
+    }
     symbol {
       name: "motorcycle-parking-m"
       priority: 2530
@@ -2139,6 +2145,9 @@ cont {
   }
   element {
     scale: 19
+    area {
+      priority: -1840
+    }
     symbol {
       name: "motorcycle-parking-m"
       priority: 2530
@@ -2146,6 +2155,9 @@ cont {
   }
   element {
     scale: 20
+    area {
+      priority: -1840
+    }
     symbol {
       name: "motorcycle-parking-m"
       priority: 2530
@@ -28861,11 +28873,27 @@ cont {
     area {
       priority: -1850
     }
+    caption {
+      primary {
+        height: 12
+        color: 6710886
+        offset_y: 1
+      }
+      priority: 2530
+    }
   }
   element {
     scale: 17
     area {
       priority: -1850
+    }
+    caption {
+      primary {
+        height: 13
+        color: 6710886
+        offset_y: 1
+      }
+      priority: 2530
     }
   }
   element {
@@ -28873,17 +28901,41 @@ cont {
     area {
       priority: -1850
     }
+    caption {
+      primary {
+        height: 14
+        color: 6710886
+        offset_y: 1
+      }
+      priority: 2530
+    }
   }
   element {
     scale: 19
     area {
       priority: -1850
     }
+    caption {
+      primary {
+        height: 14
+        color: 6710886
+        offset_y: 1
+      }
+      priority: 2530
+    }
   }
   element {
     scale: 20
     area {
       priority: -1850
+    }
+    caption {
+      primary {
+        height: 14
+        color: 6710886
+        offset_y: 1
+      }
+      priority: 2530
     }
   }
 }

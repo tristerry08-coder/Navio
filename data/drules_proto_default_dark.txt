@@ -3508,7 +3508,22 @@ cont {
 cont {
   name: "amenity-bicycle_parking"
   element {
+    scale: 15
+    area {
+      priority: -1900
+    }
+  }
+  element {
+    scale: 16
+    area {
+      priority: -1900
+    }
+  }
+  element {
     scale: 17
+    area {
+      priority: -1900
+    }
     symbol {
       name: "bicycle-parking-m"
       priority: 250
@@ -3525,6 +3540,9 @@ cont {
   }
   element {
     scale: 18
+    area {
+      priority: -1900
+    }
     symbol {
       name: "bicycle-parking-m"
       priority: 250
@@ -3541,6 +3559,9 @@ cont {
   }
   element {
     scale: 19
+    area {
+      priority: -1900
+    }
     symbol {
       name: "bicycle-parking-m"
       priority: 250
@@ -3557,6 +3578,9 @@ cont {
   }
   element {
     scale: 20
+    area {
+      priority: -1900
+    }
     symbol {
       name: "bicycle-parking-m"
       priority: 250
@@ -3575,7 +3599,22 @@ cont {
 cont {
   name: "amenity-bicycle_parking-covered"
   element {
+    scale: 15
+    area {
+      priority: -1900
+    }
+  }
+  element {
+    scale: 16
+    area {
+      priority: -1900
+    }
+  }
+  element {
     scale: 17
+    area {
+      priority: -1900
+    }
     symbol {
       name: "bicycle-parking-covered-m"
       priority: 250
@@ -3592,6 +3631,9 @@ cont {
   }
   element {
     scale: 18
+    area {
+      priority: -1900
+    }
     symbol {
       name: "bicycle-parking-covered-m"
       priority: 250
@@ -3608,6 +3650,9 @@ cont {
   }
   element {
     scale: 19
+    area {
+      priority: -1900
+    }
     symbol {
       name: "bicycle-parking-covered-m"
       priority: 250
@@ -3624,6 +3669,9 @@ cont {
   }
   element {
     scale: 20
+    area {
+      priority: -1900
+    }
     symbol {
       name: "bicycle-parking-covered-m"
       priority: 250
@@ -7867,7 +7915,22 @@ cont {
 cont {
   name: "amenity-motorcycle_parking"
   element {
+    scale: 15
+    area {
+      priority: -1900
+    }
+  }
+  element {
+    scale: 16
+    area {
+      priority: -1900
+    }
+  }
+  element {
     scale: 17
+    area {
+      priority: -1900
+    }
     symbol {
       name: "motorcycle-parking-m"
       priority: 250
@@ -7884,6 +7947,9 @@ cont {
   }
   element {
     scale: 18
+    area {
+      priority: -1900
+    }
     symbol {
       name: "motorcycle-parking-m"
       priority: 250
@@ -7900,6 +7966,9 @@ cont {
   }
   element {
     scale: 19
+    area {
+      priority: -1900
+    }
     symbol {
       name: "motorcycle-parking-m"
       priority: 250
@@ -7916,6 +7985,9 @@ cont {
   }
   element {
     scale: 20
+    area {
+      priority: -1900
+    }
     symbol {
       name: "motorcycle-parking-m"
       priority: 250
@@ -12075,7 +12147,22 @@ cont {
 cont {
   name: "amenity-ranger_station"
   element {
+    scale: 13
+    area {
+      priority: -1830
+    }
+  }
+  element {
+    scale: 14
+    area {
+      priority: -1830
+    }
+  }
+  element {
     scale: 15
+    area {
+      priority: -1830
+    }
     symbol {
       name: "ranger-station-m"
       priority: 4400
@@ -12093,6 +12180,9 @@ cont {
   }
   element {
     scale: 16
+    area {
+      priority: -1830
+    }
     symbol {
       name: "ranger-station-m"
       priority: 4400
@@ -12110,6 +12200,9 @@ cont {
   }
   element {
     scale: 17
+    area {
+      priority: -1830
+    }
     symbol {
       name: "ranger-station-m"
       priority: 4400
@@ -12127,6 +12220,9 @@ cont {
   }
   element {
     scale: 18
+    area {
+      priority: -1830
+    }
     symbol {
       name: "ranger-station-m"
       priority: 4400
@@ -12144,6 +12240,9 @@ cont {
   }
   element {
     scale: 19
+    area {
+      priority: -1830
+    }
     symbol {
       name: "ranger-station-m"
       priority: 4400
@@ -12161,6 +12260,9 @@ cont {
   }
   element {
     scale: 20
+    area {
+      priority: -1830
+    }
     symbol {
       name: "ranger-station-m"
       priority: 4400
@@ -45843,6 +45945,16 @@ cont {
 cont {
   name: "landuse-commercial"
   element {
+    scale: 16
+    caption {
+      primary {
+        height: 10
+        color: 9211020
+      }
+      priority: 120
+    }
+  }
+  element {
     scale: 17
     caption {
       primary {
@@ -47576,11 +47688,27 @@ cont {
     area {
       priority: -1830
     }
+    caption {
+      primary {
+        height: 10
+        color: 9211020
+        offset_y: 1
+      }
+      priority: 850
+    }
   }
   element {
     scale: 16
     area {
       priority: -1830
+    }
+    caption {
+      primary {
+        height: 10
+        color: 9211020
+        offset_y: 1
+      }
+      priority: 850
     }
   }
   element {
@@ -47588,11 +47716,27 @@ cont {
     area {
       priority: -1830
     }
+    caption {
+      primary {
+        height: 10
+        color: 9211020
+        offset_y: 1
+      }
+      priority: 850
+    }
   }
   element {
     scale: 18
     area {
       priority: -1830
+    }
+    caption {
+      primary {
+        height: 11
+        color: 9211020
+        offset_y: 1
+      }
+      priority: 850
     }
   }
   element {
@@ -47600,11 +47744,27 @@ cont {
     area {
       priority: -1830
     }
+    caption {
+      primary {
+        height: 11
+        color: 9211020
+        offset_y: 1
+      }
+      priority: 850
+    }
   }
   element {
     scale: 20
     area {
       priority: -1830
+    }
+    caption {
+      primary {
+        height: 11
+        color: 9211020
+        offset_y: 1
+      }
+      priority: 850
     }
   }
 }
@@ -49336,12 +49496,26 @@ cont {
       color: 1248273
       priority: -1970
     }
+    caption {
+      primary {
+        height: 10
+        color: 9211020
+      }
+      priority: 120
+    }
   }
   element {
     scale: 17
     area {
       color: 1248273
       priority: -1970
+    }
+    caption {
+      primary {
+        height: 10
+        color: 9211020
+      }
+      priority: 120
     }
   }
   element {
@@ -49350,6 +49524,13 @@ cont {
       color: 1248273
       priority: -1970
     }
+    caption {
+      primary {
+        height: 10
+        color: 9211020
+      }
+      priority: 120
+    }
   }
   element {
     scale: 19
@@ -49357,12 +49538,26 @@ cont {
       color: 1248273
       priority: -1970
     }
+    caption {
+      primary {
+        height: 10
+        color: 9211020
+      }
+      priority: 120
+    }
   }
   element {
     scale: 20
     area {
       color: 1248273
       priority: -1970
+    }
+    caption {
+      primary {
+        height: 10
+        color: 9211020
+      }
+      priority: 120
     }
   }
 }
@@ -127565,6 +127760,9 @@ cont {
   name: "tourism-information-office"
   element {
     scale: 15
+    area {
+      priority: -1830
+    }
     symbol {
       name: "information-office-m"
       priority: 4400
@@ -127582,6 +127780,9 @@ cont {
   }
   element {
     scale: 16
+    area {
+      priority: -1830
+    }
     symbol {
       name: "information-office-m"
       priority: 4400
@@ -127599,6 +127800,9 @@ cont {
   }
   element {
     scale: 17
+    area {
+      priority: -1830
+    }
     symbol {
       name: "information-office-m"
       priority: 4400
@@ -127616,6 +127820,9 @@ cont {
   }
   element {
     scale: 18
+    area {
+      priority: -1830
+    }
     symbol {
       name: "information-office-m"
       priority: 4400
@@ -127633,6 +127840,9 @@ cont {
   }
   element {
     scale: 19
+    area {
+      priority: -1830
+    }
     symbol {
       name: "information-office-m"
       priority: 4400
@@ -127650,6 +127860,9 @@ cont {
   }
   element {
     scale: 20
+    area {
+      priority: -1830
+    }
     symbol {
       name: "information-office-m"
       priority: 4400
@@ -127669,7 +127882,22 @@ cont {
 cont {
   name: "tourism-information-visitor_centre"
   element {
+    scale: 13
+    area {
+      priority: -1830
+    }
+  }
+  element {
+    scale: 14
+    area {
+      priority: -1830
+    }
+  }
+  element {
     scale: 15
+    area {
+      priority: -1830
+    }
     symbol {
       name: "information-office-m"
       priority: 4400
@@ -127687,6 +127915,9 @@ cont {
   }
   element {
     scale: 16
+    area {
+      priority: -1830
+    }
     symbol {
       name: "information-office-m"
       priority: 4400
@@ -127704,6 +127935,9 @@ cont {
   }
   element {
     scale: 17
+    area {
+      priority: -1830
+    }
     symbol {
       name: "information-office-m"
       priority: 4400
@@ -127721,6 +127955,9 @@ cont {
   }
   element {
     scale: 18
+    area {
+      priority: -1830
+    }
     symbol {
       name: "information-office-m"
       priority: 4400
@@ -127738,6 +127975,9 @@ cont {
   }
   element {
     scale: 19
+    area {
+      priority: -1830
+    }
     symbol {
       name: "information-office-m"
       priority: 4400
@@ -127755,6 +127995,9 @@ cont {
   }
   element {
     scale: 20
+    area {
+      priority: -1830
+    }
     symbol {
       name: "information-office-m"
       priority: 4400
