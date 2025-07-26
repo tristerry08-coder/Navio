@@ -5159,8 +5159,9 @@ zh-Hans:摩托车租赁
 zh-Hant:摩托車租賃
 
 amenity-cinema|@category_entertainment
-en:3Cinema|U+1F3A6|U+1F3AC
-ru:Кинотеатр|3кино
+en:3Cinema|Film|U+1F3A6|U+1F3AC|
+en-US:Movies|4Movie Theater
+ru:Кинотеатр|3кино|фильм
 bg:3Кино|кинотеатър|филм|прожекция
 ar:سينما
 cs:3Kino|biograf
