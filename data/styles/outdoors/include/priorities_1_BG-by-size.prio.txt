@@ -60,6 +60,7 @@ amenity-marketplace                                 # area z15- (also has icon z
 amenity-police                                      # area z15- (also has icon z17-, caption(optional) z17-)
 amenity-recycling-centre                            # area z15- (also has icon z17-, caption(optional) z19-)
 amenity-social_facility                             # area z15- (also has icon z17-, caption(optional) z17-)
+amenity-ranger_station
 amenity-vehicle_inspection                          # area z15- (also has icon z16-, caption(optional) z16-)
 emergency-mountain_rescue                           # area z13- (also has icon z12-, caption(optional) z12-)
 highway-pedestrian-area                             # area z14- (also has line z13-, pathtext z14-)
@@ -71,6 +72,8 @@ leisure-resort                                      # area z13- (also has icon z
 leisure-water_park                                  # area z13- (also has icon z16-, caption(optional) z16-)
 office-diplomatic                                   # area z15- (also has icon z17-, caption(optional) z17-)
 tourism-camp_site                                   # area z13- (also has icon z13-, caption(optional) z13-)
+tourism-information-office
+tourism-information-visitor_centre
 === 170
 
 highway-footway-area                                # area z14- (also has line z11-, pathtext z13-)
@@ -114,6 +117,9 @@ amenity-parking-private                             # area z17- (also has icon z
 amenity-parking-street_side                         # area z17- (also has icon z18-, caption(optional) z18-)
 amenity-parking-street_side-fee                     # area z17- (also has icon z18-, caption(optional) z18-)
 amenity-parking-street_side-private                 # area z17- (also has icon z18-, caption(optional) z18-)
+amenity-bicycle_parking
+amenity-bicycle_parking-covered
+amenity-motorcycle_parking
 === 100
 
 natural-wetland                                     # area z11- (also has caption z16-)

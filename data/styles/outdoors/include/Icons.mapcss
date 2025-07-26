@@ -335,8 +335,8 @@ node|z15-[tourism=information][information=guidepost],
 node|z15-[tourism=information][information=map],
 {icon-image: map.svg;}
 
-node|z14-[amenity=ranger_station],
-{icon-image: ranger-station-m.svg; icon-min-distance: 10;}
+node|z13-[amenity=ranger_station],
+{icon-image: ranger-station-m.svg;}
 
 node|z14-[man_made=survey_point],
 {icon-image: survey_point-m.svg; font-size: 11;}

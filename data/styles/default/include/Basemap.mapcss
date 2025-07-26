@@ -497,7 +497,10 @@ area|z13-[leisure=resort],
 area|z13-[highway=services],
 area|z13-[highway=rest_area],
 area|z13-[landuse=garages],
+area|z13-[amenity=ranger_station],
+area|z13-[tourism=information][information=visitor_centre],
 
+area|z15-[tourism=information][information=office],
 area|z15-[leisure=dog_park],
 area|z15-[amenity=police],
 area|z15-[amenity=courthouse],
@@ -510,6 +513,8 @@ area|z15-[amenity=vehicle_inspection],
 area|z15-[amenity=car_wash],
 area|z15-[amenity=charging_station][motorcar?],
 area|z15-[amenity=fuel],
+area|z15-[amenity=motorcycle_parking],
+area|z15-[amenity=bicycle_parking],
 {fill-opacity: 1; fill-color: @general_area;}
 
 

@@ -28,6 +28,7 @@ amenity-parking-private                             # area z15- (also has icon z
 amenity-parking-street_side                         # area z15- (also has icon z17-)
 amenity-parking-street_side-fee                     # area z15- (also has icon z15-)
 amenity-parking-street_side-private                 # area z15- (also has icon z17-, caption(optional) z17-)
+amenity-motorcycle_parking
 === 160
 
 amenity-car_wash                                    # area z17- (also has icon z17-, caption(optional) z17-)

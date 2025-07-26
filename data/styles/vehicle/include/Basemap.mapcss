@@ -350,6 +350,7 @@ area|z15-[amenity=charging_station][motorcar?],
 area|z15-[amenity=fuel],
 area|z17-[amenity=vehicle_inspection],
 area|z17-[amenity=car_wash],
+area|z17-[amenity=motorcycle_parking],
 {fill-opacity: 1; fill-color: @general_area;}
 
 /* 7.6 Airports */
