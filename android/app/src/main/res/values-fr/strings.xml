@@ -9,7 +9,7 @@
     <string name="delete">Supprimer</string>
     <string name="download_maps">Télécharger des cartes</string>
     <!-- Settings/Downloader - info for country when download fails -->
-    <string name="download_has_failed">Échec lors du téléchargement. Appuyer pour réessayer.</string>
+    <string name="download_has_failed">Échec lors du téléchargement, appuyer pour réessayer.</string>
     <!-- Settings/Downloader - info for country which started downloading -->
     <string name="downloading">Téléchargement…</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->
@@ -32,7 +32,7 @@
     <!-- A dialog title, that warns a user that Precise Location is disabled and suggests to turn it on -->
     <string name="limited_accuracy">Précision limitée</string>
     <!-- A dialog text, that warns a user that Precise Location is disabled and suggests to turn it on -->
-    <string name="precise_location_is_disabled_long_text">Pour garantir une navigation précise, activez l\'option Position Exacte dans les paramètres.</string>
+    <string name="precise_location_is_disabled_long_text">Pour garantir une navigation précise, activez l\'option Position Exacte dans les paramètres</string>
     <!-- View and button titles for accessibility -->
     <string name="zoom_to_country">Afficher la carte</string>
     <!-- Message to display at the center of the screen when the country download has failed -->
@@ -184,7 +184,7 @@
     <!-- Alert message that we can't run Map Storage settings due to some reasons. -->
     <string name="cant_change_this_setting">Désolé, les paramètres de stockage des cartes sont présentement désactivés.</string>
     <!-- Alert message that downloading is in progress. -->
-    <string name="downloading_is_active">Le téléchargement de la carte est en cours.</string>
+    <string name="downloading_is_active">Le téléchargement de la carte est en cours</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">Hé, regardez ma position actuelle sur CoMaps ! %1$s ou %2$s. Les cartes hors ligne ne sont pas installées ? Les télécharger ici : https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
@@ -242,7 +242,7 @@
     <!-- Settings «Route» category: «Test Voice Directions» title -->
     <string name="pref_tts_test_voice_title">Teste les instructions vocales (TTS, Text-To-Speech)</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
-    <string name="pref_tts_playing_test_voice">Vérifie le volume ou les paramètres de synthèse vocale du système si tu n\'entends pas la voix maintenant.</string>
+    <string name="pref_tts_playing_test_voice">Vérifie le volume ou les paramètres de synthèse vocale du système si tu n\'entends pas la voix maintenant</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
     <string name="pref_tts_unavailable">Non disponible</string>
     <string name="pref_map_auto_zoom">Zoom automatique</string>
@@ -275,7 +275,7 @@
     <!-- Toast text when compass calibration may improve the correctness of the current position arrow -->
     <string name="compass_calibration_required">Déplacez le téléphone en huit pour calibrer la boussole et fixer la direction de la flèche sur la carte.</string>
     <!-- Toast text when user hides UI with a long tap anywhere on the map -->
-    <string name="long_tap_toast">Appuie à nouveau longuement sur la carte pour voir l\'interface.</string>
+    <string name="long_tap_toast">Appuie à nouveau longuement sur la carte pour voir l\'interface</string>
     <!-- Update all button text -->
     <string name="downloader_update_all_button">Tout mettre à jour</string>
     <!-- Cancel all button text -->
@@ -290,7 +290,7 @@
     <string name="downloader_download_all_button">Tout télécharger</string>
     <string name="downloader_downloading">Téléchargement en cours :</string>
     <!-- Displayed in a dialog that appears when a user tries to delete a map while the app is in the follow route mode -->
-    <string name="downloader_delete_map_while_routing_dialog">Veuillez arrêter la navigation pour supprimer la carte.</string>
+    <string name="downloader_delete_map_while_routing_dialog">Veuillez arrêter la navigation pour supprimer la carte</string>
     <!-- PointsInDifferentMWM -->
     <string name="routing_failed_cross_mwm_building">Les itinéraires ne peuvent être créés que s\'ils sont entièrement contenus dans la carte d\'une seule région.</string>
     <!-- Context menu item for downloader. -->
@@ -304,7 +304,7 @@
     <!-- Preference title -->
     <string name="google_play_services">Service de localisation Google Fused</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">Un service propriétaire qui combine le GPS, le Wi-Fi, les réseaux cellulaires... pour déterminer votre position plus précisément. Il peut se connecter aux serveurs de Google.</string>
+    <string name="pref_use_google_play">Un service propriétaire qui combine le GPS, le Wi-Fi, les réseaux cellulaires… pour déterminer votre position plus précisément. Il peut se connecter aux serveurs de Google.</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -362,18 +362,18 @@
     <string name="dialog_routing_location_turn_on">Activez les services de localisation</string>
     <string name="dialog_routing_location_unknown_turn_on">Impossible d\'identifier les coordonnées GPS actuelles. Activez les services de localisation pour calculer l\'itinéraire.</string>
     <string name="dialog_routing_unable_locate_route">Impossible de localiser l\'itinéraire</string>
-    <string name="dialog_routing_cant_build_route">Impossible de créer l\'itinéraire.</string>
-    <string name="dialog_routing_change_start_or_end">Modifiez votre point de départ ou votre destination.</string>
+    <string name="dialog_routing_cant_build_route">Impossible de créer l\'itinéraire</string>
+    <string name="dialog_routing_change_start_or_end">Modifiez votre point de départ ou votre destination</string>
     <string name="dialog_routing_change_start">Modifiez votre point de départ</string>
     <string name="dialog_routing_start_not_determined">Impossible de localiser le point de départ. L\'itinéraire n\'a pas pu être créé.</string>
-    <string name="dialog_routing_select_closer_start">Choisissez un point de départ à proximité d\'une route.</string>
+    <string name="dialog_routing_select_closer_start">Choisissez un point de départ à proximité d\'une route</string>
     <string name="dialog_routing_change_end">Ajustez la destination</string>
     <string name="dialog_routing_end_not_determined">Impossible de localiser la destination. L\'itinéraire n\'a pas pu être créé.</string>
-    <string name="dialog_routing_select_closer_end">Choisissez un lieu de destination à proximité d\'une route.</string>
-    <string name="dialog_routing_change_intermediate">Impossible de localiser le point intermédiaire.</string>
+    <string name="dialog_routing_select_closer_end">Choisissez un lieu de destination à proximité d\'une route</string>
+    <string name="dialog_routing_change_intermediate">Impossible de localiser le point intermédiaire</string>
     <string name="dialog_routing_intermediate_not_determined">Veuillez modifier votre point intermédiaire</string>
     <string name="dialog_routing_system_error">Erreur système</string>
-    <string name="dialog_routing_application_error">Impossible de créer l\'itinéraire à cause d\'une erreur dans l\'application.</string>
+    <string name="dialog_routing_application_error">Impossible de créer l\'itinéraire à cause d\'une erreur dans l\'application</string>
     <string name="dialog_routing_try_again">Veuillez réessayer</string>
     <string name="not_now">Pas maintenant</string>
     <string name="dialog_routing_download_and_build_cross_route">Voulez-vous télécharger la carte et créer un itinéraire plus direct s\'étendant sur plus d\'une carte ?</string>
@@ -387,11 +387,11 @@
     <string name="hide">Masquer</string>
     <string name="categories">Catégories</string>
     <string name="history">Historique</string>
-    <string name="search_not_found">Désolé, je n\'ai rien trouvé.</string>
+    <string name="search_not_found">Désolé, je n\'ai rien trouvé</string>
     <!-- The message when user did not find anything in the search. -->
     <string name="search_not_found_query">Téléchargez la région dans laquelle vous effectuez votre recherche ou essayez d\'ajouter le nom d\'une ville ou d\'un village proche.</string>
     <string name="search_history_title">Historique de recherche</string>
-    <string name="search_history_text">Accédez rapidement aux dernières recherches.</string>
+    <string name="search_history_text">Accédez rapidement aux dernières recherches</string>
     <string name="clear_search">Effacer l\'historique de recherche</string>
     <!-- Place Page link to Wikipedia article (if map object has it). -->
     <string name="read_in_wikipedia">Wikipédia</string>
@@ -399,7 +399,7 @@
     <string name="p2p_start">Démarrer</string>
     <string name="p2p_from_here">Depuis</string>
     <string name="p2p_to_here">Itinéraire vers</string>
-    <string name="p2p_only_from_current">La navigation est uniquement disponible à partir de votre emplacement actuel.</string>
+    <string name="p2p_only_from_current">La navigation est uniquement disponible à partir de votre emplacement actuel</string>
     <string name="p2p_reroute_from_current">Souhaitez-vous que nous planifiions un itinéraire à partir de votre emplacement actuel ?</string>
     <!-- Edit open hours/set time and minutes dialog -->
     <string name="next_button">Suivant</string>
@@ -471,16 +471,16 @@
     <string name="level">Étage</string>
     <!-- Building level -->
     <string name="level_value_generic">Niveau : %s</string>
-    <string name="downloader_delete_map_dialog">Toutes vos modifications de la carte seront supprimées avec elle.</string>
+    <string name="downloader_delete_map_dialog">Toutes vos modifications de la carte seront supprimées avec elle</string>
     <string name="downloader_update_maps">Mettre à jour les cartes</string>
     <string name="downloader_mwm_migration_dialog">Pour créer un itinéraire, vous devez mettre à jour toutes les cartes puis reprogrammer l\'itinéraire.</string>
     <string name="downloader_search_field_hint">Trouver la carte</string>
     <string name="common_check_internet_connection_dialog">Veuillez vérifier vos paramètres et vous assurer que votre appareil est bien connecté à Internet.</string>
     <string name="downloader_no_space_title">Espace insuffisant</string>
     <string name="downloader_no_space_message">Veuillez supprimer les données inutiles</string>
-    <string name="editor_login_error_dialog">Erreur de connexion.</string>
+    <string name="editor_login_error_dialog">Erreur de connexion</string>
     <string name="editor_profile_changes">Modifications vérifiées</string>
-    <string name="editor_focus_map_on_location">Déplacer la carte pour placer la croix à l\'emplacement du lieu ou de l\'entreprise.</string>
+    <string name="editor_focus_map_on_location">Déplacer la carte pour placer la croix à l\'emplacement du lieu ou de l\'entreprise</string>
     <string name="editor_edit_place_title">Modification</string>
     <string name="editor_add_place_title">Ajout</string>
     <string name="editor_edit_place_name_hint">Nom du lieu</string>
@@ -499,7 +499,7 @@
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d de %2$d</string>
     <string name="download_over_mobile_header">Téléchargement avec une connexion réseau cellulaire ?</string>
-    <string name="download_over_mobile_message">Cela pourrait être très cher avec certains abonnements ou si vous êtes en déplacement.</string>
+    <string name="download_over_mobile_message">Cela pourrait être très cher avec certains abonnements ou si vous êtes en déplacement</string>
     <string name="error_enter_correct_house_number">Saisir un numéro de maison correct</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Le nombre d\'étages ne doit pas dépasser %d</string>
@@ -523,7 +523,7 @@
     <string name="editor_category_unsuitable_text">CoMaps ne permet d\'ajouter que des catégories de points simples, c\'est-à-dire pas de villes, de routes, de lacs, de contours de bâtiments, etc. Merci d\'ajouter ces catégories directement sur <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Consulte notre <a href="https://www.comaps.app/support/advanced-map-editing/">guide</a> pour obtenir des instructions détaillées étape par étape.</string>
     <string name="downloader_no_downloaded_maps_title">Vous n\'avez téléchargé aucune carte</string>
     <string name="downloader_no_downloaded_maps_message">Téléchargez des cartes pour rechercher un lieu et utiliser la navigation hors ligne</string>
-    <string name="current_location_unknown_error_title">L\'emplacement actuel est inconnu.</string>
+    <string name="current_location_unknown_error_title">L\'emplacement actuel est inconnu</string>
     <!-- abbreviation for meters -->
     <string name="m">m</string>
     <!-- abbreviation for kilometers -->
@@ -562,7 +562,7 @@
     <!-- Displayed when saving some edits to the map to warn against publishing personal data -->
     <string name="editor_share_to_all_dialog_title">Souhaitez-vous l’envoyer à tous les utilisateurs ?</string>
     <!-- Dialog before publishing the modifications to the public map. -->
-    <string name="editor_share_to_all_dialog_message_1">Assurez-vous de n’avoir pas saisi de données personnelles.</string>
+    <string name="editor_share_to_all_dialog_message_1">Assurez-vous de n’avoir pas saisi de données personnelles</string>
     <string name="editor_share_to_all_dialog_message_2">Les contributeurs d\'OpenStreetMap vérifieront vos modifications et vous contacteront s\'ils ont des questions.</string>
     <!-- Shown as toast when starting the recent track recording -->
     <string name="track_recording">Enregistreur de traces</string>
@@ -589,7 +589,7 @@
     <string name="feedback_general">Feedback général</string>
     <string name="prefs_languages_information">Nous utilisons le système TTS pour les instructions vocales. De nombreux appareils Android utilisent Google TTS, vous pouvez le télécharger ou le mettre à jour depuis Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts)</string>
     <string name="prefs_languages_information_off">Pour certaines langues, il vous faudra installer un autre logiciel de synthèse vocale ou un pack de langue supplémentaire depuis l’app store (Google Play, Galaxy Store, App Gallery, FDroid). \nOuvrez les paramètres de votre appareil → Langue et saisie → Reconnaissance vocale → Saisie vocale. \nIci, vous pouvez gérer les paramètres pour la synthèse vocale (par exemple, télécharger un pack de langue pour une utilisation en mode hors ligne) et sélectionner un autre moteur de saisie vocale.</string>
-    <string name="prefs_languages_information_off_link">Pour plus d’informations, veuillez consulter ce guide.</string>
+    <string name="prefs_languages_information_off_link">Pour plus d’informations, veuillez consulter ce guide</string>
     <string name="transliteration_title">Translittératisé en alphabet latin</string>
     <string name="learn_more">En savoir plus</string>
     <!-- Subway exits for public transport marks on the map -->

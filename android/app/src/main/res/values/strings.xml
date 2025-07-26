@@ -12,7 +12,7 @@
     <string name="delete">Delete</string>
     <string name="download_maps">Download Maps</string>
     <!-- Settings/Downloader - info for country when download fails -->
-    <string name="download_has_failed">Download has failed. Tap to try again.</string>
+    <string name="download_has_failed">Download has failed, tap to try again</string>
     <!-- Settings/Downloader - info for country which started downloading -->
     <string name="downloading">Downloading…</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->
@@ -35,7 +35,7 @@
     <!-- A dialog title, that warns a user that Precise Location is disabled and suggests to turn it on -->
     <string name="limited_accuracy">Limited Accuracy</string>
     <!-- A dialog text, that warns a user that Precise Location is disabled and suggests to turn it on -->
-    <string name="precise_location_is_disabled_long_text">To ensure accurate navigation enable Precise Location in settings.</string>
+    <string name="precise_location_is_disabled_long_text">To ensure accurate navigation enable Precise Location in settings</string>
     <!-- View and button titles for accessibility -->
     <string name="zoom_to_country">Show on the map</string>
     <!-- Message to display at the center of the screen when the country download has failed -->
@@ -96,7 +96,7 @@
     <!-- Header of settings activity where user defines storage path -->
     <string name="maps_storage">Save maps to</string>
     <!-- Detailed description of Maps Storage settings button -->
-    <string name="maps_storage_summary">Select the folder to download maps to.</string>
+    <string name="maps_storage_summary">Select the folder to download maps to</string>
     <!-- E.g. "Downloaded maps: 500Mb" in Maps Storage settings -->
     <string name="maps_storage_downloaded">Downloaded maps</string>
     <!-- Internal storage type in Maps Storage settings (not accessible by the user) -->
@@ -197,9 +197,9 @@
     <!-- Warning message when doing search around current position -->
     <string name="unknown_current_position">Your location hasn\'t been determined yet</string>
     <!-- Alert message that we can't run Map Storage settings due to some reasons. -->
-    <string name="cant_change_this_setting">Sorry, Map Storage settings are currently disabled.</string>
+    <string name="cant_change_this_setting">Sorry, Map Storage settings are currently disabled</string>
     <!-- Alert message that downloading is in progress. -->
-    <string name="downloading_is_active">Map download is in progress now.</string>
+    <string name="downloading_is_active">Map download is in progress now</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">Check out my current location in CoMaps! %1$s or %2$s Don\'t have offline maps? Download here: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
@@ -261,7 +261,7 @@
     <!-- Settings «Route» category: «Test Voice Directions» title -->
     <string name="pref_tts_test_voice_title">Test Voice Directions (TTS, Text-To-Speech)</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
-    <string name="pref_tts_playing_test_voice">Check the volume or system Text-To-Speech settings if you don\'t hear the voice now.</string>
+    <string name="pref_tts_playing_test_voice">Check the volume or system Text-To-Speech settings if you don\'t hear the voice now</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
     <string name="pref_tts_unavailable">Not Available</string>
     <string name="pref_map_auto_zoom">Auto zoom</string>
@@ -333,7 +333,7 @@
     <string name="downloader_download_all_button">Download All</string>
     <string name="downloader_downloading">Downloading:</string>
     <!-- Displayed in a dialog that appears when a user tries to delete a map while the app is in the follow route mode -->
-    <string name="downloader_delete_map_while_routing_dialog">To delete map, please stop navigation.</string>
+    <string name="downloader_delete_map_while_routing_dialog">To delete map, please stop navigation</string>
     <!-- PointsInDifferentMWM -->
     <string name="routing_failed_cross_mwm_building">Routes can only be created that are fully contained within a map of a single region.</string>
     <!-- Context menu item for downloader. -->
@@ -404,18 +404,18 @@
     <string name="dialog_routing_location_turn_on">Enable location services</string>
     <string name="dialog_routing_location_unknown_turn_on">Unable to locate current GPS coordinates. Enable location services to calculate route.</string>
     <string name="dialog_routing_unable_locate_route">Unable to locate route</string>
-    <string name="dialog_routing_cant_build_route">Unable to create route.</string>
+    <string name="dialog_routing_cant_build_route">Unable to create route</string>
     <string name="dialog_routing_change_start_or_end">Please adjust your starting point or destination.</string>
     <string name="dialog_routing_change_start">Adjust starting point</string>
     <string name="dialog_routing_start_not_determined">Route was not created. Unable to locate starting point.</string>
     <string name="dialog_routing_select_closer_start">Please select a starting point closer to a road.</string>
     <string name="dialog_routing_change_end">Adjust destination</string>
     <string name="dialog_routing_end_not_determined">Route was not created. Unable to locate the destination.</string>
-    <string name="dialog_routing_select_closer_end">Please select a destination point located closer to a road.</string>
-    <string name="dialog_routing_change_intermediate">Unable to locate the intermediate point.</string>
-    <string name="dialog_routing_intermediate_not_determined">Please adjust your intermediate point.</string>
+    <string name="dialog_routing_select_closer_end">Please select a destination point located closer to a road</string>
+    <string name="dialog_routing_change_intermediate">Unable to locate the intermediate point</string>
+    <string name="dialog_routing_intermediate_not_determined">Please adjust your intermediate point</string>
     <string name="dialog_routing_system_error">System error</string>
-    <string name="dialog_routing_application_error">Unable to create route due to an application error.</string>
+    <string name="dialog_routing_application_error">Unable to create route due to an application error</string>
     <string name="dialog_routing_try_again">Please try again</string>
     <string name="not_now">Not Now</string>
     <string name="dialog_routing_download_and_build_cross_route">Would you like to download the map and create a more optimal route spanning more than one map?</string>
@@ -430,11 +430,11 @@
     <string name="hide">Hide</string>
     <string name="categories">Categories</string>
     <string name="history">History</string>
-    <string name="search_not_found">Oops, no results found.</string>
+    <string name="search_not_found">Oops, no results found</string>
     <!-- The message when user did not find anything in the search. -->
     <string name="search_not_found_query">Download the region where you are searching or try adding a nearby town/village name.</string>
     <string name="search_history_title">Search History</string>
-    <string name="search_history_text">View your recent searches.</string>
+    <string name="search_history_text">View your recent searches</string>
     <string name="clear_search">Clear Search History</string>
     <!-- Place Page link to Wikipedia article (if map object has it). -->
     <string name="read_in_wikipedia">Wikipedia</string>
@@ -444,7 +444,7 @@
     <string name="p2p_start">Start</string>
     <string name="p2p_from_here">Route from</string>
     <string name="p2p_to_here">Route to</string>
-    <string name="p2p_only_from_current">Navigation is only available from your current location.</string>
+    <string name="p2p_only_from_current">Navigation is only available from your current location</string>
     <string name="p2p_reroute_from_current">Do you want to plan a route from your current location?</string>
     <!-- Edit open hours/set time and minutes dialog -->
     <string name="next_button">Next</string>
@@ -516,14 +516,14 @@
     <string name="level">Floor</string>
     <!-- Building level -->
     <string name="level_value_generic">Level: %s</string>
-    <string name="downloader_delete_map_dialog">All of your map edits will be deleted with the map.</string>
+    <string name="downloader_delete_map_dialog">All of your map edits will be deleted with the map</string>
     <string name="downloader_update_maps">Update Maps</string>
     <string name="downloader_mwm_migration_dialog">To create a route, you need to update all maps and then plan the route again.</string>
     <string name="downloader_search_field_hint">Find map</string>
-    <string name="common_check_internet_connection_dialog">Please make sure your device is connected to the Internet.</string>
+    <string name="common_check_internet_connection_dialog">Please make sure your device is connected to the Internet</string>
     <string name="downloader_no_space_title">Not enough space</string>
     <string name="downloader_no_space_message">Please delete any unnecessary data</string>
-    <string name="editor_login_error_dialog">Login error.</string>
+    <string name="editor_login_error_dialog">Login error</string>
     <string name="editor_profile_changes">Verified Changes</string>
     <string name="editor_focus_map_on_location">Drag the map to place the cross at the location of the place or business.</string>
     <string name="editor_edit_place_title">Editing</string>
@@ -541,11 +541,11 @@
     <!-- OSM explanation on Android login screen -->
     <string name="login_osm_presentation">OpenStreetMap.org (OSM) is a community project to build a free and open map. It\'s the main source of map data in CoMaps and works similar to Wikipedia. You can add or edit places and they become available to millions of users all over the World.
 \nJoin the community and help to make a better map for everyone!</string>
-    <string name="login_to_make_edits_visible">Create an OpenStreetMap account or log in to publish your map edits to the world.</string>
+    <string name="login_to_make_edits_visible">Create an OpenStreetMap account or log in to publish your map edits to the world</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d of %2$d</string>
     <string name="download_over_mobile_header">Download over a cellular network connection?</string>
-    <string name="download_over_mobile_message">This could be considerably expensive with some plans or if roaming.</string>
+    <string name="download_over_mobile_message">This could be considerably expensive with some plans or if roaming</string>
     <string name="error_enter_correct_house_number">Enter a valid building number</string>
     <string name="editor_building_levels">Floors (inc. ground floor, excl. roof)</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
@@ -569,8 +569,8 @@
     <string name="editor_category_unsuitable_title">Can\'t find a suitable category?</string>
     <string name="editor_category_unsuitable_text">CoMaps allows to add simple point categories only, that means no towns, roads, lakes, building outlines, etc. Please add such categories directly to <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Check our <a href="https://www.comaps.app/support/advanced-map-editing/">guide</a> for detailed step by step instructions.</string>
     <string name="downloader_no_downloaded_maps_title">You haven\'t downloaded any maps</string>
-    <string name="downloader_no_downloaded_maps_message">Download maps to search and navigate offline.</string>
-    <string name="current_location_unknown_error_title">Current location is unknown.</string>
+    <string name="downloader_no_downloaded_maps_message">Download maps to search and navigate offline</string>
+    <string name="current_location_unknown_error_title">Current location is unknown</string>
     <!-- abbreviation for meters -->
     <string name="m">m</string>
     <!-- abbreviation for kilometers -->
@@ -613,8 +613,8 @@
     <!-- Displayed when saving some edits to the map to warn against publishing personal data -->
     <string name="editor_share_to_all_dialog_title">Do you want to send it to all users?</string>
     <!-- Dialog before publishing the modifications to the public map. -->
-    <string name="editor_share_to_all_dialog_message_1">Make sure you did not enter any private or personal data.</string>
-    <string name="editor_share_to_all_dialog_message_2">OpenStreetMap editors will check the changes and contact you if they have any questions.</string>
+    <string name="editor_share_to_all_dialog_message_1">Make sure you did not enter any private or personal data</string>
+    <string name="editor_share_to_all_dialog_message_2">OpenStreetMap editors will check the changes and contact you if they have any questions</string>
     <string name="navigation_stop_button">Stop</string>
     <!-- Shown as toast when starting the recent track recording -->
     <string name="track_recording">Recording the track</string>
@@ -628,10 +628,10 @@
     <string name="mobile_data_option_not_today">Do Not Use Today</string>
     <string name="mobile_data">Mobile Internet</string>
     <!-- NOTE to translators: please synchronize your translation with the English one. -->
-    <string name="mobile_data_description">Mobile internet is required for map update notifications and uploading edits.</string>
+    <string name="mobile_data_description">Mobile internet is required for map update notifications and uploading edits</string>
     <string name="mobile_data_option_never">Never Use</string>
     <string name="mobile_data_option_ask">Always Ask</string>
-    <string name="traffic_update_maps_text">To display traffic data, maps must be updated.</string>
+    <string name="traffic_update_maps_text">To display traffic data, maps must be updated</string>
     <string name="big_font">Increase size for map labels</string>
     <string name="traffic_update_app">Please update CoMaps</string>
     <!-- "traffic" as in "road congestion" -->
@@ -643,7 +643,7 @@
     <string name="prefs_languages_information_off">For some languages, you will need to install a speech synthesizer or an additional language pack from the app store (Google Play, Galaxy Store, App Gallery, FDroid).
 \nOpen your device\'s settings → Language and input → Speech → Text to speech output.
 \nHere you can manage settings for speech synthesis (for example, download language pack for offline use) and select another text-to-speech engine.</string>
-    <string name="prefs_languages_information_off_link">For more information please check this guide.</string>
+    <string name="prefs_languages_information_off_link">For more information please check this guide</string>
     <string name="transliteration_title">Transliterate into Latin alphabet</string>
     <string name="learn_more">Learn more</string>
     <!-- Subway exits for public transport marks on the map -->
@@ -723,7 +723,7 @@
     <!-- Speed camera settings menu option - Never warn (about speedcams) -->
     <string name="pref_tts_speedcams_never">Never warn</string>
     <string name="power_managment_title">Power saving mode</string>
-    <string name="power_managment_description">Try to reduce power usage at the expense of some functionality.</string>
+    <string name="power_managment_description">Try to reduce power usage at the expense of some functionality</string>
     <string name="power_managment_setting_never">Never</string>
     <string name="power_managment_setting_auto">When battery is low</string>
     <string name="power_managment_setting_manual_max">Always</string>
