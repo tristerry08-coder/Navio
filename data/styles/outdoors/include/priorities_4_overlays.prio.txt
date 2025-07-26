@@ -1263,6 +1263,7 @@ landuse-industrial-mine                             # icon z15- (also has captio
 landuse-landfill                                    # icon z15- (also has caption(optional) z15-, area z13-)
 landuse-quarry                                      # icon z15- (also has caption(optional) z15-, area z13-)
 landuse-railway                                     # caption z15- (also has area z13-)
+landuse-retail
 landuse-residential                                 # caption z17-
 leisure-common                                      # caption z17-
 leisure-slipway                                     # caption z17-

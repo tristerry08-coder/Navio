@@ -659,7 +659,8 @@ node|z17-[landuse=military]
 
 /* 	7.7 Commercial */
 
-area|z17-[landuse=commercial]
+area|z16-[landuse=retail],
+area|z16-[landuse=commercial],
 {text: name;font-size: 10;text-color: @poi_label;text-position: center;}
 
 /* 8.BUILDINGS */
