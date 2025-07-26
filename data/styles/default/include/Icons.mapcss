@@ -1916,6 +1916,7 @@ node|z14-[amenity=fuel],
 node|z14-[amenity=charging_station][motorcar?],
 area|z14-[highway=services],
 area|z15-[highway=rest_area],
+area|z15-[landuse=garages],
 node|z15-[amenity=sanitary_dump_station],
 node|z16-[amenity=charging_station],
 node|z17-[amenity=bicycle_parking],
@@ -1925,6 +1926,9 @@ node|z18-[amenity=parking],
 node|z18-[amenity=car_rental],
 node|z18-[amenity=car_sharing],
 {text: name;text-color: @poi_label;text-offset: 1;font-size: 10;}
+
+area|z18-[landuse=garages],
+{font-size: 11;}
 
 node|z14[amenity=fuel],
 {icon-image: fuel-s.svg; text-offset: 1; icon-min-distance: 20;}

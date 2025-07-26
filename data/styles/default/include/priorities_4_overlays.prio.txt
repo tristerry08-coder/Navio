@@ -1098,6 +1098,7 @@ amenity-social_facility                             # icon z17- (also has captio
 amenity-waste_transfer_station                      # icon z17- (also has caption(optional) z19-, area z13-)
 highway-ladder                                      # icon z17- (also has caption(optional) z17-)
 historic-ruins                                      # icon z17- (also has caption(optional) z17-)
+landuse-garages
 landuse-farmland                                    # caption z15- (also has area z10-)
 landuse-orchard                                     # caption z15- (also has area z12-)
 landuse-vineyard                                    # caption z15- (also has area z12-)

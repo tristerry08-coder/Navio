@@ -804,6 +804,7 @@ node|z16-[amenity=charging_station],
 area|z16-[amenity=charging_station],
 node|z16-[amenity=parking],
 area|z16-[amenity=parking],
+area|z16-[landuse=garages],
 node|z17-[amenity=car_wash],
 area|z17-[amenity=car_wash],
 node|z17-[amenity=toilets],
@@ -914,6 +915,13 @@ area|z17-[amenity=sanitary_dump_station]
 node|z18-[amenity=sanitary_dump_station],
 area|z18-[amenity=sanitary_dump_station]
 {font-size: 14.5; icon-min-distance: 10;}
+
+area|z16[landuse=garages],
+{font-size: 12.5;}
+area|z17[landuse=garages],
+{font-size: 13.75;}
+area|z18-[landuse=garages],
+{font-size: 14.5;}
 
 node|z18-[amenity=compressed_air],
 area|z18-[amenity=compressed_air],
