@@ -262,7 +262,7 @@
     <!-- In maps downloader and country place page shows how many maps are downloaded / to download, e.g. "Maps: 3 of 10" -->
     <string name="downloader_status_maps">Kartor</string>
     <string name="downloader_download_all_button">Ladda ned alla</string>
-    <string name="downloader_downloading">Ladda ner:</string>
+    <string name="downloader_downloading">Laddar ner:</string>
     <!-- Displayed in a dialog that appears when a user tries to delete a map while the app is in the follow route mode -->
     <string name="downloader_delete_map_while_routing_dialog">Avsluta navigering för att radera kartan.</string>
     <!-- PointsInDifferentMWM -->
@@ -278,7 +278,7 @@
     <!-- Preference title -->
     <string name="google_play_services">Google Play platstjänster</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">Fastställ snabbt din ungefärliga position via Bluetooth, WiFi eller mobilnät</string>
+    <string name="pref_use_google_play">En proprietär tjänst som kombinerar GPS, Wi-Fi, mobilnätverk, etc. för att fastställa din position mer exakt. Den kan ansluta till Googles servrar.</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -873,4 +873,6 @@
     <string name="open_now">Öppet nu</string>
     <string name="closed_now">Stängt nu</string>
     <string name="at">kl. %s</string>
+    <string name="enable_show_on_lock_screen_description">Vid aktivering kommer appen fungera på låsskärmen även när enheten är låst.</string>
+    <string name="about_help">Om &amp; Hjälp</string>
 </resources>

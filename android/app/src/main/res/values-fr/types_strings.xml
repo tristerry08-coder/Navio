@@ -1408,4 +1408,6 @@
     <string name="type.natural.wetland.tidalflat">Estran</string>
     <string name="type.natural.wetland.reedbed">Roselière</string>
     <string name="type.natural.wetland.saltmarsh">Marais salant</string>
+    <string name="type.amenity.bicycle_parking.covered">Parking vélo couvert</string>
+    <string name="type.amenity.luggage_locker">Casier à bagages</string>
 </resources>

@@ -1401,4 +1401,6 @@
     <string name="type.traffic_calming.hump">減速丘</string>
     <string name="type.sport.diving">高台跳水</string>
     <string name="type.railway.station.subway.qingdao">地下鐵站</string>
+    <string name="type.natural.wetland.mangrove">Мангровий ліс</string>
+    <string name="type.natural.wetland.tidalflat">Припливна мілина</string>
 </resources>

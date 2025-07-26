@@ -1392,4 +1392,26 @@
     <string name="type.psurface.unpaved_bad">psurface-unpaved_bad</string>
     <string name="type.route.shuttle_train">route-shuttle_train</string>
     <string name="type.psurface.unpaved_good">psurface-unpaved_good</string>
+    <string name="type.amenity.studio">Студія</string>
+    <string name="type.amenity.luggage_locker">Камера схову</string>
+    <string name="type.man_made.crane">Кран</string>
+    <string name="type.landuse.plant_nursery">Розсадник</string>
+    <string name="type.amenity.ranger_station">Лісництво</string>
+    <string name="type.amenity.bicycle_parking.covered">Критий велосипедний паркінг</string>
+    <string name="type.post_office.post_partner">Поштовий партнер</string>
+    <string name="type.highway.ladder">Драбина</string>
+    <string name="type.leisure.firepit">Вогнище</string>
+    <string name="type.sport.diving">Стрибки у воду з висоти</string>
+    <string name="type.amenity.love_hotel">Любовний готель</string>
+    <string name="type.barrier.guard_rail">Відбійник</string>
+    <string name="type.landuse.religious">Релігійна територія</string>
+    <string name="type.natural.wetland.reedbed">Очеретяні зарості</string>
+    <string name="type.natural.wetland.swamp">Болото</string>
+    <string name="type.natural.wetland.saltmarsh">Солоне болото</string>
+    <string name="type.natural.wetland.saltmarsh.tidal">Припливне солоне болото</string>
+    <string name="type.natural.wetland.fen">Низинне болото</string>
+    <string name="type.natural.wetland.mangrove">Мангровий ліс</string>
+    <string name="type.natural.wetland.tidalflat">Припливна мілина</string>
+    <string name="type.railway.station.subway.qingdao">Станція метро</string>
+    <string name="type.leisure.escape_game">Квест-кімната</string>
 </resources>

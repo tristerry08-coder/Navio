@@ -352,7 +352,7 @@
 /* In maps downloader and country place page shows how many maps are downloaded / to download, e.g. "Maps: 3 of 10" */
 "downloader_status_maps" = "Kartor";
 "downloader_download_all_button" = "Ladda ned alla";
-"downloader_downloading" = "Ladda ner:";
+"downloader_downloading" = "Laddar ner:";
 "downloader_search_results" = "Hittat";
 
 /* Status of outdated country in the list */
