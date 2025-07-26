@@ -1500,3 +1500,7 @@
 "type.man_made.crane" = "Кран";
 "type.railway.station.subway.qingdao" = "Станция метро";
 "type.leisure.escape_game" = "Escape Room";
+"type.amenity.luggage_locker" = "Luggage Locker";
+"type.amenity.bicycle_parking.covered" = "Covered Bicycle Parking";
+"type.post_office.post_partner" = "Post Partner";
+"type.amenity.ranger_station" = "Ranger Station";

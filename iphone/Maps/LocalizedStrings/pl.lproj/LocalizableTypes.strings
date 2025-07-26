@@ -1500,3 +1500,7 @@
 "type.amenity.studio" = "Studio";
 "type.barrier.guard_rail" = "Barierka ochronna";
 "type.leisure.escape_game" = "Escape Room";
+"type.amenity.luggage_locker" = "Luggage Locker";
+"type.amenity.bicycle_parking.covered" = "Covered Bicycle Parking";
+"type.post_office.post_partner" = "Post Partner";
+"type.amenity.ranger_station" = "Ranger Station";

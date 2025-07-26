@@ -1500,3 +1500,7 @@
 "type.natural.wetland.saltmarsh.tidal" = "潮間鹽沼";
 "type.natural.wetland.reedbed" = "Reed Bed";
 "type.leisure.escape_game" = "密室脫逃";
+"type.amenity.luggage_locker" = "Luggage Locker";
+"type.amenity.ranger_station" = "Ranger Station";
+"type.amenity.bicycle_parking.covered" = "Covered Bicycle Parking";
+"type.post_office.post_partner" = "Post Partner";
