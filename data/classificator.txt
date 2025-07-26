@@ -34,7 +34,9 @@ world  +
         bar  -
         bbq  -
         bench  -
-        bicycle_parking  -
+        bicycle_parking  +
+            covered  -
+            {}
         bicycle_rental  -
         bicycle_repair_station  -
         biergarten  -
@@ -84,6 +86,7 @@ world  +
         library  -
         loading_dock  -
         love_hotel  -
+        luggage_locker  -
         marketplace  -
         money_transfer  -
         motorcycle_parking  -
@@ -145,6 +148,7 @@ world  +
         pub  -
         public_bath  -
         public_bookcase  -
+        ranger_station  -
         recycling  +
             centre  -
             container  -
@@ -882,6 +886,9 @@ world  +
         suburb  -
         town  -
         village  -
+        {}
+    post_office  +
+        post_partner  -
         {}
     power  +
         generator  +

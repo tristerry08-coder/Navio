@@ -3596,6 +3596,73 @@ cont {
   }
 }
 cont {
+  name: "amenity-bicycle_parking-covered"
+  element {
+    scale: 17
+    symbol {
+      name: "bicycle-parking-covered-m"
+      priority: 250
+    }
+    caption {
+      primary {
+        height: 10
+        color: 9211020
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -9750
+    }
+  }
+  element {
+    scale: 18
+    symbol {
+      name: "bicycle-parking-covered-m"
+      priority: 250
+    }
+    caption {
+      primary {
+        height: 10
+        color: 9211020
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -9750
+    }
+  }
+  element {
+    scale: 19
+    symbol {
+      name: "bicycle-parking-covered-m"
+      priority: 250
+    }
+    caption {
+      primary {
+        height: 10
+        color: 9211020
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -9750
+    }
+  }
+  element {
+    scale: 20
+    symbol {
+      name: "bicycle-parking-covered-m"
+      priority: 250
+    }
+    caption {
+      primary {
+        height: 10
+        color: 9211020
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -9750
+    }
+  }
+}
+cont {
   name: "amenity-bicycle_rental"
   element {
     scale: 17
@@ -7720,6 +7787,55 @@ cont {
         is_optional: true
       }
       priority: -9500
+    }
+  }
+}
+cont {
+  name: "amenity-luggage_locker"
+  element {
+    scale: 17
+    symbol {
+      name: "luggage_locker-m"
+      priority: 450
+    }
+  }
+  element {
+    scale: 18
+    symbol {
+      name: "luggage_locker-m"
+      priority: 450
+    }
+  }
+  element {
+    scale: 19
+    symbol {
+      name: "luggage_locker-m"
+      priority: 450
+    }
+    caption {
+      primary {
+        height: 11
+        color: 9211020
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -9550
+    }
+  }
+  element {
+    scale: 20
+    symbol {
+      name: "luggage_locker-m"
+      priority: 450
+    }
+    caption {
+      primary {
+        height: 11
+        color: 9211020
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -9550
     }
   }
 }
@@ -12095,6 +12211,128 @@ cont {
         is_optional: true
       }
       priority: -9550
+    }
+  }
+}
+cont {
+  name: "amenity-ranger_station"
+  element {
+    scale: 14
+    symbol {
+      name: "ranger-station-m"
+      priority: 4400
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 9211020
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -5600
+    }
+  }
+  element {
+    scale: 15
+    symbol {
+      name: "ranger-station-m"
+      priority: 4400
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 9211020
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -5600
+    }
+  }
+  element {
+    scale: 16
+    symbol {
+      name: "ranger-station-m"
+      priority: 4400
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 9211020
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -5600
+    }
+  }
+  element {
+    scale: 17
+    symbol {
+      name: "ranger-station-m"
+      priority: 4400
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 9211020
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -5600
+    }
+  }
+  element {
+    scale: 18
+    symbol {
+      name: "ranger-station-m"
+      priority: 4400
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 9211020
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -5600
+    }
+  }
+  element {
+    scale: 19
+    symbol {
+      name: "ranger-station-m"
+      priority: 4400
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 9211020
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -5600
+    }
+  }
+  element {
+    scale: 20
+    symbol {
+      name: "ranger-station-m"
+      priority: 4400
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 9211020
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -5600
     }
   }
 }
@@ -67944,7 +68182,7 @@ cont {
     }
     symbol {
       name: "embassy-m"
-      priority: 500
+      priority: 2450
     }
     caption {
       primary {
@@ -67953,7 +68191,7 @@ cont {
         offset_y: 1
         is_optional: true
       }
-      priority: -9500
+      priority: -7550
     }
   }
   element {
@@ -67963,7 +68201,7 @@ cont {
     }
     symbol {
       name: "embassy-m"
-      priority: 500
+      priority: 2450
     }
     caption {
       primary {
@@ -67972,7 +68210,7 @@ cont {
         offset_y: 1
         is_optional: true
       }
-      priority: -9500
+      priority: -7550
     }
   }
   element {
@@ -67982,7 +68220,7 @@ cont {
     }
     symbol {
       name: "embassy-m"
-      priority: 500
+      priority: 2450
     }
     caption {
       primary {
@@ -67991,7 +68229,7 @@ cont {
         offset_y: 1
         is_optional: true
       }
-      priority: -9500
+      priority: -7550
     }
   }
   element {
@@ -68001,7 +68239,7 @@ cont {
     }
     symbol {
       name: "embassy-m"
-      priority: 500
+      priority: 2450
     }
     caption {
       primary {
@@ -68010,7 +68248,7 @@ cont {
         offset_y: 1
         is_optional: true
       }
-      priority: -9500
+      priority: -7550
     }
   }
 }
@@ -76468,6 +76706,57 @@ cont {
         offset_y: 1
       }
       priority: 6900
+    }
+  }
+}
+cont {
+  name: "post_office-post_partner"
+  element {
+    scale: 18
+    symbol {
+      name: "mail-m"
+      priority: 470
+    }
+    caption {
+      primary {
+        height: 11
+        color: 9211020
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -9530
+    }
+  }
+  element {
+    scale: 19
+    symbol {
+      name: "mail-m"
+      priority: 470
+    }
+    caption {
+      primary {
+        height: 11
+        color: 9211020
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -9530
+    }
+  }
+  element {
+    scale: 20
+    symbol {
+      name: "mail-m"
+      priority: 470
+    }
+    caption {
+      primary {
+        height: 11
+        color: 9211020
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -9530
     }
   }
 }

@@ -44084,6 +44084,57 @@ cont {
   }
 }
 cont {
+  name: "post_office-post_partner"
+  element {
+    scale: 18
+    symbol {
+      name: "mail-m"
+      priority: 200
+    }
+    caption {
+      primary {
+        height: 11
+        color: 6710886
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -9800
+    }
+  }
+  element {
+    scale: 19
+    symbol {
+      name: "mail-m"
+      priority: 200
+    }
+    caption {
+      primary {
+        height: 11
+        color: 6710886
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -9800
+    }
+  }
+  element {
+    scale: 20
+    symbol {
+      name: "mail-m"
+      priority: 200
+    }
+    caption {
+      primary {
+        height: 11
+        color: 6710886
+        offset_y: 1
+        is_optional: true
+      }
+      priority: -9800
+    }
+  }
+}
+cont {
   name: "power-generator"
   element {
     scale: 15
