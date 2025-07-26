@@ -53,6 +53,9 @@ A community-led free & open source maps app based on [OpenStreetMap](https://www
   <a href="https://f-droid.org/en/packages/app.comaps.fdroid/">
     <img src="docs/badges/fdroid.png" alt="F-Droid" width="160"/>
   </a>
+  <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://codeberg.org/comaps/comaps">
+    <img src="docs/badges/obtainium.png" alt="Obtainium" width="160"/>
+  </a>
   <a href="https://codeberg.org/comaps/comaps/releases">
     <img src="docs/badges/codeberg.png" alt="Codeberg" width="160"/>
   </a>
