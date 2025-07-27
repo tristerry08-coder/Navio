@@ -23,7 +23,7 @@
     android:gravity="center"
     android:minWidth="@dimen/nav_numbers_side_min_width">
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:id="@+id/speed_value"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
       tools:text="999" />
 
     <!-- Speed -->
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:id="@+id/speed_dimen"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -63,7 +63,7 @@
       android:layout_height="wrap_content"
       tools:background="#20FF0000">
 
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
         android:id="@+id/time_hour_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
         android:textAppearance="@style/MwmTextAppearance.NavMenu.Time"
         tools:text="999" />
 
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
         android:id="@+id/time_hour_dimen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -82,7 +82,7 @@
         android:textAppearance="@style/MwmTextAppearance.NavMenu.Time.Dimension"
         tools:text="h" />
 
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
         android:id="@+id/time_minute_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -92,7 +92,7 @@
         android:textAppearance="@style/MwmTextAppearance.NavMenu.Time"
         tools:text="99" />
 
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
         android:id="@+id/time_minute_dimen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -102,7 +102,7 @@
         tools:text="m" />
     </LinearLayout>
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:id="@+id/time_estimate"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -126,7 +126,7 @@
     android:gravity="center"
     android:minWidth="@dimen/nav_numbers_side_min_width">
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:id="@+id/distance_value"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -135,7 +135,7 @@
       android:textAppearance="@style/MwmTextAppearance.NavMenu.Number"
       tools:text="99999" />
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:id="@+id/distance_dimen"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"

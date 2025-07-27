@@ -26,7 +26,7 @@
       android:layout_toEndOf="@id/av__direction"
       android:orientation="vertical">
 
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tv__title"
         style="@style/MwmWidget.TextView.Direction"
         android:layout_width="wrap_content"
@@ -35,7 +35,7 @@
         android:textSize="@dimen/text_direction_title"
         tools:text="Some place"/>
 
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tv__subtitle"
         style="@style/MwmWidget.TextView.Direction"
         android:layout_width="wrap_content"
@@ -44,7 +44,7 @@
         android:textSize="@dimen/text_direction_subtitle"
         tools:text="Some place type"/>
 
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tv__straight_distance"
         style="@style/MwmWidget.TextView.Direction"
         android:layout_width="wrap_content"
@@ -53,7 +53,7 @@
         android:textSize="@dimen/text_direction_dist"
         tools:text="9000 km"/>
 
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
           android:id="@+id/tv__azimuth"
           style="@style/MwmWidget.TextView.Direction"
           android:layout_width="wrap_content"

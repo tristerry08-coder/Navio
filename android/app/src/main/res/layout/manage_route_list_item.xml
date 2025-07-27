@@ -6,7 +6,7 @@
   android:layout_height="60dp"
   android:gravity="center_vertical">
 
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/type_icon"
     android:layout_width="24dp"
     android:layout_height="24dp"
@@ -15,7 +15,7 @@
     app:layout_constraintBottom_toBottomOf="parent"
     app:srcCompat="@drawable/route_point_finish"/>
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/title"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
     app:layout_constrainedWidth="true"
     tools:text="Title"/>
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/subtitle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
     app:layout_constrainedWidth="true"
     tools:text="Subtitle"/>
 
-  <ImageView
+  <com.google.android.material.imageview.ShapeableImageView
     android:id="@+id/delete_icon"
     android:layout_width="24dp"
     android:layout_height="24dp"

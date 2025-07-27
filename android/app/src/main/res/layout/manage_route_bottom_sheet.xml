@@ -20,7 +20,7 @@
     android:paddingStart="0dp"
     android:paddingEnd="@dimen/altitude_chart_container_padding_left">
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_alignParentStart="true"
@@ -28,7 +28,7 @@
       android:textSize="20sp"
       android:textStyle="bold"/>
 
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
       android:id="@+id/image_my_location"
       android:layout_width="24dp"
       android:layout_height="24dp"
@@ -80,7 +80,7 @@
 
   </androidx.constraintlayout.widget.ConstraintLayout>
 
-  <RelativeLayout
+  <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
@@ -94,20 +94,24 @@
       style="@style/MwmWidget.Button"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_alignParentStart="true"
-      android:layout_centerVertical="true"
-      android:text="@string/cancel"/>
+      android:layout_gravity="center_vertical"
+      android:text="@string/cancel"
+      android:textColor="?android:attr/textColorPrimary"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
 
     <Button
       android:id="@+id/btn__plan"
       style="@style/MwmWidget.Button.Primary"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_gravity="end|center_vertical"
-      android:layout_alignParentEnd="true"
-      android:layout_centerVertical="true"
-      android:text="@string/button_plan"/>
+      android:layout_gravity="center_vertical"
+      android:text="@string/button_plan"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
 
-  </RelativeLayout>
+  </androidx.constraintlayout.widget.ConstraintLayout>
 
 </LinearLayout>

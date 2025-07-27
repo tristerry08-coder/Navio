@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import app.organicmaps.MwmActivity;
@@ -21,16 +20,17 @@ import app.organicmaps.sdk.util.StringUtils;
 import app.organicmaps.sdk.util.UiUtils;
 import app.organicmaps.util.Utils;
 import app.organicmaps.widget.ArrowView;
+import com.google.android.material.textview.MaterialTextView;
 
 public class DirectionFragment extends BaseMwmDialogFragment implements LocationListener, SensorListener
 {
   private static final String EXTRA_MAP_OBJECT = "MapObject";
 
   private ArrowView mAvDirection;
-  private TextView mTvTitle;
-  private TextView mTvSubtitle;
-  private TextView mTvDistance;
-  private TextView mTvAzimuth;
+  private MaterialTextView mTvTitle;
+  private MaterialTextView mTvSubtitle;
+  private MaterialTextView mTvDistance;
+  private MaterialTextView mTvAzimuth;
 
   private MapObject mMapObject;
 

@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import app.organicmaps.R;
@@ -19,6 +18,7 @@ import app.organicmaps.sdk.downloader.CountryItem;
 import app.organicmaps.sdk.util.StringUtils;
 import app.organicmaps.sdk.util.UiUtils;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import com.google.android.material.textview.MaterialTextView;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -93,9 +93,9 @@ abstract class BaseRoutingErrorDialogFragment extends BaseMwmDialogFragment
   {
     @SuppressLint("InflateParams")
     final View countryView = View.inflate(requireActivity(), R.layout.dialog_missed_map, null);
-    ((TextView) countryView.findViewById(R.id.tv__title)).setText(map.name);
+    ((MaterialTextView) countryView.findViewById(R.id.tv__title)).setText(map.name);
 
-    final TextView szView = countryView.findViewById(R.id.tv__size);
+    final MaterialTextView szView = countryView.findViewById(R.id.tv__size);
     szView.setText(StringUtils.getFileSizeString(requireContext(), map.totalSize));
     ViewGroup.MarginLayoutParams lp = (ViewGroup.MarginLayoutParams) szView.getLayoutParams();
     lp.rightMargin = 0;

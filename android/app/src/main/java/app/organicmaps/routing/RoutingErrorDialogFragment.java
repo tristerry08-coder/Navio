@@ -8,12 +8,12 @@ import android.text.TextUtils;
 import android.util.Pair;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.FragmentFactory;
 import androidx.fragment.app.FragmentManager;
+import com.google.android.material.textview.MaterialTextView;
 import app.organicmaps.R;
 import app.organicmaps.sdk.downloader.CountryItem;
 import app.organicmaps.sdk.downloader.MapManager;
@@ -38,7 +38,7 @@ public class RoutingErrorDialogFragment extends BaseRoutingErrorDialogFragment
 
     if (!TextUtils.isEmpty(titleMessage.first))
     {
-      TextView titleView = new TextView(requireContext());
+      MaterialTextView titleView = new MaterialTextView(requireContext());
       titleView.setText(titleMessage.first);
       titleView.setPadding(65, 32, 32, 16);
       titleView.setTextSize(18);

@@ -20,7 +20,7 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       tools:ignore="UselessParent">
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
         android:id="@+id/street"
         style="@style/MwmWidget.TextView.NavStreet"
         android:layout_width="match_parent"
@@ -64,7 +64,7 @@
           app:tint="?iconTint"
           tools:background="#400000FF"/>
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
           android:id="@+id/circle_exit"
           style="@style/MwmWidget.TextView.NavNextTurn.Exit"
           android:layout_width="wrap_content"
@@ -73,7 +73,7 @@
           tools:text="9"/>
       </FrameLayout>
 
-      <TextView
+      <com.google.android.material.textview.MaterialTextView
         android:id="@+id/distance"
         style="@style/MwmWidget.TextView.NavNextTurn"
         android:layout_width="wrap_content"
@@ -96,7 +96,7 @@
       android:elevation="@dimen/nav_elevation"
       android:visibility="gone"
       tools:visibility="visible">
-      <ImageView
+      <com.google.android.material.imageview.ShapeableImageView
         android:id="@id/turn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

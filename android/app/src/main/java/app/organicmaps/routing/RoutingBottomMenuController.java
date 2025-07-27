@@ -60,7 +60,7 @@ final class RoutingBottomMenuController implements View.OnClickListener
   @NonNull
   private final View mTransitFrame;
   @NonNull
-  private final TextView mError;
+  private final MaterialTextView mError;
   @NonNull
   private final Button mStart;
   @NonNull
@@ -94,7 +94,7 @@ final class RoutingBottomMenuController implements View.OnClickListener
     View altitudeChartFrame = getViewById(activity, frame, R.id.altitude_chart_panel);
     View timeElevationLine = getViewById(activity, frame, R.id.time_elevation_line);
     View transitFrame = getViewById(activity, frame, R.id.transit_panel);
-    TextView error = (TextView) getViewById(activity, frame, R.id.error);
+    MaterialTextView error = (MaterialTextView) getViewById(activity, frame, R.id.error);
     Button start = (Button) getViewById(activity, frame, R.id.start);
     ImageView altitudeChart = (ImageView) getViewById(activity, frame, R.id.altitude_chart);
     MaterialTextView time = (MaterialTextView) getViewById(activity, frame, R.id.time);
@@ -117,7 +117,7 @@ final class RoutingBottomMenuController implements View.OnClickListener
 
   private RoutingBottomMenuController(@NonNull Activity context, @NonNull View altitudeChartFrame,
                                       @NonNull View timeElevationLine, @NonNull View transitFrame,
-                                      @NonNull TextView error, @NonNull Button start, @NonNull ImageView altitudeChart,
+                                      @NonNull MaterialTextView error, @NonNull Button start, @NonNull ImageView altitudeChart,
                                       @NonNull MaterialTextView time, @NonNull MaterialTextView altitudeDifference,
                                       @NonNull TextView timeVehicle, @Nullable MaterialTextView arrival,
                                       @NonNull View actionFrame, @Nullable RoutingBottomMenuListener listener)
@@ -223,7 +223,7 @@ final class RoutingBottomMenuController implements View.OnClickListener
     else
       UiUtils.hide(rv); // Show only distance between start and finish
 
-    TextView totalTimeView = mTransitFrame.findViewById(R.id.total_time);
+    MaterialTextView totalTimeView = mTransitFrame.findViewById(R.id.total_time);
     totalTimeView.setText(mContext.getString(R.string.placepage_distance) + ": " + totalLength.mDistanceStr + " "
                           + totalLength.getUnitsStr(mContext));
 

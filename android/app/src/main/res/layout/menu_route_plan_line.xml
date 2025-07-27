@@ -10,7 +10,7 @@
 
   <include layout="@layout/routing_bottom_panel_transit"/>
 
-  <TextView
+  <com.google.android.material.textview.MaterialTextView
     android:id="@+id/error"
     android:paddingStart="@dimen/margin_base"
     android:paddingEnd="@dimen/margin_base"

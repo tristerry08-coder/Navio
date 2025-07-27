@@ -8,11 +8,11 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.content.res.AppCompatResources;
 import androidx.recyclerview.widget.RecyclerView;
+import com.google.android.material.imageview.ShapeableImageView;
+import com.google.android.material.textview.MaterialTextView;
 import app.organicmaps.R;
 import app.organicmaps.sdk.bookmarks.data.MapObject;
 import app.organicmaps.sdk.routing.RouteMarkData;
@@ -232,16 +232,16 @@ public class ManageRouteAdapter extends RecyclerView.Adapter<ManageRouteAdapter.
     public final View mItemView;
 
     @NonNull
-    public final ImageView mImageViewIcon;
+    public final ShapeableImageView mImageViewIcon;
 
     @NonNull
-    public final TextView mTextViewTitle;
+    public final MaterialTextView mTextViewTitle;
 
     @NonNull
-    public final TextView mTextViewSubtitle;
+    public final MaterialTextView mTextViewSubtitle;
 
     @NonNull
-    public final ImageView mImageViewDelete;
+    public final ShapeableImageView mImageViewDelete;
 
     ManageRouteViewHolder(@NonNull View itemView)
     {
