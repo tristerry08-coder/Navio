@@ -31,7 +31,6 @@ import androidx.annotation.NonNull;
 
 import app.organicmaps.downloader.Android7RootCertificateWorkaround;
 import app.organicmaps.sdk.util.log.Logger;
-import app.organicmaps.sdk.util.Utils;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

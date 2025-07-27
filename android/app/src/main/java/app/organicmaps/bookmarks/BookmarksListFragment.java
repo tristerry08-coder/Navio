@@ -150,9 +150,7 @@ public class BookmarksListFragment extends BaseMwmRecyclerFragment<ConcatAdapter
 
     BookmarkCollectionAdapter adapter = new BookmarkCollectionAdapter(getCategoryOrThrow(),
                                                                       mCategoryItems);
-    adapter.setOnClickListener((v, item) -> {
-      BookmarkListActivity.startForResult(this, startBookmarkListForResult, item);
-    });
+    adapter.setOnClickListener((v, item) -> BookmarkListActivity.startForResult(this, startBookmarkListForResult, item));
 
     return adapter;
   }
@@ -855,15 +853,18 @@ public class BookmarksListFragment extends BaseMwmRecyclerFragment<ConcatAdapter
   @Nullable
   public ArrayList<MenuBottomSheetItem> getMenuBottomSheetItems(String id)
   {
-    if (id.equals(BOOKMARKS_MENU_ID))
-      return getBookmarkMenuItems();
-    if (id.equals(TRACK_MENU_ID))
-    {
-      final Track track = (Track) getBookmarkListAdapter().getItem(mSelectedPosition);
-      return getTrackMenuItems(track);
-    }
-    if (id.equals(OPTIONS_MENU_ID))
-      return getOptionsMenuItems();
-    return null;
+      switch (id) {
+          case BOOKMARKS_MENU_ID -> {
+              return getBookmarkMenuItems();
+          }
+          case TRACK_MENU_ID -> {
+              final Track track = (Track) getBookmarkListAdapter().getItem(mSelectedPosition);
+              return getTrackMenuItems(track);
+          }
+          case OPTIONS_MENU_ID -> {
+              return getOptionsMenuItems();
+          }
+      }
+      return null;
   }
 }

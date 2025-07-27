@@ -399,15 +399,12 @@ public class MapButtonsController extends Fragment
       final View button = entry.getValue();
       if (button.getParent() == parent)
       {
-        int toleranceOffset = 0;
-        // Allow offset tolerance for zoom buttons
-        switch(entry.getKey())
-        {
-        case zoomIn: case zoomOut: case zoom:
-          toleranceOffset = -140;
-          break;
-        }
-        showButton(getViewTopOffset(translation, button) >= toleranceOffset, entry.getKey());
+        int toleranceOffset = switch (entry.getKey()) {
+            case zoomIn, zoomOut, zoom -> -140;
+            default -> 0;
+            // Allow offset tolerance for zoom buttons
+        };
+          showButton(getViewTopOffset(translation, button) >= toleranceOffset, entry.getKey());
       }
     }
   }

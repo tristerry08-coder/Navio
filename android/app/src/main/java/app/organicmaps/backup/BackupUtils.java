@@ -4,7 +4,6 @@ import static app.organicmaps.settings.BackupSettingsFragment.MAX_BACKUPS_DEFAUL
 import static app.organicmaps.settings.BackupSettingsFragment.MAX_BACKUPS_KEY;
 import static app.organicmaps.sdk.util.StorageUtils.isFolderWritable;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.net.Uri;
@@ -17,11 +16,6 @@ import android.text.style.AbsoluteSizeSpan;
 import androidx.annotation.NonNull;
 import androidx.documentfile.provider.DocumentFile;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;

@@ -2,7 +2,6 @@ package app.organicmaps.settings;
 
 import static app.organicmaps.backup.BackupUtils.formatReadableFolderPath;
 import static app.organicmaps.backup.BackupUtils.getMaxBackups;
-import static app.organicmaps.backup.BackupUtils.isBackupFolderAvailable;
 import static app.organicmaps.sdk.util.StorageUtils.isFolderWritable;
 
 import android.app.Activity;
@@ -355,13 +354,11 @@ public class BackupSettingsFragment
 
   private void showBackupErrorAlertDialog(String message)
   {
-    requireActivity().runOnUiThread(() -> {
-      new MaterialAlertDialogBuilder(requireActivity())
-          .setTitle(R.string.pref_backup_now_summary_failed)
-          .setMessage(message)
-          .setPositiveButton(android.R.string.ok, (dialog, which) -> dialog.dismiss())
-          .show();
-    });
+    requireActivity().runOnUiThread(() -> new MaterialAlertDialogBuilder(requireActivity())
+        .setTitle(R.string.pref_backup_now_summary_failed)
+        .setMessage(message)
+        .setPositiveButton(android.R.string.ok, (dialog, which) -> dialog.dismiss())
+        .show());
   }
 
   private void takePersistableUriPermission(Uri uri)

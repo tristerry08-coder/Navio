@@ -14,7 +14,6 @@ import com.google.android.material.textview.MaterialTextView;
 
 import app.organicmaps.R;
 import app.organicmaps.sdk.location.TrackRecorder;
-import app.organicmaps.sdk.util.Config;
 
 import java.util.ArrayList;
 

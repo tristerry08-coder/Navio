@@ -141,7 +141,6 @@ import static app.organicmaps.leftbutton.LeftButtonsHolder.BUTTON_HELP_CODE;
 import static app.organicmaps.leftbutton.LeftButtonsHolder.BUTTON_RECORD_TRACK_CODE;
 import static app.organicmaps.leftbutton.LeftButtonsHolder.BUTTON_SETTINGS_CODE;
 import static app.organicmaps.sdk.util.PowerManagment.POWER_MANAGEMENT_TAG;
-import static app.organicmaps.sdk.util.concurrency.UiThread.runLater;
 
 
 public class MwmActivity extends BaseMwmFragmentActivity

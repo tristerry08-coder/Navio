@@ -33,35 +33,17 @@ public final class RoutingHelpers
   public static LaneDirection createLaneDirection(@NonNull LaneWay laneWay, boolean isRecommended)
   {
     int shape = LaneDirection.SHAPE_UNKNOWN;
-    switch (laneWay)
-    {
-    case REVERSE:
-      shape = LaneDirection.SHAPE_U_TURN_LEFT;
-      break;
-    case SHARP_LEFT:
-      shape = LaneDirection.SHAPE_SHARP_LEFT;
-      break;
-    case LEFT:
-      shape = LaneDirection.SHAPE_NORMAL_LEFT;
-      break;
-    case SLIGHT_LEFT:
-    case MERGE_TO_LEFT:
-      shape = LaneDirection.SHAPE_SLIGHT_LEFT;
-      break;
-    case SLIGHT_RIGHT:
-    case MERGE_TO_RIGHT:
-      shape = LaneDirection.SHAPE_SLIGHT_RIGHT;
-      break;
-    case THROUGH:
-      shape = LaneDirection.SHAPE_STRAIGHT;
-      break;
-    case RIGHT:
-      shape = LaneDirection.SHAPE_NORMAL_RIGHT;
-      break;
-    case SHARP_RIGHT:
-      shape = LaneDirection.SHAPE_SHARP_RIGHT;
-      break;
-    }
+      shape = switch (laneWay) {
+          case REVERSE -> LaneDirection.SHAPE_U_TURN_LEFT;
+          case SHARP_LEFT -> LaneDirection.SHAPE_SHARP_LEFT;
+          case LEFT -> LaneDirection.SHAPE_NORMAL_LEFT;
+          case SLIGHT_LEFT, MERGE_TO_LEFT -> LaneDirection.SHAPE_SLIGHT_LEFT;
+          case SLIGHT_RIGHT, MERGE_TO_RIGHT -> LaneDirection.SHAPE_SLIGHT_RIGHT;
+          case THROUGH -> LaneDirection.SHAPE_STRAIGHT;
+          case RIGHT -> LaneDirection.SHAPE_NORMAL_RIGHT;
+          case SHARP_RIGHT -> LaneDirection.SHAPE_SHARP_RIGHT;
+          default -> shape;
+      };
 
     return LaneDirection.create(shape, isRecommended);
   }

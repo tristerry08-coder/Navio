@@ -12,12 +12,11 @@ import android.widget.ScrollView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.view.ViewCompat;
-import app.organicmaps.sdk.Framework;
+
 import app.organicmaps.R;
 import app.organicmaps.base.BaseMwmToolbarFragment;
 import app.organicmaps.sdk.editor.OsmOAuth;
 import app.organicmaps.sdk.util.Constants;
-import app.organicmaps.sdk.util.DateUtils;
 import app.organicmaps.util.InputUtils;
 import app.organicmaps.sdk.util.UiUtils;
 import app.organicmaps.util.Utils;
@@ -56,7 +55,6 @@ public class OsmLoginFragment extends BaseMwmToolbarFragment
     MaterialButton registerButton = view.findViewById(R.id.register);
     registerButton.setOnClickListener((v) -> Utils.openUrl(requireActivity(), Constants.Url.OSM_REGISTER));
     mProgress = view.findViewById(R.id.osm_login_progress);
-    final String dataVersion = DateUtils.getShortDateFormatter().format(Framework.getDataVersion());
 
     // TODO(@pastk): remove unused flow with users entering credentials into app's form
     // Hide login and password inputs and Forgot password button
@@ -165,10 +163,7 @@ public class OsmLoginFragment extends BaseMwmToolbarFragment
         // Finish OAuth2 auth flow and get username for UI.
         final String oauthToken = OsmOAuth.nativeAuthWithOAuth2Code(oauth2code);
         final String username = (oauthToken == null) ? null : OsmOAuth.nativeGetOsmUsername(oauthToken);
-        UiThread.run(() ->
-        {
-          processAuth(oauthToken, username);
-        });
+        UiThread.run(() -> processAuth(oauthToken, username));
       });
     }
   }
