@@ -380,7 +380,7 @@
         {
             "key": "Argentina_Patagonia",
             "value": {
-                "profileName": "small",
+                "profileName": "high_f3",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -404,7 +404,7 @@
         {
             "key": "Australia_Brisbane",
             "value": {
-                "profileName": "small",
+                "profileName": "high_f3",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -444,7 +444,7 @@
         {
             "key": "Australia_Tasmania",
             "value": {
-                "profileName": "small",
+                "profileName": "high_f3",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -2948,7 +2948,7 @@
         {
             "key": "Georgia",
             "value": {
-                "profileName": "small",
+                "profileName": "high_f3",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -3557,7 +3557,7 @@
         {
             "key": "Guatemala",
             "value": {
-                "profileName": "extra_small",
+                "profileName": "high_f3",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -5269,7 +5269,7 @@
         {
             "key": "Nepal_West",
             "value": {
-                "profileName": "extra_small",
+                "profileName": "high_f3",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -5485,7 +5485,7 @@
         {
             "key": "New Zealand South_Canterbury",
             "value": {
-                "profileName": "small",
+                "profileName": "high_f3",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -5493,7 +5493,7 @@
         {
             "key": "New Zealand South_Southland",
             "value": {
-                "profileName": "small",
+                "profileName": "high_f3",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -6021,7 +6021,7 @@
         {
             "key": "Russia_Altai Republic",
             "value": {
-                "profileName": "extra_small",
+                "profileName": "high_f3",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -6061,7 +6061,7 @@
         {
             "key": "Russia_Bashkortostan",
             "value": {
-                "profileName": "small",
+                "profileName": "high_f3",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -6349,7 +6349,7 @@
         {
             "key": "Russia_Murmansk Oblast",
             "value": {
-                "profileName": "extra_small",
+                "profileName": "high_f3",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -7557,7 +7557,7 @@
         {
             "key": "Turkey_Aegean Region",
             "value": {
-                "profileName": "small",
+                "profileName": "high_f3",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -7613,7 +7613,7 @@
         {
             "key": "Turkey_Mediterranean Region",
             "value": {
-                "profileName": "small",
+                "profileName": "high_f3",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -8567,7 +8567,7 @@
         {
             "key": "US_Colorado_Aspen",
             "value": {
-                "profileName": "normal",
+                "profileName": "high_f3",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -8583,7 +8583,7 @@
         {
             "key": "US_Colorado_South",
             "value": {
-                "profileName": "small",
+                "profileName": "high_f3",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
@@ -9639,7 +9639,7 @@
         {
             "key": "Uzbekistan",
             "value": {
-                "profileName": "small",
+                "profileName": "high_f3",
                 "tileCoordsSubset": [],
                 "tilesAreBanned": false
             }
