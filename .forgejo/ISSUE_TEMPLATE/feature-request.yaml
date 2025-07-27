@@ -1,6 +1,5 @@
 name: "💡 Feature Request"
 description: "Suggest an idea or improvement for CoMaps"
-title: "feat: "
 labels:
   - "enhancement"
 body:

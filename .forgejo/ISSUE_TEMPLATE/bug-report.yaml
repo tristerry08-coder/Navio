@@ -1,6 +1,5 @@
 name: 🐞 Bug Report
 description: Report a problem you've encountered
-title: "bug: "
 labels:
   - bug
 body:
