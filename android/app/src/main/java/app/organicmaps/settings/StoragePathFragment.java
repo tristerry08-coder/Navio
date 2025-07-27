@@ -8,7 +8,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.annotation.NonNull;
@@ -22,13 +21,14 @@ import app.organicmaps.util.Utils;
 import app.organicmaps.sdk.util.concurrency.ThreadPool;
 import app.organicmaps.sdk.util.concurrency.UiThread;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import com.google.android.material.textview.MaterialTextView;
 
 import java.io.File;
 import java.util.List;
 
 public class StoragePathFragment extends BaseSettingsFragment
 {
-  private TextView mHeader;
+  private MaterialTextView mHeader;
 
   private StoragePathAdapter mAdapter;
   private StoragePathManager mPathManager;

@@ -24,7 +24,7 @@
     android:layout_height="wrap_content"
     android:paddingEnd="@dimen/margin_base"
     android:paddingStart="@dimen/margin_base">
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:text="@string/avoid_tolls"
       android:textAppearance="?android:attr/textAppearanceMedium"
       android:layout_width="0dp"
@@ -46,7 +46,7 @@
     android:layout_height="wrap_content"
     android:paddingEnd="@dimen/margin_base"
     android:paddingStart="@dimen/margin_base">
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:text="@string/avoid_unpaved"
       android:textAppearance="?android:attr/textAppearanceMedium"
       android:layout_width="0dp"
@@ -68,7 +68,7 @@
     android:layout_height="wrap_content"
     android:paddingEnd="@dimen/margin_base"
     android:paddingStart="@dimen/margin_base">
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:text="@string/avoid_ferry"
       android:textAppearance="?android:attr/textAppearanceMedium"
       android:layout_width="0dp"
@@ -90,7 +90,7 @@
     android:layout_height="wrap_content"
     android:paddingEnd="@dimen/margin_base"
     android:paddingStart="@dimen/margin_base">
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
       android:text="@string/avoid_motorways"
       android:textAppearance="?android:attr/textAppearanceMedium"
       android:layout_width="0dp"
