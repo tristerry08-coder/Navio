@@ -9,7 +9,7 @@
     <string name="delete">Slet</string>
     <string name="download_maps">Hent kort</string>
     <!-- Settings/Downloader - info for country when download fails -->
-    <string name="download_has_failed">Hentning af kort mislykkedes. Tryk for at prøve igen.</string>
+    <string name="download_has_failed">Hentning af kort mislykkedes. Tryk for at prøve igen</string>
     <!-- Settings/Downloader - info for country which started downloading -->
     <string name="downloading">Henter…</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->
@@ -29,7 +29,7 @@
     <!-- A dialog title, that warns a user that Precise Location is disabled and suggests to turn it on -->
     <string name="limited_accuracy">Begrænset nøjagtighed</string>
     <!-- A dialog text, that warns a user that Precise Location is disabled and suggests to turn it on -->
-    <string name="precise_location_is_disabled_long_text">For at sikre nøjagtig navigation skal du aktivere præcis placering i indstillinger.</string>
+    <string name="precise_location_is_disabled_long_text">For at sikre nøjagtig navigation skal du aktivere præcis placering i indstillinger</string>
     <!-- View and button titles for accessibility -->
     <string name="zoom_to_country">Vis på kortet</string>
     <!-- Message to display at the center of the screen when the country download has failed -->
@@ -88,7 +88,7 @@
     <!-- Header of settings activity where user defines storage path -->
     <string name="maps_storage">Gem kort på</string>
     <!-- Detailed description of Maps Storage settings button -->
-    <string name="maps_storage_summary">Vælg den mappe, der skal downloades kort til.</string>
+    <string name="maps_storage_summary">Vælg den mappe, der skal downloades kort til</string>
     <!-- E.g. "Downloaded maps: 500Mb" in Maps Storage settings -->
     <string name="maps_storage_downloaded">Downloadede kort</string>
     <!-- Question dialog for transferring maps from one storage to another -->
@@ -166,9 +166,9 @@
     <!-- Warning message when doing search around current position -->
     <string name="unknown_current_position">Din placering er ikke blevet bestemt endnu</string>
     <!-- Alert message that we can't run Map Storage settings due to some reasons. -->
-    <string name="cant_change_this_setting">Beklager, indstillingerne for kortlagring er i øjeblikket deaktiveret.</string>
+    <string name="cant_change_this_setting">Beklager, indstillingerne for kortlagring er i øjeblikket deaktiveret</string>
     <!-- Alert message that downloading is in progress. -->
-    <string name="downloading_is_active">Download af kort er i gang nu.</string>
+    <string name="downloading_is_active">Download af kort er i gang nu</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">Hey, tjek min nuværende placering på CoMaps! %1$s eller %2$s. Har du ikke offline kort? Download her: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
@@ -222,7 +222,7 @@
     <!-- Settings «Route» category: «Test Voice Directions» title -->
     <string name="pref_tts_test_voice_title">Test stemmeanvisninger (TTS, Text-To-Speech)</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
-    <string name="pref_tts_playing_test_voice">Tjek lydstyrken eller systemets tekst-til-tale-indstillinger, hvis du ikke kan høre stemmen nu.</string>
+    <string name="pref_tts_playing_test_voice">Tjek lydstyrken eller systemets tekst-til-tale-indstillinger, hvis du ikke kan høre stemmen nu</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
     <string name="pref_tts_unavailable">Ikke til rådighed</string>
     <string name="pref_map_auto_zoom">Auto-zoom</string>
@@ -268,7 +268,7 @@
     <string name="downloader_download_all_button">Download alle</string>
     <string name="downloader_downloading">Downloader:</string>
     <!-- Displayed in a dialog that appears when a user tries to delete a map while the app is in the follow route mode -->
-    <string name="downloader_delete_map_while_routing_dialog">For at slette kortet skal du stoppe navigeringen.</string>
+    <string name="downloader_delete_map_while_routing_dialog">For at slette kortet skal du stoppe navigeringen</string>
     <!-- PointsInDifferentMWM -->
     <string name="routing_failed_cross_mwm_building">Der kan kun oprettes ruter, der er fuldt ud indeholdt i et kort over en enkelt region.</string>
     <!-- Context menu item for downloader. -->
@@ -340,18 +340,18 @@
     <string name="dialog_routing_location_turn_on">Aktiver placeringstjenester</string>
     <string name="dialog_routing_location_unknown_turn_on">Det lykkedes ikke at finde de aktuelle GPS-koordinater. Slå placeringstjenester til for at beregne rute.</string>
     <string name="dialog_routing_unable_locate_route">Kan ikke finde rute</string>
-    <string name="dialog_routing_cant_build_route">Kan ikke oprette rute.</string>
+    <string name="dialog_routing_cant_build_route">Kan ikke oprette rute</string>
     <string name="dialog_routing_change_start_or_end">Prøv at angive et andet startpunkt eller en anden destination.</string>
     <string name="dialog_routing_change_start">Vælg et andet startpunkt</string>
     <string name="dialog_routing_start_not_determined">Rute blev ikke oprettet. Kunne ikke finde startpunktet.</string>
     <string name="dialog_routing_select_closer_start">Angiv et startpunkt, der ligger tættere på en vej.</string>
     <string name="dialog_routing_change_end">Vælg en anden destination</string>
     <string name="dialog_routing_end_not_determined">Rute blev ikke oprettet. Kunne ikke finde destinationen.</string>
-    <string name="dialog_routing_select_closer_end">Angiv en destination, der ligger tættere på en vej.</string>
-    <string name="dialog_routing_change_intermediate">Kunne ikke lokalisere mellemliggende punkt.</string>
-    <string name="dialog_routing_intermediate_not_determined">Rediger det mellemliggende punkt.</string>
+    <string name="dialog_routing_select_closer_end">Angiv en destination, der ligger tættere på en vej</string>
+    <string name="dialog_routing_change_intermediate">Kunne ikke lokalisere mellemliggende punkt</string>
+    <string name="dialog_routing_intermediate_not_determined">Rediger det mellemliggende punkt</string>
     <string name="dialog_routing_system_error">Systemfejl</string>
-    <string name="dialog_routing_application_error">Kan ikke oprette rute på grund af en applikationsfejl.</string>
+    <string name="dialog_routing_application_error">Kan ikke oprette rute på grund af en applikationsfejl</string>
     <string name="dialog_routing_try_again">Prøv venligst igen</string>
     <string name="not_now">Ikke nu</string>
     <string name="dialog_routing_download_and_build_cross_route">Ønsker du at downloade kortet og planlægge en mere optimal rute, der strækker sig over mere end ét kort?</string>
@@ -365,17 +365,17 @@
     <string name="hide">Skjul</string>
     <string name="categories">Kategorier</string>
     <string name="history">Historik</string>
-    <string name="search_not_found">Ups, ingen resultater fundet.</string>
+    <string name="search_not_found">Ups, ingen resultater fundet</string>
     <!-- The message when user did not find anything in the search. -->
     <string name="search_not_found_query">Download den region, hvor du søger i, eller prøv at tilføje et nærliggende bynavn.</string>
     <string name="search_history_title">Søgehistorik</string>
-    <string name="search_history_text">Se dine seneste søgninger.</string>
+    <string name="search_history_text">Se dine seneste søgninger</string>
     <string name="clear_search">Ryd søgehistorik</string>
     <string name="p2p_your_location">Din placering</string>
     <string name="p2p_start">Start</string>
     <string name="p2p_from_here">Rute fra</string>
     <string name="p2p_to_here">Rute til</string>
-    <string name="p2p_only_from_current">Navigation er kun tilgængelig fra din nuværende placering.</string>
+    <string name="p2p_only_from_current">Navigation er kun tilgængelig fra din nuværende placering</string>
     <string name="p2p_reroute_from_current">Ønsker du at planlægge en rute fra din nuværende placering?</string>
     <!-- Edit open hours/set time and minutes dialog -->
     <string name="next_button">Næste</string>
@@ -442,14 +442,14 @@
     <!-- login text field -->
     <string name="email_or_username">E-mail eller brugernavn</string>
     <string name="level">Etage</string>
-    <string name="downloader_delete_map_dialog">Alle dine kortændringer vil blive slettet sammen med kortet.</string>
+    <string name="downloader_delete_map_dialog">Alle dine kortændringer vil blive slettet sammen med kortet</string>
     <string name="downloader_update_maps">Opdatér kort</string>
     <string name="downloader_mwm_migration_dialog">For at oprette en rute skal du opdatere alle kort og så planlægge ruten igen.</string>
     <string name="downloader_search_field_hint">Find kort</string>
-    <string name="common_check_internet_connection_dialog">Tjek dine indstillinger og sørg for, din enhed er forbundet til internettet.</string>
+    <string name="common_check_internet_connection_dialog">Sørg for, din enhed er forbundet til internettet</string>
     <string name="downloader_no_space_title">Ikke nok plads</string>
     <string name="downloader_no_space_message">Slet unødvendig data</string>
-    <string name="editor_login_error_dialog">Login-fejl.</string>
+    <string name="editor_login_error_dialog">Login-fejl</string>
     <string name="editor_profile_changes">Bekræftede ændringer</string>
     <string name="editor_focus_map_on_location">Træk i kortet for at placere korset på stedet eller virksomheden.</string>
     <string name="editor_edit_place_title">Redigerer</string>
@@ -466,11 +466,11 @@
     <string name="osm_presentation">Fællesskabsskabte OpenStreetMap-data fra %s. Få mere at vide om, hvordan du redigerer og opdaterer kortet på OpenStreetMap.org</string>
     <!-- OSM explanation on Android login screen -->
     <string name="login_osm_presentation">OpenStreetMap.org (OSM) er et fællesskabsprojekt til opbygning af et gratis og åbent kort. Det er hovedkilden til kortdata i CoMaps og fungerer på samme måde som Wikipedia. Du kan tilføje eller redigere steder, og de bliver tilgængelige for millioner af brugere over hele verden. \nSlut dig til fællesskabet og vær med til at skabe et bedre kort for alle!</string>
-    <string name="login_to_make_edits_visible">Opret en OpenStreetMap-konto eller log ind for at offentliggøre dine kortredigeringer til hele verden.</string>
+    <string name="login_to_make_edits_visible">Opret en OpenStreetMap-konto eller log ind for at offentliggøre dine kortredigeringer for hele verden</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d af %2$d</string>
     <string name="download_over_mobile_header">Download ved brug af mobilnetværksforbindelse?</string>
-    <string name="download_over_mobile_message">Dette kan være meget dyrt med nogle abonnementer eller ved roaming.</string>
+    <string name="download_over_mobile_message">Dette kan være meget dyrt med nogle abonnementer eller ved roaming</string>
     <string name="error_enter_correct_house_number">Indtast et gyldigt bygningsnummer</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Antallet af etager må ikke overstige %d etager</string>
@@ -493,8 +493,8 @@
     <string name="editor_category_unsuitable_title">Kan du ikke finde en passende kategori?</string>
     <string name="editor_category_unsuitable_text">CoMaps giver kun mulighed for at tilføje simple punktkategorier, dvs. ingen byer, veje, søer, bygningsomrids osv. Tilføj sådanne kategorier direkte til <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Se vores <a href="https://www.comaps.app/support/advanced-map-editing/">guide</a> for detaljerede trin for trin-instruktioner.</string>
     <string name="downloader_no_downloaded_maps_title">Du har ikke downloadet nogen kort</string>
-    <string name="downloader_no_downloaded_maps_message">Download kort for at søge og navigere offline.</string>
-    <string name="current_location_unknown_error_title">Aktuel placering er ukendt.</string>
+    <string name="downloader_no_downloaded_maps_message">Download kort for at søge og navigere offline</string>
+    <string name="current_location_unknown_error_title">Aktuel placering er ukendt</string>
     <!-- abbreviation for meters -->
     <string name="m">m</string>
     <!-- abbreviation for kilometers -->
@@ -526,8 +526,8 @@
     <!-- Displayed when saving some edits to the map to warn against publishing personal data -->
     <string name="editor_share_to_all_dialog_title">Ønsker du at sende det til alle brugere?</string>
     <!-- Dialog before publishing the modifications to the public map. -->
-    <string name="editor_share_to_all_dialog_message_1">Sørg for at du ikke indtastede personlige oplysninger.</string>
-    <string name="editor_share_to_all_dialog_message_2">OpenStreetMap-redaktører vil tjekke ændringerne og kontakte dig, hvis de har spørgsmål.</string>
+    <string name="editor_share_to_all_dialog_message_1">Sørg for at du ikke indtastede personlige oplysninger</string>
+    <string name="editor_share_to_all_dialog_message_2">OpenStreetMap-redaktører vil tjekke ændringerne og kontakte dig, hvis de har spørgsmål</string>
     <!-- Shown as toast when starting the recent track recording -->
     <string name="track_recording">Optager sporet</string>
     <!-- For the first routing -->
@@ -540,10 +540,10 @@
     <string name="mobile_data_option_not_today">Brug ikke i dag</string>
     <string name="mobile_data">Mobilt internet</string>
     <!-- NOTE to translators: please synchronize your translation with the English one. -->
-    <string name="mobile_data_description">Mobilt internet er nødvendigt for at få besked om kortopdateringer og uploade ændringer.</string>
+    <string name="mobile_data_description">Mobilt internet er nødvendigt for at få besked om kortopdateringer og uploade ændringer</string>
     <string name="mobile_data_option_never">Brug aldrig</string>
     <string name="mobile_data_option_ask">Spørg altid</string>
-    <string name="traffic_update_maps_text">Kort skal opdateres for at vise trafikdata.</string>
+    <string name="traffic_update_maps_text">Kort skal opdateres for at vise trafikdata</string>
     <string name="big_font">Forøg størrelsen på kortetiketter</string>
     <string name="traffic_update_app">Opdater CoMaps</string>
     <!-- "traffic" as in "road congestion" -->
@@ -553,7 +553,7 @@
     <string name="feedback_general">Generel feedback</string>
     <string name="prefs_languages_information">Vi bruger systemets TTS til stemmevejledning. Mange Android-enheder bruger Google TTS, du kan hente eller opdatere det via Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts)</string>
     <string name="prefs_languages_information_off">For nogle sprog skal du installere en anden talesyntese eller en yderligere sprogpakke fra appbutiken (Google Play, Galaxy Store, App Gallery, FDroid). \nÅbn enhedens indstillinger → Sprog og input → Tale → Tekst til tale. \nHer kan du administrere indstillingerne for talesyntese (f.eks. downloade en sprogpakke til brug offline) og vælge et andet tekst-til-tale program.</string>
-    <string name="prefs_languages_information_off_link">Se denne vejledning for flere oplysninger.</string>
+    <string name="prefs_languages_information_off_link">Se denne vejledning for flere oplysninger</string>
     <string name="transliteration_title">Translitterer til det latinske alfabet</string>
     <string name="learn_more">Flere oplysninger</string>
     <!-- Subway exits for public transport marks on the map -->
@@ -632,7 +632,7 @@
     <!-- Speed camera settings menu option - Never warn (about speedcams) -->
     <string name="pref_tts_speedcams_never">Advar aldrig</string>
     <string name="power_managment_title">Strømsparetilstand</string>
-    <string name="power_managment_description">Prøv at reducere strømforbruget på bekostning af nogle funktioner.</string>
+    <string name="power_managment_description">Prøv at reducere strømforbruget på bekostning af nogle funktioner</string>
     <string name="power_managment_setting_never">Aldrig</string>
     <string name="power_managment_setting_auto">Når batteriniveauet er lavt</string>
     <string name="power_managment_setting_manual_max">Altid</string>

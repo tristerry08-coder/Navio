@@ -1409,4 +1409,6 @@
     <string name="type.natural.wetland.reedbed">Caniçal</string>
     <string name="type.natural.wetland.swamp">Pântano</string>
     <string name="type.natural.wetland.mangrove">Mangal</string>
+    <string name="type.amenity.bicycle_parking.covered">Estacionamento de Bicicletas Coberto</string>
+    <string name="type.amenity.luggage_locker">Depósito de Bagagem</string>
 </resources>

@@ -1096,6 +1096,6 @@
 "osm_profile_view_edit_history" = "Ver histórico de edições";
 "about_proposition_3" = "Transparente e sem fins lucrativos";
 "pref_mapappearance_title" = "Aparência do Mapa";
-"pref_maplanguage_title" = "Map Language";
-"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
-"pref_maplanguage_local" = "Local Language";
+"pref_maplanguage_title" = "Idioma do Mapa";
+"transliteration_title_disabled_summary" = "Desativado ao usar sempre o idioma local do mapa";
+"pref_maplanguage_local" = "Idioma Local";

@@ -91,7 +91,7 @@
     <!-- Header of settings activity where user defines storage path -->
     <string name="maps_storage">Enregistrer les cartes dans</string>
     <!-- Detailed description of Maps Storage settings button -->
-    <string name="maps_storage_summary">Sélectionner l\'emplacement où les cartes seront téléchargées</string>
+    <string name="maps_storage_summary">Sélectionnez le dossier dans lequel télécharger les cartes</string>
     <!-- E.g. "Downloaded maps: 500Mb" in Maps Storage settings -->
     <string name="maps_storage_downloaded">Cartes téléchargées</string>
     <!-- Internal storage type in Maps Storage settings (not accessible by the user) -->
@@ -182,7 +182,7 @@
     <!-- Warning message when doing search around current position -->
     <string name="unknown_current_position">Votre position n\'a pas encore été déterminée</string>
     <!-- Alert message that we can't run Map Storage settings due to some reasons. -->
-    <string name="cant_change_this_setting">Désolé, les paramètres de stockage des cartes sont présentement désactivés.</string>
+    <string name="cant_change_this_setting">Désolé, les paramètres de stockage de carte sont actuellement désactivés.</string>
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">Le téléchargement de la carte est en cours</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
@@ -371,7 +371,7 @@
     <string name="dialog_routing_end_not_determined">Impossible de localiser la destination. L\'itinéraire n\'a pas pu être créé.</string>
     <string name="dialog_routing_select_closer_end">Choisissez un lieu de destination à proximité d\'une route</string>
     <string name="dialog_routing_change_intermediate">Impossible de localiser le point intermédiaire</string>
-    <string name="dialog_routing_intermediate_not_determined">Veuillez modifier votre point intermédiaire</string>
+    <string name="dialog_routing_intermediate_not_determined">Veuillez ajuster votre point intermédiaire</string>
     <string name="dialog_routing_system_error">Erreur système</string>
     <string name="dialog_routing_application_error">Impossible de créer l\'itinéraire à cause d\'une erreur dans l\'application</string>
     <string name="dialog_routing_try_again">Veuillez réessayer</string>
@@ -475,7 +475,7 @@
     <string name="downloader_update_maps">Mettre à jour les cartes</string>
     <string name="downloader_mwm_migration_dialog">Pour créer un itinéraire, vous devez mettre à jour toutes les cartes puis reprogrammer l\'itinéraire.</string>
     <string name="downloader_search_field_hint">Trouver une carte</string>
-    <string name="common_check_internet_connection_dialog">Veuillez vérifier que votre appareil est bien connecté à Internet.</string>
+    <string name="common_check_internet_connection_dialog">Veuillez vous assurer que votre appareil est connecté à Internet</string>
     <string name="downloader_no_space_title">Espace insuffisant</string>
     <string name="downloader_no_space_message">Veuillez supprimer les données inutiles</string>
     <string name="editor_login_error_dialog">Erreur de connexion</string>
@@ -495,7 +495,7 @@
     <string name="osm_presentation">Données OpenStreetMap créées par la communauté en date du %s. Pour en savoir plus sur la façon de modifier et de mettre à jour la carte, consultez le site OpenStreetMap.org</string>
     <!-- OSM explanation on Android login screen -->
     <string name="login_osm_presentation">OpenStreetMap.org (OSM) est un projet communautaire visant à créer une carte libre et ouverte. C\'est la principale source de données cartographiques de CoMaps et son fonctionnement est similaire à celui de Wikipédia. Vous pouvez ajouter ou modifier des lieux et ils deviennent accessibles à des millions d\'utilisateurs dans le monde entier. \nRejoignez la communauté et aidez-nous à créer une meilleure carte pour tout le monde !</string>
-    <string name="login_to_make_edits_visible">Créez un compte OpenStreetMap ou connectez-vous pour publier vos modifications de cartes dans le monde entier.</string>
+    <string name="login_to_make_edits_visible">Créez un compte OpenStreetMap ou connectez-vous pour publier vos modifications de carte dans le monde entier.</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d de %2$d</string>
     <string name="download_over_mobile_header">Télécharger avec une connexion réseau cellulaire ?</string>
@@ -576,10 +576,10 @@
     <string name="mobile_data_option_not_today">Ne pas utiliser aujourd\'hui</string>
     <string name="mobile_data">Internet mobile</string>
     <!-- NOTE to translators: please synchronize your translation with the English one. -->
-    <string name="mobile_data_description">L\'Internet mobile est nécessaire pour afficher des informations détaillées sur les lieux, telles que les photos, les prix et les avis.</string>
+    <string name="mobile_data_description">L\'Internet mobile est requis pour les notifications de mise à jour de carte et le téléchargement des modifications.</string>
     <string name="mobile_data_option_never">Ne jamais utiliser</string>
     <string name="mobile_data_option_ask">Toujours demander</string>
-    <string name="traffic_update_maps_text">Pour afficher les données de circulation, les cartes doivent être actualisées.</string>
+    <string name="traffic_update_maps_text">Pour afficher les données de circulation, les cartes doivent être mises à jour.</string>
     <string name="big_font">Augmenter la taille de police sur la carte</string>
     <string name="traffic_update_app">Veuillez mettre à jour CoMaps</string>
     <!-- "traffic" as in "road congestion" -->
@@ -671,7 +671,7 @@
     <!-- Speed camera settings menu option - Never warn (about speedcams) -->
     <string name="pref_tts_speedcams_never">Jamais avertir</string>
     <string name="power_managment_title">Mode économie d\'énergie</string>
-    <string name="power_managment_description">Si le mode d\'économie d\'énergie est activé, l\'application désactive les fonctions consommant de l\'énergie en fonction de la charge actuelle du téléphone</string>
+    <string name="power_managment_description">Essayez de réduire la consommation d’énergie au détriment de certaines fonctionnalités</string>
     <string name="power_managment_setting_never">Jamais</string>
     <string name="power_managment_setting_auto">Automatique</string>
     <string name="power_managment_setting_manual_max">Économie d\'énergie maximale</string>

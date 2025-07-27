@@ -1099,5 +1099,5 @@
 "osm_profile_view_edit_history" = "Afficher l'historique des modifications";
 "pref_mapappearance_title" = "Apparence de la carte";
 "pref_maplanguage_title" = "Langue de la carte";
-"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
+"transliteration_title_disabled_summary" = "Désactivé lorsque la langue locale est toujours utilisée pour la carte";
 "pref_maplanguage_local" = "Langue locale";

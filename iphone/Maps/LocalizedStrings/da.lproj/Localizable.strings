@@ -325,7 +325,7 @@
 "volunteer" = "At melde sig som frivillig";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Følg og kontakt os";
+"follow_us" = "Følg os";
 
 /* Alert text */
 "email_error_body" = "Emailklienten er ikke blevet sat op. Venligst konfigurér den eller brug en anden måde til at kontakte os på %@";
@@ -1094,8 +1094,8 @@
 "edit_track" = "Rediger spor";
 "osm_profile_view_edit_history" = "Se redigeringshistorik";
 "osm_profile_view_notes" = "Se bemærkninger";
-"about_proposition_3" = "Transparent and not for profit";
-"pref_mapappearance_title" = "Map Appearance";
-"pref_maplanguage_title" = "Map Language";
-"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
-"pref_maplanguage_local" = "Local Language";
+"about_proposition_3" = "Gennemsigtig og ikke-kommerciel";
+"pref_mapappearance_title" = "Kortudseende";
+"pref_maplanguage_title" = "Kortsprog";
+"transliteration_title_disabled_summary" = "Deaktiveret, når det lokale sprog altid bruges til kortet";
+"pref_maplanguage_local" = "Lokalt sprog";
