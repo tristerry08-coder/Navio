@@ -25,6 +25,7 @@ import app.organicmaps.sdk.search.SearchListener;
 import app.organicmaps.sdk.search.SearchEngine;
 import app.organicmaps.sdk.search.SearchRecents;
 import app.organicmaps.sdk.search.SearchResult;
+import app.organicmaps.sdk.util.Config;
 import app.organicmaps.sdk.util.Language;
 
 public class SearchScreen extends BaseMapScreen implements SearchTemplate.SearchCallback, SearchListener
@@ -147,7 +148,8 @@ public class SearchScreen extends BaseMapScreen implements SearchTemplate.Search
       if (!TextUtils.isEmpty(region))
         builder.addText(region);
       builder.setOnClickListener(() -> {
-        SearchRecents.add(title, getCarContext());
+        if (Config.isSearchHistoryEnabled())
+          SearchRecents.add(title, getCarContext());
         SearchEngine.INSTANCE.cancel();
         SearchEngine.INSTANCE.showResult(resultIndex);
       });
