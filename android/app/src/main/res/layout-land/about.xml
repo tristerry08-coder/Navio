@@ -53,18 +53,18 @@
             app:layout_constraintTop_toTopOf="@id/version" />
         </LinearLayout>
 
-        <!--ImageView
+        <ImageView
           android:id="@+id/imageView3"
           android:layout_width="@dimen/about_logo"
           android:layout_height="@dimen/about_logo"
           android:contentDescription="@string/app_name"
-          app:srcCompat="@drawable/ic_launcher"
+          app:srcCompat="@drawable/ic_logo_monochrome"
           app:layout_constraintBottom_toBottomOf="parent"
           app:layout_constraintEnd_toStartOf="@+id/linearLayout2"
           app:layout_constraintHorizontal_bias="0.5"
           app:layout_constraintStart_toEndOf="@+id/linearLayout1"
           app:layout_constraintTop_toTopOf="parent"
-          app:tint="?attr/colorLogo" /-->
+          app:tint="?attr/colorLogo" />
 
         <LinearLayout
           android:id="@+id/linearLayout2"
