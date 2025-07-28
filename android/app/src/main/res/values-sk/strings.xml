@@ -9,7 +9,7 @@
     <string name="delete">Zmazať</string>
     <string name="download_maps">Stiahnuť mapy</string>
     <!-- Settings/Downloader - info for country when download fails -->
-    <string name="download_has_failed">Sťahovanie zlyhalo, skúste to znova.</string>
+    <string name="download_has_failed">Sťahovanie zlyhalo, skúste to znova</string>
     <!-- Settings/Downloader - info for country which started downloading -->
     <string name="downloading">Sťahovanie…</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->

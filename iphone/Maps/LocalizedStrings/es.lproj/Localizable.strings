@@ -1097,7 +1097,7 @@
 "edit_track" = "Editar trayecto";
 "osm_profile_view_edit_history" = "Ver historial de ediciones";
 "osm_profile_view_notes" = "Ver notas";
-"pref_mapappearance_title" = "Map Appearance";
-"pref_maplanguage_title" = "Map Language";
-"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
-"pref_maplanguage_local" = "Local Language";
+"pref_mapappearance_title" = "Apariencia del Mapa";
+"pref_maplanguage_title" = "Idioma del Mapa";
+"transliteration_title_disabled_summary" = "Deshabilitado cuando siempre se usa el idioma local para el mapa";
+"pref_maplanguage_local" = "Idioma Local";

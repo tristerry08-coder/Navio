@@ -9,7 +9,7 @@
     <string name="delete">Kustuta</string>
     <string name="download_maps">Laadi kaarte</string>
     <!-- Settings/Downloader - info for country when download fails -->
-    <string name="download_has_failed">Allalaadimine ei õnnestunud. Uuesti proovimiseks klõpsi.</string>
+    <string name="download_has_failed">Allalaadimine ei õnnestunud, uuesti proovimiseks klõpsi</string>
     <!-- Settings/Downloader - info for country which started downloading -->
     <string name="downloading">Allalaadimisel…</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->
@@ -29,7 +29,7 @@
     <!-- A dialog title, that warns a user that Precise Location is disabled and suggests to turn it on -->
     <string name="limited_accuracy">Piiratud täpsus</string>
     <!-- A dialog text, that warns a user that Precise Location is disabled and suggests to turn it on -->
-    <string name="precise_location_is_disabled_long_text">Täpse tee juhatamise tagamiseks lülita seadistuses sisse Täpne asukoht.</string>
+    <string name="precise_location_is_disabled_long_text">Täpse tee juhatamise tagamiseks lülita seadistuses sisse „Täpne asukoht“</string>
     <!-- View and button titles for accessibility -->
     <string name="zoom_to_country">Näita kaardil</string>
     <!-- Message to display at the center of the screen when the country download has failed -->
@@ -82,7 +82,7 @@
     <!-- Header of settings activity where user defines storage path -->
     <string name="maps_storage">Salvesta kaardid asukohta</string>
     <!-- Detailed description of Maps Storage settings button -->
-    <string name="maps_storage_summary">Vali asukoht, kuhu laadime kaardid.</string>
+    <string name="maps_storage_summary">Vali kaust, kuhu laadime kaardid</string>
     <!-- E.g. "Downloaded maps: 500Mb" in Maps Storage settings -->
     <string name="maps_storage_downloaded">Allalaaditud kaardid</string>
     <!-- Internal storage type in Maps Storage settings (not accessible by the user) -->
@@ -159,7 +159,7 @@
     <string name="share_bookmarks_email_subject">CoMaps järjehoidjaid jagati Sinuga</string>
     <string name="share_bookmarks_email_body">Tere! \n\nManuses on minu järjehoidjad rakendusest CoMaps. Palun ava need kui Sul on CoMaps paigaldatud. Või kui ei ole, laadi rakendus alla oma iOSi või Androidi seadmesse, järgides seda linki: https://www.comaps.app/download/ \n \nNaudi reisimist CoMapsiga!</string>
     <!-- message title of loading file -->
-    <string name="load_kmz_title">Järjehoidjate laadimine</string>
+    <string name="load_kmz_title">Laadin järjehoidjaid</string>
     <!-- Kmz file successful loading -->
     <string name="load_kmz_successful">Järjehoidjad edukalt laaditud! Leiad need kaardil või järjehoidjate halduri vaates.</string>
     <!-- Kml file loading failed -->
@@ -173,9 +173,9 @@
     <!-- Warning message when doing search around current position -->
     <string name="unknown_current_position">Sinu asukoht ei ole veel tuvastatud</string>
     <!-- Alert message that we can't run Map Storage settings due to some reasons. -->
-    <string name="cant_change_this_setting">Vabandust, kaardi salvestuse seadistused on hetkel keelatud.</string>
+    <string name="cant_change_this_setting">Vabandust, kaardi salvestuse seadistused on hetkel keelatud</string>
     <!-- Alert message that downloading is in progress. -->
-    <string name="downloading_is_active">Kaardi allalaadimine on hetkel käimas.</string>
+    <string name="downloading_is_active">Kaardi allalaadimine on hetkel pooleli</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">Hei, vaata minu praegust asukohta CoMapsi kaardil! %1$s või %2$s Võrguühenduseta kaardid puuduvad? Laadi siit: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
@@ -233,7 +233,7 @@
     <!-- Settings «Route» category: «Test Voice Directions» title -->
     <string name="pref_tts_test_voice_title">Testi hääljuhised (TTS, Text-To-Speech)</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
-    <string name="pref_tts_playing_test_voice">Kontrolli helivaljust või süsteemi kõnesünteesi seadistusi, kui sa ei kuule nüüd häält.</string>
+    <string name="pref_tts_playing_test_voice">Kontrolli helivaljust või süsteemi kõnesünteesi seadistusi, kui sa ei kuule nüüd häält</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
     <string name="pref_tts_unavailable">Ei ole saadaval</string>
     <string name="pref_map_auto_zoom">Automaatne suum</string>
@@ -279,7 +279,7 @@
     <string name="downloader_download_all_button">Laadi kõik alla</string>
     <string name="downloader_downloading">Allalaadimisel:</string>
     <!-- Displayed in a dialog that appears when a user tries to delete a map while the app is in the follow route mode -->
-    <string name="downloader_delete_map_while_routing_dialog">Kaardi kustutamiseks palun lõpeta tee juhatamine.</string>
+    <string name="downloader_delete_map_while_routing_dialog">Kaardi kustutamiseks palun lõpeta tee juhatamine</string>
     <!-- PointsInDifferentMWM -->
     <string name="routing_failed_cross_mwm_building">Koostada saad ainult täielikult ühe regiooni kaardi piiridesse jäävaid teekondi.</string>
     <!-- Context menu item for downloader. -->
@@ -351,18 +351,18 @@
     <string name="dialog_routing_location_turn_on">Luba asukohateenused</string>
     <string name="dialog_routing_location_unknown_turn_on">Ei suuda praeguseid GPS-koordinaate määrata. Teekonna koostamiseks luba asukohateenused.</string>
     <string name="dialog_routing_unable_locate_route">Teekonda ei õnnestu leida</string>
-    <string name="dialog_routing_cant_build_route">Teekonda ei õnnestu luua.</string>
+    <string name="dialog_routing_cant_build_route">Teekonda ei õnnestu koostada</string>
     <string name="dialog_routing_change_start_or_end">Palun kohenda oma algpunkti või sihtkohta.</string>
     <string name="dialog_routing_change_start">Kohenda algpunkti</string>
     <string name="dialog_routing_start_not_determined">Teekond jäi koostamata. Ei suuda tuvastada algpunkti.</string>
     <string name="dialog_routing_select_closer_start">Palun vali algpunkt teele lähemal.</string>
     <string name="dialog_routing_change_end">Kohenda sihtkohta</string>
     <string name="dialog_routing_end_not_determined">Teekond jäi koostamata. Ei suuda tuvastada sihtkohta.</string>
-    <string name="dialog_routing_select_closer_end">Palun vali sihtkoht teele lähemal.</string>
-    <string name="dialog_routing_change_intermediate">Ei suuda määrata teekonna vahepunkti.</string>
-    <string name="dialog_routing_intermediate_not_determined">Palun kohanda vahepunkti.</string>
+    <string name="dialog_routing_select_closer_end">Palun vali teele lähemal asuv sihtkoht</string>
+    <string name="dialog_routing_change_intermediate">Ei suuda tuvastada teekonna vahepunkti</string>
+    <string name="dialog_routing_intermediate_not_determined">Palun kohanda teekonna vahepunkti</string>
     <string name="dialog_routing_system_error">Süsteemi viga</string>
-    <string name="dialog_routing_application_error">Teekonda ei saa koostada rakenduse vea tõttu.</string>
+    <string name="dialog_routing_application_error">Teekonda ei saa koostada rakenduse vea tõttu</string>
     <string name="dialog_routing_try_again">Palun proovi uuesti</string>
     <string name="not_now">Mitte praegu</string>
     <string name="dialog_routing_download_and_build_cross_route">Kas sooviksid kaardi alla laadida ja luua optimaalse rohkem kui ühte kaarti hõlmava teekonna?</string>
@@ -376,11 +376,11 @@
     <string name="hide">Peida</string>
     <string name="categories">Kategooriad</string>
     <string name="history">Ajalugu</string>
-    <string name="search_not_found">Vabandust, tulemusi ei leidu.</string>
+    <string name="search_not_found">Appikene, tulemusi ei leidu</string>
     <!-- The message when user did not find anything in the search. -->
     <string name="search_not_found_query">Laadi alla otsitav piirkond või proovi lisada lähedalasuva linna/küla nimi.</string>
     <string name="search_history_title">Otsinguajalugu</string>
-    <string name="search_history_text">Vaata hiljutisi otsinguid.</string>
+    <string name="search_history_text">Vaata oma hiljutisi otsinguid</string>
     <string name="clear_search">Kustuta otsinguajalugu</string>
     <!-- Place Page link to Wikipedia article (if map object has it). -->
     <string name="read_in_wikipedia">Vikipeedia</string>
@@ -388,7 +388,7 @@
     <string name="p2p_start">Alusta</string>
     <string name="p2p_from_here">Teekond lähtekohast</string>
     <string name="p2p_to_here">Teekond sihtkohta</string>
-    <string name="p2p_only_from_current">Tee juhatamine on saadaval ainult sinu praegusest asukohast.</string>
+    <string name="p2p_only_from_current">Tee juhatamine on saadaval ainult sinu praegusest asukohast</string>
     <string name="p2p_reroute_from_current">Kas soovid, et planeeriksime teekonna sinu praegusest asukohast?</string>
     <!-- Edit open hours/set time and minutes dialog -->
     <string name="next_button">Järgmine</string>
@@ -458,14 +458,14 @@
     <string name="email_or_username">E-post või kasutajanimi</string>
     <string name="editor_add_phone">Lisa telefon</string>
     <string name="level">Korrus</string>
-    <string name="downloader_delete_map_dialog">Kõik sinu kaardimuudatused kustutatakse koos kaardiga.</string>
+    <string name="downloader_delete_map_dialog">Kõik sinu kaardimuudatused kustutatakse koos kaardiga</string>
     <string name="downloader_update_maps">Uuenda kaarte</string>
     <string name="downloader_mwm_migration_dialog">Teekonna loomiseks uuenda kõiki kaarte ja seejärel proovi teekond uuesti luua.</string>
     <string name="downloader_search_field_hint">Leia kaart</string>
-    <string name="common_check_internet_connection_dialog">Palun kontrolli oma nutiseadme internetiühendust.</string>
+    <string name="common_check_internet_connection_dialog">Palun kontrolli oma nutiseadme internetiühendust</string>
     <string name="downloader_no_space_title">Ei ole piisavalt andmeruumi</string>
     <string name="downloader_no_space_message">Palun kustuta ebavajalikud andmed</string>
-    <string name="editor_login_error_dialog">Sisselogimise viga.</string>
+    <string name="editor_login_error_dialog">Sisselogimise viga</string>
     <string name="editor_profile_changes">Kinnitatud muudatused</string>
     <string name="editor_focus_map_on_location">Lohista kaarti, et asetada rist koha või ettevõtte asukoha juurde.</string>
     <string name="editor_edit_place_title">Muutmine</string>
@@ -482,11 +482,11 @@
     <string name="osm_presentation">Kogukonna loodud OpenStreetMapi andmed seisuga %s. Lisateavet kaardi muutmise ja uuendamise kohta leiad OpenStreetMap.org saidist</string>
     <!-- OSM explanation on Android login screen -->
     <string name="login_osm_presentation">OpenStreetMap.org (OSM) on kogukonna projekt, mille eesmärk on luua tasuta ja avatud kaart. See on CoMapsi peamine kaardiandmete allikas ja toimib sarnaselt Vikipeediaga. Saad lisada või muuta kohti ja need muutuvad kättesaadavaks miljonitele kasutajatele üle kogu maailma.\nLiitu kogukonnaga ja aita luua kõigi jaoks paremat kaarti!</string>
-    <string name="login_to_make_edits_visible">Loo OpenStreetMapi konto või logi sisse, et avaldada oma kaardimuudatused kogu maailmale.</string>
+    <string name="login_to_make_edits_visible">Loo OpenStreetMapi konto või logi sisse, et avaldada oma kaardimuudatused kogu maailmale</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d/%2$d</string>
     <string name="download_over_mobile_header">Kas laadime alla mobiilivõrgu kaudu?</string>
-    <string name="download_over_mobile_message">See võib mõningate lepingute või rändluse korral olla märgatavalt kallim.</string>
+    <string name="download_over_mobile_message">See võib mõningate lepingute või andmerändluse korral olla märgatavalt kallim</string>
     <string name="error_enter_correct_house_number">Sisesta kehtiv majanumber</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Korruste arv ei või olla üle %d</string>
@@ -509,8 +509,8 @@
     <string name="editor_category_unsuitable_title">Ei leia sobivat kategooriat?</string>
     <string name="editor_category_unsuitable_text">CoMaps võimaldab lisada ainult lihtsaid huvipunkte, see tähendab, et ei mingeid linnu, teid, järvi, hoonete piirjooni jne. Palun lisa sellised kategooriad otse <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> saidis. Vaata meie <a href="https://www.comaps.app/support/advanced-map-editing/">juhendit</a> üksikasjalike samm-sammuliste juhiste saamiseks.</string>
     <string name="downloader_no_downloaded_maps_title">Sa ei ole kaarte alla laadinud</string>
-    <string name="downloader_no_downloaded_maps_message">Laadi alla kaardid asukoha otsimiseks ja võrguühenduseta tee juhatamiseks.</string>
-    <string name="current_location_unknown_error_title">Praegune asukoht pole teadma.</string>
+    <string name="downloader_no_downloaded_maps_message">Laadi alla kaardid asukoha otsimiseks ja võrguühenduseta tee juhatamiseks</string>
+    <string name="current_location_unknown_error_title">Praegune asukoht pole teada</string>
     <!-- abbreviation for meters -->
     <string name="m">m</string>
     <!-- abbreviation for kilometers -->
@@ -549,8 +549,8 @@
     <!-- Displayed when saving some edits to the map to warn against publishing personal data -->
     <string name="editor_share_to_all_dialog_title">Kas soovid saata selle kõigile kasutajatele?</string>
     <!-- Dialog before publishing the modifications to the public map. -->
-    <string name="editor_share_to_all_dialog_message_1">Palun kontrolli, et sa ei sisestanud isiklikke andmeid.</string>
-    <string name="editor_share_to_all_dialog_message_2">OpenStreetMapi haldajad kontrollivad muudatused üle ja võtavad küsimuste korral sinuga ühendust.</string>
+    <string name="editor_share_to_all_dialog_message_1">Palun kontrolli, et sa ei sisestanud isiklikke andmeid</string>
+    <string name="editor_share_to_all_dialog_message_2">OpenStreetMapi haldajad kontrollivad muudatused üle ja võtavad küsimuste korral sinuga ühendust</string>
     <string name="navigation_stop_button">Lõpeta</string>
     <!-- Shown as toast when starting the recent track recording -->
     <string name="track_recording">Rada on salvestamisel</string>
@@ -564,10 +564,10 @@
     <string name="mobile_data_option_not_today">Ära kasuta täna</string>
     <string name="mobile_data">Mobiilne internetiühendus</string>
     <!-- NOTE to translators: please synchronize your translation with the English one. -->
-    <string name="mobile_data_description">Mobiilne internetiühendus on vajalik kaardi uuendamise teavituste jaoks ning muudatuste üleslaadimiseks.</string>
+    <string name="mobile_data_description">Mobiilne internetiühendus on vajalik kaardi uuendamise teavituste jaoks ning muudatuste üleslaadimiseks</string>
     <string name="mobile_data_option_never">Ära kasuta kunagi</string>
     <string name="mobile_data_option_ask">Küsi alati</string>
-    <string name="traffic_update_maps_text">Liiklusinfo kuvamiseks palun uuenda kaardid.</string>
+    <string name="traffic_update_maps_text">Liiklusinfo kuvamiseks palun uuenda kaardid</string>
     <string name="big_font">Suurenda teksti suurust kaardil</string>
     <string name="traffic_update_app">Palun uuenda CoMapsi rakendust</string>
     <!-- "traffic" as in "road congestion" -->
@@ -577,7 +577,7 @@
     <string name="feedback_general">Üldine tagasiside</string>
     <string name="prefs_languages_information">Hääljuhiste jaoks kasutame kõnesünteesi. Paljud Android-seadmed kasutavad Google\'i TTS-i, saad selle alla laadida või värskendada Google Play teenusest (https:play.google.comstoreappsdetails?id=com.google.android.tts)</string>
     <string name="prefs_languages_information_off">Mõne keele puhul pead paigaldama kõnesüntesaatori või täiendava keelepaketi rakenduste poest (Google Play, Galaxy Store, App Gallery, FDroid). \nAva oma nutiseadme seadistused → Keel ja sisend → Kõne → Tekst kõneks väljund. \nSiin saad hallata kõnesünteesi seadistusi (näiteks alla laadida keelepaketti võrguühenduseta kasutamiseks) ja valida mõne muu teksti kõneks muutmise mootori.</string>
-    <string name="prefs_languages_information_off_link">Lisainfo saamiseks palun vaata seda juhist.</string>
+    <string name="prefs_languages_information_off_link">Lisainfo saamiseks palun vaata seda juhendit</string>
     <string name="transliteration_title">Transliteratsioon ladina tähestikku</string>
     <string name="learn_more">Lisateave</string>
     <!-- Subway exits for public transport marks on the map -->
@@ -656,7 +656,7 @@
     <!-- Speed camera settings menu option - Never warn (about speedcams) -->
     <string name="pref_tts_speedcams_never">Ära kunagi hoiata</string>
     <string name="power_managment_title">Energiasäästurežiim</string>
-    <string name="power_managment_description">Proovi funktsionaalsuse vähendamise arvel vähendada aku voolutarbimist.</string>
+    <string name="power_managment_description">Proovi funktsionaalsuse vähendamise arvel vähendada aku voolutarbimist</string>
     <string name="power_managment_setting_never">Mitte kunagi</string>
     <string name="power_managment_setting_auto">Madala akutäituvuse korral</string>
     <string name="power_managment_setting_manual_max">Alati</string>

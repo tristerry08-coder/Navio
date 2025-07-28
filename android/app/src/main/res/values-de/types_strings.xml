@@ -1391,7 +1391,7 @@
     <string name="type.man_made.pipeline.overground">Oberirdische Rohrleitung</string>
     <string name="type.sport.diving">Turmspringen</string>
     <string name="type.amenity.love_hotel">Stundenhotel</string>
-    <string name="type.landuse.plant_nursery">Gartenbau</string>
+    <string name="type.landuse.plant_nursery">Gärtnerei</string>
     <string name="type.leisure.firepit">Feuerstelle</string>
     <string name="type.barrier.guard_rail">Leitplanke</string>
     <string name="type.highway.ladder">Leiter</string>
@@ -1407,4 +1407,8 @@
     <string name="type.natural.wetland.mangrove">Mangrove</string>
     <string name="type.natural.wetland.tidalflat">Watt</string>
     <string name="type.leisure.escape_game">Escape Room</string>
+    <string name="type.amenity.luggage_locker">Gepäckschließfach</string>
+    <string name="type.amenity.bicycle_parking.covered">Überdachter Fahrradparkplatz</string>
+    <string name="type.post_office.post_partner">Postpartner</string>
+    <string name="type.amenity.ranger_station">Försterstation</string>
 </resources>

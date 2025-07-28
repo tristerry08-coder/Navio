@@ -205,7 +205,7 @@
 "share_my_location" = "分享我的位置";
 "prefs_group_route" = "導航";
 "pref_zoom_title" = "縮放按鈕";
-"pref_left_button_type" = "Left Main Button";
+"pref_left_button_type" = "左側主要按鈕";
 
 /* Settings «Map» category: «Appearance» title */
 "pref_appearance_title" = "外觀";
@@ -217,7 +217,7 @@
 "pref_appearance_dark" = "深色";
 
 /* Generic «Disabled» string */
-"disabled" = "Disabled";
+"disabled" = "不啟用";
 
 /* Generic «Off» string */
 "off" = "關閉";
@@ -1020,7 +1020,7 @@
 "bugreport_alert_message" = "您想向開發人員發送錯誤報告嗎？\n由於 CoMaps 不會自動收集任何錯誤資訊，因此我們只能依靠用戶的協助。感謝您對 CoMaps 的支持！";
 
 /* Title for the iCloud syncronization setting */
-"icloud_sync" = "iCloud Syncronization (Beta)";
+"icloud_sync" = "iCloud 同步 (測試)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "啟用 iCloud 同步";
@@ -1097,7 +1097,7 @@
 "osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org)（OSM）是一個建立免費開放地圖的社群專案。 它是CoMaps中地圖資料的主要來源，其工作原理類似於維基百科。 您可以新增或編輯地點，可供全世界數以百萬計的使用者使用並受益。\n 加入OSM，讓我們共繪更優質的地圖吧！";
 "osm_profile_view_edit_history" = "查看編輯歷史記錄";
 "osm_profile_view_notes" = "查看註記";
-"pref_mapappearance_title" = "Map Appearance";
-"pref_maplanguage_title" = "Map Language";
-"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
-"pref_maplanguage_local" = "Local Language";
+"pref_mapappearance_title" = "地圖樣貌";
+"pref_maplanguage_title" = "地圖語言";
+"transliteration_title_disabled_summary" = "當在地圖總是使用在地語言時不啟用";
+"pref_maplanguage_local" = "在地語言";

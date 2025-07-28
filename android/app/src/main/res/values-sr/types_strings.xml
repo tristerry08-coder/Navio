@@ -1408,4 +1408,9 @@
     <string name="type.natural.wetland.tidalflat">Блатњави спруд</string>
     <string name="type.natural.wetland.saltmarsh.tidal">Слана мочвара у зони плиме</string>
     <string name="type.natural.wetland.saltmarsh">Приморска слана мочвара</string>
+    <string name="type.amenity.luggage_locker">Ормар за пртљаг</string>
+    <string name="type.post_office.post_partner">Поштански партнер</string>
+    <string name="type.amenity.bicycle_parking.covered">Покривени паркинг за бицикле</string>
+    <string name="type.amenity.ranger_station">Станица за ренџер</string>
+    <string name="type.leisure.escape_game">Escape Room</string>
 </resources>

@@ -9,7 +9,7 @@
     <string name="delete">刪除</string>
     <string name="download_maps">下載地圖</string>
     <!-- Settings/Downloader - info for country when download fails -->
-    <string name="download_has_failed">下載失敗，點擊後再試一次。</string>
+    <string name="download_has_failed">下載失敗，點擊後再試一次</string>
     <!-- Settings/Downloader - info for country which started downloading -->
     <string name="downloading">下載中…</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->
@@ -32,7 +32,7 @@
     <!-- A dialog title, that warns a user that Precise Location is disabled and suggests to turn it on -->
     <string name="limited_accuracy">精度有限</string>
     <!-- A dialog text, that warns a user that Precise Location is disabled and suggests to turn it on -->
-    <string name="precise_location_is_disabled_long_text">為了確保准確的導航啟用設置中的精確位置。</string>
+    <string name="precise_location_is_disabled_long_text">為了確保准確的導航啟用設置中的精確位置</string>
     <!-- View and button titles for accessibility -->
     <string name="zoom_to_country">在地圖上顯示</string>
     <!-- Message to display at the center of the screen when the country download has failed -->
@@ -91,7 +91,7 @@
     <!-- Header of settings activity where user defines storage path -->
     <string name="maps_storage">將地圖儲存至</string>
     <!-- Detailed description of Maps Storage settings button -->
-    <string name="maps_storage_summary">選擇下載地圖的資料夾。</string>
+    <string name="maps_storage_summary">選擇下載地圖的資料夾</string>
     <!-- E.g. "Downloaded maps: 500Mb" in Maps Storage settings -->
     <string name="maps_storage_downloaded">已下載的地圖</string>
     <!-- Internal storage type in Maps Storage settings (not accessible by the user) -->
@@ -182,9 +182,9 @@
     <!-- Warning message when doing search around current position -->
     <string name="unknown_current_position">您的位置尚未確定</string>
     <!-- Alert message that we can't run Map Storage settings due to some reasons. -->
-    <string name="cant_change_this_setting">很抱歉，地圖儲存設定目前已停用。</string>
+    <string name="cant_change_this_setting">很抱歉，地圖儲存設定目前已停用</string>
     <!-- Alert message that downloading is in progress. -->
-    <string name="downloading_is_active">地圖下載進行中。</string>
+    <string name="downloading_is_active">地圖下載進行中</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">嘿，在 CoMaps 查看我的目前的位置吧！請打開 %1$s 或 %2$s 鏈接，還沒安裝離線地圖？在此下載: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
@@ -242,7 +242,7 @@
     <!-- Settings «Route» category: «Test Voice Directions» title -->
     <string name="pref_tts_test_voice_title">測試語音指令（TTS，文字轉語音系統）</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
-    <string name="pref_tts_playing_test_voice">如果您現在聽不到聲音，請檢查音量或系統文字轉語音系統的設定。</string>
+    <string name="pref_tts_playing_test_voice">如果您現在聽不到聲音，請檢查音量或系統文字轉語音系統的設定</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
     <string name="pref_tts_unavailable">無法使用</string>
     <string name="pref_map_auto_zoom">自動縮放</string>
@@ -294,7 +294,7 @@
     <string name="downloader_download_all_button">下載全部</string>
     <string name="downloader_downloading">正在下載：</string>
     <!-- Displayed in a dialog that appears when a user tries to delete a map while the app is in the follow route mode -->
-    <string name="downloader_delete_map_while_routing_dialog">要刪除地圖，請停止導航。</string>
+    <string name="downloader_delete_map_while_routing_dialog">要刪除地圖，請停止導航</string>
     <!-- PointsInDifferentMWM -->
     <string name="routing_failed_cross_mwm_building">路線只能完全處在同一地圖裡時才能被規劃。</string>
     <!-- Context menu item for downloader. -->
@@ -366,18 +366,18 @@
     <string name="dialog_routing_location_turn_on">啟用定位服務</string>
     <string name="dialog_routing_location_unknown_turn_on">無法定位目前 GPS 座標。請啟用定位服務以規劃路線。</string>
     <string name="dialog_routing_unable_locate_route">無法定位路線</string>
-    <string name="dialog_routing_cant_build_route">無法規劃路線。</string>
+    <string name="dialog_routing_cant_build_route">無法規劃路線</string>
     <string name="dialog_routing_change_start_or_end">請調整您的起點或目的地。</string>
     <string name="dialog_routing_change_start">調整出發點</string>
     <string name="dialog_routing_start_not_determined">路線未規劃。無法定位起點。</string>
     <string name="dialog_routing_select_closer_start">請選擇更接近道路的起點。</string>
     <string name="dialog_routing_change_end">調整目的地</string>
     <string name="dialog_routing_end_not_determined">路線未規劃。無法定位目的地。</string>
-    <string name="dialog_routing_select_closer_end">請選擇更接近道路的目的地位置。</string>
-    <string name="dialog_routing_change_intermediate">無法定位途經點。</string>
-    <string name="dialog_routing_intermediate_not_determined">請調整您的途經點。</string>
+    <string name="dialog_routing_select_closer_end">請選擇更接近道路的目的地位置</string>
+    <string name="dialog_routing_change_intermediate">無法定位途經點</string>
+    <string name="dialog_routing_intermediate_not_determined">請調整您的途經點</string>
     <string name="dialog_routing_system_error">系統錯誤</string>
-    <string name="dialog_routing_application_error">由於應用程式出錯，因此無法規劃路線。</string>
+    <string name="dialog_routing_application_error">由於應用程式出錯，因此無法規劃路線</string>
     <string name="dialog_routing_try_again">請再試一次</string>
     <string name="not_now">以後再說</string>
     <string name="dialog_routing_download_and_build_cross_route">您是否要下載地圖，以規劃跨越邊界的更佳路線？</string>
@@ -391,11 +391,11 @@
     <string name="hide">隱藏</string>
     <string name="categories">類別</string>
     <string name="history">歷史</string>
-    <string name="search_not_found">很抱歉，沒有搜尋到任何地點。</string>
+    <string name="search_not_found">很抱歉，沒有搜尋到任何地點</string>
     <!-- The message when user did not find anything in the search. -->
     <string name="search_not_found_query">下載您要搜尋的區域的地圖，或嘗試輸入附近的城鎮或村莊名稱。</string>
     <string name="search_history_title">搜尋歷史紀錄</string>
-    <string name="search_history_text">查看您最近的搜尋記錄。</string>
+    <string name="search_history_text">查看您最近的搜尋記錄</string>
     <string name="clear_search">清除搜尋記錄</string>
     <!-- Place Page link to Wikipedia article (if map object has it). -->
     <string name="read_in_wikipedia">維基百科</string>
@@ -405,7 +405,7 @@
     <string name="p2p_start">開始</string>
     <string name="p2p_from_here">從這裡出發</string>
     <string name="p2p_to_here">到這裡去</string>
-    <string name="p2p_only_from_current">導航只能從您目前的位置開始。</string>
+    <string name="p2p_only_from_current">導航只能從您目前的位置開始</string>
     <string name="p2p_reroute_from_current">您是否想要規劃目前位置的路線？</string>
     <!-- Edit open hours/set time and minutes dialog -->
     <string name="next_button">下一頁</string>
@@ -477,14 +477,14 @@
     <string name="level">樓層</string>
     <!-- Building level -->
     <string name="level_value_generic">樓層：%s</string>
-    <string name="downloader_delete_map_dialog">所有對地圖的修改都將與地圖一起被刪除。</string>
+    <string name="downloader_delete_map_dialog">所有對地圖的修改都將與地圖一起被刪除</string>
     <string name="downloader_update_maps">更新地圖</string>
     <string name="downloader_mwm_migration_dialog">為了規劃路線，您需要更新全部地圖並重新規劃路線。</string>
     <string name="downloader_search_field_hint">搜尋地圖</string>
-    <string name="common_check_internet_connection_dialog">請檢查您的設定並確保您的裝置已連接至網路。</string>
+    <string name="common_check_internet_connection_dialog">請檢查您的設定並確保您的裝置已連接至網路</string>
     <string name="downloader_no_space_title">沒有足夠的空間</string>
     <string name="downloader_no_space_message">請刪除不必要的資料</string>
-    <string name="editor_login_error_dialog">無法登入。</string>
+    <string name="editor_login_error_dialog">無法登入</string>
     <string name="editor_profile_changes">已驗證的變更</string>
     <string name="editor_focus_map_on_location">拖曳地圖以將十字放置在地點或企業的位置。</string>
     <string name="editor_edit_place_title">編輯中</string>
@@ -501,11 +501,11 @@
     <string name="osm_presentation">截至 %s 的社群創建的 OpenStreetMap 資料。請訪問 OpenStreetMap.org 以了解有關如何編輯和更新地圖的更多資訊</string>
     <!-- OSM explanation on Android login screen -->
     <string name="login_osm_presentation">OpenStreetMap.org（OSM）是一個建立免費開放地圖的社群專案。 它是 CoMaps 中地圖資料的主要來源，其工作原理類似於維基百科。 您可以新增或編輯地點，可供全世界數以百萬計的使用者使用並受益。\n 加入OSM，讓我們共繪更優質的地圖吧！</string>
-    <string name="login_to_make_edits_visible">建立 OpenStreetMap 帳戶或登入以向全世界發布您的地圖編輯。</string>
+    <string name="login_to_make_edits_visible">建立 OpenStreetMap 帳戶或登入以向全世界發布您的地圖編輯</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d / %2$d</string>
     <string name="download_over_mobile_header">用行動數據連線下載嗎？</string>
-    <string name="download_over_mobile_message">如果您使用行動數據或漫遊來進行下載，將可能導致額外的費用。</string>
+    <string name="download_over_mobile_message">如果您使用行動數據或漫遊來進行下載，將可能導致額外的費用</string>
     <string name="error_enter_correct_house_number">輸入正確的門牌號碼</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">最多可編輯 %d 層的建築</string>
@@ -528,8 +528,8 @@
     <string name="editor_category_unsuitable_title">找不到合適的類別？</string>
     <string name="editor_category_unsuitable_text">CoMaps 只允許加入簡單的點類別，即無法添加城鎮、道路、湖泊、建築輪廓等類別。請直接向 <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> 新增此類類別。請查看我們的<a href="https://www.comaps.app/support/advanced-map-editing/">指南</a>，以了解詳細的步驟說明。</string>
     <string name="downloader_no_downloaded_maps_title">您尚未下載任何地圖</string>
-    <string name="downloader_no_downloaded_maps_message">下載地圖來尋找位置和離線瀏覽。</string>
-    <string name="current_location_unknown_error_title">目前位置未知。</string>
+    <string name="downloader_no_downloaded_maps_message">下載地圖來尋找位置和離線瀏覽</string>
+    <string name="current_location_unknown_error_title">目前位置未知</string>
     <!-- abbreviation for meters -->
     <string name="m">公尺</string>
     <!-- abbreviation for kilometers -->
@@ -568,8 +568,8 @@
     <!-- Displayed when saving some edits to the map to warn against publishing personal data -->
     <string name="editor_share_to_all_dialog_title">您想要發送給所有使用者嗎？</string>
     <!-- Dialog before publishing the modifications to the public map. -->
-    <string name="editor_share_to_all_dialog_message_1">確保您沒有輸入任何個人資料。</string>
-    <string name="editor_share_to_all_dialog_message_2">OpenStreetMap 編輯人員將檢查更改並在有任何問題時與您聯繫。</string>
+    <string name="editor_share_to_all_dialog_message_1">確保您沒有輸入任何個人資料</string>
+    <string name="editor_share_to_all_dialog_message_2">OpenStreetMap 編輯人員將檢查更改並在有任何問題時與您聯繫</string>
     <string name="navigation_stop_button">停止</string>
     <!-- Shown as toast when starting the recent track recording -->
     <string name="track_recording">記錄軌跡</string>
@@ -583,10 +583,10 @@
     <string name="mobile_data_option_not_today">今天不使用</string>
     <string name="mobile_data">行動網路</string>
     <!-- NOTE to translators: please synchronize your translation with the English one. -->
-    <string name="mobile_data_description">要顯示地點的詳細資訊（例如照片、價格和評價），需要使用行動網路。</string>
+    <string name="mobile_data_description">要顯示地點的詳細資訊（例如照片、價格和評價），需要使用行動網路</string>
     <string name="mobile_data_option_never">絕不使用</string>
     <string name="mobile_data_option_ask">一律詢問</string>
-    <string name="traffic_update_maps_text">若要顯示交通資料，必須更新地圖。</string>
+    <string name="traffic_update_maps_text">若要顯示交通資料，必須更新地圖</string>
     <string name="big_font">增加地圖上的字體大小</string>
     <string name="traffic_update_app">請更新 CoMaps</string>
     <!-- "traffic" as in "road congestion" -->
@@ -596,7 +596,7 @@
     <string name="feedback_general">一般反應</string>
     <string name="prefs_languages_information">我們的語音導航使用“文字轉語音”系統。許多 Android 裝置使用 Google 的文字轉語音系統，您可以從 Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts) 下載或更新這一功能</string>
     <string name="prefs_languages_information_off">某些語言需要從應用商店（Google Play、三星Galaxy Store、華為應用市場、F-Droid）安裝相關的語音合成器或語言套件，才能使用此功能。\n打開您的裝置的設定 → 語言和輸入法 → 語音 → 文字轉語音 (TTS) 輸出\n您可以在這裡管理語音合成的設定（例如，下載語言套件供離線使用）和選擇其他 TTS 引擎。</string>
-    <string name="prefs_languages_information_off_link">如需瞭解更多資訊，請參閱此指南。</string>
+    <string name="prefs_languages_information_off_link">如需瞭解更多資訊，請參閱此指南</string>
     <string name="transliteration_title">拉丁字母音譯</string>
     <string name="learn_more">瞭解更多資訊</string>
     <!-- Subway exits for public transport marks on the map -->
@@ -672,7 +672,7 @@
     <!-- Speed camera settings menu option - Never warn (about speedcams) -->
     <string name="pref_tts_speedcams_never">永遠不會對測速照相機發出警告</string>
     <string name="power_managment_title">省電模式</string>
-    <string name="power_managment_description">如果開啟省電模式，應用程序將根據手機的當前電量關閉耗電功能。</string>
+    <string name="power_managment_description">如果開啟省電模式，應用程序將根據手機的當前電量關閉耗電功能</string>
     <string name="power_managment_setting_never">從不</string>
     <string name="power_managment_setting_auto">當電量低時</string>
     <string name="power_managment_setting_manual_max">最大程度省電</string>

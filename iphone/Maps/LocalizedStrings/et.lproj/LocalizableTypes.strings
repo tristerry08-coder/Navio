@@ -1500,7 +1500,7 @@
 "type.natural.wetland.saltmarsh" = "Sooldunud padur";
 "type.natural.wetland.saltmarsh.tidal" = "Loodete mõjutatud sooldunud padur";
 "type.leisure.escape_game" = "Põgenemistuba";
-"type.amenity.bicycle_parking.covered" = "Covered Bicycle Parking";
-"type.amenity.ranger_station" = "Ranger Station";
-"type.amenity.luggage_locker" = "Luggage Locker";
-"type.post_office.post_partner" = "Post Partner";
+"type.amenity.bicycle_parking.covered" = "Kaetud jalgrattaparkla";
+"type.amenity.ranger_station" = "Pargivahi maja";
+"type.amenity.luggage_locker" = "Pagasihoid";
+"type.post_office.post_partner" = "Postiteenused partneri juures";

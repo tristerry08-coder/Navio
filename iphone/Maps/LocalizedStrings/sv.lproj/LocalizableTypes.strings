@@ -455,7 +455,7 @@
 
 /* These translations are used for all type.highway.*.bridge. */
 "type.highway.path.bridge" = "Bro";
-"type.highway.path.horse" = "Gångväg";
+"type.highway.path.horse" = "Ridväg";
 
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.path.tunnel" = "Tunnel";
@@ -548,13 +548,13 @@
 
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.tertiary_link.tunnel" = "Tunnel";
-"type.highway.track" = "Gata";
-"type.highway.track.area" = "Gata";
+"type.highway.track" = "Traktorväg";
+"type.highway.track.area" = "Traktorväg";
 
 /* These translations are used for all type.highway.*.bridge. */
 "type.highway.track.bridge" = "Bro";
-"type.highway.track.grade1" = "Gata";
-"type.highway.track.no.access" = "Gata";
+"type.highway.track.grade1" = "Traktorväg";
+"type.highway.track.no.access" = "Traktorväg";
 
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.track.tunnel" = "Tunnel";
@@ -593,7 +593,7 @@
 "type.area_highway.service" = "Gata";
 "type.area_highway.tertiary" = "Gata";
 "type.area_highway.steps" = "Trappa";
-"type.area_highway.track" = "Gata";
+"type.area_highway.track" = "Traktorväg";
 "type.area_highway.trunk" = "Gata";
 "type.area_highway.unclassified" = "Gata";
 "type.highway.world_level" = "highway-world_level";

@@ -41,9 +41,9 @@
     <string name="try_again">Опитайте отново</string>
     <string name="about_menu_title">Относно приложението</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_1">• Без реклами, без проследяване, без събиране на данни</string>
+    <string name="about_proposition_1">• Лесен и удобен за използване</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_2">• Без източване на батерията, работи офлайн</string>
+    <string name="about_proposition_2">• Фокусиран върху поверителността и без реклами</string>
     <!-- Text in About screen -->
     <string name="about_proposition_3">• Офлайн, бърз и компактен</string>
     <!-- Text in About screen -->

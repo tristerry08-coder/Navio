@@ -9,7 +9,7 @@
     <string name="delete">删除</string>
     <string name="download_maps">下载地图</string>
     <!-- Settings/Downloader - info for country when download fails -->
-    <string name="download_has_failed">下载失败，请点击重试。</string>
+    <string name="download_has_failed">下载失败，请点击重试</string>
     <!-- Settings/Downloader - info for country which started downloading -->
     <string name="downloading">正在下载…</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->

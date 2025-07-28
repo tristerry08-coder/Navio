@@ -1409,4 +1409,8 @@
     <string name="type.natural.wetland.tidalflat">Loodeline tasandik</string>
     <string name="type.natural.wetland.saltmarsh">Sooldunud padur</string>
     <string name="type.leisure.escape_game">Põgenemistuba</string>
+    <string name="type.amenity.luggage_locker">Pagasihoid</string>
+    <string name="type.amenity.bicycle_parking.covered">Kaetud jalgrattaparkla</string>
+    <string name="type.post_office.post_partner">Postiteenused partneri juures</string>
+    <string name="type.amenity.ranger_station">Pargivahi maja</string>
 </resources>

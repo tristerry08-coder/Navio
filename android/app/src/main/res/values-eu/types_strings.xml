@@ -1345,4 +1345,10 @@
     <string name="type.noexit">Irteerarik gabeko bidea</string>
     <string name="type.leisure.escape_game">Escape Room</string>
     <string name="type.landuse.religious">Eremu erlijiosoa</string>
+    <string name="type.mapswithme.grid">mapswithme-sareta</string>
+    <string name="type.amenity.bicycle_parking.covered">Txirrinduen aparkaleku estalia</string>
+    <string name="type.amenity.luggage_locker">Ekipaje-kontsigna</string>
+    <string name="type.natural.wetland.saltmarsh">Gatz-padura</string>
+    <string name="type.natural.wetland.saltmarsh.tidal">Mareako gatz-padura</string>
+    <string name="type.railway.station.subway.qingdao">Metro geltokia</string>
 </resources>

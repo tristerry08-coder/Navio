@@ -154,7 +154,7 @@
 "share_bookmarks_email_body" = "Tere!\n\nManuses on minu järjehoidjad rakendusest CoMaps. Palun ava need kui Sul on CoMaps paigaldatud. Või kui ei ole, laadi rakendus alla oma iOS või Android seadmesse, järgides seda linki: https:omaps.appget?kmz\n\nNaudi reisimist CoMapsiga!";
 
 /* message title of loading file */
-"load_kmz_title" = "Järjehoidjate laadimine";
+"load_kmz_title" = "Laadin järjehoidjaid";
 
 /* Kmz file successful loading */
 "load_kmz_successful" = "Järjehoidjad edukalt laaditud! Leiad need kaardil või järjehoidjate halduri vaates.";
@@ -1096,6 +1096,6 @@
 "osm_profile_view_notes" = "Vaata märkused";
 "about_proposition_3" = "Läbipaistev ja kasumit mittetaotlev";
 "pref_mapappearance_title" = "Kaardi välimus";
-"pref_maplanguage_title" = "Map Language";
-"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
-"pref_maplanguage_local" = "Local Language";
+"pref_maplanguage_title" = "Kaardi keel";
+"transliteration_title_disabled_summary" = "Kui kaardil on alati kasutusel kohalik keel, siis see eelistus on välja lülitatud";
+"pref_maplanguage_local" = "Kohalik keel";

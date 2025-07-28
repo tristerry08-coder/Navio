@@ -9,7 +9,7 @@
     <string name="delete">Ta bort</string>
     <string name="download_maps">Ladda ner kartor</string>
     <!-- Settings/Downloader - info for country when download fails -->
-    <string name="download_has_failed">Nedladdningen misslyckades, tryck för att försöka igen.</string>
+    <string name="download_has_failed">Nedladdningen misslyckades, tryck för att försöka igen</string>
     <!-- Settings/Downloader - info for country which started downloading -->
     <string name="downloading">Laddar ner…</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->

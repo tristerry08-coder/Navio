@@ -41,7 +41,7 @@
     <string name="try_again">Попробуйте ещё раз</string>
     <string name="about_menu_title">Про CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Открытый проект создаваемый сообществом</string>
+    <string name="about_headline">Открытый проект, создаваемый сообществом</string>
     <!-- Text in About screen -->
     <string name="about_proposition_1">• Легко использовать и отполированный вид</string>
     <!-- Text in About screen -->
@@ -79,7 +79,7 @@
     <!-- "Bookmarks and Tracks" dialog title, also sync it with iphone/plist.txt -->
     <string name="bookmarks_and_tracks">Метки и треки</string>
     <!-- Default bookmark list name -->
-    <string name="core_my_places">Мои Метки</string>
+    <string name="core_my_places">Мои метки</string>
     <!-- Add bookmark dialog - bookmark name -->
     <string name="name">Название</string>
     <!-- Editor title above street and house number, duplicates [type.building.address] in types_strings.txt -->
@@ -154,7 +154,7 @@
     <!-- Search category for police; any changes should be duplicated in categories.txt @category_police! -->
     <string name="category_police">Полиция</string>
     <!-- Search category for WiFi access; any changes should be duplicated in categories.txt @category_wifi! -->
-    <string name="category_wifi">WiFi</string>
+    <string name="category_wifi">Wi-Fi</string>
     <!-- Search category for recycling; any changes should be duplicated in categories.txt @category_recycling! -->
     <string name="category_recycling">Переработка</string>
     <!-- Search category for water; any changes should be duplicated in categories.txt @category_water! also used to sort bookmarks by type -->
@@ -275,7 +275,7 @@
     <!-- Toast text when compass calibration may improve the correctness of the current position arrow -->
     <string name="compass_calibration_required">Двигайте телефон восьмёркой, чтобы откалибровать компас и зафиксировать направление стрелки на карте.</string>
     <!-- Toast text when user hides UI with a long tap anywhere on the map -->
-    <string name="long_tap_toast">Долгое нажатие на карту вернёт интерфейс обратно</string>
+    <string name="long_tap_toast">Долгое нажатие на карту вернет интерфейс обратно</string>
     <!-- Update all button text -->
     <string name="downloader_update_all_button">Обновить все</string>
     <!-- Cancel all button text -->
@@ -304,7 +304,7 @@
     <!-- Preference title -->
     <string name="google_play_services">Службы определения местоположения в Google Fused</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">Несвободный сервис который объединяет GPS, WiFi, мобильные сети и т.д. чтобы определить ваше местоположения с большей точностью. Он может подключатся к серверам Google.</string>
+    <string name="pref_use_google_play">Проприетарный сервис, объединяющий GPS, Wi-Fi, мобильные сети и т. д., для определения местоположения с большей точностью. Он может подключатся к серверам Google.</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -428,7 +428,7 @@
     <string name="editor_report_problem_no_place_title">Места не существует</string>
     <string name="editor_report_problem_under_construction_title">Закрыто на ремонт</string>
     <string name="editor_report_problem_duplicate_place_title">Повторяющееся место</string>
-    <string name="autodownload">Автоматическая загрузка</string>
+    <string name="autodownload">Автозагрузка карт</string>
     <!-- Place Page opening hours text -->
     <string name="daily">Ежедневно</string>
     <string name="twentyfour_seven">Круглосуточно</string>
@@ -591,7 +591,7 @@
     <string name="prefs_languages_information">Подсказки озвучиваются системным синтезатором речи (TTS). На многих устройствах используется Google TTS, его можно загрузить или обновить в Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts)</string>
     <string name="prefs_languages_information_off">Для некоторых языков, возможно, необходимо установить дополнительный синтезатор речи (TTS) из магазина приложений (Google Play, Galaxy Store, App Gallery, FDroid). \nЧтобы настроить синтезатор речи, перейдите в Настройки → Язык и ввод → Синтез речи. \nЗдесь можно установить дополнительные языковые пакеты или выбрать синтезатор речи.</string>
     <string name="prefs_languages_information_off_link">Более подробная информация — в этом руководстве.</string>
-    <string name="transliteration_title">Транслитерировать в Латинский алфавит</string>
+    <string name="transliteration_title">Транслитерация в латиницу</string>
     <string name="learn_more">Узнать больше</string>
     <!-- Subway exits for public transport marks on the map -->
     <string name="core_exit">Выход</string>
@@ -612,7 +612,7 @@
     <string name="error_enter_correct_name">Пожалуйста, введите название правильно</string>
     <string name="bookmark_lists">Списки</string>
     <!-- Do not display all bookmark lists on the map -->
-    <string name="bookmark_lists_hide_all">Спрятать все</string>
+    <string name="bookmark_lists_hide_all">Скрыть все</string>
     <string name="bookmark_lists_show_all">Показать все</string>
     <plurals name="bookmarks_places">
         <item quantity="one">%d метка</item>
@@ -679,7 +679,7 @@
     <string name="power_managment_setting_never">Никогда</string>
     <string name="power_managment_setting_auto">Авто</string>
     <string name="power_managment_setting_manual_max">Максимальное энергосбережение</string>
-    <string name="enable_logging_warning_message">Данная настройка включается для записи действий в целях диагностики, чтобы помочь нашей команде выявить проблемы с приложением. Временно включайте эту настройку только для отправки детальной информации о найденной вами проблеме в приложении через кнопку \"Сообщить о проблеме\".</string>
+    <string name="enable_logging_warning_message">Эта настройка включается для записи действий в целях диагностики, чтобы помочь нашей команде выявить проблемы с приложением. Включайте ее только на время для отправки детальной информации о неполадках, обнаруженных в приложении, через кнопку «Сообщить о проблеме». Логи могут включать данные о местоположении.</string>
     <string name="access_rules_author_only">Редактируется онлайн</string>
     <string name="driving_options_title">Настройки объезда</string>
     <!-- Recommended length for CarPlay and Android Auto is around 25-27 characters -->

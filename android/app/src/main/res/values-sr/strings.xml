@@ -9,7 +9,7 @@
     <string name="delete">Обриши</string>
     <string name="download_maps">Преузми мапе</string>
     <!-- Settings/Downloader - info for country when download fails -->
-    <string name="download_has_failed">Преузимање није успело. Тапни за поновни покушај.</string>
+    <string name="download_has_failed">Преузимање није успело. Тапни за поновни покушај</string>
     <!-- Settings/Downloader - info for country which started downloading -->
     <string name="downloading">Преузимање…</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->
@@ -82,7 +82,7 @@
     <!-- Header of settings activity where user defines storage path -->
     <string name="maps_storage">Место за чување мапа</string>
     <!-- Detailed description of Maps Storage settings button -->
-    <string name="maps_storage_summary">Изаберите фолдер у ком се чувају мапе.</string>
+    <string name="maps_storage_summary">Изаберите фолдер у ком се чувају мапе</string>
     <!-- E.g. "Downloaded maps: 500Mb" in Maps Storage settings -->
     <string name="maps_storage_downloaded">Преузете мапе</string>
     <!-- Internal storage type in Maps Storage settings (not accessible by the user) -->
@@ -173,9 +173,9 @@
     <!-- Warning message when doing search around current position -->
     <string name="unknown_current_position">Ваша локација још није одређена</string>
     <!-- Alert message that we can't run Map Storage settings due to some reasons. -->
-    <string name="cant_change_this_setting">Извините, подешавање локације за чување мапа је тренутно онемогућено.</string>
+    <string name="cant_change_this_setting">Извините, подешавање локације за чување мапа је тренутно онемогућено</string>
     <!-- Alert message that downloading is in progress. -->
-    <string name="downloading_is_active">Преузимање мапа је у току.</string>
+    <string name="downloading_is_active">Преузимање мапа је у току</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">Види моју тренутну локацију у CoMaps-у! %1$s или %2$s Још не користиш offline мапе? Преузми их овде: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
@@ -233,7 +233,7 @@
     <!-- Settings «Route» category: «Test Voice Directions» title -->
     <string name="pref_tts_test_voice_title">Тестирај гласовне инструкције (Текст-у-говор)</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
-    <string name="pref_tts_playing_test_voice">Проверите гласноћу или системска подешавања Текста-у-говор ако сада не чујете глас.</string>
+    <string name="pref_tts_playing_test_voice">Проверите гласноћу или системска подешавања Текста-у-говор ако сада не чујете глас</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
     <string name="pref_tts_unavailable">Није доступно</string>
     <string name="pref_map_auto_zoom">Аутоматско увећавање</string>
@@ -279,7 +279,7 @@
     <string name="downloader_download_all_button">Преузми све</string>
     <string name="downloader_downloading">Преузимање:</string>
     <!-- Displayed in a dialog that appears when a user tries to delete a map while the app is in the follow route mode -->
-    <string name="downloader_delete_map_while_routing_dialog">Да бисте обрисали мапу, зауставите навигацију.</string>
+    <string name="downloader_delete_map_while_routing_dialog">Да бисте обрисали мапу, зауставите навигацију</string>
     <!-- PointsInDifferentMWM -->
     <string name="routing_failed_cross_mwm_building">Могу се креирати само руте које се комплетно налазе у оквиру мапе једног региона.</string>
     <!-- Context menu item for downloader. -->
@@ -351,16 +351,16 @@
     <string name="dialog_routing_location_turn_on">Укључи Локацијске сервисе</string>
     <string name="dialog_routing_location_unknown_turn_on">Није могуће одредити тренутне GPS координате. Укључи локацијске сервисе ради проналажења руте.</string>
     <string name="dialog_routing_unable_locate_route">Не могу да пронађем руту</string>
-    <string name="dialog_routing_cant_build_route">Не могу да направим руту.</string>
+    <string name="dialog_routing_cant_build_route">Не могу да направим руту</string>
     <string name="dialog_routing_change_start_or_end">Молим Вас да подесите почетну или одредишну тачку.</string>
     <string name="dialog_routing_change_start">Подеси почетну тачку</string>
     <string name="dialog_routing_start_not_determined">Рута није креирана. Не могу да одредим почетну тачку.</string>
     <string name="dialog_routing_select_closer_start">Молим вас да изаберете почетну тачку ближе путу.</string>
     <string name="dialog_routing_change_end">Подеси одредишну тачку</string>
     <string name="dialog_routing_end_not_determined">Рута није направљена. Не могу да пронађем одредиште.</string>
-    <string name="dialog_routing_select_closer_end">Молим Вас да изаберете одредишну тачну ближе путу.</string>
-    <string name="dialog_routing_change_intermediate">Не могу да пронађем успутну тачку.</string>
-    <string name="dialog_routing_intermediate_not_determined">Молим Вас да подесите успутну тачку.</string>
+    <string name="dialog_routing_select_closer_end">Молим Вас да изаберете одредишну тачну ближе путу</string>
+    <string name="dialog_routing_change_intermediate">Не могу да пронађем међуодредиште</string>
+    <string name="dialog_routing_intermediate_not_determined">Молим Вас да подесите међуодредиште</string>
     <string name="dialog_routing_system_error">Системска грешка</string>
     <string name="dialog_routing_application_error">Не могу да направим руту због грешке у апликацији.</string>
     <string name="dialog_routing_try_again">Молим Вас, покушајте поново</string>
@@ -390,7 +390,7 @@
     <string name="p2p_start">Крени</string>
     <string name="p2p_from_here">Старт</string>
     <string name="p2p_to_here">Одредиште</string>
-    <string name="p2p_only_from_current">Навигација је могућа само од ваше тренутне локације.</string>
+    <string name="p2p_only_from_current">Навигација је могућа само од ваше тренутне локације</string>
     <string name="p2p_reroute_from_current">Да ли желите да направите руту од ваше тренутне локације?</string>
     <!-- Edit open hours/set time and minutes dialog -->
     <string name="next_button">Даље</string>
@@ -459,14 +459,14 @@
     <string name="level">Спрат</string>
     <!-- Building level -->
     <string name="level_value_generic">Спрат: %s</string>
-    <string name="downloader_delete_map_dialog">Све ваше промене на мапи ће бити обрисане заједно са мапом.</string>
+    <string name="downloader_delete_map_dialog">Све ваше промене на мапи ће бити обрисане заједно са мапом</string>
     <string name="downloader_update_maps">Ажурирај мапе</string>
     <string name="downloader_mwm_migration_dialog">Да бисте направили руту, потребно је да ажурирате све мапе, а затим да поново планирате руту.</string>
     <string name="downloader_search_field_hint">Пронађи мапу</string>
-    <string name="common_check_internet_connection_dialog">Молим Вас да проверите да ли је Ваш уређај повезан на интернет.</string>
+    <string name="common_check_internet_connection_dialog">Молим Вас да проверите да ли је Ваш уређај повезан на интернет</string>
     <string name="downloader_no_space_title">Нема довољно простора</string>
     <string name="downloader_no_space_message">Молим Вас да обришете непотребне податке</string>
-    <string name="editor_login_error_dialog">Грешка приликом пријаве.</string>
+    <string name="editor_login_error_dialog">Грешка приликом пријаве</string>
     <string name="editor_profile_changes">Верификоване промене</string>
     <string name="editor_edit_place_title">Измена</string>
     <string name="editor_add_place_title">Додавање</string>
@@ -482,11 +482,11 @@
     <string name="osm_presentation">Подаци са OpenStreetMap-а које је креирала заједница до %s. Научите више о томе како да мењате и ажурирате мапу на OpenStreetMap.org</string>
     <!-- OSM explanation on Android login screen -->
     <string name="login_osm_presentation">OpenStreetMap.org (OSM) је пројекат заједнице који има за циљ прављење бесплатне, слободне и отворене мапе. OSM је главни извор података за мапе у CoMaps-у и функционише на сличан начин као Википедија. Можете додати или променити места и ваше промене постају видљиве милионима корисника широм света. \nПридружите се заједници и помозите да направимо бољу мапу која је доступна свима!</string>
-    <string name="login_to_make_edits_visible">Пријавите се на openstreetmap.org да бисте објавили ваше промене остатку света.</string>
+    <string name="login_to_make_edits_visible">Пријавите се на openstreetmap.org да бисте објавили ваше промене остатку света</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d од %2$d</string>
     <string name="download_over_mobile_header">Преузимање преко мобилне мреже?</string>
-    <string name="download_over_mobile_message">Ово може бити значајно скупље у оквиру одређених пакета или у ромингу.</string>
+    <string name="download_over_mobile_message">Ово може бити значајно скупље у оквиру одређених пакета или у ромингу</string>
     <string name="error_enter_correct_house_number">Унесте исправан кућни број</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Број спратова не сме да прелази %d</string>
@@ -505,8 +505,8 @@
     <string name="editor_category_unsuitable_title">Не можете да пронађете одговарајућу категорију?</string>
     <string name="editor_category_unsuitable_text">CoMaps омогућава додавање једноставних категорија за тачке на мапи, што искључује градове, путеве, језера, тлоцрте зграда, итд. Молимо Вас да такве категорије додате директно на <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Прочитајте наше <a href="https://www.comaps.app/support/advanced-map-editing/">упутство</a> за детаљне инструкције, корак-по-корак.</string>
     <string name="downloader_no_downloaded_maps_title">Нисте преузели ни једну мапу</string>
-    <string name="downloader_no_downloaded_maps_message">Преузмите мапе да бисте претраживали и користили навигацију без интернета.</string>
-    <string name="current_location_unknown_error_title">Тренутна локација није позната.</string>
+    <string name="downloader_no_downloaded_maps_message">Преузмите мапе да бисте претраживали и користили навигацију без интернета</string>
+    <string name="current_location_unknown_error_title">Тренутна локација није позната</string>
     <!-- abbreviation for meters -->
     <string name="m">м</string>
     <!-- abbreviation for kilometers -->
@@ -544,8 +544,8 @@
     <!-- Displayed when saving some edits to the map to warn against publishing personal data -->
     <string name="editor_share_to_all_dialog_title">Да ли желите да поделите са свим другим корисницима?</string>
     <!-- Dialog before publishing the modifications to the public map. -->
-    <string name="editor_share_to_all_dialog_message_1">Проверите да нисте унели приватне или личне податке.</string>
-    <string name="editor_share_to_all_dialog_message_2">OpenStreetMap мапери ће проверити промене и контактирати Вас уколико буду имали питања.</string>
+    <string name="editor_share_to_all_dialog_message_1">Проверите да нисте унели приватне или личне податке</string>
+    <string name="editor_share_to_all_dialog_message_2">OpenStreetMap мапери ће проверити промене и контактирати Вас уколико буду имали питања</string>
     <string name="navigation_stop_button">Стоп</string>
     <!-- Shown as toast when starting the recent track recording -->
     <string name="track_recording">Снимање путање</string>
@@ -559,10 +559,10 @@
     <string name="mobile_data_option_not_today">Немој данас</string>
     <string name="mobile_data">Мобилни интернет</string>
     <!-- NOTE to translators: please synchronize your translation with the English one. -->
-    <string name="mobile_data_description">Мобилни интернет је потребан за обавештења о ажурирању мапе и за слање измена.</string>
+    <string name="mobile_data_description">Мобилни интернет је потребан за обавештења о ажурирању мапе и за слање измена</string>
     <string name="mobile_data_option_never">Никад не користи</string>
     <string name="mobile_data_option_ask">Увек ме питај</string>
-    <string name="traffic_update_maps_text">Да би се приказали подаци о саобраћају, мапа мора да се ажурира.</string>
+    <string name="traffic_update_maps_text">Да би се приказали подаци о саобраћају, мапа мора да се ажурира</string>
     <string name="big_font">Увећана слова на мапи</string>
     <string name="traffic_update_app">Молим Вас да ажурирате CoMaps</string>
     <!-- "traffic" as in "road congestion" -->
@@ -572,7 +572,7 @@
     <string name="feedback_general">Ваше мишљење</string>
     <string name="prefs_languages_information">Користимо системски сервис текст-у-говор за гласовне инструкције. Многи Андроид уређаји користе Google Препознавање и синтезу говора, који можете да преузмете или ажурирате путем Google Play продавнице (https://play.google.com/store/apps/details?id=com.google.android.tts)</string>
     <string name="prefs_languages_information_off">За поједине језике, мораћете да инсталирате синтетизатор говора или језички пакет путем продавнице апликација (Google Play, Galaxy Store, App Gallery, FDroid). \nОтворите Подешавања вашег уређаја → Језик и унос → Говор → Излаз Текста у говор. \nОвде можете да управљате подешавањима за синтезу говора (на пример, да преузмете језички пакет за употребу без интернета) и да изаберете неку другу машину за Текст-у-говор.</string>
-    <string name="prefs_languages_information_off_link">За више информација погледајте ово упутство.</string>
+    <string name="prefs_languages_information_off_link">За више информација погледајте ово упутство</string>
     <string name="transliteration_title">Транслитерација у латиницу</string>
     <string name="learn_more">Сазнај више</string>
     <!-- Subway exits for public transport marks on the map -->
@@ -654,7 +654,7 @@
     <!-- Speed camera settings menu option - Never warn (about speedcams) -->
     <string name="pref_tts_speedcams_never">Немој да ме упозораваш</string>
     <string name="power_managment_title">Режим чувања батерије</string>
-    <string name="power_managment_description">Смањује потрошњу електричне енергије искључивањем одређених функционалности.</string>
+    <string name="power_managment_description">Смањује потрошњу електричне енергије искључивањем одређених функционалности</string>
     <string name="power_managment_setting_never">Никад</string>
     <string name="power_managment_setting_auto">Када је батерија при крају</string>
     <string name="power_managment_setting_manual_max">Увек</string>
@@ -860,7 +860,7 @@
     <string name="github">GitHub</string>
     <string name="openstreetmap">OpenStreetMap</string>
     <string name="editor_focus_map_on_location">Превуците мапу да поставите крст на локацију места или посла.</string>
-    <string name="precise_location_is_disabled_long_text">Да би се осигурала тачна навигација омогућите прецизну локацију у подешавањима.</string>
+    <string name="precise_location_is_disabled_long_text">Да би се осигурала тачна навигација омогућите прецизну локацију у подешавањима</string>
     <string name="mb">МБ</string>
     <string name="translated_om_site_url">https://comaps.app/</string>
     <string name="tts_info_link">https://www.comaps.app/support/tts-configuration-guide-for-android/</string>

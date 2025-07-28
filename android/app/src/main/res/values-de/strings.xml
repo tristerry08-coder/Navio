@@ -364,11 +364,11 @@
     <string name="dialog_routing_select_closer_start">Bitte wählen Sie einen Startpunkt, der näher an einer Straße liegt.</string>
     <string name="dialog_routing_change_end">Ziel anpassen</string>
     <string name="dialog_routing_end_not_determined">Route wurde nicht erstellt. Ziel kann nicht gefunden werden.</string>
-    <string name="dialog_routing_select_closer_end">Bitte wählen Sie einen Zielort, der näher an einer Straße liegt.</string>
-    <string name="dialog_routing_change_intermediate">Zwischenstopp kann nicht gefunden werden.</string>
-    <string name="dialog_routing_intermediate_not_determined">Bitte passen Sie Ihren Zwischenstopp an.</string>
+    <string name="dialog_routing_select_closer_end">Bitte wählen Sie einen Zielort näher zur Straße</string>
+    <string name="dialog_routing_change_intermediate">Der Zwischenstopp kann nicht gefunden werden</string>
+    <string name="dialog_routing_intermediate_not_determined">Bitte passen Sie Ihren Zwischenstopp an</string>
     <string name="dialog_routing_system_error">Systemfehler</string>
-    <string name="dialog_routing_application_error">Route kann wegen eines Anwendungsfehlers nicht erstellt werden.</string>
+    <string name="dialog_routing_application_error">Wegen eines Anwendungsfehlers kann keine Route erstellt werden</string>
     <string name="dialog_routing_try_again">Bitte versuchen Sie es erneut</string>
     <string name="not_now">Nicht jetzt</string>
     <string name="dialog_routing_download_and_build_cross_route">Möchten Sie die Karte herunterladen und eine bessere Route erstellen, die mehr als eine Karte umfasst?</string>
@@ -382,17 +382,17 @@
     <string name="hide">Ausblenden</string>
     <string name="categories">Kategorien</string>
     <string name="history">Verlauf</string>
-    <string name="search_not_found">Leider wurde nichts gefunden.</string>
+    <string name="search_not_found">Uups, kein Ergebnis gefunden</string>
     <!-- The message when user did not find anything in the search. -->
     <string name="search_not_found_query">Laden Sie die Region herunter, in der Sie suchen, oder fügen Sie den Namen einer nahe gelegenen Stadt oder eines Dorfes hinzu.</string>
     <string name="search_history_title">Suchverlauf</string>
-    <string name="search_history_text">Hier werden Ihre letzten Suchanfragen angezeigt.</string>
+    <string name="search_history_text">Anzeige Ihre letzten Suchanfragen</string>
     <string name="clear_search">Suchverlauf löschen</string>
     <string name="p2p_your_location">Ihr Standort</string>
     <string name="p2p_start">Start</string>
     <string name="p2p_from_here">Von</string>
     <string name="p2p_to_here">Nach</string>
-    <string name="p2p_only_from_current">Die Navigation ist nur von Ihrem aktuellen Standort verfügbar.</string>
+    <string name="p2p_only_from_current">Die Navigation ist nur von Ihrem aktuellen Standort möglich</string>
     <string name="p2p_reroute_from_current">Soll eine Route von Ihrem aktuellen Standort aus berechnet werden?</string>
     <!-- Edit open hours/set time and minutes dialog -->
     <string name="next_button">Weiter</string>
@@ -464,14 +464,14 @@
     <string name="level">Stockwerk</string>
     <!-- Building level -->
     <string name="level_value_generic">Stock: %s</string>
-    <string name="downloader_delete_map_dialog">Alle Kartenänderungen werden zusammen mit der Karte gelöscht.</string>
+    <string name="downloader_delete_map_dialog">Alle Kartenänderungen werden zusammen mit der Karte gelöscht</string>
     <string name="downloader_update_maps">Karten aktualisieren</string>
     <string name="downloader_mwm_migration_dialog">Um eine Route zu erstellen, müssen Sie alle Karten aktualisieren und dann die Route erneut planen.</string>
     <string name="downloader_search_field_hint">Karte finden</string>
-    <string name="common_check_internet_connection_dialog">Bitte überprüfen Sie Ihre Einstellungen und stellen Sie sicher, dass Ihr Gerät mit dem Internet verbunden ist.</string>
+    <string name="common_check_internet_connection_dialog">Stellen Sie bitte sicher, dass Ihr Gerät mit dem Internet verbunden ist</string>
     <string name="downloader_no_space_title">Nicht genug Speicherplatz</string>
     <string name="downloader_no_space_message">Bitte entfernen Sie unnötige Daten</string>
-    <string name="editor_login_error_dialog">Login-Fehler.</string>
+    <string name="editor_login_error_dialog">Login Fehler</string>
     <string name="editor_profile_changes">Bestätigte Änderungen der Karte</string>
     <string name="editor_focus_map_on_location">Verschiebe die Karte, um das Kreuz an der Stelle zu platzieren, an der sich der Ort oder das Geschäft befindet.</string>
     <string name="editor_edit_place_title">Wird bearbeitet</string>
@@ -488,11 +488,11 @@
     <string name="osm_presentation">Von der Community erstellte OpenStreetMap-Daten (Stand: %s). Erfahre mehr darüber, wie du die Karte bearbeiten und aktualisieren kannst unter OpenStreetMap.org</string>
     <!-- OSM explanation on Android login screen -->
     <string name="login_osm_presentation">OpenStreetMap.org (OSM) ist ein Gemeinschaftsprojekt zum Erstellen einer freien und offenen Karte. Es ist die Hauptquelle für Kartendaten in CoMaps und funktioniert ähnlich wie Wikipedia. Sie können Orte hinzufügen oder bearbeiten, die dann Millionen von Nutzenden auf der ganzen Welt zur Verfügung stehen. \nTreten Sie der Gemeinschaft bei und helfen Sie mit, die Karte für alle besser zu machen!</string>
-    <string name="login_to_make_edits_visible">Erstellen Sie ein OpenStreetMap-Konto oder melden Sie sich an, um Ihre Kartenbearbeitungen weltweit zu veröffentlichen.</string>
+    <string name="login_to_make_edits_visible">Erstellen Sie ein Konto bei OpenStreetMap oder melden sich dort an, um Ihre Kartenbearbeitungen weltweit zu veröffentlichen</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d von %2$d</string>
     <string name="download_over_mobile_header">Über eine Mobilfunknetzverbindung herunterladen?</string>
-    <string name="download_over_mobile_message">Das könnte mit einigen Tarifen oder beim Roaming sehr teuer werden.</string>
+    <string name="download_over_mobile_message">Das könnte mit einigen Tarifen oder beim Roaming sehr teuer werden</string>
     <string name="error_enter_correct_house_number">Richtige Hausnummer eingeben</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Das Gebäude kann nicht mehr als %d Etagen haben</string>
@@ -515,8 +515,8 @@
     <string name="editor_category_unsuitable_title">Keine passende Kategorie gefunden?</string>
     <string name="editor_category_unsuitable_text">Mit CoMaps kann man nur einfache Punktkategorien hinzufügen, daher keine Städte, Straßen, Seen, Gebäudeumrisse, etc. Bitte füge solche Kategorien direkt bei <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> hinzu. In unserem <a href="https://www.comaps.app/support/advanced-map-editing/">Leitfaden</a> findest du eine detaillierte Schritt-für-Schritt-Anleitung.</string>
     <string name="downloader_no_downloaded_maps_title">Keine Karten heruntergeladen</string>
-    <string name="downloader_no_downloaded_maps_message">Laden Sie Karten für die Offline-Suche und Navigation herunter.</string>
-    <string name="current_location_unknown_error_title">Aktueller Standort ist unbekannt.</string>
+    <string name="downloader_no_downloaded_maps_message">Laden Sie Karten für die Offline-Suche und Navigation herunter</string>
+    <string name="current_location_unknown_error_title">Aktueller Standort ist unbekannt</string>
     <!-- abbreviation for meters -->
     <string name="m">m</string>
     <!-- abbreviation for kilometers -->
@@ -555,8 +555,8 @@
     <!-- Displayed when saving some edits to the map to warn against publishing personal data -->
     <string name="editor_share_to_all_dialog_title">An alle Benutzer senden?</string>
     <!-- Dialog before publishing the modifications to the public map. -->
-    <string name="editor_share_to_all_dialog_message_1">Stellen Sie sicher, dass Sie keine persönlichen oder privaten Daten eingegeben haben.</string>
-    <string name="editor_share_to_all_dialog_message_2">Freiwillige von OpenStreetMap werden die Änderungen prüfen und sich bei Fragen mit Ihnen in Verbindung setzen.</string>
+    <string name="editor_share_to_all_dialog_message_1">Stellen Sie sicher, dass Sie keine persönlichen oder privaten Daten eingegeben haben</string>
+    <string name="editor_share_to_all_dialog_message_2">Freiwillige von OpenStreetMap werden die Änderungen prüfen und sich bei Fragen mit Ihnen in Verbindung setzen</string>
     <string name="navigation_stop_button">Beenden</string>
     <!-- Shown as toast when starting the recent track recording -->
     <string name="track_recording">Strecke wird aufgezeichnet</string>
@@ -570,10 +570,10 @@
     <string name="mobile_data_option_not_today">Heute nicht verwenden</string>
     <string name="mobile_data">Mobiles Internet</string>
     <!-- NOTE to translators: please synchronize your translation with the English one. -->
-    <string name="mobile_data_description">Für Benachrichtigungen über Kartenaktualisierungen und das Hochladen von Änderungen ist eine mobile Internetverbindung erforderlich.</string>
+    <string name="mobile_data_description">Für Benachrichtigungen zu Kartenaktualisierungen und das Hochladen von Änderungen ist eine mobile Internetverbindung erforderlich</string>
     <string name="mobile_data_option_never">Nie verwenden</string>
     <string name="mobile_data_option_ask">Immer fragen</string>
-    <string name="traffic_update_maps_text">Um Verkehrsdaten anzuzeigen, müssen die Karten aktualisiert werden.</string>
+    <string name="traffic_update_maps_text">Um Verkehrsdaten anzuzeigen, müssen die Karten aktualisiert werden</string>
     <string name="big_font">Schrift auf der Karte vergrößern</string>
     <string name="traffic_update_app">Bitte aktualisieren Sie CoMaps</string>
     <!-- "traffic" as in "road congestion" -->
@@ -583,7 +583,7 @@
     <string name="feedback_general">Allgemeines Feedback</string>
     <string name="prefs_languages_information">Wir verwenden Text-to-Speech-Systeme für Sprachanweisungen. Viele Android-Geräte nutzen Google-TTS, das Sie bei Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts) herunterladen oder aktualisieren können</string>
     <string name="prefs_languages_information_off">Für einige Sprachen müssen Sie einen anderen Sprachgenerator oder ein zusätzliches Sprachpaket aus dem App Store installieren (Google Play, Galaxy Store, App Gallery, FDroid).\nÖffnen Sie die Einstellungen Ihres Gerätes → Sprache und Eingabe → Sprache → Text-to-Speech-Ausgabe.\nHier können Sie die Einstellungen für Sprachsynthese verwalten (beispielsweise ein Sprachpaket für die Offline-Verwendung herunterladen) und ein anderes Sprachausgabeprogramm auswählen.</string>
-    <string name="prefs_languages_information_off_link">Weitere Informationen finden Sie in dieser Anleitung.</string>
+    <string name="prefs_languages_information_off_link">Weitere Informationen finden Sie in dieser Anleitung</string>
     <string name="transliteration_title">Transliteration ins lateinische Alphabet</string>
     <string name="learn_more">Weitere Informationen</string>
     <!-- Subway exits for public transport marks on the map -->
@@ -662,7 +662,7 @@
     <!-- Speed camera settings menu option - Never warn (about speedcams) -->
     <string name="pref_tts_speedcams_never">Niemals warnen</string>
     <string name="power_managment_title">Stromsparmodus</string>
-    <string name="power_managment_description">Versuchen Sie, den Stromverbrauch auf Kosten einiger Funktionen zu reduzieren.</string>
+    <string name="power_managment_description">Versuche den Stromverbrauch durch Verzicht auf einige Funktionen zu reduzieren</string>
     <string name="power_managment_setting_never">Niemals</string>
     <string name="power_managment_setting_auto">Bei niedrigem Akkustand</string>
     <string name="power_managment_setting_manual_max">Immer</string>

@@ -55,7 +55,7 @@
 			<key>zero</key>
 			<string>%d trayectos</string>
 			<key>one</key>
-			<string>%d trayectos</string>
+			<string>%d trayecto</string>
 			<key>many</key>
 			<string>%d trayectos</string>
 			<key>other</key>

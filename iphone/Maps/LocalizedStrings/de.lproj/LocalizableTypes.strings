@@ -1486,7 +1486,7 @@
 "type.amenity.love_hotel" = "Stundenhotel";
 "type.barrier.guard_rail" = "Leitplanke";
 "type.highway.ladder" = "Leiter";
-"type.landuse.plant_nursery" = "Gartenbau";
+"type.landuse.plant_nursery" = "Gärtnerei";
 "type.leisure.firepit" = "Feuerstelle";
 "type.amenity.studio" = "Studio";
 "type.sport.diving" = "Turmspringen";
@@ -1500,7 +1500,7 @@
 "type.natural.wetland.mangrove" = "Mangrove";
 "type.natural.wetland.tidalflat" = "Watt";
 "type.leisure.escape_game" = "Escape Room";
-"type.amenity.luggage_locker" = "Luggage Locker";
-"type.amenity.ranger_station" = "Ranger Station";
-"type.amenity.bicycle_parking.covered" = "Covered Bicycle Parking";
-"type.post_office.post_partner" = "Post Partner";
+"type.amenity.luggage_locker" = "Gepäckschließfach";
+"type.amenity.ranger_station" = "Försterstation";
+"type.amenity.bicycle_parking.covered" = "Überdachter Fahrradparkplatz";
+"type.post_office.post_partner" = "Postpartner";

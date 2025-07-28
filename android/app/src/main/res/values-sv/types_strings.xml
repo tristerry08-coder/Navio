@@ -366,7 +366,7 @@
     <string name="type.highway.footway.bicycle">Gång- och cykelbana</string>
     <!-- These translations are used for all type.highway.*.bridge. -->
     <string name="type.highway.path.bridge">Bro</string>
-    <string name="type.highway.path.horse">Gångväg</string>
+    <string name="type.highway.path.horse">Ridväg</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.path.tunnel">Tunnel</string>
     <string name="type.highway.pedestrian">Gata</string>
@@ -434,12 +434,12 @@
     <string name="type.highway.tertiary_link.bridge">Bro</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.tertiary_link.tunnel">Tunnel</string>
-    <string name="type.highway.track">Gata</string>
-    <string name="type.highway.track.area">Gata</string>
+    <string name="type.highway.track">Traktorväg</string>
+    <string name="type.highway.track.area">Traktorväg</string>
     <!-- These translations are used for all type.highway.*.bridge. -->
     <string name="type.highway.track.bridge">Bro</string>
-    <string name="type.highway.track.grade1">Gata</string>
-    <string name="type.highway.track.no.access">Gata</string>
+    <string name="type.highway.track.grade1">Traktorväg</string>
+    <string name="type.highway.track.no.access">Traktorväg</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.track.tunnel">Tunnel</string>
     <string name="type.highway.traffic_signals">Trafikljus</string>
@@ -470,7 +470,7 @@
     <string name="type.area_highway.service">Gata</string>
     <string name="type.area_highway.tertiary">Gata</string>
     <string name="type.area_highway.steps">Trappa</string>
-    <string name="type.area_highway.track">Gata</string>
+    <string name="type.area_highway.track">Traktorväg</string>
     <string name="type.area_highway.trunk">Gata</string>
     <string name="type.area_highway.unclassified">Gata</string>
     <!-- SECTION: Types: Historic -->
