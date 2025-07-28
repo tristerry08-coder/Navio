@@ -6803,7 +6803,7 @@ zh-Hant:回收箱
 fa:ظرف بازیافت
 
 recycling-batteries|@category_recycling
-en:4Recycling of Batteries|Household Batteries Disposal|4Batteries Disposal|Batteries Recycling
+en:4Recycling of Batteries|Household Batteries Disposal|Household Battery Disposal|4Batteries Disposal|Battery Disposal|Batteries Recycling|Battery Recycling
 ru:5Приём батареек|Утилизация батареек|5Переработка батареек|5Сдать батарейки|4Сбор батареек|5Батарейки
 ar:ﺕﺎﻳﺭﺎﻄﺑ
 be:5Прыём батарэек|Утылізацыя батарэек|5Перапрацоўка батарэек|5Здаць батарэйкі|4Збор батарэек|5Батарэйкі
