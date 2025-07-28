@@ -74,7 +74,7 @@ NSString * const kToEditorSegue = @"CategorySelectorToEditorSegue";
 {
   UIStackView * stackView = [[UIStackView alloc] init];
   stackView.axis = UILayoutConstraintAxisVertical;
-  stackView.alignment = UIStackViewAlignmentCenter;
+  stackView.alignment = UIStackViewAlignmentFill;
   stackView.translatesAutoresizingMaskIntoConstraints = NO;
   stackView.spacing = 12;
   self.searchResultsIsEmptyDisclaimer = stackView;
@@ -85,6 +85,7 @@ NSString * const kToEditorSegue = @"CategorySelectorToEditorSegue";
   titleLabel.textAlignment = NSTextAlignmentCenter;
   titleLabel.translatesAutoresizingMaskIntoConstraints = NO;
   titleLabel.font = [UIFont bold17];
+  titleLabel.numberOfLines = 0;
 
   UITextView * subtitleTextView = [[UITextView alloc] init];
   subtitleTextView.translatesAutoresizingMaskIntoConstraints = NO;
