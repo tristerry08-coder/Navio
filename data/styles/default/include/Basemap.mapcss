@@ -99,6 +99,7 @@ area|z12-[leisure=garden],
 area|z11-[landuse=grass],
 area|z11-[natural=grassland],
 area|z12-[leisure=golf_course],
+area|z15-[leisure=dog_park],
 area|z11-[natural=heath],
 area|z12-[landuse=allotments],
 area|z11-[natural=bare_rock],
@@ -165,6 +166,7 @@ area|z12[leisure=golf_course],
 area|z13[leisure=golf_course],
 {fill-color: @golf_13;}
 area|z14-[leisure=golf_course],
+area|z15-[leisure=dog_park],
 {fill-color: @golf;}
 
 area|z12[leisure=garden],
@@ -501,7 +503,6 @@ area|z13-[amenity=ranger_station],
 area|z13-[tourism=information][information=visitor_centre],
 
 area|z15-[tourism=information][information=office],
-area|z15-[leisure=dog_park],
 area|z15-[amenity=police],
 area|z15-[amenity=courthouse],
 area|z15-[amenity=fire_station],
