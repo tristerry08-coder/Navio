@@ -550,8 +550,8 @@
     <string name="editor_building_levels">Floors (inc. ground floor, excl. roof)</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">The number of floors must non exceed %d</string>
-    <string name="editor_zip_code">ZIP Code</string>
-    <string name="error_enter_correct_zip_code">Enter a valid ZIP code</string>
+    <string name="editor_zip_code">Postal Code</string>
+    <string name="error_enter_correct_zip_code">Enter a valid postal code</string>
     <!-- Place Page title for long tap -->
     <string name="core_placepage_unknown_place">Map Point</string>
     <!-- Title for OSM note section in the editor -->
