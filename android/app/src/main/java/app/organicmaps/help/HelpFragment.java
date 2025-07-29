@@ -8,16 +8,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.annotation.IdRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.view.ViewCompat;
 import app.organicmaps.BuildConfig;
-import app.organicmaps.sdk.Framework;
 import app.organicmaps.R;
 import app.organicmaps.base.BaseMwmFragment;
+import app.organicmaps.sdk.Framework;
 import app.organicmaps.sdk.util.Config;
 import app.organicmaps.sdk.util.Constants;
 import app.organicmaps.sdk.util.DateUtils;
@@ -45,8 +44,7 @@ public class HelpFragment extends BaseMwmFragment implements View.OnClickListene
     mDonateUrl = Config.getDonateUrl(requireContext());
     View root = inflater.inflate(R.layout.about, container, false);
 
-    ((TextView) root.findViewById(R.id.version))
-        .setText(BuildConfig.VERSION_NAME);
+    ((TextView) root.findViewById(R.id.version)).setText(BuildConfig.VERSION_NAME);
 
     final boolean isLandscape = getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE;
 
@@ -65,7 +63,7 @@ public class HelpFragment extends BaseMwmFragment implements View.OnClickListene
     setupItem(R.id.telegram, false, root);
     setupItem(R.id.instagram, false, root);
     setupItem(R.id.facebook, false, root);
-    //setupItem(R.id.twitter, true, root);
+    // setupItem(R.id.twitter, true, root);
     setupItem(R.id.matrix, true, root);
     setupItem(R.id.mastodon, false, root);
     setupItem(R.id.openstreetmap, true, root);
@@ -96,8 +94,10 @@ public class HelpFragment extends BaseMwmFragment implements View.OnClickListene
 
     View termOfUseView = root.findViewById(R.id.term_of_use_link);
     View privacyPolicyView = root.findViewById(R.id.privacy_policy);
-    termOfUseView.setOnClickListener(v -> Utils.openUrl(requireActivity(), getResources().getString(R.string.app_site_url) + "terms/"));
-    privacyPolicyView.setOnClickListener(v -> Utils.openUrl(requireActivity(), getResources().getString(R.string.app_site_url) + "privacy/"));
+    termOfUseView.setOnClickListener(
+        v -> Utils.openUrl(requireActivity(), getResources().getString(R.string.app_site_url) + "terms/"));
+    privacyPolicyView.setOnClickListener(
+        v -> Utils.openUrl(requireActivity(), getResources().getString(R.string.app_site_url) + "privacy/"));
 
     shareLauncher = SharingUtils.RegisterLauncher(this);
 
@@ -124,8 +124,8 @@ public class HelpFragment extends BaseMwmFragment implements View.OnClickListene
       Utils.openUrl(requireActivity(), getString(R.string.instagram_url));
     else if (id == R.id.facebook)
       Utils.showFacebookPage(requireActivity());
-//    else if (id == R.id.twitter)
-//      Utils.openUrl(requireActivity(), Constants.Url.TWITTER);
+    //    else if (id == R.id.twitter)
+    //      Utils.openUrl(requireActivity(), Constants.Url.TWITTER);
     else if (id == R.id.matrix)
       Utils.openUrl(requireActivity(), Constants.Url.MATRIX);
     else if (id == R.id.mastodon)

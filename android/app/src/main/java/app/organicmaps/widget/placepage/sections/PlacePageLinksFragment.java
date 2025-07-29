@@ -1,32 +1,28 @@
 package app.organicmaps.widget.placepage.sections;
 
+import static android.view.View.GONE;
+import static android.view.View.VISIBLE;
+
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
-
-import app.organicmaps.sdk.Framework;
 import app.organicmaps.R;
+import app.organicmaps.sdk.Framework;
 import app.organicmaps.sdk.bookmarks.data.MapObject;
 import app.organicmaps.sdk.bookmarks.data.Metadata;
 import app.organicmaps.util.Utils;
 import app.organicmaps.widget.placepage.PlacePageUtils;
 import app.organicmaps.widget.placepage.PlacePageViewModel;
-
+import com.google.android.material.textview.MaterialTextView;
 import java.util.ArrayList;
 import java.util.List;
-
-import static android.view.View.GONE;
-import static android.view.View.VISIBLE;
-
-import com.google.android.material.textview.MaterialTextView;
 
 public class PlacePageLinksFragment extends Fragment implements Observer<MapObject>
 {
@@ -80,12 +76,10 @@ public class PlacePageLinksFragment extends Fragment implements Observer<MapObje
   {
     return switch (type)
     {
-      case FMD_WEBSITE ->
-          mMapObject.getWebsiteUrl(false /* strip */, Metadata.MetadataType.FMD_WEBSITE);
-      case FMD_WEBSITE_MENU ->
-          mMapObject.getWebsiteUrl(false /* strip */, Metadata.MetadataType.FMD_WEBSITE_MENU);
-      case FMD_CONTACT_FACEBOOK, FMD_CONTACT_INSTAGRAM, FMD_CONTACT_TWITTER,
-           FMD_CONTACT_FEDIVERSE, FMD_CONTACT_BLUESKY, FMD_CONTACT_VK, FMD_CONTACT_LINE, FMD_PANORAMAX ->
+      case FMD_WEBSITE -> mMapObject.getWebsiteUrl(false /* strip */, Metadata.MetadataType.FMD_WEBSITE);
+      case FMD_WEBSITE_MENU -> mMapObject.getWebsiteUrl(false /* strip */, Metadata.MetadataType.FMD_WEBSITE_MENU);
+      case FMD_CONTACT_FACEBOOK, FMD_CONTACT_INSTAGRAM, FMD_CONTACT_TWITTER, FMD_CONTACT_FEDIVERSE, FMD_CONTACT_BLUESKY,
+          FMD_CONTACT_VK, FMD_CONTACT_LINE, FMD_PANORAMAX ->
       {
         if (TextUtils.isEmpty(mMapObject.getMetadata(type)))
           yield "";
@@ -97,7 +91,8 @@ public class PlacePageLinksFragment extends Fragment implements Observer<MapObje
 
   @Nullable
   @Override
-  public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)
+  public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
+                           @Nullable Bundle savedInstanceState)
   {
     mViewModel = new ViewModelProvider(requireActivity()).get(PlacePageViewModel.class);
     return inflater.inflate(R.layout.place_page_links_fragment, container, false);
@@ -189,15 +184,15 @@ public class PlacePageLinksFragment extends Fragment implements Observer<MapObje
     final List<String> items = new ArrayList<>();
     items.add(url);
 
-    final String title = switch (type){
+    final String title = switch (type)
+    {
       case FMD_WEBSITE -> mMapObject.getWebsiteUrl(false /* strip */, Metadata.MetadataType.FMD_WEBSITE);
       case FMD_WEBSITE_MENU -> mMapObject.getWebsiteUrl(false /* strip */, Metadata.MetadataType.FMD_WEBSITE_MENU);
       case FMD_PANORAMAX -> null; // Don't add raw ID to list, as it's useless for users.
       default -> mMapObject.getMetadata(type);
     };
-    // Add user names for social media if available
-    if (!TextUtils.isEmpty(title) && !title.equals(url) && !title.contains("/"))
-      items.add(title);
+        // Add user names for social media if available
+        if (!TextUtils.isEmpty(title) && !title.equals(url) && !title.contains("/")) items.add(title);
 
     if (items.size() == 1)
       PlacePageUtils.copyToClipboard(requireContext(), mFrame, items.get(0));
@@ -208,11 +203,14 @@ public class PlacePageLinksFragment extends Fragment implements Observer<MapObje
 
   private void refreshLinks()
   {
-    refreshMetadataOrHide(mMapObject.getWebsiteUrl(true /* strip */, Metadata.MetadataType.FMD_WEBSITE), mWebsite, mTvWebsite);
-    refreshMetadataOrHide(mMapObject.getWebsiteUrl(true /* strip */, Metadata.MetadataType.FMD_WEBSITE_MENU), mWebsiteMenu, mTvWebsiteMenuSubsite);
+    refreshMetadataOrHide(mMapObject.getWebsiteUrl(true /* strip */, Metadata.MetadataType.FMD_WEBSITE), mWebsite,
+                          mTvWebsite);
+    refreshMetadataOrHide(mMapObject.getWebsiteUrl(true /* strip */, Metadata.MetadataType.FMD_WEBSITE_MENU),
+                          mWebsiteMenu, mTvWebsiteMenuSubsite);
 
     String wikimedia_commons = mMapObject.getMetadata(Metadata.MetadataType.FMD_WIKIMEDIA_COMMONS);
-    String wikimedia_commons_text = TextUtils.isEmpty(wikimedia_commons) ? "" : getResources().getString(R.string.wikimedia_commons);
+    String wikimedia_commons_text =
+        TextUtils.isEmpty(wikimedia_commons) ? "" : getResources().getString(R.string.wikimedia_commons);
     refreshMetadataOrHide(wikimedia_commons_text, mWikimedia, mTvWikimedia);
     refreshMetadataOrHide(mMapObject.getMetadata(Metadata.MetadataType.FMD_EMAIL), mEmail, mTvEmail);
 
@@ -257,7 +255,7 @@ public class PlacePageLinksFragment extends Fragment implements Observer<MapObje
   }
 
   @Override
-  public void onChanged(@Nullable  MapObject mapObject)
+  public void onChanged(@Nullable MapObject mapObject)
   {
     if (mapObject != null)
     {

@@ -8,22 +8,19 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
 import android.widget.ScrollView;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.view.ViewCompat;
-
 import app.organicmaps.R;
 import app.organicmaps.base.BaseMwmToolbarFragment;
 import app.organicmaps.sdk.editor.OsmOAuth;
 import app.organicmaps.sdk.util.Constants;
-import app.organicmaps.util.InputUtils;
 import app.organicmaps.sdk.util.UiUtils;
-import app.organicmaps.util.Utils;
-import app.organicmaps.util.WindowInsetUtils.ScrollableContentInsetsListener;
 import app.organicmaps.sdk.util.concurrency.ThreadPool;
 import app.organicmaps.sdk.util.concurrency.UiThread;
-
+import app.organicmaps.util.InputUtils;
+import app.organicmaps.util.Utils;
+import app.organicmaps.util.WindowInsetUtils.ScrollableContentInsetsListener;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.textfield.TextInputEditText;
@@ -58,16 +55,16 @@ public class OsmLoginFragment extends BaseMwmToolbarFragment
 
     // TODO(@pastk): remove unused flow with users entering credentials into app's form
     // Hide login and password inputs and Forgot password button
-    UiUtils.hide(view.findViewById(R.id.osm_username_container),
-      view.findViewById(R.id.osm_password_container),
-      mLostPasswordButton);
+    UiUtils.hide(view.findViewById(R.id.osm_username_container), view.findViewById(R.id.osm_password_container),
+                 mLostPasswordButton);
 
     mLoginButton.setOnClickListener((v) -> loginWithBrowser());
     /* login via in-app form
     else
     {
       mLoginButton.setOnClickListener((v) -> login());
-      mLostPasswordButton.setOnClickListener((v) -> Utils.openUrl(requireActivity(), Constants.Url.OSM_RECOVER_PASSWORD));
+      mLostPasswordButton.setOnClickListener((v) -> Utils.openUrl(requireActivity(),
+    Constants.Url.OSM_RECOVER_PASSWORD));
     }
     */
 
@@ -158,8 +155,7 @@ public class OsmLoginFragment extends BaseMwmToolbarFragment
       onAuthFail();
     else
     {
-      ThreadPool.getWorker().execute(() ->
-      {
+      ThreadPool.getWorker().execute(() -> {
         // Finish OAuth2 auth flow and get username for UI.
         final String oauthToken = OsmOAuth.nativeAuthWithOAuth2Code(oauth2code);
         final String username = (oauthToken == null) ? null : OsmOAuth.nativeGetOsmUsername(oauthToken);

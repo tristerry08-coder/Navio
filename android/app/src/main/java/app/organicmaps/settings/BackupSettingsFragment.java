@@ -11,7 +11,6 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.TextUtils;
-
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
@@ -19,18 +18,13 @@ import androidx.annotation.Nullable;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceManager;
-
-import com.google.android.material.dialog.MaterialAlertDialogBuilder;
-
-import java.text.DateFormat;
-
 import app.organicmaps.R;
 import app.organicmaps.backup.LocalBackupManager;
 import app.organicmaps.sdk.util.log.Logger;
+import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import java.text.DateFormat;
 
-
-public class BackupSettingsFragment
-    extends BaseXmlSettingsFragment
+public class BackupSettingsFragment extends BaseXmlSettingsFragment
 {
   private ActivityResultLauncher<Intent> folderPickerLauncher;
 
@@ -73,64 +67,61 @@ public class BackupSettingsFragment
   {
     super.onCreate(savedInstanceState);
 
-    folderPickerLauncher = registerForActivityResult(
-        new ActivityResultContracts.StartActivityForResult(),
-        result -> {
-          boolean isSuccess = false;
+    folderPickerLauncher = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), result -> {
+      boolean isSuccess = false;
 
-          String lastFolderPath = prefs.getString(BACKUP_FOLDER_PATH_KEY, null);
+      String lastFolderPath = prefs.getString(BACKUP_FOLDER_PATH_KEY, null);
 
-          if (result.getResultCode() == Activity.RESULT_OK)
-          {
-            Intent data = result.getData();
-            Logger.i(TAG, "Folder selection result: " + data);
-            if (data == null)
-              return;
+      if (result.getResultCode() == Activity.RESULT_OK)
+      {
+        Intent data = result.getData();
+        Logger.i(TAG, "Folder selection result: " + data);
+        if (data == null)
+          return;
 
-            Uri uri = data.getData();
-            if (uri != null)
-            {
-              takePersistableUriPermission(uri);
-              Logger.i(TAG, "Backup location changed to " + uri);
-              prefs.edit().putString(BACKUP_FOLDER_PATH_KEY, uri.toString()).apply();
-              setFormattedBackupPath(uri);
+        Uri uri = data.getData();
+        if (uri != null)
+        {
+          takePersistableUriPermission(uri);
+          Logger.i(TAG, "Backup location changed to " + uri);
+          prefs.edit().putString(BACKUP_FOLDER_PATH_KEY, uri.toString()).apply();
+          setFormattedBackupPath(uri);
 
-              runBackup();
+          runBackup();
 
-              isSuccess = true;
-            }
-            else
-            {
-              Logger.w(TAG, "Folder selection result is null");
-            }
-          }
-          else if (result.getResultCode() == Activity.RESULT_CANCELED)
-          {
-            Logger.w(TAG, "User canceled folder selection");
-            if (TextUtils.isEmpty(lastFolderPath))
-            {
-              prefs.edit().putString(BACKUP_FOLDER_PATH_KEY, null).apply();
-              Logger.i(TAG, "Backup settings reset");
-              initBackupLocationOption();
-            }
-            else if (isFolderWritable(requireActivity(), lastFolderPath))
-            {
-              Logger.i(TAG, "Backup location not changed, using previous value " + lastFolderPath);
-              isSuccess = true;
-            }
-            else
-            {
-              Logger.e(TAG, "Backup location not changed, but last folder is not writable: " + lastFolderPath);
-            }
-          }
-
-          resetLastBackupTime();
-          updateStatusSummaryOption();
-
-          Logger.i(TAG, "Folder selection result: " + isSuccess);
-          applyAdvancedSettings(isSuccess);
+          isSuccess = true;
         }
-    );
+        else
+        {
+          Logger.w(TAG, "Folder selection result is null");
+        }
+      }
+      else if (result.getResultCode() == Activity.RESULT_CANCELED)
+      {
+        Logger.w(TAG, "User canceled folder selection");
+        if (TextUtils.isEmpty(lastFolderPath))
+        {
+          prefs.edit().putString(BACKUP_FOLDER_PATH_KEY, null).apply();
+          Logger.i(TAG, "Backup settings reset");
+          initBackupLocationOption();
+        }
+        else if (isFolderWritable(requireActivity(), lastFolderPath))
+        {
+          Logger.i(TAG, "Backup location not changed, using previous value " + lastFolderPath);
+          isSuccess = true;
+        }
+        else
+        {
+          Logger.e(TAG, "Backup location not changed, but last folder is not writable: " + lastFolderPath);
+        }
+      }
+
+      resetLastBackupTime();
+      updateStatusSummaryOption();
+
+      Logger.i(TAG, "Folder selection result: " + isSuccess);
+      applyAdvancedSettings(isSuccess);
+    });
   }
 
   @Override
@@ -150,7 +141,6 @@ public class BackupSettingsFragment
     initBackupNowOption();
   }
 
-
   private void initBackupLocationOption()
   {
     String storedFolderPath = prefs.getString(BACKUP_FOLDER_PATH_KEY, null);
@@ -166,7 +156,8 @@ public class BackupSettingsFragment
       {
         Logger.e(TAG, "Backup location is not available, path: " + storedFolderPath);
         showBackupErrorAlertDialog(requireContext().getString(R.string.dialog_report_error_missing_folder));
-        backupLocationOption.setSummary(requireContext().getString(R.string.pref_backup_now_summary_folder_unavailable));
+        backupLocationOption.setSummary(
+            requireContext().getString(R.string.pref_backup_now_summary_folder_unavailable));
       }
     }
     else
@@ -257,7 +248,6 @@ public class BackupSettingsFragment
     backupNowOption.setVisible(isBackupEnabled);
   }
 
-
   private void runBackup()
   {
     String currentFolderPath = prefs.getString(BACKUP_FOLDER_PATH_KEY, null);
@@ -266,8 +256,7 @@ public class BackupSettingsFragment
       if (isFolderWritable(requireContext(), currentFolderPath))
       {
         mBackupManager = new LocalBackupManager(requireActivity(), currentFolderPath, getMaxBackups(prefs));
-        mBackupManager.setListener(new LocalBackupManager.Listener()
-        {
+        mBackupManager.setListener(new LocalBackupManager.Listener() {
           @Override
           public void onBackupStarted()
           {
@@ -354,19 +343,19 @@ public class BackupSettingsFragment
 
   private void showBackupErrorAlertDialog(String message)
   {
-    requireActivity().runOnUiThread(() -> new MaterialAlertDialogBuilder(requireActivity())
-        .setTitle(R.string.pref_backup_now_summary_failed)
-        .setMessage(message)
-        .setPositiveButton(android.R.string.ok, (dialog, which) -> dialog.dismiss())
-        .show());
+    requireActivity().runOnUiThread(
+        ()
+            -> new MaterialAlertDialogBuilder(requireActivity())
+                   .setTitle(R.string.pref_backup_now_summary_failed)
+                   .setMessage(message)
+                   .setPositiveButton(android.R.string.ok, (dialog, which) -> dialog.dismiss())
+                   .show());
   }
 
   private void takePersistableUriPermission(Uri uri)
   {
     requireContext().getContentResolver().takePersistableUriPermission(
-        uri,
-        Intent.FLAG_GRANT_READ_URI_PERMISSION | Intent.FLAG_GRANT_WRITE_URI_PERMISSION
-    );
+        uri, Intent.FLAG_GRANT_READ_URI_PERMISSION | Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
   }
 
   @Nullable

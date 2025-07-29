@@ -7,25 +7,21 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
-
 import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-
 import app.organicmaps.R;
 import app.organicmaps.base.BaseMwmFragment;
 import app.organicmaps.sdk.editor.OpeningHours;
 import app.organicmaps.sdk.util.Constants;
+import app.organicmaps.sdk.util.UiUtils;
 import app.organicmaps.util.Graphics;
 import app.organicmaps.util.InputUtils;
-import app.organicmaps.sdk.util.UiUtils;
-
 import com.google.android.material.imageview.ShapeableImageView;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textview.MaterialTextView;
 
-public class AdvancedTimetableFragment extends BaseMwmFragment
-                                       implements View.OnClickListener, TimetableProvider
+public class AdvancedTimetableFragment extends BaseMwmFragment implements View.OnClickListener, TimetableProvider
 {
   private boolean mIsExampleShown;
   private TextInputEditText mInput;
@@ -90,8 +86,9 @@ public class AdvancedTimetableFragment extends BaseMwmFragment
 
   private void setExampleDrawables(@DrawableRes int left, @DrawableRes int right)
   {
-    mExamplesTitle.setCompoundDrawablesRelativeWithIntrinsicBounds(Graphics.tint(requireActivity(), left, androidx.appcompat.R.attr.colorAccent), null,
-                                                           Graphics.tint(requireActivity(), right, androidx.appcompat.R.attr.colorAccent), null);
+    mExamplesTitle.setCompoundDrawablesRelativeWithIntrinsicBounds(
+        Graphics.tint(requireActivity(), left, androidx.appcompat.R.attr.colorAccent), null,
+        Graphics.tint(requireActivity(), right, androidx.appcompat.R.attr.colorAccent), null);
   }
 
   @Override
@@ -137,10 +134,10 @@ public class AdvancedTimetableFragment extends BaseMwmFragment
     if (input == null || listener == null)
       return;
 
-    input.addTextChangedListener(new TextWatcher()
-    {
+    input.addTextChangedListener(new TextWatcher() {
       @Override
-      public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
+      public void beforeTextChanged(CharSequence s, int start, int count, int after)
+      {}
 
       @Override
       public void onTextChanged(CharSequence s, int start, int before, int count)

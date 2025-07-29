@@ -10,18 +10,14 @@ import static app.organicmaps.sdk.downloader.CountryItem.STATUS_PROGRESS;
 import static app.organicmaps.sdk.downloader.CountryItem.STATUS_UPDATABLE;
 
 import android.view.View;
-
-import com.google.android.material.button.MaterialButton;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
 import app.organicmaps.R;
-
 import app.organicmaps.sdk.downloader.CountryItem;
 import app.organicmaps.sdk.downloader.MapManager;
 import app.organicmaps.sdk.downloader.UpdateInfo;
 import app.organicmaps.sdk.util.StringUtils;
 import app.organicmaps.sdk.util.UiUtils;
-
+import com.google.android.material.button.MaterialButton;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 class BottomPanel
 {
@@ -29,8 +25,7 @@ class BottomPanel
   private final FloatingActionButton mFab;
   private final MaterialButton mButton;
 
-  private final View.OnClickListener mDownloadListener = new View.OnClickListener()
-  {
+  private final View.OnClickListener mDownloadListener = new View.OnClickListener() {
     @Override
     public void onClick(View v)
     {
@@ -38,8 +33,7 @@ class BottomPanel
     }
   };
 
-  private final View.OnClickListener mUpdateListener = new View.OnClickListener()
-  {
+  private final View.OnClickListener mUpdateListener = new View.OnClickListener() {
     @Override
     public void onClick(View v)
     {
@@ -48,8 +42,7 @@ class BottomPanel
     }
   };
 
-  private final View.OnClickListener mCancelListener = new View.OnClickListener()
-  {
+  private final View.OnClickListener mCancelListener = new View.OnClickListener() {
     @Override
     public void onClick(View v)
     {
@@ -58,8 +51,7 @@ class BottomPanel
     }
   };
 
-  private final View.OnClickListener mRetryListener = new View.OnClickListener()
-  {
+  private final View.OnClickListener mRetryListener = new View.OnClickListener() {
     @Override
     public void onClick(View v)
     {
@@ -73,7 +65,7 @@ class BottomPanel
 
     mFab = frame.findViewById(R.id.fab);
     mFab.setOnClickListener(v -> {
-      if (mFragment.getAdapter() != null )
+      if (mFragment.getAdapter() != null)
         mFragment.getAdapter().setAvailableMapsMode();
       update();
     });
@@ -83,8 +75,9 @@ class BottomPanel
 
   private void setUpdateAllState(UpdateInfo info)
   {
-    mButton.setText(StringUtils.formatUsingUsLocale("%s (%s)", mFragment.getString(R.string.downloader_update_all_button),
-                                  StringUtils.getFileSizeString(mFragment.requireContext(), info.totalSize)));
+    mButton.setText(
+        StringUtils.formatUsingUsLocale("%s (%s)", mFragment.getString(R.string.downloader_update_all_button),
+                                        StringUtils.getFileSizeString(mFragment.requireContext(), info.totalSize)));
     mButton.setOnClickListener(mUpdateListener);
   }
 
@@ -126,7 +119,7 @@ class BottomPanel
           {
             UpdateInfo info = MapManager.nativeGetUpdateInfo(root);
             setUpdateAllState(info);
-          }  // Special case for "Countries" node when no maps currently downloaded.
+          } // Special case for "Countries" node when no maps currently downloaded.
           case STATUS_DOWNLOADABLE, STATUS_DONE, STATUS_PARTLY -> show = false;
           case STATUS_PROGRESS, STATUS_APPLYING, STATUS_ENQUEUED -> setCancelState();
           case STATUS_FAILED -> setRetryFailedStates();

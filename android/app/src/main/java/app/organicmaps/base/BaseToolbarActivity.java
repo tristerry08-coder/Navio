@@ -1,7 +1,6 @@
 package app.organicmaps.base;
 
 import android.os.Bundle;
-
 import androidx.annotation.CallSuper;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -10,12 +9,10 @@ import androidx.core.view.ViewCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentFactory;
 import androidx.fragment.app.FragmentManager;
-
-import com.google.android.material.appbar.MaterialToolbar;
-
 import app.organicmaps.R;
 import app.organicmaps.sdk.util.UiUtils;
 import app.organicmaps.util.WindowInsetUtils.PaddingInsetsListener;
+import com.google.android.material.appbar.MaterialToolbar;
 
 public abstract class BaseToolbarActivity extends BaseMwmFragmentActivity
 {
@@ -73,23 +70,20 @@ public abstract class BaseToolbarActivity extends BaseMwmFragmentActivity
     return R.id.fragment_container;
   }
 
-  public Fragment stackFragment(@NonNull Class<? extends Fragment> fragmentClass,
-                            @Nullable String title, @Nullable Bundle args)
+  public Fragment stackFragment(@NonNull Class<? extends Fragment> fragmentClass, @Nullable String title,
+                                @Nullable Bundle args)
   {
     final int resId = getFragmentContentResId();
     if (resId <= 0 || findViewById(resId) == null)
-      throw new IllegalStateException("Fragment can't be added, since getFragmentContentResId() " +
-          "isn't implemented or returns wrong resourceId.");
+      throw new IllegalStateException("Fragment can't be added, since getFragmentContentResId() "
+                                      + "isn't implemented or returns wrong resourceId.");
 
     String name = fragmentClass.getName();
     final FragmentManager manager = getSupportFragmentManager();
     final FragmentFactory factory = manager.getFragmentFactory();
     final Fragment fragment = factory.instantiate(getClassLoader(), name);
     fragment.setArguments(args);
-    manager.beginTransaction()
-        .replace(resId, fragment, name)
-        .addToBackStack(null)
-        .commitAllowingStateLoss();
+    manager.beginTransaction().replace(resId, fragment, name).addToBackStack(null).commitAllowingStateLoss();
     manager.executePendingTransactions();
 
     if (title != null)

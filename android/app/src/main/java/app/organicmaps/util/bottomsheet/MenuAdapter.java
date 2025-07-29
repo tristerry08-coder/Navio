@@ -4,17 +4,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.google.android.material.imageview.ShapeableImageView;
-import com.google.android.material.textview.MaterialTextView;
-
 import app.organicmaps.R;
 import app.organicmaps.sdk.location.TrackRecorder;
-
+import com.google.android.material.imageview.ShapeableImageView;
+import com.google.android.material.textview.MaterialTextView;
 import java.util.ArrayList;
 
 public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder>
@@ -23,7 +19,8 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder>
   @Nullable
   private final MenuBottomSheetItem.OnClickListener onClickListener;
 
-  public MenuAdapter(ArrayList<MenuBottomSheetItem> dataSet, @Nullable MenuBottomSheetItem.OnClickListener onClickListener)
+  public MenuAdapter(ArrayList<MenuBottomSheetItem> dataSet,
+                     @Nullable MenuBottomSheetItem.OnClickListener onClickListener)
   {
     this.dataSet = dataSet;
     this.onClickListener = onClickListener;
@@ -40,8 +37,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder>
   @Override
   public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType)
   {
-    View view = LayoutInflater.from(viewGroup.getContext())
-        .inflate(R.layout.bottom_sheet_menu_item, viewGroup, false);
+    View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.bottom_sheet_menu_item, viewGroup, false);
     return new ViewHolder(view);
   }
 
@@ -58,7 +54,9 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder>
     {
       badge.setText(String.valueOf(item.badgeCount));
       badge.setVisibility(View.VISIBLE);
-    } else {
+    }
+    else
+    {
       badge.setVisibility(View.GONE);
     }
 
@@ -114,5 +112,4 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder>
       return container;
     }
   }
-
 }

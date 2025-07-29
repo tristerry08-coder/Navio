@@ -4,19 +4,16 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.google.android.material.radiobutton.MaterialRadioButton;
-import com.google.android.material.textview.MaterialTextView;
-
 import app.organicmaps.R;
 import app.organicmaps.sdk.bookmarks.data.BookmarkCategory;
-
+import com.google.android.material.radiobutton.MaterialRadioButton;
+import com.google.android.material.textview.MaterialTextView;
 import java.util.List;
 
-public class ChooseBookmarkCategoryAdapter extends BaseBookmarkCategoryAdapter<ChooseBookmarkCategoryAdapter.SingleChoiceHolder>
+public class ChooseBookmarkCategoryAdapter
+    extends BaseBookmarkCategoryAdapter<ChooseBookmarkCategoryAdapter.SingleChoiceHolder>
 {
   public static final int VIEW_TYPE_CATEGORY = 0;
   public static final int VIEW_TYPE_ADD_NEW = 1;
@@ -32,8 +29,7 @@ public class ChooseBookmarkCategoryAdapter extends BaseBookmarkCategoryAdapter<C
 
   private CategoryListener mListener;
 
-  public ChooseBookmarkCategoryAdapter(Context context, int pos,
-                                       @NonNull List<BookmarkCategory> categories)
+  public ChooseBookmarkCategoryAdapter(Context context, int pos, @NonNull List<BookmarkCategory> categories)
   {
     super(context, categories);
     mCheckedPosition = pos;

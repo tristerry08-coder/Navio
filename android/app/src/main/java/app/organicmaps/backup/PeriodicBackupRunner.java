@@ -8,9 +8,7 @@ import static app.organicmaps.settings.BackupSettingsFragment.LAST_BACKUP_TIME_K
 
 import android.app.Activity;
 import android.content.SharedPreferences;
-
 import androidx.preference.PreferenceManager;
-
 import app.organicmaps.sdk.util.log.Logger;
 
 public class PeriodicBackupRunner
@@ -67,7 +65,8 @@ public class PeriodicBackupRunner
     try
     {
       return Long.parseLong(prefs.getString(BACKUP_INTERVAL_KEY, defaultValue));
-    } catch (NumberFormatException e)
+    }
+    catch (NumberFormatException e)
     {
       return 0;
     }
@@ -76,8 +75,7 @@ public class PeriodicBackupRunner
   private void performBackup(String backupFolderPath, int maxBackups)
   {
     LocalBackupManager backupManager = new LocalBackupManager(activity, backupFolderPath, maxBackups);
-    backupManager.setListener(new LocalBackupManager.Listener()
-    {
+    backupManager.setListener(new LocalBackupManager.Listener() {
       @Override
       public void onBackupStarted()
       {

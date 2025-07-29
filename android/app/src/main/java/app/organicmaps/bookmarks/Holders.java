@@ -6,16 +6,10 @@ import android.location.Location;
 import android.text.Spanned;
 import android.text.TextUtils;
 import android.view.View;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.PluralsRes;
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.google.android.material.imageview.ShapeableImageView;
-import com.google.android.material.textview.MaterialTextView;
-import com.google.android.material.checkbox.MaterialCheckBox;
-
 import app.organicmaps.MwmApplication;
 import app.organicmaps.R;
 import app.organicmaps.adapter.OnItemClickListener;
@@ -24,11 +18,14 @@ import app.organicmaps.sdk.bookmarks.data.BookmarkInfo;
 import app.organicmaps.sdk.bookmarks.data.BookmarkManager;
 import app.organicmaps.sdk.bookmarks.data.IconClickListener;
 import app.organicmaps.sdk.bookmarks.data.Track;
+import app.organicmaps.sdk.util.UiUtils;
+import app.organicmaps.util.Graphics;
 import app.organicmaps.util.Utils;
 import app.organicmaps.widget.recycler.RecyclerClickListener;
 import app.organicmaps.widget.recycler.RecyclerLongClickListener;
-import app.organicmaps.util.Graphics;
-import app.organicmaps.sdk.util.UiUtils;
+import com.google.android.material.checkbox.MaterialCheckBox;
+import com.google.android.material.imageview.ShapeableImageView;
+import com.google.android.material.textview.MaterialTextView;
 
 public class Holders
 {
@@ -66,7 +63,6 @@ public class Holders
     @NonNull
     private final MaterialTextView mText;
 
-
     HeaderViewHolder(@NonNull View itemView)
     {
       super(itemView);
@@ -86,23 +82,16 @@ public class Holders
       return mButton;
     }
 
-    void setAction(@NonNull HeaderAction action,
-                   final boolean showAll)
+    void setAction(@NonNull HeaderAction action, final boolean showAll)
     {
-      mButton.setText(showAll
-                      ? R.string.bookmark_lists_show_all
-                      : R.string.bookmark_lists_hide_all);
+      mButton.setText(showAll ? R.string.bookmark_lists_show_all : R.string.bookmark_lists_hide_all);
       mButton.setOnClickListener(new ToggleShowAllClickListener(action, showAll));
     }
 
-    void setAction(@NonNull HeaderActionChildCategories action,
-                   final boolean showAll)
+    void setAction(@NonNull HeaderActionChildCategories action, final boolean showAll)
     {
-      mButton.setText(showAll
-                      ? R.string.bookmark_lists_show_all
-                      : R.string.bookmark_lists_hide_all);
-      mButton.setOnClickListener(new ToggleShowAllChildCategoryClickListener(
-          action, showAll));
+      mButton.setText(showAll ? R.string.bookmark_lists_show_all : R.string.bookmark_lists_hide_all);
+      mButton.setOnClickListener(new ToggleShowAllChildCategoryClickListener(action, showAll));
     }
 
     public interface HeaderAction
@@ -124,8 +113,7 @@ public class Holders
       private final HeaderActionChildCategories mAction;
       private final boolean mShowAll;
 
-      ToggleShowAllChildCategoryClickListener(@NonNull HeaderActionChildCategories action,
-                                              boolean showAll)
+      ToggleShowAllChildCategoryClickListener(@NonNull HeaderActionChildCategories action, boolean showAll)
       {
         mAction = action;
         mShowAll = showAll;
@@ -223,7 +211,6 @@ public class Holders
     {
       return resources.getQuantityString(plural, size, size);
     }
-
   }
   static class CollectionViewHolder extends CategoryViewHolderBase
   {
@@ -354,17 +341,17 @@ public class Holders
     }
 
     @Override
-    void bind(@NonNull SectionPosition position,
-              @NonNull BookmarkListAdapter.SectionsDataSource sectionsDataSource)
+    void bind(@NonNull SectionPosition position, @NonNull BookmarkListAdapter.SectionsDataSource sectionsDataSource)
     {
       final long bookmarkId = sectionsDataSource.getBookmarkId(position);
-      BookmarkInfo bookmark = new BookmarkInfo(sectionsDataSource.getCategory().getId(),
-                                               bookmarkId);
+      BookmarkInfo bookmark = new BookmarkInfo(sectionsDataSource.getCategory().getId(), bookmarkId);
       mName.setText(bookmark.getName());
       final Location loc = MwmApplication.from(mIcon.getContext()).getLocationHelper().getSavedLocation();
 
-      String distanceValue = loc == null ? "" : bookmark.getDistance(loc.getLatitude(),
-                                                                     loc.getLongitude(), 0.0).toString(mDistance.getContext());
+      String distanceValue =
+          loc == null
+              ? ""
+              : bookmark.getDistance(loc.getLatitude(), loc.getLongitude(), 0.0).toString(mDistance.getContext());
       String separator = "";
       if (!distanceValue.isEmpty() && !bookmark.getFeatureType().isEmpty())
         separator = " • ";
@@ -373,11 +360,9 @@ public class Holders
       UiUtils.hideIf(TextUtils.isEmpty(subtitleValue), mDistance);
 
       mIcon.setImageResource(bookmark.getIcon().getResId());
-      Drawable circle = Graphics.drawCircleAndImage(bookmark.getIcon().argb(),
-                                                    R.dimen.track_circle_size,
-                                                    bookmark.getIcon().getResId(),
-                                                    R.dimen.bookmark_icon_size,
-                                                    mIcon.getContext());
+      Drawable circle =
+          Graphics.drawCircleAndImage(bookmark.getIcon().argb(), R.dimen.track_circle_size,
+                                      bookmark.getIcon().getResId(), R.dimen.bookmark_icon_size, mIcon.getContext());
       mIcon.setImageDrawable(circle);
     }
   }
@@ -402,19 +387,18 @@ public class Holders
     }
 
     @Override
-    void bind(@NonNull SectionPosition position,
-              @NonNull BookmarkListAdapter.SectionsDataSource sectionsDataSource)
+    void bind(@NonNull SectionPosition position, @NonNull BookmarkListAdapter.SectionsDataSource sectionsDataSource)
     {
       final long trackId = sectionsDataSource.getTrackId(position);
       Track track = BookmarkManager.INSTANCE.getTrack(trackId);
       mName.setText(track.getName());
-      mDistance.setText(new StringBuilder().append(mDistance.getContext()
-                                                            .getString(R.string.length))
-                                           .append(" ")
-                                           .append(track.getLength().toString(mDistance.getContext()))
-                                           .toString());
-      Drawable circle = Graphics.drawCircle(track.getColor(), R.dimen.track_circle_size,
-                                            mIcon.getContext().getResources());
+      mDistance.setText(new StringBuilder()
+                            .append(mDistance.getContext().getString(R.string.length))
+                            .append(" ")
+                            .append(track.getLength().toString(mDistance.getContext()))
+                            .toString());
+      Drawable circle =
+          Graphics.drawCircle(track.getColor(), R.dimen.track_circle_size, mIcon.getContext().getResources());
       mIcon.setImageDrawable(circle);
     }
 
@@ -441,8 +425,7 @@ public class Holders
     }
 
     @Override
-    void bind(@NonNull SectionPosition position,
-              @NonNull BookmarkListAdapter.SectionsDataSource sectionsDataSource)
+    void bind(@NonNull SectionPosition position, @NonNull BookmarkListAdapter.SectionsDataSource sectionsDataSource)
     {
       mView.setText(sectionsDataSource.getTitle(position.getSectionIndex(), mView.getResources()));
     }
@@ -465,8 +448,7 @@ public class Holders
     }
 
     @Override
-    void bind(@NonNull SectionPosition position,
-              @NonNull BookmarkListAdapter.SectionsDataSource sectionsDataSource)
+    void bind(@NonNull SectionPosition position, @NonNull BookmarkListAdapter.SectionsDataSource sectionsDataSource)
     {
       mTitle.setText(sectionsDataSource.getCategory().getName());
       bindDescription(sectionsDataSource.getCategory());
@@ -474,9 +456,7 @@ public class Holders
 
     private void bindDescription(@NonNull BookmarkCategory category)
     {
-      String desc = TextUtils.isEmpty(category.getAnnotation())
-                    ? category.getDescription()
-                    : category.getAnnotation();
+      String desc = TextUtils.isEmpty(category.getAnnotation()) ? category.getDescription() : category.getAnnotation();
 
       String formattedDesc = desc.replace("\n", "<br>");
       Spanned spannedDesc = Utils.fromHtml(formattedDesc);

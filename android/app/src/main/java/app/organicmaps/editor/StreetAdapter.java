@@ -4,18 +4,15 @@ import android.content.res.Resources;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.google.android.material.radiobutton.MaterialRadioButton;
-import com.google.android.material.textview.MaterialTextView;
-
 import app.organicmaps.MwmApplication;
 import app.organicmaps.R;
 import app.organicmaps.dialog.EditTextDialogFragment;
 import app.organicmaps.sdk.editor.data.LocalizedStreet;
 import app.organicmaps.sdk.util.UiUtils;
+import com.google.android.material.radiobutton.MaterialRadioButton;
+import com.google.android.material.textview.MaterialTextView;
 
 public class StreetAdapter extends RecyclerView.Adapter<StreetAdapter.BaseViewHolder>
 {
@@ -26,7 +23,8 @@ public class StreetAdapter extends RecyclerView.Adapter<StreetAdapter.BaseViewHo
   private final StreetFragment mFragment;
   private LocalizedStreet mSelectedStreet;
 
-  public StreetAdapter(@NonNull StreetFragment host, @NonNull LocalizedStreet[] streets, @NonNull LocalizedStreet selected)
+  public StreetAdapter(@NonNull StreetFragment host, @NonNull LocalizedStreet[] streets,
+                       @NonNull LocalizedStreet selected)
   {
     mFragment = host;
     mStreets = streets;
@@ -36,8 +34,9 @@ public class StreetAdapter extends RecyclerView.Adapter<StreetAdapter.BaseViewHo
   @Override
   public BaseViewHolder onCreateViewHolder(ViewGroup parent, int viewType)
   {
-    return viewType == TYPE_STREET ? new StreetViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.item_street, parent, false))
-                                   : new AddViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.item_add_street, parent, false));
+    return viewType == TYPE_STREET
+      ? new StreetViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.item_street, parent, false))
+      : new AddViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.item_add_street, parent, false));
   }
 
   @Override
@@ -66,12 +65,9 @@ public class StreetAdapter extends RecyclerView.Adapter<StreetAdapter.BaseViewHo
   private void addStreet()
   {
     final Resources resources = MwmApplication.from(mFragment.requireContext()).getResources();
-    EditTextDialogFragment dialogFragment =
-        EditTextDialogFragment.show(resources.getString(R.string.street), null,
-                                    resources.getString(R.string.ok),
-                                    resources.getString(R.string.cancel),
-                                    mFragment,
-                                    StreetFragment.getStreetValidator());
+    EditTextDialogFragment dialogFragment = EditTextDialogFragment.show(
+        resources.getString(R.string.street), null, resources.getString(R.string.ok),
+        resources.getString(R.string.cancel), mFragment, StreetFragment.getStreetValidator());
     dialogFragment.setTextSaveListener(mFragment.getSaveStreetListener());
   }
 

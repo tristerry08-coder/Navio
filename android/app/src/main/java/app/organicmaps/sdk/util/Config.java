@@ -3,7 +3,6 @@ package app.organicmaps.sdk.util;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Build;
-
 import androidx.annotation.NonNull;
 import androidx.preference.PreferenceManager;
 import app.organicmaps.BuildConfig;
@@ -243,7 +242,8 @@ public final class Config
     // This is the default theme *mode*, eg. auto/dark/nav_auto/light.
     String defaultSetting = MwmApplication.from(context).getString(R.string.theme_nav_auto);
     String res = getString(KEY_MISC_UI_THEME_SETTINGS, defaultSetting);
-    if (ThemeUtils.isValidTheme(context, res) || ThemeUtils.isAutoTheme(context, res) || ThemeUtils.isNavAutoTheme(context, res))
+    if (ThemeUtils.isValidTheme(context, res) || ThemeUtils.isAutoTheme(context, res)
+        || ThemeUtils.isNavAutoTheme(context, res))
       return res;
 
     return defaultSetting;
@@ -326,8 +326,8 @@ public final class Config
   {
     final String url = getString(KEY_DONATE_URL);
     // Enable donations by default if not Google or Huawei. Replace comaps.app/donate/ with localized page.
-    if ((url.isEmpty() && !BuildConfig.FLAVOR.equals("google") && !BuildConfig.FLAVOR.equals("huawei")) ||
-        url.endsWith("comaps.app/donate/"))
+    if ((url.isEmpty() && !BuildConfig.FLAVOR.equals("google") && !BuildConfig.FLAVOR.equals("huawei"))
+        || url.endsWith("comaps.app/donate/"))
       return context.getString(R.string.app_site_url) + "donate/";
     return url;
   }
@@ -372,10 +372,7 @@ public final class Config
 
   public static void setFirstStartDialogSeen(@NonNull Context context)
   {
-    MwmApplication.prefs(context)
-        .edit()
-        .putBoolean(KEY_MISC_FIRST_START_DIALOG_SEEN, true)
-        .apply();
+    MwmApplication.prefs(context).edit().putBoolean(KEY_MISC_FIRST_START_DIALOG_SEEN, true).apply();
   }
 
   public static boolean isSearchHistoryEnabled()
@@ -449,7 +446,6 @@ public final class Config
     {
       setBool(Keys.STREETS, enabled);
     }
-
   }
 
   private static native boolean nativeHasConfigValue(String name);

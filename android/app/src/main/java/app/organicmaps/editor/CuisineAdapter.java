@@ -4,16 +4,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CompoundButton;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.google.android.material.checkbox.MaterialCheckBox;
-import com.google.android.material.textview.MaterialTextView;
-
 import app.organicmaps.R;
 import app.organicmaps.sdk.editor.Editor;
-
+import com.google.android.material.checkbox.MaterialCheckBox;
+import com.google.android.material.textview.MaterialTextView;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;

@@ -3,12 +3,9 @@ package app.organicmaps.leftbutton;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.text.TextUtils;
-
 import androidx.annotation.Nullable;
 import androidx.preference.PreferenceManager;
-
 import app.organicmaps.R;
-
 import java.util.Collection;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -81,21 +78,18 @@ public class LeftButtonsHolder
 
   private void initDisableButton(Context context)
   {
-    availableButtons.put(DISABLE_BUTTON_CODE, new LeftButton()
-        {
-          @Override
-          public String getCode()
-          {
-            return DISABLE_BUTTON_CODE;
-          }
+    availableButtons.put(DISABLE_BUTTON_CODE, new LeftButton() {
+      @Override
+      public String getCode()
+      {
+        return DISABLE_BUTTON_CODE;
+      }
 
-          @Override
-          public String getPrefsName()
-          {
-            return context.getString(R.string.pref_left_button_disable);
-          }
-        }
-    );
+      @Override
+      public String getPrefsName()
+      {
+        return context.getString(R.string.pref_left_button_disable);
+      }
+    });
   }
 }
-

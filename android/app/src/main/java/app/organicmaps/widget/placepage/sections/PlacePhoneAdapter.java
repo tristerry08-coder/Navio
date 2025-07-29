@@ -7,25 +7,21 @@ import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.google.android.material.textview.MaterialTextView;
-
 import app.organicmaps.R;
 import app.organicmaps.util.Utils;
-
+import com.google.android.material.textview.MaterialTextView;
 import java.util.ArrayList;
 
 public class PlacePhoneAdapter extends RecyclerView.Adapter<PlacePhoneAdapter.ViewHolder>
 {
-
   private final ArrayList<String> mPhoneData = new ArrayList<>();
 
   public PlacePhoneAdapter() {}
 
-  public void refreshPhones(String phones) {
+  public void refreshPhones(String phones)
+  {
     if (TextUtils.isEmpty(phones))
       return;
 
@@ -45,8 +41,8 @@ public class PlacePhoneAdapter extends RecyclerView.Adapter<PlacePhoneAdapter.Vi
   @Override
   public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType)
   {
-    return new ViewHolder(LayoutInflater.from(parent.getContext())
-        .inflate(R.layout.place_page_phone_item, parent, false));
+    return new ViewHolder(
+        LayoutInflater.from(parent.getContext()).inflate(R.layout.place_page_phone_item, parent, false));
   }
 
   @Override
@@ -61,7 +57,8 @@ public class PlacePhoneAdapter extends RecyclerView.Adapter<PlacePhoneAdapter.Vi
     return mPhoneData.size();
   }
 
-  public static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener, View.OnLongClickListener
+  public static class ViewHolder
+      extends RecyclerView.ViewHolder implements View.OnClickListener, View.OnLongClickListener
   {
     private final MaterialTextView mPhone;
 

@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import androidx.annotation.CallSuper;
 import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
@@ -14,14 +13,12 @@ import androidx.core.view.ViewCompat;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.google.android.material.appbar.MaterialToolbar;
-
 import app.organicmaps.R;
 import app.organicmaps.sdk.util.UiUtils;
 import app.organicmaps.util.Utils;
 import app.organicmaps.util.WindowInsetUtils.ScrollableContentInsetsListener;
 import app.organicmaps.widget.PlaceholderView;
+import com.google.android.material.appbar.MaterialToolbar;
 
 public abstract class BaseMwmRecyclerFragment<T extends RecyclerView.Adapter> extends Fragment
 {
@@ -39,8 +36,7 @@ public abstract class BaseMwmRecyclerFragment<T extends RecyclerView.Adapter> ex
   private T mAdapter;
 
   @NonNull
-  private final View.OnClickListener mNavigationClickListener
-      = view -> Utils.navigateToParent(requireActivity());
+  private final View.OnClickListener mNavigationClickListener = view -> Utils.navigateToParent(requireActivity());
 
   @NonNull
   protected abstract T createAdapter();
