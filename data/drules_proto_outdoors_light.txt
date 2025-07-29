@@ -53080,14 +53080,14 @@ cont {
   element {
     scale: 15
     area {
-      color: 16445409
+      color: 12175727
       priority: -1830
     }
   }
   element {
     scale: 16
     area {
-      color: 16445409
+      color: 12175727
       priority: -1830
     }
     symbol {
@@ -53108,7 +53108,7 @@ cont {
   element {
     scale: 17
     area {
-      color: 16445409
+      color: 12175727
       priority: -1830
     }
     symbol {
@@ -53129,7 +53129,7 @@ cont {
   element {
     scale: 18
     area {
-      color: 16445409
+      color: 12175727
       priority: -1830
     }
     symbol {
@@ -53150,7 +53150,7 @@ cont {
   element {
     scale: 19
     area {
-      color: 16445409
+      color: 12175727
       priority: -1830
     }
     symbol {
@@ -53171,7 +53171,7 @@ cont {
   element {
     scale: 20
     area {
-      color: 16445409
+      color: 12175727
       priority: -1830
     }
     symbol {
