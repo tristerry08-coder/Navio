@@ -113,6 +113,12 @@ bool IsNativeLang(feature::RegionData const & regionData, int8_t deviceLang)
   if (regionData.HasLanguage(deviceLang))
     return true;
 
+  for (auto const lang : languages::GetPreferredLangIndexes())
+  {
+    if (regionData.HasLanguage(lang))
+      return true;
+  }
+
   for (auto const lang : GetSimilarLanguages(deviceLang))
   {
     if (regionData.HasLanguage(lang))
