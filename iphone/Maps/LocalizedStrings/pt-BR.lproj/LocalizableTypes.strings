@@ -1500,7 +1500,7 @@
 "type.natural.wetland.tidalflat" = "Planície de maré";
 "type.natural.wetland.saltmarsh" = "Sapal";
 "type.leisure.escape_game" = "Escape Room";
-"type.amenity.luggage_locker" = "Luggage Locker";
-"type.amenity.bicycle_parking.covered" = "Covered Bicycle Parking";
-"type.post_office.post_partner" = "Post Partner";
-"type.amenity.ranger_station" = "Ranger Station";
+"type.amenity.luggage_locker" = "Armário guarda-volumes";
+"type.amenity.bicycle_parking.covered" = "Bicicletário coberto";
+"type.post_office.post_partner" = "Parceiro postal";
+"type.amenity.ranger_station" = "Posto de guardas florestais";

@@ -586,6 +586,6 @@
 "social_mastodon" = "Mastodon";
 "social_pixelfed" = "Pixelfed";
 "pref_mapappearance_title" = "Chartedarstellig";
-"pref_maplanguage_title" = "Map Language";
-"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
-"pref_maplanguage_local" = "Local Language";
+"pref_maplanguage_title" = "Charte-Spraach";
+"transliteration_title_disabled_summary" = "Bi de Nutzig vo de lokale Spraach für d Charte uusgschaltet";
+"pref_maplanguage_local" = "Lokali Spraach";

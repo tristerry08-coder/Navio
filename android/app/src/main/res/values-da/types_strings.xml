@@ -1369,4 +1369,10 @@
     <string name="type.power.line">Strømledning</string>
     <string name="type.highway.ladder">Stige</string>
     <string name="type.amenity.love_hotel">Kærlighedshotel</string>
+    <string name="type.amenity.bicycle_parking.covered">Overdækket cykelparkering</string>
+    <string name="type.post_office.post_partner">Postpartner</string>
+    <string name="type.natural.wetland.swamp">Sump</string>
+    <string name="type.amenity.luggage_locker">Bagageboks</string>
+    <string name="type.natural.wetland.saltmarsh">Strandeng</string>
+    <string name="type.natural.wetland.saltmarsh.tidal">Tidevandspåvirket strandeng</string>
 </resources>

@@ -9,7 +9,7 @@
     <string name="delete">Cancella</string>
     <string name="download_maps">Scarica mappe</string>
     <!-- Settings/Downloader - info for country when download fails -->
-    <string name="download_has_failed">Download fallito. Riprova.</string>
+    <string name="download_has_failed">Download fallito, tocca per riprovare</string>
     <!-- Settings/Downloader - info for country which started downloading -->
     <string name="downloading">Download in corso…</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->
@@ -29,7 +29,7 @@
     <!-- A dialog title, that warns a user that Precise Location is disabled and suggests to turn it on -->
     <string name="limited_accuracy">Precisione limitata</string>
     <!-- A dialog text, that warns a user that Precise Location is disabled and suggests to turn it on -->
-    <string name="precise_location_is_disabled_long_text">Per garantire una navigazione accurata, attiva la funzione Posizione precisa nelle impostazioni.</string>
+    <string name="precise_location_is_disabled_long_text">Per garantire una navigazione accurata, attiva la funzione Posizione precisa nelle impostazioni</string>
     <!-- View and button titles for accessibility -->
     <string name="zoom_to_country">Mostra sulla mappa</string>
     <!-- Message to display at the center of the screen when the country download has failed -->
@@ -88,7 +88,7 @@
     <!-- Header of settings activity where user defines storage path -->
     <string name="maps_storage">Salva mappe in</string>
     <!-- Detailed description of Maps Storage settings button -->
-    <string name="maps_storage_summary">Seleziona la cartella in cui scaricare le mappe.</string>
+    <string name="maps_storage_summary">Seleziona la cartella in cui scaricare le mappe</string>
     <!-- E.g. "Downloaded maps: 500Mb" in Maps Storage settings -->
     <string name="maps_storage_downloaded">Mappe scaricate</string>
     <!-- Question dialog for transferring maps from one storage to another -->
@@ -167,9 +167,9 @@
     <!-- Warning message when doing search around current position -->
     <string name="unknown_current_position">La tua posizione non è stata ancora determinata</string>
     <!-- Alert message that we can't run Map Storage settings due to some reasons. -->
-    <string name="cant_change_this_setting">Le impostazioni di archiviazione delle mappe sono disabilitate al momento.</string>
+    <string name="cant_change_this_setting">Le impostazioni di archiviazione delle mappe sono disabilitate al momento</string>
     <!-- Alert message that downloading is in progress. -->
-    <string name="downloading_is_active">Il download della mappa è in corso.</string>
+    <string name="downloading_is_active">Il download della mappa è in corso</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">Guarda la mia posizione in CoMaps! %1$s o %2$s Non hai scaricato l\'app? La puoi scaricare da qui: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
@@ -227,7 +227,7 @@
     <!-- Settings «Route» category: «Test Voice Directions» title -->
     <string name="pref_tts_test_voice_title">Prova le indicazioni vocali (TTS, Text-To-Speech)</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
-    <string name="pref_tts_playing_test_voice">Controlla il volume o le impostazioni del sistema di sintesi vocale se ora non senti la voce.</string>
+    <string name="pref_tts_playing_test_voice">Controlla il volume o le impostazioni del sistema di sintesi vocale se ora non senti la voce</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
     <string name="pref_tts_unavailable">Non disponibile</string>
     <string name="pref_map_auto_zoom">Zoom automatico</string>
@@ -273,7 +273,7 @@
     <string name="downloader_download_all_button">Scarica tutte</string>
     <string name="downloader_downloading">Sto scaricando:</string>
     <!-- Displayed in a dialog that appears when a user tries to delete a map while the app is in the follow route mode -->
-    <string name="downloader_delete_map_while_routing_dialog">Per eliminare una mappa interrompi la navigazione.</string>
+    <string name="downloader_delete_map_while_routing_dialog">Per eliminare una mappa interrompi la navigazione</string>
     <!-- PointsInDifferentMWM -->
     <string name="routing_failed_cross_mwm_building">Si possono creare solo percorsi che siano completamente contenuti nella mappa di una singola regione.</string>
     <!-- Context menu item for downloader. -->
@@ -345,18 +345,18 @@
     <string name="dialog_routing_location_turn_on">Abilita i servizi di localizzazione</string>
     <string name="dialog_routing_location_unknown_turn_on">Impossibile individuare le coordinate GPS attuali. Per calcolare il percorso, abilita i servizi di localizzazione.</string>
     <string name="dialog_routing_unable_locate_route">Impossibile individuare il percorso</string>
-    <string name="dialog_routing_cant_build_route">Impossibile creare il percorso.</string>
+    <string name="dialog_routing_cant_build_route">Impossibile creare il percorso</string>
     <string name="dialog_routing_change_start_or_end">Modifica il punto di partenza o la destinazione.</string>
     <string name="dialog_routing_change_start">Modifica il punto di partenza</string>
     <string name="dialog_routing_start_not_determined">Percorso non creato. Impossibile individuare il punto di partenza.</string>
     <string name="dialog_routing_select_closer_start">Seleziona un punto di partenza più vicino a una strada.</string>
     <string name="dialog_routing_change_end">Modifica la destinazione</string>
     <string name="dialog_routing_end_not_determined">Percorso non creato. Impossibile individuare la destinazione.</string>
-    <string name="dialog_routing_select_closer_end">Seleziona una destinazione più vicina a una strada.</string>
-    <string name="dialog_routing_change_intermediate">Impossibile individuare il punto intermedio.</string>
-    <string name="dialog_routing_intermediate_not_determined">Modifica il punto intermedio.</string>
+    <string name="dialog_routing_select_closer_end">Seleziona una destinazione più vicina a una strada</string>
+    <string name="dialog_routing_change_intermediate">Impossibile individuare il punto intermedio</string>
+    <string name="dialog_routing_intermediate_not_determined">Modifica il punto intermedio</string>
     <string name="dialog_routing_system_error">Errore di sistema</string>
-    <string name="dialog_routing_application_error">Impossibile creare il percorso a causa di un errore dell\'applicazione.</string>
+    <string name="dialog_routing_application_error">Impossibile creare il percorso a causa di un errore dell\'applicazione</string>
     <string name="dialog_routing_try_again">Riprova</string>
     <string name="not_now">Non ora</string>
     <string name="dialog_routing_download_and_build_cross_route">Vuoi scaricare la mappa e creare un percorso migliore che si estende su più mappe?</string>
@@ -370,11 +370,11 @@
     <string name="hide">Nascondi</string>
     <string name="categories">Categorie</string>
     <string name="history">Cronologia</string>
-    <string name="search_not_found">Non ho trovato nulla.</string>
+    <string name="search_not_found">Oops, non è stato trovato nulla</string>
     <!-- The message when user did not find anything in the search. -->
     <string name="search_not_found_query">Scarica la regione in cui stai effettuando la ricerca oppure prova ad aggiungere il nome di una città/villaggio vicino.</string>
     <string name="search_history_title">Cronologia delle ricerche</string>
-    <string name="search_history_text">Visualizza le ricerche recenti.</string>
+    <string name="search_history_text">Visualizza le ricerche recenti</string>
     <string name="clear_search">Cancella сronologia ricerche</string>
     <!-- Place Page link to Wikipedia article (if map object has it). -->
     <string name="read_in_wikipedia">Wikipedia</string>
@@ -382,7 +382,7 @@
     <string name="p2p_start">Inizia</string>
     <string name="p2p_from_here">Parti da</string>
     <string name="p2p_to_here">Vai a</string>
-    <string name="p2p_only_from_current">La navigazione è disponibile solo dalla tua posizione attuale.</string>
+    <string name="p2p_only_from_current">La navigazione è disponibile solo dalla tua posizione attuale</string>
     <string name="p2p_reroute_from_current">Vuoi pianificare un percorso dalla tua posizione attuale?</string>
     <!-- Edit open hours/set time and minutes dialog -->
     <string name="next_button">Avanti</string>
@@ -452,14 +452,14 @@
     <string name="email_or_username">E-mail o nome utente</string>
     <string name="editor_add_phone">Aggiungi numero</string>
     <string name="level">Piano</string>
-    <string name="downloader_delete_map_dialog">Tutte le tue modifiche alla mappa saranno cancellate insieme alla mappa.</string>
+    <string name="downloader_delete_map_dialog">Tutte le tue modifiche alla mappa saranno cancellate insieme alla mappa</string>
     <string name="downloader_update_maps">Aggiorna mappe</string>
     <string name="downloader_mwm_migration_dialog">Per creare un percorso, devi aggiornare tutte le mappe e pianificare nuovamente il percorso.</string>
     <string name="downloader_search_field_hint">Trova la mappa</string>
-    <string name="common_check_internet_connection_dialog">Verifica che il tuo dispositivo sia connesso a internet.</string>
+    <string name="common_check_internet_connection_dialog">Verifica che il tuo dispositivo sia connesso a internet</string>
     <string name="downloader_no_space_title">Spazio insufficiente</string>
     <string name="downloader_no_space_message">Cancella i dati non necessari</string>
-    <string name="editor_login_error_dialog">Errore durante l\'accesso.</string>
+    <string name="editor_login_error_dialog">Errore durante l\'accesso</string>
     <string name="editor_profile_changes">Modifiche approvate</string>
     <string name="editor_focus_map_on_location">Trascina la mappa per posizionare la croce sulla posizione del luogo o dell\'attività commerciale.</string>
     <string name="editor_edit_place_title">Modifica</string>
@@ -476,11 +476,11 @@
     <string name="osm_presentation">Dati OpenStreetMap creati dalla comunità aggiornati al %s. Per saperne di più su come modificare e aggiornare la mappa, visita OpenStreetMap.org</string>
     <!-- OSM explanation on Android login screen -->
     <string name="login_osm_presentation">OpenStreetMap.org (OSM) è un progetto comunitario per creare una mappa libera e aperta. È la principale fonte di dati cartografici di CoMaps e funziona in modo simile a Wikipedia. Puoi aggiungere o modificare luoghi che diventano disponibili per milioni di utenti in tutto il mondo. \nEntra a far parte della comunità e contribuisci a creare una mappa migliore per tutti!</string>
-    <string name="login_to_make_edits_visible">Crea un account OpenStreetMap o effettua il login per pubblicare le tue modifiche alla mappa in tutto il mondo.</string>
+    <string name="login_to_make_edits_visible">Crea un’utenza OpenStreetMap o effettua il login per pubblicare le tue modifiche alla mappa in tutto il mondo</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d su %2$d</string>
     <string name="download_over_mobile_header">Vuoi scaricare utilizzando una connessione di rete cellulare?</string>
-    <string name="download_over_mobile_message">Questa operazione potrebbe essere piuttosto costosa con alcuni piani telefonici o se in roaming.</string>
+    <string name="download_over_mobile_message">Questa operazione potrebbe essere piuttosto costosa con alcuni piani telefonici o se in roaming</string>
     <string name="error_enter_correct_house_number">Inserisci un numero civico valido</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Il numero di piani non deve superare %d</string>
@@ -503,8 +503,8 @@
     <string name="editor_category_unsuitable_title">Non riesci a trovare una categoria adatta?</string>
     <string name="editor_category_unsuitable_text">CoMaps consente di aggiungere solo punti semplici, escludendo p.es. città, strade, laghi, planimetria edifici ecc. È possibile aggiungere tali categorie direttamente su <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Consulta la nostra <a href="https://www.comaps.app/support/advanced-map-editing/">guida</a> per istruzioni dettagliate.</string>
     <string name="downloader_no_downloaded_maps_title">Non hai scaricato mappe</string>
-    <string name="downloader_no_downloaded_maps_message">Scarica mappe per trovare luoghi e navigare offline.</string>
-    <string name="current_location_unknown_error_title">Posizione attuale sconosciuta.</string>
+    <string name="downloader_no_downloaded_maps_message">Scarica delle mappe per trovare luoghi e navigare offline</string>
+    <string name="current_location_unknown_error_title">Posizione attuale sconosciuta</string>
     <!-- abbreviation for meters -->
     <string name="m">m</string>
     <!-- abbreviation for kilometers -->
@@ -540,8 +540,8 @@
     <!-- Displayed when saving some edits to the map to warn against publishing personal data -->
     <string name="editor_share_to_all_dialog_title">Vuoi inviarlo a tutti gli utenti?</string>
     <!-- Dialog before publishing the modifications to the public map. -->
-    <string name="editor_share_to_all_dialog_message_1">Assicurati di non aver inserito alcun dato personale.</string>
-    <string name="editor_share_to_all_dialog_message_2">Gli editor di OpenStreetMap controlleranno le modifiche e si metteranno in contatto con te in caso di domande.</string>
+    <string name="editor_share_to_all_dialog_message_1">Assicurati di non aver inserito alcun dato privato o personale</string>
+    <string name="editor_share_to_all_dialog_message_2">Gli editor di OpenStreetMap controlleranno le modifiche e si metteranno in contatto con te in caso di domande</string>
     <string name="navigation_stop_button">Ferma</string>
     <!-- Shown as toast when starting the recent track recording -->
     <string name="track_recording">Sto registrando la traccia</string>
@@ -555,10 +555,10 @@
     <string name="mobile_data_option_not_today">Non usare oggi</string>
     <string name="mobile_data">Internet mobile</string>
     <!-- NOTE to translators: please synchronize your translation with the English one. -->
-    <string name="mobile_data_description">L\'internet mobile è necessario per ricevere notifiche sugli aggiornamenti alle mappe e per caricare modifiche alla mappa.</string>
+    <string name="mobile_data_description">L\'internet mobile è necessario per ricevere notifiche sugli aggiornamenti alle mappe e per caricare modifiche</string>
     <string name="mobile_data_option_never">Non usare mai</string>
     <string name="mobile_data_option_ask">Chiedi sempre</string>
-    <string name="traffic_update_maps_text">Per visualizzare i dati sul traffico, le mappe devono essere aggiornate.</string>
+    <string name="traffic_update_maps_text">Per visualizzare i dati sul traffico, le mappe devono essere aggiornate</string>
     <string name="big_font">Aumenta dimensione caratteri sulla mappa</string>
     <string name="traffic_update_app">Aggiorna CoMaps</string>
     <!-- "traffic" as in "road congestion" -->
@@ -568,7 +568,7 @@
     <string name="feedback_general">Feedback generale</string>
     <string name="prefs_languages_information">Usiamo il TTS di sistema per le istruzioni vocali. Molti dispositivi Android utilizzano Google TTS, lo puoi scaricare o aggiornare da Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts)</string>
     <string name="prefs_languages_information_off">Per alcune lingue, sarà necessario installare un altro sintetizzatore vocale o un language pack aggiuntivo dall\'app store (Google Play, Galaxy Store, App Gallery, FDroid). \nApri le impostazioni del tuo dispositivo → Lingua e inserimento → Da testo a voce → Motore sintesi vocale. \nQui puoi gestire le impostazioni di sintesi vocale (ad esempio, scaricare una lingua per l\'utilizzo offline) e selezionare un altro motore di sintesi vocale.</string>
-    <string name="prefs_languages_information_off_link">Per maggiori informazioni, consulta questa guida.</string>
+    <string name="prefs_languages_information_off_link">Per maggiori informazioni, consulta questa guida</string>
     <string name="transliteration_title">Traslittera in caratteri latini</string>
     <string name="learn_more">Scopri di più</string>
     <!-- Subway exits for public transport marks on the map -->
@@ -613,7 +613,7 @@
     <string name="profile">Profilo OpenStreetMap</string>
     <plurals name="bookmarks_detect_message">
         <item quantity="one">%d file è stato trovato. Lo vedrai dopo la conversione.</item>
-        <item quantity="many"/>
+        <item quantity="many">%d file sono stati trovati. Li vedrai dopo la conversione.</item>
         <item quantity="other">%d file sono stati trovati. Li vedrai dopo la conversione.</item>
     </plurals>
     <string name="restore">Ripristina</string>
@@ -650,7 +650,7 @@
     <!-- Speed camera settings menu option - Never warn (about speedcams) -->
     <string name="pref_tts_speedcams_never">Non avvisare mai</string>
     <string name="power_managment_title">Modalità risparmio energetico</string>
-    <string name="power_managment_description">Riduce il consumo di batteria disattivando alcune funzionalità.</string>
+    <string name="power_managment_description">Prova a ridurre il consumo di batteria disattivando alcune funzionalità</string>
     <string name="power_managment_setting_never">Mai</string>
     <string name="power_managment_setting_auto">Quando c\'è poca batteria</string>
     <string name="power_managment_setting_manual_max">Sempre</string>
@@ -734,7 +734,7 @@
     <string name="elevation_profile_min_elevation">Min. elevazione</string>
     <string name="elevation_profile_max_elevation">Max. elevazione</string>
     <string name="elevation_profile_difficulty">Difficoltà</string>
-    <string name="elevation_profile_distance">Dist.:</string>
+    <string name="elevation_profile_distance">Distanza:</string>
     <string name="elevation_profile_time">Tempo:</string>
     <string name="isolines_toast_zooms_1_10">Ingrandisci la mappa per vedere le curve di livello</string>
     <string name="downloader_loading_ios">Download in corso</string>

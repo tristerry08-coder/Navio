@@ -1098,6 +1098,6 @@
 "osm_profile_view_edit_history" = "Ver histórico de edições";
 "osm_profile_view_notes" = "Ver notas";
 "pref_mapappearance_title" = "Aparência do mapa";
-"pref_maplanguage_title" = "Map Language";
-"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
-"pref_maplanguage_local" = "Local Language";
+"pref_maplanguage_title" = "Idioma do mapa";
+"transliteration_title_disabled_summary" = "Desativado quando sempre se utiliza o idioma local para o mapa";
+"pref_maplanguage_local" = "Idioma local";

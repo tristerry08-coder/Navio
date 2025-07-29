@@ -1408,4 +1408,5 @@
     <string name="type.natural.wetland.tidalflat">Vuorovesitasanko</string>
     <string name="type.natural.wetland.reedbed">Ruovikko</string>
     <string name="type.leisure.escape_game">Pakohuonepeli</string>
+    <string name="type.amenity.bicycle_parking.covered">Pyöräkatos</string>
 </resources>

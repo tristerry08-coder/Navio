@@ -9,7 +9,7 @@
     <string name="delete">Poista</string>
     <string name="download_maps">Lataa karttoja</string>
     <!-- Settings/Downloader - info for country when download fails -->
-    <string name="download_has_failed">Lataus epäonnistui. Napauta yrittääksesi uudelleen.</string>
+    <string name="download_has_failed">Lataus epäonnistui, napauta yrittääksesi uudelleen.</string>
     <!-- Settings/Downloader - info for country which started downloading -->
     <string name="downloading">Ladataan…</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->
@@ -32,7 +32,7 @@
     <!-- A dialog title, that warns a user that Precise Location is disabled and suggests to turn it on -->
     <string name="limited_accuracy">Rajoitettu tarkkuus</string>
     <!-- A dialog text, that warns a user that Precise Location is disabled and suggests to turn it on -->
-    <string name="precise_location_is_disabled_long_text">Tarkan navigoinnin varmistamiseksi ota Tarkka sijainti käyttöön asetuksissa.</string>
+    <string name="precise_location_is_disabled_long_text">Tarkan navigoinnin varmistamiseksi, ota Tarkka sijainti käyttöön asetuksissa.</string>
     <!-- View and button titles for accessibility -->
     <string name="zoom_to_country">Näytä kartalla</string>
     <!-- Message to display at the center of the screen when the country download has failed -->

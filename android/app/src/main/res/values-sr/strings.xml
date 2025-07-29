@@ -380,7 +380,7 @@
     <!-- The message when user did not find anything in the search. -->
     <string name="search_not_found_query">Преузмите регион где вршите претрагу, или пробајте да додате име оближњег насеља.</string>
     <string name="search_history_title">Историја претраге</string>
-    <string name="search_history_text">Погледајте ваше недавне претраге.</string>
+    <string name="search_history_text">Погледајте ваше недавне претраге</string>
     <string name="clear_search">Обриши историју претраге</string>
     <!-- Place Page link to Wikipedia article (if map object has it). -->
     <string name="read_in_wikipedia">Википедија</string>
