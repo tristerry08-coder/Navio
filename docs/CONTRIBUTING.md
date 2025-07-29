@@ -74,6 +74,8 @@ Please help us:
 - composing nice user-centric release notes and news items
 - etc.
 
+You can also contribute in [other ways](https://codeberg.org/comaps/Governance/src/branch/main/contribute.md).
+
 ## Submitting your changes
 
 All contributions to CoMaps repositories should be submitted via
@@ -103,3 +105,16 @@ Git has a flag that can sign a commit for you. An example using it is:
     git commit -s -m 'An example commit message'
 
 You can sign-off using your pseudonym or real name.
+
+## Team Messaging
+
+If you have contributed and interested in contributing more through collaboration with the project team, you are welcome to join Zulip. Zulip is for contributors who regularly collaborate on work with the team, and it is different from Telegram, Matrix or Mastodon which are for broader discussion. If you are interested in further contributing, use this link to join the CoMaps org on Zulip chat:
+
+https://comaps.zulipchat.com/join/e5e3c4zurmfxykrtbiiq6qrw/
+
+When you join Zulip, in Watercooler > Signups do an intro with the team:
+- Short background, professional and personal
+- Why are you contributing to CoMaps
+- What you think about projects' principles and direction https://codeberg.org/comaps/Governance#core-principles
+- Contribution so far (link Issue, PR, etc)
+- What you would like to contribute
