@@ -26,6 +26,8 @@ data/bookmarks
 data/edits.xml
 data/World.mwm
 data/WorldCoasts.mwm
+data/world_mwm/*
+data/_*_ver
 
 # Compiled Python
 *.pyc
