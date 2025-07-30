@@ -1,6 +1,6 @@
 # maps_generator
 
-`maps_generator` is the Python CLI for generating `.mwm` maps for the Organic Maps application. This tool functions as the driver for the `generator_tool` C++ executable.
+`maps_generator` is the Python CLI for generating `.mwm` maps for the CoMaps. This tool functions as the driver for the `generator_tool` C++ executable.
 
 **Use the `generator_tool` and application from the same release. The application does not support
 maps built by a generator_tool newer than the app.**
@@ -20,7 +20,7 @@ You must have Python version >= 3.7 and complete the following steps:
 git checkout 2023.06.04-13-android
 ```
 
-The app version can be found in the "About" section of Organic Maps app.
+The app version can be found in the "About" section of CoMaps.
 
 2. Build the `generator_tool` binary (run from the root of the repo):
 
@@ -74,8 +74,6 @@ To see other possible command-line options:
 ```sh
 python -m maps_generator -h
 ```
-
-If you are not from the Organic Maps team, then you do not need the `--production` option.
 
 ## Troubleshooting
 

@@ -104,7 +104,11 @@ Git has a flag that can sign a commit for you. An example using it is:
 
     git commit -s -m 'An example commit message'
 
-You can sign-off using your pseudonym or real name.
+Or, if you're making edits using Codeberg UI, check "Add a Signed-off-by trailer
+by the committer at the end of the commit log message" before saving.
+
+You can sign-off using your pseudonym or real name, and using
+"somedev@noreply.codeberg.org" as an email instead of a real one.
 
 ## Team Messaging
 

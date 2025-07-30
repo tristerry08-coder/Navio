@@ -125,10 +125,8 @@ You can help by donating, contributing code, translating, or by telling others a
 
 - Build instructions: [docs/INSTALL.md](docs/INSTALL.md)  
 - Contribution guide: [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md)
-> [!NOTE]  
-> Some docs might be outdated, contain broken links or old references to Organic Maps, etc. Its a work in progress and help is much appreciated!
 
-There is a dedicated Zulip chat for active contributors: [Zulip](https://comaps.zulipchat.com)
+There is a dedicated [Zulip](https://codeberg.org/comaps/Governance/src/branch/main/contribute.md#3-team-messaging) chat for active contributors.
 
 ---
 

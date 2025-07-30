@@ -84,7 +84,7 @@ by rebuilding styles and symbols quickly, but it's broken as of now, please help
 To test on Android or iOS device either re-build the app or put
 the compiled style files (e.g. `drules_proto_default_light.bin`) into
 a `styles/` subfolder of maps directory on the device
-(e.g. `Android/data/app.organicmaps/files/styles/`).
+(e.g. `Android/data/app.comaps/files/styles/`).
 
 Changing display zoom level for features (e.g. from z16- to z14-) might
 not take effect until map's visibility/scale index is rebuilt:
