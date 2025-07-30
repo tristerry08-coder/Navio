@@ -588,7 +588,7 @@
 "please_note" = "Aviso";
 "downloader_delete_map_dialog" = "Todas as edições no mapa serão excluídas juntamente com o mapa.";
 "downloader_update_maps" = "Atualizar mapas";
-"downloader_search_field_hint" = "Encontrar o mapa";
+"downloader_search_field_hint" = "Encontrar mapa";
 "migration_download_error_dialog" = "Erro no download";
 "common_check_internet_connection_dialog" = "Por favor, verifique as suas configurações e certifique-se de que o dispositivo está conectado à internet.";
 "downloader_no_space_title" = "Não há espaço suficiente";

@@ -510,7 +510,7 @@
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">最多可编辑 %d 层的建筑</string>
     <string name="editor_zip_code">邮政编码</string>
-    <string name="error_enter_correct_zip_code">输入正确的邮政编码</string>
+    <string name="error_enter_correct_zip_code">输入有效的邮政编码</string>
     <!-- Place Page title for long tap -->
     <string name="core_placepage_unknown_place">地图点</string>
     <!-- Title for OSM note section in the editor -->

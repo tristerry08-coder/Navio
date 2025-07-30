@@ -422,7 +422,7 @@
     <string name="downloader_delete_map_dialog">Todas as suas edições no mapa serão excluídas juntamente com o mapa</string>
     <string name="downloader_update_maps">Atualizar mapas</string>
     <string name="downloader_mwm_migration_dialog">Para criar um itinerário é necessário atualizar todos os mapas e, em seguida, planejá-lo novamente.</string>
-    <string name="downloader_search_field_hint">Encontrar o mapa</string>
+    <string name="downloader_search_field_hint">Encontrar mapa</string>
     <string name="common_check_internet_connection_dialog">Certifique-se de que seu dispositivo esteja conectado à internet</string>
     <string name="downloader_no_space_title">Não há espaço suficiente</string>
     <string name="downloader_no_space_message">Por favor, remova os dados desnecessários</string>

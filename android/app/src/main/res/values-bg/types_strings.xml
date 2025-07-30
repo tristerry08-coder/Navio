@@ -508,8 +508,8 @@
     <string name="type.tourism.zoo.petting">Зоопарк за домашни любимци</string>
     <string name="type.waterway.fish_pass">Стълба за риба</string>
     <string name="type.natural.water.ditch">Отводнителна канавка</string>
-    <string name="type.waterway.ditch.tunnel">водосток</string>
-    <string name="type.waterway.drain.tunnel">водосток</string>
+    <string name="type.waterway.ditch.tunnel">Водосток</string>
+    <string name="type.waterway.drain.tunnel">Водосток</string>
     <string name="type.piste_type.snow_park">Снежен парк</string>
     <string name="type.piste_type.hike">Зимна пътека</string>
     <string name="type.piste_type.connection">Свързване на пистите</string>
@@ -1307,4 +1307,17 @@
     <string name="type.shop.hairdresser">Фризьорски салон</string>
     <string name="type.tourism">Туризъм</string>
     <string name="type.tourism.zoo">Зоопарк</string>
+    <string name="type.tourism.picnic_site">Място за пикник</string>
+    <string name="type.leisure.resort">Курорт</string>
+    <string name="type.traffic_calming">Успокояване на трафика</string>
+    <string name="type.traffic_calming.bump">Легнал полицай</string>
+    <string name="type.traffic_calming.hump">Легнал полицай</string>
+    <string name="type.waterway">Воден път</string>
+    <string name="type.barrier.ditch">Канавка</string>
+    <string name="type.waterway.dock">Док на водния път</string>
+    <string name="type.waterway.drain">Дренаж</string>
+    <string name="type.natural.water.drain">Дренаж</string>
+    <string name="type.waterway.lock_gate">Шлюз</string>
+    <string name="type.waterway.canal.tunnel">Тунел под канала</string>
+    <string name="type.waterway.canal">Канал</string>
 </resources>
