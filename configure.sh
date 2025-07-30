@@ -35,10 +35,12 @@ echo "Configuring the repository for development."
 if [ ! -d 3party/boost/tools ]; then
   git submodule update --init --recursive --depth 1
 fi
-pushd 3party/boost/
-./bootstrap.sh
-./b2 headers
-popd
+if [ ! -d 3party/boost/boost ]; then
+  pushd 3party/boost/
+  ./bootstrap.sh
+  ./b2 headers
+  popd
+fi
 
 if [ "$SKIP_MAP_DOWNLOAD" = false ]; then
   echo "Downloading world map..."
