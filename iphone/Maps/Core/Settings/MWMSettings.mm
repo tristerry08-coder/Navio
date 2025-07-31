@@ -260,12 +260,6 @@ NSString * const kUDFileLoggingEnabledKey = @"FileLoggingEnabledKey";
   return settings::Get(settings::kDonateUrl, url) ? @(url.c_str()) : nil;
 }
 
-+ (BOOL)isNY
-{
-  bool isNY;
-  return settings::Get("NY", isNY) ? isNY : false;
-}
-
 + (BOOL)iCLoudSynchronizationEnabled
 {
   return [NSUserDefaults.standardUserDefaults boolForKey:kiCLoudSynchronizationEnabledKey];
