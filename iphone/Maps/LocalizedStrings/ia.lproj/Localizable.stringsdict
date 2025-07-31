@@ -25,6 +25,19 @@
 	<dict>
 		<key>NSStringLocalizedFormatKey</key>
 		<string>bookmarks_places</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>Zero marcatores</string>
+			<key>one</key>
+			<string>%d marcator</string>
+			<key>other</key>
+			<string>%d marcatores</string>
+		</dict>
 	</dict>
 </dict>
 </plist>

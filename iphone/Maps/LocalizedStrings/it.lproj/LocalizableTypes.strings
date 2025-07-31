@@ -672,7 +672,6 @@
 
 /* In most (European) countries, сemeteries are usually independent of places of worship (e.g. military cemeteries), while grave yards are usually the yard of a place of worship. */
 "type.landuse.cemetery.christian" = "Cimitero cristiano";
-"type.landuse.religious" = "Religious Land";
 "type.landuse.commercial" = "Area commerciale";
 "type.landuse.construction" = "Cantiere";
 "type.landuse.education" = "Strutture didattiche";
@@ -969,7 +968,7 @@
 "type.railway.station.light_rail.london" = "Stazione ferroviaria";
 "type.railway.station.light_rail.porto" = "Stazione ferroviaria";
 "type.railway.station.monorail" = "Stazione ferroviaria";
-"type.railway.station.subway" = "Stazione metropolitana";
+"type.railway.station.subway" = "Stazione Metropolitana";
 "type.railway.station.subway.adana" = "Stazione metropolitana";
 "type.railway.station.subway.algiers" = "Stazione metropolitana";
 "type.railway.station.subway.almaty" = "Stazione metropolitana";
@@ -1024,7 +1023,7 @@
 "type.railway.station.subway.lille" = "Stazione metropolitana";
 "type.railway.station.subway.lima" = "Stazione metropolitana";
 "type.railway.station.subway.lisboa" = "Stazione metropolitana";
-"type.railway.station.subway.london" = "Stazione metropolitana di Londra";
+"type.railway.station.subway.london" = "Stazione Metropolitana di Londra";
 "type.railway.station.subway.lyon" = "Stazione metropolitana";
 "type.railway.station.subway.madrid" = "Stazione metropolitana";
 "type.railway.station.subway.malaga" = "Stazione metropolitana";
@@ -1494,13 +1493,14 @@
 "type.railway.station.subway.qingdao" = "Stazione metropolitana di Qingdao";
 "type.natural.wetland.swamp" = "Palude";
 "type.natural.wetland.mangrove" = "Mangrovie";
-"type.natural.wetland.tidalflat" = "Tidal Flat";
-"type.natural.wetland.saltmarsh" = "Salt Marsh";
-"type.natural.wetland.fen" = "Fen";
-"type.natural.wetland.saltmarsh.tidal" = "Tidal Salt Marsh";
-"type.natural.wetland.reedbed" = "Reed Bed";
+"type.natural.wetland.tidalflat" = "Piana di Marea";
+"type.natural.wetland.saltmarsh" = "Palude Salmastra";
+"type.natural.wetland.fen" = "Paludre";
+"type.natural.wetland.saltmarsh.tidal" = "Palude Salmastra di Marea";
+"type.natural.wetland.reedbed" = "Giunco";
 "type.leisure.escape_game" = "Escape Room";
-"type.amenity.luggage_locker" = "Luggage Locker";
+"type.amenity.luggage_locker" = "Deposito Bagagli";
 "type.amenity.ranger_station" = "Ranger Station";
-"type.amenity.bicycle_parking.covered" = "Covered Bicycle Parking";
-"type.post_office.post_partner" = "Post Partner";
+"type.amenity.bicycle_parking.covered" = "Parcheggio Biciclette Coperto";
+"type.post_office.post_partner" = "Partner Postale";
+"type.landuse.religious" = "Religious Land";

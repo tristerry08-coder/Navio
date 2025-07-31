@@ -223,7 +223,7 @@
     <!-- Settings «Route» category: «Tts language» title -->
     <string name="pref_tts_language_title">Idioma da voz</string>
     <!-- Settings «Route» category: «Test Voice Directions» title -->
-    <string name="pref_tts_test_voice_title">Testar orientação por voz (TTS, Text-To-Speech)</string>
+    <string name="pref_tts_test_voice_title">Testar orientação por voz</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
     <string name="pref_tts_playing_test_voice">Verifique o volume ou as configurações de conversão de texto em fala do sistema se você não estiver ouvindo a voz agora</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
@@ -422,7 +422,7 @@
     <string name="downloader_delete_map_dialog">Todas as suas edições no mapa serão excluídas juntamente com o mapa</string>
     <string name="downloader_update_maps">Atualizar mapas</string>
     <string name="downloader_mwm_migration_dialog">Para criar um itinerário é necessário atualizar todos os mapas e, em seguida, planejá-lo novamente.</string>
-    <string name="downloader_search_field_hint">Encontrar o mapa</string>
+    <string name="downloader_search_field_hint">Encontrar mapa</string>
     <string name="common_check_internet_connection_dialog">Certifique-se de que seu dispositivo esteja conectado à internet</string>
     <string name="downloader_no_space_title">Não há espaço suficiente</string>
     <string name="downloader_no_space_message">Por favor, remova os dados desnecessários</string>
@@ -449,7 +449,7 @@
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">O número de andares não pode ser maior que %d</string>
     <string name="editor_zip_code">CEP</string>
-    <string name="error_enter_correct_zip_code">Informe o CEP correto</string>
+    <string name="error_enter_correct_zip_code">Insira um CEP válido</string>
     <!-- Place Page title for long tap -->
     <string name="core_placepage_unknown_place">Ponto do mapa</string>
     <!-- Information about OSM at the top of the editing page -->

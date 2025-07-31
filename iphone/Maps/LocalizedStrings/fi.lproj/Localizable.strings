@@ -253,7 +253,7 @@
 "pref_tts_language_title" = "Äänen kieli";
 
 /* Settings «Route» category: «Test Voice Directions» title */
-"pref_tts_test_voice_title" = "Testaa puheohjeita (TTS, Text-To-Speech)";
+"pref_tts_test_voice_title" = "Testaa puheohjeita";
 
 /* Title for "Other" section in TTS settings. */
 "pref_tts_other_section_title" = "Muu";
@@ -1098,6 +1098,6 @@
 "osm_profile_view_edit_history" = "Näytä muokkaushistoria";
 "osm_profile_view_notes" = "Näytä ilmoitukset";
 "pref_mapappearance_title" = "Kartan ulkoasu";
-"pref_maplanguage_title" = "Map Language";
-"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
-"pref_maplanguage_local" = "Local Language";
+"pref_maplanguage_title" = "Karttakieli";
+"transliteration_title_disabled_summary" = "Kytke pois käytöstä, jos käytät aina paikallista kieltä kartalle";
+"pref_maplanguage_local" = "Paikallinen kieli";

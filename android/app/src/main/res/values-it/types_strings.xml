@@ -830,7 +830,7 @@
     <string name="type.railway.station.light_rail.london">Stazione ferroviaria</string>
     <string name="type.railway.station.light_rail.porto">Stazione ferroviaria</string>
     <string name="type.railway.station.monorail">Stazione ferroviaria</string>
-    <string name="type.railway.station.subway">Stazione metropolitana</string>
+    <string name="type.railway.station.subway">Stazione Metropolitana</string>
     <string name="type.railway.station.subway.adana">Stazione metropolitana</string>
     <string name="type.railway.station.subway.algiers">Stazione metropolitana</string>
     <string name="type.railway.station.subway.almaty">Stazione metropolitana</string>
@@ -885,7 +885,7 @@
     <string name="type.railway.station.subway.lille">Stazione metropolitana</string>
     <string name="type.railway.station.subway.lima">Stazione metropolitana</string>
     <string name="type.railway.station.subway.lisboa">Stazione metropolitana</string>
-    <string name="type.railway.station.subway.london">Stazione metropolitana</string>
+    <string name="type.railway.station.subway.london">Stazione Metropolitana di Londra</string>
     <string name="type.railway.station.subway.lyon">Stazione metropolitana</string>
     <string name="type.railway.station.subway.madrid">Stazione metropolitana</string>
     <string name="type.railway.station.subway.malaga">Stazione metropolitana</string>
@@ -900,12 +900,12 @@
     <string name="type.railway.station.subway.montreal">Stazione metropolitana</string>
     <string name="type.railway.station.subway.moscow">Stazione metropolitana</string>
     <string name="type.railway.station.subway.munchen">Stazione metropolitana</string>
-    <string name="type.railway.station.subway.nagoya">Stazione metropolitana</string>
-    <string name="type.railway.station.subway.newyork">Stazione metropolitana</string>
+    <string name="type.railway.station.subway.nagoya">Stazione metropolitana di Nagoya</string>
+    <string name="type.railway.station.subway.newyork">Stazione metropolitana di New York</string>
     <string name="type.railway.station.subway.nnov">Stazione metropolitana</string>
-    <string name="type.railway.station.subway.novosibirsk">Stazione metropolitana</string>
-    <string name="type.railway.station.subway.osaka">Stazione metropolitana</string>
-    <string name="type.railway.station.subway.oslo">Stazione metropolitana</string>
+    <string name="type.railway.station.subway.novosibirsk">Stazione metropolitana di Novosibirsk</string>
+    <string name="type.railway.station.subway.osaka">Stazione metropolitana di Osaka</string>
+    <string name="type.railway.station.subway.oslo">Stazione metropolitana di Oslo</string>
     <string name="type.railway.station.subway.palma">Stazione metropolitana</string>
     <string name="type.railway.station.subway.panama">Stazione metropolitana</string>
     <string name="type.railway.station.subway.paris">Stazione metropolitana</string>
@@ -1402,4 +1402,13 @@
     <string name="type.railway.station.subway.qingdao">Stazione metropolitana</string>
     <string name="type.natural.wetland.swamp">Palude</string>
     <string name="type.natural.wetland.mangrove">Mangrovie</string>
+    <string name="type.amenity.luggage_locker">Deposito Bagagli</string>
+    <string name="type.amenity.bicycle_parking.covered">Parcheggio Biciclette Coperto</string>
+    <string name="type.post_office.post_partner">Partner Postale</string>
+    <string name="type.natural.wetland.saltmarsh">Palude Salmastra</string>
+    <string name="type.natural.wetland.saltmarsh.tidal">Palude Salmastra di Marea</string>
+    <string name="type.natural.wetland.reedbed">Giunco</string>
+    <string name="type.natural.wetland.tidalflat">Piana di Marea</string>
+    <string name="type.natural.wetland.fen">Paludre</string>
+    <string name="type.leisure.escape_game">Escape Room</string>
 </resources>

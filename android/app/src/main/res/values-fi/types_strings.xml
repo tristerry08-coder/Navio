@@ -1087,7 +1087,7 @@
     <string name="type.shop.laundry">Pesula</string>
     <string name="type.shop.mall">Ostoskeskus</string>
     <string name="type.shop.massage">Hierontahuone</string>
-    <string name="type.shop.mobile_phone">Elektroniikkakauppa</string>
+    <string name="type.shop.mobile_phone">Matkapuhelinkauppa</string>
     <string name="type.shop.money_lender">Rahan lainaaja</string>
     <string name="type.shop.motorcycle">Moottoripyöräliike</string>
     <string name="type.shop.motorcycle_repair">Moottoripyörän korjaus</string>
@@ -1409,4 +1409,7 @@
     <string name="type.natural.wetland.reedbed">Ruovikko</string>
     <string name="type.leisure.escape_game">Pakohuonepeli</string>
     <string name="type.amenity.bicycle_parking.covered">Pyöräkatos</string>
+    <string name="type.amenity.luggage_locker">Matkatavarasäilytys</string>
+    <string name="type.post_office.post_partner">Postikumppani</string>
+    <string name="type.amenity.ranger_station">Vartioasema</string>
 </resources>

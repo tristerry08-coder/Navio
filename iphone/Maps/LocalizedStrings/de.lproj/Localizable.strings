@@ -253,7 +253,7 @@
 "pref_tts_language_title" = "Sprache für Sprachführung";
 
 /* Settings «Route» category: «Test Voice Directions» title */
-"pref_tts_test_voice_title" = "Teste Sprachanweisungen (TTS, Text-To-Speech)";
+"pref_tts_test_voice_title" = "Teste Sprachanweisungen";
 
 /* Title for "Other" section in TTS settings. */
 "pref_tts_other_section_title" = "Weitere";
@@ -625,7 +625,7 @@
 /* Error message in Editor when a user tries to set the number of floors for a building higher than %d floors */
 "error_enter_correct_storey_number" = "Das Gebäude kann nicht mehr als %d Etagen haben";
 "editor_zip_code" = "Postleitzahl";
-"error_enter_correct_zip_code" = "Geben Sie die korrekte Postleitzahl ein";
+"error_enter_correct_zip_code" = "Geben Sie eine gültige Postleitzahl ein";
 
 /* Place Page title for long tap */
 "core_placepage_unknown_place" = "Kartenpunkt";
@@ -640,7 +640,7 @@
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Betreiber: %@";
 "editor_category_unsuitable_title" = "Keine passende Kategorie gefunden?";
-"editor_category_unsuitable_text" = "Mit CoMaps kann man nur einfache Punktkategorien hinzufügen, daher keine Städte, Straßen, Seen, Gebäudeumrisse, etc. Bitte füge solche Kategorien direkt bei <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> hinzu. In unserem <a href=\"https://www.comaps.app/support/advanced-map-editing/\">Leitfaden</a> findest du eine detaillierte Schritt-für-Schritt-Anleitung.";
+"editor_category_unsuitable_text" = "Mit CoMaps kann man nur einfache Punktkategorien hinzufügen, dass bedeutet keine Städte, Straßen, Seen, Gebäudeumrisse etc. Bitte füge solche Kategorien direkt bei <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a> hinzu. In unserem <a href=\"https://www.comaps.app/support/advanced-map-editing/\">Leitfaden</a> findest du eine detaillierte Schritt-für-Schritt Anleitung.";
 "downloader_no_downloaded_maps_title" = "Keine Karten heruntergeladen";
 "downloader_no_downloaded_maps_message" = "Laden Sie Karten für die Offline-Suche und Navigation herunter.";
 "current_location_unknown_error_title" = "Aktueller Standort ist unbekannt.";

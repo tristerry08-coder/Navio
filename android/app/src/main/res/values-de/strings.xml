@@ -237,9 +237,9 @@
     <!-- Settings «Route» category: «Tts language» title -->
     <string name="pref_tts_language_title">Sprache für Sprachführung</string>
     <!-- Settings «Route» category: «Test Voice Directions» title -->
-    <string name="pref_tts_test_voice_title">Teste Sprachanweisungen (TTS, Text-To-Speech)</string>
+    <string name="pref_tts_test_voice_title">Teste Sprachanweisungen</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
-    <string name="pref_tts_playing_test_voice">Überprüfe die Lautstärke oder die Text-to-speech-Einstellungen des Systems, wenn du die Stimme jetzt nicht hören kannst</string>
+    <string name="pref_tts_playing_test_voice">Überprüfe die Lautstärke oder die Text-To-Speech Einstellungen des Systems, wenn du die Stimme jetzt nicht hören kannst</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
     <string name="pref_tts_unavailable">Nicht verfügbar</string>
     <string name="pref_map_auto_zoom">Auto-Zoom</string>
@@ -357,18 +357,18 @@
     <string name="dialog_routing_location_turn_on">Standortdienste aktivieren</string>
     <string name="dialog_routing_location_unknown_turn_on">Aktuelle GPS-Koordinaten können nicht ermittelt werden. Aktivieren Sie Standortdienste, um die Route zu berechnen.</string>
     <string name="dialog_routing_unable_locate_route">Route kann nicht ermittelt werden</string>
-    <string name="dialog_routing_cant_build_route">Route kann nicht erstellt werden</string>
+    <string name="dialog_routing_cant_build_route">Route konnte nicht erstellt werden</string>
     <string name="dialog_routing_change_start_or_end">Bitte passen Sie Ihren Startpunkt oder Ihr Ziel an.</string>
     <string name="dialog_routing_change_start">Startpunkt anpassen</string>
     <string name="dialog_routing_start_not_determined">Route wurde nicht erstellt. Startpunkt kann nicht gefunden werden.</string>
     <string name="dialog_routing_select_closer_start">Bitte wählen Sie einen Startpunkt, der näher an einer Straße liegt.</string>
     <string name="dialog_routing_change_end">Ziel anpassen</string>
     <string name="dialog_routing_end_not_determined">Route wurde nicht erstellt. Ziel kann nicht gefunden werden.</string>
-    <string name="dialog_routing_select_closer_end">Bitte wählen Sie einen Zielort näher zur Straße</string>
-    <string name="dialog_routing_change_intermediate">Der Zwischenstopp kann nicht gefunden werden</string>
+    <string name="dialog_routing_select_closer_end">Bitte wählen Sie einen Zielort näher an einer Straße</string>
+    <string name="dialog_routing_change_intermediate">Der Zwischenstopp konnte nicht gefunden werden</string>
     <string name="dialog_routing_intermediate_not_determined">Bitte passen Sie Ihren Zwischenstopp an</string>
     <string name="dialog_routing_system_error">Systemfehler</string>
-    <string name="dialog_routing_application_error">Wegen eines Anwendungsfehlers kann keine Route erstellt werden</string>
+    <string name="dialog_routing_application_error">Wegen eines Anwendungsfehlers konnte keine Route erstellt werden</string>
     <string name="dialog_routing_try_again">Bitte versuchen Sie es erneut</string>
     <string name="not_now">Nicht jetzt</string>
     <string name="dialog_routing_download_and_build_cross_route">Möchten Sie die Karte herunterladen und eine bessere Route erstellen, die mehr als eine Karte umfasst?</string>
@@ -386,13 +386,13 @@
     <!-- The message when user did not find anything in the search. -->
     <string name="search_not_found_query">Laden Sie die Region herunter, in der Sie suchen, oder fügen Sie den Namen einer nahe gelegenen Stadt oder eines Dorfes hinzu.</string>
     <string name="search_history_title">Suchverlauf</string>
-    <string name="search_history_text">Anzeige Ihre letzten Suchanfragen</string>
+    <string name="search_history_text">Ihre letzten Suchanfragen anzeigen</string>
     <string name="clear_search">Suchverlauf löschen</string>
     <string name="p2p_your_location">Ihr Standort</string>
     <string name="p2p_start">Start</string>
     <string name="p2p_from_here">Von</string>
     <string name="p2p_to_here">Nach</string>
-    <string name="p2p_only_from_current">Die Navigation ist nur von Ihrem aktuellen Standort möglich</string>
+    <string name="p2p_only_from_current">Die Navigation ist nur von Ihrem aktuellen Standort aus möglich</string>
     <string name="p2p_reroute_from_current">Soll eine Route von Ihrem aktuellen Standort aus berechnet werden?</string>
     <!-- Edit open hours/set time and minutes dialog -->
     <string name="next_button">Weiter</string>
@@ -471,7 +471,7 @@
     <string name="common_check_internet_connection_dialog">Stellen Sie bitte sicher, dass Ihr Gerät mit dem Internet verbunden ist</string>
     <string name="downloader_no_space_title">Nicht genug Speicherplatz</string>
     <string name="downloader_no_space_message">Bitte entfernen Sie unnötige Daten</string>
-    <string name="editor_login_error_dialog">Login Fehler</string>
+    <string name="editor_login_error_dialog">Login fehlgeschlagen</string>
     <string name="editor_profile_changes">Bestätigte Änderungen der Karte</string>
     <string name="editor_focus_map_on_location">Verschiebe die Karte, um das Kreuz an der Stelle zu platzieren, an der sich der Ort oder das Geschäft befindet.</string>
     <string name="editor_edit_place_title">Wird bearbeitet</string>
@@ -497,7 +497,7 @@
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Das Gebäude kann nicht mehr als %d Etagen haben</string>
     <string name="editor_zip_code">Postleitzahl</string>
-    <string name="error_enter_correct_zip_code">Geben Sie die korrekte Postleitzahl ein</string>
+    <string name="error_enter_correct_zip_code">Geben Sie eine gültige Postleitzahl ein</string>
     <!-- Place Page title for long tap -->
     <string name="core_placepage_unknown_place">Kartenpunkt</string>
     <!-- Title for OSM note section in the editor -->
@@ -513,7 +513,7 @@
     <!-- To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... -->
     <string name="operator">Betreiber: %s</string>
     <string name="editor_category_unsuitable_title">Keine passende Kategorie gefunden?</string>
-    <string name="editor_category_unsuitable_text">Mit CoMaps kann man nur einfache Punktkategorien hinzufügen, daher keine Städte, Straßen, Seen, Gebäudeumrisse, etc. Bitte füge solche Kategorien direkt bei <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> hinzu. In unserem <a href="https://www.comaps.app/support/advanced-map-editing/">Leitfaden</a> findest du eine detaillierte Schritt-für-Schritt-Anleitung.</string>
+    <string name="editor_category_unsuitable_text">Mit CoMaps kann man nur einfache Punktkategorien hinzufügen, dass bedeutet keine Städte, Straßen, Seen, Gebäudeumrisse etc. Bitte füge solche Kategorien direkt bei <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> hinzu. In unserem <a href="https://www.comaps.app/support/advanced-map-editing/">Leitfaden</a> findest du eine detaillierte Schritt-für-Schritt Anleitung.</string>
     <string name="downloader_no_downloaded_maps_title">Keine Karten heruntergeladen</string>
     <string name="downloader_no_downloaded_maps_message">Laden Sie Karten für die Offline-Suche und Navigation herunter</string>
     <string name="current_location_unknown_error_title">Aktueller Standort ist unbekannt</string>
@@ -597,7 +597,7 @@
     <string name="placepage_remove_stop">Stopp entfernen</string>
     <string name="placepage_add_stop">Stopp hinzufügen</string>
     <!-- Alert to ask user relogin to OpenStreetMap with OAuth2 flow after OAuth1 authentication is deprecated. -->
-    <string name="alert_reauth_message">Bitte melde dich bei OpenStreetMap an, um alle deine Kartenbearbeitungen automatisch hochzuladen. Erfahre mehr <a href="https://github.com/organicmaps/organicmaps/issues/6144">hier</a>.</string>
+    <string name="alert_reauth_message">Bitte melde dich bei OpenStreetMap an, um alle deine Kartenbearbeitungen automatisch hochzuladen. Erfahre <a href="https://github.com/organicmaps/organicmaps/issues/6144">hier</a> mehr.</string>
     <string name="dialog_error_storage_title">Problem mit dem Zugriff auf den Speicher</string>
     <string name="dialog_error_storage_message">Der externe Speicher ist nicht verfügbar, möglicherweise wurde die SD-Karte entfernt oder sie ist beschädigt oder das Dateisystem ist schreibgeschützt. Überprüfen Sie das bitte oder kontaktieren Sie uns unter support@comaps.app</string>
     <string name="setting_emulate_bad_storage">Fehlerhaften Speicher emulieren</string>

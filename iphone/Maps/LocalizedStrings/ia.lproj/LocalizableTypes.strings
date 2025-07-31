@@ -5,7 +5,7 @@
 "type.amenity.pub" = "Pub";
 "type.traffic_calming.hump" = "Traffic Hump";
 "type.aerialway.drag_lift" = "Drag Lift";
-"type.addr_interpolation" = "Address/Block";
+"type.addr_interpolation" = "Adresse/Bloco";
 "type.amenity.bench" = "Bench";
 "type.aerialway.station" = "Aerialway Station";
 "type.aeroway.apron" = "Apron";
@@ -23,7 +23,7 @@
 "type.amenity.brothel" = "Brothel";
 "type.amenity.bicycle_parking" = "Bicycle Parking";
 "type.aerialway.gondola" = "Gondola";
-"type.addr_interpolation.even" = "Address/Block";
+"type.addr_interpolation.even" = "Adresse/Bloco";
 "type.addr_interpolation.odd" = "Address/Block";
 "type.aeroway.taxiway" = "Taxiway";
 "type.recycling.cartons" = "Cartons";
