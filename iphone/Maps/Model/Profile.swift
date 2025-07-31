@@ -123,13 +123,6 @@ import OSMEditor
     }
     
     
-    /// Request reauthorization of the OpenStreetMap profile
-    /// - Parameter shouldReauthorize: If the profile should be reauthorized
-    @objc static func requestReauthorization(shouldReauthorize: Bool = true) {
-        UserDefaults.standard.set(shouldReauthorize, forKey: userDefaultsNeedsReauthorization)
-    }
-    
-    
     /// Reload the OpenStreetMap profile data
     /// - Returns: Optional profile data
     static private func reloadUserPreferences() async -> osm.UserPreferences? {

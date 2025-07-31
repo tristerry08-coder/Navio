@@ -243,7 +243,7 @@ void registerCellsForTableView(std::vector<MWMEditorCellID> const & cells, UITab
       [self showNotesQueuedToast];
     break;
   case osm::Editor::SaveResult::SavedSuccessfully:
-    [Profile requestReauthorizationWithShouldReauthorize:YES];
+    [NSNotificationCenter.defaultCenter postNotificationName:@"EditingFinishedNotififcation" object:nil];
     f.UpdatePlacePageInfoForCurrentSelection();
     [self.navigationController popToRootViewControllerAnimated:YES];
     break;

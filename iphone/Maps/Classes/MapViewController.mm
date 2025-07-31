@@ -382,7 +382,10 @@ NSString *const kAboutSegue = @"Map2About";
   [self updateStatusBarStyle];
   GetFramework().SetRenderingEnabled();
   GetFramework().InvalidateRendering();
-  [self checkAuthorization];
+  [self showViralAlertIfNeeded];
+  if (Profile.needsReauthorization) {
+    [self checkAuthorization];
+  }
   [MWMRouter updateRoute];
 }
 
@@ -542,6 +545,12 @@ NSString *const kAboutSegue = @"Map2About";
   [[MWMBookmarksManager sharedManager] addObserver:self];
   [[MWMBookmarksManager sharedManager] loadBookmarks];
   [MWMFrameworkListener addObserver:self];
+
+  [NSNotificationCenter.defaultCenter addObserverForName:@"EditingFinishedNotififcation" object:nil queue:nil usingBlock:^(NSNotification * _Nonnull notification) {
+    if (!Profile.isExisting || Profile.needsReauthorization) {
+      [self checkAuthorization];
+    }
+  }];
 }
 
 - (void)dealloc {
@@ -631,13 +640,9 @@ NSString *const kAboutSegue = @"Map2About";
 #pragma mark - Authorization
 
 - (void)checkAuthorization {
-  BOOL const isAfterEditing = Profile.needsReauthorization && !Profile.isExisting;
-  if (isAfterEditing) {
-    [Profile requestReauthorizationWithShouldReauthorize:NO];
-    if (!Platform::IsConnected())
-      return;
-    [self presentViewController:BridgeControllers.profileAsAlert animated:YES completion:nil];
-  }
+  if (!Platform::IsConnected())
+    return;
+  [self presentViewController:BridgeControllers.profileAsAlert animated:YES completion:nil];
 }
 
 #pragma mark - 3d touch
