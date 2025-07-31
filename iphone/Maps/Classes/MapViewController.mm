@@ -382,7 +382,6 @@ NSString *const kAboutSegue = @"Map2About";
   [self updateStatusBarStyle];
   GetFramework().SetRenderingEnabled();
   GetFramework().InvalidateRendering();
-  [self showViralAlertIfNeeded];
   if (Profile.needsReauthorization) {
     [self checkAuthorization];
   }
