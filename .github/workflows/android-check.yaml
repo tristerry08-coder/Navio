@@ -7,6 +7,7 @@ on:
 
 env:
   JAVA_HOME: /usr/lib/jvm/temurin-17-jdk-amd64  # Java 17 is required for Android Gradle 8 plugin
+  SKIP_MAP_DOWNLOAD: true
 
 jobs:
   lint:
@@ -21,10 +22,6 @@ jobs:
       - name: Parallel submodules checkout
         shell: bash
         run: git submodule update --depth 1 --init --recursive --jobs=$(($(nproc) * 20))
-
-      - name:  Init boost, generate textures
-        shell: bash
-        run: ./configure.sh --skip-map-download
 
       - name: Lint
         shell: bash
@@ -75,10 +72,6 @@ jobs:
       - name: Parallel submodules checkout
         shell: bash
         run: git submodule update --depth 1 --init --recursive --jobs=$(($(nproc) * 20))
-
-      - name:  Init boost, generate textures
-        shell: bash
-        run: ./configure.sh --skip-map-download
 
       - name: Configure ccache
         uses: hendrikmuhs/ccache-action@v1.2

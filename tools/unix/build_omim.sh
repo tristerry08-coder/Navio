@@ -73,10 +73,6 @@ if [[ "$OPT_TARGET" =~ "generator_tool|topography_generator_tool|world_roads_bui
 fi
 
 OMIM_PATH="$(cd "${OMIM_PATH:-$(dirname "$0")/../..}"; pwd)"
-if ! grep "DEFAULT_URLS_JSON" "$OMIM_PATH/private.h" >/dev/null 2>/dev/null; then
-  echo "Please run $OMIM_PATH/configure.sh"
-  exit 2
-fi
 
 DEVTOOLSET_PATH=/opt/rh/devtoolset-7
 if [ -d "$DEVTOOLSET_PATH" ]; then

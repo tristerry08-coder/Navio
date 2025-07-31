@@ -71,10 +71,6 @@ jobs:
               libqt6positioning6-plugins \
               libqt6positioning6
 
-      - name: Configure repository
-        shell: bash
-        run: ./configure.sh
-
       - name: Configure ccache
         uses: hendrikmuhs/ccache-action@v1.2
         with:
@@ -141,10 +137,6 @@ jobs:
               qt6-positioning-dev \
               libqt6positioning6-plugins \
               libqt6positioning6
-
-      - name: Configure repository
-        shell: bash
-        run: ./configure.sh
 
       - name: Configure ccache
         uses: hendrikmuhs/ccache-action@v1.2

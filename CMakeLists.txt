@@ -48,6 +48,8 @@ if (APPLE AND NOT ("${CMAKE_SYSTEM_NAME}" STREQUAL Android))
   set(CMAKE_OBJCXX_VISIBILITY_PRESET hidden)
 endif()
 
+execute_process(COMMAND "./configure.sh" WORKING_DIRECTORY ${OMIM_ROOT})
+
 message(STATUS "Using compiler ${CMAKE_CXX_COMPILER_ID} ${CMAKE_CXX_COMPILER_VERSION}")
 
 if (CMAKE_UNITY_BUILD)

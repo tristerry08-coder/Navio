@@ -51,10 +51,6 @@ jobs:
         shell: bash
         run: git submodule update --depth 1 --init --recursive --jobs=$(($(nproc) * 20))
 
-      - name: Configure repository
-        shell: bash
-        run: ./configure.sh
-
       - name: Lint
         shell: bash
         working-directory: android
@@ -92,10 +88,6 @@ jobs:
       - name: Parallel submodules checkout
         shell: bash
         run: git submodule update --depth 1 --init --recursive --jobs=$(($(nproc) * 20))
-
-      - name: Configure repository
-        shell: bash
-        run: ./configure.sh
 
       - name: Configure ccache
         uses: hendrikmuhs/ccache-action@v1.2

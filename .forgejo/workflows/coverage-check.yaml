@@ -94,10 +94,6 @@ jobs:
               llvm \
               gcovr
 
-      - name: Configure repository
-        shell: bash
-        run: ./configure.sh
-
       - name: Configure ccache
         uses: hendrikmuhs/ccache-action@v1.2
         with:

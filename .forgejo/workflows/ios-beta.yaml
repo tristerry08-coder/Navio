@@ -66,10 +66,6 @@ jobs:
           CERTIFICATES_DEV_P12: ${{ secrets.CERTIFICATES_DEV_P12 }}
           CERTIFICATES_DISTR_P12: ${{ secrets.CERTIFICATES_DISTR_P12 }}
 
-      - name: Configure repository
-        shell: bash
-        run: ./configure.sh
-
       - name: Compile and upload to TestFlight
         run: |
           echo "IOS_VERSION=$(../tools/unix/version.sh ios_version)-$(../tools/unix/version.sh ios_build)" >> "$GITHUB_ENV"

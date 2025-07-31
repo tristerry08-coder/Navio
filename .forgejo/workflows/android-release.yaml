@@ -117,10 +117,6 @@ jobs:
           SECURE_PROPERTIES: ${{ secrets.SECURE_PROPERTIES }}
           RELEASE_KEYSTORE: ${{ secrets.RELEASE_KEYSTORE }}
 
-      - name: Configure repository
-        shell: bash
-        run: ./configure.sh
-
       - name: Set up SDK
         shell: bash
         run: echo "sdk.dir=$ANDROID_SDK_ROOT" > android/local.properties

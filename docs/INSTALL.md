@@ -37,13 +37,7 @@ Install required packages (Ubuntu/Debian):
 sudo apt install build-essential cmake qt6-base-dev qt6-svg-dev qt6-positioning-dev libicu-dev libfreetype-dev libharfbuzz-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev optipng
 ```
 
-Configure the repository (make sure you have a working C++ build environment):
-
-(if you plan to publish the app privately in stores check [special options](#special-cases-options))
-
-```bash
-bash ./configure.sh
-```
+If you plan to publish the app privately in stores check [special options](#special-cases-options).
 
 ### Windows
 You need to have [Git for Windows](https://git-scm.com/download/win) installed and Git bash available in the PATH.
@@ -69,15 +63,9 @@ For _Windows 10_:  You should be able to build the project by following either o
 **Setup 1: Using WSL**
 1. Install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) on your machine.
 2. Install g++ by running the following command in WSL: `sudo apt install g++`
-3. Run `./configure.sh` in WSL.
 
 **Setup 2: Using Visual Studio Developer Command Prompt**
-1. Install the [Visual Studio Developer Command Prompt](https://docs.microsoft.com/en-us/visualstudio/ide/reference/command-prompt-powershell?view=vs-2022) (make sure to choose the latest MSVC x64/x86 build tool and Windows 10/11 SDK as individual components while installing Visual Studio).
-2. Run the following command and follow instructions:
-
-```bash
-"C:\Program Files\Git\bin\bash.exe" configure.sh # execute the script by using Developer Command Prompt
-```
+Install the [Visual Studio Developer Command Prompt](https://docs.microsoft.com/en-us/visualstudio/ide/reference/command-prompt-powershell?view=vs-2022) (make sure to choose the latest MSVC x64/x86 build tool and Windows 10/11 SDK as individual components while installing Visual Studio).
 
 ### macOS
 Install required build dependencies and Xcode
@@ -96,12 +84,9 @@ xcode-select --install
 brew install wget optipng cmake qt
 ```
 
-#### Clone and configure repository
-Clone the repository
+#### Clone the repository
 ```bash
 git clone --recurse-submodules --shallow-submodules https://codeberg.org/comaps/comaps.git
-cd comaps
-bash ./configure.sh
 ```
 
 ### Special cases options

@@ -37,10 +37,6 @@ jobs:
         shell: bash
         run: git submodule update --depth 1 --init --recursive --jobs=$(($(sysctl -n hw.logicalcpu) * 20))
 
-      - name:  Init boost, download World map, generate textures
-        shell: bash
-        run: ./configure.sh
-
       - name: Configure XCode cache
         uses: irgaly/xcode-cache@v1
         with:

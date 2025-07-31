@@ -3,8 +3,8 @@
 # Please run this script to configure the repository after cloning it.
 #
 
-SKIP_MAP_DOWNLOAD=false
-SKIP_GENERATE_SYMBOLS=false
+SKIP_MAP_DOWNLOAD=$SKIP_MAP_DOWNLOAD
+SKIP_GENERATE_SYMBOLS=$SKIP_GENERATE_SYMBOLS
 
 ############################# PROCESS OPTIONS ################################
 
@@ -17,8 +17,8 @@ eval set -- "$TEMP"
 
 while true; do
   case "$1" in
-    -m | --skip-map-download ) SKIP_MAP_DOWNLOAD=true; shift ;;
-    -s | --skip-generate-symbols ) SKIP_GENERATE_SYMBOLS=true; shift ;;
+    -m | --skip-map-download ) SKIP_MAP_DOWNLOAD=1; shift ;;
+    -s | --skip-generate-symbols ) SKIP_GENERATE_SYMBOLS=1; shift ;;
     * ) break ;;
   esac
 done
@@ -54,7 +54,7 @@ if [ ! -d 3party/boost/boost ]; then
   popd
 fi
 
-if [ "$SKIP_MAP_DOWNLOAD" = false ]; then
+if [ -z "$SKIP_MAP_DOWNLOAD" ]; then
   pushd data
   
   MWM_VERSION=$(awk -F'[:,]' '/"v":/{ $2 = substr($2, 2); print $2 }' countries.txt)
@@ -79,7 +79,7 @@ else
   echo "Skipping world map download..."
 fi
 
-if [ "$SKIP_GENERATE_SYMBOLS" = false ]; then
+if [ -z "$SKIP_GENERATE_SYMBOLS" ]; then
   if Diff data/symbols_hash data/styles/*/*/symbols/*; then
     echo "Generating symbols..."
     bash ./tools/unix/generate_symbols.sh

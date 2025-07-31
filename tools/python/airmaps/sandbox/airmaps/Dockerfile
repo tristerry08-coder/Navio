@@ -19,8 +19,7 @@ RUN apt-get update && apt-get install -y \
 RUN ln -fs /usr/share/zoneinfo/$TZ /etc/localtime && \
     dpkg-reconfigure --frontend noninteractive tzdata
 
-RUN echo "" | ./configure.sh \
-	&& ./tools/unix/build_omim.sh -rs generator_tool
+RUN ./tools/unix/build_omim.sh -rs generator_tool
 
 RUN pip install --upgrade pip
 

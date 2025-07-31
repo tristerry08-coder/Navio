@@ -18,5 +18,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   libxi-dev \
   optipng
 WORKDIR /root/comaps
-RUN ./configure.sh
 CMD ./gradlew -Parm64 assembleFdroidDebug
