@@ -37,7 +37,6 @@ typedef NS_ENUM(NSUInteger, UserTouchesAction) { UserTouchesActionNone, UserTouc
 namespace {
 NSString *const kDownloaderSegue = @"Map2MapDownloaderSegue";
 NSString *const kEditorSegue = @"Map2EditorSegue";
-NSString *const kUDViralAlertWasShown = @"ViralAlertWasShown";
 NSString *const kPP2BookmarkEditingSegue = @"PP2BookmarkEditing";
 NSString *const kSettingsSegue = @"Map2Settings";
 NSString *const kAboutSegue = @"Map2About";
@@ -383,7 +382,6 @@ NSString *const kAboutSegue = @"Map2About";
   [self updateStatusBarStyle];
   GetFramework().SetRenderingEnabled();
   GetFramework().InvalidateRendering();
-  [self showViralAlertIfNeeded];
   [self checkAuthorization];
   [MWMRouter updateRoute];
 }
@@ -490,23 +488,6 @@ NSString *const kAboutSegue = @"Map2About";
   UIHoverGestureRecognizer * hoverRecognizer = [[UIHoverGestureRecognizer alloc] initWithTarget:self action:@selector(handlePointerHover:)];
   hoverRecognizer.allowedTouchTypes = @[@(UITouchTypeIndirectPointer)];
   [self.view addGestureRecognizer:hoverRecognizer];
-}
-
-- (void)showViralAlertIfNeeded {
-  NSUserDefaults *ud = NSUserDefaults.standardUserDefaults;
-
-  if (!Profile.needsReauthorization || [ud objectForKey:kUDViralAlertWasShown] || !Profile.isExisting)
-    return;
-
-  if (osm::Editor::Instance().GetStats().m_edits.size() < 2)
-    return;
-
-  if (!Platform::IsConnected())
-    return;
-
-  [self.alertController presentEditorViralAlert];
-
-  [ud setObject:[NSDate date] forKey:kUDViralAlertWasShown];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {

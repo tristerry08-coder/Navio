@@ -155,10 +155,6 @@ static NSString *const kAlertControllerNibIdentifier = @"MWMAlertViewController"
   [self displayAlert:[MWMAlert infoAlert:title text:nil]];
 }
 
-- (void)presentEditorViralAlert {
-  [self displayAlert:[MWMAlert editorViralAlert]];
-}
-
 - (void)presentCreateBookmarkCategoryAlertWithMaxCharacterNum:(NSUInteger)max
                                               minCharacterNum:(NSUInteger)min
                                                      callback:(nonnull MWMCheckStringBlock)callback {

@@ -22,7 +22,6 @@
 + (MWMAlert *)placeDoesntExistAlertWithBlock:(MWMStringBlock)block;
 + (MWMAlert *)resetChangesAlertWithBlock:(MWMVoidBlock)block;
 + (MWMAlert *)deleteFeatureAlertWithBlock:(MWMVoidBlock)block;
-+ (MWMAlert *)editorViralAlert;
 + (MWMAlert *)personalInfoWarningAlertWithBlock:(MWMVoidBlock)block;
 + (MWMAlert *)trackWarningAlertWithCancelBlock:(MWMVoidBlock)block;
 + (MWMAlert *)infoAlert:(NSString *)title text:(NSString *)text;

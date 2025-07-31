@@ -53,14 +53,6 @@
   return shareVC;
 }
 
-+ (instancetype)shareControllerForEditorViral {
-  MWMEditorViralActivityItem *item = [[MWMEditorViralActivityItem alloc] init];
-  UIImage *image = [UIImage imageNamed:@"img_sharing_editor"];
-  MWMActivityViewController *vc = [[self alloc] initWithActivityItems:@[item, image]];
-  vc.popoverPresentationController.permittedArrowDirections = UIPopoverArrowDirectionDown;
-  return vc;
-}
-
 - (void)presentInParentViewController:(UIViewController *)parentVC anchorView:(UIView *)anchorView {
   self.ownerViewController = parentVC;
   self.anchorView = anchorView;

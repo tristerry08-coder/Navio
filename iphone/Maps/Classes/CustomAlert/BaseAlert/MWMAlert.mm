@@ -2,7 +2,6 @@
 #import "MWMAlertViewController.h"
 #import "MWMDefaultAlert.h"
 #import "MWMDownloadTransitMapAlert.h"
-#import "MWMEditorViralAlert.h"
 #import "MWMLocationAlert.h"
 #import "MWMPlaceDoesntExistAlert.h"
 #import "MWMRoutingDisclaimerAlert.h"
@@ -130,9 +129,6 @@
   return [MWMDefaultAlert deleteFeatureAlertWithBlock:block];
 }
 
-+ (MWMAlert *)editorViralAlert {
-  return [MWMEditorViralAlert alert];
-}
 + (MWMAlert *)personalInfoWarningAlertWithBlock:(MWMVoidBlock)block {
   return [MWMDefaultAlert personalInfoWarningAlertWithBlock:block];
 }

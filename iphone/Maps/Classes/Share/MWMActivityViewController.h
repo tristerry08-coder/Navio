@@ -6,8 +6,6 @@ NS_ASSUME_NONNULL_BEGIN
 NS_SWIFT_NAME(ActivityViewController)
 @interface MWMActivityViewController : UIActivityViewController
 
-+ (instancetype)shareControllerForEditorViral;
-
 + (instancetype)shareControllerForMyPosition:(CLLocationCoordinate2D)location;
 
 + (instancetype)shareControllerForPlacePage:(PlacePageData *)data;
