@@ -250,7 +250,7 @@
 "pref_tts_language_title" = "Hääljuhiste keel";
 
 /* Settings «Route» category: «Test Voice Directions» title */
-"pref_tts_test_voice_title" = "Testi hääljuhised (TTS, Text-To-Speech)";
+"pref_tts_test_voice_title" = "Testi hääljuhised";
 
 /* Title for "Other" section in TTS settings. */
 "pref_tts_other_section_title" = "Muu";

@@ -232,7 +232,7 @@
     <string name="pref_tts_enable_title">Instrucións de voz</string>
     <string name="pref_tts_street_names_title">Anunciar nomes de rúas</string>
     <string name="pref_tts_street_names_description">Cando se activa, o nome da rúa ou a saída para virar pronunciarase en voz alta.</string>
-    <string name="pref_tts_test_voice_title">Probar indicacións de voz (TTS, Text-To-Speech)</string>
+    <string name="pref_tts_test_voice_title">Probar indicacións por voz</string>
     <string name="pref_tts_playing_test_voice">Comprobe o volume ou a configuración de texto a voz do sistema se agora non oe a voz</string>
     <string name="pref_tts_unavailable">Non dispoñible</string>
     <string name="pref_map_auto_zoom">Zum automático</string>

@@ -237,9 +237,9 @@
     <!-- Settings «Route» category: «Tts language» title -->
     <string name="pref_tts_language_title">Sprache für Sprachführung</string>
     <!-- Settings «Route» category: «Test Voice Directions» title -->
-    <string name="pref_tts_test_voice_title">Teste Sprachanweisungen (TTS, Text-To-Speech)</string>
+    <string name="pref_tts_test_voice_title">Teste Sprachanweisungen</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
-    <string name="pref_tts_playing_test_voice">Überprüfe die Lautstärke oder die Text-to-speech-Einstellungen des Systems, wenn du die Stimme jetzt nicht hören kannst</string>
+    <string name="pref_tts_playing_test_voice">Überprüfe die Lautstärke oder die Text-To-Speech Einstellungen des Systems, wenn du die Stimme jetzt nicht hören kannst</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
     <string name="pref_tts_unavailable">Nicht verfügbar</string>
     <string name="pref_map_auto_zoom">Auto-Zoom</string>

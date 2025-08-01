@@ -1265,7 +1265,7 @@
 "type.shop.laundry" = "Pesula";
 "type.shop.mall" = "Ostoskeskus";
 "type.shop.massage" = "Hierontahuone";
-"type.shop.mobile_phone" = "Elektroniikkakauppa";
+"type.shop.mobile_phone" = "Matkapuhelinkauppa";
 "type.shop.money_lender" = "Rahan lainaaja";
 "type.shop.motorcycle" = "Moottoripyöräliike";
 "type.shop.motorcycle_repair" = "Moottoripyörän korjaus";
@@ -1500,7 +1500,7 @@
 "type.natural.wetland.mangrove" = "Mangrove";
 "type.natural.wetland.tidalflat" = "Vuorovesitasanko";
 "type.leisure.escape_game" = "Pakohuonepeli";
-"type.amenity.luggage_locker" = "Luggage Locker";
-"type.post_office.post_partner" = "Post Partner";
-"type.amenity.ranger_station" = "Ranger Station";
+"type.amenity.luggage_locker" = "Matkatavarasäilytys";
+"type.post_office.post_partner" = "Postikumppani";
+"type.amenity.ranger_station" = "Vartioasema";
 "type.amenity.bicycle_parking.covered" = "Pyöräkatos";

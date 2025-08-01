@@ -231,7 +231,7 @@
     <!-- Settings «Route» category: «Tts language» title -->
     <string name="pref_tts_language_title">Hääljuhiste keel</string>
     <!-- Settings «Route» category: «Test Voice Directions» title -->
-    <string name="pref_tts_test_voice_title">Testi hääljuhised (TTS, Text-To-Speech)</string>
+    <string name="pref_tts_test_voice_title">Testi hääljuhised</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
     <string name="pref_tts_playing_test_voice">Kontrolli helivaljust või süsteemi kõnesünteesi seadistusi, kui sa ei kuule nüüd häält</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->

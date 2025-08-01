@@ -109,7 +109,7 @@
 "pref_tts_street_names_description" = "Cando se activa, o nome da rúa ou a saída para virar pronunciarase en voz alta.";
 "pref_tts_language_title" = "Idioma de voz";
 "pref_tts_street_names_title" = "Anunciar nomes de rúas";
-"pref_tts_test_voice_title" = "Probar indicacións de voz (TTS, Text-To-Speech)";
+"pref_tts_test_voice_title" = "Probar indicacións por voz";
 "pref_tts_other_section_title" = "Outro";
 "pref_map_auto_zoom" = "Zum automático";
 "placepage_distance" = "Distancia";

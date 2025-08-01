@@ -253,7 +253,7 @@
 "pref_tts_language_title" = "Sprache für Sprachführung";
 
 /* Settings «Route» category: «Test Voice Directions» title */
-"pref_tts_test_voice_title" = "Teste Sprachanweisungen (TTS, Text-To-Speech)";
+"pref_tts_test_voice_title" = "Teste Sprachanweisungen";
 
 /* Title for "Other" section in TTS settings. */
 "pref_tts_other_section_title" = "Weitere";

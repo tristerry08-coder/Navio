@@ -253,7 +253,7 @@
 "pref_tts_language_title" = "Idioma da voz";
 
 /* Settings «Route» category: «Test Voice Directions» title */
-"pref_tts_test_voice_title" = "Testar orientação por voz (TTS, Text-To-Speech)";
+"pref_tts_test_voice_title" = "Testar orientação por voz";
 
 /* Title for "Other" section in TTS settings. */
 "pref_tts_other_section_title" = "Outro";
@@ -623,7 +623,7 @@
 /* Error message in Editor when a user tries to set the number of floors for a building higher than %d floors */
 "error_enter_correct_storey_number" = "O número de andares não pode ser maior que %d";
 "editor_zip_code" = "CEP";
-"error_enter_correct_zip_code" = "Informe o CEP correto";
+"error_enter_correct_zip_code" = "Insira um CEP válido";
 
 /* Place Page title for long tap */
 "core_placepage_unknown_place" = "Ponto do mapa";
