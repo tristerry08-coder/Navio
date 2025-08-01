@@ -267,6 +267,8 @@ public:
     string const denomination(meta.Get(feature::Metadata::FMD_DENOMINATION));
     string const wheelchair(GetWheelchairType(f));
     string const opening_hours(meta.Get(feature::Metadata::FMD_OPEN_HOURS));
+    string const check_date(meta.Get(feature::Metadata::FMD_CHECK_DATE));
+    string const check_date_opening_hours(meta.Get(feature::Metadata::FMD_CHECK_DATE_OPEN_HOURS));
     string const wikipedia(meta.Get(feature::Metadata::FMD_WIKIPEDIA));
     string const wikimedia_commons(meta.Get(feature::Metadata::FMD_WIKIMEDIA_COMMONS));
     string const panoramax(meta.Get(feature::Metadata::FMD_PANORAMAX));
@@ -277,7 +279,7 @@ public:
     vector<string> columns = {
         osmId,             uid,             lat,           lon,       mwmName, category,     name,    std::string(city),
         addrStreet,        addrHouse,       phone,         website,   stars,   std::string(metaOperator), internet,
-        denomination,      wheelchair,      opening_hours, wikipedia, floor,   fee,          atm,     contact_facebook,
+        denomination,      wheelchair,      opening_hours, check_date, check_date_opening_hours, wikipedia, floor,   fee,          atm,     contact_facebook,
         contact_instagram, contact_twitter, contact_vk,    contact_line, contact_fediverse, contact_bluesky, wikimedia_commons, panoramax};
 
     AppendNames(f, columns);
@@ -290,7 +292,7 @@ void PrintHeader()
   vector<string> columns = {"id",              "old_id",       "lat",        "lon",              "mwm",
                             "category",        "name",         "city",       "street",           "house",
                             "phone",           "website",      "cuisines",   "stars",            "operator",
-                            "internet",        "denomination", "wheelchair", "opening_hours",    "wikipedia",
+                            "internet",        "denomination", "wheelchair", "opening_hours",    "check_date", "check_date_opening_hours", "wikipedia",
                             "floor",           "fee",          "atm",        "contact_facebook", "contact_instagram",
                             "contact_twitter", "contact_vk",   "contact_line", "contact_fediverse", "contact_bluesky", "wikimedia_commons", "panoramax"};
   // Append all supported name languages in order.

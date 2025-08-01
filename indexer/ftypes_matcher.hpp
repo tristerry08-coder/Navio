@@ -319,6 +319,15 @@ public:
   uint32_t GetType() const { return m_types[0]; }
 };
 
+class IsCheckDateChecker : public BaseChecker
+{
+  IsCheckDateChecker();
+public:
+  DECLARE_CHECKER_INSTANCE(IsCheckDateChecker);
+
+  uint32_t GetType() const { return m_types[0]; }
+};
+
 class AttractionsChecker : public BaseChecker
 {
   size_t m_additionalTypesStart;

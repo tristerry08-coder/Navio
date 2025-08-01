@@ -148,6 +148,28 @@ std::string MetadataTagProcessorImpl::ValidateAndFormat_opening_hours(std::strin
   return v;
 }
 
+std::string MetadataTagProcessorImpl::ValidateAndFormat_date(std::string const & v)
+{
+  // Check if the date is in the format YYYY-MM-DD, and that it parses to a valid date.
+  std::regex const dateRegex(R"(^(\d{4})-(\d{2})-(\d{2})$)");
+  std::smatch match;
+  if (std::regex_match(v, match, dateRegex))
+  {
+    int year = std::stoi(match[1]);
+    int month = std::stoi(match[2]);
+    int day = std::stoi(match[3]);
+
+    std::tm tm = {};
+    std::istringstream ss(v);
+    ss >> std::get_time(&tm, "%Y-%m-%d");
+    if (!ss.fail() && tm.tm_year + 1900 == year && tm.tm_mon + 1 == month && tm.tm_mday == day)
+      return v;
+  }
+
+  LOG(LDEBUG, ("Invalid check_date tag value:", v));
+  return {};
+}
+
 std::string MetadataTagProcessorImpl::ValidateAndFormat_ele(std::string const & v) const
 {
   if (IsNoNameNoAddressBuilding(m_params))
@@ -532,10 +554,24 @@ void MetadataTagProcessor::operator()(std::string const & k, std::string const &
   if (!Metadata::TypeFromString(k, mdType))
     return;
 
+  auto const & types = m_params.m_types;
+
   std::string valid;
   switch (mdType)
   {
   case Metadata::FMD_OPEN_HOURS: valid = ValidateAndFormat_opening_hours(v); break;
+  case Metadata::FMD_CHECK_DATE:
+    if (ftypes::IsCheckDateChecker::Instance()(types))
+      valid = ValidateAndFormat_date(v);
+    else
+      return;
+    break;
+  case Metadata::FMD_CHECK_DATE_OPEN_HOURS:
+    if (ftypes::IsCheckDateChecker::Instance()(types))
+      valid = ValidateAndFormat_date(v);
+    else
+      return;
+    break;
   case Metadata::FMD_FAX_NUMBER:  // The same validator as for phone.
   case Metadata::FMD_PHONE_NUMBER: valid = ValidateAndFormat_phone(v); break;
   case Metadata::FMD_STARS: valid = ValidateAndFormat_stars(v); break;

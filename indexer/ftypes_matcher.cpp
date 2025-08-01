@@ -500,6 +500,14 @@ IsAmenityChecker::IsAmenityChecker() : BaseChecker(1 /* level */)
   m_types.push_back(classif().GetTypeByPath({"amenity"}));
 }
 
+IsCheckDateChecker::IsCheckDateChecker() : BaseChecker(1 /* level */)
+{
+  Classificator const & c = classif();
+  for (auto const * path : {"amenity", "shop", "leisure", "tourism", "craft",
+                            "emergency", "healthcare", "office"})
+    m_types.push_back(c.GetTypeByPath({path}));
+}
+
 AttractionsChecker::AttractionsChecker() : BaseChecker(2 /* level */)
 {
   base::StringIL const primaryAttractionTypes[] = {
