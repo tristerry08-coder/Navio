@@ -596,8 +596,6 @@
 "type.area_highway.track" = "Katu";
 "type.area_highway.trunk" = "Päätie";
 "type.area_highway.unclassified" = "Katu";
-"type.highway.world_level" = "highway-world_level";
-"type.highway.world_towns_level" = "highway-world_towns_level";
 "type.historic" = "Historiallinen esine";
 "type.historic.aircraft" = "Historiallinen lentokone";
 "type.historic.anchor" = "Historiallinen ankkuri";
@@ -644,19 +642,6 @@
 "type.historic.wayside_cross" = "Tienvarren risti";
 "type.historic.wayside_shrine" = "Tienvarren pyhäkkö";
 "type.historic.wreck" = "Haaksirikko";
-"type.hwtag" = "hwtag";
-"type.hwtag.bidir_bicycle" = "hwtag-bidir_bicycle";
-"type.hwtag.onedir_bicycle" = "hwtag-onedir_bicycle";
-"type.hwtag.lit" = "hwtag-lit";
-"type.hwtag.nobicycle" = "hwtag-nobicycle";
-"type.hwtag.nocar" = "hwtag-nocar";
-"type.hwtag.nofoot" = "hwtag-nofoot";
-"type.hwtag.oneway" = "hwtag-oneway";
-"type.hwtag.private" = "hwtag-private";
-"type.hwtag.toll" = "hwtag-toll";
-"type.hwtag.yesbicycle" = "hwtag-yesbicycle";
-"type.hwtag.yescar" = "hwtag-yescar";
-"type.hwtag.yesfoot" = "hwtag-yesfoot";
 "type.internet_access" = "Internet";
 "type.internet_access.wlan" = "Internet";
 "type.junction" = "Risteys";
@@ -773,8 +758,6 @@
 "type.man_made.water_well.drinking_water_no" = "Kaivo";
 "type.man_made.windmill" = "Tuulimylly";
 "type.man_made.works" = "Tehdas";
-"type.mapswithme" = "MapsWithMe";
-"type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Sotilasalue";
 "type.military.bunker" = "Bunkkeri";
 "type.mountain_pass" = "Vuoristosola";
@@ -901,11 +884,6 @@
 
 /* A single pole supporting various public utilities, such as lighting or telephony. */
 "type.man_made.utility_pole" = "Pylväs";
-"type.psurface" = "psurface";
-"type.psurface.paved_bad" = "psurface-paved_bad";
-"type.psurface.paved_good" = "psurface-paved_good";
-"type.psurface.unpaved_bad" = "psurface-unpaved_bad";
-"type.psurface.unpaved_good" = "psurface-unpaved_good";
 "type.public_transport" = "Julkinen liikenne";
 "type.public_transport.platform" = "Joukkoliikenteen pysäkki/laituri";
 "type.railway" = "Rautatie";
@@ -1207,7 +1185,6 @@
 "type.railway.tram_stop" = "Raitiovaunupysäkki";
 "type.route" = "Reitti";
 "type.route.ferry" = "Lauttareitti";
-"type.route.shuttle_train" = "route-shuttle_train";
 "type.shop" = "Kauppa";
 "type.shop.alcohol" = "Alkoholikauppa";
 "type.shop.bakery" = "Leipomo";

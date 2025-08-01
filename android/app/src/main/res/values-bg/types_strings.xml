@@ -774,7 +774,6 @@
     <string name="type.highway.road">Път</string>
     <string name="type.highway.tertiary">Третостепенен път</string>
     <string name="type.landuse.cemetery">Гробище</string>
-    <string name="type.mapswithme">MapsWithMe</string>
     <string name="type.amenity.studio">Студио</string>
     <string name="type.amenity.college">Колеж</string>
     <string name="type.barrier.guard_rail">Мантинела</string>

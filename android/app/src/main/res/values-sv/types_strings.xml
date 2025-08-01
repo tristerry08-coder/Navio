@@ -1252,7 +1252,6 @@
     <string name="type.landuse.vineyard">Vingård</string>
     <string name="type.man_made.mast">Mast</string>
     <string name="type.man_made.pipeline">Pipeline</string>
-    <string name="type.mapswithme">MapsWithMe</string>
     <string name="type.military.bunker">Bunker</string>
     <string name="type.natural.desert">Öken</string>
     <string name="type.internet_access">Internet</string>

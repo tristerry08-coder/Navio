@@ -763,11 +763,6 @@
     <string name="type.power.substation">Substasie</string>
     <!-- A tower or pylon carrying high voltage electricity cables. -->
     <string name="type.power.tower">Kragmas</string>
-    <string name="type.psurface">Padoppervlak</string>
-    <string name="type.psurface.paved_bad">Geteer</string>
-    <string name="type.psurface.paved_good">Geteer</string>
-    <string name="type.psurface.unpaved_bad">Ongeteer</string>
-    <string name="type.psurface.unpaved_good">Ongeteer</string>
     <string name="type.public_transport">Openbare vervoer</string>
     <string name="type.public_transport.platform">Platform</string>
     <string name="type.railway">Spoorweg</string>
@@ -1315,5 +1310,4 @@
     <!-- https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall -->
     <string name="type.leisure.sports_hall">Sportsaal</string>
     <string name="type.railway.station.subway.qingdao">Moltreinstasie</string>
-    <string name="type.mapswithme">MapsWithMe</string>
 </resources>

@@ -1227,7 +1227,6 @@
     <string name="type.highway.cycleway">Ποδηλατόδρομος</string>
     <string name="type.highway.cycleway.permissive">Ποδηλατόδρομος</string>
     <string name="type.highway.elevator">Ανελκυστήρας</string>
-    <string name="type.highway.world_level">αυτοκινητόδρομος-κόσμος_επίπεδο</string>
     <string name="type.barrier.wall">Τοίχος</string>
     <string name="type.recycling.cans">Κονσερβοκούτια</string>
     <string name="type.barrier">Εμπόδιο</string>
@@ -1247,7 +1246,6 @@
     <string name="type.area_highway.cycleway">Ποδηλατόδρομος</string>
     <string name="type.aeroway.gate">Πύλη</string>
     <string name="type.amenity.atm">ATM</string>
-    <string name="type.mapswithme">MapsWithMe</string>
     <string name="type.railway.platform">Σιδηροδρομική πλατφόρμα</string>
     <string name="type.railway.narrow_gauge.tunnel">Σιδηροδρομική σήραγγα στενού εύρους</string>
     <string name="type.railway.subway.bridge">Γέφυρα γραμμής μετρό</string>

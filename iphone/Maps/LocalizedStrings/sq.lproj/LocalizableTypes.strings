@@ -1,6 +1,5 @@
 "type.railway.station.subway.qingdao" = "Stacion metroje";
 "type.leisure.hackerspace" = "Hackerspace";
-"type.mapswithme" = "MapsWithMe";
 "type.railway.station.subway.hamburg" = "Subway Station";
 "type.railway.station.subway.lyon" = "Subway Station";
 "type.railway.station.subway.lisboa" = "Subway Station";
@@ -233,14 +232,7 @@
 "type.historic.memorial.sculpture" = "Sculpture";
 "type.historic.wayside_cross" = "Wayside Cross";
 "type.historic.tank" = "Historic Tank";
-"type.hwtag.toll" = "hwtag-toll";
 "type.internet_access" = "Internet";
-"type.hwtag.nocar" = "hwtag-nocar";
-"type.hwtag.onedir_bicycle" = "hwtag-onedir_bicycle";
-"type.hwtag.nobicycle" = "hwtag-nobicycle";
-"type.hwtag.yesfoot" = "hwtag-yesfoot";
-"type.hwtag.yescar" = "hwtag-yescar";
-"type.hwtag" = "hwtag";
 "type.landuse.flowerbed" = "Flowerbed";
 "type.landuse.forest" = "Forest";
 "type.landuse.garages" = "Garages";
@@ -349,14 +341,9 @@
 "type.wheelchair" = "Wheelchair";
 "type.piste_type.downhill.area" = "Downhill Ski Run";
 "type.man_made.utility_pole" = "Utility Pole";
-"type.psurface.unpaved_good" = "psurface-unpaved_good";
-"type.psurface.unpaved_bad" = "psurface-unpaved_bad";
 "type.power.tower" = "Power Tower";
 "type.landuse.religious" = "Religious Land";
-"type.psurface" = "psurface";
-"type.psurface.paved_good" = "psurface-paved_good";
 "type.power.pole" = "Power Pole";
-"type.psurface.paved_bad" = "psurface-paved_bad";
 "type.shop.chemist" = "Chemist";
 "type.shop.clothes" = "Clothes Shop";
 "type.shop.caravan" = "RV Dealership";
@@ -724,7 +711,6 @@
 "type.power.plant.coal" = "Coal Power Plant";
 "type.building.train_station" = "Station Building";
 "type.railway.station.subway.nnov" = "Subway Station";
-"type.hwtag.bidir_bicycle" = "hwtag-bidir_bicycle";
 "type.cuisine.vegetarian" = "Vegetarian";
 "type.cuisine.malaysian" = "Malaysian";
 "type.amenity.parking.street_side.private" = "Private Street-Side Parking";
@@ -856,7 +842,6 @@
 "type.shop.fashion_accessories" = "Fashion Accessories";
 "type.shop.electronics" = "Electronics Shop";
 "type.amenity.charging_station" = "Charging Station";
-"type.highway.world_level" = "highway-world_level";
 "type.piste_type.downhill.easy.area" = "Easy Downhill Ski Run";
 "type.railway.rail.utility.bridge" = "Railway Bridge";
 "type.leisure" = "Leisure";
@@ -903,7 +888,6 @@
 "type.historic.castle.kremlin" = "Kremlin";
 "type.railway.station.light_rail.berlin" = "S-Bahn Station";
 "type.public_transport.platform" = "Platform";
-"type.highway.world_towns_level" = "highway-world_towns_level";
 "type.natural.geyser" = "Geyser";
 "type.waterway.stream.ephemeral" = "Ephemeral Stream";
 "type.landuse.reservoir" = "Reservoir";
@@ -920,7 +904,6 @@
 "type.craft.confectionery" = "Confectioner";
 "type.shop.medical_supply" = "Medical Supplies Store";
 "type.military.bunker" = "Bunker";
-"type.hwtag.private" = "hwtag-private";
 "type.cuisine.coffee_shop" = "Coffee";
 "type.highway.footway.bicycle" = "Cycle & Foot Path";
 "type.sport.scuba_diving" = "Scuba Diving Site";
@@ -935,7 +918,6 @@
 "type.shop.bed" = "Bed Shop";
 "type.tourism.museum" = "Museum";
 "type.amenity.school" = "School";
-"type.hwtag.yesbicycle" = "hwtag-yesbicycle";
 "type.man_made.tower" = "Tower";
 "type.historic.archaeological_site" = "Archaeological Site";
 "type.shop.watches" = "Watch Store";
@@ -978,7 +960,6 @@
 "type.cuisine.ethiopian" = "Ethiopian";
 "type.railway.subway_entrance.malaga" = "Subway Entrance";
 "type.waterway.dock" = "Waterway Dock";
-"type.hwtag.oneway" = "hwtag-oneway";
 "type.attraction.animal" = "Animal Enclosure";
 "type.sport.ice_hockey" = "Ice Hockey";
 "type.aeroway" = "Airspace Infrastructure";
@@ -993,7 +974,6 @@
 "type.piste_type.downhill.expert.area" = "Expert Downhill Ski Run";
 "type.emergency.fire_hydrant" = "Fire Hydrant";
 "type.shop.toys" = "Toy Store";
-"type.route.shuttle_train" = "route-shuttle_train";
 "type.railway.disused" = "Disused Railway";
 "type.entrance.main" = "Main Entrance";
 "type.landuse.quarry" = "Quarry";
@@ -1058,7 +1038,6 @@
 "type.amenity.casino" = "Casino";
 "type.place.county" = "County";
 "type.aerialway.gondola" = "Gondola";
-"type.hwtag.lit" = "hwtag-lit";
 "type.building.garage" = "Garage";
 "type.railway.station.subway.milan" = "Subway Station";
 "type.natural.glacier" = "Glacier";
@@ -1233,8 +1212,6 @@
 "type.cuisine.thai" = "Thai";
 "type.leisure.miniature_golf" = "Minigolf";
 "type.internet_access.wlan" = "Internet";
-"type.mapswithme.grid" = "mapswithme-grid";
-"type.hwtag.nofoot" = "hwtag-nofoot";
 "type.shop.charity" = "Charity Shop";
 "type.leisure.outdoor_seating" = "Outdoor Seating";
 "type.railway.subway_entrance.cairo" = "Subway Entrance";

@@ -1,4 +1,3 @@
-"type.mapswithme" = "MapsWithMe";
 "type.railway.station.subway.bengalore" = "Subway Station";
 "type.amenity.language_school" = "Language School";
 "type.amenity.recycling.centre" = "Recycling Center";
@@ -26,12 +25,7 @@
 "type.historic.pillory" = "Pillory";
 "type.historic.memorial.war_memorial" = "War Memorial";
 "type.historic.wayside_cross" = "Wayside Cross";
-"type.hwtag" = "hwtag";
-"type.hwtag.bidir_bicycle" = "hwtag-bidir_bicycle";
 "type.historic.tank" = "Historic Tank";
-"type.hwtag.nocar" = "hwtag-nocar";
-"type.hwtag.nobicycle" = "hwtag-nobicycle";
-"type.hwtag.nofoot" = "hwtag-nofoot";
 "type.leisure.recreation_ground" = "Recreation Ground";
 "type.leisure.park.private" = "Private Park";
 "type.leisure.park.permissive" = "Park";
@@ -279,7 +273,6 @@
 "type.railway.subway_entrance.wuhan" = "Subway Entrance";
 "type.route" = "Route";
 "type.railway.subway_entrance.valencia" = "Subway Entrance";
-"type.route.shuttle_train" = "route-shuttle_train";
 "type.railway.tram.tunnel" = "Tram Line Tunnel";
 "type.shop.bakery" = "Bakery";
 "type.shop" = "Shop";
@@ -544,7 +537,6 @@
 "type.amenity.casino" = "Casino";
 "type.aerialway.gondola" = "Gondola";
 "type.man_made.mast" = "Mast";
-"type.hwtag.lit" = "hwtag-lit";
 "type.building.garage" = "Garage";
 "type.natural.glacier" = "Glacier";
 "type.cuisine.ramen" = "Ramen";
@@ -696,7 +688,6 @@
 "type.craft.beekeeper" = "Beekeeper";
 "type.cuisine.mexican" = "Mexican";
 "type.healthcare.optometrist" = "Optometrist";
-"type.psurface.paved_bad" = "psurface-paved_bad";
 "type.cuisine.oriental" = "East Asian";
 "type.aeroway.aerodrome" = "Airport";
 "type.natural.orchard" = "Orchard";
@@ -705,7 +696,6 @@
 "type.cuisine.thai" = "Thai";
 "type.leisure.miniature_golf" = "Minigolf";
 "type.internet_access.wlan" = "Internet";
-"type.mapswithme.grid" = "mapswithme-grid";
 "type.leisure.outdoor_seating" = "Outdoor Seating";
 "type.leisure.playground" = "Playground";
 "type.area_highway.cycleway" = "Cycle Path";
@@ -762,7 +752,6 @@
 "type.amenity.ice_cream" = "Ice Cream";
 "type.railway.rail.branch.bridge" = "Railway Bridge";
 "type.area_highway.footway" = "Foot Path";
-"type.hwtag.toll" = "hwtag-toll";
 "type.boundary.administrative" = "Administrative Boundary";
 "type.amenity.parking_space" = "Parking Space";
 "type.shop.pet" = "Pet Store";
@@ -901,7 +890,6 @@
 "type.cuisine.persian" = "Persian";
 "type.area_highway.residential" = "Residential Street";
 "type.amenity.post_box" = "Mailbox";
-"type.hwtag.onedir_bicycle" = "hwtag-onedir_bicycle";
 "type.addr_interpolation" = "Address/Block";
 "type.man_made.water_tap" = "Water Tap";
 "type.cuisine.deli" = "Deli";
@@ -931,7 +919,6 @@
 "type.highway.secondary" = "Secondary Road";
 "type.highway.bridleway.tunnel" = "Tunnel";
 "type.aerialway.station" = "Aerialway Station";
-"type.hwtag.yesfoot" = "hwtag-yesfoot";
 "type.highway.tertiary_link" = "Tertiary Road Ramp";
 "type.highway.path" = "Path";
 "type.aeroway.apron" = "Apron";
@@ -985,7 +972,6 @@
 "type.amenity.veterinary" = "Veterinary Doctor";
 "type.amenity.dentist" = "Dentist";
 "type.shop.rental" = "Rental Shop";
-"type.hwtag.yescar" = "hwtag-yescar";
 "type.organic.only" = "Organic";
 "type.landuse.greenfield" = "Greenfield";
 "type.cuisine.pancake" = "Pancake";
@@ -1004,7 +990,6 @@
 "type.building_part" = "Building";
 "type.highway.pedestrian.tunnel" = "Pedestrian Tunnel";
 "type.amenity.parking_entrance" = "Parking Entrance";
-"type.psurface.unpaved_good" = "psurface-unpaved_good";
 "type.amenity.loading_dock" = "Loading Dock";
 "type.railway.subway_entrance.ankara" = "Subway Entrance";
 "type.leisure.adult_gaming_centre" = "Adult Gaming Centre";
@@ -1056,7 +1041,6 @@
 "type.amenity.cinema" = "Cinema";
 "type.cuisine.bubble_tea" = "Bubble Tea";
 "type.cuisine.malagasy" = "Malagasy";
-"type.psurface.unpaved_bad" = "psurface-unpaved_bad";
 "type.power.tower" = "Power Tower";
 "type.amenity.exhibition_centre" = "Exhibition Center";
 "type.natural.water.moat" = "Moat";
@@ -1132,7 +1116,6 @@
 "type.craft.blacksmith" = "Blacksmith";
 "type.amenity.parking.street_side" = "Street-Side Parking";
 "type.highway.motorway.tunnel" = "Motorway Tunnel";
-"type.psurface" = "psurface";
 "type.entrance.exit" = "Exit";
 "type.emergency.lifeguard" = "Lifeguard";
 "type.amenity.car_rental" = "Car Rental";
@@ -1141,7 +1124,6 @@
 "type.highway.trunk.bridge" = "Bridge";
 "type.cuisine.american" = "American";
 "type.natural.bare_rock" = "Bare Rock";
-"type.psurface.paved_good" = "psurface-paved_good";
 "type.cuisine.beef_bowl" = "Beef Bowl";
 "type.railway.rail.utility" = "Utility Railway";
 "type.highway.residential.area" = "Residential Street";
@@ -1163,7 +1145,6 @@
 "type.barrier.retaining_wall" = "Retaining Wall";
 "type.railway.subway_entrance.bangkok" = "Subway Entrance";
 "type.amenity.charging_station" = "Charging Station";
-"type.highway.world_level" = "highway-world_level";
 "type.landuse.forest" = "Forest";
 "type.railway.rail.utility.bridge" = "Railway Bridge";
 "type.leisure" = "Leisure";
@@ -1204,7 +1185,6 @@
 "type.railway.station.subway.berlin" = "Subway Station";
 "type.historic.castle.kremlin" = "Kremlin";
 "type.railway.station.light_rail.berlin" = "S-Bahn Station";
-"type.highway.world_towns_level" = "highway-world_towns_level";
 "type.natural.geyser" = "Geyser";
 "type.amenity.bbq" = "Barbecue Grill";
 "type.landuse.reservoir" = "Reservoir";
@@ -1220,7 +1200,6 @@
 "type.military.bunker" = "Bunker";
 "type.barrier.guard_rail" = "Guard Rail";
 "type.amenity.bar" = "Bar";
-"type.hwtag.private" = "hwtag-private";
 "type.cuisine.coffee_shop" = "Coffee";
 "type.highway.footway.bicycle" = "Cycle & Foot Path";
 "type.barrier.border_control" = "Border Control";
@@ -1233,7 +1212,6 @@
 "type.highway.track" = "Track";
 "type.amenity.school" = "School";
 "type.amenity.parcel_locker" = "Parcel Locker";
-"type.hwtag.yesbicycle" = "hwtag-yesbicycle";
 "type.barrier.block" = "Block";
 "type.man_made.tower" = "Tower";
 "type.historic.archaeological_site" = "Archaeological Site";
@@ -1268,7 +1246,6 @@
 "type.amenity.college" = "College";
 "type.railway.station.light_rail" = "Light Rail Station";
 "type.cuisine.ethiopian" = "Ethiopian";
-"type.hwtag.oneway" = "hwtag-oneway";
 "type.cuisine.russian" = "Russian";
 "type.aeroway" = "Airspace Infrastructure";
 "type.healthcare.alternative" = "Alternative Medicine";

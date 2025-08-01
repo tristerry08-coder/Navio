@@ -596,8 +596,6 @@
 "type.area_highway.track" = "Pista para desportos não motorizados";
 "type.area_highway.trunk" = "Via expressa";
 "type.area_highway.unclassified" = "Estrada sem classificação";
-"type.highway.world_level" = "highway-world_level";
-"type.highway.world_towns_level" = "highway-world_towns_level";
 "type.historic" = "Objeto histórico";
 "type.historic.aircraft" = "Aeronaves Históricas";
 "type.historic.anchor" = "Âncora Histórica";
@@ -644,19 +642,6 @@
 "type.historic.wayside_cross" = "Cruz à beira da estrada";
 "type.historic.wayside_shrine" = "Santuário à beira da estrada";
 "type.historic.wreck" = "Naufrágio";
-"type.hwtag" = "Sinalização de trânsito";
-"type.hwtag.bidir_bicycle" = "hwtag-bidir_bicycle";
-"type.hwtag.onedir_bicycle" = "hwtag-onedir_bicycle";
-"type.hwtag.lit" = "hwtag-lit";
-"type.hwtag.nobicycle" = "hwtag-nobicycle";
-"type.hwtag.nocar" = "hwtag-nocar";
-"type.hwtag.nofoot" = "hwtag-nofoot";
-"type.hwtag.oneway" = "hwtag-oneway";
-"type.hwtag.private" = "hwtag-private";
-"type.hwtag.toll" = "hwtag-pedágio";
-"type.hwtag.yesbicycle" = "hwtag-simbicicleta";
-"type.hwtag.yescar" = "hwtag-yescar";
-"type.hwtag.yesfoot" = "hwtag-yesfoot";
 "type.internet_access" = "Internet";
 "type.internet_access.wlan" = "Internet";
 "type.junction" = "Cruzamento";
@@ -773,8 +758,6 @@
 "type.man_made.water_well.drinking_water_no" = "Poço de água";
 "type.man_made.windmill" = "Moinho de vento";
 "type.man_made.works" = "Fábrica";
-"type.mapswithme" = "MapsWithMe";
-"type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Militar";
 "type.military.bunker" = "Búnquer";
 "type.mountain_pass" = "Passo da Montanha";
@@ -900,11 +883,6 @@
 
 /* A single pole supporting various public utilities, such as lighting or telephony. */
 "type.man_made.utility_pole" = "Poste";
-"type.psurface" = "psurface";
-"type.psurface.paved_bad" = "psurface-paved_bad";
-"type.psurface.paved_good" = "psurface-paved_good";
-"type.psurface.unpaved_bad" = "psurface-unpaved_bad";
-"type.psurface.unpaved_good" = "psurface-unpaved_good";
 "type.public_transport" = "Transporte público";
 "type.public_transport.platform" = "Plataforma de transporte público";
 "type.railway" = "Ferrovia";
@@ -1206,7 +1184,6 @@
 "type.railway.tram_stop" = "Parada de bonde";
 "type.route" = "Rota";
 "type.route.ferry" = "Rota de balsa";
-"type.route.shuttle_train" = "rota-ônibus_trem";
 "type.shop" = "Loja";
 "type.shop.alcohol" = "Loja de bebidas alcoólicas";
 "type.shop.bakery" = "Padaria";

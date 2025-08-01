@@ -1178,6 +1178,5 @@
     <!-- https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall -->
     <string name="type.leisure.sports_hall">Nhà thi đấu thể thao</string>
     <string name="type.railway.station.subway.qingdao">Ngầm</string>
-    <string name="type.mapswithme">MapsWithMe</string>
     <string name="type.man_made.silo">Silo</string>
 </resources>

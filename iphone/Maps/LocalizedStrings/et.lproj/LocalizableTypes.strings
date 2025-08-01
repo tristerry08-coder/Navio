@@ -596,8 +596,6 @@
 "type.area_highway.track" = "Rada";
 "type.area_highway.trunk" = "E-tähistusega põhimaantee";
 "type.area_highway.unclassified" = "Vähetähtis tee";
-"type.highway.world_level" = "highway-world_level";
-"type.highway.world_towns_level" = "highway-world_towns_level";
 "type.historic" = "Ajalooline objekt";
 "type.historic.aircraft" = "Ajalooline lennuk";
 "type.historic.anchor" = "Ajalooline ankur";
@@ -644,18 +642,6 @@
 "type.historic.wayside_cross" = "Teeäärne rist";
 "type.historic.wayside_shrine" = "Teeäärne altar";
 "type.historic.wreck" = "Laevavrakk";
-"type.hwtag" = "hwtag";
-"type.hwtag.onedir_bicycle" = "hwtag-onedir_bicycle";
-"type.hwtag.lit" = "hwtag-lit";
-"type.hwtag.nobicycle" = "hwtag-nobicycle";
-"type.hwtag.nocar" = "hwtag-nocar";
-"type.hwtag.nofoot" = "hwtag-nofoot";
-"type.hwtag.oneway" = "hwtag-oneway";
-"type.hwtag.private" = "hwtag-private";
-"type.hwtag.toll" = "hwtag-toll";
-"type.hwtag.yesbicycle" = "hwtag-yesbicycle";
-"type.hwtag.yescar" = "hwtag-yescar";
-"type.hwtag.yesfoot" = "hwtag-yesfoot";
 "type.internet_access" = "Internet";
 "type.internet_access.wlan" = "Wifi";
 "type.junction" = "Ristmik";
@@ -772,8 +758,6 @@
 "type.man_made.water_well.drinking_water_no" = "Pole joogivesi";
 "type.man_made.windmill" = "Tuuleveski";
 "type.man_made.works" = "Tehas";
-"type.mapswithme" = "MapsWithMe";
-"type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Militaarobjekt";
 "type.military.bunker" = "Punker";
 "type.mountain_pass" = "Mäekuru";
@@ -900,11 +884,6 @@
 
 /* A single pole supporting various public utilities, such as lighting or telephony. */
 "type.man_made.utility_pole" = "Valgustus- või sidepost";
-"type.psurface" = "Pind";
-"type.psurface.paved_bad" = "psurface-paved_bad";
-"type.psurface.paved_good" = "psurface-paved_good";
-"type.psurface.unpaved_bad" = "psurface-unpaved_bad";
-"type.psurface.unpaved_good" = "psurface-unpaved_good";
 "type.public_transport" = "Ühistransport";
 "type.public_transport.platform" = "Ooteplatvorm";
 "type.railway" = "Raudtee";
@@ -1206,7 +1185,6 @@
 "type.railway.tram_stop" = "Trammipeatus";
 "type.route" = "Marsruut";
 "type.route.ferry" = "Praamiliin";
-"type.route.shuttle_train" = "route-shuttle_train";
 "type.shop" = "Pood";
 "type.shop.alcohol" = "Alkoholipood";
 "type.shop.bakery" = "Pagar";
@@ -1482,7 +1460,6 @@
 
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "Spordisaal";
-"type.hwtag.bidir_bicycle" = "hwtag-bidir_bicycle";
 "type.landuse.plant_nursery" = "Puukool";
 "type.highway.ladder" = "Redel";
 "type.amenity.love_hotel" = "Armuhotell";

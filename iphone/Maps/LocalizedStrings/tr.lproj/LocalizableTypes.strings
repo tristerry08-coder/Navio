@@ -596,8 +596,6 @@
 "type.area_highway.track" = "Pist";
 "type.area_highway.trunk" = "Devlet Yolu";
 "type.area_highway.unclassified" = "Tali Yol";
-"type.highway.world_level" = "highway-world_level";
-"type.highway.world_towns_level" = "highway-world_towns_level";
 "type.historic" = "Tarihi Nesne";
 "type.historic.aircraft" = "Tarihi Uçak";
 "type.historic.anchor" = "Tarihi Çapa";
@@ -644,18 +642,6 @@
 "type.historic.wayside_cross" = "Hıristiyan Haçı";
 "type.historic.wayside_shrine" = "Tapınak";
 "type.historic.wreck" = "Gemi enkazı";
-"type.hwtag" = "hwtag";
-"type.hwtag.bidir_bicycle" = "hwtag-bidir_bicycle";
-"type.hwtag.onedir_bicycle" = "hwtag-onedir_bicycle";
-"type.hwtag.nobicycle" = "hwtag-nobicycle";
-"type.hwtag.nocar" = "hwtag-nocar";
-"type.hwtag.nofoot" = "hwtag-nofoot";
-"type.hwtag.oneway" = "hwtag-oneway";
-"type.hwtag.private" = "hwtag-private";
-"type.hwtag.toll" = "hwtag-toll";
-"type.hwtag.yesbicycle" = "hwtag-yesbicycle";
-"type.hwtag.yescar" = "hwtag-yescar";
-"type.hwtag.yesfoot" = "hwtag-yesfoot";
 "type.internet_access" = "İnternet";
 "type.internet_access.wlan" = "İnternet";
 "type.junction" = "Kavşak noktası";
@@ -772,8 +758,6 @@
 "type.man_made.water_well.drinking_water_no" = "Su Kuyusu";
 "type.man_made.windmill" = "Yel Değirmeni";
 "type.man_made.works" = "Sanayi İşleri";
-"type.mapswithme" = "MapsWithMe";
-"type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Askeri";
 "type.military.bunker" = "Sığınak";
 "type.mountain_pass" = "Boğaz";
@@ -900,11 +884,6 @@
 
 /* A single pole supporting various public utilities, such as lighting or telephony. */
 "type.man_made.utility_pole" = "Hizmet Direği";
-"type.psurface" = "psurface";
-"type.psurface.paved_bad" = "psurface-paved_bad";
-"type.psurface.paved_good" = "psurface-paved_good";
-"type.psurface.unpaved_bad" = "psurface-unpaved_bad";
-"type.psurface.unpaved_good" = "psurface-unpaved_good";
 "type.public_transport" = "Toplu Taşıma";
 "type.public_transport.platform" = "Platform";
 "type.railway" = "Demiryolu";
@@ -1206,7 +1185,6 @@
 "type.railway.tram_stop" = "Tramvay Durağı";
 "type.route" = "Rota";
 "type.route.ferry" = "Feribot";
-"type.route.shuttle_train" = "route-shuttle_train";
 "type.shop" = "Mağaza";
 "type.shop.alcohol" = "İçki dükkanı";
 "type.shop.bakery" = "Fırın";
@@ -1493,7 +1471,6 @@
 "type.natural.wetland.fen" = "Bataklık";
 "type.natural.wetland.saltmarsh" = "Tuz Bataklığı";
 "type.natural.wetland.saltmarsh.tidal" = "Gelgit Tuz Bataklığı";
-"type.hwtag.lit" = "hwtag-lit";
 "type.railway.station.subway.qingdao" = "Subway Station";
 "type.natural.wetland.tidalflat" = "Tidal Flat";
 "type.natural.wetland.swamp" = "Swamp";

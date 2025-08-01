@@ -596,8 +596,6 @@
 "type.area_highway.track" = "מסלול";
 "type.area_highway.trunk" = "כביש בין עירוני";
 "type.area_highway.unclassified" = "כביש לא מסומן/מזערי";
-"type.highway.world_level" = "highway-world_level";
-"type.highway.world_towns_level" = "highway-world_towns_level";
 "type.historic" = "חפץ היסטורי";
 "type.historic.aircraft" = "מטוס היסטורי";
 "type.historic.anchor" = "עוגן היסטורי";
@@ -644,19 +642,6 @@
 "type.historic.wayside_cross" = "צלב בצד הדרך";
 "type.historic.wayside_shrine" = "מקדש בצד הדרך";
 "type.historic.wreck" = "ספינה טרופה";
-"type.hwtag" = "hwtag";
-"type.hwtag.bidir_bicycle" = "מסלול אופניים דו סיטרי";
-"type.hwtag.onedir_bicycle" = "מסלול אופניים חד סיטרי";
-"type.hwtag.lit" = "מואר";
-"type.hwtag.nobicycle" = "אין כניסה לאופניים";
-"type.hwtag.nocar" = "אין כניסה לכלי רכב";
-"type.hwtag.nofoot" = "אין כניסה להולכי רגל";
-"type.hwtag.oneway" = "חד סיטרי";
-"type.hwtag.private" = "פרטי";
-"type.hwtag.toll" = "אגרה";
-"type.hwtag.yesbicycle" = "הכניסה לאופניים מותרת";
-"type.hwtag.yescar" = "הכניסה לכלי רכב מותרת";
-"type.hwtag.yesfoot" = "הכניסה להולכי רגל מותרת";
 "type.internet_access" = "אינטרנט";
 "type.internet_access.wlan" = "אינטרנט אלחוטי";
 "type.junction" = "צומת";
@@ -773,8 +758,6 @@
 "type.man_made.water_well.drinking_water_no" = "באר מים";
 "type.man_made.windmill" = "טחנת רוח";
 "type.man_made.works" = "עבודות תעשיה";
-"type.mapswithme" = "MapsWithMe";
-"type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "צבאי";
 "type.military.bunker" = "בונקר צבאי";
 "type.mountain_pass" = "Mountain Pass";
@@ -901,11 +884,6 @@
 
 /* A single pole supporting various public utilities, such as lighting or telephony. */
 "type.man_made.utility_pole" = "Utility Pole";
-"type.psurface" = "משטח";
-"type.psurface.paved_bad" = "אספלט במצב גרוע";
-"type.psurface.paved_good" = "אספלט במצב טוב";
-"type.psurface.unpaved_bad" = "לא סלול במצב גרוע";
-"type.psurface.unpaved_good" = "לא סלול במצב טוב";
 "type.public_transport" = "תחבורה ציבורית";
 "type.public_transport.platform" = "רציף תחבורה";
 "type.railway" = "מסילת רכבת";
@@ -1207,7 +1185,6 @@
 "type.railway.tram_stop" = "Tram Stop";
 "type.route" = "Route";
 "type.route.ferry" = "Ferry";
-"type.route.shuttle_train" = "route-shuttle_train";
 "type.shop" = "Shop";
 "type.shop.alcohol" = "Liquor Shop";
 "type.shop.bakery" = "Bakery";

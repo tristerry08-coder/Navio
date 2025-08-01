@@ -2,5 +2,4 @@
 <resources>
     <string name="type.leisure.hackerspace">Hackerspace</string>
     <string name="type.man_made.silo">Silo</string>
-    <string name="type.mapswithme">MapsWithMe</string>
 </resources>

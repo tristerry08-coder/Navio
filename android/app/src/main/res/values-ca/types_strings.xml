@@ -963,5 +963,4 @@
     <string name="type.amenity.studio">Estudi</string>
     <string name="type.barrier.guard_rail">Barrera de seguretat</string>
     <string name="type.leisure.hackerspace">Hacklab</string>
-    <string name="type.mapswithme">MapsWithMe</string>
 </resources>

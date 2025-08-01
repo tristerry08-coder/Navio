@@ -596,8 +596,6 @@
 "type.area_highway.track" = "Οδός";
 "type.area_highway.trunk" = "Οδός";
 "type.area_highway.unclassified" = "Οδός";
-"type.highway.world_level" = "αυτοκινητόδρομος-κόσμος_επίπεδο";
-"type.highway.world_towns_level" = "highway-world_towns_level";
 "type.historic" = "Ιστορικό αντικείμενο";
 "type.historic.aircraft" = "Ιστορικό αεροσκάφος";
 "type.historic.anchor" = "Ιστορική Άγκυρα";
@@ -644,19 +642,6 @@
 "type.historic.wayside_cross" = "Σταυρός στην άκρη του δρόμου";
 "type.historic.wayside_shrine" = "Εικονοστάσιο στην άκρη του δρόμου";
 "type.historic.wreck" = "Ναυάγιο";
-"type.hwtag" = "hwtag";
-"type.hwtag.bidir_bicycle" = "hwtag-bidir_bicycle";
-"type.hwtag.onedir_bicycle" = "hwtag-onedir_bicycle";
-"type.hwtag.lit" = "hwtag-lit";
-"type.hwtag.nobicycle" = "hwtag-nobicycle";
-"type.hwtag.nocar" = "hwtag-nocar";
-"type.hwtag.nofoot" = "hwtag-nofoot";
-"type.hwtag.oneway" = "hwtag-oneway";
-"type.hwtag.private" = "hwtag-private";
-"type.hwtag.toll" = "hwtag-toll";
-"type.hwtag.yesbicycle" = "hwtag-yesbicycle";
-"type.hwtag.yescar" = "hwtag-yescar";
-"type.hwtag.yesfoot" = "hwtag-yesfoot";
 "type.internet_access" = "Ίντερνετ";
 "type.internet_access.wlan" = "Ίντερνετ";
 "type.junction" = "Junction";
@@ -773,8 +758,6 @@
 "type.man_made.water_well.drinking_water_no" = "Πηγάδι νερού";
 "type.man_made.windmill" = "Ανεμόμυλος";
 "type.man_made.works" = "Industrial Works";
-"type.mapswithme" = "MapsWithMe";
-"type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Military";
 "type.military.bunker" = "Στρατιωτική αποθήκη";
 "type.mountain_pass" = "Mountain Pass";
@@ -901,11 +884,6 @@
 
 /* A single pole supporting various public utilities, such as lighting or telephony. */
 "type.man_made.utility_pole" = "Πόλος κοινής ωφέλειας";
-"type.psurface" = "psurface";
-"type.psurface.paved_bad" = "psurface-paved_bad";
-"type.psurface.paved_good" = "psurface-paved_good";
-"type.psurface.unpaved_bad" = "psurface-unpaved_bad";
-"type.psurface.unpaved_good" = "psurface-unpaved_good";
 "type.public_transport" = "Public Transport";
 "type.public_transport.platform" = "Platform";
 "type.railway" = "Railway";
@@ -1207,7 +1185,6 @@
 "type.railway.tram_stop" = "Στάση τραμ";
 "type.route" = "Route";
 "type.route.ferry" = "Ferry";
-"type.route.shuttle_train" = "route-shuttle_train";
 "type.shop" = "Κατάστημα";
 "type.shop.alcohol" = "Κάβα";
 "type.shop.bakery" = "Αρτοποιείο";

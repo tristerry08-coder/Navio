@@ -665,5 +665,4 @@
     <string name="type.amenity.dojo">डोजो</string>
     <!-- https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall -->
     <string name="type.leisure.sports_hall">खेल हॉल</string>
-    <string name="type.mapswithme">MapsWithMe</string>
 </resources>

@@ -95,5 +95,4 @@
     <string name="type.addr_interpolation.even">Adresas / blokas</string>
     <string name="type.aerialway">Keltuvas</string>
     <string name="type.addr_interpolation.odd">Adresas / blokas</string>
-    <string name="type.mapswithme">MapsWithMe</string>
 </resources>

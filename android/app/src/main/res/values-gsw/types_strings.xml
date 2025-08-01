@@ -430,7 +430,6 @@
     <string name="type.area_highway.track">Forst-/Feldweg</string>
     <string name="type.area_highway.trunk">Autostrass</string>
     <string name="type.area_highway.unclassified">Näbestrass</string>
-    <string name="type.highway.world_level">highway-world_level</string>
     <string name="type.historic">Historischs Objekt</string>
     <string name="type.historic.aircraft">Historischs Flugzüüg</string>
     <string name="type.historic.anchor">Historische Anker</string>
@@ -469,18 +468,6 @@
     <string name="type.historic.wayside_cross">Wegchrüz</string>
     <string name="type.historic.wayside_shrine">Wegkapelle</string>
     <string name="type.historic.wreck">Schiffswrack</string>
-    <string name="type.hwtag">hwtag</string>
-    <string name="type.hwtag.bidir_bicycle">hwtag-bidir_bicycle</string>
-    <string name="type.hwtag.onedir_bicycle">hwtag-onedir_bicycle</string>
-    <string name="type.hwtag.lit">hwtag-lit</string>
-    <string name="type.hwtag.nobicycle">hwtag-nobicycle</string>
-    <string name="type.hwtag.nocar">hwtag-nocar</string>
-    <string name="type.hwtag.nofoot">hwtag-nofoot</string>
-    <string name="type.hwtag.oneway">hwtag-oneway</string>
-    <string name="type.hwtag.private">hwtag-private</string>
-    <string name="type.hwtag.toll">hwtag-toll</string>
-    <string name="type.hwtag.yesbicycle">hwtag-yesbicycle</string>
-    <string name="type.hwtag.yescar">hwtag-yescar</string>
     <string name="type.internet_access">Internet</string>
     <string name="type.internet_access.wlan">Internet</string>
     <string name="type.junction">Chrüzig</string>
@@ -576,8 +563,6 @@
     <string name="type.man_made.water_well.drinking_water_no">Brunne</string>
     <string name="type.man_made.windmill">Windmühli</string>
     <string name="type.man_made.works">Fabrik</string>
-    <string name="type.mapswithme">MapsWithMe</string>
-    <string name="type.mapswithme.grid">mapswithme-grid</string>
     <string name="type.military">Militärischs Objekt</string>
     <string name="type.mountain_pass">Gebirgspass</string>
     <string name="type.natural">Natur</string>
@@ -678,11 +663,6 @@
     <string name="type.power.substation">Umspannwerch</string>
     <string name="type.power.tower">Hochspannigsmascht</string>
     <string name="type.power.pole">Strommascht</string>
-    <string name="type.psurface">psurface</string>
-    <string name="type.psurface.paved_bad">psurface-paved_bad</string>
-    <string name="type.psurface.paved_good">psurface-paved_good</string>
-    <string name="type.psurface.unpaved_bad">psurface-unpaved_bad</string>
-    <string name="type.psurface.unpaved_good">psurface-unpaved_good</string>
     <string name="type.public_transport">Öffentliche Verchehr</string>
     <string name="type.public_transport.platform">Plattform</string>
     <string name="type.railway">Isebahn</string>
@@ -822,7 +802,6 @@
     <string name="type.craft.gardener">Landschaftsgärtner</string>
     <string name="type.entrance.main">Hauptiigang</string>
     <string name="type.highway.steps.tunnel">Tunnel</string>
-    <string name="type.highway.world_towns_level">highway-world_towns_level</string>
     <string name="type.leisure.picnic_table">Picknicktisch</string>
     <string name="type.man_made.communications_tower">Funkturm</string>
     <string name="type.place.hamlet">Wiiler</string>
@@ -858,7 +837,6 @@
     <string name="type.railway.rail.highspeed">Höchgschwindigkeitsisebahn</string>
     <string name="type.area_highway.primary">Hauptstrass</string>
     <string name="type.man_made.cross">Chrüz</string>
-    <string name="type.hwtag.yesfoot">hwtag-yesfoot</string>
     <string name="type.leisure.swimming_pool">Schwümmbecki</string>
     <string name="type.man_made.survey_point">Vermessigspunkt</string>
     <string name="type.railway.funicular.bridge">Standseilbahnbrugg</string>
@@ -983,7 +961,6 @@
     <string name="type.railway.tram.tunnel">Tramtunnel</string>
     <string name="type.route">Route</string>
     <string name="type.route.ferry">Fähre</string>
-    <string name="type.route.shuttle_train">route-shuttle_train</string>
     <string name="type.shop">Gschäft</string>
     <string name="type.shop.alcohol">Spirituosegschäft</string>
     <string name="type.shop.bakery">Bäckerei</string>

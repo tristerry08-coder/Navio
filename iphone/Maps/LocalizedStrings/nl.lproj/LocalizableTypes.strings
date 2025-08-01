@@ -596,8 +596,6 @@
 "type.area_highway.track" = "Straat";
 "type.area_highway.trunk" = "Straat";
 "type.area_highway.unclassified" = "Straat";
-"type.highway.world_level" = "highway-world_level";
-"type.highway.world_towns_level" = "highway-world_towns_level";
 "type.historic" = "Historisch object";
 "type.historic.aircraft" = "Historische vliegtuigen";
 "type.historic.anchor" = "Historisch anker";
@@ -644,19 +642,6 @@
 "type.historic.wayside_cross" = "Wegkruis";
 "type.historic.wayside_shrine" = "Kruisbeeld";
 "type.historic.wreck" = "Schipbreuk";
-"type.hwtag" = "hwtag";
-"type.hwtag.bidir_bicycle" = "hwtag-bidir_bicycle";
-"type.hwtag.onedir_bicycle" = "hwtag-onedir_bicycle";
-"type.hwtag.lit" = "hwtag-lit";
-"type.hwtag.nobicycle" = "hwtag-nobicycle";
-"type.hwtag.nocar" = "hwtag-nocar";
-"type.hwtag.nofoot" = "hwtag-nofoot";
-"type.hwtag.oneway" = "hwtag-oneway";
-"type.hwtag.private" = "hwtag-private";
-"type.hwtag.toll" = "hwtag-toll";
-"type.hwtag.yesbicycle" = "hwtag-yesbicycle";
-"type.hwtag.yescar" = "hwtag-yescar";
-"type.hwtag.yesfoot" = "hwtag-yesfoot";
 "type.internet_access" = "Internet";
 "type.internet_access.wlan" = "Draadloos internet";
 "type.junction" = "Kruispunt";
@@ -773,8 +758,6 @@
 "type.man_made.water_well.drinking_water_no" = "Waterput";
 "type.man_made.windmill" = "Windmolen";
 "type.man_made.works" = "Fabriek";
-"type.mapswithme" = "MapsWithMe";
-"type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Militair";
 "type.military.bunker" = "Bunker";
 "type.mountain_pass" = "Bergpas";
@@ -901,11 +884,6 @@
 
 /* A single pole supporting various public utilities, such as lighting or telephony. */
 "type.man_made.utility_pole" = "Paal";
-"type.psurface" = "Wegdek";
-"type.psurface.paved_bad" = "Verhard";
-"type.psurface.paved_good" = "Verhard";
-"type.psurface.unpaved_bad" = "Onverhard";
-"type.psurface.unpaved_good" = "Onverhard";
 "type.public_transport" = "Openbaar vervoer";
 "type.public_transport.platform" = "Platform";
 "type.railway" = "Spoorweg";
@@ -1207,7 +1185,6 @@
 "type.railway.tram_stop" = "Tramhalte";
 "type.route" = "Route";
 "type.route.ferry" = "Veerboot";
-"type.route.shuttle_train" = "route-shuttle_train";
 "type.shop" = "Winkel";
 "type.shop.alcohol" = "Slijterij";
 "type.shop.bakery" = "Bakkerij";

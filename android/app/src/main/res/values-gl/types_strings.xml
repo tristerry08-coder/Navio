@@ -474,8 +474,6 @@
     <string name="type.area_highway.track">Pista</string>
     <string name="type.area_highway.trunk">Vía troncal</string>
     <string name="type.area_highway.unclassified">Estrada sen clasificar</string>
-    <string name="type.highway.world_level">highway-world_level</string>
-    <string name="type.highway.world_towns_level">highway-world_towns_level</string>
     <string name="type.historic">Obxecto histórico</string>
     <string name="type.historic.aircraft">Avión histórico</string>
     <string name="type.historic.anchor">Ancora histórica</string>
@@ -518,19 +516,6 @@
     <string name="type.historic.wayside_cross">Cruz de termo</string>
     <string name="type.historic.wayside_shrine">Peto de ánimas</string>
     <string name="type.historic.wreck">Naufraxio</string>
-    <string name="type.hwtag">hwtag</string>
-    <string name="type.hwtag.bidir_bicycle">hwtag-bidir_bicycle</string>
-    <string name="type.hwtag.onedir_bicycle">hwtag-onedir_bicycle</string>
-    <string name="type.hwtag.lit">hwtag-lit</string>
-    <string name="type.hwtag.nobicycle">hwtag-nobicycle</string>
-    <string name="type.hwtag.nocar">hwtag-nocar</string>
-    <string name="type.hwtag.nofoot">hwtag-nofoot</string>
-    <string name="type.hwtag.oneway">hwtag-oneway</string>
-    <string name="type.hwtag.private">hwtag-private</string>
-    <string name="type.hwtag.toll">hwtag-toll</string>
-    <string name="type.hwtag.yesbicycle">hwtag-yesbicycle</string>
-    <string name="type.hwtag.yescar">hwtag-yescar</string>
-    <string name="type.hwtag.yesfoot">hwtag-yesfoot</string>
     <string name="type.internet_access">Internet</string>
     <string name="type.internet_access.wlan">Internet</string>
     <string name="type.junction">Cruce</string>
@@ -633,8 +618,6 @@
     <string name="type.man_made.water_well.drinking_water_no">Pozo</string>
     <string name="type.man_made.windmill">Muíño</string>
     <string name="type.man_made.works">Fábrica</string>
-    <string name="type.mapswithme">MapsWithMe</string>
-    <string name="type.mapswithme.grid">mapswithme-grid</string>
     <string name="type.military">Militar</string>
     <string name="type.military.bunker">Búnker</string>
     <string name="type.mountain_pass">Porto de montaña</string>
@@ -743,11 +726,6 @@
     <string name="type.power.tower">Torre eléctrica</string>
     <string name="type.power.pole">Poste eléctrico</string>
     <string name="type.man_made.utility_pole">Poste</string>
-    <string name="type.psurface">psurface</string>
-    <string name="type.psurface.paved_bad">psurface-paved_bad</string>
-    <string name="type.psurface.paved_good">psurface-paved_good</string>
-    <string name="type.psurface.unpaved_bad">psurface-unpaved_bad</string>
-    <string name="type.psurface.unpaved_good">psurface-unpaved_good</string>
     <string name="type.public_transport">Transporte público</string>
     <string name="type.railway.abandoned">Vía férrea abandonada</string>
     <string name="type.railway.abandoned.bridge">Puente ferroviario abandonado</string>
@@ -1039,7 +1017,6 @@
     <string name="type.railway.tram_stop">Parada de tranvía</string>
     <string name="type.route">Roteiro</string>
     <string name="type.route.ferry">Roteiro de ferry</string>
-    <string name="type.route.shuttle_train">route-lanzadeira_train</string>
     <string name="type.shop">Tenda</string>
     <string name="type.shop.alcohol">Licorería</string>
     <string name="type.shop.bakery">Panadería</string>

@@ -57,5 +57,4 @@
     <string name="type.highway.busway.tunnel">Tunelis</string>
     <string name="type.aeroway.aerodrome.international">Starptautiskā lidosta</string>
     <string name="type.highway.bus_stop">Pietura</string>
-    <string name="type.mapswithme">MapsWithMe</string>
 </resources>

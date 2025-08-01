@@ -784,7 +784,6 @@
     <string name="type.power.substation">Sottostazione elettrica</string>
     <!-- A tower or pylon carrying high voltage electricity cables. -->
     <string name="type.power.tower">Pilone elettrico</string>
-    <string name="type.psurface">Superficie</string>
     <string name="type.public_transport">Trasporto pubblico</string>
     <string name="type.railway">Ferrovia</string>
     <string name="type.railway.abandoned">Ferrovia abbandonata</string>
@@ -1338,8 +1337,6 @@
     <string name="type.man_made.cairn">Tumulo</string>
     <string name="type.railway.funicular.tunnel">Galleria funicolare</string>
     <string name="type.leisure.hackerspace">Hackerspace</string>
-    <string name="type.mapswithme">MapsWithMe</string>
-    <string name="type.mapswithme.grid">mapswithme-grid</string>
     <string name="type.internet_access.wlan">Internet</string>
     <string name="type.leisure.recreation_ground">Area divertimento</string>
     <string name="type.railway.subway.bridge">Ponte della metropolitana</string>
@@ -1370,30 +1367,10 @@
     <string name="type.piste_type.downhill.freeride">Pista da sci fuoripista</string>
     <string name="type.amenity.shelter.lean_to">Riparo a capanna</string>
     <string name="type.aerialway.j.bar">Sciovia ad ancora a J</string>
-    <string name="type.hwtag.bidir_bicycle">hwtag-bidir_bicycle</string>
     <string name="type.leisure.firepit">Braciere</string>
-    <string name="type.route.shuttle_train">route-shuttle_train</string>
-    <string name="type.highway.world_level">highway-world_level</string>
-    <string name="type.hwtag">hwtag</string>
-    <string name="type.hwtag.yescar">hwtag-yescar</string>
     <string name="type.amenity.studio">Studio</string>
-    <string name="type.highway.world_towns_level">highway-world_towns_level</string>
-    <string name="type.hwtag.onedir_bicycle">hwtag-onedir_bicycle</string>
-    <string name="type.hwtag.lit">hwtag-lit</string>
-    <string name="type.hwtag.nobicycle">hwtag-nobicycle</string>
-    <string name="type.hwtag.nocar">hwtag-nocar</string>
-    <string name="type.hwtag.nofoot">hwtag-nofoot</string>
-    <string name="type.hwtag.oneway">hwtag-oneway</string>
-    <string name="type.hwtag.private">hwtag-private</string>
-    <string name="type.hwtag.toll">hwtag-toll</string>
-    <string name="type.hwtag.yesbicycle">hwtag-yesbicycle</string>
-    <string name="type.hwtag.yesfoot">hwtag-yesfoot</string>
     <string name="type.landuse.plant_nursery">Vivaio</string>
     <string name="type.man_made.cutline">Cutline</string>
-    <string name="type.psurface.paved_bad">psurface-paved_bad</string>
-    <string name="type.psurface.paved_good">psurface-paved_good</string>
-    <string name="type.psurface.unpaved_bad">psurface-unpaved_bad</string>
-    <string name="type.psurface.unpaved_good">psurface-unpaved_good</string>
     <string name="type.amenity.love_hotel">Love hotel</string>
     <string name="type.highway.ladder">Scala a pioli</string>
     <string name="type.sport.diving">Tuffi dalle grandi altezze</string>

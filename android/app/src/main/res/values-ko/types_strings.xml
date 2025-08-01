@@ -1187,5 +1187,4 @@
     <string name="type.railway.subway.tunnel">지하철 노선 교량</string>
     <string name="type.railway.station.subway.qingdao">전철역</string>
     <string name="type.man_made.silo">저장탑</string>
-    <string name="type.mapswithme">MapsWithMe</string>
 </resources>

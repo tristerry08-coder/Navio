@@ -596,8 +596,6 @@
 "type.area_highway.track" = "土路";
 "type.area_highway.trunk" = "主幹道";
 "type.area_highway.unclassified" = "道路";
-"type.highway.world_level" = "高速公路—世界級";
-"type.highway.world_towns_level" = "高速公路—鎮級";
 "type.historic" = "歷史地點";
 "type.historic.aircraft" = "歷史悠久的飛機";
 "type.historic.anchor" = "歷史錨";
@@ -644,18 +642,6 @@
 "type.historic.wayside_cross" = "路旁十字架";
 "type.historic.wayside_shrine" = "路旁神龕";
 "type.historic.wreck" = "沉船";
-"type.hwtag.bidir_bicycle" = "雙向自行車道標籤";
-"type.hwtag.onedir_bicycle" = "單向自行車道標籤";
-"type.hwtag.lit" = "照明設備標籤";
-"type.hwtag.nobicycle" = "禁止自行車標籤";
-"type.hwtag.nocar" = "禁止汽車標籤";
-"type.hwtag.nofoot" = "禁止行人標籤";
-"type.hwtag.oneway" = "單行道標籤";
-"type.hwtag.private" = "私人道路標籤";
-"type.hwtag.toll" = "收費道路標籤";
-"type.hwtag.yesbicycle" = "允許自行車標籤";
-"type.hwtag.yescar" = "允許汽車標籤";
-"type.hwtag.yesfoot" = "允許行人標籤";
 "type.internet_access" = "互聯網";
 "type.internet_access.wlan" = "無線網路";
 "type.junction" = "交叉口";
@@ -772,8 +758,6 @@
 "type.man_made.water_well.drinking_water_no" = "水井";
 "type.man_made.windmill" = "風車";
 "type.man_made.works" = "工廠";
-"type.mapswithme" = "MapsWithMe";
-"type.mapswithme.grid" = "mapswithme-網格";
 "type.military" = "軍事";
 "type.military.bunker" = "地堡";
 "type.mountain_pass" = "Mountain Pass";
@@ -900,11 +884,6 @@
 
 /* A single pole supporting various public utilities, such as lighting or telephony. */
 "type.man_made.utility_pole" = "公共設施桿";
-"type.psurface" = "路面";
-"type.psurface.paved_bad" = "鋪築路面—較差";
-"type.psurface.paved_good" = "鋪築路面—良好";
-"type.psurface.unpaved_bad" = "未鋪築路面—較差";
-"type.psurface.unpaved_good" = "未鋪築路面—良好";
 "type.public_transport" = "大眾運輸元素";
 "type.public_transport.platform" = "大眾運輸月台";
 "type.railway" = "鐵路元素";
@@ -1206,7 +1185,6 @@
 "type.railway.tram_stop" = "電車站";
 "type.route" = "路線";
 "type.route.ferry" = "航線";
-"type.route.shuttle_train" = "巡迴列車";
 "type.shop" = "購物";
 "type.shop.alcohol" = "烈酒";
 "type.shop.bakery" = "麵包店";
@@ -1490,7 +1468,6 @@
 "type.leisure.firepit" = "營火場";
 "type.sport.diving" = "高台跳水";
 "type.man_made.crane" = "起重機";
-"type.hwtag" = "交通屬性標籤";
 "type.railway.station.subway.qingdao" = "地鐵站";
 "type.natural.wetland.tidalflat" = "潮間帶";
 "type.natural.wetland.swamp" = "沼澤";

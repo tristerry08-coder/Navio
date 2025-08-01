@@ -1163,6 +1163,5 @@
     <string name="type.amenity.dojo">Dojo</string>
     <!-- https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall -->
     <string name="type.leisure.sports_hall">Sală de sport</string>
-    <string name="type.mapswithme">MapsWithMe</string>
     <string name="type.man_made.silo">Siloz</string>
 </resources>

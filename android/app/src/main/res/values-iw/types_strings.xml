@@ -579,18 +579,6 @@
     <string name="type.historic.wayside_cross">צלב בצד הדרך</string>
     <string name="type.historic.wayside_shrine">מקדש בצד הדרך</string>
     <string name="type.historic.wreck">ספינה טרופה</string>
-    <string name="type.hwtag.bidir_bicycle">מסלול אופניים דו סיטרי</string>
-    <string name="type.hwtag.onedir_bicycle">מסלול אופניים חד סיטרי</string>
-    <string name="type.hwtag.lit">מואר</string>
-    <string name="type.hwtag.nobicycle">אין כניסה לאופניים</string>
-    <string name="type.hwtag.nocar">אין כניסה לכלי רכב</string>
-    <string name="type.hwtag.nofoot">אין כניסה להולכי רגל</string>
-    <string name="type.hwtag.oneway">חד סיטרי</string>
-    <string name="type.hwtag.private">פרטי</string>
-    <string name="type.hwtag.toll">אגרה</string>
-    <string name="type.hwtag.yesbicycle">הכניסה לאופניים מותרת</string>
-    <string name="type.hwtag.yescar">הכניסה לכלי רכב מותרת</string>
-    <string name="type.hwtag.yesfoot">הכניסה להולכי רגל מותרת</string>
     <string name="type.internet_access">אינטרנט</string>
     <string name="type.internet_access.wlan">אינטרנט אלחוטי</string>
     <string name="type.junction">צומת</string>
@@ -807,11 +795,6 @@
     <string name="type.power.substation">תחנת כוח משנית</string>
     <!-- A tower or pylon carrying high voltage electricity cables. -->
     <string name="type.power.tower">מגדל קירור</string>
-    <string name="type.psurface">משטח</string>
-    <string name="type.psurface.paved_bad">אספלט במצב גרוע</string>
-    <string name="type.psurface.paved_good">אספלט במצב טוב</string>
-    <string name="type.psurface.unpaved_bad">לא סלול במצב גרוע</string>
-    <string name="type.psurface.unpaved_good">לא סלול במצב טוב</string>
     <string name="type.public_transport">תחבורה ציבורית</string>
     <string name="type.public_transport.platform">רציף תחבורה</string>
     <string name="type.railway">מסילת רכבת</string>
@@ -1056,5 +1039,4 @@
     <string name="type.amenity.dojo">דוג\'ו</string>
     <!-- https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall -->
     <string name="type.leisure.sports_hall">אולם ספורט</string>
-    <string name="type.mapswithme">MapsWithMe</string>
 </resources>

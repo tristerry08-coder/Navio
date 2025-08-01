@@ -1320,5 +1320,4 @@
     <string name="type.amenity.dojo">Dojo</string>
     <!-- https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall -->
     <string name="type.leisure.sports_hall">Športová hala</string>
-    <string name="type.mapswithme">MapsWithMe</string>
 </resources>

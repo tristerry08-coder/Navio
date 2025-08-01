@@ -1091,6 +1091,5 @@
     <!-- https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall -->
     <string name="type.leisure.sports_hall">سالن ورزشی</string>
     <string name="type.man_made.silo">سیلو</string>
-    <string name="type.mapswithme">MapsWithMe</string>
     <string name="type.man_made.storage_tank">مخازن سیال</string>
 </resources>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="type.mapswithme">MapsWithMe</string>
     <string name="type.addr_interpolation">ঠিকানা/ব্লক</string>
 </resources>

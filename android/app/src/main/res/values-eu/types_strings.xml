@@ -1241,7 +1241,6 @@
     <string name="type.highway.bridleway.permissive">Zaldi-bidea</string>
     <string name="type.amenity.bicycle_repair_station">Bizikleta konponketa gunea</string>
     <string name="type.highway.services">Zerbitzugunea</string>
-    <string name="type.highway.world_level">Mundu mailako errepidea</string>
     <string name="type.internet_access.wlan">Wi-Fia</string>
     <string name="type.junction">Bidegurutzea</string>
     <string name="type.landuse.allotments">Baratze komunitatea</string>
@@ -1271,7 +1270,6 @@
     <string name="type.landuse.garages">Garajeak</string>
     <string name="type.railway.narrow_gauge.bridge">Zabalera estuko trenbide-zubia</string>
     <string name="type.landuse">Lurzoruaren erabilera</string>
-    <string name="type.highway.world_towns_level">Herri mailako errepidea</string>
     <string name="type.landuse.commercial">Komertzial-gunea</string>
     <string name="type.landuse.military">Militar-gunea</string>
     <string name="type.leisure.recreation_ground">Parkea</string>
@@ -1339,13 +1337,11 @@
     <string name="type.tourism.zoo">Zoo</string>
     <string name="type.railway.tram">Tranbia bidea</string>
     <string name="type.man_made.survey_point">Markatze-puntua</string>
-    <string name="type.mapswithme">MapsWithMe</string>
     <string name="type.man_made">Artifiziala</string>
     <string name="type.amenity.love_hotel">Maitasun hotela</string>
     <string name="type.noexit">Irteerarik gabeko bidea</string>
     <string name="type.leisure.escape_game">Escape Room</string>
     <string name="type.landuse.religious">Eremu erlijiosoa</string>
-    <string name="type.mapswithme.grid">mapswithme-sareta</string>
     <string name="type.amenity.bicycle_parking.covered">Txirrinduen aparkaleku estalia</string>
     <string name="type.amenity.luggage_locker">Ekipaje-kontsigna</string>
     <string name="type.natural.wetland.saltmarsh">Gatz-padura</string>

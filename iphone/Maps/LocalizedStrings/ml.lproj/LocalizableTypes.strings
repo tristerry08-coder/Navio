@@ -1,4 +1,3 @@
-"type.mapswithme" = "MapsWithMe";
 "type.historic.memorial.war_memorial" = "War Memorial";
 "type.historic.wayside_cross" = "Wayside Cross";
 "type.historic.monument" = "Monument";
@@ -38,14 +37,6 @@
 "type.barrier.toll_booth" = "Toll Booth";
 "type.boundary.administrative" = "Administrative Boundary";
 "type.boundary.national_park" = "National Park";
-"type.hwtag.bidir_bicycle" = "hwtag-bidir_bicycle";
-"type.hwtag.lit" = "hwtag-lit";
-"type.hwtag.nocar" = "hwtag-nocar";
-"type.hwtag.nobicycle" = "hwtag-nobicycle";
-"type.hwtag.private" = "hwtag-private";
-"type.hwtag.oneway" = "hwtag-oneway";
-"type.hwtag.nofoot" = "hwtag-nofoot";
-"type.hwtag.toll" = "hwtag-toll";
 "type.junction.roundabout" = "Roundabout";
 "type.landuse.cemetery" = "Cemetery";
 "type.landuse.commercial" = "Commercial Area";
@@ -193,7 +184,6 @@
 "type.military" = "Military";
 "type.man_made.windmill" = "Windmill";
 "type.man_made.works" = "Industrial Works";
-"type.mapswithme.grid" = "mapswithme-grid";
 "type.natural.bay" = "Bay";
 "type.natural.shingle" = "Shingle";
 "type.natural.bare_rock" = "Bare Rock";
@@ -248,7 +238,6 @@
 "type.railway.station.subway.shanghai" = "Subway Station";
 "type.power.tower" = "Power Tower";
 "type.landuse.religious" = "Religious Land";
-"type.psurface" = "psurface";
 "type.railway.station.subway.almaty" = "Subway Station";
 "type.railway.station.subway.bangkok" = "Subway Station";
 "type.railway.station.subway.buenos_aires" = "Subway Station";
@@ -586,7 +575,6 @@
 "type.area_highway.residential" = "Residential Street";
 "type.amenity.post_box" = "Mailbox";
 "type.place.hamlet" = "Hamlet";
-"type.hwtag.onedir_bicycle" = "hwtag-onedir_bicycle";
 "type.addr_interpolation" = "വിലാസം/ബ്ലോക്ക്";
 "type.railway.subway_entrance.rotterdam" = "Subway Entrance";
 "type.man_made.water_tap" = "Water Tap";
@@ -606,7 +594,6 @@
 "type.amenity.bench" = "Bench";
 "type.highway.secondary" = "Secondary Road";
 "type.aerialway.station" = "Aerialway Station";
-"type.hwtag.yesfoot" = "hwtag-yesfoot";
 "type.highway.tertiary_link" = "Tertiary Road Ramp";
 "type.aeroway.apron" = "Apron";
 "type.railway.subway_entrance" = "Subway Entrance";
@@ -650,7 +637,6 @@
 "type.amenity.veterinary" = "Veterinary Doctor";
 "type.shop.rental" = "Rental Shop";
 "type.historic.castle" = "Castle";
-"type.hwtag.yescar" = "hwtag-yescar";
 "type.leisure.slipway" = "Slipway";
 "type.railway.station.subway.philadelphia" = "Subway Station";
 "type.landuse.greenfield" = "Greenfield";
@@ -672,7 +658,6 @@
 "type.building_part" = "Building";
 "type.highway.pedestrian.tunnel" = "Pedestrian Tunnel";
 "type.amenity.parking_entrance" = "Parking Entrance";
-"type.psurface.unpaved_good" = "psurface-unpaved_good";
 "type.amenity.loading_dock" = "Loading Dock";
 "type.railway.subway_entrance.ankara" = "Subway Entrance";
 "type.railway.subway_entrance.minsk" = "Subway Entrance";
@@ -688,7 +673,6 @@
 "type.office.company" = "Company Office";
 "type.highway.path.expert" = "Expert or Indiscernible Trail";
 "type.cuisine.indonesian" = "Indonesian";
-"type.hwtag" = "hwtag";
 "type.amenity.place_of_worship.christian.jehovahs_witness" = "Jehovah's Witnesses Kingdom Hall";
 "type.craft.winery" = "Winery";
 "type.man_made.flare" = "Gas Flare";
@@ -729,7 +713,6 @@
 "type.man_made.cutline" = "Cutline";
 "type.shop.craft" = "Craft Supplies Store";
 "type.cuisine.malagasy" = "Malagasy";
-"type.psurface.unpaved_bad" = "psurface-unpaved_bad";
 "type.railway.subway_entrance.catania" = "Subway Entrance";
 "type.amenity.exhibition_centre" = "Exhibition Center";
 "type.sport.gymnastics" = "Gymnastics";
@@ -828,7 +811,6 @@
 "type.historic.castle.manor" = "Manor House";
 "type.highway.trunk.bridge" = "Bridge";
 "type.cuisine.american" = "American";
-"type.psurface.paved_good" = "psurface-paved_good";
 "type.cuisine.beef_bowl" = "Beef Bowl";
 "type.tourism.motel" = "Motel";
 "type.railway.rail.utility" = "Utility Railway";
@@ -857,7 +839,6 @@
 "type.barrier.retaining_wall" = "Retaining Wall";
 "type.railway.subway_entrance.bangkok" = "Subway Entrance";
 "type.amenity.charging_station" = "Charging Station";
-"type.highway.world_level" = "highway-world_level";
 "type.piste_type.downhill.easy.area" = "Easy Downhill Ski Run";
 "type.landuse.forest" = "Forest";
 "type.leisure.track" = "Track";
@@ -900,7 +881,6 @@
 "type.historic.castle.kremlin" = "Kremlin";
 "type.railway.station.light_rail.berlin" = "S-Bahn Station";
 "type.public_transport.platform" = "Platform";
-"type.highway.world_towns_level" = "highway-world_towns_level";
 "type.natural.geyser" = "Geyser";
 "type.waterway.stream.ephemeral" = "Ephemeral Stream";
 "type.amenity.bbq" = "Barbecue Grill";
@@ -929,7 +909,6 @@
 "type.shop.bed" = "Bed Shop";
 "type.tourism.museum" = "Museum";
 "type.amenity.parcel_locker" = "Parcel Locker";
-"type.hwtag.yesbicycle" = "hwtag-yesbicycle";
 "type.historic.pillory" = "Pillory";
 "type.barrier.block" = "Block";
 "type.man_made.tower" = "Tower";
@@ -989,7 +968,6 @@
 "type.emergency.fire_hydrant" = "Fire Hydrant";
 "type.power.generator.wind" = "Wind Generator";
 "type.shop.toys" = "Toy Store";
-"type.route.shuttle_train" = "route-shuttle_train";
 "type.man_made.pipeline" = "Pipeline";
 "type.railway.station.subway.yerevan" = "Subway Station";
 "type.highway.motorway" = "Motorway";
@@ -1241,7 +1219,6 @@
 "type.healthcare.optometrist" = "Optometrist";
 "type.power.generator.hydro" = "Hydroelectric Power Plant";
 "type.railway.rail.highspeed.tunnel" = "Railway Tunnel";
-"type.psurface.paved_bad" = "psurface-paved_bad";
 "type.cuisine.oriental" = "East Asian";
 "type.aeroway.aerodrome" = "Airport";
 "type.natural.orchard" = "Orchard";

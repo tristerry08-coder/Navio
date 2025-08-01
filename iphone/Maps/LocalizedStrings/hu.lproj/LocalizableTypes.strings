@@ -634,9 +634,6 @@
 "type.historic.wayside_cross" = "Útmenti kereszt";
 "type.historic.wayside_shrine" = "Útmenti kegyhely";
 "type.historic.wreck" = "Hajóroncs";
-"type.hwtag.oneway" = "egyirányú";
-"type.hwtag.private" = "magán";
-"type.hwtag.toll" = "útdíjjas";
 "type.internet_access" = "Internetcsatlakozás";
 "type.internet_access.wlan" = "Internetcsatlakozás";
 "type.junction" = "Kereszteződés";
@@ -877,11 +874,6 @@
 
 /* A single pole supporting various public utilities, such as lighting or telephony. */
 "type.man_made.utility_pole" = "Közműoszlop";
-"type.psurface" = "felület";
-"type.psurface.paved_bad" = "felület-burkolt_rossz";
-"type.psurface.paved_good" = "felület-burkolt_jó";
-"type.psurface.unpaved_bad" = "felület-burkolatlan_rossz";
-"type.psurface.unpaved_good" = "felület-burkolatlan_jó";
 "type.public_transport" = "Közösségi közlekedés";
 "type.public_transport.platform" = "Peron";
 "type.railway" = "Vasút";
@@ -1183,7 +1175,6 @@
 "type.railway.tram_stop" = "Villamosmegálló";
 "type.route" = "Útvonal";
 "type.route.ferry" = "Komp";
-"type.route.shuttle_train" = "útvonal-ingajáratú_vonat";
 "type.shop" = "Bolt";
 "type.shop.alcohol" = "Szeszesitalbolt";
 "type.shop.bakery" = "Pékség";
@@ -1465,20 +1456,6 @@
 "type.boundary.administrative.4" = "Regionális határ";
 "type.leisure.marina" = "Kishajókikötő";
 "type.man_made.cairn" = "Kőhalom (mesterséges)";
-"type.highway.world_level" = "út-világszint";
-"type.highway.world_towns_level" = "út-világvárosok szint";
-"type.hwtag" = "útcímke";
-"type.hwtag.bidir_bicycle" = "útcímke-kétirányú_kerékpárút";
-"type.hwtag.lit" = "útcímke-megvilágítás";
-"type.hwtag.onedir_bicycle" = "útcímke-egyirányú_kerékpárút";
-"type.hwtag.nofoot" = "útcímke-gyalogosan_nem_használható";
-"type.hwtag.yesbicycle" = "útcímke-kerékpárral_használható";
-"type.hwtag.yescar" = "útcímke-személyautóval_használható";
-"type.mapswithme" = "MapsWithMe";
-"type.hwtag.nobicycle" = "útcímke-kerékpárral_nem_használható";
-"type.mapswithme.grid" = "mapswithme-rács";
-"type.hwtag.nocar" = "útcímke-személyautóval_nem_használható";
-"type.hwtag.yesfoot" = "útcímke-gyalogosan_használható";
 "type.barrier.guard_rail" = "Guard Rail";
 "type.highway.ladder" = "Ladder";
 "type.landuse.plant_nursery" = "Plant Nursery";

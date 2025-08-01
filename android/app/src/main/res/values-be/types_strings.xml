@@ -623,6 +623,4 @@
     <string name="type.amenity.dojo">Додзе</string>
     <!-- https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall -->
     <string name="type.leisure.sports_hall">Спартыўная зала</string>
-    <string name="type.mapswithme.grid">mapswithme-grid</string>
-    <string name="type.mapswithme">MapsWithMe</string>
 </resources>

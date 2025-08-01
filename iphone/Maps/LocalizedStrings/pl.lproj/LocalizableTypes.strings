@@ -596,8 +596,6 @@
 "type.area_highway.track" = "Droga na pola lub do lasu";
 "type.area_highway.trunk" = "Ulica";
 "type.area_highway.unclassified" = "Ulica";
-"type.highway.world_level" = "highway-world_level";
-"type.highway.world_towns_level" = "highway-world_towns_level";
 "type.historic" = "Obiekt historyczny";
 "type.historic.aircraft" = "Historyczny samolot";
 "type.historic.anchor" = "Historyczna kotwica";
@@ -644,19 +642,6 @@
 "type.historic.wayside_cross" = "Krzyż przydrożny";
 "type.historic.wayside_shrine" = "Kapliczka przydrożna";
 "type.historic.wreck" = "Wrak statku";
-"type.hwtag" = "hwtag";
-"type.hwtag.bidir_bicycle" = "hwtag-bidir_bicycle";
-"type.hwtag.onedir_bicycle" = "hwtag-onedir_bicycle";
-"type.hwtag.lit" = "hwtag-lit";
-"type.hwtag.nobicycle" = "hwtag-nobicycle";
-"type.hwtag.nocar" = "hwtag-nocar";
-"type.hwtag.nofoot" = "hwtag-nofoot";
-"type.hwtag.oneway" = "hwtag-oneway";
-"type.hwtag.private" = "hwtag-private";
-"type.hwtag.toll" = "hwtag-toll";
-"type.hwtag.yesbicycle" = "hwtag-yesbicycle";
-"type.hwtag.yescar" = "hwtag-yescar";
-"type.hwtag.yesfoot" = "hwtag-yesfoot";
 "type.internet_access" = "Internet";
 "type.internet_access.wlan" = "Internet";
 "type.junction" = "Skrzyżowanie";
@@ -773,8 +758,6 @@
 "type.man_made.water_well.drinking_water_no" = "Studnia";
 "type.man_made.windmill" = "Młyn wiatrowy";
 "type.man_made.works" = "Fabryka";
-"type.mapswithme" = "MapsWithMe";
-"type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Wojskowe";
 "type.military.bunker" = "Bunkier";
 "type.mountain_pass" = "Przełęcz górska";
@@ -901,11 +884,6 @@
 
 /* A single pole supporting various public utilities, such as lighting or telephony. */
 "type.man_made.utility_pole" = "Słup użytkowy";
-"type.psurface" = "psurface";
-"type.psurface.paved_bad" = "psurface-paved_bad";
-"type.psurface.paved_good" = "psurface-paved_good";
-"type.psurface.unpaved_bad" = "psurface-unpaved_bad";
-"type.psurface.unpaved_good" = "psurface-unpaved_good";
 "type.public_transport" = "Transport publiczny";
 "type.public_transport.platform" = "Przystanek transportu publicznego";
 "type.railway" = "Kolej";
@@ -1207,7 +1185,6 @@
 "type.railway.tram_stop" = "Przystanek tramwajowy";
 "type.route" = "Trasa";
 "type.route.ferry" = "Przeprawa promowa";
-"type.route.shuttle_train" = "route-shuttle_train";
 "type.shop" = "Sklep";
 "type.shop.alcohol" = "Sklep monopolowy";
 "type.shop.bakery" = "Piekarnia";

@@ -596,8 +596,6 @@
 "type.area_highway.track" = "ストリート";
 "type.area_highway.trunk" = "ストリート";
 "type.area_highway.unclassified" = "ストリート";
-"type.highway.world_level" = "高速道路（世界レベル）";
-"type.highway.world_towns_level" = "高速道路（町レベル）";
 "type.historic" = "史跡";
 "type.historic.aircraft" = "歴史的な航空機";
 "type.historic.anchor" = "歴史的なアンカー";
@@ -644,19 +642,6 @@
 "type.historic.wayside_cross" = "歴史的な十字架";
 "type.historic.wayside_shrine" = "歴史的な祠";
 "type.historic.wreck" = "難破船";
-"type.hwtag" = "交通特性タグ";
-"type.hwtag.bidir_bicycle" = "双方向の自転車レーンタグ";
-"type.hwtag.onedir_bicycle" = "一方通行の自転車レーンタグ";
-"type.hwtag.lit" = "道路照明タグ";
-"type.hwtag.nobicycle" = "自転車通行禁止タグ";
-"type.hwtag.nocar" = "自動車通行禁止タグ";
-"type.hwtag.nofoot" = "歩行者通行禁止タグ";
-"type.hwtag.oneway" = "一方通行の道路タグ";
-"type.hwtag.private" = "私道タグ";
-"type.hwtag.toll" = "有料道路タグ";
-"type.hwtag.yesbicycle" = "自転車通行許可タグ";
-"type.hwtag.yescar" = "自動車通行許可タグ";
-"type.hwtag.yesfoot" = "歩行者通行許可タグ";
 "type.internet_access" = "インターネット";
 "type.internet_access.wlan" = "インターネット";
 "type.junction" = "交差点";
@@ -773,8 +758,6 @@
 "type.man_made.water_well.drinking_water_no" = "井戸";
 "type.man_made.windmill" = "風車";
 "type.man_made.works" = "工場";
-"type.mapswithme" = "MapsWithMe";
-"type.mapswithme.grid" = "mapswithme-グリッド";
 "type.military" = "軍事";
 "type.military.bunker" = "掩蔽壕";
 "type.mountain_pass" = "峠";
@@ -901,11 +884,6 @@
 
 /* A single pole supporting various public utilities, such as lighting or telephony. */
 "type.man_made.utility_pole" = "ユーティリティポール";
-"type.psurface" = "路面";
-"type.psurface.paved_bad" = "舗装路面（悪い）";
-"type.psurface.paved_good" = "舗装路面（良い）";
-"type.psurface.unpaved_bad" = "未舗装路面（悪い）";
-"type.psurface.unpaved_good" = "未舗装路面（良い）";
 "type.public_transport" = "公共交通機関";
 "type.public_transport.platform" = "公共交通機関のプラットホーム";
 "type.railway" = "鉄道";
@@ -1207,7 +1185,6 @@
 "type.railway.tram_stop" = "トラム";
 "type.route" = "ルート";
 "type.route.ferry" = "フェリー航路";
-"type.route.shuttle_train" = "シャトル列車";
 "type.shop" = "買い物";
 "type.shop.alcohol" = "酒屋";
 "type.shop.bakery" = "パン屋";

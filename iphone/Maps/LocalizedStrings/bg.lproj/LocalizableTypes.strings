@@ -594,8 +594,6 @@
 "type.area_highway.track" = "Пътека";
 "type.area_highway.trunk" = "Автомагистрала";
 "type.area_highway.unclassified" = "Малък път";
-"type.highway.world_level" = "highway-world_level";
-"type.highway.world_towns_level" = "highway-world_towns_level";
 "type.historic" = "Исторически обект";
 "type.historic.aircraft" = "Исторически самолет";
 "type.historic.anchor" = "Историческа котва";
@@ -642,19 +640,6 @@
 "type.historic.wayside_cross" = "Крайпътен кръст";
 "type.historic.wayside_shrine" = "Крайпътно светилище";
 "type.historic.wreck" = "корабокрушение";
-"type.hwtag" = "hwtag";
-"type.hwtag.bidir_bicycle" = "hwtag-bidir_bicycle";
-"type.hwtag.onedir_bicycle" = "hwtag-onedir_bicycle";
-"type.hwtag.lit" = "hwtag-lit";
-"type.hwtag.nobicycle" = "hwtag-nobicycle";
-"type.hwtag.nocar" = "hwtag-nocar";
-"type.hwtag.nofoot" = "hwtag-nofoot";
-"type.hwtag.oneway" = "hwtag-oneway";
-"type.hwtag.private" = "hwtag-private";
-"type.hwtag.toll" = "hwtag-toll";
-"type.hwtag.yesbicycle" = "hwtag-yesbicycle";
-"type.hwtag.yescar" = "hwtag-yescar";
-"type.hwtag.yesfoot" = "hwtag-yesfoot";
 "type.internet_access" = "Internet";
 "type.internet_access.wlan" = "Internet";
 "type.junction" = "Съединение";
@@ -771,8 +756,6 @@
 "type.man_made.water_well.drinking_water_no" = "Кладенец";
 "type.man_made.windmill" = "Вятърна мелница";
 "type.man_made.works" = "Промишлени предприятия";
-"type.mapswithme" = "MapsWithMe";
-"type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Военни";
 "type.military.bunker" = "Бункер";
 "type.mountain_pass" = "Планински проход";
@@ -899,11 +882,6 @@
 
 /* A single pole supporting various public utilities, such as lighting or telephony. */
 "type.man_made.utility_pole" = "Стълб за комунални услуги";
-"type.psurface" = "psurface";
-"type.psurface.paved_bad" = "psurface-paved_bad";
-"type.psurface.paved_good" = "psurface-paved_good";
-"type.psurface.unpaved_bad" = "psurface-unpaved_bad";
-"type.psurface.unpaved_good" = "psurface-unpaved_good";
 "type.public_transport" = "Обществен транспорт";
 "type.public_transport.platform" = "Платформа";
 "type.railway" = "Железопътна линия";
@@ -1205,7 +1183,6 @@
 "type.railway.tram_stop" = "Трамвайна спирка";
 "type.route" = "Маршрут";
 "type.route.ferry" = "Ферибот";
-"type.route.shuttle_train" = "route-shuttle_train";
 "type.shop" = "Магазин";
 "type.shop.alcohol" = "Магазин за алкохол";
 "type.shop.bakery" = "Пекарна";

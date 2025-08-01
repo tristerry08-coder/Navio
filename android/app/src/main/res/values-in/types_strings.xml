@@ -1166,6 +1166,5 @@
     <!-- https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall -->
     <string name="type.leisure.sports_hall">Ruang olahraga</string>
     <string name="type.leisure.hackerspace">Hackerspace</string>
-    <string name="type.mapswithme">MapsWithMe</string>
     <string name="type.man_made.silo">Silo</string>
 </resources>
