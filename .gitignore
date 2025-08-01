@@ -27,7 +27,7 @@ data/edits.xml
 data/World.mwm
 data/WorldCoasts.mwm
 data/world_mwm/*
-data/_*_ver
+data/*_hash
 
 # Compiled Python
 *.pyc

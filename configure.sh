@@ -30,18 +30,15 @@ set -euo pipefail
 
 ###############################################################################
 
+pushd() { command pushd "$@" > /dev/null; }
+popd() { command popd "$@" > /dev/null; }
+
 Diff() {
-  local VER_PATH=$1
+  local HASH_PATH=$1
   shift
-  local GIT_DIFF="$(git diff "$@")"
-  local LAST_COMMIT=$(git log -n 1 --pretty=format:%H -- "$@")
-  if [ "$LAST_COMMIT" != "$(cat "$VER_PATH" 2>/dev/null)" ]; then
-    printf "$LAST_COMMIT" > "$VER_PATH"
-  else
-    false
-  fi
-  if [ "$GIT_DIFF" != "$(cat "$VER_PATH"1_ver 2>/dev/null)" ]; then
-    printf "$GIT_DIFF" > "$VER_PATH"1_ver
+  local HASH="$(md5sum "$@" | md5sum)"
+  if [ "$HASH" != "$(cat "$HASH_PATH" 2>/dev/null)" ]; then
+    printf "$HASH" > "$HASH_PATH"
   else
     false
   fi
@@ -58,8 +55,10 @@ if [ ! -d 3party/boost/boost ]; then
 fi
 
 if [ "$SKIP_MAP_DOWNLOAD" = false ]; then
-  MWM_VERSION=$(awk -F'[:,]' '/"v":/{ $2 = substr($2, 2); print $2 }' data/countries.txt)
-  MWM_PATH="data/world_mwm/$MWM_VERSION"
+  pushd data
+  
+  MWM_VERSION=$(awk -F'[:,]' '/"v":/{ $2 = substr($2, 2); print $2 }' countries.txt)
+  MWM_PATH="world_mwm/$MWM_VERSION"
   WORLD_PATH="$MWM_PATH/World.mwm"
   WORLD_PATH2="$MWM_PATH/WorldCoasts.mwm"
 
@@ -68,18 +67,20 @@ if [ "$SKIP_MAP_DOWNLOAD" = false ]; then
   if [ ! -f "$WORLD_PATH" ]; then
     echo "Downloading world map..."
     wget -N "https://cdn.comaps.app/maps/$MWM_VERSION/World.mwm" -P "$MWM_PATH" &&
-    rm data/World.mwm 2>/dev/null; ln -s "$WORLD_PATH" data/World.mwm
+    rm -f World.mwm; ln -s "$WORLD_PATH" World.mwm
   fi
   if [ ! -f "$WORLD_PATH2" ]; then
     wget -N "https://cdn.comaps.app/maps/$MWM_VERSION/WorldCoasts.mwm" -P "$MWM_PATH" &&
-    rm data/WorldCoasts.mwm 2>/dev/null; ln -s "$WORLD_PATH2" data/WorldCoasts.mwm
+    rm -f WorldCoasts.mwm; ln -s "$WORLD_PATH2" WorldCoasts.mwm
   fi
+  
+  popd
 else
   echo "Skipping world map download..."
 fi
 
 if [ "$SKIP_GENERATE_SYMBOLS" = false ]; then
-  if Diff data/_sym_ver data/styles/*/*/symbols; then
+  if Diff data/symbols_hash data/styles/*/*/symbols/*; then
     echo "Generating symbols..."
     bash ./tools/unix/generate_symbols.sh
   fi
