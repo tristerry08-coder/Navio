@@ -168,7 +168,7 @@
     <item name="android:homeAsUpIndicator">@drawable/ic_down</item>
   </style>
 
-  <style name="MwmWidget.ListView" parent="Widget.AppCompat.ListView">
+  <style name="MwmWidget.ListView" parent="android:Widget.Material.ListView">
     <item name="android:fadingEdge">none</item>
     <item name="android:divider">@color/divider</item>
     <item name="android:background">@null</item>
@@ -178,7 +178,7 @@
     <item name="android:cacheColorHint">@android:color/transparent</item>
   </style>
 
-  <style name="MwmWidget.TextView" parent="android:Widget.Material.TextView">
+  <style name="MwmWidget.TextView" parent="Widget.MaterialComponents.TextView">
     <item name="android:background">@android:color/transparent</item>
   </style>
 

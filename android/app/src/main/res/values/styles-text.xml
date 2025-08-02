@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <style name="MwmTextAppearance" parent="TextAppearance.AppCompat">
+  <style name="MwmTextAppearance" parent="android:TextAppearance.Material">
     <item name="android:fontFamily">@string/robotoRegular</item>
     <!-- Force normal textStyle. Some devices (eg Lenovo P70), uses non-normal textStyle by default. -->
     <item name="android:textStyle">normal</item>
@@ -31,7 +31,7 @@
     <item name="android:fontFamily">@string/robotoMedium</item>
   </style>
 
-  <style name="MwmTextAppearance.Body1" parent="TextAppearance.AppCompat.Large">
+  <style name="MwmTextAppearance.Body1" parent="TextAppearance.MaterialComponents.Headline6">
     <item name="android:textSize">@dimen/text_size_body_1</item>
     <item name="android:textColor">?android:textColorPrimary</item>
   </style>
@@ -40,11 +40,11 @@
     <item name="android:textColor">?android:textColorSecondary</item>
   </style>
 
-  <style name="MwmTextAppearance.Body1.Light" parent="TextAppearance.AppCompat.Large.Inverse">
+  <style name="MwmTextAppearance.Body1.Light" parent="TextAppearance.MaterialComponents.Headline6">
     <item name="android:textColor">?android:textColorPrimaryInverse</item>
   </style>
 
-  <style name="MwmTextAppearance.Body2" parent="TextAppearance.AppCompat.Medium">
+  <style name="MwmTextAppearance.Body2" parent="android:TextAppearance.Material.Medium">
     <item name="android:textSize">@dimen/text_size_body_2</item>
     <item name="android:textColor">?android:textColorSecondary</item>
   </style>
@@ -53,7 +53,7 @@
     <item name="android:textColor">?android:textColorPrimary</item>
   </style>
 
-  <style name="MwmTextAppearance.Body2.Light" parent="TextAppearance.AppCompat.Medium.Inverse">
+  <style name="MwmTextAppearance.Body2.Light" parent="android:TextAppearance.Material.Medium.Inverse">
     <item name="android:textSize">@dimen/text_size_body_2</item>
     <item name="android:textColor">?android:textColorPrimaryInverse</item>
   </style>
@@ -73,17 +73,17 @@
     <item name="android:textColor">?android:textColorPrimary</item>
   </style>
 
-  <style name="MwmTextAppearance.Body3.Light" parent="TextAppearance.AppCompat.Inverse">
+  <style name="MwmTextAppearance.Body3.Light" parent="android:TextAppearance.Material.Inverse">
     <item name="android:textSize">@dimen/text_size_body_3</item>
     <item name="android:textColor">?android:textColorPrimaryInverse</item>
   </style>
 
-  <style name="MwmTextAppearance.Body4" parent="TextAppearance.AppCompat.Small">
+  <style name="MwmTextAppearance.Body4" parent="TextAppearance.MaterialComponents.Subtitle2">
     <item name="android:textSize">@dimen/text_size_body_4</item>
     <item name="android:textColor">?android:textColorSecondary</item>
   </style>
 
-  <style name="MwmTextAppearance.Body4.Light" parent="TextAppearance.AppCompat.Small.Inverse">
+  <style name="MwmTextAppearance.Body4.Light" parent="TextAppearance.MaterialComponents.Subtitle2">
     <item name="android:textSize">@dimen/text_size_body_4</item>
     <item name="android:textColor">?android:textColorPrimaryInverse</item>
   </style>
@@ -112,7 +112,7 @@
     <item name="android:textColorHint">@color/text_light_hint</item>
   </style>
 
-  <style name="MwmTextAppearance.Toolbar.Title" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+  <style name="MwmTextAppearance.Toolbar.Title" parent="android:TextAppearance.Material.Widget.ActionBar.Title">
     <item name="android:textSize">@dimen/text_size_toolbar</item>
     <item name="android:textColor">@color/text_light</item>
     <item name="android:textColorHint">@color/text_light_hint</item>
