@@ -153,7 +153,7 @@
 "pref_tts_street_names_title" = "Strassenäme aakündige";
 "pref_tts_street_names_description" = "Wenn aktiviert, wird de Name vo de Strass oder Uusfahrt, wo abboge wird, luut aakündigt.";
 "pref_tts_language_title" = "Sprach für d Sprachfüehrig";
-"pref_tts_test_voice_title" = "Teste d Sprachaawisige (TTS, Text-To-Speech)";
+"pref_tts_test_voice_title" = "Test d Sprachaawisige";
 "pref_map_auto_zoom" = "Auto-Zoom";
 "placepage_distance" = "Entfernig";
 "search_show_on_map" = "Uf de Charte aaluege";

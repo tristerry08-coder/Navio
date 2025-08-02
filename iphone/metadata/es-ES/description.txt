@@ -15,11 +15,11 @@ Características principales:
 • Búsqueda por nombre, dirección o categoría de punto de interés
 • Navegación con anuncios de voz para caminar, andar en bicicleta o conducir
 • Guarda tus lugares favoritos con un solo toque
-• Sincronización con iCloud para tus marcadores y trayectos
+• Sincronización con iCloud para tus marcadores y trazas
 • Artículos de Wikipedia sin conexión
 • Capa de transporte público y direcciones
-• Grabación de trayectos
-• Exporta e importa marcadores y trayectos en formatos KML, KMZ y GPX
+• Grabación de trazas
+• Exporta e importa marcadores y trazas en formatos KML, KMZ y GPX
 • Modo oscuro para usar por la noche
 • Mejora los datos de los mapas para todos con un editor básico integrado
 • Compatibilidad con CarPlay

@@ -1,5 +1,5 @@
 "type.mapswithme" = "MapsWithMe";
-"type.addr_interpolation" = "Address/Block";
+"type.addr_interpolation" = "ঠিকানা/ব্লক";
 "type.aerialway.drag_lift" = "Drag Lift";
 "type.aeroway.helipad" = "Helipad";
 "type.amenity.bank" = "Bank";

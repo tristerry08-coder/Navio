@@ -266,23 +266,23 @@
 "type.craft.winery" = "Винарна";
 "type.craft.tailor" = "Шивач";
 "type.cuisine.african" = "Африканска";
-"type.cuisine.american" = "American";
-"type.cuisine.arab" = "Arab";
+"type.cuisine.american" = "Американска";
+"type.cuisine.arab" = "Арабска";
 "type.cuisine.argentinian" = "Аржентински";
 "type.cuisine.asian" = "Азиатски";
-"type.cuisine.austrian" = "Austrian";
+"type.cuisine.austrian" = "Австрийска";
 "type.cuisine.bagel" = "Геврек";
-"type.cuisine.balkan" = "Balkan";
+"type.cuisine.balkan" = "Балканска";
 "type.cuisine.barbecue" = "Барбекю";
-"type.cuisine.bavarian" = "Bavarian";
+"type.cuisine.bavarian" = "Баварска";
 "type.cuisine.beef_bowl" = "Купа с говеждо месо";
-"type.cuisine.brazilian" = "Brazilian";
+"type.cuisine.brazilian" = "Бразилска";
 "type.cuisine.breakfast" = "Закуска";
 "type.cuisine.bubble_tea" = "Бабъл чай";
 "type.cuisine.burger" = "Бургер";
 "type.cuisine.buschenschank" = "Бушеншанк";
 "type.cuisine.cake" = "Торта";
-"type.cuisine.caribbean" = "Caribbean";
+"type.cuisine.caribbean" = "Карибска";
 "type.cuisine.chicken" = "Пиле";
 "type.cuisine.chinese" = "Китайска";
 "type.cuisine.coffee_shop" = "Кафе";
@@ -328,20 +328,20 @@
 "type.cuisine.oriental" = "Източноазиатска";
 "type.cuisine.pancake" = "Палачинки";
 "type.cuisine.pasta" = "Паста";
-"type.cuisine.persian" = "Persian";
-"type.cuisine.peruvian" = "Peruvian";
+"type.cuisine.persian" = "Персийска";
+"type.cuisine.peruvian" = "Перуанска";
 "type.cuisine.pizza" = "Пица";
 "type.cuisine.polish" = "Полска";
 "type.cuisine.portuguese" = "Португалска";
 "type.cuisine.ramen" = "Рамен";
 "type.cuisine.regional" = "Регионална";
 "type.cuisine.russian" = "Руска";
-"type.cuisine.sandwich" = "Sandwich";
+"type.cuisine.sandwich" = "Сандвич";
 "type.cuisine.sausage" = "Колбаси";
 "type.cuisine.savory_pancakes" = "Пикантни палачинки";
 "type.cuisine.seafood" = "Морски дарове";
 "type.cuisine.soba" = "Соба";
-"type.cuisine.spanish" = "Spanish";
+"type.cuisine.spanish" = "Испанска";
 "type.cuisine.steak_house" = "Стекхаус";
 "type.cuisine.sushi" = "Суши";
 "type.cuisine.tapas" = "Тапас";
@@ -458,7 +458,7 @@
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.path.tunnel" = "Тунел";
 "type.highway.pedestrian" = "Пешеходна улица";
-"type.highway.pedestrian.area" = "Pedestrian Street";
+"type.highway.pedestrian.area" = "Пешеходна площад";
 
 /* These translations are used for all type.highway.*.bridge. */
 "type.highway.pedestrian.bridge" = "Мост";
@@ -472,7 +472,7 @@
 
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.primary.tunnel" = "Тунел";
-"type.highway.primary_link" = "Primary Road";
+"type.highway.primary_link" = "Изход от главния път";
 
 /* These translations are used for all type.highway.*.bridge. */
 "type.highway.primary_link.bridge" = "Мост";
@@ -506,7 +506,7 @@
 
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.secondary.tunnel" = "Тунел";
-"type.highway.secondary_link" = "Secondary Road";
+"type.highway.secondary_link" = "Изход от второстепенен път";
 
 /* These translations are used for all type.highway.*.bridge. */
 "type.highway.secondary_link.bridge" = "Мост";
@@ -519,7 +519,7 @@
 /* These translations are used for all type.highway.*.bridge. */
 "type.highway.service.bridge" = "Мост";
 "type.highway.service.driveway" = "Отбивка";
-"type.highway.service.parking_aisle" = "Service Road";
+"type.highway.service.parking_aisle" = "Паркинг алея";
 
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.service.tunnel" = "Тунел";
@@ -683,12 +683,12 @@
 "type.landuse.forest.deciduous" = "Широколистна гора";
 "type.landuse.forest.mixed" = "Смесена гора";
 "type.landuse.garages" = "Гаражи";
-"type.landuse.grass" = "Grass";
+"type.landuse.grass" = "Трева";
 "type.landuse.greenfield" = "Земля за застройки";
 "type.landuse.greenhouse_horticulture" = "Оранжерия";
 "type.landuse.industrial" = "Индустриална зона";
 "type.landuse.landfill" = "Депо за отпадъци";
-"type.landuse.meadow" = "Meadow";
+"type.landuse.meadow" = "Ливада";
 "type.landuse.military" = "Военна зона";
 "type.landuse.orchard" = "Овощна градина";
 "type.landuse.quarry" = "Кариера";
@@ -698,16 +698,16 @@
 "type.landuse.residential" = "Жилищна зона";
 "type.landuse.retail" = "Търговска площ";
 "type.landuse.salt_pond" = "Солено езеро";
-"type.landuse.village_green" = "Land";
-"type.landuse.vineyard" = "Vineyard";
+"type.landuse.village_green" = "Земя";
+"type.landuse.vineyard" = "Лозе";
 "type.leisure" = "Място за отдих";
-"type.leisure.common" = "Public Land";
+"type.leisure.common" = "Обществена земя";
 "type.leisure.dog_park" = "Парк за кучета";
 "type.leisure.fitness_centre" = "Фитнес център";
 "type.leisure.fitness_station" = "Фитнес станция";
 "type.leisure.dance" = "Зала за танци";
 "type.leisure.garden" = "Градина";
-"type.leisure.garden.residential" = "Garden";
+"type.leisure.garden.residential" = "Жилищен парк";
 "type.leisure.golf_course" = "Голф игрище";
 "type.leisure.miniature_golf" = "Миниголф";
 "type.leisure.hackerspace" = "Хакерспейс";
@@ -750,7 +750,7 @@
 "type.man_made.silo" = "Складова кула";
 "type.man_made.storage_tank" = "Резервоар за съхранение";
 "type.man_made.surveillance" = "Камера за наблюдение";
-"type.man_made.tower" = "Tower";
+"type.man_made.tower" = "Кула";
 
 /* A huge telecommunications tower. Often a local monument or a landmark. */
 "type.man_made.communications_tower" = "Комуникационна кула";
@@ -775,7 +775,7 @@
 "type.mapswithme.grid" = "mapswithme-grid";
 "type.military" = "Военни";
 "type.military.bunker" = "Бункер";
-"type.mountain_pass" = "Mountain Pass";
+"type.mountain_pass" = "Планински проход";
 "type.natural" = "Природа";
 
 /* A rocky land cover. */
@@ -826,7 +826,7 @@
 "type.natural.wetland.bog" = "Торфено блато";
 "type.natural.wetland.marsh" = "Блато";
 "type.noexit" = "Задънена улица";
-"type.office" = "Office";
+"type.office" = "Офис";
 "type.office.company" = "Офис на компанията";
 "type.office.estate_agent" = "Агент по недвижими имоти";
 "type.office.government" = "Правителствен офис";
@@ -904,8 +904,8 @@
 "type.psurface.paved_good" = "psurface-paved_good";
 "type.psurface.unpaved_bad" = "psurface-unpaved_bad";
 "type.psurface.unpaved_good" = "psurface-unpaved_good";
-"type.public_transport" = "Public Transport";
-"type.public_transport.platform" = "Platform";
+"type.public_transport" = "Обществен транспорт";
+"type.public_transport.platform" = "Платформа";
 "type.railway" = "Железопътна линия";
 "type.railway.abandoned" = "Изоставена железопътна линия";
 "type.railway.abandoned.bridge" = "Изоставен железопътен мост";
@@ -1203,7 +1203,7 @@
 "type.railway.tram.bridge" = "Мост на трамвайна линия";
 "type.railway.tram.tunnel" = "Тунел на трамвайна линия";
 "type.railway.tram_stop" = "Трамвайна спирка";
-"type.route" = "Route";
+"type.route" = "Маршрут";
 "type.route.ferry" = "Ферибот";
 "type.route.shuttle_train" = "route-shuttle_train";
 "type.shop" = "Магазин";
@@ -1367,7 +1367,7 @@
 /* Typically serviced, staff is present and food is available (compared to wilderness_hut). */
 "type.tourism.alpine_hut" = "Планинска хижа";
 "type.tourism.apartment" = "Ваканционен апартамент";
-"type.tourism.artwork" = "Artwork";
+"type.tourism.artwork" = "Художествено произведение";
 "type.tourism.artwork.architecture" = "Архитектурни произведения на изкуството";
 "type.tourism.artwork.painting" = "Живопис";
 "type.tourism.artwork.sculpture" = "Скулптура";
@@ -1402,7 +1402,7 @@
 "type.tourism.museum" = "Музей";
 "type.tourism.picnic_site" = "Място за пикник";
 "type.leisure.resort" = "Курорт";
-"type.tourism.theme_park" = "Theme Park";
+"type.tourism.theme_park" = "Тематичен парк";
 "type.tourism.viewpoint" = "Гледка";
 
 /* Typically more basic, not staffed and free (compared to alpine_hut). */
@@ -1428,36 +1428,36 @@
 "type.waterway.river" = "Река";
 "type.waterway.river.tunnel" = "Река";
 "type.waterway.stream" = "Поток";
-"type.waterway.stream.ephemeral" = "Ephemeral Stream";
-"type.waterway.stream.intermittent" = "Intermittent Stream";
+"type.waterway.stream.ephemeral" = "Ефимерна река";
+"type.waterway.stream.intermittent" = "Прекъсващ река";
 "type.waterway.stream.tunnel" = "Поток";
 "type.waterway.waterfall" = "Водопад";
-"type.waterway.weir" = "Weir";
+"type.waterway.weir" = "Преливник";
 "type.wheelchair" = "Инвалидна количка";
 "type.wheelchair.limited" = "Ограничен достъп за колички";
 "type.wheelchair.no" = "Без достъп за колички";
-"type.wheelchair.yes" = "Full Wheelchair Access";
+"type.wheelchair.yes" = "Пълен достъп за колички";
 "type.aerialway.j.bar" = "J-bar Lift";
 "type.aerialway.magic_carpet" = "Magic Carpet";
 "type.aerialway.platter" = "Platter Lift";
 "type.aerialway.rope_tow" = "Rope Tow";
 "type.aerialway.t.bar" = "T-bar Lift";
-"type.piste_type.downhill" = "Downhill Ski Run";
-"type.piste_type.downhill.area" = "Downhill Ski Run";
-"type.piste_type.downhill.advanced" = "Downhill Ski Run";
-"type.piste_type.downhill.advanced.area" = "Downhill Ski Run";
-"type.piste_type.downhill.easy" = "Downhill Ski Run";
-"type.piste_type.downhill.easy.area" = "Downhill Ski Run";
-"type.piste_type.downhill.expert" = "Downhill Ski Run";
-"type.piste_type.downhill.expert.area" = "Downhill Ski Run";
-"type.piste_type.downhill.freeride" = "Downhill Ski Run";
-"type.piste_type.downhill.intermediate" = "Downhill Ski Run";
-"type.piste_type.downhill.intermediate.area" = "Downhill Ski Run";
-"type.piste_type.downhill.novice" = "Downhill Ski Run";
-"type.piste_type.downhill.novice.area" = "Downhill Ski Run";
-"type.piste_type.nordic" = "Nordic Ski Trail";
-"type.piste_type.sled" = "Sledding Piste";
-"type.piste_type.sled.area" = "Sledding Piste";
+"type.piste_type.downhill" = "Спускането със ски";
+"type.piste_type.downhill.area" = "Спускането със ски";
+"type.piste_type.downhill.advanced" = "Спускане със ски за напреднали";
+"type.piste_type.downhill.advanced.area" = "Спускане със ски за напреднали";
+"type.piste_type.downhill.easy" = "Лесно спускане със ски";
+"type.piste_type.downhill.easy.area" = "Лесно спускане със ски";
+"type.piste_type.downhill.expert" = "Спускане със ски за експерти";
+"type.piste_type.downhill.expert.area" = "Спускане със ски за експерти";
+"type.piste_type.downhill.freeride" = "Свободно каране спускане със ски";
+"type.piste_type.downhill.intermediate" = "Спускане със ски за средно напреднали";
+"type.piste_type.downhill.intermediate.area" = "Спускане със ски за средно напреднали";
+"type.piste_type.downhill.novice" = "Спускане със ски за начинаещи";
+"type.piste_type.downhill.novice.area" = "Спускане със ски за начинаещи";
+"type.piste_type.nordic" = "Северна ски писта";
+"type.piste_type.sled" = "Писта за шейни";
+"type.piste_type.sled.area" = "Писта за шейни";
 "type.piste_type.snow_park" = "Снежен парк";
 "type.piste_type.hike" = "Зимна пътека";
 "type.piste_type.connection" = "Свързване на пистите";

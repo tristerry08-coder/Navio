@@ -905,7 +905,7 @@
     <string name="type.railway.station.subway.lille">Estación de metro</string>
     <string name="type.railway.station.subway.lima">Estación de metro</string>
     <string name="type.railway.station.subway.lisboa">Estación de metro</string>
-    <string name="type.railway.station.subway.london">Estación de metro</string>
+    <string name="type.railway.station.subway.london">Estación de Metro</string>
     <string name="type.railway.station.subway.lyon">Estación de metro</string>
     <string name="type.railway.station.subway.madrid">Estación de metro</string>
     <string name="type.railway.station.subway.malaga">Estación de metro</string>
@@ -929,8 +929,8 @@
     <string name="type.railway.station.subway.palma">Estación de metro</string>
     <string name="type.railway.station.subway.panama">Estación de metro</string>
     <string name="type.railway.station.subway.paris">Estación de metro</string>
-    <string name="type.railway.station.subway.philadelphia">Estación de metro</string>
-    <string name="type.railway.station.subway.pyongyang">Estación de metro</string>
+    <string name="type.railway.station.subway.philadelphia">Estación de Metro</string>
+    <string name="type.railway.station.subway.pyongyang">Estación de Metro</string>
     <string name="type.railway.station.subway.rennes">Estación de metro</string>
     <string name="type.railway.station.subway.rio">Estación de metro</string>
     <string name="type.railway.station.subway.roma">Estación de metro</string>
@@ -1144,7 +1144,7 @@
     <string name="type.shop.laundry">Lavandería</string>
     <string name="type.shop.mall">Centro comercial</string>
     <string name="type.shop.massage">Salón de masajes</string>
-    <string name="type.shop.mobile_phone">Móviles</string>
+    <string name="type.shop.mobile_phone">Tienda de Móviles</string>
     <string name="type.shop.money_lender">Prestamista</string>
     <string name="type.shop.motorcycle">Tienda de motos</string>
     <string name="type.shop.motorcycle_repair">Reparación de motos</string>
@@ -1412,6 +1412,6 @@
     <string name="type.natural.wetland.saltmarsh.tidal">Marisma Salina de Marea</string>
     <string name="type.natural.wetland.fen">Tollo</string>
     <string name="type.natural.wetland.reedbed">Juncal</string>
-    <string name="type.railway.station.subway.qingdao">Estación de metro</string>
+    <string name="type.railway.station.subway.qingdao">Estación de Metro</string>
     <string name="type.leisure.escape_game">Sala de Escape</string>
 </resources>

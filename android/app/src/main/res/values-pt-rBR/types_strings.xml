@@ -7,7 +7,7 @@
     <string name="type.aerialway">Transporte aéreo</string>
     <string name="type.aerialway.cable_car">Teleférico</string>
     <string name="type.aerialway.chair_lift">Telecadeira</string>
-    <string name="type.aerialway.drag_lift">Telesquis</string>
+    <string name="type.aerialway.drag_lift">Telesqui</string>
     <string name="type.aerialway.gondola">Telecabine</string>
     <string name="type.aerialway.mixed_lift">Teleférico híbrido</string>
     <string name="type.aerialway.station">Estação de teleférico</string>

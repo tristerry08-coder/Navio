@@ -4,7 +4,7 @@
 "type.aerialway" = "Transporte aéreo";
 "type.aerialway.cable_car" = "Teleférico";
 "type.aerialway.chair_lift" = "Telecadeira";
-"type.aerialway.drag_lift" = "Telesquis";
+"type.aerialway.drag_lift" = "Telesqui";
 "type.aerialway.gondola" = "Telecabine";
 "type.aerialway.mixed_lift" = "Teleférico híbrido";
 "type.aerialway.station" = "Estação de teleférico";

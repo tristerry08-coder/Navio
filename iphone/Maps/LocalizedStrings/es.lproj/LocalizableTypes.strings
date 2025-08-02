@@ -1025,7 +1025,7 @@
 "type.railway.station.subway.lille" = "Estación de metro";
 "type.railway.station.subway.lima" = "Estación de metro";
 "type.railway.station.subway.lisboa" = "Estación de metro";
-"type.railway.station.subway.london" = "Estación de metro";
+"type.railway.station.subway.london" = "Estación de Metro";
 "type.railway.station.subway.lyon" = "Estación de metro";
 "type.railway.station.subway.madrid" = "Estación de metro";
 "type.railway.station.subway.malaga" = "Estación de metro";
@@ -1049,8 +1049,8 @@
 "type.railway.station.subway.palma" = "Estación de metro";
 "type.railway.station.subway.panama" = "Estación de metro";
 "type.railway.station.subway.paris" = "Estación de metro";
-"type.railway.station.subway.philadelphia" = "Estación de metro";
-"type.railway.station.subway.pyongyang" = "Estación de metro";
+"type.railway.station.subway.philadelphia" = "Estación de Metro";
+"type.railway.station.subway.pyongyang" = "Estación de Metro";
 "type.railway.station.subway.rennes" = "Estación de metro";
 "type.railway.station.subway.rio" = "Estación de metro";
 "type.railway.station.subway.roma" = "Estación de metro";
@@ -1265,7 +1265,7 @@
 "type.shop.laundry" = "Lavandería";
 "type.shop.mall" = "Centro comercial";
 "type.shop.massage" = "Salón de masajes";
-"type.shop.mobile_phone" = "Móviles";
+"type.shop.mobile_phone" = "Tienda de Móviles";
 "type.shop.money_lender" = "Prestamista";
 "type.shop.motorcycle" = "Tienda de motos";
 "type.shop.motorcycle_repair" = "Reparación de motos";
@@ -1498,7 +1498,7 @@
 "type.natural.wetland.swamp" = "Ciénaga";
 "type.natural.wetland.saltmarsh" = "Marisma salina";
 "type.natural.wetland.mangrove" = "Manglares";
-"type.railway.station.subway.qingdao" = "Estación de metro";
+"type.railway.station.subway.qingdao" = "Estación de Metro";
 "type.leisure.escape_game" = "Sala de Escape";
 "type.post_office.post_partner" = "Asociado de Correo";
 "type.amenity.luggage_locker" = "Casillero de maletas";

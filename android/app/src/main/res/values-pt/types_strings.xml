@@ -837,7 +837,7 @@
     <string name="type.railway.station.light_rail.london">Estação de comboios</string>
     <string name="type.railway.station.light_rail.porto">Estação de comboios</string>
     <string name="type.railway.station.monorail">Estação de comboios</string>
-    <string name="type.railway.station.subway">Estação de metro</string>
+    <string name="type.railway.station.subway">Estação de Metro</string>
     <string name="type.railway.station.subway.adana">Estação de metro</string>
     <string name="type.railway.station.subway.algiers">Estação de metro</string>
     <string name="type.railway.station.subway.almaty">Estação de metro</string>
@@ -917,7 +917,7 @@
     <string name="type.railway.station.subway.panama">Estação de metro</string>
     <string name="type.railway.station.subway.paris">Estação de metro</string>
     <string name="type.railway.station.subway.philadelphia">Estação de metro</string>
-    <string name="type.railway.station.subway.pyongyang">Estação de metro</string>
+    <string name="type.railway.station.subway.pyongyang">Estação de Metro</string>
     <string name="type.railway.station.subway.rennes">Estação de metro</string>
     <string name="type.railway.station.subway.rio">Estação de metro</string>
     <string name="type.railway.station.subway.roma">Estação de metro</string>
@@ -929,7 +929,7 @@
     <string name="type.railway.station.subway.sapporo">Estação de metro</string>
     <string name="type.railway.station.subway.sendai">Estação de metro</string>
     <string name="type.railway.station.subway.sf">Estação de metro</string>
-    <string name="type.railway.station.subway.shanghai">Estação de metro</string>
+    <string name="type.railway.station.subway.shanghai">Estação de Metro</string>
     <string name="type.railway.station.subway.shenzhen">Estação de metro</string>
     <string name="type.railway.station.subway.shiraz">Estação de metro</string>
     <string name="type.railway.station.subway.singapore">Estação de metro</string>
@@ -940,16 +940,16 @@
     <string name="type.railway.station.subway.taipei">Estação de metro</string>
     <string name="type.railway.station.subway.taoyuan">Estação de metro</string>
     <string name="type.railway.station.subway.tashkent">Estação de metro</string>
-    <string name="type.railway.station.subway.tbilisi">Estação de metro</string>
-    <string name="type.railway.station.subway.tehran">Estação de metro</string>
+    <string name="type.railway.station.subway.tbilisi">Estação de Metro</string>
+    <string name="type.railway.station.subway.tehran">Estação de Metro</string>
     <string name="type.railway.station.subway.tianjin">Estação de metro</string>
     <string name="type.railway.station.subway.tokyo">Estação de metro</string>
-    <string name="type.railway.station.subway.valencia">Estação de metro</string>
-    <string name="type.railway.station.subway.vienna">Estação de metro</string>
-    <string name="type.railway.station.subway.warszawa">Estação de metro</string>
-    <string name="type.railway.station.subway.washington">Estação de metro</string>
+    <string name="type.railway.station.subway.valencia">Estação de Metro</string>
+    <string name="type.railway.station.subway.vienna">Estação de Metro</string>
+    <string name="type.railway.station.subway.warszawa">Estação de Metro</string>
+    <string name="type.railway.station.subway.washington">Estação de Metro</string>
     <string name="type.railway.station.subway.wuhan">Estação de metro</string>
-    <string name="type.railway.station.subway.yerevan">Estação de metro</string>
+    <string name="type.railway.station.subway.yerevan">Estação de Metro</string>
     <string name="type.railway.station.subway.yokohama">Estação de metro</string>
     <string name="type.railway.subway">Metro</string>
     <string name="type.railway.subway.bridge">Ponte de metro</string>
@@ -1411,4 +1411,7 @@
     <string name="type.natural.wetland.mangrove">Mangal</string>
     <string name="type.amenity.bicycle_parking.covered">Estacionamento de Bicicletas Coberto</string>
     <string name="type.amenity.luggage_locker">Depósito de Bagagem</string>
+    <string name="type.amenity.ranger_station">Posto de Guardas Florestais</string>
+    <string name="type.post_office.post_partner">Parceiro Postal</string>
+    <string name="type.natural.wetland.tidalflat">Planície de maré</string>
 </resources>

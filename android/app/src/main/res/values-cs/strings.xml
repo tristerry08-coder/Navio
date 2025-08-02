@@ -224,7 +224,7 @@
     <!-- Settings «Route» category: «Tts language» title -->
     <string name="pref_tts_language_title">Jazyk hlasu</string>
     <!-- Settings «Route» category: «Test Voice Directions» title -->
-    <string name="pref_tts_test_voice_title">Otestovat hlasové pokyny (TTS, Text-To-Speech)</string>
+    <string name="pref_tts_test_voice_title">Otestovat hlasové pokyny</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
     <string name="pref_tts_playing_test_voice">Pokud nyní hlas neslyšíte, zkontrolujte nastavení hlasitosti nebo převodu textu na řeč v systému</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
@@ -479,7 +479,7 @@
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Opravte počet poschodí, max. %d</string>
     <string name="editor_zip_code">PSČ</string>
-    <string name="error_enter_correct_zip_code">Zadejte správné PSČ</string>
+    <string name="error_enter_correct_zip_code">Zadejte správné poštovní směrovací číslo</string>
     <!-- Place Page title for long tap -->
     <string name="core_placepage_unknown_place">Bod na mapě</string>
     <!-- Title for OSM note section in the editor -->

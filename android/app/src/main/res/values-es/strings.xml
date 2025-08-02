@@ -9,7 +9,7 @@
     <string name="delete">Eliminar</string>
     <string name="download_maps">Descargar mapas</string>
     <!-- Settings/Downloader - info for country when download fails -->
-    <string name="download_has_failed">Error durante la descarga, presione para intentarlo de nuevo</string>
+    <string name="download_has_failed">Error al descargar, toque para reintentar</string>
     <!-- Settings/Downloader - info for country which started downloading -->
     <string name="downloading">Descargando…</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->
@@ -74,7 +74,7 @@
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
     <string name="bookmarks">Marcadores</string>
     <!-- "Bookmarks and Tracks" dialog title, also sync it with iphone/plist.txt -->
-    <string name="bookmarks_and_tracks">Marcadores y trayectos</string>
+    <string name="bookmarks_and_tracks">Marcadores y trazas</string>
     <!-- Default bookmark list name -->
     <string name="core_my_places">Mis lugares</string>
     <!-- Add bookmark dialog - bookmark name -->
@@ -88,7 +88,7 @@
     <!-- Header of settings activity where user defines storage path -->
     <string name="maps_storage">Guardar mapas en</string>
     <!-- Detailed description of Maps Storage settings button -->
-    <string name="maps_storage_summary">Seleccione la carpeta donde deben descargarse los mapas</string>
+    <string name="maps_storage_summary">Seleccione la carpeta donde descargar los mapas</string>
     <!-- E.g. "Downloaded maps: 500Mb" in Maps Storage settings -->
     <string name="maps_storage_downloaded">Mapas descargados</string>
     <!-- Internal storage type in Maps Storage settings (not accessible by the user) -->
@@ -237,12 +237,12 @@
     <!-- Settings «Route» category: «Tts language» title -->
     <string name="pref_tts_language_title">Idioma de voz</string>
     <!-- Settings «Route» category: «Test Voice Directions» title -->
-    <string name="pref_tts_test_voice_title">Probar indicaciones de voz (TTS, Text-To-Speech)</string>
+    <string name="pref_tts_test_voice_title">Probar indicaciones de voz</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
     <string name="pref_tts_playing_test_voice">Compruebe el volumen o la configuración de texto a voz del sistema si ahora no oye la voz</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
     <string name="pref_tts_unavailable">No disponible</string>
-    <string name="pref_map_auto_zoom">Zoom automático</string>
+    <string name="pref_map_auto_zoom">Auto Zoom</string>
     <string name="placepage_distance">Distancia</string>
     <string name="search_show_on_map">Ver en el mapa</string>
     <!-- Menu button -->
@@ -915,11 +915,11 @@
     <string name="pref_backup_location_summary_initial">Selecciona por favor primero una carpeta y concede permiso</string>
     <string name="dialog_report_error_missing_folder">La ubicación de copia de seguridad seleccionada no está disponible o no se puede escribir. Selecciona por favor una ubicación diferente.</string>
     <string name="pref_backup_status_summary_success">Última copia de seguridad con éxito</string>
-    <string name="pref_backup_location_title">Ubicación de copia de seguridad</string>
+    <string name="pref_backup_location_title">Ubicación de la copia de seguridad</string>
     <string name="pref_backup_history_title">Número de copias de seguridad a mantener</string>
     <string name="pref_backup_interval_title">Copia de seguridad automática</string>
     <string name="backup_interval_every_day">Diario</string>
-    <string name="backup_interval_every_week">Semanal</string>
+    <string name="backup_interval_every_week">Semanalmente</string>
     <string name="backup_interval_manual_only">Apagado (Solo manual)</string>
     <string name="panoramax">Imagen de Panoramax</string>
     <string name="dialog_report_error_with_logs">Envíanos por favor un informe de error:\n - \"Habilita el registro\" en la configuración\n - reproduce el problema\n - en la pantalla de \"Acerca de y Ayuda\", pulsa el botón \"Informar de un fallo\" y envíalo por correo o por chat\n - deshabilita el registro</string>

@@ -253,7 +253,7 @@
 "pref_tts_language_title" = "Jazyk hlasu";
 
 /* Settings «Route» category: «Test Voice Directions» title */
-"pref_tts_test_voice_title" = "Otestovat hlasové pokyny (TTS, Text-To-Speech)";
+"pref_tts_test_voice_title" = "Otestovat hlasové pokyny";
 
 /* Title for "Other" section in TTS settings. */
 "pref_tts_other_section_title" = "Ostatní";
@@ -623,7 +623,7 @@
 /* Error message in Editor when a user tries to set the number of floors for a building higher than %d floors */
 "error_enter_correct_storey_number" = "Opravte počet poschodí, max. %d";
 "editor_zip_code" = "PSČ";
-"error_enter_correct_zip_code" = "Zadejte správné PSČ";
+"error_enter_correct_zip_code" = "Zadejte správné poštovní směrovací číslo";
 
 /* Place Page title for long tap */
 "core_placepage_unknown_place" = "Bod na mapě";

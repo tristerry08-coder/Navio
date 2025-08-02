@@ -240,7 +240,7 @@
     <!-- Settings «Route» category: «Tts language» title -->
     <string name="pref_tts_language_title">语音语言</string>
     <!-- Settings «Route» category: «Test Voice Directions» title -->
-    <string name="pref_tts_test_voice_title">测试语音指令（TTS，文本转语音系统）</string>
+    <string name="pref_tts_test_voice_title">测试语音指令</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
     <string name="pref_tts_playing_test_voice">如果您现在听不到声音，请检查音量或系统文本转语音设置</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->

@@ -253,7 +253,7 @@
 "pref_tts_language_title" = "语音语言";
 
 /* Settings «Route» category: «Test Voice Directions» title */
-"pref_tts_test_voice_title" = "测试语音指令（TTS，文本转语音系统）";
+"pref_tts_test_voice_title" = "测试语音指令";
 
 /* Title for "Other" section in TTS settings. */
 "pref_tts_other_section_title" = "其他";
@@ -1097,7 +1097,7 @@
 "edit_track" = "编辑轨迹";
 "osm_profile_view_edit_history" = "查看编辑历史";
 "osm_profile_view_notes" = "查看注记";
-"pref_mapappearance_title" = "Map Appearance";
-"pref_maplanguage_title" = "Map Language";
-"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
-"pref_maplanguage_local" = "Local Language";
+"pref_mapappearance_title" = "地图外观";
+"pref_maplanguage_title" = "地图语言";
+"transliteration_title_disabled_summary" = "地图始终使用本地语言时禁用";
+"pref_maplanguage_local" = "本地语言";

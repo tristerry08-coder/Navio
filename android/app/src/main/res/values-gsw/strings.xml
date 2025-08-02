@@ -243,7 +243,7 @@
     <string name="pref_tts_street_names_title">Strassenäme aakündige</string>
     <string name="pref_tts_street_names_description">Wenn aktiviert, wird de Name vo de Strass oder Uusfahrt, wo abboge wird, luut aakündigt.</string>
     <string name="pref_tts_language_title">Sprach für d Sprachfüehrig</string>
-    <string name="pref_tts_test_voice_title">Teste d Sprachaawisige (TTS, Text-To-Speech)</string>
+    <string name="pref_tts_test_voice_title">Test d Sprachaawisige</string>
     <string name="pref_tts_playing_test_voice">Überprüef d Luutstärchi oder d Text-To-Speech-Iistellige vom System, wenn du d Stimm jetzt nöd ghörsch</string>
     <string name="pref_tts_unavailable">Nöd verfüegbar</string>
     <string name="pref_map_auto_zoom">Auto-Zoom</string>
