@@ -1140,7 +1140,22 @@ void PostprocessElement(OsmElement * p, FeatureBuilderParams & params)
 // And most of this junctions are assumed to be oneway.
           {"junction", "circular", [&addOneway] { addOneway = true; }},
           {"junction", "roundabout", [&addOneway] { addOneway = true; }},
-
+// Add faux oneways as access keys don't support forward/backward modifiers
+// Bicycles are not motor vehicles, so don't add oneways for them.
+          {"motor_vehicle:backward", "no", [&addOneway] { addOneway = true; }},
+          {"vehicle:backward", "no", [&addOneway] { addOneway = true; }},
+          {"motor_vehicle:forward", "no",
+           [&addOneway, &params] {
+             addOneway = true;
+             params.SetReversedGeometry(true);
+           }},
+          {"vehicle:forward", "no",
+           [&addOneway, &params] {
+             addOneway = true;
+             params.SetReversedGeometry(true);
+           }},
+          {"motor_vehicle:backward", "no", [&AddParam] { AddParam(CachedTypes::BicycleBidir); }},
+          {"motor_vehicle:forward", "no", [&AddParam] { AddParam(CachedTypes::BicycleBidir); }},
           {"access", "private", [&AddParam] { AddParam(CachedTypes::Private); }},
           {"access", "!", [&AddParam] { AddParam(CachedTypes::Private); }},
 

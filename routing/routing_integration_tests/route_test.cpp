@@ -1030,4 +1030,15 @@ UNIT_TEST(USA_UseDirt_WithMaxspeed)
                                    FromLatLon(42.3878106, 19.7831402), 247.139);
 }
 
+// https://codeberg.org/comaps/comaps/issues/304
+UNIT_TEST(Norway_FauxOneway_MotorVehicleBackward_No)
+{
+  CalculateRouteAndTestRouteLength(GetVehicleComponents(VehicleType::Car),
+                                   FromLatLon(59.919189, 10.759355), {0., 0.},
+                                   FromLatLon(59.921042, 10.759302), 410);
+  CalculateRouteAndTestRouteLength(GetVehicleComponents(VehicleType::Bicycle),
+                                   FromLatLon(59.919189, 10.759355), {0., 0.},
+                                   FromLatLon(59.921042, 10.759302), 210);
+}
+
 } // namespace route_test
