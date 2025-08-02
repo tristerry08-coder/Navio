@@ -17,25 +17,27 @@
     android:orientation="vertical">
     <com.google.android.material.textfield.TextInputLayout
       android:id="@+id/edit_bookmark_name_input"
-      style="?fontBody1"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"
+      android:layout_height="60dp"
       android:textColorHint="?android:textColorSecondary"
       app:endIconMode="custom"
       app:endIconCheckable="false"
       app:endIconContentDescription="@string/clear"
       app:endIconDrawable="@drawable/ic_clear_rounded"
-      app:endIconTint="?android:textColorSecondary">
+      app:endIconTint="?android:textColorSecondary"
+      app:boxBackgroundMode="filled"
+      app:boxBackgroundColor="@null">
       <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/et__bookmark_name"
         style="@style/MwmWidget.Editor.CustomTextInput"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:hint="@string/name"
         android:padding="@dimen/margin_half_double_plus"
         android:textAlignment="viewStart"
         android:inputType="textCapSentences"
-        android:singleLine="true" />
+        android:singleLine="true"
+        android:backgroundTint="@android:color/transparent"/>
     </com.google.android.material.textfield.TextInputLayout>
   </LinearLayout>
   <RelativeLayout
@@ -88,21 +90,23 @@
       tools:src="@drawable/ic_bookmark_none" />
   </RelativeLayout>
   <com.google.android.material.textfield.TextInputLayout
-    style="?fontBody1"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="60dp"
     android:layout_below="@id/rl__bookmark_set"
     android:layout_margin="@dimen/margin_half"
-    android:textColorHint="?android:textColorSecondary">
+    android:textColorHint="?android:textColorSecondary"
+    app:boxBackgroundMode="filled"
+    app:boxBackgroundColor="@null">
 
     <com.google.android.material.textfield.TextInputEditText
       android:id="@+id/et__description"
       style="@style/MwmWidget.Editor.CustomTextInput"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"
+      android:layout_height="match_parent"
       android:padding="@dimen/margin_half_double_plus"
       android:hint="@string/placepage_personal_notes_hint"
       android:inputType="textMultiLine"
-      android:textAlignment="viewStart" />
+      android:textAlignment="viewStart"
+      android:backgroundTint="@android:color/transparent"/>
   </com.google.android.material.textfield.TextInputLayout>
 </RelativeLayout>
