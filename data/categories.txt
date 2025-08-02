@@ -11777,7 +11777,7 @@ zh-Hans:金属制造工
 zh-Hant:鐵工
 
 craft-key_cutter
-en:Key Cutting
+en:4Key Cutting|Key Duplication|Key Copying
 ar:قطع المفاتيح
 be:Выраб ключоў
 bg:Рязане на ключове
