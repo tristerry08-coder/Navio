@@ -95,20 +95,18 @@
 /* 4.LANDUSE */
 /*4.1 Main landuse*/
 
-@general_area: #FAEFE1;
-@pedestrian_area: #FCF2E4;
-@pedestrian_area_light: #FCF3E6;
+@general_area: #E8E3DA;
+@pedestrian_area: #FCF3E6;
 @railway_platform: #ECE3D6;
 @university: #F5DFBC;
-@retail: #EFE1DB;
 @hospital: #FFDAD6;
-@industrial: #E5E5E4;
+@industrial: #E8E8E8;
 @construction_area: #E4E3E6;
 @sport0: #F5EED3;
 @sport1: #E8E8C3;
 @sport2: #D4E796;
 @playground: #E4E7A2;
-@parking: #E8EFEC;
+@parking: #EBF0EF;
 @military: #DE2D28;
 @prison: #727272;
 @farmland: #E3DEAC;

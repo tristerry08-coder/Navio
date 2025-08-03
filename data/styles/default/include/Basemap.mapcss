@@ -435,9 +435,6 @@ area|z13-[landuse=education],
 area|z15-[amenity=university],
 {fill-opacity: 0.9;}
 
-area|z13-[landuse=retail],
-{fill-color: @retail; fill-opacity: 1;}
-
 area|z14-[leisure=miniature_golf],
 area|z15-[leisure=pitch],
 area|z15-[leisure=track][area?],
@@ -469,13 +466,6 @@ area|z14-[area:highway=pedestrian],
 area|z14-[highway=footway][area?],
 area|z14-[area:highway=footway],
 area|z14-[area:highway=living_street],
-{fill-color: @pedestrian_area_light;}
-
-area|z16-[highway=pedestrian][area?],
-area|z16-[area:highway=pedestrian],
-area|z16-[highway=footway][area?],
-area|z16-[area:highway=footway],
-area|z16-[area:highway=living_street],
 {fill-color: @pedestrian_area;}
 
 area|z16-[public_transport=platform],
@@ -490,6 +480,7 @@ need to make sure that coastline water is rendered on top.
 area|z13-[leisure=marina],
 */
 
+area|z13-[landuse=retail],
 area|z13-[leisure=water_park],
 area|z13-[amenity=place_of_worship],
 area|z13-[landuse=religious],
