@@ -468,11 +468,19 @@ NSString *const kAboutSegue = @"Map2About";
 - (void)setupTrackPadGestureRecognizers API_AVAILABLE(ios(14.0)) {
   if (!NSProcessInfo.processInfo.isiOSAppOnMac)
     return;
-  // Mouse zoom
+  // Pan
   UIPanGestureRecognizer * panRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePan:)];
-  panRecognizer.allowedScrollTypesMask = UIScrollTypeMaskAll;
+  panRecognizer.minimumNumberOfTouches = 2;
+  panRecognizer.allowedScrollTypesMask = UIScrollTypeMaskContinuous;
   panRecognizer.allowedTouchTypes = @[@(UITouchTypeIndirect)];
+  panRecognizer.delegate = self;
   [self.view addGestureRecognizer:panRecognizer];
+
+  // Mouse zoom
+  UIPanGestureRecognizer * zoomPanRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handleZoomPan:)];
+  zoomPanRecognizer.allowedScrollTypesMask = UIScrollTypeMaskDiscrete;
+  zoomPanRecognizer.allowedTouchTypes = @[@(UITouchTypeIndirect)];
+  [self.view addGestureRecognizer:zoomPanRecognizer];
 
   // Trackpad zoom
   UIPinchGestureRecognizer * pinchRecognizer = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(handlePinch:)];
@@ -810,7 +818,8 @@ NSString *const kAboutSegue = @"Map2About";
   [UIKeyCommand commandWithTitle:@"Zoom Out" image:[UIImage systemImageNamed: @"minus.magnifyingglass"] action:@selector(zoomOut) input:@"-" modifierFlags:UIKeyModifierCommand propertyList:nil],
   [UIKeyCommand commandWithTitle:@"Zoom In" image:[UIImage systemImageNamed: @"plus.magnifyingglass"] action:@selector(zoomIn) input:@"+" modifierFlags:UIKeyModifierCommand propertyList:nil],
   [UIKeyCommand commandWithTitle:@"Go Back" image:nil action:@selector(goBack) input:UIKeyInputEscape modifierFlags:0 propertyList:nil],
-  [UIKeyCommand commandWithTitle:@"Switch position mode" image:nil action:@selector(switchPositionMode) input:@"0" modifierFlags:UIKeyModifierCommand propertyList:nil]
+  [UIKeyCommand commandWithTitle:@"Switch position mode" image:nil action:@selector(switchPositionMode) input:@"0" modifierFlags:UIKeyModifierCommand propertyList:nil],
+  [UIKeyCommand commandWithTitle:@"Search" image:[UIImage systemImageNamed: @"magnifyingglass"] action:@selector(search) input:@"F" modifierFlags:UIKeyModifierCommand propertyList:nil]
   ];
 
   for (UIKeyCommand *command in commands) {
@@ -818,6 +827,12 @@ NSString *const kAboutSegue = @"Map2About";
   }
 
   return commands;
+}
+
+- (void)search {
+  if (!self.searchManager.isSearching) {
+    [self.searchManager startSearchingWithIsRouting:NO];
+  }
 }
 
 - (void)zoomOut {
@@ -886,6 +901,38 @@ NSString *const kAboutSegue = @"Map2About";
 // MARK: - Handle macOS trackpad gestures
 
 - (void)handlePan:(UIPanGestureRecognizer *)recognizer API_AVAILABLE(ios(14.0)) {
+  switch (recognizer.state) {
+    case UIGestureRecognizerStateBegan:
+    case UIGestureRecognizerStateChanged:
+    {
+      CGPoint translation = [recognizer translationInView:self.view];
+      if (translation.x == 0 && translation.y == 0 && CGPointEqualToPoint(translation, CGPointZero))
+        return;
+      self.userTouchesAction = UserTouchesActionDrag;
+      CGPoint velocity = [recognizer velocityInView:self.view];
+      CGFloat velocityX = ABS(velocity.x * 0.001);
+      velocityX = MAX(1, velocityX);
+      if (velocityX > 2.5) {
+        velocityX = 2.5;
+      }
+      CGFloat velocityY = ABS(velocity.y * 0.001);
+      velocityY = MAX(1, velocityY);
+      if (velocityY > 2.5) {
+        velocityY = 2.5;
+      }
+      GetFramework().Scroll((translation.x * velocityX) * -1, (translation.y * velocityY) * -1);
+      [recognizer setTranslation:CGPointZero inView:self.view];
+      break;
+    }
+    case UIGestureRecognizerStateEnded:
+      self.userTouchesAction = UserTouchesActionNone;
+      break;
+    default:
+      break;
+  }
+}
+
+- (void)handleZoomPan:(UIPanGestureRecognizer *)recognizer API_AVAILABLE(ios(14.0)) {
   switch (recognizer.state) {
     case UIGestureRecognizerStateBegan:
     case UIGestureRecognizerStateChanged:
