@@ -10,8 +10,8 @@ Here is the basic workflow to update styles:
 Please prepend `[styles]` to your commit message and add [Developers Certificate of Origin](CONTRIBUTING.md#legal-requirements) to it.
 Files changed by the script should be added as a separate `[styles] Regenerated` commit.
 
-Please check [a list of current styling issues](https://codeberg.org/comaps/comaps/issues?q=is%3Aopen+is%3Aissue+label%3AStyles)
-and ["icons wanted" issues](https://codeberg.org/comaps/comaps/issues?q=is%3Aopen+is%3Aissue+label%3AIcons+label%3A%22Good+first+issue%22).
+Please check [a list of current styling issues](https://codeberg.org/comaps/comaps/issues?q=&type=all&sort=&labels=410439)
+and ["icons" issues](https://codeberg.org/comaps/comaps/issues?q=&type=all&sort=&labels=446883).
 
 An overview of currently used icons can be found in the [Wiki](https://codeberg.org/comaps/comaps/wiki/Icons).
 
