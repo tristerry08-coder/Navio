@@ -191,6 +191,11 @@ std::string GetCurrentMapLanguage()
 std::vector<int8_t> GetPreferredLangIndexes()
 {
   std::vector<int8_t> langs = {};
+  
+  auto const mapLang = StringUtf8Multilang::GetLangIndex(languages::GetCurrentMapLanguage());
+  if (mapLang != StringUtf8Multilang::kUnsupportedLanguageCode)
+    langs.push_back(mapLang);
+  
   for (auto const & systemLanguage : GetSystemPreferred())
   {
     auto normalizedLang = Normalize(systemLanguage);

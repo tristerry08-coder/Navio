@@ -136,12 +136,13 @@ namespace feature
 
   /// Returns priority list of language codes for feature description,
   /// the priority is the following:
-  /// - device language code;
-  /// - default language code if MWM contains user's language (or similar to device languages if provided);
-  /// - languages that we know are similar to device language;
+  /// - device language codes in order of preference;
+  ///   - including default language code, if MWM contains the language (or similar to device language if provided);
+  ///   - including languages that we know are similar to device language;
   /// - international language code;
   /// - english language code;
-  std::vector<int8_t> GetDescriptionLangPriority(RegionData const & regionData, int8_t const deviceLang);
+  /// - default language code;
+  std::vector<int8_t> GetDescriptionLangPriority(RegionData const & regionData);
 
   // Returns vector of cuisines readable names from classificator.
   std::vector<std::string> GetCuisines(TypesHolder const & types);

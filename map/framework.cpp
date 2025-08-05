@@ -3339,8 +3339,7 @@ void Framework::FillDescription(FeatureType & ft, place_page::Info & info) const
   if (!ft.GetID().m_mwmId.IsAlive())
     return;
   auto const & regionData = ft.GetID().m_mwmId.GetInfo()->GetRegionData();
-  auto const deviceLang = StringUtf8Multilang::GetLangIndex(languages::GetCurrentMapLanguage());
-  auto const langPriority = feature::GetDescriptionLangPriority(regionData, deviceLang);
+  auto const langPriority = feature::GetDescriptionLangPriority(regionData);
 
   std::string wikiDescription = m_descriptionsLoader->GetWikiDescription(ft.GetID(), langPriority);
   if (!wikiDescription.empty())
