@@ -87,6 +87,8 @@ brew install wget optipng cmake qt
 #### Clone the repository
 ```bash
 git clone --recurse-submodules --shallow-submodules https://codeberg.org/comaps/comaps.git
+cd comaps
+./configure.sh
 ```
 
 ### Special cases options
