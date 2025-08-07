@@ -51,7 +51,13 @@ std::optional<m2::PointD> FeatureMakerSimple::GetOrigin(OsmElement const & e) co
   }
   else
   {
-    CHECK(!e.m_members.empty(), (e.m_id));
+    if (e.m_members.empty())
+    {
+      // Such relations are considered invalid but could be present in OSM data still,
+      // see https://wiki.openstreetmap.org/wiki/Empty_relations
+      LOG(LWARNING, ("Invalid relation with no members", e.m_id));
+      return {};
+    }
     for (auto const & m : e.m_members)
     {
       if (m.m_type == OsmElement::EntityType::Node)

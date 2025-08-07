@@ -1016,6 +1016,7 @@ void PreprocessElement(OsmElement * p, CalculateOriginFnT const & calcOrg)
     if (value != "province")
       return;
 
+    ///@todo(pastk) some invalid relations might be empty so this might fail.
     CHECK(calcOrg, ());
     auto const org = calcOrg(p);
     if (org && s_countriesChecker.IsTransformToState(*org))
@@ -1471,6 +1472,7 @@ void GetNameAndType(OsmElement * p, FeatureBuilderParams & params,
 
       static CityBBox s_cityBBox;
 
+      ///@todo(pastk) some invalid relations might be empty so this might fail.
       CHECK(calcOrg, ());
       auto const org = calcOrg(p);
       if (org && s_cityBBox.IsInside(*org))
