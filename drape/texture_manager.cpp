@@ -32,7 +32,7 @@ size_t constexpr kInvalidGlyphGroup = std::numeric_limits<size_t>::max();
 
 // Reserved for elements like RuleDrawer or other LineShapes.
 uint32_t constexpr kReservedPatterns = 10;
-size_t constexpr kReservedColors = 20;
+size_t constexpr kReservedColors = 384;
 
 // TODO(AB): Investigate if it can be set to 1.0.
 float constexpr kGlyphAreaMultiplier = 1.2f;
@@ -370,7 +370,7 @@ void TextureManager::Init(ref_ptr<dp::GraphicsContext> context, Params const & p
 
   // Initialize colors (reserved ./data/colors.txt lines count).
   std::vector<dp::Color> colors;
-  colors.reserve(512);
+  colors.reserve(1024);
   ParseColorsList(params.m_colors, [&colors](dp::Color const & color)
   {
     colors.push_back(color);
@@ -379,7 +379,7 @@ void TextureManager::Init(ref_ptr<dp::GraphicsContext> context, Params const & p
   m_colorTexture = make_unique_dp<ColorTexture>(ColorTextureSize(colors.size(), m_maxTextureSize),
                                                 make_ref(m_textureAllocator));
 
-  LOG(LDEBUG, ("Colors texture size =", m_colorTexture->GetWidth(), m_colorTexture->GetHeight()));
+  LOG(LINFO, ("Colors count =", colors.size(), "texture size =", m_colorTexture->GetWidth(), m_colorTexture->GetHeight()));
 
   ref_ptr<ColorTexture> colorTex = make_ref(m_colorTexture);
   for (auto const & c : colors)
