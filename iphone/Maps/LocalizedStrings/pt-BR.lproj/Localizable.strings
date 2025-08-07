@@ -43,7 +43,7 @@
 "country_status_download_failed" = "O download falhou";
 
 /* Text in About screen */
-"about_headline" = "Um projeto aberto, movido pela comunidade";
+"about_headline" = "Projeto aberto desenvolvido pela comunidade";
 
 /* Text in About screen */
 "about_proposition_1" = "Não precisa de conexão à internet, rápido e fácil de usar";

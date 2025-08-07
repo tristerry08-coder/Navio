@@ -1136,8 +1136,8 @@
     <string name="type.shop.laundry">洗衣店</string>
     <string name="type.shop.mall">商场</string>
     <string name="type.shop.massage">按摩院</string>
-    <string name="type.shop.mobile_phone">手机专卖店</string>
-    <string name="type.shop.money_lender">商店</string>
+    <string name="type.shop.mobile_phone">手机店</string>
+    <string name="type.shop.money_lender">借贷机构</string>
     <string name="type.shop.motorcycle">摩托车商店</string>
     <string name="type.shop.motorcycle_repair">摩托车维修</string>
     <string name="type.shop.music">唱片店</string>
@@ -1401,4 +1401,16 @@
     <string name="type.leisure.firepit">火坑</string>
     <string name="type.man_made.crane">起重机</string>
     <string name="type.railway.station.subway.qingdao">地铁车站</string>
+    <string name="type.amenity.bicycle_parking.covered">有顶棚自行车停车处</string>
+    <string name="type.amenity.luggage_locker">行李寄存点</string>
+    <string name="type.landuse.religious">宗教用地</string>
+    <string name="type.natural.wetland.saltmarsh">盐沼</string>
+    <string name="type.natural.wetland.saltmarsh.tidal">潮汐盐沼</string>
+    <string name="type.natural.wetland.fen">湿地</string>
+    <string name="type.natural.wetland.reedbed">芦苇地</string>
+    <string name="type.leisure.escape_game">密室逃脱</string>
+    <string name="type.natural.wetland.swamp">沼泽</string>
+    <string name="type.natural.wetland.mangrove">红树林</string>
+    <string name="type.natural.wetland.tidalflat">潮汐平原</string>
+    <string name="type.amenity.ranger_station">护林站</string>
 </resources>

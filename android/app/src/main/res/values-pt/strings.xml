@@ -9,7 +9,7 @@
     <string name="delete">Eliminar</string>
     <string name="download_maps">Descarregar mapas</string>
     <!-- Settings/Downloader - info for country when download fails -->
-    <string name="download_has_failed">O descarregamento falhou, toque novamente para tentar de novo.</string>
+    <string name="download_has_failed">O descarregamento falhou, toque para tentar novamente</string>
     <!-- Settings/Downloader - info for country which started downloading -->
     <string name="downloading">A descarregar…</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->
@@ -29,7 +29,7 @@
     <!-- A dialog title, that warns a user that Precise Location is disabled and suggests to turn it on -->
     <string name="limited_accuracy">Precisão limitada</string>
     <!-- A dialog text, that warns a user that Precise Location is disabled and suggests to turn it on -->
-    <string name="precise_location_is_disabled_long_text">Para garantir uma navegação precisa, active a opção Localização precisa nas definições.</string>
+    <string name="precise_location_is_disabled_long_text">Para garantir uma navegação precisa, active a opção Localização precisa nas definições</string>
     <!-- View and button titles for accessibility -->
     <string name="zoom_to_country">Mostrar no mapa</string>
     <!-- Message to display at the center of the screen when the country download has failed -->
@@ -88,7 +88,7 @@
     <!-- Header of settings activity where user defines storage path -->
     <string name="maps_storage">Guardar mapas em</string>
     <!-- Detailed description of Maps Storage settings button -->
-    <string name="maps_storage_summary">Selecione uma pasta para onde os mapas devem ser descarregados.</string>
+    <string name="maps_storage_summary">Selecione uma pasta para onde os mapas devem ser descarregados</string>
     <!-- E.g. "Downloaded maps: 500Mb" in Maps Storage settings -->
     <string name="maps_storage_downloaded">Mapas Descarregados</string>
     <!-- Question dialog for transferring maps from one storage to another -->
@@ -167,9 +167,9 @@
     <!-- Warning message when doing search around current position -->
     <string name="unknown_current_position">A sua localização ainda não foi determinada</string>
     <!-- Alert message that we can't run Map Storage settings due to some reasons. -->
-    <string name="cant_change_this_setting">Lamentamos, as definições do armazenamento do mapa estão atualmente desativadas.</string>
+    <string name="cant_change_this_setting">Lamentamos, as definições do armazenamento do mapa estão atualmente desativadas</string>
     <!-- Alert message that downloading is in progress. -->
-    <string name="downloading_is_active">O descarregamento do país está a ser feito neste momento.</string>
+    <string name="downloading_is_active">O descarregamento do país está a ser feito neste momento</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">Veja onde estou agora. Abra a hiperligação: %1$s ou %2$s Não tem um mapa offline instalado? Descarregue em https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
@@ -227,7 +227,7 @@
     <!-- Settings «Route» category: «Test Voice Directions» title -->
     <string name="pref_tts_test_voice_title">Testar Direções por Voz</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
-    <string name="pref_tts_playing_test_voice">Verifica o volume ou as definições de conversão de texto em voz do sistema se não ouvires a voz agora.</string>
+    <string name="pref_tts_playing_test_voice">Verifica o volume ou as definições de conversão de texto em voz do sistema se não ouvires a voz agora</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
     <string name="pref_tts_unavailable">Não disponível</string>
     <string name="pref_map_auto_zoom">Ampliação automática</string>
@@ -273,7 +273,7 @@
     <string name="downloader_download_all_button">Descarregar tudo</string>
     <string name="downloader_downloading">A descarregar:</string>
     <!-- Displayed in a dialog that appears when a user tries to delete a map while the app is in the follow route mode -->
-    <string name="downloader_delete_map_while_routing_dialog">Para eliminar o mapa, por favor pare a navegação.</string>
+    <string name="downloader_delete_map_while_routing_dialog">Para eliminar o mapa, por favor pare a navegação</string>
     <!-- PointsInDifferentMWM -->
     <string name="routing_failed_cross_mwm_building">Só podem ser criados trajetos que estejam completamente contidos num único mapa.</string>
     <!-- Context menu item for downloader. -->
@@ -345,18 +345,18 @@
     <string name="dialog_routing_location_turn_on">Ative os serviços de localização</string>
     <string name="dialog_routing_location_unknown_turn_on">Não foi possível localizar as coordenadas do GPS. Ative os serviços de localização para que o trajeto seja criado.</string>
     <string name="dialog_routing_unable_locate_route">Não foi possível encontrar uma rota</string>
-    <string name="dialog_routing_cant_build_route">Não foi possível criar uma rota.</string>
+    <string name="dialog_routing_cant_build_route">Não foi possível criar uma rota</string>
     <string name="dialog_routing_change_start_or_end">Ajuste o ponto de partida ou o ponto de chegada.</string>
     <string name="dialog_routing_change_start">Ajuste o ponto de partida</string>
     <string name="dialog_routing_start_not_determined">A rota não foi criada, porque não foi possível localizar o ponto de partida.</string>
     <string name="dialog_routing_select_closer_start">Selecione um ponto de partida mais perto de uma estrada.</string>
     <string name="dialog_routing_change_end">Ajuste o ponto de chegada</string>
     <string name="dialog_routing_end_not_determined">A rota não foi criada, porque não foi possível localizar o ponto de chegada.</string>
-    <string name="dialog_routing_select_closer_end">Selecione um ponto de chegada mais perto de uma estrada.</string>
-    <string name="dialog_routing_change_intermediate">Não foi possível localizar o ponto intermédio.</string>
-    <string name="dialog_routing_intermediate_not_determined">Ajuste o ponto intermédio.</string>
+    <string name="dialog_routing_select_closer_end">Selecione um ponto de chegada mais perto de uma estrada</string>
+    <string name="dialog_routing_change_intermediate">Não foi possível localizar o ponto intermédio</string>
+    <string name="dialog_routing_intermediate_not_determined">Ajuste o ponto intermédio</string>
     <string name="dialog_routing_system_error">Erro de sistema</string>
-    <string name="dialog_routing_application_error">Não foi possível criar uma rota devido a um erro na aplicação.</string>
+    <string name="dialog_routing_application_error">Não foi possível criar uma rota devido a um erro na aplicação</string>
     <string name="dialog_routing_try_again">Tente novamente</string>
     <string name="not_now">Agora não</string>
     <string name="dialog_routing_download_and_build_cross_route">Quer descarregar o mapa e traçar uma rota melhor, mas que se estenda por mais de um mapa?</string>
@@ -370,11 +370,11 @@
     <string name="hide">Ocultar</string>
     <string name="categories">Categorias</string>
     <string name="history">Histórico</string>
-    <string name="search_not_found">Lamento, mas não foram encontrados resultados.</string>
+    <string name="search_not_found">Lamento, mas não foram encontrados resultados</string>
     <!-- The message when user did not find anything in the search. -->
     <string name="search_not_found_query">Descarregue a região onde está a pesquisar ou tente adicionar o nome de uma cidade ou aldeia próxima.</string>
     <string name="search_history_title">Histórico de pesquisas</string>
-    <string name="search_history_text">Ver as pesquisas recentes.</string>
+    <string name="search_history_text">Ver as pesquisas recentes</string>
     <string name="clear_search">Limpar histórico de pesquisas</string>
     <!-- Place Page link to Wikipedia article (if map object has it). -->
     <string name="read_in_wikipedia">Wikipédia</string>
@@ -382,7 +382,7 @@
     <string name="p2p_start">Iniciar</string>
     <string name="p2p_from_here">De</string>
     <string name="p2p_to_here">Itinerário para</string>
-    <string name="p2p_only_from_current">Só é possível navegar a partir da sua localização atual.</string>
+    <string name="p2p_only_from_current">Só é possível navegar a partir da sua localização atual</string>
     <string name="p2p_reroute_from_current">Quer planear uma rota a partir da sua localização atual?</string>
     <!-- Edit open hours/set time and minutes dialog -->
     <string name="next_button">Próxima</string>
@@ -447,14 +447,14 @@
     <!-- login text field -->
     <string name="email_or_username">Email ou nome de utilizador</string>
     <string name="level">Andar</string>
-    <string name="downloader_delete_map_dialog">Todas as alterações ao mapa serão eliminadas juntamente com o mapa.</string>
+    <string name="downloader_delete_map_dialog">Todas as alterações ao mapa serão eliminadas juntamente com o mapa</string>
     <string name="downloader_update_maps">Atualizar mapas</string>
     <string name="downloader_mwm_migration_dialog">Para criar um itinerário é necessário atualizar todos os mapas e, em seguida, planeá-lo novamente.</string>
     <string name="downloader_search_field_hint">Encontrar o mapa</string>
-    <string name="common_check_internet_connection_dialog">Por favor, verifique as suas opções e certifique-se que o dispositivo está ligado à Internet.</string>
+    <string name="common_check_internet_connection_dialog">Por favor, verifique as suas opções e certifique-se que o dispositivo está ligado à Internet</string>
     <string name="downloader_no_space_title">Não tem espaço suficiente</string>
     <string name="downloader_no_space_message">Por favor, remova os dados desnecessários</string>
-    <string name="editor_login_error_dialog">Erro de início de sessão.</string>
+    <string name="editor_login_error_dialog">Erro de início de sessão</string>
     <string name="editor_profile_changes">Alterações verificadas</string>
     <string name="editor_focus_map_on_location">Mova o mapa para colocar a cruz na localização da empresa ou do local.</string>
     <string name="editor_edit_place_title">Edição</string>
@@ -471,11 +471,11 @@
     <string name="osm_presentation">Dados do OpenStreetMap criados pela comunidade até %s. Sabe mais sobre como editar e atualizar o mapa em OpenStreetMap.org</string>
     <!-- OSM explanation on Android login screen -->
     <string name="login_osm_presentation">O OpenStreetMap.org (OSM) é um projeto comunitário aberto para construir um mapa gratuito. O OSM é a principal fonte de dados de mapas do CoMaps e funciona de forma semelhante à Wikipedia. Pode adicionar ou editar locais e estes ficam disponíveis para milhões de utilizadores no mundo todo. \nJunte-se à comunidade e ajude a criar um mapa melhor para todos!</string>
-    <string name="login_to_make_edits_visible">Crie uma conta OpenStreetMap ou inicie sessão para publicar as suas edições de mapas para o mundo.</string>
+    <string name="login_to_make_edits_visible">Crie uma conta OpenStreetMap ou inicie sessão para publicar as suas edições de mapas para o mundo</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d de %2$d</string>
     <string name="download_over_mobile_header">Descarregar utilizando uma conexão de rede de telemóveis?</string>
-    <string name="download_over_mobile_message">Isto pode ser muito caro com alguns planos ou em roaming.</string>
+    <string name="download_over_mobile_message">Isto pode ser muito caro com alguns planos ou em roaming</string>
     <string name="error_enter_correct_house_number">Introduza um número de endereço correto</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">O número de pisos não pode ser maior que %d</string>
@@ -498,8 +498,8 @@
     <string name="editor_category_unsuitable_title">Não encontra uma categoria adequada?</string>
     <string name="editor_category_unsuitable_text">O CoMaps permite-lhe adicionar apenas categorias de pontos simples, ou seja, nada de cidades, estradas, lagos, contornos de edifícios etc. Por favor, adicione essas categorias diretamente ao <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Consulte o nosso <a href="https://www.comaps.app/support/advanced-map-editing/">guia</a> para instruções detalhadas passo a passo.</string>
     <string name="downloader_no_downloaded_maps_title">Não descarregou quaisquer mapas</string>
-    <string name="downloader_no_downloaded_maps_message">Descarregar mapas para encontrar a localização e navegar offline.</string>
-    <string name="current_location_unknown_error_title">A localização atual é desconhecida.</string>
+    <string name="downloader_no_downloaded_maps_message">Descarregar mapas para encontrar a localização e navegar offline</string>
+    <string name="current_location_unknown_error_title">A localização atual é desconhecida</string>
     <!-- abbreviation for meters -->
     <string name="m">m</string>
     <!-- abbreviation for kilometers -->
@@ -531,8 +531,8 @@
     <!-- Displayed when saving some edits to the map to warn against publishing personal data -->
     <string name="editor_share_to_all_dialog_title">Quer enviar para todos os utilizadores?</string>
     <!-- Dialog before publishing the modifications to the public map. -->
-    <string name="editor_share_to_all_dialog_message_1">Certifique-se que não incluiu nenhuns dados pessoais.</string>
-    <string name="editor_share_to_all_dialog_message_2">Os editores do OpenStreetMap verificarão as alterações e entrarão em contacto consigo se tiverem alguma dúvida.</string>
+    <string name="editor_share_to_all_dialog_message_1">Certifique-se que não incluiu nenhuns dados pessoais</string>
+    <string name="editor_share_to_all_dialog_message_2">Os editores do OpenStreetMap verificarão as alterações e entrarão em contacto consigo se tiverem alguma dúvida</string>
     <string name="navigation_stop_button">Parar</string>
     <!-- Shown as toast when starting the recent track recording -->
     <string name="track_recording">Registar a pista</string>
@@ -546,10 +546,10 @@
     <string name="mobile_data_option_not_today">Não utilizar hoje</string>
     <string name="mobile_data">Dados móveis</string>
     <!-- NOTE to translators: please synchronize your translation with the English one. -->
-    <string name="mobile_data_description">Para visualizar informações detalhadas sobre os locais, tais como fotografias, preços e avaliações, é necessário acesso à internet móvel.</string>
+    <string name="mobile_data_description">Para visualizar informações detalhadas sobre os locais, tais como fotografias, preços e avaliações, é necessário acesso à internet móvel</string>
     <string name="mobile_data_option_never">Nunca utilizar</string>
     <string name="mobile_data_option_ask">Perguntar sempre</string>
-    <string name="traffic_update_maps_text">Para ver os dados de tráfego, os mapas têm de ser atualizados.</string>
+    <string name="traffic_update_maps_text">Para ver os dados de tráfego, os mapas têm de ser atualizados</string>
     <string name="big_font">Aumentar tamanho da fonte no mapa</string>
     <string name="traffic_update_app">Atualize o CoMaps</string>
     <!-- "traffic" as in "road congestion" -->
@@ -559,7 +559,7 @@
     <string name="feedback_general">Opinão geral</string>
     <string name="prefs_languages_information">Utilizamos o sistema TTS para as instruções de voz. Muitos dispositivos Android usam o Google TTS, pode transferir ou atualizá-lo a partir do Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts)</string>
     <string name="prefs_languages_information_off">Para alguns idiomas, precisará de instalar outro sintetizador de voz ou um pacote de idiomas adicional a partir da loja de aplicações (Google Play, Galaxy Store, App Gallery, FDroid). Abra as Configurações do seu dispositivo → Idioma e entrada → Voz → Saída de texto para voz. Aqui pode gerir as configurações de síntese de voz (por exemplo, transferir um pacote de idioma para poder utilizá-lo sem estar ligado à Internet) ou selecionar outro motor de texto para voz.</string>
-    <string name="prefs_languages_information_off_link">Para obter mais informações, consulte este guia.</string>
+    <string name="prefs_languages_information_off_link">Para obter mais informações, consulte este guia</string>
     <string name="transliteration_title">Transliteração para o latim</string>
     <string name="learn_more">Saber mais</string>
     <!-- Subway exits for public transport marks on the map -->

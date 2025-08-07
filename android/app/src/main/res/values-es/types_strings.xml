@@ -37,7 +37,7 @@
     <string name="type.amenity.cafe">Café</string>
     <string name="type.amenity.car_rental">Alquiler de coches</string>
     <string name="type.amenity.motorcycle_rental">Alquiler de motocicletas</string>
-    <string name="type.amenity.car_sharing">Compartir coche</string>
+    <string name="type.amenity.car_sharing">Car Sharing</string>
     <string name="type.amenity.car_wash">Lavado de coches</string>
     <string name="type.amenity.casino">Casino</string>
     <string name="type.amenity.gambling">Juegos de apuestas</string>
@@ -50,7 +50,7 @@
     <string name="type.amenity.cinema">Cine</string>
     <string name="type.leisure.bowling_alley">Bolera</string>
     <string name="type.amenity.clinic">Clínica</string>
-    <string name="type.amenity.college">Colegio</string>
+    <string name="type.amenity.college">Facultad</string>
     <string name="type.amenity.community_centre">Centro comunitario</string>
     <string name="type.amenity.compressed_air">Aire comprimido</string>
     <string name="type.amenity.conference_centre">Centro de conferencias</string>

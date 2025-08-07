@@ -143,7 +143,7 @@
 "type.recycling.shoes" = "Обувки";
 "type.recycling.green_waste" = "Растителен/органичен отпадък";
 "type.recycling.cartons" = "Кашони";
-"type.amenity.restaurant" = "Заведение";
+"type.amenity.restaurant" = "Ресторант";
 "type.amenity.sanitary_dump_station" = "Станция за изхвърляне на резервоара за задържане";
 "type.amenity.school" = "Училище";
 
@@ -245,7 +245,7 @@
 "type.craft.brewery" = "Пивоварна";
 "type.craft.caterer" = "Кетъринг";
 "type.craft.carpenter" = "Марангоз";
-"type.craft.confectionery" = "Сладкарски изделия";
+"type.craft.confectionery" = "Сладкарница";
 "type.craft.electrician" = "Електротехник";
 "type.craft.electronics_repair" = "Ремонт на електроника";
 "type.craft.gardener" = "Градинар";
@@ -523,7 +523,7 @@
 
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.service.tunnel" = "Тунел";
-"type.highway.services" = "Service Area";
+"type.highway.services" = "Обслужвана зона";
 "type.highway.speed_camera" = "Радар";
 "type.highway.steps" = "Стълби";
 
@@ -678,7 +678,7 @@
 "type.landuse.farmyard" = "Стопански двор";
 "type.landuse.field" = "Поле";
 "type.landuse.flowerbed" = "Цветна леха";
-"type.landuse.forest" = "Forest";
+"type.landuse.forest" = "Гора";
 "type.landuse.forest.coniferous" = "Иглолистни гори";
 "type.landuse.forest.deciduous" = "Широколистна гора";
 "type.landuse.forest.mixed" = "Смесена гора";
@@ -852,7 +852,7 @@
 "type.place.country" = "Страна";
 "type.place.county" = "Графство";
 "type.place.farm" = "Ферма";
-"type.place.hamlet" = "Cело";
+"type.place.hamlet" = "Село";
 "type.place.island" = "Остров";
 "type.place.islet" = "Острови";
 "type.place.isolated_dwelling" = "Изолирано жилище";
@@ -1223,7 +1223,7 @@
 "type.shop.car_repair.tyres" = "Гумаджия";
 "type.shop.caravan" = "Автокъща на домове на колела";
 "type.shop.carpet" = "Килими";
-"type.shop.chemist" = "Химик";
+"type.shop.chemist" = "Битова химия";
 "type.shop.chocolate" = "Магазин за шоколад";
 "type.shop.clothes" = "Магазин за дрехи";
 "type.shop.coffee" = "Магазин за кафе";

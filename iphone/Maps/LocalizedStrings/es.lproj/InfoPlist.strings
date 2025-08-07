@@ -9,7 +9,7 @@
 "route" = "Ruta";
 
 /* Needed to explain why we always require access to GPS coordinates, and not only when the app is active. */
-"NSLocationAlwaysUsageDescription" = "Es necesario definir la ubicación actual en el entorno para disfrutar al máximo de la funcionalidad de la aplicación. Se emplea en las opciones de seguir la ruta y guardar el camino recorrido reciente.";
+"NSLocationAlwaysUsageDescription" = "La detección de la ubicación en segundo plano es necesaria para disfrutar plenamente de la funcionalidad de la aplicación. Se utiliza para la navegación y para grabar la ruta recorrida .";
 
 /* Needed to explain why we require access to GPS coordinates when the app is active. */
-"NSLocationWhenInUseUsageDescription" = "La definición de la ubicación actual se utiliza en las opciones de seguir la ruta y guardar el camino recorrido reciente.";
+"NSLocationWhenInUseUsageDescription" = "Determinar su ubicación es necesario para la navegación y para grabar la ruta recorrida recientemente.";

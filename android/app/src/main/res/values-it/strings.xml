@@ -225,7 +225,7 @@
     <!-- Settings «Route» category: «Tts language» title -->
     <string name="pref_tts_language_title">Lingua per la voce</string>
     <!-- Settings «Route» category: «Test Voice Directions» title -->
-    <string name="pref_tts_test_voice_title">Prova le indicazioni vocali (TTS, Text-To-Speech)</string>
+    <string name="pref_tts_test_voice_title">Prova le indicazioni vocali</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
     <string name="pref_tts_playing_test_voice">Controlla il volume o le impostazioni del sistema di sintesi vocale se ora non senti la voce</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
@@ -913,4 +913,7 @@
     <string name="pref_backup_status_summary_success">Ultimo backup riuscito</string>
     <string name="dialog_report_error_missing_folder">Il percorso di backup selezionato non è disponibile o non ha i permessi in scrittura. Selezionare un percorso differente.</string>
     <string name="panoramax">Immagine Panoramax</string>
+    <string name="open_now">Aperto adesso</string>
+    <string name="closed_now">Chiuso adesso</string>
+    <string name="at">alle %s</string>
 </resources>

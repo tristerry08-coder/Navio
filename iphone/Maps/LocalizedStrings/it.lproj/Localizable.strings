@@ -253,7 +253,7 @@
 "pref_tts_language_title" = "Lingua per la voce";
 
 /* Settings «Route» category: «Test Voice Directions» title */
-"pref_tts_test_voice_title" = "Prova le indicazioni vocali (TTS, Text-To-Speech)";
+"pref_tts_test_voice_title" = "Prova le indicazioni vocali";
 
 /* Title for "Other" section in TTS settings. */
 "pref_tts_other_section_title" = "Altro";
@@ -524,7 +524,7 @@
 "autodownload" = "Scaricamento automatico";
 
 /* Place Page opening hours text */
-"closed_now" = "Ora chiuso";
+"closed_now" = "Chiuso adesso";
 
 /* Place Page opening hours text */
 "daily" = "Tutti i giorni";

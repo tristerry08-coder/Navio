@@ -587,7 +587,7 @@
 "type.amenity.post_box" = "Mailbox";
 "type.place.hamlet" = "Hamlet";
 "type.hwtag.onedir_bicycle" = "hwtag-onedir_bicycle";
-"type.addr_interpolation" = "Address/Block";
+"type.addr_interpolation" = "വിലാസം/ബ്ലോക്ക്";
 "type.railway.subway_entrance.rotterdam" = "Subway Entrance";
 "type.man_made.water_tap" = "Water Tap";
 "type.amenity.library" = "Library";

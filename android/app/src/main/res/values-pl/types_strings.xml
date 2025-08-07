@@ -1408,4 +1408,5 @@
     <string name="type.aerialway.t.bar">Wyciąg T-bar</string>
     <string name="type.barrier.guard_rail">Barierka ochronna</string>
     <string name="type.railway.station.subway.qingdao">Stacja metra</string>
+    <string name="type.amenity.bicycle_parking.covered">Zadaszony parking dla rowerów</string>
 </resources>

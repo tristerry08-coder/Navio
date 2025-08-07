@@ -1501,6 +1501,6 @@
 "type.barrier.guard_rail" = "Barierka ochronna";
 "type.leisure.escape_game" = "Escape Room";
 "type.amenity.luggage_locker" = "Luggage Locker";
-"type.amenity.bicycle_parking.covered" = "Covered Bicycle Parking";
+"type.amenity.bicycle_parking.covered" = "Zadaszony parking dla rowerów";
 "type.post_office.post_partner" = "Post Partner";
 "type.amenity.ranger_station" = "Ranger Station";

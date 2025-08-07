@@ -253,7 +253,7 @@
 "pref_tts_language_title" = "Язык подсказок";
 
 /* Settings «Route» category: «Test Voice Directions» title */
-"pref_tts_test_voice_title" = "Протестировать голосовые подсказки (TTS, Text-To-Speech)";
+"pref_tts_test_voice_title" = "Попробовать голосовые подсказки";
 
 /* Title for "Other" section in TTS settings. */
 "pref_tts_other_section_title" = "Другой";
@@ -524,7 +524,7 @@
 "autodownload" = "Автозагрузка карт";
 
 /* Place Page opening hours text */
-"closed_now" = "Сейчас закрыто";
+"closed_now" = "Закрыто";
 
 /* Place Page opening hours text */
 "daily" = "Ежедневно";
@@ -623,7 +623,7 @@
 /* Error message in Editor when a user tries to set the number of floors for a building higher than %d floors */
 "error_enter_correct_storey_number" = "Количество этажей не должно превышать %d";
 "editor_zip_code" = "Почтовый индекс";
-"error_enter_correct_zip_code" = "Введите корректный почтовый индекс";
+"error_enter_correct_zip_code" = "Введите валидный почтовый индекс";
 
 /* Place Page title for long tap */
 "core_placepage_unknown_place" = "Точка на карте";
@@ -1099,5 +1099,5 @@
 "osm_profile_view_notes" = "Заметки";
 "pref_mapappearance_title" = "Оформление карты";
 "transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
-"pref_maplanguage_title" = "Map Language";
-"pref_maplanguage_local" = "Local Language";
+"pref_maplanguage_title" = "Язык карты";
+"pref_maplanguage_local" = "Местный язык";

@@ -34,7 +34,7 @@
 "type.amenity.cafe" = "Café";
 "type.amenity.car_rental" = "Alquiler de coches";
 "type.amenity.motorcycle_rental" = "Alquiler de motocicletas";
-"type.amenity.car_sharing" = "Compartir coche";
+"type.amenity.car_sharing" = "Car Sharing";
 "type.amenity.car_wash" = "Lavado de coches";
 "type.amenity.casino" = "Casino";
 "type.amenity.gambling" = "Juegos de apuestas";
@@ -47,7 +47,7 @@
 "type.amenity.cinema" = "Cine";
 "type.leisure.bowling_alley" = "Bolera";
 "type.amenity.clinic" = "Clínica";
-"type.amenity.college" = "Colegio";
+"type.amenity.college" = "Facultad";
 "type.amenity.community_centre" = "Centro comunitario";
 "type.amenity.compressed_air" = "Aire comprimido";
 "type.amenity.conference_centre" = "Centro de conferencias";

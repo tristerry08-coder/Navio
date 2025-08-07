@@ -16,7 +16,7 @@
 "kilometres" = "Kilómetros";
 
 /* Leave Review dialog - Review button */
-"leave_a_review" = "Escribir reseña";
+"leave_a_review" = "Escribir una reseña";
 
 /* Choose measurement on first launch alert - choose imperial system button */
 "miles" = "Millas";
@@ -60,13 +60,13 @@
 "continue_button" = "Continuar";
 
 /* "Add new bookmark list" dialog title */
-"add_new_set" = "Agregar un grupo nuevo";
+"add_new_set" = "Agregar una lista nueva";
 
 /* Add Bookmark list dialog - hint when the list name is empty */
 "bookmark_set_name" = "Nombre del grupo de marcadores";
 
 /* "Bookmark Lists" dialog title */
-"bookmark_sets" = "Grupos de marcadores";
+"bookmark_sets" = "Lista de marcadores";
 
 /* Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. */
 "bookmarks" = "Marcadores";
@@ -96,7 +96,7 @@
 "category_transport" = "Transporte";
 
 /* Search category for fuel stations; any changes should be duplicated in categories.txt @category_fuel! */
-"category_fuel" = "Gasolinera";
+"category_fuel" = "Estación de Servicio";
 
 /* Search category for parking lots; any changes should be duplicated in categories.txt @category_parking! */
 "category_parking" = "Aparcamiento";
@@ -154,13 +154,13 @@
 
 /* Search category for RV facilities; any changes should be duplicated in categories.txt @category_rv! */
 "category_rv" = "Instalaciones para autocaravanas";
-"share_bookmarks_email_body" = "¡Hola!\n\nAdjunto mis marcadores; ábrelos en CoMaps. Si no lo tienes instalado, puedes descargarlo aquí: https://www.comaps.app/download/\n\n¡Disfruta viajando con CoMaps!";
+"share_bookmarks_email_body" = "¡Hola!\n\nAdjunto mis marcadores; ábrelos en CoMaps. Si no lo tienes instalado, puedes descargarlo aquí: https://www.comaps.app/es/download/\n\n¡Disfruta viajando con CoMaps!";
 
 /* message title of loading file */
 "load_kmz_title" = "Cargando marcadores";
 
 /* Kmz file successful loading */
-"load_kmz_successful" = "¡Los marcadores se han cargado con éxito! Puede encontrarlos en el mapa o en la pantalla de Gestión de marcadores.";
+"load_kmz_successful" = "¡Los marcadores se han cargado con éxito! Puedes encontrarlos en el mapa o en la pantalla de Gestor de Marcadores.";
 
 /* Kml file loading failed */
 "load_kmz_failed" = "No se pudieron cargar los marcadores. El archivo podría tener daños o defectos.";
@@ -169,7 +169,7 @@
 "edit" = "Editar";
 
 /* Warning message when doing search around current position */
-"unknown_current_position" = "Aún no se ha determinado su ubicación";
+"unknown_current_position" = "Aún no se ha determinado tu ubicación";
 
 /* Subject for emailed bookmark */
 "bookmark_share_email_subject" = "¡Mira mi marcador en el mapa de CoMaps!";
@@ -178,7 +178,7 @@
 "my_position_share_email_subject" = "¡Mira mi ubicación actual en el mapa en CoMaps!";
 
 /* Share by email button text, also used in editor and About. */
-"email" = "Correo";
+"email" = "Correo electrónico";
 
 /* Text for message to copy something */
 "copy_to_clipboard" = "Copiar al portapapeles";
@@ -198,13 +198,13 @@
 "version: %@ (%@)\nmap data: %@" = "Versión: %@ (%@)\nDatos del mapa: %@";
 
 /* Title for tracks category in bookmarks manager */
-"tracks_title" = "Trayectos";
+"tracks_title" = "Trazas";
 
 /* Length of track in cell that describes route */
 "length" = "Longitud";
 "share_my_location" = "Compartir mi ubicación";
 "prefs_group_route" = "Navegación";
-"pref_zoom_title" = "Botones de zum";
+"pref_zoom_title" = "Botones de zoom";
 "pref_left_button_type" = "Botón Principal Izquierdo";
 
 /* Settings «Map» category: «Appearance» title */
@@ -238,7 +238,7 @@
 "pref_map_3d_buildings_disabled_summary" = "Los edificios 3D se desactivan en el modo de ahorro de energía";
 
 /* Settings «Route» category: «Tts enabled» title */
-"pref_tts_title" = "Instrucciones de voz";
+"pref_tts_title" = "Indicaciones por voz";
 
 /* Settings «Route» category: «Tts enable» title */
 "pref_tts_enable_title" = "Habilitar Indicaciones por Voz";
@@ -1097,7 +1097,7 @@
 "edit_track" = "Editar trayecto";
 "osm_profile_view_edit_history" = "Ver historial de ediciones";
 "osm_profile_view_notes" = "Ver notas";
-"pref_mapappearance_title" = "Apariencia del Mapa";
+"pref_mapappearance_title" = "Apariencia del mapa";
 "pref_maplanguage_title" = "Idioma del mapa";
 "transliteration_title_disabled_summary" = "Deshabilitado cuando siempre se usa el idioma local para el mapa";
-"pref_maplanguage_local" = "Idioma Local";
+"pref_maplanguage_local" = "Idioma local";

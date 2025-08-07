@@ -672,7 +672,7 @@
 
 /* In most (European) countries, сemeteries are usually independent of places of worship (e.g. military cemeteries), while grave yards are usually the yard of a place of worship. */
 "type.landuse.cemetery.christian" = "基督教墓地";
-"type.landuse.religious" = "Religious Land";
+"type.landuse.religious" = "宗教用地";
 "type.landuse.commercial" = "商业区";
 "type.landuse.construction" = "建设区域";
 "type.landuse.education" = "教育设施";
@@ -1265,8 +1265,8 @@
 "type.shop.laundry" = "洗衣店";
 "type.shop.mall" = "商场";
 "type.shop.massage" = "按摩院";
-"type.shop.mobile_phone" = "手机专卖店";
-"type.shop.money_lender" = "商店";
+"type.shop.mobile_phone" = "手机店";
+"type.shop.money_lender" = "借贷机构";
 "type.shop.motorcycle" = "摩托车商店";
 "type.shop.motorcycle_repair" = "摩托车维修";
 "type.shop.music" = "唱片店";
@@ -1492,15 +1492,15 @@
 "type.sport.diving" = "高台跳水";
 "type.man_made.crane" = "起重机";
 "type.railway.station.subway.qingdao" = "地铁车站";
-"type.natural.wetland.tidalflat" = "Tidal Flat";
-"type.natural.wetland.swamp" = "Swamp";
-"type.natural.wetland.saltmarsh" = "Salt Marsh";
-"type.natural.wetland.mangrove" = "Mangrove";
-"type.natural.wetland.fen" = "Fen";
-"type.natural.wetland.saltmarsh.tidal" = "Tidal Salt Marsh";
-"type.natural.wetland.reedbed" = "Reed Bed";
-"type.leisure.escape_game" = "Escape Room";
-"type.amenity.luggage_locker" = "Luggage Locker";
-"type.amenity.ranger_station" = "Ranger Station";
-"type.amenity.bicycle_parking.covered" = "Covered Bicycle Parking";
+"type.natural.wetland.tidalflat" = "潮汐平原";
+"type.natural.wetland.swamp" = "沼泽";
+"type.natural.wetland.saltmarsh" = "盐沼";
+"type.natural.wetland.mangrove" = "红树林";
+"type.natural.wetland.fen" = "湿地";
+"type.natural.wetland.saltmarsh.tidal" = "潮汐盐沼";
+"type.natural.wetland.reedbed" = "芦苇地";
+"type.leisure.escape_game" = "密室逃脱";
+"type.amenity.luggage_locker" = "行李寄存点";
+"type.amenity.ranger_station" = "护林站";
+"type.amenity.bicycle_parking.covered" = "有顶棚自行车停车处";
 "type.post_office.post_partner" = "Post Partner";

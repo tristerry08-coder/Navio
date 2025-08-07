@@ -241,7 +241,7 @@
 "pref_tts_title" = "Gesproken instructies";
 
 /* Settings «Route» category: «Tts enable» title */
-"pref_tts_enable_title" = "Enable Voice Instructions";
+"pref_tts_enable_title" = "Gesproken instructies inschakelen";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "Straatnamen aankondigen";
@@ -253,7 +253,7 @@
 "pref_tts_language_title" = "Gesproken taal";
 
 /* Settings «Route» category: «Test Voice Directions» title */
-"pref_tts_test_voice_title" = "Test gesproken aanwijzingen (TTS, Text-To-Speech)";
+"pref_tts_test_voice_title" = "Test gesproken aanwijzingen";
 
 /* Title for "Other" section in TTS settings. */
 "pref_tts_other_section_title" = "Andere";
@@ -1097,7 +1097,7 @@
 "edit_track" = "Route bewerken";
 "osm_profile_view_edit_history" = "Bewerkingsgeschiedenis bekijken";
 "osm_profile_view_notes" = "Opmerkingen bekijken";
-"pref_mapappearance_title" = "Map Appearance";
-"pref_maplanguage_title" = "Map Language";
+"pref_mapappearance_title" = "Kaart uiterlijk";
+"pref_maplanguage_title" = "Kaarttaal";
 "transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
-"pref_maplanguage_local" = "Local Language";
+"pref_maplanguage_local" = "Lokale Taal";

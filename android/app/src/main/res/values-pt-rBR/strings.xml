@@ -23,9 +23,9 @@
     <!-- View and button titles for accessibility, please also edit it in iphone/plist.txt -->
     <string name="search">Buscar</string>
     <!-- Search box placeholder text; Used when searching on the map itself, not when searching for a map -->
-    <string name="search_map">Procurar mapa</string>
+    <string name="search_map">Buscar no mapa</string>
     <!-- Location services are disabled by user alert - message -->
-    <string name="location_is_disabled_long_text">Atualmente todos os serviços de localização para este dispositivo ou aplicativo estão desativados. Por favor ative-os em configurações.</string>
+    <string name="location_is_disabled_long_text">No momento, todos os Serviços de Localização deste dispositivo ou aplicativo estão desativados. Ative-os nas Configurações.</string>
     <!-- A dialog text, that warns a user that Precise Location is disabled and suggests to turn it on -->
     <string name="precise_location_is_disabled_long_text">Para garantir uma navegação precisa, ative a opção \"Melhorar Precisão de local\" nas configurações</string>
     <!-- View and button titles for accessibility -->
@@ -36,7 +36,7 @@
     <string name="try_again">Tentar novamente</string>
     <string name="about_menu_title">Sobre o CoMaps</string>
     <!-- Text in About screen -->
-    <string name="about_headline">Um projeto aberto, movido pela comunidade</string>
+    <string name="about_headline">Projeto aberto desenvolvido pela comunidade</string>
     <!-- Text in About screen -->
     <string name="about_proposition_1">• Fácil de usar e elegante</string>
     <!-- Text in About screen -->

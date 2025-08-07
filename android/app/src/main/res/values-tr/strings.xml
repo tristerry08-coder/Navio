@@ -229,7 +229,7 @@
     <!-- Settings «Map» category: «3D buildings» title -->
     <string name="pref_map_3d_buildings_title">3B yapılar</string>
     <!-- A message in Settings/Preferences explaining why is it not possible to enable 3D buildings when max power saving mode is enabled -->
-    <string name="pref_map_3d_buildings_disabled_summary">3B yapılar güç tutum kipindeyken kapatılır</string>
+    <string name="pref_map_3d_buildings_disabled_summary">3B yapılar güç tasarrufu modundayken kapatılır</string>
     <!-- Settings «Route» category: «Tts enabled» title -->
     <string name="pref_tts_enable_title">Sesli Yönlendirme</string>
     <!-- Settings «Route» category: «Tts announce street names» title -->
@@ -272,7 +272,7 @@
     <!-- Toast text when compass calibration may improve the correctness of the current position arrow -->
     <string name="compass_calibration_required">Pusulayı kalibre etmek ve haritadaki ok yönünü düzeltmek için telefonu sekiz şeklinde hareket ettirin.</string>
     <!-- Toast text when user hides UI with a long tap anywhere on the map -->
-    <string name="long_tap_toast">Arayüzü görmek için haritaya uzun basın</string>
+    <string name="long_tap_toast">Seçenekleri görmek için haritaya tekrar basılı tutun</string>
     <!-- Update all button text -->
     <string name="downloader_update_all_button">Tümünü Güncelle</string>
     <!-- Cancel all button text -->
@@ -352,10 +352,10 @@
     <string name="dialog_routing_disclaimer_borders">— Sınır bölgelerinde rotalar konusunda dikkatli olun: uygulamamızca oluşturulan rotalar bazen izin verilmeyen yerlerdeki ülke sınırlarından geçebilir.</string>
     <string name="dialog_routing_disclaimer_beware">Lütfen yolda özenli ve güvenli olun!</string>
     <string name="dialog_routing_check_gps">GPS sinyalini denetle</string>
-    <string name="dialog_routing_error_location_not_found">Rota oluşturulamıyor. Şu anki GPS koordinatları tanımlanamadı.</string>
+    <string name="dialog_routing_error_location_not_found">Rota oluşturulamıyor. Mevcut GPS koordinatları belirlenemedi.</string>
     <string name="dialog_routing_location_turn_wifi">Lütfen GPS sinyalinizi denetleyin. Wi-Fi\'ı etkinleştirmek konum doğruluğunu artırır.</string>
     <string name="dialog_routing_location_turn_on">Konum hizmetlerini etkinleştir</string>
-    <string name="dialog_routing_location_unknown_turn_on">Şu anki GPS koordinatları belirlenemiyor. Rota hesaplamak için konum hizmetlerini etkinleştirin.</string>
+    <string name="dialog_routing_location_unknown_turn_on">Mevcut GPS koordinatları belirlenemiyor. Rota hesaplamak için konum hizmetlerini etkinleştirin.</string>
     <string name="dialog_routing_unable_locate_route">Rota belirlenemiyor</string>
     <string name="dialog_routing_cant_build_route">Rota oluşturulamıyor.</string>
     <string name="dialog_routing_change_start_or_end">Lütfen başlangıç noktanızı veya hedefinizi ayarlayın.</string>
@@ -595,7 +595,7 @@
     <!-- User selected the start of a route by pressing Route From. Now the destination of a route should be selected using search or by tapping on the map and then pressing "Route To". -->
     <string name="routing_add_finish_point">Bir hedef noktası eklemek için aramayı kullanın veya haritaya dokunun</string>
     <string name="planning_route_manage_route">Rotayı yönet</string>
-    <string name="button_plan">Plan</string>
+    <string name="button_plan">Hesapla</string>
     <string name="placepage_remove_stop">Durağı Kaldır</string>
     <string name="placepage_add_stop">Ara nokta ekle</string>
     <!-- Alert to ask user relogin to OpenStreetMap with OAuth2 flow after OAuth1 authentication is deprecated. -->
@@ -663,7 +663,7 @@
     <string name="pref_tts_speedcams_always">Her zaman uyar</string>
     <!-- Speed camera settings menu option - Never warn (about speedcams) -->
     <string name="pref_tts_speedcams_never">Hiçbir zaman uyarma</string>
-    <string name="power_managment_title">Düşük güç modu</string>
+    <string name="power_managment_title">Güç tasarrufu modu</string>
     <string name="power_managment_description">Kimi işlevler pahasına olsa da güç kullanımını düşürmeyi dener.</string>
     <string name="power_managment_setting_never">Asla</string>
     <string name="power_managment_setting_auto">Pil düşükken</string>
@@ -787,7 +787,7 @@
     <!-- App tip #03 -->
     <string name="app_tip_03">Bir yazılım mühendisi / geliştirici tanıyorsanız, ondan ihtiyacınız olan bir özelliği uygulamaya eklemesini isteyebilirsiniz.</string>
     <!-- App tip #04 -->
-    <string name="app_tip_04">Herhangi bir şeyi seçmek için haritaya dokunun. Uzun dokunarak arayüz gizlenip gösterilebilir.</string>
+    <string name="app_tip_04">Herhangi bir şeyi seçmek için haritada üzerine dokunun. Ekrandaki seçenekleri gizlemek ve geri getirmek için ise basılı tutun.</string>
     <!-- App tip #05 -->
     <string name="app_tip_05">Haritada şu anki konumunuzu seçebileceğinizi biliyor musunuz?</string>
     <!-- App tip #06 -->
@@ -915,7 +915,7 @@
     <string name="pref_backup_history_title">Saklanacak yedekleme sayısı</string>
     <string name="ruler">Cetvel</string>
     <string name="bookmark_color">Yer imi rengi</string>
-    <string name="open_now">Şimdi aç</string>
+    <string name="open_now">Şu an açık</string>
     <string name="closed_now">Şimdi kapandı</string>
     <string name="at">%s\'da</string>
     <string name="pref_backup_title">Yer imleri ve izlerin yedeği</string>

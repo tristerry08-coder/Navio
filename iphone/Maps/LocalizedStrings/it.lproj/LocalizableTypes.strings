@@ -1384,7 +1384,7 @@
 "type.attraction.water_slide" = "Scivolo d'acqua";
 "type.tourism.attraction.specified" = "Attrattiva";
 "type.tourism.camp_site" = "Campeggio";
-"type.tourism.caravan_site" = "Area per campeggiatori";
+"type.tourism.caravan_site" = "Area camper";
 
 /* A rentable countryside vacation house. */
 "type.tourism.chalet" = "Cottage per le vacanze";
@@ -1495,7 +1495,7 @@
 "type.natural.wetland.mangrove" = "Mangrovie";
 "type.natural.wetland.tidalflat" = "Piana di Marea";
 "type.natural.wetland.saltmarsh" = "Palude Salmastra";
-"type.natural.wetland.fen" = "Paludre";
+"type.natural.wetland.fen" = "Palude";
 "type.natural.wetland.saltmarsh.tidal" = "Palude Salmastra di Marea";
 "type.natural.wetland.reedbed" = "Giunco";
 "type.leisure.escape_game" = "Escape Room";

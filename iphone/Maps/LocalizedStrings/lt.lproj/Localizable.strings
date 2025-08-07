@@ -214,7 +214,7 @@
 "pref_appearance_dark" = "Tamsi";
 
 /* Generic «Disabled» string */
-"disabled" = "Disabled";
+"disabled" = "Išjungta";
 
 /* Generic «Off» string */
 "off" = "Išjungti";
@@ -238,7 +238,7 @@
 "pref_tts_title" = "Balso instrukcijos";
 
 /* Settings «Route» category: «Tts enable» title */
-"pref_tts_enable_title" = "Enable Voice Instructions";
+"pref_tts_enable_title" = "Įgalinti balso instrukcijas";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "Sakyti gatvių pavadinimus";
@@ -250,7 +250,7 @@
 "pref_tts_language_title" = "Balso instrukcijų kalba";
 
 /* Settings «Route» category: «Test Voice Directions» title */
-"pref_tts_test_voice_title" = "Išbandyti balso instrukcijas (kalbos sintezę)";
+"pref_tts_test_voice_title" = "Išbandyti balso instrukcijas";
 
 /* Title for "Other" section in TTS settings. */
 "pref_tts_other_section_title" = "Kita";
@@ -325,7 +325,7 @@
 "volunteer" = "Prisidėti";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Sekite ar susisiekite su mumis";
+"follow_us" = "Palaikykime ryšį";
 
 /* Alert text */
 "email_error_body" = "El. pašto programa nenustatyta. Sukonfigūruokite ją arba susisiekite su mumis adresu %@";
@@ -1018,7 +1018,7 @@
 "bugreport_alert_message" = "Ar norite išsiųsti pranešimą apie klaidą programos kūrėjams?\nTokių pranešimų mes tikimės iš savo naudotojų, nes „CoMaps“ nerenka jokios informacijos apie klaidas automatiškai. Iš anksto dėkojame, kad prisidedate prie „CoMaps“ tobulinimo!";
 
 /* Title for the iCloud syncronization setting */
-"icloud_sync" = "iCloud Syncronization (Beta)";
+"icloud_sync" = "„iCloud“ sinchronizavimas (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "„iCloud“ sinchronizavimo įjungimas";
@@ -1096,6 +1096,6 @@
 "osm_profile_view_edit_history" = "Peržiūrėti keitimų istoriją";
 "about_proposition_3" = "Skaidrus ir nesiekiantis pelno";
 "pref_mapappearance_title" = "Žemėlapio išvaizda";
-"pref_maplanguage_title" = "Map Language";
-"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
-"pref_maplanguage_local" = "Local Language";
+"pref_maplanguage_title" = "Žemėlapio kalba";
+"transliteration_title_disabled_summary" = "Negalima, kai žemėlapyje visuomet naudojama vietos kalba";
+"pref_maplanguage_local" = "Vietos kalba";

@@ -231,7 +231,7 @@
     <!-- Settings «Route» category: «Tts language» title -->
     <string name="pref_tts_language_title">Језик гласа</string>
     <!-- Settings «Route» category: «Test Voice Directions» title -->
-    <string name="pref_tts_test_voice_title">Тестирај гласовне инструкције (Текст-у-говор)</string>
+    <string name="pref_tts_test_voice_title">Тестирај гласовне инструкције</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
     <string name="pref_tts_playing_test_voice">Проверите гласноћу или системска подешавања Текста-у-говор ако сада не чујете глас</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
@@ -376,7 +376,7 @@
     <string name="hide">Сакриј</string>
     <string name="categories">Категорије</string>
     <string name="history">Историја</string>
-    <string name="search_not_found">Упс, нема резултата.</string>
+    <string name="search_not_found">Упс, нема резултата</string>
     <!-- The message when user did not find anything in the search. -->
     <string name="search_not_found_query">Преузмите регион где вршите претрагу, или пробајте да додате име оближњег насеља.</string>
     <string name="search_history_title">Историја претраге</string>

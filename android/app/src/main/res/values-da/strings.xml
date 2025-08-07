@@ -220,7 +220,7 @@
     <!-- Settings «Route» category: «Tts language» title -->
     <string name="pref_tts_language_title">Stemmesprog</string>
     <!-- Settings «Route» category: «Test Voice Directions» title -->
-    <string name="pref_tts_test_voice_title">Test stemmeanvisninger (TTS, Text-To-Speech)</string>
+    <string name="pref_tts_test_voice_title">Test stemmevejledninger</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
     <string name="pref_tts_playing_test_voice">Tjek lydstyrken eller systemets tekst-til-tale-indstillinger, hvis du ikke kan høre stemmen nu</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->

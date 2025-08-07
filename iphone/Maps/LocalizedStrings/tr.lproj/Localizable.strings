@@ -235,7 +235,7 @@
 "pref_map_3d_buildings_title" = "3B yapılar";
 
 /* A message in Settings/Preferences explaining why is it not possible to enable 3D buildings when max power saving mode is enabled */
-"pref_map_3d_buildings_disabled_summary" = "3B yapılar güç tutum kipindeyken kapatılır";
+"pref_map_3d_buildings_disabled_summary" = "3B yapılar güç tasarrufu modundayken kapatılır";
 
 /* Settings «Route» category: «Tts enabled» title */
 "pref_tts_title" = "Sesli Yönlendirme";
@@ -340,7 +340,7 @@
 "pref_calibration_title" = "Pusula kalibrasyonu";
 
 /* Toast text when user hides UI with a long tap anywhere on the map */
-"long_tap_toast" = "Arayüzü görmek için haritaya uzun basın";
+"long_tap_toast" = "Seçenekleri görmek için haritaya tekrar basılı tutun";
 
 /* Update all button text */
 "downloader_update_all_button" = "Tümünü Güncelle";
@@ -447,10 +447,10 @@
 "dialog_routing_disclaimer_borders" = "— Sınır bölgelerinde rotalar konusunda dikkatli olun: uygulamamızca oluşturulan rotalar bazen izin verilmeyen yerlerdeki ülke sınırlarından geçebilir.";
 "dialog_routing_disclaimer_beware" = "Lütfen yolda özenli ve güvenli olun!";
 "dialog_routing_check_gps" = "GPS sinyalini denetle";
-"dialog_routing_error_location_not_found" = "Rota oluşturulamıyor. Şu anki GPS koordinatları tanımlanamadı.";
+"dialog_routing_error_location_not_found" = "Rota oluşturulamıyor. Mevcut GPS koordinatları belirlenemedi.";
 "dialog_routing_location_turn_wifi" = "Lütfen GPS sinyalinizi denetleyin. Wi-Fi'ı etkinleştirmek konum doğruluğunu artırır.";
 "dialog_routing_location_turn_on" = "Konum hizmetlerini etkinleştir";
-"dialog_routing_location_unknown_turn_on" = "Şu anki GPS koordinatları belirlenemiyor. Rota hesaplamak için konum hizmetlerini etkinleştirin.";
+"dialog_routing_location_unknown_turn_on" = "Mevcut GPS koordinatları belirlenemiyor. Rota hesaplamak için konum hizmetlerini etkinleştirin.";
 "dialog_routing_download_files" = "Gerekli dosyaları indir";
 "dialog_routing_download_and_update_all" = "Planlanan yoldaki tüm harita ve rota bilgilerini indirip güncelleyerek rotayı hesaplayın.";
 "dialog_routing_unable_locate_route" = "Rota belirlenemiyor";
@@ -749,7 +749,7 @@
 /* User selected the start of a route by pressing Route From. Now the destination of a route should be selected using search or by tapping on the map and then pressing "Route To". */
 "routing_add_finish_point" = "Bir hedef noktası eklemek için aramayı kullanın veya haritaya dokunun";
 "planning_route_manage_route" = "Rotayı yönet";
-"button_plan" = "Plan";
+"button_plan" = "Hesapla";
 "placepage_remove_stop" = "Durağı Kaldır";
 "planning_route_remove_title" = "Kaldırmak için buraya sürükleyin";
 "placepage_add_stop" = "Ara nokta ekle";
@@ -814,7 +814,7 @@
 
 /* Speed camera settings menu option - Never warn (about speedcams) */
 "pref_tts_speedcams_never" = "Hiçbir zaman uyarma";
-"power_managment_title" = "Düşük güç modu";
+"power_managment_title" = "Güç tasarrufu modu";
 "power_managment_description" = "Kimi işlevler pahasına olsa da güç kullanımını düşürmeyi dener.";
 "power_managment_setting_never" = "Asla";
 "power_managment_setting_auto" = "Pil düşükken";
@@ -972,7 +972,7 @@
 "app_tip_03" = "Bir yazılım mühendisi / geliştirici tanıyorsanız, ondan ihtiyacınız olan bir özelliği uygulamaya eklemesini isteyebilirsiniz.";
 
 /* App tip #04 */
-"app_tip_04" = "Herhangi bir şeyi seçmek için haritaya dokunun. Uzun dokunarak arayüz gizlenip gösterilebilir.";
+"app_tip_04" = "Herhangi bir şeyi seçmek için haritada üzerine dokunun. Ekrandaki seçenekleri gizlemek ve geri getirmek için ise basılı tutun.";
 
 /* App tip #05 */
 "app_tip_05" = "Haritada şu anki konumunuzu seçebileceğinizi biliyor musunuz?";

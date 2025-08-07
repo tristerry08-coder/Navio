@@ -250,7 +250,7 @@
 "pref_tts_language_title" = "Језик гласа";
 
 /* Settings «Route» category: «Test Voice Directions» title */
-"pref_tts_test_voice_title" = "Тестирај гласовне инструкције (Текст-у-говор)";
+"pref_tts_test_voice_title" = "Тестирај гласовне инструкције";
 
 /* Title for "Other" section in TTS settings. */
 "pref_tts_other_section_title" = "Остало";
@@ -325,7 +325,7 @@
 "volunteer" = "Волонтирајте";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Контактирајте нас";
+"follow_us" = "Повежите се с нама";
 
 /* Alert text */
 "email_error_body" = "Email клијент није подешен. Молимо вас да га подесите или нас контактирајте на %@";

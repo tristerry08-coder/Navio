@@ -79,7 +79,7 @@
     <string name="type.craft.brewery">Пивоварна</string>
     <string name="type.craft.caterer">Кетъринг</string>
     <string name="type.craft.carpenter">Марангоз</string>
-    <string name="type.craft.confectionery">Сладкарски изделия</string>
+    <string name="type.craft.confectionery">Сладкарница</string>
     <string name="type.craft.electrician">Електротехник</string>
     <string name="type.craft.electronics_repair">Ремонт на електроника</string>
     <string name="type.craft.gardener">Градинар</string>
@@ -354,7 +354,7 @@
     <string name="type.place.country">Страна</string>
     <string name="type.place.county">Графство</string>
     <string name="type.place.farm">Ферма</string>
-    <string name="type.place.hamlet">Cело</string>
+    <string name="type.place.hamlet">Село</string>
     <string name="type.place.island">Остров</string>
     <string name="type.place.islet">Острови</string>
     <string name="type.place.isolated_dwelling">Изолирано жилище</string>
@@ -595,7 +595,7 @@
     <string name="type.recycling.plastic_bottles">Пластмасови бутилки</string>
     <string name="type.recycling.cardboard">Картон</string>
     <string name="type.recycling.shoes">Обувки</string>
-    <string name="type.amenity.restaurant">Заведение</string>
+    <string name="type.amenity.restaurant">Ресторант</string>
     <string name="type.amenity.school">Училище</string>
     <string name="type.amenity.shower">Душ</string>
     <string name="type.amenity.telephone">Телефон</string>
@@ -659,7 +659,7 @@
     <string name="type.shop.car_parts">Магазин за авточасти</string>
     <string name="type.shop.car_repair">Сервиз за коли</string>
     <string name="type.shop.car_repair.tyres">Гумаджия</string>
-    <string name="type.shop.chemist">Химик</string>
+    <string name="type.shop.chemist">Битова химия</string>
     <string name="type.shop.pet">Магазин за животни</string>
     <string name="type.shop.seafood">Риба</string>
     <string name="type.shop.shoes">Магазин за обувки</string>
@@ -1370,4 +1370,6 @@
     <string name="type.piste_type.downhill.advanced.area">Спускане със ски за напреднали</string>
     <string name="type.piste_type.downhill.freeride">Свободно каране спускане със ски</string>
     <string name="type.piste_type.downhill.novice.area">Спускане със ски за начинаещи</string>
+    <string name="type.highway.services">Обслужвана зона</string>
+    <string name="type.landuse.forest">Гора</string>
 </resources>

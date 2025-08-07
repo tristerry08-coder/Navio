@@ -9,7 +9,7 @@
     <string name="delete">Удалить</string>
     <string name="download_maps">Загрузить карты</string>
     <!-- Settings/Downloader - info for country when download fails -->
-    <string name="download_has_failed">Ошибка загрузки. Нажмите, чтобы повторить попытку.</string>
+    <string name="download_has_failed">Ошибка загрузки. Нажмите, чтобы повторить попытку</string>
     <!-- Settings/Downloader - info for country which started downloading -->
     <string name="downloading">Загружается…</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->
@@ -32,7 +32,7 @@
     <!-- A dialog title, that warns a user that Precise Location is disabled and suggests to turn it on -->
     <string name="limited_accuracy">Точность местоположения ограничена</string>
     <!-- A dialog text, that warns a user that Precise Location is disabled and suggests to turn it on -->
-    <string name="precise_location_is_disabled_long_text">Включите в настройках точное определение местоположения.</string>
+    <string name="precise_location_is_disabled_long_text">Включите точное определение местоположения в настройках</string>
     <!-- View and button titles for accessibility -->
     <string name="zoom_to_country">Показать на карте</string>
     <!-- Message to display at the center of the screen when the country download has failed -->
@@ -91,7 +91,7 @@
     <!-- Header of settings activity where user defines storage path -->
     <string name="maps_storage">Сохранять карты в</string>
     <!-- Detailed description of Maps Storage settings button -->
-    <string name="maps_storage_summary">Выберите папку куда загружать карты.</string>
+    <string name="maps_storage_summary">Выберите место размещения карт</string>
     <!-- E.g. "Downloaded maps: 500Mb" in Maps Storage settings -->
     <string name="maps_storage_downloaded">Загруженные карты</string>
     <!-- Internal storage type in Maps Storage settings (not accessible by the user) -->
@@ -182,7 +182,7 @@
     <!-- Warning message when doing search around current position -->
     <string name="unknown_current_position">Ваше местоположение ещё не определено</string>
     <!-- Alert message that we can't run Map Storage settings due to some reasons. -->
-    <string name="cant_change_this_setting">Извините, настройки места хранения карт сейчас недоступны.</string>
+    <string name="cant_change_this_setting">Извините, выбор места размещения карт сейчас недоступен</string>
     <!-- Alert message that downloading is in progress. -->
     <string name="downloading_is_active">Идет процесс загрузки карт.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
@@ -240,9 +240,9 @@
     <!-- Settings «Route» category: «Tts language» title -->
     <string name="pref_tts_language_title">Язык подсказок</string>
     <!-- Settings «Route» category: «Test Voice Directions» title -->
-    <string name="pref_tts_test_voice_title">Протестировать голосовые подсказки (TTS, Text-To-Speech)</string>
+    <string name="pref_tts_test_voice_title">Попробовать голосовые подсказки</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
-    <string name="pref_tts_playing_test_voice">Проверьте громкость или системные настройки преобразования текста в речь, если сейчас ничего не слышно.</string>
+    <string name="pref_tts_playing_test_voice">Проверьте громкость или системные настройки преобразования текста в речь, если сейчас ничего не слышно</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
     <string name="pref_tts_unavailable">Не доступны</string>
     <string name="pref_map_auto_zoom">Автомасштабирование</string>
@@ -387,11 +387,11 @@
     <string name="hide">Скрыть</string>
     <string name="categories">Категории</string>
     <string name="history">История</string>
-    <string name="search_not_found">К сожалению, мы ничего не нашли.</string>
+    <string name="search_not_found">Ничего не нашлось</string>
     <!-- The message when user did not find anything in the search. -->
     <string name="search_not_found_query">Загрузите регион, в котором ищете, или попробуйте добавить название близлежащего города/деревни.</string>
     <string name="search_history_title">История поиска</string>
-    <string name="search_history_text">Быстрый доступ к последним поисковым запросам.</string>
+    <string name="search_history_text">Быстрый доступ к последним поисковым запросам</string>
     <string name="clear_search">Очистить историю поиска</string>
     <!-- Place Page link to Wikipedia article (if map object has it). -->
     <string name="read_in_wikipedia">Википедия</string>
@@ -399,7 +399,7 @@
     <string name="p2p_start">Начать</string>
     <string name="p2p_from_here">Отсюда</string>
     <string name="p2p_to_here">Сюда</string>
-    <string name="p2p_only_from_current">Навигация возможна только из текущего местоположения.</string>
+    <string name="p2p_only_from_current">Навигация возможна только от текущего местоположения</string>
     <string name="p2p_reroute_from_current">Хотите перестроить маршрут от вашего местоположения?</string>
     <!-- Edit open hours/set time and minutes dialog -->
     <string name="next_button">Далее</string>
@@ -471,14 +471,14 @@
     <string name="level">Этаж</string>
     <!-- Building level -->
     <string name="level_value_generic">Этаж: %s</string>
-    <string name="downloader_delete_map_dialog">Вместе с картой удалятся и внесённые вами правки на этой карте.</string>
+    <string name="downloader_delete_map_dialog">Вместе с картой будут удалены и все внесённые вами правки</string>
     <string name="downloader_update_maps">Обновите карты</string>
     <string name="downloader_mwm_migration_dialog">Для построения маршрутов необходимо обновить все карты и построить маршрут заново.</string>
     <string name="downloader_search_field_hint">Найти карту</string>
     <string name="common_check_internet_connection_dialog">Проверьте настройки и убедитесь, что устройство подключено к интернету.</string>
     <string name="downloader_no_space_title">Недостаточно места</string>
     <string name="downloader_no_space_message">Удалите ненужные данные</string>
-    <string name="editor_login_error_dialog">Произошла ошибка при авторизации.</string>
+    <string name="editor_login_error_dialog">Не удалось войти</string>
     <string name="editor_profile_changes">Учтённые правки</string>
     <string name="editor_focus_map_on_location">Перетащите карту, чтобы поместить крестик на место расположения добавляемого объекта или заведения.</string>
     <string name="editor_edit_place_title">Редактирование</string>
@@ -504,7 +504,7 @@
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Количество этажей не должно превышать %d</string>
     <string name="editor_zip_code">Почтовый индекс</string>
-    <string name="error_enter_correct_zip_code">Введите корректный почтовый индекс</string>
+    <string name="error_enter_correct_zip_code">Введите валидный почтовый индекс</string>
     <!-- Place Page title for long tap -->
     <string name="core_placepage_unknown_place">Точка на карте</string>
     <!-- Title for OSM note section in the editor -->
@@ -523,7 +523,7 @@
     <string name="editor_category_unsuitable_text">CoMaps позволяет добавлять на карту только простые типы объектов, то есть никаких городов, дорог, озер, контуров зданий. Пожалуйста, добавляйте такие категории на сайте <a href="https://www.openstreetmap.org">OpenStreetMap.org</a>. Также рекомендуем ознакомиться с нашими <a href="https://www.comaps.app/support/advanced-map-editing/">подробными пошаговыми инструкциями и другими приложениями для редактирования карты</a>.</string>
     <string name="downloader_no_downloaded_maps_title">У вас нет загруженных карт</string>
     <string name="downloader_no_downloaded_maps_message">Загрузите необходимые карты, чтобы находить места и пользоваться навигацией без интернета.</string>
-    <string name="current_location_unknown_error_title">Местоположение не найдено.</string>
+    <string name="current_location_unknown_error_title">Текущее местоположение неизвестно</string>
     <!-- abbreviation for meters -->
     <string name="m">м</string>
     <!-- abbreviation for kilometers -->
@@ -562,7 +562,7 @@
     <!-- Displayed when saving some edits to the map to warn against publishing personal data -->
     <string name="editor_share_to_all_dialog_title">Отправить всем пользователям?</string>
     <!-- Dialog before publishing the modifications to the public map. -->
-    <string name="editor_share_to_all_dialog_message_1">Убедитесь, что вы не ввели личные данные.</string>
+    <string name="editor_share_to_all_dialog_message_1">Убедитесь, что вы не указали никаких личных данных</string>
     <string name="editor_share_to_all_dialog_message_2">Редакторы OpenStreetMap проверят изменения и свяжутся с вами, если у них возникнут вопросы.</string>
     <string name="navigation_stop_button">Cтоп</string>
     <!-- Shown as toast when starting the recent track recording -->
@@ -590,7 +590,7 @@
     <string name="feedback_general">Отправить отзыв</string>
     <string name="prefs_languages_information">Подсказки озвучиваются системным синтезатором речи (TTS). На многих устройствах используется Google TTS, его можно загрузить или обновить в Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts)</string>
     <string name="prefs_languages_information_off">Для некоторых языков, возможно, необходимо установить дополнительный синтезатор речи (TTS) из магазина приложений (Google Play, Galaxy Store, App Gallery, FDroid). \nЧтобы настроить синтезатор речи, перейдите в Настройки → Язык и ввод → Синтез речи. \nЗдесь можно установить дополнительные языковые пакеты или выбрать синтезатор речи.</string>
-    <string name="prefs_languages_information_off_link">Более подробная информация — в этом руководстве.</string>
+    <string name="prefs_languages_information_off_link">Ознакомьтесь с подробностями в этом руководстве</string>
     <string name="transliteration_title">Транслитерация в латиницу</string>
     <string name="learn_more">Узнать больше</string>
     <!-- Subway exits for public transport marks on the map -->
@@ -772,7 +772,7 @@
     <string name="connection_failure">Ошибка подключения</string>
     <!-- Used in DownloadResources startup screen -->
     <string name="disconnect_usb_cable_title">Отсоедините USB кабель</string>
-    <string name="enable_keep_screen_on">Держи экран включённым</string>
+    <string name="enable_keep_screen_on">Держать экран включенным</string>
     <!-- Description in preferences -->
     <string name="enable_keep_screen_on_description">Если эта функция включена, то при отображении карты экран будет всегда включен.</string>
     <!-- A preference title; keep short! -->
@@ -897,7 +897,7 @@
     <string name="codeberg">Codeberg</string>
     <string name="saved">Сохранено</string>
     <string name="pref_left_button_disable">Выключить</string>
-    <string name="pref_left_button_title">Настройки левой кнопки</string>
+    <string name="pref_left_button_title">Действие 1-й кнопки</string>
     <string name="editor_building_levels">Этажей (вкл. подвалы искл. крышу)</string>
     <string name="editor_level">Этаж (0 это первый этаж)</string>
     <string name="error_enter_correct_level">Введите правильный номер этажа</string>
@@ -934,4 +934,6 @@
     - отключите запись логов
     </string>
     <string name="panoramax">Panoramax Фото</string>
+    <string name="open_now">Открыто</string>
+    <string name="closed_now">Закрыто</string>
 </resources>

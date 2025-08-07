@@ -1499,8 +1499,8 @@
 "type.natural.wetland.saltmarsh" = "Zoutmoeras";
 "type.natural.wetland.saltmarsh.tidal" = "Kwelder";
 "type.natural.wetland.tidalflat" = "Wad";
-"type.leisure.escape_game" = "Escape Room";
-"type.amenity.luggage_locker" = "Luggage Locker";
-"type.amenity.ranger_station" = "Ranger Station";
-"type.amenity.bicycle_parking.covered" = "Covered Bicycle Parking";
-"type.post_office.post_partner" = "Post Partner";
+"type.leisure.escape_game" = "Escaperoom";
+"type.amenity.luggage_locker" = "Bagagekluis";
+"type.amenity.ranger_station" = "Boswachterkantoor";
+"type.amenity.bicycle_parking.covered" = "Overdekte fietsenstalling";
+"type.post_office.post_partner" = "Post partner";

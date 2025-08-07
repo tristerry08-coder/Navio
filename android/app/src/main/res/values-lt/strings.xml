@@ -9,7 +9,7 @@
     <string name="delete">Šalinti</string>
     <string name="download_maps">Atsiųsti žemėlapius</string>
     <!-- Settings/Downloader - info for country when download fails -->
-    <string name="download_has_failed">Atsiuntimas nepavyko. Bakstelėkite, kad būtų pabandyta dar kartą.</string>
+    <string name="download_has_failed">Atsiuntimas nepavyko, bakstelėkite pabandyti dar kartą</string>
     <!-- Settings/Downloader - info for country which started downloading -->
     <string name="downloading">Atsiunčiama…</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->
@@ -32,7 +32,7 @@
     <!-- A dialog title, that warns a user that Precise Location is disabled and suggests to turn it on -->
     <string name="limited_accuracy">Ribotas tikslumas</string>
     <!-- A dialog text, that warns a user that Precise Location is disabled and suggests to turn it on -->
-    <string name="precise_location_is_disabled_long_text">Jeigu norite užtikrinti tikslią navigaciją, nustatymuose įjunkite galimybę nustatyti tikslią vietą.</string>
+    <string name="precise_location_is_disabled_long_text">Jeigu norite užtikrinti tikslią navigaciją, nustatymuose įjunkite galimybę nustatyti tikslią vietą</string>
     <!-- View and button titles for accessibility -->
     <string name="zoom_to_country">Rodyti žemėlapyje</string>
     <!-- Message to display at the center of the screen when the country download has failed -->
@@ -49,7 +49,7 @@
     <!-- Text in About screen -->
     <string name="about_proposition_3">• Veikia sparčiai, kompaktiškai ir be interneto</string>
     <!-- Text in About screen -->
-    <string name="about_developed_by_enthusiasts">Atvirojo kodo programėlė, sukurta entuziastų ir savanorių.</string>
+    <string name="about_developed_by_enthusiasts">Visiškai atvirojo kodo programėlė, sukurta nesiekiant pelno, skaidriai priimant sprendimus ir tvarkant finansus.</string>
     <string name="close">Užverti</string>
     <string name="unsupported_phone">Šiai programėlei reikia aparatinio „OpenGL“ spartinimo. Deja, jūsų įrenginys nepalaikomas.</string>
     <string name="download">Atsiųsti</string>
@@ -174,9 +174,9 @@
     <!-- Warning message when doing search around current position -->
     <string name="unknown_current_position">Jūsų vieta dar nenustatyta</string>
     <!-- Alert message that we can't run Map Storage settings due to some reasons. -->
-    <string name="cant_change_this_setting">Deja, šiuo metu žemėlapio saugyklos nustatymai negalimi.</string>
+    <string name="cant_change_this_setting">Deja, šiuo metu žemėlapio saugyklos nustatymai negalimi</string>
     <!-- Alert message that downloading is in progress. -->
-    <string name="downloading_is_active">Vyksta žemėlapio atsiuntimas.</string>
+    <string name="downloading_is_active">Vyksta žemėlapio atsiuntimas</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">Pažiūrėk, kur dabar esu „CoMaps“ autonominių žemėlapių programėlėje! %1$s arba %2$s . Neturi jos? Atsisiųsk čia: https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
@@ -274,7 +274,7 @@
     <string name="downloader_download_all_button">Atsiųsti viską</string>
     <string name="downloader_downloading">Atsiunčiama:</string>
     <!-- Displayed in a dialog that appears when a user tries to delete a map while the app is in the follow route mode -->
-    <string name="downloader_delete_map_while_routing_dialog">Jeigu norite pašalinti žemėlapį, sustabdykite navigaciją.</string>
+    <string name="downloader_delete_map_while_routing_dialog">Jeigu norite pašalinti žemėlapį, sustabdykite navigaciją</string>
     <!-- PointsInDifferentMWM -->
     <string name="routing_failed_cross_mwm_building">Maršrutai gali būti sukurti tik tuomet, kai jie yra vieno regiono žemėlapio ribose.</string>
     <!-- Context menu item for downloader. -->
@@ -286,9 +286,9 @@
     <!-- Item in context menu. -->
     <string name="downloader_update_map">Naujinti žemėlapį</string>
     <!-- Preference title -->
-    <string name="google_play_services">„Google Play“ vietos nustatymo paslaugos</string>
+    <string name="google_play_services">„Google“ jungtinė vietos nustatymo paslauga</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">Greitai nustatyti apytikslę jūsų buvimo vietą remiantis pasiekiamais „Bluetooth“ įrenginiais, belaidžiais tinklais ir mobiliojo ryšio siųstuvais</string>
+    <string name="pref_use_google_play">Nuosavybinė paslauga, nustatanti jūsų vietą remdamasi GPS, belaidžio ryšio, mobiliųjų tinklų ir kitais duomenimis. Gali jungtis prie „Google“ serverių.</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -346,18 +346,18 @@
     <string name="dialog_routing_location_turn_on">Įjunkite vietovės tarnybas</string>
     <string name="dialog_routing_location_unknown_turn_on">Nepavyko nustatyti dabartinių GPS koordinačių. Maršrutui apskaičiuoti, įjunkite vietovės tarnybas.</string>
     <string name="dialog_routing_unable_locate_route">Nepavyko nustatyti maršruto</string>
-    <string name="dialog_routing_cant_build_route">Nepavyko apskaičiuoti maršruto.</string>
+    <string name="dialog_routing_cant_build_route">Nepavyko apskaičiuoti maršruto</string>
     <string name="dialog_routing_change_start_or_end">Pakoreguokite pradžios tašką arba paskirties vietą.</string>
     <string name="dialog_routing_change_start">Keisti pradžios tašką</string>
     <string name="dialog_routing_start_not_determined">Maršruto nepavyko apskaičiuoti. Nepavyko nustatyti pradžios taško.</string>
     <string name="dialog_routing_select_closer_start">Pasirinkite pradžios tašką, esantį arčiau kelio.</string>
     <string name="dialog_routing_change_end">Keisti paskirties vietą</string>
     <string name="dialog_routing_end_not_determined">Maršruto nepavyko apskaičiuoti. Nepavyko nustatyti paskirties vietos.</string>
-    <string name="dialog_routing_select_closer_end">Pasirinkite paskirties vietą, esančią arčiau kelio.</string>
-    <string name="dialog_routing_change_intermediate">Nepavyko nustatyti tarpinio taško.</string>
-    <string name="dialog_routing_intermediate_not_determined">Pakoreguokite tarpinį tašką.</string>
+    <string name="dialog_routing_select_closer_end">Pasirinkite paskirties vietą, esančią arčiau kelio</string>
+    <string name="dialog_routing_change_intermediate">Nepavyko nustatyti tarpinio taško</string>
+    <string name="dialog_routing_intermediate_not_determined">Pakoreguokite tarpinį tašką</string>
     <string name="dialog_routing_system_error">Sistemos klaida</string>
-    <string name="dialog_routing_application_error">Maršruto nepavyko apskaičiuoti dėl programinės klaidos.</string>
+    <string name="dialog_routing_application_error">Maršruto nepavyko apskaičiuoti dėl programinės klaidos</string>
     <string name="dialog_routing_try_again">Bandykite dar kartą</string>
     <string name="not_now">Ne dabar</string>
     <string name="dialog_routing_download_and_build_cross_route">Ar atsiųsti žemėlapį, kad būtų apskaičiuotas geresnis maršrutas, apimantis daugiau nei vieną žemėlapį?</string>
@@ -371,11 +371,11 @@
     <string name="hide">Nerodyti</string>
     <string name="categories">Kategorijos</string>
     <string name="history">Žurnalas</string>
-    <string name="search_not_found">Deja, rezultatų nerasta.</string>
+    <string name="search_not_found">Deja, rezultatų nerasta</string>
     <!-- The message when user did not find anything in the search. -->
     <string name="search_not_found_query">Atsisiųskite regioną, kuriame ieškote, arba pabandykite įvesti kito netoliese esančio miesto ar kaimo pavadinimą.</string>
     <string name="search_history_title">Paieškų žurnalas</string>
-    <string name="search_history_text">Rodyti paskiausias paieškas.</string>
+    <string name="search_history_text">Rodyti paskiausias paieškas</string>
     <string name="clear_search">Valyti paieškų žurnalą</string>
     <!-- Place Page link to Wikipedia article (if map object has it). -->
     <string name="read_in_wikipedia">Vikipedija</string>
@@ -385,7 +385,7 @@
     <string name="p2p_start">Pradėti</string>
     <string name="p2p_from_here">Maršrutas iš</string>
     <string name="p2p_to_here">Maršrutas į</string>
-    <string name="p2p_only_from_current">Navigacija galima tik iš jūsų dabartinės vietos.</string>
+    <string name="p2p_only_from_current">Navigacija galima tik iš jūsų dabartinės vietos</string>
     <string name="p2p_reroute_from_current">Ar norite, kad būtų apskaičiuotas maršrutas iš jūsų dabartinės vietos?</string>
     <!-- Edit open hours/set time and minutes dialog -->
     <string name="next_button">Toliau</string>
@@ -455,14 +455,14 @@
     <string name="email_or_username">El. paštas arba naudotojo vardas</string>
     <string name="editor_add_phone">Pridėti telefono numerį</string>
     <string name="level">Aukštas</string>
-    <string name="downloader_delete_map_dialog">Visi jūsų žemėlapio pakeitimai bus pašalinti kartu su žemėlapiu.</string>
+    <string name="downloader_delete_map_dialog">Visi jūsų žemėlapio pakeitimai bus pašalinti kartu su žemėlapiu</string>
     <string name="downloader_update_maps">Naujinti žemėlapius</string>
     <string name="downloader_mwm_migration_dialog">Maršrutui apskaičiuoti reikia atnaujinti visus žemėlapius ir suplanuoti maršrutą iš naujo.</string>
     <string name="downloader_search_field_hint">Rasti žemėlapį</string>
-    <string name="common_check_internet_connection_dialog">Įsitikinkite, kad jūsų įrenginys yra prijungtas prie interneto.</string>
+    <string name="common_check_internet_connection_dialog">Įsitikinkite, kad jūsų įrenginys yra prijungtas prie interneto</string>
     <string name="downloader_no_space_title">Nepakanka laisvos vietos</string>
     <string name="downloader_no_space_message">Pašalinkite nereikalingus duomenis</string>
-    <string name="editor_login_error_dialog">Prisijungimo klaida.</string>
+    <string name="editor_login_error_dialog">Prisijungimo klaida</string>
     <string name="editor_profile_changes">Patvirtinti pakeitimai</string>
     <string name="editor_focus_map_on_location">Vilkite žemėlapį, kad kryžiukas atsidurtų ties vieta, kurioje yra pridedama vieta ar įmonė.</string>
     <string name="editor_edit_place_title">Taisoma</string>
@@ -479,11 +479,11 @@
     <string name="osm_presentation">Bendruomenės surinkti „OpenStreetMap“ duomenys %s dienai. Sužinokite, kaip redaguoti ir atnaujinti žemėlapį, apsilankydami OpenStreetMap.org svetainėje</string>
     <!-- OSM explanation on Android login screen -->
     <string name="login_osm_presentation">OpenStreetMap.org (OSM) – tai bendruomenės projektas, kuriuo siekiama sukurti laisvą ir atvirą žemėlapį. Tai – pagrindinis „CoMaps“ žemėlapių duomenų šaltinis, veikiantis panašiu principu, kaip „Vikipedija“. Galite pridėti ar taisyti vietas, o jos tampa prieinamos milijonams naudotojų visame pasaulyje. \nPrisijunkite prie bendruomenės ir padėkite kurti geresnį žemėlapį visiems!</string>
-    <string name="login_to_make_edits_visible">Susikurkite „OpenStreetMap“ paskyrą arba prisijunkite, kad galėtumėte skelbti savo žemėlapio pakeitimus pasauliui.</string>
+    <string name="login_to_make_edits_visible">Susikurkite „OpenStreetMap“ paskyrą arba prisijunkite, kad galėtumėte skelbti savo žemėlapio pakeitimus pasauliui</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d iš %2$d</string>
     <string name="download_over_mobile_header">Atsisiųsti naudojant mobilųjį ryšį?</string>
-    <string name="download_over_mobile_message">Tai gali būti itin brangu, naudojantis kai kuriais planais ar tarptinkliniu ryšiu.</string>
+    <string name="download_over_mobile_message">Tai gali būti itin brangu, naudojantis kai kuriais planais ar tarptinkliniu ryšiu</string>
     <string name="error_enter_correct_house_number">Įveskite leistiną pastato numerį</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">Aukštų skaičius negali viršyti %d</string>
@@ -506,8 +506,8 @@
     <string name="editor_category_unsuitable_title">Nerandate tinkamos kategorijos?</string>
     <string name="editor_category_unsuitable_text">„CoMaps“ leidžia pridėti tik paprastų kategorijas taškus – jokių miestų, kelių, ežerų, pastatų kontūrų ir pan. šia programėle pridėti negalima. Šių kategorijų objektus pridėkite naudodamiesi <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> svetaine. Žvilgtelėkite į mūsų <a href="https://www.comaps.app/support/advanced-map-editing/">vadovą</a>, kuriame rasite išsamias pažingsnines instrukcijas.</string>
     <string name="downloader_no_downloaded_maps_title">Nesate atsiuntę jokių žemėlapių</string>
-    <string name="downloader_no_downloaded_maps_message">Atsiųskite žemėlapius, kad galėtumėte ieškoti vietų ir keliauti neprisijungę prie tinklo.</string>
-    <string name="current_location_unknown_error_title">Dabartinė vieta nežinoma.</string>
+    <string name="downloader_no_downloaded_maps_message">Atsiųskite žemėlapius, kad galėtumėte ieškoti vietų ir keliauti neprisijungę prie tinklo</string>
+    <string name="current_location_unknown_error_title">Dabartinė vieta nežinoma</string>
     <!-- abbreviation for meters -->
     <string name="m">m</string>
     <!-- abbreviation for kilometers -->
@@ -537,17 +537,17 @@
     <string name="error_enter_correct_phone">Įveskite galiojantį telefono numerį</string>
     <string name="error_enter_correct_web">Įveskite galiojantį saityno adresą</string>
     <string name="error_enter_correct_email">Įveskite galiojantį el. pašto adresą</string>
-    <string name="error_enter_correct_facebook_page">Įveskite galiojantį „Facebook“ saityno adresą, paskyros vardą ar puslapio pavadinimą</string>
-    <string name="error_enter_correct_instagram_page">Įveskite galiojantį „Instagram“ paskyros vardą ar saityno adresą</string>
-    <string name="error_enter_correct_twitter_page">Įveskite galiojantį „Twitter“ paskyros vardą ar saityno adresą</string>
-    <string name="error_enter_correct_vk_page">Įveskite galiojantį VK paskyros vardą ar saityno adresą</string>
-    <string name="error_enter_correct_line_page">Įveskite galiojantį LINE ID ar saityno adresą</string>
+    <string name="error_enter_correct_facebook_page">Įveskite galiojantį „Facebook“ tinklalapio adresą, paskyros vardą ar puslapio pavadinimą</string>
+    <string name="error_enter_correct_instagram_page">Įveskite galiojantį „Instagram“ paskyros vardą ar tinklalapio adresą</string>
+    <string name="error_enter_correct_twitter_page">Įveskite galiojantį „Twitter“ paskyros vardą ar tinklalapio adresą</string>
+    <string name="error_enter_correct_vk_page">Įveskite galiojantį VK paskyros vardą ar tinklalapio adresą</string>
+    <string name="error_enter_correct_line_page">Įveskite galiojantį LINE ID ar tinklalapio adresą</string>
     <string name="placepage_add_place_button">Pridėti vietą į „OpenStreetMap“</string>
     <!-- Displayed when saving some edits to the map to warn against publishing personal data -->
     <string name="editor_share_to_all_dialog_title">Ar tikrai norite šiuos pakeitimus paviešinti?</string>
     <!-- Dialog before publishing the modifications to the public map. -->
-    <string name="editor_share_to_all_dialog_message_1">Įsitikinkite, kad neįvedėte jokių asmeninių duomenų.</string>
-    <string name="editor_share_to_all_dialog_message_2">„OpenStreetMap“ redaktoriai peržiūrės pakeitimus ir su jumis susisieks, jei kiltų klausimų.</string>
+    <string name="editor_share_to_all_dialog_message_1">Įsitikinkite, kad neįvedėte jokių asmeninių duomenų</string>
+    <string name="editor_share_to_all_dialog_message_2">„OpenStreetMap“ redaktoriai peržiūrės pakeitimus ir su jumis susisieks, jei kiltų klausimų</string>
     <string name="navigation_stop_button">Stabdyti</string>
     <!-- Shown as toast when starting the recent track recording -->
     <string name="track_recording">Trasa įrašoma</string>
@@ -561,10 +561,10 @@
     <string name="mobile_data_option_not_today">Šiandien nenaudoti</string>
     <string name="mobile_data">Mobilusis internetas</string>
     <!-- NOTE to translators: please synchronize your translation with the English one. -->
-    <string name="mobile_data_description">Pranešimams apie žemėlapių naujinius ir pataisų įkėlimui reikalingas mobilusis internetas.</string>
+    <string name="mobile_data_description">Pranešimams apie žemėlapių naujinius ir pataisų įkėlimui reikalingas mobilusis internetas</string>
     <string name="mobile_data_option_never">Niekada nenaudoti</string>
     <string name="mobile_data_option_ask">Visada klausti</string>
-    <string name="traffic_update_maps_text">Jeigu norite matyti eismo duomenis, reikia atnaujinti žemėlapius.</string>
+    <string name="traffic_update_maps_text">Jeigu norite matyti eismo duomenis, reikia atnaujinti žemėlapius</string>
     <string name="big_font">Padidinti žemėlapio užrašų šrifto dydį</string>
     <string name="traffic_update_app">Atnaujinkite „CoMaps“</string>
     <!-- "traffic" as in "road congestion" -->
@@ -574,7 +574,7 @@
     <string name="feedback_general">Bendro pobūdžio atsiliepimas</string>
     <string name="prefs_languages_information">Balso instrukcijoms naudojame sistemos šnekos sintezatorių. Dauguma „Android“ įrenginių naudoja „Google“ šnekos sintezatorių, kurį galite atsisiųsti ar atnaujinti iš „Google Play“ parduotuvės (https://play.google.com/store/apps/details?id=com.google.android.tts)</string>
     <string name="prefs_languages_information_off">Kai kurioms kalboms gali tekti įdiegti papildomą šnekos sintezatorių ar kalbos paketą iš programėlių parduotuvės („Google Play“, „Galaxy Store“, „AppGallery“, „FDroid“). \nAtverkite įrenginio nustatymus → Kalbos ir įvestis → Kalba → Teksto į kalbą išvestis. \nČia galite tvarkyti šnekos sintezatoriaus nustatymus (pavyzdžiui, atsisiųsti kalbos paketą naudojimui neprisijungus) ar pasirinkti kitą šnekos sintezės modulį.</string>
-    <string name="prefs_languages_information_off_link">Jei norite išsamesnės informacijos, žvilgtelėkite į šią instrukciją.</string>
+    <string name="prefs_languages_information_off_link">Jei norite išsamesnės informacijos, žvilgtelėkite į šią instrukciją</string>
     <string name="transliteration_title">Transliteruoti užrašus lotyniškais rašmenimis</string>
     <string name="learn_more">Išsamesnė informacija</string>
     <!-- Subway exits for public transport marks on the map -->
@@ -641,7 +641,7 @@
     <!-- Speed camera settings menu option - Never warn (about speedcams) -->
     <string name="pref_tts_speedcams_never">Niekada neįspėti</string>
     <string name="power_managment_title">Energijos taupymo veiksena</string>
-    <string name="power_managment_description">Naudojamos elektros energijos tausojimas, aukojant dalį funkcionalumo.</string>
+    <string name="power_managment_description">Naudojamos elektros energijos tausojimas, aukojant dalį funkcionalumo</string>
     <string name="power_managment_setting_never">Niekada</string>
     <string name="power_managment_setting_auto">Esant žemai įkrovai</string>
     <string name="power_managment_setting_manual_max">Visada</string>
@@ -801,7 +801,7 @@
     <string name="nav_auto">Automatinė naviguojant</string>
     <string name="bookmarks_and_tracks">Žymės ir trasos</string>
     <string name="location_settings">Vietos nustatymai</string>
-    <string name="maps_storage_summary">Pasirinkite aplanką atsiųstiems žemėlapiams įrašyti.</string>
+    <string name="maps_storage_summary">Pasirinkite aplanką atsiųstiems žemėlapiams įrašyti</string>
     <string name="category_secondhand">Naudotos prekės</string>
     <string name="pref_tts_street_names_title">Sakyti gatvių pavadinimus</string>
     <string name="pref_tts_street_names_description">Įjungus šią parinktį, bus įvardijamos gatvės ir išvažiavimai, į kuriuos siūloma sukti.</string>
@@ -816,8 +816,8 @@
     <string name="level_value_generic">Aukštas: %s</string>
     <string name="editor_line_social_network">LINE</string>
     <string name="vk">VK</string>
-    <string name="pref_tts_test_voice_title">Išbandyti balso instrukcijas (kalbos sintezę)</string>
-    <string name="pref_tts_playing_test_voice">Patikrinkite sistemos kalbos sintezės garsumo nustatymus, jeigu dabar negirdite balso.</string>
+    <string name="pref_tts_test_voice_title">Išbandyti balso instrukcijas</string>
+    <string name="pref_tts_playing_test_voice">Patikrinkite sistemos kalbos sintezės garsumo nustatymus, jeigu dabar negirdite balso</string>
     <plurals name="tracks">
         <item quantity="one">%d trasa</item>
         <item quantity="few">%d trasos</item>
@@ -861,4 +861,43 @@
     <string name="instagram_url">https://www.instagram.com/comaps.app/</string>
     <string name="panoramax">Panoramax vaizdas</string>
     <string name="saved">Išsaugota</string>
+    <string name="codeberg">Codeberg</string>
+    <string name="ruler">Liniuotė</string>
+    <string name="bluesky">Bluesky</string>
+    <string name="pref_left_button_title">Kairiojo mygtuko funkcija</string>
+    <string name="pref_backup_now_summary_empty_lists">Neturite jokių žymių ar trasų atsarginei kopijai sudaryti</string>
+    <string name="pref_backup_interval_title">Automatinis atsarginis kopijavimas</string>
+    <string name="dialog_report_error_missing_folder">Pasirinktas atsarginių kopijų aplankas nepasiekiamas, bent jau rašymui. Pasirinkite kitą aplanką.</string>
+    <string name="dialog_report_error_with_logs">Būsime dėkingi, jei atsiųsti klaidos pranešimą:\n - programos nustatymuose pažymėkite „Įgalinti derinimo žurnalą“\n - atkartokite problemą\n - „Žinyno ir pagalbos“ ekrane bakstelėkite mygtuką „Pranešti apie klaidą“ ir išsiųskite pranešimą el. paštu ar per pokalbių programėlę\n - išjunkite derinimo žurnalą</string>
+    <string name="bicycle">Dviračiu</string>
+    <string name="pref_backup_title">Žymių ir trasų atsarginis kopijavimas</string>
+    <string name="editor_building_levels">Aukštų skaičius (skaičiuojant pirmą aukštą, neskaičiuojant stogo)</string>
+    <string name="editor_level">Aukštas (0 reiškia pirmą aukštą)</string>
+    <string name="error_enter_correct_level">Įveskite leistiną aukšto numerį</string>
+    <string name="error_enter_correct_bluesky_page">Įveskite galiojantį „Bluesky“ paskyros vardą ar tinklalapio adresą</string>
+    <string name="error_enter_correct_fediverse_page">Įveskite galiojantį „Mastodon“ paskyros vardą ar tinklalapio adresą</string>
+    <string name="pref_left_button_disable">Mygtukas nerodomas</string>
+    <string name="pref_backup_summary">Automatinis atsarginių kopijų rašymas į pasirinktą aplanką</string>
+    <string name="pref_backup_now_title">Įrašyti dabar</string>
+    <string name="pref_backup_now_summary_progress">Atsarginė kopija įrašoma…</string>
+    <string name="pref_backup_now_summary_ok">Atsarginė kopija įrašyta</string>
+    <string name="pref_backup_now_summary">Nedelsiant įrašyti atsarginę kopiją</string>
+    <string name="pref_backup_now_summary_failed">Atsarginės kopijos įrašyti nepavyko</string>
+    <string name="pref_backup_now_summary_folder_unavailable">Pasirinktas aplankas nepasiekiamas</string>
+    <string name="pref_backup_status_summary_success">Paskiausia atsarginė kopija</string>
+    <string name="pref_backup_location_summary_initial">Pirma pasirinkite aplanką ir suteikite teises</string>
+    <string name="pref_backup_history_title">Saugotinų atsarginių kopijų skaičius</string>
+    <string name="backup_interval_every_day">Kasdien</string>
+    <string name="backup_interval_every_week">Kas savaitę</string>
+    <string name="backup_interval_manual_only">Išjungtas (tik rankiniu būdu)</string>
+    <string name="pref_backup_location_title">Atsarginių kopijų aplankas</string>
+    <string name="clear">Išvalyti</string>
+    <string name="route_type">Maršruto tipas</string>
+    <string name="vehicle">Automobiliu</string>
+    <string name="pedestrian">Pėsčiomis</string>
+    <string name="bookmark_color">Žymės spalva</string>
+    <string name="about_help">Žinynas ir pagalba</string>
+    <string name="open_now">Dabar atidaryta</string>
+    <string name="closed_now">Dabar uždaryta</string>
+    <string name="at">%s val.</string>
 </resources>
