@@ -114,8 +114,10 @@ public:
     uint64_t const fileSize = m_fileReader.Size();
     CHECK_EQUAL(fileSize % sizeof(LatLon), 0, ("Node's coordinates file is broken"));
 
+    LOG(LINFO, ("Start reading nodes storage from", name));
     m_data.resize(fileSize / sizeof(LatLon));
     m_fileReader.Read(0, m_data.data(), fileSize);
+    LOG(LINFO, ("Finished reading nodes storage"));
   }
 
   // PointStorageReaderInterface overrides:
@@ -404,9 +406,9 @@ IntermediateDataObjectsCache::GetOrCreatePointStorageReader(
 
   std::lock_guard lock(m_mutex);
 
+  LOG(LINFO, ("Creating nodes storage reader:", strType, name));
   auto res = m_objects.try_emplace(key, type, name);
-  if (res.second)
-    LOG(LINFO, ("Created nodes reader:", strType, name));
+
   return res.first->second;
 }
 

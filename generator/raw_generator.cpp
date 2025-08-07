@@ -162,6 +162,7 @@ bool RawGenerator::Execute()
   m_queue.reset();
   m_intermediateDataObjectsCache.Clear();
 
+  LOG(LINFO, ("Start final processing..."));
   while (!m_finalProcessors.empty())
   {
     auto const finalProcessor = m_finalProcessors.top();
@@ -244,7 +245,13 @@ bool RawGenerator::GenerateFilteredFeatures()
   }
   CHECK(sourceProcessor, ());
 
+  // Create translators threads.
+  // Each thread may contain separate translators for countries and World
+  // They process chunks of source data and pass features to a chain of processors.
+  // The last processor writes to a "processed" queue.
   TranslatorsPool translators(m_translators, m_threadsCount);
+
+  // The writer thread pops from the "processed" queue and writes to per-country files.
   RawGeneratorWriter rawGeneratorWriter(m_queue, m_genInfo.m_tmpDir);
   rawGeneratorWriter.Run();
 
@@ -267,7 +274,7 @@ bool RawGenerator::GenerateFilteredFeatures()
 
   } while (!isEnd);
 
-  LOG(LINFO, ("Input was processed."));
+  LOG(LINFO, ("OSM source input was processed."));
   if (!translators.Finish())
     return false;
 

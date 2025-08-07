@@ -92,7 +92,7 @@ OSM_TOOLS_PATH = os.path.join(_WORK_PATH, "osmctools")
 
 # Generator tool section:
 USER_RESOURCE_PATH = os.path.join(OMIM_PATH, "data")
-NODE_STORAGE = "mem" if total_virtual_memory() / 10 ** 9 >= 64 else "map"
+NODE_STORAGE = "map"
 
 # Stages section:
 NEED_PLANET_UPDATE = False
