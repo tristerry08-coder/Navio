@@ -23,6 +23,10 @@ jobs:
         shell: bash
         run: git submodule update --depth 1 --init --recursive --jobs=$(($(nproc) * 20))
 
+      - name: Configure repository
+        shell: bash
+        run: SKIP_GENERATE_SYMBOLS=1 ./configure.sh
+
       - name: Lint
         shell: bash
         working-directory: android
@@ -62,6 +66,7 @@ jobs:
           libxinerama-dev \
           libxcursor-dev \
           libxi-dev \
+          python3-protobuf \
           zlib1g-dev
 
       - name: Checkout sources
