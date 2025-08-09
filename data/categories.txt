@@ -263,7 +263,7 @@ da:4Parkering
 nl:4Parkeerplaats
 fi:4Parkkipaikka
 fr:Stationnement|4Parking
-de:4Parkplatz|Parkhaus|Tiefgarage
+de:4Parkplätze|Parkplatz|Parkhaus|Tiefgarage
 hi:4पार्किंग
 hu:4Parkoló
 id:4Parkir
