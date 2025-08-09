@@ -3,8 +3,8 @@ on:
   workflow_dispatch: # Manual trigger
   pull_request:
     paths:
-      - qt/res/app.comaps.desktop.desktop
-      - .forgejo/workflows/desktop-file-check.yaml  # Run check on self change
+      - qt/res/app.comaps.qt.desktop
+      - .forgejo/workflows/desktop-file-check.yaml # Run check on self change
 
 jobs:
   validate-desktop-file:
@@ -16,7 +16,7 @@ jobs:
         with:
           fetch-depth: 1
           sparse-checkout: |
-            qt/res/app.comaps.desktop.desktop
+            qt/res/app.comaps.qt.desktop
 
       - name: Install desktop-file-validate tool
         shell: bash
@@ -27,4 +27,4 @@ jobs:
 
       - name: Validate desktop file
         shell: bash
-        run: desktop-file-validate qt/res/app.comaps.desktop.desktop && echo "Successfully validated .desktop file"
+        run: desktop-file-validate qt/res/app.comaps.qt.desktop && echo "Successfully validated .desktop file"

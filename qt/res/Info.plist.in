@@ -24,7 +24,7 @@
     <string>@BUNDLE_EXECUTABLE@</string>
 
     <key>CFBundleIdentifier</key>
-    <string>app.organicmaps.desktop</string>
+    <string>app.comaps.qt</string>
 
     <key>NSPrincipalClass</key>
     <string>NSApplication</string>
