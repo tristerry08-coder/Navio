@@ -4,7 +4,7 @@
     <string name="type.addr_interpolation">Dirección/manzana</string>
     <string name="type.addr_interpolation.even">Dirección/manzana</string>
     <string name="type.addr_interpolation.odd">Dirección/manzana</string>
-    <string name="type.aerialway">Transporte aéreo</string>
+    <string name="type.aerialway">Transporte por Cable</string>
     <string name="type.aerialway.cable_car">Teleférico</string>
     <string name="type.aerialway.chair_lift">Telesilla</string>
     <string name="type.aerialway.drag_lift">Telesquí</string>
@@ -180,7 +180,7 @@
     <string name="type.amenity.vending_machine.excrement_bags">Maquina expendedora de bolsas para excrementos</string>
     <string name="type.amenity.parcel_locker">Taquilla de paquetes</string>
     <string name="type.amenity.vehicle_inspection">Inspección de vehículos</string>
-    <string name="type.amenity.vending_machine.fuel">Maquina expendedora de combustible</string>
+    <string name="type.amenity.vending_machine.fuel">Surtidor de combustible</string>
     <string name="type.amenity.veterinary">Clínica veterinaria</string>
     <string name="type.amenity.waste_basket">Papelera</string>
     <string name="type.amenity.waste_disposal">Contenedor de basura</string>

@@ -7,12 +7,12 @@ Topluluğa katılın ve en iyi harita uygulamasını oluşturmamıza yardım edi
 
 <i>Geri bildirimleriniz ve 5 yıldızlı yorumlarınız bizim için en iyi destektir!</i>
 
-‣ <b>Basit ve Temiz</b>: Sadece temel, kullanımı basit, işe yarayan özellikler.
-‣ <b>Çevrimdışı Odaklı</b>: Mobil veriye ihtiyaç duymadan yurt dışı seyahatinizi planlayın ve gezin, uzun bir yürüyüş sırasında rotanızdaki noktaları bulun ve daha fazlası . Tüm özellikler çevrimdışı çalışmak üzere tasarlanmıştır.
+‣ <b>Basit ve Temiz</b>: Sadece temel, kullanımı basit ve işe yarayan özellikler.
+‣ <b>Çevrimdışı Odaklı</b>: Mobil veriye ihtiyaç duymadan yurt dışı seyahatinizi planlayın ve gezin, uzun bir yürüyüş sırasında rotanızdaki noktaları bulun ve daha fazlası. Tüm özellikler çevrimdışı çalışmak üzere tasarlanmıştır.
 ‣ <b>Gizliliğe Saygılı</b>: Uygulama gizliliğe saygılı olarak tasarlanmıştır. Kullanıcı profilinizi çıkarmaz, sizi takip etmez ve kişisel bilgi toplamaz. Üstelik tamamen reklamsızdır.
-‣ <b>Pil ve Depolamanızdan Tasarruf Eder</b>: Diğer navigasyon uygulamaları gibi pilinizi sömürmez. Compact maps değerli depolama alanınızdan tasarruf eder.
-‣ <b>Ücretsizdir ve Gücünü Topluluktan Alır</b>: Sizin gibi insanlar OpenStreetMap'e yer ekleyerek, yeni özellikleri test ederek, geri bildirimde bulunarak, program geliştirme becerileri ve bağışlarla katkıda bulunarak uygulamanın oluşturulmasına yardımcı oldu.
-‣ <b>Açık ve Şeffaf Şekilde Yürütülen Karar Alma ve Fonlama Süreçleri, Kâr Amacı Gütmez ve Tamamen Açık Kaynaklı.</b>
+‣ <b>Pil ve Depolamanızdan Tasarruf Eder</b>: Diğer navigasyon uygulamaları gibi pilinizi sömürmez. Kompakt harita dosyaları, değerli depolama alanınızdan tasarruf eder.
+‣ <b>Ücretsizdir ve Gücünü Topluluktan Alır</b>: Sizin gibi insanlar OpenStreetMap'e yer ekleyerek, yeni özellikleri test ederek, geri bildirimde bulunarak, program geliştirme becerileri ve bağışlarla katkıda bulunarak bu uygulamanın oluşturulmasına yardımcı oldular.
+‣ <b>Açık ve Şeffaf Bir Şekilde Yürütülen Karar Alma ve Fonlama Süreçlerine Sahip, Kâr Amacı Gütmeyen ve Tamamen Açık Kaynaklı Bir Uygulama.</b>
 
 <b>Ana Özellikler</b>:
 • Google Haritalar'da bulunmayan yerleri içeren, çevrimdışı detaylı haritalar

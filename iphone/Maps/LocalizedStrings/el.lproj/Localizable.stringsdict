@@ -29,7 +29,7 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Βρέθηκε το αρχείο %d. Μπορείτε να το δείτε μετά τη μετατροπή.</string>
+			<string>Βρέθηκε %d αρχείο. Μπορείτε να το δείτε μετά τη μετατροπή.</string>
 			<key>other</key>
 			<string>Βρέθηκαν %d αρχεία. Μπορείτε να τα δείτε μετά τη μετατροπή.</string>
 		</dict>
@@ -45,9 +45,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%d διαδρομή</string>
+			<string>%d ίχνος</string>
 			<key>other</key>
-			<string>%d διαδρομές</string>
+			<string>%d ίχνη</string>
 		</dict>
 	</dict>
 </dict>

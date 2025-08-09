@@ -184,7 +184,7 @@
     <!-- Alert message that we can't run Map Storage settings due to some reasons. -->
     <string name="cant_change_this_setting">Извините, выбор места размещения карт сейчас недоступен</string>
     <!-- Alert message that downloading is in progress. -->
-    <string name="downloading_is_active">Идет процесс загрузки карт.</string>
+    <string name="downloading_is_active">Идет процесс загрузки карты.</string>
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">Смотри где я сейчас! Жми %1$s или %2$s Нету автономных карт? Скачай тут https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->

@@ -247,7 +247,7 @@
 "pref_tts_language_title" = "Γλώσσα φωνής";
 
 /* Settings «Route» category: «Test Voice Directions» title */
-"pref_tts_test_voice_title" = "Δοκιμή φωνητικών οδηγιών (TTS, Text-To-Speech)";
+"pref_tts_test_voice_title" = "Δοκιμή φωνητικών οδηγιών";
 
 /* Title for "Other" section in TTS settings. */
 "pref_tts_other_section_title" = "Άλλo";
@@ -322,7 +322,7 @@
 "volunteer" = "Γίνετε εθελοντής";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Ακολουθήστε και επικοινωνήστε μαζί μας";
+"follow_us" = "Συνδεθείτε μαζί μας";
 
 /* Alert text */
 "email_error_body" = "Το πρόγραμμα ηλεκτρονικού ταχυδρομείου δεν έχει ρυθμιστεί. Ρυθμίστε το ή χρησιμοποιήστε άλλο τρόπο να επικοινωνήσετε μαζί μας στη διεύθυνση %@";
@@ -796,7 +796,7 @@
 "delete_list" = "Διαγραφή λίστας";
 "hide_from_map" = "Απόκρυψη από τον χάρτη";
 "tags_loading_error_subtitle" = "Ένα σφάλμα συνέβη κατά το φόρτωμα των ετικετών, παρακαλώ ξαναπροσπαθήστε";
-"download_button" = "Κατέβασμα";
+"download_button" = "Λήψη";
 "speedcams_alert_title" = "Κάμερες Ταχύτητας";
 "place_description_title" = "Περιγραφή μέρους";
 
@@ -1093,7 +1093,7 @@
 "osm_profile_view_edit_history" = "Προβολή ιστορικού επεξεργασιών";
 "about_proposition_3" = "Transparent and not for profit";
 "about_headline" = "Open project powered by the community";
-"pref_mapappearance_title" = "Map Appearance";
-"pref_maplanguage_title" = "Map Language";
+"pref_mapappearance_title" = "Εμφάνιση χάρτη";
+"pref_maplanguage_title" = "Γλώσσα χάρτη";
 "transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
-"pref_maplanguage_local" = "Local Language";
+"pref_maplanguage_local" = "Τοπική γλώσσα";

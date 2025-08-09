@@ -1413,4 +1413,5 @@
     <string name="type.natural.wetland.mangrove">红树林</string>
     <string name="type.natural.wetland.tidalflat">潮汐平原</string>
     <string name="type.amenity.ranger_station">护林站</string>
+    <string name="type.post_office.post_partner">邮政合作点</string>
 </resources>

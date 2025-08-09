@@ -305,13 +305,13 @@
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
-    <string name="routing_download_maps_along">Descargue todos los mapas de su ruta</string>
+    <string name="routing_download_maps_along">Descarga todos los mapas de tu ruta</string>
     <!-- Text for routing error dialog -->
     <string name="routing_requires_all_map">Para crear una ruta es necesario descargar y actualizar todos los mapas desde su ubicación a su destino.</string>
     <!-- Text for routing error dialog -->
     <string name="routing_not_enough_space">No hay suficiente espacio</string>
     <!-- location service disabled -->
-    <string name="enable_location_services">Por favor, active los servicios de localización</string>
+    <string name="enable_location_services">Por favor, activa los Servicios de Localización</string>
     <string name="save">Guardar</string>
     <string name="create">crear</string>
     <!-- red color -->
@@ -355,9 +355,9 @@
     <string name="dialog_routing_disclaimer_beware">¡Manténgase alerta y a salvo durante el viaje!</string>
     <string name="dialog_routing_check_gps">Verificar la señal del GPS</string>
     <string name="dialog_routing_error_location_not_found">No se puede crear la ruta. No se pudieron identificar las coordenadas actuales del GPS.</string>
-    <string name="dialog_routing_location_turn_wifi">Verifique la señal del GPS. Activar la Wi-Fi mejorará la precisión de su ubicación.</string>
+    <string name="dialog_routing_location_turn_wifi">Verifica la señal del GPS. Activar la Wi-Fi mejorará la precisión de su ubicación.</string>
     <string name="dialog_routing_location_turn_on">Activar servicios de ubicación</string>
-    <string name="dialog_routing_location_unknown_turn_on">No se pueden encontrar las coordenadas del GPS. Active los servicios de ubicación para calcular la ruta.</string>
+    <string name="dialog_routing_location_unknown_turn_on">No se pueden encontrar las coordenadas del GPS. Activa los servicios de ubicación para calcular la ruta.</string>
     <string name="dialog_routing_unable_locate_route">Imposible de encontrar una ruta</string>
     <string name="dialog_routing_cant_build_route">No se puede crear la ruta</string>
     <string name="dialog_routing_change_start_or_end">Ajuste su punto de inicio o su destino.</string>

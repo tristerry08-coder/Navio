@@ -1,7 +1,7 @@
 "type.addr_interpolation" = "Dirección/manzana";
 "type.addr_interpolation.even" = "Dirección/manzana";
 "type.addr_interpolation.odd" = "Dirección/manzana";
-"type.aerialway" = "Transporte aéreo";
+"type.aerialway" = "Transporte por Cable";
 "type.aerialway.cable_car" = "Teleférico";
 "type.aerialway.chair_lift" = "Telesilla";
 "type.aerialway.drag_lift" = "Telesquí";
@@ -182,7 +182,7 @@
 "type.amenity.vending_machine.excrement_bags" = "Maquina expendedora de bolsas para excrementos";
 "type.amenity.parcel_locker" = "Taquilla de paquetes";
 "type.amenity.vehicle_inspection" = "Inspección de vehículos";
-"type.amenity.vending_machine.fuel" = "Maquina expendedora de combustible";
+"type.amenity.vending_machine.fuel" = "Surtidor de combustible";
 "type.amenity.veterinary" = "Clínica veterinaria";
 "type.amenity.waste_basket" = "Papelera";
 "type.amenity.waste_disposal" = "Contenedor de basura";
