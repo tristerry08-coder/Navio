@@ -11,7 +11,7 @@
   <path
       android:pathData="M14,13m-11,0a11,11 0,1 1,22 0a11,11 0,1 1,-22 0"
       android:strokeWidth="2"
-      android:fillColor="#006c35"
+      android:fillColor="#FF37653F"
       android:strokeColor="#fff"/>
   <path
       android:pathData="m16.938,9.418 l-3.299,7.582h-1.787l3.305,-7.16h-4.242v-1.371h6.023z"
