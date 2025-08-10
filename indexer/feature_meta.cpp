@@ -75,7 +75,7 @@ bool Metadata::TypeFromString(string_view k, Metadata::EType & outType)
 {
   if (k == "opening_hours")
     outType = Metadata::FMD_OPEN_HOURS;
-  else if (k == "check_date" || k == "survey:date")
+  else if (k == "check_date")
     outType = Metadata::FMD_CHECK_DATE;
   else if (k == "check_date:opening_hours")
     outType = Metadata::FMD_CHECK_DATE_OPEN_HOURS;
