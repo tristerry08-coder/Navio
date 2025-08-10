@@ -25,7 +25,7 @@ THREADS_COUNT_FEATURES_STAGE: 0
 # "map" (default) - fast, suitable to generate a few countries, but is not suitable for the whole planet
 # "mem" - fastest, best for the whole planet generation, needs ~100GB memory (as of 2025)
 # "raw" - read from a mmapped file, slow, but uses the least memory
-NODE_STORAGE: mem
+NODE_STORAGE: map
 
 
 [Osm tools]
