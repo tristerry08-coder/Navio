@@ -30,22 +30,22 @@ The app version can be found in the "About" section of CoMaps.
 ./tools/unix/build_omim.sh -r mwm_diff_tool
 ```
 
-3. Go to the `maps_generator` directory:
+3. Go to the `python` directory:
 
 ```sh
-cd tools/python/maps_generator
+cd tools/python/
 ```
 
 4. Install python dependencies:
 
 ```sh
-pip3 install -r requirements_dev.txt
+pip install -r maps_generator/requirements_dev.txt
 ```
 
 5. Create a [configuration file with defaults](https://codeberg.org/comaps/comaps/src/branch/main/tools/python/maps_generator/var/etc/map_generator.ini.default):
 
 ```sh
-cp var/etc/map_generator.ini.default var/etc/map_generator.ini
+cp maps_generator/var/etc/map_generator.ini.default maps_generator/var/etc/map_generator.ini
 ```
 
 6. Read through and edit the configuration file.
@@ -171,3 +171,16 @@ In this example we skipped generation of the World\* files because they are ones
 ### Subways layer
 
 You can manually generate a subway layer file to use in the `SUBWAY_URL` ini setting. See [instructions](https://codeberg.org/comaps/comaps/src/branch/main/docs/SUBWAY_GENERATION.md).
+
+## Testing maps
+If you're testing a new feature you likely wish to test the maps locally
+### iOS
+The easiest is to use the Simulator and switch out the map file in the Documents folder
+
+Finding the folder is slight tricky, the easiest is to look in the Xcode debug message window, as it often prints messages that contain the Documents folder
+
+E.g.,
+```
+I(1) 0.11666 platform/string_storage_base.cpp:24 StringStorageBase(): Settings path: /Users/<user-name>/Library/Developer/CoreSimulator/Devices/EFE74BF2-2871-4364-A633-BC8F1BAB9DF3/data/Containers/Data/Application/252BDFA5-3E60-43A6-B09C-158BC55DC450/Documents/settings.ini
+```
+In this folder the map file is in a YYMMDD subfolder
