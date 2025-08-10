@@ -453,11 +453,11 @@
 "dialog_routing_location_unknown_turn_on" = "No se pueden encontrar las coordenadas del GPS. Activa los servicios de ubicación para calcular la ruta.";
 "dialog_routing_download_files" = "Descargar archivos requeridos";
 "dialog_routing_download_and_update_all" = "Descarga y actualiza toda la información de mapas y rutas junto con el trayecto proyectado para calcular la ruta.";
-"dialog_routing_unable_locate_route" = "Imposible de encontrar una ruta";
-"dialog_routing_change_start_or_end" = "Ajuste su punto de inicio o su destino.";
+"dialog_routing_unable_locate_route" = "No se pudo encontrar una ruta";
+"dialog_routing_change_start_or_end" = "Ajusta tu punto de inicio o tu destino.";
 "dialog_routing_change_start" = "Ajustar el punto de inicio";
 "dialog_routing_start_not_determined" = "La ruta no se creó. No se pudo encontrar el punto de inicio.";
-"dialog_routing_select_closer_start" = "Seleccione un punto de inicio cercano a una carretera.";
+"dialog_routing_select_closer_start" = "Selecciona un punto de inicio cercano a una carretera.";
 "dialog_routing_change_end" = "Ajustar destino";
 "dialog_routing_end_not_determined" = "La ruta no se creó. No se pudo encontrar el destino.";
 "dialog_routing_select_closer_end" = "Seleccione un punto de destino cercano a una carretera.";
@@ -465,9 +465,9 @@
 "dialog_routing_intermediate_not_determined" = "Por favor, ajuste la parada intermedia.";
 "dialog_routing_system_error" = "Error del sistema";
 "dialog_routing_application_error" = "No se pudo crear la ruta debido a un error en la aplicación.";
-"dialog_routing_try_again" = "Intentar nuevamente";
-"dialog_routing_download_and_build_cross_route" = "¿Desea descargar el mapa y crear una ruta mejor que abarque más de un mapa?";
-"dialog_routing_download_cross_route" = "Descargue mapas adicionales para crear una ruta mejor que cruce los límites de este mapa.";
+"dialog_routing_try_again" = "Intenta nuevamente";
+"dialog_routing_download_and_build_cross_route" = "¿Deseas descargar el mapa y crear una ruta mejor que abarque más de un mapa?";
+"dialog_routing_download_cross_route" = "Descarga mapas adicionales para crear una ruta mejor que cruce los límites de este mapa.";
 
 /* «Show» context menu */
 "show" = "Mostrar";
@@ -488,7 +488,7 @@
 "search_not_found" = "No se encontró ningún resultado.";
 
 /* The message when user did not find anything in the search. */
-"search_not_found_query" = "Descargue la región en la que está buscando o pruebe a añadir el nombre de una ciudad/pueblo cercano.";
+"search_not_found_query" = "Descarga la región en la que estás buscando o prueba añadir el nombre de una ciudad/pueblo cercano.";
 "search_history_title" = "Historial de búsquedas";
 "search_history_text" = "Ver búsquedas recientes.";
 "clear_search" = "Vaciar historial de búsquedas";
@@ -498,27 +498,27 @@
 
 /* Place Page link to Wikimedia Commons. */
 "wikimedia_commons" = "Wikimedia Commons";
-"p2p_your_location" = "Su ubicación";
+"p2p_your_location" = "Tu ubicación";
 "p2p_start" = "Empezar";
 "p2p_from_here" = "Ruta desde";
 "p2p_to_here" = "Ruta hacia";
-"p2p_only_from_current" = "La navegación solo está disponible desde su ubicación actual.";
-"p2p_reroute_from_current" = "¿Quiere planificar un itinerario desde su ubicación actual?";
+"p2p_only_from_current" = "La navegación solo está disponible desde tu ubicación actual.";
+"p2p_reroute_from_current" = "¿Quieres planificar una ruta desde tu ubicación actual?";
 "editor_time_add" = "Añadir horario";
 "editor_time_delete" = "Eliminar horario";
 
 /* Text for allday switch. */
 "editor_time_allday" = "Todo el día (24 horas)";
-"editor_time_open" = "Abierto";
-"editor_time_close" = "Cerrado";
-"editor_time_add_closed" = "Añadir horas de cierre";
+"editor_time_open" = "Apertura";
+"editor_time_close" = "Cierre";
+"editor_time_add_closed" = "Añadir horas de pausa";
 "editor_time_title" = "Horario de apertura";
 "editor_time_advanced" = "Modo avanzado";
 "editor_time_simple" = "Modo sencillo";
-"editor_hours_closed" = "Horas de cierre";
+"editor_hours_closed" = "Horas de pausa";
 "editor_example_values" = "Valores de ejemplo";
-"editor_add_select_location" = "Seleccione la ubicación";
-"editor_done_dialog_1" = "Ha cambiado el mapa del mundo. ¡No se lo guarde para usted! Dígaselo a sus amigos y edítenlo juntos.";
+"editor_add_select_location" = "Selecciona la ubicación";
+"editor_done_dialog_1" = "Has cambiado el mapa del mundo. ¡No te lo guardes para ti! Dile a tus amigos y editadlo juntos.";
 "share_with_friends" = "Compartir con amigos";
 "editor_report_problem_send_button" = "Enviar";
 "autodownload" = "Descarga automática";
@@ -549,14 +549,14 @@
 
 /* OpenStreetMap Profile */
 "osm_profile" = "Perfil de OpenStreetMap";
-"osm_profile_promt" = "Cree una cuenta OpenStreetMap o inicie sesión para publicar sus ediciones de mapas en todo el mundo.";
-"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) es un proyecto comunitario para construir un mapa libre y abierto. Es la principal fuente de datos cartográficos de CoMaps y funciona de forma similar a Wikipedia. Usted puede añadir o editar lugares y estos pasan a estar disponibles para millones de usuarios de todo el mundo.\n¡Únase a la comunidad y ayude a crear un mapa mejor para todos!";
-"osm_profile_login" = "Iniciar sesión en la cuenta de OpenStreetMap";
+"osm_profile_promt" = "Crea una cuenta de OpenStreetMap o inicia sesión para publicar tus ediciones de mapas para todo el mundo.";
+"osm_profile_explanation" = "[OpenStreetMap.org](https://openstreetmap.org) (OSM) es un proyecto comunitario para construir un mapa libre y abierto. Es la principal fuente de datos cartográficos de CoMaps y funciona de forma similar a Wikipedia. Puedes añadir o editar lugares y estos pasan a estar disponibles para millones de usuarios de todo el mundo.\n¡Únete a la comunidad y ayuda a crear un mejor mapa para todos!";
+"osm_profile_login" = "Iniciar sesión en OpenStreetMap";
 "osm_profile_reauthorize_promt" = "La cuenta de OpenStreetMap se desconectó de esta aplicación";
-"osm_profile_reauthorize" = "Volver a conectar con OpenStreetMap";
+"osm_profile_reauthorize" = "Reconectar con OpenStreetMap";
 "osm_profile_remove_promt" = "Si no puedes o no quieres reconectar tu cuenta, simplemente puedes quitarla de esta aplicación";
 "osm_profile_remove" = "Quitar cuenta de OpenStreetMap";
-"osm_profile_register_promt" = "¿No tiene cuenta en OpenStreetMap?";
+"osm_profile_register_promt" = "¿No tienes cuenta en OpenStreetMap?";
 "osm_profile_register" = "Registrarse en OpenStreetMap";
 "osm_profile_verfied_changes" = "Cambios verificados";
 "osm_profile_logout" = "Cerrar sesión de la cuenta de OpenStreetMap";
@@ -576,7 +576,7 @@
 /* Text field to enter non-existing street name, below list of known streets around */
 "add_street" = "Añadir una calle";
 "choose_language" = "Elegir un idioma";
-"choose_street" = "Elija una calle";
+"choose_street" = "Elije una calle";
 "postal_code" = "Código postal";
 "cuisine" = "Cocina";
 "select_cuisine" = "Seleccionar cocina";
@@ -588,7 +588,7 @@
 "please_note" = "Atención";
 "downloader_delete_map_dialog" = "Todas las ediciones hechas al mapa se eliminarán junto con este.";
 "downloader_update_maps" = "Actualizar mapas";
-"downloader_search_field_hint" = "Buscar en el mapa";
+"downloader_search_field_hint" = "Buscar mapa";
 "migration_download_error_dialog" = "Error de descarga";
 "common_check_internet_connection_dialog" = "Revise la configuración y asegúrese de que su dispositivo esté conectado a Internet.";
 "downloader_no_space_title" = "No hay suficiente espacio";
@@ -621,7 +621,7 @@
 "editor_storey_number" = "Número de plantas (máx. %d)";
 
 /* Error message in Editor when a user tries to set the number of floors for a building higher than %d floors */
-"error_enter_correct_storey_number" = "El número de plantas no debe superar %d";
+"error_enter_correct_storey_number" = "El número de niveles no debe superar %d";
 "editor_zip_code" = "Código postal";
 "error_enter_correct_zip_code" = "Introduzca un código postal válido";
 
@@ -638,8 +638,8 @@
 /* To indicate the operator of ATMs, bicycle rentals, electric vehicle charging stations... */
 "operator" = "Operador: %@";
 "editor_category_unsuitable_title" = "¿No halla una categoría adecuada?";
-"editor_category_unsuitable_text" = "CoMaps permite añadir únicamente categorías de puntos sencillos, es decir, no ciudades, carreteras, lagos, contornos de edificios, etc. Por favor, añada dichas categorías directamente a <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Consulte nuestra <a href=\"https://www.comaps.app/support/advanced-map-editing/\">guía</a> para obtener instrucciones detalladas paso a paso.";
-"downloader_no_downloaded_maps_title" = "No ha descargado ningún mapa";
+"editor_category_unsuitable_text" = "CoMaps permite añadir únicamente categorías de puntos sencillos, es decir, no ciudades, carreteras, lagos, contornos de edificios, etc. Por favor, añade dichas categorías directamente en <a href=\"https://www.openstreetmap.org\">OpenStreetMap.org</a>. Consulta nuestra <a href=\"https://www.comaps.app/support/advanced-map-editing/\">guía</a> para obtener instrucciones detalladas paso a paso.";
+"downloader_no_downloaded_maps_title" = "No has descargado ningún mapa";
 "downloader_no_downloaded_maps_message" = "Descargue mapas para encontrar la ubicación y navegar sin conexión.";
 "current_location_unknown_error_title" = "Se desconoce la ubicación actual.";
 "current_location_unknown_error_message" = "Se ha producido un error al buscar su ubicación. Compruebe que su dispositivo funciona correctamente e inténtelo más tarde.";
@@ -690,14 +690,14 @@
 "text_more_button" = "… más";
 
 /* Phone number error message */
-"error_enter_correct_phone" = "Introduzca un número de teléfono válido";
-"error_enter_correct_web" = "Introduzca una dirección web válida";
-"error_enter_correct_email" = "Introduzca un correo válido";
+"error_enter_correct_phone" = "Introduce un número de teléfono válido";
+"error_enter_correct_web" = "Introduce una dirección web válida";
+"error_enter_correct_email" = "Introduce un correo electrónico válido";
 "refresh" = "Actualizar";
 "placepage_add_place_button" = "Añadir lugar a OpenStreetMap";
 
 /* Displayed when saving some edits to the map to warn against publishing personal data */
-"editor_share_to_all_dialog_title" = "¿Quiere enviarlo a todos los usuarios?";
+"editor_share_to_all_dialog_title" = "¿Quieres enviarlo a todos los usuarios?";
 
 /* Dialog before publishing the modifications to the public map. */
 "editor_share_to_all_dialog_message_1" = "Cerciórese de que no ha introducido ningún dato privado o personal.";
@@ -720,7 +720,7 @@
 "decline" = "Declinar";
 "mobile_data_dialog" = "¿Usar Internet móvil para mostrar información detallada?";
 "mobile_data_option_always" = "Usar siempre";
-"mobile_data_option_today" = "Solo hoy";
+"mobile_data_option_today" = "Sólo hoy";
 "mobile_data_option_not_today" = "No usar hoy";
 "mobile_data" = "Internet móvil";
 
@@ -773,7 +773,7 @@
 "bookmarks_create_new_group" = "Crear nueva lista";
 
 /* Bookmark categories screen, button that opens folder selection dialog to import KML/KMZ/GPX/KMB files */
-"bookmarks_import" = "Importar marcadores y trayectos";
+"bookmarks_import" = "Importar marcadores y trazas";
 "downloader_hide_screen" = "Ocultar pantalla";
 "downloader_percent" = "%@ (%@ de %@)";
 "downloader_process" = "Descargando %@…";
@@ -782,7 +782,7 @@
 "bookmarks_error_title_share_empty" = "Error al compartir";
 "bookmarks_error_message_share_empty" = "No se puede compartir una lista vacía";
 "bookmarks_error_message_empty_list_name" = "Proporcione el nombre de la lista";
-"bookmarks_error_title_list_name_already_taken" = "Este nombre ya existe";
+"bookmarks_error_title_list_name_already_taken" = "Este nombre ya está ocupado";
 "bookmarks_error_title_list_name_too_long" = "Este nombre es demasiado largo";
 "profile" = "Perfil de OpenStreetMap";
 "bookmarks_detect_title" = "Nuevos archivos detectados";
@@ -803,7 +803,7 @@
 "hide_from_map" = "Ocultar del mapa";
 "tags_loading_error_subtitle" = "Se produjo un error al cargar las etiquetas; inténtelo de nuevo";
 "download_button" = "Descargar";
-"speedcams_alert_title" = "Cámaras de velocidad";
+"speedcams_alert_title" = "Radares de velocidad";
 "place_description_title" = "Descripción del lugar";
 
 /* "Speed cameras" settings menu option (should be short! no more than 47-50 chars) to warn a driver if there is a risk of exceeding the speed limit */

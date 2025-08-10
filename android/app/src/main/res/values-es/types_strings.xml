@@ -226,11 +226,11 @@
     <string name="type.boundary.protected_area.4">Área protegida</string>
     <string name="type.boundary.protected_area.5">Área protegida</string>
     <string name="type.boundary.protected_area.6">Área protegida</string>
-    <string name="type.building">Edificio</string>
+    <string name="type.building">Edificación</string>
     <!-- Duplicates [address] in strings.txt -->
     <string name="type.building.address">Dirección</string>
-    <string name="type.building.has_parts">Edificio</string>
-    <string name="type.building_part">Edificio</string>
+    <string name="type.building.has_parts">Edificación</string>
+    <string name="type.building_part">Edificación</string>
     <string name="type.building.garage">Garaje</string>
     <string name="type.building.train_station">Edificio de la estación</string>
     <string name="type.building.warehouse">Almacén</string>
@@ -243,22 +243,22 @@
     <string name="type.craft.carpenter">Carpintero</string>
     <string name="type.craft.confectionery">Confitería</string>
     <string name="type.craft.electrician">Electricista</string>
-    <string name="type.craft.electronics_repair">Reparación de aparatos electrónicos</string>
+    <string name="type.craft.electronics_repair">Reparación de electrónicos</string>
     <string name="type.craft.gardener">Paisajista</string>
     <string name="type.craft.grinding_mill">Molino de molienda</string>
     <string name="type.craft.handicraft">Artesanía</string>
     <!-- Heating, Ventilation, and Air Conditioning -->
-    <string name="type.craft.hvac">Calefacción, ventilación y aire acondicionado</string>
+    <string name="type.craft.hvac">Climatización</string>
     <string name="type.craft.key_cutter">Copista de llaves</string>
-    <string name="type.craft.locksmith">Cerrajero</string>
-    <string name="type.craft.metal_construction">Trabajador del metal</string>
+    <string name="type.craft.locksmith">Cerrajería</string>
+    <string name="type.craft.metal_construction">Metalistería</string>
     <string name="type.craft.painter">Pintor</string>
     <string name="type.craft.photographer">Fotógrafo</string>
-    <string name="type.shop.camera">Tienda de cámaras</string>
+    <string name="type.shop.camera">Tienda de fotografía</string>
     <string name="type.craft.plumber">Fontanero</string>
     <string name="type.craft.sawmill">Serrería</string>
     <string name="type.craft.shoemaker">Zapatero</string>
-    <string name="type.craft.winery">Bodega</string>
+    <string name="type.craft.winery">Bodega vinícola</string>
     <string name="type.craft.tailor">Sastre</string>
     <string name="type.cuisine.african">Africana</string>
     <string name="type.cuisine.american">Estadounidense</string>
@@ -266,7 +266,7 @@
     <string name="type.cuisine.argentinian">Argentina</string>
     <string name="type.cuisine.asian">Asiática</string>
     <string name="type.cuisine.austrian">Austriaca</string>
-    <string name="type.cuisine.bagel">Bágel</string>
+    <string name="type.cuisine.bagel">Bagel</string>
     <string name="type.cuisine.balkan">Balcánica</string>
     <string name="type.cuisine.barbecue">Barbacoa</string>
     <string name="type.cuisine.bavarian">Bávara</string>
@@ -275,7 +275,7 @@
     <string name="type.cuisine.breakfast">Desayunos</string>
     <string name="type.cuisine.bubble_tea">Té de burbujas</string>
     <string name="type.cuisine.burger">Hamburguesería</string>
-    <string name="type.cuisine.buschenschank">Buschenschank (especialidad austríaca)</string>
+    <string name="type.cuisine.buschenschank">Buschenschank</string>
     <string name="type.cuisine.cake">Tartas</string>
     <string name="type.cuisine.caribbean">Caribeña</string>
     <string name="type.cuisine.chicken">Pollo</string>
@@ -474,11 +474,11 @@
     <string name="type.highway.service">Vía de servicio</string>
     <string name="type.highway.service.area">Vía de servicio</string>
     <!-- These translations are used for all type.highway.*.bridge. -->
-    <string name="type.highway.service.bridge">Puente de carretera de servicio</string>
+    <string name="type.highway.service.bridge">Puente</string>
     <string name="type.highway.service.driveway">Vía de servicio</string>
     <string name="type.highway.service.parking_aisle">Pasillo de aparcamiento</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
-    <string name="type.highway.service.tunnel">Túnel de vía de servicio</string>
+    <string name="type.highway.service.tunnel">Túnel</string>
     <string name="type.highway.services">Área de servicio</string>
     <string name="type.highway.speed_camera">Radar de velocidad</string>
     <string name="type.highway.steps">Escaleras</string>

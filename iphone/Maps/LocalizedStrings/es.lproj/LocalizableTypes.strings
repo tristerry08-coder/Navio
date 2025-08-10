@@ -231,12 +231,12 @@
 "type.boundary.protected_area.4" = "Área protegida";
 "type.boundary.protected_area.5" = "Área protegida";
 "type.boundary.protected_area.6" = "Área protegida";
-"type.building" = "Edificio";
+"type.building" = "Edificación";
 
 /* Duplicates [address] in strings.txt */
 "type.building.address" = "Dirección";
-"type.building.has_parts" = "Edificio";
-"type.building_part" = "Edificio";
+"type.building.has_parts" = "Edificación";
+"type.building_part" = "Edificación";
 "type.building.garage" = "Garaje";
 "type.building.train_station" = "Edificio de la estación";
 "type.building.warehouse" = "Almacén";
@@ -249,23 +249,23 @@
 "type.craft.carpenter" = "Carpintero";
 "type.craft.confectionery" = "Confitería";
 "type.craft.electrician" = "Electricista";
-"type.craft.electronics_repair" = "Reparación de aparatos electrónicos";
+"type.craft.electronics_repair" = "Reparación de electrónicos";
 "type.craft.gardener" = "Paisajista";
 "type.craft.grinding_mill" = "Molino de molienda";
 "type.craft.handicraft" = "Artesanía";
 
 /* Heating, Ventilation, and Air Conditioning */
-"type.craft.hvac" = "Calefacción, ventilación y aire acondicionado";
+"type.craft.hvac" = "Climatización";
 "type.craft.key_cutter" = "Copista de llaves";
-"type.craft.locksmith" = "Cerrajero";
-"type.craft.metal_construction" = "Trabajador del metal";
+"type.craft.locksmith" = "Cerrajería";
+"type.craft.metal_construction" = "Metalistería";
 "type.craft.painter" = "Pintor";
 "type.craft.photographer" = "Fotógrafo";
-"type.shop.camera" = "Tienda de cámaras";
+"type.shop.camera" = "Tienda de fotografía";
 "type.craft.plumber" = "Fontanero";
 "type.craft.sawmill" = "Serrería";
 "type.craft.shoemaker" = "Zapatero";
-"type.craft.winery" = "Bodega";
+"type.craft.winery" = "Bodega vinícola";
 "type.craft.tailor" = "Sastre";
 "type.cuisine.african" = "Africana";
 "type.cuisine.american" = "Estadounidense";
@@ -273,7 +273,7 @@
 "type.cuisine.argentinian" = "Argentina";
 "type.cuisine.asian" = "Asiática";
 "type.cuisine.austrian" = "Austriaca";
-"type.cuisine.bagel" = "Bágel";
+"type.cuisine.bagel" = "Bagel";
 "type.cuisine.balkan" = "Balcánica";
 "type.cuisine.barbecue" = "Barbacoa";
 "type.cuisine.bavarian" = "Bávara";
@@ -282,7 +282,7 @@
 "type.cuisine.breakfast" = "Desayunos";
 "type.cuisine.bubble_tea" = "Té de burbujas";
 "type.cuisine.burger" = "Hamburguesería";
-"type.cuisine.buschenschank" = "Buschenschank (especialidad austríaca)";
+"type.cuisine.buschenschank" = "Buschenschank";
 "type.cuisine.cake" = "Tartas";
 "type.cuisine.caribbean" = "Caribeña";
 "type.cuisine.chicken" = "Pollo";
@@ -519,12 +519,12 @@
 "type.highway.service.area" = "Vía de servicio";
 
 /* These translations are used for all type.highway.*.bridge. */
-"type.highway.service.bridge" = "Puente de carretera de servicio";
+"type.highway.service.bridge" = "Puente";
 "type.highway.service.driveway" = "Vía de servicio";
 "type.highway.service.parking_aisle" = "Pasillo de aparcamiento";
 
 /* These translations are used for all type.highway.*.tunnel. */
-"type.highway.service.tunnel" = "Túnel de vía de servicio";
+"type.highway.service.tunnel" = "Túnel";
 "type.highway.services" = "Área de servicio";
 "type.highway.speed_camera" = "Radar de velocidad";
 "type.highway.steps" = "Escaleras";

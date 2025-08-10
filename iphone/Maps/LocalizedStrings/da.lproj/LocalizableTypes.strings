@@ -670,7 +670,7 @@
 
 /* In most (European) countries, сemeteries are usually independent of places of worship (e.g. military cemeteries), while grave yards are usually the yard of a place of worship. */
 "type.landuse.cemetery.christian" = "Kirkegård";
-"type.landuse.religious" = "Religious Land";
+"type.landuse.religious" = "Religiøs jord";
 "type.landuse.commercial" = "Erhvervsområde";
 "type.landuse.construction" = "Byggeplads";
 "type.landuse.education" = "Uddannelsesområde";
@@ -895,10 +895,10 @@
 "type.power.tower" = "El-pol";
 
 /* A single pole supporting minor power lines. */
-"type.power.pole" = "Power Pole";
+"type.power.pole" = "Elmast";
 
 /* A single pole supporting various public utilities, such as lighting or telephony. */
-"type.man_made.utility_pole" = "Utility Pole";
+"type.man_made.utility_pole" = "Lygtepæl";
 "type.psurface" = "psurface";
 "type.psurface.paved_bad" = "psurface-paved_bad";
 "type.psurface.paved_good" = "psurface-paved_good";
@@ -1488,7 +1488,7 @@
 "type.barrier.guard_rail" = "Autoværn";
 "type.highway.ladder" = "Stige";
 "type.amenity.love_hotel" = "Kærlighedshotel";
-"type.natural.wetland.tidalflat" = "Tidal Flat";
+"type.natural.wetland.tidalflat" = "Tidevandsflade";
 "type.sport.diving" = "High Diving";
 "type.hwtag.onedir_bicycle" = "hwtag-onedir_bicycle";
 "type.natural.wetland.swamp" = "Sump";
@@ -1498,7 +1498,7 @@
 "type.natural.wetland.fen" = "Fen";
 "type.natural.wetland.saltmarsh.tidal" = "Tidevandspåvirket strandeng";
 "type.natural.wetland.reedbed" = "Reed Bed";
-"type.railway.station.subway.qingdao" = "Subway Station";
+"type.railway.station.subway.qingdao" = "Undergrundsstation";
 "type.leisure.escape_game" = "Escape Room";
 "type.amenity.luggage_locker" = "Bagageboks";
 "type.post_office.post_partner" = "Postpartner";

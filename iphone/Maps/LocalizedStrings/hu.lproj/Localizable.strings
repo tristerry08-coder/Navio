@@ -322,7 +322,7 @@
 "volunteer" = "Önkéntes";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "Kövessen és lépjen kapcsolatba velünk";
+"follow_us" = "Csatlakozzon hozzánk";
 
 /* Alert text */
 "email_error_body" = "Az e-mail kliens nem lett beállítva. Állítsa be, vagy lépjen kapcsolatba velünk a(z) %@ címen";

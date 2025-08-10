@@ -681,7 +681,7 @@
 "type.landuse.flowerbed" = "Aiuola";
 "type.landuse.forest" = "Foresta";
 "type.landuse.forest.coniferous" = "Foresta di conifere";
-"type.landuse.forest.deciduous" = "Foresta de cidua";
+"type.landuse.forest.deciduous" = "Foresta decidua";
 "type.landuse.forest.mixed" = "Foresta mista";
 "type.landuse.garages" = "Garage";
 "type.landuse.grass" = "Prato erboso";

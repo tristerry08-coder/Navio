@@ -594,7 +594,7 @@
     <string name="type.landuse.flowerbed">Aiuola</string>
     <string name="type.landuse.forest">Foresta</string>
     <string name="type.landuse.forest.coniferous">Foresta di conifere</string>
-    <string name="type.landuse.forest.deciduous">Foresta de cidua</string>
+    <string name="type.landuse.forest.deciduous">Foresta decidua</string>
     <string name="type.landuse.forest.mixed">Foresta mista</string>
     <string name="type.landuse.garages">Garage</string>
     <string name="type.landuse.grass">Prato erboso</string>

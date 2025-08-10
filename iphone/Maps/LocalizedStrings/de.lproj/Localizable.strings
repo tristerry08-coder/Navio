@@ -740,7 +740,7 @@
 "traffic_data_unavailable" = "Verkehrsdaten sind nicht verfügbar";
 "enable_logging" = "Protokollierung aktivieren";
 "log_file_size" = "Größe der Protokolldatei: %@";
-"transliteration_title" = "Transliteration ins Lateinische";
+"transliteration_title" = "Transliteration ins Lateinische alphabet";
 
 /* Subway exits for public transport marks on the map */
 "core_exit" = "Ausgang";
