@@ -24,7 +24,7 @@
     <string>@BUNDLE_EXECUTABLE@</string>
 
     <key>CFBundleIdentifier</key>
-    <string>app.comaps.qt</string>
+    <string>app.comaps.comaps</string>
 
     <key>NSPrincipalClass</key>
     <string>NSApplication</string>
@@ -38,14 +38,14 @@
       <true/>
       <key>NSExceptionDomains</key>
       <dict>
-        <key>omaps.app</key>
+        <key>comaps.app</key>
         <dict>
           <key>NSExceptionAllowsInsecureHTTPLoads</key>
           <true/>
           <key>NSIncludesSubdomains</key>
           <true/>
         </dict>
-        <key>organicmaps.app</key>
+        <key>comaps.at</key>
         <dict>
           <key>NSExceptionAllowsInsecureHTTPLoads</key>
           <true/>

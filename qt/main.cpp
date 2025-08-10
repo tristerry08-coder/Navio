@@ -133,7 +133,7 @@ int main(int argc, char * argv[])
   UNUSED_VALUE(mainGuard);
 
   QApplication app(argc, argv);
-  app.setDesktopFileName("app.comaps.qt");
+  app.setDesktopFileName("app.comaps.comaps");
   platform.SetupMeasurementSystem();
 
 
