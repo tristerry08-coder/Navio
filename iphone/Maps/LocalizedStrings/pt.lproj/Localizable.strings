@@ -169,7 +169,7 @@
 "unknown_current_position" = "A sua localização ainda não foi determinada";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Veja o meu marcador no mapa do CoMaps.";
+"bookmark_share_email_subject" = "Veja o meu marcador no mapa do CoMaps!";
 
 /* Subject for emailed position */
 "my_position_share_email_subject" = "Veja a minha localização atual no mapa CoMaps!";
@@ -202,7 +202,7 @@
 "share_my_location" = "Partilhar a minha localização";
 "prefs_group_route" = "Navegação";
 "pref_zoom_title" = "Botões de ampliação";
-"pref_left_button_type" = "Left Main Button";
+"pref_left_button_type" = "Botão Esquerdo Principal";
 
 /* Settings «Map» category: «Appearance» title */
 "pref_appearance_title" = "Apresentação";
@@ -214,7 +214,7 @@
 "pref_appearance_dark" = "Tons escuros";
 
 /* Generic «Disabled» string */
-"disabled" = "Disabled";
+"disabled" = "Desativado";
 
 /* Generic «Off» string */
 "off" = "Desligado";
@@ -238,7 +238,7 @@
 "pref_tts_title" = "Instruções de voz";
 
 /* Settings «Route» category: «Tts enable» title */
-"pref_tts_enable_title" = "Enable Voice Instructions";
+"pref_tts_enable_title" = "Ativar Instruções por Voz";
 
 /* Settings «Route» category: «Tts announce street names» title */
 "pref_tts_street_names_title" = "Anunciar nomes de ruas";
@@ -441,7 +441,7 @@
 "dialog_routing_disclaimer_priority" = "— As condições da estrada, as leis de trânsito e os sinais de trânsito têm sempre prioridade sobre as indicações de navegação;";
 "dialog_routing_disclaimer_precision" = "— O mapa pode estar desatualizado e o trajeto indicado pode não ser a melhor para chegar ao destino;";
 "dialog_routing_disclaimer_recommendations" = "— Os trajetos indicados devem ser considerados apenas como sugestões;";
-"dialog_routing_disclaimer_borders" = "— Use com cautela em rotas de zonas fronteiriças: as rotas criadas pela nossa aplicação podem algumas vezes cruzar fronteiras nacionais em locais não autorizados;";
+"dialog_routing_disclaimer_borders" = "— Use com cautela em rotas de zonas fronteiriças: as rotas criadas pela nossa aplicação podem algumas vezes cruzar fronteiras nacionais em locais não autorizados.";
 "dialog_routing_disclaimer_beware" = "Fique sempre atento nas estradas!";
 "dialog_routing_check_gps" = "Verifique o sinal do GPS";
 "dialog_routing_error_location_not_found" = "O trajeto não foi criado porque não foi possível identificar as coordenadas do GPS.";
@@ -812,7 +812,7 @@
 /* Speed camera settings menu option - Never warn (about speedcams) */
 "pref_tts_speedcams_never" = "Nunca avisar";
 "power_managment_title" = "Modo de economia de energia";
-"power_managment_description" = "Se o modo automático estiver ativado, a aplicação vai desativar as funções que consomem energia, dependendo da carga atual do telemóvel";
+"power_managment_description" = "Tentar reduzir o consumo de energia sacrificando alguma funcionalidade.";
 "power_managment_setting_never" = "Nunca";
 "power_managment_setting_auto" = "Automático";
 "power_managment_setting_manual_max" = "Máxima economia de energia";
@@ -829,7 +829,7 @@
 "avoid_ferry" = "Evitar ferribotes";
 "avoid_motorways" = "Evitar autoestradas";
 "unable_to_calc_alert_title" = "Não foi possível calcular a rota";
-"unable_to_calc_alert_subtitle" = "Infelizmente não foi possível criar o percurso com as opções selecionadas. Altere as opções e tente novamente";
+"unable_to_calc_alert_subtitle" = "Uma rota não foi possível ser encontrada. Isto pode ser causado pelas suas opções ou dados incompletos de OpenStreetMap. Por favor, mude as suas opções de rota e tente novamente.";
 "define_to_avoid_btn" = "Definir as estradas a evitar";
 "change_driving_options_btn" = "Configurações de direção ativadas";
 "toll_road" = "Estrada com portagem";
@@ -1018,7 +1018,7 @@
 "bugreport_alert_message" = "Gostarias de enviar um relatório de erro para os programadores?\nContamos com os nossos utilizadores, uma vez que o CoMaps não recolhe automaticamente qualquer informação de erro. Agradecemos desde já o teu apoio ao CoMaps!";
 
 /* Title for the iCloud syncronization setting */
-"icloud_sync" = "iCloud Syncronization (Beta)";
+"icloud_sync" = "Sincronização com iCloud (Beta)";
 
 /* Title for the "Enable iCloud Syncronization" alert. */
 "enable_icloud_synchronization_title" = "Ativar a sincronização do iCloud";

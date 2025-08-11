@@ -11,7 +11,7 @@
     <string name="type.aerialway.gondola">Telecabina</string>
     <string name="type.aerialway.mixed_lift">Telecabina/telesilla</string>
     <string name="type.aerialway.station">Estación de teleférico</string>
-    <string name="type.aeroway">Infraestructura aérea</string>
+    <string name="type.aeroway">Infraestructura aeronáutica</string>
     <string name="type.aeroway.aerodrome">Aeropuerto</string>
     <string name="type.aeroway.aerodrome.international">Aeropuerto internacional</string>
     <string name="type.aeroway.apron">Plataforma de estacionamiento de aviones</string>
@@ -20,7 +20,7 @@
     <string name="type.aeroway.runway">Pista de despegue</string>
     <string name="type.aeroway.taxiway">Pista de rodaje</string>
     <string name="type.aeroway.terminal">Terminal</string>
-    <string name="type.amenity">Infraestructura</string>
+    <string name="type.amenity">Instalación</string>
     <string name="type.amenity.arts_centre">Centro de arte</string>
     <string name="type.amenity.atm">Cajero automático</string>
     <string name="type.amenity.bank">Banco</string>
@@ -42,7 +42,7 @@
     <string name="type.amenity.casino">Casino</string>
     <string name="type.amenity.gambling">Juegos de apuestas</string>
     <string name="type.leisure.adult_gaming_centre">Centro de juegos para adultos</string>
-    <string name="type.leisure.amusement_arcade">Sala de recreativos</string>
+    <string name="type.leisure.amusement_arcade">Sala de juegos arcade</string>
     <string name="type.amenity.charging_station">Estación de carga</string>
     <string name="type.amenity.charging_station.bicycle">Estación de carga de bicicletas</string>
     <string name="type.amenity.charging_station.motorcar">Estación de carga de automóviles</string>
@@ -66,7 +66,7 @@
     <string name="type.amenity.language_school">Escuela de idiomas</string>
     <string name="type.office.diplomatic">Embajada</string>
     <string name="type.amenity.fast_food">Comida rápida</string>
-    <string name="type.amenity.ferry_terminal">Transbordador</string>
+    <string name="type.amenity.ferry_terminal">Transbordador de ferry</string>
     <string name="type.amenity.fire_station">Parque de bomberos</string>
     <string name="type.amenity.food_court">Zona de comidas</string>
     <string name="type.amenity.fountain">Fuente</string>

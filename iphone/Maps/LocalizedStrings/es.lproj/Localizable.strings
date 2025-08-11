@@ -570,7 +570,7 @@
 "add_language" = "Añadir un idioma";
 
 /* Editable House Number text field (in address block). */
-"house_number" = "Número de casa";
+"house_number" = "Número de domicilio";
 "details" = "Detalles";
 
 /* Text field to enter non-existing street name, below list of known streets around */
@@ -819,7 +819,7 @@
 "power_managment_setting_never" = "Nunca";
 "power_managment_setting_auto" = "Cuando queda poca energía";
 "power_managment_setting_manual_max" = "Siempre";
-"enable_logging_warning_message" = "Active esta opción temporalmente para grabar y enviar de forma manual registros para diagnosticar defectos enviados mediante la opción «Informar de un fallo» en el diálogo Ayuda. Los registros pueden incluir ubicaciones.";
+"enable_logging_warning_message" = "Activa esta opción temporalmente para grabar y enviar de forma manual registros para diagnosticar defectos mediante la opción «Informar de un fallo» en el diálogo Ayuda. Los registros pueden incluir ubicaciones.";
 "driving_options_title" = "Opciones de enrutamiento";
 
 /* Recommended length for CarPlay and Android Auto is around 25-27 characters */
@@ -832,7 +832,7 @@
 "avoid_ferry" = "Evitar ferris";
 "avoid_motorways" = "Evitar autopistas";
 "unable_to_calc_alert_title" = "No se puede calcular la ruta";
-"unable_to_calc_alert_subtitle" = "No se pudo encontrar una ruta. Quizá se deba a las opciones de enrutamiento o a datos faltantes en OpenStreetMap. Revise sus opciones de enrutamiento y vuelva a intentarlo.";
+"unable_to_calc_alert_subtitle" = "No se pudo encontrar una ruta. Quizás se deba a las opciones de enrutamiento o a datos faltantes en OpenStreetMap. Revisa tus opciones de enrutamiento y vuelve a intentarlo.";
 "define_to_avoid_btn" = "Defina los caminos para evitar";
 "change_driving_options_btn" = "Opciones de enrutamiento activadas";
 "toll_road" = "Carretera de peaje";
@@ -862,7 +862,7 @@
 
 /* To indicate the network of ATMs, bicycle rentals, electric vehicle charging stations... */
 "network" = "Red: %@";
-"trip_finished" = "¡Ha llegado!";
+"trip_finished" = "¡Has llegado!";
 "keyboard_availability_alert" = "Teclado no disponible durante la conducción";
 "dialog_routing_change_start_carplay" = "No se puede construir la ruta desde su ubicación actual";
 "dialog_routing_change_end_carplay" = "No se puede construir una ruta al destino. Elija por favor otro punto";
@@ -899,7 +899,7 @@
 "tourist_places" = "Sitios de interés";
 "museums" = "Museos";
 "parks" = "Parques";
-"swim_places" = "Natación";
+"swim_places" = "Nado";
 "mountains" = "Montañas";
 "animals" = "Animales";
 "hotels" = "Hoteles";
@@ -910,13 +910,13 @@
 "fuel_places" = "Gasolineras";
 "medicine" = "Medicina";
 "search_in_the_list" = "Buscar en la lista";
-"religious_places" = "Lugares sagrados";
+"religious_places" = "Lugares religiosos";
 "transit_not_found" = "Navegación en Metro aún no disponible en esta región";
 "dialog_pedestrian_route_is_long_header" = "No se encontró ninguna ruta de metro";
-"dialog_pedestrian_route_is_long_message" = "Elija un punto de inicio o fin de ruta más cercano a una estación de metro";
-"button_layer_isolines" = "Alturas";
+"dialog_pedestrian_route_is_long_message" = "Elije un punto de inicio o fin de ruta más cercano a una estación de metro";
+"button_layer_isolines" = "Curvas de nivel";
 "isolines_activation_error_dialog" = "Para usar las curvas de nivel, actualice o descargue el mapa del área deseada";
-"isolines_location_error_dialog" = "La altitud de relieve aún no está disponible en esta región";
+"isolines_location_error_dialog" = "Las curvas de nivel aún no están disponible en esta región";
 "elevation_profile_diff_level" = "Nivel de dificultad";
 "elevation_profile_diff_level_easy" = "Fácil";
 "elevation_profile_diff_level_moderate" = "Moderado";
@@ -925,7 +925,7 @@
 "elevation_profile_descent" = "Descenso";
 "elevation_profile_min_elevation" = "Elevación mín.";
 "elevation_profile_max_elevation" = "Elevación máx.";
-"isolines_toast_zooms_1_10" = "Amplíe el mapa para ver las isolíneas";
+"isolines_toast_zooms_1_10" = "Amplíe el mapa para ver las curvas de nivel";
 "downloader_updating_ios" = "Actualizando";
 "downloader_loading_ios" = "Descargando";
 

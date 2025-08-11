@@ -173,7 +173,7 @@
     <!-- Share my position using SMS, %1$@ contains om:// and %2$@ https://comaps.app link WITHOUT NAME. @NOTE non-ascii symbols in the link will result in max 70 characters SMS instead of 140. -->
     <string name="my_position_share_sms">Veja onde estou agora. Abra a hiperligação: %1$s ou %2$s Não tem um mapa offline instalado? Descarregue em https://www.comaps.app/download/</string>
     <!-- Subject for emailed bookmark -->
-    <string name="bookmark_share_email_subject">Veja o meu marcador no mapa do CoMaps.</string>
+    <string name="bookmark_share_email_subject">Veja o meu marcador no mapa do CoMaps!</string>
     <!-- Subject for emailed position -->
     <string name="my_position_share_email_subject">Veja a minha localização atual no mapa CoMaps!</string>
     <!-- Share my position using EMail, %1$@ is om:// and %2$@ is https://comaps.app link WITHOUT NAME -->
@@ -337,7 +337,7 @@
     <string name="dialog_routing_disclaimer_priority">— As condições da estrada, as leis de trânsito e os sinais de trânsito têm sempre prioridade sobre as indicações de navegação;</string>
     <string name="dialog_routing_disclaimer_precision">— O mapa pode estar desatualizado e o trajeto indicado pode não ser a melhor para chegar ao destino;</string>
     <string name="dialog_routing_disclaimer_recommendations">— Os trajetos indicados devem ser considerados apenas como sugestões;</string>
-    <string name="dialog_routing_disclaimer_borders">— Use com cautela em rotas de zonas fronteiriças: as rotas criadas pela nossa aplicação podem algumas vezes cruzar fronteiras nacionais em locais não autorizados;</string>
+    <string name="dialog_routing_disclaimer_borders">— Use com cautela em rotas de zonas fronteiriças: as rotas criadas pela nossa aplicação podem algumas vezes cruzar fronteiras nacionais em locais não autorizados.</string>
     <string name="dialog_routing_disclaimer_beware">Fique sempre atento nas estradas!</string>
     <string name="dialog_routing_check_gps">Verifique o sinal do GPS</string>
     <string name="dialog_routing_error_location_not_found">O trajeto não foi criado porque não foi possível identificar as coordenadas do GPS.</string>
@@ -558,7 +558,7 @@
     <!-- Settings: "Send general feedback" button -->
     <string name="feedback_general">Opinão geral</string>
     <string name="prefs_languages_information">Utilizamos o sistema TTS para as instruções de voz. Muitos dispositivos Android usam o Google TTS, pode transferir ou atualizá-lo a partir do Google Play (https://play.google.com/store/apps/details?id=com.google.android.tts)</string>
-    <string name="prefs_languages_information_off">Para alguns idiomas, precisará de instalar outro sintetizador de voz ou um pacote de idiomas adicional a partir da loja de aplicações (Google Play, Galaxy Store, App Gallery, FDroid). Abra as Configurações do seu dispositivo → Idioma e entrada → Voz → Saída de texto para voz. Aqui pode gerir as configurações de síntese de voz (por exemplo, transferir um pacote de idioma para poder utilizá-lo sem estar ligado à Internet) ou selecionar outro motor de texto para voz.</string>
+    <string name="prefs_languages_information_off">Para alguns idiomas, precisará de instalar outro sintetizador de voz ou um pacote de idiomas adicional a partir da loja de aplicações (Google Play, Galaxy Store, App Gallery, FDroid). \nAbra as Configurações do seu dispositivo → Idioma e entrada → Voz → Saída de texto para voz. \nAqui pode gerir as configurações de síntese de voz (por exemplo, transferir um pacote de idioma para poder utilizá-lo sem estar ligado à Internet) ou selecionar outro motor de texto para voz.</string>
     <string name="prefs_languages_information_off_link">Para obter mais informações, consulte este guia</string>
     <string name="transliteration_title">Transliteração para o latim</string>
     <string name="learn_more">Saber mais</string>
@@ -585,7 +585,7 @@
     <string name="bookmark_lists_show_all">Mostrar tudo</string>
     <plurals name="bookmarks_places">
         <item quantity="one">%d favorito</item>
-        <item quantity="many"/>
+        <item quantity="many">%d favoritos</item>
         <item quantity="other">%d favoritos</item>
     </plurals>
     <string name="bookmarks_create_new_group">Criar nova lista</string>
@@ -604,13 +604,13 @@
     <string name="profile">Perfil no OpenStreetMap</string>
     <plurals name="bookmarks_detect_message">
         <item quantity="one">%d ficheiro encontrado. Pode vê-lo depois da conversão.</item>
-        <item quantity="many"/>
+        <item quantity="many">%d ficheiros encontrados. Pode vê-los depois da conversão.</item>
         <item quantity="other">%d ficheiros encontrados. Pode vê-los depois da conversão.</item>
     </plurals>
     <string name="restore">Restaurar</string>
     <plurals name="tracks">
         <item quantity="one">%d trajeto</item>
-        <item quantity="many"/>
+        <item quantity="many">%d trajetos</item>
         <item quantity="other">%d trajetos</item>
     </plurals>
     <!-- Settings privacy group in settings screen -->
@@ -656,7 +656,7 @@
     <string name="avoid_ferry">Evitar ferribotes</string>
     <string name="avoid_motorways">Evitar autoestradas</string>
     <string name="unable_to_calc_alert_title">Não foi possível calcular a rota</string>
-    <string name="unable_to_calc_alert_subtitle">Infelizmente não foi possível criar o percurso com as opções selecionadas. Altere as opções e tente novamente</string>
+    <string name="unable_to_calc_alert_subtitle">Uma rota não foi possível ser encontrada. Isto pode ser causado pelas suas opções ou dados incompletos de OpenStreetMap. Por favor, mude as suas opções de rota e tente novamente.</string>
     <string name="define_to_avoid_btn">Definir as estradas a evitar</string>
     <string name="change_driving_options_btn">Configurações de direção ativadas</string>
     <string name="toll_road">Estrada com portagem</string>

@@ -8,7 +8,7 @@
 "type.aerialway.gondola" = "Telecabina";
 "type.aerialway.mixed_lift" = "Telecabina/telesilla";
 "type.aerialway.station" = "Estación de teleférico";
-"type.aeroway" = "Infraestructura aérea";
+"type.aeroway" = "Infraestructura aeronáutica";
 "type.aeroway.aerodrome" = "Aeropuerto";
 "type.aeroway.aerodrome.international" = "Aeropuerto internacional";
 "type.aeroway.apron" = "Plataforma de estacionamiento de aviones";
@@ -17,7 +17,7 @@
 "type.aeroway.runway" = "Pista de despegue";
 "type.aeroway.taxiway" = "Pista de rodaje";
 "type.aeroway.terminal" = "Terminal";
-"type.amenity" = "Infraestructura";
+"type.amenity" = "Instalación";
 "type.amenity.arts_centre" = "Centro de arte";
 "type.amenity.atm" = "Cajero automático";
 "type.amenity.bank" = "Banco";
@@ -39,7 +39,7 @@
 "type.amenity.casino" = "Casino";
 "type.amenity.gambling" = "Juegos de apuestas";
 "type.leisure.adult_gaming_centre" = "Centro de juegos para adultos";
-"type.leisure.amusement_arcade" = "Sala de recreativos";
+"type.leisure.amusement_arcade" = "Sala de juegos arcade";
 "type.amenity.charging_station" = "Estación de carga";
 "type.amenity.charging_station.bicycle" = "Estación de carga de bicicletas";
 "type.amenity.charging_station.motorcar" = "Estación de carga de automóviles";
@@ -63,7 +63,7 @@
 "type.amenity.language_school" = "Escuela de idiomas";
 "type.office.diplomatic" = "Embajada";
 "type.amenity.fast_food" = "Comida rápida";
-"type.amenity.ferry_terminal" = "Transbordador";
+"type.amenity.ferry_terminal" = "Transbordador de ferry";
 "type.amenity.fire_station" = "Parque de bomberos";
 "type.amenity.food_court" = "Zona de comidas";
 "type.amenity.fountain" = "Fuente";

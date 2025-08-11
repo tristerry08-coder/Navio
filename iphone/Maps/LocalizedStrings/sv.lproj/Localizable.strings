@@ -1087,7 +1087,7 @@
 "track_recording_alert_title" = "Spara inspelning i bokmärken och rutter?";
 
 /* Message for the toast when saving the track recording is finished but nothing to save. */
-"track_recording_toast_nothing_to_save" = "Routen är tom - inget att spara";
+"track_recording_toast_nothing_to_save" = "Spåret är tomt - inget att spara";
 "edit_track" = "Redigera spår";
 "osm_profile_view_notes" = "Visa anteckningar";
 "osm_profile_view_edit_history" = "Visa redigeringshistorik";
