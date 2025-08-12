@@ -1,9 +1,9 @@
 
 /* Used in home screen quick actions. */
-"search" = "Search";
+"search" = "جستجو";
 
 /* Used in home screen quick actions. */
-"bookmarks_and_tracks" = "نشانه‌ها و مسیر";
+"bookmarks_and_tracks" = "نشانه‌ها و مسیر ها";
 
 /* Used in home screen quick actions. */
 "route" = "مسیر";

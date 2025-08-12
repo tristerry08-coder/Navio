@@ -9,9 +9,9 @@
     <string name="delete">حذف</string>
     <string name="download_maps">دانلود نقشه‌ها</string>
     <!-- Settings/Downloader - info for country when download fails -->
-    <string name="download_has_failed">دانلود ناموفق بود. برای تلاش مجدد لمس کنید</string>
+    <string name="download_has_failed">دانلود ناموفق بود، برای تلاش مجدد لمس کنید</string>
     <!-- Settings/Downloader - info for country which started downloading -->
-    <string name="downloading">درحال دانلود</string>
+    <string name="downloading">درحال دانلود…</string>
     <!-- Choose measurement on first launch alert - choose metric system button -->
     <string name="kilometres">کیلومتر</string>
     <!-- Settings/Downloader - size string, only strings different from English should be translated -->
@@ -22,9 +22,9 @@
     <!-- A text for current gps location point/arrow selected on the map -->
     <string name="core_my_position">مکان من</string>
     <!-- Update maps later button text -->
-    <string name="later">بعداً</string>
+    <string name="later">بعدًا</string>
     <!-- View and button titles for accessibility, please also edit it in iphone/plist.txt -->
-    <string name="search">جست‌وجو</string>
+    <string name="search">جستجو</string>
     <!-- Search box placeholder text; Used when searching on the map itself, not when searching for a map -->
     <string name="search_map">جست‌وجوی نقشه</string>
     <!-- Location services are disabled by user alert - message -->
@@ -32,26 +32,26 @@
     <!-- A dialog title, that warns a user that Precise Location is disabled and suggests to turn it on -->
     <string name="limited_accuracy">دقت محدود</string>
     <!-- A dialog text, that warns a user that Precise Location is disabled and suggests to turn it on -->
-    <string name="precise_location_is_disabled_long_text">برای اطمینان از دقیق ناوبری ، موقعیت مکانی دقیق را در تنظیمات فعال کنید.</string>
+    <string name="precise_location_is_disabled_long_text">برای اطمینان از دقیق ناوبری ، موقعیت مکانی دقیق را در تنظیمات فعال کنید</string>
     <!-- View and button titles for accessibility -->
-    <string name="zoom_to_country">بر روی نقشه نمایش بده</string>
+    <string name="zoom_to_country">نمایش بر روی نقشه</string>
     <!-- Message to display at the center of the screen when the country download has failed -->
     <string name="country_status_download_failed">دانلود با شکست مواجه شد</string>
     <!-- Button text for the button under the country_status_download_failed message -->
     <string name="try_again">تلاش مجدد</string>
     <string name="about_menu_title">CoMaps درباره‌ی</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_1">• بدون تبلیغات ، ردیابی ، جمع آوری داده ها</string>
+    <string name="about_proposition_1">• آسان برای استفاده و جلا</string>
     <!-- Text in About screen -->
-    <string name="about_proposition_2">• بدون تخلیه باتری، آفلاین کار می کند</string>
+    <string name="about_proposition_2">• حریم خصوصی متمرکز و بدون تبلیغات</string>
     <!-- Text in About screen -->
     <string name="about_proposition_3">• آفلاین، سریع و جمع و جور</string>
     <!-- Text in About screen -->
-    <string name="about_developed_by_enthusiasts">برنامه منبع باز ایجاد شده توسط علاقه مندان و داوطلبان.</string>
+    <string name="about_developed_by_enthusiasts">منبع کاملا باز، نه برای سود، تصمیم گیری شفاف و امور مالی شفاف.</string>
     <!-- The button that opens system location settings -->
     <string name="location_settings">تنظیمات مکان</string>
     <string name="close">بستن</string>
-    <string name="unsupported_phone">نیازمند است. متاسفانه دستگاه شما از آن پشتیبانی نمی‌کندOpenGLبرنامه برای اجرا به</string>
+    <string name="unsupported_phone">متأسفانه دستگاه شما از آن پشتیبانی نمی‌کندبرنامه برای اجرا به OpenGL نیازمند است.</string>
     <string name="download">دانلود</string>
     <!-- Used in DownloadResources startup screen -->
     <string name="not_enough_free_space_on_sdcard">لطفا مقداری از فضای ذخیره‌سازی را آزاد نمایید</string>
@@ -71,7 +71,7 @@
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
     <string name="bookmarks">نشانه‌ها</string>
     <!-- "Bookmarks and Tracks" dialog title, also sync it with iphone/plist.txt -->
-    <string name="bookmarks_and_tracks">نشانه‌ها و مسیر</string>
+    <string name="bookmarks_and_tracks">نشانه‌ها و مسیر ها</string>
     <!-- Default bookmark list name -->
     <string name="core_my_places">مکان من</string>
     <!-- Add bookmark dialog - bookmark name -->
@@ -149,9 +149,9 @@
     <!-- message title of loading file -->
     <string name="load_kmz_title">در حال بارگیری نشانه‌ها</string>
     <!-- Kmz file successful loading -->
-    <string name="load_kmz_successful">نشانه‌ها با موفقیت بارگذاری شد!شما می توانید آنها را در نقشه یا بخش مدیریت نشانه‌ها بیابید</string>
+    <string name="load_kmz_successful">نشانه‌ها با موفقیت بارگذاری شد!شما می توانید آنها را در نقشه یا بخش مدیریت نشانه‌ها بیابید.</string>
     <!-- Kml file loading failed -->
-    <string name="load_kmz_failed">بارگذاری نشانه‌ها با شکست مواجه شد.ممکن است فایل آسیب دیده یا معیوب باشد</string>
+    <string name="load_kmz_failed">بارگذاری نشانه‌ها با شکست مواجه شد.ممکن است فایل آسیب دیده یا معیوب باشد.</string>
     <!-- Failed to recognize the format of a bookmarks or tracks file. -->
     <string name="unknown_file_type">نوع فایل توسط برنامه تشخیص داده نمی شود: \n%1$s</string>
     <!-- Failed to open a bookmarks or tracks file in CoMaps. -->
@@ -211,9 +211,9 @@
     <!-- Settings «Route» category: «Tts language» title -->
     <string name="pref_tts_language_title">زبان صوت</string>
     <!-- Settings «Route» category: «Test Voice Directions» title -->
-    <string name="pref_tts_test_voice_title">تست مسیرهای صوتی (TTS، تبدیل متن به گفتار)</string>
+    <string name="pref_tts_test_voice_title">تست دستورالعمل های صوتی</string>
     <!-- Settings «Route» category: Pop-up message when clicking «Test Voice Directions» -->
-    <string name="pref_tts_playing_test_voice">اگر اکنون صدا را نمی شنوید، میزان صدا یا تنظیمات تبدیل متن به گفتار سیستم را بررسی کنید.</string>
+    <string name="pref_tts_playing_test_voice">اگر اکنون صدا را نمی شنوید، میزان صدا یا تنظیمات تبدیل متن به گفتار سیستم را بررسی کنید</string>
     <!-- Settings «Route» category: «Tts unavailable» subtitle -->
     <string name="pref_tts_unavailable">موجود نیست</string>
     <string name="pref_map_auto_zoom">بزرگنمایی خودکار</string>
@@ -273,7 +273,7 @@
     <!-- Preference title -->
     <string name="google_play_services">خدمات مکان Google Play</string>
     <!-- Preference text -->
-    <string name="pref_use_google_play">به سرعت مکان تقریبی خود را با استفاده از بلوتوث، WiFi یا شبکه تلفن همراه تعیین کنید</string>
+    <string name="pref_use_google_play">یک سرویس اختصاصی که GPS، Wi-Fi، شبکه های سلولی و غیره را ترکیب می کند تا مکان شما را دقیق تر مشخص کند. ممکن است به سرورهای گوگل متصل شود.</string>
     <!-- Preference title -->
     <!-- Preference description -->
     <!-- Text for routing error dialog -->
@@ -283,7 +283,7 @@
     <!-- Text for routing error dialog -->
     <string name="routing_not_enough_space">فضای کافی موجود نیست</string>
     <!-- location service disabled -->
-    <string name="enable_location_services">لطفا موقعیت مکانی(GPS)خود را فعال کنید.</string>
+    <string name="enable_location_services">لطفا موقعیت مکانی خود را فعال کنید</string>
     <string name="save">ذخیره</string>
     <string name="create">ایجاد</string>
     <!-- red color -->
@@ -326,7 +326,7 @@
     <string name="dialog_routing_disclaimer_borders">—در مسیرهایی که از مناطق مرزی میگذرد احتیاط کنید:مسیر‌هایی که بوسیله اپلیکیشن ما ایجاد می شود گاهی اوقات ممکن است مرز‌های کشور‌ها را رد کند که این در بعضی مناطق غیر مجاز است.</string>
     <string name="dialog_routing_disclaimer_beware">لطفا هوشیار و ایمن در جاده بمانید!</string>
     <string name="dialog_routing_check_gps">سیگنال GPS را چک کنید</string>
-    <string name="dialog_routing_error_location_not_found">ناتوان از ایجاد مسیر.موقعیت مکانی شما شناسایی نشد</string>
+    <string name="dialog_routing_error_location_not_found">ناتوان از ایجاد مسیر. موقعیت مکانی شما شناسایی نشد.</string>
     <string name="dialog_routing_location_turn_wifi">لطفا سیگنال GPS موبایتان راچک کنید.و WiFi موبایلتان را جهت دقت بیشتر در موقعیت‌یابی فعال کنید.</string>
     <string name="dialog_routing_location_turn_on">فعال کردن سرویس موقعیت مکانی (GPS)</string>
     <string name="dialog_routing_location_unknown_turn_on">ناتوان از مشخص کردن موقعیت مکانی شما.لطفا سرویس موقعیت مکانی خود را فعال کنید.</string>
@@ -334,15 +334,15 @@
     <string name="dialog_routing_cant_build_route">ناتوان در ایجاد مسیر</string>
     <string name="dialog_routing_change_start_or_end">لطفا مبدا یا مقصد خود را تنظیم کنید.</string>
     <string name="dialog_routing_change_start">مبدا خود را تنظیم کنید</string>
-    <string name="dialog_routing_start_not_determined">مسیر ایجاد نشد.ناتوان در تعیین نقطه شروع</string>
+    <string name="dialog_routing_start_not_determined">مسیر ایجاد نشد. ناتوان در تعیین نقطه شروع.</string>
     <string name="dialog_routing_select_closer_start">لطفا نقطه شروع را نزدیک‌تر به جاده انتخاب کنید.</string>
     <string name="dialog_routing_change_end">تنظیم مقصد</string>
     <string name="dialog_routing_end_not_determined">مسیر ایجاد نشد.ناتوان در تعیین مقصد.</string>
-    <string name="dialog_routing_select_closer_end">لطفا مقصد تعیین شده را نزدیک‌تر به جاده انتخاب نمایید.</string>
-    <string name="dialog_routing_change_intermediate">ناتوان در تعیین نقطه میانی.</string>
-    <string name="dialog_routing_intermediate_not_determined">لطفا نقطه میانی را تنظیم کنید.</string>
+    <string name="dialog_routing_select_closer_end">لطفا مقصد تعیین شده را نزدیک‌تر به جاده انتخاب نمایید</string>
+    <string name="dialog_routing_change_intermediate">ناتوان در تعیین نقطه میانی</string>
+    <string name="dialog_routing_intermediate_not_determined">لطفا نقطه میانی را تنظیم کنید</string>
     <string name="dialog_routing_system_error">خطای سیستم</string>
-    <string name="dialog_routing_application_error">ناتوان در ایجاد مسیر به علت خطای برنامه.</string>
+    <string name="dialog_routing_application_error">ناتوان در ایجاد مسیر به علت خطای برنامه</string>
     <string name="dialog_routing_try_again">لطفا دوباره تلاش کنید</string>
     <string name="not_now">اکنون خیر</string>
     <string name="dialog_routing_download_and_build_cross_route">ایا مایل به دانلود نقشه و ایجاد مسیر‌های بهینه بیشتری که نقشه‌های بیشتری را پوشش میدهد هستید؟</string>
@@ -368,7 +368,7 @@
     <string name="p2p_start">شروع</string>
     <string name="p2p_from_here">مسیر از</string>
     <string name="p2p_to_here">مسیر به</string>
-    <string name="p2p_only_from_current">مسیر‌یابی فقط از موقعیت کنونی شما قابل انجام است.</string>
+    <string name="p2p_only_from_current">مسیر‌یابی فقط از موقعیت کنونی شما قابل انجام است</string>
     <string name="p2p_reroute_from_current">آیا می خواهید یک مسیر را از موقعیت فعلیتان برنامه ریزی کنیم؟</string>
     <!-- Edit open hours/set time and minutes dialog -->
     <string name="next_button">بعدی</string>
@@ -435,11 +435,11 @@
     <!-- login text field -->
     <string name="email_or_username">ایمیل یا نام کاربری</string>
     <string name="level">طبقه</string>
-    <string name="downloader_delete_map_dialog">تمام ویرایش‌های که بر روی نقشه انجام داده اید به همراه نقشه حذف شد.</string>
+    <string name="downloader_delete_map_dialog">تمام ویرایش‌های که بر روی نقشه انجام داده اید به همراه نقشه حذف شد</string>
     <string name="downloader_update_maps">بروزرسانی نقشه‌ها</string>
-    <string name="downloader_mwm_migration_dialog">برای ایجاد مسیر شما نیازمند بروزرسانی تمامی نقشه‌ها هستید سپس می توانید دوباره مسیرتان را برنامه ریزی کنید</string>
+    <string name="downloader_mwm_migration_dialog">برای ایجاد مسیر شما نیازمند بروزرسانی تمامی نقشه‌ها هستید سپس می توانید دوباره مسیرتان را برنامه ریزی کنید.</string>
     <string name="downloader_search_field_hint">یافتن نقشه</string>
-    <string name="common_check_internet_connection_dialog">لطفا تنظیمات خود را بازبینی کنید و مطمئن شوید که ابزار شما به اینترنت متصل است.</string>
+    <string name="common_check_internet_connection_dialog">لطفا تنظیمات خود را بازبینی کنید و مطمئن شوید که ابزار شما به اینترنت متصل است</string>
     <string name="downloader_no_space_title">فظای کافی موجود نیست</string>
     <string name="downloader_no_space_message">لطفا داده‌های غیر ضروری را از دستگاه خود حذف کنید</string>
     <string name="editor_login_error_dialog">خطای ورود</string>
@@ -459,15 +459,15 @@
     <string name="osm_presentation">داده های OpenStreetMap ایجاد شده توسط انجمن از %s. درباره نحوه ویرایش و به روز رسانی نقشه در OpenStreetMap.org بیشتر بیاموزید</string>
     <!-- OSM explanation on Android login screen -->
     <string name="login_osm_presentation">OpenStreetMap.org (OSM) یک پروژه اجتماعی برای ساخت یک نقشه رایگان و باز است. این منبع اصلی داده های نقشه در CoMaps است و مشابه ویکی پدیا کار می کند. می توانید مکان ها را اضافه یا ویرایش کنید تا در دسترس میلیون ها کاربر در سراسر جهان قرار گیرند. \nبه انجمن بپیوندید و به ایجاد نقشه بهتر برای همه کمک کنید!</string>
-    <string name="login_to_make_edits_visible">یک حساب OpenStreetMap ایجاد کنید یا وارد شوید تا ویرایش های نقشه خود را در جهان منتشر کنید.</string>
+    <string name="login_to_make_edits_visible">یک حساب OpenStreetMap ایجاد کنید یا وارد شوید تا ویرایش های نقشه خود را در جهان منتشر کنید</string>
     <!-- Downloaded 10 **of** 20 <- it is that "of" -->
     <string name="downloader_of">%1$d از %2$d</string>
     <string name="download_over_mobile_header">دانلود بر روی یک شبکه دیتای موبایل؟</string>
-    <string name="download_over_mobile_message">این کار می تواند برای شما در بعضی طرح‌ها و یا حالت رومینگ هزینه اضافی در بر داشته باشد.</string>
+    <string name="download_over_mobile_message">این کار می تواند برای شما در بعضی طرح‌ها و یا حالت رومینگ هزینه اضافی در بر داشته باشد</string>
     <string name="error_enter_correct_house_number">وارد کردن شماره ساختمان معتبر</string>
     <!-- Error message in Editor when a user tries to set the number of floors for a building higher than %d floors -->
     <string name="error_enter_correct_storey_number">تعداد طبقات نباید بیش از %d باشد</string>
-    <string name="editor_zip_code">کدپستی</string>
+    <string name="editor_zip_code">کد پستی</string>
     <string name="error_enter_correct_zip_code">یک کد‌ پستی معتبر وارد کنید</string>
     <!-- Place Page title for long tap -->
     <string name="core_placepage_unknown_place">نقطه نقشه</string>
@@ -486,8 +486,8 @@
     <string name="editor_category_unsuitable_title">آیا نمی توانید یک دسته بندی مناسب پیدا کنید؟</string>
     <string name="editor_category_unsuitable_text">CoMaps اجازه می دهد فقط دسته های نقطه ای ساده را اضافه کند، یعنی هیچ شهر، جاده، دریاچه، طرح کلی ساختمان و غیره وجود ندارد. لطفاً این دسته ها را مستقیماً به <a href="https://www.openstreetmap.org">OpenStreetMap.org</a> اضافه کنید. برای دستورالعمل های گام به گام، <a href="https://www.comaps.app/support/advanced-map-editing/">راهنمای</a> ما را بررسی کنید.</string>
     <string name="downloader_no_downloaded_maps_title">شما هیچ نقشه دانلود شده ای ندارید</string>
-    <string name="downloader_no_downloaded_maps_message">برای جست وجو یک مکان و استفاده از قابلیت ناوبری، نقشه‌ها را دانلود کنید.</string>
-    <string name="current_location_unknown_error_title">مکان فعلیتان ناشناس است.</string>
+    <string name="downloader_no_downloaded_maps_message">برای جست وجو یک مکان و استفاده از قابلیت ناوبری، نقشه‌ها را دانلود کنید</string>
+    <string name="current_location_unknown_error_title">مکان فعلیتان ناشناس است</string>
     <!-- abbreviation for meters -->
     <string name="m">متر</string>
     <!-- abbreviation for kilometers -->
@@ -519,8 +519,8 @@
     <!-- Displayed when saving some edits to the map to warn against publishing personal data -->
     <string name="editor_share_to_all_dialog_title">آیا می خواهید آن را برای دیگر کاربران ارسال کنید؟</string>
     <!-- Dialog before publishing the modifications to the public map. -->
-    <string name="editor_share_to_all_dialog_message_1">مطمئن شوید که هیچ اطلاعات شخصی وارد نکرده باشد.</string>
-    <string name="editor_share_to_all_dialog_message_2">ویرایشگران OpenStreetMap ﺗﻐﯿﯿﺮﺍﺕ ﺭﺍ ﺑﺮﺭﺳﯽ ﮐﺮﺩﻩ ﻭ ﺩﺭ ﺻﻮﺭﺕ ﺩﺍﺷﺘﻦ ﻫﺮﮔﻮﻧﻪ ﺳﻮﺍﻝ ﺑﺎ ﺷﻤﺎ ﺗﻤﺎﺱ ﺧﻮﺍﻫﻨﺪ ﮔﺮﻓﺖ.</string>
+    <string name="editor_share_to_all_dialog_message_1">مطمئن شوید که هیچ اطلاعات شخصی وارد نکرده باشد</string>
+    <string name="editor_share_to_all_dialog_message_2">ویرایشگران OpenStreetMap ﺗﻐﯿﯿﺮﺍﺕ ﺭﺍ ﺑﺮﺭﺳﯽ ﮐﺮﺩﻩ ﻭ ﺩﺭ ﺻﻮﺭﺕ ﺩﺍﺷﺘﻦ ﻫﺮﮔﻮﻧﻪ ﺳﻮﺍﻝ ﺑﺎ ﺷﻤﺎ ﺗﻤﺎﺱ ﺧﻮﺍﻫﻨﺪ ﮔﺮﻓﺖ</string>
     <string name="navigation_stop_button">توقف</string>
     <!-- Shown as toast when starting the recent track recording -->
     <string name="track_recording">ضبط مسیر</string>
@@ -537,7 +537,7 @@
     <string name="mobile_data_description">برای نمایش جزئیات مکان مانند تصاویر قیمت‌ها و بازخورد‌ها به اینترنت همراه نیاز است</string>
     <string name="mobile_data_option_never">هرگز</string>
     <string name="mobile_data_option_ask">همیشه بپرس</string>
-    <string name="traffic_update_maps_text">برای نمایش ترافیک، نقشه می بایستی بروزرسانی شود.</string>
+    <string name="traffic_update_maps_text">برای نمایش ترافیک، نقشه می بایستی بروزرسانی شود</string>
     <string name="big_font">افزایش اندازه متن بر روی نقشه</string>
     <string name="traffic_update_app">لطفا CoMaps را بروزرسانی کنید</string>
     <!-- "traffic" as in "road congestion" -->
@@ -547,7 +547,7 @@
     <string name="feedback_general">\"تنظیمات: دکمه \"ارسال بازخورد کلی</string>
     <string name="prefs_languages_information">ما از TTS سیستم برای دستورالعمل‌های صوتی استفاده می کنیم. بسیاری از دستگاه‌های Android از Google TTS استفاده می کنند، شما می توانید آن را از Google Play دانلود کنید (https://play.google.com/store/apps/details؟id=com.google.android.tts)</string>
     <string name="prefs_languages_information_off">برای بعضی از زبان‌ها، شما باید speech synthesizer یا یک بسته زبان دیگر را از فروشگاه برنامه (Google Play, Galaxy Store, App Gallery, FDroid) نصب کنید. \n تنظیمات دستگاه خود را باز کنید. → زبان و ورودی → گفتار → خروجی متن به گفتار. می توانید تنظیمات برای ترکیب گفتار (به عنوان مثال، بسته‌های زبان را برای استفاده آفلاین دانلود کنید) را مدیریت کنید و یک موتور دیگر متن به گفتار را انتخاب کنید.</string>
-    <string name="prefs_languages_information_off_link">برای اطلاعات بیشتر لطفا این راهنما را بررسی کنید.</string>
+    <string name="prefs_languages_information_off_link">برای اطلاعات بیشتر لطفا این راهنما را بررسی کنید</string>
     <string name="transliteration_title">ترجمه به لاتین</string>
     <string name="learn_more">بیشتر بدانید</string>
     <!-- Subway exits for public transport marks on the map -->
@@ -641,7 +641,7 @@
     <string name="avoid_ferry">اجتناب از گذرگاه‌های کشتی</string>
     <string name="avoid_motorways">از بزرگراه دوری کنید</string>
     <string name="unable_to_calc_alert_title">امکان محاسبه مسیر نیست</string>
-    <string name="unable_to_calc_alert_subtitle">متأسفانه، احتمالاً به دلیل گزینه‌های تعریف شده شما، مسیری پیدا نشد. لطفاً تنظیمات را تغییر داده و مجدد تلاش کنید</string>
+    <string name="unable_to_calc_alert_subtitle">متأسفانه، احتمالاً به دلیل گزینه‌های تعریف شده شما، مسیری پیدا نشد. لطفاً تنظیمات را تغییر داده و مجدد تلاش کنید.</string>
     <string name="define_to_avoid_btn">جاده‌های لغو شده را تعریف نمایید</string>
     <string name="change_driving_options_btn">گزینه‌های مسیریابی فعال شد</string>
     <string name="toll_road">جاده دارای عوارض</string>
@@ -802,7 +802,7 @@
     <!-- Message for the toast when saving the track recording is finished but nothing to save. -->
     <string name="track_recording_toast_nothing_to_save">مسیر خالی است - چیزی برای ذخیره کردن وجود ندارد</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
-    <string name="error_no_file_manager_app">امکان نمایش گفتگوی انتخاب پوشه وجود ندارد زیرا برنامه مناسبی روی دستگاه شما نصب نشده است. لطفاً یک برنامه مدیریت فایل نصب کنید و دوباره امتحان کنید</string>
+    <string name="error_no_file_manager_app">امکان نمایش گفتگوی انتخاب پوشه وجود ندارد زیرا برنامه مناسبی روی دستگاه شما نصب نشده است. لطفاً یک برنامه مدیریت فایل نصب کنید و دوباره امتحان کنید.</string>
     <string name="choose_color">انتخاب رنگ</string>
     <string name="edit_track">ویرایش مسیر</string>
     <string name="uri_open_location_failed">هیچ برنامه ای نصب نشده است که بتواند مکان را باز کند</string>
@@ -818,4 +818,5 @@
     <string name="app_site_url">https://comaps.app</string>
     <string name="saved">ذخیره شد</string>
     <string name="bluesky">بلواسکای</string>
+    <string name="about_headline">رایگان برای همه، ساخته شده با عشق</string>
 </resources>

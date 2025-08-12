@@ -10,7 +10,7 @@
 "download_maps" = "دانلود نقشه‌ها";
 
 /* Settings/Downloader - info for country which started downloading */
-"downloading" = "درحال دانلود";
+"downloading" = "درحال دانلود…";
 
 /* Choose measurement on first launch alert - choose metric system button */
 "kilometres" = "کیلومتر";
@@ -25,16 +25,16 @@
 "core_my_position" = "مکان من";
 
 /* Update maps later button text */
-"later" = "بعداً";
+"later" = "بعدًا";
 
 /* View and button titles for accessibility, please also edit it in iphone/plist.txt */
-"search" = "جست‌وجو";
+"search" = "جستجو";
 
 /* Settings/Downloader - 3G download warning dialog confirm button */
 "use_cellular_data" = "بله";
 
 /* View and button titles for accessibility */
-"zoom_to_country" = "بر روی نقشه نمایش بده";
+"zoom_to_country" = "نمایش بر روی نقشه";
 
 /* Button text for the button at the center of the screen when the country is not downloaded and the size should not be shown */
 "country_status_download_without_size" = "دانلود نقشه";
@@ -66,7 +66,7 @@
 "bookmarks" = "نشانه‌ها";
 
 /* "Bookmarks and Tracks" dialog title, also sync it with iphone/plist.txt */
-"bookmarks_and_tracks" = "نشانه‌ها و مسیر";
+"bookmarks_and_tracks" = "نشانه‌ها و مسیر ها";
 
 /* Default bookmark list name */
 "core_my_places" = "مکان من";
@@ -154,10 +154,10 @@
 "load_kmz_title" = "در حال بارگیری نشانه‌ها";
 
 /* Kmz file successful loading */
-"load_kmz_successful" = "نشانه‌ها با موفقیت بارگذاری شد!شما می توانید آنها را در نقشه یا بخش مدیریت نشانه‌ها بیابید";
+"load_kmz_successful" = "نشانه‌ها با موفقیت بارگذاری شد!شما می توانید آنها را در نقشه یا بخش مدیریت نشانه‌ها بیابید.";
 
 /* Kml file loading failed */
-"load_kmz_failed" = "بارگذاری نشانه‌ها با شکست مواجه شد.ممکن است فایل آسیب دیده یا معیوب باشد";
+"load_kmz_failed" = "بارگذاری نشانه‌ها با شکست مواجه شد.ممکن است فایل آسیب دیده یا معیوب باشد.";
 
 /* resource for context menu */
 "edit" = "ویرایش";
@@ -247,7 +247,7 @@
 "pref_tts_language_title" = "زبان صوت";
 
 /* Settings «Route» category: «Test Voice Directions» title */
-"pref_tts_test_voice_title" = "تست مسیرهای صوتی (TTS، تبدیل متن به گفتار)";
+"pref_tts_test_voice_title" = "تست دستورالعمل های صوتی";
 
 /* Title for "Other" section in TTS settings. */
 "pref_tts_other_section_title" = "بیشتر";
@@ -322,7 +322,7 @@
 "volunteer" = "داوطلب شدن";
 
 /* "Social media" section header in the About screen */
-"follow_us" = "دنبال کنید و با ما تماس بگیرید";
+"follow_us" = "ارتباط با ما";
 
 /* Alert text */
 "email_error_body" = "کلاینت ایمیل شما پیکربندی نشده است.لطفا آن را پیکربندی کنید یا از طریق دیگر با ما تماس بگیرید %@";
@@ -362,7 +362,7 @@
 "downloader_status_failed" = "ناموفق";
 
 /* Displayed in a dialog that appears when a user tries to delete a map while the app is in the follow route mode */
-"downloader_delete_map_while_routing_dialog" = "برای حذف نقشه لطفا مسیر‌یابی را متوقف کنید";
+"downloader_delete_map_while_routing_dialog" = "برای حذف نقشه لطفا مسیر‌یابی را متوقف کنید.";
 
 /* PointsInDifferentMWM */
 "routing_failed_cross_mwm_building" = "تنها مسیر‌هایی می توانند ایجاد شوند که به طور کامل در یک نقشه از یک منطقه واحد قرار داشته باشند.";
@@ -441,7 +441,7 @@
 "dialog_routing_disclaimer_borders" = "—در مسیرهایی که از مناطق مرزی میگذرد احتیاط کنید:مسیر‌هایی که بوسیله اپلیکیشن ما ایجاد می شود گاهی اوقات ممکن است مرز‌های کشور‌ها را رد کند که این در بعضی مناطق غیر مجاز است.";
 "dialog_routing_disclaimer_beware" = "لطفا هوشیار و ایمن در جاده بمانید!";
 "dialog_routing_check_gps" = "سیگنال GPS را چک کنید";
-"dialog_routing_error_location_not_found" = "ناتوان از ایجاد مسیر.موقعیت مکانی شما شناسایی نشد";
+"dialog_routing_error_location_not_found" = "ناتوان از ایجاد مسیر. موقعیت مکانی شما شناسایی نشد.";
 "dialog_routing_location_turn_wifi" = "لطفا سیگنال GPS موبایتان راچک کنید.و WiFi موبایلتان را جهت دقت بیشتر در موقعیت‌یابی فعال کنید.";
 "dialog_routing_location_turn_on" = "فعال کردن سرویس موقعیت مکانی (GPS)";
 "dialog_routing_location_unknown_turn_on" = "ناتوان از مشخص کردن موقعیت مکانی شما.لطفا سرویس موقعیت مکانی خود را فعال کنید.";
@@ -450,7 +450,7 @@
 "dialog_routing_unable_locate_route" = "ناتوان در تعیین مسیر";
 "dialog_routing_change_start_or_end" = "لطفا مبدا یا مقصد خود را تنظیم کنید.";
 "dialog_routing_change_start" = "مبدا خود را تنظیم کنید";
-"dialog_routing_start_not_determined" = "مسیر ایجاد نشد.ناتوان در تعیین نقطه شروع";
+"dialog_routing_start_not_determined" = "مسیر ایجاد نشد. ناتوان در تعیین نقطه شروع.";
 "dialog_routing_select_closer_start" = "لطفا نقطه شروع را نزدیک‌تر به جاده انتخاب کنید.";
 "dialog_routing_change_end" = "تنظیم مقصد";
 "dialog_routing_end_not_determined" = "مسیر ایجاد نشد.ناتوان در تعیین مقصد.";
@@ -479,12 +479,12 @@
 "dialog_routing_download_and_update_maps" = "Download and update all map along the projected path to calculate route.";
 "categories" = "دسته‌بندی‌ها";
 "history" = "تاریخچه";
-"search_not_found" = "متاسفانه چیزی پیدا نشد";
+"search_not_found" = "متأسفانه چیزی پیدا نشد.";
 
 /* The message when user did not find anything in the search. */
 "search_not_found_query" = "منطقه ای را که در آن جستجو می کنید دانلود کنید یا نام شهر/ روستای اطراف را اضافه کنید.";
 "search_history_title" = "سوابق جستجو";
-"search_history_text" = "مشاهده جستجو‌های اخیر";
+"search_history_text" = "مشاهده جستجو‌های اخیر.";
 "clear_search" = "پاک کردن سابقه جستجوها";
 
 /* Place Page link to Wikipedia article (if map object has it). */
@@ -616,7 +616,7 @@
 
 /* Error message in Editor when a user tries to set the number of floors for a building higher than %d floors */
 "error_enter_correct_storey_number" = "تعداد طبقات نباید بیش از %d باشد";
-"editor_zip_code" = "کدپستی";
+"editor_zip_code" = "کد پستی";
 "error_enter_correct_zip_code" = "یک کد‌ پستی معتبر وارد کنید";
 
 /* Place Page title for long tap */
@@ -638,7 +638,7 @@
 "current_location_unknown_error_title" = "مکان فعلیتان ناشناس است.";
 "current_location_unknown_error_message" = "خطایی در هنگام جست وجوی مکان شمارخ داده است.بررسی کنیید دستگاهتان به درستی کار می کند و دوباره تلاش کنید.";
 "location_services_disabled_header" = "سرویس موقعیت مکانی شما غیرفعال است";
-"location_services_disabled_message" = "سرویس موقعیت مکانی خود را در بخش تنظیمات فعال کنید.";
+"location_services_disabled_message" = "سرویس موقعیت مکانی خود را در بخش تنظیمات فعال کنید";
 "location_services_disabled_1" = "1. بازکردن تنظیمات";
 "location_services_disabled_2" = "2. Tap Location";
 
@@ -681,7 +681,7 @@
 "editor_remove_place_message" = "آیا مکان ثبت شده حذف شود؟";
 "editor_remove_place_button" = "حذف";
 "editor_place_doesnt_exist" = "مکان وجود ندارد";
-"text_more_button" = "بیشتر….";
+"text_more_button" = "بیشتر…";
 
 /* Phone number error message */
 "error_enter_correct_phone" = "شماره تلفن معتبری وارد نمایید";
@@ -719,7 +719,7 @@
 "mobile_data" = "دیتای موبایل";
 
 /* NOTE to translators: please synchronize your translation with the English one. */
-"mobile_data_description" = "برای نمایش جزئیات مکان مانند تصاویر قیمت‌ها و بازخورد‌ها به اینترنت همراه نیاز است";
+"mobile_data_description" = "برای نمایش جزئیات مکان مانند تصاویر قیمت‌ها و بازخورد‌ها به اینترنت همراه نیاز است.";
 "mobile_data_option_never" = "هرگز";
 "mobile_data_option_ask" = "همیشه بپرس";
 "traffic_update_maps_text" = "برای نمایش ترافیک، نقشه می بایستی بروزرسانی شود.";
@@ -753,7 +753,7 @@
 "saved" = "ذخیره شد";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's first part */
-"alert_reauth_message_ios" = "لطفاً به OpenStreetMap وارد شوید تا به طور خودکار تمام ویرایش های نقشه خود را آپلود کنید.";
+"alert_reauth_message_ios" = "لطفاً به OpenStreetMap وارد شوید تا به طور خودکار تمام ویرایش های نقشه خود را آپلود کنید. یادگیری بیشتر";
 
 /* For iOS message 'alert_reauth_message' should be splitted in two parts: message + link. Here's link part */
 "alert_reauth_link_text_ios" = "اینجا";
@@ -809,7 +809,7 @@
 /* Speed camera settings menu option - Never warn (about speedcams) */
 "pref_tts_speedcams_never" = "هرگز هشدار ندهد";
 "power_managment_title" = "حالت ذخیره انرژی";
-"power_managment_description" = "هنگامی که حالت خودکار انتخاب شده‌باشد، برنامه با توجه میزان شارژ باتری شما، ویژگی‌های تخلیه کننده باتری را غیر فعال می‌کند";
+"power_managment_description" = "هنگامی که حالت خودکار انتخاب شده‌باشد، برنامه با توجه میزان شارژ باتری شما، ویژگی‌های تخلیه کننده باتری را غیر فعال می‌کند.";
 "power_managment_setting_never" = "هرگز";
 "power_managment_setting_auto" = "خودکار";
 "power_managment_setting_manual_max" = "حداکثر ذخیره انرژی";
@@ -826,7 +826,7 @@
 "avoid_ferry" = "اجتناب از گذرگاه‌های کشتی";
 "avoid_motorways" = "از بزرگراه دوری کنید";
 "unable_to_calc_alert_title" = "امکان محاسبه مسیر نیست";
-"unable_to_calc_alert_subtitle" = "متأسفانه، احتمالاً به دلیل گزینه‌های تعریف شده شما، مسیری پیدا نشد. لطفاً تنظیمات را تغییر داده و مجدد تلاش کنید";
+"unable_to_calc_alert_subtitle" = "متأسفانه، احتمالاً به دلیل گزینه‌های تعریف شده شما، مسیری پیدا نشد. لطفاً تنظیمات را تغییر داده و مجدد تلاش کنید.";
 "define_to_avoid_btn" = "جاده‌های لغو شده را تعریف نمایید";
 "change_driving_options_btn" = "گزینه‌های مسیریابی فعال شد";
 "toll_road" = "جاده دارای عوارض";
@@ -1091,9 +1091,9 @@
 "edit_track" = "ویرایش مسیر";
 "osm_profile_view_notes" = "مشاهده یادداشت‌ها";
 "osm_profile_view_edit_history" = "مشاهده تاریخچه ویرایش‌ها";
-"about_headline" = "Open project powered by the community";
-"about_proposition_3" = "Transparent and not for profit";
-"pref_mapappearance_title" = "Map Appearance";
-"pref_maplanguage_title" = "Map Language";
-"transliteration_title_disabled_summary" = "Disabled when always using the local language for the map";
-"pref_maplanguage_local" = "Local Language";
+"about_headline" = "رایگان برای همه، ساخته شده با عشق";
+"about_proposition_3" = "شفاف و نه برای سود";
+"pref_mapappearance_title" = "ظاهر نقشه";
+"pref_maplanguage_title" = "زبان نقشه";
+"transliteration_title_disabled_summary" = "زمانی که همیشه از زبان محلی برای نقشه استفاده می کنید غیرفعال است";
+"pref_maplanguage_local" = "زبان محلی";

@@ -1,14 +1,14 @@
 "type.addr_interpolation" = "آدرس/بلاک";
 "type.addr_interpolation.even" = "آدرس/بلاک";
 "type.addr_interpolation.odd" = "آدرس/بلاک";
-"type.aerialway" = "Aerialway";
-"type.aerialway.cable_car" = "Cable Car";
+"type.aerialway" = "راه هوایی";
+"type.aerialway.cable_car" = "ماشین کابلی";
 "type.aerialway.chair_lift" = "Chair Lift";
 "type.aerialway.drag_lift" = "Drag Lift";
 "type.aerialway.gondola" = "Gondola";
 "type.aerialway.mixed_lift" = "Mixed Lift";
-"type.aerialway.station" = "Aerialway Station";
-"type.aeroway" = "Airspace Infrastructure";
+"type.aerialway.station" = "ایستگاه راه هوایی";
+"type.aeroway" = "­زیرساخت هوا و فضا";
 "type.aeroway.aerodrome" = "فرودگاه";
 "type.aeroway.aerodrome.international" = "فرودگاه";
 "type.aeroway.apron" = "Apron";
@@ -125,7 +125,7 @@
 "type.amenity.police" = "کلانتری";
 "type.amenity.post_box" = "صندوق پست";
 "type.amenity.post_office" = "دفتر پست";
-"type.amenity.prison" = "زندا   ن";
+"type.amenity.prison" = "زندان";
 "type.amenity.pub" = "میکده";
 "type.amenity.public_bookcase" = "Book Exchange";
 "type.amenity.recycling.centre" = "مرکز بازیافت";

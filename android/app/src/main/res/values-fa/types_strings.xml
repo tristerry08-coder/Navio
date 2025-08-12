@@ -111,7 +111,7 @@
     <string name="type.amenity.police">کلانتری</string>
     <string name="type.amenity.post_box">صندوق پست</string>
     <string name="type.amenity.post_office">دفتر پست</string>
-    <string name="type.amenity.prison">زندا ن</string>
+    <string name="type.amenity.prison">زندان</string>
     <string name="type.amenity.pub">میکده</string>
     <!-- SECTION: Types: Recycling -->
     <string name="type.amenity.recycling.centre">مرکز بازیافت</string>
@@ -1092,4 +1092,8 @@
     <string name="type.leisure.sports_hall">سالن ورزشی</string>
     <string name="type.man_made.silo">سیلو</string>
     <string name="type.man_made.storage_tank">مخازن سیال</string>
+    <string name="type.aerialway.cable_car">ماشین کابلی</string>
+    <string name="type.aerialway.station">ایستگاه راه هوایی</string>
+    <string name="type.aeroway">­زیرساخت هوا و فضا</string>
+    <string name="type.aerialway">راه هوایی</string>
 </resources>
