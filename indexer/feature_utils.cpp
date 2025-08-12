@@ -128,17 +128,17 @@ bool IsNativeLang(feature::RegionData const & regionData, int8_t deviceLang)
   return false;
 }
 
-int8_t DefaultLanguage(feature::RegionData const & regionData, vector<int8_t> langs)
+int8_t DefaultLanguage(feature::RegionData const & regionData, vector<int8_t> const & langs)
 {
   for (auto const lang : langs)
   {
     if (regionData.HasLanguage(lang))
       return lang;
 
-    for (auto const similiarLang : GetSimilarLanguages(lang))
+    for (auto const similarLang : GetSimilarLanguages(lang))
     {
-      if (regionData.HasLanguage(similiarLang))
-        return similiarLang;
+      if (regionData.HasLanguage(similarLang))
+        return similarLang;
     }
   }
 
@@ -153,10 +153,10 @@ vector<int8_t> PrioritizedLanguages(vector<int8_t> const & langs, int8_t default
   {
     if (find(prioritizedLangs.begin(), prioritizedLangs.end(), lang) == prioritizedLangs.end())
       prioritizedLangs.push_back(lang);
-      
+
     if (defaultLang != StrUtf8::kUnsupportedLanguageCode && defaultLang == lang)
       prioritizedLangs.push_back(StrUtf8::kDefaultCode);
-    
+
     auto const similarLangs = GetSimilarLanguages(lang);
     prioritizedLangs.insert(prioritizedLangs.cend(), similarLangs.cbegin(), similarLangs.cend());
   }
