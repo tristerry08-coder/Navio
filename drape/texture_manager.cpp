@@ -67,8 +67,9 @@ m2::PointU StipplePenTextureSize(size_t patternsCount, uint32_t maxTextureSize)
 m2::PointU ColorTextureSize(size_t colorsCount, uint32_t maxTextureSize)
 {
   uint32_t const sz = static_cast<uint32_t>(floor(sqrt(colorsCount + kReservedColors)));
+  /// @todo(pastk): do we need this assert at all?
   // No problem if assert will fire here. Just color texture will be 2x bigger :)
-  ASSERT_LESS_OR_EQUAL(sz, kMinColorTextureSize, (colorsCount));
+  // ASSERT_LESS_OR_EQUAL(sz, kMinColorTextureSize, (colorsCount));
   uint32_t colorTextureSize = std::max(math::NextPowOf2(sz), kMinColorTextureSize);
 
   colorTextureSize *= ColorTexture::GetColorSizeInPixels();
@@ -612,8 +613,8 @@ constexpr size_t TextureManager::GetInvalidGlyphGroup()
   return kInvalidGlyphGroup;
 }
 
-ref_ptr<HWTextureAllocator> TextureManager::GetTextureAllocator() const 
+ref_ptr<HWTextureAllocator> TextureManager::GetTextureAllocator() const
 {
-  return make_ref(m_textureAllocator); 
+  return make_ref(m_textureAllocator);
 }
 }  // namespace dp
