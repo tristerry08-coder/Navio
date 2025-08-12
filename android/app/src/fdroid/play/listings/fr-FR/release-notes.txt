@@ -1,7 +1,0 @@
-Présentation du logo CoMaps !
-• Amélioration des courbes d’altitude à une précision de 20 ou 50 mètres pour de nombreuses régions
-• Ajout d'un lien vers les images Panoramax des POI
-• Données OpenStreetMap du 13 juillet
-• Affichage de l’état des heures d’ouverture lors de la sélection d’un POI
-• Mise à jour du style(végétation et zones humides), mise à jour de certaines icônes de la carte
-• Outdoors: Améliorations de la visibilité des courbes d'altitude

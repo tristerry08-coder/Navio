@@ -1,9 +1,7 @@
-¡Presentamos el logo de CoMaps!
-• mejora de isolíneas con más detalle para muchas regiones
-• añade enlaces de imágenes de Panoramax a POIs seleccionados
-• datos de OpenStreetMap a 13 de julio
-• añadidos rellenos de color a muchas características
-• se muestra el estado de horarios de apertura al seleccionar un POI
-• se dividen los humedales en tipos distintos
-• se actualiza la vegetación y otros colores del mapa, así como otros iconos
-• exteriores: líneas de contorno de altitud más gruesas
+• Datos de OpenStreetMap a fecha 2025.08.04
+• Mejora de colores del mapa para agua, bosques, matorrales, servicios, zonas peatonales, etc.
+• Añadidas estaciones de guardabosques, aparcamientos cubiertos de bicis, juegos de escape, consignas y oficinas de correo
+• Nuevas curvas de nivel (20 m) en regiones populares para senderismo
+• Más abreviaturas y alias de búsqueda
+• Iconos de búsqueda y marcadores para comida rápida, bicicletas y estaciones de recarga
+• Más fluidez de la flecha de posición

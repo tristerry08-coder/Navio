@@ -1,0 +1,7 @@
+• Dati di OpenStreetMap aggiornati al 4 Agosto
+• Migliorati i colori per acqua, foreste, servizi etc
+• Aggiunte le stazioni delle guardie forestali, i parcheggi coperti per bici, gli escape games e altri servizi
+• Aggiornato l'intervallo delle isolinee a 20 m per le zone escursionistiche più popolari
+• Aggiunto il supporto per un maggior numero di alias
+• Aggiunte le icone per i fast food, i punti di ricarica e le biciclette
+• Resi più fluidi i movimenti della freccia di posizione

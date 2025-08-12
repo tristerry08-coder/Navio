@@ -1,0 +1,7 @@
+• Data OpenStreetMap k 4. 8.
+• vylepšené barvy mapy pro vodu, lesy, křoviny, různé vybavení, pěší zóny atd.
+• přidány stanice lesní stráže, krytých parkovišť pro jízdní kola, únikových her, úschoven zavazadel, partnerských pošt
+• vylepšeny výškové vrstevnice na 20 m pro některé oblíbené turistické oblasti
+• podpora více zkratek a aliasů pro vyhledávání
+• přidání ikon pro vyhledávání a záložky pro rychlé občerstvení, jízdní kola a dobíjecí stanice
+• plynulejší pohyb šipky pro určení polohy

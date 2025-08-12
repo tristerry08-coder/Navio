@@ -1,9 +1,7 @@
-Wir stellen vor: Das neue CoMaps-Logo!
-• Verbesserte Höhenlinien in vielen Regionen (Stufen von 20/50 m)
-• Links zu Panoramax-Bildern für ausgewählte POIs
-• OpenStreetMap-Daten vom 13. Juli
-• Neue Farben für viele Objekte und Farben werden früher angezeigt
-• Öffnungszeiten werden beim Antippen eines POI angezeigt
-• Verschiedene Arten von Feuchtgebieten
-• Neue Farben für Vegetation und andere Features; einige neue Icons
-• Wandern: bessere Darstellung der Höhenlinien
+• OpenStreetMap-Daten vom 4. August
+• Verbesserte Farben für Wasser, Wälder, Gestrüpp, verschiedene Einrichtungen, Fussgängerbereiche etc.
+• Besucherstationen, überdachte Fahrradparkplätze, Escaperooms, Gepäckschließfächer, und Postpartner hinzugefügt
+• Konturhöhenlinien aktualisiert, bis zu 20m für beliebte Wanderregionen
+• Unterstützung für mehr Such-Abkürzungen und Synonyme
+• Such- und Lesezeichen-Symbole für Fast Food, Rad- und Lade-Stationen
+• Der Positionspfeil bewegt sich gleichmässiger

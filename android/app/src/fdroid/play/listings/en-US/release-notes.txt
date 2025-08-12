@@ -1,10 +1,7 @@
-Introducing CoMaps logo!
-
-• upgrade altitude contour lines for many regions to 20 or 50 meters step
-• add Panoramax Picture links to selected POIs
-• OpenStreetMap data as of July 13
-• add color fills to many features and display fills earlier for existing features
-• display opening hours state when selecting a POI
-• split all wetlands into several distinct types
-• update vegetation and other map colors, update some map icons
-• outdoors: bolder altitude contour lines
+• OpenStreetMap data as of August 4
+• improve map colors for water, forests, scrubs, various amenities, pedestrian areas etc.
+• add ranger stations, covered bicycle parkings, escape games, luggage lockers, post office partners
+• upgrade altitude contour lines to 20m step for some popular hiking regions
+• support more search abbreviations and aliases
+• add search and bookmark icons for fast food, bicycle and charging stations
+• more smooth position arrow movements

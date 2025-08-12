@@ -1,9 +1,7 @@
-Apresentamos o logo do CoMaps!
-• Curvas de nível mais detalhadas em muitas regiões
-• Adicionados links de imagens do Panoramax para pontos de interesse selecionados
-• Dados OSM de 13/07
-• Adicionados preenchimentos de cor a muitos elementos
-• Exibição de horário de funcionamento ao selecionar um ponto de interesse
-• Divididas áreas úmidas em vários tipos distintos
-• Atualizada cores/ícones para vegetação e outros elementos
-• Ar livre: curvas de nível de altitude mais destacadas
+• Dados OSM de 4/08
+• Melhoria nas cores para água, florestas, matagais, serviços, áreas de pedestres, etc.
+• Adição de guarda-florestais, estacionamentos cobertos para bicicletas, jogos de fuga, armários para bagagem e parceiros postais
+• Melhoria na precisão de curvas de nível para 20 m em algumas regiões populares
+• Suporte a mais abreviações para busca
+• Adição de ícones de pesquisa e favoritos para fast food, bicicletas e estações de recarga
+• Movimentos mais suaves para seta de posição

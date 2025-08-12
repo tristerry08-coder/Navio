@@ -1,9 +1,0 @@
-Wprowadzamy logo CoMaps!
-• zwiększenie dokładności izolinii w wielu regionach w krokach 20 do 50 metrów
-• dodanie linków do zdjęć z Panoramax do wybranych POI
-• aktualizacja danych OpenStreetMap z 13 lipca
-• dodanie wypełnienia kolorem dla wielu typów obiektów
-• wyświetlanie stanu godzin otwarcia przy wyborze POI
-• podział mokradeł na kilka typów
-• aktualizacja koloru roślinności i innych kolorów, aktualizacja części ikon na mapie
-• tryb outdoorowy: pogrubione warstwice wysokości
