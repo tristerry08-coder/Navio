@@ -95,7 +95,7 @@
 /* 4.LANDUSE */
 /*4.1 Main landuse*/
 
-@general_area: #E8E3DA;
+@general_area: #E8E1D5;
 @pedestrian_area: #FCF3E6;
 @railway_platform: #ECE3D6;
 @university: #F5DFBC;
