@@ -3,6 +3,8 @@
 # Please run this script to configure the repository after cloning it.
 #
 
+echo "Configuring the repository for development..."
+
 SKIP_MAP_DOWNLOAD=$SKIP_MAP_DOWNLOAD
 SKIP_GENERATE_SYMBOLS=$SKIP_GENERATE_SYMBOLS
 SKIP_GENERATE_DRULES=$SKIP_GENERATE_DRULES
@@ -47,9 +49,11 @@ Diff() {
 }
 
 if [ ! -d 3party/boost/tools ]; then
+  echo "Cloning all submodules..."
   git submodule update --init --recursive --depth 1
 fi
 if [ ! -d 3party/boost/boost ]; then
+  echo "Bootstrapping the boost C++ library..."
   pushd 3party/boost/
   ./bootstrap.sh
   ./b2 headers
@@ -58,7 +62,7 @@ fi
 
 if [ -z "$SKIP_MAP_DOWNLOAD" ]; then
   pushd data
-  
+
   MWM_VERSION=$(awk -F'[:,]' '/"v":/{ $2 = substr($2, 2); print $2 }' countries.txt)
   MWM_PATH="world_mwm/$MWM_VERSION"
   WORLD_PATH="$MWM_PATH/World.mwm"
@@ -68,14 +72,15 @@ if [ -z "$SKIP_MAP_DOWNLOAD" ]; then
 
   if [ ! -f "$WORLD_PATH" ]; then
     echo "Downloading world map..."
-    wget -N "https://cdn.comaps.app/maps/$MWM_VERSION/World.mwm" -P "$MWM_PATH" &&
+    # Using a fi1 maps mirror/CDN
+    wget -N "https://cdn-fi-1.comaps.app/maps/$MWM_VERSION/World.mwm" -P "$MWM_PATH" &&
     rm -f World.mwm; ln -s "$WORLD_PATH" World.mwm
   fi
   if [ ! -f "$WORLD_PATH2" ]; then
-    wget -N "https://cdn.comaps.app/maps/$MWM_VERSION/WorldCoasts.mwm" -P "$MWM_PATH" &&
+    wget -N "https://cdn-fi-1.comaps.app/maps/$MWM_VERSION/WorldCoasts.mwm" -P "$MWM_PATH" &&
     rm -f WorldCoasts.mwm; ln -s "$WORLD_PATH2" WorldCoasts.mwm
   fi
-  
+
   popd
 else
   echo "Skipping world map download..."
