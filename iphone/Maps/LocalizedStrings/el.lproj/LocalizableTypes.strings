@@ -161,7 +161,7 @@
 "type.amenity.shelter.lean_to" = "Στεγασμένο καταφύγιο";
 "type.amenity.public_bath" = "Δημόσιο Λουτρό";
 "type.amenity.shower" = "Ντους";
-"type.amenity.stripclub" = "Stripclub";
+"type.amenity.stripclub" = "Στριπτιζάδικο";
 "type.amenity.taxi" = "Ταξί";
 "type.amenity.telephone" = "Τηλέφωνο";
 "type.amenity.theatre" = "Θέατρο";
@@ -645,9 +645,9 @@
 "type.internet_access" = "Ίντερνετ";
 "type.internet_access.wlan" = "Ίντερνετ";
 "type.junction" = "Junction";
-"type.junction.circular" = "Roundabout";
-"type.junction.roundabout" = "Roundabout";
-"type.landuse" = "Landuse";
+"type.junction.circular" = "Κυκλικός κόμβος";
+"type.junction.roundabout" = "Κυκλικός κόμβος";
+"type.landuse" = "Χρήσης γης";
 "type.landuse.allotments" = "Allotments";
 "type.landuse.basin" = "Μια λεκάνη νερού";
 "type.landuse.brownfield" = "Brownfield";
@@ -1242,7 +1242,7 @@
 "type.shop.laundry" = "Άπλυτα";
 "type.shop.mall" = "Εμπορικό κέντρο";
 "type.shop.massage" = "Αίθουσα μασάζ";
-"type.shop.mobile_phone" = "Κινητή Τηλεφωνία";
+"type.shop.mobile_phone" = "Κατάστημα κινητής τηλεφωνίας";
 "type.shop.money_lender" = "Δανειστής χρημάτων";
 "type.shop.motorcycle" = "Κατάστημα μοτοσυκλετών";
 "type.shop.motorcycle_repair" = "Επισκευή μοτοσυκλετών";
@@ -1340,7 +1340,7 @@
 "type.sport.field_hockey" = "Χόκεϊ επί χόρτου";
 "type.sport.badminton" = "Αντιπτέριση";
 "type.sport.pelota" = "Βασκική πελότα";
-"type.tourism" = "Tourism";
+"type.tourism" = "Τουρισμός";
 "type.tourism.aquarium" = "Ενυδρείο";
 
 /* Typically serviced, staff is present and food is available (compared to wilderness_hut). */
@@ -1354,8 +1354,8 @@
 "type.tourism.attraction" = "Αξιοθέατα";
 "type.attraction.amusement_ride" = "Βόλτα ψυχαγωγίας";
 "type.attraction.animal" = "Περίφραξη ζώων";
-"type.attraction.bumper_car" = "Bumper Car";
-"type.attraction.big_wheel" = "Big Wheel";
+"type.attraction.bumper_car" = "Συγκρουόμενα";
+"type.attraction.big_wheel" = "Τροχός";
 "type.attraction.carousel" = "Στροβιλοδρόμιο";
 "type.attraction.historic" = "Ιστορικό αξιοθέατο";
 "type.attraction.maze" = "Λαβύρινθος";
@@ -1456,7 +1456,7 @@
 "type.emergency.emergency_ward_entrance" = "Είσοδος θαλάμου έκτακτης ανάγκης";
 
 /* https://wiki.openstreetmap.org/wiki/Tag:amenity=dojo */
-"type.amenity.dojo" = "Dojo";
+"type.amenity.dojo" = "Ντότζο";
 
 /* https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall */
 "type.leisure.sports_hall" = "Αθλητική αίθουσα";

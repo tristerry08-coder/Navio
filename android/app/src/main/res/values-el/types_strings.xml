@@ -142,7 +142,7 @@
     <string name="type.amenity.shelter.basic_hut">καταφύγιο bivouac</string>
     <string name="type.amenity.public_bath">Δημόσιο Λουτρό</string>
     <string name="type.amenity.shower">Ντους</string>
-    <string name="type.amenity.stripclub">Stripclub</string>
+    <string name="type.amenity.stripclub">Στριπτιζάδικο</string>
     <string name="type.amenity.taxi">Ταξί</string>
     <string name="type.amenity.telephone">Τηλέφωνο</string>
     <string name="type.amenity.theatre">Θέατρο</string>
@@ -1014,7 +1014,7 @@
     <string name="type.shop.laundry">Άπλυτα</string>
     <string name="type.shop.mall">Εμπορικό κέντρο</string>
     <string name="type.shop.massage">Αίθουσα μασάζ</string>
-    <string name="type.shop.mobile_phone">Κινητή Τηλεφωνία</string>
+    <string name="type.shop.mobile_phone">Κατάστημα κινητής τηλεφωνίας</string>
     <string name="type.shop.money_lender">Δανειστής χρημάτων</string>
     <string name="type.shop.motorcycle">Κατάστημα μοτοσυκλετών</string>
     <string name="type.shop.motorcycle_repair">Επισκευή μοτοσυκλετών</string>
@@ -1183,7 +1183,7 @@
     <!-- https://wiki.openstreetmap.org/wiki/Tag:emergency=emergency_ward_entrance -->
     <string name="type.emergency.emergency_ward_entrance">Είσοδος θαλάμου έκτακτης ανάγκης</string>
     <!-- https://wiki.openstreetmap.org/wiki/Tag:amenity=dojo -->
-    <string name="type.amenity.dojo">Dojo</string>
+    <string name="type.amenity.dojo">Ντότζο</string>
     <!-- https://wiki.openstreetmap.org/wiki/Tag:leisure=sports_hall -->
     <string name="type.leisure.sports_hall">Αθλητική αίθουσα</string>
     <string name="type.piste_type.downhill.advanced">Προχωρημένη πίστα κατάβασης σκι</string>
@@ -1254,4 +1254,10 @@
     <string name="type.railway.subway.tunnel">Σήραγγα γραμμής μετρό</string>
     <string name="type.man_made.crane">Γερανός</string>
     <string name="type.railway.station.subway.qingdao">Σταθμός μετρό</string>
+    <string name="type.junction.circular">Κυκλικός κόμβος</string>
+    <string name="type.tourism">Τουρισμός</string>
+    <string name="type.attraction.big_wheel">Τροχός</string>
+    <string name="type.attraction.bumper_car">Συγκρουόμενα</string>
+    <string name="type.landuse">Χρήσης γης</string>
+    <string name="type.junction.roundabout">Κυκλικός κόμβος</string>
 </resources>

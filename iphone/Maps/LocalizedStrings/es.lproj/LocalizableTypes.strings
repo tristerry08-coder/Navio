@@ -573,14 +573,14 @@
 
 /* These translations are used for all type.highway.*.tunnel. */
 "type.highway.trunk_link.tunnel" = "Túnel";
-"type.highway.unclassified" = "Carretera sin clasificar";
-"type.highway.unclassified.area" = "Carretera sin clasificar";
+"type.highway.unclassified" = "Carretera menor";
+"type.highway.unclassified.area" = "Carretera menor";
 
 /* These translations are used for all type.highway.*.bridge. */
 "type.highway.unclassified.bridge" = "Puente";
 
 /* These translations are used for all type.highway.*.tunnel. */
-"type.highway.unclassified.tunnel" = "Túnel de carretera sin clasificar";
+"type.highway.unclassified.tunnel" = "Túnel";
 "type.area_highway.cycleway" = "Ciclovía";
 "type.area_highway.footway" = "Senda";
 "type.area_highway.living_street" = "Calle de prioridad peatonal";
@@ -595,9 +595,9 @@
 "type.area_highway.steps" = "Escaleras";
 "type.area_highway.track" = "Pista";
 "type.area_highway.trunk" = "Vía troncal";
-"type.area_highway.unclassified" = "Carretera sin clasificar";
+"type.area_highway.unclassified" = "Carretera menor";
 "type.historic" = "Objeto histórico";
-"type.historic.aircraft" = "Avión histórico";
+"type.historic.aircraft" = "Aeronave histórica";
 "type.historic.anchor" = "Ancla histórica";
 "type.historic.archaeological_site" = "Yacimiento arqueológico";
 "type.historic.battlefield" = "Campo de batalla";
