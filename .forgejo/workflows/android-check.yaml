@@ -37,9 +37,7 @@ on:
 jobs:
   lint:
     name: Android Lint
-    runs-on: codeberg-tiny
-    container:
-      image: runmymind/docker-android-sdk:latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout sources
         uses: actions/checkout@v4
@@ -58,8 +56,6 @@ jobs:
   android-check:
     name: Build Android Debug
     runs-on: ubuntu-latest
-    container:
-      image: runmymind/docker-android-sdk:latest
     strategy:
       fail-fast: false
       matrix:

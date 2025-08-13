@@ -9,7 +9,7 @@ on:
 jobs:
   validate-appstream:
     name: Validate appstream metadata xml
-    runs-on: codeberg-tiny
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout sources
         uses: actions/checkout@v4

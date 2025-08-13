@@ -36,8 +36,6 @@ jobs:
   android-google-beta:
     name: Android Google Beta
     runs-on: ubuntu-latest
-    container:
-      image: runmymind/docker-android-sdk:latest
     environment: beta
     steps:
       - name: Install build tools and dependencies

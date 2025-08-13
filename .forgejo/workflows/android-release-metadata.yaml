@@ -5,9 +5,7 @@ on:
 jobs:
   android-release-metadata:
     name: Upload Google Play metadata
-    runs-on: codeberg-tiny
-    container:
-      image: runmymind/docker-android-sdk:latest
+    runs-on: ubuntu-latest
     environment: production
     steps:
       - name: Checkout sources

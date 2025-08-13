@@ -10,8 +10,6 @@ jobs:
   tag:
     name: Tag
     runs-on: ubuntu-latest
-    container:
-      image: runmymind/docker-android-sdk:latest
     environment: production
     steps:
       - name: Checkout sources

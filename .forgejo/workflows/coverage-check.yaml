@@ -33,7 +33,7 @@ concurrency:
 jobs:
   should-run-check:
     name: Should run coverage
-    runs-on: codeberg-tiny
+    runs-on: ubuntu-latest
     outputs:
       run-from-pr: ${{ steps.run-from-pr.outputs.run-from-pr }}
       manually-triggered: ${{ steps.manually-triggered.outputs.manually-triggered }}
