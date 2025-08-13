@@ -313,7 +313,7 @@ class PlacePageInfoViewController: UIViewController {
     }
 
     if let atm = placePageInfoData.atm {
-      atmView = createInfoItem(atm, icon: UIImage(named: "ic_placepage_atm"))
+      atmView = createInfoItem(NSLocalizedString(atm, tableName: "LocalizableTypes", bundle: Bundle.main, comment: String()), icon: UIImage(named: "ic_placepage_atm"))
     }
 
     if let level = placePageInfoData.level {
