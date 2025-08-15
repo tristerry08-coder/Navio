@@ -81,7 +81,7 @@ xcode-select --install
 
 #### Homebrew packages
 ```bash
-brew install wget optipng cmake qt
+brew install wget optipng cmake ninja qt
 pip3 install "protobuf<3.21"
 ```
 
