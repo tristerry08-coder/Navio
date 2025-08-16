@@ -11,4 +11,4 @@
 #define TRAFFIC_DATA_BASE_URL ""
 #define USER_BINDING_PKCS12 ""
 #define USER_BINDING_PKCS12_PASSWORD ""
-#define ONLINE_TILESERVER_URL "https://tile.openstreetmap.org/12/2103/1402.png"
+#define ONLINE_TILESERVER_URL "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
